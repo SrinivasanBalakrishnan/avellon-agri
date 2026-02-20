@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avellon Global Risk Index (AGRI)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans p-4 md:p-10">
+    
+    <div class="max-w-5xl mx-auto bg-white border border-gray-200 shadow-sm p-8">
+        
+        <div class="border-b border-gray-300 pb-6 mb-8">
+            <h1 class="text-4xl font-extrabold tracking-tight uppercase text-gray-900">Avellon Global Risk Index (AGRI)</h1>
+            <p class="text-sm text-gray-500 mt-2 uppercase tracking-widest">Measuring Global Risk Acceleration in Real Time</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+            <div class="p-6 border border-gray-100 bg-gray-50">
+                <p class="text-xs text-gray-500 uppercase tracking-widest font-semibold mb-1">Current Score</p>
+                <p class="text-5xl font-bold text-red-700" id="agri-score">--</p>
+            </div>
+            <div class="p-6 border border-gray-100 bg-gray-50">
+                <p class="text-xs text-gray-500 uppercase tracking-widest font-semibold mb-1">Velocity (24H)</p>
+                <p class="text-5xl font-bold text-gray-800" id="agri-velocity">--</p>
+            </div>
+            <div class="p-6 border border-gray-100 bg-gray-50">
+                <p class="text-xs text-gray-500 uppercase tracking-widest font-semibold mb-1">Acceleration</p>
+                <p class="text-5xl font-bold text-gray-800" id="agri-acceleration">--</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="md:col-span-2">
+                <h2 class="text-lg font-bold uppercase tracking-wide border-b border-gray-200 pb-2 mb-4">Live Intelligence Brief</h2>
+                <p class="text-gray-700 leading-relaxed text-lg" id="agri-brief">Awaiting data...</p>
+            </div>
+            <div>
+                <h2 class="text-lg font-bold uppercase tracking-wide border-b border-gray-200 pb-2 mb-4">Top Risk Driver</h2>
+                <p class="text-red-700 font-semibold text-lg" id="agri-driver">--</p>
+                <p class="text-xs text-gray-400 mt-6 uppercase" id="agri-updated">Last Updated: --</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        async function fetchAGRIData() {
+            try {
+                // We add a timestamp to the URL to bypass the browser cache and always get live data
+                const response = await fetch('data.json?t=' + new Date().getTime());
+                const data = await response.json();
+
+                // Inject data into the HTML
+                document.getElementById('agri-score').innerText = data.AGRI_Score;
+                document.getElementById('agri-velocity').innerText = data.Velocity;
+                document.getElementById('agri-acceleration').innerText = data.Acceleration;
+                document.getElementById('agri-brief').innerText = data.AI_Brief;
+                document.getElementById('agri-driver').innerText = data.Top_Risk_Driver;
+                
+                // Format the timestamp nicely
+                const dateObj = new Date(data.Last_Updated);
+                document.getElementById('agri-updated').innerText = "Last Updated: " + dateObj.toUTCString();
+
+            } catch (error) {
+                console.error("Error fetching AGRI data:", error);
+                document.getElementById('agri-brief').innerText = "System currently fetching latest intelligence data. Stand by.";
+            }
+        }
+
+        // Run the function immediately when the page loads
+        fetchAGRIData();
+    </script>
+</body>
+</html>
