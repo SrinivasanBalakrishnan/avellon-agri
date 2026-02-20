@@ -1,0 +1,40 @@
+name: AGRI Engine Cron Job
+
+# 1. When should this robot wake up?
+on:
+  schedule:
+    - cron: '0 */2 * * *' # This translates to: "Run every 2 hours"
+  workflow_dispatch: # This adds a manual "Run Workflow" button for testing
+
+# 2. Give the robot permission to save files to your repository
+permissions:
+  contents: write
+
+# 3. What should the robot do?
+jobs:
+  run-agri-engine:
+    runs-on: ubuntu-latest # It spins up a free Linux server
+    
+    steps:
+      # Step A: Download your code onto the server
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Step B: Install Python on the server
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # Step C: Run your Avellon engine script
+      - name: Run AGRI Python Engine
+        run: python agri_engine.py
+
+      # Step D: Save the new data.json file back to GitHub
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "AGRI-Bot"
+          git config --global user.email "bot@avellonintelligence.com"
+          git add data.json
+          git commit -m "Automated AGRI update" || exit 0
+          git push
