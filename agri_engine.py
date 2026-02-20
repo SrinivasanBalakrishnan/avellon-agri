@@ -39,6 +39,40 @@ def fetch_climate_risk():
         print(f"Climate feed error: {e}")
         return 40.0 # Fallback baseline if API is down
 
+def fetch_energy_risk():
+    api_key = os.environ.get("ALPHA_VANTAGE_KEY")
+    if not api_key: return 68.5
+    try:
+        # Pulling Brent Crude Oil Prices
+        url = f"https://www.alphavantage.co/query?function=BRENT&interval=daily&apikey={api_key}"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode("utf-8"))
+            latest_price = float(data["data"][0]["value"])
+            # Normalization: $75 is our baseline (50 risk). Spikes increase risk.
+            risk = 50 + ((latest_price - 75) * 1.5)
+            return round(min(max(risk, 20), 100), 1)
+    except Exception as e:
+        print(f"Energy error: {e}")
+        return 68.5
+
+def fetch_sovereign_risk():
+    api_key = os.environ.get("ALPHA_VANTAGE_KEY")
+    if not api_key: return 55.0
+    try:
+        # Pulling 10-Year Treasury Yields
+        url = f"https://www.alphavantage.co/query?function=TREASURY_YIELD&interval=daily&maturity=10year&apikey={api_key}"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode("utf-8"))
+            latest_yield = float(data["data"][0]["value"])
+            # Normalization: 4.0% yield is our baseline (50 risk). 
+            risk = 50 + ((latest_yield - 4.0) * 10)
+            return round(min(max(risk, 20), 100), 1)
+    except Exception as e:
+        print(f"Sovereign error: {e}")
+        return 55.0
+        
 # --- AI INTERPRETATION LAYER ---
 
 def call_gemini(prompt):
