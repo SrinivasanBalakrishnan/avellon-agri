@@ -1,7 +1,11 @@
 import json
 import datetime
 import urllib.request
+import urllib.parse
 import os
+import xml.etree.ElementTree as ET
+
+# --- 1. FINANCIAL & CLIMATE DATA FETCHERS ---
 
 def fetch_currency_risk():
     try:
@@ -12,8 +16,7 @@ def fetch_currency_risk():
             eur_rate = data['rates']['EUR']
             deviation = abs(eur_rate - 0.90) * 100
             return round(min(max(40 + deviation, 0), 100), 1)
-    except Exception as e:
-        return 50.0
+    except Exception: return 50.0
 
 def fetch_climate_risk():
     try:
@@ -23,8 +26,7 @@ def fetch_climate_risk():
             data = json.loads(response.read().decode("utf-8"))
             event_count = len(data['features'])
             return round(min(20 + (event_count * 5), 100), 1)
-    except Exception as e:
-        return 40.0
+    except Exception: return 40.0
 
 def fetch_energy_risk():
     api_key = os.environ.get("ALPHA_VANTAGE_KEY")
@@ -37,8 +39,7 @@ def fetch_energy_risk():
             latest_price = float(data["data"][0]["value"])
             risk = 50 + ((latest_price - 75) * 1.5)
             return round(min(max(risk, 20), 100), 1)
-    except Exception as e:
-        return 68.5
+    except Exception: return 68.5
 
 def fetch_sovereign_risk():
     api_key = os.environ.get("ALPHA_VANTAGE_KEY")
@@ -51,8 +52,29 @@ def fetch_sovereign_risk():
             latest_yield = float(data["data"][0]["value"])
             risk = 50 + ((latest_yield - 4.0) * 10)
             return round(min(max(risk, 20), 100), 1)
+    except Exception: return 55.0
+
+# --- 2. GLOBAL NEWS SENTIMENT FETCHER ---
+
+def fetch_news_risk(query, baseline):
+    """Pulls global breaking news volume for specific risk keywords."""
+    try:
+        encoded_query = urllib.parse.quote(query)
+        url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as response:
+            xml_data = response.read()
+            root = ET.fromstring(xml_data)
+            items = root.findall('.//item')
+            count = len(items)
+            # Normalization: Higher volume of breaking news = higher risk score
+            risk = baseline - 10 + (count * 0.5) 
+            return round(min(max(risk, 20), 100), 1)
     except Exception as e:
-        return 55.0
+        print(f"News error: {e}")
+        return baseline
+
+# --- 3. AI INTERPRETATION LAYER ---
 
 def call_gemini(prompt):
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -72,6 +94,8 @@ def call_gemini(prompt):
     except Exception as e:
         return f"AI Generation Failed: {str(e)}"
 
+# --- 4. MASTER CALCULATOR ---
+
 def calculate_agri():
     weights = {
         "Geopolitical Conflict Intensity": 0.18,
@@ -84,27 +108,42 @@ def calculate_agri():
         "Climate & Resource Shock": 0.13
     }
     
+    print("Fetching live global data across 8 sectors...")
+    
+    # THE FULLY LIVE AVELLON ENGINE
     live_inputs = {
-        "Geopolitical Conflict Intensity": 72.0, 
+        "Geopolitical Conflict Intensity": fetch_news_risk("geopolitics AND (war OR conflict OR escalation)", 70.0), 
         "Energy & Maritime Disruption": fetch_energy_risk(),    
-        "Trade & Supply Chain Stress": 60.0,     
+        "Trade & Supply Chain Stress": fetch_news_risk("supply chain AND (disruption OR shortage OR port)", 60.0),     
         "Sovereign Financial Stress": fetch_sovereign_risk(),   
         "Currency & Liquidity Pressure": fetch_currency_risk(), 
-        "Sanctions & Regulatory Fragmentation": 65.0, 
-        "Cyber & Infrastructure Threats": 50.0,       
+        "Sanctions & Regulatory Fragmentation": fetch_news_risk("sanctions AND (tariffs OR embargo OR trade war)", 55.0), 
+        "Cyber & Infrastructure Threats": fetch_news_risk("cyberattack AND (infrastructure OR hack OR data breach)", 50.0),       
         "Climate & Resource Shock": fetch_climate_risk()        
     }
     
     current_agri = sum(live_inputs[pillar] * weights[pillar] for pillar in weights)
     current_agri = round(current_agri, 1)
     
-    previous_agri = 62.1 
+    # We load the existing JSON file to calculate true real-time Velocity
+    try:
+        with open("data.json", "r") as f:
+            old_data = json.load(f)
+            previous_agri = old_data.get("AGRI_Score", current_agri)
+    except Exception:
+        previous_agri = current_agri
+        
     velocity = round(current_agri - previous_agri, 1)
     str_velocity = f"+{velocity}" if velocity > 0 else str(velocity)
     
     top_driver = max(live_inputs, key=live_inputs.get)
     
-    prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}. Top rising pillar: {top_driver}. Energy: {live_inputs['Energy & Maritime Disruption']}, Sovereign: {live_inputs['Sovereign Financial Stress']}, Currency: {live_inputs['Currency & Liquidity Pressure']}, Climate: {live_inputs['Climate & Resource Shock']}."
+    # Dynamic prompt building for Gemini
+    prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}. Top driver: {top_driver} at {live_inputs[top_driver]}. "
+    prompt += f"Geo: {live_inputs['Geopolitical Conflict Intensity']}, Energy: {live_inputs['Energy & Maritime Disruption']}, "
+    prompt += f"Trade: {live_inputs['Trade & Supply Chain Stress']}, Cyber: {live_inputs['Cyber & Infrastructure Threats']}."
+    
+    print("Generating Avellon Intelligence Brief...")
     ai_brief = call_gemini(prompt)
 
     agri_data = {
@@ -113,12 +152,14 @@ def calculate_agri():
         "Acceleration": "N/A",
         "Top_Risk_Driver": top_driver,
         "AI_Brief": ai_brief,
-        "Pillar_Scores": live_inputs, # <--- THIS IS THE CRITICAL NEW LINE
+        "Pillar_Scores": live_inputs, 
         "Last_Updated": datetime.datetime.utcnow().isoformat() + "Z"
     }
     
     with open("data.json", "w") as json_file:
         json.dump(agri_data, json_file, indent=4)
+        
+    print(f"Avellon AGRI Engine calculated score: {current_agri}. System fully autonomous.")
 
 if __name__ == "__main__":
     calculate_agri()
