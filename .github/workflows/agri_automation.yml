@@ -3,8 +3,8 @@ name: AGRI Engine Cron Job
 # 1. When should this robot wake up?
 on:
   schedule:
-    - cron: '0 */2 * * *' # This translates to: "Run every 2 hours"
-  workflow_dispatch: # This adds a manual "Run Workflow" button for testing
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
 
 # 2. Give the robot permission to save files to your repository
 permissions:
@@ -13,7 +13,7 @@ permissions:
 # 3. What should the robot do?
 jobs:
   run-agri-engine:
-    runs-on: ubuntu-latest # It spins up a free Linux server
+    runs-on: ubuntu-latest
     
     steps:
       # Step A: Download your code onto the server
@@ -28,7 +28,7 @@ jobs:
 
       # Step C: Run your Avellon engine script
       - name: Run AGRI Python Engine
-      env:
+        env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python agri_engine.py
 
