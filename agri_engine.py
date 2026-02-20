@@ -3,20 +3,54 @@ import datetime
 import urllib.request
 import os
 
+# --- LIVE API DATA FETCHERS ---
+
+def fetch_currency_risk():
+    """Pulls live USD/EUR exchange rates to measure global liquidity stress."""
+    try:
+        url = "https://api.frankfurter.app/latest?from=USD"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode("utf-8"))
+            eur_rate = data['rates']['EUR']
+            
+            # Normalization Math: The baseline 'safe' rate is around 0.90. 
+            # The further it deviates (rapid USD strength/weakness), the higher the risk score.
+            deviation = abs(eur_rate - 0.90) * 100
+            risk_score = min(max(40 + deviation, 0), 100) # Minimum 40, Maximum 100
+            return round(risk_score, 1)
+    except Exception as e:
+        print(f"Currency feed error: {e}")
+        return 50.0 # Fallback baseline if API is down
+
+def fetch_climate_risk():
+    """Pulls live 24-hour significant geological events from the US Government."""
+    try:
+        url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode("utf-8"))
+            event_count = len(data['features'])
+            
+            # Normalization Math: 0 events = 20 risk. Every major event adds 5 points.
+            risk_score = min(20 + (event_count * 5), 100) # Maximum 100
+            return round(risk_score, 1)
+    except Exception as e:
+        print(f"Climate feed error: {e}")
+        return 40.0 # Fallback baseline if API is down
+
+# --- AI INTERPRETATION LAYER ---
+
 def call_gemini(prompt):
-    # Securely pulls API key from GitHub Vault
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
-        return "AI Error: API Key not found. Please configure GitHub Secrets."
+        return "AI Error: API Key not found."
     
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
-    
-    # Strict System Instruction for Avellon
     data = {
         "contents": [{"parts": [{"text": prompt}]}],
         "systemInstruction": {"parts": [{"text": "You are the Avellon Risk AI. Provide a clinical, 120-word institutional-grade risk brief based on the provided data. Focus on second-order effects. Do not use dramatic language."}]}
     }
-    
     req = urllib.request.Request(url, data=json.dumps(data).encode("utf-8"), headers={"Content-Type": "application/json"})
     
     try:
@@ -26,8 +60,9 @@ def call_gemini(prompt):
     except Exception as e:
         return f"AI Generation Failed: {str(e)}"
 
+# --- MASTER CALCULATOR ---
+
 def calculate_agri():
-    # 1. THE AVELLON METHODOLOGY: 8 Core Pillars & Weights
     weights = {
         "Geopolitical Conflict Intensity": 0.18,
         "Energy & Maritime Disruption": 0.15,
@@ -39,46 +74,40 @@ def calculate_agri():
         "Climate & Resource Shock": 0.13
     }
     
-    # 2. SIMULATED LIVE FEEDS (For now, we simulate 0-100 inputs)
+    # LIVE FEEDS COMBINED WITH BASELINES
+    print("Fetching live global data...")
     live_inputs = {
-        "Geopolitical Conflict Intensity": 78.5,
-        "Energy & Maritime Disruption": 82.0,
-        "Trade & Supply Chain Stress": 60.0,
-        "Sovereign Financial Stress": 55.0,
-        "Currency & Liquidity Pressure": 45.0,
-        "Sanctions & Regulatory Fragmentation": 65.0,
-        "Cyber & Infrastructure Threats": 50.0,
-        "Climate & Resource Shock": 40.0
+        "Geopolitical Conflict Intensity": 72.0, # Baseline (Awaiting News API)
+        "Energy & Maritime Disruption": 68.5,    # Baseline (Awaiting Commodity API)
+        "Trade & Supply Chain Stress": 60.0,     # Baseline
+        "Sovereign Financial Stress": 55.0,      # Baseline
+        "Currency & Liquidity Pressure": fetch_currency_risk(), # 🟢 REAL LIVE DATA
+        "Sanctions & Regulatory Fragmentation": 65.0, # Baseline
+        "Cyber & Infrastructure Threats": 50.0,       # Baseline
+        "Climate & Resource Shock": fetch_climate_risk()        # 🟢 REAL LIVE DATA
     }
     
-    # 3. CALCULATE AGRI SCORE (Weighted Sum)
+    # Calculate final score
     current_agri = sum(live_inputs[pillar] * weights[pillar] for pillar in weights)
     current_agri = round(current_agri, 1)
     
-    # 4. CALCULATE VELOCITY & ACCELERATION (Simulated previous cycle)
+    # Simulated Velocity
     previous_agri = 62.1 
-    previous_velocity = 1.2
-    
     velocity = round(current_agri - previous_agri, 1)
-    acceleration = round(velocity - previous_velocity, 1)
-    
-    # Format with + signs for positive shifts
     str_velocity = f"+{velocity}" if velocity > 0 else str(velocity)
-    str_accel = f"+{acceleration}" if acceleration > 0 else str(acceleration)
     
-    # 5. IDENTIFY TOP RISK DRIVER (Pillar with highest severity)
     top_driver = max(live_inputs, key=live_inputs.get)
     
-    # 6. GENERATE INTELLIGENCE BRIEF
-    prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}, Acceleration: {str_accel}. Top rising pillar: {top_driver}. Energy metric: {live_inputs['Energy & Maritime Disruption']}, Geopolitics metric: {live_inputs['Geopolitical Conflict Intensity']}."
+    # Ask AI to interpret the live data
+    prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}. Top rising pillar: {top_driver}. Currency Risk: {live_inputs['Currency & Liquidity Pressure']}, Climate Risk: {live_inputs['Climate & Resource Shock']}."
     print("Calling Gemini AI...")
     ai_brief = call_gemini(prompt)
 
-    # 7. PACKAGE AND SAVE DATA
+    # Package and save
     agri_data = {
         "AGRI_Score": current_agri,
         "Velocity": str_velocity,
-        "Acceleration": str_accel,
+        "Acceleration": "N/A",
         "Top_Risk_Driver": top_driver,
         "AI_Brief": ai_brief,
         "Last_Updated": datetime.datetime.utcnow().isoformat() + "Z"
@@ -87,7 +116,7 @@ def calculate_agri():
     with open("data.json", "w") as json_file:
         json.dump(agri_data, json_file, indent=4)
         
-    print(f"Avellon AGRI Engine calculated score: {current_agri}. Run complete.")
+    print(f"Engine Run Complete. Current AGRI: {current_agri}")
 
 if __name__ == "__main__":
     calculate_agri()
