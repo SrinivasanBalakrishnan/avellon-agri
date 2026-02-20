@@ -67,14 +67,26 @@ def fetch_news_risk(query, baseline):
             root = ET.fromstring(xml_data)
             items = root.findall('.//item')
             count = len(items)
-            # Normalization: Higher volume of breaking news = higher risk score
             risk = baseline - 10 + (count * 0.5) 
             return round(min(max(risk, 20), 100), 1)
     except Exception as e:
         print(f"News error: {e}")
         return baseline
 
-# --- 3. AI INTERPRETATION LAYER ---
+# --- 3. LIVE HEADLINE SCRAPER (NEW FOR TERMINAL UI) ---
+
+def fetch_top_headlines():
+    """Scrapes the top 5 real global risk headlines for the UI Ticker."""
+    try:
+        url = "https://news.google.com/rss/search?q=geopolitics+OR+macroeconomics+OR+supply+chain+OR+sanctions&hl=en-US&gl=US&ceid=US:en"
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req) as response:
+            items = ET.fromstring(response.read()).findall('.//item')[:5]
+            return [item.find('title').text for item in items]
+    except Exception:
+        return ["SYSTEM ALERT: LIVE NEWS FEED DISCONNECTED", "AWAITING SATELLITE TELEMETRY"]
+
+# --- 4. AI INTERPRETATION LAYER (NARRATIVE UPGRADE) ---
 
 def call_gemini(prompt):
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -83,7 +95,7 @@ def call_gemini(prompt):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     data = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "systemInstruction": {"parts": [{"text": "You are the Avellon Risk AI. Provide a clinical, 120-word institutional-grade risk brief based on the provided data. Focus on second-order effects. Do not use dramatic language."}]}
+        "systemInstruction": {"parts": [{"text": "You are the Avellon Risk AI. Write a 130-word incident-based narrative. Do not just list metrics. Tell a story about specific geopolitical events, country-level crises, or market shocks driving the score today. Explain the real-world cascading effects on logistics, energy, or diplomacy. Be clinical but compelling."}]}
     }
     req = urllib.request.Request(url, data=json.dumps(data).encode("utf-8"), headers={"Content-Type": "application/json"})
     
@@ -94,7 +106,7 @@ def call_gemini(prompt):
     except Exception as e:
         return f"AI Generation Failed: {str(e)}"
 
-# --- 4. MASTER CALCULATOR ---
+# --- 5. MASTER CALCULATOR ---
 
 def calculate_agri():
     weights = {
@@ -110,7 +122,6 @@ def calculate_agri():
     
     print("Fetching live global data across 8 sectors...")
     
-    # THE FULLY LIVE AVELLON ENGINE
     live_inputs = {
         "Geopolitical Conflict Intensity": fetch_news_risk("geopolitics AND (war OR conflict OR escalation)", 70.0), 
         "Energy & Maritime Disruption": fetch_energy_risk(),    
@@ -125,7 +136,6 @@ def calculate_agri():
     current_agri = sum(live_inputs[pillar] * weights[pillar] for pillar in weights)
     current_agri = round(current_agri, 1)
     
-    # We load the existing JSON file to calculate true real-time Velocity
     try:
         with open("data.json", "r") as f:
             old_data = json.load(f)
@@ -137,13 +147,15 @@ def calculate_agri():
     str_velocity = f"+{velocity}" if velocity > 0 else str(velocity)
     
     top_driver = max(live_inputs, key=live_inputs.get)
+    headlines = fetch_top_headlines()
     
-    # Dynamic prompt building for Gemini
+    # Dynamic prompt building for Gemini (Now injecting real news!)
     prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}. Top driver: {top_driver} at {live_inputs[top_driver]}. "
+    prompt += f"Today's top news driving risk: {headlines[0]}. "
     prompt += f"Geo: {live_inputs['Geopolitical Conflict Intensity']}, Energy: {live_inputs['Energy & Maritime Disruption']}, "
     prompt += f"Trade: {live_inputs['Trade & Supply Chain Stress']}, Cyber: {live_inputs['Cyber & Infrastructure Threats']}."
     
-    print("Generating Avellon Intelligence Brief...")
+    print("Generating Avellon Intelligence Narrative...")
     ai_brief = call_gemini(prompt)
 
     agri_data = {
@@ -153,6 +165,7 @@ def calculate_agri():
         "Top_Risk_Driver": top_driver,
         "AI_Brief": ai_brief,
         "Pillar_Scores": live_inputs, 
+        "Top_Headlines": headlines, # Passing the headlines to the UI JSON
         "Last_Updated": datetime.datetime.utcnow().isoformat() + "Z"
     }
     
