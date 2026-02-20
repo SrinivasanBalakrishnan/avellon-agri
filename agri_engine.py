@@ -6,38 +6,29 @@ import os
 # --- LIVE API DATA FETCHERS ---
 
 def fetch_currency_risk():
-    """Pulls live USD/EUR exchange rates to measure global liquidity stress."""
     try:
         url = "https://api.frankfurter.app/latest?from=USD"
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode("utf-8"))
             eur_rate = data['rates']['EUR']
-            
-            # Normalization Math: The baseline 'safe' rate is around 0.90. 
-            # The further it deviates (rapid USD strength/weakness), the higher the risk score.
             deviation = abs(eur_rate - 0.90) * 100
-            risk_score = min(max(40 + deviation, 0), 100) # Minimum 40, Maximum 100
-            return round(risk_score, 1)
+            return round(min(max(40 + deviation, 0), 100), 1)
     except Exception as e:
-        print(f"Currency feed error: {e}")
-        return 50.0 # Fallback baseline if API is down
+        print(f"Currency error: {e}")
+        return 50.0
 
 def fetch_climate_risk():
-    """Pulls live 24-hour significant geological events from the US Government."""
     try:
         url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
         req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode("utf-8"))
             event_count = len(data['features'])
-            
-            # Normalization Math: 0 events = 20 risk. Every major event adds 5 points.
-            risk_score = min(20 + (event_count * 5), 100) # Maximum 100
-            return round(risk_score, 1)
+            return round(min(20 + (event_count * 5), 100), 1)
     except Exception as e:
-        print(f"Climate feed error: {e}")
-        return 40.0 # Fallback baseline if API is down
+        print(f"Climate error: {e}")
+        return 40.0
 
 def fetch_energy_risk():
     api_key = os.environ.get("ALPHA_VANTAGE_KEY")
@@ -72,13 +63,12 @@ def fetch_sovereign_risk():
     except Exception as e:
         print(f"Sovereign error: {e}")
         return 55.0
-        
+
 # --- AI INTERPRETATION LAYER ---
 
 def call_gemini(prompt):
     api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        return "AI Error: API Key not found."
+    if not api_key: return "AI Error: API Key not found."
     
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     data = {
@@ -108,36 +98,31 @@ def calculate_agri():
         "Climate & Resource Shock": 0.13
     }
     
-    # LIVE FEEDS COMBINED WITH BASELINES
     print("Fetching live global data...")
     live_inputs = {
-        "Geopolitical Conflict Intensity": 72.0, # Baseline (Awaiting News API)
-        "Energy & Maritime Disruption": 68.5,    # Baseline (Awaiting Commodity API)
-        "Trade & Supply Chain Stress": 60.0,     # Baseline
-        "Sovereign Financial Stress": 55.0,      # Baseline
+        "Geopolitical Conflict Intensity": 72.0, 
+        "Energy & Maritime Disruption": fetch_energy_risk(),    # 🟢 REAL LIVE DATA
+        "Trade & Supply Chain Stress": 60.0,     
+        "Sovereign Financial Stress": fetch_sovereign_risk(),   # 🟢 REAL LIVE DATA
         "Currency & Liquidity Pressure": fetch_currency_risk(), # 🟢 REAL LIVE DATA
-        "Sanctions & Regulatory Fragmentation": 65.0, # Baseline
-        "Cyber & Infrastructure Threats": 50.0,       # Baseline
+        "Sanctions & Regulatory Fragmentation": 65.0, 
+        "Cyber & Infrastructure Threats": 50.0,       
         "Climate & Resource Shock": fetch_climate_risk()        # 🟢 REAL LIVE DATA
     }
     
-    # Calculate final score
     current_agri = sum(live_inputs[pillar] * weights[pillar] for pillar in weights)
     current_agri = round(current_agri, 1)
     
-    # Simulated Velocity
     previous_agri = 62.1 
     velocity = round(current_agri - previous_agri, 1)
     str_velocity = f"+{velocity}" if velocity > 0 else str(velocity)
     
     top_driver = max(live_inputs, key=live_inputs.get)
     
-    # Ask AI to interpret the live data
-    prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}. Top rising pillar: {top_driver}. Currency Risk: {live_inputs['Currency & Liquidity Pressure']}, Climate Risk: {live_inputs['Climate & Resource Shock']}."
+    prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}. Top rising pillar: {top_driver}. Energy Risk: {live_inputs['Energy & Maritime Disruption']}, Sovereign Risk: {live_inputs['Sovereign Financial Stress']}, Currency Risk: {live_inputs['Currency & Liquidity Pressure']}, Climate Risk: {live_inputs['Climate & Resource Shock']}."
     print("Calling Gemini AI...")
     ai_brief = call_gemini(prompt)
 
-    # Package and save
     agri_data = {
         "AGRI_Score": current_agri,
         "Velocity": str_velocity,
