@@ -28,6 +28,8 @@ jobs:
 
       # Step C: Run your Avellon engine script
       - name: Run AGRI Python Engine
+      env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python agri_engine.py
 
       # Step D: Save the new data.json file back to GitHub
