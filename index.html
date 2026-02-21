@@ -13,16 +13,16 @@
         .data-font { font-family: 'JetBrains Mono', monospace; }
         .glass-panel { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); border-radius: 0.75rem; }
         
-        /* Seamless Ticker Update */
+        /* Seamless Ticker Update - Slowed down to 150s */
         .ticker-wrap { width: 100%; overflow: hidden; background: rgba(0,0,0,0.8); border-bottom: 1px solid rgba(255,255,255,0.1); white-space: nowrap; box-sizing: border-box; }
-        .ticker-content { display: inline-block; white-space: nowrap; padding-left: 0; animation: ticker-seamless 60s linear infinite; font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase; color: #38bdf8;}
+        .ticker-content { display: inline-block; white-space: nowrap; padding-left: 0; animation: ticker-seamless 150s linear infinite; font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase; color: #38bdf8;}
         .ticker-content:hover { animation-play-state: paused; cursor: default; }
         @keyframes ticker-seamless { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
 
         /* Custom Scrollbar */
         ::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-track { background: transparent; } ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 10px; }
 
-        /* Interactive Tour CSS */
+        /* Interactive Tour CSS - Z-index structured to sit strictly below the Modal Box */
         .tour-highlight { z-index: 101 !important; position: relative !important; outline: 3px solid #38bdf8 !important; outline-offset: 4px; background: rgba(10, 25, 47, 0.95) !important; pointer-events: none; }
     </style>
 </head>
@@ -133,8 +133,9 @@
         </div>
     </div>
 
-    <div id="tour-overlay" class="fixed inset-0 z-[100] hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
-        <div class="glass-panel w-full max-w-lg p-8 relative border-sky-500/50 shadow-[0_0_40px_rgba(56,189,248,0.2)] text-center">
+    <div id="tour-backdrop" class="fixed inset-0 z-[100] hidden bg-black/80 backdrop-blur-sm transition-opacity pointer-events-auto"></div>
+    <div id="tour-dialog" class="fixed inset-0 z-[105] hidden flex items-center justify-center p-4 pointer-events-none">
+        <div class="glass-panel w-full max-w-lg p-8 relative border-sky-500/50 shadow-[0_0_40px_rgba(56,189,248,0.2)] text-center pointer-events-auto">
             <p class="text-[10px] text-sky-400 uppercase tracking-widest font-bold mb-2" id="tour-step-counter">Step 1 of 5</p>
             <h2 id="tour-title" class="text-2xl font-bold text-white mb-4 uppercase tracking-widest">Welcome to Avellon</h2>
             <p id="tour-desc" class="text-sm text-gray-300 mb-8 font-light leading-relaxed">This terminal quantifies global geopolitical and economic chaos in real-time, helping you measure risk velocity instantly.</p>
@@ -240,7 +241,7 @@
                 document.getElementById('agri-brief').innerText = data.AI_Brief;
                 document.getElementById('agri-driver').innerText = data.Top_Risk_Driver;
 
-                // --- FEATURE 1: ANIMATED ACCELERATION GRAPH ---
+                // --- ANIMATED ACCELERATION GRAPH ---
                 let vel = parseFloat(data.Velocity);
                 let accelHtml = '';
                 if (vel > 0) {
@@ -272,12 +273,26 @@
                     });
                 }
 
-                // --- FEATURE 2: SEAMLESS 25-ALERT TICKER ---
+                // --- SEAMLESS INTERLEAVED 25-ALERT TICKER ---
                 if(data.All_Alerts || data.Top_Alerts) {
                     globalAllAlerts = data.All_Alerts || data.Top_Alerts;
                     
-                    // Create the mixed feed (Top 25)
-                    let mixedAlerts = globalAllAlerts.slice(0, 25);
+                    // Separate into buckets
+                    let highs = globalAllAlerts.filter(a => a.severity === 'HIGH');
+                    let meds = globalAllAlerts.filter(a => a.severity === 'MEDIUM');
+                    let watches = globalAllAlerts.filter(a => a.severity === 'WATCH');
+                    
+                    let mixedAlerts = [];
+                    let maxLength = Math.max(highs.length, meds.length, watches.length);
+                    
+                    // Deal them out like cards (High, Med, Watch)
+                    for(let i=0; i < maxLength; i++) {
+                        if(highs[i]) mixedAlerts.push(highs[i]);
+                        if(meds[i]) mixedAlerts.push(meds[i]);
+                        if(watches[i]) mixedAlerts.push(watches[i]);
+                        if(mixedAlerts.length >= 25) break; 
+                    }
+                    
                     let tickerArray = [];
                     mixedAlerts.forEach(alert => {
                         let colorClass = alert.severity === 'HIGH' ? '#ef4444' : (alert.severity === 'MEDIUM' ? '#f59e0b' : '#10b981');
@@ -285,7 +300,6 @@
                     });
                     
                     let singleLoop = tickerArray.join(' &nbsp;&nbsp;//&nbsp;&nbsp; ') + ' &nbsp;&nbsp;//&nbsp;&nbsp; ';
-                    // Duplicating the string makes the CSS marquee loop flawlessly without gaps
                     document.getElementById('live-ticker').innerHTML = singleLoop + singleLoop;
 
                     switchAlertTab('HIGH');
@@ -295,13 +309,16 @@
 
                 // Start tour if first visit
                 if (!localStorage.getItem('avellonTourCompleted')) {
-                    setTimeout(() => { document.getElementById('tour-overlay').classList.remove('hidden'); }, 1000);
+                    setTimeout(() => { 
+                        document.getElementById('tour-backdrop').classList.remove('hidden');
+                        document.getElementById('tour-dialog').classList.remove('hidden');
+                    }, 1000);
                 }
 
             } catch (error) { console.error("Data fetch error:", error); }
         }
 
-        // --- FEATURE 3: INTERACTIVE WALKTHROUGH TOUR ---
+        // --- INTERACTIVE WALKTHROUGH TOUR LOGIC ---
         let currentTourStep = 0;
         const tourSteps = [
             { title: "Welcome to Avellon", text: "This terminal quantifies global geopolitical and economic chaos in real-time, allowing you to measure risk velocity instantly.", target: null },
@@ -312,20 +329,17 @@
         ];
 
         window.nextTourStep = function() {
-            // Remove previous highlight
             if(currentTourStep > 0 && tourSteps[currentTourStep - 1].target) {
                 document.getElementById(tourSteps[currentTourStep - 1].target).classList.remove('tour-highlight');
             }
 
             if (currentTourStep >= tourSteps.length) { endTour(); return; }
 
-            // Update Modal Content
             document.getElementById('tour-step-counter').innerText = `Step ${currentTourStep + 1} of ${tourSteps.length}`;
             document.getElementById('tour-title').innerText = tourSteps[currentTourStep].title;
             document.getElementById('tour-desc').innerText = tourSteps[currentTourStep].text;
             document.getElementById('tour-next-btn').innerText = currentTourStep === tourSteps.length - 1 ? "Finish Tour" : "Next Step";
 
-            // Add new highlight
             if (tourSteps[currentTourStep].target) {
                 document.getElementById(tourSteps[currentTourStep].target).classList.add('tour-highlight');
             }
@@ -336,11 +350,12 @@
             if(currentTourStep > 0 && tourSteps[currentTourStep - 1].target) {
                 document.getElementById(tourSteps[currentTourStep - 1].target).classList.remove('tour-highlight');
             }
-            document.getElementById('tour-overlay').classList.add('hidden');
+            document.getElementById('tour-backdrop').classList.add('hidden');
+            document.getElementById('tour-dialog').classList.add('hidden');
             localStorage.setItem('avellonTourCompleted', 'true');
         }
 
-        // --- EXISITING LOGIC ---
+        // --- EXISTING MODAL CONTROLLERS ---
         window.openPillarModal = function(name, score) {
             document.getElementById('modal-pillar-title').innerText = name;
             let colorClass = "text-emerald-400";
