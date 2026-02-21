@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avellon Intelligence | Global Risk Index</title>
+    <title>Avellon Intelligence | Global Risk Terminal</title>
     <link rel="icon" href="Z (58).png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -107,8 +107,8 @@
                         <h2 class="text-xs font-bold uppercase tracking-widest text-sky-300">Risk Velocity Trend</h2>
                         <div class="flex items-center space-x-3">
                             <div class="flex space-x-1">
-                                <button onclick="updateChartTimeframe('1D')" id="btn-1D" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">1D</button>
-                                <button onclick="updateChartTimeframe('1W')" id="btn-1W" class="text-[10px] md:text-xs bg-sky-500/20 text-sky-300 px-2 py-1 rounded border border-sky-500/30 transition">1W</button>
+                                <button onclick="updateChartTimeframe('1D')" id="btn-1D" class="text-[10px] md:text-xs bg-sky-500/20 text-sky-300 px-2 py-1 rounded border border-sky-500/30 transition">1D</button>
+                                <button onclick="updateChartTimeframe('1W')" id="btn-1W" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">1W</button>
                                 <button onclick="updateChartTimeframe('1M')" id="btn-1M" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">1M</button>
                                 <button onclick="updateChartTimeframe('1Q')" id="btn-1Q" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">1Q</button>
                                 <button onclick="updateChartTimeframe('1Y')" id="btn-1Y" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">1Y</button>
@@ -224,9 +224,10 @@
         let myChart;
         let globalCurrentScore = 0;
         let globalChartType = 'line';
-        let globalTimeframe = '1W';
+        let globalTimeframe = '1D'; 
         let globalAllAlerts = []; 
         let globalPillarNarratives = {};
+        let globalHistoryData = []; // Store the real historical database
 
         async function fetchAGRIData() {
             try {
@@ -241,7 +242,6 @@
                 document.getElementById('agri-brief').innerText = data.AI_Brief;
                 document.getElementById('agri-driver').innerText = data.Top_Risk_Driver;
 
-                // --- ANIMATED ACCELERATION GRAPH ---
                 let vel = parseFloat(data.Velocity);
                 let accelHtml = '';
                 if (vel > 0) {
@@ -273,11 +273,8 @@
                     });
                 }
 
-                // --- SEAMLESS INTERLEAVED 25-ALERT TICKER ---
                 if(data.All_Alerts || data.Top_Alerts) {
                     globalAllAlerts = data.All_Alerts || data.Top_Alerts;
-                    
-                    // Separate into buckets
                     let highs = globalAllAlerts.filter(a => a.severity === 'HIGH');
                     let meds = globalAllAlerts.filter(a => a.severity === 'MEDIUM');
                     let watches = globalAllAlerts.filter(a => a.severity === 'WATCH');
@@ -285,7 +282,6 @@
                     let mixedAlerts = [];
                     let maxLength = Math.max(highs.length, meds.length, watches.length);
                     
-                    // Deal them out like cards (High, Med, Watch)
                     for(let i=0; i < maxLength; i++) {
                         if(highs[i]) mixedAlerts.push(highs[i]);
                         if(meds[i]) mixedAlerts.push(meds[i]);
@@ -305,9 +301,17 @@
                     switchAlertTab('HIGH');
                 }
 
+                // --- CRITICAL UPGRADE: FETCH REAL HISTORY DATABASE ---
+                try {
+                    const histResponse = await fetch('history.json?t=' + new Date().getTime());
+                    globalHistoryData = await histResponse.json();
+                } catch (e) {
+                    console.warn("No history found yet. Establishing baseline.");
+                    globalHistoryData = [{ timestamp: new Date().toISOString(), score: globalCurrentScore }];
+                }
+
                 renderChart();
 
-                // Start tour if first visit
                 if (!localStorage.getItem('avellonTourCompleted')) {
                     setTimeout(() => { 
                         document.getElementById('tour-backdrop').classList.remove('hidden');
@@ -318,7 +322,6 @@
             } catch (error) { console.error("Data fetch error:", error); }
         }
 
-        // --- INTERACTIVE WALKTHROUGH TOUR LOGIC ---
         let currentTourStep = 0;
         const tourSteps = [
             { title: "Welcome to Avellon", text: "This Index quantifies global geopolitical and economic chaos in real-time, allowing you to measure risk velocity instantly.", target: null },
@@ -355,7 +358,6 @@
             localStorage.setItem('avellonTourCompleted', 'true');
         }
 
-        // --- EXISTING MODAL CONTROLLERS ---
         window.openPillarModal = function(name, score) {
             document.getElementById('modal-pillar-title').innerText = name;
             let colorClass = "text-emerald-400";
@@ -397,31 +399,74 @@
             });
         }
 
-        function generateTrendData(timeframe, endScore) {
-            let points = []; let labels = []; let count = 7; let volatility = 2.0;
-            if(timeframe === '1D') { count = 8; labels = ['-21h','-18h','-15h','-12h','-9h','-6h','-3h','Now']; volatility = 0.8; }
-            if(timeframe === '1W') { count = 7; labels = ['T-6d','T-5d','T-4d','T-3d','T-2d','T-1d','Now']; volatility = 1.5; }
-            if(timeframe === '1M') { count = 8; labels = ['Wk -4', 'Wk -3', 'Wk -2', 'Wk -1', 'T-14d', 'T-7d', 'T-3d', 'Now']; volatility = 3.5; }
-            if(timeframe === '1Q') { count = 6; labels = ['Mo -3', 'Mo -2', 'Mo -1', 'Wk -3', 'Wk -1', 'Now']; volatility = 5.0; }
-            if(timeframe === '1Y') { count = 12; labels = ['M-11', 'M-10', 'M-9', 'M-8', 'M-7', 'M-6', 'M-5', 'M-4', 'M-3', 'M-2', 'M-1', 'Now']; volatility = 8.0; }
+        // --- CRITICAL UPGRADE: PROCESS REAL HISTORY DATA FOR CHART ---
+        function processHistoricalData(timeframe) {
+            const now = new Date();
+            let cutoff = new Date();
+            
+            if (timeframe === '1D') cutoff.setHours(now.getHours() - 24);
+            else if (timeframe === '1W') cutoff.setDate(now.getDate() - 7);
+            else if (timeframe === '1M') cutoff.setMonth(now.getMonth() - 1);
+            else if (timeframe === '1Q') cutoff.setMonth(now.getMonth() - 3);
+            else if (timeframe === '1Y') cutoff.setFullYear(now.getFullYear() - 1);
 
-            points.push(endScore); let currentVal = endScore;
-            for(let i=1; i<count; i++) {
-                currentVal = currentVal - ((Math.random() - 0.5) * volatility);
-                currentVal = Math.min(Math.max(currentVal, 40), 95); points.push(currentVal);
+            let filtered = globalHistoryData.filter(d => new Date(d.timestamp) >= cutoff);
+            
+            // Fallback if there is no data in the range
+            if (filtered.length === 0 && globalHistoryData.length > 0) {
+                filtered = [globalHistoryData[globalHistoryData.length - 1]];
             }
-            points.reverse(); points = points.map(p => parseFloat(p.toFixed(1))); points[points.length-1] = endScore; 
+
+            // If history only has 1 point (e.g. brand new database), duplicate it to draw a flat baseline
+            if (filtered.length === 1) {
+                let pastPoint = new Date(filtered[0].timestamp);
+                pastPoint.setHours(pastPoint.getHours() - 2);
+                filtered.unshift({timestamp: pastPoint.toISOString(), score: filtered[0].score});
+            }
+
+            let labels = filtered.map(d => {
+                let dateObj = new Date(d.timestamp);
+                if (timeframe === '1D') return dateObj.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                return dateObj.toLocaleDateString([], {month: 'short', day: 'numeric'});
+            });
+            
+            let points = filtered.map(d => parseFloat(d.score));
+            labels[labels.length - 1] = 'Now';
+            
             return { labels, points };
         }
 
         function renderChart() {
             const ctx = document.getElementById('agriChart').getContext('2d');
             if (myChart) myChart.destroy();
-            const trend = generateTrendData(globalTimeframe, globalCurrentScore);
+            
+            const realData = processHistoricalData(globalTimeframe);
+            
             myChart = new Chart(ctx, { 
                 type: globalChartType, 
-                data: { labels: trend.labels, datasets: [{ label: 'AGRI Base Score', data: trend.points, borderColor: '#38bdf8', backgroundColor: globalChartType === 'line' ? 'rgba(56, 189, 248, 0.1)' : 'rgba(56, 189, 248, 0.4)', borderWidth: 2, tension: 0.4, fill: true, pointRadius: 4, pointBackgroundColor: '#fff' }] }, 
-                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { min: 40, max: 100, grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', font: {family: 'monospace'} } }, x: { grid: { display: false }, ticks: { color: '#94a3b8' } } } } 
+                data: { 
+                    labels: realData.labels, 
+                    datasets: [{ 
+                        label: 'AGRI Base Score', 
+                        data: realData.points, 
+                        borderColor: '#38bdf8', 
+                        backgroundColor: globalChartType === 'line' ? 'rgba(56, 189, 248, 0.1)' : 'rgba(56, 189, 248, 0.4)', 
+                        borderWidth: 2, 
+                        tension: 0.4, 
+                        fill: true, 
+                        pointRadius: 4, 
+                        pointBackgroundColor: '#fff' 
+                    }] 
+                }, 
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false, 
+                    plugins: { legend: { display: false } }, 
+                    scales: { 
+                        y: { min: 40, max: 100, grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', font: {family: 'monospace'} } }, 
+                        x: { grid: { display: false }, ticks: { color: '#94a3b8' } } 
+                    } 
+                } 
             });
         }
 
