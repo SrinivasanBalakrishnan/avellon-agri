@@ -152,7 +152,7 @@ def call_gemini(prompt):
         print(f"AI Generation Failed: {str(e)}")
         return {"main_brief": "System error generating narrative.", "pillar_narratives": {}}
 
-# --- 5. MASTER CALCULATOR ---
+# --- 5. MASTER CALCULATOR & DATABASE WRITER ---
 def calculate_agri():
     weights = {
         "Geopolitical Conflict Intensity": 0.18, "Energy & Maritime Disruption": 0.15,
@@ -205,6 +205,9 @@ def calculate_agri():
     print("Generating Interactive AI Diagnostics...")
     ai_response = call_gemini(prompt)
 
+    current_time_str = datetime.datetime.utcnow().isoformat() + "Z"
+
+    # --- SAVE CURRENT STATE (data.json) ---
     agri_data = {
         "AGRI_Score": current_agri,
         "Velocity": str_velocity,
@@ -214,13 +217,33 @@ def calculate_agri():
         "Pillar_Scores": live_inputs, 
         "Pillar_Narratives": ai_response.get("pillar_narratives", {}),
         "All_Alerts": all_alerts, 
-        "Last_Updated": datetime.datetime.utcnow().isoformat() + "Z"
+        "Last_Updated": current_time_str
     }
     
     with open("data.json", "w") as json_file:
         json.dump(agri_data, json_file, indent=4)
         
-    print(f"Avellon AGRI Engine calculated score: {current_agri}. Diagnostics active.")
+    # --- SAVE HISTORICAL DATA FOR CHART (history.json) ---
+    history_file = "history.json"
+    history_data = []
+    
+    if os.path.exists(history_file):
+        try:
+            with open(history_file, "r") as f:
+                history_data = json.load(f)
+        except Exception: pass
+
+    # Append the new reading to our history database
+    history_data.append({"timestamp": current_time_str, "score": current_agri})
+    
+    # Cap the history at 3000 records to prevent file bloat
+    if len(history_data) > 3000:
+        history_data = history_data[-3000:]
+
+    with open(history_file, "w") as f:
+        json.dump(history_data, f, indent=4)
+
+    print(f"Avellon AGRI Engine calculated score: {current_agri}. History database updated successfully.")
 
 if __name__ == "__main__":
     calculate_agri()
