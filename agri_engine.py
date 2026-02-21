@@ -95,7 +95,7 @@ def fetch_nlp_news_risk(query, baseline):
             items = ET.fromstring(response.read()).findall('.//item')
             risk_modifier = 0
             
-            for item in items[:10]: 
+            for item in items[:15]: 
                 title = item.find('title').text
                 severity = classify_risk(title)
                 
@@ -103,12 +103,12 @@ def fetch_nlp_news_risk(query, baseline):
                 if not any(a['title'] == title for a in global_alerts):
                     global_alerts.append({"title": title, "severity": severity})
                 
-                # NLP Sentiment Math (Quantifying Chaos)
+                # NLP Sentiment Math
                 sentiment = sia.polarity_scores(title)['compound']
                 if sentiment < -0.3: risk_modifier += 0.8
                 elif sentiment > 0.3: risk_modifier -= 0.4
                 
-                # Business Impact Math (Amplifying key threats)
+                # Business Impact Math
                 if severity == "HIGH": risk_modifier += 1.5
                 elif severity == "MEDIUM": risk_modifier += 0.5
                         
@@ -173,16 +173,16 @@ def calculate_agri():
     
     top_driver = max(live_inputs, key=live_inputs.get)
     
-    # Sort alerts by the highest severity
+    # Sort ALL alerts by highest severity to populate the UI Tabs
     severity_map = {"HIGH": 3, "MEDIUM": 2, "WATCH": 1}
     global_alerts.sort(key=lambda x: severity_map.get(x["severity"], 0), reverse=True)
-    top_alerts = global_alerts[:5]
+    all_alerts = global_alerts[:40] 
     
-    if not top_alerts: top_alerts = [{"title": "SYSTEM ALERT: NO CRITICAL EVENTS DETECTED", "severity": "WATCH"}]
+    if not all_alerts: all_alerts = [{"title": "SYSTEM ALERT: NO CRITICAL EVENTS DETECTED", "severity": "WATCH"}]
     
     # Pass the actual highest-priority news to Gemini
     prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}. Top driver: {top_driver} at {live_inputs[top_driver]}. "
-    prompt += f"Today's highest priority global alert: {top_alerts[0]['title']}. "
+    prompt += f"Today's highest priority global alert: {all_alerts[0]['title']}. "
     prompt += f"Geo: {live_inputs['Geopolitical Conflict Intensity']}, Energy: {live_inputs['Energy & Maritime Disruption']}, "
     prompt += f"Trade: {live_inputs['Trade & Supply Chain Stress']}, Cyber: {live_inputs['Cyber & Infrastructure Threats']}."
     
@@ -196,7 +196,7 @@ def calculate_agri():
         "Top_Risk_Driver": top_driver,
         "AI_Brief": ai_brief,
         "Pillar_Scores": live_inputs, 
-        "Top_Alerts": top_alerts, 
+        "All_Alerts": all_alerts, # Exporting expanded list
         "Last_Updated": datetime.datetime.utcnow().isoformat() + "Z"
     }
     
