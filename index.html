@@ -129,12 +129,30 @@
         </div>
     </div>
 
+    <div id="pillar-modal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="glass-panel w-full max-w-lg p-8 relative border-sky-500/30 shadow-[0_0_30px_rgba(56,189,248,0.1)]">
+            <button onclick="closePillarModal()" class="absolute top-5 right-5 text-gray-400 hover:text-white text-2xl leading-none">&times;</button>
+            <p class="text-[10px] text-sky-400 uppercase tracking-widest font-bold mb-1">Sector Diagnostic AI</p>
+            <h2 id="modal-pillar-title" class="text-xl font-bold text-white mb-2 uppercase tracking-widest border-b border-white/10 pb-3">Sector Name</h2>
+            
+            <div class="flex items-center my-4">
+                <span class="text-xs text-gray-400 uppercase tracking-widest mr-3 font-semibold">Current Load:</span>
+                <span id="modal-pillar-score" class="text-3xl font-bold data-font text-white drop-shadow">00.0</span>
+            </div>
+            
+            <p id="modal-pillar-desc" class="text-sm text-gray-200 leading-relaxed font-light mb-6">Loading diagnostic reasoning...</p>
+            
+            <button onclick="closePillarModal()" class="w-full mt-2 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Acknowledge</button>
+        </div>
+    </div>
+
     <script>
         let myChart;
         let globalCurrentScore = 0;
         let globalChartType = 'line';
         let globalTimeframe = '1W';
-        let globalAllAlerts = []; // Array to store all alerts
+        let globalAllAlerts = []; 
+        let globalPillarNarratives = {}; // Store the new AI data
 
         async function fetchAGRIData() {
             try {
@@ -142,6 +160,7 @@
                 const data = await response.json();
 
                 globalCurrentScore = parseFloat(data.AGRI_Score);
+                globalPillarNarratives = data.Pillar_Narratives || {}; // Fetch diagnostics
 
                 document.getElementById('agri-score').innerText = data.AGRI_Score;
                 document.getElementById('agri-velocity').innerText = data.Velocity;
@@ -149,28 +168,24 @@
                 document.getElementById('agri-brief').innerText = data.AI_Brief;
                 document.getElementById('agri-driver').innerText = data.Top_Risk_Driver;
 
-                // 8 Pillars
+                // 8 Pillars (NOW CLICKABLE)
                 if(data.Pillar_Scores) {
                     const grid = document.getElementById('pillar-grid'); grid.innerHTML = ''; 
                     Object.entries(data.Pillar_Scores).sort((a,b)=>b[1]-a[1]).forEach(([name, score]) => {
                         let c="text-emerald-400", b="bg-emerald-500/10 border-emerald-500/20";
                         if(score>=60){c="text-amber-400"; b="bg-amber-500/10 border-amber-500/20";}
                         if(score>=75){c="text-red-400"; b="bg-red-500/10 border-red-500/30";}
-                        grid.innerHTML += `<div class="flex justify-between items-center p-2.5 rounded-lg border ${b} transition-all hover:bg-white/5"><span class="text-xs font-semibold text-gray-300 truncate mr-2">${name}</span><span class="text-sm font-bold data-font ${c} drop-shadow">${score.toFixed(1)}</span></div>`;
+                        
+                        // Added cursor-pointer, hover glow, and onclick function
+                        grid.innerHTML += `<div onclick="openPillarModal('${name}', ${score.toFixed(1)})" class="cursor-pointer flex justify-between items-center p-2.5 rounded-lg border ${b} transition-all hover:bg-white/10 hover:shadow-[0_0_10px_rgba(255,255,255,0.1)]"><span class="text-xs font-semibold text-gray-300 truncate mr-2">${name}</span><span class="text-sm font-bold data-font ${c} drop-shadow">${score.toFixed(1)}</span></div>`;
                     });
                 }
 
-                // Initialize Alerts and Ticker
                 if(data.All_Alerts || data.Top_Alerts) {
                     globalAllAlerts = data.All_Alerts || data.Top_Alerts;
-                    
                     let tickerArray = [];
-                    globalAllAlerts.slice(0, 5).forEach(alert => {
-                        tickerArray.push(`[${alert.severity}] ${alert.title}`);
-                    });
+                    globalAllAlerts.slice(0, 5).forEach(alert => { tickerArray.push(`[${alert.severity}] ${alert.title}`); });
                     document.getElementById('live-ticker').innerText = "LIVE GLOBAL FEEDS: // " + tickerArray.join(" // ") + " // SYSTEM NOMINAL // ";
-                    
-                    // Render default HIGH tab
                     switchAlertTab('HIGH');
                 } else if (data.Top_Headlines) {
                     document.getElementById('live-ticker').innerText = "LIVE GLOBAL FEEDS: // " + data.Top_Headlines.join(" // ") + " // SYSTEM NOMINAL // ";
@@ -181,7 +196,28 @@
             } catch (error) { console.error("Data fetch error:", error); }
         }
 
-        // --- NEW TABBED ALERTS LOGIC ---
+        // --- NEW MODAL CONTROLLERS ---
+        window.openPillarModal = function(name, score) {
+            document.getElementById('modal-pillar-title').innerText = name;
+            
+            let colorClass = "text-emerald-400";
+            if (score >= 60) colorClass = "text-amber-400";
+            if (score >= 75) colorClass = "text-red-400";
+            
+            const scoreEl = document.getElementById('modal-pillar-score');
+            scoreEl.innerText = score;
+            scoreEl.className = `text-3xl font-bold data-font drop-shadow ${colorClass}`;
+            
+            const diagnostic = globalPillarNarratives[name] || "Diagnostic data unavailable. The AI engine is currently processing this sector's systemic load.";
+            document.getElementById('modal-pillar-desc').innerText = diagnostic;
+            
+            document.getElementById('pillar-modal').classList.remove('hidden');
+        }
+
+        window.closePillarModal = function() {
+            document.getElementById('pillar-modal').classList.add('hidden');
+        }
+
         window.switchAlertTab = function(severity) {
             const styles = {
                 'HIGH': { active: 'bg-red-500/20 text-red-400 border-red-500/50 shadow-[0_0_10px_rgba(239,68,68,0.2)]', inactive: 'bg-black/20 text-gray-500 border-white/10 hover:border-red-500/30 hover:text-red-400' },
@@ -190,27 +226,19 @@
             };
 
             ['HIGH', 'MEDIUM', 'WATCH'].forEach(key => {
-                const btn = document.getElementById('tab-' + key);
-                btn.className = `py-2 rounded border text-[10px] md:text-xs font-bold uppercase tracking-wider transition ${key === severity ? styles[key].active : styles[key].inactive}`;
+                document.getElementById('tab-' + key).className = `py-2 rounded border text-[10px] md:text-xs font-bold uppercase tracking-wider transition ${key === severity ? styles[key].active : styles[key].inactive}`;
             });
 
-            const grid = document.getElementById('alerts-grid');
-            grid.innerHTML = '';
-            
+            const grid = document.getElementById('alerts-grid'); grid.innerHTML = '';
             const filteredAlerts = globalAllAlerts.filter(a => a.severity === severity);
             
             if (filteredAlerts.length === 0) {
-                grid.innerHTML = `<p class="text-xs text-gray-500 italic py-4 text-center">No active ${severity} alerts detected.</p>`;
-                return;
+                grid.innerHTML = `<p class="text-xs text-gray-500 italic py-4 text-center">No active ${severity} alerts detected.</p>`; return;
             }
 
             let borderColor = severity === "HIGH" ? "border-l-red-500/50" : severity === "MEDIUM" ? "border-l-amber-500/50" : "border-l-emerald-500/50";
-
             filteredAlerts.slice(0, 10).forEach(alert => {
-                grid.innerHTML += `
-                    <div class="p-3 rounded-r-lg border border-white/5 border-l-2 ${borderColor} bg-black/20 mb-2 transition hover:bg-white/5">
-                        <p class="text-xs text-gray-300 leading-snug">${alert.title}</p>
-                    </div>`;
+                grid.innerHTML += `<div class="p-3 rounded-r-lg border border-white/5 border-l-2 ${borderColor} bg-black/20 mb-2 transition hover:bg-white/5"><p class="text-xs text-gray-300 leading-snug">${alert.title}</p></div>`;
             });
         }
 
@@ -224,10 +252,8 @@
 
             points.push(endScore); let currentVal = endScore;
             for(let i=1; i<count; i++) {
-                let drift = (Math.random() - 0.5) * volatility;
-                currentVal = currentVal - drift;
-                currentVal = Math.min(Math.max(currentVal, 40), 95); 
-                points.push(currentVal);
+                currentVal = currentVal - ((Math.random() - 0.5) * volatility);
+                currentVal = Math.min(Math.max(currentVal, 40), 95); points.push(currentVal);
             }
             points.reverse(); points = points.map(p => parseFloat(p.toFixed(1))); points[points.length-1] = endScore; 
             return { labels, points };
