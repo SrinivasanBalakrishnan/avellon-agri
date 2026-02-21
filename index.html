@@ -3,23 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avellon Intelligence | Global Risk Index</title>
+    <title>Avellon Intelligence | Global Risk Terminal</title>
     <link rel="icon" href="Z (58).png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap');
-        body { background: radial-gradient(circle at top right, #0a192f, #020617, #000000); color: #e2e8f0; font-family: 'Inter', sans-serif; min-height: 100vh; }
+        body { background: radial-gradient(circle at top right, #0a192f, #020617, #000000); color: #e2e8f0; font-family: 'Inter', sans-serif; min-height: 100vh; overflow-x: hidden; }
         .data-font { font-family: 'JetBrains Mono', monospace; }
         .glass-panel { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); border-radius: 0.75rem; }
-        .ticker-wrap { overflow: hidden; background: rgba(0,0,0,0.8); border-bottom: 1px solid rgba(255,255,255,0.1); white-space: nowrap; }
-        .ticker { display: inline-block; padding-left: 100%; animation: ticker 40s linear infinite; color: #38bdf8; font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase;}
-        @keyframes ticker { 0% { transform: translate3d(0, 0, 0); } 100% { transform: translate3d(-100%, 0, 0); } }
+        
+        /* Seamless Ticker Update */
+        .ticker-wrap { width: 100%; overflow: hidden; background: rgba(0,0,0,0.8); border-bottom: 1px solid rgba(255,255,255,0.1); white-space: nowrap; box-sizing: border-box; }
+        .ticker-content { display: inline-block; white-space: nowrap; padding-left: 0; animation: ticker-seamless 60s linear infinite; font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase; color: #38bdf8;}
+        .ticker-content:hover { animation-play-state: paused; cursor: default; }
+        @keyframes ticker-seamless { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+        /* Custom Scrollbar */
         ::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-track { background: transparent; } ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 10px; }
+
+        /* Interactive Tour CSS */
+        .tour-highlight { z-index: 101 !important; position: relative !important; outline: 3px solid #38bdf8 !important; outline-offset: 4px; background: rgba(10, 25, 47, 0.95) !important; pointer-events: none; }
     </style>
 </head>
 <body class="flex flex-col relative">
-    <div class="ticker-wrap py-1.5"><div class="ticker data-font" id="live-ticker">INITIALIZING AVELLON GLOBAL FEEDS...</div></div>
+
+    <div class="ticker-wrap py-1.5">
+        <div class="ticker-content data-font" id="live-ticker">
+            INITIALIZING AVELLON GLOBAL FEEDS... AWAITING SATELLITE UPLINK...
+        </div>
+    </div>
 
     <div class="flex-grow p-4 md:p-8 max-w-7xl mx-auto w-full">
         
@@ -43,26 +56,30 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        <div id="metrics-row" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 transition-all duration-500 rounded-xl">
             <div class="glass-panel p-6 relative overflow-hidden"><div class="absolute top-0 right-0 w-1.5 h-full bg-red-500 shadow-[0_0_15px_#ef4444]"></div>
                 <p class="text-xs text-gray-400 uppercase tracking-widest font-semibold mb-2">AGRI Score</p>
                 <p class="text-5xl font-bold text-white data-font" id="agri-score">--</p></div>
             <div class="glass-panel p-6"><p class="text-xs text-gray-400 uppercase tracking-widest font-semibold mb-2">Velocity (24H)</p>
                 <p class="text-4xl font-bold text-gray-200 data-font" id="agri-velocity">--</p></div>
+            
             <div class="glass-panel p-6 hidden md:block"><p class="text-xs text-gray-400 uppercase tracking-widest font-semibold mb-2">Acceleration</p>
-                <p class="text-4xl font-bold text-gray-400 data-font" id="agri-acceleration">--</p></div>
+                <div id="agri-acceleration" class="mt-2 text-gray-500 data-font text-sm">CALCULATING...</div>
+            </div>
+            
             <div class="glass-panel p-6 col-span-2 md:col-span-1 border-l-2 border-l-red-500/50"><p class="text-xs text-gray-400 uppercase tracking-widest font-semibold mb-2">Primary Catalyst</p>
                 <p class="text-sm font-bold text-red-400 uppercase leading-tight mt-3 drop-shadow" id="agri-driver">--</p></div>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div class="space-y-8 lg:col-span-1">
-                <div class="glass-panel p-6">
+                
+                <div id="pillars-col" class="glass-panel p-6 transition-all duration-500">
                     <h2 class="text-xs font-bold uppercase tracking-widest border-b border-white/10 pb-3 mb-5 text-sky-300">Root-cause for Vulnerability</h2>
                     <div id="pillar-grid" class="space-y-3"><p class="text-xs text-gray-500 italic">Decrypting index data...</p></div>
                 </div>
                 
-                <div class="glass-panel p-6 border-l-2 border-l-amber-500/50">
+                <div id="alerts-col" class="glass-panel p-6 border-l-2 border-l-amber-500/50 transition-all duration-500">
                     <h2 class="text-xs font-bold uppercase tracking-widest border-b border-white/10 pb-3 mb-4 text-amber-400">Active Global Alerts</h2>
                     <div class="grid grid-cols-3 gap-2 mb-4">
                         <button onclick="switchAlertTab('HIGH')" id="tab-HIGH" class="py-2 rounded border text-[10px] md:text-xs font-bold uppercase tracking-wider transition bg-red-500/20 text-red-400 border-red-500/50 shadow-[0_0_10px_rgba(239,68,68,0.2)]">HIGH</button>
@@ -75,7 +92,7 @@
                 </div>
             </div>
 
-            <div class="space-y-8 lg:col-span-2">
+            <div id="narrative-col" class="space-y-8 lg:col-span-2 transition-all duration-500 rounded-xl">
                 <div class="glass-panel p-8 border-l-4 border-l-sky-500 relative overflow-hidden">
                     <div class="absolute -top-10 -right-10 w-32 h-32 bg-sky-500/10 rounded-full blur-2xl"></div>
                     <div class="flex items-center mb-5 border-b border-white/10 pb-3">
@@ -88,7 +105,6 @@
                 <div class="glass-panel p-6">
                     <div class="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-white/10 pb-3 mb-5 space-y-3 md:space-y-0">
                         <h2 class="text-xs font-bold uppercase tracking-widest text-sky-300">Risk Velocity Trend</h2>
-                        
                         <div class="flex items-center space-x-3">
                             <div class="flex space-x-1">
                                 <button onclick="updateChartTimeframe('1D')" id="btn-1D" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">1D</button>
@@ -110,22 +126,32 @@
     </div>
 
     <div class="mt-auto border-t border-white/10 p-6 text-center bg-black/40 backdrop-blur-md flex flex-col items-center">
-        <p class="text-xs text-gray-500 uppercase tracking-widest mb-3">Avellon Intelligence Proprietary Framework | Global Risk Index Architecture V2.0</p>
+        <p class="text-xs text-gray-500 uppercase tracking-widest mb-3">Avellon Intelligence Proprietary Framework | Terminal Architecture V2.0</p>
         <div class="flex space-x-4">
-            <button onclick="toggleMethodology()" class="text-xs text-emerald-400 hover:text-emerald-300 transition border border-emerald-400/30 px-3 py-1.5 rounded cursor-pointer">Avellon Global Risk Index Framework & Guide</button>
+            <button onclick="toggleMethodology()" class="text-xs text-emerald-400 hover:text-emerald-300 transition border border-emerald-400/30 px-3 py-1.5 rounded cursor-pointer">Intelligence Framework & Guide</button>
             <button onclick="toggleApiModal()" class="text-xs text-sky-400 hover:text-sky-300 transition border border-sky-400/30 px-3 py-1.5 rounded cursor-pointer">Request API Access</button>
+        </div>
+    </div>
+
+    <div id="tour-overlay" class="fixed inset-0 z-[100] hidden bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="glass-panel w-full max-w-lg p-8 relative border-sky-500/50 shadow-[0_0_40px_rgba(56,189,248,0.2)] text-center">
+            <p class="text-[10px] text-sky-400 uppercase tracking-widest font-bold mb-2" id="tour-step-counter">Step 1 of 5</p>
+            <h2 id="tour-title" class="text-2xl font-bold text-white mb-4 uppercase tracking-widest">Welcome to Avellon</h2>
+            <p id="tour-desc" class="text-sm text-gray-300 mb-8 font-light leading-relaxed">This terminal quantifies global geopolitical and economic chaos in real-time, helping you measure risk velocity instantly.</p>
+            <div class="flex justify-between items-center">
+                <button onclick="endTour()" class="text-xs text-gray-500 hover:text-gray-300 transition uppercase tracking-widest">Skip Tour</button>
+                <button onclick="nextTourStep()" id="tour-next-btn" class="py-2 px-6 bg-sky-500/20 hover:bg-sky-500/30 border border-sky-500/50 rounded text-sm text-sky-300 font-bold uppercase tracking-widest transition">Begin Tour</button>
+            </div>
         </div>
     </div>
 
     <div id="methodology-modal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
         <div class="glass-panel w-full max-w-4xl max-h-[90vh] overflow-y-auto p-6 md:p-8 relative border-sky-500/30 shadow-[0_0_30px_rgba(56,189,248,0.1)]">
             <button onclick="toggleMethodology()" class="absolute top-5 right-5 text-gray-400 hover:text-white text-2xl leading-none">&times;</button>
-            
-            <h2 class="text-xl md:text-2xl font-bold text-white mb-2 uppercase tracking-widest border-b border-white/10 pb-4">Avellon Global Risk Index Framework & Guide</h2>
-            
+            <h2 class="text-xl md:text-2xl font-bold text-white mb-2 uppercase tracking-widest border-b border-white/10 pb-4">Intelligence Framework & Guide</h2>
             <div class="mt-6 mb-6">
                 <h3 class="text-xs font-bold text-sky-400 uppercase tracking-widest mb-3">Strategic Application</h3>
-                <p class="text-sm text-gray-300 font-light leading-relaxed mb-4">The Avellon Global Risk Index (AGRI) quantifies real-time global chaos to measure risk velocity instantly. This Index is strictly designed for:</p>
+                <p class="text-sm text-gray-300 font-light leading-relaxed mb-4">The Avellon Global Risk Index (AGRI) quantifies real-time global chaos to measure risk velocity instantly. This terminal is strictly designed for:</p>
                 <ul class="list-disc pl-5 text-sm text-gray-300 font-light space-y-2">
                     <li><strong class="text-white font-medium">Enterprises & Supply Chains:</strong> Anticipate maritime chokepoints and hedge financial exposure against systemic shocks.</li>
                     <li><strong class="text-white font-medium">Governments & Diplomats:</strong> Gauge macro-geopolitical friction and structural vulnerabilities instantly.</li>
@@ -133,7 +159,6 @@
                     <li><strong class="text-white font-medium">Researchers & Students:</strong> Analyze historical volatility and geopolitical-economic trend correlations.</li>
                 </ul>
             </div>
-
             <div class="mb-6">
                 <h3 class="text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">Terminal Legend & Telemetry</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
@@ -150,40 +175,21 @@
                         <p class="text-sm text-gray-300 font-light">The specific vulnerability sector currently exerting the heaviest mathematical drag on the global system.</p>
                     </div>
                 </div>
-
                 <h4 class="text-xs font-bold text-white uppercase tracking-widest mb-3 border-b border-white/10 pb-2">AGRI Threat Matrix (0-100)</h4>
                 <div class="space-y-2">
-                    <div class="flex flex-col md:flex-row items-start md:items-center p-3 border-l-2 border-emerald-500 bg-emerald-500/5 rounded-r">
-                        <span class="text-emerald-400 font-bold w-20 shrink-0 data-font mb-1 md:mb-0">00 - 25</span>
-                        <div class="text-sm text-gray-300 font-light"><strong class="text-emerald-400">Nominal/Stable:</strong> Routine market conditions. <span class="italic text-gray-400 block md:inline mt-1 md:mt-0 md:ml-1">Cascading Impact: Free-flowing supply chains, baseline economic growth, low systemic friction.</span></div>
-                    </div>
-                    <div class="flex flex-col md:flex-row items-start md:items-center p-3 border-l-2 border-blue-400 bg-blue-400/5 rounded-r">
-                        <span class="text-blue-400 font-bold w-20 shrink-0 data-font mb-1 md:mb-0">26 - 55</span>
-                        <div class="text-sm text-gray-300 font-light"><strong class="text-blue-400">Elevated:</strong> Simmering localized tensions. <span class="italic text-gray-400 block md:inline mt-1 md:mt-0 md:ml-1">Cascading Impact: Minor trade route adjustments, speculative market hedging, localized policy shifts.</span></div>
-                    </div>
-                    <div class="flex flex-col md:flex-row items-start md:items-center p-3 border-l-2 border-amber-400 bg-amber-400/5 rounded-r">
-                        <span class="text-amber-400 font-bold w-20 shrink-0 data-font mb-1 md:mb-0">56 - 75</span>
-                        <div class="text-sm text-gray-300 font-light"><strong class="text-amber-400">Severe:</strong> Active conflicts, high energy volatility, tariff wars. <span class="italic text-gray-400 block md:inline mt-1 md:mt-0 md:ml-1">Cascading Impact: Inflation spikes, restricted maritime chokepoints, rapid corporate de-risking.</span></div>
-                    </div>
-                    <div class="flex flex-col md:flex-row items-start md:items-center p-3 border-l-2 border-orange-500 bg-orange-500/5 rounded-r">
-                        <span class="text-orange-500 font-bold w-20 shrink-0 data-font mb-1 md:mb-0">76 - 90</span>
-                        <div class="text-sm text-gray-300 font-light"><strong class="text-orange-500">Critical:</strong> Systemic shock, multi-regional warfare, financial contagion. <span class="italic text-gray-400 block md:inline mt-1 md:mt-0 md:ml-1">Cascading Impact: Sovereign debt crises, deep supply chain severing, emergency government interventions.</span></div>
-                    </div>
-                    <div class="flex flex-col md:flex-row items-start md:items-center p-3 border-l-2 border-red-500 bg-red-500/5 rounded-r">
-                        <span class="text-red-500 font-bold w-20 shrink-0 data-font mb-1 md:mb-0">91 - 100</span>
-                        <div class="text-sm text-gray-300 font-light"><strong class="text-red-500">Apex Chaos:</strong> Unprecedented destabilization, superpower collision. <span class="italic text-gray-400 block md:inline mt-1 md:mt-0 md:ml-1">Cascading Impact: Total trade embargoes, global market halts, critical infrastructure collapse.</span></div>
-                    </div>
+                    <div class="flex flex-col md:flex-row items-start md:items-center p-3 border-l-2 border-emerald-500 bg-emerald-500/5 rounded-r"><span class="text-emerald-400 font-bold w-20 shrink-0 data-font mb-1 md:mb-0">00 - 25</span><div class="text-sm text-gray-300 font-light"><strong class="text-emerald-400">Nominal/Stable:</strong> Routine market conditions. <span class="italic text-gray-400 block md:inline mt-1 md:mt-0 md:ml-1">Cascading Impact: Free-flowing supply chains, baseline economic growth, low systemic friction.</span></div></div>
+                    <div class="flex flex-col md:flex-row items-start md:items-center p-3 border-l-2 border-blue-400 bg-blue-400/5 rounded-r"><span class="text-blue-400 font-bold w-20 shrink-0 data-font mb-1 md:mb-0">26 - 55</span><div class="text-sm text-gray-300 font-light"><strong class="text-blue-400">Elevated:</strong> Simmering localized tensions. <span class="italic text-gray-400 block md:inline mt-1 md:mt-0 md:ml-1">Cascading Impact: Minor trade route adjustments, speculative market hedging, localized policy shifts.</span></div></div>
+                    <div class="flex flex-col md:flex-row items-start md:items-center p-3 border-l-2 border-amber-400 bg-amber-400/5 rounded-r"><span class="text-amber-400 font-bold w-20 shrink-0 data-font mb-1 md:mb-0">56 - 75</span><div class="text-sm text-gray-300 font-light"><strong class="text-amber-400">Severe:</strong> Active conflicts, high energy volatility, tariff wars. <span class="italic text-gray-400 block md:inline mt-1 md:mt-0 md:ml-1">Cascading Impact: Inflation spikes, restricted maritime chokepoints, rapid corporate de-risking.</span></div></div>
+                    <div class="flex flex-col md:flex-row items-start md:items-center p-3 border-l-2 border-orange-500 bg-orange-500/5 rounded-r"><span class="text-orange-500 font-bold w-20 shrink-0 data-font mb-1 md:mb-0">76 - 90</span><div class="text-sm text-gray-300 font-light"><strong class="text-orange-500">Critical:</strong> Systemic shock, multi-regional warfare, financial contagion. <span class="italic text-gray-400 block md:inline mt-1 md:mt-0 md:ml-1">Cascading Impact: Sovereign debt crises, deep supply chain severing, emergency government interventions.</span></div></div>
+                    <div class="flex flex-col md:flex-row items-start md:items-center p-3 border-l-2 border-red-500 bg-red-500/5 rounded-r"><span class="text-red-500 font-bold w-20 shrink-0 data-font mb-1 md:mb-0">91 - 100</span><div class="text-sm text-gray-300 font-light"><strong class="text-red-500">Apex Chaos:</strong> Unprecedented destabilization, superpower collision. <span class="italic text-gray-400 block md:inline mt-1 md:mt-0 md:ml-1">Cascading Impact: Total trade embargoes, global market halts, critical infrastructure collapse.</span></div></div>
                 </div>
             </div>
-
             <div class="mb-6 p-4 bg-sky-500/10 border border-sky-500/30 rounded">
                 <h3 class="text-xs font-bold text-sky-400 uppercase tracking-widest mb-2">Open Source & Citation Protocol</h3>
                 <p class="text-xs text-gray-300 font-light leading-relaxed">Avellon Intelligence encourages journalists, academic researchers, and institutions to utilize and cite the AGRI Score and Avellon Risk Interpretations in publications, journals, and news coverage to provide objective context to global volatility.</p>
             </div>
-
             <p class="text-[11px] text-gray-500 italic text-center mb-5">Note: We are continuously updating our features for users' elevated experience of better understanding of global risk.</p>
-            
-            <button onclick="toggleMethodology()" class="w-full py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Return to Index</button>
+            <button onclick="toggleMethodology()" class="w-full py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Return to Terminal</button>
         </div>
     </div>
 
@@ -191,12 +197,10 @@
         <div class="glass-panel w-full max-w-2xl p-8 relative border-sky-500/30 shadow-[0_0_30px_rgba(56,189,248,0.1)] text-center">
             <button onclick="toggleApiModal()" class="absolute top-5 right-5 text-gray-400 hover:text-white text-2xl leading-none">&times;</button>
             <h2 class="text-xl md:text-2xl font-bold text-white mb-4 uppercase tracking-widest border-b border-white/10 pb-4">Enterprise API Integration</h2>
-            <p class="text-sm md:text-base text-gray-300 mb-8 font-light leading-relaxed">
-                We welcome institutional partners and enterprises to integrate the Avellon Global Risk Index into their proprietary systems. To request secure API keys and discuss bespoke data feeds, please reach out to our team via the contact section on our corporate website.
-            </p>
+            <p class="text-sm md:text-base text-gray-300 mb-8 font-light leading-relaxed">We welcome institutional partners and enterprises to integrate the Avellon Global Risk Index into their proprietary systems. To request secure API keys and discuss bespoke data feeds, please reach out to our team via the contact section on our corporate website.</p>
             <div class="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4">
                 <a href="https://www.avellonintelligence.com/" target="_blank" class="py-3 px-6 bg-sky-500/20 hover:bg-sky-500/30 border border-sky-500/50 rounded text-xs md:text-sm text-sky-300 font-bold uppercase tracking-widest transition shadow-[0_0_15px_rgba(56,189,248,0.1)]">Visit Avellon Intelligence</a>
-                <button onclick="toggleApiModal()" class="py-3 px-6 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-xs md:text-sm text-white font-bold uppercase tracking-widest transition">Return to Index</button>
+                <button onclick="toggleApiModal()" class="py-3 px-6 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-xs md:text-sm text-white font-bold uppercase tracking-widest transition">Return to Terminal</button>
             </div>
         </div>
     </div>
@@ -206,15 +210,12 @@
             <button onclick="closePillarModal()" class="absolute top-5 right-5 text-gray-400 hover:text-white text-2xl leading-none">&times;</button>
             <p class="text-[10px] text-sky-400 uppercase tracking-widest font-bold mb-1">Sector Diagnostic AI</p>
             <h2 id="modal-pillar-title" class="text-xl font-bold text-white mb-2 uppercase tracking-widest border-b border-white/10 pb-3">Sector Name</h2>
-            
             <div class="flex items-center my-4">
                 <span class="text-xs text-gray-400 uppercase tracking-widest mr-3 font-semibold">Current Load:</span>
                 <span id="modal-pillar-score" class="text-3xl font-bold data-font text-white drop-shadow">00.0</span>
             </div>
-            
             <p id="modal-pillar-desc" class="text-sm text-gray-200 leading-relaxed font-light mb-6">Loading diagnostic reasoning...</p>
-            
-            <button onclick="closePillarModal()" class="w-full mt-2 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Return to Index</button>
+            <button onclick="closePillarModal()" class="w-full mt-2 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Return to Terminal</button>
         </div>
     </div>
 
@@ -236,9 +237,30 @@
 
                 document.getElementById('agri-score').innerText = data.AGRI_Score;
                 document.getElementById('agri-velocity').innerText = data.Velocity;
-                document.getElementById('agri-acceleration').innerText = data.Acceleration || "N/A";
                 document.getElementById('agri-brief').innerText = data.AI_Brief;
                 document.getElementById('agri-driver').innerText = data.Top_Risk_Driver;
+
+                // --- FEATURE 1: ANIMATED ACCELERATION GRAPH ---
+                let vel = parseFloat(data.Velocity);
+                let accelHtml = '';
+                if (vel > 0) {
+                    accelHtml = `<div class="flex items-end space-x-1.5 h-8 mt-1">
+                        <div class="w-2 bg-red-500 rounded-t animate-[pulse_1s_infinite] h-3"></div>
+                        <div class="w-2 bg-red-500 rounded-t animate-[pulse_1.2s_infinite] h-5"></div>
+                        <div class="w-2 bg-red-500 rounded-t animate-[pulse_1.5s_infinite] h-8 shadow-[0_0_10px_#ef4444]"></div>
+                        <svg class="w-6 h-6 text-red-500 mb-1 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                    </div>`;
+                } else if (vel < 0) {
+                    accelHtml = `<div class="flex items-end space-x-1.5 h-8 mt-1">
+                        <div class="w-2 bg-emerald-500 rounded-t animate-[pulse_1s_infinite] h-8 shadow-[0_0_10px_#10b981]"></div>
+                        <div class="w-2 bg-emerald-500 rounded-t animate-[pulse_1.2s_infinite] h-5"></div>
+                        <div class="w-2 bg-emerald-500 rounded-t animate-[pulse_1.5s_infinite] h-3"></div>
+                        <svg class="w-6 h-6 text-emerald-500 mb-1 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 17h8m0 0v-8m0 8l-8-8-4 4-6-6"></path></svg>
+                    </div>`;
+                } else {
+                    accelHtml = `<div class="h-8 flex items-end mt-1"><span class="text-lg font-bold text-gray-500 tracking-widest">STABLE</span></div>`;
+                }
+                document.getElementById('agri-acceleration').innerHTML = accelHtml;
 
                 if(data.Pillar_Scores) {
                     const grid = document.getElementById('pillar-grid'); grid.innerHTML = ''; 
@@ -250,34 +272,85 @@
                     });
                 }
 
+                // --- FEATURE 2: SEAMLESS 25-ALERT TICKER ---
                 if(data.All_Alerts || data.Top_Alerts) {
                     globalAllAlerts = data.All_Alerts || data.Top_Alerts;
+                    
+                    // Create the mixed feed (Top 25)
+                    let mixedAlerts = globalAllAlerts.slice(0, 25);
                     let tickerArray = [];
-                    globalAllAlerts.slice(0, 5).forEach(alert => { tickerArray.push(`[${alert.severity}] ${alert.title}`); });
-                    document.getElementById('live-ticker').innerText = "LIVE GLOBAL FEEDS: // " + tickerArray.join(" // ") + " // SYSTEM NOMINAL // ";
+                    mixedAlerts.forEach(alert => {
+                        let colorClass = alert.severity === 'HIGH' ? '#ef4444' : (alert.severity === 'MEDIUM' ? '#f59e0b' : '#10b981');
+                        tickerArray.push(`<span style="color:${colorClass}; font-weight:bold;">[${alert.severity}]</span> <span style="color:#e2e8f0;">${alert.title}</span>`);
+                    });
+                    
+                    let singleLoop = tickerArray.join(' &nbsp;&nbsp;//&nbsp;&nbsp; ') + ' &nbsp;&nbsp;//&nbsp;&nbsp; ';
+                    // Duplicating the string makes the CSS marquee loop flawlessly without gaps
+                    document.getElementById('live-ticker').innerHTML = singleLoop + singleLoop;
+
                     switchAlertTab('HIGH');
-                } else if (data.Top_Headlines) {
-                    document.getElementById('live-ticker').innerText = "LIVE GLOBAL FEEDS: // " + data.Top_Headlines.join(" // ") + " // SYSTEM NOMINAL // ";
                 }
 
                 renderChart();
 
+                // Start tour if first visit
+                if (!localStorage.getItem('avellonTourCompleted')) {
+                    setTimeout(() => { document.getElementById('tour-overlay').classList.remove('hidden'); }, 1000);
+                }
+
             } catch (error) { console.error("Data fetch error:", error); }
         }
 
+        // --- FEATURE 3: INTERACTIVE WALKTHROUGH TOUR ---
+        let currentTourStep = 0;
+        const tourSteps = [
+            { title: "Welcome to Avellon", text: "This terminal quantifies global geopolitical and economic chaos in real-time, allowing you to measure risk velocity instantly.", target: null },
+            { title: "Macro Telemetry", text: "The top row displays the live AGRI Score, the 24H Velocity (speed of risk), dynamic Acceleration, and the specific Primary Catalyst driving global volatility today.", target: "metrics-row" },
+            { title: "Root-Cause Pillars", text: "We break risk down into 8 core sectors. Click on any of these pillars to open an AI-generated diagnostic explaining exactly why that sector is vulnerable right now.", target: "pillars-col" },
+            { title: "Active Global Alerts", text: "Filter live breaking news scraped across the globe. Switch between High, Medium, and Watch priority tabs to see what our engine is currently monitoring.", target: "alerts-col" },
+            { title: "AI Strategic Narrative", text: "Our AI engine writes a clinical, institutional-grade brief every 2 hours, weaving the top data and specific news alerts into a comprehensive geopolitical story.", target: "narrative-col" }
+        ];
+
+        window.nextTourStep = function() {
+            // Remove previous highlight
+            if(currentTourStep > 0 && tourSteps[currentTourStep - 1].target) {
+                document.getElementById(tourSteps[currentTourStep - 1].target).classList.remove('tour-highlight');
+            }
+
+            if (currentTourStep >= tourSteps.length) { endTour(); return; }
+
+            // Update Modal Content
+            document.getElementById('tour-step-counter').innerText = `Step ${currentTourStep + 1} of ${tourSteps.length}`;
+            document.getElementById('tour-title').innerText = tourSteps[currentTourStep].title;
+            document.getElementById('tour-desc').innerText = tourSteps[currentTourStep].text;
+            document.getElementById('tour-next-btn').innerText = currentTourStep === tourSteps.length - 1 ? "Finish Tour" : "Next Step";
+
+            // Add new highlight
+            if (tourSteps[currentTourStep].target) {
+                document.getElementById(tourSteps[currentTourStep].target).classList.add('tour-highlight');
+            }
+            currentTourStep++;
+        }
+
+        window.endTour = function() {
+            if(currentTourStep > 0 && tourSteps[currentTourStep - 1].target) {
+                document.getElementById(tourSteps[currentTourStep - 1].target).classList.remove('tour-highlight');
+            }
+            document.getElementById('tour-overlay').classList.add('hidden');
+            localStorage.setItem('avellonTourCompleted', 'true');
+        }
+
+        // --- EXISITING LOGIC ---
         window.openPillarModal = function(name, score) {
             document.getElementById('modal-pillar-title').innerText = name;
             let colorClass = "text-emerald-400";
             if (score >= 60) colorClass = "text-amber-400";
             if (score >= 75) colorClass = "text-red-400";
-            
             const scoreEl = document.getElementById('modal-pillar-score');
             scoreEl.innerText = score;
             scoreEl.className = `text-3xl font-bold data-font drop-shadow ${colorClass}`;
-            
             const diagnostic = globalPillarNarratives[name] || "Diagnostic data unavailable. The AI engine is currently processing this sector's systemic load.";
             document.getElementById('modal-pillar-desc').innerText = diagnostic;
-            
             document.getElementById('pillar-modal').classList.remove('hidden');
         }
 
