@@ -113,33 +113,32 @@ def fetch_nlp_news_risk(query, baseline):
     except Exception as e:
         return baseline
 
-# --- 4. ADVANCED AI INTERPRETATION LAYER (NOW EXPORTS JSON) ---
+# --- 4. ADVANCED AI INTERPRETATION LAYER (NARRATIVE UPGRADE) ---
 def call_gemini(prompt):
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key: return {"main_brief": "AI Error: API Key not found.", "pillar_narratives": {}}
     
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     
-    # We strictly instruct the AI to output a JSON dictionary
-    sys_instruction = """You are the Avellon Risk AI. You MUST respond with a valid JSON object ONLY. Format:
+    sys_instruction = """You are the Avellon Risk AI, a premium geopolitical intelligence analyst. You MUST respond with a valid JSON object ONLY. Format:
     {
-      "main_brief": "A 130-word clinical narrative explaining the top risk driver and highest priority global alert.",
+      "main_brief": "A gripping, 200-250 word geopolitical story explaining the cascading global impacts of today's top risk drivers. Weave the provided news headlines and data into a compelling narrative that executives must read. Do not just list numbers; tell the story of the chaos.",
       "pillar_narratives": {
-        "Geopolitical Conflict Intensity": "1-2 sentence diagnostic explaining the current risk level for this specific sector.",
-        "Energy & Maritime Disruption": "1-2 sentence diagnostic...",
-        "Trade & Supply Chain Stress": "1-2 sentence diagnostic...",
-        "Sovereign Financial Stress": "1-2 sentence diagnostic...",
-        "Currency & Liquidity Pressure": "1-2 sentence diagnostic...",
-        "Sanctions & Regulatory Fragmentation": "1-2 sentence diagnostic...",
-        "Cyber & Infrastructure Threats": "1-2 sentence diagnostic...",
-        "Climate & Resource Shock": "1-2 sentence diagnostic..."
+        "Geopolitical Conflict Intensity": "A 2-3 sentence live intelligence brief. You MUST explicitly cite a relevant news headline or data point from the provided context to justify this score.",
+        "Energy & Maritime Disruption": "A 2-3 sentence live intelligence brief citing specific provided news/data.",
+        "Trade & Supply Chain Stress": "A 2-3 sentence live intelligence brief citing specific provided news/data.",
+        "Sovereign Financial Stress": "A 2-3 sentence live intelligence brief citing specific provided news/data.",
+        "Currency & Liquidity Pressure": "A 2-3 sentence live intelligence brief citing specific provided news/data.",
+        "Sanctions & Regulatory Fragmentation": "A 2-3 sentence live intelligence brief citing specific provided news/data.",
+        "Cyber & Infrastructure Threats": "A 2-3 sentence live intelligence brief citing specific provided news/data.",
+        "Climate & Resource Shock": "A 2-3 sentence live intelligence brief citing specific provided news/data."
       }
     }"""
     
     data = {
         "contents": [{"parts": [{"text": prompt}]}],
         "systemInstruction": {"parts": [{"text": sys_instruction}]},
-        "generationConfig": {"responseMimeType": "application/json"} # Forces AI to return JSON
+        "generationConfig": {"responseMimeType": "application/json"} 
     }
     
     req = urllib.request.Request(url, data=json.dumps(data).encode("utf-8"), headers={"Content-Type": "application/json"})
@@ -195,9 +194,13 @@ def calculate_agri():
     
     if not all_alerts: all_alerts = [{"title": "SYSTEM ALERT: NO CRITICAL EVENTS DETECTED", "severity": "WATCH"}]
     
-    prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}. Top driver: {top_driver} at {live_inputs[top_driver]}. "
-    prompt += f"Today's highest priority global alert: {all_alerts[0]['title']}. "
-    prompt += f"Provide diagnostics based on these live scores: {json.dumps(live_inputs)}."
+    # NEW: Injecting the headlines into the prompt for citation
+    top_headlines_text = " | ".join([a['title'] for a in all_alerts[:15]])
+    
+    prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}. Top driver: {top_driver}. "
+    prompt += f"Live Scores: {json.dumps(live_inputs)}. "
+    prompt += f"LATEST GLOBAL NEWS TO CITE: {top_headlines_text}. "
+    prompt += "Generate the main narrative and the 8 pillar diagnostics based strictly on these live news alerts."
     
     print("Generating Interactive AI Diagnostics...")
     ai_response = call_gemini(prompt)
@@ -209,7 +212,7 @@ def calculate_agri():
         "Top_Risk_Driver": top_driver,
         "AI_Brief": ai_response.get("main_brief", "Error loading main brief."),
         "Pillar_Scores": live_inputs, 
-        "Pillar_Narratives": ai_response.get("pillar_narratives", {}), # Saving the 8 diagnostics
+        "Pillar_Narratives": ai_response.get("pillar_narratives", {}),
         "All_Alerts": all_alerts, 
         "Last_Updated": datetime.datetime.utcnow().isoformat() + "Z"
     }
