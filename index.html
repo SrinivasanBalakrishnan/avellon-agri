@@ -27,11 +27,19 @@
                 <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight uppercase text-white drop-shadow-lg">Avellon Global Risk Index</h1>
                 <p class="text-xs md:text-sm text-sky-400 mt-1 uppercase tracking-widest font-semibold">Quantifying global chaos in real-time, helps to Measuring risk velocity instantly</p>
             </div>
-            <div class="text-right hidden md:block">
-                <p class="text-xs text-gray-400 uppercase tracking-widest">Network: <span class="text-emerald-400 font-bold animate-pulse">SECURE / LIVE</span></p>
-                <p class="text-xs text-gray-500 data-font mt-1" id="agri-updated">--</p>
+           <div class="text-right hidden md:block">
+                <div class="flex items-center justify-end space-x-4 mb-1">
+                    <p class="text-[10px] text-gray-400 uppercase tracking-widest">Network: <span class="text-emerald-400 font-bold animate-pulse">SECURE / LIVE</span></p>
+                    <div class="flex space-x-2 text-[10px] font-bold tracking-widest text-gray-600 border-l border-white/10 pl-4">
+                        <button onclick="setTimezone('UTC', 'GMT')" id="tz-GMT" class="hover:text-sky-400 transition text-sky-400">GMT</button>
+                        <button onclick="setTimezone('America/New_York', 'EST')" id="tz-EST" class="hover:text-sky-400 transition">EST</button>
+                        <button onclick="setTimezone('Europe/London', 'LON')" id="tz-LON" class="hover:text-sky-400 transition">LON</button>
+                        <button onclick="setTimezone('Asia/Tokyo', 'TYO')" id="tz-TYO" class="hover:text-sky-400 transition">TYO</button>
+                        <button onclick="setTimezone('Asia/Kolkata', 'IST')" id="tz-IST" class="hover:text-sky-400 transition">IST</button>
+                    </div>
+                </div>
+                <p class="text-xs text-gray-300 data-font mt-1" id="live-clock">--</p>
             </div>
-        </div>
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
             <div class="glass-panel p-6 relative overflow-hidden"><div class="absolute top-0 right-0 w-1.5 h-full bg-red-500 shadow-[0_0_15px_#ef4444]"></div>
@@ -129,7 +137,6 @@
                 document.getElementById('agri-acceleration').innerText = data.Acceleration || "N/A";
                 document.getElementById('agri-brief').innerText = data.AI_Brief;
                 document.getElementById('agri-driver').innerText = data.Top_Risk_Driver;
-                document.getElementById('agri-updated').innerText = new Date(data.Last_Updated).toUTCString();
 
                 // 8 Pillars
                 if(data.Pillar_Scores) {
@@ -253,6 +260,38 @@
         }
 
         window.toggleMethodology = function() { document.getElementById('methodology-modal').classList.toggle('hidden'); }
+
+        // --- LIVE MULTI-TIMEZONE CLOCK ---
+        let currentTZ = 'UTC';
+        let currentTZLabel = 'GMT';
+
+        function setTimezone(tz, label) {
+            currentTZ = tz;
+            currentTZLabel = label;
+            
+            // Update button UI highlights
+            const btns = ['GMT', 'EST', 'LON', 'TYO', 'IST'];
+            btns.forEach(id => {
+                document.getElementById('tz-' + id).className = "hover:text-sky-400 transition text-gray-600";
+            });
+            document.getElementById('tz-' + label).className = "hover:text-sky-400 transition text-sky-400";
+            updateClock();
+        }
+
+        function updateClock() {
+            const now = new Date();
+            const options = { 
+                weekday: 'short', day: '2-digit', month: 'short', year: 'numeric', 
+                hour: '2-digit', minute: '2-digit', second: '2-digit', 
+                timeZone: currentTZ, hour12: false 
+            };
+            const timeString = new Intl.DateTimeFormat('en-GB', options).format(now).replace(',', '');
+            document.getElementById('live-clock').innerText = `${timeString} ${currentTZLabel}`;
+        }
+
+        // Start the clock ticking every second
+        setInterval(updateClock, 1000);
+        updateClock();
         
         fetchAGRIData();
     </script>
