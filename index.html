@@ -22,12 +22,13 @@
     <div class="ticker-wrap py-1.5"><div class="ticker data-font" id="live-ticker">INITIALIZING AVELLON GLOBAL FEEDS...</div></div>
 
     <div class="flex-grow p-4 md:p-8 max-w-7xl mx-auto w-full">
+        
         <div class="flex justify-between items-end border-b border-white/10 pb-4 mb-8">
             <div>
                 <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight uppercase text-white drop-shadow-lg">Avellon Global Risk Index</h1>
                 <p class="text-xs md:text-sm text-sky-400 mt-1 uppercase tracking-widest font-semibold">Quantifying global chaos in real-time, helps to Measuring risk velocity instantly</p>
             </div>
-           <div class="text-right hidden md:block">
+            <div class="text-right hidden md:block">
                 <div class="flex items-center justify-end space-x-4 mb-1">
                     <p class="text-[10px] text-gray-400 uppercase tracking-widest">Network: <span class="text-emerald-400 font-bold animate-pulse">SECURE / LIVE</span></p>
                     <div class="flex space-x-2 text-[10px] font-bold tracking-widest text-gray-600 border-l border-white/10 pl-4">
@@ -40,7 +41,7 @@
                 </div>
                 <p class="text-xs text-gray-300 data-font mt-1" id="live-clock">--</p>
             </div>
-
+        </div>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
             <div class="glass-panel p-6 relative overflow-hidden"><div class="absolute top-0 right-0 w-1.5 h-full bg-red-500 shadow-[0_0_15px_#ef4444]"></div>
                 <p class="text-xs text-gray-400 uppercase tracking-widest font-semibold mb-2">AGRI Score</p>
@@ -56,7 +57,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div class="space-y-8 lg:col-span-1">
                 <div class="glass-panel p-6">
-                    <h2 class="text-xs font-bold uppercase tracking-widest border-b border-white/10 pb-3 mb-5 text-sky-300">Root-cause for Vulnerability </h2>
+                    <h2 class="text-xs font-bold uppercase tracking-widest border-b border-white/10 pb-3 mb-5 text-sky-300">Root-cause for Vulnerability</h2>
                     <div id="pillar-grid" class="space-y-3"><p class="text-xs text-gray-500 italic">Decrypting index data...</p></div>
                 </div>
                 
@@ -188,7 +189,6 @@
             if(timeframe === '1Q') { count = 6; labels = ['Mo -3', 'Mo -2', 'Mo -1', 'Wk -3', 'Wk -1', 'Now']; volatility = 5.0; }
             if(timeframe === '1Y') { count = 12; labels = ['M-11', 'M-10', 'M-9', 'M-8', 'M-7', 'M-6', 'M-5', 'M-4', 'M-3', 'M-2', 'M-1', 'Now']; volatility = 8.0; }
 
-            // Reverse calculate the random walk from the actual current score
             points.push(endScore);
             let currentVal = endScore;
             for(let i=1; i<count; i++) {
@@ -269,7 +269,6 @@
             currentTZ = tz;
             currentTZLabel = label;
             
-            // Update button UI highlights
             const btns = ['GMT', 'EST', 'LON', 'TYO', 'IST'];
             btns.forEach(id => {
                 document.getElementById('tz-' + id).className = "hover:text-sky-400 transition text-gray-600";
@@ -289,7 +288,6 @@
             document.getElementById('live-clock').innerText = `${timeString} ${currentTZLabel}`;
         }
 
-        // Start the clock ticking every second
         setInterval(updateClock, 1000);
         updateClock();
         
