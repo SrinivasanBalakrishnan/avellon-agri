@@ -115,8 +115,8 @@
     <div class="mt-auto border-t border-white/10 p-6 text-center bg-black/40 backdrop-blur-md flex flex-col items-center">
         <p class="text-xs text-gray-500 uppercase tracking-widest mb-3">Avellon Intelligence Proprietary Framework | Terminal Architecture V2.0</p>
         <div class="flex space-x-4">
-            <button onclick="toggleMethodology()" class="text-xs text-emerald-400 hover:text-emerald-300 transition border border-emerald-400/30 px-3 py-1.5 rounded">View Methodology</button>
-            <a href="mailto:contact@avellonintelligence.com?subject=API Key Request: Avellon Global Risk Index" class="text-xs text-sky-400 hover:text-sky-300 transition border border-sky-400/30 px-3 py-1.5 rounded">Request API Access</a>
+            <button onclick="toggleMethodology()" class="text-xs text-emerald-400 hover:text-emerald-300 transition border border-emerald-400/30 px-3 py-1.5 rounded cursor-pointer">View Methodology</button>
+            <button onclick="toggleApiModal()" class="text-xs text-sky-400 hover:text-sky-300 transition border border-sky-400/30 px-3 py-1.5 rounded cursor-pointer">Request API Access</button>
         </div>
     </div>
 
@@ -126,6 +126,20 @@
             <h2 class="text-2xl font-bold text-white mb-2 uppercase tracking-widest border-b border-white/10 pb-4">AGRI Methodology</h2>
             <p class="text-sm text-gray-300 mb-6 font-light">The engine utilizes live APIs and VADER Natural Language Processing coupled with custom Business Impact Keyword scoring to capture systemic acceleration.</p>
             <button onclick="toggleMethodology()" class="w-full mt-2 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Close</button>
+        </div>
+    </div>
+
+    <div id="api-modal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+        <div class="glass-panel w-full max-w-2xl p-8 relative border-sky-500/30 shadow-[0_0_30px_rgba(56,189,248,0.1)] text-center">
+            <button onclick="toggleApiModal()" class="absolute top-5 right-5 text-gray-400 hover:text-white text-2xl leading-none">&times;</button>
+            <h2 class="text-xl md:text-2xl font-bold text-white mb-4 uppercase tracking-widest border-b border-white/10 pb-4">Enterprise API Integration</h2>
+            <p class="text-sm md:text-base text-gray-300 mb-8 font-light leading-relaxed">
+                We welcome institutional partners and enterprises to integrate the Avellon Global Risk Index into their proprietary systems. To request secure API keys and discuss bespoke data feeds, please reach out to our team via the contact section on our corporate website.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4">
+                <a href="https://www.avellonintelligence.com/" target="_blank" class="py-3 px-6 bg-sky-500/20 hover:bg-sky-500/30 border border-sky-500/50 rounded text-xs md:text-sm text-sky-300 font-bold uppercase tracking-widest transition shadow-[0_0_15px_rgba(56,189,248,0.1)]">Visit Avellon Intelligence</a>
+                <button onclick="toggleApiModal()" class="py-3 px-6 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-xs md:text-sm text-white font-bold uppercase tracking-widest transition">Return to Terminal</button>
+            </div>
         </div>
     </div>
 
@@ -142,7 +156,7 @@
             
             <p id="modal-pillar-desc" class="text-sm text-gray-200 leading-relaxed font-light mb-6">Loading diagnostic reasoning...</p>
             
-            <button onclick="closePillarModal()" class="w-full mt-2 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Return to Index</button>
+            <button onclick="closePillarModal()" class="w-full mt-2 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Return to Terminal</button>
         </div>
     </div>
 
@@ -152,7 +166,7 @@
         let globalChartType = 'line';
         let globalTimeframe = '1W';
         let globalAllAlerts = []; 
-        let globalPillarNarratives = {}; // Store the new AI data
+        let globalPillarNarratives = {};
 
         async function fetchAGRIData() {
             try {
@@ -160,7 +174,7 @@
                 const data = await response.json();
 
                 globalCurrentScore = parseFloat(data.AGRI_Score);
-                globalPillarNarratives = data.Pillar_Narratives || {}; // Fetch diagnostics
+                globalPillarNarratives = data.Pillar_Narratives || {};
 
                 document.getElementById('agri-score').innerText = data.AGRI_Score;
                 document.getElementById('agri-velocity').innerText = data.Velocity;
@@ -168,7 +182,6 @@
                 document.getElementById('agri-brief').innerText = data.AI_Brief;
                 document.getElementById('agri-driver').innerText = data.Top_Risk_Driver;
 
-                // 8 Pillars (NOW CLICKABLE)
                 if(data.Pillar_Scores) {
                     const grid = document.getElementById('pillar-grid'); grid.innerHTML = ''; 
                     Object.entries(data.Pillar_Scores).sort((a,b)=>b[1]-a[1]).forEach(([name, score]) => {
@@ -176,7 +189,6 @@
                         if(score>=60){c="text-amber-400"; b="bg-amber-500/10 border-amber-500/20";}
                         if(score>=75){c="text-red-400"; b="bg-red-500/10 border-red-500/30";}
                         
-                        // Added cursor-pointer, hover glow, and onclick function
                         grid.innerHTML += `<div onclick="openPillarModal('${name}', ${score.toFixed(1)})" class="cursor-pointer flex justify-between items-center p-2.5 rounded-lg border ${b} transition-all hover:bg-white/10 hover:shadow-[0_0_10px_rgba(255,255,255,0.1)]"><span class="text-xs font-semibold text-gray-300 truncate mr-2">${name}</span><span class="text-sm font-bold data-font ${c} drop-shadow">${score.toFixed(1)}</span></div>`;
                     });
                 }
@@ -196,10 +208,9 @@
             } catch (error) { console.error("Data fetch error:", error); }
         }
 
-        // --- NEW MODAL CONTROLLERS ---
+        // --- MODAL CONTROLLERS ---
         window.openPillarModal = function(name, score) {
             document.getElementById('modal-pillar-title').innerText = name;
-            
             let colorClass = "text-emerald-400";
             if (score >= 60) colorClass = "text-amber-400";
             if (score >= 75) colorClass = "text-red-400";
@@ -214,9 +225,9 @@
             document.getElementById('pillar-modal').classList.remove('hidden');
         }
 
-        window.closePillarModal = function() {
-            document.getElementById('pillar-modal').classList.add('hidden');
-        }
+        window.closePillarModal = function() { document.getElementById('pillar-modal').classList.add('hidden'); }
+        window.toggleMethodology = function() { document.getElementById('methodology-modal').classList.toggle('hidden'); }
+        window.toggleApiModal = function() { document.getElementById('api-modal').classList.toggle('hidden'); }
 
         window.switchAlertTab = function(severity) {
             const styles = {
@@ -279,8 +290,6 @@
             });
             renderChart();
         }
-
-        window.toggleMethodology = function() { document.getElementById('methodology-modal').classList.toggle('hidden'); }
 
         let currentTZ = 'UTC'; let currentTZLabel = 'GMT';
         function setTimezone(tz, label) {
