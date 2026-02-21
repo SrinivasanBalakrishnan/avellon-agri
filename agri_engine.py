@@ -34,7 +34,6 @@ MEDIUM_IMPACT_KEYWORDS = [
 global_alerts = []
 
 def classify_risk(text):
-    """Classifies risk based on specific Fortune 500 business threats."""
     text_lower = text.lower()
     high_score = sum(1 for k in HIGH_IMPACT_KEYWORDS if k in text_lower)
     medium_score = sum(1 for k in MEDIUM_IMPACT_KEYWORDS if k in text_lower)
@@ -99,43 +98,60 @@ def fetch_nlp_news_risk(query, baseline):
                 title = item.find('title').text
                 severity = classify_risk(title)
                 
-                # Prevent duplicate alerts across pillars
                 if not any(a['title'] == title for a in global_alerts):
                     global_alerts.append({"title": title, "severity": severity})
                 
-                # NLP Sentiment Math
                 sentiment = sia.polarity_scores(title)['compound']
                 if sentiment < -0.3: risk_modifier += 0.8
                 elif sentiment > 0.3: risk_modifier -= 0.4
                 
-                # Business Impact Math
                 if severity == "HIGH": risk_modifier += 1.5
                 elif severity == "MEDIUM": risk_modifier += 0.5
                         
             final_risk = baseline - 5 + risk_modifier + (len(items) * 0.2)
             return round(min(max(final_risk, 20), 100), 1)
     except Exception as e:
-        print(f"News error: {e}")
         return baseline
 
-# --- 4. AI INTERPRETATION LAYER ---
+# --- 4. ADVANCED AI INTERPRETATION LAYER (NOW EXPORTS JSON) ---
 def call_gemini(prompt):
     api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key: return "AI Error: API Key not found."
+    if not api_key: return {"main_brief": "AI Error: API Key not found.", "pillar_narratives": {}}
     
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
+    
+    # We strictly instruct the AI to output a JSON dictionary
+    sys_instruction = """You are the Avellon Risk AI. You MUST respond with a valid JSON object ONLY. Format:
+    {
+      "main_brief": "A 130-word clinical narrative explaining the top risk driver and highest priority global alert.",
+      "pillar_narratives": {
+        "Geopolitical Conflict Intensity": "1-2 sentence diagnostic explaining the current risk level for this specific sector.",
+        "Energy & Maritime Disruption": "1-2 sentence diagnostic...",
+        "Trade & Supply Chain Stress": "1-2 sentence diagnostic...",
+        "Sovereign Financial Stress": "1-2 sentence diagnostic...",
+        "Currency & Liquidity Pressure": "1-2 sentence diagnostic...",
+        "Sanctions & Regulatory Fragmentation": "1-2 sentence diagnostic...",
+        "Cyber & Infrastructure Threats": "1-2 sentence diagnostic...",
+        "Climate & Resource Shock": "1-2 sentence diagnostic..."
+      }
+    }"""
+    
     data = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "systemInstruction": {"parts": [{"text": "You are the Avellon Risk AI. Write a 130-word incident-based narrative. Do not just list metrics. Tell a story about specific geopolitical events, country-level crises, or market shocks driving the score today. Explain the real-world cascading effects on logistics, energy, or diplomacy. Be clinical but compelling."}]}
+        "systemInstruction": {"parts": [{"text": sys_instruction}]},
+        "generationConfig": {"responseMimeType": "application/json"} # Forces AI to return JSON
     }
+    
     req = urllib.request.Request(url, data=json.dumps(data).encode("utf-8"), headers={"Content-Type": "application/json"})
     
     try:
         with urllib.request.urlopen(req) as response:
             result = json.loads(response.read().decode("utf-8"))
-            return result["candidates"][0]["content"]["parts"][0]["text"].strip()
+            raw_text = result["candidates"][0]["content"]["parts"][0]["text"].strip()
+            return json.loads(raw_text)
     except Exception as e:
-        return f"AI Generation Failed: {str(e)}"
+        print(f"AI Generation Failed: {str(e)}")
+        return {"main_brief": "System error generating narrative.", "pillar_narratives": {}}
 
 # --- 5. MASTER CALCULATOR ---
 def calculate_agri():
@@ -173,37 +189,35 @@ def calculate_agri():
     
     top_driver = max(live_inputs, key=live_inputs.get)
     
-    # Sort ALL alerts by highest severity to populate the UI Tabs
     severity_map = {"HIGH": 3, "MEDIUM": 2, "WATCH": 1}
     global_alerts.sort(key=lambda x: severity_map.get(x["severity"], 0), reverse=True)
     all_alerts = global_alerts[:40] 
     
     if not all_alerts: all_alerts = [{"title": "SYSTEM ALERT: NO CRITICAL EVENTS DETECTED", "severity": "WATCH"}]
     
-    # Pass the actual highest-priority news to Gemini
     prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}. Top driver: {top_driver} at {live_inputs[top_driver]}. "
     prompt += f"Today's highest priority global alert: {all_alerts[0]['title']}. "
-    prompt += f"Geo: {live_inputs['Geopolitical Conflict Intensity']}, Energy: {live_inputs['Energy & Maritime Disruption']}, "
-    prompt += f"Trade: {live_inputs['Trade & Supply Chain Stress']}, Cyber: {live_inputs['Cyber & Infrastructure Threats']}."
+    prompt += f"Provide diagnostics based on these live scores: {json.dumps(live_inputs)}."
     
-    print("Generating Avellon Intelligence Narrative...")
-    ai_brief = call_gemini(prompt)
+    print("Generating Interactive AI Diagnostics...")
+    ai_response = call_gemini(prompt)
 
     agri_data = {
         "AGRI_Score": current_agri,
         "Velocity": str_velocity,
         "Acceleration": "N/A",
         "Top_Risk_Driver": top_driver,
-        "AI_Brief": ai_brief,
+        "AI_Brief": ai_response.get("main_brief", "Error loading main brief."),
         "Pillar_Scores": live_inputs, 
-        "All_Alerts": all_alerts, # Exporting expanded list
+        "Pillar_Narratives": ai_response.get("pillar_narratives", {}), # Saving the 8 diagnostics
+        "All_Alerts": all_alerts, 
         "Last_Updated": datetime.datetime.utcnow().isoformat() + "Z"
     }
     
     with open("data.json", "w") as json_file:
         json.dump(agri_data, json_file, indent=4)
         
-    print(f"Avellon AGRI Engine calculated score: {current_agri}. System fully autonomous.")
+    print(f"Avellon AGRI Engine calculated score: {current_agri}. Diagnostics active.")
 
 if __name__ == "__main__":
     calculate_agri()
