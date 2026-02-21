@@ -42,6 +42,7 @@
                 <p class="text-xs text-gray-300 data-font mt-1" id="live-clock">--</p>
             </div>
         </div>
+
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
             <div class="glass-panel p-6 relative overflow-hidden"><div class="absolute top-0 right-0 w-1.5 h-full bg-red-500 shadow-[0_0_15px_#ef4444]"></div>
                 <p class="text-xs text-gray-400 uppercase tracking-widest font-semibold mb-2">AGRI Score</p>
@@ -62,8 +63,17 @@
                 </div>
                 
                 <div class="glass-panel p-6 border-l-2 border-l-amber-500/50">
-                    <h2 class="text-xs font-bold uppercase tracking-widest border-b border-white/10 pb-3 mb-5 text-amber-400">Active Global Alerts</h2>
-                    <div id="alerts-grid" class="space-y-3"><p class="text-xs text-gray-500 italic">Scanning global intel...</p></div>
+                    <h2 class="text-xs font-bold uppercase tracking-widest border-b border-white/10 pb-3 mb-4 text-amber-400">Active Global Alerts</h2>
+                    
+                    <div class="grid grid-cols-3 gap-2 mb-4">
+                        <button onclick="switchAlertTab('HIGH')" id="tab-HIGH" class="py-2 rounded border text-[10px] md:text-xs font-bold uppercase tracking-wider transition bg-red-500/20 text-red-400 border-red-500/50 shadow-[0_0_10px_rgba(239,68,68,0.2)]">HIGH</button>
+                        <button onclick="switchAlertTab('MEDIUM')" id="tab-MEDIUM" class="py-2 rounded border text-[10px] md:text-xs font-bold uppercase tracking-wider transition bg-black/20 text-gray-500 border-white/10 hover:border-amber-500/30 hover:text-amber-400">MED</button>
+                        <button onclick="switchAlertTab('WATCH')" id="tab-WATCH" class="py-2 rounded border text-[10px] md:text-xs font-bold uppercase tracking-wider transition bg-black/20 text-gray-500 border-white/10 hover:border-emerald-500/30 hover:text-emerald-400">WATCH</button>
+                    </div>
+
+                    <div id="alerts-grid" class="space-y-2 overflow-y-auto max-h-56 pr-1">
+                        <p class="text-xs text-gray-500 italic">Scanning global intel...</p>
+                    </div>
                 </div>
             </div>
 
@@ -124,13 +134,13 @@
         let globalCurrentScore = 0;
         let globalChartType = 'line';
         let globalTimeframe = '1W';
+        let globalAllAlerts = []; // Array to store all alerts
 
         async function fetchAGRIData() {
             try {
                 const response = await fetch('data.json?t=' + new Date().getTime());
                 const data = await response.json();
 
-                // Save score globally for the chart recalculations
                 globalCurrentScore = parseFloat(data.AGRI_Score);
 
                 document.getElementById('agri-score').innerText = data.AGRI_Score;
@@ -150,146 +160,114 @@
                     });
                 }
 
-                // Active Global Alerts
-                if(data.Top_Alerts) {
-                    const alertsGrid = document.getElementById('alerts-grid'); alertsGrid.innerHTML = '';
+                // Initialize Alerts and Ticker
+                if(data.All_Alerts || data.Top_Alerts) {
+                    globalAllAlerts = data.All_Alerts || data.Top_Alerts;
+                    
                     let tickerArray = [];
-                    data.Top_Alerts.forEach(alert => {
-                        let badgeColor = alert.severity === "HIGH" ? "bg-red-500/20 text-red-400 border-red-500/30" : alert.severity === "MEDIUM" ? "bg-amber-500/20 text-amber-400 border-amber-500/30" : "bg-emerald-500/20 text-emerald-400 border-emerald-500/30";
-                        alertsGrid.innerHTML += `
-                            <div class="p-2.5 rounded-lg border border-white/5 bg-black/20 mb-2">
-                                <div class="flex justify-between items-center mb-1">
-                                    <span class="text-[0.65rem] font-bold px-2 py-0.5 rounded border uppercase tracking-wider ${badgeColor}">${alert.severity} PRIORITY</span>
-                                </div>
-                                <p class="text-xs text-gray-300 leading-tight">${alert.title}</p>
-                            </div>`;
+                    globalAllAlerts.slice(0, 5).forEach(alert => {
                         tickerArray.push(`[${alert.severity}] ${alert.title}`);
                     });
                     document.getElementById('live-ticker').innerText = "LIVE GLOBAL FEEDS: // " + tickerArray.join(" // ") + " // SYSTEM NOMINAL // ";
+                    
+                    // Render default HIGH tab
+                    switchAlertTab('HIGH');
                 } else if (data.Top_Headlines) {
                     document.getElementById('live-ticker').innerText = "LIVE GLOBAL FEEDS: // " + data.Top_Headlines.join(" // ") + " // SYSTEM NOMINAL // ";
                 }
 
-                // Initial Chart Render
                 renderChart();
 
             } catch (error) { console.error("Data fetch error:", error); }
         }
 
-        // --- SIMULATED HISTORICAL CHART GENERATOR ---
-        function generateTrendData(timeframe, endScore) {
-            let points = [];
-            let labels = [];
-            let count = 7; 
-            let volatility = 2.0;
+        // --- NEW TABBED ALERTS LOGIC ---
+        window.switchAlertTab = function(severity) {
+            const styles = {
+                'HIGH': { active: 'bg-red-500/20 text-red-400 border-red-500/50 shadow-[0_0_10px_rgba(239,68,68,0.2)]', inactive: 'bg-black/20 text-gray-500 border-white/10 hover:border-red-500/30 hover:text-red-400' },
+                'MEDIUM': { active: 'bg-amber-500/20 text-amber-400 border-amber-500/50 shadow-[0_0_10px_rgba(245,158,11,0.2)]', inactive: 'bg-black/20 text-gray-500 border-white/10 hover:border-amber-500/30 hover:text-amber-400' },
+                'WATCH': { active: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/50 shadow-[0_0_10px_rgba(16,185,129,0.2)]', inactive: 'bg-black/20 text-gray-500 border-white/10 hover:border-emerald-500/30 hover:text-emerald-400' }
+            };
 
+            ['HIGH', 'MEDIUM', 'WATCH'].forEach(key => {
+                const btn = document.getElementById('tab-' + key);
+                btn.className = `py-2 rounded border text-[10px] md:text-xs font-bold uppercase tracking-wider transition ${key === severity ? styles[key].active : styles[key].inactive}`;
+            });
+
+            const grid = document.getElementById('alerts-grid');
+            grid.innerHTML = '';
+            
+            const filteredAlerts = globalAllAlerts.filter(a => a.severity === severity);
+            
+            if (filteredAlerts.length === 0) {
+                grid.innerHTML = `<p class="text-xs text-gray-500 italic py-4 text-center">No active ${severity} alerts detected.</p>`;
+                return;
+            }
+
+            let borderColor = severity === "HIGH" ? "border-l-red-500/50" : severity === "MEDIUM" ? "border-l-amber-500/50" : "border-l-emerald-500/50";
+
+            filteredAlerts.slice(0, 10).forEach(alert => {
+                grid.innerHTML += `
+                    <div class="p-3 rounded-r-lg border border-white/5 border-l-2 ${borderColor} bg-black/20 mb-2 transition hover:bg-white/5">
+                        <p class="text-xs text-gray-300 leading-snug">${alert.title}</p>
+                    </div>`;
+            });
+        }
+
+        function generateTrendData(timeframe, endScore) {
+            let points = []; let labels = []; let count = 7; let volatility = 2.0;
             if(timeframe === '1D') { count = 8; labels = ['-21h','-18h','-15h','-12h','-9h','-6h','-3h','Now']; volatility = 0.8; }
             if(timeframe === '1W') { count = 7; labels = ['T-6d','T-5d','T-4d','T-3d','T-2d','T-1d','Now']; volatility = 1.5; }
             if(timeframe === '1M') { count = 8; labels = ['Wk -4', 'Wk -3', 'Wk -2', 'Wk -1', 'T-14d', 'T-7d', 'T-3d', 'Now']; volatility = 3.5; }
             if(timeframe === '1Q') { count = 6; labels = ['Mo -3', 'Mo -2', 'Mo -1', 'Wk -3', 'Wk -1', 'Now']; volatility = 5.0; }
             if(timeframe === '1Y') { count = 12; labels = ['M-11', 'M-10', 'M-9', 'M-8', 'M-7', 'M-6', 'M-5', 'M-4', 'M-3', 'M-2', 'M-1', 'Now']; volatility = 8.0; }
 
-            points.push(endScore);
-            let currentVal = endScore;
+            points.push(endScore); let currentVal = endScore;
             for(let i=1; i<count; i++) {
                 let drift = (Math.random() - 0.5) * volatility;
                 currentVal = currentVal - drift;
                 currentVal = Math.min(Math.max(currentVal, 40), 95); 
                 points.push(currentVal);
             }
-            points.reverse(); 
-            points = points.map(p => parseFloat(p.toFixed(1)));
-            points[points.length-1] = endScore; 
-            
+            points.reverse(); points = points.map(p => parseFloat(p.toFixed(1))); points[points.length-1] = endScore; 
             return { labels, points };
         }
 
         function renderChart() {
             const ctx = document.getElementById('agriChart').getContext('2d');
             if (myChart) myChart.destroy();
-            
             const trend = generateTrendData(globalTimeframe, globalCurrentScore);
-
             myChart = new Chart(ctx, { 
                 type: globalChartType, 
-                data: { 
-                    labels: trend.labels, 
-                    datasets: [{ 
-                        label: 'AGRI Base Score', 
-                        data: trend.points, 
-                        borderColor: '#38bdf8', 
-                        backgroundColor: globalChartType === 'line' ? 'rgba(56, 189, 248, 0.1)' : 'rgba(56, 189, 248, 0.4)', 
-                        borderWidth: 2, 
-                        tension: 0.4, 
-                        fill: true, 
-                        pointRadius: 4, 
-                        pointBackgroundColor: '#fff' 
-                    }] 
-                }, 
-                options: { 
-                    responsive: true, 
-                    maintainAspectRatio: false, 
-                    plugins: { legend: { display: false } }, 
-                    scales: { 
-                        y: { min: 40, max: 100, grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', font: {family: 'monospace'} } }, 
-                        x: { grid: { display: false }, ticks: { color: '#94a3b8' } } 
-                    } 
-                } 
+                data: { labels: trend.labels, datasets: [{ label: 'AGRI Base Score', data: trend.points, borderColor: '#38bdf8', backgroundColor: globalChartType === 'line' ? 'rgba(56, 189, 248, 0.1)' : 'rgba(56, 189, 248, 0.4)', borderWidth: 2, tension: 0.4, fill: true, pointRadius: 4, pointBackgroundColor: '#fff' }] }, 
+                options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { min: 40, max: 100, grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#94a3b8', font: {family: 'monospace'} } }, x: { grid: { display: false }, ticks: { color: '#94a3b8' } } } } 
             });
         }
 
-        // --- EXPOSED UI CONTROLLERS ---
-        window.toggleChartType = function(type) { 
-            globalChartType = type;
-            renderChart();
-        }
-
+        window.toggleChartType = function(type) { globalChartType = type; renderChart(); }
         window.updateChartTimeframe = function(timeframe) {
             globalTimeframe = timeframe;
-            
             const btns = ['1D', '1W', '1M', '1Q', '1Y'];
             btns.forEach(id => {
-                const btn = document.getElementById('btn-' + id);
-                if(id === timeframe) {
-                    btn.className = "text-[10px] md:text-xs bg-sky-500/20 text-sky-300 px-2 py-1 rounded border border-sky-500/30 transition";
-                } else {
-                    btn.className = "text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition";
-                }
+                document.getElementById('btn-' + id).className = id === timeframe ? "text-[10px] md:text-xs bg-sky-500/20 text-sky-300 px-2 py-1 rounded border border-sky-500/30 transition" : "text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition";
             });
             renderChart();
         }
 
         window.toggleMethodology = function() { document.getElementById('methodology-modal').classList.toggle('hidden'); }
 
-        // --- LIVE MULTI-TIMEZONE CLOCK ---
-        let currentTZ = 'UTC';
-        let currentTZLabel = 'GMT';
-
+        let currentTZ = 'UTC'; let currentTZLabel = 'GMT';
         function setTimezone(tz, label) {
-            currentTZ = tz;
-            currentTZLabel = label;
-            
-            const btns = ['GMT', 'EST', 'LON', 'TYO', 'IST'];
-            btns.forEach(id => {
-                document.getElementById('tz-' + id).className = "hover:text-sky-400 transition text-gray-600";
-            });
+            currentTZ = tz; currentTZLabel = label;
+            ['GMT', 'EST', 'LON', 'TYO', 'IST'].forEach(id => { document.getElementById('tz-' + id).className = "hover:text-sky-400 transition text-gray-600"; });
             document.getElementById('tz-' + label).className = "hover:text-sky-400 transition text-sky-400";
             updateClock();
         }
-
         function updateClock() {
-            const now = new Date();
-            const options = { 
-                weekday: 'short', day: '2-digit', month: 'short', year: 'numeric', 
-                hour: '2-digit', minute: '2-digit', second: '2-digit', 
-                timeZone: currentTZ, hour12: false 
-            };
-            const timeString = new Intl.DateTimeFormat('en-GB', options).format(now).replace(',', '');
+            const timeString = new Intl.DateTimeFormat('en-GB', { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', timeZone: currentTZ, hour12: false }).format(new Date()).replace(',', '');
             document.getElementById('live-clock').innerText = `${timeString} ${currentTZLabel}`;
         }
-
-        setInterval(updateClock, 1000);
-        updateClock();
+        setInterval(updateClock, 1000); updateClock();
         
         fetchAGRIData();
     </script>
