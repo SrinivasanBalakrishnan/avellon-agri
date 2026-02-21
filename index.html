@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avellon Intelligence | Global Risk Terminal</title>
+    <title>Avellon Intelligence | Global Risk Index</title>
     <link rel="icon" href="Z (58).png" type="image/png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -126,9 +126,9 @@
     </div>
 
     <div class="mt-auto border-t border-white/10 p-6 text-center bg-black/40 backdrop-blur-md flex flex-col items-center">
-        <p class="text-xs text-gray-500 uppercase tracking-widest mb-3">Avellon Intelligence Proprietary Framework | Terminal Architecture V2.0</p>
+        <p class="text-xs text-gray-500 uppercase tracking-widest mb-3">Avellon Intelligence Proprietary Framework | Global Risk Index Architecture V2.0</p>
         <div class="flex space-x-4">
-            <button onclick="toggleMethodology()" class="text-xs text-emerald-400 hover:text-emerald-300 transition border border-emerald-400/30 px-3 py-1.5 rounded cursor-pointer">Intelligence Framework & Guide</button>
+            <button onclick="toggleMethodology()" class="text-xs text-emerald-400 hover:text-emerald-300 transition border border-emerald-400/30 px-3 py-1.5 rounded cursor-pointer">AGRI Framework & Guide</button>
             <button onclick="toggleApiModal()" class="text-xs text-sky-400 hover:text-sky-300 transition border border-sky-400/30 px-3 py-1.5 rounded cursor-pointer">Request API Access</button>
         </div>
     </div>
@@ -138,7 +138,7 @@
         <div class="glass-panel w-full max-w-lg p-8 relative border-sky-500/50 shadow-[0_0_40px_rgba(56,189,248,0.2)] text-center pointer-events-auto">
             <p class="text-[10px] text-sky-400 uppercase tracking-widest font-bold mb-2" id="tour-step-counter">Step 1 of 5</p>
             <h2 id="tour-title" class="text-2xl font-bold text-white mb-4 uppercase tracking-widest">Welcome to Avellon</h2>
-            <p id="tour-desc" class="text-sm text-gray-300 mb-8 font-light leading-relaxed">This terminal quantifies global geopolitical and economic chaos in real-time, helping you measure risk velocity instantly.</p>
+            <p id="tour-desc" class="text-sm text-gray-300 mb-8 font-light leading-relaxed">This index quantifies global geopolitical and economic chaos in real-time, helping you measure risk velocity instantly.</p>
             <div class="flex justify-between items-center">
                 <button onclick="endTour()" class="text-xs text-gray-500 hover:text-gray-300 transition uppercase tracking-widest">Skip Tour</button>
                 <button onclick="nextTourStep()" id="tour-next-btn" class="py-2 px-6 bg-sky-500/20 hover:bg-sky-500/30 border border-sky-500/50 rounded text-sm text-sky-300 font-bold uppercase tracking-widest transition">Begin Tour</button>
@@ -149,10 +149,10 @@
     <div id="methodology-modal" class="fixed inset-0 z-50 hidden bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
         <div class="glass-panel w-full max-w-4xl max-h-[90vh] overflow-y-auto p-6 md:p-8 relative border-sky-500/30 shadow-[0_0_30px_rgba(56,189,248,0.1)]">
             <button onclick="toggleMethodology()" class="absolute top-5 right-5 text-gray-400 hover:text-white text-2xl leading-none">&times;</button>
-            <h2 class="text-xl md:text-2xl font-bold text-white mb-2 uppercase tracking-widest border-b border-white/10 pb-4">Intelligence Framework & Guide</h2>
+            <h2 class="text-xl md:text-2xl font-bold text-white mb-2 uppercase tracking-widest border-b border-white/10 pb-4">Avellon Global Risk Index Framework & Guide</h2>
             <div class="mt-6 mb-6">
                 <h3 class="text-xs font-bold text-sky-400 uppercase tracking-widest mb-3">Strategic Application</h3>
-                <p class="text-sm text-gray-300 font-light leading-relaxed mb-4">The Avellon Global Risk Index (AGRI) quantifies real-time global chaos to measure risk velocity instantly. This terminal is strictly designed for:</p>
+                <p class="text-sm text-gray-300 font-light leading-relaxed mb-4">The Avellon Global Risk Index (AGRI) quantifies real-time global chaos to measure risk velocity instantly. This index is strictly designed for:</p>
                 <ul class="list-disc pl-5 text-sm text-gray-300 font-light space-y-2">
                     <li><strong class="text-white font-medium">Enterprises & Supply Chains:</strong> Anticipate maritime chokepoints and hedge financial exposure against systemic shocks.</li>
                     <li><strong class="text-white font-medium">Governments & Diplomats:</strong> Gauge macro-geopolitical friction and structural vulnerabilities instantly.</li>
@@ -161,7 +161,7 @@
                 </ul>
             </div>
             <div class="mb-6">
-                <h3 class="text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">Terminal Legend & Telemetry</h3>
+                <h3 class="text-xs font-bold text-amber-400 uppercase tracking-widest mb-3">Avellon Global Risk Index Legend & Telemetry</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
                     <div class="p-4 bg-black/20 border border-white/5 rounded">
                         <p class="text-xs text-gray-400 uppercase tracking-widest mb-1">Velocity (24H)</p>
@@ -190,7 +190,7 @@
                 <p class="text-xs text-gray-300 font-light leading-relaxed">Avellon Intelligence encourages journalists, academic researchers, and institutions to utilize and cite the AGRI Score and Avellon Risk Interpretations in publications, journals, and news coverage to provide objective context to global volatility.</p>
             </div>
             <p class="text-[11px] text-gray-500 italic text-center mb-5">Note: We are continuously updating our features for users' elevated experience of better understanding of global risk.</p>
-            <button onclick="toggleMethodology()" class="w-full py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Return to Terminal</button>
+            <button onclick="toggleMethodology()" class="w-full py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Return to Index</button>
         </div>
     </div>
 
@@ -201,7 +201,7 @@
             <p class="text-sm md:text-base text-gray-300 mb-8 font-light leading-relaxed">We welcome institutional partners and enterprises to integrate the Avellon Global Risk Index into their proprietary systems. To request secure API keys and discuss bespoke data feeds, please reach out to our team via the contact section on our corporate website.</p>
             <div class="flex flex-col sm:flex-row justify-center space-y-3 sm:space-y-0 sm:space-x-4">
                 <a href="https://www.avellonintelligence.com/" target="_blank" class="py-3 px-6 bg-sky-500/20 hover:bg-sky-500/30 border border-sky-500/50 rounded text-xs md:text-sm text-sky-300 font-bold uppercase tracking-widest transition shadow-[0_0_15px_rgba(56,189,248,0.1)]">Visit Avellon Intelligence</a>
-                <button onclick="toggleApiModal()" class="py-3 px-6 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-xs md:text-sm text-white font-bold uppercase tracking-widest transition">Return to Terminal</button>
+                <button onclick="toggleApiModal()" class="py-3 px-6 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-xs md:text-sm text-white font-bold uppercase tracking-widest transition">Return to Index</button>
             </div>
         </div>
     </div>
@@ -216,7 +216,7 @@
                 <span id="modal-pillar-score" class="text-3xl font-bold data-font text-white drop-shadow">00.0</span>
             </div>
             <p id="modal-pillar-desc" class="text-sm text-gray-200 leading-relaxed font-light mb-6">Loading diagnostic reasoning...</p>
-            <button onclick="closePillarModal()" class="w-full mt-2 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Return to Terminal</button>
+            <button onclick="closePillarModal()" class="w-full mt-2 py-3 bg-white/5 hover:bg-white/10 border border-white/20 rounded text-sm text-white font-bold uppercase tracking-widest transition">Return to Index</button>
         </div>
     </div>
 
@@ -321,7 +321,7 @@
         // --- INTERACTIVE WALKTHROUGH TOUR LOGIC ---
         let currentTourStep = 0;
         const tourSteps = [
-            { title: "Welcome to Avellon", text: "This terminal quantifies global geopolitical and economic chaos in real-time, allowing you to measure risk velocity instantly.", target: null },
+            { title: "Welcome to Avellon", text: "This Index quantifies global geopolitical and economic chaos in real-time, allowing you to measure risk velocity instantly.", target: null },
             { title: "Macro Telemetry", text: "The top row displays the live AGRI Score, the 24H Velocity (speed of risk), dynamic Acceleration, and the specific Primary Catalyst driving global volatility today.", target: "metrics-row" },
             { title: "Root-Cause Pillars", text: "We break risk down into 8 core sectors. Click on any of these pillars to open an AI-generated diagnostic explaining exactly why that sector is vulnerable right now.", target: "pillars-col" },
             { title: "Active Global Alerts", text: "Filter live breaking news scraped across the globe. Switch between High, Medium, and Watch priority tabs to see what our engine is currently monitoring.", target: "alerts-col" },
