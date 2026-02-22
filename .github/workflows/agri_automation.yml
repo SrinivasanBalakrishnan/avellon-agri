@@ -42,6 +42,6 @@ jobs:
         run: |
           git config --global user.name "AGRI-Bot"
           git config --global user.email "bot@avellonintelligence.com"
-          git add data.json
+          git add -A
           git commit -m "Automated AGRI update" || exit 0
           git push
