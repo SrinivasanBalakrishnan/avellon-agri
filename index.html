@@ -12,27 +12,17 @@
         body { background: radial-gradient(circle at top right, #0a192f, #020617, #000000); color: #e2e8f0; font-family: 'Inter', sans-serif; min-height: 100vh; overflow-x: hidden; }
         .data-font { font-family: 'JetBrains Mono', monospace; }
         .glass-panel { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); border-radius: 0.75rem; }
-        
-        /* Seamless Ticker Update - Slowed down to 150s */
         .ticker-wrap { width: 100%; overflow: hidden; background: rgba(0,0,0,0.8); border-bottom: 1px solid rgba(255,255,255,0.1); white-space: nowrap; box-sizing: border-box; }
         .ticker-content { display: inline-block; white-space: nowrap; padding-left: 0; animation: ticker-seamless 150s linear infinite; font-size: 0.75rem; letter-spacing: 0.05em; text-transform: uppercase; color: #38bdf8;}
         .ticker-content:hover { animation-play-state: paused; cursor: default; }
         @keyframes ticker-seamless { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-
-        /* Custom Scrollbar */
         ::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-track { background: transparent; } ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 10px; }
-
-        /* Interactive Tour CSS - Z-index structured to sit strictly below the Modal Box */
         .tour-highlight { z-index: 101 !important; position: relative !important; outline: 3px solid #38bdf8 !important; outline-offset: 4px; background: rgba(10, 25, 47, 0.95) !important; pointer-events: none; }
     </style>
 </head>
 <body class="flex flex-col relative">
 
-    <div class="ticker-wrap py-1.5">
-        <div class="ticker-content data-font" id="live-ticker">
-            INITIALIZING AVELLON GLOBAL FEEDS... AWAITING SATELLITE UPLINK...
-        </div>
-    </div>
+    <div class="ticker-wrap py-1.5"><div class="ticker-content data-font" id="live-ticker">INITIALIZING AVELLON GLOBAL FEEDS... AWAITING SATELLITE UPLINK...</div></div>
 
     <div class="flex-grow p-4 md:p-8 max-w-7xl mx-auto w-full">
         
@@ -62,23 +52,19 @@
                 <p class="text-5xl font-bold text-white data-font" id="agri-score">--</p></div>
             <div class="glass-panel p-6"><p class="text-xs text-gray-400 uppercase tracking-widest font-semibold mb-2">Velocity (24H)</p>
                 <p class="text-4xl font-bold text-gray-200 data-font" id="agri-velocity">--</p></div>
-            
             <div class="glass-panel p-6 hidden md:block"><p class="text-xs text-gray-400 uppercase tracking-widest font-semibold mb-2">Acceleration</p>
                 <div id="agri-acceleration" class="mt-2 text-gray-500 data-font text-sm">CALCULATING...</div>
             </div>
-            
             <div class="glass-panel p-6 col-span-2 md:col-span-1 border-l-2 border-l-red-500/50"><p class="text-xs text-gray-400 uppercase tracking-widest font-semibold mb-2">Primary Catalyst</p>
                 <p class="text-sm font-bold text-red-400 uppercase leading-tight mt-3 drop-shadow" id="agri-driver">--</p></div>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <div class="space-y-8 lg:col-span-1">
-                
                 <div id="pillars-col" class="glass-panel p-6 transition-all duration-500">
                     <h2 class="text-xs font-bold uppercase tracking-widest border-b border-white/10 pb-3 mb-5 text-sky-300">Root-cause for Vulnerability</h2>
                     <div id="pillar-grid" class="space-y-3"><p class="text-xs text-gray-500 italic">Decrypting index data...</p></div>
                 </div>
-                
                 <div id="alerts-col" class="glass-panel p-6 border-l-2 border-l-amber-500/50 transition-all duration-500">
                     <h2 class="text-xs font-bold uppercase tracking-widest border-b border-white/10 pb-3 mb-4 text-amber-400">Active Global Alerts</h2>
                     <div class="grid grid-cols-3 gap-2 mb-4">
@@ -107,11 +93,12 @@
                         <h2 class="text-xs font-bold uppercase tracking-widest text-sky-300">Risk Velocity Trend</h2>
                         <div class="flex items-center space-x-3">
                             <div class="flex space-x-1">
-                                <button onclick="updateChartTimeframe('1D')" id="btn-1D" class="text-[10px] md:text-xs bg-sky-500/20 text-sky-300 px-2 py-1 rounded border border-sky-500/30 transition">1D</button>
+                                <button onclick="updateChartTimeframe('1D')" id="btn-1D" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">1D</button>
                                 <button onclick="updateChartTimeframe('1W')" id="btn-1W" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">1W</button>
                                 <button onclick="updateChartTimeframe('1M')" id="btn-1M" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">1M</button>
-                                <button onclick="updateChartTimeframe('1Q')" id="btn-1Q" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">1Q</button>
+                                <button onclick="updateChartTimeframe('YTD')" id="btn-YTD" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">YTD</button>
                                 <button onclick="updateChartTimeframe('1Y')" id="btn-1Y" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition">1Y</button>
+                                <button onclick="updateChartTimeframe('MAX')" id="btn-MAX" class="text-[10px] md:text-xs bg-sky-500/20 text-sky-300 px-2 py-1 rounded border border-sky-500/30 transition">MAX</button>
                             </div>
                             <div class="flex space-x-1 pl-3 border-l border-white/10">
                                 <button onclick="toggleChartType('line')" class="text-[10px] md:text-xs bg-white/5 hover:bg-white/10 px-2 py-1 rounded text-gray-300 transition border border-white/10">Line</button>
@@ -224,10 +211,10 @@
         let myChart;
         let globalCurrentScore = 0;
         let globalChartType = 'line';
-        let globalTimeframe = '1D'; 
+        let globalTimeframe = 'MAX'; // Default to MAX to show off the backtested history 
         let globalAllAlerts = []; 
         let globalPillarNarratives = {};
-        let globalHistoryData = []; // Store the real historical database
+        let globalHistoryData = []; 
 
         async function fetchAGRIData() {
             try {
@@ -245,19 +232,9 @@
                 let vel = parseFloat(data.Velocity);
                 let accelHtml = '';
                 if (vel > 0) {
-                    accelHtml = `<div class="flex items-end space-x-1.5 h-8 mt-1">
-                        <div class="w-2 bg-red-500 rounded-t animate-[pulse_1s_infinite] h-3"></div>
-                        <div class="w-2 bg-red-500 rounded-t animate-[pulse_1.2s_infinite] h-5"></div>
-                        <div class="w-2 bg-red-500 rounded-t animate-[pulse_1.5s_infinite] h-8 shadow-[0_0_10px_#ef4444]"></div>
-                        <svg class="w-6 h-6 text-red-500 mb-1 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
-                    </div>`;
+                    accelHtml = `<div class="flex items-end space-x-1.5 h-8 mt-1"><div class="w-2 bg-red-500 rounded-t animate-[pulse_1s_infinite] h-3"></div><div class="w-2 bg-red-500 rounded-t animate-[pulse_1.2s_infinite] h-5"></div><div class="w-2 bg-red-500 rounded-t animate-[pulse_1.5s_infinite] h-8 shadow-[0_0_10px_#ef4444]"></div><svg class="w-6 h-6 text-red-500 mb-1 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg></div>`;
                 } else if (vel < 0) {
-                    accelHtml = `<div class="flex items-end space-x-1.5 h-8 mt-1">
-                        <div class="w-2 bg-emerald-500 rounded-t animate-[pulse_1s_infinite] h-8 shadow-[0_0_10px_#10b981]"></div>
-                        <div class="w-2 bg-emerald-500 rounded-t animate-[pulse_1.2s_infinite] h-5"></div>
-                        <div class="w-2 bg-emerald-500 rounded-t animate-[pulse_1.5s_infinite] h-3"></div>
-                        <svg class="w-6 h-6 text-emerald-500 mb-1 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 17h8m0 0v-8m0 8l-8-8-4 4-6-6"></path></svg>
-                    </div>`;
+                    accelHtml = `<div class="flex items-end space-x-1.5 h-8 mt-1"><div class="w-2 bg-emerald-500 rounded-t animate-[pulse_1s_infinite] h-8 shadow-[0_0_10px_#10b981]"></div><div class="w-2 bg-emerald-500 rounded-t animate-[pulse_1.2s_infinite] h-5"></div><div class="w-2 bg-emerald-500 rounded-t animate-[pulse_1.5s_infinite] h-3"></div><svg class="w-6 h-6 text-emerald-500 mb-1 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M13 17h8m0 0v-8m0 8l-8-8-4 4-6-6"></path></svg></div>`;
                 } else {
                     accelHtml = `<div class="h-8 flex items-end mt-1"><span class="text-lg font-bold text-gray-500 tracking-widest">STABLE</span></div>`;
                 }
@@ -281,7 +258,6 @@
                     
                     let mixedAlerts = [];
                     let maxLength = Math.max(highs.length, meds.length, watches.length);
-                    
                     for(let i=0; i < maxLength; i++) {
                         if(highs[i]) mixedAlerts.push(highs[i]);
                         if(meds[i]) mixedAlerts.push(meds[i]);
@@ -297,16 +273,13 @@
                     
                     let singleLoop = tickerArray.join(' &nbsp;&nbsp;//&nbsp;&nbsp; ') + ' &nbsp;&nbsp;//&nbsp;&nbsp; ';
                     document.getElementById('live-ticker').innerHTML = singleLoop + singleLoop;
-
                     switchAlertTab('HIGH');
                 }
 
-                // --- CRITICAL UPGRADE: FETCH REAL HISTORY DATABASE ---
                 try {
                     const histResponse = await fetch('history.json?t=' + new Date().getTime());
                     globalHistoryData = await histResponse.json();
                 } catch (e) {
-                    console.warn("No history found yet. Establishing baseline.");
                     globalHistoryData = [{ timestamp: new Date().toISOString(), score: globalCurrentScore }];
                 }
 
@@ -332,27 +305,17 @@
         ];
 
         window.nextTourStep = function() {
-            if(currentTourStep > 0 && tourSteps[currentTourStep - 1].target) {
-                document.getElementById(tourSteps[currentTourStep - 1].target).classList.remove('tour-highlight');
-            }
-
+            if(currentTourStep > 0 && tourSteps[currentTourStep - 1].target) document.getElementById(tourSteps[currentTourStep - 1].target).classList.remove('tour-highlight');
             if (currentTourStep >= tourSteps.length) { endTour(); return; }
-
             document.getElementById('tour-step-counter').innerText = `Step ${currentTourStep + 1} of ${tourSteps.length}`;
             document.getElementById('tour-title').innerText = tourSteps[currentTourStep].title;
             document.getElementById('tour-desc').innerText = tourSteps[currentTourStep].text;
             document.getElementById('tour-next-btn').innerText = currentTourStep === tourSteps.length - 1 ? "Finish Tour" : "Next Step";
-
-            if (tourSteps[currentTourStep].target) {
-                document.getElementById(tourSteps[currentTourStep].target).classList.add('tour-highlight');
-            }
+            if (tourSteps[currentTourStep].target) document.getElementById(tourSteps[currentTourStep].target).classList.add('tour-highlight');
             currentTourStep++;
         }
-
         window.endTour = function() {
-            if(currentTourStep > 0 && tourSteps[currentTourStep - 1].target) {
-                document.getElementById(tourSteps[currentTourStep - 1].target).classList.remove('tour-highlight');
-            }
+            if(currentTourStep > 0 && tourSteps[currentTourStep - 1].target) document.getElementById(tourSteps[currentTourStep - 1].target).classList.remove('tour-highlight');
             document.getElementById('tour-backdrop').classList.add('hidden');
             document.getElementById('tour-dialog').classList.add('hidden');
             localStorage.setItem('avellonTourCompleted', 'true');
@@ -370,7 +333,6 @@
             document.getElementById('modal-pillar-desc').innerText = diagnostic;
             document.getElementById('pillar-modal').classList.remove('hidden');
         }
-
         window.closePillarModal = function() { document.getElementById('pillar-modal').classList.add('hidden'); }
         window.toggleMethodology = function() { document.getElementById('methodology-modal').classList.toggle('hidden'); }
         window.toggleApiModal = function() { document.getElementById('api-modal').classList.toggle('hidden'); }
@@ -381,58 +343,106 @@
                 'MEDIUM': { active: 'bg-amber-500/20 text-amber-400 border-amber-500/50 shadow-[0_0_10px_rgba(245,158,11,0.2)]', inactive: 'bg-black/20 text-gray-500 border-white/10 hover:border-amber-500/30 hover:text-amber-400' },
                 'WATCH': { active: 'bg-emerald-500/20 text-emerald-400 border-emerald-500/50 shadow-[0_0_10px_rgba(16,185,129,0.2)]', inactive: 'bg-black/20 text-gray-500 border-white/10 hover:border-emerald-500/30 hover:text-emerald-400' }
             };
-
-            ['HIGH', 'MEDIUM', 'WATCH'].forEach(key => {
-                document.getElementById('tab-' + key).className = `py-2 rounded border text-[10px] md:text-xs font-bold uppercase tracking-wider transition ${key === severity ? styles[key].active : styles[key].inactive}`;
-            });
-
+            ['HIGH', 'MEDIUM', 'WATCH'].forEach(key => { document.getElementById('tab-' + key).className = `py-2 rounded border text-[10px] md:text-xs font-bold uppercase tracking-wider transition ${key === severity ? styles[key].active : styles[key].inactive}`; });
             const grid = document.getElementById('alerts-grid'); grid.innerHTML = '';
             const filteredAlerts = globalAllAlerts.filter(a => a.severity === severity);
-            
-            if (filteredAlerts.length === 0) {
-                grid.innerHTML = `<p class="text-xs text-gray-500 italic py-4 text-center">No active ${severity} alerts detected.</p>`; return;
-            }
-
+            if (filteredAlerts.length === 0) { grid.innerHTML = `<p class="text-xs text-gray-500 italic py-4 text-center">No active ${severity} alerts detected.</p>`; return; }
             let borderColor = severity === "HIGH" ? "border-l-red-500/50" : severity === "MEDIUM" ? "border-l-amber-500/50" : "border-l-emerald-500/50";
-            filteredAlerts.slice(0, 10).forEach(alert => {
-                grid.innerHTML += `<div class="p-3 rounded-r-lg border border-white/5 border-l-2 ${borderColor} bg-black/20 mb-2 transition hover:bg-white/5"><p class="text-xs text-gray-300 leading-snug">${alert.title}</p></div>`;
-            });
+            filteredAlerts.slice(0, 10).forEach(alert => { grid.innerHTML += `<div class="p-3 rounded-r-lg border border-white/5 border-l-2 ${borderColor} bg-black/20 mb-2 transition hover:bg-white/5"><p class="text-xs text-gray-300 leading-snug">${alert.title}</p></div>`; });
         }
 
-        // --- CRITICAL UPGRADE: PROCESS REAL HISTORY DATA FOR CHART ---
+        // --- NEW DATA AGGREGATION ENGINE ---
         function processHistoricalData(timeframe) {
+            if (!globalHistoryData || globalHistoryData.length === 0) return { labels: [], points: [] };
+            
             const now = new Date();
-            let cutoff = new Date();
-            
-            if (timeframe === '1D') cutoff.setHours(now.getHours() - 24);
-            else if (timeframe === '1W') cutoff.setDate(now.getDate() - 7);
-            else if (timeframe === '1M') cutoff.setMonth(now.getMonth() - 1);
-            else if (timeframe === '1Q') cutoff.setMonth(now.getMonth() - 3);
-            else if (timeframe === '1Y') cutoff.setFullYear(now.getFullYear() - 1);
+            let filtered = [];
+            let aggregatedMap = new Map();
 
-            let filtered = globalHistoryData.filter(d => new Date(d.timestamp) >= cutoff);
-            
-            // Fallback if there is no data in the range
-            if (filtered.length === 0 && globalHistoryData.length > 0) {
-                filtered = [globalHistoryData[globalHistoryData.length - 1]];
+            // 1. FILTERING
+            if (timeframe === '1D') {
+                let cutoff = new Date(now.getTime() - (24 * 60 * 60 * 1000));
+                filtered = globalHistoryData.filter(d => new Date(d.timestamp) >= cutoff);
+                // Group by hour
+                filtered.forEach(d => {
+                    let dateObj = new Date(d.timestamp);
+                    let key = dateObj.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                    if(!aggregatedMap.has(key)) aggregatedMap.set(key, []);
+                    aggregatedMap.get(key).push(d.score);
+                });
+            } 
+            else if (timeframe === '1W') {
+                let cutoff = new Date(now.getTime() - (7 * 24 * 60 * 60 * 1000));
+                filtered = globalHistoryData.filter(d => new Date(d.timestamp) >= cutoff);
+                // Group by day of week
+                filtered.forEach(d => {
+                    let dateObj = new Date(d.timestamp);
+                    let key = dateObj.toLocaleDateString([], {weekday: 'short', month: 'short', day: 'numeric'});
+                    if(!aggregatedMap.has(key)) aggregatedMap.set(key, []);
+                    aggregatedMap.get(key).push(d.score);
+                });
+            } 
+            else if (timeframe === '1M') {
+                let cutoff = new Date(now.getTime() - (30 * 24 * 60 * 60 * 1000));
+                filtered = globalHistoryData.filter(d => new Date(d.timestamp) >= cutoff);
+                // Group by specific date
+                filtered.forEach(d => {
+                    let dateObj = new Date(d.timestamp);
+                    let key = dateObj.toLocaleDateString([], {month: 'short', day: 'numeric'});
+                    if(!aggregatedMap.has(key)) aggregatedMap.set(key, []);
+                    aggregatedMap.get(key).push(d.score);
+                });
+            } 
+            else if (timeframe === 'YTD') {
+                let currentYear = now.getFullYear();
+                filtered = globalHistoryData.filter(d => new Date(d.timestamp).getFullYear() === currentYear);
+                // Group by month
+                filtered.forEach(d => {
+                    let dateObj = new Date(d.timestamp);
+                    let key = dateObj.toLocaleDateString([], {month: 'long'});
+                    if(!aggregatedMap.has(key)) aggregatedMap.set(key, []);
+                    aggregatedMap.get(key).push(d.score);
+                });
+            } 
+            else if (timeframe === '1Y') {
+                let cutoff = new Date(now.getFullYear() - 1, now.getMonth(), now.getDate());
+                filtered = globalHistoryData.filter(d => new Date(d.timestamp) >= cutoff);
+                // Group by month
+                filtered.forEach(d => {
+                    let dateObj = new Date(d.timestamp);
+                    let key = dateObj.toLocaleDateString([], {month: 'short', year: 'numeric'});
+                    if(!aggregatedMap.has(key)) aggregatedMap.set(key, []);
+                    aggregatedMap.get(key).push(d.score);
+                });
+            }
+            else if (timeframe === 'MAX') {
+                filtered = globalHistoryData;
+                // Group by Year
+                filtered.forEach(d => {
+                    let dateObj = new Date(d.timestamp);
+                    let key = dateObj.getFullYear().toString();
+                    if(!aggregatedMap.has(key)) aggregatedMap.set(key, []);
+                    aggregatedMap.get(key).push(d.score);
+                });
             }
 
-            // If history only has 1 point (e.g. brand new database), duplicate it to draw a flat baseline
-            if (filtered.length === 1) {
-                let pastPoint = new Date(filtered[0].timestamp);
-                pastPoint.setHours(pastPoint.getHours() - 2);
-                filtered.unshift({timestamp: pastPoint.toISOString(), score: filtered[0].score});
-            }
-
-            let labels = filtered.map(d => {
-                let dateObj = new Date(d.timestamp);
-                if (timeframe === '1D') return dateObj.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-                return dateObj.toLocaleDateString([], {month: 'short', day: 'numeric'});
+            // 2. CALCULATE AVERAGES
+            let labels = Array.from(aggregatedMap.keys());
+            let points = Array.from(aggregatedMap.values()).map(arr => {
+                let sum = arr.reduce((a, b) => a + b, 0);
+                return parseFloat((sum / arr.length).toFixed(1));
             });
-            
-            let points = filtered.map(d => parseFloat(d.score));
-            labels[labels.length - 1] = 'Now';
-            
+
+            // 3. FALLBACK IF EMPTY
+            if (labels.length === 0) {
+                labels = ['Now'];
+                points = [globalCurrentScore];
+            }
+            if (labels.length === 1 && timeframe === '1D') {
+                labels.unshift('Past');
+                points.unshift(points[0]);
+            }
+
             return { labels, points };
         }
 
@@ -473,7 +483,7 @@
         window.toggleChartType = function(type) { globalChartType = type; renderChart(); }
         window.updateChartTimeframe = function(timeframe) {
             globalTimeframe = timeframe;
-            const btns = ['1D', '1W', '1M', '1Q', '1Y'];
+            const btns = ['1D', '1W', '1M', 'YTD', '1Y', 'MAX'];
             btns.forEach(id => {
                 document.getElementById('btn-' + id).className = id === timeframe ? "text-[10px] md:text-xs bg-sky-500/20 text-sky-300 px-2 py-1 rounded border border-sky-500/30 transition" : "text-[10px] md:text-xs bg-white/5 hover:bg-white/10 text-gray-300 px-2 py-1 rounded border border-white/10 transition";
             });
