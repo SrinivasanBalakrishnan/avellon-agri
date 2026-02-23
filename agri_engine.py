@@ -5,13 +5,14 @@ import urllib.parse
 import os
 import nltk
 import random
+import re
+from difflib import SequenceMatcher
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 # --- IMPORT THE VISUAL VAULT ---
 try:
     from image_library import IMAGE_PROMPTS
 except ImportError:
-    # Fallback if file is missing
     IMAGE_PROMPTS = {"INFOGRAPHIC": ["Global geopolitical map abstract"]}
 
 # --- 1. NLP & CONFIGURATION ---
@@ -21,16 +22,19 @@ except LookupError:
     nltk.download('vader_lexicon', quiet=True)
 sia = SentimentIntensityAnalyzer()
 
-# Global list to collect alerts from all pillars
 global_alerts = []
 
-# --- 2. IMAGE FETCHING ENGINES ---
+# --- 2. DEDUPLICATION ENGINE ---
+def is_duplicate(new_title, existing_alerts, threshold=0.65):
+    """Checks for semantic similarity to avoid echo-chamber alerts."""
+    for alert in existing_alerts:
+        if SequenceMatcher(None, new_title.lower(), alert['title'].lower()).ratio() > threshold:
+            return True
+    return False
 
+# --- 3. IMAGE FETCHING ENGINES ---
 def get_cinematic_query(headline):
-    """Maps a headline to a specific, cinematic scene description from the library."""
     text_lower = headline.lower()
-    
-    # Logic mapping headlines to image_library.py keys
     if any(x in text_lower for x in ["war", "conflict", "military", "army", "weapon", "border", "defense", "missile", "troops", "strike"]): 
         return random.choice(IMAGE_PROMPTS.get("GEOPOLITICS", ["Global conflict map"]))
     if any(x in text_lower for x in ["ship", "port", "sea", "maritime", "canal", "vessel", "freight", "shipping", "pirate", "navy"]): 
@@ -47,117 +51,76 @@ def get_cinematic_query(headline):
         return random.choice(IMAGE_PROMPTS.get("TECH", ["Semiconductor chip"]))
     if any(x in text_lower for x in ["economy", "trade", "tariff", "bank", "market", "stock", "finance", "inflation", "currency", "debt"]): 
         return random.choice(IMAGE_PROMPTS.get("ECONOMY", ["Stock market chart"]))
-    
     return random.choice(IMAGE_PROMPTS.get("INFOGRAPHIC", ["Abstract global news background"]))
 
 def fetch_pexels_fallback(query):
-    """Fetches a high-quality stock photo if the news API doesn't provide one."""
     api_key = os.environ.get("PEXELS_API_KEY")
     default_image = "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600"
-    
     if not api_key: return default_image
-    
     try:
         encoded_query = urllib.parse.quote(query)
-        # Always ask for page 1 to ensure high relevance for specific cinematic queries
         url = f"https://api.pexels.com/v1/search?query={encoded_query}&per_page=1&orientation=landscape"
-        
         req = urllib.request.Request(url, headers={'Authorization': api_key, 'User-Agent': 'AvellonBot/1.0'})
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode("utf-8"))
             if data['photos'] and len(data['photos']) > 0:
                 return data['photos'][0]['src']['medium']
-    except Exception:
-        pass 
+    except Exception: pass 
     return default_image
 
-# --- 3. CORE RISK DATA FETCHERS (NEW API INTEGRATION) ---
-
+# --- 4. RISK CLASSIFICATION & API ---
 def classify_risk_level(text):
-    """Determines HIGH/MEDIUM/WATCH based on keywords."""
     text_lower = text.lower()
     high_keywords = ["war", "conflict", "sanction", "embargo", "blockade", "military", "crisis", "disaster", "collapse", "attack", "breach", "shortage"]
     med_keywords = ["tension", "tariff", "dispute", "warning", "risk", "volatile", "talks", "regulatory"]
-    
-    h_count = sum(1 for k in high_keywords if k in text_lower)
-    m_count = sum(1 for k in med_keywords if k in text_lower)
-    
-    if h_count >= 1: return "HIGH"
-    if m_count >= 1: return "MEDIUM"
+    if sum(1 for k in high_keywords if k in text_lower) >= 1: return "HIGH"
+    if sum(1 for k in med_keywords if k in text_lower) >= 1: return "MEDIUM"
     return "WATCH"
 
 def fetch_newsdata_risk(query, baseline_score):
-    """
-    Connects to NewsData.io API.
-    Parses Title + Description for sentiment.
-    Extracts native image, falls back to Pexels if missing.
-    """
     global global_alerts
     api_key = os.environ.get("NEWSDATA_API_KEY")
-    
-    # Fail safe: if no key, return baseline (prevents crash)
-    if not api_key: 
-        return baseline_score
+    if not api_key: return baseline_score
 
     try:
-        # Build URL: English language, sorted by date
         encoded_q = urllib.parse.quote(query)
         url = f"https://newsdata.io/api/1/news?apikey={api_key}&q={encoded_q}&language=en&prioritydomain=top"
-        
         req = urllib.request.Request(url, headers={'User-Agent': 'AvellonBot/2.0'})
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode("utf-8"))
             results = data.get('results', [])
-            
             risk_modifier = 0
             
-            # Process up to 5 articles per pillar to save processing time
-            for article in results[:5]:
+            for article in results[:5]: 
                 title = article.get('title', '')
-                desc = article.get('description') or '' # Description might be None
+                if is_duplicate(title, global_alerts): continue 
+                
+                desc = article.get('description') or ''
                 link = article.get('link', '#')
-                
-                # Combined text for smarter NLP
                 full_text = f"{title} {desc}"
-                
-                # 1. Determine Severity
                 severity = classify_risk_level(full_text)
                 
-                # 2. Determine Image (Native vs Fallback)
                 img_url = article.get('image_url')
                 if not img_url:
-                    # Activate Pexels Logic
-                    cinematic_prompt = get_cinematic_query(title)
-                    img_url = fetch_pexels_fallback(cinematic_prompt)
+                    img_url = fetch_pexels_fallback(get_cinematic_query(title))
                 
-                # 3. Add to Global Feed (Deduplication check)
-                if not any(a['title'] == title for a in global_alerts):
-                    global_alerts.append({
-                        "title": title,
-                        "severity": severity,
-                        "url": link,
-                        "image": img_url,
-                        "source": article.get('source_id', 'Global News')
-                    })
+                global_alerts.append({
+                    "title": title, "severity": severity, "url": link,
+                    "image": img_url, "source": article.get('source_id', 'Global News')
+                })
                 
-                # 4. Calculate Risk Score
                 sentiment = sia.polarity_scores(full_text)['compound']
-                if sentiment < -0.2: risk_modifier += 1.2  # Negative news adds risk
-                elif sentiment > 0.2: risk_modifier -= 0.5 # Positive news lowers risk
-                
+                if sentiment < -0.2: risk_modifier += 1.2
+                elif sentiment > 0.2: risk_modifier -= 0.5
                 if severity == "HIGH": risk_modifier += 2.0
                 elif severity == "MEDIUM": risk_modifier += 0.8
 
-            # Calculate final score for this pillar
-            # Baseline +/- modifier, clamped between 20 and 100
-            final_risk = baseline_score + risk_modifier
-            return round(min(max(final_risk, 20), 100), 1)
-
+            return round(min(max(baseline_score + risk_modifier, 20), 100), 1)
     except Exception as e:
         print(f"API Error for {query}: {e}")
         return baseline_score
 
-# --- 4. FINANCIAL & PHYSICAL DATA (UNCHANGED) ---
+# --- 5. FINANCIAL & PHYSICAL DATA ---
 def fetch_currency_risk():
     try:
         url = "https://api.frankfurter.app/latest?from=USD"
@@ -196,21 +159,64 @@ def fetch_sovereign_risk():
             return round(min(max(50 + ((val - 4.0) * 10), 20), 100), 1)
     except: return 55.0
 
-# --- 5. AI NARRATIVE GENERATOR ---
+# --- 6. AI INTERPRETATION LAYER ---
+def clean_json_response(text):
+    pattern = r"```json\s*(.*?)\s*```"
+    match = re.search(pattern, text, re.DOTALL)
+    if match: return match.group(1)
+    return text.strip()
+
 def call_gemini(prompt):
     api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key: return {"main_brief": "AI Error.", "pillar_narratives": {}}
+    if not api_key: return {"main_brief": "System Offline.", "pillar_narratives": {}}
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
-    sys = """You are the Avellon Risk AI. Return valid JSON ONLY. 
-    {"main_brief": "200 words...", "pillar_narratives": {"Geopolitical Conflict Intensity": "..."}}"""
+    
+    # SYSTEM PROMPT: Forces AI to explain 'WHY' for every single pillar
+    sys = """You are a Senior Risk Analyst for Avellon Intelligence. 
+    You MUST respond with pure, valid JSON. 
+    
+    CRITICAL: You must provide a specific diagnostic for ALL 8 pillars below. Do not skip any.
+    If a sector is stable, explain WHY (e.g., "No major disruptions reported").
+    If a sector is high risk, CITE the specific news headline causing the spike.
+    
+    Required JSON Structure:
+    {
+        "main_brief": "A 200-word executive summary weaving the provided news into a cohesive geopolitical narrative. CITE specific headlines.",
+        "pillar_narratives": {
+            "Geopolitical Conflict Intensity": "Diagnostic...",
+            "Energy & Maritime Disruption": "Diagnostic...",
+            "Trade & Supply Chain Stress": "Diagnostic...",
+            "Sovereign Financial Stress": "Diagnostic...",
+            "Currency & Liquidity Pressure": "Diagnostic...",
+            "Sanctions & Regulatory Fragmentation": "Diagnostic...",
+            "Cyber & Infrastructure Threats": "Diagnostic...",
+            "Climate & Resource Shock": "Diagnostic..."
+        }
+    }"""
+    
     data = {"contents": [{"parts": [{"text": prompt}]}], "systemInstruction": {"parts": [{"text": sys}]}, "generationConfig": {"responseMimeType": "application/json"}}
+    
     try:
         req = urllib.request.Request(url, data=json.dumps(data).encode("utf-8"), headers={"Content-Type": "application/json"})
         with urllib.request.urlopen(req) as response:
-            return json.loads(json.loads(response.read().decode("utf-8"))["candidates"][0]["content"]["parts"][0]["text"].strip())
-    except: return {"main_brief": "System error.", "pillar_narratives": {}}
+            raw_text = json.loads(response.read().decode("utf-8"))["candidates"][0]["content"]["parts"][0]["text"]
+            result = json.loads(clean_json_response(raw_text))
+            
+            # FALLBACK FILLER: Ensure no key is missing to prevent UI "undefined" errors
+            keys = ["Geopolitical Conflict Intensity", "Energy & Maritime Disruption", "Trade & Supply Chain Stress", 
+                    "Sovereign Financial Stress", "Currency & Liquidity Pressure", "Sanctions & Regulatory Fragmentation", 
+                    "Cyber & Infrastructure Threats", "Climate & Resource Shock"]
+            for k in keys:
+                if k not in result.get("pillar_narratives", {}):
+                    if "pillar_narratives" not in result: result["pillar_narratives"] = {}
+                    result["pillar_narratives"][k] = "Sector currently stable. No immediate alerts detected in this cycle."
+            
+            return result
+    except Exception as e:
+        print(f"AI Generation Error: {e}")
+        return {"main_brief": "Analyst system calibrating.", "pillar_narratives": {}}
 
-# --- 6. MASTER CALCULATOR ---
+# --- 7. MASTER CALCULATOR ---
 def calculate_agri():
     weights = {
         "Geopolitical Conflict Intensity": 0.18, "Energy & Maritime Disruption": 0.15,
@@ -219,9 +225,8 @@ def calculate_agri():
         "Cyber & Infrastructure Threats": 0.10, "Climate & Resource Shock": 0.13
     }
     
-    print("Initializing Avellon API Engine...")
+    print("Initializing Avellon Intelligence Engine...")
     
-    # NEWS DATA API CALLS (Optimized Queries)
     live_inputs = {
         "Geopolitical Conflict Intensity": fetch_newsdata_risk("war OR conflict OR military", 70.0), 
         "Energy & Maritime Disruption": fetch_energy_risk(),    
@@ -235,46 +240,52 @@ def calculate_agri():
     
     current_agri = round(sum(live_inputs[p] * weights[p] for p in weights), 1)
     
-    # History & Velocity Logic
-    try:
-        with open("data.json", "r") as f: previous_agri = json.load(f).get("AGRI_Score", current_agri)
-    except: previous_agri = current_agri
-    
-    velocity = round(current_agri - previous_agri, 1)
-    str_velocity = f"+{velocity}" if velocity > 0 else str(velocity)
-    top_driver = max(live_inputs, key=live_inputs.get)
-    
-    # Alert Sorting
+    # Prepare AI Context
     severity_map = {"HIGH": 3, "MEDIUM": 2, "WATCH": 1}
     global_alerts.sort(key=lambda x: severity_map.get(x["severity"], 0), reverse=True)
-    final_alerts = global_alerts[:40] if global_alerts else [{"title": "SYSTEM ALERT: STABLE", "severity": "WATCH", "image": None, "url": "#"}]
+    final_alerts = global_alerts[:40] if global_alerts else [{"title": "System Stable", "severity": "WATCH", "image": None, "url": "#"}]
     
-    # AI Narrative
-    headlines_text = " | ".join([a['title'] for a in final_alerts[:15]])
-    prompt = f"AGRI: {current_agri}. Driver: {top_driver}. Headlines: {headlines_text}. Generate brief."
+    headlines_context = " | ".join([f"{a['title']} (Severity: {a['severity']})" for a in final_alerts[:15]])
+    
+    prompt = f"""
+    ANALYSIS REQUEST:
+    Current AGRI Score: {current_agri}/100.
+    Pillar Breakdown: {json.dumps(live_inputs)}.
+    REAL-TIME NEWS FEED: {headlines_context}
+    INSTRUCTION: Provide the executive brief and specific root-cause analysis for each pillar based on the news above.
+    """
+    
+    print("Generating Strategic Narrative...")
     ai_response = call_gemini(prompt)
     
     current_time_str = datetime.datetime.utcnow().isoformat() + "Z"
     
-    # Save Data
+    # Velocity & Save
+    try:
+        with open("data.json", "r") as f: previous = json.load(f).get("AGRI_Score", current_agri)
+    except: previous = current_agri
+    vel = round(current_agri - previous, 1)
+    str_vel = f"+{vel}" if vel > 0 else str(vel)
+
     agri_data = {
-        "AGRI_Score": current_agri, "Velocity": str_velocity, "Top_Risk_Driver": top_driver,
-        "AI_Brief": ai_response.get("main_brief", "Loading..."), "Pillar_Scores": live_inputs, 
-        "Pillar_Narratives": ai_response.get("pillar_narratives", {}), "All_Alerts": final_alerts, 
+        "AGRI_Score": current_agri, "Velocity": str_vel, "Top_Risk_Driver": max(live_inputs, key=live_inputs.get),
+        "AI_Brief": ai_response.get("main_brief", "Data processing..."), 
+        "Pillar_Scores": live_inputs, 
+        "Pillar_Narratives": ai_response.get("pillar_narratives", {}), 
+        "All_Alerts": final_alerts, 
         "Last_Updated": current_time_str
     }
     
     with open("data.json", "w") as f: json.dump(agri_data, f, indent=4)
     
-    # History Append
-    history_data = []
+    hist = []
     if os.path.exists("history.json"):
         try:
-            with open("history.json", "r") as f: history_data = json.load(f)
+            with open("history.json", "r") as f: hist = json.load(f)
         except: pass
-    history_data.append({"timestamp": current_time_str, "score": current_agri})
-    if len(history_data) > 3000: history_data = history_data[-3000:]
-    with open("history.json", "w") as f: json.dump(history_data, f, indent=4)
+    hist.append({"timestamp": current_time_str, "score": current_agri})
+    if len(hist) > 3000: hist = hist[-3000:]
+    with open("history.json", "w") as f: json.dump(hist, f, indent=4)
     
     print(f"Success. Score: {current_agri}")
 
