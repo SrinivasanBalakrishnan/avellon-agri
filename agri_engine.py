@@ -59,7 +59,6 @@ def fetch_pexels_fallback(query):
     if not api_key: return default_image
     try:
         encoded_query = urllib.parse.quote(query)
-        # Always use page 1 for maximum relevance
         url = f"https://api.pexels.com/v1/search?query={encoded_query}&per_page=1&orientation=landscape"
         req = urllib.request.Request(url, headers={'Authorization': api_key, 'User-Agent': 'AvellonBot/1.0'})
         with urllib.request.urlopen(req) as response:
@@ -72,9 +71,8 @@ def fetch_pexels_fallback(query):
 # --- 4. RISK CLASSIFICATION & API ---
 def classify_risk_level(text):
     text_lower = text.lower()
-    high_keywords = ["war", "conflict", "sanction", "embargo", "blockade", "military", "crisis", "disaster", "collapse", "attack", "breach", "shortage"]
-    # EXPANDED MEDIUM KEYWORDS to fill the UI
-    med_keywords = ["tension", "tariff", "dispute", "warning", "risk", "volatile", "talks", "regulatory", "uncertainty", "debate", "meeting", "proposal", "monitor", "review"]
+    high_keywords = ["war", "conflict", "sanction", "embargo", "blockade", "military", "crisis", "disaster", "collapse", "attack", "breach", "shortage", "nuclear"]
+    med_keywords = ["tension", "tariff", "dispute", "warning", "risk", "volatile", "talks", "regulatory", "uncertainty", "debate", "meeting", "proposal", "monitor", "review", "election"]
     
     if sum(1 for k in high_keywords if k in text_lower) >= 1: return "HIGH"
     if sum(1 for k in med_keywords if k in text_lower) >= 1: return "MEDIUM"
@@ -87,6 +85,7 @@ def fetch_newsdata_risk(query, baseline_score):
 
     try:
         encoded_q = urllib.parse.quote(query)
+        # Fetch 10 items to ensure Medium/Watch buckets are filled
         url = f"https://newsdata.io/api/1/news?apikey={api_key}&q={encoded_q}&language=en&prioritydomain=top"
         req = urllib.request.Request(url, headers={'User-Agent': 'AvellonBot/2.0'})
         with urllib.request.urlopen(req) as response:
@@ -94,7 +93,6 @@ def fetch_newsdata_risk(query, baseline_score):
             results = data.get('results', [])
             risk_modifier = 0
             
-            # INCREASED LIMIT: Process up to 10 articles per pillar to ensure Medium/Watch feeds are full
             for article in results[:10]: 
                 title = article.get('title', '')
                 if is_duplicate(title, global_alerts): continue 
@@ -138,22 +136,23 @@ def fetch_climate_risk():
         url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
         with urllib.request.urlopen(url) as response:
             data = json.loads(response.read().decode("utf-8"))
-            # UPDATED LOGIC: Filter for Magnitude >= 5.0 to remove noise
-            significant_events = [f for f in data['features'] if f['properties']['mag'] >= 5.0]
-            # Standardized scoring: Base 20 + 8 pts per major event
-            return round(min(20 + (len(significant_events) * 8), 100), 1)
+            # FIX: Threshold raised to 5.8 to filter out noise. Only Major events count.
+            significant_events = [f for f in data['features'] if f['properties']['mag'] >= 5.8]
+            # Scoring: 25 Base + 10 points per Major event. Max 100.
+            return round(min(25 + (len(significant_events) * 10), 100), 1)
     except: return 40.0
 
-def fetch_energy_risk():
+def fetch_energy_price_risk():
+    # Only fetches the PRICE component
     api_key = os.environ.get("ALPHA_VANTAGE_KEY")
-    if not api_key: return 68.5
+    if not api_key: return 50.0
     try:
         url = f"https://www.alphavantage.co/query?function=BRENT&interval=daily&apikey={api_key}"
         with urllib.request.urlopen(url) as response:
             data = json.loads(response.read().decode("utf-8"))
             val = float(data["data"][0]["value"])
             return round(min(max(50 + ((val - 75) * 1.5), 20), 100), 1)
-    except: return 68.5
+    except: return 50.0
 
 def fetch_sovereign_risk():
     api_key = os.environ.get("ALPHA_VANTAGE_KEY")
@@ -178,27 +177,28 @@ def call_gemini(prompt):
     if not api_key: return {"main_brief": "System Offline.", "pillar_narratives": {}}
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     
-    # UPDATED SYSTEM PROMPT: 'No Stable' Protocol
-    sys = """You are a Senior Risk Analyst for Avellon Intelligence. 
+    # UPDATED SYSTEM PROMPT: Forces detailed justification and real citations
+    sys = """You are a Strategic Risk Analyst for Avellon Intelligence. 
     You MUST respond with pure, valid JSON. 
     
-    CRITICAL INSTRUCTIONS:
-    1. NEGATIVE CONSTRAINT: Do NOT use the word 'stable' or 'quiet'. Even in low-risk scenarios, describe the ongoing diplomatic or economic status quo using the provided headlines.
-    2. CITE SOURCES: You must explicitly cite the specific news headline causing the risk score in your diagnostic.
-    3. COMPLETENESS: Provide a diagnostic for ALL 8 pillars.
+    INSTRUCTIONS:
+    1. JUSTIFY THE SCORE: For the Main Brief, explicitly explain WHY the AGRI score is at its current level. Is it driven by Energy? War? Markets?
+    2. CITE EVIDENCE: You must quote or reference specific news headlines from the provided feed to support your analysis.
+    3. NO 'STABLE': Do not use the word 'stable'. If risk is low, describe it as 'routine monitoring' or 'baseline activity'.
+    4. DIAGNOSTICS: Provide a 2-sentence specific analysis for ALL 8 pillars.
     
     Required JSON Structure:
     {
-        "main_brief": "A 200-word executive summary weaving the provided news into a cohesive geopolitical narrative.",
+        "main_brief": "A 3-4 sentence strategic overview citing specific drivers of the total score.",
         "pillar_narratives": {
-            "Geopolitical Conflict Intensity": "Diagnostic...",
-            "Energy & Maritime Disruption": "Diagnostic...",
-            "Trade & Supply Chain Stress": "Diagnostic...",
-            "Sovereign Financial Stress": "Diagnostic...",
-            "Currency & Liquidity Pressure": "Diagnostic...",
-            "Sanctions & Regulatory Fragmentation": "Diagnostic...",
-            "Cyber & Infrastructure Threats": "Diagnostic...",
-            "Climate & Resource Shock": "Diagnostic..."
+            "Geopolitical Conflict Intensity": "Analysis...",
+            "Energy & Maritime Disruption": "Analysis...",
+            "Trade & Supply Chain Stress": "Analysis...",
+            "Sovereign Financial Stress": "Analysis...",
+            "Currency & Liquidity Pressure": "Analysis...",
+            "Sanctions & Regulatory Fragmentation": "Analysis...",
+            "Cyber & Infrastructure Threats": "Analysis...",
+            "Climate & Resource Shock": "Analysis..."
         }
     }"""
     
@@ -217,7 +217,7 @@ def call_gemini(prompt):
             for k in keys:
                 if k not in result.get("pillar_narratives", {}):
                     if "pillar_narratives" not in result: result["pillar_narratives"] = {}
-                    result["pillar_narratives"][k] = "Sector tracking routine activity. Monitoring ongoing developments in this sphere."
+                    result["pillar_narratives"][k] = "Sector showing baseline activity levels; monitoring for emerging volatility."
             
             return result
     except Exception as e:
@@ -235,27 +235,33 @@ def calculate_agri():
     
     print("Initializing Avellon Intelligence Engine...")
     
-    # 1. Fetch Data
+    # HYBRID ENERGY SCORING
+    # 1. Get Financial Score
+    energy_price_score = fetch_energy_price_risk()
+    # 2. Get Geopolitical News Score for Energy
+    energy_news_score = fetch_newsdata_risk("oil OR energy OR maritime OR tanker OR strait", 50.0)
+    # 3. Take the HIGHER risk (Safety Protocol)
+    final_energy_score = max(energy_price_score, energy_news_score)
+
     live_inputs = {
-        "Geopolitical Conflict Intensity": fetch_newsdata_risk("war OR conflict OR military", 70.0), 
-        "Energy & Maritime Disruption": fetch_energy_risk(),    
-        "Trade & Supply Chain Stress": fetch_newsdata_risk("supply chain OR port OR cargo", 60.0),     
+        "Geopolitical Conflict Intensity": fetch_newsdata_risk("war OR conflict OR military OR troops", 70.0), 
+        "Energy & Maritime Disruption": final_energy_score,    
+        "Trade & Supply Chain Stress": fetch_newsdata_risk("supply chain OR port OR cargo OR logistics", 60.0),     
         "Sovereign Financial Stress": fetch_sovereign_risk(),   
         "Currency & Liquidity Pressure": fetch_currency_risk(), 
-        "Sanctions & Regulatory Fragmentation": fetch_newsdata_risk("sanctions OR tariffs OR embargo", 55.0), 
-        "Cyber & Infrastructure Threats": fetch_newsdata_risk("cyberattack OR ransomware OR hack", 50.0),       
+        "Sanctions & Regulatory Fragmentation": fetch_newsdata_risk("sanctions OR tariffs OR embargo OR trade war", 55.0), 
+        "Cyber & Infrastructure Threats": fetch_newsdata_risk("cyberattack OR ransomware OR hack OR data breach", 50.0),       
         "Climate & Resource Shock": fetch_climate_risk()        
     }
     
     current_agri = round(sum(live_inputs[p] * weights[p] for p in weights), 1)
     
-    # 2. Prepare AI Context
+    # Prepare AI Context
     severity_map = {"HIGH": 3, "MEDIUM": 2, "WATCH": 1}
     global_alerts.sort(key=lambda x: severity_map.get(x["severity"], 0), reverse=True)
-    # Ensure there is always a fallback if empty
-    final_alerts = global_alerts[:40] if global_alerts else [{"title": "Global Markets Monitoring Routine", "severity": "WATCH", "image": None, "url": "#"}]
+    final_alerts = global_alerts[:40] if global_alerts else [{"title": "Global Markets Baseline Monitoring", "severity": "WATCH", "image": None, "url": "#"}]
     
-    headlines_context = " | ".join([f"{a['title']} (Severity: {a['severity']})" for a in final_alerts[:15]])
+    headlines_context = " | ".join([f"{a['title']} (Severity: {a['severity']})" for a in final_alerts[:20]])
     
     prompt = f"""
     ANALYSIS REQUEST:
