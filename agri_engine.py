@@ -5,6 +5,7 @@ import urllib.parse
 import os
 import xml.etree.ElementTree as ET
 import nltk
+import random
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 # --- 1. NLP & RISK PRIORITIZATION SETUP ---
@@ -28,7 +29,7 @@ MEDIUM_IMPACT_KEYWORDS = [
     "tensions", "diplomatic standoff", "policy shift",
     "regulatory risk", "tariffs",
     "investment screening", "national security review",
-    "supply risk", "resource nationalism"
+    "supply risk", "resource nationalism", "market", "economy"
 ]
 
 global_alerts = []
@@ -42,7 +43,37 @@ def classify_risk(text):
     elif high_score == 1 or medium_score >= 2: return "MEDIUM"
     else: return "WATCH"
 
-# --- 2. FINANCIAL & CLIMATE DATA FETCHERS ---
+def extract_keyword(text):
+    # Extracts the most relevant noun for image searching
+    text_lower = text.lower()
+    for word in HIGH_IMPACT_KEYWORDS + MEDIUM_IMPACT_KEYWORDS:
+        if word in text_lower:
+            return word
+    return "business news"
+
+# --- 2. IMAGE FETCHER (PEXELS API) ---
+def fetch_stock_image(keyword):
+    api_key = os.environ.get("PEXELS_API_KEY")
+    # High-quality default fallback image (Abstract Data/Map)
+    default_image = "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600"
+    
+    if not api_key: 
+        return default_image
+    
+    try:
+        # Search for a landscape photo relevant to the keyword
+        url = f"https://api.pexels.com/v1/search?query={keyword}&per_page=1&orientation=landscape"
+        req = urllib.request.Request(url, headers={'Authorization': api_key, 'User-Agent': 'AvellonBot/1.0'})
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode("utf-8"))
+            if data['photos'] and len(data['photos']) > 0:
+                return data['photos'][0]['src']['medium']
+    except Exception as e:
+        pass # Fail silently to default
+        
+    return default_image
+
+# --- 3. FINANCIAL & CLIMATE DATA FETCHERS ---
 def fetch_currency_risk():
     try:
         url = "https://api.frankfurter.app/latest?from=USD"
@@ -83,7 +114,7 @@ def fetch_sovereign_risk():
             return round(min(max(50 + ((float(data["data"][0]["value"]) - 4.0) * 10), 20), 100), 1)
     except Exception: return 55.0
 
-# --- 3. NLP NEWS SENTIMENT FETCHER ---
+# --- 4. NLP NEWS SENTIMENT FETCHER ---
 def fetch_nlp_news_risk(query, baseline):
     global global_alerts
     try:
@@ -96,10 +127,21 @@ def fetch_nlp_news_risk(query, baseline):
             
             for item in items[:15]: 
                 title = item.find('title').text
+                # Try to find link, standard RSS usually has it
+                link = item.find('link').text if item.find('link') is not None else "#"
                 severity = classify_risk(title)
                 
                 if not any(a['title'] == title for a in global_alerts):
-                    global_alerts.append({"title": title, "severity": severity})
+                    # NEW: Enrich with Image and Link
+                    keyword = extract_keyword(title)
+                    img_url = fetch_stock_image(keyword)
+                    
+                    global_alerts.append({
+                        "title": title, 
+                        "severity": severity,
+                        "url": link,
+                        "image": img_url
+                    })
                 
                 sentiment = sia.polarity_scores(title)['compound']
                 if sentiment < -0.3: risk_modifier += 0.8
@@ -113,7 +155,7 @@ def fetch_nlp_news_risk(query, baseline):
     except Exception as e:
         return baseline
 
-# --- 4. ADVANCED AI INTERPRETATION LAYER (NARRATIVE UPGRADE) ---
+# --- 5. ADVANCED AI INTERPRETATION LAYER ---
 def call_gemini(prompt):
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key: return {"main_brief": "AI Error: API Key not found.", "pillar_narratives": {}}
@@ -152,7 +194,7 @@ def call_gemini(prompt):
         print(f"AI Generation Failed: {str(e)}")
         return {"main_brief": "System error generating narrative.", "pillar_narratives": {}}
 
-# --- 5. MASTER CALCULATOR & DATABASE WRITER ---
+# --- 6. MASTER CALCULATOR & DATABASE WRITER ---
 def calculate_agri():
     weights = {
         "Geopolitical Conflict Intensity": 0.18, "Energy & Maritime Disruption": 0.15,
@@ -192,7 +234,9 @@ def calculate_agri():
     global_alerts.sort(key=lambda x: severity_map.get(x["severity"], 0), reverse=True)
     all_alerts = global_alerts[:40] 
     
-    if not all_alerts: all_alerts = [{"title": "SYSTEM ALERT: NO CRITICAL EVENTS DETECTED", "severity": "WATCH"}]
+    if not all_alerts: 
+        # Fallback with default image
+        all_alerts = [{"title": "SYSTEM ALERT: NO CRITICAL EVENTS DETECTED", "severity": "WATCH", "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600", "url": "#"}]
     
     # NEW: Injecting the headlines into the prompt for citation
     top_headlines_text = " | ".join([a['title'] for a in all_alerts[:15]])
