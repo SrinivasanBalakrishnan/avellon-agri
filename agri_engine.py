@@ -59,6 +59,7 @@ def fetch_pexels_fallback(query):
     if not api_key: return default_image
     try:
         encoded_query = urllib.parse.quote(query)
+        # Always use page 1 for maximum relevance
         url = f"https://api.pexels.com/v1/search?query={encoded_query}&per_page=1&orientation=landscape"
         req = urllib.request.Request(url, headers={'Authorization': api_key, 'User-Agent': 'AvellonBot/1.0'})
         with urllib.request.urlopen(req) as response:
@@ -72,7 +73,9 @@ def fetch_pexels_fallback(query):
 def classify_risk_level(text):
     text_lower = text.lower()
     high_keywords = ["war", "conflict", "sanction", "embargo", "blockade", "military", "crisis", "disaster", "collapse", "attack", "breach", "shortage"]
-    med_keywords = ["tension", "tariff", "dispute", "warning", "risk", "volatile", "talks", "regulatory"]
+    # EXPANDED MEDIUM KEYWORDS to fill the UI
+    med_keywords = ["tension", "tariff", "dispute", "warning", "risk", "volatile", "talks", "regulatory", "uncertainty", "debate", "meeting", "proposal", "monitor", "review"]
+    
     if sum(1 for k in high_keywords if k in text_lower) >= 1: return "HIGH"
     if sum(1 for k in med_keywords if k in text_lower) >= 1: return "MEDIUM"
     return "WATCH"
@@ -91,7 +94,8 @@ def fetch_newsdata_risk(query, baseline_score):
             results = data.get('results', [])
             risk_modifier = 0
             
-            for article in results[:5]: 
+            # INCREASED LIMIT: Process up to 10 articles per pillar to ensure Medium/Watch feeds are full
+            for article in results[:10]: 
                 title = article.get('title', '')
                 if is_duplicate(title, global_alerts): continue 
                 
@@ -134,7 +138,10 @@ def fetch_climate_risk():
         url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson"
         with urllib.request.urlopen(url) as response:
             data = json.loads(response.read().decode("utf-8"))
-            return round(min(20 + (len(data['features']) * 5), 100), 1)
+            # UPDATED LOGIC: Filter for Magnitude >= 5.0 to remove noise
+            significant_events = [f for f in data['features'] if f['properties']['mag'] >= 5.0]
+            # Standardized scoring: Base 20 + 8 pts per major event
+            return round(min(20 + (len(significant_events) * 8), 100), 1)
     except: return 40.0
 
 def fetch_energy_risk():
@@ -171,17 +178,18 @@ def call_gemini(prompt):
     if not api_key: return {"main_brief": "System Offline.", "pillar_narratives": {}}
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
     
-    # SYSTEM PROMPT: Forces AI to explain 'WHY' for every single pillar
+    # UPDATED SYSTEM PROMPT: 'No Stable' Protocol
     sys = """You are a Senior Risk Analyst for Avellon Intelligence. 
     You MUST respond with pure, valid JSON. 
     
-    CRITICAL: You must provide a specific diagnostic for ALL 8 pillars below. Do not skip any.
-    If a sector is stable, explain WHY (e.g., "No major disruptions reported").
-    If a sector is high risk, CITE the specific news headline causing the spike.
+    CRITICAL INSTRUCTIONS:
+    1. NEGATIVE CONSTRAINT: Do NOT use the word 'stable' or 'quiet'. Even in low-risk scenarios, describe the ongoing diplomatic or economic status quo using the provided headlines.
+    2. CITE SOURCES: You must explicitly cite the specific news headline causing the risk score in your diagnostic.
+    3. COMPLETENESS: Provide a diagnostic for ALL 8 pillars.
     
     Required JSON Structure:
     {
-        "main_brief": "A 200-word executive summary weaving the provided news into a cohesive geopolitical narrative. CITE specific headlines.",
+        "main_brief": "A 200-word executive summary weaving the provided news into a cohesive geopolitical narrative.",
         "pillar_narratives": {
             "Geopolitical Conflict Intensity": "Diagnostic...",
             "Energy & Maritime Disruption": "Diagnostic...",
@@ -202,14 +210,14 @@ def call_gemini(prompt):
             raw_text = json.loads(response.read().decode("utf-8"))["candidates"][0]["content"]["parts"][0]["text"]
             result = json.loads(clean_json_response(raw_text))
             
-            # FALLBACK FILLER: Ensure no key is missing to prevent UI "undefined" errors
+            # FALLBACK FILLER
             keys = ["Geopolitical Conflict Intensity", "Energy & Maritime Disruption", "Trade & Supply Chain Stress", 
                     "Sovereign Financial Stress", "Currency & Liquidity Pressure", "Sanctions & Regulatory Fragmentation", 
                     "Cyber & Infrastructure Threats", "Climate & Resource Shock"]
             for k in keys:
                 if k not in result.get("pillar_narratives", {}):
                     if "pillar_narratives" not in result: result["pillar_narratives"] = {}
-                    result["pillar_narratives"][k] = "Sector currently stable. No immediate alerts detected in this cycle."
+                    result["pillar_narratives"][k] = "Sector tracking routine activity. Monitoring ongoing developments in this sphere."
             
             return result
     except Exception as e:
@@ -227,6 +235,7 @@ def calculate_agri():
     
     print("Initializing Avellon Intelligence Engine...")
     
+    # 1. Fetch Data
     live_inputs = {
         "Geopolitical Conflict Intensity": fetch_newsdata_risk("war OR conflict OR military", 70.0), 
         "Energy & Maritime Disruption": fetch_energy_risk(),    
@@ -240,10 +249,11 @@ def calculate_agri():
     
     current_agri = round(sum(live_inputs[p] * weights[p] for p in weights), 1)
     
-    # Prepare AI Context
+    # 2. Prepare AI Context
     severity_map = {"HIGH": 3, "MEDIUM": 2, "WATCH": 1}
     global_alerts.sort(key=lambda x: severity_map.get(x["severity"], 0), reverse=True)
-    final_alerts = global_alerts[:40] if global_alerts else [{"title": "System Stable", "severity": "WATCH", "image": None, "url": "#"}]
+    # Ensure there is always a fallback if empty
+    final_alerts = global_alerts[:40] if global_alerts else [{"title": "Global Markets Monitoring Routine", "severity": "WATCH", "image": None, "url": "#"}]
     
     headlines_context = " | ".join([f"{a['title']} (Severity: {a['severity']})" for a in final_alerts[:15]])
     
