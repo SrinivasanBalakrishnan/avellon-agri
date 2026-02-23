@@ -1,253 +1,309 @@
 {
-    "AGRI_Score": 59.8,
-    "Velocity": "+0.8",
+    "AGRI_Score": 58.6,
+    "Velocity": "-1.2",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 59.8 reflects elevated strategic risk, primarily driven by persistent geopolitical conflict intensity and increasing trade and regulatory fragmentation. Geopolitical tensions remain high, evidenced by news such as \"Two Scenarios for Europe as Trump Talks to Putin\" and ongoing discussions about Ukraine's peace prospects. This is compounded by rising trade protectionism, seen in \"Europe hits back at 'pure tariff chaos' from the U.S.\", and significant regulatory divergences like the \"Double Hungarian veto thwarts loan for Ukraine and new sanctions on Russia.\"",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at an elevated 58.6, predominantly driven by a very high Geopolitical Conflict Intensity pillar score of 83.0. Escalating tensions between the US and Iran, evidenced by headlines such as \"Iran says would respond 'ferociously' to any US attack,\" signal a significant increase in international kinetic and rhetorical threats. Further contributing to this high-risk environment are considerable stresses in Trade & Supply Chain, highlighted by potential \"15% US Tariff Shock,\" and Sanctions & Regulatory Fragmentation, where EU diplomats \"scramble to overcome Hungary's threat to derail new sanctions on Russia.\"",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.2,
-        "Energy & Maritime Disruption": 65.3,
-        "Trade & Supply Chain Stress": 65.7,
+        "Geopolitical Conflict Intensity": 83.0,
+        "Energy & Maritime Disruption": 48.3,
+        "Trade & Supply Chain Stress": 68.4,
         "Sovereign Financial Stress": 50.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 60.9,
-        "Cyber & Infrastructure Threats": 67.0,
+        "Sanctions & Regulatory Fragmentation": 62.4,
+        "Cyber & Infrastructure Threats": 63.3,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is significantly elevated due to persistent conflict and diplomatic impasses concerning major global powers. The news \"Two Scenarios for Europe as Trump Talks to Putin\" highlights potential shifts in Western alliances, while \"Why Ukrainians Don\u2019t Believe in Lasting Peace\" underscores the intractable nature of the conflict in Eastern Europe.",
-        "Energy & Maritime Disruption": "Risk remains notable, with geopolitical tensions having direct implications for energy markets and supply routes. While \"Iran Blinks? Tehran Weighs Uranium Cuts, 'Confidence Building Measures'\" suggests potential de-escalation, the warning that \"Oil Traders May Be Pricing Iran Risk Too Lightly\" indicates underlying volatility persists.",
-        "Trade & Supply Chain Stress": "Elevated stress is evident from escalating international trade disputes and the threat of protectionist measures. \"Europe hits back at 'pure tariff chaos' from the U.S., warning trade deals are at risk\" indicates significant friction, while China's urge for the US to \"lift \u2018unilateral tariff measures\u2019\" reflects broader global trade anxieties.",
-        "Sovereign Financial Stress": "This pillar currently shows moderate activity, with some mixed signals regarding regional financial health and political hurdles to aid. \"Hungary Draws Rebuke Over Threat to Block EU Ukrainian Aid\" highlights political obstacles to financial support, but \"Q3 Earnings Beat Estimates, Risk Reward Favorable For India': Citi\" suggests resilience in specific emerging markets.",
-        "Currency & Liquidity Pressure": "This pillar currently reflects baseline activity, with no immediate widespread systemic pressure reported in the provided feed. While no direct news points to currency crises, the general geopolitical and trade uncertainties could introduce future volatility.",
-        "Sanctions & Regulatory Fragmentation": "This pillar is elevated due to significant internal divisions within key blocs and potential for increased trade barriers. \"Double Hungarian veto thwarts loan for Ukraine and new sanctions on Russia\" demonstrates significant regulatory fragmentation within the EU, while \"Europe hits back at 'pure tariff chaos' from the U.S.\" points to a deteriorating international regulatory environment.",
-        "Cyber & Infrastructure Threats": "Risk remains high due to demonstrated vulnerabilities in critical sectors and the evolving nature of digital attacks. \"One quarter's profit, gone! How IDFC First Bank fell victim to banking's oldest fraud in the age of cyberattacks\" illustrates the material impact of cyber threats on financial institutions.",
-        "Climate & Resource Shock": "This pillar is currently at routine monitoring levels, with no immediate shocks reported in the provided news feed. There is no specific news directly addressing climate events or resource scarcity impacting global stability."
+        "Geopolitical Conflict Intensity": "Geopolitical risk is critically high, primarily fueled by the potential for direct confrontation between the US and Iran. News like \"Chilling signs Iran will order allies to unleash terror on West if Trump strikes\" underscores the severe implications of this heightened rhetoric for regional and global security.",
+        "Energy & Maritime Disruption": "The energy sector is under moderate pressure, with market anxieties noted as \"Oil Surge & Indian Markets On Edge.\" This indicates sensitivity to global events, particularly given the elevated geopolitical tensions that could directly impact oil supplies and prices.",
+        "Trade & Supply Chain Stress": "Trade and supply chains face significant stress due to protectionist policy shifts, specifically new tariffs. The potential for a \"15% US Tariff Shock\" suggests upcoming disruptions to international trade flows and increased costs.",
+        "Sovereign Financial Stress": "Sovereign financial stability is under moderate strain, with market participants observing volatility and specific regional issues. The \"IDFC First Bank Scandal\" and broader market reactions to rising oil prices contribute to an environment of cautious financial monitoring.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures remain at a moderate level, influenced by global commodity price fluctuations and broader market sentiment. The \"Oil Surge & Indian Markets On Edge\" headline implies potential for currency impacts in oil-importing economies.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation is high, with significant friction in international policy coordination, particularly within the EU. \"EU diplomats scramble to overcome Hungary's threat to derail new sanctions on Russia\" directly illustrates the challenges in maintaining a unified sanctions front.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats register a high concern level, indicating a persistent and evolving risk landscape. While the immediate news feed does not contain fresh specific incidents, the heightened global geopolitical tensions suggest an increased background threat environment requiring continued vigilance.",
+        "Climate & Resource Shock": "Risk from climate and resource shocks is currently low, with recent natural events assessed as minimal in impact. Experts have stated that the \"Sabah quake occurred at great depth, low risk despite high magnitude,\" mitigating immediate concerns in this area."
     },
     "All_Alerts": [
         {
-            "title": "Two Scenarios for Europe as Trump Talks to Putin",
+            "title": "Witkoff Says Trump 'Curious' Why Iran Hasn't 'Capitulated'",
             "severity": "HIGH",
-            "url": "https://foreignpolicy.com/2026/02/23/russia-ukraine-war-four-years-trump-putin-negotiations-europe-eu-economics-sanctions/",
-            "image": "https://foreignpolicy.com/wp-content/uploads/2026/02/4-Ukraine-Russia-War-Mural-Putin-Trump-Poland-2026-GettyImages-2258349128.jpg",
-            "source": "foreignpolicy"
+            "url": "https://www.rferl.org/a/33685306.html",
+            "image": "https://gdb.rferl.org/5465fc4b-8f5c-444a-bf9a-5197d849050e_cx0_cy6_cw0_w800_h450.jpg",
+            "source": "rferl"
         },
         {
-            "title": "Iran Blinks? Tehran Weighs Uranium Cuts, 'Confidence Building Measures' As US Military Pressure Mounts",
+            "title": "Chilling signs Iran will order allies to unleash terror on West if Trump strikes as Ayatollah draws up doomsday plan",
             "severity": "HIGH",
-            "url": "https://www.timesnownews.com/world/middle-east/iran-uranium-enrichment-confidence-building-steps-us-nuclear-talks-article-153674830",
-            "image": "https://images.timesnownews.com/thumb/msid-153674830,imgsize-24794,width-1280,height-720/153674830.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "'Q3 Earnings Beat Estimates, Risk Reward Favorable For India': Citi",
-            "severity": "HIGH",
-            "url": "https://www.ndtvprofit.com/markets/q3-earnings-topped-estimates-risk-reward-favorable-for-india-citi-bullish-on-india-inc-growth-top-picks-here-11124295",
-            "image": "https://c.ndtvimg.com/2026-01/n66a85t_earnings-estimates_625x300_31_January_26.jpg?im=FaceCrop%2Calgorithm%3Ddnn%2Cwidth%3D545%2Cheight%3D307",
-            "source": "ndtv"
-        },
-        {
-            "title": "Hungary Draws Rebuke Over Threat to Block EU Ukrainian Aid",
-            "severity": "HIGH",
-            "url": "https://financialpost.com/pmn/business-pmn/hungary-draws-rebuke-over-threat-to-block-eu-ukrainian-aid",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/02/druzhba-oil-pipelines-dependents-refineries-in-hungary-and--1.jpg",
-            "source": "financialpost"
-        },
-        {
-            "title": "Double Hungarian veto thwarts loan for Ukraine and new sanctions on Russia",
-            "severity": "HIGH",
-            "url": "http://www.euronews.com/my-europe/2026/02/23/double-hungarian-veto-thwarts-loan-for-ukraine-and-new-sanctions-on-russia",
-            "image": "https://images.euronews.com/articles/stories/09/66/18/00/1536x864_cmsv2_b465a82a-96a3-55e3-bea0-839b3dc94f23-9661800.jpg",
-            "source": "euronews"
-        },
-        {
-            "title": "Wave of violence in Mexico after military kills cartel boss 'El Mencho'",
-            "severity": "HIGH",
-            "url": "https://www.france24.com/en/video/20260223-wave-of-violence-in-mexico-after-military-kills-cartel-boss-el-mencho",
-            "image": "https://s.france24.com/media/display/7e102eaa-109a-11f1-bf0c-005056a90284/w:1024/p:16x9/EN-20260223-100202-100401-CS.jpg",
-            "source": "france24"
-        },
-        {
-            "title": "Quote of the day by Galileo Galilei: 'All truths are easy to understand once they are discovered..'",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/magazines/panache/quote-of-the-day-by-galileo-galilei-all-truths-are-easy-to-understand-once-they-are-discovered-/articleshow/128708247.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-225162,resizemode-75,msid-128708247/magazines/panache/quote-of-the-day-by-galileo-galilei-all-truths-are-easy-to-understand-once-they-are-discovered-.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Major newspaper distributor issued warning by pensions watchdog",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/business/smiths-news-pensions-tuffnells-parcels-express-warning-b2925606.html",
-            "image": "https://static.independent.co.uk/2026/02/23/09/23090341-90c26199-8215-4e97-9f4f-f8221957aa2c.jpg?crop=1200%3A800&height=800&width=1200",
-            "source": "independentuk"
-        },
-        {
-            "title": "Grief Counselling Market Report 2026-2035: A $5.83 Billion Industry by 2030 with Cleveland Clinic, LifeStance Health, VITAS Healthcare, and Talkspace Leading",
-            "severity": "HIGH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/02/23/3242388/28124/en/Grief-Counselling-Market-Report-2026-2035-A-5-83-Billion-Industry-by-2030-with-Cleveland-Clinic-LifeStance-Health-VITAS-Healthcare-and-Talkspace-Leading.html",
-            "image": "https://www.researchandmarkets.com/content-images/2474/2474489/1/grief-counselling-market.png",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Experts Predicting Bitcoin (BTC) To Hit New Highs, While MUTM Token Can Go 10x First",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/business/crypto/experts-predicting-bitcoin-btc-to-hit-new-highs-while-mutm-token-can-go-10x-first-1828420",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/02/23/6281d716c366a364e9a82d1866a9a6ec1771839793118401_original.jpg",
-            "source": "abplive"
-        },
-        {
-            "title": "Why Ukrainians Don\u2019t Believe in Lasting Peace",
-            "severity": "HIGH",
-            "url": "https://foreignpolicy.com/2026/02/23/russia-ukraine-war-four-years-peace-negotiations-deal-security-guarantees/",
-            "image": "https://foreignpolicy.com/wp-content/uploads/2026/02/7-ukraine-nato-russia-war-GettyImages-2259195893.jpg",
-            "source": "foreignpolicy"
-        },
-        {
-            "title": "Asia and Europe Are Now Strategically Joined",
-            "severity": "HIGH",
-            "url": "https://foreignpolicy.com/2026/02/23/russia-ukraine-war-asia-china-india-japan-nato-geopolitics/",
-            "image": "https://foreignpolicy.com/wp-content/uploads/2026/02/6-Ukraine-Russia-War-North-Korea-Aid-Kim-Jong-Il-Putin-2025-GettyImages-2232856974.jpg",
-            "source": "foreignpolicy"
-        },
-        {
-            "title": "Europe hits back at 'pure tariff chaos' from the U.S., warning trade deals are at risk",
-            "severity": "HIGH",
-            "url": "https://www.cnbc.com/2026/02/23/trump-15percent-global-tariff-europe-eu-uk-reaction.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108268326-17718313271771831324-44176835509-1080pnbcnews.jpg?h=422&v=1771831326&vtcrop=y&w=750",
-            "source": "cnbc"
-        },
-        {
-            "title": "Armed Suspect Killed for Mar-a-Lago Security Breach Identified as 21-Year-Old Man from North Carolina",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/armed-suspect-killed-mar-lago-091816832.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/AAmiMGUw9xUnxQX1pUIUNg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://media.zenfs.com/en/people_218/e5575b7870d1424b8b409659077239da",
-            "source": "yahoo"
-        },
-        {
-            "title": "The Age Verification Trap",
-            "severity": "HIGH",
-            "url": "https://spectrum.ieee.org/age-verification",
-            "image": "https://spectrum.ieee.org/media-library/conceptual-collage-of-an-iphone-featuring-a-carnival-esuqe-fool-the-guesser-sign-the-phone-casts-a-shadow-that-contains-a-thr.jpg?id=64968899&width=980",
-            "source": "ieee_spectrum"
-        },
-        {
-            "title": "One quarter's profit, gone! How IDFC First Bank fell victim to banking's oldest fraud in the age of cyberattacks",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/one-quarters-profit-gone-how-idfc-first-bank-fell-victim-to-bankings-oldest-fraud-in-the-age-of-cyberattacks/articleshow/128706400.cms",
-            "image": "https://img.etimg.com/photo/118783427.cms",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Oil Traders May Be Pricing Iran Risk Too Lightly",
-            "severity": "MEDIUM",
-            "url": "https://uk.investing.com/analysis/oil-traders-may-be-pricing-iran-risk-too-lightly-200622525",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Sriram Raghavan REACTS to \u2018Pakistan not trustworthy\u2019 disclaimer in Ikkis, says \u2018A lot of...\u2019",
-            "severity": "MEDIUM",
-            "url": "https://www.india.com/entertainment/sriram-raghavan-reacts-to-pakistan-not-trustworthy-disclaimer-in-ikkis-says-a-lot-of-people-have-asked-me-about-the-disclaimer-8318886/",
-            "image": "https://static.india.com/wp-content/uploads/2026/02/Thumbnail-2026-02-23T145223.825.png",
-            "source": "india"
-        },
-        {
-            "title": "From WTO Rules To Procedural Concerns: Why Trump's Section 301 Tariffs May Not Stand Legally",
-            "severity": "MEDIUM",
-            "url": "https://www.news18.com/explainers/from-wto-rules-to-procedural-concerns-why-trumps-section-301-tariffs-may-not-stand-legally-ws-l-9924507.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/02/Untitled-design-2026-02-22T142725.323-2026-02-9354fc7d0836dac2d7b702267d48f954-3x2.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "\u2018Fighting is harmful\u2019: China urges US to lift \u2018unilateral tariff measures\u2019 after Supreme Court ruling blow to Trump",
-            "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/business/international-business/fighting-is-harmful-china-urges-us-to-lift-unilateral-tariff-measures-after-supreme-court-ruling-blow-to-trump/articleshow/128705828.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128706150,imgsize-45050,width-400,resizemode-4/china-on-trump-tariffs.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Holi 2026: All About Festival's History, Significance And Date",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/offbeat/holi-2026-all-about-festivals-history-significance-and-date-11124491",
-            "image": "https://c.ndtvimg.com/2022-03/n6k52q8_holi-generic-unsplash_625x300_17_March_22.jpg?im=FeatureCrop%2Calgorithm%3Ddnn%2Cwidth%3D773%2Cheight%3D435",
-            "source": "ndtv"
-        },
-        {
-            "title": "Meghalaya generated 3.66 lakh jobs between 2019-2025: CM",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/india-news/meghalaya-generated-3-66-lakh-jobs-between-2019-2025-cm-101771840112255.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2025/08/06/1600x900/logo/Untitled_design_1754465014585_1754465103581.png",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Significance of elevation of Indo-French ties to special global strategic partnership",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/blogs/ChanakyaCode/significance-of-elevation-of-indo-french-ties-to-special-global-strategic-partnership/",
-            "image": "https://static.toiimg.com/imagenext/toiblogs/photo/blogs/wp-content/uploads/backup/sdpradhanpic.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "How the US Played a Part in Mexico Drug Lord Killing",
-            "severity": "WATCH",
-            "url": "https://www.newsweek.com/how-us-played-part-mexico-drug-lord-killing-el-mencho-11564272",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/02/AP26054168329538-1-1.jpg?w=1200crop%3D1",
-            "source": "newsweek"
-        },
-        {
-            "title": "Hitachi unveils 13-ton battery-electric excavator capable of 24/7 operation",
-            "severity": "WATCH",
-            "url": "https://interestingengineering.com/innovation/hitachi-unveils-13-ton-electric-excavator",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/02/HCME-excavator.jpg",
-            "source": "interestingengineering"
-        },
-        {
-            "title": "Gadchiroli to be steel hub, eastern Vidarbha to be steel corridor: Governor Acharya Devvrat",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/india/maharashtra/gadchiroli-to-be-steel-hub-eastern-vidarbha-to-be-steel-corridor-governor-acharya-devvrat-3908499",
-            "image": "https://media.assettype.com/deccanherald%2F2026-02-23%2Fwio9z63q%2F-Zfgrhi400x400.jpg?ar=40%3A21&auto=format%2Ccompress&mode=crop&ogImage=true&rect=0%2C9%2C400%2C210&w=1200",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Trump 'is considering assassinating the son of Iran's supreme leader' - as brave protesters march in Tehran chanting 'death to the Ayatollah'",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.co.uk/news/article-15584049/Trump-considering-assassinating-Ayatollah-son-protestors-Tehran.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/02/23/09/106597911-0-image-a-13_1771839583841.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Newsom Hits \u2018Builder\u2019 Trump With Brutal New Insult",
-            "severity": "WATCH",
-            "url": "https://www.thedailybeast.com/gavin-newsom-hits-builder-donald-trump-with-brutal-new-insult/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/ANACFPHDW5C4VL6Z7X6TIKGWWU.jpg?auth=c3bd719ab75b50b3cf1c5116fd948a3cd6bc2bdd4178e956698da77b2eba8906&height=2514&smart=true&width=4470",
-            "source": "thedailybeast"
-        },
-        {
-            "title": "Shoppers duped into buying items from sham \u2018UK-based\u2019 companies \u2013 and told to pay to return them to China",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/money/38306993/shoppers-duped-buying-items-sham-companies-told-pay-return-china/",
-            "image": "https://www.thesun.co.uk/wp-content/uploads/2026/02/2BCNAB7jpg-JS1020972331.jpg?crop=1&h=1080&quality=80&strip=all&w=1920",
+            "url": "https://www.thesun.co.uk/news/38309042/iran-allies-unleash-terror-west-trump-strikes-ayatollah/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F02%2Fnewspress-collage-zlnseuzyk-1771841536143.jpg?quality%3D80%26strip%3Dall%261771843632=",
             "source": "thesun"
         },
         {
-            "title": "Britain 'faces paying billions of pounds in compensation to Mauritius' if Trump's opposition forces Starmer to abandon Chagos 'surrender' deal",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.co.uk/news/article-15584179/Britain-billions-compensation-Mauritius-Trump-Starmer-Chagos-surrender.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/02/23/09/106598241-0-image-a-4_1771837789455.jpg",
-            "source": "dailymailuk"
+            "title": "Abductions and killings: Tinubu's govt finally reveals identity of those responsible",
+            "severity": "HIGH",
+            "url": "https://www.legit.ng/nigeria/1698269-abductions-killings-tinubus-govt-finally-mentions-responsible/",
+            "image": "https://cdn.legit.ng/images/1120/b370e2c61daf598c.jpeg?v=1",
+            "source": "legit"
         },
         {
-            "title": "CJI says 'general' directions in 2018 hate crime judgment may be 'unmanageable', favours case-to-case action",
+            "title": "Did Yunus try to 'destabilise' Dhaka? Bangladesh president alleges \u2018conspiracy' to remove him",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/world/south-asia/did-yunus-try-to-destabilise-dhaka-bangladesh-president-alleges-conspiracy-to-remove-him/articleshow/128710180.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128710273,imgsize-879983,width-400,resizemode-4/muhammad-yunus-file.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "EU diplomats scramble to overcome Hungary's threat to derail new sanctions on Russia",
+            "severity": "HIGH",
+            "url": "https://www.wfaa.com/article/syndication/associatedpress/eu-diplomats-scramble-to-overcome-hungarys-threat-to-derail-new-sanctions-on-russia/616-81040d9d-6048-4de6-94fa-52bec816c025",
+            "image": "https://media.tegna-media.com/assets/AssociatedPress/images/31ad8db9-3af7-405d-abcd-c1b1316a6bc8/20260223T104510/31ad8db9-3af7-405d-abcd-c1b1316a6bc8_750x422.jpg",
+            "source": "wfaa"
+        },
+        {
+            "title": "Warning issued to anyone buying strawberries from the supermarket",
+            "severity": "HIGH",
+            "url": "https://www.express.co.uk/life-style/life/2174270/warning-issued-buying-strawberries-supermarket",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/130/590x/2174270_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Iran says would respond 'ferociously' to any US attack, even limited strikes",
+            "severity": "HIGH",
+            "url": "https://www.bangkokpost.com/world/3203479/iran-says-would-respond-ferociously-to-any-us-attack-even-limited-strikes",
+            "image": "https://static.bangkokpost.com/media/content/20260223/c1_5979834.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "What's Hot LIVE: IDFC First Bank Scandal | 15% US Tariff Shock | Oil Surge & Indian Markets On Edge",
+            "severity": "HIGH",
+            "url": "https://www.businesstoday.in/bt-tv/market-today/video/whats-hot-live-idfc-first-bank-scandal-15-us-tariff-shock-oil-surge-indian-markets-on-edge-517546-2026-02-23",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/video/202602/thumbnail-original_1663.jpg",
+            "source": "businesstoday"
+        },
+        {
+            "title": "\u2018You did everything and blamed us for Karur tragedy\u2019: TVK's Vijay attacks Tamil Nadu CM Stalin",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/india-news/you-did-everything-and-blamed-us-for-karur-tragedy-tvk-vijay-attacks-tamil-nadu-cm-mk-stalin-101771839815636.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/23/1600x900/logo/PTI02-23-2026-000091B-0_1771839822474_1771839832747.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Change EU rules to stop Hungary's abuse of veto, Lithuanian foreign minister says",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/change-eu-rules-stop-hungarys-094012806.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/MBcjLa.0Fuba0y0tp8ZbTw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTI1MjtjZj13ZWJw/https://media.zenfs.com/en/euronews_ca_articles_409/810fdd346c366067e01c50afc482bb8b",
+            "source": "yahoo"
+        },
+        {
+            "title": "Jockeys fined after spending first minute of race going at walking pace",
+            "severity": "HIGH",
+            "url": "https://www.mirror.co.uk/sport/horse-racing/jockeys-fined-naas-slow-mullins-36765646",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article36765498.ece/ALTERNATES/s615/0_It-was-a-slow-start-to-the-juvenile-hurdle-at-Naas-Racecourse.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Tyson the Brave: How a German Shepherd\u2019s grit saved lives in Operation Trashi-I",
+            "severity": "HIGH",
+            "url": "https://english.mathrubhumi.com/news/india/army-dog-tyson-kishtwar-encounter-operation-trashi-i-para-sf-2026-gd8xadfs",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1pdg42cxm1wxqw42ogj/0/k9-tyson-jpg.jpg?w=900",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Warning to mothers: What NAFDAC discovered in popular baby formula",
+            "severity": "HIGH",
+            "url": "https://www.legit.ng/business-economy/industry/1698258-public-alert-nafdac-raises-concern-suspected-expired-baby-formula/",
+            "image": "https://cdn.legit.ng/images/1120/9114b132ea5cdfdd.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Sabah quake occurred at great depth, low risk despite high magnitude, say experts",
+            "severity": "MEDIUM",
+            "url": "https://www.thestar.com.my/news/nation/2026/02/23/sabah-quake-occurred-at-great-depth-low-risk-despite-high-magnitude-say-experts",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/02/23/3783114.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "UK risks future as an EU gimp \u2013 there's only one way to stop socialist rot",
+            "severity": "MEDIUM",
+            "url": "https://www.express.co.uk/news/politics/2174277/uk-risks-future-eu-gimp",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/139/590x/2174277_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Gold at \u20b95,200, oil at $70: Here's what happens next with precious metals and crude",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/gold-at-5200-oil-at-70-heres-what-happens-next-with-precious-metals-and-crude/articleshow/128709822.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-10338,resizemode-75,msid-128709822/markets/expert-view/gold-at-5200-oil-at-70-heres-what-happens-next-with-precious-metals-and-crude.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Trump\u2019s new tariffs: What do we know now?",
+            "severity": "MEDIUM",
+            "url": "https://www.irishtimes.com/business/economy/2026/02/23/trumps-new-tariffs-what-do-we-know-now/",
+            "image": "https://www.irishtimes.com/resizer/v2/POC3CP47HKBEELEWIYIVYQBHE4.jpg?auth=464a7e2d9f71c4390b502fbe18546bd2718d48d2406432797e497bf1fb39310b&height=630&smart=true&width=1200",
+            "source": "irishtimes"
+        },
+        {
+            "title": "N.S. opposition challenges government to sit in legislature for more than eight days",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/cji-2018-hate-crime-judgment-general-directions-unmanageable-case-to-case-action/article70666248.ece",
-            "image": "https://th-i.thgim.com/public/incoming/io2wx2/article70666357.ece/alternates/LANDSCAPE_1200/Supreme-Court-sG21FK23VG.4.jpg.jpg",
+            "url": "https://www.ctvnews.ca/atlantic/nova-scotia/article/ns-opposition-challenges-government-to-sit-in-legislature-for-more-than-eight-days/",
+            "image": "https://www.ctvnews.ca/resizer/v2/DWH5LZLKSNAG5E3RTVJGAL7B34.jpg?auth=c5cb35129791fc726dbe2a419922bb93f9589f4f7f93b17f2c28f8f9035b0015&height=630&smart=true&width=1200",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Kara Braxton cause of death: Two-time champion and former WNBA star dies at age 43",
+            "severity": "WATCH",
+            "url": "https://www.marca.com/en/basketball/wnba/2026/02/23/699c309522601dd9168b4583.html",
+            "image": "https://phantom.estaticos-marca.com/5418f5cfb415d17a44fb720ad498b904/resize/1320/f/jpg/assets/multimedia/imagenes/2026/02/23/17718435551035.jpg",
+            "source": "marca"
+        },
+        {
+            "title": "Suzlon shares fall 40% in 9 months to hit 52-week lows; check technicals, targets & more",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/markets/stocks/story/suzlon-shares-fall-40-in-9-months-to-hit-52-week-lows-check-technicals-targets-more-517577-2026-02-23",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202602/699c3041a7fdb-extending-its-downtrend--shares-of-suzlon-energy-ltd-hit-their-52-week-low-during-mondays-trading-s-234723635-16x9.jpg",
+            "source": "businesstoday"
+        },
+        {
+            "title": "New Dutch minority government sworn in under centrist Prime Minister Rob Jetten",
+            "severity": "WATCH",
+            "url": "http://www.euronews.com/2026/02/23/new-dutch-minority-government-sworn-in-under-the-nations-youngest-prime-minister-rob-jette",
+            "image": "https://images.euronews.com/articles/stories/09/66/19/77/1536x864_cmsv2_11a6aaac-6075-554b-87d3-b4af14f7687f-9661977.jpg",
+            "source": "euronews"
+        },
+        {
+            "title": "One Europe, one market: Can the EU turn 27 economies into one powerhouse?",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/one-europe-one-market-eu-095911488.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/Zb5mHjKdhrcxr62mtB6y_g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/euronews_uk_articles_973/9cb543e08a04740f819a624fc6830f86",
+            "source": "yahoo"
+        },
+        {
+            "title": "Upgrade your wellness routine: win a year\u2019s supply of premium supplements courtesy of Vitawell",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/whats-on/upgrade-your-wellness-routine-win-33460053",
+            "image": "https://i2-prod.birminghammail.co.uk/whats-on/article33460017.ece/ALTERNATES/s615/0_Relax.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "How does the EU plan to step up competitiveness? Ask the Euronews AI chatbot",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/does-eu-plan-step-competitiveness-070119947.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/.nuHbf6pkWHLGYcE7i0Czw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/euronews_uk_articles_973/041240e2b0178eb7907e6b1c9753ec2c",
+            "source": "yahoo"
+        },
+        {
+            "title": "Colgate-Palmolive partners with Haryana Government to advance Oral Health Education for 57 Lakh School Children",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/brandhub/pr-release/colgate-palmolive-partners-with-haryana-government-to-advance-oral-health-education-for-57-lakh-school-children/article70666612.ece",
+            "image": "https://th-i.thgim.com/public/incoming/mlp6i9/article70666625.ece/alternates/LANDSCAPE_1200/Colgate_BSBF_Haryana.jpg",
             "source": "thehindu"
         },
         {
-            "title": "Global Patient Portal Market Expected to Reach USD 28.55 Billion by 2035, Fueled by Digital Health Adoption and Growing Demand for Patient-Centric Care \u2013 SNS Insider",
+            "title": "Ramadan 2026: 8 smart Iftar habits to adopt from while you break your fast",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/02/23/3242346/0/en/Global-Patient-Portal-Market-Expected-to-Reach-USD-28-55-Billion-by-2035-Fueled-by-Digital-Health-Adoption-and-Growing-Demand-for-Patient-Centric-Care-SNS-Insider.html",
-            "image": "https://ml.globenewswire.com/Resource/Download/34c76c6f-cd03-4cdf-9be8-98d357e55ee2/patient-portal-market.jpg",
-            "source": "globenewswire"
+            "url": "https://www.moneycontrol.com/health-and-fitness/ramadan-2026-8-smart-iftar-habits-to-adopt-from-while-you-break-your-fast-article-13839898.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260218065646_Ramadan-and-IBS.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Gaza child dies waiting for Israeli permission to leave for treatment",
+            "severity": "WATCH",
+            "url": "https://www.aljazeera.com/news/2026/2/23/gaza-child-dies-waiting-for-israeli-permission-to-leave-for-treatment",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/02/AA-20260210-40509879-40509877-THREE_PALESTINIANS_LOST_THEIR_LIVES_IN_ISRAELI_ARMY_ATTACKS_IN_GAZA-1770738932.jpg?quality=80&resize=770%2C513",
+            "source": "aljazeera_us"
+        },
+        {
+            "title": "UN chief Guterres decries global rise of 'rule of force'",
+            "severity": "WATCH",
+            "url": "https://www.khaleejtimes.com/world/europe/un-chief-guterres-decries-global-rise-of-rule-of-force",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-02-23/soiq9k2g/http___doc_afp_com_98LM7ZQ.jpeg?format=auto&height=630&mode=crop&ogImage=true&rect=1%2C0%2C5000%2C3333&width=1200",
+            "source": "khaleejtimes"
+        },
+        {
+            "title": "\u2018Like flesh and blood\u2019: Vijay says he and people are one, turns emotional at Vellore rally | VIDEO",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/news/india/like-flesh-and-blood-vijay-says-he-and-people-are-one-turns-emotional-in-vellore-rally-video-ct9jzyp9",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1pdgpsz8l2j2p4am4qk/0/vijay-jpg.jpg?w=900",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Who is Lakshmipriya Devi? Boong director who made history at BAFTA 2026",
+            "severity": "WATCH",
+            "url": "https://www.firstpost.com/entertainment/who-is-lakshmipriya-devi-boong-director-who-made-history-at-bafta-2026-13982708.html",
+            "image": "https://images.firstpost.com/uploads/2026/02/Who-is-Lakshmipriya-Devi-2026-02-4951bc098d6876c31c6525d8a9f5c2f7.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Trump's Board of Peace and Central Asia",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/ht-insight/international-affairs/trumps-board-of-peace-and-central-asia-101771843133718.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/23/1600x900/logo/USA-TRUMP--48_1771767139179_1771767181797_1771843304173.JPG",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Healthcare Logistics Industry Report 2026-2035: A $213.74 Billion Market by 2030 with AmerisourceBergen, CEVA Logistics, Cold Chain Technologies, Deutsche Post DHL Group, and UPS Healthcare Leading",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/02/23/3242411/28124/en/Healthcare-Logistics-Industry-Report-2026-2035-A-213-74-Billion-Market-by-2030-with-AmerisourceBergen-CEVA-Logistics-Cold-Chain-Technologies-Deutsche-Post-DHL-Group-and-UPS-Healthc.html",
+            "image": "https://www.researchandmarkets.com/content-images/2471/2471770/1/healthcare-logistics-market.png",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "52-year-old woman loses all limbs after harmless lick from dog; physician explains what is sepsis, when it is dangerous",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/lifestyle/health/52-year-old-woman-loses-all-limbs-after-harmless-lick-from-dog-physician-explains-what-is-sepsis-when-it-is-dangerous-101771836258866.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/23/1600x900/logo/manjit_singh_1771840925200_1771840929397.webp",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Dubai office sales double to Dh13.1 billion in strongest year since 2014",
+            "severity": "WATCH",
+            "url": "https://gulfnews.com/business/property/dubai-office-sales-double-to-dh131-billion-in-strongest-year-since-2014-1.500452563",
+            "image": "https://media.assettype.com/gulfnews%2Fimport%2F2023%2F12%2F06%2FSTOCK-OFFICE-STAFF-IN-DUBAI---EMPLOYEES---JOBS---UAE_18c3e679e77_large.jpg?ar=40%3A21&auto=format%2Ccompress&enlarge=true&mode=crop&ogImage=true&overlay=false&overlay_position=bottom&overlay_width=100&w=1200",
+            "source": "gulfnews"
+        },
+        {
+            "title": "MSC 4Q profit climbs 32% to RM39.9mil on higher tin prices",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/02/23/msc-4q-profit-climbs-32-to-rm399mil-on-higher-tin-prices",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/02/23/3783098.jpeg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Bella Ramsey, Daisy Haggard, Gemma Arterton, Paapa Essiedu, Aidan Gillen and Robyn Malcolm Headline All3Media International\u2019s London TV Screenings Scripted Lineup",
+            "severity": "WATCH",
+            "url": "https://variety.com/2026/tv/global/all3media-international-bella-ramsay-gemma-arterton-1236670088/",
+            "image": "https://variety.com/wp-content/uploads/2026/02/Maya_S01_Bella-Ramsey-as-Maya-Daisy-Haggard-as-Anna-Two-Brothers-Pictures-All3Media-International-2-1.jpg",
+            "source": "variety"
+        },
+        {
+            "title": "Report: Israel prisons chief hosted tour at jail housing Hamas terrorists",
+            "severity": "WATCH",
+            "url": "https://www.haaretz.com/israel-news/2026-02-23/ty-article/report-israel-prisons-chief-hosted-tour-at-jail-housing-hamas-terrorists/0000019c-89ca-d7dd-a9bc-b9cb17e70000",
+            "image": "https://img.haarets.co.il/bs/0000019c-8a0c-d981-a1be-9abe12ed0001/d4/da/50593e984e5993dc720fad7b6eaf/309234.jpg?height=81&width=108",
+            "source": "haaretz_is"
+        },
+        {
+            "title": "Martin Lewis ambushes Badenoch on Good Morning Britain over student loans plan",
+            "severity": "WATCH",
+            "url": "https://www.theguardian.com/politics/2026/feb/23/martin-lewis-ambushes-kemi-badenoch-good-morning-britain-student-loans",
+            "image": "https://i.guim.co.uk/img/media/9d80d31782abf5ff944ab45104a9aa266371616c/0_0_5000_4000/master/5000.png?crop=none&dpr=1&s=none&width=465",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "Anti-Breitbart Censorship Chief Reported Journalists to British Intelligence over False Russian Collusion Accusations: Reports",
+            "severity": "WATCH",
+            "url": "https://www.breitbart.com/europe/2026/02/23/anti-breitbart-censorship-chief-reported-journalists-to-british-intelligence-over-false-russian-collusion-accusations-reports/",
+            "image": "https://media.breitbart.com/media/2026/02/Portrait-2-640x480.jpg",
+            "source": "breitbart"
+        },
+        {
+            "title": "Rachel Reeves to clobber workers on certain wage with \u00a39,300 tax raid",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/cost-of-living/rachel-reeves-clobber-workers-certain-33472859",
+            "image": "https://i2-prod.birminghammail.co.uk/news/cost-of-living/article33472884.ece/ALTERNATES/s615/0_reeves.jpg",
+            "source": "birminghammail"
         }
     ],
-    "Last_Updated": "2026-02-23T21:55:38.955515Z"
+    "Last_Updated": "2026-02-23T22:50:44.058804Z"
 }
