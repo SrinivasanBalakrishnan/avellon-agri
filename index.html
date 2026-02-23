@@ -25,9 +25,9 @@
         /* Tour Highlight */
         .tour-highlight { z-index: 101 !important; position: relative !important; outline: 3px solid #38bdf8 !important; outline-offset: 4px; background: rgba(10, 25, 47, 0.95) !important; pointer-events: none; }
 
-        /* --- NEW: Visual News Feed CSS --- */
+        /* --- VISUAL NEWS FEED CSS --- */
         .scroll-container { height: 400px; overflow: hidden; position: relative; mask-image: linear-gradient(to bottom, transparent, black 5%, black 95%, transparent); -webkit-mask-image: linear-gradient(to bottom, transparent, black 5%, black 95%, transparent); }
-        .scroll-content { animation: scroll-vertical 90s linear infinite; } /* Adjusted speed for readability */
+        .scroll-content { animation: scroll-vertical 90s linear infinite; } 
         .scroll-container:hover .scroll-content { animation-play-state: paused; }
         @keyframes scroll-vertical { 0% { transform: translateY(0); } 100% { transform: translateY(-50%); } }
 
@@ -239,7 +239,7 @@
         let myChart;
         let globalCurrentScore = 0;
         let globalChartType = 'line';
-        let globalTimeframe = '1D';
+        let globalTimeframe = '1D'; 
         let globalAllAlerts = []; 
         let globalPillarNarratives = {};
         let globalHistoryData = []; 
@@ -419,7 +419,6 @@
             let colorClass = severity === "HIGH" ? "text-red-400" : (severity === "MEDIUM" ? "text-amber-400" : "text-emerald-400");
 
             filteredAlerts.forEach(alert => {
-                // Fallback image if Pexels fails or wasn't fetched
                 let img = alert.image || "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600";
                 let link = alert.url || "#";
                 
@@ -433,7 +432,6 @@
                 </a>`;
             });
 
-            // Double the content for smooth infinite scrolling
             feed.innerHTML = contentHTML + contentHTML;
         }
 
@@ -446,11 +444,26 @@
             let aggregatedMap = new Map();
 
             if (timeframe === '1D') {
+                // FIXED: Standardized 2-Hour Bins for Clean Axis (12 AM, 2 AM...)
                 let cutoff = new Date(now.getTime() - (24 * 60 * 60 * 1000));
                 filtered = globalHistoryData.filter(d => new Date(d.timestamp) >= cutoff);
+                
+                // Sort to ensure chronological order
+                filtered.sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+
                 filtered.forEach(d => {
                     let dateObj = new Date(d.timestamp);
-                    let key = dateObj.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+                    // Round down to the nearest even hour (0, 2, 4...)
+                    let hour = dateObj.getHours();
+                    let roundedHour = Math.floor(hour / 2) * 2;
+                    
+                    // Create a bin date object
+                    let binTime = new Date(dateObj);
+                    binTime.setHours(roundedHour, 0, 0, 0);
+                    
+                    // Format Label: "2 AM", "4 PM"
+                    let key = binTime.toLocaleTimeString('en-US', { hour: 'numeric', hour12: true });
+                    
                     if(!aggregatedMap.has(key)) aggregatedMap.set(key, []);
                     aggregatedMap.get(key).push(d.score);
                 });
