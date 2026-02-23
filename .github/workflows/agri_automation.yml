@@ -33,6 +33,7 @@ jobs:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
         PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }} # <--- Critical Addition
       run: python agri_engine.py
 
     - name: Commit and push changes
