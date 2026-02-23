@@ -8,6 +8,13 @@ import nltk
 import random
 from nltk.sentiment import SentimentIntensityAnalyzer
 
+# --- IMPORT THE VISUAL VAULT ---
+try:
+    from image_library import IMAGE_PROMPTS
+except ImportError:
+    # Fallback if file is missing during local test
+    IMAGE_PROMPTS = {"INFOGRAPHIC": ["Global geopolitical map abstract"]}
+
 # --- 1. NLP & RISK PRIORITIZATION SETUP ---
 try:
     nltk.data.find('sentiment/vader_lexicon.zip')
@@ -43,33 +50,51 @@ def classify_risk(text):
     elif high_score == 1 or medium_score >= 2: return "MEDIUM"
     else: return "WATCH"
 
-def extract_keyword(text):
-    # Extracts the most relevant noun for image searching
-    text_lower = text.lower()
-    for word in HIGH_IMPACT_KEYWORDS + MEDIUM_IMPACT_KEYWORDS:
-        if word in text_lower:
-            return word
-    return "business news"
+def get_cinematic_query(headline):
+    """Maps a headline to a specific, cinematic scene description from the library."""
+    text_lower = headline.lower()
+    
+    # Categorization Logic
+    if any(x in text_lower for x in ["war", "conflict", "military", "army", "weapon", "border", "defense", "missile"]): 
+        return random.choice(IMAGE_PROMPTS.get("GEOPOLITICS", ["Global conflict map"]))
+    if any(x in text_lower for x in ["ship", "port", "sea", "maritime", "canal", "vessel", "freight", "shipping"]): 
+        return random.choice(IMAGE_PROMPTS.get("MARITIME", ["Cargo ship at sea"]))
+    if any(x in text_lower for x in ["oil", "gas", "energy", "pipeline", "fuel", "lng", "barrel"]): 
+        return random.choice(IMAGE_PROMPTS.get("ENERGY", ["Oil refinery at night"]))
+    if any(x in text_lower for x in ["cyber", "hack", "data", "ransomware", "digital", "network"]): 
+        return random.choice(IMAGE_PROMPTS.get("CYBER", ["Hacker code screen"]))
+    if any(x in text_lower for x in ["climate", "flood", "drought", "storm", "weather", "carbon"]): 
+        return random.choice(IMAGE_PROMPTS.get("CLIMATE", ["Climate change landscape"]))
+    if any(x in text_lower for x in ["sanction", "embargo", "seize", "freeze", "law", "court"]): 
+        return random.choice(IMAGE_PROMPTS.get("SANCTIONS", ["Gavel and treaty"]))
+    if any(x in text_lower for x in ["chip", "tech", "semiconductor", "ai", "5g", "robot"]): 
+        return random.choice(IMAGE_PROMPTS.get("TECH", ["Semiconductor chip"]))
+    if any(x in text_lower for x in ["economy", "trade", "tariff", "bank", "market", "stock", "finance", "inflation"]): 
+        return random.choice(IMAGE_PROMPTS.get("ECONOMY", ["Stock market chart"]))
+    
+    # Default Fallback
+    return random.choice(IMAGE_PROMPTS.get("INFOGRAPHIC", ["Abstract global news background"]))
 
 # --- 2. IMAGE FETCHER (PEXELS API) ---
-def fetch_stock_image(keyword):
+def fetch_stock_image(query):
     api_key = os.environ.get("PEXELS_API_KEY")
-    # High-quality default fallback image (Abstract Data/Map)
     default_image = "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600"
     
-    if not api_key: 
-        return default_image
+    if not api_key: return default_image
     
     try:
-        # Search for a landscape photo relevant to the keyword
-        url = f"https://api.pexels.com/v1/search?query={keyword}&per_page=1&orientation=landscape"
+        # We append a random page to ensure we don't always get the #1 result for "Oil"
+        random_page = random.randint(1, 10)
+        encoded_query = urllib.parse.quote(query)
+        url = f"https://api.pexels.com/v1/search?query={encoded_query}&per_page=1&page={random_page}&orientation=landscape"
+        
         req = urllib.request.Request(url, headers={'Authorization': api_key, 'User-Agent': 'AvellonBot/1.0'})
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode("utf-8"))
             if data['photos'] and len(data['photos']) > 0:
                 return data['photos'][0]['src']['medium']
     except Exception as e:
-        pass # Fail silently to default
+        pass 
         
     return default_image
 
@@ -127,14 +152,15 @@ def fetch_nlp_news_risk(query, baseline):
             
             for item in items[:15]: 
                 title = item.find('title').text
-                # Try to find link, standard RSS usually has it
                 link = item.find('link').text if item.find('link') is not None else "#"
                 severity = classify_risk(title)
                 
                 if not any(a['title'] == title for a in global_alerts):
-                    # NEW: Enrich with Image and Link
-                    keyword = extract_keyword(title)
-                    img_url = fetch_stock_image(keyword)
+                    # --- DYNAMIC VISUAL ENGINE ---
+                    # 1. Get a random, cinematic prompt based on the headline category
+                    visual_query = get_cinematic_query(title)
+                    # 2. Fetch the image using that specific prompt
+                    img_url = fetch_stock_image(visual_query)
                     
                     global_alerts.append({
                         "title": title, 
@@ -235,10 +261,8 @@ def calculate_agri():
     all_alerts = global_alerts[:40] 
     
     if not all_alerts: 
-        # Fallback with default image
         all_alerts = [{"title": "SYSTEM ALERT: NO CRITICAL EVENTS DETECTED", "severity": "WATCH", "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600", "url": "#"}]
     
-    # NEW: Injecting the headlines into the prompt for citation
     top_headlines_text = " | ".join([a['title'] for a in all_alerts[:15]])
     
     prompt = f"Current AGRI: {current_agri}, Velocity: {str_velocity}. Top driver: {top_driver}. "
@@ -267,7 +291,7 @@ def calculate_agri():
     with open("data.json", "w") as json_file:
         json.dump(agri_data, json_file, indent=4)
         
-    # --- SAVE HISTORICAL DATA FOR CHART (history.json) ---
+    # --- SAVE HISTORICAL DATA (history.json) ---
     history_file = "history.json"
     history_data = []
     
@@ -277,10 +301,8 @@ def calculate_agri():
                 history_data = json.load(f)
         except Exception: pass
 
-    # Append the new reading to our history database
     history_data.append({"timestamp": current_time_str, "score": current_agri})
     
-    # Cap the history at 3000 records to prevent file bloat
     if len(history_data) > 3000:
         history_data = history_data[-3000:]
 
