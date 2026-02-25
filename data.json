@@ -1,239 +1,218 @@
 {
-    "AGRI_Score": 55.9,
-    "Velocity": "-1.6",
+    "AGRI_Score": 55.3,
+    "Velocity": "-0.6",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The AGRI score of 55.9 reflects a moderate-to-elevated risk environment, primarily driven by intense geopolitical conflict and emerging cyber threats. Persistent conflict, highlighted by 'WATCH: Four years in, Ukrainian soldier reflects on cost of war', significantly elevates the 'Geopolitical Conflict Intensity' pillar. Concurrently, a major 'Conduent data breach grows, affecting at least 25M people' underscores the escalating 'Cyber & Infrastructure Threats' and contributes to overall systemic risk. These factors necessitate heightened vigilance across interconnected global systems.",
+    "AI_Brief": "The current AGRI score of 55.3 reflects an elevated risk environment, primarily driven by persistent geopolitical tensions and a growing threat from cyber vulnerabilities. Geopolitical Conflict Intensity remains a significant concern, amplified by reports such as \"Russia\u2019s stance on UK, French plans to hand over nuclear weapons to Kiev\" and the continued focus on Iran military options. Concurrently, the \"Cyber & Infrastructure Threats\" pillar is notably high, with \"Insider Risk Costs Hit $19.5M USD Per Year as AI Creates New Blind Spots\" indicating a substantial and evolving risk landscape. While other pillars show moderate activity, these core areas are the primary contributors to the overall score.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 81.5,
-        "Energy & Maritime Disruption": 52.4,
-        "Trade & Supply Chain Stress": 61.3,
+        "Geopolitical Conflict Intensity": 74.2,
+        "Energy & Maritime Disruption": 51.8,
+        "Trade & Supply Chain Stress": 64.9,
         "Sovereign Financial Stress": 50.3,
         "Currency & Liquidity Pressure": 50.0,
         "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 59.5,
+        "Cyber & Infrastructure Threats": 63.0,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Elevated risk is driven by the protracted conflict in Ukraine and increasing militarization, as evidenced by 'Denmark in Talks With Ukrainian Drone Maker Skyfall on Hosting Production'. Furthermore, regional instability is amplified by non-state actors, with 'Tourists Stranded in Mexico After Cartel Violence Erupts' highlighting significant internal security challenges.",
-        "Energy & Maritime Disruption": "The current environment shows some localized energy market volatility, reflected in individual company stock performance rather than widespread supply disruption. Monitoring for broader impacts from geopolitical events on energy infrastructure remains a routine activity.",
-        "Trade & Supply Chain Stress": "Trade friction is intensifying, with 'China targets Japan's defense sector with ban on 'dual-use' exports' indicating deliberate economic pressure. Broader economic slowdowns, as suggested by 'Home Depot's Q4 earnings tell the story of a \"frozen home environment\"', contribute to reduced demand, creating downstream supply chain pressures.",
-        "Sovereign Financial Stress": "Currently, there is no direct evidence from the news feed indicating widespread sovereign financial distress or major default risks. Economic indicators, such as consumer spending trends, warrant continued observation for potential future impacts on national fiscal health.",
-        "Currency & Liquidity Pressure": "The provided intelligence does not highlight any immediate, widespread currency devaluations or significant liquidity crises across major economies. Financial markets are currently operating with routine monitoring required for any shifts in global capital flows.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation is increasing, evidenced by 'China targets Japan's defense sector with ban on 'dual-use' exports' which creates new barriers for specific high-tech trade. This type of targeted export control contributes to a more complex and fractured international regulatory landscape.",
-        "Cyber & Infrastructure Threats": "Significant cyber threats are actively materializing, with the 'Conduent data breach grows, affecting at least 25M people' indicating a major compromise of sensitive data. This incident highlights persistent vulnerabilities in critical infrastructure and large data custodians.",
-        "Climate & Resource Shock": "The current news feed does not indicate any immediate, severe climate-related disasters or resource shocks impacting global stability. This pillar remains at a low-risk level, with ongoing environmental developments under routine observation."
+        "Geopolitical Conflict Intensity": "This pillar is highly active due to escalating tensions surrounding Ukraine, with claims that \"Russian intelligence claims UK and France plan to send nuclear arms to Ukraine\" signalling potential for further conflict. Additionally, high-level discussions around \"Trump's apparent frustration over Iran military options\" indicate ongoing instability in the Middle East. ",
+        "Energy & Maritime Disruption": "The news feed presents no immediate or widespread disruptions in energy supply or maritime routes, with \"ConocoPhillips says well pad 104W-A achieved first oil on Dec 11, 2025\" highlighting future production. This pillar is currently under routine monitoring.",
+        "Trade & Supply Chain Stress": "Trade friction is evident with the \"WTO sets up dispute panel on China\u2019s complaint against India\u2019s PLI schemes,\" indicating potential for global trade fragmentation. Such disputes can introduce unpredictability and increase stress on international supply chains.",
+        "Sovereign Financial Stress": "There are no direct indicators of widespread sovereign financial distress or market instability within the provided news. Financial markets are exhibiting baseline activity, without any specific headlines pointing to a systemic crisis.",
+        "Currency & Liquidity Pressure": "The news feed does not contain specific information regarding significant currency fluctuations or widespread liquidity pressures in major economies. This pillar currently exhibits baseline activity.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory scrutiny is highlighted by \"France bans Jared Kushner's father from meeting government officials,\" suggesting heightened attention to political influence. The ongoing WTO dispute between China and India further underscores the potential for international regulatory divergences impacting trade.",
+        "Cyber & Infrastructure Threats": "This pillar is experiencing significant pressure, driven by the alarming revelation that \"Insider Risk Costs Hit $19.5M USD Per Year as AI Creates New Blind Spots.\" The increasing sophistication of cyber threats, particularly with AI, necessitates heightened vigilance for critical infrastructure.",
+        "Climate & Resource Shock": "While there is local environmental activism, such as the call to \"Save Ohio Parks: Public comments needed to stop fracking 8,749 acres,\" this does not indicate a widespread climate or resource shock. This pillar remains at a low risk level, requiring routine monitoring rather than immediate intervention."
     },
     "All_Alerts": [
         {
-            "title": "WATCH: Four years in, Ukrainian soldier reflects on cost of war",
+            "title": "Software stocks rebound as Anthropic announces new partnerships",
             "severity": "HIGH",
-            "url": "https://abcnews.com/International/video/years-ukrainian-soldier-reflects-cost-war-130446356",
-            "image": "https://s.abcnews.com/images/International/260224_abc_social_ukraine_hpMain_4x3_384.jpg",
-            "source": "abcnews"
+            "url": "https://www.cnbc.com/2026/02/24/software-stocks-anthropic-ai.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108269167-17719484821771948480-44201776353-1080pnbcnews.jpg?h=422&v=1771948481&vtcrop=y&w=750",
+            "source": "cnbc"
         },
         {
-            "title": "Tourists Stranded in Mexico After Cartel Violence Erupts: \u2018I Watched Them Explode a Jeep\u2019",
+            "title": "State of the Union could be Trump\u2019s best chance to sell voters on Iran plans",
             "severity": "HIGH",
-            "url": "https://time.com/7380653/mexico-puerto-vallarta-cartel-violence-el-mencho-tourists-stranded/",
-            "image": "https://api.time.com/wp-content/uploads/2026/02/Mexixo-main.jpg?h=675&w=1200",
-            "source": "time"
+            "url": "https://www.timesofisrael.com/state-of-the-union-could-be-trumps-best-chance-to-sell-voters-on-iran-plans/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2020/02/Untitled-8-1-1024x640.jpg",
+            "source": "timesofisrael"
         },
         {
-            "title": "Warner Bros gets a new offer from Paramount in heated bidding war for the storied Hollywood studio",
+            "title": "H.R. McMaster reacts to Trump's apparent frustration over Iran military options",
             "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/warner-bros-gets-offer-paramount-144215389.html",
-            "image": "https://images.pexels.com/photos/15920138/pexels-photo-15920138.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
+            "url": "https://www.cbsnews.com/video/hr-mcmaster-reacts-trump-apparent-frustration-over-iran-military-options/",
+            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/02/24/7fc20c56-5447-48d1-bbe2-989b2c8fed08/thumbnail/60x60/0d1cbce8d40ecaef2eb6f34f5b79eaa8/cbsn-fusion-hr-mcmaster-reacts-trump-apparent-frustration-over-iran-military-options-thumbnail.jpg",
+            "source": "cbsnews"
         },
         {
-            "title": "Denmark in Talks With Ukrainian Drone Maker Skyfall on Hosting Production",
+            "title": "IN BRIEF: Russia\u2019s stance on UK, French plans to hand over nuclear weapons to Kiev",
             "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-02-24/denmark-in-talks-with-ukrainian-drone-maker-skyfall-on-danish-production",
-            "image": "https://www.usnews.com/object/image/0000019c-7c58-d865-affd-7edd476e0000/feb-20-pyss-x07.jpg?size=responsive640&update-time=1771612778233",
-            "source": "usnews"
+            "url": "https://tass.com/politics/2091199",
+            "image": "https://images.pexels.com/photos/23789/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
+            "source": "tass"
         },
         {
-            "title": "Paramount submits a new offer for Warner Bros in bidding war with Netflix for storied studio",
+            "title": "Barfresh gets multi-year bid award to supply smoothies at school district in Nevada",
             "severity": "HIGH",
-            "url": "https://apnews.com/article/warner-bros-netflix-paramount-studio-hollywood-1d2cf2c65ed6aceb4e34811d68e987ac",
-            "image": "https://dims.apnews.com/dims4/default/c38be4e/2147483647/strip/true/crop/5624x3747+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe5%2F61%2F49cfdd9822bfda896dfb5e177f3f%2F7041008d6f3b4d16a2e8b17f7f788229",
-            "source": "apnews"
+            "url": "https://www.marketscreener.com/news/barfresh-gets-multi-year-bid-award-to-supply-smoothies-at-school-district-in-nevada-ce7e5cdadf8bff23",
+            "image": "https://images.pexels.com/photos/30687133/pexels-photo-30687133.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "marketscreener"
         },
         {
-            "title": "Conduent data breach grows, affecting at least 25M people",
+            "title": "Warner Bros gets a new offer from Paramount in heated fight for the storied Hollywood studio",
             "severity": "HIGH",
-            "url": "https://techcrunch.com/2026/02/24/conduent-data-breach-grows-affecting-at-least-25m-people/",
-            "image": "https://techcrunch.com/wp-content/uploads/2026/02/conduent-630849206.jpg?w=1024",
-            "source": "techcrunch"
+            "url": "https://www.bostonherald.com/2026/02/24/warner-bros-new-offer/",
+            "image": "https://www.bostonherald.com/wp-content/uploads/2026/02/WARNER_BROS_53048_8f9f2c.jpg?strip=all&w=1400px",
+            "source": "bostonherald"
         },
         {
-            "title": "11.6 kg lighter than its predecessor: Powerstation Anker Solix C2000 Gen 2 review",
-            "severity": "MEDIUM",
-            "url": "https://www.notebookcheck.net/11-6-kg-lighter-than-its-predecessor-Powerstation-Anker-Solix-C2000-Gen-2-review.1233558.0.html",
-            "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Anker-Solix-C2000-Gen-2-Test.jpg",
-            "source": "notebookcheck"
+            "title": "France bans Jared Kushner's father from meeting government officials",
+            "severity": "HIGH",
+            "url": "https://www.the-express.com/news/politics/200200/france-bans-jared-kushners-father",
+            "image": "https://cdn-images.the-express.com/img/dynamic/13/590x/200200_1.jpg",
+            "source": "express"
         },
         {
-            "title": "Home Depot's Q4 earnings tell the story of a \"frozen home environment\"",
-            "severity": "MEDIUM",
-            "url": "https://investinglive.com/news/home-depots-q4-earnings-tell-the-story-of-a-frozen-home-environment-20260224/",
-            "image": "https://images.investinglive.com/images/home%20depot%20HD%20stock_id_08b1072e-005b-4f1c-a5ad-54a77ce6d69b_original.jpg",
-            "source": "forexlive"
+            "title": "Russian intelligence claims UK and France plan to send nuclear arms to Ukraine, but offers no proof",
+            "severity": "HIGH",
+            "url": "http://www.euronews.com/my-europe/2026/02/24/russian-intelligence-claims-uk-and-france-plan-to-send-nuclear-arms-to-ukraine-but-offers-",
+            "image": "https://images.euronews.com/articles/stories/09/66/41/51/1536x864_cmsv2_a86f962f-8699-5101-a9f2-37cf62442592-9664151.jpg",
+            "source": "euronews"
         },
         {
-            "title": "Charles Kushner barred from French officials after summons no-show",
-            "severity": "MEDIUM",
-            "url": "https://www.upi.com/Top_News/US/2026/02/24/charles-kushner-barred-french-officials-summons/4971771941964/",
-            "image": "https://cdnph.upi.com/svc/sv/upi/4971771941964/2026/1/1c730b1f025f05c1a2c694fe23f9563a/Charles-Kushner-barred-from-French-officials-after-summons-no-show.jpg",
-            "source": "upi"
+            "title": "Thousands of pages of documents from Nicola Sturgeon inquiry published",
+            "severity": "HIGH",
+            "url": "https://www.standard.co.uk/news/politics/scottish-government-nicola-sturgeon-information-commissioner-dame-earth-b1272316.html",
+            "image": "https://static.standard.co.uk/2026/02/24/17/4e14507216c18fdcd522bb3cd80fc00fY29udGVudHNlYXJjaGFwaSwxNzcyMDM4OTM3-2.79368698.jpg?auto=webp&crop=3%3A2&width=1200",
+            "source": "standarduk"
         },
         {
-            "title": "Franklin Energy Introduces Patent-Pending Advanced Air Filter Cartridge to Reduce Air Purifier Ownership Costs",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/pressreleases/26/02/g50815781/franklin-energy-introduces-patent-pending-advanced-air-filter-cartridge-to-reduce-air-purifier-own",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "title": "Insider Risk Costs Hit $19.5M USD Per Year as AI Creates New Blind Spots",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/02/g50823068/insider-risk-costs-hit-19-5m-usd-per-year-as-ai-creates-new-blind-spots",
+            "image": "https://images.pexels.com/photos/12231821/pexels-photo-12231821.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "benzinga"
         },
         {
-            "title": "China targets Japan's defense sector with ban on 'dual-use' exports",
-            "severity": "WATCH",
-            "url": "https://www.upi.com/Top_News/World-News/2026/02/24/restricts-Japan-exports/4451771935992/",
-            "image": "https://cdnph.upi.com/svc/sv/upi/4451771935992/2026/1/19daa113671f4c09bfc0a0c37828a80c/China-targets-Japans-defense-sector-with-ban-on-dual-use-exports.jpg",
-            "source": "upi"
+            "title": "WTO sets up dispute panel on China\u2019s complaint against India\u2019s PLI schemes",
+            "severity": "MEDIUM",
+            "url": "https://www.businesstoday.in/latest/corporate/story/wto-sets-up-dispute-panel-on-chinas-complaint-against-indias-pli-schemes-517828-2026-02-24",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202602/699dddd6d9584-the-dispute-centres-on-beijings-claim-that-indias-pli-schemes-discriminate-against-chinese-goods-2420170-16x9.jpg",
+            "source": "businesstoday"
         },
         {
-            "title": "HPQ Silicon announces that the Private Placement Offering is Fully Subscribed",
+            "title": "Save Ohio Parks: Public comments needed to stop fracking 8,749 acres at Salt Fork, Egypt Valley",
+            "severity": "MEDIUM",
+            "url": "https://www.benzinga.com/pressreleases/26/02/n50824153/save-ohio-parks-public-comments-needed-to-stop-fracking-8-749-acres-at-salt-fork-egypt-valley",
+            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "benzinga"
+        },
+        {
+            "title": "An Israel visit \u2014 its strategic, economic, regional impact",
             "severity": "WATCH",
-            "url": "https://financialpost.com/globe-newswire/hpq-silicon-announces-that-the-private-placement-offering-is-fully-subscribed",
+            "url": "https://www.thehindu.com/opinion/lead/an-israel-visit-its-strategic-economic-regional-impact/article70672319.ece",
+            "image": "https://th-i.thgim.com/public/incoming/s5hiol/article70672321.ece/alternates/LANDSCAPE_1200/Israel_India_32475.jpg-49de5.jpg",
+            "source": "thehindu"
+        },
+        {
+            "title": "The Latest: Trump lays out his midterm agenda at the State of the Union",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com/news/world/united-states/the-latest-trump-lays-out-his-midterm-agenda-at-the-state-of-the-union/article_23266fe0-fe87-50cb-b103-cb0b2ddb1a94.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/5/42/5422aacf-4684-5cd0-abd7-e33d889e7399/699e6f8a5f8b3.image.jpg?resize=300%2C200",
+            "source": "thestar"
+        },
+        {
+            "title": "Ukraine marks 4 years since Russia's full-scale invasion",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/world-news/ukraine-marks-4-years-since-russias-full-scale-invasion-101771953312598.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/24/1600x900/logo/GERMANY-UKRAINE-RUSSIA-CONFLICT-PROTEST-5_1771953480720_1771953492805.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Germany\u2019s Merz Reaches Out to Xi Before Inaugural Trip to China",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-pmn/germanys-merz-reaches-out-to-xi-before-inaugural-trip-to-china",
             "image": "https://images.pexels.com/photos/7947958/pexels-photo-7947958.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "financialpost"
         },
         {
-            "title": "Sarah Stanford appointed Chief Executive Officer, Sompo UK",
+            "title": "ConocoPhillips says well pad 104W-A achieved first oil on Dec 11, 2025",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/02/24/3243741/0/en/Sarah-Stanford-appointed-Chief-Executive-Officer-Sompo-UK.html",
-            "image": "https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
+            "url": "https://www.marketscreener.com/news/conocophillips-says-well-pad-104w-a-achieved-first-oil-on-dec-11-2025-ce7e5cdadf8af02c",
+            "image": "https://images.pexels.com/photos/7988213/pexels-photo-7988213.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "marketscreener"
         },
         {
-            "title": "Kosmos Energy's 130% Stock Surge Leaves Exxon And Chevron Behind \u2014 But There's A Catch",
+            "title": "Robbins Historical Society dedicates day and exhibit to late founder, Tyrone Haymore",
             "severity": "WATCH",
-            "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/02/50815553/kosmos-energys-130-stock-surge-leaves-exxon-and-chevron-behind-but-theres-a-catch",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/02/24/Oil-Pumps-Are-Running.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
-            "source": "benzinga"
+            "url": "https://www.chicagotribune.com/2026/02/24/robbins-historical-society-founder-tyrone-haymore/",
+            "image": "https://www.chicagotribune.com/wp-content/uploads/2026/02/STA-L-ROBBINS-HISTORY-EXHIBIT-02-5490.jpg?strip=all&w=1400px",
+            "source": "chicagotribune"
         },
         {
-            "title": "How long can Russia hold out in Ukraine?",
+            "title": "Dynacor Group Announces March 2026 Dividend",
             "severity": "WATCH",
-            "url": "https://theweek.com/defence/how-long-can-russia-hold-out-in-ukraine",
-            "image": "https://cdn.mos.cms.futurecdn.net/ciDdppkUDwR8xydh6WHaDk-1280-80.jpg",
-            "source": "theweek"
+            "url": "https://www.globenewswire.com/fr/news-release/2026/02/24/3243923/0/en/Dynacor-Group-Announces-March-2026-Dividend.html",
+            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
         },
         {
-            "title": "Qualcomm, Booking Holdings upgraded: Wall Street's top analyst calls",
+            "title": "9 Common Customer Complaints About Aldi",
             "severity": "WATCH",
-            "url": "https://finance.yahoo.com/news/qualcomm-booking-holdings-upgraded-wall-143922050.html",
-            "image": "https://s.yimg.com/os/en/the_fly_169/5039a5ccc6ec98e1b92bc672330bfcec",
+            "url": "https://www.yahoo.com/lifestyle/articles/9-common-customer-complaints-aldi-171900205.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/g7MLTLs8jtM1eQgv5kONTg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTUzOTtjZj13ZWJw/https://media.zenfs.com/en/the_daily_meal_185/8b80a2c7107385959ee2a6f09383f771",
             "source": "yahoo"
         },
         {
-            "title": "\u2018I considered starting over as a farmer\u2019: Masao Adachi on political cinema, revolution and Japan today",
+            "title": "Some Gift Cards Sold at Costco Are Now Worthless\u2014Here\u2019s What You Need to Know",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/film/2026/feb/24/masao-adachi-director-political-cinema-revolution-japan-today",
-            "image": "https://i.guim.co.uk/img/media/8fabdd7314728b84166d3bf2f3dddf9cd07a4fc8/180_0_2700_2160/master/2700.jpg?crop=none&dpr=2&s=none&width=620",
-            "source": "theguardian"
+            "url": "https://www.rd.com/article/costco-gift-card-problem/",
+            "image": "https://www.rd.com/wp-content/uploads/2026/02/Some-Gift-Cards-Sold-at-Costco-Are-Now-Worthless_GettyImages-1353626665-1542412767_AdobeStock-643172969_DKedit_FT.jpg",
+            "source": "rd"
         },
         {
-            "title": "Mexico faces a new challenge \u2013 Narco influencers spreading false news",
+            "title": "Louvre Museum director resigns in the wake of October's brazen French crown jewels heist",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/world/americas/mexico-riots-today-airport-latest-b2926578.html",
-            "image": "https://static.independent.co.uk/2026/02/23/14/33/SEI286438241.jpeg?crop=1200%3A800&height=800&width=1200",
-            "source": "independentuk"
+            "url": "https://www.newsday.com/news/nation/france-louvre-director-resigns-heist-t05612",
+            "image": "https://www.newsday.com/_next/image?q=80&url=https%3A%2F%2Fcdn.newsday.com%2Fimage-service%2Fversion%2Fc%3AMGU0NWVkMjEtNjNlZi00%3AZWU0Mzg1NWUtNzg5YS00%2Fcopy-of-france-louvre-ticket-fraud.jpeg%3Ff%3DLandscape%2B16%253A9%26w%3D768%26q%3D1&w=1920",
+            "source": "newsday"
         },
         {
-            "title": "Robert Carradine, 'Revenge of the Nerds' and 'Lizzie McGuire' star, dies at 71",
+            "title": "Vancouver police officers 'committed misconduct' in case of Tatyanna Harrison: Commissioner",
             "severity": "WATCH",
-            "url": "https://www.kgw.com/article/syndication/associatedpress/robert-carradine-revenge-of-the-nerds-and-lizzie-mcguire-star-dies-at-71/616-cc54e766-537e-4e1a-a15f-86786af3f76e",
-            "image": "https://media.tegna-media.com/assets/AssociatedPress/images/66506acc-a723-4c10-ac8b-2f13b14124da/20260224T134504/66506acc-a723-4c10-ac8b-2f13b14124da_750x422.png",
-            "source": "kgw"
+            "url": "https://ca.news.yahoo.com/vancouver-police-officers-committed-misconduct-171949649.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/fg4BFmyoN40FF_FQ_7rJPQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD05MzI7Y2Y9d2VicA--/https://media.zenfs.com/en/the_vancouver_sun_articles_512/9106f46e627d4384ec3151b987d6197f",
+            "source": "yahoo"
         },
         {
-            "title": "\"Her job is going to be as a palliative care doctor who slides Xbox gently into the night\" - original Xbox co-creator thinks Microsoft's reshuffle is all about AI",
+            "title": "BMC budget tomorrow, several big projects of last year shelved or scaled down",
             "severity": "WATCH",
-            "url": "https://www.eurogamer.net/seamus-blackley-microsoft-reshuffle-all-about-ai",
-            "image": "https://assetsio.gnwcdn.com/xbox-sunsetted.jpg?auto=webp&dpr=3&format=jpg&quality=85&width=570",
-            "source": "eurogamer"
+            "url": "https://indianexpress.com/article/cities/mumbai/bmc-budget-projects-10550297/",
+            "image": "https://images.indianexpress.com/2026/02/bmc-12-2.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "AMD secures Meta as next big AI chip customer",
+            "title": "Who is Uday Bhanu Chib, Congress youth wing chief arrested over shirtless protest at AI Summit",
             "severity": "WATCH",
-            "url": "https://www.thestar.com.my/tech/tech-news/2026/02/24/amd-secures-meta-as-next-big-ai-chip-customer",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/02/24/3785655.jpg",
-            "source": "thestar_my"
+            "url": "https://www.hindustantimes.com/india-news/who-is-uday-bhanu-chib-congress-youth-wing-chief-arrested-over-shirtless-protest-at-ai-summit-101771950122128.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/24/1600x900/logo/ANI-20260224077-0_1771950603126_1771950616757.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Yorkshire Vet star steps in to rescue suffocating calf in 'critical' moment",
+            "title": "Robo Army: Man Accidentally Takes Control of 6,700+ Robot Vacuums Worldwide While Hacking His Own",
             "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/tv/tv-news/yorkshire-vet-star-steps-rescue-36771174",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36773468.ece/ALTERNATES/s615/1_Screenshot-9328.png",
-            "source": "mirroruk"
+            "url": "https://www.breitbart.com/tech/2026/02/24/robo-army-man-accidentally-takes-control-of-6700-robot-vacuums-worldwide-while-hacking-his-own/",
+            "image": "https://media.breitbart.com/media/2026/02/DJI-Romo-robot-vacuum-640x480.jpg",
+            "source": "breitbart"
         },
         {
-            "title": "Komar Industries Acquires Metro Compactor Service, BaleForce and Chute Source (Collectively \u201cMetro\u201d) to Expand North American Waste & Recycling Platform",
+            "title": "Netflix, Prime Video, Disney+ and more to receive increased regulation from Ofcom",
             "severity": "WATCH",
-            "url": "https://www.businesswire.com/news/home/20260223199840/en/Komar-Industries-Acquires-Metro-Compactor-Service-BaleForce-and-Chute-Source-Collectively-Metro-to-Expand-North-American-Waste-Recycling-Platform",
-            "image": "https://mms.businesswire.com/media/20260223199840/en/1955607/21/KomarLogo.jpg",
-            "source": "businesswire"
-        },
-        {
-            "title": "'Salmond files' finally published, as Scottish Government makes thousands of documents public",
-            "severity": "WATCH",
-            "url": "https://www.scotsman.com/news/politics/salmond-files-finally-published-as-scottish-government-makes-thousands-of-documents-public-5610106",
-            "image": "https://www.scotsman.com/jpim-static/image/2026/01/20/14/29/GettyImages-458967920.jpeg?auto=webp&trim=46%2C166%2C229%2C251&width=1200",
-            "source": "scotsman"
-        },
-        {
-            "title": "Anil Ambani fraud case: Not all old guidelines repealed by RBI\u2019s 2024 master directions, says HC",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/mumbai/anil-ambani-fraud-case-not-all-old-guidelines-repealed-by-rbis-2024-master-directions-says-hc/articleshow/128754721.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128754714,imgsize-70642,width-400,height-225,resizemode-72/anil-ambani-fraud-case-not-all-old-guidelines-repealed-by-rbis-2024-master-directions-says-hc.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Activists push for clean energy tax in Eugene, modeled on Portland\u2019s cash\u2010rich fund",
-            "severity": "WATCH",
-            "url": "https://www.oregonlive.com/environment/2026/02/activists-push-for-clean-energy-tax-in-eugene-modeled-on-portlands-cashrich-fund.html",
-            "image": "https://www.oregonlive.com/resizer/v2/7EJKBCI3EBASPLVXIFLL7D23SM.JPG?auth=b810dd95fdb0b89f37fb6fbcbbb4132375b805f26486d20d6104674e7c86ac1d&height=1200&smart=true",
-            "source": "oregonlive"
-        },
-        {
-            "title": "What does the new law on school uniforms mean in Northern Ireland?",
-            "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/c3ewzdn178ko",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/f741/live/5d9d1ee0-1175-11f1-ba61-2b399c307393.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Streaming services to be subject to same regulation as broadcasters in UK",
-            "severity": "WATCH",
-            "url": "https://news.sky.com/story/streaming-services-like-netflix-to-be-subject-to-same-regulation-as-broadcasters-in-uk-13511559",
-            "image": "https://e3.365dm.com/25/02/1920x1080/skynews-netflix-logo_6822335.jpg?20250207150804=",
-            "source": "skynews"
-        },
-        {
-            "title": "Emirati donor files case against two men over alleged Dh3.5m charity fraud",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/uae/crime/emirati-donor-files-case-against-two-men-over-alleged-dh35m-charity-fraud-1.500454033",
-            "image": "https://media.assettype.com/gulfnews%2F2024-11-17%2Fmo0lzzfe%2FStock_court_justice_judge_1783bb92c82_original_ratio.jpg?ar=40%3A21&auto=format%2Ccompress&enlarge=true&mode=crop&ogImage=true&overlay=false&overlay_position=bottom&overlay_width=100&rect=0%2C49%2C800%2C420&w=1200",
-            "source": "gulfnews"
-        },
-        {
-            "title": "Lawsuit between Vancouver developer and former VP reveals financial strains on big projects",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/british-columbia/vancouver-westbank-lawsuit-mabberley-9.7103544?cmp=rss",
-            "image": "https://i.cbc.ca/ais/795c1949-d245-483d-84f9-14f325e2860b,1771902195316/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3BResize%3D%28620%29",
-            "source": "cbc"
+            "url": "https://www.radiotimes.com/tv/current-affairs/ofcom-netflix-prime-video-disney-regulation-newsupdate/",
+            "image": "https://images.immediate.co.uk/production/volatile/sites/3/2021/11/Disney-2f2ae72.jpg?fit=620%2C413&quality=90",
+            "source": "radiotimes"
         }
     ],
-    "Last_Updated": "2026-02-25T02:43:28.264981Z"
+    "Last_Updated": "2026-02-25T05:26:01.311192Z"
 }
