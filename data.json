@@ -1,281 +1,225 @@
 {
-    "AGRI_Score": 56.2,
-    "Velocity": "+0.4",
+    "AGRI_Score": 55.6,
+    "Velocity": "-0.6",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 56.2 is predominantly driven by persistent high geopolitical conflict intensity and significant concerns within cyber and infrastructure threats. \"Geopolitical Conflict Intensity\" remains elevated at 74.6, evidenced by continued military aid and strategic defense discussions, such as \"The Canadian Vehicle That Refuses to Die: Inside Roshel Senator in Ukraine.\" Concurrently, \"Cyber & Infrastructure Threats\" at 65.9 highlights ongoing vulnerabilities, underscored by past data breaches like the Ashley Madison scandal and the strategic shift towards intelligent warfare. These two pillars are the most substantial contributors to the current overall risk landscape.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 55.6 reflects a moderately elevated risk environment, primarily driven by intensified geopolitical tensions and an increasingly fragmenting global trade landscape. Geopolitical conflict remains high with reports of \"Israeli settlers burn tents, vehicles in West Bank village\" and the \"cartel war breaks out\" in Mexico, indicating widespread instability. Trade stress is exacerbated by protectionist measures like the \"US tariff rate to hit 15% or more for some nations\" and the formation of regional blocs, as highlighted by the \"EU's E6 Power Bloc.\" While the \"U.S. Eases Restrictions on Sale of Venezuelan Oil to Cuba\" introduces some policy flexibility, it does not broadly alleviate the trend of rising regulatory and trade fragmentation impacting the global risk profile.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 74.6,
-        "Energy & Maritime Disruption": 54.7,
-        "Trade & Supply Chain Stress": 64.1,
+        "Geopolitical Conflict Intensity": 75.6,
+        "Energy & Maritime Disruption": 55.4,
+        "Trade & Supply Chain Stress": 68.9,
         "Sovereign Financial Stress": 50.4,
         "Currency & Liquidity Pressure": 50.0,
         "Sanctions & Regulatory Fragmentation": 60.2,
-        "Cyber & Infrastructure Threats": 65.9,
+        "Cyber & Infrastructure Threats": 51.2,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar remains elevated due to the ongoing conflict in Ukraine and global defense posture adjustments. The news of \"The Canadian Vehicle That Refuses to Die: Inside Roshel Senator in Ukraine\" directly illustrates continued military engagement, alongside strategic discussions on \"intelligent warfare.\" ",
-        "Energy & Maritime Disruption": "This pillar reflects routine monitoring, with a focus on future energy development rather than immediate disruption. While \"Governor gets firsthand look at future of nuclear energy at UW\u2013Madison\" indicates long-term energy strategy, there is no evidence of present supply shocks or maritime issues.",
-        "Trade & Supply Chain Stress": "Moderate stress is observed, mainly influenced by evolving trade policy discussions and regulatory scrutiny. The \"Editorial: On tariffs, justices finally stand up to Trump\" suggests potential shifts in trade regulations that could impact global commerce and supply chain stability.",
-        "Sovereign Financial Stress": "This pillar indicates baseline activity, with no immediate signs of sovereign financial distress. The news feed does not contain any headlines regarding national debt crises, rating downgrades, or other indicators of state-level financial instability.",
-        "Currency & Liquidity Pressure": "This pillar is currently under routine monitoring, showing no explicit signs of heightened currency or liquidity challenges. The provided news feed lacks specific reports on exchange rate volatility, central bank interventions, or widespread liquidity shortages.",
-        "Sanctions & Regulatory Fragmentation": "This pillar shows elevated activity due to active discussions around regulatory enforcement and potential governmental pressures. Although \"No sanctions over Reform's by-election rule breach\" indicates a specific instance of non-sanction, the context surrounding tariffs and the directive to \"Anthropic to fall in line with DoD desires\" point to an active regulatory environment.",
-        "Cyber & Infrastructure Threats": "This pillar registers significant concern, driven by past security incidents and the evolving nature of digital warfare. The rebranding of \"Ashley Madison, the infamous affair-enabling website, after years of scandal\" serves as a reminder of persistent cyber vulnerabilities, while defense discussions emphasize adaptation to advanced cyber challenges.",
-        "Climate & Resource Shock": "This pillar is experiencing baseline activity, with no immediate or developing resource shocks reported. The current news feed provides no information pertaining to extreme weather events, resource scarcity, or significant climate-related disruptions."
+        "Geopolitical Conflict Intensity": "This pillar is significantly elevated due to ongoing regional conflicts and severe internal instability. The headline \"Israeli settlers burn tents, vehicles in West Bank village\" highlights persistent ethno-political violence, while \"Tennis bosses take action in Mexico as cartel war breaks out\" indicates severe internal security challenges disrupting societal functions.",
+        "Energy & Maritime Disruption": "While the score is at a medium-high level, recent policy shifts introduce new complexities to energy markets. The \"U.S. Eases Restrictions on Sale of Venezuelan Oil to Cuba\" could alter regional energy flows and supply dynamics, potentially impacting the broader risk landscape depending on its implementation.",
+        "Trade & Supply Chain Stress": "High stress is evident as major economies pursue protectionist measures and strengthen regional blocs. \"US tariff rate to hit 15% or more for some nations, USTR says\" directly signals increased trade barriers, and the \"EU's E6 Power Bloc: Two-Speed Europe Accelerates In US-China Race\" suggests growing fragmentation in global trade architecture.",
+        "Sovereign Financial Stress": "This pillar reflects moderate pressure, influenced by domestic policy uncertainty and potential economic impacts from industrial shifts. The \"Union chief launches blistering attack on Rachel Reeves - '20,000 defence jobs at risk'\" points to potential economic strain from proposed policy changes, while \"Trumponomics: Over a year into second term, Donald\u2019s economic policy shows mixed results\" indicates ongoing uncertainty in major economic policy direction.",
+        "Currency & Liquidity Pressure": "This pillar indicates baseline activity with no direct immediate pressure points identified in the provided news feed. There are no specific headlines detailing significant currency devaluation, capital flight, or liquidity shortages impacting major global markets at this time.",
+        "Sanctions & Regulatory Fragmentation": "Fragmentation remains a key concern, despite some relaxation in specific areas demonstrating policy nuance. The \"U.S. Eases Restrictions on Sale of Venezuelan Oil to Cuba\" marks a specific shift in sanctions policy, yet the \"EU's E6 Power Bloc: Two-Speed Europe Accelerates In US-China Race\" underscores a broader trend towards diverging regulatory approaches and regional alignment.",
+        "Cyber & Infrastructure Threats": "This pillar shows moderate but growing concern, particularly regarding emerging technologies and national security implications. \"Report: Pete Hegseth Sets Friday Deadline for Anthropic in Pentagon AI Dispute\" highlights the critical nature of AI security and its integration into defense infrastructure, indicating potential vulnerabilities or strategic disputes.",
+        "Climate & Resource Shock": "This pillar shows low current impact on the AGRI score despite clear warnings of future risks and ongoing regional events. \"Climate shocks threaten $2.3 trillion global sports economy, study warns\" indicates significant long-term economic vulnerability, while \"Floods ravage southeastern Brazil and kill 40\" demonstrates ongoing acute regional climate events."
     },
     "All_Alerts": [
         {
-            "title": "Governor gets firsthand look at future of nuclear energy at UW\u2013Madison",
+            "title": "U.S. Eases Restrictions on Sale of Venezuelan Oil to Cuba",
             "severity": "HIGH",
-            "url": "https://news.wisc.edu/governor-gets-firsthand-look-at-future-of-nuclear-energy-at-uw-madison/",
-            "image": "https://news.wisc.edu/content/uploads/2026/02/Governor-Evers-Visit-to-Nuclear-Reactor-2026-02-24TW-5529-1200x799.jpg",
-            "source": "wisc"
+            "url": "https://www.wsj.com/world/u-s-eases-restriction-on-fuel-shipments-to-cuba-7909a6a7",
+            "image": "https://images.wsj.net/im-09401026",
+            "source": "wsj"
         },
         {
-            "title": "Madhavan shares video of baby elephant politely asking for snacks from vendor. The tiny animal's reaction will melt your heart",
+            "title": "EU's E6 Power Bloc: Two-Speed Europe Accelerates In US-China Race",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/magazines/panache/madhavan-shares-video-of-baby-elephant-politely-asking-for-snacks-from-vendor-the-tiny-animals-reaction-will-melt-your-heart/articleshow/128784710.cms",
-            "image": "https://img.etimg.com/thumb/msid-128785876,width-1200,height-630,imgsize-88598,overlay-etpanache/articleshow.jpg",
+            "url": "https://www.benzinga.com/Opinion/26/02/50858899/eus-e6-power-bloc-two-speed-europe-accelerates-in-us-china-race",
+            "image": "https://substackcdn.com/image/fetch/$s_!x5tR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https:%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe989f53e-141f-43b0-b4fc-f421a0a0cf77_958x409.png?auto=webp&dpr=2&optimize=medium&width=1920",
+            "source": "benzinga"
+        },
+        {
+            "title": "Israeli settlers burn tents, vehicles in West Bank village",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/world/middle-east/israeli-settlers-burn-tents-vehicles-in-west-bank-village-3911882",
+            "image": "https://media.assettype.com/deccanherald%2F2026-02-25%2Fm3olysyf%2Ffile84q6c498481h6vr5a9h.jpg?ar=40%3A21&auto=format%2Ccompress&mode=crop&ogImage=true&rect=0%2C0%2C1200%2C630&w=1200",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Climate shocks threaten $2.3 trillion global sports economy, study warns",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/climate-shocks-threaten-2-3-trillion-global-sports-economy-study-warns/articleshow/128789997.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-33328,resizemode-75,msid-128789997/news/international/world-news/climate-shocks-threaten-2-3-trillion-global-sports-economy-study-warns.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "The Canadian Vehicle That Refuses to Die: Inside Roshel Senator in Ukraine",
+            "title": "Report: Pete Hegseth Sets Friday Deadline for Anthropic in Pentagon AI Dispute",
             "severity": "HIGH",
-            "url": "https://interestingengineering.com/videos/the-canadian-vehicle-that-refuses-to-die-in-ukraine",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/02/Web_845290.jpg",
-            "source": "interestingengineering"
+            "url": "https://www.breitbart.com/tech/2026/02/25/report-pete-hegseth-sets-friday-deadline-for-anthropic-in-pentagon-ai-dispute/",
+            "image": "https://media.breitbart.com/media/2026/02/Pete-Hegseth-stares-down-Anthropic-AI-640x480.jpg",
+            "source": "breitbart"
         },
         {
-            "title": "Is India eyeing the Iron Beam as Modi visits Israel?",
+            "title": "Union chief launches blistering attack on Rachel Reeves - '20,000 defence jobs at risk'",
             "severity": "HIGH",
-            "url": "https://www.firstpost.com/explainers/india-israel-iron-beam-air-defence-explained-13983682.html",
-            "image": "https://images.firstpost.com/uploads/2026/02/Iron-beam-Israel-2025-Israel-Defence-Ministry-2026-02-b6eae3814bf8ddd43d37cc845f42ed25.jpg",
-            "source": "firstpost"
+            "url": "https://www.mirror.co.uk/news/politics/union-chief-launches-blistering-attack-36777312",
+            "image": "https://i2-prod.mirror.co.uk/news/uk-news/article36614958.ece/ALTERNATES/s615/1_SWITZERLAND-POLITICS-ECONOMY-DIPLOMACY.jpg",
+            "source": "mirroruk"
         },
         {
-            "title": "Pete Hegseth tells Anthropic to fall in line with DoD desires, or else",
+            "title": "Tennis bosses take action in Mexico as cartel war breaks out",
             "severity": "HIGH",
-            "url": "https://arstechnica.com/ai/2026/02/pete-hegseth-wants-unfettered-access-to-anthropics-models-for-the-military/",
-            "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/hegseth-1152x648.jpg",
-            "source": "arstechnica"
+            "url": "https://www.the-express.com/sport/tennis/200321/tennis-merida-open-mexico-cartel-war",
+            "image": "https://cdn-images.the-express.com/img/dynamic/52/590x/200321_1.jpg",
+            "source": "express"
         },
         {
-            "title": "Armed forces need to shift from net-centric operations to intelligent warfare: CDS Anil Chauhan",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/defence/armed-forces-need-to-shift-from-net-centric-operations-to-intelligent-warfare-cds-anil-chauhan/articleshow/128785491.cms",
-            "image": "https://img.etimg.com/thumb/msid-128785812,width-300,height-225,imgsize-21632,resizemode-75/armed-forces-need-to-shift-from-net-centric-operations-to-intelligent-warfare-cds-chauhan.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Gambling on wars? Prediction markets usher in a 'Wild West' of betting",
-            "severity": "HIGH",
-            "url": "https://www.usatoday.com/story/news/politics/2026/02/25/prediction-markets-polymarket-kalshi-politics-sports-trump/88640927007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/02/10/USAT/88606900007-predictive-markets-the-excerpt-1.png?auto=webp&crop=2999%2C1687%2Cx0%2Cy156&format=pjpg&height=1687&width=2999",
-            "source": "usatoday"
-        },
-        {
-            "title": "Boxing braced for $1bn lawsuit over TKO and Saudi-backed Sela's Zuffa launch",
-            "severity": "HIGH",
-            "url": "https://www.nytimes.com/athletic/7070249/2026/02/25/frank-warren-dana-white-sela-lawsuit/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/02/25091252/boxing-2502.jpg",
-            "source": "theathleticuk"
-        },
-        {
-            "title": "Ashley Madison, the infamous affair-enabling website, rebranding after years of scandal",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/ashley-madison-infamous-affair-enabling-142106297.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/fRkDl8dapXHcmihYXSgdGw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://media.zenfs.com/en/the_independent_635/c037813bc750ae5aade4ff7f23644a2f",
-            "source": "yahoo"
-        },
-        {
-            "title": "No sanctions over Reform's by-election rule breach",
-            "severity": "HIGH",
-            "url": "https://www.bbc.com/news/articles/cvgv9eer83zo",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/40db/live/9592a960-124b-11f1-8b22-397efaf8a324.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "When is March Madness bracket reveal? Schedule, date, time, TV channel",
+            "title": "I have ageing bones and muscles and I desperately need energy and cheerfulness in my life again. I've discovered testosterone could be the solution - and I'm willing to take the health risk: JENNI MURRAY",
             "severity": "MEDIUM",
-            "url": "https://www.azcentral.com/story/sports/college/2026/02/25/march-madness-bracket-reveal-selection-sunday-ncaa-tournament-tv-channel/88858296007/",
-            "image": "https://www.azcentral.com/gcdn/authoring/authoring-images/2026/02/25/PPHX/88853252007-usatsi-28332110.jpg?auto=webp&crop=5025%2C2827%2Cx0%2Cy0&format=pjpg&height=800&width=1600",
-            "source": "azcentral"
-        },
-        {
-            "title": "Editorial: On tariffs, justices finally stand up to Trump",
-            "severity": "MEDIUM",
-            "url": "https://www.orlandosentinel.com/2026/02/25/on-tariffs-justices-finally-stand-up-to-trump-editorial-2/",
-            "image": "https://www.orlandosentinel.com/wp-content/uploads/2023/04/QMUH2C7HK5H2BKLS6ARBFIXKIY.jpg?strip=all&w=1400px",
-            "source": "orlandosentinel"
-        },
-        {
-            "title": "Knesset advances bill granting Chief Rabbinate authority over Western Wall prayer",
-            "severity": "MEDIUM",
-            "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-887957",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/469330",
-            "source": "jpost"
-        },
-        {
-            "title": "Iran sees 'good outlook' for talks with US as negotiating team heads to Geneva",
-            "severity": "MEDIUM",
-            "url": "https://www.jpost.com/middle-east/iran-news/article-887949",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/701010",
-            "source": "jpost"
-        },
-        {
-            "title": "UK suspension of refugee family reunion scheme to be challenged in high court",
-            "severity": "MEDIUM",
-            "url": "https://ca.news.yahoo.com/uk-suspension-refugee-family-reunion-130038921.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/FNBbRQXRXUzcS3PaHAYydg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD05OTQ7Y2Y9d2VicA--/https://media.zenfs.com/en/theguardian_763/bf51d2515b0e2a922a885f47814bbd66",
-            "source": "yahoo"
-        },
-        {
-            "title": "Who has biggest football stadium in SEC? Check out the ranking!",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/biggest-football-stadium-sec-check-143743085.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/iGQSJhPtArvrvYHFtgjOlQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/longhorns_wire_usa_today_articles_557/b65d51c36835604ed4c9a361d8d71a74",
-            "source": "yahoo"
-        },
-        {
-            "title": "Checking in with R.I. Republicans on the State of the Union",
-            "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/02/25/metro/rhode-island-republican-trump-state-union/",
-            "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/JETOKVJCINGO7WFUXVSJU2GX3Q.jpg?auth=5a6ad40b704bf420d4296e66b8a5ec43669e92bafe1fc9b84a41cc82b1804639&width=1440",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "Robinson Ortiz\u2019s Long Road To MLB Could Pay Off With Mariners In 2026",
-            "severity": "WATCH",
-            "url": "https://www.baseballamerica.com/stories/robinson-ortizs-long-road-to-mlb-could-pay-off-with-mariners-in-2026/",
-            "image": "https://www.baseballamerica.com/wp-content/uploads/bba-media/ueskn2bo/mariners.jpg",
-            "source": "baseballamerica"
-        },
-        {
-            "title": "Browns mock draft round-up: Experts stun with surprise defender & rising OL star",
-            "severity": "WATCH",
-            "url": "https://www.sportingnews.com/us/nfl/cleveland-browns/news/browns-mock-draft-experts-surprise-defender-rising-star/078fe65587fb4c930d3c9b17",
-            "image": "https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2026-01/USATSI_24738411.jpg.webp?itok=zuxJAONJ",
-            "source": "sportingnews"
-        },
-        {
-            "title": "Energy Department Announces Largest Loan in Department History, Delivering Over $7 Billion in Electricity Cost Savings for Georgia and Alabama Customers - Department of Energy (.gov)",
-            "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYXlhZzNaQWhiOWRnVGVDVkx5dEtQVDNYSnZBam1mOXNXV3lWc09ld3lpNnpLYXMybVJxdTVDWjFDVlZQS3RXNFJsUVU5OWhObTJ0OTJYdml1V3dsNG5pT0RiUzBFY3gtRFNIanFzRFBnVDR1U20tU0d1eUxucmxUZWVnLTJ1RWRLZzkyYUQtU2lvTFJLVDQ3cjdWcjZ3Ui1leTBMZ0p2VTVwbW5vREc4UFBDYnFJejZa?oc=5",
-            "image": "https://images.pexels.com/photos/6692312/pexels-photo-6692312.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Palestinian firm to build UAE-funded Gazan housing compound in Israeli-controlled Rafah",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/middle-east/article-887946",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/689271",
-            "source": "jpost"
-        },
-        {
-            "title": "Aliyev\u2019s Nazi comparison of Armenian leaders is outrageous and dangerous - opinion",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/opinion/article-887748",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/553308",
-            "source": "jpost"
-        },
-        {
-            "title": "Cuban Operatives Flee Venezuela, Weakening a Decades-Old Security Alliance",
-            "severity": "WATCH",
-            "url": "https://www.military.com/daily-news/2026/02/25/cuban-operatives-flee-venezuela-weakening-decades-old-security-alliance.html",
-            "image": "https://images04.military.com/sites/default/files/styles/full/public/2026-02/world-news-venezuela-cuban-operatives-get.jpg?itok=IuhcRr4J",
-            "source": "military"
-        },
-        {
-            "title": "How Democrats reorganized their State of the Union resistance",
-            "severity": "WATCH",
-            "url": "https://www.vox.com/politics/480385/democrat-response-trump-state-of-the-union-sotu-affordability-alternative-media-resistance",
-            "image": "https://platform.vox.com/wp-content/uploads/sites/2/2026/02/gettyimages-2262903780.jpg?crop=0%2C7.3551764904577%2C100%2C85.289647019085&quality=90&strip=all&w=1200",
-            "source": "vox"
-        },
-        {
-            "title": "A.P.\u2019s Srikakulam on high alert after one dies, 76 hospitalised in suspected diarrhoea outbreak",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/cities/Visakhapatnam/aps-srikakulam-on-high-alert-after-one-dies-76-hospitalised-in-suspected-diarrhoea-outbreak/article70675858.ece",
-            "image": "https://th-i.thgim.com/public/incoming/ll7le6/article70676266.ece/alternates/LANDSCAPE_1200/9604_25_2_2026_13_28_56_2_WHATSAPPIMAGE2026_02_25AT1314172.JPEG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Farmers\u2019 outfit protests \u2018official inaction\u2019 against illegal forest resorts",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/karnataka/farmers-outfit-protests-official-inaction-against-illegal-forest-resorts/article70675589.ece",
-            "image": "https://th-i.thgim.com/public/incoming/2gdurq/article70676236.ece/alternates/LANDSCAPE_1200/5964_25_2_2026_17_57_45_1_FARMERSPROTEST.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Jaguars Announce Significant London Schedule Update for 2026",
-            "severity": "WATCH",
-            "url": "https://www.si.com/nfl/jaguars/onsi/jacksonville-announce-significant-london-schedule-update-2026",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_8000,h_4500,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/jaguar_report/01kjahyfz8me6yjmj7v9.jpg",
-            "source": "si"
-        },
-        {
-            "title": "Senate hearing for Trump's surgeon general pick is postponed after she goes into labor",
-            "severity": "WATCH",
-            "url": "https://www.kgw.com/article/news/nation-world/casey-means-a-physician-turned-wellness-influencer-and-trumps-surgeon-general-pick-faces-senators/616-fefa85c7-ab9f-48bb-90a2-48927c9074d1",
-            "image": "https://media.tegna-media.com/assets/KGW/images/af6a79ec-40a9-4a4c-a72e-80ece2b6bfca/20260225T141934/af6a79ec-40a9-4a4c-a72e-80ece2b6bfca_750x422.jpg",
-            "source": "kgw"
-        },
-        {
-            "title": "Opinion: Zack Polanski is the biggest creep in British politics",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.co.uk/vertical-galleries/article-15591717/Opinion-Zack-Polanski-biggest-creep-British-politics.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/02/25/14/106644357-0-image-m-9_1772029128421.jpg",
+            "url": "https://www.dailymail.co.uk/lifestyle/fitness-wellbeing/article-15591983/ageing-bones-energy-risk-JENNI-MURRAY.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/02/25/16/106671493-0-image-a-10_1772035945101.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Laminate Flooring Market Outlook: $2.5 Billion by 2031 as Renovation & Replacement Captures 57.68% Share in 2025, Reports Mordor Intelligence",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/02/25/3244692/0/en/Laminate-Flooring-Market-Outlook-2-5-Billion-by-2031-as-Renovation-Replacement-Captures-57-68-Share-in-2025-Reports-Mordor-Intelligence.html",
-            "image": "https://images.pexels.com/photos/18959222/pexels-photo-18959222.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
+            "title": "US tariff rate to hit 15% or more for some nations, USTR says",
+            "severity": "MEDIUM",
+            "url": "https://www.moneycontrol.com/world/us-tariff-rate-to-hit-15-or-more-for-some-nations-ustr-says-article-13843752.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260217170411_US-Trade-Representative-Jamieson-Greer.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Opinion | India\u2019s Pax Silica Bet Is Not Symbolism. It Is A Strategy",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/opinion/opinion-indias-pax-silica-bet-is-not-symbolism-it-is-a-strategy-9929832.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/02/pax-silica-2026-02-80a8723dc928a179b00414f32d4b2e03-3x2.png",
-            "source": "news18"
+            "title": "Trumponomics: Over a year into second term, Donald\u2019s economic policy shows mixed results - report",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/trumponomics-over-a-year-into-second-term-donalds-economic-policy-shows-mixed-results-report/articleshow/128789468.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128789610,width-1280,height-720,imgsize-143348,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "toi"
         },
         {
-            "title": "Watch Out for This Phone Delivery Scam",
+            "title": "Could the Data Centers That Spike Your Energy Bill Soon Heat Your Office?",
             "severity": "WATCH",
-            "url": "https://lifehacker.com/money/watch-out-for-this-phone-delivery-scam",
-            "image": "https://lifehacker.com/imagery/articles/01KJ8FCD85D7J1QQF3W610JF0D/hero-image.fill.size_1200x675.jpg",
-            "source": "lifehacker_us"
+            "url": "https://www.inc.com/melissa-angell/data-centers-spike-energy-bill-heat-office-power-hyperscalers-electrical-grid/91306372",
+            "image": "https://img-cdn.inc.com/image/upload/q_auto,c_fit/vip/2026/02/data-centers-power-offices-inc.gif",
+            "source": "inc"
         },
         {
-            "title": "Starmer pledges change to \u2018broken\u2019 student loans system amid mounting pressure",
+            "title": "Topher Grace Plays A Megachurch Pastor In His New Movie, And Glen Powell Is Jealous",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/uk/home-news/student-loans-company-finance-england-keir-starmer-b2927370.html",
-            "image": "https://static.independent.co.uk/2026/02/25/13/9c0d97e91e3a141a87877f939ec90650Y29udGVudHNlYXJjaGFwaSwxNzcyMTEwMjk0-2.83622154.jpg?crop=1200%3A800&height=800&width=1200",
+            "url": "https://www.cinemablend.com/interviews/topher-grace-plays-megachurch-pastor-new-movie-glen-powell-jealous",
+            "image": "https://cdn.mos.cms.futurecdn.net/AEQfo7KwKx9bWsShrzSJ3U-1280-80.jpg",
+            "source": "cinemablend"
+        },
+        {
+            "title": "Best Standing Desks of 2026",
+            "severity": "WATCH",
+            "url": "https://www.cnet.com/news/best-standing-desk/",
+            "image": "https://www.cnet.com/a/img/resize/f8f3457fa20a6b61600bee32862c82d2bd8d877c/hub/2021/02/10/c3eda738-df98-4946-90d3-e49b76a7fdbb/vari-electric-standing-desk.jpg?auto=webp&fit=crop&height=675&width=1200",
+            "source": "cnet"
+        },
+        {
+            "title": "Researchers discover the complex reason basketball shoes are so squeaky",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/news/science/sneakers-basketball-shoes-squeak-court-b2927548.html",
+            "image": "https://static.independent.co.uk/2026/02/25/16/Squeaky_Shoes_26452.jpg?crop=1200%3A800&height=800&width=1200",
             "source": "independentuk"
         },
         {
-            "title": "Rs 590-crore question: How ex-branch head & relationship manager 'masterminded' IDFC FIRST Bank scam linked to Haryana government funds",
+            "title": "Orion Reveals Advisor Wealthtech Survey Insights at Ascent Conference",
             "severity": "WATCH",
-            "url": "http://economictimes.indiatimes.com/news/new-updates/rs-590-crore-question-how-ex-branch-head-relationship-manager-masterminded-idfc-first-bank-scam-linked-to-haryana-government-funds/articleshow/128785125.cms",
-            "image": "https://img.etimg.com/photo/118783427.cms",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.businesswire.com/news/home/20260225383902/en/Orion-Reveals-Advisor-Wealthtech-Survey-Insights-at-Ascent-Conference",
+            "image": "https://mms.businesswire.com/media/20260225383902/en/2727880/21/Orion_Logo_2025_(2).jpg",
+            "source": "businesswire"
         },
         {
-            "title": "CMO rebuffs Chennithala\u2019s accusation on data leak",
+            "title": "Factories can come back to the U.S. Jobs, not so much.",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/kerala/cmo-rebuffs-chennithalas-accusation-on-data-leak/article70675345.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
+            "url": "https://www.newsday.com/opinion/commentary/us-manufacturing-jobs-tariffs-gcrlah9s",
+            "image": "https://images.pexels.com/photos/7947958/pexels-photo-7947958.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "newsday"
         },
         {
-            "title": "Enoch Burke\u2019s mother says her \u2018godly\u2019 and \u2018righteous\u2019 son should never have been jailed",
+            "title": "Jean Wilson obituary",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/crime-law/courts/2026/02/25/enoch-burkes-mother-says-her-godly-and-righteous-son-should-never-have-been-jailed/",
-            "image": "https://www.irishtimes.com/resizer/v2/S6DMUTYEMZDNFCGABBH5GXUZ2Q.jpg?auth=54fd8889d76505b55bcb47ba5efa2f2401e31ad9b7918e2d37224645c0eb12f2&height=630&smart=true&width=1200",
-            "source": "irishtimes"
+            "url": "https://ca.news.yahoo.com/jean-wilson-obituary-172142915.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/e0RSCDuZg5gq47hKA6Jqiw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD05OTQ7Y2Y9d2VicA--/https://media.zenfs.com/en/theguardian_763/5b5764d3b09b9611b55a9515e1f450f0",
+            "source": "yahoo"
+        },
+        {
+            "title": "Floods ravage southeastern Brazil and kill 40 as rescuers race to find dozens missing",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/world/article/floods-ravage-southeastern-brazil-and-kill-40-as-rescuers-race-to-find-dozens-missing/",
+            "image": "https://www.ctvnews.ca/resizer/v2/3OU7APCIV33UQ5TYYCOUFQ7CBI.jpg?auth=185f275b41ba3e3e275ff494d0632fa34f63c8f28deee4f6f1df57916faff70e&height=630&smart=true&width=1200",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Pennsylvania Cops Bust Alleged Migrant Sex-Trafficking Rings After Street Shooting",
+            "severity": "WATCH",
+            "url": "https://www.breitbart.com/immigration/2026/02/25/pennsylvania-cops-bust-alleged-migrant-sex-trafficking-rings-after-street-shooting/",
+            "image": "https://media.breitbart.com/media/2026/02/Fernando-Meza-Ramirez-Efran-Flores-Rodriguez-640x480.jpg",
+            "source": "breitbart"
+        },
+        {
+            "title": "\u2018Nobel prize for fiction\u2019: Trump\u2019s State of the Union provokes polarized reactions",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/nobel-prize-fiction-trump-state-171800374.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/AjvO6Cmwio0x3YiMmPBGMg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://media.zenfs.com/en/theguardian_763/3a3d4dd380551cc564ae1c9ed15c301e",
+            "source": "yahoo"
+        },
+        {
+            "title": "Meghan Markle and Prince Harry Have a Soccer Shoot-Out in Jordan, but Who Walked Away with Bragging Rights?",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/meghan-markle-prince-harry-soccer-171758345.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/WIOTJjHU0_Uuz1dcuWpMgQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://media.zenfs.com/en/people_218/eb96039b92663d7b408f9a7a91a0112b",
+            "source": "yahoo"
+        },
+        {
+            "title": "UI graduate shares what helped him step up his CGPA from third class to 2:1",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/people/1698635-graduate-shares-how-step-cgpa-poor-performance-100level/",
+            "image": "https://cdn.legit.ng/images/1120/340efb3eb9a63cac.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Sleepless in the city: Heat & humidity push up discomfort levels",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/pune/sleepless-in-the-city-heat-humidity-push-up-discomfort-levels/articleshow/128760878.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128760878,width-1280,height-720,imgsize-159386,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Vancouver built up fast \u2014 but now its older towers face an earthquake reckoning",
+            "severity": "WATCH",
+            "url": "https://theconversation.com/vancouver-built-up-fast-but-now-its-older-towers-face-an-earthquake-reckoning-263700",
+            "image": "https://images.theconversation.com/files/716919/original/file-20260208-56-mmv082.JPG?auto=format&fit=clip&ixlib=rb-4.1.0&q=45&w=754",
+            "source": "theconversation"
+        },
+        {
+            "title": "HAP International Launches Digital Product Due Diligence Receipt to Help Companies Demonstrate Compliant Supply Chains Across Borders",
+            "severity": "WATCH",
+            "url": "https://www.businesswire.com/news/home/20260225847957/en/HAP-International-Launches-Digital-Product-Due-Diligence-Receipt-to-Help-Companies-Demonstrate-Compliant-Supply-Chains-Across-Borders",
+            "image": "https://mms.businesswire.com/media/20260225847957/en/2730792/21/logo-dark_1.jpg",
+            "source": "businesswire"
+        },
+        {
+            "title": "Read the full transcript of Trump\u2019s 2026 State of the Union",
+            "severity": "WATCH",
+            "url": "https://globalnews.ca/news/11701246/donald-trump-state-of-the-union-transcript/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/02/state-of-the-union-trump.jpg?crop=1&h=480&quality=65&strip=all&w=720",
+            "source": "globalnews"
+        },
+        {
+            "title": "Discord postpones age verification rollout amid criticism, promises transparency",
+            "severity": "WATCH",
+            "url": "https://abcnews.com/Technology/wireStory/discord-postpones-age-verification-rollout-amid-criticism-promises-130494960",
+            "image": "https://s.abcnews.com/images/US/wirestory_05da0d12d3d2a8cfda8b670e07c40460_4x3_384.jpg",
+            "source": "abcnews"
+        },
+        {
+            "title": "FA release Marc Cucurella statement as Chelsea hit with hefty fine for West Ham incident",
+            "severity": "WATCH",
+            "url": "https://www.si.com/onsi/soccer/chelsea/news/fa-release-marc-cucurella-statement-as-chelsea-hit-with-hefty-fine-for-west-ham-incident-01kjaak50204",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4860,h_2733,x_0,y_49/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/absolute_chelsea_on_si/01kjatekw7d86zaekwz1.jpg",
+            "source": "si"
         }
     ],
-    "Last_Updated": "2026-02-26T02:38:50.564446Z"
+    "Last_Updated": "2026-02-26T05:22:50.566543Z"
 }
