@@ -1,274 +1,246 @@
 {
-    "AGRI_Score": 60.0,
-    "Velocity": "+4.1",
+    "AGRI_Score": 56.6,
+    "Velocity": "-3.4",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 60.0 reflects a significantly elevated risk profile, predominantly driven by an acute escalation in \"Geopolitical Conflict Intensity.\" This is underscored by explicit warnings of potential broader conflict, such as Poland's foreign minister declaring a need to \"Prepare for a war 'like our grandfathers and great-grandfathers saw',\" alongside declared \"Open War\" between Pakistan and Afghanistan. Contributing factors include major \"Cyber & Infrastructure Threats,\" evidenced by large-scale data breaches, and active \"Currency & Liquidity Pressure\" from major economies like China.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 56.6 is primarily driven by an acute escalation in Geopolitical Conflict Intensity, evidenced by Pakistan's declaration of 'open war' with Afghanistan. This heightened regional instability is significantly compounded by elevated Cyber & Infrastructure Threats, with major data breaches impacting millions. These critical areas outweigh baseline activity in other pillars, preventing a lower overall risk profile.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 91.0,
-        "Energy & Maritime Disruption": 64.6,
-        "Trade & Supply Chain Stress": 62.3,
-        "Sovereign Financial Stress": 50.5,
+        "Geopolitical Conflict Intensity": 82.8,
+        "Energy & Maritime Disruption": 50.0,
+        "Trade & Supply Chain Stress": 62.7,
+        "Sovereign Financial Stress": 50.2,
         "Currency & Liquidity Pressure": 50.0,
         "Sanctions & Regulatory Fragmentation": 61.4,
-        "Cyber & Infrastructure Threats": 59.9,
+        "Cyber & Infrastructure Threats": 63.0,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Explicit warnings of escalating global conflict, such as Poland's foreign minister's \"ominous WW3 warning,\" indicate a severely heightened risk landscape. Active military confrontations, exemplified by \"Pakistan Strikes Kabul, Kandahar: \u201cOpen War\u201d Declared,\" directly contribute to this intense pillar score.",
-        "Energy & Maritime Disruption": "The commissioning of new anti-submarine warships by the Indian Navy, specifically 'Anjadip', reflects a strategic focus on maritime security in a potentially contested environment. While no direct energy supply disruptions are reported, the ongoing geopolitical tensions, including \"PKG ANGER IN NATON NATION AGAINST US OVER IRAN TENSIONS,\" signal underlying vulnerabilities in crucial energy transit regions.",
-        "Trade & Supply Chain Stress": "Economic indicators like \"Nio Stock Can\u2019t Break Higher For Now\" point to sector-specific demand challenges that can ripple through supply chains. Furthermore, proactive currency management by Beijing, as \"China encourages dollar buying to slow surging yuan,\" suggests efforts to influence trade competitiveness amidst global economic pressures.",
-        "Sovereign Financial Stress": "China's intervention to \"slow surging yuan\" by encouraging dollar buying indicates active management of financial flows to mitigate potential economic instability. Concerns regarding \"crony capitalism\" in government dealings, as highlighted by Elizabeth Warren's questioning of Trump's role, could erode investor confidence and imply governance risks affecting sovereign stability.",
-        "Currency & Liquidity Pressure": "\"China encourages dollar buying to slow surging yuan\" directly illustrates significant government intervention to manage currency strength and maintain economic equilibrium. This action demonstrates active measures being taken to influence market liquidity and mitigate undesired currency movements.",
-        "Sanctions & Regulatory Fragmentation": "Allegations of \"crony capitalism\" regarding a Warner Bros. bid, as questioned by Elizabeth Warren, highlight concerns about regulatory fairness and potential political influence over economic processes. The underlying tensions with Iran, with \"JD Vance: No Endless War as Trump Weighs Iran Strikes,\" imply an ongoing environment where sanctions or regulatory shifts remain a significant potential tool.",
-        "Cyber & Infrastructure Threats": "Major data breaches, such as \"Europe\u2019s ManoMano Hit: 38M Customer Records Compromised in Vendor Breach,\" demonstrate significant vulnerabilities in digital infrastructure impacting large customer bases. Additionally, the alleged leak of \"Stree Suraksha beneficiaries\u2019 data to private agency\" in Kerala points to critical failures in government data protection.",
-        "Climate & Resource Shock": "There are no current news items indicating significant climate events or resource shocks in the provided feed. This pillar remains at a level requiring routine monitoring, reflecting baseline activity without new specific triggers."
+        "Geopolitical Conflict Intensity": "Geopolitical risk is at an elevated level due to the explicit declaration of 'open war' between Pakistan and Afghanistan, as highlighted by multiple headlines including 'Pakistan says it is in \u2018open war\u2019 with Afghanistan'. Further analysis indicates that the underlying causes and potential next steps of this conflict are a significant concern, requiring close monitoring as noted in 'What's behind the latest fighting between Afghanistan and Pakistan?'.",
+        "Energy & Maritime Disruption": "This pillar currently exhibits routine monitoring levels, with no specific news headlines indicating immediate disruptions to energy supplies or maritime routes. While not directly mentioned, ongoing geopolitical tensions could indirectly impact future stability in these sectors.",
+        "Trade & Supply Chain Stress": "While no direct news headlines explicitly detail trade or supply chain disruptions, the 'open war' between Pakistan and Afghanistan presents a significant latent risk for regional and potentially broader trade routes. The absence of specific mentions does not negate the potential for future stresses stemming from escalating conflict.",
+        "Sovereign Financial Stress": "Sovereign financial stress is currently at a level requiring routine monitoring, with no direct reports of sovereign defaults or significant national debt crises. Discussions around 'plan to axe data center tax exemption' indicate ongoing fiscal policy considerations but do not point to systemic stress.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures remain at a baseline activity level, with no specific news indicating unusual market volatility or significant capital outflow events. The current geopolitical tensions could, however, introduce future pressures on regional currencies.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation remains a concern, with the 'DOJ sues 5 more states, demanding access to voter rolls' indicating domestic regulatory disputes within the US. While international sanctions are not explicitly mentioned in the feed, the 'open war' between Pakistan and Afghanistan significantly increases the likelihood of future sanction considerations and regulatory divergence.",
+        "Cyber & Infrastructure Threats": "This pillar shows heightened risk due to significant cybersecurity incidents, with 'Data Broker Breaches Fueled Nearly $21 Billion in Identity-Theft Losses' underscoring the severe financial impact of data compromise. The 'ManoMano data breach: massive DIY chain incident impacts 38 million customers' further illustrates widespread vulnerabilities and ongoing threats to critical digital infrastructure.",
+        "Climate & Resource Shock": "This pillar remains at a level of routine monitoring, as the provided news feed contains no specific reports of climate-related disasters, resource scarcity, or significant environmental shocks. Despite the absence of immediate events, long-term climate risks persist and are subject to ongoing assessment."
     },
     "All_Alerts": [
         {
-            "title": "Nio Stock Can\u2019t Break Higher For Now: EV Maker Turns To SUV Refresh To Reignite Growth",
+            "title": "Pakistan says it is in \u2018open war\u2019 with Afghanistan",
             "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/markets/nio-stock-can-t-break-higher-for-now-ev-maker-turns-to-suv-refresh-to-reignite-growth-articleshow-co3w9kk",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-5b584d94-05bb-4c41-92cc-9483e3412c2f.webp",
-            "source": "newsable_asianetnews"
+            "url": "https://www.irishtimes.com/world/asia-pacific/2026/02/27/pakistan-says-it-is-in-open-war-with-afghanistan/",
+            "image": "https://www.irishtimes.com/resizer/v2/UMPNLK5LZ73STNUY3CHCPG2VAE.jpg?auth=1639642fee0d099a540a58670fe899e3f68fe71c8a7c68cd44c52e0096ce2955&height=630&smart=true&width=1200",
+            "source": "irishtimes"
         },
         {
-            "title": "Prepare for a war 'like our grandfathers and great-grandfathers saw', Poland's foreign minister declares in ominous WW3 warning",
+            "title": "Beyond Trending: What is deterrence?",
             "severity": "HIGH",
-            "url": "https://www.dailymail.co.uk/news/article-15597927/Prepare-war-Polands-foreign-minister-declares-WW3-warning.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/02/27/08/106721569-0-image-a-12_1772180705640.jpg",
-            "source": "dailymailuk"
+            "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/beyond-trending-what-is-deterrence-10555553/",
+            "image": "https://images.indianexpress.com/2026/02/Iran-US-talks-deterrence.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Indian Navy commissions 'Anjadip', 3rd anti-submarine warship in Chennai",
+            "title": "London school wars are the \u2018wild west\u2019 of social media",
             "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/india/indian-navy-commissions-anjadip-3rd-antisubmarine-warship-in-chennai-articleshow-cqr99gy",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-e400c705-258b-4bc3-8331-7b35f58775a5.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://metro.co.uk/2026/02/27/london-school-wars-wild-west-social-media-27134968/",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/02/SEI_287010676-4905_1772188243.jpg?crop=1&h=630&quality=90&strip=all&w=1200",
+            "source": "metro"
         },
         {
-            "title": "India Knockout Nights launches with a bang at packed Mohali event",
+            "title": "\u2018We were quite baffled\u2019: Sriram Raghavan on response to Ikkis, says many who objected haven\u2019t seen the film",
             "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/sports/india-knockout-nights-launches-with-a-bang-at-packed-mohali-event-articleshow-il4gkc6",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-4e8091b1-4814-4537-b53e-d34c0c116a54.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://indianexpress.com/article/entertainment/bollywood/we-were-quite-baffled-sriram-raghavan-on-response-to-ikkis-says-many-who-objected-havent-seen-film-10555469/",
+            "image": "https://images.indianexpress.com/2026/02/ikkissriram.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "China encourages dollar buying to slow surging yuan",
+            "title": "How the GOP stopped Hillary exposing Epstein links \u2014 and more notes from a Trump resister",
             "severity": "HIGH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/02/27/china-encourages-dollar-buying-to-slow-surging-yuan",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/02/27/3790514.jpg",
+            "url": "https://www.rawstory.com/raw-investigates/hillary-clinton/",
+            "image": "https://www.rawstory.com/media-library/hillary-clinton.jpg?id=65066491&width=980",
+            "source": "rawstory"
+        },
+        {
+            "title": "'You can be something more': Former Hutton Settlement student awarded fellowship to top university in China - Fri, 27 Feb 2026 PST",
+            "severity": "HIGH",
+            "url": "http://www.spokesman.com/stories/2026/feb/27/you-can-be-something-more-former-hutton-settlement/",
+            "image": "https://thumb.spokesman.com/f22aY6wStqchB2gRBr6z_xqICfU=/1200x800/smart/media.spokesman.com/photos/2026/02/26/69a0a0fc89564.hires.jpg",
+            "source": "spokesman"
+        },
+        {
+            "title": "What's behind the latest fighting between Afghanistan and Pakistan? - explainer",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/international/article-888206",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/708691",
+            "source": "jpost"
+        },
+        {
+            "title": "\u2018Open war\u2019: Why Pakistan attacked Taliban in Afghanistan and what\u2019s next?",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/world/why-pakistan-attacked-taliban-in-afghanistan-and-whats-next-10555526/",
+            "image": "https://images.indianexpress.com/2026/02/taliban.jpeg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Where do Pakistan, Afghanistan go from here",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/1976128/where-do-pakistan-afghanistan-go-from-here",
+            "image": "https://images.pexels.com/photos/28767588/pexels-photo-28767588.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "dawn"
+        },
+        {
+            "title": "Data Broker Breaches Fueled Nearly $21 Billion in Identity-Theft Losses",
+            "severity": "HIGH",
+            "url": "https://www.wired.com/story/data-broker-breaches-fueled-dollar209-billion-in-identity-theft-losses/",
+            "image": "https://media.wired.com/photos/699f3b7fc95722828c3f077b/master/w_120,c_limit/Data-Brokers-Stop-Hiding-Opt-Out-Pages-From-Google-After-US-Senators-Probe-Security-2245425437.jpg",
+            "source": "wired"
+        },
+        {
+            "title": "ManoMano data breach: massive DIY chain incident impacts 38 million customers - here's what we know",
+            "severity": "HIGH",
+            "url": "https://www.techradar.com/pro/security/manomano-data-breach-massive-diy-chain-incident-impacts-38-million-customers-heres-what-we-know",
+            "image": "https://cdn.mos.cms.futurecdn.net/32zfRWDWoVt6BajrDfPcPo.jpg",
+            "source": "techradar_nz"
+        },
+        {
+            "title": "Commentary: Can young Americans reinvent the starter home?",
+            "severity": "MEDIUM",
+            "url": "https://www.orlandosentinel.com/2026/02/27/commentary-can-young-americans-reinvent-the-starter-home/",
+            "image": "https://www.orlandosentinel.com/wp-content/uploads/2026/02/202602250400MCT_____PHOTO____OPED-STARTER-HOME-COMMENTARY-FILEPIC-DA.jpg?strip=all&w=1400px",
+            "source": "orlandosentinel"
+        },
+        {
+            "title": "DOJ sues 5 more states, demanding access to voter rolls: 'We will not be deterred'",
+            "severity": "MEDIUM",
+            "url": "https://www.foxnews.com/politics/doj-sues-5-more-states-demanding-access-voter-rolls-we-not-deterred",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/931/523/trump-walking-with-pam-bondi.jpg?tl=1&ve=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Commentary: We are one. Until we\u2019re not.",
+            "severity": "WATCH",
+            "url": "https://www.orlandosentinel.com/2026/02/27/commentary-we-are-one-until-were-not/",
+            "image": "https://www.orlandosentinel.com/wp-content/uploads/migration/2020/02/04/G6VXVFG27BBDXJHNLL34GC2TAU.jpg?strip=all&w=1400px",
+            "source": "orlandosentinel"
+        },
+        {
+            "title": "A mural in Tiruppudaimarudhur celebrates saint-composer Annamacharya, his son and wife",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/entertainment/music/a-mural-in-tiruppudaimarudhur-celebrates-saint-composer-annamacharya-his-son-and-wife/article70655751.ece",
+            "image": "https://th-i.thgim.com/public/entertainment/music/6w66nd/article70683599.ece/alternates/LANDSCAPE_1200/27fr-AnnamacharyaTimmakka.jpg",
+            "source": "thehindu"
+        },
+        {
+            "title": "Letters: Take Trump seriously | Where was Frost? | Save minimum wage",
+            "severity": "WATCH",
+            "url": "https://www.orlandosentinel.com/2026/02/27/letters-take-trump-seriously-where-was-frost-save-minimum-wage/",
+            "image": "https://www.orlandosentinel.com/wp-content/uploads/2026/02/TRUMPSPEECH-67.jpg?strip=all&w=1400px",
+            "source": "orlandosentinel"
+        },
+        {
+            "title": "You\u2019ve lost the CEO succession race. Here\u2019s your multi-million dollar bonus",
+            "severity": "WATCH",
+            "url": "https://fortune.com/2026/02/27/youve-lost-ceo-succession-race-multi-million-dollar-bonus-retention-grants/",
+            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-1325276224-e1772187014114.jpg?w=2048",
+            "source": "fortune"
+        },
+        {
+            "title": "Hoping to play Marvel's Wolverine on PC? We've got some bad news",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/gaming/hoping-play-marvels-wolverine-pc-36790103",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article36790132.ece/ALTERNATES/s615/0_Marvels-Wolverine-Gameplay-Trailer-_-PS5-Games-1-39-screenshot-1.png",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Workers, Speaker Scott criticize plan to axe data center tax exemption as budgets advance",
+            "severity": "WATCH",
+            "url": "https://www.yahoo.com/news/articles/workers-speaker-scott-criticize-plan-103049967.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/OKf7GLRx1Su_nuWKVpMrCA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://media.zenfs.com/en/virginia_mercury_articles_394/4d02dd46aa22bc963c5825a24227e096",
+            "source": "yahoo"
+        },
+        {
+            "title": "CORRECTION: Eesti Energia Group Unaudited Results for 2025",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/news-release/2026/02/27/3246367/0/en/CORRECTION-Eesti-Energia-Group-Unaudited-Results-for-2025.html",
+            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
+        },
+        {
+            "title": "PETRONAS to increase international upstream activity by 60% in 10 years, says COO",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/02/27/petronas-to-increase-international-upstream-activity-by-60-in-10-years-says-coo",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/02/27/3790727.jpg",
             "source": "thestar_my"
         },
         {
-            "title": "JD Vance: No Endless War as Trump Weighs Iran Strikes",
-            "severity": "HIGH",
-            "url": "https://www.newsmax.com/politics/jd-vance-iran-strikes/2026/02/27/id/1247629",
-            "image": "https://images.pexels.com/photos/5729787/pexels-photo-5729787.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "newsmax"
+            "title": "Deepinder Goyal is hiring for 'Temple' wearable, but applicants' body fat needs to be...",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/trending/deepinder-goyal-is-hiring-for-temple-wearable-but-applicants-body-fat-needs-to-be-101772186677228.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/27/1600x900/logo/deep_1738915070358_1772187902430.webp",
+            "source": "hindustantimes"
         },
         {
-            "title": "Elizabeth Warren Questions Trump's Role In Tilting Warner Bros. Bid In Favor Of Ellison Family: 'Looks Like Crony Capitalism...'",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/m-a/26/02/50920073/elizabeth-warren-questions-trumps-role-in-tilting-warner-bros-bid-in-favor-of-ellison-family-looks-like-crony",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/02/27/Ambler--Pa---Sept--20--2024-Us-Sen--Eliz.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
-            "source": "benzinga"
+            "title": "Scientists compared dinosaurs to mammals for decades but missed this key difference",
+            "severity": "WATCH",
+            "url": "https://www.sciencedaily.com/releases/2026/02/260226042502.htm",
+            "image": "https://www.sciencedaily.com/images/1920/gigantic-herbivorous-dinosaur-brachiosaurus.webp",
+            "source": "sciencedaily"
         },
         {
-            "title": "Iranian agents obstructed care at hospitals packed with wounded protesters",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/beirut-berlin-oslo-united-nations-canada-b2928704.html",
-            "image": "https://static.independent.co.uk/2026/02/27/08/Iran_Hospital_Crackdown_13954.jpg?crop=1200%3A800&height=800&width=1200",
-            "source": "independentuk"
+            "title": "Abu Dhabi launches pilot operation of autonomous trucks, first of its kind in MENA",
+            "severity": "WATCH",
+            "url": "https://www.khaleejtimes.com/uae/transport/abu-dhabi-pilot-operation-autonomous-trucks",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-02-27/29u92jgq/autonomous-trucks-abu-dhabi.jpeg?format=auto&height=630&mode=crop&ogImage=true&rect=0%2C27%2C943%2C629&width=1200",
+            "source": "khaleejtimes"
         },
         {
-            "title": "Pakistan Strikes Kabul, Kandahar: \u201cOpen War\u201d Declared, 10 Key Developments",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/world/pakistan-strikes-kabul-kandahar-open-war-declared-10-key-developments-articleshow-29e6qos",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01fer3vya8v0vg3dpzj8f42fd6,imgname-pakistan--taliban--afghanistan-taliban-new-government--taliban-pakistan-effect--pakistan-afghanistan-relations--pakistan-taliban--2--jpg.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Iranian security agents harassed injured protesters in hospitals",
-            "severity": "HIGH",
-            "url": "https://apnews.com/article/iran-protests-crackdown-hospitals-326f127b5fef610a89f89e5c164b473c",
-            "image": "https://dims.apnews.com/dims4/default/5a06cbc/2147483647/strip/true/crop/4926x3282+0+125/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F07%2F04%2Ff0fdd0da0dd80f7246dabaa9522a%2F674afa1899824a50976e76ecfa070d8f",
-            "source": "apnews"
-        },
-        {
-            "title": "Prisoner who 'attacked' Soham monster Ian Huntley named as triple-killer rapist",
-            "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/uk/2176204/prisoner-suspected-attacking-ian-huntley-anthony-russell",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2176204_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "PKG ANGER IN NATON NATION AGAINST US OVER IRAN TENSIONS",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/iran-a-freind-wont-support-american-kilrs-protesters-in-nato-nation-slam-us-military-presence/videoshow/128841611.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128841611,width-1280,height-720,imgsize-261846,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Trump Admin Accuses Anthropic of 'Lying' Over Claude AI",
-            "severity": "HIGH",
-            "url": "https://www.newsweek.com/claude-ai-anthropic-hegseth-war-defense-military-amodei-11590712",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/02/GettyImages-2249797203.jpg?w=1200crop%3D1",
-            "source": "newsweek"
-        },
-        {
-            "title": "Afghan-Pak conflict strips women of rights, security: Mariam Solaimankhil",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/world/afghanpak-conflict-strips-women-of-rights-security-mariam-solaimankhil-articleshow-y2q4k9r",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-567ec180-d877-4c9c-bd79-350a26a6a59b.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Pro-Palestine activists vandalise Winston Churchill's statue with 'zionist war criminal' slogans",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.co.uk/news/article-15597989/Pro-Palestine-activists-vandalise-Winston-Churchill-statue-zionist-war-criminal-slogans.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/02/27/08/106721455-0-image-a-4_1772180040369.jpg",
+            "title": "Melrose shares tumble as revenue guidance underwhelms despite defence demand",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.co.uk/money/markets/article-15598023/Melrose-shares-tumble-revenue-guidance-underwhelms-despite-defence-demand.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/02/27/09/106722229-0-image-a-4_1772185083197.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Europe\u2019s ManoMano Hit: 38M Customer Records Compromised in Vendor Breach",
-            "severity": "HIGH",
-            "url": "https://www.techrepublic.com/article/news-manomano-38m-third-party-data-breach/",
-            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "techrepublic"
+            "title": "Parashat Zachor: Remembering Amalek in every generation",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/judaism/torah-portion/article-887998",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/499166",
+            "source": "jpost"
         },
         {
-            "title": "\u2018Kerala CMO leaked Stree Suraksha beneficiaries\u2019 data to private agency,\u2019 alleges Ramesh Chennithala",
-            "severity": "HIGH",
-            "url": "https://english.mathrubhumi.com/news/kerala/kerala-cmo-leaked-stree-suraksha-beneficiaries-data-to-private-agency-alleges-ramesh-chennithala-mpsth58v",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1pgi0j53dr5nokea2xv/0/pinarayi-vijayan-and-ramesh-chennithala.jpg?w=900",
-            "source": "mathrubhumi"
+            "title": "Truro solar panel company ousted from industry group amid customer complaints",
+            "severity": "WATCH",
+            "url": "https://www.cbc.ca/news/canada/nova-scotia/sun-kissed-energy-truro-solar-9.7107247?cmp=rss",
+            "image": "https://i.cbc.ca/ais/57f232ec-2b63-481d-b645-b1c0f2a9b9e0,1772136500636/full/max/0/default.jpg?im=Crop%2Crect%3D%285%2C0%2C1405%2C790%29%3BResize%3D%28620%29",
+            "source": "cbc"
         },
         {
-            "title": "Why Pakistan and Afghan Taliban are fighting and what happens next",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/asia/south-asia/pakistan-taliban-afghanistan-fighting-border-clash-why-b2928678.html",
-            "image": "https://static.independent.co.uk/2026/02/23/2/00/SEI286291919.jpeg?crop=1200%3A800&height=800&trim=0%2C0%2C0%2C0&width=1200",
+            "title": "Residents slam Mumbai\u2019s musical road playing \u2018Jai Ho\u2019 as \u2018complete waste of taxpayers\u2019 money\u2019",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/tv/news/mumbai-musical-road-jai-ho-breach-candy-video-b2928006.html",
+            "image": "https://cdn.jwplayer.com/v2/media/S7LruRr8/poster.jpg?width=720",
             "source": "independentuk"
         },
         {
-            "title": "India will churn for a strategic amrit with Mission Samudra Manthan - The Economic Times",
-            "severity": "MEDIUM",
-            "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVXRsN0tRR3A1MlBzYzBWM3VPRkNRTElxY1ExZkNNbWRjZnloWVZWV2Fsd2tJMkZWTTlJV2xDSE45MXFEMnVHZXNETkpaSE1oa2lPaFVzMkRmcVM2dHpJbUJnaUwxTTRzUVE2bHR5bjAtVnZVbmlDUU9ZeVdsX2RpT0JjVVJZZzJZOG12bjZRckhaVUpxVHFJbEV0c215Ql9nWkdkNVQwWkU1RGtfeHhGckZwdVpOVXRRV2VfXzlZRzQzSXp5YnhnZDZ6TnJsM3ZpRTRhZ1dFZ08yMVhiOGfSAeMBQVVfeXFMTVFmVkt6SkxuNWQxTjRqS2txQ3ZpTnhMYVFxQURUX2RDZzJEeWRuTjVtM0lpeGlHUmIxWUduVG5WTzRPR0RGZTFOVzlLRGRRQ2VYeW80TUlQZ3VQUUcydnVqWTYtSWxRWE9NQnVab3plQmowRUtMTlAyNlhTWDl3bTZtalJDd09DSG8tb3h5ME5YQmZJVWlGanh2MC1CZ0loZ1o5QkpIUDhNRVNLWm1aRFdkdFpXNDI3VVJETzFLRnZOR2M3VUdERnJjSHE1NnJvWWQyeDlGX0E5WWVvbjl4cGstSzA?oc=5",
-            "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Russia calls on Afghanistan, Pakistan to stop confrontation, return to talks \u2014 MFA",
-            "severity": "MEDIUM",
-            "url": "https://tass.com/politics/2092579",
-            "image": "https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "tass"
-        },
-        {
-            "title": "Anthropic vs US govt: Amodei the last holdout against Trump regime's demand for unrestricted access to AI",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropic-vs-us-govt-amodei-the-last-holdout-against-trump-regimes-demand-for-unrestricted-access-to-ai/articleshow/128841714.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-50340,resizemode-75,msid-128841714/tech/artificial-intelligence/anthropic-vs-us-govt-amodei-the-last-holdout-against-trump-regimes-demand-for-unrestricted-access-to-ai.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "CPP Investments and Equinix join forces to acquire atNorth to further accelerate growth in the Nordics",
-            "severity": "MEDIUM",
-            "url": "https://www.benzinga.com/pressreleases/26/02/n50919980/cpp-investments-and-equinix-join-forces-to-acquire-atnorth-to-further-accelerate-growth-in-the-nor",
-            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "benzinga"
-        },
-        {
-            "title": "Inside Cyrus Poonawalla\u2019s Lincoln House; Mumbai\u2019s most valuable heritage property and its historic \u20b9750-Crore valuation",
-            "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/real-estate/news/inside-cyrus-poonawallas-lincoln-house-mumbais-most-valuable-heritage-property-and-its-historic-750-crore-valuation/articleshow/128841836.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128841913,imgsize-55144,width-400,resizemode-4/lincoln-house-cyrus-poonawala.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Rs 3 lakh crore wiped out! Sensex tumbles 600 points, Nifty below 25,300. 4 key factors behind market decline",
-            "severity": "MEDIUM",
-            "url": "http://economictimes.indiatimes.com/markets/stocks/news/why-is-stock-market-falling-today-rs-3-lakh-crore-wiped-out-sensex-tumbles-600-points-nifty-below-25300-key-factors-behind-market-decline/articleshow/128840525.cms",
-            "image": "https://img.etimg.com/photo/118783427.cms",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Diversified Energy Company adds another deal to the hopper, expands footprint in East Texas",
+            "title": "Rs 5.5 Lakh Crore Wiped Out: Sensex Falls 1,000 Points, Nifty Slips Below 25,200 - 4 Key Reasons Behind the Market Crash",
             "severity": "WATCH",
-            "url": "https://uk.finance.yahoo.com/news/diversified-energy-company-adds-another-083400118.html",
-            "image": "https://images.pexels.com/photos/9694217/pexels-photo-9694217.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.timesnownews.com/business-economy/markets/rs-5-5-lakh-crore-wiped-out-sensex-falls-1000-points-nifty-slips-below-25200-4-key-reasons-behind-the-market-crash-article-153710629",
+            "image": "https://images.timesnownews.com/thumb/msid-153710629,imgsize-31118,width-1280,height-720/153710629.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Reason why reporting names of arrested people is against the law \u2013 and why the Andrew and Mandelson were exceptions",
+            "severity": "WATCH",
+            "url": "https://uk.news.yahoo.com/reason-why-reporting-names-arrested-171204808.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/PCiswBRSrWzfSe0ouRnjMA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04MjU7Y2Y9d2VicA--/https://media.zenfs.com/en/my_london_632/7103a8e2fdcca350b5bd48430d7671a6",
             "source": "yahoo"
         },
         {
-            "title": "Nasdaq, S&P 500 Futures Slip Ahead Of Inflation Data: Why NFLX, PSKY, GOOGL, CRWV, XYZ, MARA Are On Traders' Radar Today",
+            "title": "BBC settles Gregg Wallace\u2019s damages claim over \u2018distress and harassment\u2019",
             "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/markets/nasdaq-s-p-500-futures-slip-ahead-of-inflation-data-why-nflx-psky-googl-crwv-xyz-mara-are-on-traders-radar-today-articleshow-9xd15g5",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-9b93a780-f9e1-45a1-b966-2cbaa26b2853.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Venezuela Suspends 19 Oil Production Contracts - Crude Oil Prices Today | OilPrice.com",
-            "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT1pCSVFFTG9ZcHFRdi1reUFQSnV1cTJPSmNBOTNRQXdfV3VYRDdzUE1sOC0wMUV0YmI0QkpMQWZfV0xsMWU5TUNRM0V6dFlmdDBwRDhIcDg5Y1NMSDBwTUNsNXVDVWowYzZuRDJSOVU0OExMY3F1V2lnVWVhb2d6Wkp0ajRmNWpNdThSU3BjOVFRc2pSWmtGYVNXa0Z1SnNXaTk3U9IBqgFBVV95cUxQX1JqX05JcXNzdm5heWFHN0l2YzZRazdwT3JVcENVS1NtU3NRSFA4bGVkS0Q3ZzlocUhPU3FHbVJfYjRlMnpUVHcybUpkNVlycUNfVWZKR1I0SEFxRTBqUTBBYjM0aDFod0RlNi1NRWFocUFFQVVPRXlweVZhUVduM0RKd0pvdEpkQ0p3WVB2TU9NZHFHdHFhNEtLR1B0c1Bma24tSUR2NzZqZw?oc=5",
-            "image": "https://images.pexels.com/photos/5831252/pexels-photo-5831252.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "British Airways parent company reports soaring profits amid strong demand",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/travel/news-and-advice/british-airways-profits-increse-iag-b2928699.html",
-            "image": "https://static.independent.co.uk/2026/01/28/14/31/iStock-2198205698.jpeg?crop=1200%3A800&height=800&trim=0%2C1%2C0%2C1&width=1200",
+            "url": "https://www.the-independent.com/arts-entertainment/tv/news/gregg-wallace-bbc-masterchef-damages-b2928732.html",
+            "image": "https://static.the-independent.com/2025/10/16/16/f3f94de057baca48c27df6eb558e11fdY29udGVudHNlYXJjaGFwaSwxNzYwNzExMzU4-2.78357840.jpg?crop=1200%3A800&height=800&width=1200",
             "source": "independentuk"
-        },
-        {
-            "title": "Super-sized CBD or soaring suburbs: The competing visions to reshape Melbourne",
-            "severity": "WATCH",
-            "url": "https://www.smh.com.au/national/victoria/super-sized-cbd-or-soaring-suburbs-the-competing-visions-to-reshape-melbourne-20260227-p5o615.html",
-            "image": "https://static.ffx.io/images/$zoom_0.2007,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_0/t_crop_custom/q_86,f_auto/214f142f63429f253c1db7e0b566f82768cd4352",
-            "source": "smh"
-        },
-        {
-            "title": "Campaigners Join Forces To Raise Environmental Concerns Over Data Centers",
-            "severity": "WATCH",
-            "url": "https://www.forbes.com/sites/jamiehailstone/2026/02/27/campaigners-join-forces-to-raise-environmental-concerns-over-data-centers/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/69a0236899584b22d5f4cf7f/0x0.jpg",
-            "source": "forbes"
-        },
-        {
-            "title": "Mileo Mykonos and Yasam Ayavefe\u2019s Operations-First Take on Quiet, Reliable Luxury",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/02/27/3246314/0/en/Mileo-Mykonos-and-Yasam-Ayavefe-s-Operations-First-Take-on-Quiet-Reliable-Luxury.html",
-            "image": "https://ml-eu.globenewswire.com/Resource/Download/1f612247-f7ba-4c32-aa4b-c3ae340e5381/ya-greetings.jpg",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "State can\u2019t wish away the financial problems of local councils",
-            "severity": "WATCH",
-            "url": "https://www.smh.com.au/national/victoria/state-can-t-wish-away-the-financial-problems-of-local-councils-20260226-p5o5ul.html",
-            "image": "https://static.ffx.io/images/$zoom_0.1765,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_71/t_crop_custom/q_86,f_auto/c52076ca4042d24969a904ef48685221a956ce4b",
-            "source": "smh"
-        },
-        {
-            "title": "Huge scale of extra funding MoD needs to pay Afghan asylum costs revealed",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/news/uk/2176191/huge-scale-extra-funding-mod",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2176191_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Zubeen Garg's wife welcomes Assam govt's push for fast-track court for his death case trial",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/india/zubeen-gargs-wife-welcomes-assam-govts-push-for-fast-track-court-for-his-death-case-trial/articleshow/128841409.cms",
-            "image": "https://img.etimg.com/photo/118783427.cms",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "India\u2019s first musical road playing Slumdog Millionaire tune as cars drive by has residents fuming: \u2018Stop it. Immediately\u2019",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/india-first-musical-road-playing-072259361.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/4CzbA1btBJfw0_Dq8t4sLA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTUyNjtjZj13ZWJw/https://media.zenfs.com/en/the_independent_577/4cfedd3dd4c84c115564b477e9a756b7",
-            "source": "yahoo"
         }
     ],
-    "Last_Updated": "2026-02-27T20:35:57.074875Z"
+    "Last_Updated": "2026-02-27T22:34:08.470384Z"
 }
