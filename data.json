@@ -1,246 +1,274 @@
 {
-    "AGRI_Score": 56.6,
-    "Velocity": "-3.4",
+    "AGRI_Score": 57.4,
+    "Velocity": "+0.8",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 56.6 is primarily driven by an acute escalation in Geopolitical Conflict Intensity, evidenced by Pakistan's declaration of 'open war' with Afghanistan. This heightened regional instability is significantly compounded by elevated Cyber & Infrastructure Threats, with major data breaches impacting millions. These critical areas outweigh baseline activity in other pillars, preventing a lower overall risk profile.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently registers at 57.4/100, indicating an elevated risk environment predominantly driven by heightened Geopolitical Conflict Intensity (80.6) and significant Sanctions & Regulatory Fragmentation (67.3). Escalating regional tensions, as evidenced by 'Pakistan Strikes Afghan Capital Amid Signals Of 'Open War'' and 'Is the US preparing to strike Iran again?', are key contributors to this score. Furthermore, persistent inflationary pressures reflected in 'U.S. wholesale prices arrive hotter than expected' are adding stress to Trade & Supply Chain networks.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 82.8,
-        "Energy & Maritime Disruption": 50.0,
-        "Trade & Supply Chain Stress": 62.7,
+        "Geopolitical Conflict Intensity": 80.6,
+        "Energy & Maritime Disruption": 52.2,
+        "Trade & Supply Chain Stress": 66.9,
         "Sovereign Financial Stress": 50.2,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 61.4,
-        "Cyber & Infrastructure Threats": 63.0,
+        "Sanctions & Regulatory Fragmentation": 67.3,
+        "Cyber & Infrastructure Threats": 59.9,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical risk is at an elevated level due to the explicit declaration of 'open war' between Pakistan and Afghanistan, as highlighted by multiple headlines including 'Pakistan says it is in \u2018open war\u2019 with Afghanistan'. Further analysis indicates that the underlying causes and potential next steps of this conflict are a significant concern, requiring close monitoring as noted in 'What's behind the latest fighting between Afghanistan and Pakistan?'.",
-        "Energy & Maritime Disruption": "This pillar currently exhibits routine monitoring levels, with no specific news headlines indicating immediate disruptions to energy supplies or maritime routes. While not directly mentioned, ongoing geopolitical tensions could indirectly impact future stability in these sectors.",
-        "Trade & Supply Chain Stress": "While no direct news headlines explicitly detail trade or supply chain disruptions, the 'open war' between Pakistan and Afghanistan presents a significant latent risk for regional and potentially broader trade routes. The absence of specific mentions does not negate the potential for future stresses stemming from escalating conflict.",
-        "Sovereign Financial Stress": "Sovereign financial stress is currently at a level requiring routine monitoring, with no direct reports of sovereign defaults or significant national debt crises. Discussions around 'plan to axe data center tax exemption' indicate ongoing fiscal policy considerations but do not point to systemic stress.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressures remain at a baseline activity level, with no specific news indicating unusual market volatility or significant capital outflow events. The current geopolitical tensions could, however, introduce future pressures on regional currencies.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation remains a concern, with the 'DOJ sues 5 more states, demanding access to voter rolls' indicating domestic regulatory disputes within the US. While international sanctions are not explicitly mentioned in the feed, the 'open war' between Pakistan and Afghanistan significantly increases the likelihood of future sanction considerations and regulatory divergence.",
-        "Cyber & Infrastructure Threats": "This pillar shows heightened risk due to significant cybersecurity incidents, with 'Data Broker Breaches Fueled Nearly $21 Billion in Identity-Theft Losses' underscoring the severe financial impact of data compromise. The 'ManoMano data breach: massive DIY chain incident impacts 38 million customers' further illustrates widespread vulnerabilities and ongoing threats to critical digital infrastructure.",
-        "Climate & Resource Shock": "This pillar remains at a level of routine monitoring, as the provided news feed contains no specific reports of climate-related disasters, resource scarcity, or significant environmental shocks. Despite the absence of immediate events, long-term climate risks persist and are subject to ongoing assessment."
+        "Geopolitical Conflict Intensity": "This pillar is significantly elevated due to active and potential conflict zones, with 'Pakistan Strikes Afghan Capital Amid Signals Of 'Open War'' indicating a severe escalation. Concurrently, fears of broader regional conflict are fueled by 'Latest developments on Iran war fears' and the 'UN Nuclear Watchdog's' inability to verify Iran's uranium enrichment status.",
+        "Energy & Maritime Disruption": "Energy disruption risk is increasing, with 'Oil prices rise 3% as US and Iran extend talks into next week' demonstrating market sensitivity to geopolitical developments. This directly translates to consumer impact as 'Petrol, diesel prices likely to rise by Rs7 for next forthnight' is anticipated.",
+        "Trade & Supply Chain Stress": "Significant stress persists in trade and supply chains, primarily driven by 'U.S. wholesale prices arrive hotter than expected,' indicating inflationary pressures on goods. Efforts to resolve specific bottlenecks and political hurdles, such as 'Brussels welcomes fact-finding mission to Druzhba' to lift a Hungarian veto, highlight ongoing challenges.",
+        "Sovereign Financial Stress": "Sovereign financial stress exhibits routine monitoring, though 'U.S. wholesale prices arrive hotter than expected' suggests potential future inflationary pressures requiring central bank vigilance. Public expenditure challenges persist as courts affirm the use of a 'military camp as asylum accommodation,' impacting national budgets.",
+        "Currency & Liquidity Pressure": "This pillar shows baseline activity, with no immediate indicators of severe stress. However, the reported 'U.S. wholesale prices arrive hotter than expected' could signal future inflationary trends that might influence central bank monetary policy and, consequently, currency valuations.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation remain elevated, primarily due to the 'UN Nuclear Watchdog' being 'Unable to Verify Whether Iran Has Suspended All Uranium Enrichment,' which could trigger further international measures. Efforts to overcome existing regulatory impasses, like the 'fact-finding mission to Druzhba,' demonstrate ongoing challenges in policy alignment across blocs.",
+        "Cyber & Infrastructure Threats": "While no specific cyberattack headlines were reported, the overall 'Geopolitical Conflict Intensity' implies a persistent and elevated risk of state-sponsored cyber intrusions targeting critical infrastructure. The increasing sophistication of technological capabilities, such as energy-efficient supercomputers, necessitates continuous vigilance against potential misuse for nefarious purposes.",
+        "Climate & Resource Shock": "This pillar currently shows routine monitoring, with no immediate climate or resource shocks indicated in the news. Developments such as 'Saudi Aramco bringing shale gas revolution to Arabian Desert' highlight ongoing resource exploration and development, contributing to long-term energy supply considerations rather than immediate crisis."
     },
     "All_Alerts": [
         {
-            "title": "Pakistan says it is in \u2018open war\u2019 with Afghanistan",
+            "title": "A Shapeshifting Supercomputer May Be More Energy Efficient",
             "severity": "HIGH",
-            "url": "https://www.irishtimes.com/world/asia-pacific/2026/02/27/pakistan-says-it-is-in-open-war-with-afghanistan/",
-            "image": "https://www.irishtimes.com/resizer/v2/UMPNLK5LZ73STNUY3CHCPG2VAE.jpg?auth=1639642fee0d099a540a58670fe899e3f68fe71c8a7c68cd44c52e0096ce2955&height=630&smart=true&width=1200",
-            "source": "irishtimes"
+            "url": "https://spectrum.ieee.org/reconfigurable-supercomputer",
+            "image": "https://spectrum.ieee.org/media-library/sandia-national-laboratories-supercomputer-spectra.jpg?id=65068162&width=980",
+            "source": "ieee_spectrum"
         },
         {
-            "title": "Beyond Trending: What is deterrence?",
+            "title": "Petrol, diesel prices likely to rise by Rs7 for next forthnight",
             "severity": "HIGH",
-            "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/beyond-trending-what-is-deterrence-10555553/",
-            "image": "https://images.indianexpress.com/2026/02/Iran-US-talks-deterrence.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "London school wars are the \u2018wild west\u2019 of social media",
-            "severity": "HIGH",
-            "url": "https://metro.co.uk/2026/02/27/london-school-wars-wild-west-social-media-27134968/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/02/SEI_287010676-4905_1772188243.jpg?crop=1&h=630&quality=90&strip=all&w=1200",
-            "source": "metro"
-        },
-        {
-            "title": "\u2018We were quite baffled\u2019: Sriram Raghavan on response to Ikkis, says many who objected haven\u2019t seen the film",
-            "severity": "HIGH",
-            "url": "https://indianexpress.com/article/entertainment/bollywood/we-were-quite-baffled-sriram-raghavan-on-response-to-ikkis-says-many-who-objected-havent-seen-film-10555469/",
-            "image": "https://images.indianexpress.com/2026/02/ikkissriram.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "How the GOP stopped Hillary exposing Epstein links \u2014 and more notes from a Trump resister",
-            "severity": "HIGH",
-            "url": "https://www.rawstory.com/raw-investigates/hillary-clinton/",
-            "image": "https://www.rawstory.com/media-library/hillary-clinton.jpg?id=65066491&width=980",
-            "source": "rawstory"
-        },
-        {
-            "title": "'You can be something more': Former Hutton Settlement student awarded fellowship to top university in China - Fri, 27 Feb 2026 PST",
-            "severity": "HIGH",
-            "url": "http://www.spokesman.com/stories/2026/feb/27/you-can-be-something-more-former-hutton-settlement/",
-            "image": "https://thumb.spokesman.com/f22aY6wStqchB2gRBr6z_xqICfU=/1200x800/smart/media.spokesman.com/photos/2026/02/26/69a0a0fc89564.hires.jpg",
-            "source": "spokesman"
-        },
-        {
-            "title": "What's behind the latest fighting between Afghanistan and Pakistan? - explainer",
-            "severity": "HIGH",
-            "url": "https://www.jpost.com/international/article-888206",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/708691",
-            "source": "jpost"
-        },
-        {
-            "title": "\u2018Open war\u2019: Why Pakistan attacked Taliban in Afghanistan and what\u2019s next?",
-            "severity": "HIGH",
-            "url": "https://indianexpress.com/article/world/why-pakistan-attacked-taliban-in-afghanistan-and-whats-next-10555526/",
-            "image": "https://images.indianexpress.com/2026/02/taliban.jpeg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Where do Pakistan, Afghanistan go from here",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1976128/where-do-pakistan-afghanistan-go-from-here",
-            "image": "https://images.pexels.com/photos/28767588/pexels-photo-28767588.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.dawn.com/news/1976173/petrol-diesel-prices-likely-to-rise-by-rs7-for-next-forthnight",
+            "image": "https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "dawn"
         },
         {
-            "title": "Data Broker Breaches Fueled Nearly $21 Billion in Identity-Theft Losses",
+            "title": "Scouting America will alter its policies to maintain support from the US military, Pentagon says",
             "severity": "HIGH",
-            "url": "https://www.wired.com/story/data-broker-breaches-fueled-dollar209-billion-in-identity-theft-losses/",
-            "image": "https://media.wired.com/photos/699f3b7fc95722828c3f077b/master/w_120,c_limit/Data-Brokers-Stop-Hiding-Opt-Out-Pages-From-Google-After-US-Senators-Probe-Security-2245425437.jpg",
-            "source": "wired"
-        },
-        {
-            "title": "ManoMano data breach: massive DIY chain incident impacts 38 million customers - here's what we know",
-            "severity": "HIGH",
-            "url": "https://www.techradar.com/pro/security/manomano-data-breach-massive-diy-chain-incident-impacts-38-million-customers-heres-what-we-know",
-            "image": "https://cdn.mos.cms.futurecdn.net/32zfRWDWoVt6BajrDfPcPo.jpg",
-            "source": "techradar_nz"
-        },
-        {
-            "title": "Commentary: Can young Americans reinvent the starter home?",
-            "severity": "MEDIUM",
-            "url": "https://www.orlandosentinel.com/2026/02/27/commentary-can-young-americans-reinvent-the-starter-home/",
-            "image": "https://www.orlandosentinel.com/wp-content/uploads/2026/02/202602250400MCT_____PHOTO____OPED-STARTER-HOME-COMMENTARY-FILEPIC-DA.jpg?strip=all&w=1400px",
-            "source": "orlandosentinel"
-        },
-        {
-            "title": "DOJ sues 5 more states, demanding access to voter rolls: 'We will not be deterred'",
-            "severity": "MEDIUM",
-            "url": "https://www.foxnews.com/politics/doj-sues-5-more-states-demanding-access-voter-rolls-we-not-deterred",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/10/931/523/trump-walking-with-pam-bondi.jpg?tl=1&ve=1",
-            "source": "foxnews"
-        },
-        {
-            "title": "Commentary: We are one. Until we\u2019re not.",
-            "severity": "WATCH",
-            "url": "https://www.orlandosentinel.com/2026/02/27/commentary-we-are-one-until-were-not/",
-            "image": "https://www.orlandosentinel.com/wp-content/uploads/migration/2020/02/04/G6VXVFG27BBDXJHNLL34GC2TAU.jpg?strip=all&w=1400px",
-            "source": "orlandosentinel"
-        },
-        {
-            "title": "A mural in Tiruppudaimarudhur celebrates saint-composer Annamacharya, his son and wife",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/entertainment/music/a-mural-in-tiruppudaimarudhur-celebrates-saint-composer-annamacharya-his-son-and-wife/article70655751.ece",
-            "image": "https://th-i.thgim.com/public/entertainment/music/6w66nd/article70683599.ece/alternates/LANDSCAPE_1200/27fr-AnnamacharyaTimmakka.jpg",
-            "source": "thehindu"
-        },
-        {
-            "title": "Letters: Take Trump seriously | Where was Frost? | Save minimum wage",
-            "severity": "WATCH",
-            "url": "https://www.orlandosentinel.com/2026/02/27/letters-take-trump-seriously-where-was-frost-save-minimum-wage/",
-            "image": "https://www.orlandosentinel.com/wp-content/uploads/2026/02/TRUMPSPEECH-67.jpg?strip=all&w=1400px",
-            "source": "orlandosentinel"
-        },
-        {
-            "title": "You\u2019ve lost the CEO succession race. Here\u2019s your multi-million dollar bonus",
-            "severity": "WATCH",
-            "url": "https://fortune.com/2026/02/27/youve-lost-ceo-succession-race-multi-million-dollar-bonus-retention-grants/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-1325276224-e1772187014114.jpg?w=2048",
-            "source": "fortune"
-        },
-        {
-            "title": "Hoping to play Marvel's Wolverine on PC? We've got some bad news",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/gaming/hoping-play-marvels-wolverine-pc-36790103",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36790132.ece/ALTERNATES/s615/0_Marvels-Wolverine-Gameplay-Trailer-_-PS5-Games-1-39-screenshot-1.png",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Workers, Speaker Scott criticize plan to axe data center tax exemption as budgets advance",
-            "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/articles/workers-speaker-scott-criticize-plan-103049967.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/OKf7GLRx1Su_nuWKVpMrCA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://media.zenfs.com/en/virginia_mercury_articles_394/4d02dd46aa22bc963c5825a24227e096",
+            "url": "https://ca.style.yahoo.com/pentagon-says-scouting-america-alter-140645324.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/1YbNiDv4lv2wG4KTXWLknQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/cp_lifestyle_556/677ddd18b8f033142e5d67b6298ca2d7",
             "source": "yahoo"
         },
         {
-            "title": "CORRECTION: Eesti Energia Group Unaudited Results for 2025",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/02/27/3246367/0/en/CORRECTION-Eesti-Energia-Group-Unaudited-Results-for-2025.html",
-            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
+            "title": "What police have said about 'red vs blue school wars' trend telling pupils to fight",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/school-wars-trend-red-blue-london-police-latest-142328025.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/oxofNS4FJ8DL7W1oSud2aA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04ODc7Y2Y9d2VicA--/https://s.yimg.com/os/creatr-uploaded-images/2026-02/cfb064a0-13dd-11f1-afe9-734760b44372",
+            "source": "yahoo"
         },
         {
-            "title": "PETRONAS to increase international upstream activity by 60% in 10 years, says COO",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/02/27/petronas-to-increase-international-upstream-activity-by-60-in-10-years-says-coo",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/02/27/3790727.jpg",
-            "source": "thestar_my"
+            "title": "JD Vance is getting slammed by a conservative mutiny: \u2018Absolute disaster\u2019",
+            "severity": "HIGH",
+            "url": "https://www.nj.com/politics/2026/02/jd-vance-is-getting-slammed-by-a-conservative-mutiny-absolute-disaster.html",
+            "image": "https://www.nj.com/resizer/v2/BIIXH5UMWNDRZG2TCMPTYDWLLM.jpg?auth=4a171b054b41f903cc5bb5ab316607cd9c04d3cc6ae52b2977a36a6f934a4075&height=1200&smart=true",
+            "source": "nj"
         },
         {
-            "title": "Deepinder Goyal is hiring for 'Temple' wearable, but applicants' body fat needs to be...",
+            "title": "Legal challenge over plan to use military camp as asylum accommodation dismissed",
+            "severity": "HIGH",
+            "url": "https://www.standard.co.uk/news/politics/home-office-justice-government-east-sussex-high-court-b1272805.html",
+            "image": "https://static.standard.co.uk/2026/02/27/14/dc1941a1eb313653048d6281f7cb2536Y29udGVudHNlYXJjaGFwaSwxNzcyMjg4MzE1-2.83200683.jpg?auto=webp&crop=3%3A2&width=1200",
+            "source": "standarduk"
+        },
+        {
+            "title": "Oil prices rise 3% as US and Iran extend talks into next week",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/oil-prices-rise-3-as-us-and-iran-extend-talks-into-next-week/articleshow/128854744.cms",
+            "image": "https://img.etimg.com/photo/118783427.cms",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Is the US preparing to strike Iran again? Latest developments on Iran war fears",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/us/is-the-us-preparing-to-strike-iran-again-latest-developments-on-iran-war-fears/articleshow/128854393.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-48312,resizemode-75,msid-128854393/news/international/us/is-the-us-preparing-to-strike-iran-again-latest-developments-on-iran-war-fears.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "UN Nuclear Watchdog Says It\u2019s Unable to Verify Whether Iran Has Suspended All Uranium Enrichment",
+            "severity": "HIGH",
+            "url": "https://www.military.com/daily-news/2026/02/27/un-nuclear-watchdog-says-its-unable-verify-whether-iran-has-suspended-all-uranium-enrichment.html",
+            "image": "https://images04.military.com/sites/default/files/styles/full/public/2026-02/ApNewsroom_Ukraine-Nuclear-Risks_78191.jpg?itok=5USNRYv_",
+            "source": "military"
+        },
+        {
+            "title": "MAGA Kingmaker\u2019s Vicious Civil War With Team Trump Spills Into the Open",
+            "severity": "HIGH",
+            "url": "https://www.thedailybeast.com/maga-kingmaker-steven-bannons-civil-war-with-donald-trumps-campaign-team-spills-into-the-open/",
+            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/4VOWO3LXRNCFHB7UDHW3WLSMQE.jpg?auth=84c94a0296940fc9fd2a5461359d403261ea12397ac6aa01e40b6a8c2928b02c&height=1440&smart=true&width=2560",
+            "source": "thedailybeast"
+        },
+        {
+            "title": "J-K court issues warrants against Hizbul chief Syed Salahuddin, other members of terror group",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/india/j-k-court-issues-warrants-against-hizbul-chief-syed-salahuddin-other-members-of-terror-group-10556109/",
+            "image": "https://images.indianexpress.com/2026/02/Syed-Salahuddin.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Pakistan Strikes Afghan Capital Amid Signals Of 'Open War'",
+            "severity": "HIGH",
+            "url": "https://www.rferl.org/a/afghanistan-pakistan-clashes-kabul-strikes/33689773.html",
+            "image": "https://gdb.rferl.org/70ac7d06-1d1e-4778-5042-08de3c91433d_tv_w800_h450.jpg",
+            "source": "rferl"
+        },
+        {
+            "title": "Alex Palou and Chip Ganassi Racing end McLaren contract fight after $12 million ruling",
+            "severity": "HIGH",
+            "url": "https://ca.sports.yahoo.com/news/alex-palou-chip-ganassi-racing-134649260.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/anX_I8sV5T3HKRRlohHrnQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/cp_sports_913/b042e3ca969cd3373b2bc75a9c597377",
+            "source": "yahoo"
+        },
+        {
+            "title": "\u2018Utterly unacceptable\u2019: Columbia president slams \u2018breach of protocol\u2019 after Ellie Aghayeva\u2019s detention by DHS agents",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/world/us/utterly-unacceptable-columbia-president-shipman-slams-breach-of-protocol-after-ellie-aghayevas-detention-by-dhs-agents/articleshow/128852823.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128852823,imgsize-89354,width-400,resizemode-4/128852823.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Military camp can be used to house migrants, court rules",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/military-camp-used-house-migrants-135402770.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/lT2ctnCXc27ywH7Y4L0UHg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD03Nzg7Y2Y9d2VicA--/https://media.zenfs.com/en/the_telegraph_818/18d21abfdcc5ba96369ef51066503b22",
+            "source": "yahoo"
+        },
+        {
+            "title": "Brussels welcomes fact-finding mission to Druzhba, hoping to lift Hungarian veto",
+            "severity": "MEDIUM",
+            "url": "http://www.euronews.com/my-europe/2026/02/27/brussels-welcomes-fact-finding-mission-to-druzhba-hoping-to-lift-hungarian-veto",
+            "image": "https://images.euronews.com/articles/stories/09/66/80/53/1536x864_cmsv2_f83e8912-a6a6-5fa5-82c5-7aabe7e133b6-9668053.jpg",
+            "source": "euronews"
+        },
+        {
+            "title": "IndyCar champion Alex Palou settles contract dispute with McLaren Racing",
+            "severity": "MEDIUM",
+            "url": "https://apnews.com/article/mclaren-ganassi-palou-indycar-f1-settlement-40b9dc589b37165b1faa729b400da73c",
+            "image": "https://dims.apnews.com/dims4/default/d2c58cc/2147483647/strip/true/crop/7360x4904+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fa0%2F30%2F8a9c07519f8e5b364759cc1aa363%2F5cb7320b599a4adc929a2d463cd8da16",
+            "source": "apnews"
+        },
+        {
+            "title": "Latest wholesale prices arrive hotter than expected",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/trending/deepinder-goyal-is-hiring-for-temple-wearable-but-applicants-body-fat-needs-to-be-101772186677228.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/27/1600x900/logo/deep_1738915070358_1772187902430.webp",
+            "url": "https://www.latimes.com/business/story/2026-02-27/latest-wholesale-prices-arrive-hotter-than-expected",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/e730134/2147483647/strip/true/crop/5918x3107+0+419/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F1e%2Fb4%2F2ec77bce4b0f947da0464fac67d6%2Ffc6c407824b54a54abe3981eb91c221c.jpg",
+            "source": "latimes"
+        },
+        {
+            "title": "U.S. wholesale prices arrive hotter than expected, up 0.5% from December and 2.9% from a year ago",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/business/article/us-wholesale-prices-arrive-hotter-than-expected-up-05-from-december-and-29-from-a-year-ago/",
+            "image": "https://www.ctvnews.ca/resizer/v2/6TZUATHYHPZSM2XXNSI2BZ4RY4.jpg?auth=aee53771d46c30e6f9e3334a9f5e4e152574154115f508a6f9e15cfcf4614f39&height=630&smart=true&width=1200",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Saudi Aramco bringing shale gas revolution to Arabian Desert",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/saudi-aramco-bringing-shale-gas-142418045.html",
+            "image": "https://s.yimg.com/uu/api/res/1.2/XjS0Qu8sFqKszQw4elWNgw--~B/aD01MzM7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/7ed05301da636db650ee4ebc22435933",
+            "source": "yahoo"
+        },
+        {
+            "title": "Is your skincare routine failing? How stress, sleep, and emotions secretly damage your skin",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/india/is-your-skincare-routine-failing-how-stress-sleep-and-emotions-secretly-damage-your-skin/slideshow/128855102.cms",
+            "image": "https://img.etimg.com/thumb/msid-128855102,width-1200,height-900,overlay-economictimes/slideshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Activity results of 12 months of the year 2025",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/02/27/3246574/0/en/Activity-results-of-12-months-of-the-year-2025.html",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Share of friendly countries reach 94% in Russian oil exports",
+            "severity": "WATCH",
+            "url": "https://tass.com/economy/2092929",
+            "image": "https://images.pexels.com/photos/398154/pexels-photo-398154.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "tass"
+        },
+        {
+            "title": "NABARD projects priority sector credit potential of \u20b94.99 lakh cr for K'taka in FY 2026-27",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/bengaluru-news/nabard-projects-priority-sector-credit-potential-of-rs-4-99-lakh-cr-for-k-taka-in-fy-202627-101772202204794.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/01/27/1600x900/logo/ht-generic_cities2_1769511880449_1769511907099.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "Scientists compared dinosaurs to mammals for decades but missed this key difference",
+            "title": "UK's Starmer vows to fight political 'extremes' after suffering vote defeat",
             "severity": "WATCH",
-            "url": "https://www.sciencedaily.com/releases/2026/02/260226042502.htm",
-            "image": "https://www.sciencedaily.com/images/1920/gigantic-herbivorous-dinosaur-brachiosaurus.webp",
-            "source": "sciencedaily"
+            "url": "https://www.detroitnews.com/story/news/world/2026/02/27/uks-starmer-vows-fight-political-extremes-after-suffering-vote-defeat/88897135007/",
+            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/02/27/PDTN/88897208007-20260225-t-155615-z-892602173-rc-20-tjagxjxh-rtrmadp-3-britainpoliticspmqs.JPG",
+            "source": "detroitnews"
         },
         {
-            "title": "Abu Dhabi launches pilot operation of autonomous trucks, first of its kind in MENA",
+            "title": "Ukraine joining EU to impact all spheres of union\u2019s life \u2014 Russian lawmaker",
             "severity": "WATCH",
-            "url": "https://www.khaleejtimes.com/uae/transport/abu-dhabi-pilot-operation-autonomous-trucks",
-            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-02-27/29u92jgq/autonomous-trucks-abu-dhabi.jpeg?format=auto&height=630&mode=crop&ogImage=true&rect=0%2C27%2C943%2C629&width=1200",
-            "source": "khaleejtimes"
+            "url": "https://tass.com/politics/2092919",
+            "image": "https://images.pexels.com/photos/20546240/pexels-photo-20546240.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "tass"
         },
         {
-            "title": "Melrose shares tumble as revenue guidance underwhelms despite defence demand",
+            "title": "Pakistan and Afghanistan trade border fire as airstrikes hit cities",
             "severity": "WATCH",
-            "url": "https://www.dailymail.co.uk/money/markets/article-15598023/Melrose-shares-tumble-revenue-guidance-underwhelms-despite-defence-demand.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/02/27/09/106722229-0-image-a-4_1772185083197.jpg",
-            "source": "dailymailuk"
+            "url": "http://www.euronews.com/video/2026/02/27/pakistan-and-afghanistan-trade-border-fire-as-airstrikes-hit-cities",
+            "image": "https://images.euronews.com/articles/stories/09/66/86/48/1200x675_cmsv2_9cc18b79-c343-5849-b7a4-eeaee36a21b2-9668648.jpg",
+            "source": "euronews"
         },
         {
-            "title": "Parashat Zachor: Remembering Amalek in every generation",
+            "title": "JBT Marel Completes Major Customer Innovation Center Renovation",
             "severity": "WATCH",
-            "url": "https://www.jpost.com/judaism/torah-portion/article-887998",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/499166",
-            "source": "jpost"
+            "url": "https://www.businesswire.com/news/home/20260226883569/en/JBT-Marel-Completes-Major-Customer-Innovation-Center-Renovation",
+            "image": "https://mms.businesswire.com/media/20260226883569/en/2732854/21/JBTM_logo.jpg",
+            "source": "businesswire"
         },
         {
-            "title": "Truro solar panel company ousted from industry group amid customer complaints",
+            "title": "TikTok\u2019s Cottage Cheese Obsession Sends Dairy Companies Scrambling",
             "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/nova-scotia/sun-kissed-energy-truro-solar-9.7107247?cmp=rss",
-            "image": "https://i.cbc.ca/ais/57f232ec-2b63-481d-b645-b1c0f2a9b9e0,1772136500636/full/max/0/default.jpg?im=Crop%2Crect%3D%285%2C0%2C1405%2C790%29%3BResize%3D%28620%29",
-            "source": "cbc"
+            "url": "https://www.thedailybeast.com/tiktoks-cottage-cheese-obsession-sends-dairy-companies-scrambling/",
+            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/TLSQDVF5GBEKNH4ASRGM6Y7QEQ.jpg?auth=ff796607e602c4212e11512d001b81158bd5578d1f3d21f66253ed8f12cf9a5f&height=2869&smart=true&width=5100",
+            "source": "thedailybeast"
         },
         {
-            "title": "Residents slam Mumbai\u2019s musical road playing \u2018Jai Ho\u2019 as \u2018complete waste of taxpayers\u2019 money\u2019",
+            "title": "PM Modi to launch projects worth Rs 16,680 crore in Ajmer",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/tv/news/mumbai-musical-road-jai-ho-breach-candy-video-b2928006.html",
-            "image": "https://cdn.jwplayer.com/v2/media/S7LruRr8/poster.jpg?width=720",
-            "source": "independentuk"
+            "url": "https://economictimes.indiatimes.com/news/india/pm-modi-to-launch-projects-worth-rs-16680-crore-in-ajmer/articleshow/128854909.cms",
+            "image": "https://img.etimg.com/thumb/msid-128854942,width-300,height-225,imgsize-45774,resizemode-75/pm-modi-to-launch-projects-worth-rs-16680-crore-in-ajmer-jaipur.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Rs 5.5 Lakh Crore Wiped Out: Sensex Falls 1,000 Points, Nifty Slips Below 25,200 - 4 Key Reasons Behind the Market Crash",
+            "title": "Coherent\u2019s CEO and CFO to Participate in Fireside Chat at Morgan Stanley 2026 TMT Conference on March 3, 2026",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/business-economy/markets/rs-5-5-lakh-crore-wiped-out-sensex-falls-1000-points-nifty-slips-below-25200-4-key-reasons-behind-the-market-crash-article-153710629",
-            "image": "https://images.timesnownews.com/thumb/msid-153710629,imgsize-31118,width-1280,height-720/153710629.jpg",
-            "source": "timesnownews"
+            "url": "https://www.globenewswire.com/news-release/2026/02/27/3246571/11543/en/Coherent-s-CEO-and-CFO-to-Participate-in-Fireside-Chat-at-Morgan-Stanley-2026-TMT-Conference-on-March-3-2026.html",
+            "image": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
         },
         {
-            "title": "Reason why reporting names of arrested people is against the law \u2013 and why the Andrew and Mandelson were exceptions",
+            "title": "No power cut in Tamil Nadu till public examinations are over",
             "severity": "WATCH",
-            "url": "https://uk.news.yahoo.com/reason-why-reporting-names-arrested-171204808.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/PCiswBRSrWzfSe0ouRnjMA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04MjU7Y2Y9d2VicA--/https://media.zenfs.com/en/my_london_632/7103a8e2fdcca350b5bd48430d7671a6",
+            "url": "https://timesofindia.indiatimes.com/city/chennai/no-power-cut-in-tamil-nadu-till-public-examinations-are-over/articleshow/128854761.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128854725,imgsize-128330,width-400,height-225,resizemode-72/power_line.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Four men who funded extravagant lifestyles with drug-dealing operation jailed",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/four-men-funded-extravagant-lifestyles-141834712.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/5QG6Qv.k2yD7VZPWtHAxGA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY2ODtjZj13ZWJw/https://media.zenfs.com/en/pa_viral_news_uk_120/12c1e9794410cf70ceea146ca540e832",
             "source": "yahoo"
         },
         {
-            "title": "BBC settles Gregg Wallace\u2019s damages claim over \u2018distress and harassment\u2019",
+            "title": "Cambodian officials welcome back looted artefacts",
             "severity": "WATCH",
-            "url": "https://www.the-independent.com/arts-entertainment/tv/news/gregg-wallace-bbc-masterchef-damages-b2928732.html",
-            "image": "https://static.the-independent.com/2025/10/16/16/f3f94de057baca48c27df6eb558e11fdY29udGVudHNlYXJjaGFwaSwxNzYwNzExMzU4-2.78357840.jpg?crop=1200%3A800&height=800&width=1200",
-            "source": "independentuk"
+            "url": "https://ca.news.yahoo.com/cambodian-officials-welcome-back-looted-142101613.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/xsEm5sEwRhgvi4lMAYY4ew--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcyMDtjZj13ZWJw/https://media.zenfs.com/en/pa_viral_news_704/824bbe38b11c314d6b4021103d0220c7",
+            "source": "yahoo"
+        },
+        {
+            "title": "Trump releases student detained by ICE as he is accused of letting '9s and above stay'",
+            "severity": "WATCH",
+            "url": "https://www.dailystar.co.uk/news/latest-news/trump-releases-student-detained-ice-36790954",
+            "image": "https://i2-prod.dailystar.co.uk/incoming/article36791279.ece/ALTERNATES/s98/1_image-5172865jpeg.jpg",
+            "source": "dailystar"
         }
     ],
-    "Last_Updated": "2026-02-27T22:34:08.470384Z"
+    "Last_Updated": "2026-02-28T02:26:34.755644Z"
 }
