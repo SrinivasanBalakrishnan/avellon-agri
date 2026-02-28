@@ -1,119 +1,98 @@
 {
-    "AGRI_Score": 58.1,
-    "Velocity": "-1.0",
+    "AGRI_Score": 57.9,
+    "Velocity": "-0.2",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 58.1 is primarily driven by an acutely elevated Geopolitical Conflict Intensity pillar (86.1) and significant Trade & Supply Chain Stress (69.7). Escalating tensions are clearly indicated by \"Japan joins U.S., Philippines for military exercises in waters near Taiwan\" and active hostilities reflected in \"Afghanistan Releases Footage Showing Strikes On Pakistani Targets Amid Escalating Conflict.\" Concurrently, policy decisions such as the \"Trump administration bans Anthropic\" are introducing considerable friction and uncertainty into critical global supply chains, collectively pushing the overall risk profile higher.",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 57.9 reflects a heightened risk environment, predominantly driven by severe geopolitical tensions. The 'Geopolitical Conflict Intensity' pillar is exceptionally high at 92.0, fueled by explicit warnings of potential military engagement and calls for an 'EMERGENCY PULLOUT FROM IRAN' by NATO states, signaling a significant escalation of US 'War Move' rhetoric. This is further compounded by a 'Cyber & Infrastructure Threats' score of 62.2, as evidenced by strategic shifts in defense technology partnerships and security concerns around AI firms, alongside 'Trade & Supply Chain Stress' at 61.8 from large-scale product recalls.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 86.1,
-        "Energy & Maritime Disruption": 54.2,
-        "Trade & Supply Chain Stress": 69.7,
+        "Geopolitical Conflict Intensity": 92.0,
+        "Energy & Maritime Disruption": 51.6,
+        "Trade & Supply Chain Stress": 61.8,
         "Sovereign Financial Stress": 50.2,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 61.0,
-        "Cyber & Infrastructure Threats": 57.5,
+        "Sanctions & Regulatory Fragmentation": 56.5,
+        "Cyber & Infrastructure Threats": 62.2,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is critically elevated due to multiple ongoing and escalating international confrontations. \"Japan joins U.S., Philippines for military exercises in waters near Taiwan\" highlights increasing military posturing in a critical strategic region, while \"Afghanistan Releases Footage Showing Strikes On Pakistani Targets Amid Escalating Conflict\" confirms active cross-border hostilities.",
-        "Energy & Maritime Disruption": "While not critically high, this pillar shows localized disruptions and regulatory pressures. The \"Barmer oil leak stops after five days; source still unknown\" indicates ongoing, if resolved, issues with energy infrastructure, suggesting a need for continued vigilance.",
-        "Trade & Supply Chain Stress": "This pillar faces considerable pressure from evolving regulatory and political interventions. The \"Trump administration bans Anthropic\" and subsequent blacklisting over military AI use directly introduces significant uncertainty and potential fragmentation into critical technology supply chains.",
-        "Sovereign Financial Stress": "This pillar currently exhibits baseline activity, with no immediate news of sovereign debt crises or significant financial instability. While geopolitical tensions could have future indirect impacts, direct fiscal or debt pressures are not reported.",
-        "Currency & Liquidity Pressure": "This pillar remains under routine monitoring, as the news feed provides no explicit indicators of currency depreciation, capital flight, or tightening liquidity conditions. The global financial system appears to be operating without overt currency-specific distress signals at this time.",
-        "Sanctions & Regulatory Fragmentation": "This pillar shows heightened activity driven by specific regulatory actions. The \"Trump administration bans Anthropic, escalating clash over military use of AI\" exemplifies a move towards increased regulatory fragmentation and the use of blacklisting as a policy tool.",
-        "Cyber & Infrastructure Threats": "While specific cyberattack events are not reported, infrastructure integrity is a concern, exemplified by the \"Bolivian military plane crashes in El Alto near capital La Paz,\" which underscores operational risks. The focus on AI bans also implies a strategic awareness of technological vulnerabilities, even if not direct cyber threats.",
-        "Climate & Resource Shock": "This pillar remains at a low level of concern, with no major climate events or widespread resource scarcity reported in the current feed. The \"Barmer oil leak\" represents a localized environmental incident rather than a systemic climate shock, indicating routine monitoring for broader impacts."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is critically elevated, with reports indicating a significant increase in international tensions. Headlines like \"'EMERGENCY PULLOUT FROM IRAN': NATO States Issue Shocking 'Exit Order', Signal US 'War Move'\" alongside statements such as \"Trump says of Iran: 'Sometimes you have to use force'\" signal a heightened risk of military confrontation and regional destabilization.",
+        "Energy & Maritime Disruption": "Energy sector risks are at a moderate level, with concerns over the pace of global energy transition contributing to continued fossil fuel reliance. The observation that the \"Global energy transition away from fossil fuels not as fast as one hoped\" suggests ongoing vulnerabilities to traditional energy market fluctuations, further indicated by \"oil prices rise\" amidst global stock declines.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress is moderately high, reflecting significant disruptions in key manufacturing sectors. A \"Major car brand recalls 600k vehicles over increased \u2018crash risk\u2019\" points to widespread quality control or component sourcing issues that can severely impact global supply chains and consumer confidence.",
+        "Sovereign Financial Stress": "Sovereign financial stress remains at a moderate level, with governments anticipating future fiscal challenges. The reference to \"Budget 2026-27 as a bridge\" indicates proactive financial planning for upcoming economic landscapes, while \"Global stocks fall as investors mull AI disruptions\" suggests broader market uncertainty that could impact national economies.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at a moderate level, influenced by global market reactions to technological shifts. The general trend of \"Global stocks fall as investors mull AI disruptions\" can lead to capital flight from riskier assets, potentially straining liquidity and weakening currencies in vulnerable economies.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation are moderately high, marked by decisive actions in the technology sector with geopolitical undertones. The headline \"Donald Trump \u2018bans\u2019 Anthropic and gives it same label that China\u2019s Huawei has in the US since the year 2018\" illustrates a significant hardening of regulatory postures and increased fragmentation over technology access and security.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are moderately high, driven by the strategic integration of advanced technologies within defense contexts and associated security concerns. The \"OpenAI strikes deal with US War Dept After Anthropic's Ouster\" highlights critical infrastructure's increasing reliance on AI and the potential for nation-state-level threats within the tech supply chain.",
+        "Climate & Resource Shock": "Climate and resource shock remains at a low monitoring level, though underlying concerns persist regarding the pace of global environmental shifts. The analysis noting \"Global energy transition away from fossil fuels not as fast as one hoped\" indicates continued reliance on existing resource patterns, with potential for long-term climate impacts despite current low immediate shock levels."
     },
     "All_Alerts": [
         {
-            "title": "Japan joins U.S., Philippines for military exercises in waters near Taiwan",
+            "title": "Budget 2026-27 as a bridge",
             "severity": "HIGH",
-            "url": "https://www.japantimes.co.jp/news/2026/02/28/japan/japan-us-philippines-military-bashi-channel/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/02/28/526184.jpeg",
-            "source": "japantimes"
+            "url": "https://www.dawn.com/news/1976317/budget-2026-27-as-a-bridge",
+            "image": "https://images.pexels.com/photos/28767588/pexels-photo-28767588.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "dawn"
         },
         {
-            "title": "Quenton Jackson's work earns reward from Pacers",
+            "title": "OpenAI strikes deal with Pentagon hours after Trump admin bans Anthropic | CNN Business",
             "severity": "HIGH",
-            "url": "https://www.si.com/nba/pacers/onsi/news/quenton-jackson-s-work-earns-reward-from-pacers-01kjgz51bypk",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4000,h_2250,x_0,y_25/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_pacers/01kjgz6xk9y7hz31qsx3.jpg",
-            "source": "si"
+            "url": "https://www.cnn.com/2026/02/27/tech/openai-pentagon-deal-ai-systems",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26050290048122.jpg?c=16x9&q=w_800%2Cc_fill",
+            "source": "cnn"
         },
         {
-            "title": "Bolivian military plane crashes in El Alto near capital La Paz",
+            "title": "'EMERGENCY PULLOUT FROM IRAN': NATO States Issue Shocking 'Exit Order', Signal US 'War Move' | Watch",
             "severity": "HIGH",
-            "url": "https://www.deccanherald.com/world/bolivian-military-plane-crashes-in-el-alto-near-capital-la-paz-3914916",
-            "image": "https://media.assettype.com/deccanherald%2F2026-02-28%2F8rmueg34%2Ffile84rkxm9k12amgblz9zk.jpg?ar=40%3A21&auto=format%2Ccompress&mode=crop&ogImage=true&rect=0%2C44%2C1200%2C630&w=1200",
-            "source": "deccanherald"
+            "url": "https://timesofindia.indiatimes.com/videos/international/emergency-pullout-from-iran-nato-states-issue-shocking-exit-order-signal-us-war-move-watch/videoshow/128873681.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128873681,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "toi"
         },
         {
-            "title": "Warner Bros Discovery Inks USD110 Billion Deal with Paramount Skydance",
+            "title": "War Anxiety Rises In Pakistan, People Urge Peace, Doubt India\u2019s Role In Afghan War",
             "severity": "HIGH",
-            "url": "https://www.news18.com/business/markets/warner-bros-discovery-inks-usd110-billion-deal-with-paramount-skydance-ws-l-9934511.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/01/Untitled-design-2026-01-10T115051.349-2026-01-de43d71f479497fd8af53fc60e0394c2-3x2.jpg",
-            "source": "news18"
+            "url": "https://timesofindia.indiatimes.com/videos/news/war-anxiety-rises-in-pakistan-people-urge-peace-doubt-indias-role-in-afghan-war/videoshow/128873746.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128873746,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "toi"
         },
         {
-            "title": "Trump backs Pakistan? US president praises Islamabad's 'terrifically well' performance in Afghan open war | VIDEO",
+            "title": "Paramount to buy Warner Bros Discovery in $110 billion deal as Netflix bows out of race",
             "severity": "HIGH",
-            "url": "https://zeenews.india.com/world/trump-pakistan-afghanistan-open-war-ghazab-lil-haq-intervention-3021981.html",
-            "image": "https://images.pexels.com/photos/36201272/pexels-photo-36201272.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "zeenews"
+            "url": "https://www.jpost.com/international/article-888245",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/708084",
+            "source": "jpost"
         },
         {
-            "title": "\u2018Worst deal ever\u2019: Trump hits out at Obama as Iran nuclear talks stall, warns of possible war",
+            "title": "15 killed, 30 injured after Bolivian military plane crashes in El Alto",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/worst-deal-ever-trump-hits-out-at-obama-as-iran-nuclear-talks-stall-warns-of-possible-war/videoshow/128871875.cms",
-            "image": "https://img.etimg.com/thumb/msid-128871875,width-1200,height-900,overlay-economictimes/news/international/world-news/worst-deal-ever-trump-hits-out-at-obama-as-iran-nuclear-talks-stall-warns-of-possible-war.jpg",
+            "url": "http://chinanationalnews.com/news/278893068/15-killed-30-injured-after-bolivian-military-plane-crashes-in-el-alto",
+            "image": "https://image.chitra.live/api/v1/wps/f66fac6/584e0558-0a50-410a-bdb7-e0651d1b36f1/0/ANI-20260228035826-600x315.jpg",
+            "source": "chinanationalnews"
+        },
+        {
+            "title": "OpenAI Strikes Deal with US War Dept After Anthropic's Ouster",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/business/openai-strikes-deal-with-us-war-dept-after-anthropics-ouster-articleshow-yg9uvto",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-394df7a6-24c2-4c56-af10-60e8037be3a3.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "From contract partner to security risk: The Anthropic\u2013Pentagon dispute explained",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/technology/from-contract-partner-to-security-risk-the-anthropic-pentagon-dispute-explained-article-13846484.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260228042548_anthropicai.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Gordon Ramsay 'buys \u00a39.6m second home on same street in Cornwall' amid neighbour war - London Evening Standard",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc3BVMFZON2dMVEhqcXgwTVprZVhhSnBKR015WVRGMFJsUFJ1WFdaUXZ5RGFaN1g2VmV3dmRxSGNwemdCZUZaUDJucDF3RnFLZ1ZBZHo3c0J1d09kMlFLdzh3VmtFMXJ2eVJNOVp6XzFDRExRRTVLYkN6amdKVUZOTTRxb0Y4NVNmeVBIRVI3MnJtQVhNMS04RkdIRFQtN1F0ai1mUEFCVk5BeEtCX3R1a1BOdw?oc=5",
+            "image": "https://images.pexels.com/photos/33333379/pexels-photo-33333379.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Bondi Beach Stabbing: Two teens arrested for allegedly stabbing man with machete, face multiple charges",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/australia/bondi-beach-stabbing-two-teens-arrested-for-allegedly-stabbing-man-with-machete-face-multiple-charges/articleshow/128872636.cms",
+            "image": "https://img.etimg.com/thumb/msid-128872749,width-300,height-225,imgsize-2982522,resizemode-75/chatgpt-image-feb-28-2026-08_41_27-am.jpg",
             "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Saturday Motivation: 'Hardships often prepare ordinary people for an extraordinary...' by British author CS Lewis",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/us/news/saturday-motivation-hardships-often-prepare-ordinary-people-for-an-extraordinary-by-british-author-cs-lewis/articleshow/128871695.cms",
-            "image": "https://img.etimg.com/photo/118783427.cms",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Trump administration bans Anthropic, escalating clash over military use of AI",
-            "severity": "HIGH",
-            "url": "https://www.computerworld.com/article/4138841/trump-administration-bans-anthropic-escalating-clash-over-military-use-of-ai-2.html",
-            "image": "https://www.computerworld.com/wp-content/uploads/2026/02/4138841-0-08768500-1772245200-shutterstock_2338803257.jpg?quality=50&strip=all",
-            "source": "computerworld_nz"
-        },
-        {
-            "title": "Protests persist at Iranian colleges and raise tensions as US military threat looms",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/defence/protests-persist-at-iranian-colleges-and-raise-tensions-as-us-military-threat-looms/articleshow/128871790.cms",
-            "image": "https://img.etimg.com/thumb/msid-128871825,width-300,height-225,imgsize-147480,resizemode-75/protests-persist-at-iranian-colleges-and-raise-tensions-as-us-military-threat-looms.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "'Radical left, woke company': Trump blacklists Anthropic as Claude maker refuses Pentagon demands",
-            "severity": "HIGH",
-            "url": "https://www.businesstoday.in/world/us/story/radical-left-woke-company-trump-blacklists-anthropic-as-claude-maker-refuses-pentagon-demands-518411-2026-02-28",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202602/69a24fda65488-trump-vs-anthropic-takes-a-new-turn-281547930-16x9.png",
-            "source": "businesstoday"
-        },
-        {
-            "title": "North Dakota judge finalizes $345m judgment against Greenpeace in pipeline case",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/us-news/2026/feb/27/north-dakota-greenpeace-access-pipeline-energy-transfer",
-            "image": "https://i.guim.co.uk/img/media/756b9f5dcc1f33523ef37969e206d36af21f08af/42_0_2103_1682/master/2103.jpg?crop=none&dpr=2&s=none&width=620",
-            "source": "theguardian"
-        },
-        {
-            "title": "Afghanistan Releases Footage Showing Strikes On Pakistani Targets Amid Escalating Conflict",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/world/afghanistan-pakistan-conflict-clashes-video-footage-shows-strikes-on-pakistani-targets-kabul-islamabad-tensions-ws-l-9934512.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/02/MixCollage-28-Feb-2026-07-33-AM-4194-2026-02-887baf4abe4db37930d3bc95ec636d01-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "From box office bomb to media powerhouse: Skydance\u2019s 20-year rise to overtake Paramount, Warner Bros",
-            "severity": "HIGH",
-            "url": "https://www.clickondetroit.com/business/2026/02/28/from-box-office-bomb-to-media-powerhouse-skydances-20-year-rise/",
-            "image": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/TZEYBQ7ONJBF3IRQJWOWAUHLNY.jpg",
-            "source": "clickondetroit"
         },
         {
             "title": "Ape cracks exhibit's glass as it launches at Memphis Zoo visitors",
@@ -123,39 +102,144 @@
             "source": "nbcnews"
         },
         {
-            "title": "\u2018We Got to Win the Midterms\u2019: Trump Takes His State of the Union Message on the Road",
+            "title": "Congress confirms ongoing seat-sharing talks with DMK in Tamil Nadu",
             "severity": "MEDIUM",
-            "url": "https://www.nytimes.com/2026/02/27/us/politics/trump-midterms-state-of-the-union.html",
-            "image": "https://static01.nyt.com/images/2026/02/27/multimedia/27dc-Trump-fhjm/27dc-Trump-fhjm-articleLarge.jpg?auto=webp&disable=upscale&quality=75",
-            "source": "nytimes"
+            "url": "https://newsable.asianetnews.com/india/congress-confirms-ongoing-seatsharing-talks-with-dmk-in-tamil-nadu-articleshow-izp1nf6",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-97564b75-ab00-4cdc-9529-9cfd5f8c8fd4.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "'Won't Do Business With Them Again': Trump Lashes Out At Anthropic, Calls It 'Radical Left AI Company'",
+            "title": "Global stocks: Global stocks fall as investors mull AI disruptions, oil prices rise",
             "severity": "MEDIUM",
-            "url": "https://www.news18.com/world/wont-do-business-with-them-again-trump-lashes-out-at-anthropic-calls-it-radical-left-ai-company-ws-l-9934514.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/02/donald-trump-1-2026-02-19d6648b984a88f80150a61c2695549a-3x2.jpg",
-            "source": "news18"
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-stocks-global-stocks-fall-as-investors-mull-ai-disruptions-oil-prices-rise/articleshow/128873902.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-47264,resizemode-75,msid-128873902/markets/us-stocks/news/global-stocks-global-stocks-fall-as-investors-mull-ai-disruptions-oil-prices-rise.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Anthropic calls supply chain risk designation 'unprecedented,' 'legally unsound'",
+            "title": "Tamil Nadu polls: Alliance talks with DMK soon, says Congress state chief",
             "severity": "MEDIUM",
-            "url": "https://thehill.com/policy/technology/5759929-pentagon-anthropic-supply-chain-risk/",
-            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/02/AP25142618444792-e1772207336503.jpg?w=900",
-            "source": "thehill"
+            "url": "https://economictimes.indiatimes.com/news/politics-and-nation/tamil-nadu-polls-alliance-talks-with-dmk-soon-says-congress-state-chief/articleshow/128873756.cms",
+            "image": "https://img.etimg.com/photo/118783427.cms",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Trump orders US govt to cut ties with Anthropic; Hegseth declares supply chain 'risk'",
+            "title": "Trump says of Iran: 'Sometimes you have to use force'",
             "severity": "MEDIUM",
-            "url": "https://ca.news.yahoo.com/anthropic-says-latest-pentagon-contract-195627154.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/0USgeP7VG96gEm5vpZO8FA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MDtjZj13ZWJw/https://media.zenfs.com/en/us.abcnews.go.com/b29c595dc806d229e34898a00581b6b7",
-            "source": "yahoo"
+            "url": "https://www.khaleejtimes.com/world/americas/trump-iran-sometimes-you-have-to-use-force",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-02-28/mc7loskz/http___doc_afp_com_999R8XJ.jpeg?format=auto&height=630&mode=crop&ogImage=true&rect=7%2C0%2C8213%2C5475&width=1200",
+            "source": "khaleejtimes"
         },
         {
-            "title": "Afghanistan open to talks after Pakistan airstrikes major cities",
+            "title": "Sugar Harmony Drops Claims Evaluated: 2026 Report on SugarHarmony Liquid Formula Ingredients, Pricing, and What Consumers Should Verify Before Purchasing",
             "severity": "MEDIUM",
-            "url": "https://english.mathrubhumi.com/news/world/pakistan-conflict-afghanistan-airstrikes-uwm9789m",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1ph3mdwb4upydvbwrlx/0/afghanistan-pakistan-jpg.jpg?w=900",
-            "source": "mathrubhumi"
+            "url": "https://www.benzinga.com/pressreleases/26/02/g50950897/sugar-harmony-drops-claims-evaluated-2026-report-on-sugarharmony-liquid-formula-ingredients-pricin",
+            "image": "https://fixedagency.com/wp-content/uploads/2026/02/Sugar-Harmony.jpg?auto=webp&dpr=2&optimize=medium&width=1920",
+            "source": "benzinga"
+        },
+        {
+            "title": "Donald Trump \u2018bans\u2019 Anthropic and gives it same label that China\u2019s Huawei has in the US since the year 2018",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/donald-trump-bans-anthropic-and-gives-it-same-label-that-chinas-huawei-has-in-the-us-since-the-year-2018/articleshow/128873401.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128873401,imgsize-131674,width-400,resizemode-4/128873401.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Major car brand recalls 600k vehicles over increased \u2018crash risk\u2019",
+            "severity": "MEDIUM",
+            "url": "https://www.express.co.uk/life-style/cars/2174752/nissan-car-recall-damage",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/24/590x/2174752_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "The USS Gerald R. Ford aircraft carrier: everything you need to know - explainer",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/defense-and-tech/article-888242",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/708825",
+            "source": "jpost"
+        },
+        {
+            "title": "Global energy transition away from fossil fuels not as fast as one hoped: UK think tank director",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/global-energy-transition-away-from-fossil-fuels-not-as-fast-as-one-hoped-uk-think-tank-director-101772253115263.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2025/08/06/1600x900/logo/Untitled_design_1754465014585_1754465103581.png",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Homeowners Are Sharing The Home Purchases, Projects, And Renovations They Ended Up Completely Regretting, And YIKES",
+            "severity": "WATCH",
+            "url": "https://www.buzzfeed.com/dannicaramirez/home-projects-purchases-homeowners-regrets",
+            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-02/25/20/thumb/ZRYnzhYzV.jpg?3%2C0=&crop=1245%3A830&resize=1250%3A830",
+            "source": "buzzfeed"
+        },
+        {
+            "title": "5 flowering plants that bring prosperity and good luck, according to Vastu",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/lifestyle/home-garden/5-flowering-plants-that-bring-prosperity-and-good-luck-according-to-vastu-article-13845834.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260227104026_Significance-of-lotus-according-to-vastu.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Colm To\u0301ibi\u0301n on the writer Mary Lavin: She removed the props by which we might read her women easily",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/culture/books/2026/02/28/colm-toibin-on-the-writer-mary-lavin-she-removed-the-props-by-which-we-might-read-her-women-easily/",
+            "image": "https://www.irishtimes.com/resizer/v2/RBRVEZBPLZFF7F6DLC3BMCZRBI.jpg?auth=8741ad07964cf690b7a289c77175a089afebe9667012fe0eb5205a39289dd7d5&height=630&smart=true&width=1200",
+            "source": "irishtimes"
+        },
+        {
+            "title": "Gold the fastest moving loan product for banks in January",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/gold-the-fastest-moving-loan-product-for-banks-in-january/articleshow/128873778.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-43070,resizemode-75,msid-128873778/markets/commodities/gold-the-fastest-moving-loan-product-for-banks-in-january.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "James Ryan: the most influential minister not to have become taoiseach",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/culture/books/review/2026/02/28/james-ryan-the-most-influential-minister-not-to-have-become-taoiseach/",
+            "image": "https://www.irishtimes.com/resizer/v2/CTTWVR254NKUFKQ22FB3EUTISA.jpg?auth=3dd0fb83ba9f6b47c4126b6e57f2d525c149ee6357df482c5371bf62e88ae681&height=630&smart=true&width=1200",
+            "source": "irishtimes"
+        },
+        {
+            "title": "Cargo plane carrying money crashes in Bolivia, killing at least 15 people, official says",
+            "severity": "WATCH",
+            "url": "https://globalnews.ca/news/11711139/plane-carrying-money-crashes-bolivia/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/02/7f7593426062264109501b46524b250718a2993de9ed6d49779eec1f4dd596b0.jpg?crop=1&h=480&quality=65&strip=all&w=720",
+            "source": "globalnews"
+        },
+        {
+            "title": "This Week in Explainers: How India-Israel ties enter a new phase after PM Modi\u2019s visit",
+            "severity": "WATCH",
+            "url": "https://www.firstpost.com/explainers/this-week-in-explainers-pm-narendra-modi-israel-india-ties-13984377.html",
+            "image": "https://images.firstpost.com/uploads/2026/02/modi-israel-2026-02-8574f930ddb8a0507c905d9d01f0f2dc.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "NASA shakes up moon program with Artemis test mission before astronaut lunar landing",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/science/space/article-888243",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/708826",
+            "source": "jpost"
+        },
+        {
+            "title": "SQM Reports Earnings for the Twelve Months Ended December 31, 2025",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/globe-newswire/sqm-reports-earnings-for-the-twelve-months-ended-december-31-2025",
+            "image": "https://images.pexels.com/photos/3046629/pexels-photo-3046629.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "The fade to black that pierced the heart of Australian TV",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/culture/tv-and-radio/the-fade-to-black-that-pierced-the-heart-of-australian-tv-20260228-p5o6at.html",
+            "image": "https://static.ffx.io/images/$zoom_1.765,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_125/t_crop_custom/q_86,f_auto/323ee300a9e24e08f99e68e201fb25910bdc7ef3",
+            "source": "smh"
+        },
+        {
+            "title": "Two teens charged after allegedly stabbing stranger with large knife at Bondi Beach",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/national/nsw/two-teens-charged-after-allegedly-stabbing-stranger-with-large-knife-at-bondi-beach-20260227-p5o67y.html",
+            "image": "https://static.ffx.io/images/$zoom_0.2078,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_125/t_crop_custom/q_86,f_auto/ebc45cec497bcd33ccb051544f56386d33d4cf98",
+            "source": "smh"
         },
         {
             "title": "Barmer oil leak stops after five days; source still unknown",
@@ -163,90 +247,6 @@
             "url": "https://timesofindia.indiatimes.com/city/jaipur/barmer-oil-leak-stops-after-five-days-source-still-unknown/articleshow/128865774.cms",
             "image": "https://static.toiimg.com/thumb/msid-117622052,imgsize-99651,width-400,height-225,resizemode-72/barmer-oil-leak-stops-after-five-days-source-still-unknown.jpg",
             "source": "toi"
-        },
-        {
-            "title": "Trump's Secretary of Energy is trolled for hilarious entrance on Fox News broadcast: 'Is he solar powered?'",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.co.uk/media/article-15600411/Trumps-Secretary-Energy-Chris-Wright-trolled-Fox-News.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/02/28/00/106744225-0-image-m-26_1772240167189.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "How Automakers Tackle Auto Start-Stop Without Adding Wear And Tear",
-            "severity": "WATCH",
-            "url": "https://www.jalopnik.com/2108780/why-automakers-use-auto-start-stop-systems/",
-            "image": "https://www.jalopnik.com/img/gallery/why-automakers-use-auto-start-stop-systems/l-intro-1771959996.jpg",
-            "source": "jalopnik"
-        },
-        {
-            "title": "Petrol, Diesel Fresh Prices Announced: Check Rates In Your City On February 28",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/business/economy/petrol-diesel-fresh-prices-announced-check-rates-in-your-city-on-february-28-ws-l-9934519.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/01/fuel-prices-1600x900-2025-01-2216a756a142883d58cd1bcd4abd3c46-3x2.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Which zodiac sign is the most romantic? Who yearns the most - and who\u2019s at the bottom",
-            "severity": "WATCH",
-            "url": "https://www.hola.com/us/lifestyle/20260228886659/which-astrological-sign-most-romantic/",
-            "image": "https://www.hola.com/us/horizon/landscape/2490020a7e1d-rear-view-of-man-carrying-huge-bouquet-of-flowers-on-london-city-street-on-valen.jpg?im=Resize%3D%281200%29",
-            "source": "hola"
-        },
-        {
-            "title": "Tax breakdown shows why so many Californians are fleeing to Arizona",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/02/27/us-news/the-taxes-differences-pushing-californians-to-arizona/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F02%2F122385995.jpg?quality%3D80%26strip%3Dall=",
-            "source": "nypost"
-        },
-        {
-            "title": "Recap: Boston College falls to BU at Agganis, 3-1",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/recap-boston-college-falls-bu-021719301.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/zQzDmGFVx3Og0LAAnul.oA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MTU7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/b78d5c1cd305a6843c90764f5591e66c",
-            "source": "yahoo"
-        },
-        {
-            "title": "\u2018Can\u2019t keep happening\u2019: Community demands change at Haslet church after employee arrested",
-            "severity": "WATCH",
-            "url": "https://www.dallasnews.com/news/crime/2026/02/27/cant-keep-happening-community-demands-change-at-haslet-church-after-employee-fired/",
-            "image": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/v2/U6RS3UCQSJESVFMVRIGT5TPZPY.jpg?auth=81cad3a108a9b7c0eaaaa8e2cccc3fa196aabe3617e53f59c50dd68875821ad5&focal=2000%2C1003&height=553&quality=80&width=830",
-            "source": "dallasnews"
-        },
-        {
-            "title": "Biden\u2019s three-word reply to Gaza comment",
-            "severity": "WATCH",
-            "url": "https://www.news.com.au/travel/travel-updates/incidents/bidens-threeword-response-after-woman-approaches-him-about-gaza-on-a-plane/news-story/a672af0c9905f67874b7931d20c4112f?from=rss-basic",
-            "image": "https://content.api.news/v3/images/bin/e77d1427fc9fa66656b4636c648e85b1",
-            "source": "news"
-        },
-        {
-            "title": "Vidarbha gets over Rs4cr for forest, nature conservation",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/nagpur/vidarbha-gets-over-rs4cr-for-forest-nature-conservation/articleshow/128865732.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128865730,width-1280,height-720,imgsize-112054,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "$32M land development near Winnipeg airport to draw investment, jobs and housing: mayor",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/32m-land-development-near-winnipeg-022134115.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/aZfhW3NoiIIpVXVTeDSCoA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/cbc.ca/f706a620ee47b3fd81f967c6e1fe6292",
-            "source": "yahoo"
-        },
-        {
-            "title": "Powering up Xinjiang's winter boom",
-            "severity": "WATCH",
-            "url": "http://chinanationalnews.com/news/278893004/powering-up-xinjiang-winter-boom",
-            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "chinanationalnews"
-        },
-        {
-            "title": "Real reason Andrew Mountbatten-Windsor was Queen Elizabeth II's favourite",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/news/royal/2176438/andrew-mountbatten-windsor-favourite-queen-elizabeth",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/106/590x/2176438_1.jpg",
-            "source": "expresscouk"
         },
         {
             "title": "Michael Jackson Estate Sued for Child Trafficking by Four Siblings",
@@ -275,28 +275,7 @@
             "url": "https://www.upi.com/Top_News/World-News/2026/02/27/Coupang-posts-record-sales-Q4-profit-tumbles-97/3151772239820/",
             "image": "https://cdnph.upi.com/svc/sv/i/3151772239820/2026/1/17722407061750/Coupang-posts-record-sales-Q4-profit-tumbles-97.jpg",
             "source": "upi"
-        },
-        {
-            "title": "IAS officer suspended over absence from briefing",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/mumbai-news/ias-officer-suspended-over-absence-from-briefing-101772218481021.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/27/1600x900/logo/-p-IAS-officer-suspended-over-absence-from-briefin_1772218478760.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "The Air Force's new ICBM is nearly ready to fly, but there\u2019s nowhere to put it",
-            "severity": "WATCH",
-            "url": "https://arstechnica.com/space/2026/02/the-air-forces-new-icbm-is-nearly-ready-to-fly-but-theres-nowhere-to-put-them/",
-            "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/6404099-1152x648-1772236795.jpg",
-            "source": "arstechnica"
-        },
-        {
-            "title": "High court grants bail to man accused of \u2018Pak Zindabad\u2019 post",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/lucknow-news/high-court-grants-bail-to-man-accused-of-pak-zindabad-post-101772217519563.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/02/27/1600x900/logo/The-court-also-warned-that-breach-of-any-of-the-co_1772217517752.jpg",
-            "source": "hindustantimes"
         }
     ],
-    "Last_Updated": "2026-02-28T14:29:19.363699Z"
+    "Last_Updated": "2026-02-28T16:34:45.796253Z"
 }
