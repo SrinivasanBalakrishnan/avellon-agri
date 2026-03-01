@@ -1,91 +1,168 @@
 {
-    "AGRI_Score": 58.0,
-    "Velocity": "-3.8",
-    "Top_Risk_Driver": "Trade & Supply Chain Stress",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 58.0/100 is primarily driven by escalating geopolitical conflict and its immediate impact on trade and critical infrastructure. \"US and Israeli strikes\" against Iran and the subsequent death of \"Ayatollah Khamenei\" have severely intensified regional tensions, leading to a direct increase in \"freight costs\" and significant \"supply chain stress.\" Furthermore, the report of \"Iran goes dark amid 'regime paranoia'\" underscores a heightened state of cyber and infrastructure threats, contributing significantly to the elevated risk profile.",
+    "AGRI_Score": 63.8,
+    "Velocity": "+5.8",
+    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.8 is significantly elevated, primarily due to the intense \"Geopolitical Conflict Intensity\" stemming from the escalating \"Iran-Israel war\" and the critical event of \"Khamenei's assassination by Israel, USA.\" This conflict has rapidly broadened, triggering \"explosions rock Dubai, Bahrain, Jordan and Kuwait\" and directly impacting crucial infrastructure, as seen with \"Dubai airport, iconic Palm Jumeirah hit.\" Consequently, \"Energy & Maritime Disruption\" is high, with concerns over \"oil, gas prices\" and \"OPEC+ mulls oil production increase in shadow of war,\" alongside severe \"Trade & Supply Chain Stress\" indicated by widespread flight cancellations and regional instability. The broad regional impact across multiple pillars signifies a profound and immediate risk landscape.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 70.0,
-        "Energy & Maritime Disruption": 50.0,
-        "Trade & Supply Chain Stress": 78.0,
+        "Geopolitical Conflict Intensity": 89.9,
+        "Energy & Maritime Disruption": 69.7,
+        "Trade & Supply Chain Stress": 74.1,
         "Sovereign Financial Stress": 50.2,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 70.7,
-        "Cyber & Infrastructure Threats": 59.3,
+        "Sanctions & Regulatory Fragmentation": 62.9,
+        "Cyber & Infrastructure Threats": 64.2,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The intensity is very high due to direct military actions and severe accusations between major powers in the Middle East. \"Russia accuses America of \u2018pre-planned and unprovoked act of armed aggression\u2019 against Iran\" while \"US and Israeli strikes\" have led to the death of \"Ayatollah Khamenei,\" significantly escalating regional tensions.",
-        "Energy & Maritime Disruption": "While direct energy supply disruptions are not yet confirmed, the potential for impact on oil markets is a key concern, as reflected in headlines asking \"How will US, Israeli strikes on Iran affect oil markets?\". The \"West Asia conflict\" is also noted to \"raise freight costs,\" indicating indirect pressure on maritime operations due to increased risk premiums and logistical challenges.",
-        "Trade & Supply Chain Stress": "This pillar is under severe pressure, explicitly driven by the \"West Asia conflict to raise freight costs, stretch supply chains: FIEO.\" Industries like the \"leather industry [are] wary of impact,\" while individuals are \"stranded in Middle East amid war chaos,\" indicating significant disruption to both commercial and human logistics.",
-        "Sovereign Financial Stress": "This pillar remains at a routine monitoring level, with no direct news indicating new sovereign debt crises or significant credit rating downgrades. While geopolitical events can indirectly influence financial markets, current reporting does not point to specific national financial distress.",
-        "Currency & Liquidity Pressure": "This pillar shows baseline activity, as there is no specific reporting on major currency depreciations, capital flight, or central bank interventions related to the current geopolitical events. Global financial markets are likely observing the conflict's development but have not yet manifested direct liquidity pressures in the provided feed.",
-        "Sanctions & Regulatory Fragmentation": "The high score reflects the highly volatile geopolitical landscape, where the US-Iran conflict creates an environment ripe for further regulatory actions or intensified enforcement of existing sanctions. The severe accusations, such as \"Russia accuses America of \u2018pre-planned and unprovoked act of armed aggression\u2019 against Iran,\" underscore a deeply fragmented international regulatory environment.",
-        "Cyber & Infrastructure Threats": "This pillar shows elevated risk, evidenced by \"Iran goes dark amid 'regime paranoia', blackout follows Israeli, US strikes on compound,\" suggesting significant infrastructure disruption. Additionally, \"clash between Pentagon-Anthropic over military's AI use\" highlights the ongoing development and potential weaponization of advanced cyber capabilities.",
-        "Climate & Resource Shock": "This pillar remains at a low level of concern, with current news reflecting routine monitoring. There are no reports within the provided feed indicating immediate climate-related disasters, resource scarcity issues, or significant environmental shocks impacting global stability."
+        "Geopolitical Conflict Intensity": "This pillar is at an extreme level (89.9) due to the direct escalation of hostilities between \"Iran-Israel war\" and the confirmed \"Khamenei's assassination by Israel, USA.\" The conflict's widening scope is evident with \"explosions rock Dubai, Bahrain, Jordan and Kuwait\" and Israel's defense of strikes, playing the \"nuclear weapons card.\"",
+        "Energy & Maritime Disruption": "Disruption is severe (69.7) as the regional conflict directly threatens energy supply and pricing, with \"potential impact of Iran strikes on oil, gas prices\" and \"OPEC+ mulls oil production increase in shadow of war.\" Maritime and air travel routes are demonstrably impacted, exemplified by \"Gulf-bound flights cancelled from 4 Kerala airports amid West Asia tensions.\"",
+        "Trade & Supply Chain Stress": "Stress levels are high (74.1) due to direct attacks on critical logistical hubs in the Middle East, with \"UAE Faces US-Iran War Heat: Dubai Airport, Jebel Ali, Palm Jumeirah Among Locations Hit.\" Disruptions to air freight and passenger travel, such as \"Gulf-bound flights cancelled,\" signal broader implications for global supply chains reliant on regional transit.",
+        "Sovereign Financial Stress": "This pillar indicates moderate concern (50.2) as the \"Iran-Israel war, crude oil, FII flows among 9 factors that may steer markets this week\" suggests significant market volatility and investor uncertainty. While not yet a full-blown crisis, the broader regional instability poses a clear risk to sovereign debt and market stability across affected nations.",
+        "Currency & Liquidity Pressure": "Pressure is moderate (50.0), primarily driven by the overall market jitters and capital flow implications outlined in \"Iran-Israel war, crude oil, FII flows among 9 factors that may steer markets this week.\" Regional financial systems face increased scrutiny and potential capital outflows as geopolitical tensions intensify.",
+        "Sanctions & Regulatory Fragmentation": "This pillar is elevated (62.9) due to the assassination of Khamenei by \"Israel, USA,\" which significantly raises the likelihood of intensified international sanctions against Iran and potential retaliatory measures. Such a grave escalation risks further fragmentation of global regulatory frameworks as nations align or diverge on punitive actions and diplomatic responses.",
+        "Cyber & Infrastructure Threats": "Threats are significantly elevated (64.2) as physical infrastructure in key regional centers, including \"Dubai airport, iconic Palm Jumeirah hit,\" has come under direct attack. The widespread nature of \"explosions rock Dubai, Bahrain, Jordan and Kuwait\" highlights a severe and expanding threat to critical physical and digital infrastructure across the region.",
+        "Climate & Resource Shock": "This pillar indicates baseline activity (35) with no immediate, short-term shocks directly driving the current AGRI score, despite general warnings like \"Experts issue warning about looming threat to coastal communities.\" The immediate high-severity risks are overwhelmingly dominated by geopolitical and economic factors, rather than acute climate or resource disruptions."
     },
     "All_Alerts": [
         {
-            "title": "West Asia conflict to raise freight costs, stretch supply chains: FIEO",
+            "title": "Iran-Israel war, crude oil, FII flows among 9 factors that may steer markets this week",
             "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/business/west-asia-conflict-to-raise-freight-costs-stretch-supply-chains-fieo-articleshow-2nywlw7",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-fec69df3-b2bd-4f39-9d48-fe778f705eb5.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Russia accuses America of \u2018pre-planned and unprovoked act of armed aggression\u2019 against Iran",
-            "severity": "HIGH",
-            "url": "https://fortune.com/2026/02/28/russia-reaction-iran-attack-trump-israel-world-leaders-reactions/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/02/GettyImages-2259567917-e1772331628924.jpg?w=2048",
-            "source": "fortune"
-        },
-        {
-            "title": "World leaders react cautiously to US and Israeli strikes, death of Iran's Ali Khamenei",
-            "severity": "HIGH",
-            "url": "http://economictimes.indiatimes.com/news/international/global-trends/world-leaders-react-cautiously-to-us-and-israeli-strikes-death-of-iran-ali-khamenei/articleshow/128903068.cms",
-            "image": "https://img.etimg.com/thumb/msid-128903107,width-300,height-225,imgsize-72386,resizemode-75/world-leaders-react-cautiously-to-us-and-israeli-strikes-death-of-iran-ali-khamenei.jpg",
+            "url": "http://economictimes.indiatimes.com/markets/stocks/news/iran-israel-war-crude-oil-fii-flows-among-9-factors-that-may-steer-markets-this-week/articleshow/128905542.cms",
+            "image": "https://img.etimg.com/photo/118783427.cms",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "What to know about clash between Pentagon-Anthropic over military's AI use",
+            "title": "Aquarius \u2652 Weekly Horoscope (2nd March - 8th March, 2026): Eyes on Balance & Breakthroughs",
             "severity": "HIGH",
-            "url": "https://www.business-standard.com/world-news/what-to-know-about-clash-between-pentagon-anthropic-over-military-s-ai-use-126030100051_1.html",
-            "image": "https://images.pexels.com/photos/15920138/pexels-photo-15920138.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "business-standard"
+            "url": "https://economictimes.indiatimes.com/astrology/horoscope/aquarius-weekly-horoscope-2nd-march-8th-march-2026-eyes-on-balance-breakthroughs/articleshow/128905454.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-126376,resizemode-75,msid-128905454/astrology/horoscope/aquarius-weekly-horoscope-2nd-march-8th-march-2026-eyes-on-balance-breakthroughs.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Family of champion Australian athlete stranded in Middle East amid war chaos",
+            "title": "HSBC keeps Brent at $65 for 2026 despite risks from Iran strikes",
             "severity": "HIGH",
-            "url": "https://www.smh.com.au/sport/family-of-champion-australian-athlete-stranded-in-middle-east-amid-war-chaos-20260301-p5o6ej.html",
-            "image": "https://static.ffx.io/images/$zoom_0.5516,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_0/t_crop_custom/q_86,f_auto/441c5b173591e1562a5530a55b708e9771b8b323059859e5c09d1fcb562f76a9",
-            "source": "smh"
+            "url": "https://newsable.asianetnews.com/business/hsbc-keeps-brent-at-65-for-2026-despite-risks-from-iran-strikes-articleshow-6xf5gw7",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-ffea8e36-7a9a-4413-bb73-acbc94c173c9.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "Sonal Chauhan stranded in Dubai amid US-Iran conflict, reaches out to PM Narendra Modi: \u2018No clear way to return\u2019",
+            "title": "Experts issue warning about looming threat to coastal communities \u2014 here's what's happening",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/entertainment/bollywood/sonal-chauhan-stranded-in-dubai-amid-us-iran-conflict-reaches-out-to-pm-narendra-modi-israel-101772331021786.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/01/1600x900/logo/sonal_chauhan_1772331015397_1772331015543.jpg",
+            "url": "https://ca.news.yahoo.com/experts-issue-warning-looming-threat-043000594.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/kjxP._GHs6nT3M4CPlStZA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/the_cool_down_737/35da61abbe878449da7abab38476523c",
+            "source": "yahoo"
+        },
+        {
+            "title": "Potential impact of Iran strikes on oil, gas prices",
+            "severity": "HIGH",
+            "url": "https://www.cbsnews.com/video/iran-strikes-potential-impact-oil-gas-prices/",
+            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/01/735ca499-7737-4ade-8b17-ae3557a3ec99/thumbnail/60x60/2f3b917765c8b3bed6f7b5d6d9bcbadd/cbsn-fusion-iran-strikes-potential-impact-oil-gas-prices-thumbnail.jpg",
+            "source": "cbsnews"
+        },
+        {
+            "title": "Explosions rock Dubai, Bahrain, Jordan and Kuwait as war spreads across Middle East",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/dubai-famous-fairmont-hotel-flames-190602202.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/o1dp9Zx1NxftKsrINA83ag--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD05OTM7Y2Y9d2VicA--/https://media.zenfs.com/en/theguardian_763/08a2404d26c08166ae7d8e274e9758a1",
+            "source": "yahoo"
+        },
+        {
+            "title": "Bitcoin price news: What next as BTC tops $68,000 after Iran confirms Khamenei death - CoinDesk",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ0RhX3NQbTM2Q19XUFlrc3BDTnRjVHB5RWo0RnowSWhERV9TSTZTa3B1YVJFSnBBbTY3QlZweW9kN0U4TWt4cDJVMy04anpoTllsc2FlZzVPUEQwQjdXUWtlUlVCMEEwdm91WXlTeGNMVFZEck5TUWJhU0Z0UmprRVMzRDA3eUZjdW5vYmc1MXM3YTFlSTJpVDVxOUdEd3pVblhocHBtS05rdFpmbGF1T1h1YzNVQkJCeEVBTG5OUzhlMTA?oc=5",
+            "image": "https://images.pexels.com/photos/7947958/pexels-photo-7947958.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "\u2018I Know Exactly Who...\u2019: Trump Hints At Iran's Next Leader After Khamenei's Killing",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/world/i-know-exactly-who-trump-hints-at-irans-next-leader-after-khameneis-killing-ws-l-9936169.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/03/NW18-11-2026-03-06c070f35bbb441e80717f8eeb81a0e6-1200x800.png",
+            "source": "news18"
+        },
+        {
+            "title": "On cam: Iranian anchor breaks down into tears announcing Ali Khamenei's assassination by Israel, USA",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/videos/world-news/on-cam-iranian-anchor-breaks-down-into-tears-announcing-ali-khameneis-assassination-by-israel-usa-101772339610477.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/01/1600x900/logo/TT3_1772339661640_1772339664984.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "Leather industry wary of impact as Israel-Iran conflict unfolds",
+            "title": "UAE Faces US-Iran War Heat: Dubai Airport, Jebel Ali, Palm Jumeirah Among Locations Hit",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/kanpur/leather-industry-wary-of-impact-as-israel-iran-conflict-unfolds/articleshow/128897863.cms",
-            "image": "https://static.toiimg.com/thumb/msid-117623025,imgsize-414615,width-400,height-225,resizemode-72/leather-industry-wary-of-impact-as-israel-iran-conflict-unfolds.jpg",
-            "source": "toi"
+            "url": "https://www.ndtvprofit.com/world/explosions-hit-dubai-airport-jebel-ali-port-palm-jumeirah-amid-iran-retaliatory-strikes-11152606",
+            "image": "https://images.pexels.com/photos/16459372/pexels-photo-16459372.png?auto=compress&cs=tinysrgb&h=350",
+            "source": "ndtv"
         },
         {
-            "title": "Trump's Iran Strike Triggers Push For Congressional War Powers Vote: Report",
+            "title": "Iran strikes sparked a betting stampede, $529 million hit Polymarket and Kalshi - Moneycontrol.com",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/news/politics/26/02/50953603/trumps-iran-strike-triggers-push-for-congressional-war-powers-vote-report",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/02/28/Washington--February-22--2025-President-.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
-            "source": "benzinga"
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUW9QOTM3TF9NS2xDSG5OeTh1WmIzLXMyUDluemp1M2Jad1F3RDNHcFR6OFM2WGpKaTliazlJeEh1VGFIUW9oS2tpUnV4RFFKTDFYY01mSkU4bVJCSFNwelgxaHZtZ1RPNVZXZ2lRWHEtT1RBMnZJV0xGUEFCdlBzZUxwd2U4WE5jNnYxaVFBbDZiMlVtRS1MTm9IaHg0b3ZwLXdlYi1QUnY4RGlBWnNEZG9Zc3BSc2p4d0xXZ01uakXSAcYBQVVfeXFMT0tIMVR4UEU4c1o0UzhOVmw3NzE1Z3d1RndWZ1JKbXladUZNV2pKejIwYmprU2ozcC1QcVI1c1d5a1JLajRLanRjWmN4VjJQa3d6eExLZ21vRTdqR21JY2hZMklmWUYwbE9yWnpKU1g5SDIzUDQ1WUVJV0FOb1FraGpNOFF2ZmRFaUM2bVRjMV9nWVd4SkZkSllUX3p0ZzluS3ktbVB1RUlqdXJuQTJVdlBiNU8yVDBxOGhtcXNKMWZaTlo0RlN3?oc=5",
+            "image": "https://images.pexels.com/photos/23789/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Iran goes dark amid 'regime paranoia', blackout follows Israeli, US strikes on compound",
+            "title": "Gulf-bound flights cancelled from 4 Kerala airports amid West Asia tensions",
             "severity": "HIGH",
-            "url": "https://www.foxnews.com/world/iran-goes-dark-after-tehran-compound-strike-metadata-expose-regime-leaders",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/02/931/523/tehran-blackout-strikes.jpg?tl=1&ve=1",
-            "source": "foxnews"
+            "url": "https://www.business-standard.com/industry/aviation/gulf-bound-flights-cancelled-from-4-kerala-airports-amid-west-asia-tensions-126030100163_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260301/thumb-126030100163.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Israel defends strikes on Iran, plays nuclear weapons card; \u2018Khamenei regime left us no alternative\u2019",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/videos/world-news/israel-defends-strikes-on-iran-plays-nuclear-weapons-card-khamenei-regime-left-us-no-alternative-101772339318405.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/01/1600x900/logo/TT2_1772339535179_1772339537837.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Dubai airport, iconic Palm Jumeirah hit: How and why the emirate is facing Iran\u2019s wrath",
+            "severity": "HIGH",
+            "url": "https://www.firstpost.com/explainers/how-dubai-facing-iran-retaliatory-strikes-gulf-conflict-explained-13984877.html",
+            "image": "https://images.firstpost.com/uploads/2026/03/Dubai-damage-Iran-strike-1-Reuters-2026-03-26d1549a771783bdb2aa36316e8aa4e0.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "OPEC+ mulls oil production increase in shadow of war",
+            "severity": "HIGH",
+            "url": "https://www.thehindu.com/news/international/opec-mulls-oil-production-increase-in-shadow-of-war/article70690633.ece",
+            "image": "https://th-i.thgim.com/public/incoming/wmf6qy/article70690654.ece/alternates/LANDSCAPE_1200/2026-02-28T165601Z_1540035649_RC2W7FAXNNY4_RTRMADP_3_IRAN-CRISIS-OIL.JPG",
+            "source": "thehindu"
+        },
+        {
+            "title": "Pakistan maintains delicate balancing act in UNSC meeting on Iran",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/1976902/pakistan-maintains-delicate-balancing-act-in-unsc-meeting-on-iran",
+            "image": "https://i.dawn.com/primary/2026/03/010859206d86bc9.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "India player PV Sindhu in 'safe place' after being stranded at DXB amid regional attacks",
+            "severity": "HIGH",
+            "url": "https://www.khaleejtimes.com/uae/india-badminton-player-pv-sindhu-dubai-airport-regional-attacks",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes/import/images/dZCsSNZy3He0ZCkiWRvVZ4kRCuw.jpg?format=auto&height=630&mode=crop&ogImage=true&rect=0%2C0%2C4000%2C2667&width=1200",
+            "source": "khaleejtimes"
+        },
+        {
+            "title": "Who is Reza Pahlavi? A royal in exile, Iran\u2019s youngest pilot, and a potential successor after Khamenei\u2019s death",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/us/news/who-is-reza-pahlavi-a-royal-in-exile-irans-youngest-pilot-and-a-potential-successor-after-khameneis-death/articleshow/128905151.cms",
+            "image": "https://img.etimg.com/photo/118783427.cms",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Ayatollah Khamenei\u2019s assassination: A new chapter for Iran, a region at a crossroads",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/1976910/ayatollah-khameneis-assassination-a-new-chapter-for-iran-a-region-at-a-crossroads",
+            "image": "https://i.dawn.com/primary/2026/03/0109214873e776c.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "Trump news at a glance: president goes to war again",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/us-news/2026/mar/01/trump-news-at-a-glance-latest-today",
+            "image": "https://i.guim.co.uk/img/media/c7744ac1a260ab8784b9a8bea27af9add235f41a/0_0_6400_4800/master/6400.jpg?crop=none&dpr=2&s=none&width=620",
+            "source": "theguardian"
         },
         {
             "title": "Ayatollah Khamenei, who battled the US and Israel for decades as Iran\u2019s supreme leader, has been killed",
@@ -109,74 +186,116 @@
             "source": "expresscouk"
         },
         {
-            "title": "How will US, Israeli strikes on Iran affect oil markets?",
+            "title": "Pentagon vs Anthropic: Who should control the AI weapon?",
             "severity": "MEDIUM",
-            "url": "https://business.inquirer.net/576803/how-will-us-israeli-strikes-on-iran-affect-oil-markets",
-            "image": "https://business.inquirer.net/files/2026/03/How-will-US-Israeli-strikes-on-Iran-affect-oil-markets-scaled.jpg",
-            "source": "inquirer"
+            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/pentagon-vs-anthropic-who-should-control-the-ai-weapon/articleshow/128905361.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-175738,resizemode-75,msid-128905361/tech/artificial-intelligence/pentagon-vs-anthropic-who-should-control-the-ai-weapon.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "How the strikes on Iran could impact California gas prices",
+            "title": "Global Markets On Edge: How Israel-US Strike On Iran Could Unleash Global Market Chaos",
             "severity": "MEDIUM",
-            "url": "https://nypost.com/2026/02/28/us-news/will-california-gas-prices-go-up-due-to-strikes-on-iran/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F02%2Fcrop-38635652.jpg?quality%3D80%26strip%3Dall=",
-            "source": "nypost"
+            "url": "https://www.timesnownews.com/business-economy/markets/global-markets-on-edge-how-israel-us-strike-on-iran-could-unleash-global-market-chaos-article-153724223",
+            "image": "https://images.timesnownews.com/thumb/msid-153724223,imgsize-1681865,width-1280,height-720/153724223.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "Racket selling expired Nestle\u0301 Sugar Free, Glucon-D, Vicks VapoRub busted in Delhi; one held",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/cities/delhi/racket-nestle-glucon-vicks-vaporub-busted-delhi-10558522/",
-            "image": "https://images.indianexpress.com/2026/01/DelhiPolicefile-4col_ed79bf.jpg",
-            "source": "indianexpress"
+            "title": "Trump orders US government to end ties with Anthropic, Pentagon labels AI firm a supply-chain risk",
+            "severity": "MEDIUM",
+            "url": "https://www.firstpost.com/tech/trump-orders-us-government-to-end-ties-with-anthropic-pentagon-labels-ai-firm-a-supply-chain-risk-13984891.html",
+            "image": "https://images.firstpost.com/uploads/2026/03/Untitled-design-56-2026-03-bc5120c67b813e3bd5982604abfa7f13-1200x675.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "Petrol, Diesel Fresh Prices Announced: Check Rates In Your City On March 01",
+            "title": "I made juicy steak in the air fryer \u2013 but I had to do 1 unusual step before cooking",
             "severity": "WATCH",
-            "url": "https://www.news18.com/business/economy/petrol-diesel-fresh-prices-announced-check-rates-in-your-city-on-march-01-ws-l-9935192.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/02/1770795219_1769151784_PETROL-DP-2026-01-31cd62bf26b6be75cd384615596184a9-3x2.jpg",
-            "source": "news18"
+            "url": "https://www.mirror.co.uk/lifestyle/food-drink/steak-cooking-hack-air-fryer-36792435",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article36792447.ece/ALTERNATES/s615/0_I-made-juicy-steak-in-the-air-fryer-but-I-had-to-do-1-unusual-thing-before-cooking.jpg",
+            "source": "mirroruk"
         },
         {
-            "title": "PM inaugurates first semiconductor plant: \u2018Look what a Gujju can do with Re 1...\u2019",
+            "title": "Mizzou sweeps doubleheader over North Dakota State",
             "severity": "WATCH",
-            "url": "https://indianexpress.com/article/cities/ahmedabad/pm-inaugurates-first-semiconductor-plant-look-what-a-gujju-can-do-with-re-1-10558485/",
-            "image": "https://images.indianexpress.com/2026/03/Guj-3.jpg",
-            "source": "indianexpress"
+            "url": "https://sports.yahoo.com/articles/mizzou-sweeps-doubleheader-over-north-043018562.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/5beleU61ZuKJiLMlTEp0Ow--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/4d4b4ae625ba2df3c8284cb8ce7da507",
+            "source": "yahoo"
         },
         {
-            "title": "Master Plan 2041 to get nod soon: Rekha",
+            "title": "3 reasons you crash out after arguing with people over the smallest things",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/delhi/master-plan-2041-to-get-nod-soon-rekha/articleshow/128897686.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128897685,imgsize-32212,width-400,height-225,resizemode-72/master-plan-2041-to-get-nod-soon-rekha.jpg",
+            "url": "https://www.vogue.in/content/reasons-you-crash-out-after-arguing-with-your-friends-over-the-smallest-things",
+            "image": "https://assets.vogue.in/photos/69a1e22044903da7f119f9ee/16:9/w_1280,c_limit/Justin%20polkey.jpg",
+            "source": "vogue"
+        },
+        {
+            "title": "T20 World Cup upcoming matches: Full schedule, semifinal dates and venues",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/icc-mens-t20-world-cup/t20-world-cup-2026-upcoming-matches-full-schedule-semifinal-dates-and-venues/articleshow/128905511.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128905534,imgsize-21136,width-400,resizemode-4/t20worldcup-semis-0103-s.jpg",
             "source": "toi"
         },
         {
-            "title": "Khamenei's demise closes hugely consequential chapter in Iran's modern history",
+            "title": "PV Sindhu shaken after explosion near Dubai airport, reveals scary ordeal; coach had to run due to smoke and debris",
             "severity": "WATCH",
-            "url": "https://www.japantimes.co.jp/news/2026/03/01/world/politics/iran-khamenei-profile/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/03/01/526254.jpg",
-            "source": "japantimes"
+            "url": "https://www.hindustantimes.com/sports/badminton/pv-sindhu-shaken-after-explosion-near-dubai-airport-reveals-scary-ordeal-coach-had-to-run-due-to-smoke-and-debris-101772338131726.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/01/1600x900/logo/Yonex-Sunrise-India-Open-2026-42_1772338220196_1772338237068.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "IRGC claims \u2018hundreds\u2019 of US troops killed in massive 14-base missile barrage; US denies damage",
+            "title": "Florida\u2019s Agriculture Industry Loses More Than $3 Billion Due To Arctic Blasts",
             "severity": "WATCH",
-            "url": "https://english.mathrubhumi.com/news/world/irgc-us-casualties-claims-centcom-debunks-epic-fury-ryl3stu5",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1phw3q28piv44zcqh5w/0/u-s-base-in-bahrain-jpg.jpg?w=900",
-            "source": "mathrubhumi"
+            "url": "https://dailycaller.com/2026/02/28/florida-agriculture-industry-3-billion-arctic-cold-weather/",
+            "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https://cdn01.dailycaller.com/wp-content/uploads/2026/02/GettyImages-95686598-scaled-e1772337503977.jpg",
+            "source": "dailycaller"
         },
         {
-            "title": "O Canada, O Albanese: This middle power roars as Australia\u2019s exemplar",
+            "title": "NDA will return to power in Puducherry, says Home Minister Namassivayam",
             "severity": "WATCH",
-            "url": "https://www.smh.com.au/national/o-canada-o-albanese-this-middle-power-roars-as-australia-s-exemplar-20260227-p5o61w.html",
-            "image": "https://static.ffx.io/images/$zoom_0.29064292079209025,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_57/t_crop_custom/q_86,f_auto/907db8fb66050042f1f5f0e7c1bd2519709c0943",
-            "source": "smh"
+            "url": "https://newsable.asianetnews.com/india/nda-will-return-to-power-in-puducherry-says-home-minister-namassivayam-articleshow-f4gl63v",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-6374120c-88fb-4f5c-86c4-b181bf4e8a18.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "Marjorie Taylor Greene rips Iran strikes as Trump betraying America First: \u2018It\u2019s always a lie and it\u2019s always America Last\u2019",
+            "title": "Pizzoccheri: The Olympics showcased this Italian dish, but not its birthplace",
             "severity": "WATCH",
-            "url": "https://fortune.com/2026/02/28/trump-america-first-bomb-iran-middle-east-regime-change/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/02/AP26059026656140-e1772332076902.jpg?w=2048",
-            "source": "fortune"
+            "url": "https://www.thestar.com.my/lifestyle/living/2026/03/01/pizzoccheri-the-olympics-showcased-this-italian-dish-but-not-its-birthplace",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/02/25/3787219.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Did US Forces Use Anthropic In Iran Strikes Hours After Trump Ban?",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/technology-science/did-us-forces-use-anthropic-in-iran-strikes-hours-after-trump-ban-article-153724216",
+            "image": "https://images.timesnownews.com/thumb/msid-153724216,imgsize-1043517,width-1280,height-720/153724216.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Iran's Supreme Leader Khamenei killed in 'swift' US-Israel action",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/world/irans-supreme-leader-khamenei-killed-in-swift-usisrael-action-articleshow-r238qxt",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-6e85bd52-8a51-4642-9568-863e16fd2950.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Ima Keithel: Inside the world\u2019s only all-women market in Manipur that defied colonial rule",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/life-style/travel/destinations/ima-keithel-inside-the-worlds-largest-all-women-market-in-manipur-that-defied-colonial-rule/articleshow/128893871.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128894116,imgsize-1338557,width-400,resizemode-4/women-market.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Vipul CEO held after probe as investors allege \u20b96-crore fraud in Gurgaon",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/gurgaon/vipul-ceo-held-after-probe-as-investors-allege-6-crore-fraud-in-gurgaon/articleshow/128901303.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128901301,imgsize-37112,width-400,height-225,resizemode-72/vipul-ceo-held-after-probe-as-investors-allege-6-crore-fraud-in-gurgaon.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Where to watch MotoGP: Live stream races from anywhere",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-motogp-live-streams-2026",
+            "image": "https://i.insider.com/69a0791d50f42603b0f8f4e7?width=700",
+            "source": "insider"
         },
         {
             "title": "Delhi excise policy case: High court to hear CBI plea against Arvind Kejriwal, Manish Sisodia discharge on March 9",
@@ -184,42 +303,7 @@
             "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-excise-policy-case-high-court-to-hear-cbi-plea-against-arvind-kejriwal-manish-sisodia-discharge-on-march-9/articleshow/128903228.cms",
             "image": "https://static.toiimg.com/thumb/msid-128903211,imgsize-1878496,width-400,height-225,resizemode-72/the-cbi-has-appealed-the-delhi-high-court-against-a-trial-court39s-decision-to-discharge-all-23-accused-including-arvind-kejriwal-and-manish-sisodia-in-the-delhi-excise-policy-case.jpg",
             "source": "toi"
-        },
-        {
-            "title": "Iran\u2019s Supreme Leader Khamenei has been killed, Iranian state media say. Live updates here.",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/world/article/irans-supreme-leader-khamenei-has-been-killed-iranian-state-media-say-live-updates-here/",
-            "image": "https://www.ctvnews.ca/resizer/v2/QE47ZIZ7URBRLMWOEGYCNTMT4Y.jpg?auth=b2f6ed70c46816fbd80a9249cc270b585b3acd580d562e489485b5d34272284a&height=630&smart=true&width=1200",
-            "source": "ctvnews"
-        },
-        {
-            "title": "An Epstein victim\u2019s rocky path from Hilton Head to the West Coast",
-            "severity": "WATCH",
-            "url": "https://www.postandcourier.com/news/special_reports/south-carolina-epstein-hilton-head/article_ea4c66c4-6336-4f46-a4e2-9b0f6a704116.html",
-            "image": "https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/3/ed/3edb7934-df5c-474e-a47a-a18eda841798/69a3429e7d901.image.jpg?resize=400%2C282",
-            "source": "postandcourier"
-        },
-        {
-            "title": "How close is Bayern Munich\u2019s Harry Kane to Robert Lewandowski\u2019s 41 goal record?",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/close-bayern-munich-harry-kane-231224216.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/Dj.oqrSKvtlI1zYdLkLazQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDQ7Y2Y9d2VicA--/https://media.zenfs.com/en/sb_nation_articles_115/0ba9eb79d18f2fab5702af555ecdec1e",
-            "source": "yahoo"
-        },
-        {
-            "title": "OpenAI details layered protections in US defense department pact",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/tech/tech-news/2026/03/01/openai-details-layered-protections-in-us-defense-department-pact",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/01/3792190.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Thar driver flees pump in Badalpur without paying, drags staffer\u2019s bike for 5km",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/noida/thar-driver-flees-pump-in-badalpur-without-paying-drags-staffers-bike-for-5km/articleshow/128896242.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128896241,imgsize-42138,width-400,height-225,resizemode-72/thar-driver-flees-pump-in-badalpur-without-paying-drags-staffers-bike-for-5km.jpg",
-            "source": "toi"
         }
     ],
-    "Last_Updated": "2026-03-01T14:36:20.206863Z"
+    "Last_Updated": "2026-03-01T16:37:08.845971Z"
 }
