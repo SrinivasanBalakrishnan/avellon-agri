@@ -1,309 +1,232 @@
 {
-    "AGRI_Score": 62.8,
-    "Velocity": "+1.6",
+    "AGRI_Score": 59.6,
+    "Velocity": "-3.2",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The AGRI score of 62.8 reflects a significantly elevated risk environment, primarily driven by the dramatic escalation of geopolitical conflict in the Middle East. The reported \"Khamenei Killed\" and subsequent \"War widens to include Iranian-backed militias as Israeli and American planes pound Iran\" signal a profound regional destabilization. This intense conflict directly contributes to \"Energy & Maritime Disruption\" through attacks like \"Drones hit Saudi Ras Tanura refinery\" and heightens \"Trade & Supply Chain Stress\" as \"West Asia's conflict hits Indian bottomlines, supply chains.\"",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.6 reflects a significantly heightened risk environment, predominantly driven by severe geopolitical conflict intensity. The escalating \"US-Iran conflict\" and direct \"US and Israeli attacks on Iran\" are the primary catalysts, pushing the Geopolitical Conflict Intensity pillar to an exceptionally high 82.6. This active military engagement, with reports of \"Israeli Air Strikes Hitting Military Sites Near Homes\" and \"4 U.S. troops killed,\" is creating a cascading effect across other pillars, including upward pressure on energy prices and challenging the international legal order.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 88.6,
-        "Energy & Maritime Disruption": 62.3,
-        "Trade & Supply Chain Stress": 77.5,
+        "Geopolitical Conflict Intensity": 82.6,
+        "Energy & Maritime Disruption": 56.4,
+        "Trade & Supply Chain Stress": 66.9,
         "Sovereign Financial Stress": 49.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.9,
-        "Cyber & Infrastructure Threats": 69.9,
+        "Sanctions & Regulatory Fragmentation": 61.7,
+        "Cyber & Infrastructure Threats": 65.5,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The pillar's extreme score of 88.6 is a direct consequence of the widespread military engagement, including \"Iran hits Dubai airport, F15 in Kuwait & Aramco refinery\" and reports of \"Catastrophe For US: Several American Fighter Jets GO DOWN Over Kuwait.\" The killing of Khamenei has severely amplified regional tensions, leading to further attacks and retaliations.",
-        "Energy & Maritime Disruption": "This pillar's score of 62.3 is significantly impacted by direct attacks on critical energy infrastructure, as evidenced by \"Iran hits ... Aramco refinery\" and \"Drones hit Saudi Ras Tanura refinery.\" The broad regional conflict also poses an elevated risk to shipping lanes and oil transit, increasing the potential for further disruptions.",
-        "Trade & Supply Chain Stress": "With a score of 77.5, this pillar is under severe strain due to the intensifying conflict, which is explicitly noted to affect \"Indian bottomlines, supply chains.\" The regional instability and attacks on key economic hubs like Dubai will inevitably lead to rerouting, delays, and increased costs for global trade networks.",
-        "Sovereign Financial Stress": "At 49.7, this pillar indicates moderate but not acute distress. While the news mentions \"Stocks may drop further,\" there is no specific evidence of sovereign debt crises or widespread financial contagion impacting government solvency.",
-        "Currency & Liquidity Pressure": "The 50.0 score reflects moderate concern, but the news feed does not detail any specific currency devaluations or significant liquidity shortages in major financial systems. Regional instability could indirectly exert pressure, necessitating continued vigilance.",
-        "Sanctions & Regulatory Fragmentation": "With a score of 56.9, this pillar is elevated due to the active conflict and the potential for new international punitive measures. While specific new sanctions aren't detailed, the \"Molly Rose Foundation demands swift sanctions\" highlights an underlying pressure for regulatory action.",
-        "Cyber & Infrastructure Threats": "The high score of 69.9 is justified by explicit attacks on critical physical infrastructure, such as \"Iran hits Dubai airport\" and \"Drones hit Saudi Ras Tanura refinery.\" The increasing use of drones, as seen with \"Drone Intrusion Attempts Along LoC,\" indicates a pervasive threat to both military and civilian targets.",
-        "Climate & Resource Shock": "This pillar maintains a low score of 35, reflecting routine monitoring. There are no events mentioned in the provided news feed related to extreme weather, natural disasters, or significant resource shortages."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is critically elevated due to the explicit escalation of the US-Iran conflict, marked by direct military engagements and significant regional repercussions. The reports of \"Israeli Air Strikes Hitting Military Sites Near Homes\" and \"4 U.S. troops killed\" underscore the active and dangerous nature of the current conflict, driving investors to \"defence stocks\".",
+        "Energy & Maritime Disruption": "Energy markets are experiencing considerable disruption, evidenced by a significant \"US Natural Gas Futures Jump Alongside Global Gas, Oil Prices\" following heightened geopolitical tensions. Consumers are being advised to \"fill up as soon as possible,\" indicating concerns over immediate fuel availability and potential pricing volatility.",
+        "Trade & Supply Chain Stress": "Supply chain stress remains a notable concern, with the \"Bank of Canada Warns Supply Shocks May Require Restraint\" indicating broader economic impacts and potential policy responses. Disruptions are also observed in specific sectors, as evidenced by the \"cocoa crisis\" impacting a popular chocolate brand and logistical challenges affecting \"Two F1 races plunged into doubt\".",
+        "Sovereign Financial Stress": "Sovereign financial stress exhibits moderate activity, primarily influenced by investor flight to perceived safety assets amidst geopolitical uncertainty. The S&P 500's slide contrasts with a surge in \"Lockheed Martin (LMT) stock\", suggesting a defensive shift in market sentiment rather than widespread sovereign distress.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are currently experiencing baseline activity, without explicit headlines indicating severe volatility or shortages in the immediate term. However, the broader geopolitical unease could introduce future pressures on currency valuations and capital flows, requiring close observation.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation is significantly heightened by the ongoing \"US and Israeli attacks on Iran\", which are explicitly noted as putting \"further strain on international law\". The \"International legal order tested by war in Iran\" indicates a challenging environment for global regulatory coherence and compliance.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are elevated, primarily due to the intense military conflict and advanced weaponry used, which inherently poses risks to critical infrastructure. While no explicit cyberattack headlines were provided, the discussion of \"How the GBU-57 MOP penetrates underground bunkers\" highlights the destructive capacity targeting physical infrastructure within conflict zones.",
+        "Climate & Resource Shock": "Climate and resource shock currently presents a low-risk profile, with only isolated instances of resource-related challenges, such as the \"cocoa crisis\" impacting specific commodities. The DFC funding agreement for Quiulacocha represents a positive development for resource development rather than a shock event."
     },
     "All_Alerts": [
         {
-            "title": "Iran hits Dubai airport, F15 in Kuwait & Aramco refinery: How many missiles does Iran have, check full list",
+            "title": "US Natural Gas Futures Jump Alongside Global Gas, Oil Prices",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/defence/iran-hits-dubai-airport-f15-in-kuwait-aramco-refinery-how-many-missiles-does-iran-have-check-full-list/articleshow/128944025.cms",
-            "image": "https://img.etimg.com/photo/118783427.cms",
+            "url": "https://financialpost.com/pmn/business-pmn/us-natural-gas-futures-jump-alongside-global-gas-oil-prices",
+            "image": "https://images.pexels.com/photos/7947848/pexels-photo-7947848.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "Bank of Canada Warns Supply Shocks May Require Restraint",
+            "severity": "HIGH",
+            "url": "https://financialpost.com/pmn/business-pmn/bank-of-canada-warns-supply-shocks-may-require-restraint",
+            "image": "https://images.pexels.com/photos/14439232/pexels-photo-14439232.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "Lockheed Martin (LMT) stock jumps while S&P 500 slides \u2013 why investors are rushing to defence stocks as US-Iran conflict escalates",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/us/lockheed-martin-lmt-stock-jumps-while-sp-500-slides-why-investors-are-rushing-to-defence-stocks-as-us-iran-conflict-escalates/articleshow/128949246.cms",
+            "image": "https://img.etimg.com/thumb/msid-128949351,width-300,height-225,imgsize-56276,resizemode-75/lockheed-martin-lmt-stock-jumps-while-sp-500-slides-why-investors-are-rushing-to-defence-stocks-as-us-iran-conflict-escalates.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Missiles over the Marina: Iran rattles a billionaire playground",
+            "title": "Voices From Iran: Resident Describes Israeli Air Strikes Hitting Military Sites Near Homes",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/nri/latest-updates/iran-israel-us-war-dubai-attack-abu-dhabi-gulf-cities-indian-settlement-missiles-over-the-marina-iran-rattles-a-billionaire-playground/articleshow/128943310.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-51486,resizemode-75,msid-128943310/nri/latest-updates/iran-israel-us-war-dubai-attack-abu-dhabi-gulf-cities-indian-settlement-missiles-over-the-marina-iran-rattles-a-billionaire-playground.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.rferl.org/a/israel-struck-targets-in-the-iranian-city-of-sanandaj/33692146.html",
+            "image": "https://gdb.rferl.org/0c9a873c-7c39-4e1b-3163-08de3be37656_tv_w800_h450.jpg",
+            "source": "rferl"
         },
         {
-            "title": "India, Canada reset ties during PM Carney's visit; Uranium deal signed, $50bn trade target set",
+            "title": "Sinking Iran\u2019s proxies, Sinwar\u2019s Al-Aqsa Flood left Khamenei high and dry",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/videos/india-canada-reset-ties-during-pm-carneys-visit-uranium-deal-signed-50bn-trade-target-set-101772447485163.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/02/1600x900/logo/CKLKDLDL_1772447559391_1772447562609.jpeg",
+            "url": "https://www.timesofisrael.com/sinking-irans-proxies-sinwars-al-aqsa-flood-left-khamenei-high-and-dry/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2026/03/Sultan-Pool-strike-640x400.png",
+            "source": "timesofisrael"
+        },
+        {
+            "title": "Once allies, now at war: how Pakistan turned on the Taliban",
+            "severity": "HIGH",
+            "url": "https://www.irishtimes.com/world/middle-east/2026/03/02/once-allies-now-at-war-how-pakistan-turned-on-the-taliban/",
+            "image": "https://www.irishtimes.com/resizer/v2/E3ZLIZ4FWVXVBGDUEFGMN3FCBM.jpg?auth=ee065c64702ad1900d16dd620f0f9f2829ca70cee013c257239fb6ece98e170b&height=630&smart=true&width=1200",
+            "source": "irishtimes"
+        },
+        {
+            "title": "Strikes hit Beirut's southern suburbs after Israeli warning",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/world/mena/strikes-hit-beiruts-southern-suburbs-after-israeli-warning-1.500461081",
+            "image": "https://media.assettype.com/gulfnews%2F2026-03-02%2Fe48j0h6s%2Fnewsml_afp_com_20260302T141036Z_doc_99lb3qj.jpeg?ar=40%3A21&auto=format%2Ccompress&enlarge=true&mode=crop&ogImage=true&overlay=false&overlay_position=bottom&overlay_width=100&w=1200",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Modi and Carney pledge trade expansion, put diplomatic crisis in the rearview",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/india-news/modi-and-carney-pledge-trade-expansion-put-diplomatic-crisis-in-the-rearview-101772462337454.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/02/1600x900/logo/Prime-Minister-Narendra-Modi-shakes-hands-with-Can_1772462331544.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "Cebu province braces for fallout of Middle East conflict",
+            "title": "Pakistan\u2019s stock of petroleum products at \u2018comfortable levels\u2019, committee told",
             "severity": "HIGH",
-            "url": "https://cebudailynews.inquirer.net/702047/cebu-province-braces-for-fallout-of-middle-east-conflict",
-            "image": "https://cebudailynews.inquirer.net/files/2026/03/NewsletterFeatured-Image-3-620x310.png",
-            "source": "inquirer"
+            "url": "https://www.dawn.com/news/1977522/pakistans-stock-of-petroleum-products-at-comfortable-levels-committee-told",
+            "image": "https://i.dawn.com/primary/2026/03/0218385209ecf79.webp",
+            "source": "dawn"
         },
         {
-            "title": "Qatar foreign affairs spokesperson: \u2018We had around 20 injuries\u2019",
+            "title": "Popular chocolate brand says it will not make bars smaller despite cocoa crisis",
             "severity": "HIGH",
-            "url": "https://www.cnn.com/2026/03/02/world/video/explosions-doha-middle-east-conflict-majed-al-ansari-030204aseg1-cnni-world-fast",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/4a-thumbnail-1-cnn-20260302102627274.png?c=16x9&q=w_1280%2Cc_fill",
-            "source": "cnn"
-        },
-        {
-            "title": "Iranian Military Chopper Crashes Into Central Market, Kills 4 Amid US-Israel-Iran Tensions | Khamenei Killed",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/short-videos/briefs/iranian-military-chopper-crashes-into-central-market-kills-4-amid-us-israel-iran-tensions-khamenei-killed/videoshow/128943830.cms",
-            "image": "https://timesofindia.indiatimes.com/photo/msid-128943830,imgsize-88478.cms",
-            "source": "toi"
-        },
-        {
-            "title": "'Thank You Mr Trump, Netanyahu': Iranians In Australia's Canberra Celebrate After Khamenei's Killing",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/short-videos/briefs/thank-you-mr-trump-netanyahu-iranians-in-australias-canberra-celebrate-after-khameneis-killing/videoshow/128943964.cms",
-            "image": "https://timesofindia.indiatimes.com/photo/msid-128943964,imgsize-106203.cms",
-            "source": "toi"
-        },
-        {
-            "title": "'You Filthy Criminals...': Iran's Parliament Speaker Blasts Trump, Bibi After They Kill Khamenei",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/short-videos/briefs/you-filthy-criminals-irans-parliament-speaker-blasts-trump-bibi-after-they-kill-khamenei/videoshow/128943991.cms",
-            "image": "https://timesofindia.indiatimes.com/photo/msid-128943991,imgsize-75885.cms",
-            "source": "toi"
-        },
-        {
-            "title": "Modi Breaks Silence on Middle East Crisis, Urges Calm and Dialogue Amid Israel\u2010Iran Tensions",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/news/modi-breaks-silence-on-middle-east-crisis-urges-calm-and-dialogue-amid-israeliran-tensions/videoshow/128943828.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128943828,width-1280,height-720,imgsize-693369,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Catastrophe For US: Several American Fighter Jets GO DOWN Over Kuwait | WATCH",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/catastrophe-for-us-several-american-fighter-jets-go-down-over-kuwait-watch/videoshow/128944085.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128944085,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Samsung on Galaxy S26 and Galaxy S26 Plus $100 price hike \u2014 'we've packed [in] so much innovation'",
-            "severity": "HIGH",
-            "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-on-galaxy-s26-and-galaxy-s26-plus-usd100-price-hike-weve-packed-in-so-much-innovation",
-            "image": "https://cdn.mos.cms.futurecdn.net/ARfPdsSFTL9aySkxw2CDTC-1280-80.jpg",
-            "source": "tomsguide"
-        },
-        {
-            "title": "Is it safe to travel to Jordan? Latest travel advice after Hezbollah and Israel trade strikes in US-Iran conflict",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/travel/news-and-advice/jordan-travel-is-it-safe-hezbollah-israel-us-iran-advice-b2930016.html",
-            "image": "https://static.independent.co.uk/2026/03/02/9/48/iStock-1051505002.jpeg?crop=1200%3A800&height=800&trim=0%2C0%2C1%2C0&width=1200",
+            "url": "https://www.independent.co.uk/life-style/food-and-drink/tonys-chocolonely-size-price-cost-cocoa-b2930294.html",
+            "image": "https://static.independent.co.uk/2026/02/03/11/03111148-8c8b2076-6f3e-4fc2-8c66-860aada74387.jpg?crop=1200%3A800&height=800&width=1200",
             "source": "independentuk"
         },
         {
-            "title": "Drones hit Saudi Ras Tanura refinery as Iran strikes targets across region",
+            "title": "Who is Hezbollah and why are militants involved in the Iran war?",
             "severity": "HIGH",
-            "url": "http://www.euronews.com/2026/03/02/drones-hit-saudi-ras-tanura-refinery-as-iran-strikes-targets-across-region",
-            "image": "https://images.euronews.com/articles/stories/09/67/07/58/1536x864_cmsv2_191f9f8c-0460-5935-897f-15310af0de73-9670758.jpg",
-            "source": "euronews"
+            "url": "https://metro.co.uk/2026/03/02/hezbollah-militants-involved-iran-war-27186626/",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/10/SEI_175727814-5fc6_1772462467.jpg?crop=1&h=630&quality=90&strip=all&w=1200",
+            "source": "metro"
         },
         {
-            "title": "Stocks may drop further as West Asia's conflict hits Indian bottomlines, supply chains",
+            "title": "Pentagon addresses Iran war as 4 U.S. troops killed",
             "severity": "HIGH",
-            "url": "https://www.businesstoday.in/markets/stocks/story/stocks-may-drop-further-as-west-asias-conflict-hits-indian-bottomlines-supply-chains-518804-2026-03-02",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202603/69a56664db934-more-than-rs-10-lakh-crore-of-investor-wealth-was-wiped-out-as-the-nifty-closed-12-percent-down-to-022846943-16x9.jpg",
-            "source": "businesstoday"
+            "url": "https://www.cbsnews.com/video/pentagon-addresses-iran-war-as-4-us-troops-killed/",
+            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/02/66e0eee0-a164-4a49-88ca-a614bf8c2208/thumbnail/60x60/85f496eb238b4e6a0b886845c1e83b01/cbsn-fusion-pentagon-addresses-iran-war-as-4-us-troops-killed-thumbnail.jpg",
+            "source": "cbsnews"
         },
         {
-            "title": "B-2 bombers, Tomahawk missiles, Claude & more: How US attacks on Iran unfolded in first 24 hours",
+            "title": "How the GBU-57 MOP penetrates underground bunkers",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/defence/international/b-2-bombers-tomahawk-missiles-claude-more-how-us-attacks-on-iran-unfolded-in-first-24-hours/articleshow/128943405.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128943532,width-1280,height-720,imgsize-885283,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "toi"
+            "url": "https://interestingengineering.com/videos/how-the-gbu-57-mop-penetrates-underground-bunkers",
+            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/03/Web_5b37f7.jpg",
+            "source": "interestingengineering"
         },
         {
-            "title": "Where things stand after the US and Israeli strikes on Iran",
+            "title": "What is Iran\u2019s military strategy? How has it changed since June 2025 war?",
             "severity": "HIGH",
-            "url": "http://economictimes.indiatimes.com/news/defence/where-things-stand-after-the-us-and-israeli-strikes-on-iran/articleshow/128944132.cms",
-            "image": "https://img.etimg.com/thumb/msid-128944151,width-300,height-225,imgsize-106132,resizemode-75/where-things-stand-after-the-us-and-israeli-strikes-on-iran.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.aljazeera.com/news/2026/3/2/what-is-irans-military-strategy-how-it-has-changed-since-june-2025-war",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2025/11/2025-11-12T172429Z_1703850588_RC24VHA3X5R3_RTRMADP_3_IRAN-MILITARY-MISSILE-1763206748.jpg?quality=80&resize=770%2C513",
+            "source": "aljazeera_us"
         },
         {
-            "title": "War widens to include Iranian-backed militias as Israeli and American planes pound Iran",
+            "title": "US and Israeli attacks on Iran put further strain on international law",
             "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/world/article/war-widens-to-include-iranian-backed-militias-as-israeli-and-american-planes-pound-iran/",
-            "image": "https://www.ctvnews.ca/resizer/v2/IHRATOWAFW33KVJIEO3RO6NI5U.jpg?auth=628d69a8f15cfa1de4c07635ab47a2e06998c41f71157cc23b42b11d0162b3ef&height=630&smart=true&width=1200",
-            "source": "ctvnews"
+            "url": "https://www.thestar.com/news/world/europe/us-and-israeli-attacks-on-iran-put-further-strain-on-international-law/article_cce15248-bfd5-584a-a380-f37bc8fd8eea.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/1/f2/1f294528-3427-5cbe-8090-1a8010c91e4d/69a59ee951c5f.image.jpg?resize=300%2C200",
+            "source": "thestar"
         },
         {
-            "title": "'Remove Embassy Of Evil': Baghdad Erupts As Angry Protesters Attack US Consulate After Khamenei's Death",
+            "title": "Drivers warned 'fill up as soon as possible' - and stick to supermarkets",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/short-videos/briefs/remove-embassy-of-evil-baghdad-erupts-as-angry-protesters-attack-us-consulate-after-khameneis-death/videoshow/128943919.cms",
-            "image": "https://timesofindia.indiatimes.com/photo/msid-128943919,imgsize-116244.cms",
-            "source": "toi"
+            "url": "https://www.birminghammail.co.uk/motoring/motoring-news/drivers-warned-fill-up-soon-33516654",
+            "image": "https://i2-prod.birminghammail.co.uk/motoring/motoring-news/article33516667.ece/ALTERNATES/s615/0_petrol6.jpg",
+            "source": "birminghammail"
         },
         {
-            "title": "Molly Rose Foundation demands swift sanctions after Ofcom update on suicide forum",
+            "title": "International legal order tested by war in Iran",
             "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/news/uk-news/molly-rose-foundation-demands-swift-36801790",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36674345.ece/ALTERNATES/s615/0_Person-with-a-hoody-typing-at-a-computer-in-the-dark-Suspicious-online-behavior.jpg",
-            "source": "mirroruk"
+            "url": "https://apnews.com/article/iran-us-international-law-war-aggression-6f0b57efff5e62e5c8fbc1acca4a3199",
+            "image": "https://dims.apnews.com/dims4/default/51b97bc/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F32%2F59%2Fe469bf1ae513a036a08e3499a2bd%2F9f5b199ae1784cf0aec71e2ad0acaf79",
+            "source": "apnews"
         },
         {
-            "title": "Jammu And Kashmir Schools Shut For Two Days After Drone Intrusion Attempts Along LoC",
-            "severity": "HIGH",
-            "url": "https://www.ndtv.com/education/jammu-and-kashmir-schools-closed-for-two-days-after-drone-intrusions-along-loc-11158366",
-            "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "ndtv"
-        },
-        {
-            "title": "Using AI at work? Then you need to know these 11 AI security risks.",
-            "severity": "HIGH",
-            "url": "https://me.mashable.com/tech/67802/using-ai-at-work-then-you-need-to-know-these-11-ai-security-risks",
-            "image": "https://sm.mashable.com/mashable_me/article/u/using-ai-a/using-ai-at-work-then-you-need-to-know-these-11-ai-security_hjf9.jpg",
-            "source": "mashable_me"
-        },
-        {
-            "title": "Crude Oil Prices Hit Multi-Month Highs: Goldman Sees 25% Risk Premium Embedded As US-Iran Retaliatory Strikes Threaten Global Supply",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/markets/commodities/26/03/50957524/crude-oil-prices-hit-multi-month-highs-goldman-sees-25-risk-premium-embedded-as-us-iran-retal",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/03/02/Barrel-Of-Oil--Rusty-Dangerous-Barrel-Wi.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
-            "source": "benzinga"
-        },
-        {
-            "title": "Top Pakistani News Channels Hacked With Anti-Army Message Amid Prime-Time Chaos",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/news/world/top-pakistani-news-channels-hacked-with-anti-army-message-amid-prime-time-chaos-1829496",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/03/02/b6a858466e9a71c69b43b9638cec106817724410475031303_original.png",
-            "source": "abplive"
-        },
-        {
-            "title": "Canada, India Strike $1.9 Billion Uranium Supply Agreement as They Firm Ties",
+            "title": "Two F1 races plunged into doubt as team staff stranded and charter flights arranged",
             "severity": "MEDIUM",
-            "url": "https://www.wsj.com/economy/canada-india-strike-1-9-billion-uranium-supply-agreement-as-they-firm-ties-b025d2ca",
-            "image": "https://images.wsj.net/im-43665103",
-            "source": "wsj"
+            "url": "https://www.express.co.uk/sport/f1-autosport/2177269/F1-races-in-doubt-Iran-US-war",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/73/590x/2177269_1.jpg",
+            "source": "expresscouk"
         },
         {
-            "title": "Russia draws its conclusions based on outcome of US-Iran talks \u2014 Kremlin",
+            "title": "Yankees 2026 Season Preview: Amed Rosario",
             "severity": "MEDIUM",
-            "url": "https://tass.com/politics/2094571",
-            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "tass"
+            "url": "https://www.pinstripealley.com/yankees-previews-how-to-watch-tv/177553/mlb-yankees-season-preview-amed-rosario-2026-infield",
+            "image": "https://platform.pinstripealley.com/wp-content/uploads/sites/124/2026/02/gettyimages-2263586267.jpg?crop=0%2C10.736272161879%2C100%2C78.527455676242&quality=90&strip=all",
+            "source": "pinstripealley"
         },
         {
-            "title": "Pastoral Hotel: A symphony of culture, comfort - review",
-            "severity": "MEDIUM",
-            "url": "https://www.jpost.com/israel-news/article-888502",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/c_fill,g_faces:center,h_537,w_822/709243",
-            "source": "jpost"
-        },
-        {
-            "title": "Immigration must act against overstaying tourists, says Tiong",
+            "title": "Cerro de Pasco Resources Enters Project Development Funding Agreement with U.S. International Development Finance Corporation for Quiulacocha",
             "severity": "WATCH",
-            "url": "https://www.thestar.com.my/news/nation/2026/03/02/immigration-must-act-against-overstaying-tourists-says-tiong",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/02/3794267.jpg",
-            "source": "thestar_my"
+            "url": "https://www.globenewswire.com/news-release/2026/03/02/3247534/0/en/Cerro-de-Pasco-Resources-Enters-Project-Development-Funding-Agreement-with-U-S-International-Development-Finance-Corporation-for-Quiulacocha.html",
+            "image": "https://images.pexels.com/photos/8846035/pexels-photo-8846035.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
         },
         {
-            "title": "From caution to calculation: The Saudi crown prince's high-stakes bet on Iran",
+            "title": "AES Drops as $15 Buyout Offer Prices Below Recent Market Levels",
             "severity": "WATCH",
-            "url": "https://www.haaretz.com/middle-east-news/2026-03-02/ty-article/.premium/from-caution-to-calculation-the-saudi-crown-princes-high-stakes-bet-on-iran/0000019c-adf1-d076-a7bc-bff703c70000",
-            "image": "https://img.haarets.co.il/bs/0000019c-ae0c-d076-a7bc-bf1e3cfb0007/cd/7f/60eaf1494f37a20add3cf7c89ede/64862159.JPG?height=81&width=108",
-            "source": "haaretz_is"
+            "url": "https://uk.investing.com/analysis/aes-drops-as-15-buyout-offer-prices-below-recent-market-levels-200622708",
+            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "The Real Reason You\u2019re Stuck in Life | Success Code by Anamika Yaduvanshi",
+            "title": "After becoming a mum, anxiety and OCD ran my life \u2013 here\u2019s how I turned my mental health around",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/videos/lifestyle/mantra/the-real-reason-youre-stuck-in-life-success-code-by-anamika-yaduvanshi/videoshow/128944111.cms",
-            "image": "https://static.toiimg.com/thumb/msid-128944111,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "toi"
+            "url": "https://www.independent.co.uk/health-and-wellbeing/anxiety-ocd-exercise-strong-like-mum-shakira-akabusi-b2928223.html",
+            "image": "https://static.independent.co.uk/2026/03/02/14/39/SA_web2000px-2.jpeg?crop=1200%3A800&height=800&trim=242%2C0%2C691%2C0&width=1200",
+            "source": "independentuk"
         },
         {
-            "title": "China and Global Two-wheeler Intelligence and Industry Chain Research Report 2025-2026: New National Standard Drives Intelligent Popularization, AI Agent Makes Its Way onto Vehicles",
+            "title": "Arsenal will address \u2018anxiety\u2019 in Premier League title race \u2013 Jurrien Timber",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/03/02/3247132/28124/en/China-and-Global-Two-wheeler-Intelligence-and-Industry-Chain-Research-Report-2025-2026-New-National-Standard-Drives-Intelligent-Popularization-AI-Agent-Makes-Its-Way-onto-Vehicles.html",
-            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "url": "https://uk.sports.yahoo.com/news/arsenal-address-anxiety-premier-league-144115017.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/dDSdRzMND.htekoN2Hpd8A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/pa-sport.com/dfba8e0882905d92905a943c1b8793b6",
+            "source": "yahoo"
         },
         {
-            "title": "CT environmental groups are sounding the alarm after EPA guts \u2018critical\u2019 regulations. Here\u2019s why",
+            "title": "'In the holiest of months, Oldham families are being affected by violence in the Middle East'",
             "severity": "WATCH",
-            "url": "https://www.courant.com/2026/03/02/ct-environmental-groups-are-sounding-the-alarm-after-epa-guts-critical-regulation-heres-why/",
-            "image": "https://www.courant.com/wp-content/uploads/2024/02/THC-L-CT_Highways_10.jpg?strip=all&w=1400px",
-            "source": "courant"
+            "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/in-holiest-months-oldham-families-33516420",
+            "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33516437.ece/ALTERNATES/s615/0_031025policeterror37.jpg",
+            "source": "manchestereveningnews"
         },
         {
-            "title": "India's Economic Rise: Lessons for Brazil's Industrial Strategy",
+            "title": "Where Is Benjamin Netanyahu? \u2018Missing\u2019 Claims Viral On Social Media",
             "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/world/indias-economic-rise-lessons-for-brazils-industrial-strategy-articleshow-79k83gv",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-fd7592aa-9777-466c-a034-4cdb567f9a1a.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Some Alleged Polymarket Insiders Made a Fortune on U.S. Strikes on Iran",
-            "severity": "WATCH",
-            "url": "https://gizmodo.com/some-alleged-polymarket-insiders-made-a-fortune-on-u-s-strikes-on-iran-2000728196",
-            "image": "https://gizmodo.com/app/uploads/2026/03/iran-eplosion-1280x853.jpg",
-            "source": "gizmodotech"
-        },
-        {
-            "title": "Colts to consider transition tag for Daniel Jones, per sources; but what does that mean?",
-            "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7079865/2026/03/02/colts-daniel-jones-alec-pierce-franchise-tag-transition-tag-deadline/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/03/01214840/USATSI_27893528-scaled.jpg",
-            "source": "theathleticuk"
-        },
-        {
-            "title": "Ranking the top 50 rivalries in men's college basketball, from Duke-Carolina to Wofford-Furman",
-            "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7076337/2026/03/02/college-basketball-rivalry-rankings-duke-unc/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/02/28123835/0302_RankingTheRop50Rivalries-scaled.jpg",
-            "source": "theathleticuk"
-        },
-        {
-            "title": "As national debt nears $39 trillion and Trump promises to balance budget, Americans spend more on interest payments than on defense - Mon, 02 Mar 2026 PST",
-            "severity": "WATCH",
-            "url": "http://www.spokesman.com/stories/2026/mar/02/as-national-debt-nears-39-trillion-and-trump-promi/",
-            "image": "https://thumb.spokesman.com/HvNuDhP0Ab-baRmHbbRMHgF9_7c=/1200x800/smart/media.spokesman.com/photos/2026/02/27/69a233be184a4.hires.jpg",
-            "source": "spokesman"
-        },
-        {
-            "title": "Reza Pahlavi: The Prince Without a Passport Who Still Dreams of a Free Iran",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/lifestyle/people/reza-pahlavi-the-prince-without-a-passport-who-still-dreams-of-a-free-iran-article-153733001",
-            "image": "https://images.timesnownews.com/photo/msid-153733229/153733229.jpg",
+            "url": "https://www.timesnownews.com/world/middle-east/where-is-benjamin-netanyahu-missing-claims-viral-on-social-media-amid-middle-east-conflict-article-153736279",
+            "image": "https://images.timesnownews.com/thumb/msid-153736279,imgsize-1053307,width-1280,height-720/153736279.jpg",
             "source": "timesnownews"
         },
         {
-            "title": "When the Internet Goes Dark, the Truth Goes With It",
+            "title": "Russian forces liberate over 80 settlements in special operation zone this winter \u2014 expert",
             "severity": "WATCH",
-            "url": "https://www.wired.com/story/plestia-alaqad-gaza-citizen-journalist-social-media/",
-            "image": "https://media.wired.com/photos/699f8ba5cd6837e9ebf457f4/3:4/w_120,c_limit/PLESTIA_WiredME_Web-LEAD.jpg",
-            "source": "wired"
+            "url": "https://tass.com/politics/2094897",
+            "image": "https://images.pexels.com/photos/7947958/pexels-photo-7947958.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "tass"
         },
         {
-            "title": "The curious case of The Wave contractors and a new consulting firm",
+            "title": "\u2018Must apply parity\u2019: Why Chhattisgarh High Court granted bail to ex-CMO official in Rs 2,883 crore liquor \u2018scam\u2019",
             "severity": "WATCH",
-            "url": "https://www.smh.com.au/national/queensland/the-curious-case-of-the-wave-contractors-and-a-new-consulting-firm-20260225-p5o5e0.html",
-            "image": "https://static.ffx.io/images/$zoom_0.5518518518518518,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_0/t_crop_custom/q_86,f_auto/78ab83f4d2f81ecb277e80e3fa5cfb6353b652a885f507e7f2df770f8c34cc3a",
-            "source": "smh"
+            "url": "https://indianexpress.com/article/legal-news/chhattisgarh-high-court-liquor-scam-saumya-chaurasia-bail-order-10561322/",
+            "image": "https://images.indianexpress.com/2026/03/Chhatisgarh-Liquor-Scam.jpeg",
+            "source": "indianexpress"
         },
         {
-            "title": "Why Do Orcas Spare Some Boats but Damage Others? Researchers Track the Pattern",
+            "title": "Mining Automation Industry Research Report 2026-2035: A $6.36 Billion Market with Hexagon, Rockwell Automation, Komatsu, Rio Tinto Group, Sandvik, Caterpillar Leading",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/why-do-orcas-spare-some-boats-but-damage-others-researchers-track-the-pattern/articleshow/128943011.cms",
-            "image": "https://img.etimg.com/thumb/msid-128943011,width-300,height-225,imgsize-92254,resizemode-75/.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.globenewswire.com/fr/news-release/2026/03/02/3247533/28124/en/Mining-Automation-Industry-Research-Report-2026-2035-A-6-36-Billion-Market-with-Hexagon-Rockwell-Automation-Komatsu-Rio-Tinto-Group-Sandvik-Caterpillar-Leading.html",
+            "image": "https://www.researchandmarkets.com/content-images/2470/2470684/1/mining-automation-market.png",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Woman (60) jailed for exposing daughter to \u2018prolific\u2019 sexual abuse at hands of father",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/crime-law/2026/03/02/woman-60-jailed-for-exposing-daughter-to-prolific-sexual-abuse/",
+            "image": "https://www.irishtimes.com/resizer/v2/7VKDF5OJ6ZEAPBSI3GK3PCUDRM.jpg?auth=18b41a51b975ae12cf8d01cf5bb74fc24a8c71015242a2e24b7ed2d52bdf0994&height=630&smart=true&width=1200",
+            "source": "irishtimes"
         }
     ],
-    "Last_Updated": "2026-03-02T22:34:41.479735Z"
+    "Last_Updated": "2026-03-03T02:43:03.712422Z"
 }
