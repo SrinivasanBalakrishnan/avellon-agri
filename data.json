@@ -1,232 +1,267 @@
 {
-    "AGRI_Score": 59.6,
-    "Velocity": "-3.2",
+    "AGRI_Score": 60.7,
+    "Velocity": "+1.1",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.6 reflects a significantly heightened risk environment, predominantly driven by severe geopolitical conflict intensity. The escalating \"US-Iran conflict\" and direct \"US and Israeli attacks on Iran\" are the primary catalysts, pushing the Geopolitical Conflict Intensity pillar to an exceptionally high 82.6. This active military engagement, with reports of \"Israeli Air Strikes Hitting Military Sites Near Homes\" and \"4 U.S. troops killed,\" is creating a cascading effect across other pillars, including upward pressure on energy prices and challenging the international legal order.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 60.7 reflects a high-risk environment primarily driven by the severe escalation of geopolitical conflict in the Middle East. Ongoing \"US Airstrikes On Iran Continue\" and the pursuit of \"regime change in Iran\" are directly fueling heightened Energy & Maritime Disruption and significant Trade & Supply Chain Stress. This widespread instability is causing global market selloffs and increased sovereign financial uncertainty, placing substantial pressure across multiple risk pillars.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 82.6,
-        "Energy & Maritime Disruption": 56.4,
-        "Trade & Supply Chain Stress": 66.9,
+        "Geopolitical Conflict Intensity": 85.7,
+        "Energy & Maritime Disruption": 63.9,
+        "Trade & Supply Chain Stress": 70.3,
         "Sovereign Financial Stress": 49.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 61.7,
-        "Cyber & Infrastructure Threats": 65.5,
+        "Sanctions & Regulatory Fragmentation": 61.4,
+        "Cyber & Infrastructure Threats": 55.9,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is critically elevated due to the explicit escalation of the US-Iran conflict, marked by direct military engagements and significant regional repercussions. The reports of \"Israeli Air Strikes Hitting Military Sites Near Homes\" and \"4 U.S. troops killed\" underscore the active and dangerous nature of the current conflict, driving investors to \"defence stocks\".",
-        "Energy & Maritime Disruption": "Energy markets are experiencing considerable disruption, evidenced by a significant \"US Natural Gas Futures Jump Alongside Global Gas, Oil Prices\" following heightened geopolitical tensions. Consumers are being advised to \"fill up as soon as possible,\" indicating concerns over immediate fuel availability and potential pricing volatility.",
-        "Trade & Supply Chain Stress": "Supply chain stress remains a notable concern, with the \"Bank of Canada Warns Supply Shocks May Require Restraint\" indicating broader economic impacts and potential policy responses. Disruptions are also observed in specific sectors, as evidenced by the \"cocoa crisis\" impacting a popular chocolate brand and logistical challenges affecting \"Two F1 races plunged into doubt\".",
-        "Sovereign Financial Stress": "Sovereign financial stress exhibits moderate activity, primarily influenced by investor flight to perceived safety assets amidst geopolitical uncertainty. The S&P 500's slide contrasts with a surge in \"Lockheed Martin (LMT) stock\", suggesting a defensive shift in market sentiment rather than widespread sovereign distress.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressures are currently experiencing baseline activity, without explicit headlines indicating severe volatility or shortages in the immediate term. However, the broader geopolitical unease could introduce future pressures on currency valuations and capital flows, requiring close observation.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation is significantly heightened by the ongoing \"US and Israeli attacks on Iran\", which are explicitly noted as putting \"further strain on international law\". The \"International legal order tested by war in Iran\" indicates a challenging environment for global regulatory coherence and compliance.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are elevated, primarily due to the intense military conflict and advanced weaponry used, which inherently poses risks to critical infrastructure. While no explicit cyberattack headlines were provided, the discussion of \"How the GBU-57 MOP penetrates underground bunkers\" highlights the destructive capacity targeting physical infrastructure within conflict zones.",
-        "Climate & Resource Shock": "Climate and resource shock currently presents a low-risk profile, with only isolated instances of resource-related challenges, such as the \"cocoa crisis\" impacting specific commodities. The DFC funding agreement for Quiulacocha represents a positive development for resource development rather than a shock event."
+        "Geopolitical Conflict Intensity": "The ongoing \"US Airstrikes On Iran Continue\" and the stated objective of \"regime change in Iran\" signify a critical and intensifying phase of geopolitical conflict. Further highlighting regional instability, Bahrain successfully intercepted \"70 missiles and 59 drones in wave of attacks.\"",
+        "Energy & Maritime Disruption": "The \"Latest Mideast flare-up driving crude oil, fuel prices higher\" clearly indicates significant energy market disruption, with gas prices at risk of rising \"above $5.\" Experts warn that a \"U.S.-Iran war could 'immediately' impact gas prices at the pump\" due to regional instability.",
+        "Trade & Supply Chain Stress": "The \"Foreign Office issues \u2018do not travel\u2019 warning for 76 countries\" highlights widespread disruption to international travel and logistics, directly impacting global trade flows. This severe concern is compounded by \"Middle east conflict shakes markets\" leading to falling airline stocks and increased operational challenges.",
+        "Sovereign Financial Stress": "Global markets are reacting negatively to the escalating conflict, with \"UK stocks dip as Iran conflict sparks global selloff\" indicating broad investor anxiety. This market volatility, alongside surging oil prices and defense shares, suggests increasing fiscal pressures and potential borrowing costs for nations caught in the fallout.",
+        "Currency & Liquidity Pressure": "The continued US airstrikes on Iran are contributing to market uncertainty, as evidenced by Bitcoin's volatility, closing \"Close To $70,000 As US Airstrikes On Iran Continue.\" The broader global market selloff, impacting UK stocks, suggests a tightening of liquidity and increased pressure on conventional currency valuations amid heightened risk aversion.",
+        "Sanctions & Regulatory Fragmentation": "The \"US and Israeli Attacks on Iran Put Further Strain on International Law,\" indicating potential challenges to existing international legal frameworks. This escalating situation could prompt new multilateral or unilateral sanctions, leading to increased regulatory fragmentation as nations align or oppose these actions.",
+        "Cyber & Infrastructure Threats": "The interception of \"70 missiles and 59 drones\" in Bahrain underscores an elevated threat to critical infrastructure from physical attacks in the region. Although not explicitly detailed in the news, such intense kinetic conflict significantly increases the likelihood of coordinated or retaliatory cyber operations targeting essential services and systems.",
+        "Climate & Resource Shock": "Positive developments are noted with \"Lab-grown meat hits major milestone, dramatically reducing land, water use, and climate impact,\" showcasing advancements in sustainable food technology. There are no immediate climate-related shocks or significant resource scarcity issues indicated in the current feed that would elevate this pillar's risk profile."
     },
     "All_Alerts": [
         {
-            "title": "US Natural Gas Futures Jump Alongside Global Gas, Oil Prices",
+            "title": "Gavin Newsom slams 'Trump's new war' as gas prices at risk of rising above $5",
             "severity": "HIGH",
-            "url": "https://financialpost.com/pmn/business-pmn/us-natural-gas-futures-jump-alongside-global-gas-oil-prices",
-            "image": "https://images.pexels.com/photos/7947848/pexels-photo-7947848.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "financialpost"
+            "url": "https://www.the-express.com/news/politics/200827/gavin-newsom-trump-gas-prices",
+            "image": "https://cdn-images.the-express.com/img/dynamic/13/590x/200827_1.jpg",
+            "source": "express"
         },
         {
-            "title": "Bank of Canada Warns Supply Shocks May Require Restraint",
+            "title": "US and Israel are seeking a regime change in Iran but the outcome of conflict is uncertain",
             "severity": "HIGH",
-            "url": "https://financialpost.com/pmn/business-pmn/bank-of-canada-warns-supply-shocks-may-require-restraint",
-            "image": "https://images.pexels.com/photos/14439232/pexels-photo-14439232.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "financialpost"
-        },
-        {
-            "title": "Lockheed Martin (LMT) stock jumps while S&P 500 slides \u2013 why investors are rushing to defence stocks as US-Iran conflict escalates",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/lockheed-martin-lmt-stock-jumps-while-sp-500-slides-why-investors-are-rushing-to-defence-stocks-as-us-iran-conflict-escalates/articleshow/128949246.cms",
-            "image": "https://img.etimg.com/thumb/msid-128949351,width-300,height-225,imgsize-56276,resizemode-75/lockheed-martin-lmt-stock-jumps-while-sp-500-slides-why-investors-are-rushing-to-defence-stocks-as-us-iran-conflict-escalates.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Voices From Iran: Resident Describes Israeli Air Strikes Hitting Military Sites Near Homes",
-            "severity": "HIGH",
-            "url": "https://www.rferl.org/a/israel-struck-targets-in-the-iranian-city-of-sanandaj/33692146.html",
-            "image": "https://gdb.rferl.org/0c9a873c-7c39-4e1b-3163-08de3be37656_tv_w800_h450.jpg",
-            "source": "rferl"
-        },
-        {
-            "title": "Sinking Iran\u2019s proxies, Sinwar\u2019s Al-Aqsa Flood left Khamenei high and dry",
-            "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/sinking-irans-proxies-sinwars-al-aqsa-flood-left-khamenei-high-and-dry/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/03/Sultan-Pool-strike-640x400.png",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Once allies, now at war: how Pakistan turned on the Taliban",
-            "severity": "HIGH",
-            "url": "https://www.irishtimes.com/world/middle-east/2026/03/02/once-allies-now-at-war-how-pakistan-turned-on-the-taliban/",
-            "image": "https://www.irishtimes.com/resizer/v2/E3ZLIZ4FWVXVBGDUEFGMN3FCBM.jpg?auth=ee065c64702ad1900d16dd620f0f9f2829ca70cee013c257239fb6ece98e170b&height=630&smart=true&width=1200",
+            "url": "https://www.irishtimes.com/world/middle-east/2026/03/02/us-and-israel-are-seeking-a-regime-change-in-iran-but-the-outcome-of-conflict-is-uncertain/",
+            "image": "https://www.irishtimes.com/resizer/v2/4L2BGK322Y6FLSL3BE2QXQBTEU.jpg?auth=257a5fcf95401fb13ab79140dfdc723f87bd72770ae049bd0ef523e5e09009a6&height=630&smart=true&width=1200",
             "source": "irishtimes"
         },
         {
-            "title": "Strikes hit Beirut's southern suburbs after Israeli warning",
+            "title": "Trump says US 'substantially ahead' of timeline in Iran",
             "severity": "HIGH",
-            "url": "https://gulfnews.com/world/mena/strikes-hit-beiruts-southern-suburbs-after-israeli-warning-1.500461081",
-            "image": "https://media.assettype.com/gulfnews%2F2026-03-02%2Fe48j0h6s%2Fnewsml_afp_com_20260302T141036Z_doc_99lb3qj.jpeg?ar=40%3A21&auto=format%2Ccompress&enlarge=true&mode=crop&ogImage=true&overlay=false&overlay_position=bottom&overlay_width=100&w=1200",
+            "url": "https://gulfnews.com/world/americas/trump-says-us-substantially-ahead-of-timeline-in-iran-1.500461230",
+            "image": "https://media.assettype.com/gulfnews%2F2024-11-18%2Fuovz2k3t%2FTrump_1874abdefbe_original_ratio.jpg?ar=40%3A21&auto=format%2Ccompress&enlarge=true&mode=crop&ogImage=true&overlay=false&overlay_position=bottom&overlay_width=100&rect=0%2C0%2C800%2C420&w=1200",
             "source": "gulfnews"
         },
         {
-            "title": "Modi and Carney pledge trade expansion, put diplomatic crisis in the rearview",
+            "title": "Bitcoin Close To $70,000 As US Airstrikes On Iran Continue: What Is Going On?",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/india-news/modi-and-carney-pledge-trade-expansion-put-diplomatic-crisis-in-the-rearview-101772462337454.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/02/1600x900/logo/Prime-Minister-Narendra-Modi-shakes-hands-with-Can_1772462331544.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.benzinga.com/crypto/cryptocurrency/26/03/50974887/bitcoin-close-to-70000-as-us-airstrikes-on-iran-continue-what-is-going-on",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/03/02/Bitcoin-Price-Crash-In-Front-Of-A-Red-Ab.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
+            "source": "benzinga"
         },
         {
-            "title": "Pakistan\u2019s stock of petroleum products at \u2018comfortable levels\u2019, committee told",
+            "title": "UK stocks dip as Iran conflict sparks global selloff",
             "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1977522/pakistans-stock-of-petroleum-products-at-comfortable-levels-committee-told",
-            "image": "https://i.dawn.com/primary/2026/03/0218385209ecf79.webp",
-            "source": "dawn"
+            "url": "https://www.marketscreener.com/news/uk-stocks-dip-as-iran-conflict-sparks-global-selloff-ce7e5cdddb8af020",
+            "image": "https://images.pexels.com/photos/33333379/pexels-photo-33333379.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "marketscreener"
         },
         {
-            "title": "Popular chocolate brand says it will not make bars smaller despite cocoa crisis",
+            "title": "At J Street summit, leading Senate critic of Israel says Iran war 'opens a Pandora's box'",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/life-style/food-and-drink/tonys-chocolonely-size-price-cost-cocoa-b2930294.html",
-            "image": "https://static.independent.co.uk/2026/02/03/11/03111148-8c8b2076-6f3e-4fc2-8c66-860aada74387.jpg?crop=1200%3A800&height=800&width=1200",
-            "source": "independentuk"
+            "url": "https://www.haaretz.com/us-news/2026-03-02/ty-article/.premium/leading-senate-critic-of-israel-says-iran-war-opens-a-pandoras-box/0000019c-af4d-dab8-abdc-ef5d67ec0000",
+            "image": "https://img.haarets.co.il/bs/0000019c-af66-db5a-a99f-bf67181f0001/c0/a7/3e0669914d378f3716d47d581142/photo-mar-01-2026-1-31-52-pm.jpg?height=81&width=108",
+            "source": "haaretz_is"
         },
         {
-            "title": "Who is Hezbollah and why are militants involved in the Iran war?",
+            "title": "Foreign Office issues \u2018do not travel\u2019 warning for 76 countries - full list",
             "severity": "HIGH",
-            "url": "https://metro.co.uk/2026/03/02/hezbollah-militants-involved-iran-war-27186626/",
-            "image": "https://metro.co.uk/wp-content/uploads/2023/10/SEI_175727814-5fc6_1772462467.jpg?crop=1&h=630&quality=90&strip=all&w=1200",
-            "source": "metro"
-        },
-        {
-            "title": "Pentagon addresses Iran war as 4 U.S. troops killed",
-            "severity": "HIGH",
-            "url": "https://www.cbsnews.com/video/pentagon-addresses-iran-war-as-4-us-troops-killed/",
-            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/02/66e0eee0-a164-4a49-88ca-a614bf8c2208/thumbnail/60x60/85f496eb238b4e6a0b886845c1e83b01/cbsn-fusion-pentagon-addresses-iran-war-as-4-us-troops-killed-thumbnail.jpg",
-            "source": "cbsnews"
-        },
-        {
-            "title": "How the GBU-57 MOP penetrates underground bunkers",
-            "severity": "HIGH",
-            "url": "https://interestingengineering.com/videos/how-the-gbu-57-mop-penetrates-underground-bunkers",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/03/Web_5b37f7.jpg",
-            "source": "interestingengineering"
-        },
-        {
-            "title": "What is Iran\u2019s military strategy? How has it changed since June 2025 war?",
-            "severity": "HIGH",
-            "url": "https://www.aljazeera.com/news/2026/3/2/what-is-irans-military-strategy-how-it-has-changed-since-june-2025-war",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2025/11/2025-11-12T172429Z_1703850588_RC24VHA3X5R3_RTRMADP_3_IRAN-MILITARY-MISSILE-1763206748.jpg?quality=80&resize=770%2C513",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "US and Israeli attacks on Iran put further strain on international law",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com/news/world/europe/us-and-israeli-attacks-on-iran-put-further-strain-on-international-law/article_cce15248-bfd5-584a-a380-f37bc8fd8eea.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/1/f2/1f294528-3427-5cbe-8090-1a8010c91e4d/69a59ee951c5f.image.jpg?resize=300%2C200",
-            "source": "thestar"
-        },
-        {
-            "title": "Drivers warned 'fill up as soon as possible' - and stick to supermarkets",
-            "severity": "HIGH",
-            "url": "https://www.birminghammail.co.uk/motoring/motoring-news/drivers-warned-fill-up-soon-33516654",
-            "image": "https://i2-prod.birminghammail.co.uk/motoring/motoring-news/article33516667.ece/ALTERNATES/s615/0_petrol6.jpg",
-            "source": "birminghammail"
-        },
-        {
-            "title": "International legal order tested by war in Iran",
-            "severity": "HIGH",
-            "url": "https://apnews.com/article/iran-us-international-law-war-aggression-6f0b57efff5e62e5c8fbc1acca4a3199",
-            "image": "https://dims.apnews.com/dims4/default/51b97bc/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F32%2F59%2Fe469bf1ae513a036a08e3499a2bd%2F9f5b199ae1784cf0aec71e2ad0acaf79",
-            "source": "apnews"
-        },
-        {
-            "title": "Two F1 races plunged into doubt as team staff stranded and charter flights arranged",
-            "severity": "MEDIUM",
-            "url": "https://www.express.co.uk/sport/f1-autosport/2177269/F1-races-in-doubt-Iran-US-war",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/73/590x/2177269_1.jpg",
+            "url": "https://www.express.co.uk/travel/articles/2177345/foreign-office-do-not-travel-warning",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/25/590x/2177345_1.jpg",
             "source": "expresscouk"
         },
         {
-            "title": "Yankees 2026 Season Preview: Amed Rosario",
-            "severity": "MEDIUM",
-            "url": "https://www.pinstripealley.com/yankees-previews-how-to-watch-tv/177553/mlb-yankees-season-preview-amed-rosario-2026-infield",
-            "image": "https://platform.pinstripealley.com/wp-content/uploads/sites/124/2026/02/gettyimages-2263586267.jpg?crop=0%2C10.736272161879%2C100%2C78.527455676242&quality=90&strip=all",
-            "source": "pinstripealley"
+            "title": "Trump says Iran war could last beyond a month as he lays out objectives | Special Report",
+            "severity": "HIGH",
+            "url": "https://www.cbsnews.com/video/trump-iran-war-could-last-more-than-month-objectives/",
+            "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/03/02/969450c3-e8e5-4f36-a638-569e0acc3482/thumbnail/60x60/7162e5f1b969057aae59d4d0db0dc703/cbsn-fusion-trump-lays-out-objectives-for-iran-operation-thumbnail.jpg",
+            "source": "cbsnews"
         },
         {
-            "title": "Cerro de Pasco Resources Enters Project Development Funding Agreement with U.S. International Development Finance Corporation for Quiulacocha",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/03/02/3247534/0/en/Cerro-de-Pasco-Resources-Enters-Project-Development-Funding-Agreement-with-U-S-International-Development-Finance-Corporation-for-Quiulacocha.html",
-            "image": "https://images.pexels.com/photos/8846035/pexels-photo-8846035.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "AES Drops as $15 Buyout Offer Prices Below Recent Market Levels",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/analysis/aes-drops-as-15-buyout-offer-prices-below-recent-market-levels-200622708",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "After becoming a mum, anxiety and OCD ran my life \u2013 here\u2019s how I turned my mental health around",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/health-and-wellbeing/anxiety-ocd-exercise-strong-like-mum-shakira-akabusi-b2928223.html",
-            "image": "https://static.independent.co.uk/2026/03/02/14/39/SA_web2000px-2.jpeg?crop=1200%3A800&height=800&trim=242%2C0%2C691%2C0&width=1200",
-            "source": "independentuk"
-        },
-        {
-            "title": "Arsenal will address \u2018anxiety\u2019 in Premier League title race \u2013 Jurrien Timber",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/arsenal-address-anxiety-premier-league-144115017.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/dDSdRzMND.htekoN2Hpd8A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/pa-sport.com/dfba8e0882905d92905a943c1b8793b6",
-            "source": "yahoo"
-        },
-        {
-            "title": "'In the holiest of months, Oldham families are being affected by violence in the Middle East'",
-            "severity": "WATCH",
-            "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/in-holiest-months-oldham-families-33516420",
-            "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33516437.ece/ALTERNATES/s615/0_031025policeterror37.jpg",
-            "source": "manchestereveningnews"
-        },
-        {
-            "title": "Where Is Benjamin Netanyahu? \u2018Missing\u2019 Claims Viral On Social Media",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/middle-east/where-is-benjamin-netanyahu-missing-claims-viral-on-social-media-amid-middle-east-conflict-article-153736279",
-            "image": "https://images.timesnownews.com/thumb/msid-153736279,imgsize-1053307,width-1280,height-720/153736279.jpg",
+            "title": "Trump Doubles Down on Iran Offensive, Outlines Op Timeline: '... I Don't Get Bored'",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/world/us/us-news/us-president-trump-speaking-now-iran-war-timeline-operation-epic-fury-american-soldiers-dead-article-153737253",
+            "image": "https://images.timesnownews.com/thumb/msid-153737253,imgsize-39684,width-1280,height-720/153737253.jpg",
             "source": "timesnownews"
         },
         {
-            "title": "Russian forces liberate over 80 settlements in special operation zone this winter \u2014 expert",
-            "severity": "WATCH",
-            "url": "https://tass.com/politics/2094897",
-            "image": "https://images.pexels.com/photos/7947958/pexels-photo-7947958.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "tass"
+            "title": "Papua New Guinea seeks help for citizens in Middle East, supports US-Israel attack on Iran",
+            "severity": "HIGH",
+            "url": "https://www.rnz.co.nz/international/pacific-news/588437/papua-new-guinea-seeks-help-for-citizens-in-middle-east-supports-us-israel-attack-on-iran",
+            "image": "https://media.rnztools.nz/rnz/image/upload/s--su2mkgBj--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1693963536/4L33QPD_James_MArape_and_Bejamin_Netanyahu_jpg?_a=BACCd2AD",
+            "source": "rnz_co_nz"
         },
         {
-            "title": "\u2018Must apply parity\u2019: Why Chhattisgarh High Court granted bail to ex-CMO official in Rs 2,883 crore liquor \u2018scam\u2019",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/legal-news/chhattisgarh-high-court-liquor-scam-saumya-chaurasia-bail-order-10561322/",
-            "image": "https://images.indianexpress.com/2026/03/Chhatisgarh-Liquor-Scam.jpeg",
-            "source": "indianexpress"
+            "title": "Middle east conflict shakes markets: Airline stocks fall while oil and defense shares surge",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/us/middle-east-conflict-shakes-markets-airline-stocks-fall-while-oil-and-defense-shares-surge/articleshow/128951694.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-71994,resizemode-75,msid-128951694/news/international/us/middle-east-conflict-shakes-markets-airline-stocks-fall-while-oil-and-defense-shares-surge.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Mining Automation Industry Research Report 2026-2035: A $6.36 Billion Market with Hexagon, Rockwell Automation, Komatsu, Rio Tinto Group, Sandvik, Caterpillar Leading",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/03/02/3247533/28124/en/Mining-Automation-Industry-Research-Report-2026-2035-A-6-36-Billion-Market-with-Hexagon-Rockwell-Automation-Komatsu-Rio-Tinto-Group-Sandvik-Caterpillar-Leading.html",
-            "image": "https://www.researchandmarkets.com/content-images/2470/2470684/1/mining-automation-market.png",
-            "source": "globenewswire_fr"
+            "title": "Latest Mideast flare-up driving crude oil, fuel prices higher",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/business/article/latest-mideast-flare-up-driving-crude-oil-fuel-prices-higher/",
+            "image": "https://www.ctvnews.ca/resizer/v2/TJSPFMIWWBMDLHSWUCQKE4DKOM.jpg?auth=3276ba5f1fc49cc1a6c3503a641cd98d1ecf5c7a951523b629f9eac17ded41c8&height=630&smart=true&width=1200",
+            "source": "ctvnews"
         },
         {
-            "title": "Woman (60) jailed for exposing daughter to \u2018prolific\u2019 sexual abuse at hands of father",
+            "title": "How a U.S.-Iran war could 'immediately' impact gas prices at the pump, according to experts",
+            "severity": "HIGH",
+            "url": "https://www.cnbc.com/2026/03/02/us-iran-war-gas-prices.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108271860-17724536201772453616-44307685944-1080pnbcnews.jpg?h=422&v=1772453619&vtcrop=y&w=750",
+            "source": "cnbc"
+        },
+        {
+            "title": "Is the UK being dragged into Trump's Iran war?",
+            "severity": "HIGH",
+            "url": "https://news.sky.com/story/is-the-uk-being-dragged-into-trumps-iran-war-13514349",
+            "image": "https://e3.365dm.com/26/03/1920x1080/skynews-thisiswhy-iran_7180113.jpg?20260302171312=",
+            "source": "skynews"
+        },
+        {
+            "title": "Gaza\u2019s ceasefire had some momentum. Now, some fear a new war will distract the world",
+            "severity": "HIGH",
+            "url": "https://www.dailycamera.com/2026/03/02/gaza-iran-war/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2026/03/APTOPIX_Israel_Palestinians_Ramadan_91476.jpg?w=525",
+            "source": "dailycamera"
+        },
+        {
+            "title": "Bahrain intercepts 70 missiles and 59 drones in wave of attacks",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/world/gulf/bahrain/bahrain-intercepts-70-missiles-and-59-drones-in-wave-of-attacks-1.500461236",
+            "image": "https://media.assettype.com/gulfnews%2Fimport%2F2021%2F03%2F17%2FStock-Manama-Bahrain-skyline_1784099b0e1_large.jpg?ar=40%3A21&auto=format%2Ccompress&enlarge=true&mode=crop&ogImage=true&overlay=false&overlay_position=bottom&overlay_width=100&rect=0%2C3%2C750%2C394&w=1200",
+            "source": "gulfnews"
+        },
+        {
+            "title": "US and Israeli Attacks on Iran Put Further Strain on International Law",
+            "severity": "HIGH",
+            "url": "https://www.military.com/daily-news/2026/03/02/us-and-israeli-attacks-iran-put-further-strain-international-law.html",
+            "image": "https://images01.military.com/sites/default/files/styles/full/public/2026-03/ApNewsroom_APTOPIX_Iran_US_Israel_58092.jpg?itok=6lABjMmS",
+            "source": "military"
+        },
+        {
+            "title": "Lab-grown meat hits major milestone, dramatically reducing land, water use, and climate impact",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/international/us/lab-grown-meat-hits-major-milestone-dramatically-reducing-land-water-use-and-climate-impact/articleshow/128951778.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-178678,resizemode-75,msid-128951778/news/international/us/lab-grown-meat-hits-major-milestone-dramatically-reducing-land-water-use-and-climate-impact.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "McDonald's CEO Mocked for Hilariously Viral 'Big Arch' Burger Taste Test Video",
+            "severity": "MEDIUM",
+            "url": "https://www.tmz.com/2026/03/02/mcdonalds-ceo-teased-for-big-arch-burger-viral-video/",
+            "image": "https://imagez.tmz.com/image/cb/4by3/2026/03/02/cbfc54bdcea84b6885f66c43afe6e196_md.jpg",
+            "source": "tmz"
+        },
+        {
+            "title": "Earnings call transcript: Kosmos Energy misses Q4 2025 forecasts, stock rises pre-market",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/crime-law/2026/03/02/woman-60-jailed-for-exposing-daughter-to-prolific-sexual-abuse/",
-            "image": "https://www.irishtimes.com/resizer/v2/7VKDF5OJ6ZEAPBSI3GK3PCUDRM.jpg?auth=18b41a51b975ae12cf8d01cf5bb74fc24a8c71015242a2e24b7ed2d52bdf0994&height=630&smart=true&width=1200",
-            "source": "irishtimes"
+            "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-kosmos-energy-misses-q4-2025-forecasts-stock-rises-premarket-93CH-4535262",
+            "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Iran's Air Defenses Are Weak, But Tehran Is Hitting Back",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/iran-air-defenses-weak-us-military-israel-strikes-russia-11602554",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/03/AP24113634915377-1.jpg?w=1200crop%3D1",
+            "source": "newsweek"
+        },
+        {
+            "title": "Research to impact: Five FSU professors named National Academy of Inventors Senior members",
+            "severity": "WATCH",
+            "url": "https://news.fsu.edu/news/university-news/2026/03/02/research-to-impact-five-fsu-professors-named-national-academy-of-inventors-senior-members/",
+            "image": "http://news.fsu.edu/wp-content/uploads/2026/03/National-Academy-of-Inventors.jpg",
+            "source": "news_fsu"
+        },
+        {
+            "title": "Paramount just nabbed 2 big hires as it looks to jump-start its streaming ads business",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/paramount-hires-to-jump-start-its-ads-business-2026-3",
+            "image": "https://i.insider.com/69a5c1dbd3e2f1aef369cfd4?width=700",
+            "source": "businessinsider_us"
+        },
+        {
+            "title": "\u2018I don\u2019t care\u2019: Trump blasts polling on Iran \u2014 and makes stunning claim",
+            "severity": "WATCH",
+            "url": "https://www.nj.com/politics/2026/03/i-dont-care-trump-blasts-polling-on-iran-and-makes-stunning-claim.html",
+            "image": "https://www.nj.com/resizer/v2/LYTYI2ODABF2LJRDBUBTHV7RXA.jpg?auth=5d44d6d0b9745ec758aad95c0e1ceea10e7ee52ed2d5d3f06a2da686759148d2&height=1200&smart=true",
+            "source": "nj"
+        },
+        {
+            "title": "Trump says US mission in Iran is 'ahead of schedule,' vows to 'easily prevail' over regime",
+            "severity": "WATCH",
+            "url": "https://www.foxnews.com/politics/trump-says-us-mission-iran-ahead-schedule-vows-easily-prevail-over-regime",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/931/523/donald-trump-medal-of-honor-ceremony.jpg?tl=1&ve=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Spain rejects Israel's accusation of 'standing with Iran' and other tyrants",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/israeli-foreign-minister-accuses-spain-142054982.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/jy4pbaxpECIeIJyct5QeTQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/euronews_ca_articles_409/87e9afb2d0e8280370f6380b21ea4bb1",
+            "source": "yahoo"
+        },
+        {
+            "title": "Pakistan deploys troops and imposes curfew after deadly protests over U.S.-Israeli strikes on Iran",
+            "severity": "WATCH",
+            "url": "https://www.washingtontimes.com/news/2026/mar/2/pakistan-deploying-troops-imposing-curfew-deadly-protests-us-israeli/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2026/03/02/Pakistan_Iran_US_Israel_Protest_32086_s1440x1080.jpg?d091f0ac6a77bac1b6357990e6e1f57b58a17971",
+            "source": "washingtontimes"
+        },
+        {
+            "title": "Clarion Partners Real Estate Investment Fund (CPREX) Adds to Senior Housing Holdings with Acquisition in Franklin, TN",
+            "severity": "WATCH",
+            "url": "https://www.businesswire.com/news/home/20260302118871/en/Clarion-Partners-Real-Estate-Investment-Fund-CPREX-Adds-to-Senior-Housing-Holdings-with-Acquisition-in-Franklin-TN",
+            "image": "https://mms.businesswire.com/media/20260302118871/en/2734992/21/Clarion_Partners_endorsement_Stacked_Positive.jpg",
+            "source": "businesswire"
+        },
+        {
+            "title": "Health dept in ICU: MLA Kamath hits out at Cong govt",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/mangaluru/health-dept-in-icu-mla-kamath-hits-out-at-cong-govt/articleshow/128952177.cms",
+            "image": "https://static.toiimg.com/thumb/msid-128952175,imgsize-41340,width-400,height-225,resizemode-72/health-dept-in-icu-mla-kamath-hits-out-at-cong-govt.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Peli BioThermal Announces Strategic Partnership with Polar Group in Brazil",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/pressreleases/26/03/n50975004/peli-biothermal-announces-strategic-partnership-with-polar-group-in-brazil",
+            "image": "https://mma.prnewswire.com/media/2562609/New_Peli_BioThermal_logo.jpg?auto=webp&dpr=2&optimize=medium&width=828",
+            "source": "benzinga"
+        },
+        {
+            "title": "Frontier Lithium Receives Conditional Approval under NRCan's Global Partnerships Initiative to Advance Lithium By-Product Valorization",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/pressreleases/26/03/n50974917/frontier-lithium-receives-conditional-approval-under-nrcans-global-partnerships-initiative-to-adva",
+            "image": "https://mma.prnewswire.com/media/2923530/Frontier_Lithium_Inc__Frontier_Lithium_Receives_Conditional_Appr.jpg?auto=webp&dpr=2&optimize=medium&width=828",
+            "source": "benzinga"
+        },
+        {
+            "title": "UK natural gas price soars as Iran strikes spark WW3 fears - what it means for you",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/finance/personalfinance/2177354/uk-natural-gas-price-soars-after-iran-attacks",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/23/590x/2177354_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "JPMorgan Sees Broadcom AI Revenue Topping $9B This Quarter On Strong Google TPU Demand",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/03/50974675/jpmorgan-sees-broadcom-ai-revenue-topping-9b-this-quarter-on-strong-google-tp",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/03/02/Broadcom-Inc-.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
+            "source": "benzinga"
+        },
+        {
+            "title": "Social media companies are fighting the \u2018age verification trap\u2019 as collecting biometrics on kids violates privacy rights",
+            "severity": "WATCH",
+            "url": "https://fortune.com/2026/03/02/social-media-companies-age-verification-addiction-privacy-concerns/",
+            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/03/GettyImages-1159763174-1-e1772469361280.jpg?w=2048",
+            "source": "fortune"
         }
     ],
-    "Last_Updated": "2026-03-03T02:43:03.712422Z"
+    "Last_Updated": "2026-03-03T05:16:32.093752Z"
 }
