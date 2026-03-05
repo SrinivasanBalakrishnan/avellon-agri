@@ -1,237 +1,274 @@
 {
-    "AGRI_Score": 59.3,
-    "Velocity": "-2.3",
-    "Top_Risk_Driver": "Trade & Supply Chain Stress",
-    "AI_Brief": "Analyst system calibrating.",
+    "AGRI_Score": 61.0,
+    "Velocity": "+1.7",
+    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) currently stands at 61.0/100, reflecting significantly elevated global risk, primarily driven by intensifying geopolitical conflicts and their direct ramifications on energy and maritime security. The 'Geopolitical Conflict Intensity' pillar is at a critical 82.1 due to escalating events such as a 'Russian LNG tanker sinks in Mediterranean, Moscow blames Ukrainian drones' and concerns about a 'US Preparing A Ground Offensive In Iran.' These conflicts are directly impacting the 'Energy & Maritime Disruption' pillar, which is at 69.0, evidenced by 'Goldman Sachs Warns Oil Could Touch $100 If Hormuz Disruption Persists' and reports of 'gas prices go up in Canada if war on Iran continues,' signaling a dangerous period of instability for global markets.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 74.2,
-        "Energy & Maritime Disruption": 57.6,
-        "Trade & Supply Chain Stress": 79.2,
+        "Geopolitical Conflict Intensity": 82.1,
+        "Energy & Maritime Disruption": 69.0,
+        "Trade & Supply Chain Stress": 68.9,
         "Sovereign Financial Stress": 50.6,
         "Currency & Liquidity Pressure": 50.0,
         "Sanctions & Regulatory Fragmentation": 61.4,
-        "Cyber & Infrastructure Threats": 60.6,
+        "Cyber & Infrastructure Threats": 58.7,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to the intensifying direct and proxy conflicts. News of a 'Russian LNG tanker sinks in Mediterranean, Moscow blames Ukrainian drones' highlights maritime warfare and direct kinetic attacks, while reports of 'US Preparing A Ground Offensive In Iran With Kurdish Militias' indicate a dangerous escalation in the Middle East.",
+        "Energy & Maritime Disruption": "Energy security faces severe threats from both direct attacks and geopolitical tensions. The sinking of a 'Russian LNG tanker' by alleged 'Ukrainian sea drones' directly impacts energy infrastructure, and the warning from 'Goldman Sachs Warns Oil Could Touch $100 If Hormuz Disruption Persists' underscores the risk of broader supply shocks from Middle East instability.",
+        "Trade & Supply Chain Stress": "Rising energy costs and regional instability are placing considerable stress on global trade routes and supply chains. 'How Middle East flight disruptions are leaving foreigners stranded' illustrates direct logistical challenges, while the warning that 'Will gas prices go up in Canada if war on Iran continues? Energy expert says they already are' points to escalating operational costs for freight and manufacturing worldwide.",
+        "Sovereign Financial Stress": "The prospect of surging oil prices and widening conflicts presents a significant risk to national budgets and economic stability, especially for import-dependent nations. 'Goldman Sachs Warns Oil Could Touch $100 If Hormuz Disruption Persists' highlights a key driver of potential fiscal strain, demanding close attention to national debt sustainability.",
+        "Currency & Liquidity Pressure": "Escalating geopolitical risks and commodity price volatility are contributing to currency and liquidity concerns. The potential for 'Oil Could Touch $100 If Hormuz Disruption Persists' implies increased import bills for many economies, which could put downward pressure on local currencies and tighten foreign exchange liquidity.",
+        "Sanctions & Regulatory Fragmentation": "The complex web of existing and potential international responses to ongoing conflicts maintains a high level of regulatory uncertainty. Discussions around 'The exact rules that decide if UK joins war against Iran' signal the possibility of new international alignments and associated sanctions regimes, further fragmenting global commerce.",
+        "Cyber & Infrastructure Threats": "Threats to critical infrastructure are elevated, as demonstrated by reports of a 'Russian LNG tanker sinks in Mediterranean' due to alleged drone attacks, highlighting vulnerabilities in energy transport. While specific cyberattacks are not detailed, the heightened global conflict intensity suggests an increased likelihood of state-sponsored digital espionage and disruption targeting national infrastructure.",
+        "Climate & Resource Shock": "This pillar currently exhibits baseline activity, with no immediate news indicating significant shocks. Monitoring for extreme weather events or resource scarcity remains routine."
+    },
     "All_Alerts": [
         {
-            "title": "Airline shares selloff eases as some flights leave Gulf amid Iran conflict",
+            "title": "Russian LNG tanker sinks in Mediterranean, Moscow blames Ukrainian drones",
             "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/business/article/airline-shares-selloff-eases-as-some-flights-leave-gulf-amid-iran-conflict/",
-            "image": "https://www.ctvnews.ca/resizer/v2/2B3V4MXGYNBTA6KLAPI3UCVRCU.jpg?auth=cf4a446846b105d33518bbe7dc395c4e329b5aa01f96491a709c670a9451fd04&height=630&smart=true&width=1200",
-            "source": "ctvnews"
-        },
-        {
-            "title": "War to hobble supply chain as trade costs soar",
-            "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/business/general/3209829/war-to-hobble-supply-chain-as-trade-costs-soar",
-            "image": "https://static.bangkokpost.com/media/content/20260304/c1_3209829_260304181209_800.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Donald Trump assassins: War chief's two-word take on bid to kill president",
-            "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/news/us-news/donald-trump-assassins-war-chiefs-36815857",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36816148.ece/ALTERNATES/s615/1_US-POLITICS-TRUMP.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Fox News trolls dub Jesse Watters \u2018the dumbest guy on TV\u2019 after his bold Iran declaration",
-            "severity": "HIGH",
-            "url": "https://www.the-express.com/entertainment/tv/201033/fox-news-jesse-watters-iran",
-            "image": "https://cdn-images.the-express.com/img/dynamic/22/590x/201033_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "Gas prices jump again overnight as conflict in Iran continues to strangle global oil market",
-            "severity": "HIGH",
-            "url": "https://www.kgw.com/article/news/nation-world/attack-on-iran/gas-prices-jump-again-iran-conflict/507-abb8878f-0b64-49b7-9cd0-347424812505",
-            "image": "https://media.tegna-media.com/assets/CCT/images/f142c115-db22-4649-847f-2d5ed0a25ce2/f142c115-db22-4649-847f-2d5ed0a25ce2_750x422.jpg",
-            "source": "kgw"
-        },
-        {
-            "title": "FIIs sold about Rs 11,000 crore worth Indian stocks in 2 days of US-Iran war",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-sold-about-rs-11000-crore-worth-indian-stocks-in-2-days-of-us-iran-war/articleshow/129032843.cms",
-            "image": "https://img.etimg.com/photo/118783427.cms",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Silent convoy was undeniably impressive as Liverpool was bathed in blue light - Liverpool Echo",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTm5DRjZZeTlkVy1hcEZfLUR1LXdiVklfZXRLcWZqVUhmSnpSRHB5QVUySVhRd1E1X3R2dFNVMmIyUDdBazdhTkdYS0h5dWRXUmFwemxxVkYySGo3NWZqUVRSOG50RDFrN29ucElhRDdyZWY3ZExBV0g2WF9BTmFabVl5SGRPbHpCVkFaaE5vOUo5Si1CT3BkdFpSSzZUdXJ2Q0o4UEFsQlJhQdIBrwFBVV95cUxPd2Zldmo0X2NvQWFwX0JxRnM1Y1pJRi1QSzJtV0FNc3dFLXQtVDQyd09DNnJ4dnBNbTg0ZDZTdzF5Q0dGQmFQZkFFOEQwT2ZmU0xGMUFldTQyZEN3a2xBT25kRVBzWlN0azB1UkxabEJlMWU0UzFvZEQwdjJvRThEWHlXcTVaZlFiT0FLSEdEam1UX1N3T3U0ZjktNThLTmEwT3RFaW91SHZpYXJZWWdj?oc=5",
-            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Iran War Sends Economic Ripples Through Central Asia, Turkmenistan Most Exposed",
-            "severity": "HIGH",
-            "url": "https://www.rferl.org/a/iran-war-economy-central-asia-turkmenistan/33695124.html",
-            "image": "https://gdb.rferl.org/01000000-0aff-0242-011d-08dc83b2a64c_cx0_cy18_cw0_w800_h450.jpeg",
-            "source": "rferl"
-        },
-        {
-            "title": "Iran war spikes local gas prices - BayToday.ca",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ2hyNVJBR19sajQ1RE0taWdvMjZTYVM1ZXc5RGNaZW5EYTZvSTlsd1RfS3ROZ1k0ME15bGoxeGd0VGFhX2VwR1hoR3FPellFRUxpeHlDRmZ2UllNWEdKVHV5NHZjdzNvSmJlZldQYmF0alFlOXhRZkY0M3pNc3NWemtR?oc=5",
-            "image": "https://images.pexels.com/photos/31334739/pexels-photo-31334739.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Hegseth says more US forces arriving in Middle East as Iran war ramps up",
-            "severity": "HIGH",
-            "url": "https://www.aljazeera.com/news/2026/3/4/hegseth-says-more-us-forces-arriving-in-middle-east-as-iran-war-ramps-up",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/03/ap_69a83960a1b31-1772632416.jpg?quality=80&resize=770%2C513",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Is an Iran bomb now inevitable?",
-            "severity": "HIGH",
-            "url": "https://www.upi.com/Voices/2026/03/04/iran-us-war-outcome/4711772633151/",
-            "image": "https://cdnph.upi.com/svc/sv/i/4711772633151/2026/1/17726347522944/Is-an-Iran-bomb-now-inevitable.jpg",
-            "source": "upi"
-        },
-        {
-            "title": "Stock market today: Dow, S&P 500, Nasdaq rise on Iran war hopes, upbeat jobs data",
-            "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/stock-market-today-dow-sp-500-nasdaq-rise-on-iran-war-hopes-upbeat-jobs-data-143516233.html",
-            "image": "https://images.pexels.com/photos/14439232/pexels-photo-14439232.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "How To Explain Code to People Who Control the Budget",
-            "severity": "HIGH",
-            "url": "https://hackernoon.com/how-to-explain-code-to-people-who-control-the-budget",
-            "image": "https://substackcdn.com/image/fetch/$s_!nPG2!,f_auto,q_auto:good,fl_progressive:steep/https:%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6c9c622-7e1f-445b-93e1-8b4b96e61cf3_2816x1536.png",
-            "source": "hackernoon"
-        },
-        {
-            "title": "Shadow War Hits Indian Ocean As Iranian Frigate IRIS Dena Sunk Off Sri Lankan Coast | Exclusive Details",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/world/shadow-war-hits-indian-ocean-as-iranian-frigate-iris-dena-sunk-off-sri-lankan-coast-exclusive-details-9942383.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/03/NW18-2026-03-04T154530.241-2026-03-0ba47ceb364829068143b0036e9fc57d-1200x800.png",
-            "source": "news18"
-        },
-        {
-            "title": "Paint giant AkzoNobel reveals data breach, says US site was affected",
-            "severity": "HIGH",
-            "url": "https://www.techradar.com/pro/security/paint-giant-akzonobel-reveals-data-breach-says-us-site-was-affected",
-            "image": "https://cdn.mos.cms.futurecdn.net/U3nMoaJ3iNrFx8Qwkwmw7d.jpg",
-            "source": "techradar_uk"
-        },
-        {
-            "title": "Carbon Neutral Data Center Market Report 2026: Global Forecast 2025-2032",
-            "severity": "MEDIUM",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/03/04/3249448/28124/en/Carbon-Neutral-Data-Center-Market-Report-2026-Global-Forecast-2025-2032.html",
-            "image": "https://www.researchandmarkets.com/content-images/2438/2438690/1/carbon-neutral-data-center-market.png",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "The Trump paradox: How trade tensions may strengthen Canada\u2019s position in an integrated market | Brookings",
-            "severity": "MEDIUM",
-            "url": "https://www.brookings.edu/articles/the-trump-paradox-how-trade-tensions-may-strengthen-canadas-position-in-an-integrated-market/",
-            "image": "https://www.brookings.edu/wp-content/uploads/2026/03/shipping-containers-canadian-flag.jpg",
-            "source": "brookings"
-        },
-        {
-            "title": "Why Owner Doesn\u2019t Believe Her Dog Is 22 Leaves Viewers Obsessed",
-            "severity": "WATCH",
-            "url": "https://www.newsweek.com/owner-doesnt-believe-dog-22-leaves-viewers-obsessed-11619394",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/03/Copy-of-32-Split-Screen-2026-03-04T130458.966.png?w=1200crop%3D1",
-            "source": "newsweek"
-        },
-        {
-            "title": "Ladies of London 2026 cast in full and what they're best known for",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/tv/tv-news/ladies-london-2026-cast-full-36815645",
-            "image": "https://i2-prod.ok.co.uk/incoming/article36816264.ece/ALTERNATES/s615/1_Hayu_LadiesOfLondonTheNewReignS4_Branded_Digital_Landscape.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Europe is paying for someone else\u2019s adventure in Middle East \u2014 expert",
-            "severity": "WATCH",
-            "url": "https://tass.com/world/2096317",
-            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "tass"
-        },
-        {
-            "title": "Huawei and Bittel Release Xinghe Al SafeStay Hotel Campus Network Solution",
-            "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/huawei-and-bittel-release-xinghe-al-safestay-hotel-campus-network-solution-302704019.html",
-            "image": "https://mma.prnewswire.com/media/2926092/image1.jpg?p=original",
-            "source": "prnewswire_apac"
-        },
-        {
-            "title": "John Stossel: California\u2019s inferno of regulations",
-            "severity": "WATCH",
-            "url": "https://www.ocregister.com/2026/03/04/john-stossel-californias-inferno-of-regulations/",
-            "image": "https://www.ocregister.com/wp-content/uploads/2026/03/LDN-L-ANNIV-POLITICS-0107-04.jpg?h=814&w=1024",
-            "source": "ocregister"
-        },
-        {
-            "title": "Container vessel hit by Iranian missile forcing crew to abandon ship",
-            "severity": "WATCH",
-            "url": "https://metro.co.uk/2026/03/04/container-vessel-hit-iranian-missile-forcing-crew-abandon-ship-27225539/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/03/SEI_287819078-6b6a_1772635968.jpg?crop=1&h=630&quality=90&strip=all&w=1200",
-            "source": "metro"
-        },
-        {
-            "title": "$17.8 Bn Data Center Automation Markets - Global Forecast to 2032",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/03/04/3249447/28124/en/17-8-Bn-Data-Center-Automation-Markets-Global-Forecast-to-2032.html",
-            "image": "https://www.researchandmarkets.com/content-images/2441/2441156/1/data-center-automation-market.png",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Customers have less than two weeks to use Eddie Bauer gift cards as company puts 174 leases on the market",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/life-style/eddie-bauer-gift-cards-stores-closing-b2931786.html",
-            "image": "https://static.independent.co.uk/2026/03/04/13/01/Untitled-design-(4).png?crop=1200%3A800&height=800&trim=0%2C0%2C0%2C0&width=1200",
-            "source": "independentuk"
-        },
-        {
-            "title": "Sam Altman admits OpenAI's Pentagon deal was rushed and 'sloppy'",
-            "severity": "WATCH",
-            "url": "https://www.latimes.com/business/story/2026-03-04/sam-altman-admits-openais-pentagon-deal-was-rushed-sloppy",
-            "image": "https://images.pexels.com/photos/5504455/pexels-photo-5504455.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "latimes"
-        },
-        {
-            "title": "Lantronix Tackles Network Downtime With Automated Out-of-Band Innovations at Cisco Live 2026 Amsterdam",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/markets/lantronix-tackles-network-downtime-with-automated-out-of-band-innovations-at-cisco-live-2026-amsterdam-articleshow-v23efd4",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-da9fc430-f232-49c2-bc89-630d9355ade9.webp",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Crashed drone led police to drugs network",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/crashed-drone-led-police-drugs-141749596.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/AOV9iSmIqPZOi_NZRGEREw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/bbc_us_articles_995/40986d5c731be5a81359966816a32188",
-            "source": "yahoo"
-        },
-        {
-            "title": "Dinesh Gundu Rao flags off upgradation of UGD works: MLA expresses displeasure for not inviting him",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/india/karnataka/mangaluru/dinesh-gundu-rao-flags-off-upgradation-of-ugd-works-mla-expresses-displeasure-for-not-inviting-him-3919772",
-            "image": "https://media.assettype.com/deccanherald%2F2026-01-31%2Fp2gmdt3b%2Ffile806c7xsgdwi1ltbm5a2.jpg?ar=40%3A21&auto=format%2Ccompress&mode=crop&ogImage=true&rect=0%2C0%2C600%2C315&w=1200",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Soccer-Man United teenager Jack Fletcher apologises for homophobic slur",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/sport/football/2026/03/04/soccer-man-united-teenager-jack-fletcher-apologises-for-homophobic-slur",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/04/3797756.jpg",
+            "url": "https://www.thestar.com.my/news/world/2026/03/05/russian-lng-tanker-sinks-in-mediterranean-moscow-blames-ukrainian-drones",
+            "image": "https://cdn.thestar.com.my/Themes/img/newTsol_logo_socmedia.png",
             "source": "thestar_my"
         },
         {
-            "title": "Man Utd legend Darren Fletcher's son banned for six games and fined over homophobic abuse",
+            "title": "Russia blames Ukrainian sea drones for attacking tanker that sank in Mediterranean",
+            "severity": "HIGH",
+            "url": "https://www.thehindu.com/news/international/russia-blames-ukrainian-sea-drones-for-attacking-tanker-that-sank-in-mediterranean/article70704650.ece",
+            "image": "https://th-i.thgim.com/public/incoming/auoamf/article70704700.ece/alternates/LANDSCAPE_1200/Russia-Ukraine-War_27879.jpg",
+            "source": "thehindu"
+        },
+        {
+            "title": "US ambassador to Israel jokes about staff \u2018procreating\u2019 during war",
+            "severity": "HIGH",
+            "url": "https://metro.co.uk/2026/03/04/us-ambassador-to-israel-jokes-about-staff-procreating-during-war-27227570/",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/03/SEI_258220624-3a91_1772644337.jpg?crop=1&h=630&quality=90&strip=all&w=1200",
+            "source": "metro"
+        },
+        {
+            "title": "Goldman Sachs Warns Oil Could Touch $100 If Hormuz Disruption Persists",
+            "severity": "HIGH",
+            "url": "https://www.ndtvprofit.com/world/goldman-sachs-warns-oil-could-touch-100-if-hormuz-disruption-persists-11168935",
+            "image": "https://images.pexels.com/photos/23789/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
+            "source": "ndtv"
+        },
+        {
+            "title": "Iran says a girls' school was hit by a deadly air strike. Here's what we know.",
+            "severity": "HIGH",
+            "url": "https://www.cbsnews.com/news/iran-girls-school-alleged-strike/",
+            "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/03/04/c196c119-e339-499b-9306-f829556b64d3/thumbnail/50x40/68a551f5b00d277fcd96f4e55fb012ee/2026-03-04t080934z-1458219330-rc2vci95qku3-rtrmadp-3-iran-crisis-school-aftermath.jpg",
+            "source": "cbsnews"
+        },
+        {
+            "title": "Will gas prices go up in Canada if war on Iran continues? Energy expert says they already are",
+            "severity": "HIGH",
+            "url": "https://nationalpost.com/news/canada/will-gas-prices-go-up-in-canada-if-war-on-iran-continues-energy-expert-says-they-already-are",
+            "image": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/03/0304-cb-gas-price.jpg?h=216&quality=90&sig=48oNV__K4ZZGIUjYBnqDvg&strip=all&w=288",
+            "source": "nationalpost"
+        },
+        {
+            "title": "South America's Triple Frontier tightens security amid U.S.-Iran war",
+            "severity": "HIGH",
+            "url": "https://www.upi.com/Top_News/World-News/2026/03/04/latam-paraguay/5991772643474/",
+            "image": "https://cdnph.upi.com/svc/sv/i/5991772643474/2026/1/17726443314429/South-Americas-Triple-Frontier-tightens-security-amid-US-Iran-war.jpg",
+            "source": "upi"
+        },
+        {
+            "title": "How Middle East flight disruptions are leaving foreigners stranded",
+            "severity": "HIGH",
+            "url": "https://www.cnn.com/2026/03/04/world/video/stranded-in-dubai-iran-attacks-digvid",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26060348728808.jpg?c=16x9&q=w_1280%2Cc_fill",
+            "source": "cnn"
+        },
+        {
+            "title": "How the war in Iran is testing Europe\u2019s US military base network",
+            "severity": "HIGH",
+            "url": "https://www.rfi.fr/en/international/20260304-how-the-war-in-iran-is-testing-europe-s-us-military-base-network",
+            "image": "https://s.rfi.fr/media/display/55a15d1e-17dd-11f1-96b5-005056a97e36/w:1024/p:16x9/1024px-435th-SFS-conducts-airborne-operations-over-Ramstein-Air-Base-8259397.jpg",
+            "source": "rfi_fr"
+        },
+        {
+            "title": "The exact rules that decide if UK joins war against Iran",
+            "severity": "HIGH",
+            "url": "https://www.express.co.uk/news/uk/2178192/uk-war-iran-un-charter-nato-keir-starmer",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2178192_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "OpenAI CEO says company adding safeguards after criticism over Pentagon AI deal",
+            "severity": "HIGH",
+            "url": "https://www.tmj4.com/science-and-tech/artificial-intelligence/openai-ceo-says-company-adding-safeguards-after-criticism-over-pentagon-ai-deal",
+            "image": "https://ewscripps.brightspotcdn.com/dims4/default/a29e663/2147483647/strip/true/crop/1024x538+0+73/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2Fa7%2Fa4%2Fc9dde07e4f7a9ac635015b1dd3d8%2Fap26050290105275.jpg",
+            "source": "tmj4"
+        },
+        {
+            "title": "EKU Powers Kentucky's Workforce",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/03/g51042667/eku-powers-kentuckys-workforce",
+            "image": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "benzinga"
+        },
+        {
+            "title": "Polls for ward panel heads begin today, MIM to make debut",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/mumbai/polls-for-ward-panel-heads-begin-today-mim-to-make-debut/articleshow/129040222.cms",
+            "image": "https://static.toiimg.com/thumb/msid-129040213,imgsize-56726,width-400,height-225,resizemode-72/polls-for-ward-panel-heads-begin-today-mim-to-make-debut.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "This Acer 16-inch Snapdragon touchscreen laptop is just $390",
+            "severity": "HIGH",
+            "url": "https://www.pcworld.com/article/3078289/this-acer-16-inch-snapdragon-touchscreen-laptop-is-just-390.html",
+            "image": "https://www.pcworld.com/wp-content/uploads/2026/03/acer-aspire-16-ai-3.jpeg?quality=50&strip=all",
+            "source": "pcworld_us"
+        },
+        {
+            "title": "Volker to Newsmax: New Iranian Govt Will Be Difficult to Establish",
+            "severity": "HIGH",
+            "url": "https://www.newsmax.com/politics/kurt-volker-iran-new-regime/2026/03/04/id/1248356",
+            "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "newsmax"
+        },
+        {
+            "title": "Warren Buffett and investing in times of war, fear, crises, and uncertainty: A unique experience of 5 decades and multiple wars",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/intelligent-investing/warren-buffett/warren-buffett-and-investing-in-times-of-war-fear-crises-and-uncertainty-a-unique-experience-of-5-decades-and-multiple-wars/articleshow/129039868.cms",
+            "image": "https://img.etimg.com/thumb/msid-129040159,width-1070,height-580/premium-articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Dennis Hopper\u2019s Daughter Sues His Widow Over Late Actor\u2019s Likeness Rights",
+            "severity": "HIGH",
+            "url": "https://www.tmz.com/2026/03/04/dennis-hoppers-daughter-marin-sues-widow-victoria-duffy/",
+            "image": "https://imagez.tmz.com/image/07/4by3/2026/03/04/073e964f9223475181e10fdbb1db1669_md.jpg",
+            "source": "tmz"
+        },
+        {
+            "title": "RFK Jr\u2019s Pick For Surgeon General Cashed In Promoting Companies With a History of Unsafe Products",
+            "severity": "MEDIUM",
+            "url": "https://www.rollingstone.com/politics/politics-news/casey-means-surgeon-general-newsletter-products-1235524011/",
+            "image": "https://www.rollingstone.com/wp-content/uploads/2026/03/casey-means-surgeon-general.jpg?crop=1&h=900&w=1600",
+            "source": "rollingstone"
+        },
+        {
+            "title": "US Preparing A Ground Offensive In Iran With Kurdish Militias? What We Know So Far",
+            "severity": "MEDIUM",
+            "url": "https://www.ndtvprofit.com/world/is-the-us-preparing-a-ground-offensive-in-iran-with-kurdish-militias-11168543",
+            "image": "https://c.ndtvimg.com/2026-03/9hald4ec_kurdish-army_625x300_04_March_26.jpg?im=FitAndFill%2Calgorithm%3Ddnn%2Cwidth%3D545%2Cheight%3D307",
+            "source": "ndtv"
+        },
+        {
+            "title": "Why Zenith Bank is seeking strong partnership with Ogun",
             "severity": "WATCH",
-            "url": "https://www.dailystar.co.uk/sport/football/jack-fletcher-man-utd-homophobic-36815547",
-            "image": "https://i2-prod.dailystar.co.uk/sport/football/article36815546.ece/ALTERNATES/s98/3_GettyImages-1821545208.jpg",
-            "source": "dailystar"
+            "url": "https://www.legit.ng/business-economy/economy/1699647-zenith-bank-seeks-stronger-ties-ogun-state-dapo-abiodun-showcases-infrastructure-gains/",
+            "image": "https://cdn.legit.ng/images/1120/2968bd4909d7b482.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "I never pay full price for these 7 things, including meals out and cinema tickets",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/indybest/things-i-never-pay-full-price-for-b2931986.html",
+            "image": "https://static.independent.co.uk/2026/03/04/16/59/things-i-never-pay-full-price-for.png?crop=1200%3A800&height=800&trim=0%2C0%2C0%2C0&width=1200",
+            "source": "independentuk"
+        },
+        {
+            "title": "Vance Brutally Undercuts Trump\u2019s Rosy Economic Message",
+            "severity": "WATCH",
+            "url": "https://www.thedailybeast.com/jd-vance-brutally-undercuts-donald-trumps-rosy-economic-message/",
+            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/Y4AH3PXNEZG5NO7X65XSKW6YHM.JPG?auth=04f94a4a8a2b531ff940d14d2738c771c1dc83250e121a8dd90925d484963517&height=2194&smart=true&width=3901",
+            "source": "thedailybeast"
+        },
+        {
+            "title": "Allsup Employment Services Joins United Spinal Association\u2019s Work Readiness Program, Admission Now Open",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/news-release/2026/03/04/3249620/0/en/Allsup-Employment-Services-Joins-United-Spinal-Association-s-Work-Readiness-Program-Admission-Now-Open.html",
+            "image": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
+        },
+        {
+            "title": "Bullying Anthropic: on AI firm Anthropic versus U.S. government",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/opinion/editorial/bullying-anthropic-on-ai-firm-anthropic-versus-us-government/article70703749.ece",
+            "image": "https://www.thehindu.com/theme/images/og-image.png",
+            "source": "thehindu"
+        },
+        {
+            "title": "Capital Power reports $13-million net loss, revenue rises",
+            "severity": "WATCH",
+            "url": "https://www.theglobeandmail.com/business/article-capital-power-fourth-quarter-earnings-results/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/V52ECYFSOZEYTI53ZV4BA5VA64.JPG?auth=be67d2b5df4307cc2a5eb464072692e8fdccb9c77742bb2bfea8be53b142e521&height=1808&smart=true&width=2560",
+            "source": "theglobeandmail"
+        },
+        {
+            "title": "Whatever This Is, We\u2019ve Never Seen Anything Like It",
+            "severity": "WATCH",
+            "url": "https://gizmodo.com/whatever-this-is-weve-never-seen-anything-like-it-2000728411",
+            "image": "https://gizmodo.com/app/uploads/2026/03/Dario-Amodei-Pentagon-Anthropic-V2-1280x853.jpg",
+            "source": "gizmodotech"
+        },
+        {
+            "title": "The victory lap for America's Olympic hockey champions quietly shed politics from the celebration",
+            "severity": "WATCH",
+            "url": "https://abcnews.com/Sports/wireStory/victory-lap-americas-olympic-hockey-champions-quietly-shed-130759104",
+            "image": "https://s.abcnews.com/images/Sports/wirestory_ee8ffa1af68c1d86436e91e9274d4534_4x3_384.jpg",
+            "source": "abcnews"
+        },
+        {
+            "title": "Man charged with attempted murder after Edinburgh knife incident",
+            "severity": "WATCH",
+            "url": "https://www.bbc.com/news/articles/c89kk0841pwo",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/ef1c/live/ac336df0-17e4-11f1-801d-ed3cff6bf876.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "Immigration Minister Erica Stanford apologises after inflating overstayer figures",
+            "severity": "WATCH",
+            "url": "https://www.rnz.co.nz/news/political/588661/immigration-minister-erica-stanford-apologises-after-inflating-overstayer-figures",
+            "image": "https://media.rnztools.nz/rnz/image/upload/s---hPD1Com--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1756675760/4K1RLN6_image_4K2SAJF_Erica_Stanford_1_jpg__a_BACCd2AD_jpg?_a=BACCd2AD",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "Darren Fletcher\u2019s son given heavy ban at Man Utd over \u2018gay boy\u2019 slur",
+            "severity": "WATCH",
+            "url": "https://uk.sports.yahoo.com/news/darren-fletcher-son-given-heavy-163835510.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/aX6vubz8EId5dw1RPk8VNA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NDk7Y2Y9d2VicA--/https://media.zenfs.com/en/the_telegraph_818/4b73ae4af60be6365793c179697bf596",
+            "source": "yahoo"
+        },
+        {
+            "title": "Texas Democrat thrown out of Trump\u2019s State of the Union fighting for his political life",
+            "severity": "WATCH",
+            "url": "https://www.al.com/politics/2026/03/texas-democrat-thrown-out-of-trumps-state-of-the-union-fighting-for-his-political-life.html",
+            "image": "https://www.al.com/resizer/v2/7GADIHRE4VADBL3HDUUKQZWHP4.jpg?auth=9d524485277b870d66b4023a9bfe5bc1f7a1a19bd8224eb679853eec55f877e9&quality=90&smart=true&width=1280",
+            "source": "al"
+        },
+        {
+            "title": "Outrage as child sex offender running for city council brazenly holds press conference outside Fresno elementary school, cops called",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/03/04/us-news/registered-sex-offender-holds-press-conference-near-school/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F03%2F122744421.jpg?quality%3D90%26strip%3Dall=",
+            "source": "nypost"
+        },
+        {
+            "title": "Babcock & Wilcox Rockets On $2.4 Billion AI Data Center Project, Reports Q4 Results",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/markets/tech/26/03/51040455/babcock-wilcox-rockets-on-2-4-billion-ai-data-center-project-reports-q4-results",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/03/04/Richmond--Virginia--Usa---9-May-2019-Ill.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
+            "source": "benzinga"
+        },
+        {
+            "title": "MPAJ steps it up against illegal businesses",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/metro/metro-news/2026/03/05/mpaj-steps-it-up-against-illegal-businesses",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/05/3797766.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Man Utd Youngster Banned for Six Matches After Using Homophobic Term",
+            "severity": "WATCH",
+            "url": "https://www.si.com/soccer/man-utd-youngster-banned-six-matches-homophobic-term",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1024,h_576,x_0,y_98/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01kjwq0tafdmqa48bdn6.jpg",
+            "source": "si"
         }
     ],
-    "Last_Updated": "2026-03-05T02:38:37.292048Z"
+    "Last_Updated": "2026-03-05T05:15:12.026263Z"
 }
