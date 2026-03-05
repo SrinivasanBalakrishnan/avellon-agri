@@ -1,267 +1,237 @@
 {
-    "AGRI_Score": 61.6,
-    "Velocity": "+1.8",
-    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 61.6 is primarily driven by the escalating \"Iran war,\" which significantly amplifies Geopolitical Conflict Intensity and creates widespread disruption. This conflict directly leads to \"Iran war posing hurdles in supply chain\" and contributes to \"Governments scramble to bring citizens home,\" reflecting severe travel and trade impediments. Additionally, critical Energy & Maritime Disruption, exemplified by \"Qatar shuts LNG output,\" underscores the severe economic ramifications affecting global energy markets and national economies. These pressures are further exacerbated by inflationary concerns like \"Copper Faces Gulf Energy Crisis,\" indicating broad financial contagion from the ongoing conflict.",
+    "AGRI_Score": 59.3,
+    "Velocity": "-2.3",
+    "Top_Risk_Driver": "Trade & Supply Chain Stress",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 86.3,
-        "Energy & Maritime Disruption": 64.5,
-        "Trade & Supply Chain Stress": 76.2,
+        "Geopolitical Conflict Intensity": 74.2,
+        "Energy & Maritime Disruption": 57.6,
+        "Trade & Supply Chain Stress": 79.2,
         "Sovereign Financial Stress": 50.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 61.5,
+        "Sanctions & Regulatory Fragmentation": 61.4,
+        "Cyber & Infrastructure Threats": 60.6,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The \"Iran war\" is the primary driver of this pillar's high score, prompting urgent actions like \"Israel warns Southern Lebanon to leave\" and numerous \"repatriation flight\" efforts for stranded citizens. The severe regional instability and potential for escalation are further underscored by reports of \"UAE reports 78 total injuries since start of Iranian attacks.\"",
-        "Energy & Maritime Disruption": "Significant disruptions are evident, with \"Qatar shuts LNG output\" directly impacting energy supplies to nations like India and prompting \"Gas price warning as UK households told do one thing now to 'protect yourselves'.\" The ongoing \"Gulf Energy Crisis\" from the Iran conflict further threatens commodity markets, pushing concerns about inflation.",
-        "Trade & Supply Chain Stress": "The \"Iran war\" is severely impacting global trade, causing \"hurdles in supply chain\" and export delays for industries in regions like Sambhajinagar. This is compounded by specific commodity shortages, as \"Qatar shuts LNG output\" creates a crisis for city gas sectors and supply to India.",
-        "Sovereign Financial Stress": "While direct sovereign defaults are not reported, underlying economic pressures are mounting due to the \"Iran war,\" which contributes to inflationary concerns like \"Copper Faces Gulf Energy Crisis.\" The collapse of a \"British railway company... after 70 years\" signals broader economic fragility impacting corporate solvency and government revenues.",
-        "Currency & Liquidity Pressure": "Immediate pressure is evident in currency markets, with the \"Rupee slumps 67 paise to close at all-time low of 92.16 against US dollar.\" This depreciation reflects heightened investor uncertainty and capital outflows amid the escalating regional conflicts and economic disruptions.",
-        "Sanctions & Regulatory Fragmentation": "The heightened \"Iran war\" context inherently drives regulatory complexity and potential fragmentation as nations adapt their policies, though no new specific sanctions were announced. The geopolitical tensions suggest an increased likelihood of evolving international compliance challenges and fragmented legal frameworks.",
-        "Cyber & Infrastructure Threats": "The ongoing \"Iran war\" elevates the global risk of cyberattacks targeting critical infrastructure as a tactic of hybrid warfare. Furthermore, the \"Pentagon dispute\" regarding AI readiness in military applications highlights evolving technological vulnerabilities and the need for robust cyber defenses.",
-        "Climate & Resource Shock": "There are currently no immediate indicators of significant climate-related shocks or widespread resource shortages driving global instability. Monitoring for environmental shifts and resource availability continues under baseline activity."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Khamenei Funeral: Tehran Announces When & Where The Ceremony Will Take Place",
+            "title": "Airline shares selloff eases as some flights leave Gulf amid Iran conflict",
             "severity": "HIGH",
-            "url": "https://news.abplive.com/news/world/khamenei-funeral-tehran-announces-when-where-the-ceremony-will-take-place-iran-israel-war-1829765",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/03/04/95e432be3e5026c823de1fba965e87d117726202756811316_original.jpg",
-            "source": "abplive"
-        },
-        {
-            "title": "Iran 'close' to choosing new leader, Israel warns Southern Lebanon to leave",
-            "severity": "HIGH",
-            "url": "https://www.rnz.co.nz/news/world/588543/iran-close-to-choosing-new-leader-israel-warns-southern-lebanon-to-leave",
-            "image": "https://media.rnztools.nz/rnz/image/upload/s--ULOW5J-F--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1772620015/4JS9UZG_AFP__20260302__99LM8G3__v1__HighRes__LebanonIsraelUsIranWar_jpg?_a=BACCd2AD",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "Gas price warning as UK households told do one thing now to 'protect yourselves'",
-            "severity": "HIGH",
-            "url": "https://www.birminghammail.co.uk/news/cost-of-living/gas-price-warning-households-told-33527585",
-            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article33447202.ece/ALTERNATES/s615/0_energy1.jpg",
-            "source": "birminghammail"
-        },
-        {
-            "title": "Iran war posing hurdles in supply chain; industries in Sambhajinagar facing delays in export",
-            "severity": "HIGH",
-            "url": "https://www.deccanherald.com/india/maharashtra/iran-war-posing-hurdles-in-supply-chain-industries-in-sambhajinagar-facing-delays-in-export-3919580",
-            "image": "https://media.assettype.com/deccanherald%2F2025-08-14%2Fpiw0dyha%2Fdeccanherald_import_sites_dh_files_articleimages_2021_12_01_export-istock-1015889-1628010052-1055935-1638203093-1056651-1638379024.avif?ar=40%3A21&auto=format%2Ccompress&mode=crop&ogImage=true&rect=0%2C15%2C700%2C368&w=1200",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Rupee slumps 67 paise to close at all-time low of 92.16 against US dollar",
-            "severity": "HIGH",
-            "url": "https://www.deccanherald.com/business/markets/rupee-slumps-67-paise-to-close-at-all-time-low-of-9216-against-us-dollar-3919625",
-            "image": "https://media.assettype.com/deccanherald%2F2026-01-23%2Fg4avom59%2FiStock-1276974393.jpg?ar=40%3A21&auto=format%2Ccompress&mode=crop&ogImage=true&rect=0%2C48%2C1691%2C888&w=1200",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Governments scramble to bring citizens home during travel chaos caused by war in the Middle East",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com/news/world/middle-east/governments-scramble-to-bring-citizens-home-during-travel-chaos-caused-by-war-in-the-middle/article_670bbbe6-1b1d-5371-8f4b-8f9967e108e2.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/e/af/eaf10a21-e6b3-5052-94ae-e030d6f0d939/69a80d2cee3b1.image.jpg?resize=300%2C219",
-            "source": "thestar"
-        },
-        {
-            "title": "Iran\u2019s Women\u2019s Asian Cup team have \u2018so much concern\u2019 for families back home",
-            "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/iran-women-asian-cup-team-103753182.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/o0js8XO.U75N9ngh2Rg0TQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NzI7Y2Y9d2VicA--/https://media.zenfs.com/en/al_jazeera_289/f4e202a0f3f934682d6f0735a4944790",
-            "source": "yahoo"
-        },
-        {
-            "title": "Mahesh Jethmalani says Pakistan 'in crosshairs' of Iran war, cites IRGC airspace allegations",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/india/mahesh-jethmalani-says-pakistan-in-crosshairs-of-iran-war-cites-irgc-airspace-allegations-13850474.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/06/20250624130146_b-2-bomber-iran-israel.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "UAE reports 78 total injuries since start of Iranian attacks",
-            "severity": "HIGH",
-            "url": "https://www.khaleejtimes.com/uae/emergencies/uae-reports-78-total-injuries-since-start-of-iranian-attacks",
-            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-03-04/lcmm7xat/UAE-military.jpeg?format=auto&height=630&mode=crop&ogImage=true&rect=0%2C0%2C1554%2C1036&width=1200",
-            "source": "khaleejtimes"
-        },
-        {
-            "title": "A first French repatriation flight lands in Paris as the Iran war continues to disrupt travel",
-            "severity": "HIGH",
-            "url": "https://apnews.com/article/iran-war-middle-east-travel-stranded-dba77afeee3d0b3d1b8a7956e1b2bc89",
-            "image": "https://dims.apnews.com/dims4/default/4496059/2147483647/strip/true/crop/2027x1351+0+12/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F9a%2F48%2Fdd8b39d7a7f9d0eeff02ebf3de20%2F829af751ce5347abb43c434a280c96a4",
-            "source": "apnews"
-        },
-        {
-            "title": "A first repatriation flight brings stranded French citizens home as war in Iran disrupts travel",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/french-oman-paris-middle-east-iran-b2931654.html",
-            "image": "https://static.independent.co.uk/2026/03/04/10/Italy_Iran_Israel_US_15900.jpg?crop=1200%3A800&height=800&width=1200",
-            "source": "independentuk"
-        },
-        {
-            "title": "British railway company collapses into liquidation after 70 years",
-            "severity": "HIGH",
-            "url": "https://www.birminghammail.co.uk/news/uk-news/british-railway-company-collapses-liquidation-33527603",
-            "image": "https://i2-prod.birminghammail.co.uk/incoming/article33527615.ece/ALTERNATES/s615/0_1-Ecclesbourne-Valley-Railway-EVR-a-heritage-railway-operating-between-Wirksworth-and-Duffield.jpg",
-            "source": "birminghammail"
-        },
-        {
-            "title": "Pentagon dispute bolsters Anthropic reputation but raises questions about AI readiness in military",
-            "severity": "HIGH",
-            "url": "https://abcnews.com/Technology/wireStory/pentagon-dispute-bolsters-anthropic-reputation-raises-questions-ai-130727948",
-            "image": "https://s.abcnews.com/images/Politics/wirestory_b2bbcf5fda3f27353eae1e0eb7ab07b6_4x3_384.jpg",
-            "source": "abcnews"
-        },
-        {
-            "title": "Is RFK Jr. coming for your Dunkin\u2019?",
-            "severity": "HIGH",
-            "url": "https://www.bostonglobe.com/2026/03/04/nation/rfk-jr-kennedy-dunkin-sugar/",
-            "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/KXRHOJZTWUQHPPIIB45YKF7P4U.jpg?auth=0f980607c579d596764aab49369413c8ec749f83cc20182006d894cc6c1c4771&width=1440",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "Qatar shuts LNG output; supplies to India hit, city gas sector flags crisis",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/world-news/qatar-shuts-lng-output-supplies-to-india-hit-city-gas-sector-flags-crisis-126030400550_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-06/19/thumb/fitandfill/1200X630/1750322915-6817.JPG",
-            "source": "business-standard"
-        },
-        {
-            "title": "Don't be swayed by 'misinformation campaign' by opposition on fuel shortage, price hike: BJP",
-            "severity": "HIGH",
-            "url": "https://www.deccanherald.com/india/dont-be-swayed-by-misinformation-campaign-by-opposition-on-fuel-shortage-price-hike-bjp-3919591",
-            "image": "https://media.assettype.com/deccanherald%2F2025-12-25%2F8oymax4m%2FiStock-2191746686.jpg?ar=40%3A21&auto=format%2Ccompress&mode=crop&ogImage=true&rect=0%2C0%2C1135%2C596&w=1200",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Copper Faces Gulf Energy Crisis: Iran Conflict Threatens $12K Floor as Inflation",
-            "severity": "HIGH",
-            "url": "https://au.investing.com/analysis/copper-faces-gulf-energy-crisis-iran-conflict-threatens-12k-floor-as-inflation-200612144",
-            "image": "https://d1-invdn-com.investing.com/content/1283a6a4dccd69696064093027c3a6ba.png",
-            "source": "investing_au"
-        },
-        {
-            "title": "Real Madrid considering hiring Serie A manager to replace under-fire Alvaro Arbeloa",
-            "severity": "HIGH",
-            "url": "https://uk.sports.yahoo.com/news/real-madrid-considering-hiring-serie-085337028.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/LaBbG4iI_iuOEVvX4wWQFg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/goal_uk_815/83307bc9b3086ab937bdc3bb63dddc46",
-            "source": "yahoo"
-        },
-        {
-            "title": "Will Sanju Samson miss India\u2019s ICC Men\u2019s T20 World Cup semi-final? Umpire clarifies helmet rule",
-            "severity": "MEDIUM",
-            "url": "https://english.mathrubhumi.com/sports/cricket/sanju-samson-celebration-icc-review-t20-world-cup-semi-final-c4egby9x",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1pkg4ph5zrbsszzgewg/0/sanju-samson-jpg.jpg?w=900",
-            "source": "mathrubhumi"
-        },
-        {
-            "title": "US startup Aptera shifts to structured production with first solar EV rollout",
-            "severity": "WATCH",
-            "url": "https://interestingengineering.com/energy/aptera-shifts-to-production-with-first-solar-ev-rollout",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/03/Untitled-design-6.jpg",
-            "source": "interestingengineering"
-        },
-        {
-            "title": "Heading to Bermuda? The best places to stay, what to do and where to eat and drink",
-            "severity": "WATCH",
-            "url": "https://www.cosmopolitan.com/uk/lifestyle/travel/a70582330/bermuda-travel-guide/",
-            "image": "https://hips.hearstapps.com/hmg-prod/images/gallery35-1-69a68315f40b1.jpg",
-            "source": "cosmopolitan"
-        },
-        {
-            "title": "Schools in Nova Scotia closed, delaying opening amid messy storm",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/nova-scotia/some-schools-in-nova-scotia-closed-delayed-opening-amid-messy-storm-9.7113821?cmp=rss",
-            "image": "https://i.cbc.ca/ais/813aa0ab-b687-443d-ad52-8f6c6e6c88e0,1770918155603/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C4032%2C2268%29%3BResize%3D%28620%29",
-            "source": "cbc"
-        },
-        {
-            "title": "Goldman Sachs Hikes Q2 Brent Oil Price Forecast by $10 - Crude Oil Prices Today | OilPrice.com",
-            "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdzgzMHpzTVh0X2JEQVJZd2VTRk0zR3R5UXpGaHgwclFSSmhiWFNQOEhVYlNZZGk1WGQxVGFweTZaTzY4U1pSeW5uTENYaFZWUVRFalZTUFZzY3RRS1VmOHBEaEx0b2RvZUttRlZ6UlNsTzdyMzNoZU9yRXJ2bUF0VlVXeWJSNFdURlhQaDdRdmc0MHZLeXQ0dFdZLXAteGZlYjJ6TlA0TUsxWXBnUWfSAbMBQVVfeXFMTXZZSF9OWVlHWEs0dzdqMS1qMkRtMXU4UVl0RkRqcEFTOV83RFRYenJJZnJYRzM4WHRYbDVTV2JZS1BOaU8wOFhaRHJyUHFaNXhaYVUxZVNOazZnQ1BpalNBVGlwSkk0aEVGUmhTbTBTSkZrN0VGbUF5WXloMmJoTUhWOGVZaUQyamZIdEZ6ZVVvTm4zUXhlMUxuMGFyYUZVSVRFdkcwV0c1d0NfUlROd25oaUU?oc=5",
-            "image": "https://images.pexels.com/photos/6692312/pexels-photo-6692312.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Smart sparks the Lakers with genius defensive play to push past the Pelicans",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/smart-sparks-lakers-genius-defensive-103537568.html",
-            "image": "https://s.yimg.com/os/en/the_sporting_tribune_articles_423/e2f152987648b0d9eae5ee875cdec905",
-            "source": "yahoo"
-        },
-        {
-            "title": "Six arrests over fatal Midland stabbing as police manhunt continues",
-            "severity": "WATCH",
-            "url": "https://www.birminghammail.co.uk/news/midlands-news/six-arrests-over-fatal-midland-33527621",
-            "image": "https://i2-prod.birminghammail.co.uk/incoming/article33527631.ece/ALTERNATES/s615/0_Ismael-Nabeel.jpg",
-            "source": "birminghammail"
-        },
-        {
-            "title": "Village of Granisle, B.C., faces lawsuit over aluminum-contaminated water",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/vancouver/article/village-of-granisle-bc-faces-lawsuit-over-aluminum-contaminated-water/",
-            "image": "https://www.ctvnews.ca/resizer/v2/5FNPHYBI5ZSXZVX5ISYE4T6UGE.jpg?auth=46232878f949ec7a223852c45c92e153edab73a3013c36d0ec101e8dd87563c2&height=630&smart=true&width=1200",
+            "url": "https://www.ctvnews.ca/business/article/airline-shares-selloff-eases-as-some-flights-leave-gulf-amid-iran-conflict/",
+            "image": "https://www.ctvnews.ca/resizer/v2/2B3V4MXGYNBTA6KLAPI3UCVRCU.jpg?auth=cf4a446846b105d33518bbe7dc395c4e329b5aa01f96491a709c670a9451fd04&height=630&smart=true&width=1200",
             "source": "ctvnews"
         },
         {
-            "title": "When the Pentagon gave Anthropic the boot, OpenAI swooped in. Some staff are frustrated with how it unfolded | CNN Business",
-            "severity": "WATCH",
-            "url": "https://www.cnn.com/2026/03/04/tech/pentagon-anthropic-openai-staff-reactions",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap25295414708185.jpg?c=16x9&q=h_720%2Cw_1280%2Cc_fill%2Fw_256",
-            "source": "cnn"
+            "title": "War to hobble supply chain as trade costs soar",
+            "severity": "HIGH",
+            "url": "https://www.bangkokpost.com/business/general/3209829/war-to-hobble-supply-chain-as-trade-costs-soar",
+            "image": "https://static.bangkokpost.com/media/content/20260304/c1_3209829_260304181209_800.jpg",
+            "source": "bangkokpost"
         },
         {
-            "title": "Embracing the tank isn't just for NBA GMs and owners. Fans are buying in, too",
-            "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7084901/2026/03/04/nba-tanking-adam-silver-gms-owners-fans/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/03/03183217/USATSI_26161083-scaled-e1772580765941.jpg",
-            "source": "theathleticuk"
+            "title": "Donald Trump assassins: War chief's two-word take on bid to kill president",
+            "severity": "HIGH",
+            "url": "https://www.mirror.co.uk/news/us-news/donald-trump-assassins-war-chiefs-36815857",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article36816148.ece/ALTERNATES/s615/1_US-POLITICS-TRUMP.jpg",
+            "source": "mirroruk"
         },
         {
-            "title": "Intellectual Property Rights and Royalty Management Business Analysis Report 2026-2030: Surging Digital Content, Global IP Monetization and Anti-Piracy Drive Strong Demand for Scalable Solutions",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/03/04/3249135/28124/en/Intellectual-Property-Rights-and-Royalty-Management-Business-Analysis-Report-2026-2030-Surging-Digital-Content-Global-IP-Monetization-and-Anti-Piracy-Drive-Strong-Demand-for-Scalab.html",
-            "image": "https://www.researchandmarkets.com/content-images/2411/2411168/1/intellectual-property-rights-and-royalty.png",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "How to watch South Africa vs. New Zealand: Live stream T20 World Cup semifinals anywhere",
-            "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/streaming/how-to-watch-south-africa-vs-new-zealand-t20-2026",
-            "image": "https://i.insider.com/69a7304ad3e2f1aef369e8d7?width=700",
-            "source": "insider"
-        },
-        {
-            "title": "Reforms about making cheating harder not suppression. SAVE Act critics miss that | LaRose",
-            "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/articles/reforms-making-cheating-harder-not-094624395.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/..D.zZIpONMxlP9wuh78_g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MDtjZj13ZWJw/https://media.zenfs.com/en/the-columbus-dispatch/4ea326b333864f0218c5df2a3c774af9",
-            "source": "yahoo"
-        },
-        {
-            "title": "Man in court charged with two attempted murders after Edinburgh stabbing",
-            "severity": "WATCH",
-            "url": "https://news.sky.com/story/man-in-court-charged-with-two-attempted-murders-after-edinburgh-stabbing-13514987",
-            "image": "https://e3.365dm.com/26/03/1920x1080/skynews-calder-edinburgh_7181817.jpg?20260304101832=",
-            "source": "skynews"
-        },
-        {
-            "title": "Russia blast Ukraine for 'act of terrorism' after drone hits oil tanker in Mediterranean",
-            "severity": "WATCH",
-            "url": "https://www.the-express.com/news/world-news/201008/russia-ukraine-war-putin-zelensky-oil-tanker-drones",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/201008_1.jpg",
+            "title": "Fox News trolls dub Jesse Watters \u2018the dumbest guy on TV\u2019 after his bold Iran declaration",
+            "severity": "HIGH",
+            "url": "https://www.the-express.com/entertainment/tv/201033/fox-news-jesse-watters-iran",
+            "image": "https://cdn-images.the-express.com/img/dynamic/22/590x/201033_1.jpg",
             "source": "express"
         },
         {
-            "title": "Why Jackie O decided it was time for a change, and what comes next",
+            "title": "Gas prices jump again overnight as conflict in Iran continues to strangle global oil market",
+            "severity": "HIGH",
+            "url": "https://www.kgw.com/article/news/nation-world/attack-on-iran/gas-prices-jump-again-iran-conflict/507-abb8878f-0b64-49b7-9cd0-347424812505",
+            "image": "https://media.tegna-media.com/assets/CCT/images/f142c115-db22-4649-847f-2d5ed0a25ce2/f142c115-db22-4649-847f-2d5ed0a25ce2_750x422.jpg",
+            "source": "kgw"
+        },
+        {
+            "title": "FIIs sold about Rs 11,000 crore worth Indian stocks in 2 days of US-Iran war",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-sold-about-rs-11000-crore-worth-indian-stocks-in-2-days-of-us-iran-war/articleshow/129032843.cms",
+            "image": "https://img.etimg.com/photo/118783427.cms",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Silent convoy was undeniably impressive as Liverpool was bathed in blue light - Liverpool Echo",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTm5DRjZZeTlkVy1hcEZfLUR1LXdiVklfZXRLcWZqVUhmSnpSRHB5QVUySVhRd1E1X3R2dFNVMmIyUDdBazdhTkdYS0h5dWRXUmFwemxxVkYySGo3NWZqUVRSOG50RDFrN29ucElhRDdyZWY3ZExBV0g2WF9BTmFabVl5SGRPbHpCVkFaaE5vOUo5Si1CT3BkdFpSSzZUdXJ2Q0o4UEFsQlJhQdIBrwFBVV95cUxPd2Zldmo0X2NvQWFwX0JxRnM1Y1pJRi1QSzJtV0FNc3dFLXQtVDQyd09DNnJ4dnBNbTg0ZDZTdzF5Q0dGQmFQZkFFOEQwT2ZmU0xGMUFldTQyZEN3a2xBT25kRVBzWlN0azB1UkxabEJlMWU0UzFvZEQwdjJvRThEWHlXcTVaZlFiT0FLSEdEam1UX1N3T3U0ZjktNThLTmEwT3RFaW91SHZpYXJZWWdj?oc=5",
+            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Iran War Sends Economic Ripples Through Central Asia, Turkmenistan Most Exposed",
+            "severity": "HIGH",
+            "url": "https://www.rferl.org/a/iran-war-economy-central-asia-turkmenistan/33695124.html",
+            "image": "https://gdb.rferl.org/01000000-0aff-0242-011d-08dc83b2a64c_cx0_cy18_cw0_w800_h450.jpeg",
+            "source": "rferl"
+        },
+        {
+            "title": "Iran war spikes local gas prices - BayToday.ca",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZ2hyNVJBR19sajQ1RE0taWdvMjZTYVM1ZXc5RGNaZW5EYTZvSTlsd1RfS3ROZ1k0ME15bGoxeGd0VGFhX2VwR1hoR3FPellFRUxpeHlDRmZ2UllNWEdKVHV5NHZjdzNvSmJlZldQYmF0alFlOXhRZkY0M3pNc3NWemtR?oc=5",
+            "image": "https://images.pexels.com/photos/31334739/pexels-photo-31334739.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Hegseth says more US forces arriving in Middle East as Iran war ramps up",
+            "severity": "HIGH",
+            "url": "https://www.aljazeera.com/news/2026/3/4/hegseth-says-more-us-forces-arriving-in-middle-east-as-iran-war-ramps-up",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/03/ap_69a83960a1b31-1772632416.jpg?quality=80&resize=770%2C513",
+            "source": "aljazeera_us"
+        },
+        {
+            "title": "Is an Iran bomb now inevitable?",
+            "severity": "HIGH",
+            "url": "https://www.upi.com/Voices/2026/03/04/iran-us-war-outcome/4711772633151/",
+            "image": "https://cdnph.upi.com/svc/sv/i/4711772633151/2026/1/17726347522944/Is-an-Iran-bomb-now-inevitable.jpg",
+            "source": "upi"
+        },
+        {
+            "title": "Stock market today: Dow, S&P 500, Nasdaq rise on Iran war hopes, upbeat jobs data",
+            "severity": "HIGH",
+            "url": "https://ca.finance.yahoo.com/news/stock-market-today-dow-sp-500-nasdaq-rise-on-iran-war-hopes-upbeat-jobs-data-143516233.html",
+            "image": "https://images.pexels.com/photos/14439232/pexels-photo-14439232.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "How To Explain Code to People Who Control the Budget",
+            "severity": "HIGH",
+            "url": "https://hackernoon.com/how-to-explain-code-to-people-who-control-the-budget",
+            "image": "https://substackcdn.com/image/fetch/$s_!nPG2!,f_auto,q_auto:good,fl_progressive:steep/https:%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6c9c622-7e1f-445b-93e1-8b4b96e61cf3_2816x1536.png",
+            "source": "hackernoon"
+        },
+        {
+            "title": "Shadow War Hits Indian Ocean As Iranian Frigate IRIS Dena Sunk Off Sri Lankan Coast | Exclusive Details",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/world/shadow-war-hits-indian-ocean-as-iranian-frigate-iris-dena-sunk-off-sri-lankan-coast-exclusive-details-9942383.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/03/NW18-2026-03-04T154530.241-2026-03-0ba47ceb364829068143b0036e9fc57d-1200x800.png",
+            "source": "news18"
+        },
+        {
+            "title": "Paint giant AkzoNobel reveals data breach, says US site was affected",
+            "severity": "HIGH",
+            "url": "https://www.techradar.com/pro/security/paint-giant-akzonobel-reveals-data-breach-says-us-site-was-affected",
+            "image": "https://cdn.mos.cms.futurecdn.net/U3nMoaJ3iNrFx8Qwkwmw7d.jpg",
+            "source": "techradar_uk"
+        },
+        {
+            "title": "Carbon Neutral Data Center Market Report 2026: Global Forecast 2025-2032",
+            "severity": "MEDIUM",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/03/04/3249448/28124/en/Carbon-Neutral-Data-Center-Market-Report-2026-Global-Forecast-2025-2032.html",
+            "image": "https://www.researchandmarkets.com/content-images/2438/2438690/1/carbon-neutral-data-center-market.png",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "The Trump paradox: How trade tensions may strengthen Canada\u2019s position in an integrated market | Brookings",
+            "severity": "MEDIUM",
+            "url": "https://www.brookings.edu/articles/the-trump-paradox-how-trade-tensions-may-strengthen-canadas-position-in-an-integrated-market/",
+            "image": "https://www.brookings.edu/wp-content/uploads/2026/03/shipping-containers-canadian-flag.jpg",
+            "source": "brookings"
+        },
+        {
+            "title": "Why Owner Doesn\u2019t Believe Her Dog Is 22 Leaves Viewers Obsessed",
             "severity": "WATCH",
-            "url": "https://www.smh.com.au/culture/tv-and-radio/why-jackie-o-decided-it-was-time-for-a-change-and-what-comes-next-20260304-p5o7jg.html",
-            "image": "https://static.ffx.io/images/$zoom_0.21736453201970443,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_179/t_crop_custom/q_86,f_auto/1ce507088cfaebc76923ff9afc5fe5081dd7f3df",
-            "source": "smh"
+            "url": "https://www.newsweek.com/owner-doesnt-believe-dog-22-leaves-viewers-obsessed-11619394",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/03/Copy-of-32-Split-Screen-2026-03-04T130458.966.png?w=1200crop%3D1",
+            "source": "newsweek"
+        },
+        {
+            "title": "Ladies of London 2026 cast in full and what they're best known for",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/tv/tv-news/ladies-london-2026-cast-full-36815645",
+            "image": "https://i2-prod.ok.co.uk/incoming/article36816264.ece/ALTERNATES/s615/1_Hayu_LadiesOfLondonTheNewReignS4_Branded_Digital_Landscape.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Europe is paying for someone else\u2019s adventure in Middle East \u2014 expert",
+            "severity": "WATCH",
+            "url": "https://tass.com/world/2096317",
+            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "tass"
+        },
+        {
+            "title": "Huawei and Bittel Release Xinghe Al SafeStay Hotel Campus Network Solution",
+            "severity": "WATCH",
+            "url": "https://www.prnewswire.com/apac/news-releases/huawei-and-bittel-release-xinghe-al-safestay-hotel-campus-network-solution-302704019.html",
+            "image": "https://mma.prnewswire.com/media/2926092/image1.jpg?p=original",
+            "source": "prnewswire_apac"
+        },
+        {
+            "title": "John Stossel: California\u2019s inferno of regulations",
+            "severity": "WATCH",
+            "url": "https://www.ocregister.com/2026/03/04/john-stossel-californias-inferno-of-regulations/",
+            "image": "https://www.ocregister.com/wp-content/uploads/2026/03/LDN-L-ANNIV-POLITICS-0107-04.jpg?h=814&w=1024",
+            "source": "ocregister"
+        },
+        {
+            "title": "Container vessel hit by Iranian missile forcing crew to abandon ship",
+            "severity": "WATCH",
+            "url": "https://metro.co.uk/2026/03/04/container-vessel-hit-iranian-missile-forcing-crew-abandon-ship-27225539/",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/03/SEI_287819078-6b6a_1772635968.jpg?crop=1&h=630&quality=90&strip=all&w=1200",
+            "source": "metro"
+        },
+        {
+            "title": "$17.8 Bn Data Center Automation Markets - Global Forecast to 2032",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/03/04/3249447/28124/en/17-8-Bn-Data-Center-Automation-Markets-Global-Forecast-to-2032.html",
+            "image": "https://www.researchandmarkets.com/content-images/2441/2441156/1/data-center-automation-market.png",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Customers have less than two weeks to use Eddie Bauer gift cards as company puts 174 leases on the market",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/life-style/eddie-bauer-gift-cards-stores-closing-b2931786.html",
+            "image": "https://static.independent.co.uk/2026/03/04/13/01/Untitled-design-(4).png?crop=1200%3A800&height=800&trim=0%2C0%2C0%2C0&width=1200",
+            "source": "independentuk"
+        },
+        {
+            "title": "Sam Altman admits OpenAI's Pentagon deal was rushed and 'sloppy'",
+            "severity": "WATCH",
+            "url": "https://www.latimes.com/business/story/2026-03-04/sam-altman-admits-openais-pentagon-deal-was-rushed-sloppy",
+            "image": "https://images.pexels.com/photos/5504455/pexels-photo-5504455.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "latimes"
+        },
+        {
+            "title": "Lantronix Tackles Network Downtime With Automated Out-of-Band Innovations at Cisco Live 2026 Amsterdam",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/markets/lantronix-tackles-network-downtime-with-automated-out-of-band-innovations-at-cisco-live-2026-amsterdam-articleshow-v23efd4",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-da9fc430-f232-49c2-bc89-630d9355ade9.webp",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Crashed drone led police to drugs network",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/crashed-drone-led-police-drugs-141749596.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/AOV9iSmIqPZOi_NZRGEREw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/bbc_us_articles_995/40986d5c731be5a81359966816a32188",
+            "source": "yahoo"
+        },
+        {
+            "title": "Dinesh Gundu Rao flags off upgradation of UGD works: MLA expresses displeasure for not inviting him",
+            "severity": "WATCH",
+            "url": "https://www.deccanherald.com/india/karnataka/mangaluru/dinesh-gundu-rao-flags-off-upgradation-of-ugd-works-mla-expresses-displeasure-for-not-inviting-him-3919772",
+            "image": "https://media.assettype.com/deccanherald%2F2026-01-31%2Fp2gmdt3b%2Ffile806c7xsgdwi1ltbm5a2.jpg?ar=40%3A21&auto=format%2Ccompress&mode=crop&ogImage=true&rect=0%2C0%2C600%2C315&w=1200",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Soccer-Man United teenager Jack Fletcher apologises for homophobic slur",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/sport/football/2026/03/04/soccer-man-united-teenager-jack-fletcher-apologises-for-homophobic-slur",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/04/3797756.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Man Utd legend Darren Fletcher's son banned for six games and fined over homophobic abuse",
+            "severity": "WATCH",
+            "url": "https://www.dailystar.co.uk/sport/football/jack-fletcher-man-utd-homophobic-36815547",
+            "image": "https://i2-prod.dailystar.co.uk/sport/football/article36815546.ece/ALTERNATES/s98/3_GettyImages-1821545208.jpg",
+            "source": "dailystar"
         }
     ],
-    "Last_Updated": "2026-03-04T22:38:52.683519Z"
+    "Last_Updated": "2026-03-05T02:38:37.292048Z"
 }
