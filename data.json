@@ -1,110 +1,224 @@
 {
-    "AGRI_Score": 57.8,
-    "Velocity": "-4.4",
+    "AGRI_Score": 60.8,
+    "Velocity": "+3.0",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 60.8 reflects an elevated global risk landscape, primarily driven by the intensifying \"Iran-Israel War\" and broader \"West Asia War.\" This escalating conflict is directly impacting Geopolitical Conflict Intensity (79.1) and causing significant Energy & Maritime Disruption (64.8) due to threats to oil supplies and critical chokepoints like Hormuz. Consequently, global financial markets are experiencing severe Trade & Supply Chain Stress (72.1) and Currency & Liquidity Pressure as evidenced by widespread market sell-offs and rising volatility, pushing the overall risk profile higher.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 73.9,
-        "Energy & Maritime Disruption": 56.7,
-        "Trade & Supply Chain Stress": 67.1,
+        "Geopolitical Conflict Intensity": 79.1,
+        "Energy & Maritime Disruption": 64.8,
+        "Trade & Supply Chain Stress": 72.1,
         "Sovereign Financial Stress": 51.3,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.5,
-        "Cyber & Infrastructure Threats": 63.9,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 70.3,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is exceptionally high due to the escalating \"Iran-Israel War\" and broader \"West Asia War,\" with global leaders like PM Modi closely monitoring the situation. The conflict's expansion is evident as Australia considers deploying surveillance aircraft to counter Iranian drone threats, indicating a wider regional security concern.",
+        "Energy & Maritime Disruption": "Energy disruption risk is significant and rising, with analysts projecting oil prices to surge towards $120-$150/bbl if the \"West Asia conflict escalates,\" as reported. The critical \"Chokepoint Hormuz\" represents a key vulnerability, not only for oil but also for digital infrastructure, amplifying maritime disruption concerns.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress is elevated, directly correlated with the market instability stemming from the \"Iran war.\" Major indices like the SENSEX and NIFTY50 have experienced sharp plunges, reflecting broad investor panic and potential disruptions to global trade flows.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, indicated by significant market downturns in Asia and the \"India VIX jump[ing] 100% in one month.\" This volatility suggests increasing pressure on national economies and potential fiscal challenges amid rising energy costs and market uncertainty.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressure is moderate, as evidenced by the \"oil shock ignit[ing] Asia market selloff as panic grips currencies.\" The sharp increase in the India VIX also signals heightened market fear, potentially leading to capital outflows and reduced liquidity in affected regions.",
+        "Sanctions & Regulatory Fragmentation": "This pillar is at a moderate alert level, as the ongoing \"Iran-Israel War\" significantly increases the likelihood of new international sanctions or expanded existing ones. While no specific new sanctions are cited, the heightened geopolitical tension inherently carries a risk of regulatory fragmentation as nations respond to the evolving conflict.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are high, highlighted by the strategic importance of \"Chokepoint Hormuz\" as a \"vulnerable undersea digital corridor\" beyond its role in oil transit. This dual threat indicates a significant risk of both physical and cyber attacks on critical infrastructure supporting global connectivity and trade.",
+        "Climate & Resource Shock": "Climate and resource shock remains at a baseline activity level, with no immediate severe threats reported in the current feed. While investment in green energy is noted, it does not currently mitigate any direct resource shocks."
+    },
     "All_Alerts": [
         {
-            "title": "Economic Week Ahead: CPI, PCE, Jobless Claims in Focus as Iran War Roils Markets",
+            "title": "GB News paused for breaking announcement \u2013 and it's bad news for Donald Trump",
             "severity": "HIGH",
-            "url": "https://au.investing.com/analysis/economic-week-ahead-cpi-pce-jobless-claims-in-focus-as-iran-war-roils-markets-200612253",
-            "image": "https://d1-invdn-com.investing.com/content/pic3b8365345f766592413941b6553ff237.png",
-            "source": "investing_au"
+            "url": "https://www.express.co.uk/showbiz/tv-radio/2179893/gb-news-breaking-announcement-donald-trump",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/20/590x/2179893_1.jpg",
+            "source": "expresscouk"
         },
         {
-            "title": "What is Europe\u2019s crisis response strategy? Ask the Euronews AI chatbot",
+            "title": "Market outlook for the week of 9th-13th March",
             "severity": "HIGH",
-            "url": "http://www.euronews.com/my-europe/2026/03/09/what-is-europes-crisis-response-strategy-ask-the-euronews-ai-chatbot",
-            "image": "https://images.euronews.com/articles/stories/09/67/48/76/1536x864_cmsv2_e20c92f5-48b1-54dd-a4c8-f6600b0d836b-9674876.jpg",
-            "source": "euronews"
+            "url": "https://investinglive.com/forex/market-outlook-for-the-week-of-9th-13th-march-20260309/",
+            "image": "https://images.investinglive.com/images/So,%20what's%20gonna%20happen%20to%20the%20market%20after%20that%20big%20event%3F_id_cf10ab43-96b9-4552-928c-591a13fb28d5_size50.jpg",
+            "source": "forexlive"
         },
         {
-            "title": "The Eastern Window: China\u2019s Two Sessions ready to sacrifice speed for 'high quality' development",
+            "title": "Jaishankar Briefs Rajya Sabha On West Asia War, Says PM Modi Closely Monitoring Situation",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/opinion/the-eastern-window-china-s-two-sessions-ready-to-sacrifice-speed-for-high-quality-development-13854681.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/12/20251207144256_chinaflagai-378x213.png",
+            "url": "https://news.abplive.com/news/west-asia-war-israel-iran-conflict-jaishankar-parliament-narendra-modi-1830457",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/03/09/39cf04d827831f1c8ae1a1ab90ef546f1773037022098736_original.png",
+            "source": "abplive"
+        },
+        {
+            "title": "Gold, Silver ETFs Plunge Up To 4% As Iran-Israel War Intensifies; What Strategy Should You Follow?",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/business-economy/personal-finance/gold-silver-etfs-plunge-up-to-4-as-iran-israel-war-intensifies-what-strategy-should-you-follow-article-153790699",
+            "image": "https://images.timesnownews.com/thumb/msid-153790699,imgsize-1722832,width-1280,height-720/153790699.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "\u2018We advocate de-escalation, helped 67,000 Indians\u2019 return\u2019: Jaishankar on approach to Iran war",
+            "severity": "HIGH",
+            "url": "https://www.firstpost.com/world/we-advocate-de-escalation-helped-67000-indians-return-jaishankar-on-approach-to-iran-war-west-asia-crisis-13987635.html",
+            "image": "https://images.firstpost.com/uploads/2026/03/Firstpost-2026-03-09T140903.289-2026-03-adba3db7ebf8b0786d57173cd93ac179.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "OPINION | Chokepoint Hormuz is not just about oil; it\u2019s also the vulnerable undersea digital corridor",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/opinion/chokepoint-hormuz-is-not-just-about-oil-it-s-also-the-vulnerable-undersea-digital-corridor-13854809.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260307134009_2026-03-04T133557Z_256039442_RC29U4AIHTRL_RTRMADP_3_IRAN-CRISIS-ENERGY-378x252.jpg",
             "source": "moneycontrol"
         },
         {
-            "title": "The great central London office crisis",
+            "title": "SENSEX plunges over 1,900 pts, NIFTY50 below 23,900 in noon deals; Cupid, Meesho among buzzing stocks - Upstox",
             "severity": "HIGH",
-            "url": "https://www.standard.co.uk/business/city-of-london-office-space-crisis-b1273387.html",
-            "image": "https://static.standard.co.uk/2026/03/04/8/45/City-of-London-looking-west.jpeg?auto=webp&crop=3%3A2&width=1200",
-            "source": "standarduk"
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQMmNoNTAzMTEzZFl3WldrQkF1SmdhZHhUZEM3Q1RoM1J4dVVjemltTVhzV053aExOZl9kem9CWG5rUk9BLU5KT3lMOVNOcWZkMEF2STlicy03OGpucTdHSnpHdnEyX1NLZWMwZU1ieWM1UWJENDZtcVhUbTZSd3ZBT1AtRWEyU1d2UUZwZnpLTUxLV1ZIbzAyR1dSc2l1YURqcmgyMXJMTlhOVTBTbG5DVU9SYTJ2VVpuLW14dFpzdVdHWmhmWFd6WmN0bUEzZ0dfMldjbTV1a0pjRUdDVlFwa0x0VGJZSzNS?oc=5",
+            "image": "https://images.pexels.com/photos/35537580/pexels-photo-35537580.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Kalmar straddle carriers chosen to strengthen training capacity at OCHA in Antwerp",
+            "title": "Starfighters Space Drops 5% Overnight As Fuel Cost Fears Offset Defense Demand Amid US-Iran War",
             "severity": "HIGH",
-            "url": "https://www.globenewswire.com/news-release/2026/03/09/3251527/0/en/Kalmar-straddle-carriers-chosen-to-strengthen-training-capacity-at-OCHA-in-Antwerp.html",
-            "image": "https://images.pexels.com/photos/28801919/pexels-photo-28801919.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
+            "url": "https://www.benzinga.com/markets/equities/26/03/51120593/starfighters-space-drops-5-overnight-as-fuel-cost-fears-offset-defense-demand-amid-us-iran-war",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/03/09/Stock-Market-Green-And-Red-Graph-With-Bl.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
+            "source": "benzinga"
         },
         {
-            "title": "Day of panic as war in Iran wipes $80 billion off the market",
+            "title": "CIA Bioweapon Program Under Scrutiny After Claims It May Be Linked To Lyme Disease Spread",
             "severity": "HIGH",
-            "url": "https://www.smh.com.au/business/markets/more-than-80b-wiped-from-asx-in-market-bloodbath-as-oil-price-surges-20260309-p5o8ld.html",
-            "image": "https://static.ffx.io/images/$zoom_0.1765,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_110/t_crop_custom/q_86,f_auto/7d71c1f2fc199b52f3f91199a27439e70987eb79",
+            "url": "https://newsable.asianetnews.com/gallery/world/cia-bioweapon-program-scrutiny-biochemist-claims-cold-war-tick-experiments-likely-linked-to-us-lyme-disease-outbreak-tg8xigt",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01kk8tv5zca0x9j6r57nwr0vzr,imgname-cia-gettyimages-2209136154-1773044340716.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Oil could $120-$130: Analyst says each day of Iran war adds to oil's upside risk",
+            "severity": "HIGH",
+            "url": "https://www.cnbc.com/video/2026/03/09/each-day-of-iran-war-adds-to-oilas-upside-risk-see-oil-hitting-120-130-analyst.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108275249-17730436591773043657-44452508541-1080pnbcnews.jpg?h=1080&v=1773043658&w=1920",
+            "source": "cnbc"
+        },
+        {
+            "title": "Oil could hit $150 if West Asia conflict escalates, Trading.com CEO warns: Report",
+            "severity": "HIGH",
+            "url": "https://www.firstpost.com/business/oil-could-hit-150-if-west-asia-conflict-escalates-trading-com-ceo-warns-report-13987637.html",
+            "image": "https://images.firstpost.com/uploads/2026/03/items2-2026-03-271842a3d4eecda5e4a55830fa62a0ac.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Brent Crude Could Surge Toward $140/bbl in \u2018Acute\u2019 Energy Shock Scenario - WSJ",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdW5aRTRrMktDVTN5NWVTMjFaOWpFQk1CV085dVg3Z2hzTUVLNTFyb2N3RC1tQXNMMDVGb2tHbF9HSjBxX1NLbFpjVnd6Ni1xbkU2eUcyTFZpWDFxdUM2M29VblJBSGZCdWxLMkoyY25RSHcwcDVLT3J1TXNNV284UHNfT2hTejVvcWtPRU11TlV1Y3NIN2lQS0xrS1lIV3FvRFN2TFAxYlB2VmZiZ1d5VGVHOExubHVXcndFRWtMUQ?oc=5",
+            "image": "https://images.pexels.com/photos/13343082/pexels-photo-13343082.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Australia weighs sending \u2018world-class\u2019 surveillance aircraft to defend against Iran drones",
+            "severity": "HIGH",
+            "url": "https://www.smh.com.au/politics/federal/australia-weighs-sending-world-class-surveillance-aircraft-to-defend-against-iran-drones-20260309-p5o8rs.html",
+            "image": "https://static.ffx.io/images/$zoom_0.4911999931847611,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_281,$y_446/t_crop_custom/q_86,f_auto/ec69ca5eafccf79e3aaf1f31c58b42caa14fdccd",
             "source": "smh"
         },
         {
-            "title": "King's 'intense pressure in royal crisis amid daunting Donald Trump confrontation'",
+            "title": "'Sovereignty at stake', Iranian diaspora says",
             "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/news/royals/kings-intense-pressure-royal-crisis-36829985",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36830001.ece/ALTERNATES/s615/0_BRITAIN-US-ROYALS-DIPLOMACY.jpg",
-            "source": "mirroruk"
+            "url": "https://www.rnz.co.nz/news/herenow/589087/sovereignty-at-stake-iranian-diaspora-says",
+            "image": "https://media.rnztools.nz/rnz/image/upload/s--fKejYNCs--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1772991454/4JS1WDH_AFP__20260308__A2EN2PN__v2__HighRes__TopshotIranUsIsraelWar_jpg?_a=BACCd2AD",
+            "source": "rnz_co_nz"
         },
         {
-            "title": "President Murmu Protocol Row Turns Into Political Flashpoint, Centre Seeks Answers From Mamata Govt",
+            "title": "Starmer talks to Trump as UK eyes energy bill freeze",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/news/president-murmu-protocol-row-turns-into-political-flashpoint-centre-seeks-answers-from-mamata-govt/videoshow/129315480.cms",
-            "image": "https://static.toiimg.com/thumb/msid-129315480,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "toi"
+            "url": "https://www.dailymail.co.uk/galleries/article-15627743/Starmer-talks-Trump-UK-eyes-energy-bill-freeze.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/09/00/106975801-0-image-m-21_1773015374457.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Prez row: State replies to MHA. Centre to blame, CM tells PM",
+            "title": "Iran war: As India\u2019s stock markets crash, experts advise caution but see buying opportunities",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/kolkata/prez-row-state-replies-to-mha-centre-to-blame-cm-tells-pm/articleshow/129314677.cms",
-            "image": "https://static.toiimg.com/thumb/msid-129315096,imgsize-1341597,width-400,height-225,resizemode-72/prez-row-state-replies-to-mha-centre-to-blame-cm-tells-pm.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "ASML publishes agenda Annual General Meeting 2026",
-            "severity": "MEDIUM",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/03/09/3251528/0/en/ASML-publishes-agenda-Annual-General-Meeting-2026.html",
-            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Dhurandhar 2 advance booking report: Ranveer Singh\u2019s film earns Rs 18 cr, beats Stree 2 to become Bollywood\u2019s biggest premiere",
-            "severity": "MEDIUM",
-            "url": "https://indianexpress.com/article/entertainment/bollywood/dhurandhar-2-advance-booking-ranveer-singh-rs-18-cr-beats-stree-2-bollywood-biggest-premiere-10572430/",
-            "image": "https://images.indianexpress.com/2026/03/dhurandhar-2-1.jpeg",
+            "url": "https://indianexpress.com/article/explained/explained-economics/iran-war-india-stock-markets-crash-opportunities-10572673/",
+            "image": "https://images.indianexpress.com/2026/03/ex-sensex-crash_expl-econ.jpg",
             "source": "indianexpress"
         },
         {
-            "title": "CPH:DOX Chiefs Discuss Festival\u2019s Role as Denmark Approaches Elections: The Aim Is \u2018to Be an Open Platform for the Democratic Dialogue\u2019",
-            "severity": "MEDIUM",
-            "url": "https://variety.com/2026/film/global/cphdox-denmark-elections-1236681531/",
-            "image": "https://variety.com/wp-content/uploads/2026/03/Katrine-Kiilgaard-Niklas-Engstrom.jpg",
-            "source": "variety"
+            "title": "When Will West Asia War End? Who Will Decide? What Trump Says & His Statements So Far Explained",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/explainers/when-will-west-asia-war-end-who-will-decide-what-trump-says-his-statements-so-far-explained-ws-l-9949866.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/09/trump-netanyahu-2025-09-0996ef9bc350713236c7eb5b259c6743-3x2.jpg",
+            "source": "news18"
         },
         {
-            "title": "'It's one rule for shops and one for council'",
+            "title": "Oil shock ignites Asia market selloff as panic grips currencies, stocks",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/03/09/oil-shock-ignites-asia-market-selloff-as-panic-grips-currencies-stocks",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/09/3804276.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "India VIX jumps 100% in one month. Could fear levels take Nifty further down?",
             "severity": "MEDIUM",
-            "url": "https://www.bbc.com/news/articles/c627721me74o",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/ca22/live/a0075c60-1949-11f1-8e5e-abb58cd0aded.jpg",
-            "source": "bbc"
+            "url": "http://economictimes.indiatimes.com/markets/stocks/news/india-vix-jumps-100-in-one-month-could-fear-levels-take-nifty-further-down/articleshow/129321862.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-43328,resizemode-75,msid-129321862/markets/stocks/news/india-vix-jumps-100-in-one-month-could-fear-levels-take-nifty-further-down.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "GIC-Backed Greenko Energies Said to Weigh $1 Billion India IPO",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-pmn/gic-backed-greenko-energies-said-to-weigh-1-billion-india-ipo",
+            "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "source": "financialpost"
+        },
+        {
+            "title": "AI Startups Don\u2019t Die From Moving Slow. They Die From Moving Blind",
+            "severity": "WATCH",
+            "url": "https://hackernoon.com/ai-startups-dont-die-from-moving-slow-they-die-from-moving-blind",
+            "image": "https://hackernoon.imgix.net/images/1vQ6UmzaynWRRSMXjFIX7TLZBpe2-qs83h1c.png",
+            "source": "hackernoon"
+        },
+        {
+            "title": "Iran's New Supreme Leader Mojtaba Khamenei Linked To \u00a3100m Hidden Property Empire",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/world/irans-new-supreme-leader-mojtaba-khamenei-linked-to-100m-hidden-property-empire-ws-l-9950200.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/03/Mojtaba-Khamenei-attends-a-parade-marking-International-Quds-Day-in-Tehran-in-May-2025.-Image-Courtesy-Rouzbeh-FouladiZUMA-WireShutterstock-2026-03-fdf1b0ed2b9911774f3221856c9c8b32-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Uday and Majnu bhai to return! Anil Kapoor and Nana Patekar roped in for Welcome 4",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/magazines/panache/uday-and-majnu-bhai-to-return-anil-kapoor-and-nana-patekar-roped-in-for-welcome-4/articleshow/129321997.cms",
+            "image": "https://img.etimg.com/thumb/msid-129321997,width-1200,height-630,imgsize-65986,overlay-etpanache/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Parker Stevenson's net worth \u2014 How the Hardy Boys star built his fortune and career",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/ask-legit/biographies/1699194-parker-stevensons-net-worth-how-hardy-boys-star-built-fortune-career/",
+            "image": "https://cdn.legit.ng/images/1120/ff0d247ce9125d33.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Himax to Showcase WiseEye AIoT Solutions, Industry Leading Automotive Display IC and Innovative Optical Technologies at Embedded World 2026",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/03/09/3251559/8267/en/Himax-to-Showcase-WiseEye-AIoT-Solutions-Industry-Leading-Automotive-Display-IC-and-Innovative-Optical-Technologies-at-Embedded-World-2026.html",
+            "image": "https://images.pexels.com/photos/28801919/pexels-photo-28801919.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Global Times: The end of AI is electricity: What fuels the power advantage?",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/pressreleases/26/03/n51120583/global-times-the-end-of-ai-is-electricity-what-fuels-the-power-advantage",
+            "image": "https://images.pexels.com/photos/17963031/pexels-photo-17963031.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "benzinga"
+        },
+        {
+            "title": "Canada must remember that the future is electricity, not fossil fuels",
+            "severity": "WATCH",
+            "url": "https://www.theglobeandmail.com/business/commentary/article-canada-must-remember-that-the-future-is-electricity-not-fossil-fuels/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/DVYZPZQUKNA3RB6A6FNAMELDS4.JPG?auth=81f3445326424ba7103858f803a5f64024c8c4578ad625537ecb8797b62a32a0&height=3333&smart=true&width=5000",
+            "source": "theglobeandmail"
+        },
+        {
+            "title": "Female fracas in UK city centre as women kick and spit at each other in brutal brawl",
+            "severity": "WATCH",
+            "url": "https://www.dailystar.co.uk/news/latest-news/female-fracas-uk-city-centre-36836473",
+            "image": "https://i2-prod.dailystar.co.uk/news/latest-news/article36836472.ece/ALTERNATES/s98/0_CCP_NEC_030326_COURT002JPG.jpg",
+            "source": "dailystar"
         },
         {
             "title": "How the \u2018Gala\u0301pagos of west Africa\u2019 is plundered by floating fish factories",
@@ -112,104 +226,6 @@
             "url": "https://www.theguardian.com/environment/2026/mar/09/fish-factories-west-africa-guardian-investigation-desmog-fishmeal-oil",
             "image": "https://i.guim.co.uk/img/media/8621dc6db407bf42bfd3563e3f1540a957eb699e/0_52_2195_1429/master/2195.jpg?crop=none&dpr=2&s=none&width=1900",
             "source": "theguardian"
-        },
-        {
-            "title": "Readers sound off on foreign policy failures, a Texas primary and the World Series",
-            "severity": "WATCH",
-            "url": "https://www.nydailynews.com/2026/03/09/readers-sound-off-on-foreign-policy-failures-a-texas-primary-and-the-world-series/",
-            "image": "https://www.nydailynews.com/wp-content/uploads/2026/03/AP6104010423.jpg?strip=all&w=1400px",
-            "source": "nydailynews"
-        },
-        {
-            "title": "Boston\u2019s \u2018zombie labs\u2019 delusion",
-            "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/03/09/opinion/zombie-science-labs-boston-seaport/",
-            "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/KVETU2UFU5DELPWYHLSMAHFR2Y.gif?auth=a3c3a12015384bfade0e858eb34f94c6ad0e6da8239d7218d9077ea53cd09c30&width=1440",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "VAALCO Energy, Inc. Provides Operational Update on Offshore Gabon Drilling Program",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/03/09/3251517/0/en/VAALCO-Energy-Inc-Provides-Operational-Update-on-Offshore-Gabon-Drilling-Program.html",
-            "image": "https://images.pexels.com/photos/30123684/pexels-photo-30123684.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Sheer, fringe, tailoring: Top trends from the Paris Fashion Week runways",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/lifestyle/style/2026/03/09/sheer-fringe-tailoring-top-trends-from-the-paris-fashion-week-runways",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/09/3803594.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Officials say 3 arrested in Peru nightclub bombing as number of injured rises to 44",
-            "severity": "WATCH",
-            "url": "https://abcnews.com/International/wireStory/officials-3-arrested-peru-nightclub-bombing-number-injured-130882248",
-            "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_4x3t_384.jpg",
-            "source": "abcnews"
-        },
-        {
-            "title": "10 of the best affordable family adventures in Europe",
-            "severity": "WATCH",
-            "url": "https://www.theguardian.com/travel/2026/mar/09/10-of-the-best-affordable-family-adventures-in-europe",
-            "image": "https://i.guim.co.uk/img/media/bf36459e83a3d6d028ff85689c23d24fe5ea2461/0_0_5853_3907/master/5853.jpg?crop=none&dpr=1&s=none&width=465",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "Alia Bhatt and Sharvari\u2019s Alpha gets July 10 release date after YRF denies OTT rumours",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/entertainment/bollywood/alia-bhatt-and-sharvaris-alpha-gets-july-10-release-date-after-yrf-denies-ott-rumours-10572578/",
-            "image": "https://images.indianexpress.com/2026/02/Sharvari-Alia-Alpha.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Pete Hegseth Slammed For \u2018Grotesque\u2019 Line About Iranians",
-            "severity": "WATCH",
-            "url": "https://www.huffpost.com/entry/pete-hegseth-iran-war-line_n_69ae64cce4b0fe5c2e75653b",
-            "image": "https://img.huffingtonpost.com/asset/69ae6625170000a6862b15b5.jpeg?cache=31ENAbHzIK&ops=500_281%2Cscalefit_1200_630",
-            "source": "huffpost"
-        },
-        {
-            "title": "Bombs can weaken Iran\u2019s regime. They can\u2019t replace it.",
-            "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/03/09/opinion/regime-change-iran/",
-            "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/Y5IQIHF4FNKMBZRYAINTHVQEXQ.jpg?auth=cec5b8715bcb9e3c1d3940cdd9c78756431aca896dcabe59efb6c1adeab96dbb&width=1440",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "STMicroelectronics enters high-volume production of its industry-leading silicon photonics platform to support AI infrastructure demand",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/03/09/3251525/0/en/STMicroelectronics-enters-high-volume-production-of-its-industry-leading-silicon-photonics-platform-to-support-AI-infrastructure-demand.html",
-            "image": "https://images.pexels.com/photos/13717475/pexels-photo-13717475.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "Smackover Lithium Signs First Binding Customer Offtake Agreement for the South West Arkansas Project",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/03/09/3251513/0/en/Smackover-Lithium-Signs-First-Binding-Customer-Offtake-Agreement-for-the-South-West-Arkansas-Project.html",
-            "image": "https://images.pexels.com/photos/28767588/pexels-photo-28767588.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "\u200b'We've offered the land for nothing': La Ronge struggles to attract home builders",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/saskatchewan/we-ve-offered-the-land-for-nothing-la-ronge-struggles-to-attract-home-builders-9.7107513?cmp=rss",
-            "image": "https://i.cbc.ca/ais/3fa0ec58-7eec-4324-bb99-1ae24de943ee,1772841259902/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C73%2C5712%2C3213%29%3BResize%3D%28620%29",
-            "source": "cbc"
-        },
-        {
-            "title": "La Ronge looks to attract home builders",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/saskatchewan/la-ronge-looks-to-attract-home-builders-9.7107513?cmp=rss",
-            "image": "https://i.cbc.ca/ais/3fa0ec58-7eec-4324-bb99-1ae24de943ee,1772841259902/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C73%2C5712%2C3213%29%3BResize%3D%28620%29",
-            "source": "cbc"
-        },
-        {
-            "title": "World Kidney Day: How Excessive Painkiller Use Can Harm Your Kidneys",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/lifestyle/health-and-fitness/world-kidney-day-how-excessive-painkiller-use-can-harm-your-kidneys-9950002.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/04/paracetamol-medicine-dolo-sick-health-2025-04-54080d63653088db67ee23fef8f4ed2f-3x2.jpg",
-            "source": "news18"
         },
         {
             "title": "Apple and Google could be forced to remove sexualised apps",
@@ -231,28 +247,7 @@
             "url": "https://indianexpress.com/article/legal-news/calcutta-high-court-quashes-bail-developer-judicial-academy-training-order-10572541/",
             "image": "https://images.indianexpress.com/2026/03/calcutta-high-court-developer-tenant.jpeg",
             "source": "indianexpress"
-        },
-        {
-            "title": "'Meghan and Harry will be smirking as Andrew's hopes for a new home are dashed'",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/news/royals/meghan-harry-smirking-andrews-hopes-36832648",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36531716.ece/ALTERNATES/s615/0_Invictus-Games-The-Hague-2020-Day-2.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Firefighters face 'unnecessary' delays due to road",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/firefighters-face-unnecessary-delays-due-062123835.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/HPcqH0MQcZ4lz3qDB7cxqg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/bbc_us_articles_995/08f75b695d73a60621e6d0f071ab9564",
-            "source": "yahoo"
-        },
-        {
-            "title": "Mum's 'disbelief' at sentence for 'show off' driver who killed daughter on zebra crossing",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/mums-disbelief-sentence-show-off-210111649.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/duluezLyXHnErgbawLvpzw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD02OTk7Y2Y9d2VicA--/https://media.zenfs.com/en/bbc_us_articles_995/6b7cf84cb1c78eba3f5546b068cfd36b",
-            "source": "yahoo"
         }
     ],
-    "Last_Updated": "2026-03-09T19:01:46.724193Z"
+    "Last_Updated": "2026-03-09T20:41:46.402101Z"
 }
