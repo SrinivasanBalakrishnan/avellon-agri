@@ -1,253 +1,225 @@
 {
-    "AGRI_Score": 57.4,
-    "Velocity": "+2.1",
+    "AGRI_Score": 58.9,
+    "Velocity": "+1.5",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 57.4 reflects a significantly elevated risk environment, primarily driven by intense geopolitical conflict and associated threats to cyber infrastructure and global trade. The score is largely influenced by a 'Geopolitical Conflict Intensity' pillar score of 74.7, stemming from mounting tensions over a potential 'Iran war endgame' and reported direct military actions, as evidenced by 'U.S. destroys 16 Iranian vessels amid worries of mines in Strait of Hormuz - Axios'. This heightened conflict also contributes to elevated 'Cyber & Infrastructure Threats' (64.8) and 'Trade & Supply Chain Stress' (65.7) due to the inherent destabilization of critical regions and digital security.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at 58.9/100, primarily driven by heightened 'Geopolitical Conflict Intensity' (77.6) and 'Energy & Maritime Disruption' (72.2). The escalating crisis with Iran, characterized by U.S. military actions and explicit threats to block Gulf oil exports, is generating significant market apprehension. A Nobel laureate economist's warning about a potential 'oil crisis dwarfing 1970s' underscores the severity of the energy outlook, maintaining an elevated risk profile across several pillars.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 74.7,
-        "Energy & Maritime Disruption": 60.3,
-        "Trade & Supply Chain Stress": 65.7,
+        "Geopolitical Conflict Intensity": 77.6,
+        "Energy & Maritime Disruption": 72.2,
+        "Trade & Supply Chain Stress": 65.9,
         "Sovereign Financial Stress": 51.2,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 61.4,
-        "Cyber & Infrastructure Threats": 64.8,
+        "Sanctions & Regulatory Fragmentation": 58.2,
+        "Cyber & Infrastructure Threats": 60.1,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is critically high, driven by direct military actions and escalating rhetoric concerning Iran, particularly in the Middle East. The news feed highlights significant concerns over a potential 'Iran war endgame' and reports of 'U.S. destroys 16 Iranian vessels amid worries of mines in Strait of Hormuz,' indicating active engagement and a heightened risk of broader conflict.",
-        "Energy & Maritime Disruption": "Risk in this pillar remains elevated due to direct threats to maritime routes and energy infrastructure, particularly in the Strait of Hormuz. While Russia expresses readiness to pump oil via the Druzhba pipeline, the immediate concern stems from military confrontations potentially impacting critical chokepoints, as noted by 'U.S. destroys 16 Iranian vessels amid worries of mines in Strait of Hormuz - Axios'.",
-        "Trade & Supply Chain Stress": "Trade and supply chain stress is significantly elevated, largely as a secondary effect of heightened geopolitical tensions that could disrupt critical shipping lanes and energy flows. The 'ramp-up Middle East tensions' inherently poses a risk to global trade routes, potentially impacting the timely movement of goods and affecting markets.",
-        "Sovereign Financial Stress": "Sovereign financial stress exhibits moderate risk, as global markets react with mixed signals to geopolitical instability but do not yet show widespread distress. The decision by Israel's PM and Smotrich to 'set aside' the Haredi draft exemption bill to 'help fund Iran war' indicates a direct financial repurposing driven by conflict, though broader sovereign debt issues are not explicitly detailed.",
-        "Currency & Liquidity Pressure": "This pillar shows moderate risk, as market reactions to geopolitical events are not yet translating into severe currency devaluations or widespread liquidity crunches. While 'Wall St closes mixed on ramped-up Middle East tensions' suggests market sensitivity, there is no explicit news indicating a systemic currency or liquidity crisis.",
-        "Sanctions & Regulatory Fragmentation": "The risk environment for sanctions and regulatory fragmentation is elevated, primarily due to the ongoing geopolitical conflicts that often precede or necessitate new restrictive measures. Although no new sanctions were explicitly announced, the intensified 'Iran war endgame' discussions imply a high probability of future regulatory shifts or extensions of existing sanctions regimes.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are significantly high, highlighted by multiple reports of data breaches affecting major corporations. 'Loblaw investigates data breach' across several headlines confirms active cyber threats impacting critical infrastructure and consumer data, necessitating immediate attention.",
-        "Climate & Resource Shock": "This pillar currently reflects baseline activity, with no immediate news indicating significant climate events or resource shocks. While the 'Uranium Bull Market Still Has Fuel' suggests ongoing resource market activity, it does not point to a shock or scarcity event."
+        "Geopolitical Conflict Intensity": "This pillar is significantly elevated due to direct military actions, with the 'U.S. says it destroyed 16 mine-laying vessels as Iran threatens to block Gulf oil exports.' The ongoing rhetoric from figures like Hegseth, stating Iran's military power is 'systematically annihilated,' further intensifies the confrontational posture and prospects for conflict.",
+        "Energy & Maritime Disruption": "Risk remains very high as Iran's threat to 'block Gulf oil exports' directly imperils critical global energy flows, potentially triggering a 'terrible' oil crisis. Furthermore, localized 'LPG Shortage in Mumbai' highlights immediate domestic energy supply vulnerabilities impacting daily life and commercial operations.",
+        "Trade & Supply Chain Stress": "This pillar is elevated due to the direct threat to maritime trade routes posed by Iran's stated intention to 'block Gulf oil exports,' which would severely disrupt global shipping. Localized 'Commercial LPG shortage hits city eateries' also indicates stress on essential supply chains for businesses and public services.",
+        "Sovereign Financial Stress": "Markets are showing heightened apprehension, with 'traders on edge despite reserve hopes' as they actively 'assess Iran war outlook' ahead of critical economic data. This pervasive uncertainty is placing a discernible strain on investor confidence and sovereign risk perceptions.",
+        "Currency & Liquidity Pressure": "Moderate pressure is evident as market participants remain 'on edge' while closely monitoring geopolitical developments related to the 'Iran war outlook.' This heightened caution indicates a potential for rapid shifts in capital flows and increased currency volatility should the situation escalate.",
+        "Sanctions & Regulatory Fragmentation": "This pillar reflects elevated concerns as the 'Iran crisis' intensifies, making new or expanded sanctions highly probable from international bodies. Diplomatic efforts like 'Macron to host G7 leaders call on Iran crisis, energy prices' also suggest ongoing discussions that could lead to further regulatory fragmentation.",
+        "Cyber & Infrastructure Threats": "Risk remains elevated due to the confirmed 'DATA BREACH ALERT' impacting UFCW Local 342, indicating persistent vulnerabilities in organizational security. This incident underscores the continuous threat of cyberattacks to critical data and operational continuity across various sectors.",
+        "Climate & Resource Shock": "This pillar is currently at a low level, with no immediate news indicating widespread climate-related disasters or significant resource shocks. While 'LPG Shortage in Mumbai' represents a localized resource issue, it is primarily driven by supply chain dynamics rather than climate-induced scarcity."
     },
     "All_Alerts": [
         {
-            "title": "\u2018High-risk, high-reward\u2019: Island key to Donald Trump\u2019s Iran war endgame",
+            "title": "'Terrible': Nobel laureate economist warns Trump may trigger oil crisis dwarfing 1970s",
             "severity": "HIGH",
-            "url": "https://www.news.com.au/world/middle-east/highrisk-highreward-island-key-to-donald-trumps-iran-war-endgame/news-story/aca1862097223f22080a317f43f37335?from=rss-basic",
-            "image": "https://content.api.news/v3/images/bin/306eee25a7f1fc13c5fec23b5e73faaf",
-            "source": "news"
-        },
-        {
-            "title": "Wall St closes mixed on ramped-up Middle East tensions",
-            "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/video/wall-st-closes-mixed-ramped-224822528.html",
-            "image": "https://s.yimg.com/uu/api/res/1.2/1zlvMiUKUpOZgCQ8Jto_xA--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/aa4cea6c-bfe1-4a26-a875-a023379d9862/main/1280x720/55s957ms/match/image.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "U.S. destroys 16 Iranian vessels amid worries of mines in Strait of Hormuz - Axios",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VdVN2VWhPcVdwbjVkcWYtbXlraXQ0Y3ROall3SUx3REhvenVuS0d2SVNKLU9IbXRpT2hiNTVlMk9hTVNoa0p2Y1I0QVM1b2hjSzZ3V3Z2aV9nUHNnVVpwWWRYNXBlS3VCVkEzR1pRcw?oc=5",
-            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "investingLive Americas market news wrap: A complete mess in oil. Other markets tune out - investingLive",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQjkwNE1PSldKLWdHbm1kTGhsTWJyMHA2dm1XVDRXWXEyMUFQd3B0c3NNOWJHZk9sbllnUWdLRzZ1cFZxbEpzbi12MzEwMm5iUkpwRGprNE5saXptQzdRVzV4WU9oLVpPN3pIbFdVYk0weEJJQzdRWG5YcGVjeF9FWGpqY3Z2eGNoQl96S3FYTGhwS18xblJEdUEzdWZpaWZBRWljMVlSSjE0bmZVNjBYVHc1NXhUVWlDS0p3QnNleF81b2R00gHKAUFVX3lxTE9XcG1QQ2s4TV9VSGF3VmxldnNObThyUmNiN2ZOZlo0Y2h1TXJnVXpZWjBfMUlaR2RYSXlNUnh3ZXBhX2xPYkVXZEVPY2k5Z2xsREVwaDNPZkNBYXhxS1puYW5iSng4bmFyWmhvOGNQTVAxZ1hxd0x3SWZZMWVBTnZvSm1mY0FMSEdQUEctdFR4SkNidWJnRXcxdVhyZVp0RFVmZ1YtME5kRExSOVc3Z20zRDFFMWg3RzgtNkZkMTF0dEE0YnZOLVZza0E?oc=5",
-            "image": "https://images.pexels.com/photos/6692312/pexels-photo-6692312.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Trump Ally, New DHS Leader Nominee Markwayne Mullin Makes New Stock Trades: Here's What He Bought And Sold",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/news/politics/26/03/51176514/trump-ally-new-dhs-leader-nominee-markwayne-mullin-makes-new-stock-trades-heres-what-he-bought-sold",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/03/10/MarkwayneMullin-shutterstock.png?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
-            "source": "benzinga"
-        },
-        {
-            "title": "Russia ready to pump oil via Druzhba pipeline \u2014 ambassador to Slovakia",
-            "severity": "HIGH",
-            "url": "https://tass.com/economy/2099599",
-            "image": "https://images.pexels.com/photos/6692312/pexels-photo-6692312.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "tass"
-        },
-        {
-            "title": "URA: The Uranium Bull Market Still Has Fuel",
-            "severity": "HIGH",
-            "url": "https://seekingalpha.com/article/4880758-ura-uranium-bull-market-still-has-fuel",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2238906305/image_2238906305.jpg?io=getty-c-w630",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Democrats say White House offers no clarity on Iran war goals after 11 days",
-            "severity": "HIGH",
-            "url": "https://www.aljazeera.com/news/2026/3/10/democrats-say-white-house-still-giving-no-clarity-on-iran-war-after-eleven-days",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/03/reuters_69b07886-1773172870.jpg?quality=80&resize=770%2C513",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "PM and Smotrich say Haredi draft exemption bill to be set aside to help fund Iran war",
-            "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/pm-and-smotrich-say-haredi-draft-exemption-bill-to-be-set-aside-to-help-fund-iran-war/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/03/Untitled-8-e1773171011392-640x400.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Dionne Warwick Claims Rights Firm Stole Millions in Royalties",
-            "severity": "HIGH",
-            "url": "https://pitchfork.com/news/dionne-warwick-sues-her-own-royalty-collectors/",
-            "image": "https://media.pitchfork.com/photos/69b09046c7ee4d1218006ccb/2:1/w_2560,c_limit/GettyImages-2222542738.jpg",
-            "source": "pitchfork"
-        },
-        {
-            "title": "DOGE staffer had \u2018God-level\u2019 Social Security access and expected Trump\u2019s pardon, whistleblower says",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/world/americas/us-politics/doge-social-security-data-whistleblower-b2935908.html",
-            "image": "https://static.independent.co.uk/2026/03/10/20/48/GettyImages-2208901888.jpg?crop=1200%3A800&height=800&trim=0%2C0%2C1%2C0&width=1200",
-            "source": "independentuk"
-        },
-        {
-            "title": "\u2018I want to be on air\u2019: Inside the stand-off between Kyle and ARN",
-            "severity": "HIGH",
-            "url": "https://www.news.com.au/entertainment/tv/radio/inside-the-standoff-between-kyle-and-arn/news-story/0795b73673143d150cb254252130f2a4?from=rss-basic",
-            "image": "https://content.api.news/v3/images/bin/938a3e33624a815acda1cf6ad0aa846e",
-            "source": "news"
-        },
-        {
-            "title": "Loblaw investigates data breach",
-            "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/business/article/loblaw-investigates-data-breach/",
-            "image": "https://www.ctvnews.ca/resizer/v2/LRMY64JK2DRBADFELW24LGJ3UY.jpg?auth=c6ef3962617d777c2009033532b08eb58061a145259e96fac305aa67e07f71c8&height=630&smart=true&width=1200",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Loblaw investigates data breach after identifying suspicious activity - CTV News",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9oMEJqN3h0cEwyOU5COXhfWkp6NEQyOVBSb3JCcXFrRHJMcTdqck1nVmFNVXRTbTJycFJNRjlHV0lOaWdkREJrNVQ0V05TdG5qUHE2eUhxeWJyeUl5QmFrak1mejhsbFNaX1NyaVZwdG9kYWRkYWFsUFBHelA?oc=5",
-            "image": "https://images.pexels.com/photos/18068747/pexels-photo-18068747.png?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Loblaw says some customers affected by data breach",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com/business/loblaw-says-some-customers-affected-by-data-breach/article_c8f257a7-5321-5f3a-92ca-b0b12505d05e.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/c/94/c949d423-abae-5251-8c49-4ce3943bcd65/699eeecf0717e.image.jpg?resize=300%2C200",
-            "source": "thestar"
-        },
-        {
-            "title": "The Leave-of-Absence Trap in Sham Peer Review Discussed in the Journal of American Physicians and Surgeons",
-            "severity": "MEDIUM",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/03/10/3253440/22503/en/The-Leave-of-Absence-Trap-in-Sham-Peer-Review-Discussed-in-the-Journal-of-American-Physicians-and-Surgeons.html",
-            "image": "https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Microsoft backs Anthropic in its legal fight against the Pentagon",
-            "severity": "MEDIUM",
-            "url": "https://www.businessinsider.com/microsoft-backs-anthropic-pentagon-legal-fight-2026-3",
-            "image": "https://i.insider.com/69aa52c9fd4fbd083f29a315?width=700",
-            "source": "businessinsider_us"
-        },
-        {
-            "title": "Trump announces first US oil refinery in 50 years with Reliance backing; to be set up in Texas",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/world-news/trump-announces-first-us-oil-refinery-in-50-years-with-reliance-backing-to-be-set-up-in-texas-101773182050376.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/10/1600x900/logo/trump_reliance_1773182822861_1773182829142.png",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "The Black Crowes Share Their Current Approach to Making Music With New \u2018A Pound of Feathers\u2019 Album: \u2018F\u2014 It, Let\u2019s Just Keep Going\u2019",
-            "severity": "WATCH",
-            "url": "https://www.billboard.com/music/rock/black-crowes-interview-new-album-a-pound-of-feathers-1236196425/",
-            "image": "https://www.billboard.com/wp-content/uploads/2026/01/Black-Crowes-CR-Errol-Colandro-Billboard-1800.jpg?crop=1&h=628&w=942",
-            "source": "billboard"
-        },
-        {
-            "title": "Trump mocked for taking credit for Biden-era investment: 'He's having waking nightmares'",
-            "severity": "WATCH",
-            "url": "https://www.rawstory.com/trump-oil-2676014467/",
-            "image": "https://www.rawstory.com/media-library/donald-trump.jpg?id=62619977&width=980",
+            "url": "https://www.rawstory.com/paul-krugman-2676020923/",
+            "image": "https://www.rawstory.com/media-library/file-photo-file-photo-a-drone-view-of-a-pump-jack-and-drilling-rig-south-of-midland-texas-u-s-june-11-2025-reuters-eli-ha.jpg?id=64989048&width=980",
             "source": "rawstory"
         },
         {
-            "title": "Severe thunderstorm watch for West Michigan until 1 a.m. EDT Wednesday",
-            "severity": "WATCH",
-            "url": "https://www.mlive.com/weather-alerts/2026/03/severe-thunderstorm-watch-for-west-michigan-until-1-a-m-edt-wednesday.html",
-            "image": "https://www.mlive.com/resizer/v2/LRWDU65OTZACJLRKRH7U5JZ434.png?auth=5c9d4017362e35f380c7aceb9e8dfa211da21ed086b442af2bf09d6738fda679&height=1200&smart=true",
-            "source": "mlive"
+            "title": "'Absolutely no shortage of fuel': Goyal amid uncertainty in energy supply",
+            "severity": "HIGH",
+            "url": "https://www.business-standard.com/economy/news/absolutely-no-shortage-of-fuel-goyal-amid-uncertainty-in-energy-supply-126031100041_1.html",
+            "image": "https://images.pexels.com/photos/5831252/pexels-photo-5831252.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "business-standard"
         },
         {
-            "title": "Cinequest returns, and so do the volunteers who keep it going",
-            "severity": "WATCH",
-            "url": "https://www.mercurynews.com/2026/03/10/cinequest-returns-and-so-do-the-volunteers-who-keep-it-going/",
-            "image": "https://www.mercurynews.com/wp-content/uploads/2026/03/SJM-L-PIZARRO-COL-0311-02.jpg?strip=all&w=1400px",
-            "source": "mercurynews"
+            "title": "U.S. says it destroyed 16 mine-laying vessels as Iran threatens to block Gulf oil exports",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/world/mideast-conflict/article/us-says-it-destroyed-16-mine-laying-vessels-as-iran-threatens-to-block-gulf-oil-exports/",
+            "image": "https://www.ctvnews.ca/resizer/v2/V4NG7ANBWFEHHFWJH6GLOQ555Q.jpg?auth=5f39e0f8bf4c79e341701ed1a100af6653125f5558c6be9cb570c58bd79566b0&height=630&smart=true&width=1200",
+            "source": "ctvnews"
         },
         {
-            "title": "Newcastle demonstrate both best and worst qualities in brilliant but agonising draw with Barcelona",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/sport/football/newcastle-barcelona-champions-league-barnes-lamine-yamal-howe-b2935832.html",
-            "image": "https://static.independent.co.uk/2026/03/10/22/28/GettyImages-2265844630.jpeg?crop=1200%3A800&height=800&trim=0%2C0%2C0%2C0&width=1200",
-            "source": "independentuk"
+            "title": "LPG Shortage in Mumbai Affects Mid-Day Meals for 7.5 Lakh School Students",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/education/lpg-shortage-in-mumbai-affects-mid-day-meals-for-7-5-lakh-school-students-west-asia-conflict-middle-east-crisis-article-153805627",
+            "image": "https://images.timesnownews.com/thumb/msid-153805627,imgsize-19878,width-1280,height-720/153805627.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "Rep. Kevin Kiley leaves Republican Party to run as an independent",
-            "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/news/california/2026/03/10/california-rep-kevin-kiley-drops-gop-becoming-independent-in-us-house-redistricting-newsom/89083515007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2025/12/16/USAT/87801052007-2200023991.jpg?auto=webp&crop=8255%2C4645%2Cx0%2Cy429&format=pjpg&height=1801&width=3200",
-            "source": "usatoday"
+            "title": "Hegseth: Iran\u2019s Military Power \u2018Systematically Annihilated\u2019 \u2014 War \u2018Ends on Our Timeline,\u2019 No 'Endless Nation\u2010Building\u2019",
+            "severity": "HIGH",
+            "url": "https://www.breitbart.com/politics/2026/03/10/hegseth-irans-military-power-being-systematically-annihilated-war-ends-our-timeline/",
+            "image": "https://media.breitbart.com/media/2026/03/Defense-Secretary-Pete-Hegseth-6-2025-file-getty-640x480.jpg",
+            "source": "breitbart"
         },
         {
-            "title": "Atalanta 1-6 Bayern Munich: Michael Olise dominates as hearts break for Alphonso Davies",
-            "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/news/atalanta-1-6-bayern-munich-225000376.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/WbxGaok43._tIWK2gXiYyw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NTg7Y2Y9d2VicA--/https://media.zenfs.com/en/bayern_insider_cf_articles_912/195be4306cb80a3489fde32d9ab5c77d",
-            "source": "yahoo"
+            "title": "CNBC Daily Open: Traders on edge despite reserve hopes",
+            "severity": "HIGH",
+            "url": "https://www.cnbc.com/2026/03/11/cnbc-daily-open-traders-on-edge-despite-reserve-hopes.html",
+            "image": "https://fm.cnbc.com/applications/cnbc.com/resources/styles/skin/special-reports/daily-open/images/DO_Logo-2026_01.svg",
+            "source": "cnbc"
         },
         {
-            "title": "Bill on IPS deputation at IG level in CAPFs cleared",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/india/bill-on-ips-deputation-at-ig-level-in-capfs-cleared/articleshow/129424903.cms",
-            "image": "https://static.toiimg.com/thumb/msid-129424975,imgsize-286926,width-400,resizemode-4/-.jpg",
+            "title": "Macron to host G7 leaders call on Iran crisis, energy prices",
+            "severity": "HIGH",
+            "url": "https://www.thehindu.com/news/international/macron-to-host-g7-leaders-call-on-iran-crisis-energy-prices/article70729322.ece",
+            "image": "https://th-i.thgim.com/public/incoming/e1y4o2/article70729323.ece/alternates/LANDSCAPE_1200/2026-03-10T183358Z_984936613_RC2T1KA2IOA4_RTRMADP_3_IRAN-CRISIS-FRANCE.JPG",
+            "source": "thehindu"
+        },
+        {
+            "title": "Americans divided on Iran war along party lines: polls",
+            "severity": "HIGH",
+            "url": "https://nypost.com/2026/03/10/us-news/americans-divided-on-iran-war-along-party-lines-polls/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F03%2Fu-s-president-donald-trump-123261776.jpg?quality%3D90%26strip%3Dall=",
+            "source": "nypost"
+        },
+        {
+            "title": "US stock futures tick up ahead of CPI data; traders assess Iran war outlook",
+            "severity": "HIGH",
+            "url": "https://uk.investing.com/news/stock-market-news/us-stock-futures-tick-up-ahead-of-cpi-data-traders-assess-iran-war-outlook-4551760",
+            "image": "https://images.pexels.com/photos/30687133/pexels-photo-30687133.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Cabinet approval to 11km-long stretch linking Noida's Jewar airport to Faridabad",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/india-news/cabinet-approval-to-11km-long-stretch-linking-noidas-jewar-airport-to-faridabad-101773190376387.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/11/1600x900/logo/AdobeStock_1761715320940_1761715321138_1773191242203.jpeg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Commercial LPG shortage hits city eateries; many stare at shutdown",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/lucknow/commercial-lpg-shortage-hits-city-eateries-many-stare-at-shutdown/articleshow/129415881.cms",
+            "image": "https://static.toiimg.com/thumb/msid-129415878,width-1280,height-720,imgsize-75474,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
             "source": "toi"
         },
         {
-            "title": "Who is Kevin Lynch? Man allegedly assaulted by Joey Barton at Liverpool golf club may lose sight in one eye as ex footballer jailed",
+            "title": "Fareed Zakaria: An Iranian civil war is not in America\u2019s interest",
+            "severity": "HIGH",
+            "url": "https://www.cnn.com/2026/03/10/world/video/ac360-fareed-zakaria-iran",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/still-22439914-2545105-648-thumb.jpg?c=16x9&q=w_1280%2Cc_fill",
+            "source": "cnn"
+        },
+        {
+            "title": "DATA BREACH ALERT: Edelson Lechtzin LLP is Investigating Claims on Behalf of Persons Affected by the UFCW Local 342 Data Breach",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/03/g51177311/data-breach-alert-edelson-lechtzin-llp-is-investigating-claims-on-behalf-of-persons-affected-by-th",
+            "image": "https://images.pexels.com/photos/9504092/pexels-photo-9504092.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "benzinga"
+        },
+        {
+            "title": "Nonfiction Views: This week's notable new nonfiction",
+            "severity": "HIGH",
+            "url": "https://www.dailykos.com/stories/2026/3/10/2372468/-Nonfiction-Views-This-week-s-notable-new-nonfiction",
+            "image": "https://cdn.prod.dailykos.com/images/1534090/story_image/NonfictionViewsMarch10th2026.png?1773191227=",
+            "source": "dailykos"
+        },
+        {
+            "title": "\u2018We\u2019re the good guys\u2019: why moral storytelling doesn\u2019t make the war on Iran necessary or legal",
+            "severity": "HIGH",
+            "url": "https://theconversation.com/were-the-good-guys-why-moral-storytelling-doesnt-make-the-war-on-iran-necessary-or-legal-277952",
+            "image": "https://images.theconversation.com/files/723195/original/file-20260311-57-ozd3uf.jpg?auto=format&fit=crop&h=668&ixlib=rb-4.1.0&q=45&rect=0%2C705%2C8451%2C4225&w=1356",
+            "source": "theconversation"
+        },
+        {
+            "title": "TrimX Drops Metabolism Claims Evaluated: Latest Report About TrimX Liquid Thermogenic Formula Ingredient Research & Effectiveness for Men & Women",
+            "severity": "MEDIUM",
+            "url": "https://www.benzinga.com/pressreleases/26/03/g51177305/trimx-drops-metabolism-claims-evaluated-latest-report-about-trimx-liquid-thermogenic-formula-ingre",
+            "image": "https://fixedagency.com/wp-content/uploads/2026/03/TrimX-Drops.jpg",
+            "source": "benzinga"
+        },
+        {
+            "title": "Punjab: Col Bath writes to DGP, seeks dept inquiry against cops for assault",
+            "severity": "MEDIUM",
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/punjabcol-bath-writes-to-dgp-seeks-dept-inquiry-against-cops-for-assault-101773170245813.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/10/1600x900/logo/Colonel-Pushpinder-Singh-Bath_1773170242348.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "IEA proposes largest ever oil release from strategic reserves \u2014 WSJ",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/sports/international-sports/who-is-kevin-lynch-man-allegedly-assaulted-by-joey-barton-at-liverpool-golf-club-may-lose-sight-in-one-eye-as-ex-footballer-jailed/articleshow/129424901.cms",
-            "image": "https://static.toiimg.com/thumb/msid-129424842,imgsize-777039,width-400,resizemode-4/who-is-kevin-lynch-man-allegedly-assaulted-by-joey-barton-at-liverpool-golf-club-may-lose-sight-in-one-eye-as-ex-footballer-jailed.jpg",
+            "url": "https://tass.com/economy/2099639",
+            "image": "https://images.pexels.com/photos/30123684/pexels-photo-30123684.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "tass"
+        },
+        {
+            "title": "Is Luka Doncic playing tonight vs the Minnesota Timberwolves? Latest update on the Los Angeles Lakers star's injury report (March 10, 2026)",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/sports/nba/top-stories/is-luka-doncic-playing-tonight-vs-the-minnesota-timberwolves-latest-update-on-the-los-angeles-lakers-stars-injury-report-march-10-2026/articleshow/129429551.cms",
+            "image": "https://static.toiimg.com/thumb/msid-129429575,imgsize-108830,width-400,resizemode-4/luka-doncic-of-the-los-angeles-lakers.jpg",
             "source": "toi"
         },
         {
-            "title": "Green light to highway & rail projects worth Rs 8,000 crore",
+            "title": "Melania Trump documentary reached new high after box office struggle",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/india/green-light-to-highway-rail-projects-worth-rs-8000-crore/articleshow/129424805.cms",
-            "image": "https://static.toiimg.com/thumb/msid-129424876,imgsize-27942,width-400,resizemode-4/-.jpg",
+            "url": "https://www.the-express.com/entertainment/celebrity-news/201659/melania-trump-doc-amazon-prime",
+            "image": "https://cdn-images.the-express.com/img/dynamic/21/590x/201659_1.jpg",
+            "source": "express"
+        },
+        {
+            "title": "Cricket West Indies steps in to fly players home after nine-day delay in India, board's statement turns heat on ICC",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cricket/nine-days-after-elimination-west-indies-finally-fly-out-as-cwis-third-statement-puts-icc-in-an-awkward-spotlight-101773190777691.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/11/1600x900/logo/PTI03-01-2026-001011A-0_1773191120156_1773191161391.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Six killed, several injured as bus bursts into flames in Switzerland",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/news/world/switzerland-bus-fire-several-killed-injured-io2uj4wg",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1ppo2dw6rfi5pgggsu9/0/fire-jpg.jpg?w=900",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Tiger radio collared, relocated to Khandar range in Ranthambore",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/jaipur/tiger-radio-collared-relocated-to-khandar-range-in-ranthambore/articleshow/129415891.cms",
+            "image": "https://static.toiimg.com/thumb/msid-117622045,imgsize-99319,width-400,height-225,resizemode-72/tiger-radio-collared-relocated-to-khandar-range-in-ranthambore.jpg",
             "source": "toi"
         },
         {
-            "title": "Smallzy blasts Kyle & Jackie O team as show spirals out of control: 'This whole thing's fallen to pieces'",
+            "title": "Commercial LPG supply stopped in Gurgaon, no disruption in PNG & CNG",
             "severity": "WATCH",
-            "url": "https://www.dailymail.co.uk/tvshowbiz/article-15633525/Smallzy-blasts-Kyle-Jackie-O-team-spirals-control-things-fallen-pieces.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/03/10/22/107030197-0-image-a-11_1773180872891.jpg",
+            "url": "https://timesofindia.indiatimes.com/city/gurgaon/commercial-lpg-supply-stopped-in-gurgaon-no-disruption-in-png-cng/articleshow/129415876.cms",
+            "image": "https://static.toiimg.com/thumb/msid-129415871,width-1280,height-720,imgsize-27056,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "PMC begins HPV vaccination for girls aged 14\u201315; 19,000 doses received",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/pune/pmc-begins-hpv-vaccination-for-girls-aged-1415-19000-doses-received/articleshow/129415351.cms",
+            "image": "https://static.toiimg.com/thumb/msid-117593595,imgsize-97249,width-400,height-225,resizemode-72/pmc-begins-hpv-vaccination-for-girls-aged-1415-19000-doses-received.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "NDP advocate for stiffer enforcement, penalties for foreign farmland owners in Saskatchewan",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/regina/article/ndp-advocate-for-stiffer-enforcement-penalties-for-foreign-farmland-owners-in-saskatchewan/",
+            "image": "https://www.ctvnews.ca/resizer/v2/5VIJACWWGNH6TBIBBEQYSPSE34.png?auth=b1dcc411a29c704f61b0f8f658b03bda147ecffd8c1d9cbc4830c0de22636a34&height=630&smart=true&width=1200",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Moment city lawyer's wife scuffles with neighbour as he tries to stop her erecting security fence in row over her plans to transform \u00a3850,000 village home",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.co.uk/news/article-15631595/neighbours-resident-imprisonment-lawyer-850k-house.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/10/12/107013597-0-image-m-28_1773146817676.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Liverpool suffer agonising one goal defeat in Champions League first leg",
+            "title": "\u2018Shifty c***s\u2019: Aussies rage over servo act",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/liverpool-suffer-agonising-one-goal-221500767.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/Z4k.5_VG4tkMN9gEiER3qw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03Nzc7Y2Y9d2VicA--/https://media.zenfs.com/en/anfield_index_166/2128a4582f084a03e98a08270265670b",
-            "source": "yahoo"
-        },
-        {
-            "title": "Gujarat: Scammers hack Bhavnagar cooperative bank\u2019s sytem using mobile apps, siphon off Rs 7 crore",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/gujarat-scammers-hack-bhavnagar-cooperative-banks-sytem-using-mobile-apps-siphon-off-rs-7-crore/articleshow/129414003.cms",
-            "image": "https://static.toiimg.com/thumb/msid-129413997,width-1280,height-720,imgsize-14072,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Gujarat: Rajkot couple promises Rs 5 crore loan to Ahmedabad businessman, dupes him of Rs 73 l",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/gujarat-rajkot-couple-promises-rs-5-crore-loan-to-ahmedabad-businessman-dupes-him-of-rs-73-l/articleshow/129413963.cms",
-            "image": "https://static.toiimg.com/thumb/msid-117516817,imgsize-95081,width-400,height-225,resizemode-72/gujarat-rajkot-couple-promises-rs-5-crore-loan-to-ahmedabad-businessman-dupes-him-of-rs-73-l.jpg",
-            "source": "toi"
+            "url": "https://www.news.com.au/technology/motoring/on-the-road/viral-video-shows-melbourne-service-station-hiking-diesel-price-by-35-cents/news-story/41bc4ac294040ca63cd8a83f4492be71?from=rss-basic",
+            "image": "https://content.api.news/v3/images/bin/a58d7a7f0fe6d293d38c5ce0e6321338",
+            "source": "news"
         }
     ],
-    "Last_Updated": "2026-03-11T10:50:18.694957Z"
+    "Last_Updated": "2026-03-11T13:15:59.645368Z"
 }
