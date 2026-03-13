@@ -1,232 +1,202 @@
 {
-    "AGRI_Score": 60.7,
-    "Velocity": "+0.6",
+    "AGRI_Score": 60.3,
+    "Velocity": "-0.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The AGRI score of 60.7 is predominantly driven by heightened geopolitical conflict and severe energy market disruptions. The unfolding 'Iran War' is explicitly mentioned as creating market impacts, intensifying regional instability, while an 'LPG crisis' in Delhi underscores critical energy supply vulnerabilities. Concurrently, a surge in state-sponsored cyberattacks adds another layer of complexity to this elevated risk landscape.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.9,
+        "Geopolitical Conflict Intensity": 73.2,
         "Energy & Maritime Disruption": 79.0,
-        "Trade & Supply Chain Stress": 69.6,
+        "Trade & Supply Chain Stress": 72.2,
         "Sovereign Financial Stress": 52.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.2,
-        "Cyber & Infrastructure Threats": 63.9,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 66.2,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is highly elevated due to active conflict and escalating tensions, as indicated by headlines referencing 'The Iran War' and 'Rocket barrages underscore remaining potency of Hezbollah\u2019s gutted arsenal'. The global geopolitical landscape is undergoing significant shifts, leading to increased risk of regional and broader conflict.",
-        "Energy & Maritime Disruption": "Severe energy supply challenges are evident, with 'Delhi restaurant shuts amid LPG crisis; owner claims \u20b95,000 black market rate' directly impacting businesses and households. This is further exacerbated by general 'Oil Surges' creating a volatile and high-risk energy market environment.",
-        "Trade & Supply Chain Stress": "The 'LPG crisis' causing business closures in Delhi directly illustrates stress on critical supply chains for essential goods. Additionally, states being 'asked to lift food grains for three months in advance' suggests proactive measures against potential future supply disruptions.",
-        "Sovereign Financial Stress": "Persistent 'Inflation Sticks' and 'Private Credit Cracks' noted in economic discussions highlight underlying vulnerabilities within financial systems. These factors could place increased pressure on sovereign debt sustainability and fiscal management in the near term.",
-        "Currency & Liquidity Pressure": "Significant foreign exchange market volatility is observed, with 'USD/JPY is right up against the highs of the year'. This movement indicates considerable pressure on currency valuations and potential shifts in global liquidity flows.",
-        "Sanctions & Regulatory Fragmentation": "The 'Boston City Council moves toward potential kratom ban' points to an increasing trend of local regulatory interventions that can fragment markets. Such actions can increase compliance burdens and create barriers to trade for specific products.",
-        "Cyber & Infrastructure Threats": "Cybersecurity risks are acutely high, with direct evidence of 'Iran-linked hackers take aim at U.S. and other targets' and a confirmed 'Telus says it is investigating hack of its systems'. This signifies a landscape of active and sophisticated state-sponsored and criminal cyber operations.",
-        "Climate & Resource Shock": "While there are discussions regarding 'alternate sources in play to meet peak power demand this summer' and carbon pricing, the current news feed does not indicate any immediate, severe climate events or widespread resource shortages. This pillar currently exhibits baseline activity regarding acute shocks."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "USD/JPY is right up against the highs of the year",
+            "title": "Gas price surge over Iran hits Americans already struggling with affordability",
             "severity": "HIGH",
-            "url": "https://investinglive.com/forex/usdjpy-is-right-up-against-the-highs-of-the-year-20260312/",
-            "image": "https://images.investinglive.com/images/USDJPY%20weekly_id_640be677-80d5-4b2a-9ec1-902bc5b26db0_original.jpg",
-            "source": "forexlive"
+            "url": "https://www.wivb.com/news/political-news/hill-politics/gas-price-surge-over-iran-hits-americans-already-struggling-with-affordability/",
+            "image": "https://www.wivb.com/wp-content/uploads/sites/97/2026/03/HighFuel_Frazin_AP_YukiIwamura.jpg?w=900",
+            "source": "wivb"
         },
         {
-            "title": "Boston City Council moves toward potential kratom ban",
+            "title": "SILJ: Silver Supercycle Meets War Premium",
             "severity": "HIGH",
-            "url": "https://www.boston.com/news/local-news/2026/03/12/boston-city-council-moves-toward-potential-kratom-ban/",
-            "image": "https://bdc2020.o0bc.com/wp-content/uploads/2026/03/Kratom_Drugs_85045-69b3076b81a56-768x432.jpg",
-            "source": "boston"
+            "url": "https://seekingalpha.com/article/4881849-silj-silver-supercycle-meets-war-premium",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1306560514/image_1306560514.jpg?io=getty-c-w630",
+            "source": "seekingalpha"
         },
         {
-            "title": "Trump's war tests his 'maybe less enthusiastic' VP Vance",
+            "title": "Gold Is Down 3% Since The Iran War Started\u2014Time To Buy The Dip?",
             "severity": "HIGH",
-            "url": "https://www.abc.net.au/news/2026-03-13/jd-vance-philosophically-little-bit-different-to-me-trump-says/106449548",
-            "image": "https://live-production.wcms.abc-cdn.net.au/3ec0ccf5fcd0b5c87c2e6f0503e482c5?cropH=2809&cropW=4994&height=485&impolicy=wcms_crop_resize&width=862&xPos=0&yPos=52",
-            "source": "abc_net"
-        },
-        {
-            "title": "Doctor Who writer explains how new revamp of \"unloved\" Peter Davison story will address \"failings\" of original version",
-            "severity": "HIGH",
-            "url": "https://www.radiotimes.com/tv/sci-fi/doctor-who-warriors-of-the-deep-special-edition-changes-newsupdate/",
-            "image": "https://images.immediate.co.uk/production/volatile/sites/3/2026/03/myrkha-c7669aa.jpg?fit=700%2C466&quality=90",
-            "source": "radiotimes"
-        },
-        {
-            "title": "Olympic village flagged for military use in private pitch to premier",
-            "severity": "HIGH",
-            "url": "https://www.smh.com.au/national/queensland/olympic-village-flagged-for-military-use-in-private-pitch-to-premier-20260311-p5o9fm.html",
-            "image": "https://static.ffx.io/images/$zoom_1.4234,$multiply_0.7554,$ratio_1.777778,$width_1059,$x_0,$y_0/t_crop_custom/q_86,f_auto/e59814bd7b4d3e8081d9ed4d657736640f9d88b2",
-            "source": "smh"
-        },
-        {
-            "title": "Greek National Intelligence Service Report: The new geopolitical landscape, hacker attacks, and recruiting youth via online games",
-            "severity": "HIGH",
-            "url": "https://en.protothema.gr/2026/03/12/greek-national-intelligence-service-report-the-new-geopolitical-landscape-hacker-attacks-and-recruiting-youth-via-online-games/",
-            "image": "https://en.protothema.gr/wp-content/uploads/2026/03/xroma-eyp2-1.jpg-1-300x168.jpg",
-            "source": "protothema"
-        },
-        {
-            "title": "\u201cIt hurts to close kitchens...\u201d: Delhi restaurant shuts amid LPG crisis; owner claims \u20b95,000 black market rate",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/etimes/trending/it-hurts-to-close-kitchens-delhi-restaurant-shuts-amid-lpg-crisis-owner-claims-5000-black-market-rate/articleshow/129521518.cms",
-            "image": "https://static.toiimg.com/thumb/msid-129521559,imgsize-118244,width-400,resizemode-4/it-hurts-to-close-kitchens-delhi-restaurant-shuts-amid-lpg-crisis.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Forget Nvidia And Micron \u2014 The Iran War Just Created An Earnings Boom For US Refiners",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/markets/commodities/26/03/51224530/war-iran-oil-prices-diesel-gasoline-crack-spread-what-it-means-for-refining-stocks-earnings",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/03/12/Us-iran-Geopolitics-Oil-Industry--Energy.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
+            "url": "https://www.benzinga.com/markets/commodities/26/03/51229506/gold-is-down-3-since-the-iran-war-started-time-to-buy-the-dip",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/03/12/Gold-And-Silver-Bars--The-Scene-Shows-Go_1.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
             "source": "benzinga"
         },
         {
-            "title": "Trump's Fed Pick Kevin Warsh Faces Brutal Trifecta: Oil Surges, Private Credit Cracks, Inflation Sticks\u2014Can He Cut Rates?",
+            "title": "Did the U.S. strike an Iranian elementary school by mistake? Everything we know so far about the deadly missile attack.",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/markets/prediction-markets/26/03/51224311/trumps-fed-pick-kevin-warsh-faces-brutal-trifecta-oil-surges-private-credit-cracks-inf",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/03/12/Federal-Reserve-Building.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
-            "source": "benzinga"
+            "url": "https://ca.news.yahoo.com/did-the-us-strike-an-iranian-elementary-school-by-mistake-everything-we-know-so-far-about-the-deadly-missile-attack-205000287.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/.dFWv7nrQoOKqZMpN4WGDg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://s.yimg.com/uu/api/res/1.2/GI9EJ9XJo7YfiyFaGwvISA--~B/aD00ODAwO3c9NzIwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/gettyimages-2264285457(1)_6797.jpg",
+            "source": "yahoo"
         },
         {
-            "title": "Iran-linked hackers take aim at U.S. and other targets, raising risk of cyberattacks during war",
+            "title": "A grim list: Some notable attacks on houses of worship around the world in recent years",
             "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/world/mideast-conflict/article/iran-linked-hackers-take-aim-at-us-and-other-targets-raising-risk-of-cyberattacks-during-war/",
-            "image": "https://www.ctvnews.ca/resizer/v2/GKFBVK63YU3TEYGD325VFGZXEQ.jpg?auth=1ba6f7d0bbfaee26344411042bdc60c959e80e24a53a16af591b103c99da9413&height=630&smart=true&width=1200",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Telus says it is investigating hack of its systems - CTV News",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUEVBM2ZWSWlpNE1KUGt1eGxLMW5nbnBTcG44b2VEVWpLcGhyQWxmY0NzNU42VmpHTTdRQ1c3YUhQc19BSTBYRmZmX1AwMjFtNVp5WjdRRlVxaER2RU11NUlscmVkWU9Icjk2TGhFNktpQ3IzMm12TnVpMGYxZVg1RDZtN0hHLWxrcENXVDY1cm01TW4tc0E?oc=5",
-            "image": "https://images.pexels.com/photos/20457107/pexels-photo-20457107.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "What will the carbon price cost the oilsands? A Timbit per barrel, one analysis says",
-            "severity": "MEDIUM",
-            "url": "https://www.thestar.com/business/what-will-the-carbon-price-cost-the-oilsands-a-timbit-per-barrel-one-analysis-says/article_f356d844-d22f-5996-b9f7-78ec77759b7a.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/3/e5/3e5aba51-5e8a-582f-9fc6-9ef045044463/69b30f8caa3de.image.jpg?resize=300%2C200",
+            "url": "https://www.thestar.com/news/world/a-grim-list-some-notable-attacks-on-houses-of-worship-around-the-world-in-recent/article_5c46e2be-cdd6-527b-b7f9-f2c2d0f76b05.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/2/05/205aee10-e1bd-5be1-bc92-2bdf29017b32/69b30f8a8e32f.image.jpg?resize=300%2C225",
             "source": "thestar"
         },
         {
-            "title": "Aussie star \u2018responsible\u2019 for bold global trend",
-            "severity": "WATCH",
-            "url": "https://www.news.com.au/lifestyle/fashion/celebrity/four-style-culprits-fuelling-short-hair-trend/news-story/42a7bc0b4832a4d7f85269cfdfbb583f?from=rss-basic",
-            "image": "https://content.api.news/v3/images/bin/8f43ba64693c44f1c392d5811adc3f2b",
-            "source": "news"
-        },
-        {
-            "title": "Meet Micah Parsons: Green Bay Packers star player who saw a 43% surge in net worth despite his injuries",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/sports/nfl/news/meet-micah-parsons-green-bay-packers-star-player-who-saw-a-43-surge-in-net-worth-despite-his-injuries/articleshow/129516872.cms",
-            "image": "https://static.toiimg.com/thumb/msid-129516908,imgsize-1042081,width-400,resizemode-4/micah-parsons.jpg",
+            "title": "LPG crisis turns up heat on Ludhiana\u2019s food business owners",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/ludhiana/lpg-crisis-turns-up-heat-on-ludhianas-food-business-owners/articleshow/129520337.cms",
+            "image": "https://static.toiimg.com/thumb/msid-129520324,imgsize-102932,width-400,height-225,resizemode-72/lpg-crisis-turns-up-heat-on-ludhianas-food-business-owners.jpg",
             "source": "toi"
         },
         {
-            "title": "Google\u2019s former Europe boss close to becoming next head of BBC, sources say",
-            "severity": "WATCH",
-            "url": "https://www.theguardian.com/technology/2026/mar/12/matt-brittin-google-former-europe-boss-close-to-becoming-head-of-bbc-sources-say",
-            "image": "https://i.guim.co.uk/img/media/97a4d0776a4930ef60dac5df09f46aa047249e98/0_189_1354_1083/master/1354.jpg?crop=none&dpr=1&s=none&width=465",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "States/UTs asked to lift food grains for three months in advance",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/states/uts-asked-to-lift-food-grains-for-three-months-in-advance/articleshow/129521712.cms",
-            "image": "https://static.toiimg.com/thumb/msid-129522020,imgsize-122264,width-400,resizemode-4/-.jpg",
+            "title": "Panic or shortage? Ludhiana\u2019s Rural areas feel the cylinder singe",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/ludhiana/panic-or-shortage-ludhianas-rural-areas-feel-the-cylinder-singe/articleshow/129520142.cms",
+            "image": "https://static.toiimg.com/thumb/msid-129520139,imgsize-30232,width-400,height-225,resizemode-72/panic-or-shortage-ludhianas-rural-areas-feel-the-cylinder-singe.jpg",
             "source": "toi"
         },
         {
-            "title": "Who is Victoria Mboko? 19 year old Canadian tennis rising star coached by Nathalie Tauziat chasing breakthrough moment at Indian Wells",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/sports/international-sports/who-is-victoria-mboko-19-year-old-canadian-tennis-rising-star-coached-by-nathalie-tauziat-chasing-breakthrough-moment-at-indian-wells/articleshow/129521955.cms",
-            "image": "https://static.toiimg.com/thumb/msid-129521861,imgsize-23964,width-400,resizemode-4/who-is-victoria-mboko-19-year-old-canadian-tennis-rising-star-coached-by-nathalie-tauziat-chasing-breakthrough-moment-at-indian-wells.jpg",
+            "title": "Kolkata clubs chop & change menu, turn to electric cooking to combat gas crisis",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/kolkata/kolkata-clubs-chop-change-menu-turn-to-electric-cooking-to-combat-gas-crisis/articleshow/129520130.cms",
+            "image": "https://static.toiimg.com/thumb/msid-117517791,imgsize-565910,width-400,height-225,resizemode-72/kolkata-clubs-chop-change-menu-turn-to-electric-cooking-to-combat-gas-crisis.jpg",
             "source": "toi"
         },
         {
-            "title": "'Alternate sources in play to meet peak power demand this summer'",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/industry/energy/power/alternate-sources-in-play-to-meet-peak-power-demand-this-summer/articleshow/129521985.cms",
-            "image": "https://img.etimg.com/thumb/msid-129522039,width-300,height-225,imgsize-73816,resizemode-75/alternate-sources-in-play-to-meet-peak-power-demand-this-summer.jpg",
-            "source": "economictimes_indiatimes"
+            "title": "England Hockey investigating ransomware data breach",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2026/03/12/England_Hockey.jpg",
+            "source": "bleepingcomputer"
         },
         {
-            "title": "India's kitchens safe amid energy shock, assures Hardeep Puri",
-            "severity": "WATCH",
-            "url": "http://economictimes.indiatimes.com/industry/energy/oil-gas/indias-kitchens-safe-amid-energy-shock-assures-hardeep-puri/articleshow/129521786.cms",
-            "image": "https://img.etimg.com/thumb/msid-129521956,width-300,height-225,imgsize-85514,resizemode-75/no-fuel-shortage-avoid-creating-fake-narratives-hardeep-puri.jpg",
-            "source": "economictimes_indiatimes"
+            "title": "Gevo Stock Is Again Rising Today \u2014 Retail Sees Stock Breach $3 Mark",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/markets/gevo-stock-is-again-rising-today-retail-sees-stock-breach-3-mark-articleshow-u2tc9x3",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-bafb2c21-94f8-4cf8-a8db-654a9dfb9901.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "Rocket barrages underscore remaining potency of Hezbollah\u2019s gutted arsenal",
-            "severity": "WATCH",
-            "url": "https://www.timesofisrael.com/rocket-barrages-underscore-remaining-potency-of-hezbollahs-gutted-arsenal/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/03/AFP__20260312__A2X87RX__v1__HighRes__IsraelLebanonIranUsWar-1024x640.jpg",
-            "source": "timesofisrael"
+            "title": "Iran\u2019s New Supreme Leader Vows to Continue Blocking the Strait of Hormuz",
+            "severity": "HIGH",
+            "url": "https://foreignpolicy.com/2026/03/12/iran-khamenei-block-strait-hormuz-oil-prices-us-trump-israel-strikes-hezbollah/",
+            "image": "https://foreignpolicy.com/wp-content/uploads/2026/03/IranShipAttack-GettyImages-2265398952.jpg?w=800%3Fquality%3D90",
+            "source": "foreignpolicy"
         },
         {
-            "title": "10 projects from Newsom\u2019s mental health bond were supposed to open in 2025. That didn\u2019t happen",
-            "severity": "WATCH",
-            "url": "https://www.wfaa.com/article/syndication/associatedpress/10-projects-from-newsoms-mental-health-bond-were-supposed-to-open-in-2025-that-didnt-happen/616-a2ca829d-68c2-44e6-9d2b-e045ff163e57",
-            "image": "https://media.tegna-media.com/assets/AssociatedPress/images/a340492e-1977-4d31-990e-fedd362571cd/20260312T190028/a340492e-1977-4d31-990e-fedd362571cd_750x422.jpg",
-            "source": "wfaa"
+            "title": "India co-sponsors resolution at UNSC condemning Iran\u2019s attacks on Gulf nations",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/india/india-co-sponsors-resolution-at-unsc-condemning-irans-attacks-on-gulf-nations-10579013/",
+            "image": "https://images.indianexpress.com/2026/03/iran-israel-us-war-1_20260312202217.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Dogecoin, Shiba Inu At Critical Support\u2014Break These Levels And It Gets Ugly",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/crypto/cryptocurrency/26/03/51224603/dogecoin-shiba-inu-at-critical-support-break-these-levels-and-it-gets-ugly",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/03/12/Dogecoin-Icon-Displaying-With-Popular-Me.jpeg?auto=jpg&dpr=1&fit=crop&height=480&optimize=medium&width=720",
+            "title": "Plus Therapeutics Reports 2025 Results, Business Progress and 2026 Anticipated Milestones for REYOBIQTM Clinical Program and CNSide\u00ae Commercial Rollout",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/03/g51227810/plus-therapeutics-reports-2025-results-business-progress-and-2026-anticipated-milestones-for-reyob",
+            "image": "https://images.pexels.com/photos/12185873/pexels-photo-12185873.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "benzinga"
         },
         {
-            "title": "Dems vote to keep DHS closed despite airport chaos, Iranian sleeper cell threat",
-            "severity": "WATCH",
-            "url": "https://www.foxnews.com/politics/dems-vote-keep-dhs-closed-despite-airport-chaos-iranian-sleeper-cell-threat",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/931/523/senate-minority-leader-chuck-schumer-shutdown-dhs-pieces.jpg?tl=1&ve=1",
-            "source": "foxnews"
+            "title": "Colombia's Petro, Trump spoke on phone, Trump said Petro welcome in U.S",
+            "severity": "MEDIUM",
+            "url": "https://ca.news.yahoo.com/colombias-petro-trump-spoke-phone-204448525.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/W4Buk0uXryQiifGIyDQXnQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04NDA7Y2Y9d2VicA--/https://media.zenfs.com/en/reuters.com/82430f078304ef8b574bd7b39cf1d2f6",
+            "source": "yahoo"
         },
         {
-            "title": "Telus probes cybersecurity incident that 'ShinyHunters' group claims responsibility for",
+            "title": "2,000-point scorer paces Pewamo-Westphalia past Flint Elite 63-37 in D3 state semis",
             "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/business/telus-cybersecurity-incident-shinyhunters-9.7126627?cmp=rss",
-            "image": "https://i.cbc.ca/ais/2667e126-8d87-4353-9267-befc2b5d0d82,1773354036461/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C1071%2C7193%2C4046%29%3BResize%3D%28620%29",
-            "source": "cbc"
+            "url": "https://www.mlive.com/highschoolsports/2026/03/2000-point-scorer-paces-pewamo-westphalia-past-flint-elite-63-37-in-d3-state-semis.html",
+            "image": "https://www.mlive.com/resizer/v2/RLAEP3YM3FALRAJ6S2UIGZFRS4.JPG?auth=e338f14aa81e4afd653549aae01cad184d54d697bb68226cb81cf75ac2709643&height=1200&smart=true",
+            "source": "mlive"
         },
         {
-            "title": "Gold IRA storage explained: Depositories, insurance and what you should verify",
+            "title": "UN mission says Venezuela's repressive apparatus persists after Maduro ouster",
             "severity": "WATCH",
-            "url": "https://www.cbsnews.com/news/gold-ira-storage-explained-depositories-insurance-and-what-you-should-verify/",
-            "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/03/12/cf88788b-a540-4331-8bdc-1be21cbcea52/thumbnail/60x60/a436bc14bdaa266cb6ff74a5f693015b/gettyimages-522163922.jpg",
-            "source": "cbsnews"
+            "url": "https://www.thestar.com.my/news/world/2026/03/13/un-mission-says-venezuela039s-repressive-apparatus-persists-after-maduro-ouster",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/13/3810977.jpg",
+            "source": "thestar_my"
         },
         {
-            "title": "Enoch Burke was moved to Castlerea jail for own safety, High Court hears",
+            "title": "2007 Volvo S40 For Sale",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/crime-law/courts/2026/03/12/enoch-burke-was-moved-to-castlerea-jail-for-own-safety-high-court-hears/",
-            "image": "https://www.irishtimes.com/resizer/v2/RK5T3OBZ7BE4VBQJDVHUMHKDEU.jpg?auth=68c90a43c6412704c1e51aed40b435df29dcf8ca01339a5939409f6311ae1484&height=630&smart=true&width=1200",
-            "source": "irishtimes"
+            "url": "https://autos.yahoo.com/deals-and-buying-guides/articles/2007-volvo-s40-sale-205000802.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/iFdn118sgSSAuoB8.yuPkg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcyMQ--/https://media.zenfs.com/en/autoguide_com_450/83fc0774ebcb7ce16bec9902c9aa2792",
+            "source": "yahoo"
         },
         {
-            "title": "Watchdog says he 'can't trust ministers' with Sturgeon inquiry files",
+            "title": "Stocks to Watch Today: JK Lakshmi Cement, Gravita India, Balaji Amines, Shaily Engineering, Kalpataru, Action Construction Equipment in focus on 13 March",
             "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/cx2gzmzn502o",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/2fa7/live/9e2a0bb0-1e3d-11f1-b048-c9424b2cf5fd.jpg",
-            "source": "bbc"
+            "url": "https://www.moneycontrol.com/news/business/markets/stocks-to-watch-today-jk-lakshmi-cement-gravita-india-balaji-amines-shaily-engineering-kalpataru-action-construction-equipment-in-focus-on-13-march-13858820.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260312025023_market1.jpeg",
+            "source": "moneycontrol"
         },
         {
-            "title": "FIR filed against ADAG companies on Axis complaint",
+            "title": "Anxiety over LPG supply: Induction cooktops fly off shelves online & offline in Noida and Ghazibad",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/company/corporate-trends/fir-filed-against-adag-companies-on-axis-complaint/articleshow/129521017.cms",
-            "image": "https://img.etimg.com/thumb/msid-129521196,width-300,height-225,imgsize-28708,resizemode-75/anil-ambani.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://timesofindia.indiatimes.com/city/noida/anxiety-over-lpg-supply-induction-cooktops-fly-off-shelves-online-offline-in-noida-and-ghazibad/articleshow/129520336.cms",
+            "image": "https://static.toiimg.com/thumb/msid-129520326,imgsize-90636,width-400,height-225,resizemode-72/anxiety-over-lpg-supply-induction-cooktops-fly-off-shelves-online-offline-in-noida-and-ghazibad.jpg",
+            "source": "toi"
         },
         {
-            "title": "GTA jail guard arrested based on information from corruption probe: police",
+            "title": "Navi Mumbai: Five artificial lakes made at Karnala Bird Sanctuary to meet scarcity needs",
             "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/toronto/jail-guard-arrest-corruption-probe-9.7126588?cmp=rss",
-            "image": "https://i.cbc.ca/ais/55771129-d80f-40a7-aeda-63a8102282c5,1770319473647/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C234%2C4492%2C2526%29%3BResize%3D%28620%29",
-            "source": "cbc"
+            "url": "https://timesofindia.indiatimes.com/city/mumbai/navi-mumbai-five-artificial-lakes-made-at-karnala-bird-sanctuary-to-meet-scarcity-needs/articleshow/129520306.cms",
+            "image": "https://static.toiimg.com/thumb/msid-129520304,imgsize-143046,width-400,height-225,resizemode-72/navi-mumbai-five-artificial-lakes-made-at-karnala-bird-sanctuary-to-meet-scarcity-needs.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Northern Virginia Association of Realtors\u00ae Launches NOVA Housing Supply Framework to Expand Housing Options and Preserve the Region's Economic Competitiveness",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/pressreleases/26/03/n51229434/northern-virginia-association-of-realtors-launches-nova-housing-supply-framework-to-expand-housing",
+            "image": "https://mma.prnewswire.com/media/2595535/NVAR_Logo.jpg?auto=webp&dpr=2&optimize=medium&width=828",
+            "source": "benzinga"
+        },
+        {
+            "title": "Domestic LPG consumers press panic button, bookings soar, queues grow longer",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/pune/domestic-lpg-consumers-press-panic-button-bookings-soar-queues-grow-longer/articleshow/129520290.cms",
+            "image": "https://static.toiimg.com/thumb/msid-129520281,width-1280,height-720,imgsize-97810,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Fast and furious Chinese cooking style may take a hit",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/nagpur/fast-and-furious-chinese-cooking-style-may-take-a-hit/articleshow/129520228.cms",
+            "image": "https://static.toiimg.com/thumb/msid-129520221,width-1280,height-720,imgsize-79102,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Ozempic Maker Sued After Woman Died From Stomach Paralysis",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/ozempic-lawsuit-death-novo-nordisk-11650099",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/03/FotoJet-27.jpg?w=1200crop%3D1",
+            "source": "newsweek"
+        },
+        {
+            "title": "How to Write GRC Documentation That Non-Technical Stakeholders Actually Understand",
+            "severity": "WATCH",
+            "url": "https://hackernoon.com/how-to-write-grc-documentation-that-non-technical-stakeholders-actually-understand",
+            "image": "https://hackernoon.imgix.net/images/EUzdD7EdVqbU1y0SLQwSLSArm8s2-wp93ecq.jpeg",
+            "source": "hackernoon"
+        },
+        {
+            "title": "Tom Brady forgets the \"bro code\" when it comes to flirting with Scooter Braun's ex-wife",
+            "severity": "WATCH",
+            "url": "https://www.marca.com/en/nfl/las-vegas-raiders/2026/03/12/69b3020e22601dc70f8b45aa.html",
+            "image": "https://phantom.estaticos-marca.com/15603f6c6b5c7a4f7e9f113c21f9d19d/resize/1320/f/jpg/assets/multimedia/imagenes/2026/01/08/17678811454358.jpg",
+            "source": "marca"
         }
     ],
-    "Last_Updated": "2026-03-13T07:03:37.470462Z"
+    "Last_Updated": "2026-03-13T08:51:29.257511Z"
 }
