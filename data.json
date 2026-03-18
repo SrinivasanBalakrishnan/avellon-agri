@@ -1,281 +1,190 @@
 {
-    "AGRI_Score": 62.6,
-    "Velocity": "+2.6",
+    "AGRI_Score": 60.0,
+    "Velocity": "-2.6",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.6 reflects a high level of global risk, overwhelmingly driven by escalating geopolitical conflict and the associated potential for energy and maritime disruption. The ongoing 'US-Israel war with Iran, Day 19' and particularly the 'assassination of Ali Larijani' signal a critical intensification of hostilities, threatening regional stability and global markets. This heightened tension is also influencing risk perceptions, as seen with 'Gold steady as investors weigh Middle East risks ahead of Fed decision'.",
+    "AI_Brief": "The overall AGRI score of 60.0/100 reflects a high-risk environment primarily driven by escalating geopolitical tensions and significant energy and maritime disruptions. The \"US-Iran war live updates\" reporting killed officials and strikes near Australian bases, alongside reports of \"Tel Aviv planning a Khamenei-like assassination in Moscow,\" indicates a widening and intensifying global conflict landscape. This conflict directly impacts the energy sector, as evidenced by \"China ignores Trump's Hormuz request as the Iran war deepens,\" highlighting persistent risk to critical maritime choke points despite continued oil flow. Therefore, the current score is largely a product of a dangerously volatile geopolitical sphere and its direct effect on global energy security.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 81.5,
+        "Geopolitical Conflict Intensity": 79.1,
         "Energy & Maritime Disruption": 79.0,
-        "Trade & Supply Chain Stress": 72.3,
+        "Trade & Supply Chain Stress": 62.2,
         "Sovereign Financial Stress": 52.3,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.7,
-        "Cyber & Infrastructure Threats": 71.4,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 64.2,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is at an extreme level due to the pervasive reporting of active hostilities, including 'US-Israel war with Iran, Day 19' and 'US Strikes on Iran'. The assassination of Ali Larijani further elevates risk, questioning whether it will 'derail diplomacy and a US exit from the Iran war' and potentially 'paralyse Iran's wartime leadership'.",
-        "Energy & Maritime Disruption": "The widespread conflict in the Middle East, specifically the 'US-Israel war with Iran', poses a severe and ongoing threat to critical energy infrastructure and key maritime trade routes. Continued regional instability inherently increases the likelihood of supply disruptions, influencing global energy prices despite no explicit reports of oil infrastructure attacks in the feed.",
-        "Trade & Supply Chain Stress": "The heightened geopolitical tensions and military actions in a vital global transit region inevitably introduce significant stress on international trade arteries. While 'Japan reports trade surplus' offers a localized positive, the broader environment of 'Middle East risks' suggests increased costs, delays, and potential re-routing for global supply chains.",
-        "Sovereign Financial Stress": "The prolonged conflict and elevated 'Middle East risks' contribute to a cautious global financial climate, potentially impacting the creditworthiness of regional sovereigns and emerging markets. Although specific sovereign default news is absent, the general risk aversion indicated by 'Gold steady as investors weigh Middle East risks' reflects underlying financial pressure.",
-        "Currency & Liquidity Pressure": "Global markets are displaying a degree of caution as 'Gold, silver steady as Fed decision looms amid Middle East tensions', suggesting increased demand for safe-haven assets. This environment, driven by geopolitical uncertainty, can lead to capital flight from riskier assets and introduce volatility for some currencies, affecting market liquidity.",
-        "Sanctions & Regulatory Fragmentation": "The sustained 'US-Israel war with Iran' environment creates a high probability of new or intensified international sanctions targeting involved parties, particularly Iran. The assassination of a key figure like Ali Larijani could trigger further diplomatic or economic punitive measures, contributing to a more fragmented regulatory landscape for international businesses.",
-        "Cyber & Infrastructure Threats": "With the region embroiled in the 'US-Israel war with Iran', the risk of state-sponsored cyberattacks against critical infrastructure, both within the conflict zone and potentially against allies, is critically high. Such actions are a common feature of modern warfare, aiming to disrupt services and create strategic advantage.",
-        "Climate & Resource Shock": "This pillar currently reflects a period of routine monitoring, as the provided news feed contains no information regarding significant climate-related events, natural disasters, or resource scarcity issues. There are no immediate shocks from environmental factors reported at this time."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains extremely high, marked by direct military engagements and escalating threats between major powers and their proxies. The reported assassinations of top Iranian officials and strikes near military bases, coupled with inter-state assassination rumors, indicate a dangerous expansion of active hostilities, as highlighted by \"US-Iran war live updates\" and \"Is Tel Aviv planning a Khamenei-like assassination in Moscow?\".",
+        "Energy & Maritime Disruption": "Significant energy and maritime disruption is evident, particularly with a major power blockade causing a \"29-hour blackout\" in Cuba and ongoing deep-seated conflict impacting the Strait of Hormuz. While \"About 90 ships cross the Strait of Hormuz,\" the deepening war between the US and Iran maintains high risk to global oil supply and maritime transit, as seen with \"China ignores Trump's Hormuz request.\"",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress remains elevated, as deepening geopolitical conflicts directly threaten crucial shipping lanes and complicate international trade relations, as seen with \"China ignores Trump's Hormuz request.\" However, the reported reopening of \"The Silicon Strait\" suggests some positive developments in critical technology supply chains, providing a mitigating factor.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, with corporate earnings misses reflecting underlying economic vulnerabilities and potential market sensitivity. While no direct sovereign defaults are reported, financial markets remain reactive to global events as indicated by \"Technical Levels For Major FX Pairs Ahead Of The FOMC.\"",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures remain at a moderate level, with market participants closely monitoring economic indicators and central bank statements for future direction. The mention of \"Technical Levels For Major FX Pairs Ahead Of The FOMC\" indicates a period of heightened observation rather than outright crisis in currency markets.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation contribute to moderate risk, exemplified by the \"US oil blockade\" impacting Cuba and the breakdown of international diplomatic efforts regarding Iran's nuclear program. These events underscore the continued weaponization of economic tools and the widening chasm in international regulatory alignment, as seen in \"How ignorance, misunderstanding and obfuscation ended Iran nuclear talks.\"",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are at a moderate-high level, highlighted by a significant \"29-hour blackout\" in Cuba, suggesting critical infrastructure vulnerabilities. Furthermore, persistent rumors and \"AI Claims\" regarding political figures underscore the prevalent risk of disinformation and cyber-enabled psychological operations, as observed in \"Netanyahu Death Rumours, AI Claims & Son Yair's 7-day Silence.\"",
+        "Climate & Resource Shock": "Risk related to climate and resource shock is currently at a low level, with no immediate events reported in the news feed indicating significant disruptions. This pillar is under routine monitoring, as global environmental factors typically warrant continuous assessment despite the absence of immediate crises."
     },
     "All_Alerts": [
         {
-            "title": "'Dhurandhar 2': Ranveer Singh's spy drama 16 minutes longer than part one, gets A certificate as CBFC reduces four violent visuals",
+            "title": "Cuba restores power after 29-hour blackout amid US oil blockade - Al Jazeera",
             "severity": "HIGH",
-            "url": "https://www.firstpost.com/entertainment/dhurandhar-2-ranveer-singhs-spy-drama-16-minutes-longer-than-part-one-gets-a-certificate-as-cbfc-reduces-four-violent-visuals-13990594.html",
-            "image": "https://images.firstpost.com/uploads/2026/03/runt-1-2026-03-45814045feb164ed2a33da009798c001.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Will Larijani\u2019s killing derail diplomacy and a US exit from the Iran war?",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/will-larijani-s-killing-derail-diplomacy-and-a-us-exit-from-the-iran-war-article-13863553.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260318024051_Larijani.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "How Long Will US Strikes on Iran Continue? Trump Leaves Timeline Unclear",
-            "severity": "HIGH",
-            "url": "https://www.timesnownews.com/world/how-long-will-us-strikes-on-iran-continue-trump-leaves-timeline-unclear-article-153859981",
-            "image": "https://images.timesnownews.com/thumb/msid-153860094,thumbsize-132978,width-1280,height-720,resizemode-75/153860094.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "US\u2010Israel war with Iran, Day 19: What you need to know",
-            "severity": "HIGH",
-            "url": "https://gulfnews.com/uae/usisrael-war-with-iran-day-19-what-you-need-to-know-1.500478173",
-            "image": "https://media.assettype.com/gulfnews/2024-11-17/s1gge4yf/Stock_e_learning_student_home_173e33d9d70_original_ratio.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "\u2018No difference between Israel and Pakistan regimes\u2019: Afghan cricketer condemns Kabul strikes",
-            "severity": "HIGH",
-            "url": "https://english.mathrubhumi.com/sports/news/no-difference-between-israel-and-pakistan-regimes-afghan-cricketer-condemns-kabul-strikes-lqzl7pwb",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1pv7jbk811sndjbm1vc/0/naveen-ul-haq-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
-        },
-        {
-            "title": "Day 19 of war: UAE reveals names of civilians killed in Iran attacks",
-            "severity": "HIGH",
-            "url": "https://www.khaleejtimes.com/world/mena/day-19-israel-us-iran-war-live-updates",
-            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-03-18/tt8bcdab/uae-flag.avif",
-            "source": "khaleejtimes"
-        },
-        {
-            "title": "\u2018Most comprehensive\u2019 report on Oct. 7 attack updated to include new data, survivor accounts",
-            "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/most-comprehensive-report-on-oct-7-attack-updated-to-include-new-data-survivor-accounts/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2024/03/F231121CG18.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Japan reports trade surplus",
-            "severity": "HIGH",
-            "url": "https://apnews.com/article/japan-trade-surplus-trump-tariffs-china-imports-3720c3212d66d687082d2639b3bb692b",
-            "image": "https://images.pexels.com/photos/398154/pexels-photo-398154.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "apnews"
-        },
-        {
-            "title": "'One of the most dated GDP report cards in recent memory'",
-            "severity": "HIGH",
-            "url": "https://www.rnz.co.nz/news/business/589960/one-of-the-most-dated-gdp-report-cards-in-recent-memory",
-            "image": "https://images.pexels.com/photos/30104945/pexels-photo-30104945.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "Israeli medics confront new battlefield: Cluster warheads",
-            "severity": "HIGH",
-            "url": "https://www.jpost.com/middle-east/iran-news/article-890325",
-            "image": "https://images.pexels.com/photos/33333379/pexels-photo-33333379.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "jpost"
-        },
-        {
-            "title": "The end of an era: How the assassination of Ali Larijani paralyses Iran's wartime leadership",
-            "severity": "HIGH",
-            "url": "https://zeenews.india.com/world/iran-ali-larijani-assassination-israel-tehran-airstrike-pardis-3027882.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/03/18/1919499-mixcollage-18-mar-2026-08-26-am-3833.jpg?im=Resize=(1200,900)",
-            "source": "zeenews"
-        },
-        {
-            "title": "UN says 36,000 Palestinians displaced in occupied West Bank in one year",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1983226/un-says-36000-palestinians-displaced-in-occupied-west-bank-in-one-year",
-            "image": "https://i.dawn.com/large/2026/03/1807553546e7e15.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "'Too Many People Dying': Irish PM Martin Slams War Standing Next To Trump At White House",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/world/too-many-people-dying-irish-pm-martin-slams-war-standing-next-to-trump-at-white-house-9983338.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/03/Untitled-design-2026-03-18T081801.804-2026-03-a505acb77a2a86581d85db43f978ce0a-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Rayner warns immigration reforms risk being 'un-British'",
-            "severity": "HIGH",
-            "url": "https://www.bbc.com/news/articles/c7434xv1pmeo",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/e674/live/a084ab40-92c0-11ef-9eb1-ddc029b578ae.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Engineered bacteria may improve precision cancer drug delivery - News-Medical",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa0Nka0ppYjM1eklvOHNRVm5lY2liSnVQck5PSjdQVjVjN2czQXd1a2JJVTFGWjBOd2VtNDlrUjhsOFdHRkNPWkhseTdnLUg2WE5KRGNoOXRxYUE0eUZWb1JlNWx1SVUyTDNwT0ZTSzdSb0dsY1l0cHdqS2lPQkNfN1RPcGx5Zk5vN3M1OEQ3cm14V2J6RF9QYm5vQ1VkVjFuRm93Sl9QcFRiNjEzT0VF?oc=5",
-            "image": "https://images.pexels.com/photos/1188751/pexels-photo-1188751.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ2RLd0gyenJjUDRrdThfc01MdEdidUN0aF9hNEp5cTl5M1cwTFB4dmtmQzJhS0Q2UDlDd2lIcTNvR01ycWI0LXF3WWxMMERBYXo1S3BnS1FWb0R1eG5JSlFLT0RDQU84YTY4bTZQejN1UjAwMlVhQU5UMFlwd3luek5QUGZjVG52YjVTdkJxSEdIbVAwZDVoQjVZMjJDRUw4b1FZLWQ0c1dMZTDSAbABQVVfeXFMUF8xWUY3X3lZZzBKRU83OXIyZS1UZjg3eDJqYXNUaHZ2LTRpeXJRZ2FqaUZoYWNDeVc2LTl6UEVuNUVnVDNlaklhb1ZRbGhKdXdPcmJkT3pCUVNZTkNsQjY4aGdwMzVKQi13d3Y2NEZQdTNGcUpWbGQ3c3JRMVN0Ri0tcUhVem1SaFVvcE4yWlZBYkE5VEVKNERTRFA4Ukgtb2dUcU5nbXFVWllNOXNzTmQ?oc=5",
+            "image": "https://images.pexels.com/photos/9694217/pexels-photo-9694217.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Kanye West moves to overturn Malibu mansion verdict",
+            "title": "China ignores Trump's Hormuz request as the Iran war deepens and his Beijing trip slips",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/entertainment/english/music/news/kanye-west-refuses-to-accept-malibu-mansion-court-loss-moves-to-overturn-jury-verdict-in-contractor-dispute/articleshow/129645024.cms",
-            "image": "https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "toi"
+            "url": "https://www.wcvb.com/article/china-us-hormuz-trump-beijing-trip-delay/70775312",
+            "image": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/gettyimages-2265058290-69ba2ce3ac241.jpg?crop=1.00xw:0.847xh;0,0.0216xh&resize=1200:*",
+            "source": "wcvb"
         },
         {
-            "title": "Gold steady as investors weigh Middle East risks ahead of Fed decision",
-            "severity": "MEDIUM",
-            "url": "https://www.moneycontrol.com/news/business/markets/gold-steady-as-investors-weigh-middle-east-risks-ahead-of-fed-decision-13863631.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260310115601_gold-price.png",
-            "source": "moneycontrol"
+            "title": "About 90 ships cross the Strait of Hormuz as Iran exports millions of barrels of oil despite the war",
+            "severity": "HIGH",
+            "url": "https://www.independent.co.uk/news/strait-of-hormuz-iran-donald-trump-pakistan-india-b2940697.html",
+            "image": "https://static.independent.co.uk/2026/03/18/05/Emirates_Iran_US_Israel_09008.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
         },
         {
-            "title": "Jefferies (JEF) Stock Trades Up, Here Is Why",
-            "severity": "MEDIUM",
-            "url": "https://ca.finance.yahoo.com/news/jefferies-jef-stock-trades-why-030700682.html",
-            "image": "https://images.pexels.com/photos/12385501/pexels-photo-12385501.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
+            "title": "US-Iran war live updates: Top Iranian officials Larijani, Soleimani killed, Trump lashes allies, Iran strike near Australian base - The Age",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPM2R6WTJhdDR3aFNqN2l6dGozUkI3c01nb3p1MndDbW1sNnI3ckVhSl9kblZJU2RoTGpkOFc1NkRxWUd1Q01mUk5rVWFUN0ZDZEpxdERyMUVNUnZtZFJPSHRtVmZfT3dVM0hBX2RpMDE2SUNkSEsyVzN5dUdPeEduRjBIU2RabFBudFF1WHlBM09YZ2dMSmhWVkpYb2UzUW1QN2V6Z2pjWFZuQVNleTdrampyY2NTZWRmNjB4dDBkbk84cVZsZFkyajdkVElEN0ozdGU2NUlRU0pCMktDeGJLdWhrSHVMWlV6V09KMHFmOGxRMk9lU3JkXzFud1hhOTRkZjBzc2hONXA3ajdqOXl3MGllZDhfWkF3Z3QxQzZTR3puQVhlRmQyM19DT1ZvNVFJQTdhenRCUzBRRTdodnJuSkhjaWpIV19X?oc=5",
+            "image": "https://images.pexels.com/photos/30687133/pexels-photo-30687133.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Silver Rate Today, March 18, 2026: After 4-Day Fall, Silver Is Making A Comeback - Check City-Wise Rates Here",
-            "severity": "MEDIUM",
-            "url": "https://www.timesnownews.com/business-economy/markets/silver-rate-today-march-18-2026-mcx-rates-check-prices-in-delhi-mumbai-bangalore-chennai-hyderabad-kolkata-and-other-major-cities-article-153860056",
-            "image": "https://images.timesnownews.com/thumb/msid-153860078,thumbsize-2272578,width-1280,height-720,resizemode-75/153860078.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Gold Silver Rate Today Live Updates: Gold, silver steady as Fed decision looms amid Middle East tensions",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/gold-rate-silver-price-today-live-updates-mcx-gold-18k-22k-24k-rate-iran-isreal-us-war-latest-news/liveblog/129646032.cms",
-            "image": "https://economictimes.indiatimes.com/thumb/msid-129646032,width-1200,height-900,resizemode-4,imgsize-1570434/gold-rate-silver-price-today-live-updates-mcx-gold-18k-22k-24k-rate-iran-isreal-us-war-latest-news.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "'Risk of coersive interrogation': Nirav Modi moves London Court for last try to stall his extradition to India",
-            "severity": "MEDIUM",
-            "url": "https://www.moneycontrol.com/news/india/risk-of-coersive-interrogation-nirav-modi-moves-london-court-for-last-try-to-stall-his-extradition-to-india-13863551.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/04/20250421090614_Nirav-Modi-scam.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Macron: Won't take part in ops to unblock Hormuz amid hostilities",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/europe/macron-wont-take-part-in-ops-to-unblock-hormuz-amid-hostilities/articleshow/129646057.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129646082/129646082.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Cuba vows 'unbreakable resistance' as US pressure mounts",
-            "severity": "WATCH",
-            "url": "https://sg.news.yahoo.com/white-house-piles-pressure-cuba-171520418.html",
-            "image": "https://images.pexels.com/photos/28767588/pexels-photo-28767588.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo_sg"
-        },
-        {
-            "title": "Trackers show Iran vets friendly ships for Hormuz passage",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/world/trackers-data-iran-vetting-ships-strait-hormuz-oil-6000581",
-            "image": "https://dam.mediacorp.sg/image/upload/s--Jf2gSmfK--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-03-16T064113Z_2_LYNXMPEM2F08P_RTROPTP_3_IRAN-CRISIS-TRUMP-STRAIT.JPG?itok=U7jHXZnW",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Ringgit hits strongest level versus Singapore dollar since 2021",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/03/18/ringgit-hits-strongest-level-versus-singapore-dollar-since-2021",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/18/3819006.jpeg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "USS Gerald Ford aircraft carrier to dock for repairs after 30 hour fire on board",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/middle-east/article-890326",
-            "image": "https://images.pexels.com/photos/6755087/pexels-photo-6755087.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "jpost"
-        },
-        {
-            "title": "Top Iranian leaders vow revenge after security chief Ali Larijani killed",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/world-news/top-iranian-leaders-vow-revenge-after-security-chief-ali-larijani-killed-126031800161_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260318/thumb-126031800161.jpg",
+            "title": "India drawn with Pakistan in 2026 men's Hockey World Cup group stage",
+            "severity": "HIGH",
+            "url": "https://www.business-standard.com/sports/fih-mens-hockey-world-cup/india-drawn-with-pakistan-in-2026-men-s-hockey-world-cup-group-stage-126031701428_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260317/thumb-126031701428.jpg",
             "source": "business-standard"
         },
         {
-            "title": "Len Deighton, author of bestselling spy thrillers, passes away at 97",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/uk/len-deighton-author-of-bestselling-spy-thrillers-passes-away-at-97/articleshow/129646087.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129646103/129646103.jpg",
-            "source": "toi"
+            "title": "Fire damage, clogged toilets, and sinking morale: USS Gerald R Ford to set sails for repairs in Crete",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/us-news/2026/mar/18/onboard-fire-uss-gerald-ford-aircraft-carrier",
+            "image": "https://i.guim.co.uk/img/media/8d5c7a84bf09be649ef67669468dda09d67980ed/0_0_3543_2835/master/3543.jpg?width=140&quality=85&auto=format&fit=max&s=66709dcfa9233ab8ca42e794215c16fa",
+            "source": "theguardian"
         },
         {
-            "title": "Explained: NCERT\u2019s latest controversy and the questions it raises about history, accuracy, and institutional responsibility",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/education/news/explained-ncerts-latest-controversy-and-the-questions-it-raises-about-history-accuracy-and-institutional-responsibility/articleshow/129646068.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129646060/129646060.jpg",
-            "source": "toi"
+            "title": "Samsung sees AI driving strong chip demand in 2026, executive says",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/technology/tech-news-technology/samsung-sees-ai-driving-strong-chip-demand-in-2026-executive-says-10587916/",
+            "image": "https://images.indianexpress.com/2026/03/IE-2026-03-18T103003.411.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Concern for Gurugram: Sec 92 locals flag poor upkeep of sewers, water supply",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/gurugram-news/concern-for-gurugram-sec-92-locals-flag-poor-upkeep-of-sewers-water-supply-101773803064921.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/18/1600x900/logo/A-vacant-plot-near-Rising-Homes-society-left-inund_1773803054651.jpg",
-            "source": "hindustantimes"
+            "title": "How ignorance, misunderstanding and obfuscation ended Iran nuclear talks",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/world/2026/mar/18/ignorance-misunderstanding-obfuscation-iran-nuclear-talks-trump",
+            "image": "https://i.guim.co.uk/img/media/56e13d8238096226d98adffd42a72837a1122d5c/705_0_3987_3189/master/3987.jpg?width=140&quality=85&auto=format&fit=max&s=f9fd08ab7437a3775b4e8b89c58d57f0",
+            "source": "theguardian"
         },
         {
-            "title": "Japan records trade surplus as export growth balances out weak China demand",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/japan-records-trade-surplus-export-030419663.html",
-            "image": "https://images.pexels.com/photos/17868109/pexels-photo-17868109.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
+            "title": "Is Tel Aviv planning a Khamenei-like assassination in Moscow? Putin reportedly sleeping in Kremlin palace as IDF spokesperson warns Russia \u2018not to wish Israel ill\u2019",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/us/news/is-tel-aviv-planning-a-khamenei-like-assassination-in-moscow-putin-reportedly-sleeping-in-kremlin-palace-as-idf-spokesperson-warns-russia-not-to-wish-israel-ill/articleshow/129652780.cms",
+            "image": "https://img.etimg.com/thumb/msid-129652804,resizemode-4,width-1200,height-900,imgsize-37774,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Nvidia Sees Sales Goal Topping $1 Trillion With New Markets",
-            "severity": "WATCH",
-            "url": "https://www.ndtvprofit.com/technology/nvidia-sees-sales-goal-topping-1-trillion-with-new-markets-11230851",
-            "image": "https://c.ndtvimg.com/2026-03/nbcp3tok_nvidia-ceo-jensen-huang-speaks-during-a-keynote-address-this-week-at-the-nvidia-gtc-conference-in-san-jose-california_625x300_18_March_26.jpg?im=FitAndFill,algorithm=dnn,width=1080,height=607",
-            "source": "ndtv"
+            "title": "\u2018Expensive\u2019: How Kyle\u2019s legal war plays out",
+            "severity": "HIGH",
+            "url": "https://www.news.com.au/entertainment/tv/radio/expert-shines-light-on-kyle-sandilands-arn-contract-dispute/news-story/0c5a88e38d23a37bc2713034179bba7d?from=rss-basic",
+            "image": "https://images.pexels.com/photos/10210527/pexels-photo-10210527.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "news"
         },
         {
-            "title": "Which stars will represent the United States in the next WBC? Way-too-early roster predictions",
-            "severity": "WATCH",
-            "url": "https://www.espn.com/mlb/story/_/id/48232543/mlb-world-baseball-classic-2029-team-usa-roster-predictions",
-            "image": "https://a.espncdn.com/photo/2026/0317/r1629802_1296x729_16-9.jpg",
-            "source": "espn"
+            "title": "MIB\u2019s OTT accessibility norms challenged in Delhi HC over alleged disability law breach",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/industry/media/entertainment/media/mibs-ott-accessibility-norms-challenged-in-delhi-hc-over-alleged-disability-law-breach/articleshow/129646601.cms",
+            "image": "https://images.pexels.com/photos/20546240/pexels-photo-20546240.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Star-studded Team USA upset as Venezuela wins first WBC title",
+            "title": "Technical Levels For Major FX Pairs Ahead Of The FOMC",
             "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7127154/2026/03/17/team-usa-venezuela-wbc-final/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/03/17233441/GettyImages-2267134144-scaled.jpg",
+            "url": "https://seekingalpha.com/article/4883454-technical-levels-for-major-fx-pairs-ahead-of-fomc",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1555288165/image_1555288165.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Yes, Arne Slot is under pressure - but Liverpool need senior players to step up",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7126585/2026/03/18/liverpool-galatasaray-arne-slot/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/03/18021640/GettyImages-2264637893-scaled.jpg",
             "source": "theathleticuk"
         },
         {
-            "title": "Suryakumar Set To Become 2nd Batsman After Rohit To Achieve Huge IPL Record For MI",
+            "title": "Earnings call transcript: Ensign Energy Q4 2025 misses forecasts, stock dips",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/sports/cricket/suryakumar-yadav-set-to-become-2nd-batsman-after-rohit-sharma-to-achieve-huge-ipl-record-for-mumbai-indians-article-153856809",
-            "image": "https://images.pexels.com/photos/9494906/pexels-photo-9494906.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://au.investing.com/news/transcripts/earnings-call-transcript-ensign-energy-q4-2025-misses-forecasts-stock-dips-93CH-4317728",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB6J0AJ_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Netanyahu Death Rumours, AI Claims & Son Yair's 7-day Silence - What\u2019s Really Going On?",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/world/benjamin-netanyahu-death-rumours-ai-claims-and-son-yair-netanyahus-7-days-silence-whats-going-on-iran-israel-us-war-article-153860222",
+            "image": "https://images.timesnownews.com/thumb/msid-153860786,thumbsize-1560587,width-1280,height-720,resizemode-75/153860786.jpg",
             "source": "timesnownews"
         },
         {
-            "title": "Former Snowbird pilot's career 'destroyed' by cancelled passport over work in China",
+            "title": "Oil Falls After Iraq Signs Pipeline Export Deal With Kurdistan",
             "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/canada/article/former-snowbird-pilots-career-destroyed-by-cancelled-passport-over-work-in-china/",
-            "image": "https://www.ctvnews.ca/resizer/v2/MSWRF7TLQJK7A7E4HQIF2SVMGY.jpg?auth=e97eb8315bdddc25c06f0f4337fb14501495cf857dfa0c9eaaca94ad561f08bd&smart=true&width=1400&height=849",
-            "source": "ctvnews"
+            "url": "https://financialpost.com/pmn/business-pmn/oil-falls-after-iraq-signs-pipeline-export-deal-with-kurdistan",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/03/776467891-3.jpg",
+            "source": "financialpost"
+        },
+        {
+            "title": "The Silicon Strait Reopens and the AI Tide Comes Flooding Back",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/analysis/the-silicon-strait-reopens-and-the-ai-tide-comes-flooding-back-200612514",
+            "image": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "I've been testing the Samsung Galaxy S26 Plus \u2014 and it's a great phone that few people will actually want",
+            "severity": "WATCH",
+            "url": "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-s26-plus-review",
+            "image": "https://cdn.mos.cms.futurecdn.net/xrRkG5WqQ2Zc28H48FRtUQ-1280-80.jpg",
+            "source": "tomsguide"
+        },
+        {
+            "title": "Microsoft considers legal action over $50 billion Amazon-OpenAI cloud deal, FT reports",
+            "severity": "WATCH",
+            "url": "https://www.channelnewsasia.com/business/microsoft-considers-legal-action-over-50-billion-amazon-openai-cloud-deal-ft-reports-6000861",
+            "image": "https://dam.mediacorp.sg/image/upload/s--j2di6XY1--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-03-18T051121Z_1_LYNXMPEM2H071_RTROPTP_3_MICROSOFT-OPENAI-LAWSUIT.JPG?itok=KVPCnlfl",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "Man City given 115 charges punishment hint after Premier League's Chelsea statement",
+            "severity": "WATCH",
+            "url": "https://www.manchestereveningnews.co.uk/sport/football/football-news/man-city-premier-league-charges-33611637",
+            "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article33611635.ece/ALTERNATES/s615/0_GettyImages-2266829434.jpg",
+            "source": "manchestereveningnews"
+        },
+        {
+            "title": "Budget Session to be \u2018extremely challenging\u2019 for govt as Oppn to raise stalled projects, law & order: Jai Ram",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/cities/chandigarh/budget-session-challenging-govt-oppn-stalled-projects-law-order-jai-ram-10587891/",
+            "image": "https://images.indianexpress.com/2026/03/jai-ram-thakur-1.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "US rapper's 'inflammatory' comments at Sydney festival condemned",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-03-18/nsw-police-probe-dj-haram-comments-biennale-of-sydney/106468154",
+            "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "abc_net"
+        },
+        {
+            "title": "Organised crime link to Yarra Valley worker exploitation",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-03-18/organised-crime-yarra-valley-labour-hire-worker-underpayments/106467376",
+            "image": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "abc_net"
         }
     ],
-    "Last_Updated": "2026-03-18T15:11:43.069844Z"
+    "Last_Updated": "2026-03-18T17:10:34.848980Z"
 }
