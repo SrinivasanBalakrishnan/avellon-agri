@@ -1,175 +1,236 @@
 {
-    "AGRI_Score": 63.8,
-    "Velocity": "-1.4",
+    "AGRI_Score": 65.2,
+    "Velocity": "+1.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.8 is predominantly driven by acute escalations in Geopolitical Conflict Intensity and severe Energy & Maritime Disruption in the Middle East. Direct strikes on Gulf energy sites, as reported by \"Iran war live: Gulf energy sites hit as UN warns strikes may be \u2018war crimes\u2019,\" significantly elevate the risk of a broader regional conflict and long-term energy supply disruptions. This heightened tension, coupled with warnings of extreme oil price surges to over $180 if the energy shock continues, underscores the critical impact of the ongoing Israel-Iran conflict on global stability and commodity markets.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 74.7,
+        "Geopolitical Conflict Intensity": 71.5,
         "Energy & Maritime Disruption": 89.1,
-        "Trade & Supply Chain Stress": 69.9,
+        "Trade & Supply Chain Stress": 68.9,
         "Sovereign Financial Stress": 52.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.7,
-        "Cyber & Infrastructure Threats": 56.2,
+        "Sanctions & Regulatory Fragmentation": 64.1,
+        "Cyber & Infrastructure Threats": 71.1,
         "Climate & Resource Shock": 45
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The intensity of geopolitical conflict is very high due to direct military engagements, with \"Israel-Iran Conflict: IRGC launches another round of strikes on Israel\" indicating active escalation. UN warnings regarding potential 'war crimes' further underscore the severe nature of the ongoing hostilities and the potential for international condemnation.",
-        "Energy & Maritime Disruption": "This pillar reflects critical disruption, heavily influenced by the targeting of key infrastructure, as evidenced by \"The targeting of key Persian Gulf energy infrastructure raises the risk of long-term disruption.\" Saudi Arabia's anticipation of oil climbing over $180 if the energy shock persists highlights the severe implications for global energy markets.",
-        "Trade & Supply Chain Stress": "Escalating conflict in the Persian Gulf, particularly actions like \"Gulf energy sites hit,\" directly threatens vital maritime trade routes for oil and other commodities. This instability creates significant uncertainty for global supply chains, increasing the potential for shipping delays and rising freight costs.",
-        "Sovereign Financial Stress": "While many sovereign financial indicators suggest routine monitoring, the ongoing political impasse within the EU, where \"Hungary's Orban keeps blocking Ukraine loan,\" highlights a specific point of financial stress. This internal disagreement complicates efforts to provide crucial financial assistance, creating fiscal fragmentation.",
-        "Currency & Liquidity Pressure": "Current market conditions indicate a period of routine monitoring for currency and liquidity pressures, with \"Asian stocks edge higher at open as oil retreats\" reflecting a degree of market resilience. However, the underlying geopolitical tensions could swiftly reintroduce volatility, increasing demand for safe-haven currencies.",
-        "Sanctions & Regulatory Fragmentation": "The elevated geopolitical conflict in the Middle East significantly increases the potential for new international sanctions and further regulatory fragmentation. Although no immediate new sanction announcements are reported, the \"UN warns strikes may be \u2018war crimes\u2019,\" which could precipitate a stronger global regulatory response.",
-        "Cyber & Infrastructure Threats": "Direct attacks on critical energy infrastructure in the Persian Gulf, such as \"Gulf energy sites hit,\" raise a strong precedent for potential retaliatory cyber operations targeting similar vital assets. The escalating conflict thus elevates the overall threat landscape for both physical and digital infrastructure security.",
-        "Climate & Resource Shock": "The Northern Territory is experiencing multiple climate-related disasters, as highlighted by \"Five disasters in a single wet season show the climate crisis is here and now.\" Concurrently, record-breaking temperatures, including an \"Arizona community hits 110 degrees F, the highest March temperature ever recorded in the U.S.,\" underscore the widespread and intensifying impact of extreme weather events."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Iran war live: Gulf energy sites hit as UN warns strikes may be \u2018war crimes\u2019",
+            "title": "Iran War: Trump is using the wrong oil price when declaring victory",
             "severity": "HIGH",
-            "url": "https://www.thetimes.com/us/news-today/article/iran-us-israel-war-live-trump-oil-today-latest-news-m9chsgzr9",
-            "image": "https://images.pexels.com/photos/5729787/pexels-photo-5729787.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "thetimes"
-        },
-        {
-            "title": "Inside Riyadh meeting: Who was present; what did Saudi Arabia, UAE, Qatar, Tu\u0308rkiye, other Arab and Muslim ministers agree on amid Iran vs US-Israel war",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/middle-east/inside-riyadh-meeting-who-was-present-what-did-saudi-arabia-uae-qatar-trkiye-other-arab-and-muslim-ministers-agree-on-amid-iran-vs-us-israel-war/articleshow/129689995.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129690181/129690181.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Israel-Iran Conflict: IRGC launches another round of strikes on Israel \u2013 All you need to know",
-            "severity": "HIGH",
-            "url": "https://www.india.com/news/world/israel-iran-conflict-irgc-launches-another-round-of-strikes-on-israel-all-you-need-to-know-donald-trump-netanyahu-drone-missile-attacks-world-news-us-iran-war-8349421/",
-            "image": "https://static.india.com/wp-content/uploads/2026/03/israel-2.png",
-            "source": "india"
-        },
-        {
-            "title": "US-Iran war LIVE updates: Netanyahu says Israel to hold off strikes on offshore Iranian gas field; brent crude falls",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-israel-strait-of-hormuz-tehran-trump-netanyahu-tel-aviv-jerusalem-eid-oil-prices-dubai-uae-101773967484013.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/20/1600x900/logo/Israel-Iran-US-10_1773968200298_1773968231255.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "The targeting of key Persian Gulf energy infrastructure raises the risk of long-term disruption",
-            "severity": "HIGH",
-            "url": "https://www.adn.com/nation-world/2026/03/19/the-targeting-of-key-persian-gulf-energy-infrastructure-raises-the-risk-of-long-term-disruption/",
-            "image": "https://www.adn.com/resizer/JNLT9jujgILaGTkoDpHSqpcswcc=/cloudfront-us-east-1.images.arcpublishing.com/adn/PSVPL7NEJ3HKDBHEIPTIA2NKS4.jpg",
-            "source": "adn"
-        },
-        {
-            "title": "Viral clip shows Senegal keeping AFCON trophy in military base",
-            "severity": "HIGH",
-            "url": "https://gulfnews.com/sport/football/viral-clip-shows-senegal-keeping-afcon-trophy-in-military-base-1.500480567",
-            "image": "https://images.pexels.com/photos/10210527/pexels-photo-10210527.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "gulfnews"
-        },
-        {
-            "title": "How an Israeli search for a grave led to carnage",
-            "severity": "HIGH",
-            "url": "https://www.smh.com.au/world/how-an-israeli-search-for-a-grave-led-to-carnage-20260320-p5qx22.html",
-            "image": "https://images.pexels.com/photos/1036866/pexels-photo-1036866.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "smh"
-        },
-        {
-            "title": "Five disasters in a single wet season show the climate crisis is here and now in the Northern Territory | Kirsty Howey",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/commentisfree/2026/mar/20/disasters-climate-crisis-northern-territory-australia",
-            "image": "https://i.guim.co.uk/img/media/8d7f9e6553e0ddfce93125e200391c76b34e4f9b/64_0_1920_1536/master/1920.jpg?width=140&quality=85&auto=format&fit=max&s=944a1a38de2df5c21bd812460d0b8858",
-            "source": "theguardian"
-        },
-        {
-            "title": "EU leaders vent anger after Hungary's Orban keeps blocking Ukraine loan",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/eu-leaders-fail-convince-hungarys-151211336.html",
-            "image": "https://images.pexels.com/photos/7731352/pexels-photo-7731352.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "Global Market Today | Asian stocks edge higher at open as oil retreats",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/asian-stocks-edge-higher-at-open-as-oil-retreats/articleshow/129690138.cms",
-            "image": "https://img.etimg.com/thumb/msid-129690128,resizemode-4,width-1200,height-900,imgsize-150064,overlay-etmarkets/articleshow.jpg",
+            "url": "https://economictimes.indiatimes.com/news/international/global-trends/iran-war-trump-is-using-the-wrong-oil-price-when-declaring-victory/articleshow/129695852.cms",
+            "image": "https://img.etimg.com/thumb/msid-129695860,resizemode-4,width-1200,height-900,imgsize-16986,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "PCB comes clean on foreign player pullout reports for PSL 2026; UAE kept as backup venue?",
+            "title": "Gulf states say responding to missile, drone attacks",
             "severity": "HIGH",
-            "url": "https://www.firstpost.com/firstcricket/psl-2026-cancellation-threat-pakistan-cricket-board-responds-13991387.html",
-            "image": "https://images.firstpost.com/uploads/2026/03/PSL-2026-2026-03-26ded544fed97b815149dd10c0af0d24-1200x675.jpg",
-            "source": "firstpost"
+            "url": "https://www.thestar.com.my/news/world/2026/03/20/gulf-states-say-responding-to-missile-drone-attacks",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/20/3822774.jpg",
+            "source": "thestar_my"
         },
         {
-            "title": "How The easyJet (LSE:EZJ) Investment Story Is Shifting As Analyst Views Diverge",
+            "title": "PM Modi calls Qatar\u2019s Amir as energy attacks jolt region, backs free passage through Hormuz",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/world/pm-modi-calls-qatar-s-amir-as-energy-attacks-jolt-region-backs-free-passage-through-hormuz-article-13865683.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260220202006_PM-Modi-Big-tech-roundtable.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "US rushes $16bn arms to Gulf after Iran warns of \u2018zero restraint\u2019",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/1983901/us-rushes-16bn-arms-to-gulf-after-iran-warns-of-zero-restraint",
+            "image": "https://i.dawn.com/large/2026/03/2005463460297ce.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "Real Reason Trump Lost It at Key Ally: Biographer",
+            "severity": "HIGH",
+            "url": "https://www.thedailybeast.com/real-reason-trump-lost-it-at-key-ally-biographer-michael-wolff-on-jared-kushners-role-in-iran-war/",
+            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/L6MMDR4LM5BQVDWSVY2ZWXV7GU.jpg?auth=701adbeef53cb3048311fd7c484f6935500d0b55dd9825775d2b8be7efcb41d5&smart=true&width=1920&height=1080",
+            "source": "thedailybeast"
+        },
+        {
+            "title": "BTS Dishes On Preparations For Long-Awaited Comeback, What Hasn\u2019t Changed Since The Past, And More",
+            "severity": "HIGH",
+            "url": "https://www.soompi.com/article/1826537wpp/bts-dishes-on-preparations-for-long-awaited-comeback-what-hasnt-changed-since-the-past-and-more",
+            "image": "https://0.soompi.io/wp-content/uploads/2026/03/19190854/bts-comeback-interview_af8751.jpg",
+            "source": "soompi"
+        },
+        {
+            "title": "Oil prices retreat, bonds struggle on hawkish rate repricing as Iran war rages",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/03/20/oil-prices-retreat-bonds-struggle-on-hawkish-rate-repricing-as-iran-war-rages",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/20/3822729.png",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Govt urges conservation amid risks to fuel supply",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/1983900/govt-urges-conservation-amid-risks-to-fuel-supply",
+            "image": "https://i.dawn.com/large/2026/03/20073518c606cae.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "NZ-SA T20I takes us back to Aussie great Victor Trumper, First World War, first match at Eden Park, and a special cap",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/cricket/nzsa-t20i-takes-us-back-to-aussie-great-victor-trumper-first-world-war-first-match-at-eden-park-and-a-special-cap-101773973607307.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/20/1600x900/logo/william_1773973977322_1773973996612.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "'Can anyone convince Trump?' Netanyahu says; pushes new oil routes, mocks Iran's Mojtaba",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/can-anyone-convince-trump-netanyahu-says-pushes-new-oil-routes-mocks-irans-mojtaba/videoshow/129690879.cms",
+            "image": "https://img.etimg.com/thumb/msid-129690879,width-1200,height-900,overlay-economictimes/news/international/can-anyone-convince-trump-netanyahu-says-pushes-new-oil-routes-mocks-irans-mojtaba.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "US\u2010Israel war on Iran, Day 21: Israel's 'massive strikes' hit Iran; UAE intercepts threats",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/uae/usisrael-war-on-iran-day-21-israels-massive-strikes-hit-iran-uae-intercepts-threats-1.500480604",
+            "image": "https://media.assettype.com/gulfnews/2026-03-03/tfbvfylo/newsml_afp_com_20260303T162955Z_doc_99rh268.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Vancouver police issue warning after violent offender re-released into community",
+            "severity": "HIGH",
+            "url": "https://globalnews.ca/news/11738678/vancouver-police-public-warning-violent-offender-re-released-community/",
+            "image": "https://globalnews.ca/wp-content/uploads/2025/10/ce911aba199ddecaa87e120049d80486b245a132b3a0802fc631446704469c11.jpg?quality=65&strip=all",
+            "source": "globalnews"
+        },
+        {
+            "title": "Trump Plotting to Send Thousands More Troops to His War",
+            "severity": "HIGH",
+            "url": "https://www.thedailybeast.com/trump-plotting-to-send-thousands-more-troops-to-his-war-on-iran/",
+            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/FSBZNTGWNBBMTOW4HCMGIDHM44.jpg?auth=680df01b5fdbb65d7f2ba61e24e405e8852e57507f1d91d67c054371893e8524&smart=true&width=3290&height=1850",
+            "source": "thedailybeast"
+        },
+        {
+            "title": "ABC says nothing to see here after senator lines up with News Corp over Iran war coverage | Weekly Beast",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/media/2026/mar/20/weekly-beast-abc-stike-john-lyons-iran-war-coverage-kyle-jackie-o-dispute",
+            "image": "https://i.guim.co.uk/img/media/4f1f7ce41ccffd63bee5a46e0438c06bfb844edd/12_27_1356_1085/master/1356.jpg?width=140&quality=85&auto=format&fit=max&s=5fabefee58137e53359201cab870f275",
+            "source": "theguardian"
+        },
+        {
+            "title": "French Aircraft Carrier Charles de Gaulle's Location Gets Leaked On Strava Amid Middle East Deployment | Report",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/world/french-aircraft-carrier-charles-de-gaulles-location-gets-leaked-on-strava-amid-middle-east-deployment-report-article-153877840",
+            "image": "https://images.timesnownews.com/thumb/msid-153877863,thumbsize-1527281,width-1280,height-720,resizemode-75/153877863.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Man known to be violent toward women released in Vancouver",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/man-known-violent-toward-women-011420545.html",
+            "image": "https://images.pexels.com/photos/7097445/pexels-photo-7097445.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Tesla in talks with Chinese firms to buy $2.9 billion worth of solar equipment, sources say",
             "severity": "MEDIUM",
-            "url": "https://ca.finance.yahoo.com/news/easyjet-lse-ezj-investment-story-010558424.html",
-            "image": "https://images.pexels.com/photos/9494906/pexels-photo-9494906.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.cnbc.com/2026/03/20/tesla-talks-with-chinese-firms-for-2point9-billion-worth-of-solar-equipment.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108268962-1771921758091-gettyimages-2256970189-DAVOS_WEF_2026.jpeg?v=1771921823",
+            "source": "cnbc"
+        },
+        {
+            "title": "Mohali MC plans mechanical sweeping for \u2018C\u2019 roads; key decisions likely in House meet on Mar 24",
+            "severity": "MEDIUM",
+            "url": "https://indianexpress.com/article/cities/chandigarh/mohali-mechanical-sweeping-in-house-meet-10591495/",
+            "image": "https://images.indianexpress.com/2026/03/Logo_47f91a.png",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Here\u2019s How College Leaders Can Close The AI Governance Gap In 90 Days",
+            "severity": "MEDIUM",
+            "url": "https://ca.news.yahoo.com/college-leaders-close-ai-governance-020918365.html",
+            "image": "https://images.pexels.com/photos/6047443/pexels-photo-6047443.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo"
         },
         {
-            "title": "In Southeast Asia, the Scramble for Energy Is On",
+            "title": "Japanese prime minister calls Barron Trump 'good-looking gentleman'",
             "severity": "WATCH",
-            "url": "https://thediplomat.com/2026/03/in-southeast-asia-the-scramble-for-energy-is-on/",
-            "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/03/thediplomat_2026-03-20-114930.jpg",
-            "source": "thediplomat"
+            "url": "https://www.usatoday.com/story/news/politics/2026/03/19/barron-trump-japan-prime-minister-sanae-takaichi/89236968007/",
+            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/03/20/USAT/89239213007-20260225-t-015832-z-1989530337-rc-2-osjaezzbi-rtrmadp-3-usatrumpcongress.JPG?crop=1480,832,x1355,y203&width=1480&height=740&format=pjpg&auto=webp",
+            "source": "usatoday"
         },
         {
-            "title": "Saudi Arabia expects oil to climb over $180 if energy shock continues until late April, WSJ reports",
+            "title": "Mar 19, 2026; Oklahoma City, OK, USA; Texas A&M Aggies guard Ruben Dominguez (9) reacts during a first round game of the men's 2026 NCAA Tournament at Paycom Center. Mandatory Credit: Alonzo Adams-Imagn Images",
             "severity": "WATCH",
-            "url": "https://www.marketscreener.com/news/saudi-arabia-expects-oil-to-climb-over-180-if-energy-shock-continues-until-late-april-wsj-reports-ce7e5edfd98af325",
-            "image": "https://images.pexels.com/photos/1036866/pexels-photo-1036866.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "marketscreener"
+            "url": "https://www.si.com/college/tamu/basketball/texas-am-survives-and-advances-after-first-round-dominance-over-saint-marys",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6000,h_3375,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_aggies/01km4gcf8w3mk8eygaqk.jpg",
+            "source": "si"
         },
         {
-            "title": "What would U.S. troops on the ground in Iran look like?",
+            "title": "AI startup Yotta seeks $4 billion valuation ahead of planned IPO",
             "severity": "WATCH",
-            "url": "https://www.cnn.com/2026/03/19/world/video/ebof-spider-marks-iran-war-ground-troops",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/spider-marks-20260320001842181.jpg?c=16x9&q=w_800,c_fill",
-            "source": "cnn"
+            "url": "https://economictimes.indiatimes.com/tech/startups/ai-startup-yotta-seeks-4-billion-valuation-ahead-of-planned-ipo/articleshow/129690945.cms",
+            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-35934,resizemode-75,msid-129690945/tech/startups/ai-startup-yotta-seeks-4-billion-valuation-ahead-of-planned-ipo.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "EU Vows To Get $90 Billion Loan To Kyiv Despite Hungary\u2019s Opposition",
+            "title": "Priyadarshan confirms reunion with Lissy; Says \u2018We are living the same life together\u2019 - Reports",
             "severity": "WATCH",
-            "url": "https://www.rferl.org/a/ukraine-eu-hungary-slovakia-loan-druzhba/33711395.html",
-            "image": "https://gdb.rferl.org/6bb61186-783a-46fa-9539-711a50527cc3_w1080_h608.jpg",
-            "source": "rferl"
+            "url": "https://timesofindia.indiatimes.com/entertainment/malayalam/movies/news/priyadarshan-confirms-reunion-with-lissy-says-we-are-living-the-same-life-together-reports/articleshow/129690898.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129690898/129690898.jpg",
+            "source": "toi"
         },
         {
-            "title": "Purdue lands commitment from 6-foot-9 center Jamyn Sondrup",
+            "title": "BTS Sends Love To ARMY Ahead Of Arirang\u2019s Release: \u2018We Missed You All\u2019",
             "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/news/purdue-lands-commitment-6-foot-010820544.html",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
+            "url": "https://www.news18.com/movies/hollywood/bts-sends-love-to-army-ahead-of-arirangs-release-we-missed-you-all-aa-ws-l-9987438.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/03/Created-in-1931-this-choker-featured-platinum-rubies-diamonds-and-elegant-pearls-2026-03-20T081850.489-2026-03-a4739a0e215ae01a73f1331312b52f7e-1200x800.png",
+            "source": "news18"
         },
         {
-            "title": "Earnings call transcript: WAM Alternative Assets\u2019 Q1 2026 results reveal strategic shifts",
+            "title": "Rs 57 lakh to be spent on laying new drinking water pipeline: Mohali MLA",
             "severity": "WATCH",
-            "url": "https://au.investing.com/news/transcripts/earnings-call-transcript-wam-alternative-assets-q1-2026-results-reveal-strategic-shifts-93CH-4322180",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEB230DM_L.jpg",
+            "url": "https://indianexpress.com/article/cities/chandigarh/mohali-mla-kulwant-singh-phase-10-drinking-water-pipeline-project-10591508/",
+            "image": "https://images.indianexpress.com/2026/03/Water_7d6e99.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "How Ecovacs\u2019 home robots help the unsung heroes in every family",
+            "severity": "WATCH",
+            "url": "https://www.channelnewsasia.com/advertorial/how-ecovacs-home-robots-help-unsung-heroes-in-every-family-5999661",
+            "image": "https://dam.mediacorp.sg/image/upload/s--ml5qF2J7--/c_fill,g_auto,h_338,w_600/f_auto,q_auto/v1/mediacorp/cna/image/2026/03/18/bstudio_ecovacs_createdforease1.jpg?itok=v5dWmpUO",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "Petrol, Diesel Price Hike Ahead? India Crude Basket Soars 112%, OMCs Under Pressure",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/business/economy/petrol-diesel-price-hike-ahead-india-crude-basket-soars-112-omcs-under-pressure-ws-l-9987430.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/02/Untitled-design-2026-02-04T143840.670-2026-02-947d745f8acd1e1e43e541221ed52bd3-3x2.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Strikes on Qatar's Ras Laffan LNG plant to reshape the future of gas",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/world-news/strikes-on-qatar-s-ras-laffan-lng-plant-to-reshape-the-future-of-gas-126032000120_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260320/thumb-126032000120.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Dollar toppled as oil shock turns central banks hawkish",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/economy-news/dollar-toppled-as-oil-shock-turns-central-banks-hawkish-4322204",
+            "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM2J032_L.jpg",
             "source": "investing_au"
         },
         {
-            "title": "China leaves loan prime rate unchanged for 10th straight month in March",
+            "title": "Row over Haryana RS polls: Why did BJP support Nandal\u2019s candidature as an Independent: Hooda",
             "severity": "WATCH",
-            "url": "https://au.investing.com/news/economy-news/china-leaves-loan-prime-rate-unchanged-for-10th-straight-month-in-march-4322179",
-            "image": "https://i-invdn-com.investing.com/news/People's-Bank-of-China_800x533_L_1414489837.jpg",
-            "source": "investing_au"
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/row-over-the-rs-polls-why-did-the-bjp-support-nandal-s-candidature-as-an-independent-hooda-101773946049380.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/19/1600x900/logo/Haryana-former-CM-Bhupinder-Singh-Hooda-along-with_1773949647980.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Arizona community hits 110 degrees F, the highest March temperature ever recorded in the U.S.",
+            "title": "Sydney man jailed for 28 years after murdering 3yo son",
             "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/record-southwest-heat-continues-california-181747581.html",
-            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "As NYC Oct. 7 hate crime offenders get sentenced, a victim wonders what justice looks like",
-            "severity": "WATCH",
-            "url": "https://www.timesofisrael.com/as-nyc-oct-7-hate-crime-offenders-get-sentenced-a-victim-wonders-what-justice-looks-like/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2025/07/20250616_untitled_04280.jpg",
-            "source": "timesofisrael"
+            "url": "https://www.abc.net.au/news/2026-03-20/nsw-nathan-vikatos-jailed-for-murder-of-son-alexi-in-riverwood/106477828",
+            "image": "https://live-production.wcms.abc-cdn.net.au/24881d93f6095b7291464e33beff21ce?impolicy=wcms_crop_resize&cropH=675&cropW=1200&xPos=0&yPos=404&width=862&height=485",
+            "source": "abc_net"
         },
         {
             "title": "Man with 49 criminal convictions released back into Vancouver community",
@@ -182,51 +243,9 @@
             "title": "Man charged with hundreds of child sex abuse crimes",
             "severity": "WATCH",
             "url": "https://au.news.yahoo.com/man-charged-hundreds-child-sex-004437494.html",
-            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo"
-        },
-        {
-            "title": "Chiefs' RB prediction horror scenario for AFC",
-            "severity": "WATCH",
-            "url": "https://www.sportingnews.com/us/nfl/kansas-city-chiefs/news/chiefs-rb-prediction-horror-scenario-afc/5087f80d5d7be1dfec50c46b",
-            "image": "https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2026-02/Kenneth%20Walker%20%281%29.jpg.webp?itok=CNxyq1eN",
-            "source": "sportingnews"
-        },
-        {
-            "title": "2 hawkers booked for assaulting BMC officials during anti-encroachment drive",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/mumbai-news/2-hawkers-booked-for-assaulting-bmc-officials-during-anti-encroachment-drive-101773946171270.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/01/27/1600x900/logo/ht-generic_cities1_1769511807303_1769511865290.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "WA man currently in jail faces hundreds of child sex offences",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-03-20/wa-man-facing-204-charges-in-child-sex-abuse-investigation/106477176",
-            "image": "https://live-production.wcms.abc-cdn.net.au/ae0427b73fa1cc835db63ab4abdc9cbc?impolicy=wcms_crop_resize&cropH=450&cropW=800&xPos=0&yPos=41&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "Queen City Woman Accused Of Impaired Driving On Everett Turnpike, I-293, During Chase With State Troopers",
-            "severity": "WATCH",
-            "url": "https://patch.com/new-hampshire/merrimack/queen-city-woman-accused-impaired-driving-everett-turnpike-i-293-during",
-            "image": "https://patch.com/img/cdn20/users/546351/20260319/081659/styles/patch_image/public/anny-arias-gomez-nhsp-4x3___19201450379.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Premier League and Carabao Cup: things to look out for this weekend",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/premier-league-carabao-cup-things-000004273.html",
-            "image": "https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "Trump-appointed arts panel approves gold coin featuring president's image",
-            "severity": "WATCH",
-            "url": "https://www.detroitnews.com/story/news/nation/2026/03/19/trump-appointed-arts-panel-approves-gold-coin-featuring-presidents-image/89236464007/",
-            "image": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/03/19/PDTN/89236613007-20260319-t-202501-z-1623773188-rc-2-s-7-ka-9-ifbi-rtrmadp-3-usatrumpcoin.JPG?crop=5436,3060,x0,y278&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "detroitnews"
         }
     ],
-    "Last_Updated": "2026-03-20T13:13:53.654960Z"
+    "Last_Updated": "2026-03-20T14:51:04.761742Z"
 }
