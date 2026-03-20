@@ -1,274 +1,232 @@
 {
-    "AGRI_Score": 65.2,
-    "Velocity": "+1.2",
+    "AGRI_Score": 62.8,
+    "Velocity": "-2.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 65.2/100 reflects a high-moderate risk environment, predominantly driven by acute 'Energy & Maritime Disruption' and escalating 'Geopolitical Conflict Intensity'. A 'Global Oil Shock Drives Up Costs for Canadians' and 'Oil Prices Surge' are exerting significant economic pressure, compounded by widespread regional conflict as evidenced by the 'Iran war' impacting civilians and supply chains. These intertwined factors are creating a challenging global landscape, pushing overall risk levels significantly above routine monitoring thresholds.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.8/100 reflects a significantly elevated risk environment, primarily driven by an acute escalation in geopolitical conflict and its immediate impact on energy and maritime disruption. The ongoing 'Iran war' is the central catalyst, directly causing 'Oil and LNG prices surge after Iran attacks Persian Gulf energy hubs' and prompting international military readiness to 'stop Iran's shipping blockade'. This conflict not only threatens global energy supplies and trade routes but also introduces widespread market volatility, as evidenced by 'Gold and silver plummet \u2014 here\u2019s why Iran war is hammering prices'.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 73.2,
+        "Geopolitical Conflict Intensity": 73.7,
         "Energy & Maritime Disruption": 89.1,
-        "Trade & Supply Chain Stress": 68.1,
+        "Trade & Supply Chain Stress": 62.7,
         "Sovereign Financial Stress": 52.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 69.0,
-        "Cyber & Infrastructure Threats": 64.6,
+        "Sanctions & Regulatory Fragmentation": 58.2,
+        "Cyber & Infrastructure Threats": 57.1,
         "Climate & Resource Shock": 45
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is significantly elevated due to the ongoing 'Iran war' escalating regional tensions and expanding its impact beyond direct combatants. This sustained conflict posture is fueling uncertainty and influencing political discourse, as seen in its role as 'the soundtrack of the midterm election campaign'.",
-        "Energy & Maritime Disruption": "Energy and maritime disruption is at an acutely high level, primarily driven by a 'Global Oil Shock' causing surging prices and increased costs for consumers. This widespread energy pressure is compounded by severe operational disruptions, as exemplified by 'Dubai Battles To Keep Air Space Open And Flights Going As Travel Hit,' indicating significant air travel and logistical impediments.",
-        "Trade & Supply Chain Stress": "Trade and supply chain stress remains high, with regional conflicts directly impeding the availability of specific goods and causing unexpected shortages. The 'Middle East war sparks bizarre equipment shortage' for cricket, illustrating how conflict zones disrupt even niche global supply lines.",
-        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, with global economic pressures such as rising 'Oil Prices Surge' increasing the cost burden on national economies and citizens. While not immediately critical, these inflationary pressures, as highlighted by 'Canada's Unions Call for Immediate Action,' signal growing fiscal challenges for governments.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressures are exhibiting moderate activity, influenced by broader market downturns and commodity price surges. The 'Stock Market Today: Dow, S&P 500, Nasdaq Down' reflects investor caution, which can indirectly affect capital flows and currency valuations without indicating an immediate crisis.",
-        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation remain at a high level, driven by domestic regulatory scrutiny and the threat of legal action in critical technology sectors. The news of 'Microsoft Is Threatening to Sue OpenAI' indicates significant corporate-regulatory challenges impacting industry stability and future regulatory frameworks.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are elevated due to persistent state-sponsored and criminal cyber activity targeting critical systems and personal data. 'Bitrefill blames North Korean Lazarus group for cyberattack' and 'Marquis confirms sensitive personal data of 672,000 people stolen in ransomware attack' highlight widespread digital vulnerabilities and the ongoing threat of data breaches.",
-        "Climate & Resource Shock": "Climate and resource shock is currently experiencing baseline activity, with no widespread or acute resource scarcity or climate disaster events reported. While localized incidents like 'Dubai Battles To Keep Air Space Open And Flights Going As Travel Hit' may suggest environmental factors, they do not indicate a broader systemic shock."
+        "Geopolitical Conflict Intensity": "Direct military confrontations are intensifying, with Iran claiming to have 'struck US F-35 over central Iran, with fighter jet\u2019s fate unclear'. This aggressive posture, coupled with 'Iranian rhetoric threatens regional stability, violates international law,' indicates a rapidly escalating and destabilizing conflict in the region.",
+        "Energy & Maritime Disruption": "Attacks on energy infrastructure in the Persian Gulf have led to 'Oil and LNG prices surge', creating immediate global market volatility. International efforts are mobilizing, with 'Canada, allies say they're ready to help stop Iran's shipping blockade' and European nations backing efforts to secure the Strait of Hormuz, highlighting severe threats to crucial maritime trade routes.",
+        "Trade & Supply Chain Stress": "Geopolitical events are influencing commodity markets and sanctions policy, as the 'U.S. Lifts Fertilizer Sanctions on Belarus as Iran War Causes Price Surge' to mitigate price increases. Persistent 'Prescription drug shortages and supply chain reliability' underscore ongoing vulnerabilities in critical sectors, impacting public welfare.",
+        "Sovereign Financial Stress": "The significant economic repercussions of the 'Iran war' are causing 'Allies divided on whether price of the Iran war is worth the pain,' indicating rising fiscal pressures on national budgets. Domestically, governments are grappling with the challenge where 'Budget repair and cost-of-living relief are at odds with each other,' suggesting underlying financial strain.",
+        "Currency & Liquidity Pressure": "Commodity markets are experiencing notable upheaval, with 'Gold and silver plummet \u2014 here\u2019s why Iran war is hammering prices,' reflecting broader investor uncertainty. This volatility signals a potential for increased demand for safe-haven assets and subsequent shifts in currency valuations, though no direct currency crisis is immediately evident.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory adjustments are being made in response to global market pressures, with the U.S. 'Lifts Fertilizer Sanctions on Belarus' as a direct consequence of the Iran war-induced price surges. Efforts by 'European nations and Japan back efforts to secure Strait of Hormuz' may lead to new, potentially fragmented, international regulatory and security frameworks for shipping.",
+        "Cyber & Infrastructure Threats": "The incident of a 'Gacha Game Gives Out Free Loot Boxes To Apologize' after 'Infecting PCs With Malware' highlights the persistent threat of cyber intrusions from unexpected sources. While this specific event targets consumer PCs, it underscores a general vulnerability that could extend to critical infrastructure if similar methods are scaled.",
+        "Climate & Resource Shock": "There is a broad recognition that 'Indigenous Australians always come off worst in disasters,' indicating systemic vulnerabilities to environmental events. While no specific, immediate climate shock is reported, 'Environment... among issues for SA voters' confirms ongoing public concern regarding long-term resource and environmental challenges."
     },
     "All_Alerts": [
         {
-            "title": "Dubai Battles To Keep Air Space Open And Flights Going As Travel Hit",
+            "title": "Indigenous Australians always come off worst in disasters. This needs to stop",
             "severity": "HIGH",
-            "url": "https://www.forbes.com/sites/heatherfarmbrough/2026/03/19/dubai-battles-to-keep-air-space-open-and-flights-going-as-travel-hit/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/69bc0b55eae6c9111da7fa9e/0x0.jpg?width=960",
-            "source": "forbes"
+            "url": "https://theconversation.com/indigenous-australians-always-come-off-worst-in-disasters-this-needs-to-stop-278071",
+            "image": "https://images.theconversation.com/files/724925/original/file-20260319-71-cly7dc.jpg?ixlib=rb-4.1.0&rect=0%2C297%2C3902%2C1951&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
         },
         {
-            "title": "Canada's Unions Call for Immediate Action as Global Oil Shock Drives Up Costs for Canadians",
+            "title": "Canada, allies say they're ready to help stop Iran's shipping blockade",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/03/n51362753/canadas-unions-call-for-immediate-action-as-global-oil-shock-drives-up-costs-for-canadians",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
+            "url": "https://www.thestar.com/news/canada/canada-allies-say-theyre-ready-to-help-stop-irans-shipping-blockade/article_1bfea86d-31ac-5922-9388-1cd7597c1bfa.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/0/a1/0a1badbe-54c1-5a14-8947-7c33a447bd12/69bc4a0b385e2.image.jpg?crop=1620%2C851%2C0%2C114&resize=1200%2C630&order=crop%2Cresize",
+            "source": "thestar"
         },
         {
-            "title": "Elizabeth Warren Endorses Graham Platner For Senate",
+            "title": "U.S. Lifts Fertilizer Sanctions on Belarus as Iran War Causes Price Surge",
             "severity": "HIGH",
-            "url": "https://www.aol.com/articles/elizabeth-warren-endorses-graham-platner-171614803.html",
-            "image": "https://images.pexels.com/photos/7594407/pexels-photo-7594407.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "aol"
+            "url": "https://www.nytimes.com/2026/03/19/world/europe/belarus-prisoners-fertilizer-potash-sanctions.html",
+            "image": "https://static01.nyt.com/images/2026/03/19/multimedia/19belarus-prisoners-fphm/19belarus-prisoners-fphm-mediumSquareAt3X-v2.jpg",
+            "source": "nytimes"
         },
         {
-            "title": "Palestinians were bystanders to the Iran war; now they're victims too",
+            "title": "A cardiologist warns: This is what needs to be done these days to prevent a heart event",
             "severity": "HIGH",
-            "url": "https://www.news18.com/agency-feeds/palestinians-were-bystanders-to-the-iran-war-now-theyre-victims-too-9987268.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/07/News18_World_Section_Default_Image_1600x900-2025-07-4401653589b9d10b46b8abb07f758342-3x2.jpg",
-            "source": "news18"
+            "url": "https://www.jpost.com/health-and-wellness/mind-and-spirit/article-890520",
+            "image": "https://images.pexels.com/photos/23789/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
+            "source": "jpost"
         },
         {
-            "title": "'Rockets flying around': Middle East war leaves England cricket short of Dukes balls",
+            "title": "Gold and silver plummet \u2014 here\u2019s why Iran war is hammering prices",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/sports/cricket/news/rockets-flying-around-middle-east-war-leaves-england-cricket-short-of-dukes-balls/articleshow/129684199.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129684263/129684263.jpg",
-            "source": "toi"
+            "url": "https://nypost.com/2026/03/19/business/gold-and-silver-plummet-heres-why-iran-war-is-hammering-prices/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F03%2Fbars-gold-silver-display-hong-121815149.jpg?w%3D1024",
+            "source": "nypost"
         },
         {
-            "title": "Bitrefill blames North Korean Lazarus group for cyberattack",
+            "title": "European nations and Japan back efforts to secure Strait of Hormuz, ready to 'contribute'",
             "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/bitrefill-blames-north-korean-lazarus-group-for-cyberattack/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/03/19/Bitrefill.jpg",
-            "source": "bleepingcomputer"
+            "url": "https://www.moneycontrol.com/world/european-nations-and-japan-back-efforts-to-secure-strait-of-hormuz-ready-to-contribute-article-13865597.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260316143230_hormuzship.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Allied healthcare anchors Budget 2026\u2019s plan to ease health workforce stress",
+            "title": "Oil and LNG prices surge after Iran attacks Persian Gulf energy hubs",
             "severity": "HIGH",
-            "url": "https://www.thehindu.com/education/allied-healthcare-anchors-budget-2026s-plan-to-ease-health-workforce-stress/article70761697.ece",
-            "image": "https://th-i.thgim.com/public/education/uhiroo/article70761853.ece/alternates/FREE_1200/iStock-1180006883.jpg",
-            "source": "thehindu"
+            "url": "https://www.theglobeandmail.com/business/article-oil-and-lng-prices-surge-after-iran-attacks-persian-gulf-energy-hubs/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/VM3ENURMKFAQHD6ZX3QNQU3G7Q.jpg?auth=d8ba37c2233144602b22e324df6d24dce54c85c8276d3472d25891fccc56729f&smart=true&width=4980&height=3198",
+            "source": "theglobeandmail"
         },
         {
-            "title": "'Idea that Trump can be led around by Israel is foolishness,' ex-envoy to Iran says",
+            "title": "Sunny with a chance of missiles: Israel ranks as eighth-happiest country on earth",
             "severity": "HIGH",
-            "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260319-idea-that-trump-can-be-led-around-by-israel-is-foolishness-ex-envoy-to-iran-says",
-            "image": "https://s.france24.com/media/display/79800436-239c-11f1-b0da-005056bf30b7/w:1280/p:16x9/TAT-ABRAMS.jpg",
-            "source": "france24"
+            "url": "https://www.haaretz.com/israel-news/israel-politics/2026-03-19/ty-article/.premium/sunny-with-a-chance-of-missiles-israel-ranks-as-8th-happiest-country-on-earth/0000019d-0710-df92-a9df-efd0550d0000",
+            "image": "https://img.haarets.co.il/bs/0000019d-072a-d088-a5fd-b72b4dc00000/c3/21/8941818b4ac9b572948e460aec29/101452-2.jpg?height=81",
+            "source": "haaretz_is"
         },
         {
-            "title": "How the Iran war is becoming \u2018the soundtrack of the midterm election campaign\u2019",
+            "title": "Allies divided on whether price of the Iran war is worth the pain",
             "severity": "HIGH",
-            "url": "https://www.cnn.com/2026/03/19/politics/video/inside-politics-iran-war-midterm-election",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ip-panel0319-20260319170945860.jpg?c=16x9&q=w_800,c_fill",
-            "source": "cnn"
+            "url": "https://www.thetimes.com/world/middle-east/article/iran-south-pars-gas-field-war-bbfnng8rw",
+            "image": "https://images.pexels.com/photos/3183174/pexels-photo-3183174.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "thetimes"
         },
         {
-            "title": "Patel Says Agents Who Worked Mar-a-Lago Case Were Fired for Ethics Violations - The New York Times",
+            "title": "Prescription drug shortages and supply chain reliability | Brookings",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOb0xxM1FTUDRKdmJfcDM0T2N0ZXVkbC1VRzMzczAwa3JvVjVFLUlaSkJJMnpkV3U0eVFxTW9sQm5KVXh4OWdFNkxkMjN1dzZfRG9LUnRrYkN6RDNKOUFKX0FQVE0yWW9aUzJqOWt6MnZzOFJQV3dPSDdUNDdFc2FjSGpiZXY?oc=5",
-            "image": "https://images.pexels.com/photos/28767588/pexels-photo-28767588.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.brookings.edu/collection/prescription-drug-shortages-and-supply-chain-reliability/",
+            "image": "https://www.brookings.edu/wp-content/uploads/2026/01/Shutterstock_215544379.jpg?quality=75",
+            "source": "brookings"
         },
         {
-            "title": "Cricket plunged into chaos as war in Middle East sparks bizarre equipment shortage ahead of new season",
+            "title": "Iran says it struck US F-35 over central Iran, with fighter jet\u2019s fate unclear",
             "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/sport/38571613/cricket-england-middle-east-war-balls/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F03%2Fcrop-38571994.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
+            "url": "https://www.dawn.com/news/1983799/iran-says-it-struck-us-f-35-over-central-iran-with-fighter-jets-fate-unclear",
+            "image": "https://i.dawn.com/large/2026/03/192357061a6cfe0.webp",
+            "source": "dawn"
         },
         {
-            "title": "Grab Your Betrayal-Themed Popcorn Buckets, Because Microsoft Is Threatening to Sue OpenAI",
+            "title": "After Infecting PCs With Malware, Gacha Game Gives Out Free Loot Boxes To Apologize",
             "severity": "HIGH",
-            "url": "https://futurism.com/artificial-intelligence/betrayal-microsoft-openai",
-            "image": "https://futurism.com/wp-content/uploads/2026/03/betrayal-microsoft-openai.jpg?quality=85",
-            "source": "futurism"
+            "url": "https://www.gamespot.com/articles/after-infecting-pcs-with-malware-gacha-game-gives-out-free-loot-boxes-to-apologize/1100-6538906/?ftag=CAD-01-10abi2f",
+            "image": "https://www.gamespot.com/a/uploads/screen_medium/1752/17528202/4668750-dna%281%29.jpg",
+            "source": "gamespot"
         },
         {
-            "title": "Premier League set to amend spending rules to give clubs more flexibility for transfers",
+            "title": "Iranian rhetoric threatens regional stability, violates international law: Dr. Anwar Gargash",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/football/2026/mar/19/premier-league-spending-rules-squad-cost-ratio",
-            "image": "https://i.guim.co.uk/img/media/7f1a7588346c0284119f21d2d5bc09b7fa373dd0/570_0_5701_4560/master/5701.jpg?width=140&quality=85&auto=format&fit=max&s=f86c588eb3189ffd79d9c8d41b327156",
-            "source": "theguardian"
+            "url": "https://gulfnews.com/uae/iranian-rhetoric-threatens-regional-stability-violates-international-law-dr-anwar-gargash-1.500480385",
+            "image": "https://images.pexels.com/photos/10210527/pexels-photo-10210527.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "gulfnews"
         },
         {
-            "title": "Dior to pay Americans $100 with no proof needed \u2014 here\u2019s who qualifies and how to claim",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/dior-to-pay-americans-100-with-no-proof-needed-heres-who-qualifies-and-how-to-claim/articleshow/129684135.cms",
-            "image": "https://img.etimg.com/thumb/msid-129684135,resizemode-4,width-1200,height-900,imgsize-167256,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "title": "Environment, housing, health and transport among issues for SA voters",
+            "severity": "MEDIUM",
+            "url": "https://www.abc.net.au/news/2026-03-20/sa-election-2026-your-say-what-voters-told-us/106462992",
+            "image": "https://live-production.wcms.abc-cdn.net.au/4f7a746069fe9f01a2a6155c8ca8cbc3?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+            "source": "abc_net"
         },
         {
-            "title": "Marquis confirms sensitive personal data of 672,000 people stolen in ransomware attack",
-            "severity": "HIGH",
-            "url": "https://www.techradar.com/pro/security/marquis-confirms-sensitive-personal-data-of-672-000-people-stolen-in-ransomware-attack",
-            "image": "https://cdn.mos.cms.futurecdn.net/oURxQ8dw8TJ2KxmqQDaio6-1280-80.jpg",
-            "source": "techradar_uk"
-        },
-        {
-            "title": "Norwich City says error over uniform rules led to fine for underpaying workers - EDP24",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQi1qbnI0R0VsZmhSXzNsZHpkY3NsYUZiMzUwd1VCX0ZCVldyczhjZWNqOXBLRnpaOS1nZ0pCYkZFZll4aUlkck9PTGxDZl9leGpYMUJsa0l6cnRYaGxrUGRFeG8za2hqc3l1MUhoWUtkVW5HcHVKN1RVcEZTOF9RX09NWGJfYUpteW1JR3hwS0l3Tm1rU1ZGTV9DZXd4d0d6X0hZ?oc=5",
-            "image": "https://images.pexels.com/photos/7947958/pexels-photo-7947958.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Migrant who raped teen wasn't deported to respect his 'right to family life'",
-            "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/news/uk-news/migrant-who-raped-teen-wasnt-36895386",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36895455.ece/ALTERNATES/s615/0_DPW_Gift-Oladele-02.jpg",
+            "title": "Premier League 'to change' new spending rules as club's proposal unanimously backed",
+            "severity": "MEDIUM",
+            "url": "https://www.mirror.co.uk/sport/football/news/premier-league-change-spending-rules-36895918",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article36895996.ece/ALTERNATES/s615/0_Premier-League-File-Photo.jpg",
             "source": "mirroruk"
         },
         {
-            "title": "Stock Market Today: Dow, S&P 500, Nasdaq Down; Oil Prices Surge; Microsoft, Micron, FedEx, Newmont, More Movers - Barron's",
+            "title": "What does One Nation actually believe in?",
             "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14SEVYbGpGbjNObFhleXZLRE1iTVRTRzJmOW9ER1JfYkM4SUx4ZElIa0MtVTZkeGQycDZadm01RGFuRkNrWTZoc2JFeGg1d1BxalktSUdoV0NDbTFCbm9obEdsc3JVNWwtV29Xa0xoYktRUDJidFE?oc=5",
-            "image": "https://images.pexels.com/photos/6767963/pexels-photo-6767963.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://theconversation.com/what-does-one-nation-actually-believe-in-278406",
+            "image": "https://images.theconversation.com/files/724859/original/file-20260319-57-3zs0ni.jpg?ixlib=rb-4.1.0&rect=0%2C252%2C4469%2C2234&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
         },
         {
-            "title": "Why Did Newmont Stock Just Crash Below $100?",
+            "title": "\"An Archaeologist Called 'Bone Jones' Told Me About It\": 37 Totally Weird Items That Only These Internet Geniuses Seemed To Be Able To Identify",
             "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-newmont-stock-just-171634289.html",
-            "image": "https://images.pexels.com/photos/2924099/pexels-photo-2924099.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
+            "url": "https://www.buzzfeed.com/kelley_greene/interesting-objects-identified-by-the-internet-03-19-26",
+            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-03/17/15/thumb/mo7Odtuee.jpg?crop=2988:1992;6,0&resize=1250:830&resize=1200:*",
+            "source": "buzzfeeduk"
         },
         {
-            "title": "Jim Cramer Says \u201cArm\u2019s Always Been Tight With NVIDIA, I Think It Gets Tighter\u201d",
+            "title": "Fantasy Movies With the Greatest Dialogue Ever",
             "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-arm-always-171536790.html",
-            "image": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "finance_yahoo"
+            "url": "https://collider.com/fantasy-movies-best-dialogue-ever/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2023/04/kuzco.jpg?w=1600&h=900&fit=crop",
+            "source": "collider"
         },
         {
-            "title": "Average US long-term mortgage rate rises to 6.22%, highest level in more than 3 months",
+            "title": "Budget repair and cost-of-living relief are at odds with each other",
             "severity": "WATCH",
-            "url": "https://www.beaumontenterprise.com/business/article/average-us-long-term-mortgage-rate-rises-to-22085698.php",
-            "image": "https://s.hdnux.com/photos/01/65/33/15/30782335/6/square_large.jpg",
-            "source": "beaumontenterprise"
+            "url": "https://www.abc.net.au/news/2026-03-20/jim-chalmers-reform-budget-repair-cost-of-living-iran-war/106464602",
+            "image": "https://live-production.wcms.abc-cdn.net.au/c1c7302a6849b1174a8dbbe44b7bfe01?impolicy=wcms_crop_resize&cropH=900&cropW=1600&xPos=0&yPos=0&width=862&height=485",
+            "source": "abc_net"
         },
         {
-            "title": "Pep Guardiola could leave the Etihad Stadium this summer.",
+            "title": "Meningitis vaccine catch-up programme extended to schools after cases soar by more than a third in a day but officials close jab queue early and turn students away",
             "severity": "WATCH",
-            "url": "https://www.si.com/soccer/potential-pep-guardiola-replacements-man-city-ranked",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_5255,h_2955,x_0,y_252/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01kd32n0d7p9tr2b6trf.jpg",
-            "source": "si"
+            "url": "https://www.dailymail.co.uk/news/article-15662431/Meningitis-vaccine-catch-programme-extended-schools-cases-soar-day-officials-close-jab-queue-early-turn-students-away.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/19/18/107272579-0-image-a-10_1773946645698.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Mar 14, 2026; Miami, Florida, USA; Orlando Magic guard Jalen Suggs (4) lies on the court as Miami Heat guard Pelle Larsson (9) looks on during the second half at Kaseya Center. Mandatory Credit: Jim Rassol-Imagn Images",
+            "title": "Expect Government to reduce petrol pump prices next week, but no one-off payments planned",
             "severity": "WATCH",
-            "url": "https://www.si.com/nba/heat/onsi/news/where-the-miami-heat-s-pelle-larsson-would-go-in-a-2024-nba-redraft-01km3b6eednr",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1567,h_881,x_778,y_24/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/inside_the_heat/01km3ew4tdc4x81haq1z.jpg",
-            "source": "si"
+            "url": "https://www.irishtimes.com/politics/2026/03/19/expect-government-to-reduce-petrol-pump-prices-next-week-but-no-one-off-payments-planned/",
+            "image": "https://www.irishtimes.com/resizer/v2/A5DFUSRVL5HXXKCEZC4Q2PZO5U.JPG?auth=4391fd077740453acc5de5e2f5e67f0e1e46369a4d6213f2ea3c510b75df4484&smart=true&width=630&height=350",
+            "source": "irishtimes"
         },
         {
-            "title": "Vitor Matos issues Matt Grimes message to Swansea City fans",
+            "title": "PBP EcoAqua Wins Major Hotel Bottling Mandate",
             "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/vitor-matos-issues-matt-grimes-171410827.html",
-            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
+            "url": "https://hospitalitybizindia.com/news-track/pbp-ecoaqua-wins-major-hotel-bottling-mandate/",
+            "image": "https://yourwebsite.com/path-to-image.jpg",
+            "source": "hospitalitybizindia"
         },
         {
-            "title": "Is Celsius Holdings, Inc. (CELH) A Good Stock To Buy Now?",
+            "title": "Nursery bosses to meet police over jailed worker",
             "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/celsius-holdings-inc-celh-good-171353354.html",
-            "image": "https://images.pexels.com/photos/4437148/pexels-photo-4437148.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "finance_yahoo"
+            "url": "https://www.bbc.com/news/articles/c30r3ndnyl2o",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/f17d/live/c9990dd0-2213-11f1-92d6-8945044e64f7.jpg",
+            "source": "bbc"
         },
         {
-            "title": "Joy Behar Whines About Fetterman Voting To Advance Mullin\u2019s Confirmation",
+            "title": "Shifting more healthcare to the private sector calls for a clear government plan \u2013 where is it?",
             "severity": "WATCH",
-            "url": "https://dailycaller.com/2026/03/19/joy-behar-fetterman-mullin-confirmation/",
-            "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https%3A%2F%2Fcdn01.dailycaller.com%2Fwp-content%2Fuploads%2F2026%2F03%2FScreenshot-2026-03-19-at-12.50.41%E2%80%AFPM-e1773939089735.png",
-            "source": "dailycaller"
+            "url": "https://theconversation.com/shifting-more-healthcare-to-the-private-sector-calls-for-a-clear-government-plan-where-is-it-278197",
+            "image": "https://images.theconversation.com/files/724510/original/file-20260317-57-en7k2r.jpg?ixlib=rb-4.1.0&rect=0%2C610%2C7311%2C3655&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
         },
         {
-            "title": "Activist Artists Management Signs Comedian Preacher Lawson",
+            "title": "Milkweed evolves 'mind-blowing' tactic to fight monarchs",
             "severity": "WATCH",
-            "url": "https://deadline.com/2026/03/preacher-lawson-signs-activist-artists-management-1236760572/",
-            "image": "https://deadline.com/wp-content/uploads/2026/03/Preacher-Headshot-2.jpg",
-            "source": "deadline"
+            "url": "https://phys.org/news/2026-03-milkweed-evolves-mind-tactic-monarchs.html",
+            "image": "https://scx2.b-cdn.net/gfx/news/2026/milkweed-evolves-mind.jpg",
+            "source": "phys"
         },
         {
-            "title": "Trump stuns Oval Office with crass Pearl Harbor joke in front of Japanese PM",
+            "title": "Gauhati HC sets up fast-track court for Zubeen case trial",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/bulletin/news/trump-japanese-pm-pearl-harbor-b2942065.html",
-            "image": "https://static.independent.co.uk/2026/03/19/16/34/AP26078576295906.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "\u201cGot my dream amp!\u201d Gary Moore's go-to Marshall head has been bought by another \u201980s rock hero",
-            "severity": "WATCH",
-            "url": "https://www.guitarworld.com/gear/amps/john-norum-buys-his-guitar-heros-amp",
-            "image": "https://cdn.mos.cms.futurecdn.net/QyTPQRbB56sM4PpS42BRUh-1280-80.jpg",
-            "source": "guitarworld"
-        },
-        {
-            "title": "Arms smuggling module busted: Juvenile among six held with 7 pistols in Amritsar",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/chandigarh-news/arms-smuggling-module-busted-juvenile-among-six-held-with-7-pistols-in-amritsar-101773940345596.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/19/1600x900/logo/The-recovered-weapons-include-five-9MM-Glock-pisto_1773940343153.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "200 Matikhala houses powered by solar energy",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/200-matikhala-houses-powered-by-solar-energy/articleshow/129684397.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-129684450/129684450.jpg",
+            "url": "https://timesofindia.indiatimes.com/city/guwahati/gauhati-hc-sets-up-fast-track-court-for-zubeen-case-trial/articleshow/129686053.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
             "source": "toi"
         },
         {
-            "title": "Ornamental fisheries sector holds untapped potential, say experts",
+            "title": "Ex-con migrant who raped teen wasn't deported to respect his 'right to family life'",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/kerala/ornamental-fisheries-sector-holds-untapped-potential-say-experts/article70762557.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
+            "url": "https://www.dailystar.co.uk/news/latest-news/migrant-who-raped-teen-wasnt-36896048",
+            "image": "https://i2-prod.dailystar.co.uk/news/latest-news/article36896045.ece/ALTERNATES/s615/0_dpw180326gift.jpg",
+            "source": "dailystar"
         },
         {
-            "title": "Iran hangs 3, including teen wrestler, in first executions over Jan. protests",
+            "title": "All state pensioners given 4.8% triple lock cash boost from April",
             "severity": "WATCH",
-            "url": "https://www.cbsnews.com/news/iran-execution-teen-wrestler-january-protests/",
-            "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/03/19/a20384d2-d04d-404a-94de-c64ca25e1f55/thumbnail/1200x630/0194da6d5918b34422d61af614d44a9a/gettyimages-2258684689.jpg",
-            "source": "cbsnews"
+            "url": "https://www.express.co.uk/finance/personalfinance/2184272/state-pensioners-given-48-triple-lock",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/23/590x/2184272_1.jpg",
+            "source": "expresscouk"
         },
         {
-            "title": "CrowdStrike At GTC Makes The Case For AI Native Security",
+            "title": "Fighting for Faughan Hill: How a dream family home became a 20-year nightmare",
             "severity": "WATCH",
-            "url": "https://www.forbes.com/sites/tonybradley/2026/03/19/crowdstrike-at-gtc-makes-the-case-for-ai-native-security/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/69bc2b7bb4f1c9093a6d4e37/0x0.jpg",
-            "source": "forbes"
-        },
-        {
-            "title": "How to watch, listen to and follow Albion v Liverpool from the Amex",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/watch-listen-albion-v-liverpool-165900232.html",
-            "image": "https://images.pexels.com/photos/9494906/pexels-photo-9494906.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
+            "url": "https://www.irishtimes.com/crime-law/courts/2026/03/19/fighting-for-faughan-hill-how-a-dream-family-home-became-a-20-year-nightmare/",
+            "image": "https://www.irishtimes.com/resizer/v2/ERKUEXCWNJHZNOFQL2IAHMZHU4.jpg?auth=57fdaf7517c4db71befef1caf724f3f7365f6cd597988c6cc5bab187a03fce41&smart=true&width=630&height=350",
+            "source": "irishtimes"
         }
     ],
-    "Last_Updated": "2026-03-20T05:18:07.557682Z"
+    "Last_Updated": "2026-03-20T07:04:26.900658Z"
 }
