@@ -1,281 +1,239 @@
 {
-    "AGRI_Score": 65.7,
-    "Velocity": "+2.9",
+    "AGRI_Score": 65.2,
+    "Velocity": "-0.5",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 65.7 reflects elevated global tensions primarily driven by intense geopolitical conflict and severe energy and maritime disruptions. Heightened concerns stem from the ongoing Middle East conflict, as evidenced by 'Australia's top supplier of petrol and diesel issues a warning as Middle East conflict drags on' and 'Trump\u2019s Iran War Frays Ties With Allies as Oil Prices Surge'. These factors are significantly impacting crude oil prices and energy security, contributing to an overall environment of increased strategic risk. The intertwined nature of these issues indicates a complex and volatile global landscape requiring close monitoring.",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 65.2 reflects a significantly elevated risk environment, primarily driven by extreme levels of Geopolitical Conflict Intensity and Energy & Maritime Disruption. Direct military actions, such as \"Iran fires at Israel after Netanyahu boasts of war gains,\" are directly fueling \"Iran war-driven oil price volatility.\" This escalation in conflict and its immediate impact on global energy markets are generating widespread jitters, prompting the \"White House [to look] for ways to soothe American jitters over surging oil prices.\"",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 88.4,
+        "Geopolitical Conflict Intensity": 80.8,
         "Energy & Maritime Disruption": 89.1,
-        "Trade & Supply Chain Stress": 65.7,
+        "Trade & Supply Chain Stress": 64.6,
         "Sovereign Financial Stress": 52.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.5,
-        "Cyber & Infrastructure Threats": 57.1,
+        "Sanctions & Regulatory Fragmentation": 58.2,
+        "Cyber & Infrastructure Threats": 65.2,
         "Climate & Resource Shock": 45
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar's high score is directly fueled by escalating regional conflicts and diplomatic strains, notably illustrated by headlines like 'War and displacement mar the run-up to Eid al-Fitr holiday for many in Lebanon' and 'Trump jokes about Pearl Harbour with Japanese PM to explain surprise Iran attack'. The ongoing Middle East conflict continues to be a primary driver of global instability, risking broader entanglements and alliances.",
-        "Energy & Maritime Disruption": "The exceptionally high score for this pillar is a direct consequence of an intensifying global energy crisis and supply concerns, with 'Cuba readies for first Russian oil shipment of the year as energy crisis deepens' and 'EU faces energy price \u2018tsunami\u2019 \u2013 Putin envoy' highlighting the severity. Rising crude prices, noted in 'Crude price rise upset drug formulations cost', are causing significant economic ripple effects and signalling potential further disruptions to global energy markets.",
-        "Trade & Supply Chain Stress": "This moderate score indicates growing pressure on global trade networks, predominantly linked to the effects of geopolitical instability on key commodity flows. The warning from 'Australia's top supplier of petrol and diesel issues a warning as Middle East conflict drags on' directly implicates energy supply chains, while rising 'Crude price rise upset drug formulations cost' suggests broader cost increases impacting various sectors.",
-        "Sovereign Financial Stress": "While not directly highlighted by specific sovereign defaults, the score reflects an underlying susceptibility to financial strain driven by external pressures. The sustained increase in crude prices, which 'upset drug formulations cost', indicates higher import bills for energy-dependent nations, potentially eroding fiscal stability and increasing debt service burdens over time.",
-        "Currency & Liquidity Pressure": "This pillar remains at baseline activity, with no immediate news pointing to widespread currency crises or severe liquidity shortages. However, the pervasive impact of elevated energy costs and geopolitical uncertainty could introduce future inflationary pressures and foreign exchange volatility, particularly for economies reliant on commodity imports.",
-        "Sanctions & Regulatory Fragmentation": "This pillar registers moderate activity, primarily driven by ongoing enforcement and the potential for new measures or complications in existing frameworks. 'Canada has deported only one Iran official \u2014 here's what we know about those efforts' indicates continued efforts to apply pressure, though the overall regulatory landscape shows no immediate dramatic shifts.",
-        "Cyber & Infrastructure Threats": "The score reflects ongoing vulnerabilities and confirmed incidents, with 'Navia discloses data breach impacting 2.7 million people' serving as a direct example of significant data compromise. Such breaches underscore the persistent threat landscape, necessitating continuous vigilance regarding digital infrastructure security across sectors.",
-        "Climate & Resource Shock": "This pillar currently exhibits routine monitoring, with no severe, immediate climate shock events reported in the current feed. However, ongoing resource-related challenges are present, as seen with 'Cuba readies for first Russian oil shipment of the year as energy crisis deepens', highlighting systemic dependencies and potential future vulnerabilities."
+        "Geopolitical Conflict Intensity": "Direct military engagements are escalating, with \"Iran fir[ing] at Israel after Netanyahu boasts of war gains\" and \"Netanyahu say[ing] Israel 'acted alone' in attack on Iranian gas field.\" This indicates a high level of open hostility and a significant regional conflict risk.",
+        "Energy & Maritime Disruption": "Global energy markets are experiencing severe volatility directly linked to geopolitical events, as evidenced by \"Iran war-driven oil price volatility\" leading to \"White House look[ing] for ways to soothe American jitters over surging oil prices.\" While some domestic supplies show routine monitoring, commercial segments face constraints due to wider market pressures.",
+        "Trade & Supply Chain Stress": "Geopolitical tensions and their impact on energy prices are causing notable stress on supply chains, seen in \"Iran war-driven oil price volatility\" which affects transportation costs and availability. Localized energy supply constraints, such as for the \"commercial segment\" of LPG in Gurugram, further underscore these disruptions.",
+        "Sovereign Financial Stress": "Political uncertainty and underlying debt concerns are influencing market sentiment, with \"Wall Street bigs desperately pleading with the White House to end Trump\u2019s Powell feud\" highlighting governance risks. The continued growth of \"debt risks\" suggests a cautious outlook for sovereign financial stability.",
+        "Currency & Liquidity Pressure": "Geopolitical conflicts and commodity price surges are creating an environment conducive to currency volatility and liquidity pressures, especially with \"Iran war-driven oil price volatility\" impacting global financial markets. Though no direct currency crisis is reported, the underlying conditions indicate potential for rapid shifts in financial flows.",
+        "Sanctions & Regulatory Fragmentation": "The regulatory landscape is showing increased scrutiny and potential fragmentation, as \"States Make A Statement: Big Media Mergers Face Scrutiny Of AGs.\" Furthermore, regional actions against illicit networks, such as the \"UAE dismantling 'Terrorist Network' Funded by Iran and Hezbollah,\" indicate ongoing pressure on financial integrity.",
+        "Cyber & Infrastructure Threats": "Critical infrastructure and personal data remain vulnerable to cyber incidents, with \"Charlottesville Settlement Company Data Breach Claims\" under investigation. Geopolitical tensions also reveal extreme potential for infrastructure disruption, demonstrated by Denmark's preparations to \"blow up runways\" in response to a past threat.",
+        "Climate & Resource Shock": "Severe weather events are impacting regions, with \"Record Southwest heat continu[ing] after California community ties all-time March high,\" indicating ongoing climate-related stress. These extreme temperatures strain resources and pose direct risks to public health and economic activity."
     },
     "All_Alerts": [
         {
-            "title": "Cuba readies for first Russian oil shipment of the year as energy crisis deepens",
+            "title": "Domestic LPG supply stable; commercial segment faces constraints in Gurugram: Officials",
             "severity": "HIGH",
-            "url": "https://www.seattletimes.com/nation-world/world/cuba-readies-for-first-russian-oil-shipment-of-the-year-as-energy-crisis-deepens/",
-            "image": "https://images.pexels.com/photos/17868109/pexels-photo-17868109.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "seattletimes"
-        },
-        {
-            "title": "Why Victor Wembanyama is the NBA\u2019s MVP \u2014 even if he doesn\u2019t win the award - Thu, 19 Mar 2026 PST",
-            "severity": "HIGH",
-            "url": "http://www.spokesman.com/stories/2026/mar/19/why-victor-wembanyama-is-the-nbas-mvp-even-if-he-d/",
-            "image": "https://thumb.spokesman.com/JWB0MUh1EPRZ-vZhp5Qa3wg-jj0=/2500x1405/smart/media.spokesman.com/photos/2026/03/19/69bc6236439b5.image.jpg",
-            "source": "spokesman"
-        },
-        {
-            "title": "Australia's top supplier of petrol and diesel issues a warning as Middle East conflict drags on",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.co.uk/news/article-15662535/Australias-crude-supplier-fuel-export-risk.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/03/19/20/107274435-0-image-a-3_1773951863830.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "On cam: Trump jokes about Pearl Harbor while justifying Iran strikes, Japanese PM Takaichi stunned",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/videos/world-news/on-cam-trump-jokes-about-pearl-harbor-while-justifying-iran-strikes-japanese-pm-takaichi-stunned-101773953232461.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/19/1600x900/logo/takaka_1773953293170_1773953296559.jpg",
+            "url": "https://www.hindustantimes.com/cities/gurugram-news/domestic-lpg-supply-stable-commercial-segment-faces-constraints-in-gurugram-officials-101773943948024.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/19/1600x900/logo/Officials-said-six-procurement-centres-are-operati_1773943945636.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "A Guide to Spring Break in Atlanta",
+            "title": "MAGA Architect Hit With Blunt Reality Check on His Own Show",
             "severity": "HIGH",
-            "url": "http://news.gatech.edu/news/2026/03/19/guide-spring-break-atlanta",
-            "image": "https://news.gatech.edu/sites/default/files/hg_media/2026-19/_WestGA_031026_DK-35.jpg",
-            "source": "gatech"
-        },
-        {
-            "title": "War and displacement mar the run-up to Eid al-Fitr holiday for many in Lebanon",
-            "severity": "HIGH",
-            "url": "https://www.wfaa.com/article/syndication/associatedpress/in-lebanon-war-and-displacement-mar-run-up-to-eid-al-fitr-holiday-for-many/616-2d28493b-52b1-4c28-a323-7f41aefb3375",
-            "image": "https://images.pexels.com/photos/33333379/pexels-photo-33333379.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "wfaa"
-        },
-        {
-            "title": "Crude price rise upset drug formulations cost",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/nagpur/crude-price-rise-upset-drug-formulations-cost/articleshow/129686037.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-129686032/129686032.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Trump jokes about Pearl Harbour with Japanese PM to explain surprise Iran attack",
-            "severity": "HIGH",
-            "url": "https://www.smh.com.au/world/trump-jokes-about-pearl-harbour-with-japanese-pm-to-explain-surprise-iran-attack-20260320-p5qs9o.html",
-            "image": "https://images.pexels.com/photos/12231821/pexels-photo-12231821.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "smh"
-        },
-        {
-            "title": "Inside the suburban pizza war between local rivals which erupted into savage violence - after brutal crowbar brawl was caught on camera",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.co.uk/news/article-15652775/brunswick-pizza-shop-feud-violence.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/03/18/02/107221811-0-image-a-10_1773800306380.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Trump\u2019s Iran War Frays Ties With Allies as Oil Prices Surge",
-            "severity": "HIGH",
-            "url": "https://www.wsj.com/world/trumps-iran-war-frays-ties-with-allies-as-oil-prices-surge-863211f9",
-            "image": "https://images.pexels.com/photos/10210527/pexels-photo-10210527.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "wsj"
-        },
-        {
-            "title": "EU faces energy price \u2018tsunami\u2019 \u2013 Putin envoy",
-            "severity": "HIGH",
-            "url": "https://www.rt.com/news/635565-eu-energy-tsunami-dmitriev/",
-            "image": "https://mf.b37mrtl.ru/files/2026.03/article/69bc5d9a85f5407bb20dbe72.jpg",
-            "source": "rt"
-        },
-        {
-            "title": "Canada has deported only one Iran official \u2014 here's what we know about those efforts",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com/politics/federal/canada-has-deported-only-one-iran-official--heres-what-we-know-about-those-efforts/article_f76872fe-dce4-5f53-b0b6-96ea87e144e9.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/4/2f/42f06f8c-241a-5183-863b-37e748cffe4c/69bc617d77875.image.jpg?crop=1400%2C735%2C0%2C99&resize=1200%2C630&order=crop%2Cresize",
-            "source": "thestar"
-        },
-        {
-            "title": "Predator dubbed the 'Coronation Street rapist' is dead: Serial attacker, 69, who terrorised the North in the 1980s dies behind bars",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.co.uk/news/article-15662673/Predator-dubbed-Coronation-Street-rapist-dead-Serial-attacker-69-terrorised-North-1980s-dies-bars.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/03/19/20/107274799-0-image-a-2_1773952938330.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Navia discloses data breach impacting 2.7 million people",
-            "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/navia-discloses-data-breach-impacting-27-million-people/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/03/19/navia.jpg",
-            "source": "bleepingcomputer"
-        },
-        {
-            "title": "SMU, United Methodist Church conference agree to dismiss lawsuit over breach of contract",
-            "severity": "HIGH",
-            "url": "https://www.dallasnews.com/news/faith/2026/03/18/smu-united-methodist-church-conference-agree-to-dismiss-lawsuit-over-breach-of-contract/",
-            "image": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/v2/RXS3S2D5TNFT3JQA2KNOJ7YD5U.jpg?auth=9035c8e7cfb5f939aa0088ccf523027f8c14a03742986da683385a974f249139&smart=true&width=600",
-            "source": "dallasnews"
-        },
-        {
-            "title": "Now, PM Gati Shakti to monitor GujRERA projects",
-            "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/now-pm-gati-shakti-to-monitor-gujrera-projects/articleshow/129686036.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117516817/117516817.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Tesla in talks with Chinese firms to buy $2.9 billion worth of solar equipment, sources say",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/tech/technology/tesla-in-talks-with-chinese-firms-to-buy-2-9-billion-worth-of-solar-equipment-sources-say/articleshow/129690500.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-153582,resizemode-75,msid-129690500/tech/technology/tesla-in-talks-with-chinese-firms-to-buy-2-9-billion-worth-of-solar-equipment-sources-say.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Queues shrink outside gas agencies as booking issue resolved",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/nagpur/queues-shrink-outside-gas-agencies-as-booking-issue-resolved/articleshow/129686050.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-129686046/129686046.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Turkish media grateful as Virgil van Dijk singles out only Galatasaray hero - Liverpool.com",
-            "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbzdlaUg5a2ZVNURQZUZGZGRSR1UxYXJmZUk0anpSZ0RNMERjRGpTQ1d4dFZBeWFHaTZvZ283UVZoY1Rjd2loVzdjampfNEJNVjJ6c0stS205WDlSLUtrcDQ5U2R5aUF5b2pKZDNtbVUzdGNBTlhKVUFDX3I0alJoM3F2RWJJMFd2UjQ0WUhaVDBTcDNVc1pfTDZvTGpxOUNN0gGmAUFVX3lxTE9mdjRpX2tCN2ZucEpwU1RCTlFldURuSy1wV2NmV0RUaGVGUTYySk9HdURWNzRiNE5IYjdRNDZmaTVrWFVEdndicFEwckh2T01vMjFoWS1WSXpldzVyX0N5aXF2LTF6bmx5R29oNUFlX21xUGhZVWRTVWlTVkozZlM5YW53RUVNYkJwUDBlTzJRZHJ1dHNsSWdTeTduZUE0UEtuUmJvSnc?oc=5",
-            "image": "https://images.pexels.com/photos/7947958/pexels-photo-7947958.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "How to Support a Friend Who Wants to Get Back With an Ex (Again)",
-            "severity": "WATCH",
-            "url": "https://www.self.com/story/friend-wants-to-get-back-with-ex",
-            "image": "https://media.self.com/photos/69bc60af9807e08da7f98c34/16:9/w_2992,h_1683,c_limit/177470_0585_V1.jpg",
-            "source": "self"
-        },
-        {
-            "title": "Report: Liverpool ready to join the race to sign \u00a343m Premier League star",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/report-liverpool-ready-join-race-205000606.html",
-            "image": "https://images.pexels.com/photos/7629244/pexels-photo-7629244.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "Victoria Beckham\u2019s New Lipstick Is Inspired by Her Natural Lip Tone",
-            "severity": "WATCH",
-            "url": "https://www.thedailybeast.com/victoria-beckhams-new-lipstick-is-inspired-by-her-natural-lip-color/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/JWGNAVCGH5DE7KWGE6R5ZCM5U4.jpg?auth=7642631fc66e0ee88e5cf9f49f93ba038e782f95ccca21058e994ef2adff3dfa&smart=true&width=3000&height=1688",
+            "url": "https://www.thedailybeast.com/maga-architect-steve-bannon-hit-with-blunt-reality-check-on-his-own-show/",
+            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/GMEROQABW5BXDK2DPAEWZYPXCA.png?auth=cc47c800cf8a3b4bd06e60e6de9ca34785a3e4629a15b073d4c5d9679a7917d5&smart=true&width=817&height=460",
             "source": "thedailybeast"
         },
         {
-            "title": "Rebecca Ferguson's Franchise-Ending Sci-Fi Movie Gets a Crushing Update",
-            "severity": "WATCH",
-            "url": "https://collider.com/rebecca-ferguson-sci-fi-epic-dune-part-3-one-scene-only-update/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/10/rebecca-ferguson.jpg?w=1200&h=675&fit=crop",
-            "source": "collider"
+            "title": "Iran fires at Israel after Netanyahu boasts of war gains",
+            "severity": "HIGH",
+            "url": "https://globalnation.inquirer.net/314831/iran-fires-at-israel-after-netanyahu-boasts-of-war-gains",
+            "image": "https://globalnation.inquirer.net/files/2026/03/AFP__20260319__A3YR98F__v1__HighRes__IsraelUsIranWarNetanyahu-620x413.jpg",
+            "source": "inquirer"
         },
         {
-            "title": "Trump compares Iran strikes to Pearl Harbor as he meets Japan\u2019s PM",
-            "severity": "WATCH",
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/3/19/trump-compares-iran-strikes-to-pearl-harbor-as-he-meets-japans-pm",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/03/image-1773953303.jpg?resize=1644%2C1080&quality=80",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "U.S. issues new 30-day waiver for sale of Russian oil, adding Cuba, North Korea exceptions",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/international/us-issues-new-30-day-waiver-for-sale-of-russian-oil-adding-cuba-north-korea-exceptions/article70763197.ece",
-            "image": "https://th-i.thgim.com/public/incoming/u3ssr6/article70763214.ece/alternates/FREE_1200/2026-03-06T163647Z_62133128_RC2VXIAVSZUF_RTRMADP_3_IRAN-CRISIS-RUSSIA-OIL.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Sketchy iPhone Fold launch timing shared by analyst with shaky history",
-            "severity": "WATCH",
-            "url": "https://appleinsider.com/articles/26/03/19/sketchy-iphone-fold-launch-timing-shared-by-analyst-with-shaky-history",
-            "image": "https://photos5.appleinsider.com/gallery/67089-141004-Squat-Fold-11-xl.jpg",
-            "source": "appleinsider"
-        },
-        {
-            "title": "Jeff Bezos Is Targeting $100 Billion To Acquire And Automate The Manufacturing Sector",
-            "severity": "WATCH",
-            "url": "https://www.forbes.com/sites/josipamajic/2026/03/19/jeff-bezos-is-targeting-100-billion-to-acquire-and-automate-the-manufacturing-sector/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/69bc5feac78cc52a318ae07e/0x0.jpg",
-            "source": "forbes"
-        },
-        {
-            "title": "Igra Network Launches Public Mainnet as Decentralized EVM Layer on Kaspa's Proof-of-Work BlockDAG",
-            "severity": "WATCH",
-            "url": "https://hackernoon.com/igra-network-launches-public-mainnet-as-decentralized-evm-layer-on-kaspas-proof-of-work-blockdag",
-            "image": "https://hackernoon.imgix.net/images/jEm0Gsq7mQUHLJ0ZGe4cAf9jPvU2-y283j0u.jpeg",
-            "source": "hackernoon"
-        },
-        {
-            "title": "US Antimony Stock Climbs After Q4 Revenue Smashes Estimates",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/markets/earnings/26/03/51369174/us-antimony-stock-climbs-after-q4-revenue-smashes-estimates",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/03/19/Stibnite-From-Romania-.jpeg?width=1200&height=800&fit=crop",
-            "source": "benzinga"
-        },
-        {
-            "title": "Democrats Demand Answers on Jared Kushner\u2019s Mideast Business Dealings",
-            "severity": "WATCH",
-            "url": "https://www.nytimes.com/2026/03/19/business/jared-kushner-mideast-private-equity.html",
-            "image": "https://static01.nyt.com/images/2026/03/19/multimedia/19kushner-jzqw/19kushner-jzqw-mediumSquareAt3X.jpg",
-            "source": "nytimes"
-        },
-        {
-            "title": "West London hotel owned by former mayor had 'immigration offenders in every room'",
-            "severity": "WATCH",
-            "url": "https://www.standard.co.uk/news/london/hounslow-former-mayor-pub-immigration-offenders-b1275710.html",
-            "image": "https://static.standard.co.uk/2026/03/19/20/59/Old-oak-tree-hounslow.png?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
-        },
-        {
-            "title": "Ontario plans to create connected primary care medical record system, minister says",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/toronto/ont-ehealth-9.7135156?cmp=rss",
-            "image": "https://i.cbc.ca/ais/90edbef1-af99-412d-9817-b9ff5173b903,1773948699023/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C276%2C4000%2C2250%29%3BResize%3D620",
-            "source": "cbc"
-        },
-        {
-            "title": "FedEx Reports Strong Third Quarter Results",
-            "severity": "WATCH",
-            "url": "http://www.businesswire.com/news/home/20260319879864/en/FedEx-Reports-Strong-Third-Quarter-Results/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA%3D%3D",
-            "image": "https://mms.businesswire.com/media/20260319879864/en/555952/22/FedEx_-_feclct2_e_prf_2c_pos_rgb.jpg",
-            "source": "businesswire"
-        },
-        {
-            "title": "Ex-SNP chief said teenage boy was 'too young' to be sexually mature, trial told",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.co.uk/news/article-15662505/Ex-SNP-chief-said-teenage-boy-young-sexually-mature-trial-told.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/03/19/19/107242597-0-image-a-15_1773948424707.jpg",
+            "title": "Denmark flew blood bags and explosives into Greenland after Trump threatened to take island 'the hard way' - and troops prepared to blow up runways",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.co.uk/news/article-15662741/Denmark-flew-blood-bags-explosives-Greenland-Trump-threatened-island-hard-way-troops-prepared-blow-runways.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/19/22/107276995-0-image-a-14_1773959610957.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Credit Acceptance Appoints Steffen Schumann as Chief Business Officer",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/03/19/3259418/3872/en/Credit-Acceptance-Appoints-Steffen-Schumann-as-Chief-Business-Officer.html",
-            "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "title": "Wall Street bigs are desperately pleading with the White House to end Trump\u2019s Powell feud",
+            "severity": "HIGH",
+            "url": "https://nypost.com/2026/03/19/business/wall-street-bigs-are-desperately-pleading-with-the-white-house-to-end-trumps-powell-feud/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F03%2FPOWELL-EXIT.gif",
+            "source": "nypost"
         },
         {
-            "title": "Three charged, drugs seized following traffic stop in Lantz: N.S. RCMP",
+            "title": "White House looks for ways to soothe American jitters over surging oil prices",
+            "severity": "HIGH",
+            "url": "https://www.bostonglobe.com/2026/03/19/world/white-house-looks-ways-soothe-american-jitters-over-surging-oil-prices/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/PS6BYVPKF5HMNMJ5DL5LPXF3YE.jpg?auth=54e036d7721ffb67690476eb42ae7a57157dee3ceeb2d15628e7c5655151e3f1&smart=true&width=8100&height=5400",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "Record Southwest heat continues after California community ties all-time March high",
+            "severity": "HIGH",
+            "url": "https://www.wfaa.com/article/syndication/associatedpress/record-southwest-heat-continues-after-california-community-ties-all-time-march-high/616-773c45e2-07e6-41e7-ae2a-dec3148c7635",
+            "image": "https://media.wfaa.com/assets/WFAA/images/6f3e7543-9af4-449f-96ff-6725b633bbd6/20260319T231647/6f3e7543-9af4-449f-96ff-6725b633bbd6_1920x1080.jpg",
+            "source": "wfaa"
+        },
+        {
+            "title": "Netanyahu says Israel 'acted alone' in attack on Iranian gas field",
+            "severity": "HIGH",
+            "url": "https://www.bbc.com/news/articles/c2k3jgy9vq3o",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/5a69/live/76b6af90-23db-11f1-b297-95b0a0a8331e.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "Labour Court upholds dismissal of Exxaro mine worker found oiling machine before disconnecting it",
+            "severity": "HIGH",
+            "url": "https://www.iol.co.za/news/crime-and-courts/labour-court-upholds-dismissal-of-exxaro-mine-worker-found-oiling-machine-before-disconnecting-it-ce25745f-a350-454b-afaa-d753d5d9cd4b",
+            "image": "https://images.pexels.com/photos/6767963/pexels-photo-6767963.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "iol"
+        },
+        {
+            "title": "ABC Was \u2018Livid\u2019 Over Taylor Frankie Paul Drama Before Cancellation",
+            "severity": "HIGH",
+            "url": "https://www.usmagazine.com/entertainment/news/abc-livid-over-bachelorette-taylor-frankie-paul-drama/",
+            "image": "https://www.usmagazine.com/wp-content/uploads/2026/03/taylor-frankie-paul-abc-hulu.jpg?crop=0px%2C54px%2C1200px%2C679px&resize=1000%2C563&quality=86&strip=all",
+            "source": "usmagazine"
+        },
+        {
+            "title": "Trading Plan: Will Nifty 50, Bank Nifty defend Thursday's low amid Iran war-driven oil price volatility?",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/business/markets/trading-plan-will-nifty-50-bank-nifty-defend-thursday-s-low-amid-iran-war-driven-oil-price-volatility-13865627.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260316083345_volatile_market1.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Iran\u2019s new supreme leader linked to properties with \u2018line of sight\u2019 into Israeli UK Embassy",
+            "severity": "HIGH",
+            "url": "https://www.foxnews.com/world/irans-new-supreme-leader-linked-properties-line-sight-israeli-uk-embassy",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/931/523/mojtaba-khomenei-embassy.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "States Make A Statement: Big Media Mergers Face Scrutiny Of AGs, But Whether Deals Can Be Stopped Is Another Question",
+            "severity": "HIGH",
+            "url": "https://deadline.com/2026/03/big-media-mergers-state-attorneys-general-1236750658/",
+            "image": "https://deadline.com/wp-content/uploads/2026/03/Live-Nation-Paramount-Warner-Bros.-Nexstar-and-Tegna-.jpg",
+            "source": "deadline"
+        },
+        {
+            "title": "Charlottesville Settlement Company Data Breach Claims Investigated by Lynch Carpenter",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/03/g51370392/charlottesville-settlement-company-data-breach-claims-investigated-by-lynch-carpenter",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "source": "benzinga"
+        },
+        {
+            "title": "Gold\u2019s pullback is a buying opportunity as debt risks continue to grow, says Tavi Costa - KITCO",
+            "severity": "MEDIUM",
+            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUmZDRndiNlBaQi1IbC1YWkxraGhEM2YySTlMM1Y0Qm9kOXlPbXJocmtkQ1lwWnlkZ2pma3RsNDVZMVE3djRfMWtyWlgwSTlMVm05eEZZRGpfWWtGWkEzeTdjWmFRc1l1QmhvcTVsNGhMNnBKd2xzSzFkSDhrZ1JlUzZTcjRTU3lLMmxWQkE3WVh6Z2YzMUhXWUgxTU9RMDlaQURuMzc2TE9KT3ZrUEJjZy1oQ1ZlV0k4NV8zSg?oc=5",
+            "image": "https://images.pexels.com/photos/7812104/pexels-photo-7812104.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Online Travel Scams: What You Need To Know Before Booking in 2026",
+            "severity": "MEDIUM",
+            "url": "https://www.newsweek.com/online-travel-scams-what-you-need-to-know-before-booking-in-2026-11701810",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2025/08/2362008-woman-stressed-looking-computer.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Spotlight on Rights: How Celebrity Employment Feuds Illuminate Protections for Every Worker",
+            "severity": "MEDIUM",
+            "url": "https://hollywoodlife.com/2026/03/19/how-celebrity-employment-feuds-illuminate-protections-for-every-worker/",
+            "image": "https://hollywoodlife.com/wp-content/uploads/2026/03/Screenshot-2026-03-19-at-5.47.34%E2%80%AFPM-e1773956974735.png?fit=1204%2C680",
+            "source": "hollywoodlife"
+        },
+        {
+            "title": "'Magical night': Freiburg into Europa League quarters; Forest survive",
             "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/atlantic/article/three-charged-drugs-seized-following-traffic-stop-in-lantz-ns-rcmp/",
-            "image": "https://www.ctvnews.ca/resizer/v2/RGV4RYQT5ZF5HKFHD46EXPLYNU.jpeg?auth=f9467ba34a10c7d03182b5f40d46ccf786348c659c833270502ffed6de1d9f75&smart=true&width=1920&height=1080",
-            "source": "ctvnews"
+            "url": "https://sports.yahoo.com/articles/magical-night-freiburg-europa-league-224531191.html",
+            "image": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Long airport security lines worsening, as TSA officers continue working without pay",
+            "severity": "WATCH",
+            "url": "https://www.nbcnews.com/nightly-news/video/long-airport-security-lines-worsening-as-tsa-officers-continue-working-without-pay-259614789896",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_03/1773960304918_nn_costello_tsa_260319_S3_1920x1080-k1j2nd.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "UAE Says It Dismantled 'Terrorist Network' Funded by Iran and Hezbollah",
+            "severity": "WATCH",
+            "url": "https://www.usnews.com/news/world/articles/2026-03-19/uae-says-it-dismantled-terrorist-network-funded-by-iran-and-hezbollah",
+            "image": "https://www.usnews.com/object/image/0000019d-07aa-dcf7-a79f-7febf8860000/weekly2.jpg?update-time=1773950627779&size=responsiveSquare150",
+            "source": "usnews"
+        },
+        {
+            "title": "Red Sox's Willson Contreras Channels Aaron Judge In Describing WBC",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/red-soxs-willson-contreras-channels-224424992.html",
+            "image": "https://images.pexels.com/photos/6120216/pexels-photo-6120216.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Lift rules pending 9 years on, amendment bill to further delay implementation of Act",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/pune/lift-rules-pending-9-years-on-amendment-bill-to-further-delay-implementation-of-act/articleshow/129686203.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-129686541/129686541.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Mortgage rates keep heading up, hit highest level since December",
+            "severity": "WATCH",
+            "url": "https://www.bostonglobe.com/2026/03/19/business/mortgage-rates-keep-heading-up-hit-highest-level-since-december/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/5A6XEHU6IJOPTB3P3TFVBVIZME.jpg?auth=c15d55098825ef86e4b8d8b69e13926df9d27875f9d9181590ced048a3236873&smart=true&width=3649&height=2207",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "Iran considering transit fees on ships in Hormuz Strait: Lawmaker",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-considering-transit-fees-on-ships-in-hormuz-strait-lawmaker/articleshow/129689563.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129689612/129689612.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Brent up but off highs, US crude ends with small loss",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/2026/03/20/brent-up-but-off-highs-us-crude-ends-with-small-loss",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/20/3822622.jpeg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Cameco Reports Document Filings",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/cameco-reports-document-filings-7",
+            "image": "https://images.pexels.com/photos/7629244/pexels-photo-7629244.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "How to complete Bunker Research missions fast in GTA Online (2x bonuses)",
+            "severity": "WATCH",
+            "url": "https://www.sportskeeda.com/gta/how-complete-bunker-research-missions-fast-gta-online-2x-bonuses",
+            "image": "https://staticg.sportskeeda.com/editor/2026/03/dcf76-17739470796413-1920.jpg",
+            "source": "sportskeeda"
+        },
+        {
+            "title": "Short circuit may have caused Palam fire, says Delhi Police",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/delhi-news/short-circuit-may-have-caused-palam-fire-says-delhi-police-101773943650364.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/19/1600x900/logo/FSL-team-investigates-the-site-of-the-fire---Vipin_1773943648178.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Meteorite hunters scour Ohio for fragments of 7-ton space rock that crashed into Earth",
+            "severity": "WATCH",
+            "url": "https://www.dailycamera.com/2026/03/19/meteorite-hunters/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2026/03/Suspected_Meteor_Cleveland_49944_4a5abc-1.jpg?w=1400px&strip=all",
+            "source": "dailycamera"
+        },
+        {
+            "title": "Legal/Professional Policy",
+            "severity": "WATCH",
+            "url": "https://www.edmonsonvoice.com/legalprofessional-policy.html",
+            "image": "https://www.edmonsonvoice.com/uploads/3/7/6/7/37671151/edmonson-voice-2024-copy.jpg",
+            "source": "edmonsonvoice"
         }
     ],
-    "Last_Updated": "2026-03-20T08:51:52.283832Z"
+    "Last_Updated": "2026-03-20T10:47:05.591376Z"
 }
