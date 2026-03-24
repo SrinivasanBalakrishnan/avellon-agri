@@ -1,246 +1,183 @@
 {
-    "AGRI_Score": 64.0,
-    "Velocity": "-0.7",
+    "AGRI_Score": 62.2,
+    "Velocity": "-1.8",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.0 is primarily driven by severe disruptions in Energy & Maritime, alongside elevated Geopolitical Conflict Intensity. An \"Oil shock hits supermarket transportation in the South\" and widespread \"panic buying drains fuel pumps across Rajkot\" underscore the energy crisis, necessitating a \"fuel crisis relief package unveiled\" by the government. Concurrently, geopolitical tensions remain high following an \"Attack On Iran,\" influencing public sentiment and necessitating close monitoring despite claims of \"progress in talks with Iran.\"",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at 62.2, driven primarily by elevated risks in Energy & Maritime Disruption and persistent Geopolitical Conflict Intensity. Acute fuel shortages reported in Victoria and the 'risky' transit conditions in the Strait of Hormuz, as stated by a US Admiral, underscore significant energy supply and maritime security vulnerabilities. While there are hints of de-escalation in West Asia conflicts, ongoing regional tensions continue to fuel currency pressures and broader systemic risk, preventing a substantial decrease in the overall score.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.9,
+        "Geopolitical Conflict Intensity": 69.5,
         "Energy & Maritime Disruption": 89.1,
-        "Trade & Supply Chain Stress": 73.1,
+        "Trade & Supply Chain Stress": 66.4,
         "Sovereign Financial Stress": 53.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 54.5,
-        "Cyber & Infrastructure Threats": 63.4,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 68.4,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains high, driven by ongoing tensions and actions concerning Iran, as evidenced by 'Trump Approval Rating Drops After Attack On Iran'. Despite 'Trump touts progress in talks with Iran,' the overall environment suggests a fragile state with potential for escalation.",
-        "Energy & Maritime Disruption": "This pillar is experiencing severe disruption, with an 'Oil shock hits supermarket transportation in the South' directly impacting critical supply chains. Widespread 'panic buying drains fuel pumps across Rajkot' further illustrates the immediate and acute challenges facing energy distribution and availability.",
-        "Trade & Supply Chain Stress": "Supply chains are under considerable pressure, particularly in the transportation of goods due to the 'Oil shock hits supermarket transportation in the South'. Discussions around 'Food prices explained' also highlight underlying vulnerabilities and inefficiencies within the broader trade and distribution networks.",
-        "Sovereign Financial Stress": "Government finances are demonstrably strained as a 'fuel crisis relief package unveiled' indicates significant public spending to mitigate energy disruptions. While some sectors show positive performance, such as 'GO Residential Real Estate Investment Trust Reports Strong Fourth Quarter 2025 Results,' the overall fiscal environment requires careful monitoring.",
-        "Currency & Liquidity Pressure": "Market sentiment points to potential shifts in asset preferences with 'Gold to see long-term downward trend,' which could indirectly influence broader liquidity conditions. Currently, the environment suggests routine monitoring for any emerging pressures on currency or liquidity flows.",
-        "Sanctions & Regulatory Fragmentation": "The geopolitical context surrounding Iran, including both recent actions and ongoing discussions, maintains an elevated risk for new or evolving sanctions regimes. Regulatory frameworks are in a state of continuous adaptation given the fluid international relations and potential for new measures.",
-        "Cyber & Infrastructure Threats": "Cybersecurity remains a concern with 'Mazda discloses security breach exposing employee and partner data,' highlighting ongoing vulnerabilities in corporate systems. Critical infrastructure also faces threats from both physical failures, such as the 'Anatomy of a Blackout: Findings from the Spain-Portugal Grid Collapse Final Report,' and operational incidents like the 'Military plane with 121 aboard crashes in Colombia'.",
-        "Climate & Resource Shock": "While immediate widespread climate or resource shocks are not currently prominent, long-term environmental concerns are noted, such as the 'Mangawhai sandspit breach \u2018urgent reality\u2019 within next 15 years'. The current situation indicates baseline activity regarding broad climate-driven disruptions, but localized vulnerabilities persist."
+        "Geopolitical Conflict Intensity": "Despite some signs of de-escalation, with the 'Ringgit opens higher against greenback as West Asia conflict shows signs of de-escalation,' core regional tensions persist. The 'US Admiral sends important message to people of Iran, says Hormuz 'physically open' but risky to transit,' confirming ongoing high-risk maritime conditions rooted in geopolitical friction.",
+        "Energy & Maritime Disruption": "This pillar is experiencing severe stress, highlighted by reports of 'More than 100 petrol stations run out of fuel across Victoria,' indicating localized supply chain breakdowns. Furthermore, maritime routes through critical chokepoints like Hormuz remain under considerable threat, explicitly described as 'risky to transit' by military authorities.",
+        "Trade & Supply Chain Stress": "Specific sectors are demonstrating significant stress, exemplified by a 'Dubai court orders optical firm to pay Dh275,246 over unpaid medical supplies,' pointing to payment and supply issues. Additionally, instances such as the 'Bhilwara police bust fake Saras ghee unit, arrest one' reveal vulnerabilities in supply chain integrity and product authenticity.",
+        "Sovereign Financial Stress": "While some analysis suggests 'At Least Avoiding Credit Pressures From Oil-Led Reinflation,' the wider financial outlook remains cautious. The 'Rupee hits new record low amid Iran war' clearly indicates that geopolitical events and energy market anxieties are directly contributing to national financial strain.",
+        "Currency & Liquidity Pressure": "Currency markets are exhibiting volatility, with the 'Rupee hits new record low amid Iran war' reflecting significant depreciation driven by geopolitical and oil market fears. Conversely, the 'Ringgit opens higher against greenback as West Asia conflict shows signs of de-escalation,' illustrating the direct correlation between geopolitical stability and currency performance.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory enforcement activity is notable, as 'New details emerge on ICE arrest at SFO captured in viral video,' indicating intensified scrutiny in specific domains. Additionally, the 'IT expert is given the boot after a routine complaint quickly spiralled into an AI-fuelled HR nightmare' points to emerging and complex regulatory challenges in technology and employment.",
+        "Cyber & Infrastructure Threats": "Critical infrastructure faces tangible disruptions, evidenced by 'More than 100 petrol stations run out of fuel across Victoria,' signaling a significant operational failure. The occurrence of an 'AI-fuelled HR nightmare' also highlights evolving and sophisticated threats to digital systems and organizational processes.",
+        "Climate & Resource Shock": "There is currently no evidence of acute climate-driven shocks in the provided feed, indicating routine monitoring is appropriate. Resource discussions are present, with the 'UK urged to boost oil and gas production from North Sea' reflecting ongoing strategic energy planning rather than an immediate crisis."
     },
     "All_Alerts": [
         {
-            "title": "Trump Approval Rating Drops After Attack On Iran: Voters Say Action Not Putting America First, Oppose Military Action",
+            "title": "Ringgit opens higher against greenback as West Asia conflict shows signs of de-escalation",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/news/politics/26/03/51422028/trump-approval-rating-drops-after-attack-on-iran-voters-say-action-not-putting-america-first-oppose",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/03/23/President-Of-The-United-States-Donald-Tr.jpeg?width=1200&height=800&fit=crop",
-            "source": "benzinga"
+            "url": "https://www.thestar.com.my/business/business-news/2026/03/24/ringgit-opens-higher-against-greenback-as-west-asia-conflict-shows-signs-of-de-escalation",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/24/3827072.jpg",
+            "source": "thestar_my"
         },
         {
-            "title": "Oil shock hits supermarket transportation in the South",
+            "title": "Rupee hits new record low amid Iran war: Will INR drop to 100 vs US dollar?",
             "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/business/general/3222789/oil-shock-hits-supermarket-transportation-in-the-south",
-            "image": "https://static.bangkokpost.com/media/content/20260324/c1_3222789_260324055557.jpg",
-            "source": "bangkokpost"
+            "url": "https://www.business-standard.com/markets/news/rupee-outlook-2026-iran-war-oil-fpi-outflows-inr-usd-100-level-126032400018_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/hp/home-page/2026-03/24/9343/full/1769362660-273.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "Trump touts progress in talks with Iran",
+            "title": "Bhilwara police bust fake Saras ghee unit, arrest one",
             "severity": "HIGH",
-            "url": "https://www.nbcnews.com/nightly-news/video/trump-touts-progress-in-talks-with-iran-259900997526",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_03/1774306484330_nn_ggu_trump_iran_260323_S3_1920x1080-e9qu8z.jpg",
-            "source": "nbcnews"
+            "url": "https://timesofindia.indiatimes.com/city/jaipur/bhilwara-police-bust-fake-saras-ghee-unit-arrest-one/articleshow/129761742.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117622046/117622046.jpg",
+            "source": "toi"
         },
         {
-            "title": "These Iran War Takes Aged Like Whole Milk",
+            "title": "Asian shares mostly rebound after Trump hints at a possible end to the Iran war",
             "severity": "HIGH",
-            "url": "https://dailycaller.com/2026/03/23/these-iran-war-takes-aged-like-whole-milk/",
-            "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https%3A%2F%2Fcdn01.dailycaller.com%2Fwp-content%2Fuploads%2F2026%2F03%2FGettyImages-2264038709-scaled-e1772570024586.jpg",
-            "source": "dailycaller"
+            "url": "https://www.independent.co.uk/news/iran-donald-trump-united-states-asian-tokyo-b2944229.html",
+            "image": "https://static.independent.co.uk/2026/03/24/01/South_Korea_Financial_Markets_11347.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
         },
         {
-            "title": "Live: Government's fuel crisis relief package unveiled",
+            "title": "SCHR: At Least Avoiding Credit Pressures From Oil-Led Reinflation",
             "severity": "HIGH",
-            "url": "https://www.rnz.co.nz/news/political/590463/live-government-s-fuel-crisis-relief-package-unveiled",
-            "image": "https://images.pexels.com/photos/6950135/pexels-photo-6950135.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
+            "url": "https://seekingalpha.com/article/4885152-schr-etf-at-least-avoiding-credit-pressures-from-oil-led-reinflation",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1367511149/image_1367511149.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
         },
         {
-            "title": "Gold to see long-term downward trend",
+            "title": "More than 100 petrol stations run out of fuel across Victoria - ABC News",
             "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/business/investment/3222824/gold-to-see-longterm-downward-trend",
-            "image": "https://static.bangkokpost.com/media/content/dcx/2026/03/24/6019059.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Trump and His Top Goons Play Tourist as War Rages on",
-            "severity": "HIGH",
-            "url": "https://www.thedailybeast.com/donald-trump-and-his-top-goons-play-tourist-as-war-rages-on/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/NHM2MNYFX5GT5FQJGLNQL6KQTE.jpg?auth=63147b766d425756168c61b1a7d56b945fbefee329a144bb204a2f087f545062&smart=true&width=6605&height=3715",
-            "source": "thedailybeast"
-        },
-        {
-            "title": "PSG slammed over Liverpool Champions League plan as club release statement - Liverpool Echo",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWmgyREFGd1ZOdEZkNk5oanNPc0RqWm5PQlg3cGdKbmcxRXVkT2FzQU43ZENDcThaM3pDSGZTc2lsdmxrclc3ZkRjcWdjODJleE50dGxpMzVOV1BiY1M0TFp6MlRlX0FkbV9mOWdqUmd0UmRyZDB5TDV1UWxSZURETHdKTzhTYndIR3ZjUVhKMExFM3huaGY0Q0VCejBKVXNSOHFtS1M0VkTSAa4BQVVfeXFMUGpxU1U0cDVKTi1ld1Itb3ZDaXpZWHQ0b3NYR2RDZnFfVUlzX2RlU3I2U1F0NlVXemdGRktBR2VzRU91MzlhdU1ibi1hVENnNlo1TW1HVmF5MFBPd3BKNDQ5LVp5cE5aNE9qb01aeGFlOGRjbl9faXFFNzgwQTVuTEhyMlJ1Z0hETk4xMU4zbXZGWERZUHI5QkUxOGM1Q2dmZ1RiVHY3SXU3Xy1oZkdB?oc=5",
-            "image": "https://images.pexels.com/photos/7947958/pexels-photo-7947958.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQT0UxRktDRVBxcVk4UU5EalZUUS1LUjdtd1E2NEJHY0JoZ1pVN2lneGktQmFjdFZLUVJYLW54LVBaZHh0NzBvdzhReGhuckFJaHpEc21TanFCNFhSUVJWTlZzQzJwVkZ3TllZaWtxcHBNOVk2YXpFbEpTbHlORnh5bGhsR25SR3NwRjZaenM2YTR2djA2ZkxybGxKUGZCOVg4MldwTzdwM2tuUkRU?oc=5",
+            "image": "https://images.pexels.com/photos/9694217/pexels-photo-9694217.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Military plane with 121 aboard crashes in Colombia, killing at least 1 and injuring 77",
+            "title": "Is Last Epoch's Omen Windows mechanic just old Breach from PoE?",
             "severity": "HIGH",
-            "url": "https://gulfnews.com/world/americas/military-plane-with-121-aboard-crashes-in-colombia-killing-at-least-1-and-injuring-77-1.500484080",
-            "image": "https://media.assettype.com/gulfnews/2026-03-23/woa0ppdq/preview.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "url": "https://www.sportskeeda.com/mmo/is-last-epoch-s-omen-windows-mechanic-just-old-breach-poe",
+            "image": "https://staticg.sportskeeda.com/editor/2026/03/1d703-17743034242848-1920.jpg",
+            "source": "sportskeeda"
+        },
+        {
+            "title": "Dubai court orders optical firm to pay Dh275,246 over unpaid medical supplies",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/world/court-crime/dubai-court-orders-optical-firm-to-pay-dh275246-over-unpaid-medical-supplies-1.500484178",
+            "image": "https://media.assettype.com/gulfnews/2024-11-29/mq766yfw/20200918_Dubai_Courts_1740632efe0_original_ratio.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
             "source": "gulfnews"
         },
         {
-            "title": "Inspections reveal ill-maintained shelters, canteens for BEST staffers",
+            "title": "IT expert is given the boot after a routine complaint quickly spiralled into an AI-fuelled HR nightmare",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/cities/mumbai-news/inspections-reveal-ill-maintained-shelters-canteens-for-best-staffers-101774291482793.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/23/1600x900/logo/-p-Inspections-reveal-ill-maintained-shelters--can_1774291480875.jpeg",
-            "source": "hindustantimes"
+            "url": "https://www.dailymail.co.uk/news/article-15670123/marcus-wibmer-fujifilm-fair-work-commission.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/24/00/107364323-0-image-a-8_1774311445892.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Food prices explained: Who really benefits from what we eat \u2013 Dr Jacqueline Rowarth",
+            "title": "New details emerge on ICE arrest at SFO captured in viral video - San Francisco Chronicle",
             "severity": "HIGH",
-            "url": "https://www.nzherald.co.nz/the-country/news/food-prices-explained-who-really-benefits-from-what-we-eat-dr-jacqueline-rowarth/SCK36SUK7JE4BGHTTMG67DYUL4/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/QROC6XCCM5FKPN5NIG3PPJOFKQ.jpg?auth=11e697c2301fbffe0cd9a9cc43fd6666d62446b66fb88614bef4d83e2575a70e&smart=true&width=300&height=300",
-            "source": "nzherald"
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5Tb01ucG9nTTc0V3gtLTBFLVNMWXQxWUZiYmNqenZCekdvbDdTNmZyRHBfZmt2LVBrTkRNU3U0dFBya1UyRUNNUGdQdW1HdWJjQWUtZXBnNTctOEdHYmFobW5CWlZmMm5MOENTcnlqTTdsQWFNUVpPOE03S3c?oc=5",
+            "image": "https://images.pexels.com/photos/7518599/pexels-photo-7518599.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "GO Residential Real Estate Investment Trust Reports Strong Fourth Quarter 2025 Results; Exceeding Forecast",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/03/n51422017/go-residential-real-estate-investment-trust-reports-strong-fourth-quarter-2025-results-exceeding-f",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
+            "title": "US Admiral sends important message to people of Iran, says Hormuz 'physically open' but risky to transit",
+            "severity": "MEDIUM",
+            "url": "https://gulfnews.com/world/mena/us-admiral-hormuz-is-physically-open-but-risky-to-transit-sends-important-message-to-people-of-iran-1.500484023",
+            "image": "https://media.assettype.com/gulfnews/2026-03-06/j2e3pj90/newsml_afp_com_20260305T235906Z_doc_a26q443.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
         },
         {
-            "title": "Anatomy of a Blackout: Findings from the Spain-Portugal Grid Collapse Final Report",
-            "severity": "HIGH",
-            "url": "https://www.yahoo.com/news/articles/anatomy-blackout-findings-spain-portugal-224833816.html",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "title": "Currency woes deepen as oil fears drive rupee to historic lows",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/markets/forex/currency-woes-deepen-as-oil-fears-drive-rupee-to-historic-lows/articleshow/129764740.cms",
+            "image": "https://img.etimg.com/thumb/msid-129764734,resizemode-4,width-1200,height-900,imgsize-9170,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Undetectable Injectables Are In, Overdone Looks Are Officially Out",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/undetectable-injectables-overdone-looks-officially-012530858.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
             "source": "yahoo"
         },
         {
-            "title": "Panic buying drains fuel pumps across Rajkot",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/rajkot/panic-buying-drains-fuel-pumps-across-rajkot/articleshow/129761337.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117691970/117691970.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "The Fundrise Innovation Fund (VCX) Invests in Erebor Bank",
-            "severity": "HIGH",
-            "url": "http://www.businesswire.com/news/home/20260323246136/en/The-Fundrise-Innovation-Fund-VCX-Invests-in-Erebor-Bank/?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
-            "image": "https://mms.businesswire.com/media/20260323246136/en/2755455/22/Fundrise_logo.jpg",
-            "source": "businesswire"
-        },
-        {
-            "title": "Wedding leak drama: Travis Kelce goes into damage control mode after Taylor Swift wedding details surface",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/sports/nfl/news/wedding-leak-drama-travis-kelce-goes-into-damage-control-mode-after-taylor-swift-wedding-details-surface/articleshow/129750861.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129750861/129750861.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Canal wall repaired following breach that flooded Magarpatta Road",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/cities/pune-news/canal-wall-repaired-following-breach-that-flooded-magarpatta-road-101774291111166.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/23/1600x900/logo/A-breach-in-the-Khadakwasla-canal-s-retaining-wall_1774291108804.jpeg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Mangawhai sandspit breach \u2018urgent reality\u2019 within next 15 years: Community leader",
-            "severity": "HIGH",
-            "url": "https://www.nzherald.co.nz/northern-advocate/news/mangawhai-sandspit-breach-urgent-reality-within-next-15-years-community-leader/PHO2JHD6PZBHVLQCX4RIH47KEI/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/NC27XJ74FVDE7H7XNOUP47E35M.jpg?auth=787b6028e084a4ef88f3c033450f0a24679ca954918b5684ca2e6b24c91c832f&smart=true&width=300&height=300",
-            "source": "nzherald"
-        },
-        {
-            "title": "Mazda discloses security breach exposing employee and partner data",
-            "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/mazda-discloses-security-breach-exposing-employee-and-partner-data/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/03/23/mazda.jpg",
-            "source": "bleepingcomputer"
-        },
-        {
-            "title": "Chance the Rapper Awarded $35 in Countersuit Against Ex-Manager",
-            "severity": "HIGH",
-            "url": "https://pitchfork.com/news/chance-the-rapper-awarded-in-countersuit-against-ex-manager/",
-            "image": "https://media.pitchfork.com/photos/69c1ac9acc7af870a4d0a581/16:9/w_2992,h_1683,c_limit/GettyImages-2253686040.jpg",
-            "source": "pitchfork"
-        },
-        {
-            "title": "Heritage Bank Data Breach Claims Investigated by Lynch Carpenter",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/03/g51421656/heritage-bank-data-breach-claims-investigated-by-lynch-carpenter",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Form DEF 14A TXNM Energy Inc For: 23 March",
+            "title": "UK urged to boost oil and gas production from North Sea",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/filings/form-def-14a-txnm-energy-inc-for-23-march-93CH-4573228",
-            "image": "https://i-invdn-com.investing.com/news/World_News_10_800x533_L_1420026292.jpg",
-            "source": "investing_uk"
+            "url": "https://www.independent.co.uk/bulletin/news/north-sea-gas-oil-production-uk-b2944227.html",
+            "image": "https://static.independent.co.uk/2025/12/01/13/01133811-13708e61-0b0f-4028-8cc1-51099036b974.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
         },
         {
-            "title": "Here\u2019s the \u2018look\u2019 of the LA 2028 Summer Games",
+            "title": "Oklahoma senior Isabela Emerling put the Sooners in front in the top of the sixth with a grand slam.",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/look-la-2028-summer-games-225450772.html",
-            "image": "https://images.pexels.com/photos/6632532/pexels-photo-6632532.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
+            "url": "https://www.si.com/college/oklahoma/softball/isabela-emerling-s-pinch-hit-grand-slam-lifts-oklahoma-over-ole-miss-to-sweep-series-01kmejznzrnh",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4950,h_2784,x_0,y_241/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_sooners/01kmenz6rn86e92hv7s6.jpg",
+            "source": "si"
         },
         {
-            "title": "MAGA Tries to Convince America That Trump Looks Like Music Legend",
+            "title": "Motilal Oswal sector of the week: Utilities; check top stock picks here",
             "severity": "WATCH",
-            "url": "https://www.thedailybeast.com/maga-tries-to-convince-america-that-trump-looks-like-music-legend-elvis-presley/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/76JKDLPTG5ACTHZWWHBMCGWVHA.JPG?auth=77af84052075beffd47d6bb21542124096ed05d2156efec26e5a6e614dd22411&smart=true&width=3295&height=1854",
-            "source": "thedailybeast"
+            "url": "https://www.business-standard.com/markets/news/motilal-oswal-sector-of-the-week-utilities-check-top-stock-picks-here-126032400098_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-02/22/full/1771781380-2679.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "Gas Prices Are So High That DoorDash Is Providing \u2018Emergency Relief\u2019",
+            "title": "The latest illustrations from artist Matt Golding",
             "severity": "WATCH",
-            "url": "https://gizmodo.com/gas-prices-are-so-high-that-doordash-is-providing-emergency-relief-2000737114",
-            "image": "https://gizmodo.com/app/uploads/2023/05/f5cc9782a918a1290f428db2be49b9dd.jpg",
-            "source": "gizmodotech"
+            "url": "https://www.smh.com.au/politics/federal/the-latest-illustrations-from-artist-matt-golding-20230608-p5df5o.html",
+            "image": "https://images.pexels.com/photos/28767588/pexels-photo-28767588.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "smh"
         },
         {
-            "title": "Poll shows Sununu leading Brown in race for Republican Senate nomination",
+            "title": "Morning Digest: Centre mulls delimitation based on 2011 Census to fast-track Women\u2019s Reservation Act; Netanyahu says spoke with Trump, vows to protect Israel's interests, and more",
             "severity": "WATCH",
-            "url": "https://www.wmur.com/article/poll-sununu-brown-republican-senate-032326/70825858",
-            "image": "https://kubrick.htvapps.com/vidthumb/c54f2f5c-0b55-47f4-ba6d-81a7d68a3bab/57cba564-c7b5-4da3-a020-e6ec15114f0a.jpg?crop=0.829xw:0.827xh;0.0342xw,0&resize=1200:*",
-            "source": "wmur"
+            "url": "https://www.thehindu.com/news/morning-digest-march-24-2026/article70777048.ece",
+            "image": "https://th-i.thgim.com/public/incoming/3zigqe/article70772422.ece/alternates/FREE_1200/2026-03-19T195314Z_1779901682_RC2U7KAJA3B0_RTRMADP_3_IRAN-CRISIS-ISRAEL-NETANYAHU.JPG",
+            "source": "thehindu"
         },
         {
-            "title": "FCC Bans All New Routers Not Made in America",
+            "title": "DAN HODGES: Starmer using the Rebekah Vardy excuse on Mandelson messages is taking us all for idiots",
             "severity": "WATCH",
-            "url": "https://gizmodo.com/fcc-bans-all-new-routers-not-made-in-america-2000737176",
-            "image": "https://gizmodo.com/app/uploads/2026/03/router-1200x675.jpg",
-            "source": "gizmodotech"
+            "url": "https://www.dailymail.co.uk/debate/article-15672819/DAN-HODGES-Starmer-using-Rebekah-Vardy-excuse-Mandelson-messages-taking-idiots.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/23/22/107362193-0-image-a-9_1774303568786.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Bank of America resets Apple price target",
+            "title": "Lawyers say termination of Jackie O Henderson's contract after her complaint is 'peculiar' and reveal how long legal action could take after Kyle Sandilands confirms he is taking ARN to court",
             "severity": "WATCH",
-            "url": "https://www.thestreet.com/investing/stocks/bank-of-america-resets-apple-price-target",
-            "image": "https://www.thestreet.com/.image/c_fit%2Ch_800%2Cw_1200/NDA6MDAwMDAwMDAyOTE4ODc5/apple-ceo-lead-getty-032326-vz.jpg",
-            "source": "thestreet"
+            "url": "https://www.dailymail.co.uk/tvshowbiz/article-15673043/Top-lawyers-say-termination-Jackie-O-Hendersons-contract-complaint-peculiar-reveal-long-legal-action-Kyle-Sandilands-confirms-taking-ARN-court.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/24/00/107364387-0-image-a-52_1774311690203.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Trump sends ICE officers to speed up airport security lines",
+            "title": "Iranians grieving over school missile strike express rage at U.S., Trump",
             "severity": "WATCH",
-            "url": "https://www.nbcnews.com/nightly-news/video/trump-sends-ice-officers-to-speed-up-airport-security-lines-259901509680",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_03/1774306287210_nn_jk_trump_sends_ice_officers_to_speed_up_airport_security_lines_260323_S3_1920x1080-nvtb8g.jpg",
+            "url": "https://www.nbcnews.com/world/iran/iranians-grieving-school-missile-strike-express-rage-us-trump-rcna264778",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-03/260323-Shajarat-al-Tayyiba-Primary-School-minab-ew-506p-0d47f8.jpg",
             "source": "nbcnews"
         },
         {
-            "title": "Nicki Minaj Allegedly Refusing to Pay $275K Bill for 'Pink Friday 2' Concert Costs",
+            "title": "Voice Of America Refuses To Be Trump's Propaganda Mouthpiece",
             "severity": "WATCH",
-            "url": "https://www.tmz.com/2026/03/23/nicki-minaj-allegedly-refusing-to-reimburse-company-over-concerts/",
-            "image": "https://imagez.tmz.com/image/57/4by3/2026/03/23/5763d393d343475599d89644fcee106b_xl.jpg",
-            "source": "tmz"
-        },
-        {
-            "title": "Doreen Lawrence 'was conned into joint privacy claim against the Mail'",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.co.uk/news/article-15672887/Doreen-Lawrence-conned-joint-privacy-claim-against-Mail.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/03/23/22/107362407-0-image-a-28_1774304234180.jpg",
-            "source": "dailymailuk"
+            "url": "https://ca.news.yahoo.com/voice-america-refuses-trumps-propaganda-234654836.html",
+            "image": "https://images.pexels.com/photos/9494906/pexels-photo-9494906.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
         }
     ],
-    "Last_Updated": "2026-03-24T10:57:34.923299Z"
+    "Last_Updated": "2026-03-24T13:26:17.295735Z"
 }
