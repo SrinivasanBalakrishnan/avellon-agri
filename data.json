@@ -1,161 +1,138 @@
 {
-    "AGRI_Score": 63.2,
-    "Velocity": "+0.8",
+    "AGRI_Score": 62.4,
+    "Velocity": "-0.8",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.2/100 reflects a significantly elevated risk environment, primarily driven by extremely high 'Energy & Maritime Disruption' and very high 'Geopolitical Conflict Intensity'. Ongoing Middle East conflicts, evidenced by 'Nine people wounded in Bnei Brak by Iranian cluster bomb munitions' and persistent 'U.S.-Iran talks remain clouded in uncertainty,' are directly impacting oil prices and necessitating countries like the 'Philippines [to work] with Washington to obtain oil from U.S.-sanctioned countries.' This pervasive geopolitical uncertainty fuels broader 'Trade & Supply Chain Stress' and prompts market caution, as highlighted by 'caution lingers on war, oil concerns' in early trade.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.2,
+        "Geopolitical Conflict Intensity": 78.0,
         "Energy & Maritime Disruption": 89.1,
-        "Trade & Supply Chain Stress": 76.2,
+        "Trade & Supply Chain Stress": 71.1,
         "Sovereign Financial Stress": 53.4,
         "Currency & Liquidity Pressure": 50.0,
         "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 68.4,
+        "Cyber & Infrastructure Threats": 63.1,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Extremely high conflict intensity is evident from continued Middle East hostilities, with 'Nine people wounded in Bnei Brak by Iranian cluster bomb munitions' directly illustrating kinetic action. Diplomatic efforts, though ongoing with 'United States said to have sent Iran a plan to end the Middle East war,' are facing significant uncertainty, as noted by 'Iran de-escalation remains highly uncertain.'",
-        "Energy & Maritime Disruption": "Risk remains extremely high as global energy markets react acutely to Middle East tensions and diplomatic shifts. 'Oil Drops on Signs of US Diplomatic Push to End War With Iran' demonstrates the market's sensitivity, while the 'Philippines Says Working With Washington to Obtain Oil From U.S.-Sanctioned Countries' underscores challenges in securing energy supplies amid ongoing sanctions regimes.",
-        "Trade & Supply Chain Stress": "Trade and supply chains are under considerable stress due to the pervasive geopolitical uncertainty and its global economic repercussions. The 'FBM KLCI rises in early trade, caution lingers on war, oil concerns' points to investor apprehension, and the 'Middle East war [hurting] Australia\u2019s housing targets' exemplifies indirect but tangible impacts on national supply chains and economic goals.",
-        "Sovereign Financial Stress": "Sovereign financial outlooks are subject to heightened scrutiny and caution, largely influenced by global geopolitical tensions. Market sentiment, where 'near-term market view stays cautious' due to 'Iran de-escalation remaining highly uncertain,' indicates underlying pressure on financial stability despite no direct sovereign defaults.",
-        "Currency & Liquidity Pressure": "Currency and liquidity markets are experiencing elevated pressure as global investors remain wary of geopolitical developments. The general 'caution lingers on war' contributes to a risk-averse environment, influencing capital flows and market liquidity.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation and the impact of sanctions persist, with nations actively navigating complex geopolitical landscapes to secure essential resources. The 'Philippines Says Working With Washington to Obtain Oil From U.S.-Sanctioned Countries' illustrates the practical challenges and workarounds imposed by current sanction regimes.",
-        "Cyber & Infrastructure Threats": "The environment for cyber and infrastructure threats is elevated due to the severe geopolitical conflict intensity and regional rearmament efforts. While no direct cyberattacks are reported, the ongoing 'Middle East war' and reports of 'Iranian cluster bomb munitions' highlight a heightened risk landscape where critical infrastructure could become a target.",
-        "Climate & Resource Shock": "This pillar exhibits a low level of activity, with no immediate news indicating significant climate events or acute resource shortages. Monitoring for long-term trends and less immediate impacts continues as routine activity."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Rubio testimony sheds light on friend's shadowy Venezuela play",
+            "title": "\u2018Come closer\u2019: Iran dares US troops as Washington weighs major Middle East deployment",
             "severity": "HIGH",
-            "url": "https://www.axios.com/2026/03/25/rubio-testimony-friend-trial-venezuela",
-            "image": "https://images.axios.com/uO_731wRGEMn9-n23jHynQNfBw0=/0x0:6000x3375/1366x768/2026/03/25/1774398520053.jpg",
-            "source": "axios"
-        },
-        {
-            "title": "Laurence Marton buys RenovoRx stock and warrants for $10,000",
-            "severity": "HIGH",
-            "url": "https://uk.investing.com/news/insider-trading-news/laurence-marton-buys-renovorx-stock-and-warrants-for-10000-93CH-4575559",
-            "image": "https://i-invdn-com.investing.com/news/news_pile_69x52._800x533_L_1419494209.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "FBM KLCI rises in early trade, caution lingers on war, oil concerns",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/03/25/fbm-klci-rises-in-early-trade-caution-lingers-on-war-oil-concerns",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/25/3828810.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Philippines Says Working With Washington to Obtain Oil From U.S.-Sanctioned Countries",
-            "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-03-24/philippines-says-working-with-washington-to-obtain-oil-from-u-s-sanctioned-countries",
-            "image": "https://images.pexels.com/photos/32357268/pexels-photo-32357268.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "usnews"
-        },
-        {
-            "title": "Oil Drops on Signs of US Diplomatic Push to End War With Iran",
-            "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/oil-drops-reports-us-diplomatic-220109650.html",
-            "image": "https://images.pexels.com/photos/8441790/pexels-photo-8441790.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "Iran US war LIVE updates: Oil prices drop after Trump administration sends \u2018peace plan\u2019 proposal to Iran",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/iran-us-war-live-updates-trump-tehran-talks-pakistan-khamenei-strait-of-hormuz-peace-plan-attacks-israel-oil-prices-news-101774400411189.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/25/1600x900/logo/Iran-War-5_1774400739309_1774400759792.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "RenovoRx CFO voll acquires shares and warrants in RNXT",
-            "severity": "HIGH",
-            "url": "https://au.investing.com/news/insider-trading-news/renovorx-cfo-voll-acquires-shares-and-warrants-in-rnxt-93CH-4328700",
-            "image": "https://i-invdn-com.investing.com/news/news_six_pile_69x52._800x533_L_1419494215.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Pakistan offers to host talks with U.S. and Iran in Islamabad in bid to end war",
-            "severity": "HIGH",
-            "url": "https://www.japantimes.co.jp/news/2026/03/25/world/politics/pakistan-talks-us-iran-islamabad/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/03/25/531135.jpg",
-            "source": "japantimes"
-        },
-        {
-            "title": "Quote of the Day by Muhammad Ali: 'It\u2019s hard to be humble when you\u2019re as great as...' - The 'GOAT' of heavyweight boxing",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/us/news/quote-of-the-day-by-muhammad-ali-its-hard-to-be-humble-when-youre-as-great-as-the-goat-of-heavyweight-boxing/articleshow/129793657.cms",
-            "image": "https://img.etimg.com/thumb/msid-129793633,resizemode-4,width-1200,height-900,imgsize-171468,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "CNBC Daily Open: U.S.-Iran talks remain clouded in uncertainty",
-            "severity": "HIGH",
-            "url": "https://www.cnbc.com/2026/03/25/cnbc-daily-open-us-iran-talks-trump-uncertainty-.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108282399-1774377513808-gettyimages-2268177418-_s015382_oegwuhhj.jpeg?v=1774397763&w=1200&h=675",
-            "source": "cnbc"
-        },
-        {
-            "title": "Daily Voice: Iran de-escalation remains highly uncertain; near-term market view stays cautious, says OmniScience's Ashwini Shami",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/business/markets/daily-voice-iran-de-escalation-remains-highly-uncertain-near-term-market-view-stays-cautious-says-omniscience-s-ashwini-shami-13869743.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/10/20251012110119_Ashwini_Shami.jpg",
+            "url": "https://www.moneycontrol.com/world/come-closer-iran-dares-us-troops-as-washington-weighs-major-middle-east-deployment-article-13869834.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260324112831_iranflagnew.png",
             "source": "moneycontrol"
         },
         {
-            "title": "Nine people wounded in Bnei Brak by Iranian cluster bomb munitions",
+            "title": "Oil prices: Crude slips below $100 amid ceasefire hopes; Brent down 6%, WTI at $87",
             "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/nine-people-wounded-in-bnei-brak-by-iranian-cluster-bomb-munitions/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/03/F260324CG808-e1774394402115.jpg",
-            "source": "timesofisrael"
+            "url": "https://timesofindia.indiatimes.com/business/international-business/oil-prices-today-march-25-2026-crude-slips-below-100-amid-ceasefire-hopes-in-iran-brent-down-6-wti-at-87/articleshow/129790011.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129790230/129790230.jpg",
+            "source": "toi"
         },
         {
-            "title": "United States said to have sent Iran a plan to end the Middle East war",
+            "title": "Month-long ceasefire to no nuke: Donald Trump sends 15-point peace plan to Iran to end West Asia crisis; will Tehran agree?",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/defence/united-states-said-to-have-sent-iran-a-plan-to-end-the-middle-east-war/articleshow/129789444.cms",
-            "image": "https://img.etimg.com/thumb/msid-129789458,resizemode-4,width-1200,height-900,imgsize-333158,overlay-etdefence/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.deccanherald.com/world/us/month-long-ceasefire-to-no-nuke-donald-trump-sends-15-point-peace-plan-to-iran-to-end-west-asia-crisis-will-tehran-agree-3943695",
+            "image": "https://media.assettype.com/deccanherald/2026-03-23/bsetqpqh/BeFunky-collage-2.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Australia\u2019s housing targets hurt by Middle East war as targets slip nationwide",
+            "title": "\u2018If Iran had a nuclear weapon, they would have used it\u2019: Trump hails victory in war, confirms talks",
             "severity": "HIGH",
-            "url": "https://www.sbs.com.au/news/article/middle-east-war-slows-australias-housing-push-as-targets-slip-nationwide/kef9ka76t",
-            "image": "https://images.pexels.com/photos/1620390/pexels-photo-1620390.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "sbs"
+            "url": "https://www.firstpost.com/world/if-iran-had-a-nuclear-weapon-they-would-have-used-it-trump-hails-victory-in-war-confirms-talks-by-jd-vance-13992907.html",
+            "image": "https://images.firstpost.com/uploads/2026/01/Trump-Jan-16-2026-Reuters-2026-01-a2c8847cec8501b7307766ba48edc31e.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "ARN share price tanks after the collapse of The Kyle and Jackie O Show as shock graph shows downfall in the last three months after the fight that started it all",
+            "title": "Cyprus wants UK base treaty torn up after Marcon beat Starmer to defend island",
             "severity": "HIGH",
-            "url": "https://www.dailymail.co.uk/tvshowbiz/article-15676373/ARN-share-price-tanks-collapse-Kyle-Jackie-O-shock-graph-shows-downfall-three-months-fight-started-all.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/03/25/00/107393261-0-image-a-10_1774399732982.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.express.co.uk/news/uk/2186221/cyprus-wants-uk-base-treaty",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2186221_1.jpg",
+            "source": "expresscouk"
         },
         {
-            "title": "oPt: Report of the Secretary-General on the implementation of UN Security Council Resolution 2334 (2016) delivered by Ramiz Alakbarov, Deputy Special Coordinator for the Middle East Peace Process (24 March 2026)",
+            "title": "Kim Jong Un vows North Korea\u2019s \u2018unshakable\u2019 support for Russia",
             "severity": "HIGH",
-            "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-deputy-special-coordinator-middle-east-peace-process-24-march-2026",
-            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/45/de/45de4fe5-8f92-4c4a-afbe-1325c66e2889.png",
-            "source": "reliefweb"
+            "url": "https://globalnation.inquirer.net/315469/kim-jong-un-vows-north-koreas-unshakable-support-for-russia",
+            "image": "https://globalnation.inquirer.net/files/2026/03/Kim-Jong-Un-vows-North-Koreas-unshakable-support-for-Russia-scaled.jpg",
+            "source": "inquirer"
         },
         {
-            "title": "Olivia Attwood says she\u2019s \u2018moving on with her life\u2019 after getting \u2018hey girly\u2019 texts amid Bradley Dack split",
+            "title": "US-Israel war on Iran may increase food prices worldwide: UN",
             "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/tvandshowbiz/38625112/olivia-attwood-moving-on-bradley-dack-split/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F03%2Fnewspress-collage-iuzsaooap-1774395411814.jpg?quality%3D90%26strip%3Dall%261774395437",
-            "source": "thesun"
+            "url": "https://www.dawn.com/news/1985059/us-israel-war-on-iran-may-increase-food-prices-worldwide-un",
+            "image": "https://i.dawn.com/large/2026/03/250545555674c0c.webp",
+            "source": "dawn"
         },
         {
-            "title": "Is East Asia entering a missile age? Japan, South Korea, and Taiwan rearm",
+            "title": "Oil at $150 could spark 'stark' global recession, warns BlackRock CEO Larry Fink",
             "severity": "HIGH",
-            "url": "http://chinanationalnews.com/news/278942248/is-east-asia-entering-a-missile-age-japan-south-korea-and-taiwan-rearm",
-            "image": "https://image.chitra.live/api/v1/wps/c17d3e7/41dee102-c262-492e-b15a-ece09595742d/0/ZTFjN2IxOWYtNTc-600x315.jpg",
-            "source": "chinanationalnews"
+            "url": "https://www.moneycontrol.com/news/business/oil-at-150-could-spark-stark-global-recession-warns-blackrock-ceo-larry-fink-13869828.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260218055509_hfjhkjhdjhsdjd.jpg",
+            "source": "moneycontrol"
         },
         {
-            "title": "Japanese firm eyes \u20b94,000 crore battery storage plant in Haryana",
+            "title": "Gold climbs more than 2% on softer dollar, easing fears of higher interest rates",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/03/25/gold-climbs-more-than-2-on-softer-dollar-easing-fears-of-higher-interest-rates",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/03/25/3828895.jpeg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Donald Trump\u2019s \u2018Very Big Present\u2019 Claim From Iran Sparks Buzz: What Did Tehran Actually Offer",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/world/us/us-news/donald-trumps-very-big-present-claim-from-iran-sparks-buzz-what-did-tehran-actually-offer-article-153914849",
+            "image": "https://images.timesnownews.com/thumb/msid-153914976,thumbsize-170510,width-1280,height-720,resizemode-75/153914976.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Inside Iran\u2019s \u2018Very Big\u2019 Hormuz-Linked Oil & Gas \u2018Present\u2019 to Trump",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/world/inside-iran-very-big-hormuz-linked-oil-and-gas-present-to-trump-articleshow-o47brgg",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01km72e56yk2j569tz6sw4ec19,imgname-trump-iran-war-update-donald-trump-middle-east-tensions-hormuz-strait-oil-crisis-military-action-4-1774058935518.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Islamabad offers to host US-Iran climbdown effort",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/1985071/islamabad-offers-to-host-us-iran-climbdown-effort",
+            "image": "https://i.dawn.com/large/2026/03/2506003366e3349.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "Did A Hacker Access Millions Of Crunchyroll User Data? Here's What The Anime Site Said...",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/technology-science/did-a-hacker-access-millions-of-crunchyroll-user-data-heres-what-the-anime-site-said-article-153914660",
+            "image": "https://images.timesnownews.com/thumb/msid-153914658,thumbsize-27576,width-1280,height-720,resizemode-75/153914658.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Former band manager sues Birdtail Sioux First Nation, alleges defamation and wrongful dismissal",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/winnipeg/article/former-band-manager-sues-birdtail-sioux-first-nation-alleges-defamation-and-wrongful-dismissal/",
+            "image": "https://www.ctvnews.ca/resizer/v2/6TMDJV2DWBNC74CTEPXICXZNOU.jpg?auth=d22de76033696fb53ff2b82c87bdadab2f534e5788ac969676e8051afc591795&smart=true&width=1400&height=933",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Silver Crash Alert: From Rs 4.2 Lakh to Rs 2.24 Lakh \u2014 How It Lost Half Its Value in Under 2 Months",
             "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/cities/gurugram-news/japanese-firm-eyes-4-000-crore-battery-storage-plant-in-haryana-101774401851355.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/25/1600x900/logo/Delegation-met-CM-Saini-and-Union-minister-Khattar_1774401848865.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.timesnownews.com/business-economy/personal-finance/silver-crash-alert-from-rs-4-2-lakh-to-rs-2-24-lakh-how-it-lost-half-its-value-in-under-2-months-check-city-wise-rate-on-march-25-article-153914922",
+            "image": "https://images.timesnownews.com/thumb/msid-153915046,thumbsize-2744742,width-1280,height-720,resizemode-75/153915046.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Denmark\u2019s Frederiksen bruised in election, as voters put Trump\u2019s Greenland ambitions to the side",
+            "severity": "MEDIUM",
+            "url": "https://sg.news.yahoo.com/denmark-frederiksen-bruised-election-voters-234506511.html",
+            "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo_sg"
+        },
+        {
+            "title": "ABC staff accused of \u2018hijacking\u2019 programs to push pay claims",
+            "severity": "MEDIUM",
+            "url": "https://au.news.yahoo.com/abc-staff-accused-hijacking-programs-013238340.html",
+            "image": "https://images.pexels.com/photos/7518599/pexels-photo-7518599.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
         },
         {
             "title": "Nicholas Brendon's legal team pursuing odd lawsuit after Buffy the Vampire Slayer star's death at 54",
@@ -165,18 +142,95 @@
             "source": "dailymailuk"
         },
         {
-            "title": "GIFT Nifty jumps 1% in early trade on Middle East de-escalation hopes; global cues positive",
+            "title": "Gold price falls \u20b910 to \u20b91,42,900; silver rises \u20b9100, trading at \u20b92,35,100",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/markets/gift-nifty-jumps-1-in-early-trade-on-middle-east-de-escalation-hopes-global-cues-positive-13869770.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260321033926_market_stocks_sensex_Nifty.jpg",
+            "url": "https://www.business-standard.com/markets/commodities/gold-price-falls-10-to-1-42-900-silver-rises-100-trading-at-2-35-100-126032500144_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260325/thumb-126032500144.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Which day of Chaitra Navratri is today? Check Navratri Day 7 date, goddess, colour and puja vidhi",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/new-updates/which-day-of-chaitra-navratri-is-today-check-navratri-day-7-date-goddess-colour-and-puja-vidhi/articleshow/129790279.cms",
+            "image": "https://img.etimg.com/thumb/msid-129790321,resizemode-4,width-1200,height-900,imgsize-1760016,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Non-Hostile ships can cross Hormuz Strait on its terms, says Iran",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/world-news/non-hostile-ships-can-cross-hormuz-strait-on-its-terms-says-iran-126032500147_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260325/thumb-126032500147.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Rupee likely to stay under pressure as NDF maturities, outflows offset oil relief",
+            "severity": "WATCH",
+            "url": "https://sg.news.yahoo.com/rupee-likely-stay-under-pressure-030450960.html",
+            "image": "https://images.pexels.com/photos/5561922/pexels-photo-5561922.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo_sg"
+        },
+        {
+            "title": "Gold Silver Rate Today (25 March) Live Updates: Gold and silver surge as dollar weakens amid Middle East de-escalation hopes",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/gold-rate-silver-price-today-live-updates-mcx-gold-18k-22k-24k-rate-iran-isreal-us-war-latest-news/liveblog/129790285.cms",
+            "image": "https://economictimes.indiatimes.com/thumb/msid-129790285,width-1200,height-900,resizemode-4,imgsize-2841821/gold-rate-silver-price-today-live-updates-mcx-gold-18k-22k-24k-rate-iran-isreal-us-war-latest-news.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Kurei Granada is just the right vibe for Imago",
+            "severity": "WATCH",
+            "url": "https://lifestyle.inquirer.net/567474/kurei-granada-is-just-the-right-vibe-for-imago/",
+            "image": "https://lifestyle.inquirer.net/files/2026/03/IMAGO-COVER-PHOTO.jpg.png",
+            "source": "inquirer"
+        },
+        {
+            "title": "Quote of the day by Javed Akhtar: \u201cWords are not thoughts, just like bricks are not...\u201d",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/lifestyle/quote-of-the-day-by-javed-akhtar-words-are-not-thoughts-just-like-bricks-are-not-article-13869830.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260325030140_v.jpg",
             "source": "moneycontrol"
         },
         {
-            "title": "Shaun Bagai, CEO of Renovorx, buys $0 of RNXT stock",
+            "title": "BioStem Technologies Inc (BSEM) Q4 2025 Earnings Call Highlights: Navigating Revenue Challenges ...",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/insider-trading-news/shaun-bagai-ceo-of-renovorx-buys-0-of-rnxt-stock-93CH-4575561",
-            "image": "https://i-invdn-com.investing.com/news/news_six_pile_69x52._800x533_L_1419494215.jpg",
-            "source": "investing_uk"
+            "url": "https://ca.finance.yahoo.com/news/biostem-technologies-inc-bsem-q4-030206660.html",
+            "image": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "AAR Corp (AIR) Q3 2026 Earnings Call Highlights: Robust Sales Growth and Strategic Integration ...",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/aar-corp-air-q3-2026-030123344.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Nifty, Sensex, Nifty Bank outlook for today: Gift Nifty up 116 points; key levels to watch",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/markets/story/nifty-sensex-nifty-bank-outlook-for-today-gift-nifty-up-116-points-key-levels-to-watch-522192-2026-03-25",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202603/69c34f8d8b535-wall-street-shares-lost-ground-in-tuesdays-volatile-session-as-investors-swayed-between-fears-of-ri-255919979-16x9.jpg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "Kuwait arrests six for illegal drone use amid heightened security measures",
+            "severity": "WATCH",
+            "url": "https://gulfnews.com/world/gulf/kuwait/kuwait-arrests-six-for-illegal-drone-use-amid-heightened-security-measures-1.500485455",
+            "image": "https://media.assettype.com/gulfnews/2026-03-25/5ldrhewr/gulfnews2026-03-12f0b5yhl1gulfnews2026-03-010kr5tpvzgulfnewsimport2020091520200915-top-news-arrest-in-goa17490d3c54blarge.avif?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Kapur vs Kapur feud escalates: Priya Kapur issues counter-notice to remove mother-in-law from RK family trust after Rani tried to oust her",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/legal/news/kapur-vs-kapur-feud-escalates-priya-kapur-issues-counter-notice-to-remove-mother-in-law-from-rk-family-trust-after-rani-tried-to-oust-her/articleshow/129790019.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129790103/129790103.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Dhurandhar 2 worldwide box office collection day 6: Ranveer Singh film soars past \u20b9900 crore; surpasses Ranbir's Animal",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/dhurandhar-2-worldwide-box-office-collection-day-6-ranveer-singh-aditya-dhar-film-900-crore-beat-ranbir-kapoor-animal-101774403309115.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/25/1600x900/logo/Dhurandhar_2_box_office_1774403804586_1774403804731.jpeg",
+            "source": "hindustantimes"
         },
         {
             "title": "Ramaco Resources director Lawrence sells $8.2 million in stock",
@@ -184,49 +238,7 @@
             "url": "https://au.investing.com/news/insider-trading-news/ramaco-resources-director-lawrence-sells-82-million-in-stock-93CH-4328699",
             "image": "https://i-invdn-com.investing.com/news/World_News_9_800x533_L_1420026261.jpg",
             "source": "investing_au"
-        },
-        {
-            "title": "'Wildy unaffordable': The harsh reality of shared ownership",
-            "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/cm25e8k2je1o",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/7778/live/132df010-27a9-11f1-9089-39d9725da55d.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Good Life TikTok star reveals the dark reason why her husband has suddenly vanished from their wholesome back-to-basics videos - as the mum of one insists: 'Not ashamed'",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.co.uk/news/article-15663551/tiktoker-bradley-angus-arrested-meth-theft-charges.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/03/20/05/107283145-0-image-a-11_1773985032370.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Pentagon Pete\u2019s \u2018Drug Bombing\u2019 Run Gets Brutal Reality Check",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/pentagon-pete-drug-bombing-run-011747995.html",
-            "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "Human rights body takes action in woman\u2019s death from \u2018rat bite\u2019 in hospital",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/mumbai-news/human-rights-body-takes-action-in-woman-s-death-from-rat-bite-in-hospital-101774379942302.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/24/1600x900/logo/-p-Human-rights-body-takes-action-in-woman-s-death_1774379940450.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "HC holds ACB officer guilty of contempt over illegal arrest",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/jaipur/hc-holds-acb-officer-guilty-of-contempt-over-illegal-arrest/articleshow/129785909.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-129785905/129785905.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Dunedin council censures Benedict Ong and strips him of key roles",
-            "severity": "WATCH",
-            "url": "https://www.nzherald.co.nz/nz/dunedin-council-censures-benedict-ong-and-strips-him-of-key-roles/HKG6LCBTNBALFHG6W2BR5VTCQY/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/EQAUM4XCUBF33AFQ2D3GQLGBYY.jpg?auth=23542e6ab88e30ca21ff897cf79f76fc0820238b14e6d4b38998c00c330e766b&smart=true&width=300&height=300",
-            "source": "nzherald"
         }
     ],
-    "Last_Updated": "2026-03-25T13:25:22.074291Z"
+    "Last_Updated": "2026-03-25T15:07:19.795559Z"
 }
