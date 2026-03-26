@@ -1,35 +1,246 @@
 {
-    "AGRI_Score": 59.0,
-    "Velocity": "-4.9",
+    "AGRI_Score": 64.0,
+    "Velocity": "+5.0",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) currently stands at 59.0, largely driven by persistent high-severity risks in Energy & Maritime Disruption (93.2) and elevated Geopolitical Conflict Intensity (70.0). While global markets are under 'Baseline Monitoring (Severity: WATCH)', these two critical areas exert significant upward pressure on the overall risk profile. Ongoing disruptions and heightened tensions in key regions continue to overshadow areas of more routine monitoring, indicating a complex and challenging operating environment.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.0/100 reflects a high-risk environment primarily driven by acute geopolitical tensions and associated energy and maritime disruptions. Escalating military posturing between the US and Iran in vital maritime lanes, as seen in the deployment of 'Warthogs, Apaches over Hormuz,' is a major contributor to this elevated risk. Additionally, ongoing debates over sanctions and inflation warnings from financial officials contribute significantly to the overall moderate-to-high risk profile.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 70.0,
+        "Geopolitical Conflict Intensity": 81.6,
         "Energy & Maritime Disruption": 93.2,
-        "Trade & Supply Chain Stress": 60.0,
+        "Trade & Supply Chain Stress": 68.6,
         "Sovereign Financial Stress": 53.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 50.0,
+        "Sanctions & Regulatory Fragmentation": 60.2,
+        "Cyber & Infrastructure Threats": 64.1,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical Conflict Intensity remains high at 70.0, indicating significant ongoing tensions and active conflicts that continue to shape the global risk landscape. While the provided news feed focuses on market monitoring, the elevated score suggests persistent regional instabilities are driving this assessment.",
-        "Energy & Maritime Disruption": "Energy & Maritime Disruption is the most critical pillar at 93.2, signifying extreme vulnerability and ongoing disturbances in global energy supply and maritime trade routes. This score indicates a high probability of severe impacts, likely stemming from geopolitical events or logistical bottlenecks despite the general 'Global Markets Baseline Monitoring'.",
-        "Trade & Supply Chain Stress": "Trade & Supply Chain Stress is at a notable 60.0, reflecting continued challenges and inefficiencies within global trade networks. This indicates an environment where disruptions, though not always acute, are a persistent factor impacting the smooth flow of goods.",
-        "Sovereign Financial Stress": "Sovereign Financial Stress is at 53.9, suggesting moderate but manageable concerns regarding the fiscal health of various nations. This level implies a need for continued vigilance within the 'Global Markets Baseline Monitoring' context, as underlying vulnerabilities could escalate.",
-        "Currency & Liquidity Pressure": "Currency & Liquidity Pressure is at 50.0, indicating an environment of routine monitoring for currency fluctuations and market liquidity. While movements are observed, they are currently within expected parameters for the baseline financial observation.",
-        "Sanctions & Regulatory Fragmentation": "Sanctions & Regulatory Fragmentation stands at 55.0, reflecting an ongoing challenge from evolving international sanctions regimes and divergent regulatory frameworks. This necessitates continuous assessment of compliance obligations and market access restrictions.",
-        "Cyber & Infrastructure Threats": "Cyber & Infrastructure Threats are at 50.0, indicating a baseline level of threat activity and operational vigilance for critical digital and physical infrastructure. This score suggests that while threats exist, they are being managed through routine monitoring and defensive measures.",
-        "Climate & Resource Shock": "Climate & Resource Shock remains low at 25, suggesting that immediate, widespread, and acute climate or resource-driven disruptions are not currently the primary drivers of global risk. This pillar is under routine monitoring, with no indication of imminent shocks impacting the overall risk profile."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains very high due to escalating confrontations between the US and Iran in critical maritime zones, as evidenced by 'Warthogs, Apaches over Hormuz: US unleashes low-altitude firepower to hunt Iranian swarm boats in showdown.' Further compounding the risk are the 'Obstacles to ending war come into focus as US and Iran outline starkly different demands' and the complex demands for a ceasefire, alongside persistent conflict in Ukraine.",
+        "Energy & Maritime Disruption": "The extremely high score in this pillar is directly attributable to the 'Warthogs, Apaches over Hormuz: US unleashes low-altitude firepower to hunt Iranian swarm boats in showdown,' signaling significant military activity in a critical energy transit region. Concerns over energy supply are also exacerbated by calls against 'Lifting Russia oil sanctions' by Ukrainian officials, indicating continued pressure on global oil markets.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress remains elevated due to the direct threat posed to maritime shipping lanes by military posturing in the Strait of Hormuz, as implied by the US deployment of 'Warthogs, Apaches over Hormuz.' The ongoing debate over 'Lifting Russia oil sanctions' also suggests continued fragmentation and potential for disruption in global commodity flows.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, influenced by a 'Fed official issues stark warning on inflation, rate-cut outlook' which could indicate sustained higher borrowing costs for governments. Global equity markets are also experiencing turbulence, with 'Stock market today: Dow, S&P 500, Nasdaq futures slide as Wall Street weighs prospects for Iran truce,' reflecting investor uncertainty over geopolitical developments.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressure is experiencing routine monitoring, with a 'Fed official issues stark warning on inflation, rate-cut outlook' suggesting central banks may maintain restrictive monetary policies. This policy stance could lead to continued vigilance over global capital flows and the relative strength of major currencies.",
+        "Sanctions & Regulatory Fragmentation": "The high level of sanctions and regulatory fragmentation is underscored by the explicit statement from a 'Ukrainian energy official: Lifting Russia oil sanctions is \u2018wrong approach\u2019,' indicating the enduring nature and contentious debate around current sanctions regimes. Furthermore, the discussion of 'Trump\u2019s 15-point Iran truce plan' suggests potential shifts or complexities in international regulatory approaches to geopolitical adversaries.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats remain high, highlighted by the 'Hightower Holding LLC Data Breach Alert Issued By Wolf Haldenstein,' demonstrating persistent vulnerabilities in corporate systems. Concurrently, the 'Signal CTO Sounds Alarm on Age Verification Privacy Risk to Minors' indicates ongoing concerns about data privacy and the integrity of online platforms.",
+        "Climate & Resource Shock": "Climate and resource shock currently presents baseline activity, with the news focusing on proactive measures such as 'This bipartisan solution could solve America's water crisis.' Further long-term strategic initiatives are being championed, including 'fusion\u2019s promising underdog,' indicating a focus on future energy solutions rather than imminent resource crises."
     },
     "All_Alerts": [
         {
-            "title": "Global Markets Baseline Monitoring",
+            "title": "Obstacles to ending war come into focus as US and Iran outline starkly different demands",
+            "severity": "HIGH",
+            "url": "https://www.cnn.com/2026/03/25/politics/us-iran-war-obstacles-demands-negotiations",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26083367526893a.JPG?c=original/w_800",
+            "source": "cnn"
+        },
+        {
+            "title": "Warthogs, Apaches over Hormuz: US unleashes low-altitude firepower to hunt Iranian swarm boats in showdown",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/world/mena/warthogs-apaches-over-hormuz-us-unleashes-low-altitude-firepower-to-hunt-iranian-swarm-boats-in-showdown-1.500486543",
+            "image": "https://media.assettype.com/gulfnews/2026-03-25/2reb7nj3/LCS.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Ukrainian energy official: Lifting Russia oil sanctions is \u2018wrong approach\u2019",
+            "severity": "HIGH",
+            "url": "https://www.politico.com/news/2026/03/25/ukrainian-energy-russia-oil-sanctions-wrong-00845748",
+            "image": "https://images.pexels.com/photos/5884386/pexels-photo-5884386.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "politico"
+        },
+        {
+            "title": "Fed official issues stark warning on inflation, rate-cut outlook",
+            "severity": "HIGH",
+            "url": "https://www.thestreet.com/fed/fed-official-issues-stark-warning-on-inflation-rate-cut-outlook",
+            "image": "https://www.thestreet.com/.image/c_fit%2Ch_800%2Cw_1200/NDA6MDAwMDAwMDAyOTIxOTM2/fed-building-mhg-03-26-2026-building-in-washington-dc-stockpack-gettyimages.jpg",
+            "source": "thestreet"
+        },
+        {
+            "title": "Canadian army commander lists items for military modernization",
+            "severity": "HIGH",
+            "url": "https://ca.finance.yahoo.com/news/canadian-army-commander-lists-items-225841794.html",
+            "image": "https://images.pexels.com/photos/8441790/pexels-photo-8441790.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Iran wants Lebanon included in any ceasefire",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/world/middle-east/iran-wants-lebanon-included-in-any-ceasefire-3944925",
+            "image": "https://media.assettype.com/deccanherald/2026-03-25/mmm0y3pl/file854onpy39j7yenbgk0q.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Maharashtra passes bill to protect acid attack victims\u2019 identities, jail for online sexual harassment",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/maharashtra-passes-bill-to-protect-acid-attack-victims-identities-jail-for-online-sexual-harassment-101774465053645.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/25/1600x900/logo/Speaking-in-the-state-assembly-on-Wednesday--chief_1774465050992.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "U.S. attack on alleged drug boat kills 4 in Caribbean Sea, military says",
+            "severity": "HIGH",
+            "url": "https://www.cbc.ca/news/world/us-attack-drug-vessel-caribbean-sea-kills-4-9.7142387?cmp=rss",
+            "image": "https://i.cbc.ca/ais/0003bec5-d68a-41b8-b257-97bdfffe4740,1774478864614/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C496%2C6000%2C3375%29%3BResize%3D620",
+            "source": "cbc"
+        },
+        {
+            "title": "This bipartisan solution could solve America's water crisis",
+            "severity": "HIGH",
+            "url": "https://www.washingtontimes.com/news/2026/mar/25/bipartisan-solution-could-solve-americas-water-crisis/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2026/03/25/3_252026_infra26-carbajal3202_s813x929.jpg?448b8645f549bc30e03831ef0f478de78edbcae1",
+            "source": "washingtontimes"
+        },
+        {
+            "title": "US ties Ukraine security guarantees to Donbas withdrawal, Zelensky says",
+            "severity": "HIGH",
+            "url": "https://www.france24.com/en/europe/20260325-us-ties-ukraine-security-guarantees-to-donbas-withdrawal",
+            "image": "https://s.france24.com/media/display/13978c4c-fa35-11f0-82ab-005056a97e36/w:1280/p:16x9/AP26025585419063.jpg",
+            "source": "france24"
+        },
+        {
+            "title": "Stock market today: Dow, S&P 500, Nasdaq futures slide as Wall Street weighs prospects for Iran truce",
+            "severity": "HIGH",
+            "url": "https://ca.finance.yahoo.com/news/stock-market-today-dow-sp-500-nasdaq-futures-slide-as-wall-street-weighs-prospects-for-iran-truce-225159013.html",
+            "image": "https://images.pexels.com/photos/7014124/pexels-photo-7014124.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Netanyahu seeks to avoid snap vote as Iran war gives no boost in polls",
+            "severity": "HIGH",
+            "url": "https://www.japantimes.co.jp/news/2026/03/26/world/politics/netanyahu-election-iran-war/",
+            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/03/26/531420.JPG",
+            "source": "japantimes"
+        },
+        {
+            "title": "\u201cBaseless\u201d: Trump admin denies involvement in suspicious Iran prediction market bets",
+            "severity": "HIGH",
+            "url": "https://www.yahoo.com/news/articles/baseless-trump-admin-denies-involvement-222612962.html",
+            "image": "https://images.pexels.com/photos/7014124/pexels-photo-7014124.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Hightower Holding LLC Data Breach Alert Issued By Wolf Haldenstein",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/03/g51471844/hightower-holding-llc-data-breach-alert-issued-by-wolf-haldenstein",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "source": "benzinga"
+        },
+        {
+            "title": "Politicians and defamation in an election year - How far can you go?",
+            "severity": "HIGH",
+            "url": "https://www.rnz.co.nz/news/political/590672/politicians-and-defamation-in-an-election-year-how-far-can-you-go",
+            "image": "https://images.pexels.com/photos/7947958/pexels-photo-7947958.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "Championing fusion\u2019s promising underdog",
+            "severity": "HIGH",
+            "url": "https://news.mit.edu/2026/championing-stellarators-sophia-henneberg-0325",
+            "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202603/MIT-Sophia-Henneberg-00.JPG?itok=EM1O6jrK",
+            "source": "mit"
+        },
+        {
+            "title": "Trump\u2019s 15-point Iran truce plan would let one terrifying threat slide",
+            "severity": "MEDIUM",
+            "url": "https://nypost.com/2026/03/25/opinion/trumps-iran-truce-plan-lets-one-terrifying-threat-slide/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F03%2Fmarkwayne-mullin-oval-office-white-124340905.jpg?quality%3D90%26strip%3Dall",
+            "source": "nypost"
+        },
+        {
+            "title": "Belarusian President Lukashenko arrives in North Korea for talks with Kim Jong Un",
+            "severity": "MEDIUM",
+            "url": "https://www.washingtontimes.com/news/2026/mar/25/alexander-lukashenko-arrives-north-korea-talks-kim-jong-un/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2026/03/25/APTOPIX_North_Korea_Belarus_08591_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
+            "source": "washingtontimes"
+        },
+        {
+            "title": "Justice department to pay Trump ally Flynn in Russia probe lawsuit",
+            "severity": "MEDIUM",
+            "url": "https://ca.news.yahoo.com/justice-department-pay-trump-ally-222220703.html",
+            "image": "https://images.pexels.com/photos/36674255/pexels-photo-36674255.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Signal CTO Sounds Alarm on Age Verification Privacy Risk to Minors",
+            "severity": "MEDIUM",
+            "url": "https://www.breitbart.com/tech/2026/03/25/signal-cto-sounds-alarm-on-age-verification-privacy-risk-to-minors/",
+            "image": "https://media.breitbart.com/media/2026/03/Teens-using-smartphones-640x335.jpg",
+            "source": "breitbart"
+        },
+        {
+            "title": "US-made batteries can help power America's AI future",
             "severity": "WATCH",
-            "image": null,
-            "url": "#"
+            "url": "https://www.washingtontimes.com/news/2026/mar/25/us-made-batteries-help-power-americas-ai-future/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2026/03/25/3_252026_infra26-miksad3202_s929x929.jpg?662e400a5f0cea65e6dd19b0294e9c34872dc743",
+            "source": "washingtontimes"
+        },
+        {
+            "title": "Let's build America's future",
+            "severity": "WATCH",
+            "url": "https://www.washingtontimes.com/news/2026/mar/25/lets-build-americas-future/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2026/03/25/3_252026_daniel-websterv23202_s618x929.jpg?c27c7a2b05ab52fb9778a46295f1833c546bb82b",
+            "source": "washingtontimes"
+        },
+        {
+            "title": "How Daniel Diemer's In My Blood Blends Sports And Psychological Horror",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/in-my-blood-movie-black-swan-follow-up-alex-bendo-daniel-diemer-sxsw/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/03/eb715884-90fd-4807-9281-20883bb452a0.jpg?w=1600&h=900&fit=crop",
+            "source": "screenrant"
+        },
+        {
+            "title": "Sherwood pitcher Presley Sarono-Ramos is a returning all-state player.",
+            "severity": "WATCH",
+            "url": "https://www.si.com/high-school/oregon/star-pitchers-power-bats-and-title-game-heroes-are-among-oregon-s-top-55-returning-softball-players-01kmk4sytyqe",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1760,h_990,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/high_school/01jrcv2ytn0j11nvck5j.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Weber, Northwest Natural holding VP, sells $89k in stock",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/insider-trading-news/weber-northwest-natural-holding-vp-sells-89k-in-stock-93CH-4330909",
+            "image": "https://i-invdn-com.investing.com/news/World_News_8_800x533_L_1420026210.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Burst pipe cuts water to three Wellington suburbs",
+            "severity": "WATCH",
+            "url": "https://www.rnz.co.nz/news/national/590686/burst-pipe-cuts-water-to-three-wellington-suburbs",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "Wolfe Research upgrades Corcept Therapeutics stock rating on FDA approval",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/analyst-ratings/wolfe-research-upgrades-corcept-therapeutics-stock-rating-on-fda-approval-93CH-4330906",
+            "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_69x52._800x533_L_1419494221.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "What impact did the smoking ban have on pubs and public health?",
+            "severity": "WATCH",
+            "url": "https://www.bbc.com/news/articles/c4gjv27xvylo",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/83c3/live/e96960a0-26a6-11f1-934f-036468834728.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "FKA Twigs Sues Shia LaBeouf Over Alleged \u2018Illegal\u2019 NDA Tied to Their Settlement",
+            "severity": "WATCH",
+            "url": "https://www.rollingstone.com/music/music-news/fka-twigs-sues-shia-labeouf-illegal-nda-1235537104/",
+            "image": "https://www.rollingstone.com/wp-content/uploads/2026/03/FKA-TWIGS-LAWSUIT_d4204c.jpg",
+            "source": "rollingstone"
+        },
+        {
+            "title": "Ofcom accused of 'Orwellian' assault on free speech after launching probes into alleged climate-sceptic comments for first time in almost a decade",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.co.uk/news/article-15678903/Ofcom-accused-Orwellian-assault-free-speech-launching-probes-alleged-climate-sceptic-comments-time-decade.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/25/17/107412969-0-image-a-8_1774458709684.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "El Chombo\u2019s \u2018Dame Tu Cosita\u2019 Collaborator Sues Payday Publishing Over Missing Royalties",
+            "severity": "WATCH",
+            "url": "https://www.billboard.com/pro/dame-tu-cosita-lawsuit-el-chombo-sues-publisher/",
+            "image": "https://www.billboard.com/wp-content/uploads/2026/03/1502132923-e1774474733847.jpg",
+            "source": "billboard"
         }
     ],
-    "Last_Updated": "2026-03-26T09:18:43.134791Z"
+    "Last_Updated": "2026-03-26T10:59:34.859214Z"
 }
