@@ -1,253 +1,232 @@
 {
-    "AGRI_Score": 63.5,
-    "Velocity": "-0.7",
+    "AGRI_Score": 63.3,
+    "Velocity": "-0.2",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The AGRI score of 63.5 is significantly elevated, primarily driven by severe disruptions in Energy & Maritime Disruption (93.2) and heightened Geopolitical Conflict Intensity (74.4). Headlines such as \"Indian Navy launches \u2018Operation Urja Suraksha\u2019 to secure energy lifelines through Strait of Hormuz\" and \"Lagarde warns Middle East war energy disruptions may last years\" underscore the critical energy supply chain risks stemming directly from the Middle East conflict. The potential for prolonged regional instability and its global economic reverberations remain a central concern, as the US cannot meet potential LNG shortfalls. This overall environment necessitates close monitoring of global supply routes and energy markets.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.3 indicates a significantly elevated risk environment, primarily driven by severe Energy & Maritime Disruption and persistent Geopolitical Conflict Intensity. The critical 'supply crisis hits biz' as 'mini cylinders vanish from local markets' highlights immediate energy scarcity, while reports that the 'Iran war \u2018pouring\u2019 money into Russia\u2019s war coffers' underscore ongoing and financially impactful international friction. These combined factors are creating a complex and challenging risk landscape.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 74.4,
+        "Geopolitical Conflict Intensity": 76.7,
         "Energy & Maritime Disruption": 93.2,
-        "Trade & Supply Chain Stress": 70.7,
-        "Sovereign Financial Stress": 53.3,
+        "Trade & Supply Chain Stress": 64.6,
+        "Sovereign Financial Stress": 55.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 54.5,
-        "Cyber & Infrastructure Threats": 62.2,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 61.0,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "High intensity is maintained by the ongoing Middle East conflict and concerns over Iran's actions, as highlighted by \"Lagarde warns Middle East war energy disruptions may last years\" and \"Forces warn against new provocations.\" The narrative of \"False flags, psychological warfare: How Iran\u2019s regime deceived the world for 47 years\" further suggests a complex, high-stakes environment with potential for escalation.",
-        "Energy & Maritime Disruption": "This pillar is at critical levels due to direct threats to crucial energy lifelines, exemplified by the \"Indian Navy launches \u2018Operation Urja Suraksha\u2019 to secure energy lifelines through Strait of Hormuz.\" Industry leaders also express concern that the \"US cannot meet Iran war-induced LNG shortfall,\" indicating a significant potential for supply shock and price volatility.",
-        "Trade & Supply Chain Stress": "While not experiencing widespread distress, the reported decision of \"SanDisk Is Securing Supply \u2014 By Choosing Taiwan Over America\" suggests strategic re-evaluation and potential regionalization of supply chains. However, direct evidence of widespread current stress from the provided news feed is limited beyond this specific instance.",
-        "Sovereign Financial Stress": "This pillar remains at a moderate level, with global markets showing some resilience as \"Comfortable Markets Wait Out Iran as US Leads Global Performance.\" The OECD's prediction that \"India to remain fastest-growing major economy despite Middle East conflict\" further suggests localized resilience against broader geopolitical headwinds.",
-        "Currency & Liquidity Pressure": "This pillar exhibits routine monitoring activity, with central banks like the \"Bank of Canada rethinking inflation framework\" indicating proactive monetary policy adjustments. There is no immediate evidence of systemic currency or liquidity crises from the provided headlines.",
-        "Sanctions & Regulatory Fragmentation": "This pillar indicates baseline activity with no new significant sanctions or regulatory fragmentation directly reported in the provided feed. The broader geopolitical context, however, always presents an underlying risk for future developments in this area.",
-        "Cyber & Infrastructure Threats": "This pillar remains at a moderate level, but the provided news feed does not contain specific headlines indicating new or elevated cyber incidents or infrastructure attacks. Continuous vigilance is warranted given the general global threat landscape.",
-        "Climate & Resource Shock": "This pillar shows very low activity, with no specific climate or resource-related shocks or significant news events reported in the provided feed. Routine environmental monitoring is advisable but no immediate alarm is raised."
+        "Geopolitical Conflict Intensity": "Geopolitical Conflict Intensity remains high due to ongoing international tensions and proxy funding, as highlighted by reports that the 'Iran war \u2018pouring\u2019 money into Russia\u2019s war coffers.' Furthermore, the 'US judge questions block on Maduro\u2019s use of Venezuelan funds for defence' indicates complex legal and financial disputes with state-level implications.",
+        "Energy & Maritime Disruption": "Energy & Maritime Disruption is at a critical level, primarily due to immediate supply shortfalls and distribution challenges, directly impacting consumers and businesses. The 'supply crisis hits biz' as 'mini cylinders vanish from local markets,' indicating a severe local market failure for essential fuels.",
+        "Trade & Supply Chain Stress": "Trade & Supply Chain Stress is evident from the reported scarcity of essential goods at local market levels, impacting consumer access and business operations. The 'supply crisis hits biz' with 'mini cylinders vanish from local markets,' pointing to significant bottlenecks or disruptions in the distribution network for key resources.",
+        "Sovereign Financial Stress": "Sovereign Financial Stress is a concern given the legal scrutiny over national assets and potential implications for state liquidity and financial control. The 'US judge questions block on Maduro\u2019s use of Venezuelan funds for defence' signifies challenges in governmental control over national finances.",
+        "Currency & Liquidity Pressure": "Currency and Liquidity Pressure shows routine monitoring, though the broader geopolitical and energy disruptions could indirectly introduce future volatility. While no direct news points to immediate currency or liquidity crises, global market uncertainties persist.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions & Regulatory Fragmentation is influenced by ongoing legal challenges regarding state assets and potential retaliatory measures impacting international relations. The 'US judge questions block on Maduro\u2019s use of Venezuelan funds for defence' underscores the legal complexities impacting international financial interactions, while 'Russia says Britain's decision to detain its vessels is hostile, vows response' signals potential reciprocal regulatory actions.",
+        "Cyber & Infrastructure Threats": "Cyber & Infrastructure Threats warrant elevated vigilance, particularly concerning state-sponsored interference and emerging digital vulnerabilities. The 'liberal government targets deepfakes, foreign interference in major election law reforms' indicates a proactive governmental focus on combating information warfare and digital threats.",
+        "Climate & Resource Shock": "Climate & Resource Shock remains at baseline activity, with no immediate news indicating significant events or acute impacts. Routine monitoring is advised for potential long-term resource scarcity and environmental impacts not reflected in current events."
     },
     "All_Alerts": [
         {
-            "title": "Indian Navy launches \u2018Operation Urja Suraksha\u2019 to secure energy lifelines through Strait of Hormuz - The Hindu",
+            "title": "US judge questions block on Maduro\u2019s use of Venezuelan funds for defence",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOWXRyeWNvb3FuVVlPMndzT3AxRU9BQ3BMQWlSS1U5UmthSHZLdXRCX3BEaFhWUzE5RUlMQk13VElQSXhXVkVLUVM4SmY3Zml3U3dGdDczMEFyUUIyUkN5T0dteTIwTXBNNFZZZjRaQ2IzOTllSmhsNUdfUUFuTFdQdFMwa054alh0R1hqSTUzd1pDbk44WEpzRHhXSG5fTFUyVkVVcGR2cFc5MnNEVldNS2hJcWNWSW9qSEFsVlRUS2FyejlTaTdubmtHVDd6YndjNGFSdWgtNE53WFhrQVExalhxbkdQOFBhb3Jj0gHyAUFVX3lxTE1NQnBPanBTRlJyMzdaMnpzSkM0dmJEOENKQ0dmNHhGRERUYlItUjBzZWVJaFVkbjQ3TWlzcnJQYzh1OWwtWWRHNWpyckVsU29FSTZtbDlKcmJYSG1UYXlKTVdnRmpRalBBaFpWZWZ2VjFma3Z3bnAwcG1KU2xnTGJDcVFkUkdZR3hQa253bHptVi1IZEtWZmJuczI2TDMybVhjUnVXTmhYZW9JWTRXX0dpWkJHclFzVnhBRDExV3JPeGwtRzJlNk1RRGpFeGR3YjV6ejVmTzVwUHY5Q0JOdmxlaVY0RHJLYmprVEJzX25NdlZ3?oc=5",
-            "image": "https://images.pexels.com/photos/7404305/pexels-photo-7404305.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.dawn.com/news/1985654/us-judge-questions-block-on-maduros-use-of-venezuelan-funds-for-defence",
+            "image": "https://i.dawn.com/large/2026/03/2700125893148de.webp",
+            "source": "dawn"
         },
         {
-            "title": "Lagarde warns Middle East war energy disruptions may last years",
+            "title": "Iran war \u2018pouring\u2019 money into Russia\u2019s war coffers: Swedish defense chief",
             "severity": "HIGH",
-            "url": "https://au.investing.com/news/economy-news/lagarde-warns-middle-east-war-energy-disruptions-may-last-years-93CH-4332863",
-            "image": "https://i-invdn-com.investing.com/news/Brazil-Stock-Market_3_800x533_L_1414427437.jpg",
-            "source": "investing_au"
+            "url": "https://thehill.com/policy/defense/5802889-russia-iran-oil-war-impact/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2025/06/AP25017589787088-e1750878830424.jpg",
+            "source": "thehill"
         },
         {
-            "title": "False flags, psychological warfare: How Iran\u2019s regime deceived the world for 47 years - opinion",
+            "title": "Oil Ministry assures there is no LPG, fuel shortage",
             "severity": "HIGH",
-            "url": "https://www.jpost.com/opinion/article-891133",
-            "image": "https://images.pexels.com/photos/3806779/pexels-photo-3806779.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "jpost"
+            "url": "http://economictimes.indiatimes.com/industry/energy/oil-gas/oil-ministry-assures-there-is-no-lpg-fuel-shortage/articleshow/129833421.cms",
+            "image": "https://images.pexels.com/photos/4611591/pexels-photo-4611591.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "US cannot meet Iran war-induced LNG shortfall: industry leaders",
+            "title": "Here Are the 2026 Femmy Awards Winners: Full List",
             "severity": "HIGH",
-            "url": "https://sg.finance.yahoo.com/news/us-cannot-meet-iran-war-173832264.html",
-            "image": "https://media.zenfs.com/en/afp.com.sg/c6c3e74c584d941a5ae1dc492b39161f",
-            "source": "yahoo_sg"
+            "url": "https://www.billboard.com/music/awards/femmy-awards-2026-winners-list-1236207296/",
+            "image": "https://www.billboard.com/wp-content/uploads/2026/02/Billboard_Coco-and-Breezy.jpg",
+            "source": "billboard"
         },
         {
-            "title": "After A 1,600% Stock Surge, SanDisk Is Securing Supply \u2014 By Choosing Taiwan Over America",
+            "title": "900 for 4kg refill: Mini cylinders vanish from local markets, supply crisis hits biz",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/markets/tech/26/03/51490627/after-a-1600-stock-surge-sandisk-is-securing-supply-by-choosing-taiwan-over-america",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/03/26/Milpitas--Ca---Feb--12--2017-Sandisk---A.jpeg?width=1200&height=800&fit=crop",
-            "source": "benzinga"
-        },
-        {
-            "title": "India to remain fastest-growing major economy despite Middle East conflict: OECD",
-            "severity": "HIGH",
-            "url": "https://english.mathrubhumi.com/news/money/india-to-remain-fastest-growing-major-economy-despite-middle-east-conflict-oecd-un7z6co2",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1q1xr9ur967l5wkiy7z/0/modi-on-pulwama-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
-        },
-        {
-            "title": "Selective outrage will not end the war in Iran",
-            "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/opinion/opinion/3225138/selective-outrage-will-not-end-the-war-in-iran",
-            "image": "https://www.bangkokpost.com/v3/assets/images/img-default.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Forces warn against new provocations",
-            "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/thailand/general/3224903/forces-warn-against-new-provocations",
-            "image": "https://static.bangkokpost.com/media/content/20260327/c1_3224903_260327012544.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Trump says Iran's 'present' to US was allowing ten oil tankers through Hormuz",
-            "severity": "MEDIUM",
-            "url": "https://www.jpost.com/middle-east/article-891346",
-            "image": "https://images.pexels.com/photos/30123684/pexels-photo-30123684.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "jpost"
-        },
-        {
-            "title": "Bank of Canada rethinking inflation framework, deputy governor says",
-            "severity": "MEDIUM",
-            "url": "https://www.theglobeandmail.com/business/economy/article-bank-of-canada-structural-changes-economy-carolyn-rogers/",
-            "image": "https://www.theglobeandmail.com/resizer/v2/FM4T32TWEZCKHGIT4JDQU2D64E.JPG?auth=98eae59f6d4736d3645fc9e1c7503c43a086ff8513c1feab914565bce16ee840&smart=true&width=5445&height=3629",
-            "source": "theglobeandmail"
-        },
-        {
-            "title": "Tokarev: Grading Trump's midterm economy",
-            "severity": "MEDIUM",
-            "url": "https://www.detroitnews.com/story/opinion/2026/03/26/tokarev-grading-trumps-midterm-economy/89329651007/",
-            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/03/24/PDTN/89304010007-20260218-t-204526-z-1729765830-rc-2-joja-2-r-4-bv-rtrmadp-3-usatrump.JPG?auto=webp&crop=3892,2190,x0,y203&format=pjpg&width=1200",
-            "source": "detroitnews"
-        },
-        {
-            "title": "S-400 deliveries accelerated as India enhances air defence capability",
-            "severity": "MEDIUM",
-            "url": "https://www.thehindu.com/news/national/s-400-deliveries-accelerated-as-india-enhances-air-defence-capability/article70788576.ece",
-            "image": "https://th-i.thgim.com/public/incoming/7ve9tr/article70789712.ece/alternates/FREE_1200/20TH-MISSILE.jpg",
-            "source": "thehindu"
-        },
-        {
-            "title": "No Ruling Yet in ICC Prosecutor Allegations",
-            "severity": "MEDIUM",
-            "url": "https://www.newsmax.com/newsfront/allegations-sexual-misconduct-prosecutor/2026/03/26/id/1250891",
-            "image": "https://images.pexels.com/photos/7947958/pexels-photo-7947958.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "newsmax"
-        },
-        {
-            "title": "Djibouti's free trade zone posts \"outstanding results\" amid growing Chinese engagement",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/news/world/2026/03/27/djibouti039s-free-trade-zone-posts-outstanding-results-amid-growing-chinese-engagement",
-            "image": "https://cdn.thestar.com.my/Themes/img/tsol-default-image2023.png",
-            "source": "thestar_my"
-        },
-        {
-            "title": "What to know as Africans welcome UN vote on slavery reparations but questions remain",
-            "severity": "WATCH",
-            "url": "https://www.dailycamera.com/2026/03/26/un-slavery-reparations-explained/",
-            "image": "https://www.dailycamera.com/wp-content/uploads/2026/03/Africa_Slavery_Reparations__4238.jpg?w=1400px&strip=all",
-            "source": "dailycamera"
-        },
-        {
-            "title": "The Latest: Almost 500 TSA officers have quit during the shutdown",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/world/americas/john-thune-tsa-dhs-houston-congress-b2946443.html",
-            "image": "https://static.independent.co.uk/2026/03/26/17/Travel_Delays_31658.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Fetty Wap has a lot to say on \u2018Zavier.\u2019 It\u2019s his first album since being released from prison",
-            "severity": "WATCH",
-            "url": "https://www.bostonherald.com/2026/03/26/music-fetty-wap/",
-            "image": "https://www.bostonherald.com/wp-content/uploads/2026/03/Fetty_Wap_Portrait_Session_66117-1.jpg?w=1400px&strip=all",
-            "source": "bostonherald"
-        },
-        {
-            "title": "A New Yorker's Guide To Passover Events",
-            "severity": "WATCH",
-            "url": "https://patch.com/new-york/upper-west-side-nyc/new-yorkers-guide-passover-events",
-            "image": "https://patch.com/img/cdn20/users/26929305/20260326/014209/styles/patch_image/public/img-6633-1___26134122784.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Comfortable Markets Wait Out Iran as US Leads Global Performance",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/analysis/comfortable-markets-wait-out-iran-as-us-leads-global-performance-200623410",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Fox News\u2019 latest poll contradicts Trump\u2019s claims about Hispanic voters",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/bulletin/news/donald-trump-fox-news-poll-hispanic-voters-b2946437.html",
-            "image": "https://static.independent.co.uk/2026/03/26/16/11/President-Donald-Trump-speaks-during-a-Cabinet-meeting-at-the-White-House-Thursday-March-26-2026-in.jpeg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Arbor Energy sells 5 GW of modular turbines as data center power demand surges",
-            "severity": "WATCH",
-            "url": "https://interestingengineering.com/energy/arbor-energy-sells-5-gw-modular-turbines",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/03/gas-turbine.jpg",
-            "source": "interestingengineering"
-        },
-        {
-            "title": "Petrol supply restored across Belagavi district",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/hubballi/petrol-supply-restored-across-belagavi-district/articleshow/129830731.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-129830729/129830729.jpg",
+            "url": "https://timesofindia.indiatimes.com/city/kolkata/900-for-4kg-refill-mini-cylinders-vanish-from-local-markets-supply-crisis-hits-biz/articleshow/129831789.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-129831785/129831785.jpg",
             "source": "toi"
         },
         {
-            "title": "Letters to The Editor \u2014 March 27, 2026",
+            "title": "Unmanned | Sunday on 60 Minutes",
+            "severity": "HIGH",
+            "url": "https://www.cbsnews.com/video/unmanned-sunday-on-60-minutes/",
+            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/03/26/10afba96-5a65-444c-909d-1f7565954f4f/thumbnail/1200x630/95eb1dde5df8c2737aa992c27bd43011/06-1.jpg",
+            "source": "cbsnews"
+        },
+        {
+            "title": "Family of former Zutons star criticise police over handling of racist attack investigation",
+            "severity": "HIGH",
+            "url": "https://news.sky.com/story/family-of-former-zutons-star-criticise-police-over-handling-of-racist-attack-investigation-13524827",
+            "image": "https://e3.365dm.com/26/03/1920x1080/sky-news-zutons-attack_7201891.jpg?20260326194658",
+            "source": "skynews"
+        },
+        {
+            "title": "Man From New York Arrested On 5 Stalking, 5 Breach Of Bail Charges: Concord Police Log",
+            "severity": "HIGH",
+            "url": "https://patch.com/new-hampshire/concord-nh/man-new-york-arrested-5-stalking-5-breach-bail-charges-concord-police-log",
+            "image": "https://patch.com/img/cdn20/users/546351/20260326/031138/styles/patch_image/public/concord-police-et-rig-1-2022___26151056785.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "AS Pro Kapital Grupp announces identification and remediation of technical covenant breach under its outstanding bonds 2020/2028",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/news-release/2026/03/26/3263353/0/en/AS-Pro-Kapital-Grupp-announces-identification-and-remediation-of-technical-covenant-breach-under-its-outstanding-bonds-2020-2028.html",
+            "image": "https://images.pexels.com/photos/5125104/pexels-photo-5125104.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
+        },
+        {
+            "title": "Explained: What we know about US-Iran \u2018talks\u2019, proposals and key hurdles",
+            "severity": "MEDIUM",
+            "url": "https://www.hindustantimes.com/world-news/explained-what-we-know-about-us-iran-talks-proposals-and-key-hurdles-middle-east-conflict-101774549775321.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/26/1600x900/logo/TRUMP-CABINET-30_1774552444813_1774552455039.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Nigeria vs Iran: Match preview, team news and where to watch",
+            "severity": "MEDIUM",
+            "url": "https://www.legit.ng/sports/football/1702868-nigeria-iran-list-tv-stations-streaming-platforms-watch-friendly-match/",
+            "image": "https://cdn.legit.ng/images/1200x675/73bc0d6b45cfd1d4.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Liberal government targets deepfakes, foreign interference in major election law reforms",
+            "severity": "MEDIUM",
+            "url": "https://www.cbc.ca/news/politics/foreign-interference-electoral-reforms-9.7143290?cmp=rss",
+            "image": "https://i.cbc.ca/ais/1d69db4e-15b2-4798-8e32-e5f558a44079,1774545982006/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C365%2C7016%2C3946%29%3BResize%3D620",
+            "source": "cbc"
+        },
+        {
+            "title": "Form 13G Affirm Holdings Inc For: 26 March",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/opinion/letters/letters-to-the-editor-march-27-2026/article70789306.ece",
+            "url": "https://au.investing.com/news/filings/form-13g-affirm-holdings-inc-for-26-march-93CH-4332979",
+            "image": "https://i-invdn-com.investing.com/news/news_six_pile_69x52._800x533_L_1419494215.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Russia says Britain's decision to detain its vessels is hostile, vows response",
+            "severity": "WATCH",
+            "url": "https://uk.news.yahoo.com/russia-says-britains-decision-detain-191350200.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Meta boosts Texas AI data center investment to $10 billion",
+            "severity": "WATCH",
+            "url": "https://www.channelnewsasia.com/business/meta-boosts-texas-ai-data-center-investment-10-billion-6019661",
+            "image": "https://dam.mediacorp.sg/image/upload/s--a0UqVw_c--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-03-26T191527Z_2_LYNXMPEM2P1B5_RTROPTP_3_META-PLATFORMS-MESSAGING-WHATSAPP.JPG?itok=ALbSc3ax",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "Price surge from Trans Mountain expansion highlights need for new pipelines: MEI",
+            "severity": "WATCH",
+            "url": "https://globalnews.ca/news/11747421/trans-mountain-pipeline-expansion-oil-price-surge/",
+            "image": "https://globalnews.ca/wp-content/uploads/2024/02/20240208130220-65c51b78e606db17fe1a575cjpeg.jpg?quality=65&strip=all",
+            "source": "globalnews"
+        },
+        {
+            "title": "Puka Nacua accuser caught twerking near unconscious NFL star in fresh video after she claimed he bit her",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.co.uk/sport/nfl/article-15682323/puka-nacua-accuser-twerking-video-los-angeles.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/26/19/107447035-0-image-a-10_1774552218769.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Tolland Corporate Campus, Off The Table As Detention Facility, Now Being Marketed For Storage Center",
+            "severity": "WATCH",
+            "url": "https://patch.com/connecticut/tolland/tolland-corporate-campus-table-detention-facility-now-being-marketed-storage",
+            "image": "https://patch.com/img/cdn20/users/103600/20260326/031728/styles/patch_image/public/nerac-close-up-___26151702462.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "Woman arrested with 708g heroin in Ambala",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/woman-arrested-with-708g-heroin-in-ambala/articleshow/129831746.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-129831742/129831742.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Rethinking The SaaS Apocalypse",
+            "severity": "WATCH",
+            "url": "https://www.forbes.com/sites/stevebanker/2026/03/26/rethinking-the-saas-apocalypse/",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/69c58307c21ee019c7471534/0x0.jpg",
+            "source": "forbes"
+        },
+        {
+            "title": "Inadequate infrastructure plagues this constituency amid rapid urbanisation",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/elections/tamil-nadu-assembly/inadequate-infrastructure-plagues-this-constituency-amid-rapid-urbanisation/article70784013.ece",
             "image": "https://www.thehindu.com/theme/images/og-image.png",
             "source": "thehindu"
         },
         {
-            "title": "CargoX and TradeSun Drive Secure Trade Efficiency With Launch of Automated Document Validation Prior Filing",
+            "title": "\u201cAmerica\u2019s Government Teacher\u201d Sharon McMahon To Address Utah Valley University Graduates at Commencement",
             "severity": "WATCH",
-            "url": "http://www.businesswire.com/news/home/20260326828649/en/CargoX-and-TradeSun-Drive-Secure-Trade-Efficiency-With-Launch-of-Automated-Document-Validation-Prior-Filing/?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
-            "image": "https://mms.businesswire.com/media/20260326828649/en/2758416/22/TradeSun_R_Logo_color_CMYK.jpg",
-            "source": "businesswire"
+            "url": "https://www.globenewswire.com/fr/news-release/2026/03/26/3263365/0/en/America-s-Government-Teacher-Sharon-McMahon-To-Address-Utah-Valley-University-Graduates-at-Commencement.html",
+            "image": "https://images.pexels.com/photos/167259/pexels-photo-167259.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
         },
         {
-            "title": "Rep. Massie revives Ron Paul's 'money bomb' to fight off Trump-backed primary challenge",
+            "title": "Your Stories Q&A: Anything new planned for closed Chittenango Walgreens?",
             "severity": "WATCH",
-            "url": "https://www.washingtontimes.com/news/2026/mar/26/rep-thomas-massie-revives-ron-pauls-money-bomb-fight-trump-backed/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/01/05/Congress_Health_Care_02576_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
-            "source": "washingtontimes"
+            "url": "https://www.yahoo.com/news/articles/stories-q-anything-planned-closed-161928784.html",
+            "image": "https://images.pexels.com/photos/28767588/pexels-photo-28767588.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
         },
         {
-            "title": "Bill to give police new powers to move and detain introduced to Parliament",
+            "title": "Kyle kicks off legal showdown after ARN sacking",
             "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/national/590754/bill-to-give-police-new-powers-to-move-and-detain-introduced-to-parliament",
-            "image": "https://images.pexels.com/photos/12231821/pexels-photo-12231821.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
+            "url": "https://au.news.yahoo.com/kyle-kicks-off-legal-showdown-191644939.html",
+            "image": "https://images.pexels.com/photos/28767588/pexels-photo-28767588.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
         },
         {
-            "title": "Why is Max Verstappen allowed to throw F1 reporters out of his media session?",
+            "title": "4 held after firing at man in road rage clash in Ghaziabad",
             "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7149452/2026/03/26/f1-media-max-verstappen-reporter-japan/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/03/26125241/GettyImages-2268398104-scaled.jpg",
-            "source": "theathleticuk"
+            "url": "https://timesofindia.indiatimes.com/city/noida/four-bouncers-get-off-scorpio-open-fire-at-man-as-he-refuses-to-reverse-car-near-crossings-republik/articleshow/129833429.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-129836986/129836986.jpg",
+            "source": "toi"
         },
         {
-            "title": "Bill Maher will win the Kennedy Center\u2019s Mark Twain humor prize following White House denial",
+            "title": "Teksupport Co-Founders Locked in Legal Battle Over Future of the New York Dance Events Company",
             "severity": "WATCH",
-            "url": "https://www.bostonherald.com/2026/03/26/bill-maher-mark-twain-prize/",
-            "image": "https://www.bostonherald.com/wp-content/uploads/2026/03/98th_Academy_Awards_-_Vanity_Fair_Oscar_Party_71466-1.jpg?w=1400px&strip=all",
-            "source": "bostonherald"
+            "url": "https://www.billboard.com/pro/teksupport-co-founders-legal-battle-new-york-dance-biz/",
+            "image": "https://www.billboard.com/wp-content/uploads/2026/03/dance-music-concert-stock-photo-billboard-1800.jpg",
+            "source": "billboard"
         },
         {
-            "title": "FIVE Baller League footballers now punished by clubs as new sack statement drops",
+            "title": "A Complete Timeline of Blake Lively vs. Justin Baldoni's Lawsuit and Trial",
             "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/sport/football/news/baller-league-sack-footballers-clubs-36929448",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36929035.ece/ALTERNATES/s615/0_Torquay-United-v-Tonbridge-Angels-National-League-South-Football-Torquay-United-Football-Club-To.jpg",
-            "source": "mirroruk"
+            "url": "https://www.usmagazine.com/celebrity-news/news/blake-lively-and-justin-baldonis-it-ends-with-us-lawsuit-case-updates/",
+            "image": "https://www.usmagazine.com/wp-content/uploads/2025/10/Blake-Lively-vs-Justin-Baldoni-s-It-Ends-With-Us-Lawsuit-Case-Updates-5.jpg",
+            "source": "usmagazine"
         },
         {
-            "title": "Kennedy Center Board Member Asks Judge to Stop Name Change, Closure",
+            "title": "Disney Discount to Peers Persists Despite Double-Digit EPS Guidance",
             "severity": "WATCH",
-            "url": "https://www.hollywoodreporter.com/news/politics-news/kennedy-center-judge-board-closure-1236547997/",
-            "image": "https://www.hollywoodreporter.com/wp-content/uploads/2025/12/GettyImages-2252764072.jpg",
-            "source": "hollywoodreporter"
+            "url": "https://au.investing.com/analysis/disney-discount-to-peers-persists-despite-doubledigit-eps-guidance-200612736",
+            "image": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "What a Shi'ite text reveals about Iran\u2019s current logic - opinion",
+            "title": "Maharashtra minister Narhari Zirwal's viral video with transperson stirs row; Congress demands his sacking",
             "severity": "WATCH",
-            "url": "https://www.jpost.com/opinion/article-891342",
-            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "jpost"
-        },
-        {
-            "title": "Drunk Wethersfield Man Accused Of Waiving Gun At Teens In DMV Parking Lot: Police",
-            "severity": "WATCH",
-            "url": "https://patch.com/connecticut/wethersfield/drunk-wethersfield-man-accused-waiving-gun-teens-dmv-parking-lot-police",
-            "image": "https://patch.com/img/cdn20/shutterstock/25990360/20260326/010450/styles/patch_image/public/shutterstock-1386445574___26130349882.jpg",
-            "source": "patch"
+            "url": "https://economictimes.indiatimes.com/news/politics-and-nation/maharashtra-minister-narhari-zirwals-viral-video-with-transperson-stirs-row-congress-demands-his-sacking/articleshow/129832949.cms",
+            "image": "https://img.etimg.com/thumb/msid-129833008,resizemode-4,width-1200,height-900,imgsize-41392,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         }
     ],
-    "Last_Updated": "2026-03-27T05:45:04.830111Z"
+    "Last_Updated": "2026-03-27T07:17:58.677911Z"
 }
