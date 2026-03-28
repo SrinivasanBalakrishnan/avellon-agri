@@ -1,218 +1,281 @@
 {
-    "AGRI_Score": 62.5,
-    "Velocity": "+0.6",
+    "AGRI_Score": 64.8,
+    "Velocity": "+2.3",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.5/100 reflects a significantly elevated risk environment, primarily driven by intensified geopolitical conflict and severe energy market disruptions. The ongoing Iran War, marked by headlines such as \"US, Israel hit Iran\u2019s nuclear facilities as Tehran attacks Gulf,\" is keeping oil prices elevated and fueling broader instability. Concurrently, cyber threats are escalating, with \"FBI director emails breached by Iran-linked hackers,\" further compounding the complex risk environment.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.8 reflects a significantly elevated risk landscape, predominantly driven by escalating geopolitical conflict and profound energy market disruption. The severe crisis in the Middle East, evidenced by \"More than 400 Hezbollah fighters killed in new war with Israel\" and \"US-Israeli attacks on Iran\u2019s Kermanshah,\" is directly fueling the highest energy disruption ever seen, as highlighted by \"Iran: Why this is the largest oil disruption the world has ever seen.\" This core conflict is concurrently putting pressure on trade, sovereign finances, and currency markets, with warnings that \"India may face credit stress if Gulf conflict drags on: Moody's.\"",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.7,
+        "Geopolitical Conflict Intensity": 85.0,
         "Energy & Maritime Disruption": 93.2,
-        "Trade & Supply Chain Stress": 65.9,
+        "Trade & Supply Chain Stress": 73.3,
         "Sovereign Financial Stress": 54.2,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 59.4,
-        "Cyber & Infrastructure Threats": 61.3,
+        "Sanctions & Regulatory Fragmentation": 57.7,
+        "Cyber & Infrastructure Threats": 61.5,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is high, primarily due to the active Iran War escalating in the Middle East. News reports confirm \"US, Israel hit Iran\u2019s nuclear facilities as Tehran attacks Gulf,\" indicating a direct military confrontation and \"Rubio to G7: Iran War Likely to Last 'Weeks, Not Months'\" suggests prolonged engagement.",
-        "Energy & Maritime Disruption": "This pillar is at a critical level, directly impacted by the ongoing Middle East conflict. \"Oil prices to stay elevated across Iran war scenarios\" highlights the sustained pressure on global energy markets, despite \"Americans Unfazed by Rising Gas Prices in Early Weeks of Iran War\" domestically.",
-        "Trade & Supply Chain Stress": "Trade and supply chain stress is significantly elevated due to the cascading effects of geopolitical tensions. The \"Semiconductor Chip Stocks Slump As Middle East War Hits Day 28\" illustrates direct impact on critical sectors, while \"China probes US trade practices in response to Trump tariff moves\" signals ongoing protectionist pressures.",
-        "Sovereign Financial Stress": "Sovereign financial stress is moderate, with market volatility contributing to underlying concerns. \"Nasdaq 100 Enters Correction As 30-Year Yields Near 5%\" indicates broader financial market turbulence that could spill over into sovereign debt challenges.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressure is moderate, influenced by global market shifts and elevated risk perception. The correction in \"Nasdaq 100 Enters Correction As 30-Year Yields Near 5%\" suggests tightening liquidity conditions and potential for currency fluctuations.",
-        "Sanctions & Regulatory Fragmentation": "This pillar indicates moderate fragmentation, largely driven by ongoing geopolitical tensions and trade disputes. \"China probes US trade practices in response to Trump tariff moves\" illustrates the increasing regulatory friction and potential for new trade barriers.",
-        "Cyber & Infrastructure Threats": "Cyber threats are notably high, with specific incidents demonstrating sophisticated adversarial capabilities. \"FBI director emails breached by Iran-linked hackers\" directly confirms state-sponsored cyberattacks against high-value targets, raising concerns for critical infrastructure.",
-        "Climate & Resource Shock": "This pillar remains at a baseline activity level, with no immediate shock identified in the current feed. While \"India\u2019s climate roadmap: Decoding India\u2019s updated NDC\" shows policy focus, there are no reported acute events impacting resources or climate stability."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains exceptionally high due to the rapidly escalating Middle East crisis, as evidenced by \"More than 400 Hezbollah fighters killed in new war with Israel so far\" and \"At least 13 people killed, over 50 injured in US-Israeli attacks on Iran\u2019s Kermanshah.\" The ongoing conflict in Ukraine also persists, with \"Putin \u2018begs oligarchs for cash\u2019 to help boost Russia\u2019s war-ravaged economy\" indicating sustained financial strain on a primary belligerent.",
+        "Energy & Maritime Disruption": "This pillar shows critical levels of disruption, directly stemming from the Middle East conflict which is described as \"the largest oil disruption the world has ever seen.\" Consequently, \"Oil prices to stay elevated across Iran war scenarios,\" indicating sustained upward pressure and volatility in global energy markets.",
+        "Trade & Supply Chain Stress": "Trade and supply chains are experiencing significant stress, with \"Housing sales dip 7% in Q1 as Middle East war weighs\" illustrating the broader economic impact of geopolitical instability. Regulatory scrutiny on specific distribution channels, such as the \"Regulator steps up oversight of GLP-1 drug distribution chain,\" also contributes to operational friction within supply networks.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, with concerns that \"India may face credit stress if Gulf conflict drags on: Moody's\" highlighting potential contagion from regional conflicts. The news also reports that \"Private credit is facing a stress test,\" suggesting broader financial market vulnerabilities.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are evident, with the \"Peso crosses 60.5 vs $1; hits new low\" indicating specific regional currency weakness. Broader market liquidity is also under watch, particularly as \"Private credit is facing a stress test.\"",
+        "Sanctions & Regulatory Fragmentation": "This pillar exhibits moderate but increasing pressure, with the highly intense geopolitical landscape creating an environment ripe for further restrictive measures and fragmented international frameworks. The ongoing conflicts worldwide elevate the probability of new sanctions or regulatory shifts impacting global commerce and finance.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats remain at an elevated level, driven by the overall increase in global geopolitical conflict intensity which often correlates with heightened state-sponsored cyber activity. While no specific attacks are detailed, the general high-risk environment necessitates ongoing vigilance for critical infrastructure protection.",
+        "Climate & Resource Shock": "This pillar indicates a period of routine monitoring with no immediate, severe climate or resource shock events reported in the current feed. The score reflects baseline activity without specific disruptive headlines."
     },
     "All_Alerts": [
         {
-            "title": "Americans Unfazed by Rising Gas Prices in Early Weeks of Iran War, Gallup Finds",
+            "title": "Private credit is facing a stress test",
             "severity": "HIGH",
-            "url": "https://www.breitbart.com/economy/2026/03/27/americans-unfazed-by-rising-gas-prices-in-early-weeks-of-iran-war-gallup-finds/",
-            "image": "https://media.breitbart.com/media/2026/03/GettyImages-2267071900-640x335.jpg",
-            "source": "breitbart"
+            "url": "https://theweek.com/business/economy/private-credit-economy-market",
+            "image": "https://cdn.mos.cms.futurecdn.net/gees77gXqJxtDfsVdEsZaL-1280-80.jpg",
+            "source": "theweek"
         },
         {
-            "title": "US, Israel hit Iran\u2019s nuclear facilities as Tehran attacks Gulf",
+            "title": "Award-winning actor Martin Short to headline Davenport University gala",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/us-israel-hit-iran-s-nuclear-facilities-as-tehran-attacks-gulf-article-13872983.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260327172129_Trump-Rubio-new.png",
-            "source": "moneycontrol"
+            "url": "https://www.mlive.com/news/grand-rapids/2026/03/award-winning-actor-martin-short-to-headline-davenport-university-gala.html",
+            "image": "https://www.mlive.com/resizer/v2/H7P4B3QNU5DO3OBEIFNYNRMMZI.jpg?auth=17626b9a6e92c6640db65c8ce08fa706a26d78fc3b912c43bc94aaa9b7cfbb61&smart=true&height=1200",
+            "source": "mlive"
         },
         {
-            "title": "Semiconductor Chip Stocks Slump As Middle East War Hits Day 28: Trump Sets New Deadline",
+            "title": "Alberta economy forecast to grow despite global turmoil: ATB report",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/markets/tech/26/03/51517802/semiconductor-chip-stocks-slump-as-middle-east-war-hits-day-28-trump-sets-new-deadline",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/03/27/The-Modern-Nvidia-Logo-And-Company-Name-.jpeg?width=1200&height=800&fit=crop",
-            "source": "benzinga"
+            "url": "https://www.ctvnews.ca/calgary/article/alberta-economy-forecast-to-grow-despite-global-turmoil-atb-report/",
+            "image": "https://www.ctvnews.ca/resizer/v2/RRBPSWIILBDBTLWVH4NJ6FJQ6U.JPG?auth=a19524d088fe951e7d99603ceecdf0015a6a042059f95b5e42b6c10417c52601&smart=true&width=6000&height=3775",
+            "source": "ctvnews"
         },
         {
-            "title": "China probes US trade practices in response to Trump tariff moves",
+            "title": "Mexico believes thousands of country\u2019s 130,000 missing people could still be alive",
             "severity": "HIGH",
-            "url": "https://www.business-standard.com/world-news/china-probes-us-trade-practices-in-response-to-trump-tariff-moves-126032700832_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260327/thumb-126032700832.jpg",
-            "source": "business-standard"
+            "url": "https://www.independent.co.uk/news/world/americas/mexico-cartel-missing-people-disappearances-b2947335.html",
+            "image": "https://static.independent.co.uk/2026/02/25/22/Mexico_Missing_50801.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
         },
         {
-            "title": "785 students conferred with PG degrees in 51st convocation of IIMB",
+            "title": "Mendham Teen's Song Serves As Voice For Kids Facing Violent, Chaotic World",
             "severity": "HIGH",
-            "url": "https://www.thehindu.com/news/national/karnataka/785-students-conferred-with-pg-degrees-in-51st-convocation-of-iimb/article70793705.ece",
-            "image": "https://th-i.thgim.com/public/incoming/rw8v1x/article70794048.ece/alternates/FREE_1200/PTI01_30_2026_000435A.jpg",
-            "source": "thehindu"
+            "url": "https://patch.com/new-jersey/mendham-chester/mendham-teens-song-serves-voice-kids-facing-violent-chaotic-world",
+            "image": "https://patch.com/img/cdn20/users/27133158/20260327/024907/styles/patch_image/public/b33d794a-7f78-4b1d-8042-9fa019bfa24a___27144507382.jpg",
+            "source": "patch"
         },
         {
-            "title": "West Asia conflict: CBSE announces alternative assessment scheme for Class XII students in Gulf",
+            "title": "Putin \u2018begs oligarchs for cash\u2019 to help boost Russia\u2019s war-ravaged economy as cost of Ukraine invasion bleeds him dry",
             "severity": "HIGH",
-            "url": "https://english.mathrubhumi.com/education/news/west-asia-conflict-cbse-announces-alternative-assessment-scheme-for-class-xii-students-in-gulf-jbc2irpo",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1q2pnsax56h8vz64iyg/0/cbse-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
+            "url": "https://www.thesun.co.uk/news/38655647/putin-begs-oligarchs-cash-boost-russia-economy-ukraine-invasion/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F03%2Fnewspress-collage-eyl7kpw52-1774638118100.jpg?quality%3D80%26strip%3Dall%261774638154",
+            "source": "thesun"
         },
         {
-            "title": "FBI director emails breached by Iran-linked hackers \u2014 what happened and how to protect yourself",
+            "title": "More than 400 Hezbollah fighters killed in new war with Israel so far, sources say",
             "severity": "HIGH",
-            "url": "https://www.tomsguide.com/computing/online-security/fbi-director-emails-breached-by-iran-linked-hackers-what-happened-and-how-to-protect-yourself",
-            "image": "https://cdn.mos.cms.futurecdn.net/xWTVji4CxCZ9JYi4SSZXYe-1280-80.jpg",
-            "source": "tomsguide"
+            "url": "https://ca.news.yahoo.com/more-400-hezbollah-fighters-killed-190428716.html",
+            "image": "https://images.pexels.com/photos/126623/pexels-photo-126623.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
         },
         {
-            "title": "Surge in brown sugar seizures, arrests in state over past year",
+            "title": "At least 13 people killed, over 50 injured in US-Israeli attacks on Iran\u2019s Kermanshah",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/surge-in-brown-sugar-seizures-arrests-in-state-over-past-year/articleshow/129851472.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
+            "url": "https://tass.com/world/2108233",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
         },
         {
-            "title": "Rubio to G7: Iran War Likely to Last 'Weeks, Not Months'",
+            "title": "Supply of petroleum products fully stable in Haryana, says CM Saini in meet with PM",
             "severity": "HIGH",
-            "url": "https://www.newsmax.com/politics/marco-rubio-g7-iran/2026/03/27/id/1251038",
-            "image": "https://images.pexels.com/photos/7405793/pexels-photo-7405793.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "newsmax"
+            "url": "https://news.abplive.com/news/india/supply-of-petroleum-products-fully-stable-in-haryana-says-cm-saini-in-meet-with-pm-1833332",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/03/23/3d20fc1881ef790d91e7880f26d08e1a1774257022672992_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
         },
         {
-            "title": "Iran-linked hackers breach FBI Director Kash Patel\u2019s personal email, publish excerpts online",
+            "title": "Housing sales dip 7% in Q1 as Middle East war weighs",
             "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1985963/iran-linked-hackers-breach-fbi-director-kash-patels-personal-email-publish-excerpts-online",
-            "image": "https://i.dawn.com/large/2026/03/2722240092b1c25.webp",
-            "source": "dawn"
+            "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/housing-sales-dip-7-in-q1-as-middle-east-war-weighs/articleshow/129853477.cms",
+            "image": "https://img.etimg.com/thumb/msid-129853529,resizemode-4,width-1200,height-900,imgsize-218174,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Iran-linked group claims hack of FBI Director Kash Patel - Axios",
+            "title": "Iran: Why this is the largest oil disruption the world has ever seen",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5scnczbkpVSGwtelo0djNTazZOSGlpb1o4UERvVFVpbkRlN2lZSmpHTkl2bWozSU5wRjNhNWlNVHc1TlFaX2Z1NE5JZUNFa3lfMGYtQnFLTFRJM2xnZUVQc2g1MFcwM0ZkUkVIWFdaQ1pydw?oc=5",
-            "image": "https://images.pexels.com/photos/3970332/pexels-photo-3970332.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://ca.finance.yahoo.com/video/iran-why-this-is-the-largest-oil-disruption-the-world-has-ever-seen-190000982.html",
+            "image": "https://images.pexels.com/photos/5884386/pexels-photo-5884386.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
         },
         {
-            "title": "Nasdaq 100 Enters Correction As 30-Year Yields Near 5%: What's Moving Markets Friday?",
+            "title": "India may face credit stress if Gulf conflict drags on: Moody's",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/markets/equities/26/03/51517275/iran-oil-price-today-nasdaq-correction-inflation-treasury-yields-stock-market-news-today-friday",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/03/27/Nasdaq-100-way-down.jpeg?width=1200&height=800&fit=crop",
-            "source": "benzinga"
+            "url": "https://economictimes.indiatimes.com/news/economy/finance/india-may-face-credit-stress-if-gulf-conflict-drags-on-moodys/articleshow/129853510.cms",
+            "image": "https://img.etimg.com/thumb/msid-129853551,resizemode-4,width-1200,height-900,imgsize-47864,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Rubio slams Zelenskyy's Donbas comments and says US may divert Ukraine arms to Iran",
+            "severity": "HIGH",
+            "url": "http://www.euronews.com/my-europe/2026/03/27/rubio-slams-zelenskyys-donbas-comments-and-says-us-may-divert-ukraine-arms-to-iran",
+            "image": "https://images.euronews.com/articles/stories/09/70/17/85/1440x810_cmsv2_ac669c14-0679-5cc3-81d6-cb7d107e43a9-9701785.jpg",
+            "source": "euronews"
         },
         {
             "title": "Oil prices to stay elevated across Iran war scenarios",
             "severity": "HIGH",
-            "url": "https://www.channelnewsasia.com/business/oil-prices-stay-elevated-across-iran-war-scenarios-6022051",
-            "image": "https://dam.mediacorp.sg/image/upload/s--skyX8UFg--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-03-27T170754Z_1_LYNXMPEM2Q12S_RTROPTP_3_IRAN-CRISIS-FUEL-THAILAND.JPG?itok=BywaWb58",
-            "source": "channelnewsasia"
+            "url": "https://www.ctvnews.ca/business/article/oil-prices-to-stay-elevated-across-iran-war-scenarios/",
+            "image": "https://www.ctvnews.ca/resizer/v2/A6CV6A5AOZGGJIATWOF7SAPFQA.jpeg?auth=3195879006b6078fcddc73ea15303a512ea99b065fa734869d6fa21e2df6eaf6&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
         },
         {
-            "title": "India\u2019s tech spending in 2026 grow 13.4%, down from 13.7% in 2025, but highest in APAC: Forrester",
+            "title": "Peso crosses 60.5 vs $1; hits new low",
+            "severity": "HIGH",
+            "url": "https://business.inquirer.net/581937/peso-crosses-60-5-vs-1-hits-new-low",
+            "image": "https://business.inquirer.net/files/2026/03/FOREX-MAR272026-620x349.png",
+            "source": "inquirer"
+        },
+        {
+            "title": "Trump rolls out plan to back farmers amid rising costs, pledging 'golden age'",
             "severity": "MEDIUM",
-            "url": "https://www.thehindu.com/business/indias-tech-spending-in-2026-grow-134-down-from-137-in-2025-but-highest-in-apac-forrester/article70793431.ece",
-            "image": "https://th-i.thgim.com/public/news/national/qvftp/article70794065.ece/alternates/FREE_1200/iStock-1452604857.jpg",
-            "source": "thehindu"
+            "url": "https://www.foxnews.com/politics/trump-rolls-out-plan-back-farmers-amid-rising-costs-pledging-golden-age",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/931/523/trump-farmers-white-house-002.jpg?ve=1&tl=1",
+            "source": "foxnews"
         },
         {
-            "title": "\u201cNeeds of 1.4 billion people first\u201d: MEA official spells out India\u2019s energy sourcing strategy",
+            "title": "WATCH: Staying active in midlife may cut risk of early death in half",
             "severity": "MEDIUM",
-            "url": "https://www.thehindu.com/videos/needs-of-14-billion-people-first-mea-official-spells-out-indias-energy-sourcing-strategy/article70794055.ece",
-            "image": "https://th-i.thgim.com/public/videos/shows/f0jl85/article70794052.ece/alternates/FREE_1200/MEA%20March%2027.png",
-            "source": "thehindu"
+            "url": "https://abcnews.com/video/131472809/",
+            "image": "https://i.abcnewsfe.com/a/252f344b-e5aa-4149-b379-53e43c0627d3/260327_gma3_narula1_hpMain_16x9.jpg?w=992",
+            "source": "abcnews"
         },
         {
-            "title": "Review: India-Pakistan Relations: A Saga of Unending Disputes by Satish Chandra",
+            "title": "Regulator steps up oversight of GLP-1 drug distribution chain",
             "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/books/review-india-pakistan-relations-a-saga-of-unending-disputes-by-satish-chandra-101774632160235.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/27/1600x900/logo/Jinnah-House-in-Mumbai--Ritesh-Uttamchandani-_1774632152083.jpg",
-            "source": "hindustantimes"
+            "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/regulator-steps-up-oversight-of-glp-1-drug-distribution-chain/articleshow/129853592.cms",
+            "image": "https://img.etimg.com/thumb/msid-129853619,resizemode-4,width-1200,height-900,imgsize-138448,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "How civilians are being impacted by Israel's invasion of Lebanon",
+            "title": "$20 Billion to the Moon While Humanity Struggles on Earth: Priorities In Question",
             "severity": "MEDIUM",
-            "url": "https://www.wbur.org/hereandnow/2026/03/27/lebanon-israel-civilians",
-            "image": "https://wordpress.wbur.org/wp-content/uploads/2026/03/AP26086494113380-scaled.jpg",
-            "source": "wbur_org"
+            "url": "https://hackernoon.com/$20-billion-to-the-moon-while-humanity-struggles-on-earth-priorities-in-question",
+            "image": "https://hackernoon.imgix.net/images/i2ucL9JOyqNIH2sJvpyCnp4rqDk1-7u83ec6.jpeg",
+            "source": "hackernoon"
         },
         {
-            "title": "India\u2019s climate roadmap: Decoding India\u2019s updated NDC",
+            "title": "Mexico launches search for missing sailboats carrying aid to Cuba",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/videos/shows/indias-climate-roadmap-decoding-indias-updated-ndc/article70794049.ece",
-            "image": "https://th-i.thgim.com/public/videos/piqiep/article70794022.ece/alternates/FREE_1200/Climate%20Economy%20march%2027.png",
-            "source": "thehindu"
+            "url": "https://sg.news.yahoo.com/mexico-launches-search-missing-sailboats-162528996.html",
+            "image": "https://images.pexels.com/photos/4252895/pexels-photo-4252895.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo_sg"
         },
         {
-            "title": "JWST solves decades-long mystery about why Saturn appears to change its spin",
+            "title": "Dodgers star Alex Vesia\u2019s wife calls opening day \u2018bittersweet\u2019 amid family\u2019s personal tragedy",
             "severity": "WATCH",
-            "url": "https://phys.org/news/2026-03-jwst-decades-mystery-saturn.html",
-            "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/scientists-solve-decad.jpg",
-            "source": "phys"
+            "url": "https://ca.sports.yahoo.com/news/dodgers-star-alex-vesia-wife-190320479.html",
+            "image": "https://images.pexels.com/photos/28767588/pexels-photo-28767588.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
         },
         {
-            "title": "The molecule India has been waiting for",
+            "title": "Amravati Makes Cool Roofs Mandatory to Beat Extreme Heat",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/blogs/the-write-wing/the-molecule-india-has-been-waiting-for/",
-            "image": "https://static.toiimg.com/imagenext/toiblogs/thumb/blogs/wp-content/uploads/2026/01/267fa2d4-1335-4cb1-a4f1-3c3fff144207_20260112_215619_0000.jpg?resizemode=4&width=1280&height=720",
+            "url": "https://timesofindia.indiatimes.com/city/nagpur/amravati-makes-cool-roofs-mandatory-to-beat-extreme-heat/articleshow/129852894.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117593263/117593263.jpg",
             "source": "toi"
         },
         {
-            "title": "Strategy dominates bitcoin buying as corporate demand dries up",
+            "title": "Indian Navy\u2019s IOS SAGAR completes key training phase, boosts maritime cooperation in IOR",
             "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/strategy-dominates-bitcoin-buying-as-corporate-demand-dries-up-93CH-4335198",
-            "image": "https://i-invdn-com.investing.com/news/MicroStrategy_800x533_L_1659517189.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Beyond the rhetoric of the north-south divide",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/opinion/lead/beyond-the-rhetoric-of-the-north-south-divide/article70793560.ece",
-            "image": "https://th-i.thgim.com/public/incoming/jc2hb7/article70793563.ece/alternates/FREE_1200/DJI_20260326124233_0065_D.JPG",
+            "url": "https://www.thehindu.com/news/national/indian-navys-ios-sagar-completes-key-training-phase-boosts-maritime-cooperation-in-ior/article70793487.ece",
+            "image": "https://th-i.thgim.com/public/incoming/r2ihyc/article70794187.ece/alternates/FREE_1200/PTI03_27_2026_000314B.jpg",
             "source": "thehindu"
         },
         {
-            "title": "Workers' strike at one of the largest US meatpacking plants will continue for a 3rd week",
+            "title": "The 13 Best Movies and TV Shows to Watch This Weekend",
             "severity": "WATCH",
-            "url": "https://www.beaumontenterprise.com/business/article/workers-strike-at-one-of-the-largest-us-22155778.php",
-            "image": "https://s.hdnux.com/photos/01/65/50/30/30836285/3/square_large.jpg",
+            "url": "http://www.vulture.com/article/what-to-watch-this-weekend-best-new-movies-and-tv-march-27-29.html",
+            "image": "https://pyxis.nymag.com/v1/imgs/102/82f/5d7738b190b0f8514f14dc11de90459222-streamliner-3-27-2026.1x.rsocial.w1200.jpg",
+            "source": "vulture"
+        },
+        {
+            "title": "Progressive Seattle congresswoman says illegal immigrants must be given REPARATIONS to make up for the trauma of ICE activity",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.co.uk/news/article-15685775/ICE-reparations-Pramila-Jayapal-Democrat-immigration-hearings-Trump.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/27/18/107479759-0-image-a-72_1774637349392.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Russia to ban gasoline exports from April 1 amid global fuel price surge",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/world/russia-to-ban-gasoline-exports-from-april-1-amid-global-fuel-price-surge-article-13873005.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/08/20250801113845_India-oil.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Meghalaya, Jal Jeevan Mission ink MoU for safe drinking water",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/guwahati/meghalaya-jal-jeevan-mission-ink-mou-for-safe-drinking-water/articleshow/129853490.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Windsor gas prices set to climb again Saturday after brief drop",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/windsor/article/windsor-gas-prices-set-to-climb-again-saturday-after-brief-drop/",
+            "image": "https://www.ctvnews.ca/resizer/v2/GHSPFD5AXPNCPOEYYARUPVFGYM.jpg?auth=b92faf6235878a5fdeb9f5eaf6d5faebeadbc8db0af8ddca2c4081cc5c921fc1&smart=true&width=800&height=533",
+            "source": "ctvnews"
+        },
+        {
+            "title": "After immigration arrests, California lawmakers wonder: Are police telling the feds too much?",
+            "severity": "WATCH",
+            "url": "https://www.beaumontenterprise.com/news/article/after-immigration-arrests-california-lawmakers-22155974.php",
+            "image": "https://s.hdnux.com/photos/01/34/02/56/24128414/3/square_large.jpg",
             "source": "beaumontenterprise"
         },
         {
-            "title": "GOP Lawmaker's Outburst At A Journalist Sheds Light On A Rampant Violent Behavior, Expert Says",
+            "title": "Hasan Piker Rally Sparks Backlash in Michigan\u2019s Democratic Senate Primary",
             "severity": "WATCH",
-            "url": "https://www.aol.com/articles/gop-lawmakers-outburst-journalist-sheds-172039284.html",
-            "image": "https://images.pexels.com/photos/15360542/pexels-photo-15360542.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "aol"
+            "url": "https://www.nytimes.com/2026/03/27/us/politics/elsayed-piker-michigan-rally-backlash.html",
+            "image": "https://static01.nyt.com/images/2026/03/27/us/politics/27pol-piker/27pol-piker-mediumSquareAt3X.jpg",
+            "source": "nytimes"
         },
         {
-            "title": "Indian origin FBI Director Kash Patel\u2019s Email account hacked by Iranian hackers, personal photos and documents leaked",
+            "title": "Court Certifies Worker Minimum Wage Class & Collective Action Against The Salvation Army",
             "severity": "WATCH",
-            "url": "https://www.india.com/news/world/indian-origin-fbi-director-kash-patels-email-account-hacked-by-iranian-hackers-personal-photos-documents-leaked-middle-east-handala-hack-palestinian-department-of-justice-8358874/",
-            "image": "https://static.india.com/wp-content/uploads/2026/03/QT-kash-patel-BEFUN.jpg",
-            "source": "india"
+            "url": "https://www.globenewswire.com/fr/news-release/2026/03/27/3264064/1494/en/Court-Certifies-Worker-Minimum-Wage-Class-Collective-Action-Against-The-Salvation-Army.html",
+            "image": "https://images.pexels.com/photos/5317282/pexels-photo-5317282.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
         },
         {
-            "title": "FBI director Kash Patel\u2019s emails, photos hacked by Iran-linked group",
+            "title": "Jessi Pierce's devastated husband breaks silence on tragic fire that killed wife and kids",
             "severity": "WATCH",
-            "url": "https://www.aljazeera.com/news/2026/3/27/fbi-director-kash-patels-emails-photos-hacked-by-iran-linked-group",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/03/reuters_69c6b1a2-1774629282.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
+            "url": "https://www.dailymail.co.uk/sport/nhl/article-15685239/jessi-pierce-husband-fire-minnesota-nhl.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/27/14/107470341-0-image-a-43_1774622384622.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Maternal health and the innovative technology helping to support new mothers",
+            "title": "The nine books we couldn't put down in March",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/life-style/maternal-health-technology-new-mothers-b2947196.html",
-            "image": "https://static.independent.co.uk/2026/03/27/16/52/Momcozy.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
+            "url": "https://www.abc.net.au/news/2026-03-28/best-new-books-francis-spufford-asako-yuzuki-laura-mccluskey/106459328",
+            "image": "https://live-production.wcms.abc-cdn.net.au/970bbcce7635d1e0fa0622d1d9962900?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Police seize 20 mopeds in south London immigration raid",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/police-seize-20-mopeds-south-182947974.html",
+            "image": "https://images.pexels.com/photos/5497951/pexels-photo-5497951.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Badenoch considers burka ban",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/badenoch-considers-burka-ban-182840849.html",
+            "image": "https://images.pexels.com/photos/5497951/pexels-photo-5497951.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "\u2018Malicious actors\u2019 targeted Kash Patel\u2019s personal email, as Iran hacking group takes responsibility: FBI",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/03/27/us-news/fbi-says-malicious-actors-targeted-patels-personal-email-iran-based-hacking-group-claims-responsibility/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F03%2Ffbi-director-kash-patel-listens-123974811_37ae3b.jpg?w%3D1024",
+            "source": "nypost"
         }
     ],
-    "Last_Updated": "2026-03-28T05:23:49.744498Z"
+    "Last_Updated": "2026-03-28T07:06:28.257612Z"
 }
