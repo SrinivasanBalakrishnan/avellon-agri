@@ -1,169 +1,267 @@
 {
-    "AGRI_Score": 63.6,
-    "Velocity": "-1.6",
+    "AGRI_Score": 64.0,
+    "Velocity": "+0.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The AGRI score of 63.6/100 reflects a significantly elevated risk environment, primarily driven by severe \"Energy & Maritime Disruption\" and intense \"Geopolitical Conflict Intensity.\" The ongoing conflict in Iran is the central destabilizing force, directly threatening global energy supplies at the \"Gate of Tears\" and escalating military engagements, including \"Explosions Rock Tehran.\" This conflict is further exacerbating worries about global economic pain and increasing trade and supply chain stresses.",
+    "AI_Brief": "The AGRI score of 64.0/100 reflects a high-risk environment primarily driven by escalating geopolitical tensions and significant energy market disruption stemming from the ongoing West Asia conflict. Headlines such as \"Iran war: No clear end in sight\" and the question \"Iran: Is another 1970s\u2010style oil crisis looming?\" underscore pervasive uncertainty in both conflict duration and energy supply. This situation is further exacerbating economic vulnerabilities, with \"India economy shows first signs of slowdown as West Asia crisis and crude shock hit March data\" indicating broader regional economic impacts.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.4,
+        "Geopolitical Conflict Intensity": 74.2,
         "Energy & Maritime Disruption": 93.2,
-        "Trade & Supply Chain Stress": 72.3,
+        "Trade & Supply Chain Stress": 77.7,
         "Sovereign Financial Stress": 54.2,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 52.7,
-        "Climate & Resource Shock": 35
+        "Sanctions & Regulatory Fragmentation": 57.7,
+        "Cyber & Infrastructure Threats": 68.4,
+        "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The \"Geopolitical Conflict Intensity\" is critically high due to sustained military actions, with \"Explosions Rock Tehran, Air Defences Activated as Smoke Rises Over City\" and reports that the \"Pentagon prepares for potential weeks-long ground operations in Iran.\" Regional diplomatic efforts, such as \"Regional powers to meet in Pakistan to discuss Mideast fighting,\" underscore the widespread international concern and attempts to manage the escalating crisis.",
-        "Energy & Maritime Disruption": "This pillar is severely elevated as \"At the 'Gate of Tears', a new threat to global energy emerges,\" indicating critical choke points are under pressure. The direct impact is seen in domestic fuel crises, with \"Free public transport ruled out for NSW as fuel crisis worsens\" and \"LPG shortage in Mussoorie forces hotels, restaurants to switch to alternative fuels.\"",
-        "Trade & Supply Chain Stress": "The conflict is directly contributing to \"Worries about global economic pain deepen as the war in Iran drags on,\" which impacts international commerce. Analysts are questioning \"How will higher freight costs impact off-price retailers?\" indicating an anticipation of widespread supply chain disruptions and increased operational expenses.",
-        "Sovereign Financial Stress": "The war in Iran is deepening \"Worries about global economic pain,\" a situation that could lead to increased fiscal pressures on sovereign states globally. While no immediate sovereign defaults are reported, the prolonged nature of the conflict and its economic fallout suggest a heightened risk of future financial strain.",
-        "Currency & Liquidity Pressure": "The ongoing \"Worries about global economic pain deepen as the war in Iran drags on,\" which is likely to prompt investors to seek safer assets. This shift could lead to downward pressure on emerging market currencies and reduced liquidity in riskier assets, impacting global financial flows.",
-        "Sanctions & Regulatory Fragmentation": "The intense geopolitical environment, marked by \"Regional powers to meet in Pakistan to discuss Mideast fighting,\" suggests a high potential for new or expanded sanctions regimes. The protracted nature of the \"Iran conflict shows how digital fight is ingrained in warfare\" further complicates the regulatory landscape as states consider responses.",
-        "Cyber & Infrastructure Threats": "The conflict demonstrates that \"Hacked hospitals, hidden spyware: Iran conflict shows how digital fight is ingrained in warfare,\" revealing a pervasive and integrated cyber threat. This highlights a significant risk to critical infrastructure that extends beyond the immediate combatants.",
-        "Climate & Resource Shock": "This pillar indicates routine monitoring, with no immediate news referencing acute climate-related events or severe resource scarcity shocks directly impacting global stability. While \"The Critical Minerals Tax Fix Congress Can\u2019t Afford To Ignore\" points to long-term resource strategy, it doesn't indicate an immediate shock."
+        "Geopolitical Conflict Intensity": "This pillar remains elevated due to the persistent \"Iran war\" with \"no clear end in sight,\" further compounded by an \"Alliance Strain: US\u2013Israel Rift Debate.\" Regional de-escalation efforts, like \"Pakistan to convene with Saudi, Egypt and Turkey,\" are underway but highlight the severe existing hostilities.",
+        "Energy & Maritime Disruption": "This is the highest risk pillar, directly influenced by fears of \"another 1970s\u2010style oil crisis looming\" due to the Iran conflict. Maritime safety is severely compromised as \"Middle East war: Helplines buzz with alerts from trapped seafarers,\" indicating direct threats to shipping in key global transit routes.",
+        "Trade & Supply Chain Stress": "Supply chains face substantial pressure from the regional conflict and its energy implications, with \"Business fears \u2018serious interventions\u2019 needed to reduce fuel demand.\" Locally, \"Tamil Nadu RERA calls labour, material shortages \u2018lame excuses\u2019\" points to persistent material and labor availability challenges.",
+        "Sovereign Financial Stress": "Financial systems are showing signs of stress, evidenced by \"India economy shows first signs of slowdown as West Asia crisis and crude shock hit March data.\" Ongoing \"US-Iran ceasefire talks\" are being closely watched for their potential impact on stock markets like the Indian Sensex and Nifty 50.",
+        "Currency & Liquidity Pressure": "While not explicitly detailed, the \"West Asia crisis and crude shock\" impacting economies implies potential future pressure on local currencies and liquidity. The market anticipation around \"US-Iran ceasefire talks\" suggests global financial actors are sensitive to conflict resolution for currency stability.",
+        "Sanctions & Regulatory Fragmentation": "Although no new sanctions were announced, the persistent conflict environment increases the likelihood of further restrictive measures or regulatory complexities. Diplomatic efforts, such as \"Pakistan Hosts US-Iran Mediation Talks,\" are crucial in navigating the fragmented political and regulatory landscape.",
+        "Cyber & Infrastructure Threats": "Cyber warfare is an integral component of the ongoing conflict, as highlighted by \"Hacked hospitals, hidden spyware: Iran conflict shows how digital fight is ingrained in warfare.\" This includes incidents like \"Iran\u2019s fake missile alert texts turn into cyber attacks in Israel,\" demonstrating the direct and disruptive nature of these threats.",
+        "Climate & Resource Shock": "This pillar shows baseline activity with no direct mentions in the current news feed regarding climate events or specific resource shocks beyond energy. The primary resource shock relates to crude oil, which is currently driving the Energy & Maritime Disruption pillar."
     },
     "All_Alerts": [
         {
-            "title": "Iran live updates: Regional powers to meet in Pakistan to discuss Mideast fighting",
+            "title": "Pakistan to convene with Saudi, Egypt and Turkey in hopes of de-escalating regional hostilities",
             "severity": "HIGH",
-            "url": "https://apnews.com/live/iran-war-israel-trump-03-29-2026",
-            "image": "https://images.pexels.com/photos/167259/pexels-photo-167259.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "apnews"
+            "url": "http://www.euronews.com/2026/03/29/pakistan-to-convene-with-saudi-egypt-and-turkey-in-hopes-of-de-escalating-regional-hostili",
+            "image": "https://images.euronews.com/articles/stories/09/70/26/73/1440x810_cmsv2_469d0f2b-1ef8-53a4-babc-fd5ca4ce7004-9702673.jpg",
+            "source": "euronews"
         },
         {
-            "title": "At the 'Gate of Tears', a new threat to global energy emerges",
+            "title": "Indian stock market: How are Sensex and Nifty 50 likely to perform this week amid US-Iran ceasefire talks? - livemint.com",
             "severity": "HIGH",
-            "url": "https://www.abc.net.au/news/2026-03-29/gate-of-tears-at-risk-of-becoming-second-major-oil-bottleneck/106508316",
-            "image": "https://live-production.wcms.abc-cdn.net.au/c3f06f0d3cebde008322e6ca4717dfa9?impolicy=wcms_crop_resize&cropH=2531&cropW=4500&xPos=0&yPos=736&width=862&height=485",
-            "source": "abc_net"
+            "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZF9iNW1oOVk2OXdER292aDdjSUNpeGtvbGg4OXIzNnNQdndvOEs2XzdjRDN3eGhtVGFyZzlmZXdPSnFhdEI3SEozN2FBcGY1QlR5bVlNd3JHR2xJWWxFX0c1NG9RUTI4V01Hc1hhS1dKMWNvQUt5WmJXNC04T1JpVHhjUFFqSXFQb0FQdWJuSkdKS2pJVTdJb0diSXROQUJFSkRwYzZmc3RhWTAxV0ZxWlFxMDhrYzZWWkNHWXpGcjVGc0lRdl9jejNHRktFRXNTYTAxdmNEUkpCNnlzQTdWWDFjUUtaVi1OZEo4cVJGclY1QWhzM21LZFc5VUVpR0M5SHN0bNIBigJBVV95cUxONExTZ2VvMS1PY1RWTjB1UzhzUFJ0bnp4Rk9keTJaMDJHTEpGRnN1WjRJVmlDZm5Gb3QwVUFUVjJXM2ljVjV1Wm5PSVNLSDZpQU5wWlFjZGl6U2JOTWdSb1VwWnFDYnBtSkFHOXpra3psZXhtZExhNFgxXzlNNlNGcUoybENPcm4xQi1mdUxMYk5JLXRLNmRxdUE3cGxGVjlGMVZQSkMyM0thUVczYXhacG9FamZmcWpxN2ZjcHpqQkxGV0pDc2cwMmp1N3RfSjhveVN1TkhCYjBwWWszS1ZKM2RoN1ZsOVhuYWR3RDBfMzV0WmVINjVIRXExdTFDYnY3WlF0RW53Y1ROQQ?oc=5",
+            "image": "https://images.pexels.com/photos/30748600/pexels-photo-30748600.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "A toothless Iran? Missile and drone strikes show it can still inflict pain",
+            "title": "How to avoid pore blockage and maintain clear skin",
             "severity": "HIGH",
-            "url": "https://www.deccanherald.com/world/middle-east/a-toothless-iran-missile-and-drone-strikes-show-it-can-still-inflict-pain-3948354",
-            "image": "https://media.assettype.com/deccanherald/2026-03-29/ckijvm4u/file855vhg54j861kle8jibd.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
+            "url": "https://timesofindia.indiatimes.com/life-style/beauty/how-to-avoid-pore-blockage-and-maintain-clear-skin/articleshow/129876829.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129876829/129876829.jpg",
+            "source": "toi"
         },
         {
-            "title": "Iran Allows 20 Pakistani Vessels To Pass Strait Of Hormuz",
+            "title": "West Asia war: PM Modi urges citizens not to be misled by misinformation",
             "severity": "HIGH",
-            "url": "https://news.abplive.com/news/world/iran-allows-20-pakistani-vessels-to-pass-strait-of-hormuz-1833488",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/03/23/1ef7a8c128fe21bd53f5e7b90a1031c31774232640888240_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
+            "url": "https://www.business-standard.com/india-news/west-asia-war-pm-modi-urges-citizens-not-to-be-misled-by-misinformation-126032900209_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260329/thumb-126032900209.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Nigerian brothers bring parallels of fatherhood, nationhood to the screen",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/nigerian-brothers-bring-parallels-fatherhood-065002167.html",
+            "image": "https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Alliance Strain: US\u2013Israel Rift Debate Grows Amid Claims of Miscalculation in Iran War",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/videos/news/world-alliance-strain-us-israel-rift-debate-grows-amid-claims-of-miscalculation-in-iran-war-1833514",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/03/29/0260a68f0ae5ef6375815af8a19e40071774766909232963_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
             "source": "abplive"
         },
         {
-            "title": "Pentagon prepares for potential weeks-long ground operations in Iran, Reports suggest",
+            "title": "Business fears \u2018serious interventions\u2019 needed to reduce fuel demand as Labor warns of long-term \u2018shock\u2019 - theguardian.com",
             "severity": "HIGH",
-            "url": "https://zeenews.india.com/world/pentagon-prepares-for-potential-weeks-long-ground-operations-in-iran-reports-suggest-3031535.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/03/29/1924410-us-iran-conflict-2026-kharg-island-seizure-report-operation-epic-fury-updates-iran-oil-export-hub-pentagon-iran-ground-operations-strait-of-hormuz-military-status.jpg?im=Resize=(1200,900)",
-            "source": "zeenews"
+            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOYWJ4aVJra1hSNUZkQ0hiUFpCbzlDTlM1T25EMGJ0MU95ZUhzeWdFU1NSLUpTa0JNN0h5bjFnR0NpaG9oNVBxaTYwQjR3Vl91Z3NmSFAxX1psLVFOQjcxUTJFU1FQbnJoWU1LelJzOUo5YjVnLUcwOFRQNVVRREp2ZTNVbFZoTFVheThPdDEtY0pxRWh3MHdIcTYxUGYtaGlTYzRNY1hWeW51S01vQ2gtckthWGNrWm8yZm1mSHJJSVJhYVFubWdwNkVocnZSd3k3TzBMYXY3MlcxN0dZb1NFVHk1dTF1V1hLcGc?oc=5",
+            "image": "https://images.pexels.com/photos/5014710/pexels-photo-5014710.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Worries about global economic pain deepen as the war in Iran drags on",
+            "title": "Iran war: No clear end in sight, ex diplomat warns amid rising global tensions",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/worries-about-global-economic-pain-deepen-as-the-war-in-iran-drags-on/articleshow/129875670.cms",
-            "image": "https://img.etimg.com/thumb/msid-129875678,resizemode-4,width-1200,height-900,imgsize-104452,overlay-economictimes/articleshow.jpg",
+            "url": "https://english.mathrubhumi.com/news/world/iran-war-no-clear-end-ex-diplomat-kp-fabian-warns-global-tensions-nxsd633p",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1q3xjoft0r349nqtpis/0/kp-fabian-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Iran: Is another 1970s\u2010style oil crisis looming?",
+            "severity": "HIGH",
+            "url": "https://globalnation.inquirer.net/316028/iran-is-another-1970s%E2%80%91style-oil-crisis-looming",
+            "image": "https://globalnation.inquirer.net/files/2026/03/In-the-1970s-the-reduced-supply-of-crude-due-to-an-oil-embargo-by-Arab-nations-set-off-a-sharp-rise-in-fuel-prices-Image-Bertramdpapicture-alliance-620x271.png",
+            "source": "inquirer"
+        },
+        {
+            "title": "Middle East war: Helplines buzz with alerts from trapped seafarers",
+            "severity": "HIGH",
+            "url": "https://globalnation.inquirer.net/316065/middle-east-war-helplines-buzz-with-alerts-from-trapped-seafarers",
+            "image": "https://globalnation.inquirer.net/files/2026/03/Middle-East-war-Helplines-buzz-with-alerts-from-trapped-seafarers-scaled.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "India economy shows first signs of slowdown as West Asia crisis and crude shock hit March data",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/business/india-economy-shows-first-signs-of-slowdown-as-west-asia-crisis-and-crude-shock-hit-march-data-13873565.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/01/20260130083641_India-economy-growth-shutterstock.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "No clear signs on when it will end, Ex Diplomat KP Fabian says on Iran War",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/no-clear-signs-on-when-it-will-end-ex-diplomat-kp-fabian-says-on-iran-war/articleshow/129876627.cms",
+            "image": "https://img.etimg.com/thumb/msid-129876720,resizemode-4,width-1200,height-900,imgsize-69216,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Two Vessels Per Day: Iran Nods To Transit Of 20 Pakistani-Flagged Ships Through Strait Of Hormuz",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/world/two-vessels-per-day-iran-nods-to-transit-of-20-pakistani-flagged-ships-through-strait-of-hormuz-ws-l-10003450.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/03/Untitled-design-21-2026-03-9a6fd37a405e5317828b31ebcf802f32-1200x800.png",
+            "source": "news18"
+        },
+        {
+            "title": "'Dhurandhar 2'BO day 11 [LIVE]: Ranveer Singh film eyes Rs 800 crore net",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/dhurandhar-2-the-revenge-box-office-collection-day-11-live-ranveer-singh-rakesh-bedi-sanjay-dutt-arjun-rampal-film-eyes-dhurandhar-1-rs-840-crore-india-net-milestone-on-second-sunday/articleshow/129876781.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-129876781/129876781.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "How did Iran\u2019s fake missile alert texts turn into cyber attacks in Israel?",
+            "severity": "HIGH",
+            "url": "https://english.mathrubhumi.com/news/world/how-did-irans-fake-missile-alert-texts-turn-into-cyber-attacks-in-israel-q7j5o074",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1q3x2khrmjlmd0o5bvx/0/cyberattack-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Los Angeles 'No Kings' Demonstrators Turn Violent, Assault Federal Building Following Rally",
+            "severity": "HIGH",
+            "url": "https://www.breitbart.com/border/2026/03/28/los-angeles-no-kings-demonstrators-turn-violent-assault-federal-building-following-rally/",
+            "image": "https://media.breitbart.com/media/2026/03/MixCollage-29-Mar-2026-01-04-AM-4657-640x335.jpg",
+            "source": "breitbart"
         },
         {
             "title": "Hacked hospitals, hidden spyware: Iran conflict shows how digital fight is ingrained in warfare",
             "severity": "HIGH",
-            "url": "http://economictimes.indiatimes.com/tech/technology/hacked-hospitals-hidden-spyware-iran-conflict-shows-how-digital-fight-is-ingrained-in-warfare/articleshow/129875720.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-368204,resizemode-75,msid-129875720/tech/technology/hacked-hospitals-hidden-spyware-iran-conflict-shows-how-digital-fight-is-ingrained-in-warfare.jpg",
+            "url": "https://abcnews.com/US/wireStory/hacked-hospitals-hidden-spyware-iran-conflict-shows-digital-131515820",
+            "image": "https://i.abcnewsfe.com/a/dd02d027-02bd-478f-84f3-2f74c7c38c23/wirestory_47fc34e48f2f952583d14b6c0664fc37_16x9.jpg?w=1600",
+            "source": "abcnews"
+        },
+        {
+            "title": "Tamil Nadu RERA calls labour, material shortages \u2018lame excuses\u2019; pulls up developer for delay",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/real-estate/tamil-nadu-rera-calls-labour-material-shortages-lame-excuses-pulls-up-developer-for-delay-101774758504159.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/29/1600x900/logo/RERA_FVVFV_1774762553979_1774762554184.png",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Why \u201cFinal Stage\u201d Rarely Means Final in Hiring, and What Is Really Happening Behind the Scenes",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/international/us/why-final-stage-rarely-means-final-in-hiring-and-what-is-really-happening-behind-the-scenes/articleshow/129876867.cms",
+            "image": "https://img.etimg.com/thumb/msid-129876867,resizemode-4,width-1200,height-900,imgsize-1397387,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "US AWACS aircraft hit in Iran strike: Damage to E-3 Sentry raises alarm over airpower blind spots",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/us-awacs-aircraft-hit-in-iran-strike-damage-to-e-3-sentry-raises-alarm-over-airpower-blind-spots-article-13873517.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260329042300_Sentry.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Free public transport ruled out for NSW as fuel crisis worsens",
-            "severity": "HIGH",
-            "url": "https://www.smh.com.au/politics/nsw/free-public-transport-ruled-out-for-nsw-as-fuel-crisis-worsens-20260329-p5zjnf.html",
-            "image": "https://images.pexels.com/photos/16574945/pexels-photo-16574945.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "smh"
-        },
-        {
-            "title": "Iran Israel War News Live Updates: Explosions Rock Tehran, Air Defences Activated as Smoke Rises Over City",
-            "severity": "HIGH",
-            "url": "https://www.timesnownews.com/world/middle-east/iran-israel-us-war-today-live-updates-strait-of-hormuz-houthis-lebanon-kuwait-dubai-saudi-arabia-uae-donald-trump-ground-operation-middle-east-oil-prices-latest-news-liveblog-153947646",
-            "image": "https://images.timesnownews.com/thumb/msid-153947646,thumbsize-2361640,width-1280,height-720,resizemode-75/153947646.jpg",
+            "title": "Pakistan Hosts US-Iran Mediation Talks in Islamabad: Who\u2019s Attending",
+            "severity": "MEDIUM",
+            "url": "https://www.timesnownews.com/world/asia/pakistan-hosts-us-iran-mediation-talks-in-islamabad-whos-attending-article-153947959",
+            "image": "https://images.timesnownews.com/thumb/msid-153948239,thumbsize-320256,width-1280,height-720,resizemode-75/153948239.jpg",
             "source": "timesnownews"
         },
         {
-            "title": "Uttarakhand: LPG shortage in Mussoorie forces hotels, restaurants to switch to alternative fuels",
-            "severity": "HIGH",
-            "url": "http://chinanationalnews.com/news/278950671/uttarakhand-lpg-shortage-in-mussoorie-forces-hotels-restaurants-to-switch-to-alternative-fuels",
-            "image": "https://image.chitra.live/api/v1/wps/f43c7d3/155db827-df3f-4e16-99c5-336c72a33058/0/ANI-20260329041756-600x315.jpg",
-            "source": "chinanationalnews"
-        },
-        {
-            "title": "Iran war is about to hit harder than markets think, top oil CEOs warn",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/business/markets/iran-war-is-about-to-hit-harder-than-markets-think-top-oil-ceos-warn-13873516.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260313175912_crude-oil-shipping.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "\u2018We\u2019re going to be out of there soon\u2019, Vance says on Iran war",
-            "severity": "HIGH",
-            "url": "https://www.thehindu.com/shorts/were-going-to-be-out-of-there-soon-vance-says-on-iran-war/article70798754.ece",
-            "image": "https://th-i.thgim.com/public/incoming/b0c606/article70798752.ece/alternates/LANDSCAPE_1200/Screenshot%202026-03-29%20at%2010.02.49%E2%80%AFAM.png",
-            "source": "thehindu"
-        },
-        {
-            "title": "Tamil Nadu polls: DMK releases list of 164 candidates, fields more than 60 new faces",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/chennai/tamil-nadu-polls-dmk-releases-list-of-164-candidates-fields-more-than-60-new-faces/articleshow/129875427.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-129875551/129875551.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Illinois and Arizona punch their tickets to the men\u2019s Final Four. Two more teams will join them on Sunday",
+            "title": "Arsenal news: Ben White given Thomas Tuchel advice as three Gunners stars suffer injury fears",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/men-women-ncaa-tournaments-kick-171919530.html",
+            "url": "https://www.dailystar.co.uk/sport/football/arsenal-news-injury-england-tuchel-36939035",
+            "image": "https://i2-prod.dailystar.co.uk/sport/football/article36939034.ece/ALTERNATES/s615/0_England-v-Uruguay-International-Friendly.jpg",
+            "source": "dailystar"
+        },
+        {
+            "title": "Five quick takeaways from F1's 2026 Japanese Grand Prix",
+            "severity": "WATCH",
+            "url": "https://ca.sports.yahoo.com/news/five-quick-takeaways-f1s-japanese-064951924.html",
             "image": "https://images.pexels.com/photos/4021262/pexels-photo-4021262.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo"
         },
         {
-            "title": "US braces for \u2018weeks\u2018 of ground raids in Iran \u2013 WaPo",
+            "title": "Ollie Bearman suffers knee contusion during F1 crash at Japanese Grand Prix",
             "severity": "WATCH",
-            "url": "https://www.rt.com/news/636595-us-plans-ground-raids-iran/",
-            "image": "https://mf.b37mrtl.ru/files/2026.03/article/69c8ab3d85f5400cbe49ca51.png",
-            "source": "rt"
+            "url": "https://www.nytimes.com/athletic/7155193/2026/03/29/ollie-bearman-injury-crash-japanese-grand-prix-f1/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/03/29024219/GettyImages-2268287225-scaled.jpg",
+            "source": "theathleticuk"
         },
         {
-            "title": "Bihar planning market debut of transmission firm BSPTCL: State energy secy",
+            "title": "Scammers in Mumbai pose as gas officials, steal nearly Rs 1 crore in a month",
             "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/news/bihar-planning-market-debut-of-transmission-firm-bsptcl-state-energy-secy-126032900122_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260329/thumb-126032900122.jpg",
-            "source": "business-standard"
+            "url": "https://english.mathrubhumi.com/news/india/scammers-in-mumbai-pose-as-gas-officials-steal-nearly-rs-1-crore-in-a-month-eev4mk6p",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1q3xhbw1anj7oc9ktnm/0/scam-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
         },
         {
-            "title": "JAMES CARTER And SEVASTIAN HORTON: The Critical Minerals Tax Fix Congress Can\u2019t Afford To Ignore",
+            "title": "North Korea tests powerful missile engine as Kim Jong Un ramps up US strike capability",
             "severity": "WATCH",
-            "url": "https://dailycaller.com/2026/03/29/opinion-the-critical-minerals-tax-fix-congress-cant-afford-to-ignore-james-carter-and-sevastian-horton/",
-            "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https%3A%2F%2Fcdn01.dailycaller.com%2Fwp-content%2Fuploads%2F2025%2F12%2FGettyImages-2203802711-e1767065778857.jpg",
-            "source": "dailycaller"
+            "url": "https://www.independent.co.uk/asia/east-asia/north-korea-kim-jong-un-missile-us-mainland-b2947800.html",
+            "image": "https://static.independent.co.uk/2026/03/29/03/Koreas_Tensions_16454.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
         },
         {
-            "title": "How will higher freight costs impact off-price retailers?",
+            "title": "US government 'chipping away' at press freedom",
             "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/higher-freight-costs-impact-off-043810928.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "url": "https://globalnation.inquirer.net/316034/us-government-chipping-away-at-press-freedom",
+            "image": "https://globalnation.inquirer.net/files/2026/03/Defense-Secretary-Pete-Hegseth-has-been-critical-of-reporting-on-the-US-Israel-war-with-Iran-Image-Kashif-BasharatDepartment-OfPlanet-PixZUMApicture-alliance-620x271.png",
+            "source": "inquirer"
+        },
+        {
+            "title": "NZ media group names nephew of Indira Gandhi\u2019s assassin Satwant Singh in Rs 180-crore drug trail",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/cities/chandigarh/nz-media-group-names-nephew-of-indira-gandhis-assassin-satwant-singh-in-rs-180-crore-drug-trail-10607447/",
+            "image": "https://images.indianexpress.com/2025/06/indira-Gandhi.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "From Gorkhaland to Governance: Darjeeling Hills Enter New Political Phase Ahead of Bengal Polls",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/india/from-gorkhaland-to-governance-darjeeling-hills-enter-new-political-phase-ahead-of-bengal-polls-article-153948226",
+            "image": "https://images.timesnownews.com/thumb/msid-153948221,thumbsize-737106,width-1280,height-720,resizemode-75/153948221.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Energy price surge poses new challenges for India\u2019s real estate sector",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/business/energy-price-surge-poses-new-challenges-for-indias-real-estate-sector/article70798659.ece",
+            "image": "https://th-i.thgim.com/public/incoming/ia5mg7/article70798898.ece/alternates/FREE_1200/iStock-1434457248.jpg",
+            "source": "thehindu"
+        },
+        {
+            "title": "'Time to reiterate our resolve to conserve water': PM Modi hails conservation efforts across the nation",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/india/time-to-reiterate-our-resolve-to-conserve-water-pm-modi-hails-conservation-efforts-across-the-nation/articleshow/129876812.cms",
+            "image": "https://img.etimg.com/thumb/msid-129876908,resizemode-4,width-1200,height-900,imgsize-102752,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Maverick newspaper editor 'paved the way for Manx democracy'",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/maverick-newspaper-editor-paved-way-064333397.html",
+            "image": "https://images.pexels.com/photos/4021262/pexels-photo-4021262.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo"
         },
         {
-            "title": "NASA intern stole $20M in moon rocks to have sex on them with girlfriend",
+            "title": "'Gross incompetence' after four men died inside locked 'cannabis factory' mill in Oldham",
             "severity": "WATCH",
-            "url": "https://www.the-express.com/news/space-news/203486/nasa-intern-moon-sex",
-            "image": "https://cdn-images.the-express.com/img/dynamic/16/590x/203486_1.jpg",
-            "source": "express"
+            "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/gross-incompetence-after-four-men-33664865",
+            "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33665486.ece/ALTERNATES/s615/0_GVs-of-former-Bismarck-Mill-site.jpg",
+            "source": "manchestereveningnews"
+        },
+        {
+            "title": "Tamil Nadu polls: DMK, AIADMK set to face off in 122 seats",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/chennai/tamil-nadu-polls-dmk-aiadmk-set-to-face-off-in-122-seats/articleshow/129875717.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-129876337/129876337.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Angela Rayner: heading for No. 10?",
+            "severity": "WATCH",
+            "url": "https://theweek.com/politics/angela-rayner-prime-minister",
+            "image": "https://cdn.mos.cms.futurecdn.net/pge6gtzSVU48gxy4Hn4fe5-1280-80.jpg",
+            "source": "theweek"
         }
     ],
-    "Last_Updated": "2026-03-29T16:42:29.993209Z"
+    "Last_Updated": "2026-03-29T18:53:56.018581Z"
 }
