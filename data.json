@@ -1,260 +1,225 @@
 {
-    "AGRI_Score": 65.2,
-    "Velocity": "+2.7",
+    "AGRI_Score": 61.2,
+    "Velocity": "-4.0",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The current AGRI score of 65.2 indicates a heightened risk environment, predominantly fueled by severe \"Energy & Maritime Disruption\" (93.2) and intense \"Geopolitical Conflict Intensity\" (85.1). The ongoing \"Iran war\" is central, with direct threats to energy security and global trade evidenced by \"Trump officials acknowledg[ing] they can\u2019t promise to reopen Strait of Hormuz before ending Iran war.\" This conflict's ripple effects, including \"fuel crisis updates\" and industrial production halts like the \"Saudi Aramco-Dow JV suspends chemical output amid regional disruptions,\" are amplifying systemic stress across the global economy.",
+    "AI_Brief": "The current AGRI score of 61.2/100 reflects a significantly elevated risk environment, primarily driven by intense geopolitical conflict and its direct, severe impact on energy markets. This is underscored by headlines such as 'Israel's killing spree in Iran backfires? Iran issues chilling warning after top commander\u2019s death,' indicating heightened regional instability. Consequently, this conflict directly influences 'Fiji fuel prices jump overnight due to Iran war' and 'South Africa hit by record diesel price hikes,' showcasing widespread energy and economic disruption.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 85.1,
+        "Geopolitical Conflict Intensity": 72.7,
         "Energy & Maritime Disruption": 93.2,
-        "Trade & Supply Chain Stress": 78.3,
+        "Trade & Supply Chain Stress": 65.7,
         "Sovereign Financial Stress": 53.5,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.2,
-        "Cyber & Infrastructure Threats": 61.8,
+        "Sanctions & Regulatory Fragmentation": 59.7,
+        "Cyber & Infrastructure Threats": 56.2,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is experiencing extremely high pressure due to the widespread \"Iran war,\" which the Iranian president indicates a willingness to end but \"needs guarantees.\" Further exacerbating tensions, the \"IRGC says about 200 US troops killed, wounded in attack on airbase in Saudi Arabia,\" highlighting direct and severe military engagements.",
-        "Energy & Maritime Disruption": "Risk in this pillar is critical, driven by significant threats to vital shipping lanes, as \"Trump officials acknowledge they can\u2019t promise to reopen Strait of Hormuz before ending Iran war.\" The broader \"fuel crisis\" is ongoing, with Australia reportedly set \"to get $60 billion windfall from war, gold and inflation,\" indicating global energy market volatility.",
-        "Trade & Supply Chain Stress": "Elevated stress stems from the potential closure of critical maritime passages, directly impacting global commerce if the \"Strait of Hormuz\" cannot be reopened. Industrial production is also facing disruptions, with \"Saudi Aramco-Dow JV suspend[ing] chemical output amid regional disruptions\" that affect global supply chains.",
-        "Sovereign Financial Stress": "This pillar faces significant upward pressure due to the \"War in Iran pos[ing] terrible risks for the global economy,\" threatening widespread economic instability. While some nations like Australia may see \"a $60 billion windfall from war, gold and inflation,\" general inflationary pressures and global economic uncertainty are pronounced.",
-        "Currency & Liquidity Pressure": "Underlying economic uncertainty from the ongoing \"Iran war has ripple effect for crises in African nations\" contributes to potential currency devaluation and liquidity concerns globally. Inflationary dynamics, indicated by \"Australia to get $60 billion windfall from war, gold and inflation,\" also pose risks to currency stability.",
-        "Sanctions & Regulatory Fragmentation": "While no new sanctions are explicitly reported, the \"Iranian president says Tehran willing to end war but needs guarantees,\" indicating potential for diplomatic shifts that could influence existing or future regulatory frameworks. The high \"Geopolitical Conflict Intensity\" implies a continuous and elevated risk of new regulatory barriers or punitive measures.",
-        "Cyber & Infrastructure Threats": "This pillar registers concern due to documented security breaches, such as the \"Entire Claude Code CLI source code leaks thanks to exposed map file - Ars Technica.\" The heightened geopolitical environment from the \"Iran war\" naturally elevates the overall risk of state-sponsored cyber-attacks targeting critical infrastructure.",
-        "Climate & Resource Shock": "Activity in this pillar remains at a baseline monitoring level. There are currently no significant, direct climate-related events or widespread resource shocks beyond the geopolitical \"fuel crisis\" that would significantly elevate this specific pillar's score."
+        "Geopolitical Conflict Intensity": "This pillar remains a critical concern, with significant escalation indicated by 'Israel's killing spree in Iran backfires? Iran issues chilling warning after top commander\u2019s death,' portending further regional instability. Further uncertainty is introduced by 'The Trump team\u2019s ever-changing list of 4 goals in Iran,' signaling potential for unpredictable policy shifts and conflict expansion.",
+        "Energy & Maritime Disruption": "This pillar shows extreme vulnerability, evidenced by 'Fiji fuel prices jump overnight due to Iran war' and 'South Africa hit by record diesel price hikes despite fuel levy cut.' These direct impacts confirm that geopolitical tensions are severely disrupting global energy markets and national economies, leading to significant price volatility.",
+        "Trade & Supply Chain Stress": "Elevated risk persists due to political uncertainty affecting international relations, as seen with 'Confusion' over Trump\u2019s demands of Australia, hinting at potential trade policy shifts. Additionally, 'Statement: CCIB Response to the Office of the Procurement Ombud\u2019s Procurement Practice Review of Contracts Awarded to Indigenous Businesses Report' indicates domestic regulatory scrutiny potentially impacting procurement and trade practices.",
+        "Sovereign Financial Stress": "Nations are facing direct financial pressure from external shocks, with 'Fiji fuel prices jump overnight due to Iran war' illustrating immediate economic strain on national budgets. 'South Africa hit by record diesel price hikes despite fuel levy cut' further exemplifies governments grappling with rising input costs and attempting to mitigate public financial burdens.",
+        "Currency & Liquidity Pressure": "While no direct currency crisis is reported, the significant 'Fiji fuel prices jump overnight due to Iran war' and 'South Africa hit by record diesel price hikes' will inevitably pressure national budgets and foreign exchange reserves. Such economic strain can indirectly lead to increased currency volatility and tighter domestic liquidity conditions.",
+        "Sanctions & Regulatory Fragmentation": "Potential for increased fragmentation is evident through 'Confusion' over Trump\u2019s demands of Australia, suggesting a landscape where unilateral demands could alter trade and regulatory environments. 'The Trump team\u2019s ever-changing list of 4 goals in Iran' further indicates a high probability of new or adjusted sanctions regimes impacting global commerce.",
+        "Cyber & Infrastructure Threats": "A significant and active threat is highlighted by the 'North Korea-linked hack hits largely invisible software that powers online services.' This incident confirms ongoing and sophisticated state-sponsored cyber operations targeting critical digital infrastructure globally.",
+        "Climate & Resource Shock": "This pillar indicates baseline activity with no immediate severe threats reported in the current news feed. Routine monitoring continues for any emerging climate-related disruptions or resource scarcity issues."
     },
     "All_Alerts": [
         {
-            "title": "Live: Iranian president says Tehran willing to end war but needs guarantees",
+            "title": "\u2018Confusion\u2019 over Trump\u2019s demands of Australia",
             "severity": "HIGH",
-            "url": "https://www.abc.net.au/news/2026-04-01/iran-war-live-updates-us-israel-australia-petrol-oil/106518848",
-            "image": "https://live-production.wcms.abc-cdn.net.au/7e2d1b29f0914d3df38e94e7da8f8049?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "Moment Brit warship crew scramble to intercept Putin sub \u2018at risk of EXPLODING\u2019 as it\u2019s tracked through English Channel",
-            "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/news/38688408/brit-warship-crew-intercept-putin-sub/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F03%2Flife-royal-navy-shows-crew-1070703022.jpg?quality%3D80%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "Trump officials acknowledge they can\u2019t promise to reopen Strait of Hormuz before ending Iran war",
-            "severity": "HIGH",
-            "url": "https://www.cnn.com/2026/03/31/politics/strait-of-hormuz-open-trump",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26087029311966.jpg?c=original/w_800",
-            "source": "cnn"
-        },
-        {
-            "title": "IRGC says about 200 US troops killed, wounded in attack on airbase in Saudi Arabia",
-            "severity": "HIGH",
-            "url": "https://tass.com/world/2109823",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "How Pakistan positioned itself at the center of global crisis management",
-            "severity": "HIGH",
-            "url": "https://www.aljazeera.com/video/newsfeed/2026/3/31/how-pakistan-positioned-itself-at-the-center-of-global-crisis-management",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/03/image-1774986366.jpg?resize=1620%2C1080&quality=80",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "US not even considering operation to seize Iran\u2019s nuclear materials \u2014 Trump",
-            "severity": "HIGH",
-            "url": "https://tass.com/world/2109819",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "7 Epic War Miniseries Better Than Any Classic Movie",
-            "severity": "HIGH",
-            "url": "https://collider.com/epic-war-miniseries-better-than-movies/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/04/custom-image-the-narrow-road-to-the-deep-north-jacob-elordi-image-via-jacob-elordi.jpg?w=1200&h=675&fit=crop",
-            "source": "collider"
-        },
-        {
-            "title": "Oil Futures Pull Back as Hopes Rise for End to War",
-            "severity": "HIGH",
-            "url": "https://www.barrons.com/livecoverage/stock-market-news-today-033126/card/oil-futures-pull-back-as-hopes-rise-for-end-to-war-oEsuyw02gex08RLvDktZ",
-            "image": "https://images.pexels.com/photos/126623/pexels-photo-126623.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "barrons"
-        },
-        {
-            "title": "Tigers' Tarik Skubal back where his journey started in Arizona",
-            "severity": "HIGH",
-            "url": "https://www.detroitnews.com/story/sports/mlb/tigers/2026/03/31/detroit-tigers-tarik-skubal-back-where-his-journey-started-in-arizona/89397889007/",
-            "image": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "detroitnews"
-        },
-        {
-            "title": "Angus Taylor\u2019s car stolen amid fuel crisis",
-            "severity": "HIGH",
-            "url": "https://www.news.com.au/national/politics/angus-taylors-car-allegedly-stolen-ahead-of-press-conference-to-cut-fuel-excise/news-story/31ef04b6aeec7e3c3d90b5fafe92625a?from=rss-basic",
-            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "news"
-        },
-        {
-            "title": "A bottleneck of builders: Oromocto braces for shortage of tradespeople in wake of federal funding",
-            "severity": "HIGH",
-            "url": "https://www.cbc.ca/news/canada/new-brunswick/nb-a-bottleneck-of-builders-tradespeople-shortage-9.7148837?cmp=rss",
-            "image": "https://i.cbc.ca/ais/2734bb11-acc2-47b9-bf86-e6f6a7497d5f,1774983296196/full/max/0/default.jpg?im=Crop%2Crect%3D%281%2C0%2C724%2C407%29%3BResize%3D620",
-            "source": "cbc"
-        },
-        {
-            "title": "Live fuel crisis updates: Australia to get $60 billion windfall from war, gold and inflation",
-            "severity": "HIGH",
-            "url": "https://www.news.com.au/national/live-fuel-crisis-updates-australia-to-get-60-billion-windfall-from-war-gold-and-inflation/live-coverage/98bcc6db5f94e6f30d1eafab70be608d?from=rss-basic",
-            "image": "https://images.pexels.com/photos/11816420/pexels-photo-11816420.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "news"
-        },
-        {
-            "title": "Iran war has ripple effect for crises in African nations",
-            "severity": "HIGH",
-            "url": "https://www.cnn.com/2026/03/31/world/video/international-rescue-committee-africa-iran-war-humanitarian-ciaran-donnelly-live-intv-fst-033112pseg1-cnni-world-fast",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ciaran-donnelly.jpg?c=16x9&q=w_800,c_fill",
-            "source": "cnn"
-        },
-        {
-            "title": "War in Iran poses terrible risks for the global economy",
-            "severity": "HIGH",
-            "url": "https://www.washingtontimes.com/news/2026/mar/31/war-iran-poses-terrible-risks-global-economy/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/03/31/260331-morici-1200_s1200x699.jpg?b29d98ce1f9fedfbe59307b7e4e8391d5d8ccaf4",
-            "source": "washingtontimes"
-        },
-        {
-            "title": "\"Pakistan's role so far is only to pass messages\": Former Deputy NSA Pankaj Saran on Islamabad's push for mediation in West Asia conflict",
-            "severity": "HIGH",
-            "url": "http://chinanationalnews.com/news/278956147/pakistan-role-so-far-is-only-to-pass-messages-former-deputy-nsa-pankaj-saran-on-islamabad-push-for-mediation-in-west-asia-conflict",
-            "image": "https://image.chitra.live/api/v1/wps/d48e6ef/75f3698a-11d7-47d3-9069-8248a515ffcc/0/ANI-20260331142507-600x315.jpg",
-            "source": "chinanationalnews"
-        },
-        {
-            "title": "Panda Express owner forced to pay $5,000 checks to customers after \u2018security\u2019 settlement",
-            "severity": "HIGH",
-            "url": "https://www.the-sun.com/money/16162430/panda-express-data-breach-settlement-claim-form-deadline/",
-            "image": "https://www.the-sun.com/wp-content%2Fuploads%2Fsites%2F6%2F2026%2F03%2Fnewspress-collage-kuqi06tvy-1774984701119.jpg?quality%3D90%26strip%3Dall%261774970313",
-            "source": "thesun"
-        },
-        {
-            "title": "Prison breach: Reform cannot wait",
-            "severity": "HIGH",
-            "url": "https://www.deccanherald.com/opinion/editorial/prison-breach-reform-cannot-wait-3951404",
-            "image": "https://media.assettype.com/deccanherald/2024-09-18/s56hprul/file7awbmnsk7mh1dlizroxl.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Winning the narrative war",
-            "severity": "HIGH",
-            "url": "https://www.deccanherald.com/opinion/winning-the-narrative-war-3951403",
-            "image": "https://media.assettype.com/deccanherald/2026-03-31/n0pqmz89/file857sj0s2475yfq8om6f.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Entire Claude Code CLI source code leaks thanks to exposed map file - Ars Technica",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZTVGRmRxWjhKdTAtV0RHODRLOVRpb1l2MzhMZ25ERzl4YTVUOS0yTjRoOEhuNlJiS0xoQ0ViUjR3Ym1DZ0xGMDFXV2JHcG9QNVYwXzFnOXRVQS1YTHhvNnkzdnlBczNWNUhuZnJveGo0a2JSaEpqTzRTM0hYSjU0bG9kU2ZpREFPaUlfQ0ZRdTF2aGlQdlhqTGxNM2F3aU1Ec0N4YkxB?oc=5",
-            "image": "https://images.pexels.com/photos/36314750/pexels-photo-36314750.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Saudi Aramco-Dow JV suspends chemical output amid regional disruptions",
-            "severity": "MEDIUM",
-            "url": "https://seekingalpha.com/news/4570899-saudi-aramco-dow-jv-suspends-chemical-output-amid-regional-disruptions?feed_item_type=news",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/514620986/image_514620986.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "NDP giant Stephen Lewis remembered as someone who demanded better of all",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/politics/stephen-lewis-condolences-9.7148766?cmp=rss",
-            "image": "https://i.cbc.ca/ais/9f17b53f-a189-4d41-936f-04043907a877,1774985951156/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C191%2C3084%2C1734%29%3BResize%3D620",
-            "source": "cbc"
-        },
-        {
-            "title": "The Unconventional Wellness Rituals Bazaar Editors Swear By",
-            "severity": "WATCH",
-            "url": "https://www.harpersbazaar.com/beauty/health/a70868257/editors-wellness-habits-2026/",
-            "image": "https://hips.hearstapps.com/hmg-prod/images/75106fa4-d3af-402c-b00e-f5b3a4db3848.jpg",
-            "source": "harpersbazaar"
-        },
-        {
-            "title": "Israel halts defense acquisitions from France",
-            "severity": "WATCH",
-            "url": "https://thehill.com/policy/defense/5809703-israel-cuts-defense-ties-france/",
-            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/03/netanyahu_benjamin_10292025_AP26038092716251-1.jpg",
-            "source": "thehill"
-        },
-        {
-            "title": "EDF: Press release on the filing of the 2025 Universal Registration Document and Annual Financial Report",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/03/31/3265976/0/en/EDF-Press-release-on-the-filing-of-the-2025-Universal-Registration-Document-and-Annual-Financial-Report.html",
-            "image": "https://images.pexels.com/photos/12185873/pexels-photo-12185873.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "Spanberger signs 22 bills, including one concerning pharmacy benefit managers",
-            "severity": "WATCH",
-            "url": "https://dailyprogress.com/news/state-regional/government-politics/article_b81c7ffc-21c5-5eb0-8cae-afe6a488fe4d.html",
-            "image": "https://bloximages.newyork1.vip.townnews.com/dailyprogress.com/content/tncms/assets/v3/editorial/b/81/b81c7ffc-21c5-5eb0-8cae-afe6a488fe4d/69cc24d952f56.preview.jpg?crop=1763%2C926%2C0%2C125&resize=1200%2C630&order=crop%2Cresize",
-            "source": "dailyprogress"
-        },
-        {
-            "title": "The Cure For FOMO With Tech Contrarians",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4887576-the-cure-for-fomo-with-tech-contrarians",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1192727556/image_1192727556.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "'He looks a shoo-in for Fergie' \u2013 Jason Heavey's Wednesday tips",
-            "severity": "WATCH",
-            "url": "https://www.dailystar.co.uk/sport/horse-racing/he-looks-shoo-fergie--36951470",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36860360.ece/ALTERNATES/s615/0_Cheltenham-Festival-2026-St-Patricks-Thursday-Cheltenham-Racecourse.jpg",
-            "source": "dailystar"
-        },
-        {
-            "title": "Gas prices slightly rose this week. Here's why",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/sectors/energy/articles/gas-prices-slightly-rose-week-194308452.html",
-            "image": "https://images.pexels.com/photos/18784617/pexels-photo-18784617.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://au.news.yahoo.com/confusion-over-trump-demands-australia-211458295.html",
+            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo"
         },
         {
-            "title": "Shelly Kittleson Kidnapped: Is Iran Behind American Journalist's Abduction in Baghdad, Iraq?",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/us/us-news/shelly-kittleson-kidnapped-is-iran-behind-american-journalists-abduction-in-baghdad-iraq-article-153967986",
-            "image": "https://images.timesnownews.com/thumb/msid-153967991,thumbsize-1306829,width-1280,height-720,resizemode-75/153967991.jpg",
-            "source": "timesnownews"
+            "title": "Allied Gold Reports Record Q4 Production, Advances Growth Strategy and Completes Key Step Toward Transaction with Zijin Gold",
+            "severity": "HIGH",
+            "url": "https://financialpost.com/globe-newswire/allied-gold-reports-record-q4-production-advances-growth-strategy-and-completes-key-step-toward-transaction-with-zijin-gold",
+            "image": "https://images.pexels.com/photos/6949385/pexels-photo-6949385.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
         },
         {
-            "title": "Source Code for Anthropic\u2019s Claude Code Leaks at the Exact Wrong Time",
-            "severity": "WATCH",
-            "url": "https://gizmodo.com/source-code-for-anthropics-claude-code-leaks-at-the-exact-wrong-time-2000740379",
-            "image": "https://gizmodo.com/app/uploads/2025/12/claude-code-1200x675.jpg",
-            "source": "gizmodotech"
+            "title": "Israel's killing spree in Iran backfires? Iran issues chilling warning after top commander\u2019s death",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/videos/world-news/israels-killing-spree-in-iran-backfires-iran-issues-chilling-warning-after-top-commander-s-death-101774991526824.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/03/31/1600x900/logo/kkkkkkkk_1774991622076_1774991624529.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "New on Paramount+ in April 2026 \u2014 The Full List of Movies and TV Shows",
-            "severity": "WATCH",
-            "url": "https://www.usmagazine.com/entertainment/news/new-on-paramount-in-april-2026-full-list-of-movies-and-shows/",
-            "image": "https://www.usmagazine.com/wp-content/uploads/2025/11/3105520_1941bc2.jpg",
-            "source": "usmagazine"
+            "title": "Nikki Haley: Trump Should 'Finish' Iran War",
+            "severity": "HIGH",
+            "url": "https://www.newsmax.com/newsfront/nikki-haley-trump-iran/2026/03/31/id/1251426",
+            "image": "https://images.pexels.com/photos/34089440/pexels-photo-34089440.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "newsmax"
         },
         {
-            "title": "Now's Your Chance: Google Expands Option to Change Your Gmail Address",
-            "severity": "WATCH",
-            "url": "https://www.pcmag.com/news/nows-your-chance-google-expands-option-to-change-your-gmail-address",
-            "image": "https://i.pcmag.com/imagery/articles/06GfzhyLHfBdfxplQiAfvfC-1..v1774980302.jpg",
-            "source": "pcmag"
+            "title": "Netanyahu says Iran spent nearly $1 trillion on military programs",
+            "severity": "HIGH",
+            "url": "https://tass.com/world/2109851",
+            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260401/1469751.jpg",
+            "source": "tass"
         },
         {
-            "title": "Kash Patel\u2019s Email Got Hacked, And Comedian Points Out How Easily He Could\u2019ve Avoided It",
+            "title": "Statement: CCIB Response to the Office of the Procurement Ombud\u2019s Procurement Practice Review of Contracts Awarded to Indigenous Businesses Report",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/03/31/3266134/0/en/Statement-CCIB-Response-to-the-Office-of-the-Procurement-Ombud-s-Procurement-Practice-Review-of-Contracts-Awarded-to-Indigenous-Businesses-Report.html",
+            "image": "https://images.pexels.com/photos/27815335/pexels-photo-27815335.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Else Nutrition Reports Fiscal Year 2025 Financial Results and Highlights Operational Progress, Strengthened Financial Foundation, and Clear Path Toward Profitability",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/03/n51586667/else-nutrition-reports-fiscal-year-2025-financial-results-and-highlights-operational-progress-stre",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "source": "benzinga"
+        },
+        {
+            "title": "Fiji fuel prices jump overnight due to Iran war, opposition slams government for 'betrayal'",
+            "severity": "HIGH",
+            "url": "https://www.rnz.co.nz/international/pacific-news/591226/fiji-fuel-prices-jump-overnight-due-to-iran-war-opposition-slams-government-for-betrayal",
+            "image": "https://images.pexels.com/photos/3183174/pexels-photo-3183174.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "The Trump team\u2019s ever-changing list of 4 goals in Iran",
+            "severity": "HIGH",
+            "url": "https://sg.news.yahoo.com/trump-administration-objectives-iran-war-175300511.html",
+            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo_sg"
+        },
+        {
+            "title": "South Africa hit by record diesel price hikes despite fuel levy cut",
+            "severity": "HIGH",
+            "url": "https://www.beaumontenterprise.com/news/world/article/south-africa-hit-by-record-diesel-price-hikes-22175780.php",
+            "image": "https://s.hdnux.com/photos/01/65/53/73/30850755/3/square_large.jpg",
+            "source": "beaumontenterprise"
+        },
+        {
+            "title": "Beyond Meat\u00ae Reports Fourth Quarter and Full Year 2025 Financial Results",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/03/g51586173/beyond-meat-reports-fourth-quarter-and-full-year-2025-financial-results",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "source": "benzinga"
+        },
+        {
+            "title": "North Korea-linked hack hits largely invisible software that powers online services",
+            "severity": "HIGH",
+            "url": "https://www.yahoo.com/news/articles/north-korea-linked-hack-hits-203628083.html",
+            "image": "https://media.zenfs.com/en/reuters-finance.com/03e5642a682728da6365faa90191e1a1",
+            "source": "yahoo_sg"
+        },
+        {
+            "title": "Scheme of Arrangement becomes Effective and takeover offer declared unconditional",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/03/31/3266071/0/en/Scheme-of-Arrangement-becomes-Effective-and-takeover-offer-declared-unconditional.html",
+            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Elon Musk talks Bitcoin (BTC USD) again \u2014 is a new crypto rally on the horizon?",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/international/us/elon-musk-talks-bitcoin-btc-usd-again-is-a-new-crypto-rally-on-the-horizon/articleshow/129936247.cms",
+            "image": "https://img.etimg.com/thumb/msid-129936235,resizemode-4,width-1200,height-900,imgsize-12828,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "2026 NFL Draft edge rankings: Rueben Bain Jr., David Bailey headline class with plenty of good (if not great) prospects",
             "severity": "WATCH",
-            "url": "https://www.aol.com/articles/kash-patel-email-got-hacked-193255798.html",
-            "image": "https://images.pexels.com/photos/5474025/pexels-photo-5474025.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "aol"
+            "url": "https://sports.yahoo.com/nfl/article/2026-nfl-draft-edge-rankings-rueben-bain-jr-david-bailey-headline-class-with-plenty-of-good-if-not-great-prospects-211443338.html",
+            "image": "https://images.pexels.com/photos/27772608/pexels-photo-27772608.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Summit Midstream raises $42M from Tailwater Capital affiliate",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/company-news/summit-midstream-raises-42m-from-tailwater-capital-affiliate-93CH-4587426",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB6U08A_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "High Arctic Announces 2025 Fourth Quarter and Annual Financial and Operating Results",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/globe-newswire/high-arctic-announces-2025-fourth-quarter-and-annual-financial-and-operating-results",
+            "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "NBA Predictions for Most Improved Player and Sixth Man of the Year: Keldon Johnson, Nickeil Alexander-Walker",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/nba-predictions-most-improved-player-211256748.html",
+            "image": "https://images.pexels.com/photos/11082253/pexels-photo-11082253.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Unpacking Future Packers: No. 28, Iowa DE Max Llewellyn",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/unpacking-future-packers-no-28-211238020.html",
+            "image": "https://images.pexels.com/photos/11082253/pexels-photo-11082253.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Rapport Therapeutics COO Gault sells $281k in stock",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/insider-trading-news/rapport-therapeutics-coo-gault-sells-281k-in-stock-93CH-4587428",
+            "image": "https://i-invdn-com.investing.com/news/World_News_9_800x533_L_1420026261.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Caliber nominates J. Alan Reid to board, two directors to exit",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/company-news/caliber-nominates-j-alan-reid-to-board-two-directors-to-exit-93CH-4587424",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB66095_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Hitek Global raises $3 million in registered direct offering",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/company-news/hitek-global-raises-3-million-in-registered-direct-offering-93CH-4587423",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB5S0BB_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "UK's King Charles III to pay state visit to US in late April",
+            "severity": "WATCH",
+            "url": "https://www.channelnewsasia.com/world/uk-us-trump-king-charles-visit-starmer-white-house-6029461",
+            "image": "https://dam.mediacorp.sg/image/upload/s---ozRLMNC--/c_crop,h_449,w_799,x_1,y_43/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2025-11-03T015837Z_1_LYNXMPELA201B_RTROPTP_3_USA-TRUMP-BRITAIN.JPG?itok=mrVpSe3T",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "White House Blasts Biden's Controversial Easter Message on Transgender Day",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/white-house-blasts-bidens-controversial-easter-message-on-transgender-day-11765579",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/03/GettyImages-2256105551.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Trump administration exempts Gulf oil and gas drilling from endangered species protections - Tue, 31 Mar 2026 PST",
+            "severity": "WATCH",
+            "url": "http://www.spokesman.com/stories/2026/mar/31/trump-administration-exempts-gulf-oil-and-gas-dril/",
+            "image": "https://thumb.spokesman.com/zvBklDQmwtR5C1zWF2Oxg5qSbuQ=/2500x1405/smart/media.spokesman.com/photos/2026/03/31/69cc46e14a62f.hires.jpg",
+            "source": "spokesman"
+        },
+        {
+            "title": "Wall Street just had its best day in nearly a year over a rumor",
+            "severity": "WATCH",
+            "url": "https://fortune.com/2026/03/31/stock-market-sp-500-dow-jones-nasdaq-brent-crude-price-wall-street-iran-war-trump/",
+            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/03/GettyImages-2269282844-e1774991039935.jpg?w=2048",
+            "source": "fortune"
+        },
+        {
+            "title": "I've been getting someone else's post for months. Am I allowed to bin it? Consumer lawyer DEAN DUNHAM replies",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.co.uk/money/experts/article-15695397/Ive-getting-elses-post-months-allowed-bin-Consumer-lawyer-DEAN-DUNHAM-replies.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/03/31/21/107564673-0-image-a-13_1774989912808.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Anthropic leaks part of Claude Code's internal source code",
+            "severity": "WATCH",
+            "url": "https://www.cnbc.com/2026/03/31/anthropic-leak-claude-code-internal-source.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108271609-1772383778562-gettyimages-2259623125-boivin-notitle260206_npitm.jpeg?v=1774985763&w=1200&h=675",
+            "source": "cnbc"
         }
     ],
-    "Last_Updated": "2026-04-01T07:48:06.204038Z"
+    "Last_Updated": "2026-04-01T09:15:33.101772Z"
 }
