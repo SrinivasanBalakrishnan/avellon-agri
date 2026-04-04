@@ -1,182 +1,273 @@
 {
-    "AGRI_Score": 65.4,
-    "Velocity": "-3.7",
+    "AGRI_Score": 67.3,
+    "Velocity": "+1.9",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 65.4 reflects a significantly elevated risk environment, predominantly driven by severe Energy & Maritime Disruption and heightened Geopolitical Conflict Intensity. The 'West Asia crisis' continues to pose critical threats to global energy supplies and shipping, with '17 vessels still await clearance amid tensions' in the Strait of Hormuz. Geopolitical tensions are further amplified by Iran's accusations against the IAEA concerning 'US-Israeli strikes against nuclear sites' and a 'WHO warns about attacks on Iran health facilities', indicating a volatile regional security landscape.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 67.3 indicates a significantly elevated risk environment, primarily driven by extreme \"Energy & Maritime Disruption\" and high \"Geopolitical Conflict Intensity.\" The ongoing US-Iran war is a central factor, manifesting in direct threats, military engagements (e.g., \"Iran war: Search under way for missing crew member after US fighter jet shot down\"), and severe energy supply issues like the \"LPG Crisis Row Expose Congress Rift\" and \"Raid at Hyderabad graveyard uncovers hidden LPG canisters amid shortage.\" This conflict directly exacerbates \"Trade & Supply Chain Stress\" as seen by impacts on regional travel and specific industries, contributing to the overall heightened risk profile.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 72.1,
+        "Geopolitical Conflict Intensity": 83.1,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 69.3,
+        "Trade & Supply Chain Stress": 72.2,
         "Sovereign Financial Stress": 53.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 60.9,
-        "Cyber & Infrastructure Threats": 58.1,
+        "Sanctions & Regulatory Fragmentation": 56.5,
+        "Cyber & Infrastructure Threats": 58.5,
         "Climate & Resource Shock": 45
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is significantly elevated due to intensifying regional tensions, as evidenced by 'Iran accuses IAEA of \"clear complicity\" over silence on US-Israeli strikes against nuclear sites'. The 'WHO warns about attacks on Iran health facilities, regional threat,' signaling a broadening scope of potential conflict and humanitarian concerns.",
-        "Energy & Maritime Disruption": "This pillar is at its maximum, reflecting critical ongoing threats to key maritime choke points and energy supplies, despite some successful transits. While 'Seventh Indian LPG tanker Green Sanvi crosses Hormuz amid West Asia crisis' provides some relief, the fact that '17 vessels still await clearance amid tensions' underscores persistent, severe disruption in the Strait of Hormuz.",
-        "Trade & Supply Chain Stress": "The ongoing maritime disruptions in the Strait of Hormuz, with '17 vessels still await clearance amid tensions,' inherently contribute to potential delays and increased costs for global trade flows. These bottlenecks, though partially mitigated by successful crossings, highlight underlying vulnerabilities in international supply chains.",
-        "Sovereign Financial Stress": "The news feed does not indicate widespread sovereign debt crises or immediate national financial instability at this time. However, the observation that 'Global markets at an inflexion point: Q2 could reward patience over prediction' suggests an environment where underlying economic conditions could shift, potentially influencing sovereign risk perception.",
-        "Currency & Liquidity Pressure": "There are no explicit reports of currency crises or significant national liquidity shortages in the current feed. The headline 'When Rupee speaks more honestly than the government' is a watch item that hints at underlying economic pressures which could, if unaddressed, lead to future currency volatility.",
-        "Sanctions & Regulatory Fragmentation": "Geopolitical friction in West Asia, particularly Iran's accusation against the IAEA regarding 'US-Israeli strikes against nuclear sites', creates an environment ripe for potential new sanctions or shifts in regulatory stances. This increased tension signals a heightened likelihood of unilateral or multilateral actions that could further fragment the international regulatory landscape.",
-        "Cyber & Infrastructure Threats": "This pillar shows elevated activity, underscored by significant data security incidents. 'Meta paused its work with AI training startup Mercor after a data breach' and 'Anthropic blames human error for 512,000-line Claude Code leak' highlight persistent vulnerabilities in digital infrastructure and AI systems.",
-        "Climate & Resource Shock": "The current news feed lacks direct reports of severe weather events, widespread resource scarcity, or significant climate-driven disruptions. This pillar remains at a level indicating routine monitoring, with no immediate, widespread crisis detected."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains critically high due to the active US-Iran war, evidenced by direct military engagements like the 'US fighter jet shot down' and explicit threats from Iran to 'rip US allies to bits'. The rapid restoration of 'bombed missile bunkers' signals an escalating and sustained conflict posture.",
+        "Energy & Maritime Disruption": "This pillar is at its maximum, reflecting widespread and severe energy supply disruptions directly linked to the Iran war and domestic shortages. The 'LPG Crisis Row' and 'Raid at Hyderabad graveyard uncovers hidden LPG canisters amid shortage' highlight critical local supply failures, while 'rising fuel costs' are prompting 'crisis loans for firms' in France and 'CNG Price by Rs 2.50/kg' increases elsewhere.",
+        "Trade & Supply Chain Stress": "Elevated trade and supply chain stress is evident from the disruption of 'Middle East travel plans' forcing Asian travelers to seek alternatives, signaling broader logistical impacts. Specific industries are also feeling the pinch, as 'Worry eats into traders as 'Bikaneri bhujia' takes a hit amid US-Iran war,' indicating direct economic consequences from the conflict.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, with governments like France implementing 'crisis loans for firms affected by rising fuel costs' to mitigate economic fallout. The broader economic environment shows potential strains as 'Silver drags commodity ETFs down up to 15% in March,' indicating investor uncertainty.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures exhibit routine monitoring, with no explicit news indicating severe currency devaluations or widespread liquidity crunches. While commodity ETFs are experiencing downturns ('Silver drags commodity ETFs down up to 15%'), this does not directly translate to systemic currency or liquidity distress.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation remain at a moderate level, with the heightened geopolitical tension creating an environment ripe for further restrictive measures. While no new specific sanctions are announced, the 'IRGC turns Trump\u2019s threat into regional ultimatum' suggests a trajectory that could lead to increased regulatory fragmentation as nations respond.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are moderately elevated, with a notable 'AI recruiting startup Mercor hit by cyberattack' leading to a significant response like Meta halting collaboration. Separately, the 'Collapse of Tokyo's aging cherry blossom trees' highlights existing vulnerabilities in public infrastructure safety.",
+        "Climate & Resource Shock": "Climate and resource shock currently presents a baseline activity level, with no immediate extreme weather events or critical resource scarcity reported in the feed. The collapse of 'Tokyo's aging cherry blossom trees' primarily raises infrastructure safety concerns rather than a direct climate shock."
     },
     "All_Alerts": [
         {
-            "title": "Downed planes raise new perils for Trump",
+            "title": "IRGC turns Trump\u2019s threat into regional ultimatum: Iran's 'crushing blows' to rip US allies to bits?",
             "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/world/3230578/downed-planes-raise-new-perils-for-trump",
-            "image": "https://static.bangkokpost.comhttps//static.bangkokpost.com/media/content/20260404/6036150.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Global markets at an inflexion point: Q2 could reward patience over prediction",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-at-an-inflexion-point-q2-could-reward-patience-over-prediction/articleshow/130013139.cms",
-            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-74506,resizemode-75,msid-130013139/markets/us-stocks/news/global-markets-at-an-inflexion-point-q2-could-reward-patience-over-prediction.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Iran accuses IAEA of \"clear complicity\" over silence on US-Israeli strikes against nuclear sites",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/iran-accuses-iaea-of-clear-complicity-over-silence-on-us-israeli-strikes-against-nuclear-sites/articleshow/130012863.cms",
-            "image": "https://img.etimg.com/thumb/msid-130013111,resizemode-4,width-1200,height-900,imgsize-48002,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Seventh Indian LPG tanker Green Sanvi crosses Hormuz amid West Asia crisis",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/economy/news/seventh-indian-lpg-tanker-green-sanvi-crosses-hormuz-amid-west-asia-crisis-126040400154_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/28/full/1774702127-5901.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Rethinking the role of AI in investing: What retail investors need in volatile markets",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/rethinking-the-role-of-ai-in-investing-what-retail-investors-need-in-volatile-markets/articleshow/130013054.cms",
-            "image": "https://img.etimg.com/thumb/msid-130013010,resizemode-4,width-1200,height-900,imgsize-684974,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Homeowners given 'calm before storm' warning as house prices rise",
-            "severity": "HIGH",
-            "url": "https://www.birminghammail.co.uk/news/midlands-news/homeowners-given-calm-before-storm-33689652",
-            "image": "https://i2-prod.birminghammail.co.uk/incoming/article33688501.ece/ALTERNATES/s615/0_House-prices.jpg",
-            "source": "birminghammail"
-        },
-        {
-            "title": "Meta paused its work with AI training startup Mercor after a data breach",
-            "severity": "HIGH",
-            "url": "https://www.businessinsider.com/meta-pauses-work-mercor-ai-training-investigating-data-breach-2026-4",
-            "image": "https://images.pexels.com/photos/9408872/pexels-photo-9408872.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "businessinsider_us"
-        },
-        {
-            "title": "WHO warns about attacks on Iran health facilities, regional threat",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/who-warns-about-attacks-on-iran-health-facilities-regional-threat/articleshow/130012867.cms",
-            "image": "https://img.etimg.com/thumb/msid-130013005,resizemode-4,width-1200,height-900,imgsize-120188,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Legal vs political neutrality",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1988405/legal-vs-political-neutrality",
-            "image": "https://i.dawn.com/large/2026/04/040403222d893f6.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "\u2018Mere breach of promise to marry not cheating\u2019: Telangana High Court clears man of criminal charges",
-            "severity": "HIGH",
-            "url": "https://indianexpress.com/article/legal-news/promise-to-marry-not-cheating-telangana-high-court-criminal-charges-10618331/",
-            "image": "https://images.indianexpress.com/2026/04/hc-5.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Days before gherao, judicial officers flagged security concerns to Malda DM: Report",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/india/days-before-gherao-judicial-officers-flagged-security-concerns-to-malda-dm-report-13879818.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/12/20251216125203_west-bengal-sir.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Anthropic blames human error for 512,000-line Claude Code leak; Boris Cherny calls for more automation",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/technology/anthropic-blames-human-error-for-512-000-line-claude-code-leak-boris-cherny-calls-for-more-automation-article-13879740.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260216113704_Anthropic-.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Trump orders UFO files release, revives debate: What would aliens think of humans?",
-            "severity": "MEDIUM",
-            "url": "https://english.mathrubhumi.com/technology/science/trump-ufo-files-aliens-what-would-they-think-of-humans-yqezfp0w",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1q8k2wu22bcw159afe1/0/alien-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
-        },
-        {
-            "title": "US pilot missing in Iran: How US pilots survive, evade and await rescue in enemy territory",
-            "severity": "MEDIUM",
-            "url": "https://www.moneycontrol.com/world/us-pilot-missing-in-iran-how-us-pilots-survive-evade-and-await-rescue-in-enemy-territory-article-13879824.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260404043319_US-fighter-jets.jpeg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "India gets relief as 7th LPG tanker crosses Strait of Hormuz, but 17 vessels still await clearance amid tensions",
-            "severity": "MEDIUM",
-            "url": "https://www.india.com/news/india/lpg-tankers-hormuz-crossing-7th-ship-17-in-queue-strait-of-hormuz-lpg-supply-india-energy-security-middle-east-tensions-oil-gas-shipping-route-crisis-8367844/",
-            "image": "https://static.india.com/wp-content/uploads/2026/04/India-LPG-Tankers-Hormuz.jpg",
-            "source": "india"
-        },
-        {
-            "title": "Taurus Horoscope Today for April 4, 2026: Expect small wins at work",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/astrology/horoscope/taurus-horoscope-today-for-april-4-2026-expect-small-wins-at-work-101775277368795.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/04/1600x900/logo/Taurus_horoscope_1775277417040_1775277417208.png",
+            "url": "https://www.hindustantimes.com/videos/irgc-turns-trump-s-threat-into-regional-ultimatum-irans-crushing-blows-to-rip-us-allies-to-bits-101775284026241.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/04/1600x900/logo/hqdefault_1775284023694_1775285278507.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "When Rupee speaks more honestly than the government",
-            "severity": "WATCH",
-            "url": "https://english.mathrubhumi.com/columns/when-rupee-speaks-more-honestly-than-the-government-kejg5hzi",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1q8k06lcz5y75p5cm9k/0/indian-rupee-usd-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
+            "title": "Asian travelers seek respite in other options as Middle East travel plans stay grounded",
+            "severity": "HIGH",
+            "url": "https://www.cnbc.com/2026/04/04/asian-travelers-seek-other-options-as-middle-east-plans-stay-grounded.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108283917-1774606117085-gettyimages-2265405405-AFP_A2TH2VX.jpeg?v=1774606203&w=1200&h=675",
+            "source": "cnbc"
         },
         {
-            "title": "U.S.-China ties stabilize as rare fugitive repatriation precedes Trump-Xi summit",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/economy-news/uschina-ties-stabilize-as-rare-fugitive-repatriation-precedes-trumpxi-summit-4592887",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPEF030BP_L.jpg",
-            "source": "investing_uk"
+            "title": "Iran War, LPG Crisis Row Expose Congress Rift As Leaders Counter Rahul Gandhi\u2019s Stand Openly",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/videos/news/iran-war-lpg-crisis-row-expose-congress-rift-as-leaders-counter-rahul-gandhis-stand-openly/videoshow/130014634.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-130014634/130014634.jpg?resizemode=4",
+            "source": "toi"
         },
         {
-            "title": "Type Of Cooking Oil Matters Less Than Its Quantity And How You Use It",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/lifestyle/type-of-cooking-oil-matters-less-than-its-quantity-and-how-you-use-it-11309432",
-            "image": "https://c.ndtvimg.com/2026-04/rfoe2lq4_type-of-oil_625x300_04_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
-            "source": "ndtv"
+            "title": "Iran war: Search under way for missing crew member after US fighter jet shot down",
+            "severity": "HIGH",
+            "url": "https://www.irishtimes.com/world/middle-east/2026/04/04/iran-war-live-updates-oil-latest-trump-us-news-israel/",
+            "image": "https://www.irishtimes.com/resizer/v2/2HQZ5KLEMAINLZUACFJZMD25PY.jpg?auth=27af26cfbb5e532efcd75e0c7d5549f8c38fd43643a0063162c03152b5c1ea64&smart=true&width=630&height=350",
+            "source": "irishtimes"
         },
         {
-            "title": "Travis Kelce not done yet: Teammate says he wants to \"prove it again\" in 2026",
-            "severity": "WATCH",
-            "url": "https://www.marca.com/en/nfl/kansas-city-chiefs/2026/04/04/69d0956322601d1a028b456e.html",
-            "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/04/17752771672044.jpg",
-            "source": "marca"
+            "title": "French government launches crisis loans for firms affected by rising fuel costs",
+            "severity": "HIGH",
+            "url": "https://www.firstpost.com/world/french-government-launches-crisis-loans-for-firms-affected-by-rising-fuel-costs-13996496.html",
+            "image": "https://images.firstpost.com/uploads/2026/04/Untitled-design-2026-04-04T121344.555-2026-04-5031d0eedf3928014cf6c747099938b5-1200x675.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "84 Lumber makes $5K donation to El Paso Fire after suffering fire damage to store",
+            "title": "Japan conducted foreign weapons protection 11 times in 2025",
+            "severity": "HIGH",
+            "url": "https://www.japantimes.co.jp/news/2026/04/04/japan/sdf-foreign-weapons-protection/",
+            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/04/04/533207.jpg",
+            "source": "japantimes"
+        },
+        {
+            "title": "Collapse of Tokyo's aging cherry blossom trees during viewing season raises safety concerns",
+            "severity": "HIGH",
+            "url": "https://www.thehindu.com/news/international/collapse-of-tokyos-aging-cherry-blossom-trees-during-viewing-season-raises-safety-concerns/article70822531.ece",
+            "image": "https://th-i.thgim.com/public/incoming/5vqsmn/article70822545.ece/alternates/FREE_1200/Japan_Falling_Cherry_Trees_2971_.jpg",
+            "source": "thehindu"
+        },
+        {
+            "title": "Iran said restoring bombed missile bunkers within hours after being struck - The Times of Israel",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX3ZxeDc4SE5xZFh2cU92ek1HWjE1RVZXZlRhM2dCaEhqeUFwWEpRcXNrcHNZNkwzemhmSVdzOC15OWFpNnp2aXJUcFQ2M3RUYkVMQTRQUDl5XzZ2R0NBN3ZqRTVHUW5zRWVlYkxfM1I3R0dPSS12YV9hbnp0VGJMSmVMLVFQYTRBWUFtemlPYnV3VmtTY2VpZnFGMVpCWjV6N0d6cDZsUnbSAa4BQVVfeXFMTlltWUs0aDNzbGxCZ3RMZnpISl9WWjhldFBKdE1pdERJZnpJYWwyTlM3QlppdzJMY3RoX0dma2hzX3JweVFQenJNRmtrSzNjZHk1dmVyNi1zelU1ZDhsZDMxbmdzazhBZDI5STk4czFyU096b2hJSGRXb2lFRUZlWENhU3ZrMk5NV1pKRTBXOVBUaElrQ0FXZHB5R1BVOFZKN19LRXFIZTV3TUFDa0R3?oc=5",
+            "image": "https://images.pexels.com/photos/6949385/pexels-photo-6949385.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Raid at Hyderabad graveyard uncovers hidden LPG canisters amid shortage",
+            "severity": "HIGH",
+            "url": "https://www.business-standard.com/india-news/raid-at-hyderabad-graveyard-uncovers-hidden-lpg-canisters-amid-shortage-126040200958_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/27/full/1774608029-6665.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Worry eats into traders as \u2018Bikaneri bhujia\u2019 takes a hit amid US-Iran war",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/india-news/worry-eats-into-traders-as-bikaneri-bhujia-takes-a-hit-amid-us-iran-war-101775283570300.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/04/1600x900/logo/Namkeen_1742307115670_1775284464864.jpeg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Daily Voice | US-Iran war extends into June quarter: What could shape market outcomes? Puneet Sharma of Whitespace Alpha explains",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/business/markets/daily-voice-us-iran-war-extends-into-june-quarter-what-could-shape-market-outcomes-puneet-sharma-of-whitespace-alpha-explains-13879812.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2024/02/Puneet_Sharma.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Justin Baldoni net worth 2026: Inside his USD 6 million fortune as Blake Lively legal battle continues",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/justin-baldoni-net-worth-2026-inside-his-usd-6-million-fortune-as-blake-lively-legal-battle-continues/articleshow/130014547.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130014593/130014593.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "AI recruiting startup Mercor hit by cyberattack; Meta halts collaboration",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/tech/technology/ai-recruiting-startup-mercor-hit-by-cyberattack-meta-halts-collaboration/articleshow/130017880.cms",
+            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-452991,resizemode-75,msid-130017880/tech/technology/ai-recruiting-startup-mercor-hit-by-cyberattack-meta-halts-collaboration.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Silver drags commodity ETFs down up to 15% in March. What next for investors?",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/mf/analysis/silver-drags-commodity-etfs-down-up-to-15-in-march-what-next-for-investors/slideshow/130014822.cms",
+            "image": "https://img.etimg.com/thumb/msid-130014822,width-1200,height-900,overlay-etwealthmutualfunds/slideshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "AI is rewiring the world's most prolific Bollywood industry",
+            "severity": "MEDIUM",
+            "url": "https://www.deccanherald.com/technology/artificial-intelligence/ai-is-rewiring-the-worlds-most-prolific-bollywood-industry-3955932",
+            "image": "https://media.assettype.com/deccanherald/2026-04-04/k2zgqum3/iStock-1494104649.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "'Global Shocks Tested Resilience': Jaishankar Says India Managed Challenges Successfully",
             "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/articles/84-lumber-makes-5k-donation-044047320.html",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.news18.com/india/global-shocks-tested-resilience-jaishankar-says-india-managed-challenges-successfully-ws-l-10014032.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/s-jaishankar-2026-04-38848ca46bc1004c4469d77573ec3768-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "SuPra, Monali: Women own the stage at Maitreyi College",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/events/delhi/supra-monali-women-own-the-stage-at-maitreyi-college/articleshow/130014488.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130014488/130014488.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "How drivers can reduce petrol costs",
+            "severity": "WATCH",
+            "url": "https://au.news.yahoo.com/drivers-reduce-petrol-costs-064704094.html",
+            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo"
         },
         {
-            "title": "I asked AI to help me save money on 7 everyday things \u2014 one tip shocked me",
+            "title": "Torrent Gas Raises CNG Price by Rs 2.50/kg; Auto Drivers Flag Income Stress",
             "severity": "WATCH",
-            "url": "https://www.tomsguide.com/ai/i-asked-ai-to-help-me-save-money-on-7-everyday-things-one-tip-shocked-me",
-            "image": "https://cdn.mos.cms.futurecdn.net/JyHPMvBQktWag56Q3SkwfY-1280-80.jpg",
-            "source": "tomsguide"
+            "url": "https://www.news18.com/business/economy/torrent-gas-raises-cng-price-by-rs-2-50-kg-auto-drivers-flag-income-stress-ws-l-10014019.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/03/image-2026-03-3bb12ecef905b298784011fe51128297-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Espressif Unveils ESP32-S31: A Dual-Core RISC-V SoC with Wi-Fi 6, Bluetooth 5.4, and Advanced HMI Capabilities",
+            "severity": "WATCH",
+            "url": "https://www.electronicsmedia.info/2026/04/04/esp32-s31-risc-v-soc/",
+            "image": "https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "electronicsmedia_info"
+        },
+        {
+            "title": "A year ago, this was a penny stock. Now it\u2019s worth \u00a3650m",
+            "severity": "WATCH",
+            "url": "https://uk.finance.yahoo.com/news/ago-penny-stock-now-worth-064500182.html",
+            "image": "https://images.pexels.com/photos/30748600/pexels-photo-30748600.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "How does a fighter pilot survive being shot down in enemy territory?",
+            "severity": "WATCH",
+            "url": "https://www.timesofisrael.com/how-does-a-fighter-pilot-survive-being-shot-down-in-enemy-territory/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2026/04/9562661.jpg",
+            "source": "timesofisrael"
+        },
+        {
+            "title": "Voxtral-4B-TTS-2603 Brings Fast, Multilingual Voice AI to Production",
+            "severity": "WATCH",
+            "url": "https://hackernoon.com/voxtral-4b-tts-2603-brings-fast-multilingual-voice-ai-to-production",
+            "image": "https://hackernoon.imgix.net/images/2jqChkrv03exBUgkLrDzIbfM99q2-ge02xr5.jpeg",
+            "source": "hackernoon"
+        },
+        {
+            "title": "Chinese cargo ships filled with missile fuel spotted entering Iran",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/world/2190249/chinese-rocket-ships-filled-missile-iran-war",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2190249_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "NASA's Artemis 2 mission: What happens after astronauts land on the Moon? Step-by-step guide to lunar operations",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/science/story/nasas-artemis-2-mission-what-happens-after-astronauts-land-on-the-moon-step-by-step-guide-to-lunar-operations-523982-2026-04-04",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69d0b27f584c7-every-checklist--every-protocol--every-bootprint-is-pre-planned-to-the-minute-044057292-16x9.jpg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "India\u2019s pharma exports stay resilient amid global headwinds, near $29 billion mark",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/indias-pharma-exports-stay-resilient-amid-global-headwinds-near-29-billion-mark/articleshow/130014384.cms",
+            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-127266,resizemode-75,msid-130014384/industry/healthcare/biotech/pharmaceuticals/indias-pharma-exports-stay-resilient-amid-global-headwinds-near-29-billion-mark.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "What\u2019s behind Nomura\u2019s call for later Fed rate cuts?",
+            "severity": "WATCH",
+            "url": "https://uk.finance.yahoo.com/news/behind-nomura-call-later-fed-063410073.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Newborn Dies After Power Failure Disrupts Oxygen Supply At Andhra Hospital",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/india-news/newborn-dies-after-power-failure-disrupts-oxygen-supply-at-andhra-hospital-11308854",
+            "image": "https://c.ndtvimg.com/2025-12/lqcc3gok_newborn-baby_625x300_15_December_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
+        },
+        {
+            "title": "RTS Link on track for Jan 2027 launch despite global energy pressures, says Malaysia transport minister",
+            "severity": "WATCH",
+            "url": "https://www.channelnewsasia.com/asia/malaysia-singapore-rts-link-anthony-loke-2027-launch-6036446",
+            "image": "https://dam.mediacorp.sg/image/upload/s--xh5ooyXE--/c_crop,h_1440,w_2560,x_0,y_111/c_fill,g_auto,h_338,w_600/f_auto,q_auto/v1/mediacorp/cna/image/2025/11/03/c4418565-c389-4ed7-90dc-dcaebaeea0b3.jpeg?itok=iZjcR1xn",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "Covid house of horrors care home where 45 people died fined just \u00a32,500 per dead resident",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/world/2190252/covid-house-horrors-care-home",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2190252_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "When \u2018Work-Life Balance\u2019 Sounds Good but Feels Out of Reach",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/international/us/when-work-life-balance-sounds-good-but-feels-out-of-reach/articleshow/130004927.cms",
+            "image": "https://img.etimg.com/thumb/msid-130014477,resizemode-4,width-1200,height-900,imgsize-96955,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "OPEKEPE: Papakosta\u2019s falsification over... cattle deemed a felony \u2013 What the European Public Prosecutor\u2019s findings say about Karamanlis and Livanos",
+            "severity": "WATCH",
+            "url": "https://en.protothema.gr/2026/04/04/opekepe-papakostas-falsification-over-cattle-deemed-a-felony-what-the-european-public-prosecutors-findings-say-about-karamanlis-and-livanos/",
+            "image": "https://en.protothema.gr/wp-content/uploads/2026/04/Screenshot-2026-04-04-at-9.17.12-AM.png",
+            "source": "protothema"
+        },
+        {
+            "title": "Italian court rules Netflix price-hike clauses are void, orders refunds",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/sci-tech/technology/italian-court-rules-netflix-price-hike-clauses-are-void-orders-refunds/article70822248.ece",
+            "image": "https://th-i.thgim.com/public/incoming/fdo91b/article70822250.ece/alternates/FREE_1200/2026-03-26T213640Z_962156417_RC225JAU5Y1Z_RTRMADP_3_NETFLIX-PRICES.JPG",
+            "source": "thehindu"
+        },
+        {
+            "title": "Our neighbour's Ferrari keeps us awake at night - what can we do?",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.co.uk/money/mortgageshome/article-15701063/Our-neighbours-Ferrari-keeps-awake-night-do.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/04/02/12/107608171-0-image-a-34_1775127616788.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Bengal Officers Held Hostage Had A Foreboding. They Complained A Week Before",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/india-news/officers-held-hostage-in-bengals-malda-had-flagged-fear-of-security-breach-a-week-before-11309544",
+            "image": "https://c.ndtvimg.com/2026-04/ohb5arj_bengal-sir_625x300_02_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
         },
         {
             "title": "Five years on the run - mystery over suspect who skipped court and was never seen again",
@@ -191,56 +282,7 @@
             "url": "https://www.birminghammail.co.uk/news/midlands-news/key-details-birmingham-man-wanted-33690663",
             "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article33690662.ece/ALTERNATES/s615/0_KA_BEM300622_wanted_03.jpg",
             "source": "birminghammail"
-        },
-        {
-            "title": "This Is The Weirdest U.S. Labor Market I've Ever Seen",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4888353-this-is-weirdest-us-labor-market-ive-ever-seen",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/800287274/image_800287274.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Kiev\u2019s actions look like agony of mortally wounded animal to Finnish journalist",
-            "severity": "WATCH",
-            "url": "https://tass.com/society/2111783",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "As Trump orders UFO data released, a question hangs: If aliens exist, what would they think of us?",
-            "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/04/04/lifestyle/trump-orders-ufo-data-released-if-aliens-exist-what-would-they-think-of-us/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/ACPRVDT4D3LVOAHIWGHRVZVC3Q.jpg?auth=395b0ac31c2d6ff32edcb8478a85c2f9bf0cd43f3ef0fbe05bdf45218b0e05e1&smart=true&width=5999&height=4500",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "IPL Pulse: Light maths and lighter wallets",
-            "severity": "WATCH",
-            "url": "https://www.cricbuzz.com/cricket-news/138250/ipl-pulse-light-maths-and-lighter-wallets",
-            "image": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c895802/pbks-have-now-beaten-csk-in-chennai-four-years-in-a-row.jpg",
-            "source": "cricbuzz"
-        },
-        {
-            "title": "No 'Honourable' Or 'Mr' Before Union Minister's Name In FIR? HC Seeks Response From UP Police",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/india/no-honourable-or-mr-before-union-ministers-name-in-fir-hc-seeks-response-from-up-police-ws-l-10013858.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/04/allahabadhc-2025-04-d75951a9f02d0a1aa9d03a2f1ac076be-3x2.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Blake Lively Unfazed After Lawsuit Setback, Vows to Keep \u2018Fighting\u2019",
-            "severity": "WATCH",
-            "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/blake-lively-unfazed-lawsuit-claims-dismissed-1235541877/",
-            "image": "https://www.rollingstone.com/wp-content/uploads/2026/04/blake-lively-dismissal-lawsuit-statement.jpg",
-            "source": "rollingstone"
-        },
-        {
-            "title": "6,200 retirees back new lawsuit against Fresno Unified over insurance coverage concerns",
-            "severity": "WATCH",
-            "url": "https://abc30.com/post/6200-retirees-back-new-lawsuit-fresno-unified-insurance-coverage-concerns/18836449/",
-            "image": "https://cdn.abcotvs.com/dip/images/18837863_040326-kfsn-4p-fusd-lawsuit-img.png?w=1600",
-            "source": "abc30"
         }
     ],
-    "Last_Updated": "2026-04-04T16:43:59.352592Z"
+    "Last_Updated": "2026-04-04T18:53:15.271440Z"
 }
