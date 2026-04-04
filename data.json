@@ -1,77 +1,105 @@
 {
-    "AGRI_Score": 66.5,
-    "Velocity": "-0.8",
+    "AGRI_Score": 68.5,
+    "Velocity": "+2.0",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 66.5 reflects a significantly elevated risk landscape, predominantly driven by extreme levels of \"Energy & Maritime Disruption\" (100) and heightened \"Geopolitical Conflict Intensity\" (74.2). Direct military confrontations, such as \"Iran shoots down US warplane that can fly 1,875 miles/hr,\" are actively reshaping global energy routes, as evidenced by \"Iraq turns to Turkey for oil exports as Middle East war reshapes routes.\" This amplified geopolitical tension and the ensuing energy market volatility are further contributing to increased \"Trade & Supply Chain Stress\" and demanding novel approaches to international transactions.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 68.5/100 reflects a significantly elevated risk environment, primarily driven by the severe \"Geopolitical Conflict Intensity\" (87.0) and extreme \"Energy & Maritime Disruption\" (100). Headlines such as \"Iran Downs Two US Warplanes In 24 Hours; F-15E, A-10 Hit, Pilot Missing, Rescue Choppers Hit\" underscore the escalating direct conflict, while the potential for \"Iran parliament planning to target Bab el Mandeb?\" highlights critical maritime vulnerabilities. These intertwined risks are exacerbating \"Trade & Supply Chain Stress\" and amplifying \"Cyber & Infrastructure Threats\" across global systems.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 74.2,
+        "Geopolitical Conflict Intensity": 87.0,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 69.6,
+        "Trade & Supply Chain Stress": 67.2,
         "Sovereign Financial Stress": 53.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.2,
-        "Cyber & Infrastructure Threats": 69.7,
+        "Sanctions & Regulatory Fragmentation": 61.4,
+        "Cyber & Infrastructure Threats": 64.5,
         "Climate & Resource Shock": 45
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Regional tensions are severely elevated following direct military engagements, with Iran downing US warplanes and the disappearance of a US pilot creating grave escalation risks, as highlighted by \"Iran throws Trump's war plans in a tizzy by downing two jets\" and \"What If Iran Captures The Missing US Pilot? Scenarios That Could Shape The War.\" The ongoing conflict reshapes regional power dynamics and threatens broader stability, impacting international relations far beyond the immediate belligerents.",
-        "Energy & Maritime Disruption": "This pillar registers maximum disruption as the Middle East conflict directly impacts global energy flows, compelling nations like \"Iraq [to turn] to Turkey for oil exports as Middle East war reshapes routes.\" The strategic importance of oil supply is underscored by India's re-entry into Iranian oil markets, signaling efforts to secure supplies amidst potential widespread disruptions and indicating a highly volatile energy landscape.",
-        "Trade & Supply Chain Stress": "Geopolitical realignments are inducing substantial stress on established trade routes and supply chains, particularly in the energy sector, with \"Iraq [turning] to Turkey for oil exports as Middle East war reshapes routes\" signifying a major shift. The re-establishment of \"India Makes First Iranian Oil Buy in Seven Years With No Payment Problems\" also reflects nations actively seeking alternative sourcing strategies to mitigate disruption risks.",
-        "Sovereign Financial Stress": "While the overall score for sovereign financial stress is moderate, market uncertainty persists, with questions raised about investment timing, as seen in \"Is April a good time to start buying shares?\" No direct sovereign debt crises are reported in the immediate feed, suggesting baseline monitoring is currently sufficient for sovereign solvency, despite broader market sentiment fluctuations.",
-        "Currency & Liquidity Pressure": "The re-engagement of \"India Makes First Iranian Oil Buy in Seven Years With No Payment Problems\" indicates the development of alternative financial mechanisms to circumvent traditional payment systems, pointing to underlying pressures on conventional currency and liquidity flows. Nations are actively seeking solutions to facilitate trade amidst geopolitical complexities, which can introduce non-standard financial risks.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory environments are becoming increasingly fragmented as geopolitical conflicts drive nations to navigate or bypass existing international sanctions, notably exemplified by \"India Makes First Iranian Oil Buy in Seven Years With No Payment Problems.\" This development suggests a growing challenge to uniform adherence to international regulatory frameworks, leading to diversified compliance strategies among states.",
-        "Cyber & Infrastructure Threats": "While the news feed does not provide direct headlines on cyberattacks or infrastructure breaches, the high pillar score indicates significant underlying concerns regarding these threats, which often escalate in periods of heightened geopolitical conflict. Maintaining vigilance for potential state-sponsored cyber intrusions and critical infrastructure targeting is paramount given the current global tensions.",
-        "Climate & Resource Shock": "Resource management decisions continue to raise environmental concerns, as demonstrated by \"Trump\u2019s \u2018God Squad\u2019 decision to expand oil drilling in Gulf of Mexico,\" despite warnings about ecological impacts. This highlights an ongoing tension between immediate energy demands and long-term climate resilience, potentially leading to future environmental shocks and resource scarcity issues."
+        "Geopolitical Conflict Intensity": "The \"Geopolitical Conflict Intensity\" remains exceptionally high following reports of \"Iran Downs Two US Warplanes In 24 Hours; F-15E, A-10 Hit, Pilot Missing, Rescue Choppers Hit.\" Further concerns are amplified by discussions around \"What If Iran Captures The Missing US Pilot? Scenarios That Could Shape The War,\" indicating a rapidly evolving and dangerous conflict that 'Trump weighs broader cabinet shake-up as Iran war pressure grows'.",
+        "Energy & Maritime Disruption": "This pillar registers an extreme risk score of 100, directly linked to the emerging threat of \"Iran parliament planning to target Bab el Mandeb? Why this Red Sea\u2013Gulf of Aden strait matters.\" Such an action would have profound and immediate effects on global energy transportation and maritime trade routes worldwide.",
+        "Trade & Supply Chain Stress": "Risk remains elevated due to the intensifying West Asia conflict, with \"\u2018Everything is being weaponised\u2019: S Jaishankar warns of structural global shifts\" highlighting the broad weaponization of economic systems. Potential targeting of the Bab el Mandeb strait, as suggested by news of the Iranian parliament's plans, could directly lead to significant delays and cost increases in global supply chains.",
+        "Sovereign Financial Stress": "This pillar shows moderate risk, with no immediate news pointing to specific sovereign defaults or widespread financial instability, though the broader geopolitical uncertainty could indirectly impact investor confidence. While a personal finance story, the general economic climate implied by headlines like 'At 24, he earns Rs 1 lakh but parents want him to buy Rs 90 lakh home. Internet debates EMI trap vs smart investment' suggests underlying societal financial pressures.",
+        "Currency & Liquidity Pressure": "This area indicates routine monitoring, as the news feed does not contain direct reports of currency depreciation or liquidity crises in major global markets. However, the high geopolitical tensions inherently carry the potential for capital flight and increased pressure on emerging market currencies.",
+        "Sanctions & Regulatory Fragmentation": "Risk is high, with \"\u2018Growing 3x faster than police staffing\u2019: Surge in cybercrime and new laws on ransomware payment could put UK businesses (and their directors) \u2014 in a 'compliance trap'\" indicating increasing regulatory burdens and fragmentation. The ongoing Iran conflict also implies a persistent risk of new international sanctions, further complicating global compliance landscapes.",
+        "Cyber & Infrastructure Threats": "This pillar is experiencing high risk, primarily driven by reports that \"Hackers Are Posting the Claude Code Leak With Bonus Malware,\" showcasing persistent and evolving cyber-attack capabilities. Additionally, the \"Surge in cybercrime\" noted in the UK context points to a growing and pervasive threat landscape for businesses and critical infrastructure.",
+        "Climate & Resource Shock": "This pillar shows routine monitoring, as the provided news feed lacks specific reports of major climate events or significant resource scarcity impacting global markets. Political discourse around \"Green Party deputy leader admits she knows nothing about her party's plans to limit motorway speed limits to 55mph\" does not indicate an immediate or severe climate-related shock, nor does localized petrol pricing information."
     },
     "All_Alerts": [
         {
-            "title": "Iraq turns to Turkey for oil exports as Middle East war reshapes routes",
+            "title": "Hackers Are Posting the Claude Code Leak With Bonus Malware",
             "severity": "HIGH",
-            "url": "https://www.rfi.fr/en/podcasts/international-report/20260404-iraq-turns-to-turkey-for-oil-exports-as-middle-east-war-reshapes-routes",
-            "image": "https://s.rfi.fr/media/display/3cbd14c6-211c-11f1-837f-005056a90284/w:1280/p:16x9/AP26070519352919.jpg",
-            "source": "rfi_fr"
+            "url": "https://www.wired.com/story/security-news-this-week-hackers-are-posting-the-claude-code-leak-with-bonus-malware/",
+            "image": "https://media.wired.com/photos/69d03b9326dd2d3a7ba902f2/16:9/w_2400,h_1350,c_limit/security_roundup_claude_GettyImages-2181575875.jpg",
+            "source": "wired"
         },
         {
-            "title": "Is April a good time to start buying shares?",
+            "title": "Trump weighs broader cabinet shake-up as Iran war pressure grows",
             "severity": "HIGH",
-            "url": "https://uk.finance.yahoo.com/news/april-good-time-start-buying-083500998.html",
-            "image": "https://images.pexels.com/photos/3970331/pexels-photo-3970331.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
+            "url": "https://www.deccanherald.com/world/us/trump-weighs-broader-cabinet-shake-up-as-iran-war-pressure-grows-3956102",
+            "image": "https://media.assettype.com/deccanherald/2026-04-04/blppx5gs/file858jcsjp9pcl417a1iz.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Iran throws Trump's war plans in a tizzy by downing two jets",
+            "title": "Sam Harris, Holocaust survivor who was driving force behind creation of Illinois Holocaust Museum, dies at 90",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/defence/iran-throws-trumps-war-plans-in-a-tizzy-by-downing-two-jets/articleshow/130015894.cms",
-            "image": "https://img.etimg.com/thumb/msid-130015955,resizemode-4,width-1200,height-900,imgsize-85262,overlay-etdefence/articleshow.jpg",
+            "url": "https://chicago.suntimes.com/obituaries/2026/04/04/sam-harris-holocaust-survivor-illinois-dies",
+            "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "chicago_suntimes"
+        },
+        {
+            "title": "Iran Downs Two US Warplanes In 24 Hours; F-15E, A-10 Hit, Pilot Missing, Rescue Choppers Hit",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/videos/times-now/world/iran-downs-two-us-warplanes-in-24-hours-f-15e-a-10-hit-pilot-missing-rescue-choppers-hit-video-153996739",
+            "image": "https://images.pexels.com/photos/31351508/pexels-photo-31351508.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "timesnownews"
+        },
+        {
+            "title": "At 24, he earns Rs 1 lakh but parents want him to buy Rs 90 lakh home. Internet debates EMI trap vs smart investment",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/magazines/panache/at-24-he-earns-rs-1-lakh-but-parents-want-him-to-buy-rs-90-lakh-home-internet-debates-emi-trap-vs-smart-investment/articleshow/130022768.cms",
+            "image": "https://img.etimg.com/thumb/msid-130022828,resizemode-4,width-1200,height-900,imgsize-42732,overlay-etpanache/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Iran shoots down US warplane that can fly 1,875 miles/hr: All about F-15E Strike Eagle fighter jet",
+            "title": "Pakistan\u2019s mediation in the Iran war is a fool rushing where the wise fear to tread",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/iran-shoots-down-us-plane-that-can-fly-1875-miles-hour-all-about-f15e-strike-eagle-fighter-jet-101775287119630.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/04/1600x900/logo/US-WAR-IRAN-ISRAEL-JET-MEDIA-CONFLICT-0_1775287606321_1775287620244.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.firstpost.com/opinion/pakistan-us-iran-mediation-china-support-anodyne-initiative-13996513.html",
+            "image": "https://images.firstpost.com/uploads/2026/04/china2-2026-04-ffae89c4519d57dad03c0c3df8eccbb2.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "Pakistan fumes after reports suggest its peace bid's collapse in Iran war: \u2018Figment of imagination\u2019",
+            "title": "\u2018Everything is being weaponised\u2019: S Jaishankar warns of structural global shifts while hailing India\u2019s resilience amid West Asia war",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/pakistan-fumes-after-reports-suggest-islamabads-peace-bid-collapse-in-iran-war-figment-of-imagination-101775289658898.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/04/1600x900/logo/IRAN-CRISIS-PAKISTAN-AUSTERITY-0_1775290624856_1775290634600.JPG",
-            "source": "hindustantimes"
+            "url": "https://indianexpress.com/article/india/india-s-jaishankar-iim-raipur-convocation-global-shocks-india-economy-resilience-10618729/",
+            "image": "https://images.indianexpress.com/2026/04/S-jaishankar-3.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Why Trump\u2019s \u2018God Squad\u2019 decision to expand oil drilling in Gulf of Mexico is a vote for a whale\u2019s extinction",
+            "title": "Green Party deputy leader admits she knows nothing about her party's plans to limit motorway speed limits to 55mph",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/us/why-trumps-god-squad-decision-to-expand-oil-drilling-in-gulf-of-mexico-is-a-vote-for-a-whales-extinction/articleshow/130001897.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130015859/130015859.jpg",
-            "source": "toi"
+            "url": "https://www.dailymail.co.uk/news/article-15706003/Green-Party-deputy-leader-admits-knows-partys-plans-limit-motorway-speed-limits-55mph.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/04/04/11/107653235-0-image-m-18_1775297506316.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "India Makes First Iranian Oil Buy in Seven Years With No Payment Problems",
+            "title": "Trump eyes cabinet reshuffle as Iran war hits approval ratings at home",
             "severity": "HIGH",
-            "url": "https://www.usnews.com/news/top-news/articles/2026-04-04/india-makes-first-iranian-oil-buy-in-seven-years-with-no-payment-problems",
-            "image": "https://images.pexels.com/photos/31403876/pexels-photo-31403876.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "usnews"
+            "url": "https://www.firstpost.com/world/trump-eyes-cabinet-reshuffle-as-iran-war-hits-approval-ratings-at-home-13996552.html",
+            "image": "https://images.firstpost.com/uploads/2026/04/Trump-March-31-2026-Reuters-2026-04-c365161cd2e7d86d19c3887e34e34800.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "The Best Free Software: 66 Editor-Selected Essentials",
+            "severity": "HIGH",
+            "url": "https://www.pcmag.com/picks/the-best-free-software",
+            "image": "https://i.pcmag.com/imagery/roundups/02HDufdqeRUDu3tl0NnY2qZ-4.fit_lim.size_1200x630.v1747089705.jpg",
+            "source": "pcmag"
+        },
+        {
+            "title": "'Growing 3x faster than police staffing': Surge in cybercrime and new laws on ransomware payment could put UK businesses (and their directors) \u2014 in a \"compliance trap.\"",
+            "severity": "HIGH",
+            "url": "https://www.techradar.com/pro/security/growing-3x-faster-than-police-staffing-surge-in-cybercrime-and-new-laws-on-ransomware-payment-could-put-uk-businesses-and-their-directors-in-a-compliance-trap",
+            "image": "https://cdn.mos.cms.futurecdn.net/5rDPr5xYvLwnkP7ZvpR2w3-1280-80.jpg",
+            "source": "techradar_au"
         },
         {
             "title": "Onlookers seen scaling fence of disgraced former duke's home - EDP24",
@@ -84,7 +112,7 @@
             "title": "NBA hears conflicting stories while investigating Bucks as Giannis breaks silence",
             "severity": "HIGH",
             "url": "https://sports.yahoo.com/articles/nba-hears-conflicting-stories-while-083000834.html",
-            "image": "https://images.pexels.com/photos/3183174/pexels-photo-3183174.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "image": "https://images.pexels.com/photos/28639177/pexels-photo-28639177.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo"
         },
         {
@@ -95,109 +123,137 @@
             "source": "news18"
         },
         {
-            "title": "Bengal Judicial Officers Warned Of Danger A Week Before Hostage Crisis",
-            "severity": "HIGH",
-            "url": "https://www.ndtvprofit.com/india/bengal-judicial-officers-warned-of-danger-a-week-before-hostage-crisis-11309975",
-            "image": "https://c.ndtvimg.com/2026-04/vp2iabc8_bengal-sir_625x300_02_April_26.jpg?im=FitAndFill,algorithm=dnn,width=1080,height=607",
-            "source": "ndtv"
-        },
-        {
-            "title": "LIVE UPDATES: Is Israel's PM Benjamin Netanyahu Dead? Fact Emerges",
-            "severity": "HIGH",
-            "url": "https://www.legit.ng/world/asia/1699020-surrender-die-trumps-israel-launch-attack-iran-live-updates/",
-            "image": "https://cdn.legit.ng/images/1200x675/f52656f1a93e88c3.jpeg?v=1",
-            "source": "legit"
-        },
-        {
-            "title": "Shreyas Iyer in trouble: PBKS captain fined, one step away from ban",
-            "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/shreyas-iyer-trouble-pbks-captain-081300515.html",
-            "image": "https://images.pexels.com/photos/19500300/pexels-photo-19500300.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "These apartments were donated for social housing for the elderly. Now they\u2019re being sold",
-            "severity": "HIGH",
-            "url": "https://www.smh.com.au/politics/victoria/these-apartments-were-donated-for-social-housing-for-the-elderly-now-they-re-being-sold-20260401-p5zknq.html",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "smh"
-        },
-        {
-            "title": "India\u2019s crude oil supply fully secured, no payment hurdle for Iranian imports: Petroleum Ministry",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/indias-crude-oil-supply-fully-secured-no-payment-hurdle-for-iranian-imports-petroleum-ministry/articleshow/130016022.cms",
-            "image": "https://img.etimg.com/thumb/msid-130016016,resizemode-4,width-1200,height-900,imgsize-65420,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "'Global shocks tested resilience, India has come through solidly': Jaishankar",
-            "severity": "MEDIUM",
-            "url": "https://www.moneycontrol.com/news/india/global-shocks-tested-resilience-india-has-come-through-solidly-jaishankar-13879926.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260202194016_jaishankarpic.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Delhi mandates LPG supply to businesses only if they have PNG connection",
+            "title": "Build your profile",
             "severity": "WATCH",
-            "url": "https://www.business-standard.com/india-news/delhi-mandates-lpg-supply-to-businesses-only-if-they-have-png-connection-126040400298_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/26/full/1774520518-6067.jpg",
-            "source": "business-standard"
+            "url": "https://www.thehindu.com/education/build-your-profile/article70814058.ece",
+            "image": "https://th-i.thgim.com/public/education/tqj0n6/article70821173.ece/alternates/FREE_1200/Featured%20Image_Off%20the%20edge.jpg",
+            "source": "thehindu"
         },
         {
-            "title": "A doctor shares 3 simple healthy aging habits from Norway, an underrated longevity hotspot",
+            "title": "Iran parliament planning to target Bab el Mandeb? Why this Red Sea\u2013Gulf of Aden strait matters",
             "severity": "WATCH",
-            "url": "https://www.businessinsider.com/doctor-shares-fun-anti-aging-tips-hidden-longevity-hotspot-norway-2026-3",
-            "image": "https://images.pexels.com/photos/3970331/pexels-photo-3970331.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "businessinsider_us"
-        },
-        {
-            "title": "Gold and Silver: Potential Gap-Up Opening in Oil May Trigger Significant Selling",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/analysis/gold-and-silver-potential-gapup-opening-in-oil-may-trigger-significant-selling-200612937",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "How I got free return flights to the Caribbean by earning points on my weekly shop, wedding spending and beauty treatments",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.co.uk/travel/article-15698751/How-got-free-return-flights-Caribbean-earning-points-weekly-shop-wedding-spending-beauty-treatments.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/04/03/13/107636731-0-image-a-2_1775218414225.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Barclays sees limited steel impact from Iran strikes, flags China reliance",
-            "severity": "WATCH",
-            "url": "https://uk.finance.yahoo.com/news/barclays-sees-limited-steel-impact-083408099.html",
-            "image": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
-            "source": "yahoo"
-        },
-        {
-            "title": "Faslane: Security questions as personnel 'tracked base runs on Strava'",
-            "severity": "WATCH",
-            "url": "https://www.scotsman.com/news/faslane-security-questions-as-personnel-tracked-base-runs-on-strava-6563583",
-            "image": "https://www.scotsman.com/webimg/b25lY21zOjNlZTRjMmY0LWYzOGQtNDk0My1hYzFjLWNkY2YzNzNmMmI2YzowNWRlYjQ5ZS05OTU3LTQwZGMtOGIzOC04N2FkMGVjMThmM2E=.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "scotsman"
-        },
-        {
-            "title": "Salman Khan calls NMACC \u201cNext Level\u201d at star-studded anniversary event: Watch video",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/entertainment/salman-khan-calls-nmacc-next-level-at-star-studded-anniversary-event-watch-video-article-13879921.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260404083801_sallu.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "'Factually incorrect': India rejects 'payment issues' claim over Iranian crude tanker's diversion to China",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/factually-incorrect-india-rejects-payment-issues-claim-over-iranian-crude-tankers-diversion-to-china/articleshow/130015805.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130015891/130015891.jpg",
+            "url": "https://timesofindia.indiatimes.com/defence/iran-parliament-planning-to-target-bab-el-mandeb-why-this-red-seagulf-of-aden-strait-matters-india-trade-chokepoint/articleshow/130017334.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130017452/130017452.jpg",
             "source": "toi"
         },
         {
-            "title": "Trump's white working-class votes crashes into the negative for first time ever",
+            "title": "Ranveer Singh celebrates Dhurandhar\u2019s success by dancing to Farhan Akhtar\u2019s song amid Don 3 row. Watch",
             "severity": "WATCH",
-            "url": "https://www.dailystar.co.uk/news/us-news/trumps-white-working-class-votes-36968193",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36968041.ece/ALTERNATES/s615/1_Trump-Iran-US-26092093399000.jpg",
-            "source": "dailystar"
+            "url": "https://indianexpress.com/article/entertainment/bollywood/ranveer-singh-celebrates-dhurandhar-success-dancing-to-farhan-akhtar-song-amid-don-3-row-10618883/",
+            "image": "https://images.indianexpress.com/2026/04/farhan-akhtar-ranveer-singh.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Toronto FC's Sargent looking for first goal as team welcomes Rapids to BMO Field",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/toronto/sports/article/toronto-fcs-sargent-looking-for-first-goal-as-team-welcomes-rapids-to-bmo-field/",
+            "image": "https://www.ctvnews.ca/resizer/v2/JAWAHS6ARF23OEWHYE7YGYZGUY.jpg?auth=bee424930943d9b827d4f84bc05f1ed79210143139bf9ed564eae8b709b40d23&smart=true&width=1400&height=933",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Post-Passover recipes to try: Bagels, veggie soup, chicken, and almond cookies",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/food-recipes/article-891761",
+            "image": "https://images.pexels.com/photos/9494906/pexels-photo-9494906.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "jpost"
+        },
+        {
+            "title": "Birmingham's cheapest petrol stations ranked",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/birminghams-cheapest-petrol-stations-ranked-33715486",
+            "image": "https://i2-prod.birminghammail.co.uk/incoming/article33715703.ece/ALTERNATES/s615/0_Queues-for-fuel-and-garages-that-have-run-out-of-petrol-across-Britain.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "UConn men in final leg of quest for championship No. 7. And it has a nice \u2018ring\u2019 to it.",
+            "severity": "WATCH",
+            "url": "https://www.courant.com/2026/04/04/uconn-men-in-final-leg-of-quest-for-championship-no-7-and-it-has-a-nice-ring-to-it/",
+            "image": "https://www.courant.com/wp-content/uploads/2026/04/THC-2269676317_261260976.jpg?w=1400px&strip=all",
+            "source": "courant"
+        },
+        {
+            "title": "Prime Video\u2019s Sci-Fi Legal Thriller Dominates Global Streaming 3 Months After Box Office Failure",
+            "severity": "WATCH",
+            "url": "https://collider.com/rebecca-ferguson-sci-fi-thriller-mercy-streaming-success-prime-video-april-2026/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/03/mcdmerc_mg004.jpg?w=1600&h=900&fit=crop",
+            "source": "collider"
+        },
+        {
+            "title": "MetaSoilVerse Protocol Brings RWA Infrastructure On-Chain with Staking and LBank Listing",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/content/press-releases-ani/metasoilverse-protocol-brings-rwa-infrastructure-on-chain-with-staking-and-lbank-listing-126040400454_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-04/04/full/20260404150127.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "\u2018Cockroaches coming out of food...\u2019: Sonali Raut sends notice to \u2018Bigg Boss Marathi 6\u2019 makers",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/movies-music/news/sonali-raut-big-rats-cockroaches-food-bigg-boss-marathi-6-legal-notice-ju5sdxvz",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1q8qwxmp7ugxc7qovme/0/sonali-raut-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "No Disruption In Iran Oil Supplies To India, Govt Debunks \u2018Diversion To China\u2019 Reports",
+            "severity": "WATCH",
+            "url": "https://news.abplive.com/news/india/no-disruption-in-iran-oil-supplies-to-india-govt-debunks-diversion-to-china-reports-1834596",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/04/90212f241d5f7605600f636ec9a4f7491775298525323272_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "'I felt my blood run cold': The disturbing email about Jeffrey Epstein's 10,000-acre Zorro ranch - and claims his darkest secrets were 'covered up' there",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.co.uk/news/article-15701847/Jeffrey-Epstein-Zorro-Ranch.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/04/03/15/107621801-0-image-a-11_1775227705835.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Four in court charged over \u20ac7m cannabis seizure in Co Kildare",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/crime-law/courts/2026/04/04/four-in-court-charged-over-7m-cannabis-seizure-in-co-kildare/",
+            "image": "https://www.irishtimes.com/resizer/v2/QMCSCA4UVFGZJM3GAXLA24VSLI.JPG?auth=5bc2b6cce93adfbd3b1c1ae722acf260e6d95052bc8a21fa941d589ed1cf2296&smart=true&width=630&height=350",
+            "source": "irishtimes"
+        },
+        {
+            "title": "Express Townhall | \u2018We surveyed 1000 construction sites, and not a single one was following guidelines\u2019, says PMC Commissioner Naval Kishore Ram",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/cities/pune/express-townhall-we-surveyed-1000-construction-sites-and-not-a-single-one-was-following-guidelines-says-pmc-commissioner-naval-kishore-ram-10618902/",
+            "image": "https://images.indianexpress.com/2026/04/PMC-commissioner-Naval-Kishore-Ram.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Delhi govt mandates LPG supply to businesses only if they apply for PNG connection",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/india/delhi-govt-mandates-lpg-supply-to-businesses-only-if-they-apply-for-png-connection-13879979.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260325033611_lpgshortage.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "\"Factually Incorrect\": India rejects claims of Iranian oil cargo diversion to China",
+            "severity": "WATCH",
+            "url": "https://zeenews.india.com/world/factually-incorrect-india-rejects-claims-of-iranian-oil-cargo-diversion-to-china-3033591.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/04/04/1927036-india-iran-oil-import-china-iran-oil-import-iran-us-war-middle-east-war.jpg?im=Resize=(1200,900)",
+            "source": "zeenews"
+        },
+        {
+            "title": "Lucid misses first-quarter vehicle delivery estimates on supplier disruptions",
+            "severity": "WATCH",
+            "url": "https://www.cnbc.com/2026/04/04/lucid-lcid-q1-deliveries-production.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/107335162-17001584332023-11-16t174159z_1741943658_rc2he4ainrpp_rtrmadp_0_autoshow-la.jpeg?v=1700158492&w=1200&h=675",
+            "source": "cnbc"
+        },
+        {
+            "title": "New North Sea drilling would barely reduce UK gas imports at all, data shows",
+            "severity": "WATCH",
+            "url": "https://www.theguardian.com/environment/2026/apr/04/new-north-sea-drilling-jackdaw-rosebank-uk-gas-imports",
+            "image": "https://i.guim.co.uk/img/media/ee76721a4511007e28193dad1bec1a4ca40024bd/269_0_3327_2662/master/3327.jpg?width=140&quality=85&auto=format&fit=max&s=ca81021c85d6f9a8a6bec15bb8a22024",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "'17 Calls Between Nashik Godman, Maharashtra DyCM Eknath Shinde': Activist Cites CDR Data",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/mumbai/nashik-godman-ashok-kharat-maharashtra-deputy-cm-eknath-shinde-17-phone-anjali-damania-article-153995899",
+            "image": "https://images.timesnownews.com/thumb/msid-153996182,thumbsize-40246,width-1280,height-720,resizemode-75/153996182.jpg",
+            "source": "timesnownews"
         },
         {
             "title": "Premier League club scrapped new crest after qualifying for Champions League amid fan frustration",
@@ -205,14 +261,7 @@
             "url": "https://talksport.com/football/4038413/aston-villa-new-crest-fan-survey-premier-league/",
             "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "talksport"
-        },
-        {
-            "title": "'I will never stop fighting': Blake Lively responds after judge dismisses most of her claims against Justin Baldoni",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/entertainment/i-will-never-stop-fighting-blake-lively-responds-after-judge-dismisses-most-of-her-claims-against-justin-baldoni-1.500496054",
-            "image": "https://media.assettype.com/gulfnews/2025-06-10/a8gw3koj/preview.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
         }
     ],
-    "Last_Updated": "2026-04-04T20:40:25.891260Z"
+    "Last_Updated": "2026-04-04T22:37:09.733486Z"
 }
