@@ -1,70 +1,147 @@
 {
-    "AGRI_Score": 63.7,
-    "Velocity": "+0.7",
+    "AGRI_Score": 66.6,
+    "Velocity": "+2.9",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The current AGRI score of 63.7 reflects significantly elevated global risk, primarily driven by extreme \"Energy & Maritime Disruption\" and intensified \"Geopolitical Conflict Intensity.\" Threats to crucial shipping lanes and energy infrastructure, evidenced by \"Ukraine drones blamed for cargo ship sinking as Russian oil exports disrupted\" and \"Trump Gives Strict Deadline To Reopen Strait Of Hormuz,\" are exacerbating supply chain pressures. The heightened tensions surrounding Iran and its actions are central to this volatile risk landscape, with direct implications for global trade and security.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 66.6/100 indicates a high level of strategic risk, predominantly driven by critical disruptions in Energy & Maritime sectors and escalating Geopolitical Conflict Intensity. The 'US-Israeli War With Iran Continues to Disrupt Supply' of oil, as reported, directly contributes to the severe energy pillar score and global market jitters. This high-stakes conflict, evidenced by 'How The United States Rescued 2 Aviators After Iran Shot Down Their Fighter Jet', combined with other regional conflicts, is directly impacting financial stability, as seen in 'Dow futures fall over 300 points as Trump threatens escalation, oil prices rise'.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 78.3,
+        "Geopolitical Conflict Intensity": 83.8,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 68.5,
+        "Trade & Supply Chain Stress": 79.4,
         "Sovereign Financial Stress": 53.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 62.2,
+        "Sanctions & Regulatory Fragmentation": 62.9,
+        "Cyber & Infrastructure Threats": 60.4,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is at a critical level due to severe rhetoric and actions, including \"Iran \u2018used Russian missiles\u2019 to shoot down US fighter jet as Trump launches expletive rant\" and \"Trump issues expletive-laden threat to Iran over Hormuz Strait blockage.\" These events signify a high risk of escalation in military or proxy conflicts between major powers, alongside internal repression as seen with \"Iran hangs two convicted of links with Israel in pre-war protests: judiciary.\"",
-        "Energy & Maritime Disruption": "The score of 100 for this pillar is critically high, directly supported by headlines like \"Ukraine drones blamed for cargo ship sinking as Russian oil exports disrupted,\" indicating active attacks on energy transport. Furthermore, explicit threats to vital chokepoints, such as \"Trump Gives Strict Deadline To Reopen Strait Of Hormuz,\" underscore an acute and immediate risk to global maritime trade and energy supply security.",
-        "Trade & Supply Chain Stress": "This pillar reflects elevated stress, largely due to ongoing geopolitical disruptions and raw material scarcity. \"Plastic goods get dearer as war, raw material hoarding take toll\" explicitly links conflict and supply issues to increased costs and potential shortages for goods. Maritime disruptions, stemming from energy-related attacks, further contribute to global shipping delays and increased freight expenses.",
-        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, with emerging signs of corporate distress that could pressure national economies. The \"Distressed firms surge in South Korea amid high rates\" indicates underlying economic fragility within key global economies, potentially leading to future government intervention or revenue shortfalls. This suggests a need for close monitoring of corporate debt and banking sector health.",
-        "Currency & Liquidity Pressure": "This pillar is currently experiencing baseline activity, yet the global geopolitical and economic uncertainties hint at potential future volatility. While no direct headlines indicate immediate currency or liquidity crises, the surge in distressed firms globally could predate broader financial tightening. Persistent global tensions inherently increase the risk of capital flight or sudden shifts in currency valuations, necessitating continuous observation.",
-        "Sanctions & Regulatory Fragmentation": "The elevated score for this pillar is driven by the severe geopolitical rhetoric and actions, which significantly increase the likelihood of new sanctions. \"Trump issues expletive-laden threat to Iran over Hormuz Strait blockage\" signals a potential for extensive punitive measures, leading to greater fragmentation in international trade and financial regulations. This environment creates complex compliance challenges and could isolate specific markets or entities.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats remain elevated, as evidenced by continued incidents impacting essential services. \"EA making 'good progress' to restore school IT systems after cyber attack\" highlights ongoing vulnerabilities within critical IT infrastructure, underscoring the persistent risk of operational disruption. This sustained threat level requires robust cyber defenses and rapid response capabilities across all sectors.",
-        "Climate & Resource Shock": "While the overall score for this pillar is low, localized resource shocks are beginning to emerge, indicating increasing vulnerability. \"Homeowners fearing unavoidable HOA \u2018lawn\u2019 fines after city limits water supply \u2013 & officials admit they won\u2019t intervene\" directly illustrates the impact of regional water scarcity on communities. Such events suggest that climate-related resource limitations are becoming tangible and may escalate in frequency and severity."
+        "Geopolitical Conflict Intensity": "Geopolitical tensions are critically high, marked by direct military confrontation and explicit threats between major actors. The headline 'How The United States Rescued 2 Aviators After Iran Shot Down Their Fighter Jet' directly evidences ongoing military engagement, while 'Iran Warns of 'In Kind' Response to US Threats on Infrastructure' highlights escalating rhetoric and the potential for broader conflict.",
+        "Energy & Maritime Disruption": "This pillar is at a critical level due to direct supply disruptions and significant political fallout from energy costs. 'Oil Prices Open Higher as US-Israeli War With Iran Continues to Disrupt Supply' confirms an active and severe impact on global energy markets, while 'Starmer has \u2018utterly failed\u2019 to help Scots during energy \u2018crisis\u2019, Swinney says' points to significant domestic political stress related to energy access.",
+        "Trade & Supply Chain Stress": "Global trade structures face pressure from the broader geopolitical environment, with businesses advised to consider diversification. While not reporting direct logistical blockages, the BBL recommending 'Thai businesses mull expansion to India' suggests a strategic response to perceived or potential instabilities in current trade configurations.",
+        "Sovereign Financial Stress": "Financial markets are reacting negatively to geopolitical events and domestic fiscal challenges, impacting sovereign stability. 'Dow futures fall over 300 points as Trump threatens escalation, oil prices rise' demonstrates market volatility linked to global political and energy shocks, while 'Britain is becoming unsustainably over-reliant on the State' highlights underlying domestic fiscal vulnerability.",
+        "Currency & Liquidity Pressure": "War-related market jitters are impacting financial asset liquidity and sovereign debt, leading to increased pressure. 'Japan bond yields hit multi-decade highs as war, US data rattle markets' indicates broad market nervousness and pressure on sovereign debt, while 'Iran war hits India's star investors: Ashish Kacholia, Mukul Agrawal, others see 90% of their stocks lose' underscores a direct negative impact on investment liquidity.",
+        "Sanctions & Regulatory Fragmentation": "The persistent high geopolitical conflict environment creates conditions ripe for evolving sanctions regimes and regulatory divergence. While no new specific sanctions are detailed, the context of 'US-Israeli War With Iran' inherently suggests an environment prone to further sanction developments and increased regulatory complexity across international jurisdictions.",
+        "Cyber & Infrastructure Threats": "Cyber threats are a direct and active concern, with specific warnings and confirmed incidents impacting critical systems. 'Iran Warns of 'In Kind' Response to US Threats on Infrastructure' indicates a high potential for state-sponsored cyber-attacks, and 'Meta pauses all contracts with Mercor after breach' signifies a real-world cyber incident impacting a major corporation.",
+        "Climate & Resource Shock": "This pillar exhibits baseline activity, with localized resource management issues rather than widespread shocks at a global scale. 'Siddipet police warn against illegal sand transportation' highlights regional concerns regarding resource exploitation and regulatory enforcement, but does not indicate a systemic or global climate-related shock."
     },
     "All_Alerts": [
         {
-            "title": "Ukraine drones blamed for cargo ship sinking as Russian oil exports disrupted",
+            "title": "Starmer has \u2018utterly failed\u2019 to help Scots during energy \u2018crisis\u2019, Swinney says",
             "severity": "HIGH",
-            "url": "https://www.channelnewsasia.com/world/ukraine-drones-blamed-cargo-ship-sinking-russian-oil-exports-disrupted-6037916",
-            "image": "https://dam.mediacorp.sg/image/upload/s--UhN49YZA--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-01-01T084829Z_1_LYNXMPEM000RY_RTROPTP_3_RUSSIA-PUTIN.JPG?itok=EVDq5Y2Z",
-            "source": "channelnewsasia"
+            "url": "https://www.standard.co.uk/news/politics/keir-starmer-westminster-prime-minister-first-minister-b1277742.html",
+            "image": "https://static.standard.co.uk/2026/04/06/00/05155522-54348f4c-3d4a-4cff-812b-61df05b72c35.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
         },
         {
-            "title": "Iran \u2018used Russian missiles\u2019 to shoot down US fighter jet as Trump launches expletive rant",
+            "title": "Britain is becoming unsustainably over-reliant on the State and Labour\u2019s making the culture of dependency worse",
             "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/world/2190678/iran-used-russian-missiles-shoot-us-jet-donald-trump",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2190678_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Iran hangs two convicted of links with Israel in pre-war protests: judiciary",
-            "severity": "HIGH",
-            "url": "https://www.thehindu.com/news/international/iran-hangs-two-convicted-of-links-with-israel-in-pre-war-protests-judiciary/article70827884.ece",
-            "image": "https://th-i.thgim.com/public/incoming/smst6v/article70827885.ece/alternates/FREE_1200/AFP__20260403__A6NH3XU__v1__HighRes__IranIsraelUsWar.jpg",
-            "source": "thehindu"
-        },
-        {
-            "title": "Did Qasem Soleimani\u2019s Niece Hamideh Soleimani Afshar Have A Troubled Past? 'Ex-Boyfriend' Reveals Details",
-            "severity": "HIGH",
-            "url": "https://www.timesnownews.com/world/us/us-news/did-qasem-soleimanis-niece-hamideh-soleimani-afshar-have-a-troubled-past-alleged-ex-boyfriend-reveals-details-article-154005021",
-            "image": "https://images.timesnownews.com/thumb/msid-154005038,thumbsize-844180,width-1280,height-720,resizemode-75/154005038.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Homeowners fearing unavoidable HOA \u2018lawn\u2019 fines after city limits water supply \u2013 & officials admit they won\u2019t intervene",
-            "severity": "HIGH",
-            "url": "https://www.the-sun.com/news/16177858/drought-restrictions-hoa-fines-homeowners-denver-colorado/",
-            "image": "https://www.the-sun.com/wp-content%2Fuploads%2Fsites%2F6%2F2026%2F04%2Fnewspress-collage-ah0l1sbxr-1775250451391.jpg?quality%3D90%26strip%3Dall%261775236110",
+            "url": "https://www.thesun.co.uk/news/38734853/labour-help-working-families-not-welfare-cash-in/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F04%2Fcrop-38734919.jpg?quality%3D80%26strip%3Dall",
             "source": "thesun"
         },
         {
-            "title": "Plastic goods get dearer as war, raw material hoarding take toll",
+            "title": "Iran Warns of 'In Kind' Response to US Threats on Infrastructure",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/chennai/plastic-goods-get-dearer-as-war-raw-material-hoarding-take-toll/articleshow/130045508.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130045497/130045497.jpg",
+            "url": "https://newsable.asianetnews.com/world/iran-warns-of-in-kind-response-to-us-threats-on-infrastructure-articleshow-2sgoscm",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-c0d7557d-8d1f-4eb1-9e43-a93a613c2fa7.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "How The United States Rescued 2 Aviators After Iran Shot Down Their Fighter Jet",
+            "severity": "HIGH",
+            "url": "https://www.huffpost.com/entry/how-united-states-rescued-2-aviators-shot-iran_n_69d2e4d6e4b05047ac8ee058",
+            "image": "https://img.huffingtonpost.com/asset/69d2e4d714000006bc86d2ee.jpeg?ops=1778_1000",
+            "source": "huffpost"
+        },
+        {
+            "title": "J.R.R. Tolkien\u2019s Cancelled Lord of the Rings Sequel Story Explained & Why It Never Happened",
+            "severity": "HIGH",
+            "url": "https://comicbook.com/movies/feature/j-r-r-tolkiens-cancelled-lord-of-the-rings-sequel-story-explained-why-it-never-happened/",
+            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/03/The-Fellowship-of-the-Ring.jpg",
+            "source": "comicbook"
+        },
+        {
+            "title": "Top Actor\u2019s Instagram Flooded With Hate\u2014Fans Baffled By The Reason - Koreaboo",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMTd4TndzanNVYXhYdXZ0ZEYyZUtETkdIRlBubHh2b1RIdmpDdE5TakpUNXVGOEFFSDI2eW9RcXFIWWs2T0JhcnoxSFJQZzhjLWg3TU9aRGdtMWpvQUREd0dRbFdJWTItb1NvaS1FZkFxS2pFM0NBNVZuU2ViRTJMQ3Y4NVdoU08ySDlCdXNBdHpoTUxlMS1RN0t4R0locnFyejFNaA?oc=5",
+            "image": "https://images.pexels.com/photos/21617978/pexels-photo-21617978.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Russia Says It Downed 148 Ukrainian Drones in 3 Hours",
+            "severity": "HIGH",
+            "url": "https://www.newsmax.com/newsfront/russia-148-ukrainian-drones-3-hours/2026/04/05/id/1251905",
+            "image": "https://images.pexels.com/photos/36314750/pexels-photo-36314750.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "newsmax"
+        },
+        {
+            "title": "Southport riots were considered for emergency alerts",
+            "severity": "HIGH",
+            "url": "https://www.standard.co.uk/news/politics/government-cabinet-office-southport-press-association-england-b1277748.html",
+            "image": "https://static.standard.co.uk/2026/04/06/00/ed2d6315eedda994f04d2e66b6e49c48Y29udGVudHNlYXJjaGFwaSwxNzc1MjMxMDA4-2.71875144.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
+        },
+        {
+            "title": "Oil Prices Open Higher as US-Israeli War With Iran Continues to Disrupt Supply",
+            "severity": "HIGH",
+            "url": "https://www.newsmax.com/newsfront/oil-prices-us-israel/2026/04/05/id/1251904",
+            "image": "https://images.pexels.com/photos/27815335/pexels-photo-27815335.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "newsmax"
+        },
+        {
+            "title": "Siddipet police warn against illegal sand transportation",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/hyderabad/siddipet-police-warn-against-illegal-sand-transportation/articleshow/130045837.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117518051/117518051.jpg",
             "source": "toi"
+        },
+        {
+            "title": "Dow futures fall over 300 points as Trump threatens escalation, oil prices rise - CNBC TV18",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZldDLXlLdGVtWUNCZ0RQZ0djNFNPNEM0Z0h5Umk4Z050dmRIMWhSelFDb1VFYVVBZzVzUFNiSl9NRmg3SVhTeFVKOVltb210ZEMxOHRIRHFHVVJTWm9ZN29PWG5GYTlncVFZR1dla0dIbndBcXZnQzYwTE9Nd1BaV1l2MDlXamlLWG0yWEJkRzZvcjJrZEVvU29ZUjY5dUZLUEVqU1p4M3BRZmswNEYxOU1oMGtseTNXM1J5Qk1wRnJ6Vkd3R3NoMmdzUlRtcE53LVpKQ3lrYlFJcmvSAeABQVVfeXFMUHhjSDNKSk1HOC1ObEprNkdhS1pQVjlEbENjZWJMcF9xcnMyeGVsNTNXNUlVclg4RktVZzV4UGVNemhWeW9qa1lrY2lha3lUWnI1bS1wYVc5SVZVOGlzUXpPTG43blFQQ1hOaHBqSkNqSUJGcXU3UWwyY09ZWE0tZFdHTDlUZFYwNHJJQjdvRWVYUktscVJjZXM1MXZfOWltRHN0X0pNOE1KMkNHZzg1REE4aFF1S0JfM2JhcG5vZE42aTRTTnVUZzE1M2VieWdxazdlYXJxOFhGZlJsR3lqal8?oc=5",
+            "image": "https://images.pexels.com/photos/9407369/pexels-photo-9407369.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Global Market | Japan bond yields hit multi-decade highs as war, US data rattle markets",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-bond-yields-hit-multi-decade-highs-as-war-us-data-rattle-markets/articleshow/130050848.cms",
+            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-409410,resizemode-75,msid-130050848/markets/us-stocks/news/global-market-japan-bond-yields-hit-multi-decade-highs-as-war-us-data-rattle-markets.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Iran war hits India's star investors: Ashish Kacholia, Mukul Agrawal, others see 90% of their stocks lose in 2026",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/iran-war-hits-indias-star-investors-ashish-kacholia-mukul-agrawal-others-see-90-of-their-stocks-lose-in-2026/articleshow/130050938.cms",
+            "image": "https://img.etimg.com/thumb/msid-130050935,resizemode-4,width-1200,height-900,imgsize-2861549,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Looking for the off-ramp ...",
+            "severity": "HIGH",
+            "url": "https://www.dailykos.com/stories/2026/4/5/2376015/-Looking-for-the-off-ramp",
+            "image": "https://cdn.prod.dailykos.com/images/1540946/story_image/20260401edohc-a.jpg?1775147027",
+            "source": "dailykos"
+        },
+        {
+            "title": "Exclusive | Three Gulf Funds Agree to Back Paramount\u2019s $81 Billion Takeover of Warner - WSJ",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObDVIaHk3UXYtZW5tSzE2YzdCSzIxalpZc3dKbmVOeFFQZEhXeDhJWENtVkcwb084OVRoQVEwMVJhVkhvT013TmVkSWt6THNFY0NacjdXcDNocnFGcG5haUwzeWZjQmxPSFVIYnRaZ0w1Tkc5TWdWSnpINE1kSEhHelVieEY5TWExakhQZDB4T2dDbC1RaEFCUk1kUDN2Z0FjVlFlcy1HbXplNWRESUMyU3VGczJVQQ?oc=5",
+            "image": "https://images.pexels.com/photos/6949385/pexels-photo-6949385.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Edward and Sophie forced into cottage at Sandringham - London Evening Standard",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOWItaXhNSllndm5uUVRrS0xWTHRVV3RlMzZpeWdIaVFBb3J2V3dZaUo2WTZfZGo1Wm0zX3BReHU4aThKMGRXODBlQ0lmdzdZZnZUUVU1aXlyYmJYbk5PT0lrYzFRQk1lM3cwcnNrV3pYNzVCV3pLd1BRR2lwQ2lRaUthdzZDLUhITVVXX1NXWEptSmlzQnlz?oc=5",
+            "image": "https://images.pexels.com/photos/586067/pexels-photo-586067.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Meta pauses all contracts with Mercor after breach",
+            "severity": "HIGH",
+            "url": "https://www.socialmediatoday.com/news/meta-pauses-all-contracts-with-mercor-after-breach/816663/",
+            "image": "https://imgproxy.divecdn.com/GCrRScjXmeQRnTo8c5ZyS5X-topKX1R8IRVpVx2uahU/g:ce/rs:fill:1200:1200:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9mYl9zZWN1cml0eV81LnBuZw==.webp",
+            "source": "socialmediatoday"
         },
         {
             "title": "Ex, current NIS chiefs spotlight neutrality concerns",
@@ -81,137 +158,123 @@
             "source": "usmagazine"
         },
         {
-            "title": "EA making 'good progress' to restore school IT systems after cyber attack",
-            "severity": "HIGH",
-            "url": "https://www.bbc.com/news/articles/cp8djn20n8ko",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/e65c/live/c36e3310-16ef-11f1-a694-e5c2b699acf9.jpg",
-            "source": "bbc"
+            "title": "BBL recommends Thai businesses mull expansion to India",
+            "severity": "MEDIUM",
+            "url": "https://www.bangkokpost.com/business/general/3231409/bbl-recommends-thai-businesses-mull-expansion-to-india",
+            "image": "https://static.bangkokpost.com/media/content/dcx/2026/04/06/6037444.jpg",
+            "source": "bangkokpost"
         },
         {
-            "title": "Trump\u2019s Chances of Being Removed by 25th Amendment Climb",
-            "severity": "WATCH",
-            "url": "https://www.newsweek.com/trumps-chances-of-being-removed-by-25th-amendment-climb-11785658",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/04/AP26092807439700.jpg?w=1600&h=900&q=88",
-            "source": "newsweek"
+            "title": "Joint mutual will alert: Surviving spouse can\u2019t change beneficiaries after partner\u2019s death - what parents must know",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/wealth/legal/will/joint-mutual-will-alert-surviving-spouse-cant-change-beneficiaries-after-partners-death-what-parents-must-know/articleshow/130049645.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-340688,resizemode-75,msid-130049645/wealth/legal/will/joint-mutual-will-alert-surviving-spouse-cant-change-beneficiaries-after-partners-death-what-parents-must-know.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Distressed firms surge in South Korea amid high rates",
+            "title": "Recipe: Flaky little bundles of asparagus in puff pastry blankets are elegant on the table",
             "severity": "WATCH",
-            "url": "https://www.upi.com/Top_News/World-News/2026/04/05/biz/9841775423332/",
-            "image": "https://cdnph.upi.com/ph/st/th/9841775423332/2026/i/17754235426419/v1.5/Distressed-firms-surge-in-South-Korea-amid-high-rates.jpg",
-            "source": "upi"
+            "url": "https://www.bostonglobe.com/2026/04/05/lifestyle/asparagus-in-blankets/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/IGJVIDRBMVBVPOWP4X62E6NYJI.jpg?auth=f4f993e76b58f86cf1649020a65b4b71ac4d66fba4756d194d05840fa02e0aa9&smart=true&width=5411&height=3607",
+            "source": "bostonglobe"
         },
         {
-            "title": "It\u2019s something you\u2019ve got to work on. It\u2019s only going ...",
+            "title": "Scientists find way to make healthier and \u2018oozier\u2019 vegan cheese",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/something-ve-got-only-going-211357575.html",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.standard.co.uk/news/uk/scientists-b1277752.html",
+            "image": "https://static.standard.co.uk/2026/04/06/00/a09e6a7b5a16c29b469f131a0e1d7076Y29udGVudHNlYXJjaGFwaSwxNzc1MjMzMDcy-2.3828354.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
+        },
+        {
+            "title": "Win a two-night staycation at this \u2018fabulous\u2019 historic adults-only hotel plus nature spa in Wales",
+            "severity": "WATCH",
+            "url": "https://metro.co.uk/2026/04/06/win-a-two-night-staycation-this-fabulous-historic-adults-only-hotel-plus-nature-spa-wales-27659248/",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/04/Heather_Birnie_Fforest_Albion-81f7-e1774952345785.jpg?quality=90&strip=all",
+            "source": "metro"
+        },
+        {
+            "title": "Horoscope today, April 6, 2026: Daily star sign guide from Mystic Meg",
+            "severity": "WATCH",
+            "url": "https://www.thesun.co.uk/fabulous/38730210/horoscope-daily-star-sign-mystic-meg-april-6/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F03%2Fnewspress-collage-pk810zu0u-1772323958850.jpg?quality%3D90%26strip%3Dall%261772323974",
+            "source": "thesun"
+        },
+        {
+            "title": "Daily horoscope April 6, 2026: Today\u2019s predictions for your star sign",
+            "severity": "WATCH",
+            "url": "https://metro.co.uk/2026/04/06/daily-horoscope-april-6-2026-todays-predictions-star-sign-27842187/",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/SEC_152845384-9ad1.jpg?quality=90&strip=all",
+            "source": "metro"
+        },
+        {
+            "title": "Child benefit, DWP Universal Credit, state pension - every single UK money change from April 6",
+            "severity": "WATCH",
+            "url": "https://www.manchestereveningnews.co.uk/news/uk-news/child-benefit-dwp-universal-credit-33719820",
+            "image": "https://i2-prod.lancs.live/news/uk-world-news/article33702523.ece/ALTERNATES/s615/0_GettyImages-2268272418.jpg",
+            "source": "manchestereveningnews"
+        },
+        {
+            "title": "How will you be affected by the Universal Credit and benefits overhaul from today",
+            "severity": "WATCH",
+            "url": "https://metro.co.uk/2026/04/06/major-changes-universal-credit-workers-rights-happening-27865864/",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/04/SEI_292126628-445c.jpg?quality=90&strip=all",
+            "source": "metro"
+        },
+        {
+            "title": "Trump's respect for King Charles possibly quashed desire to annex Canada, says royal commentator",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/trumps-respect-king-charles-possibly-230000981.html",
+            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo"
         },
         {
-            "title": "Trump Gives Strict Deadline To Reopen Strait Of Hormuz",
+            "title": "RYAM Statement on Localized Fire at Jesup Facility",
             "severity": "WATCH",
-            "url": "https://dailycaller.com/2026/04/05/trump-gives-strict-deadline-to-reopen-strait-of-hormuz/",
-            "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https%3A%2F%2Fcdn01.dailycaller.com%2Fwp-content%2Fuploads%2F2026%2F04%2FGettyImages-2268834278-e1775419713469.jpg",
-            "source": "dailycaller"
+            "url": "http://www.businesswire.com/news/home/20260405104930/en/RYAM-Statement-on-Localized-Fire-at-Jesup-Facility/?feedref=JjAwJuNHiystnCoBq_hl-ZzpnHS32O5tBfLZHwy8L1lVsKLHj4l7ufu4XoarznHcCc3RCn2ioKmwBZbtUT_laxlCBS-6lALTzeuzMorsqlUBRXBIbEfS-L7bFkq7lPbqxuv9GxLR3d-mCpNfrf5FyQ%3D%3D",
+            "image": "https://mms.businesswire.com/media/20260405104930/en/2766060/22/RYAM_Logo-NoTag_Registered_4C.jpg",
+            "source": "businesswire"
         },
         {
-            "title": "Trump issues expletive-laden threat to Iran over Hormuz Strait blockage",
+            "title": "Faraday Future Founder and Co-CEO YT Jia Shares Weekly Investor Update: FF to Establish the First Scaled EAI Education System in the United States With Deployment of Its EAI Robotics Products and Technology",
             "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/cvg0q6wdzp1o",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/b501/live/37f5e130-3133-11f1-a79a-77e93010d956.jpg",
-            "source": "bbc"
+            "url": "http://www.businesswire.com/news/home/20260405923626/en/Faraday-Future-Founder-and-Co-CEO-YT-Jia-Shares-Weekly-Investor-Update-FF-to-Establish-the-First-Scaled-EAI-Education-System-in-the-United-States-With-Deployment-of-Its-EAI-Robotics-Products-and-Technology/?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+            "image": "https://mms.businesswire.com/media/20260405923626/en/2766048/22/0405_YT.jpg",
+            "source": "businesswire"
         },
         {
-            "title": "A Looming Deadline",
+            "title": "Odisha bans sale of LPG cylinders in open market",
             "severity": "WATCH",
-            "url": "https://www.nytimes.com/2026/04/05/world/iran-hormuz-rescue-trump-ultimatum.html",
-            "image": "https://static01.nyt.com/images/2026/04/06/multimedia/06int-theworld-hormuz-top-lgzm-promo/06int-theworld-hormuz-top-lgzm-promo-mediumSquareAt3X.jpg",
-            "source": "nytimes"
-        },
-        {
-            "title": "Are Philippine fans ready for the all-electric Toyota Hilux",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/auto/news/are-philippine-fans-ready-for-the-all-electric-toyota-hilux-1.500496882",
-            "image": "https://media.assettype.com/gulfnews/2026-04-05/3btbfkuq/2026-toyota-hilux-EV.webp?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "Red Wings Running Out of Time, Coach Running Out of Patience",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/red-wings-running-time-coach-210617405.html",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "BBC's Pilgrimage star makes heartbreaking admission about religion 'I was ashamed'",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/tv/tv-news/bbcs-pilgrimage-star-makes-heartbreaking-36972396",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36972425.ece/ALTERNATES/s615/1_bbc1PNG.png",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Eurovision Song Contest chaos as star faces copyright investigation",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/tv/tv-news/eurovision-song-contest-chaos-star-36972524",
-            "image": "https://i2-prod.mirror.co.uk/3am/celebrity-news/article36720975.ece/ALTERNATES/s615/2_The-show-had-been-expected-to-feature-acts-from-the-past-seven-decades-of-the-song-contest-AlamyPA.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Did Iran Find a US Soldier's Skull in C-130 Wreckage After Pilot Rescue? Fact-Checking Viral Claims",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/middle-east/iran-war-news-did-us-soldier-skull-photo-pilot-rescue-mission-fact-check-viral-claims-article-154005025",
-            "image": "https://images.timesnownews.com/thumb/msid-154005050,thumbsize-120484,width-1280,height-720,resizemode-75/154005050.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Beaten, battered, Bruin'd: Gamecocks cooked in national championship for second straight year",
-            "severity": "WATCH",
-            "url": "https://www.postandcourier.com/sports/carolina/gamecocks-south-carolina-womens-basketball-national-championship/article_d0e95e8f-9cff-4bff-9a21-52d32f7373f7.html",
-            "image": "https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/d/78/d78c3d98-7259-4d64-a455-f09c620b07d6/69d2d40b51902.image.jpg?crop=1762%2C925%2C0%2C0&resize=1200%2C630&order=crop%2Cresize",
-            "source": "postandcourier"
-        },
-        {
-            "title": "Doddajala Lake restored in 60 days, to boost water security for 20,000 villagers",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/india/karnataka/bengaluru/doddajala-lake-restored-in-60-days-to-boost-water-security-for-20-000-villagers-3957334",
-            "image": "https://media.assettype.com/deccanherald/2026-04-05/73xvyn5n/file85af0t0kf2tyis1c200.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Florida's pitcher Russell Sandefer, seen here against UAB, pitched seven scoreless innings before the Gators blew its lead in the ninth inning against Ole Miss.",
-            "severity": "WATCH",
-            "url": "https://www.si.com/college/florida/baseball/ole-miss-expose-florida-s-toughness-in-series-defeat-01knfjtfr56j",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1476,h_830,x_1055,y_646/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_gators/01knfk86xy9jn64cphg8.jpg",
-            "source": "si"
-        },
-        {
-            "title": "Pakistan-based gangster behind Punjab grenade plot, aide held in Gujarat",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/pakistan-based-gangster-behind-punjab-grenade-plot-aide-held-in-gujarat/articleshow/130045510.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117516810/117516810.jpg",
+            "url": "https://timesofindia.indiatimes.com/india/odisha-bans-sale-of-lpg-cylinders-in-open-market/articleshow/130048244.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130048245/130048245.jpg",
             "source": "toi"
         },
         {
-            "title": "Trump: Ground Troops on Table If Iran Balks at Deal",
+            "title": "Textbook monopoly persists weeks after complaint to edu dept",
             "severity": "WATCH",
-            "url": "https://www.newsmax.com/newsfront/donald-trump-us-military-iran/2026/04/05/id/1251899",
-            "image": "https://images.pexels.com/photos/34089440/pexels-photo-34089440.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "newsmax"
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/textbook-monopoly-persists-weeks-after-complaint-to-edu-dept/articleshow/130045849.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130045823/130045823.jpg",
+            "source": "toi"
         },
         {
-            "title": "Donald Trump extends Iran deadline over Strait of Hormuz in latest mysterious threat",
+            "title": "New petrol price rule brought in as Aussie servos face $4,000 fines: 'We moved quickly'",
             "severity": "WATCH",
-            "url": "https://www.express.co.uk/news/world/2190668/donald-trump-strait-hormuz-deadline",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2190668_1.jpg",
-            "source": "expresscouk"
+            "url": "https://au.news.yahoo.com/new-petrol-price-rule-brought-in-as-aussie-servos-face-4000-fines-we-moved-quickly-221811123.html",
+            "image": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
         },
         {
-            "title": "Top Wall Street analysts see strong growth potential in these 3 stocks",
+            "title": "The eaglets have landed for Big Bear couple Jackie and Shadow - Sun, 05 Apr 2026 PST",
             "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/04/05/top-wall-street-analysts-see-strong-growth-potential-in-these-3-stocks.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108196011-1757420428455-gettyimages-2220312413-PSWAT_DSC08868.jpeg?v=1771414703&w=1200&h=675",
-            "source": "cnbc"
+            "url": "http://www.spokesman.com/stories/2026/apr/05/the-eaglets-have-landed-for-big-bear-couple-jackie/",
+            "image": "https://thumb.spokesman.com/87VSmWqs0OJfwQJFBVF-Kh5U4ss=/2500x1405/smart/media.spokesman.com/photos/2026/04/05/69d2dfac7711a.hires.jpg",
+            "source": "spokesman"
+        },
+        {
+            "title": "Social worker censured, loses registration over sex chats with teenage student",
+            "severity": "WATCH",
+            "url": "https://www.nzherald.co.nz/nz/social-worker-censured-loses-registration-over-sex-chats-with-teenage-student/7XDIRRANPZFM3ABQQRAQZ5GLO4/",
+            "image": "https://www.nzherald.co.nz/resizer/v2/QS745VOXXJESPPFHLD7LURMYMQ.jpg?auth=3359b58e8675c1549a554359953ac708736bc0e6da163fe83f905a110ad2acd2&smart=true&width=300&height=300",
+            "source": "nzherald"
         },
         {
             "title": "Boss takes 18L from Ahmedabad CA threatening to harm self, stall promotion",
@@ -219,49 +282,7 @@
             "url": "https://timesofindia.indiatimes.com/city/ahmedabad/boss-takes-18l-from-ahmedabad-ca-threatening-to-harm-self-stall-promotion/articleshow/130045567.cms",
             "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117516810/117516810.jpg",
             "source": "toi"
-        },
-        {
-            "title": "Man poses as purchase officer, vanishes with gadgets worth 3L in Ahmedabad",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/man-poses-as-purchase-officer-vanishes-with-gadgets-worth-3l-in-ahmedabad/articleshow/130045514.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117516814/117516814.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Hooked on a match, reeled in by a scam, Ahmedabad pharma exec loses Rs 56 lakh",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/hooked-on-a-match-reeled-in-by-a-scam-ahmedabad-pharma-exec-loses-rs-56-lakh/articleshow/130045509.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117516826/117516826.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "1k from Bengal stuck in Sikkim after landslide",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/kolkata/1k-from-bengal-stuck-in-sikkim-after-landslide/articleshow/130045415.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130045385/130045385.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Australian Human Rights Commission investigates alleged racial discrimination by NSW government",
-            "severity": "WATCH",
-            "url": "https://www.theguardian.com/australia-news/2026/apr/05/alleged-racial-discrimination-by-nsw-government-investigated-by-human-rights-commission",
-            "image": "https://i.guim.co.uk/img/media/4e25d7cf9dd46f7ee817c2c3a0b6fbcef1564003/504_0_5040_4032/master/5040.jpg?width=140&quality=85&auto=format&fit=max&s=26ecf43db5ba5fc096d584a86f5c5792",
-            "source": "theguardian"
-        },
-        {
-            "title": "Your rights when you move into a rental and it's not clean",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-04-06/should-a-rental-be-clean-when-you-move-in/106450642",
-            "image": "https://live-production.wcms.abc-cdn.net.au/04a3a6fa77163bd8ba9dbc89ad9857a7?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "The eaglets have landed for Big Bear couple Jackie and Shadow",
-            "severity": "WATCH",
-            "url": "https://www.latimes.com/entertainment-arts/business/story/2026-04-05/big-bear-eagles-jackie-shadow-two-baby-eaglets-have-hatched",
-            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "latimes"
         }
     ],
-    "Last_Updated": "2026-04-06T09:16:25.068696Z"
+    "Last_Updated": "2026-04-06T11:03:33.018234Z"
 }
