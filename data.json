@@ -1,112 +1,96 @@
 {
-    "AGRI_Score": 64.0,
-    "Velocity": "+0.8",
+    "AGRI_Score": 64.1,
+    "Velocity": "+0.1",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.0 reflects persistent high-level threats driven primarily by continued \"Energy & Maritime Disruption\" (100) and elevated \"Geopolitical Conflict Intensity\" (73.2), despite a temporary de-escalation. Although a \"two-week ceasefire agreed\" in the Iran war led to oil prices diving \"below $100\" and global stocks jumping, expert warnings like \"Don\u2019t expect fuel prices to return to pre-Iran war levels anytime soon\" underscore lingering market volatility and supply concerns. Furthermore, the \"FBI and NSA issue joint 'warning' of Iran-linked cyberattacks on critical infrastructure,\" indicating an active and evolving threat landscape beyond kinetic conflict.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 73.2,
+        "Geopolitical Conflict Intensity": 82.6,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 67.0,
+        "Trade & Supply Chain Stress": 62.7,
         "Sovereign Financial Stress": 53.4,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 69.6,
-        "Cyber & Infrastructure Threats": 61.9,
+        "Sanctions & Regulatory Fragmentation": 58.0,
+        "Cyber & Infrastructure Threats": 62.8,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Despite a declared \"two-week ceasefire agreed\" in the Iran war, leading to a temporary reduction in kinetic conflict, the underlying geopolitical tensions remain high. The sentiment expressed in \"Xinhua Commentary: A step back from war, but a long road to peace\" indicates that true resolution is distant, maintaining a high risk of renewed conflict.",
-        "Energy & Maritime Disruption": "This pillar remains at its maximum score due to the fundamental instability in energy markets, despite a temporary dip in oil prices following the ceasefire. Warnings like \"EU to face austerity amid absence of cheap oil \u2014 Russian security official\" and the fact that \"India Pays Record Price For Crude Oil In April 2026\" highlight persistent supply concerns and high costs that are not expected to normalize soon.",
-        "Trade & Supply Chain Stress": "The temporary \"Iran-US ceasefire impact\" suggests that \"Hormuz to see 'controlled' movement,\" which could slightly ease maritime shipping concerns. However, ongoing trade friction, evidenced by \"US carmakers accuse EU of blocking supersised pick-up trucks from roads,\" continues to introduce stress points into global supply chains.",
-        "Sovereign Financial Stress": "Central banks are actively monitoring the geopolitical situation, with the \"RBI holds repo rate, warns of impact of West Asia conflict on economy.\" The potential for \"austerity amid absence of cheap oil\" in the EU signals looming fiscal pressures for sovereign entities in various regions.",
-        "Currency & Liquidity Pressure": "While \"global markets surge\" post-ceasefire, offering some temporary relief, the overall environment remains susceptible to pressure. The RBI's explicit warning regarding the conflict's impact on the economy suggests that underlying vulnerabilities could still trigger currency depreciation or liquidity tightening.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory disagreements persist, as seen with \"US carmakers accuse EU of blocking supersised pick-up trucks from roads,\" indicating ongoing fragmentation in international trade policies. Although a ceasefire is in place, the broader geopolitical context means that the threat of new or expanded sanctions remains a significant concern, contributing to regulatory uncertainty.",
-        "Cyber & Infrastructure Threats": "This pillar remains a critical concern, with \"Iran-Linked Hackers Target US Industrial Sites, Attempt To Erase Data\" reported by authorities. The \"FBI and NSA issue joint 'warning' of Iran-linked cyberattacks on critical infrastructure,\" urging immediate defensive actions by US companies.",
-        "Climate & Resource Shock": "There are no immediate reports within the provided news feed indicating significant climate events or resource shocks. This pillar currently reflects routine monitoring, with geopolitical and economic factors dominating the risk landscape."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Oil dives below $100, stocks jump after two-week ceasefire agreed",
+            "title": "Hungary election a US-EU \u2018proxy war\u2019 \u2013 ex-Austrian foreign minister",
             "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1989806/oil-dives-below-100-stocks-jump-after-two-week-ceasefire-agreed",
-            "image": "https://i.dawn.com/large/2026/04/081206472cf9a49.webp",
-            "source": "dawn"
+            "url": "https://www.rt.com/news/637672-hungary-election-proxy-war/",
+            "image": "https://mf.b37mrtl.ru/files/2026.04/article/69d5fe6085f5405bcb72adc6.png",
+            "source": "rt"
         },
         {
-            "title": "EU to face austerity amid absence of cheap oil \u2014 Russian security official",
+            "title": "Foreign Office warning after 'state of emergency' declared in 12 places - full list",
             "severity": "HIGH",
-            "url": "https://tass.com/politics/2113461",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
+            "url": "https://www.birminghammail.co.uk/travel/foreign-office-warning-after-state-33731332",
+            "image": "https://i2-prod.birminghammail.co.uk/travel/article33731370.ece/ALTERNATES/s615/0_ecuador.jpg",
+            "source": "birminghammail"
         },
         {
-            "title": "Price of oil tumbles as global stocks rebound on two-week ceasefire",
+            "title": "'Netanyahu failed': Israeli opposition leaders say Iran cease-fire 'a disaster'",
             "severity": "HIGH",
-            "url": "https://www.standard.co.uk/business/business-news/investors-traders-donald-trump-strait-of-hormuz-iran-b1277953.html",
-            "image": "https://static.standard.co.uk/2026/03/06/17/06173457-604b0fa0-3449-41d2-baa1-7e7500bde780.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
+            "url": "https://www.haaretz.com/israel-news/israel-politics/2026-04-08/ty-article/.premium/netanyahu-failed-israeli-opposition-leaders-say-iran-cease-fire-a-disaster/0000019d-6c3f-d759-ab9d-7dbf990d0000",
+            "image": "https://img.haarets.co.il/bs/0000019d-2ebf-d77a-a7ff-ffff5a4d0001/1a/12/829276fe4ffba1c8042a4a7e228f/347501.jpg?height=81",
+            "source": "haaretz_is"
         },
         {
-            "title": "War paused, oil down, but here\u2019s why you shouldn\u2019t get your hopes up for lower fuel prices",
+            "title": "Peso rallies to strongest level in almost a month on US-Iran truce",
             "severity": "HIGH",
-            "url": "https://www.iol.co.za/motoring/industry-news/war-paused-oil-down-but-heres-why-you-shouldnt-get-your-hopes-up-for-lower-fuel-prices-de1684ca-9f39-40a4-9255-da596b5beb09",
-            "image": "https://images.pexels.com/photos/5014710/pexels-photo-5014710.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "iol"
+            "url": "https://business.inquirer.net/584123/peso-rallies-to-strongest-level-in-almost-a-month-on-us-iran-truce",
+            "image": "https://business.inquirer.net/files/2026/04/FOREX-LND-APR82026-620x349.png",
+            "source": "inquirer"
         },
         {
-            "title": "How to talk about money for a resilient financial future",
+            "title": "Big Funds Pile Into Treasuries, AI Stocks as Iran War Risks Fade - bloomberg.com",
             "severity": "HIGH",
-            "url": "https://www.iol.co.za/personal-finance/financial-planning/how-to-talk-about-money-for-a-resilient-financial-future-2e579f7b-cfff-48ad-b2f2-bfdf8f03b541",
-            "image": "https://images.pexels.com/photos/6632532/pexels-photo-6632532.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "iol"
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORmllQUNkQlBPaDk5VFBPUkk4X0Y3UWM1cExQWHl6bVVjc1ZWdWlfWDlYNTJHTkxwSThnT0ZfczNOQWh4QW53eVE2cE5BNkt1S19pY0RRZ3Rhem5tM2hWR1Bocmk0c3FhUTM5SXVBOFJ1cXVoWEoxZHRWeXBKRnU0Y1c4cmducXRhc3FmQ2lwckNSX1lTaUxQZFUzRElFd2Z3dFlmQjVLOWZEbVI3VVNOYjVBQko?oc=5",
+            "image": "https://images.pexels.com/photos/16660293/pexels-photo-16660293.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "RBI holds repo rate, warns of impact of West Asia conflict on economy",
+            "title": "West Asia conflict | Oil prices plunge below $100 after US-Iran agree for two-week ceasfire",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-holds-repo-rate-warns-of-impact-of-west-asia-conflict-on-economy/articleshow/130105728.cms",
-            "image": "https://img.etimg.com/thumb/msid-130105718,resizemode-4,width-1200,height-900,imgsize-82758,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.deccanherald.com/business/west-asia-conflict-oil-prices-plunge-below-100-after-us-iran-agree-for-two-week-ceasfire-3960176",
+            "image": "https://media.assettype.com/deccanherald/2026-04-08/v8p8io3k/iStock-1225330885.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "India Pays Record Price For Crude Oil In April 2026: What\u2019s Behind The Surge",
+            "title": "Starmer travels to Gulf as ceasefire offers hope in West Asia conflict",
             "severity": "HIGH",
-            "url": "https://news.abplive.com/business/india-costliest-crude-oil-20-years-april-2026-explained-1835309",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/06/0a5974e6fb29374518febe5e656ea36d17754863134891307_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
+            "url": "https://www.firstpost.com/world/starmer-travels-to-gulf-as-ceasefire-offers-hope-in-west-asia-conflict-13997966.html",
+            "image": "https://images.firstpost.com/uploads/2026/02/Representational-Image-30-2026-02-15544828756be96096cae4f785e8c69b.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "Pete Hegseth \u2018not speaking truth\u2019 to Trump? Alarming report claims POTUS \u2018repeating misleading info\u2019 about Iran war",
+            "title": "Snap Insight: US-Iran ceasefire \u2013 Trump blinked first but Tehran must be careful not to gloat",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/pete-hegseth-not-speaking-truth-to-trump-alarming-report-claims-potus-repeating-misleading-info-about-iran-war-101775632359768.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/08/1600x900/logo/TRUMP-CABINET-39_1775632844565_1775632875566.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.channelnewsasia.com/commentary/iran-ceasefire-us-trump-who-blinked-will-it-hold-snap-insight-6043546",
+            "image": "https://dam.mediacorp.sg/image/upload/s--oEYeyURf--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/v1/one-cms/core/Iran_War__7633.jpg?itok=1ZkKobMv",
+            "source": "channelnewsasia"
         },
         {
-            "title": "Everything we know as Donald Trump declares two-week ceasefire in Iran war",
+            "title": "Jackie 'O' Henderson breaks social media silence as she shows support for bestie Pip Edwards - after revealing 'abusive' relationship with Kyle Sandilands",
             "severity": "HIGH",
-            "url": "https://www.manchestereveningnews.co.uk/news/world-news/everything-know-donald-trump-declares-33730749",
-            "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33730771.ece/ALTERNATES/s615/0_JS402341043.jpg",
-            "source": "manchestereveningnews"
+            "url": "https://www.dailymail.co.uk/tvshowbiz/article-15715007/Jackie-O-Henderson-social-media-Kyle-Sandilands.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/04/08/09/107735131-0-image-a-109_1775636552113.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "'Don\u2019t expect fuel prices to return to pre-Iran war levels anytime soon'",
+            "title": "Afghan migrant who attacked girl, 14, and her mother with a wine bottle is allowed to stay in Britain",
             "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/money/dont-expect-fuel-prices-return-36982358",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36969110.ece/ALTERNATES/s615/5_Daily-life-driving-petrol-diesel-prices-Emmer-Green-Berkshire-UK-04-Apr-2026.jpg",
-            "source": "mirroruk"
+            "url": "https://www.dailymail.co.uk/news/article-15714781/Afghan-migrant-attacked-girl-14-mother-wine-bottle-allowed-stay-Britain.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/04/08/09/104441007-0-image-a-11_1775635757270.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Iran-Linked Hackers Target US Industrial Sites, Attempt To Erase Data; FBI Issues Urgent Warning",
+            "title": "Chairman of Maharashtra state educational board held for graft",
             "severity": "HIGH",
-            "url": "https://www.news18.com/world/iran-linked-hackers-target-us-oil-water-sites-us-iran-ceasefire-tensions-cyberattacks-middle-east-conflict-ws-l-10021271.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/01/punit-canva-2026-01-16T151735.666-2026-01-8f0ac1b6060db6a2f1b5da033bc6ee51-3x2.png",
-            "source": "news18"
-        },
-        {
-            "title": "War of words erupts between TMC and Election Commission after brief, tense meeting",
-            "severity": "HIGH",
-            "url": "http://economictimes.indiatimes.com/news/elections/assembly-elections/west-bengal/tmc-claims-election-chief-told-them-to-get-lost-in-heated-meeting-as-accusations-fly/articleshow/130105186.cms",
-            "image": "https://images.pexels.com/photos/3183174/pexels-photo-3183174.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "economictimes_indiatimes"
+            "url": "https://timesofindia.indiatimes.com/city/navi-mumbai/chairman-of-maharashtra-state-educational-board-held-for-graft/articleshow/130106312.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130106355/130106355.jpg",
+            "source": "toi"
         },
         {
             "title": "\u2018We are almost incomparable\u2019: England\u2019s Emma Sing on challenging Kildunne and Six Nations hopes",
@@ -116,67 +100,18 @@
             "source": "theguardiantheguardian"
         },
         {
-            "title": "US carmakers accuse EU of blocking supersised pick-up trucks from roads, FT reports",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/business/us-carmakers-accuse-eu-of-blocking-supersised-pick-up-trucks-from-roads-ft-reports/articleshow/130105063.cms",
-            "image": "https://img.etimg.com/thumb/msid-130105141,resizemode-4,width-1200,height-900,imgsize-54552,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Andrew Mountbatten-Windsor finally moves into new home after Prince Edward clash",
-            "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/royal/2191468/andrew-mountbatten-windsor-new-home-edward-clash",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/106/590x/2191468_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Xinhua Commentary: A step back from war, but a long road to peace",
-            "severity": "HIGH",
-            "url": "http://chinanationalnews.com/news/278970715/xinhua-commentary-a-step-back-from-war-but-a-long-road-to-peace",
-            "image": "https://image.chitra.live/api/v1/wps/72f9a5b/a4836f73-b318-4042-94e9-bfcf41d154b6/0/XxjidwE000029-20260408-CBMFN0A001-600x315.jpg",
-            "source": "chinanationalnews"
-        },
-        {
-            "title": "FBI and NSA issue joint 'warning' of Iran-linked cyberattacks on critical infrastructure; says: US companies should urgently ...",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/technology/tech-news/fbi-and-nsa-issue-joint-warning-of-iran-linked-cyberattacks-on-critical-infrastructure-says-us-companies-should-urgently-/articleshow/130103462.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130103523/130103523.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Tariff optimisation a strategic lever for commercial property growth",
+            "title": "Stellantis in advanced talks to develop Opel EV with China's Leapmotor, sources say",
             "severity": "MEDIUM",
-            "url": "https://www.iol.co.za/business-report/energy/tariff-optimisation-a-strategic-lever-for-commercial-property-growth-b8c37f31-12ad-4b0e-91f8-d81a3c8ba896",
-            "image": "https://images.pexels.com/photos/4386345/pexels-photo-4386345.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "iol"
+            "url": "https://www.deccanherald.com/auto/stellantis-in-advanced-talks-to-develop-opel-ev-with-chinas-leapmotor-sources-say-3960413",
+            "image": "https://media.assettype.com/deccanherald/2026-04-08/o4hnym0t/2026-04-08T070554Z1487316388RC2WVFA5RMI5RTRMADP5AUTOS-STELLANTIS-LEAPMOTOR.JPG?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Average UK house price fell by 0.5 per cent month on month in March",
+            "title": "Ray Dalio: Trump-Xi meeting to focus on trade, capital flows",
             "severity": "MEDIUM",
-            "url": "https://www.standard.co.uk/homesandproperty/property-news/uk-house-price-fall-march-b1277944.html",
-            "image": "https://static.standard.co.uk/homesandproperty/s3fs-public/thumbnails/image/2020/05/13/13/EstateAgentsReportshutterstock-1152968060.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
-        },
-        {
-            "title": "Iran-US ceasefire impact: Oil prices drop, Hormuz to see 'controlled' movement; global markets surge",
-            "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/business/international-business/iran-us-ceasefire-impact-oil-prices-drop-hormuz-to-see-controlled-movement-global-markets-surge/articleshow/130105392.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130105744/130105744.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "RBI MPC meeting LIVE: Headline inflation remains our target, and managing that is our primary goal, says RBI guv",
-            "severity": "MEDIUM",
-            "url": "https://www.thehindu.com/business/rbi-monetary-policy-meeting-speech-april-8-2026-live-updates/article70837023.ece",
-            "image": "https://th-i.thgim.com/public/incoming/dl223x/article70837027.ece/alternates/FREE_1200/2026-02-23T075101Z_1096779676_RC25GJAG4Q4T_RTRMADP_3_INDIA-CENBANK-LOANS-BROKERS.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Risk-on sentiment will return although volatility may remain in the near-term: ABSL AMC's A Balasubramanian",
-            "severity": "MEDIUM",
-            "url": "https://www.moneycontrol.com/news/business/markets/risk-on-sentiment-will-return-although-volatility-may-remain-in-the-near-term-absl-amc-s-a-balasubramanian-13883204.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2021/11/Balasubramanian1280.jpg",
-            "source": "moneycontrol"
+            "url": "https://www.cnbc.com/2026/04/08/ray-dalio-trump-xi-meeting-to-focus-on-trade-capital-flows.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108288436-1775632152228-260408_Dalio.jpg?v=1775632213&w=1200&h=675",
+            "source": "cnbc"
         },
         {
             "title": "RBI policy highlights underlying risks for India despite US-Iran ceasefire",
@@ -186,46 +121,137 @@
             "source": "business-standard"
         },
         {
-            "title": "Early menopause: How women under 45 can protect their heart through stress control, explain UAE doctors",
+            "title": "Barclays reiterates Radient Pharmaceuticals stock rating at Overweight",
             "severity": "WATCH",
-            "url": "https://gulfnews.com/uae/early-menopause-how-women-under-45-can-protect-their-heart-through-stress-control-explain-uae-doctors-1.500499887",
-            "image": "https://media.assettype.com/gulfnews/import/2024/03/08/Person-with-heart_18e1e03f9cb_large.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "url": "https://uk.investing.com/news/analyst-ratings/barclays-reiterates-radient-pharmaceuticals-stock-rating-at-overweight-93CH-4597208",
+            "image": "https://i-invdn-com.investing.com/news/World_News_9_800x533_L_1420026261.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "Why Real Madrid believe \u2013 and history shows \u2013 they should never be discounted, even after Bayern loss",
+            "title": "JPMorgan initiates PayPay stock coverage with overweight rating",
             "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7177708/2026/04/08/real-madrid-champions-league-still-alive/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/04/08015039/GettyImages-2270277587-scaled-e1775627462162.jpg",
-            "source": "theathleticuk"
+            "url": "https://uk.investing.com/news/analyst-ratings/jpmorgan-initiates-paypay-stock-coverage-with-overweight-rating-93CH-4597211",
+            "image": "https://i-invdn-com.investing.com/news/news_pile_69x52._800x533_L_1419494209.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "A\u030alandsbanken: Cyclicals and consumer discretionaries to benefit from ceasefire; energy outlook turns negative",
+            "title": "Barclays reiterates Overweight rating on Unum Group stock",
             "severity": "WATCH",
-            "url": "https://www.marketscreener.com/news/landsbanken-cyclicals-and-consumer-discretionaries-to-benefit-from-ceasefire-energy-outlook-turns-ce7e50dadc8fff23",
-            "image": "https://images.pexels.com/photos/9494918/pexels-photo-9494918.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "marketscreener"
+            "url": "https://uk.investing.com/news/analyst-ratings/barclays-reiterates-overweight-rating-on-unum-group-stock-93CH-4597210",
+            "image": "https://i-invdn-com.investing.com/news/news_six_pile_69x52._800x533_L_1419494215.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "This new dining hall in Bengaluru is all about hearty Karnataka fare",
+            "title": "Barclays reiterates TPG stock Overweight rating with $56 target",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/food/dining/this-new-dining-hall-in-bengaluru-is-all-about-hearty-karnataka-fare/article70787800.ece",
-            "image": "https://th-i.thgim.com/public/food/k7cbwc/article70833830.ece/alternates/FREE_1200/_SJP2118-Edit.jpg",
-            "source": "thehindu"
+            "url": "https://uk.investing.com/news/analyst-ratings/barclays-reiterates-tpg-stock-overweight-rating-with-56-target-93CH-4597213",
+            "image": "https://i-invdn-com.investing.com/news/news_pile_69x52._800x533_L_1419494209.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "RBI ups crude oil, exchange rate baseline assumptions for FY27",
+            "title": "Barclays sees powerful short squeeze ahead for European equities after ceasefire",
             "severity": "WATCH",
-            "url": "http://economictimes.indiatimes.com/news/economy/policy/rbi-ups-crude-oil-exchange-rate-baseline-assumptions-for-fy27/articleshow/130105901.cms",
-            "image": "https://img.etimg.com/thumb/msid-130105995,resizemode-4,width-1200,height-900,imgsize-100986,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://uk.investing.com/news/stock-market-news/barclays-sees-powerful-short-squeeze-ahead-for-european-equities-after-ceasefire-4597207",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEB0S0AV_L.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "Move to liberalise FDI flows from land-bordering countries",
+            "title": "Kashmir erupts in celebration as US-Iran ceasefire halts hostilities",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/ht-insight/economy/move-to-liberalise-fdi-flows-from-land-bordering-countries-101775632380995.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/08/1600x900/logo/Punjab-has-received-a-cumulative-foreign-direct-in_1693337937076_1775632559871.jpg",
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/kashmir-erupts-in-celebration-as-us-iran-ceasefire-halts-hostilities-101775638331968.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/08/1600x900/logo/People-carrying-out-a-march-and-raising-slogans-as_1775638329746.jpg",
             "source": "hindustantimes"
+        },
+        {
+            "title": "\u2018Dhurandhar 2\u2019 vs \u2018Pushpa 2\u2019: Here\u2019s how much Ranveer Singh\u2019s film needs to lead the box office",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/dhurandhar-2-vs-pushpa-2-heres-how-much-ranveer-singhs-film-needs-to-lead-the-box-office/articleshow/130107708.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130107708/130107708.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Aneet Padda to play double role in Aditya Sarpotdar\u2019s mythological drama Shakti Shalini",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/entertainment/aneet-padda-to-play-double-role-in-aditya-sarpotdar-s-mythological-drama-shakti-shalini-article-13883372.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260408085029_paa.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Pharmaceutical Robot Market - Global Forecast 2026-2032: Robust Demand Fueled by Necessity for Higher Precision, Repeatability, and Traceability Within Both Production and Laboratory Settings",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/04/08/3269863/28124/en/Pharmaceutical-Robot-Market-Global-Forecast-2026-2032-Robust-Demand-Fueled-by-Necessity-for-Higher-Precision-Repeatability-and-Traceability-Within-Both-Production-and-Laboratory-Se.html",
+            "image": "https://images.pexels.com/photos/9494918/pexels-photo-9494918.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Samsung Display to Solely Supply Apple With Foldable OLED Panels for Three Years - thelec.net",
+            "severity": "WATCH",
+            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VdHg5U1ZKVGJ0eG40VGlGeGNvV2Q0ckJDazdIcFV2RTFIN3pLcHNEbnY1VGJHamV5alJRMUNTZTYtRkJUUzBRV1VLV0NRSDU4RVJGX2hMRzdXcXN0Q2t6THQ3Y3NKUQ?oc=5",
+            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Homes being built but targets missed",
+            "severity": "WATCH",
+            "url": "https://au.news.yahoo.com/homes-being-built-targets-missed-085149989.html",
+            "image": "https://images.pexels.com/photos/9494906/pexels-photo-9494906.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo"
+        },
+        {
+            "title": "Energy Markets Likely Past Peak of Supply Shock",
+            "severity": "WATCH",
+            "url": "https://www.barrons.com/livecoverage/stock-market-news-today-040826/card/energy-markets-likely-past-peak-of-supply-shock-TdSXre4bQjteToLHwfmT",
+            "image": "https://images.pexels.com/photos/32986718/pexels-photo-32986718.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "barrons"
+        },
+        {
+            "title": "Dangote Refinery raises alarm over alleged sabotage by IOCs in Nigeria",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/business-economy/energy/1704499-dangote-accuses-international-oil-companies-nigeria-supplying-crude-refinery/",
+            "image": "https://cdn.legit.ng/images/1200x675/0d790b2cd1f21827.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Copper Hits Three-Week High as Iran Ceasefire Lifts Sentiment",
+            "severity": "WATCH",
+            "url": "https://uk.finance.yahoo.com/news/copper-hits-three-week-high-025701397.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Who is Asim Munir, Trump\u2019s favourite Pakistani official who helped the ceasefire?",
+            "severity": "WATCH",
+            "url": "https://metro.co.uk/2026/04/08/who-is-asim-munir-trumps-favourite-pakistani-official-who-helped-the-ceasefire-27894969/",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/04/SEI_291103430-0201.jpg?quality=90&strip=all",
+            "source": "metro"
+        },
+        {
+            "title": "Twenty Twenty Six release time, cast, what to expect and how to watch",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/showbiz/tv-radio/2191537/twenty-twenty-six-start-time-cast-plot-bbc",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/20/590x/2191537_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Your Data is More Vulnerable Than You Think. Here\u2019s How to Encrypt Your External Hard Drives",
+            "severity": "WATCH",
+            "url": "https://www.inc.com/lucia-auerbach/your-data-is-more-vulnerable-than-you-think-heres-how-to-encrypt-your-external-hard-drives/91327304",
+            "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/04/GettyImages-2244658330.jpg",
+            "source": "inc"
+        },
+        {
+            "title": "'Dhurandhar 2' box office collection day 21 [LIVE]: Ranveer Singh film eyes Rs. 1050 crore milestone on third Wednesday",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/dhurandhar-2-the-revenge-box-office-collection-day-21-live-ranveer-singh-r-madhavan-rakesh-bedi-sanjay-dutt-arjun-rampal-sara-arjun-film-eyes-rs-1050-crore-india-net-collections-on-third-wednesday-despite-ipl-2026-fever-eyes-rs-1700-crore-worldwide/articleshow/130104557.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130104557/130104557.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Two charged over alleged sick \u2018brothel\u2019 acts",
+            "severity": "WATCH",
+            "url": "https://www.news.com.au/national/south-australia/adelaide-couple-charged-with-child-abuse-bestiality-and-running-brothel/news-story/18a73cf5992c11ffeff2d1f35cf3d6b8?from=rss-basic",
+            "image": "https://images.pexels.com/photos/3970331/pexels-photo-3970331.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "news"
         },
         {
             "title": "Indian Restaurant in Canada Faces 10-Day Ban After Minor Served Alcohol Without ID Check",
@@ -235,33 +261,12 @@
             "source": "newsable_asianetnews"
         },
         {
-            "title": "Maersk Says US, Iran Ceasefire May Create Strait of Hormuz Transit Opportunities",
-            "severity": "WATCH",
-            "url": "https://www.usnews.com/news/top-news/articles/2026-04-08/maersk-says-us-iran-ceasefire-may-create-strait-of-hormuz-transit-opportunities",
-            "image": "https://images.pexels.com/photos/30812649/pexels-photo-30812649.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "usnews"
-        },
-        {
-            "title": "All Simhastha 2028 Works to Be Completed by Diwali 2027: CM Dr. Yadav",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/dhbrandpr/all-simhastha-2028-works-to-be-completed-by-diwali-2027-cm-dr-yadav-3960334",
-            "image": "https://media.assettype.com/deccanherald/2026-04-08/adoqq4t5/Picture0.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
             "title": "IPL 2026: Yashasvi Jaiswal hits 100 sixes, joins Rajasthan Royals' elite power-hitters",
             "severity": "WATCH",
             "url": "https://sports.yahoo.com/articles/ipl-2026-yashasvi-jaiswal-hits-071600510.html",
             "image": "https://images.pexels.com/photos/7518599/pexels-photo-7518599.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo"
-        },
-        {
-            "title": "Sunil Narine Bowls Maiden Super Over: What Are Men's T20 Records That Seem Impossible To Break?",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/explainers/sunil-narine-bowls-maiden-super-over-what-are-mens-t20-records-that-seem-impossible-to-break-10020679.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/t20-impossible-records-2026-04-685714f65a7b3aed3e5f1ae612fa5991-1200x800.png",
-            "source": "news18"
         }
     ],
-    "Last_Updated": "2026-04-08T19:26:24.272940Z"
+    "Last_Updated": "2026-04-08T20:53:34.962620Z"
 }
