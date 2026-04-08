@@ -1,232 +1,288 @@
 {
-    "AGRI_Score": 62.3,
-    "Velocity": "-2.3",
+    "AGRI_Score": 64.3,
+    "Velocity": "+2.0",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.3 is primarily driven by an extreme escalation in Geopolitical Conflict Intensity and maximal Energy & Maritime Disruption. Imminent threats of conflict, as highlighted by 'Trump warns 'whole civilization will die tonight'' and 'US Embassy sends emergency shelter-in-place warning to Americans ahead of Trump strike,' are directly impacting energy infrastructure, supply chains, and international relations. Concerns over 'jet fuel supply' and 'Iranian attacks on Saudi energy facilities' solidify the severe risk across these critical pillars, indicating a period of high global tension and potential disruption.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.3/100 is predominantly driven by escalating geopolitical tensions surrounding Iran and subsequent severe energy and maritime disruption. The 'Energy & Maritime Disruption' pillar stands at 100, directly influenced by \"Marco Rubio slams Iran over commercial ship strikes in Hormuz\" and the \"Russia and China veto UN resolution aimed at reopening Hormuz strait.\" This indicates a critical state in global energy transit and maritime security, further exacerbated by Iran's warnings of global fallout amidst escalating US tensions.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.6,
+        "Geopolitical Conflict Intensity": 83.5,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 62.7,
+        "Trade & Supply Chain Stress": 64.0,
         "Sovereign Financial Stress": 53.4,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 57.9,
+        "Sanctions & Regulatory Fragmentation": 57.2,
+        "Cyber & Infrastructure Threats": 62.5,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is at a critical level due to the explicit threats of military action between the US and Iran, evidenced by 'Trump warns 'whole civilization will die tonight'' and 'US Embassy sends emergency shelter-in-place warning to Americans ahead of Trump strike.' Further global tensions are exacerbated by 'Pakistan condemns Iranian attacks on Saudi energy facilities' and 'Russia threatens to blow up iconic UK bridge in revenge for British drones destroying Putin\u2019s key crossing.'",
-        "Energy & Maritime Disruption": "The score for this pillar is at its maximum, reflecting direct threats and impacts on global energy supplies and transportation routes. Headlines such as 'Pakistan condemns Iranian attacks on Saudi energy facilities' and 'Jet fuel supply concerns grow as war on Iran drags on, airlines cut flights' underscore the severe operational and availability risks. India's shift to 'Russia, Venezuela for crude supplies amid West Asia crisis' further indicates significant disruption to traditional energy flows.",
-        "Trade & Supply Chain Stress": "This pillar reflects elevated stress, largely due to potential disruptions in energy-related logistics and the broader impact of geopolitical tensions. 'Jet fuel supply concerns grow as war on Iran drags on, airlines cut flights' directly threatens air cargo and passenger movement, while re-routing crude supplies as 'India turns to Russia, Venezuela for crude supplies amid West Asia crisis' indicates shifting global maritime trade patterns that can introduce delays and costs.",
-        "Sovereign Financial Stress": "This pillar is currently under routine monitoring. The provided news feed does not contain direct indicators of sovereign defaults, significant bond market volatility, or specific national debt crises. However, the overarching geopolitical instability creates a generalized environment of fiscal uncertainty.",
-        "Currency & Liquidity Pressure": "This pillar currently exhibits baseline activity. There are no specific headlines indicating immediate currency devaluations, significant capital flight, or widespread liquidity crunches in the global financial system. While geopolitical events can impact market sentiment, no direct pressure is presently cited.",
-        "Sanctions & Regulatory Fragmentation": "This pillar is elevated due to ongoing geopolitical maneuvers that could lead to new sanctions or shifts in existing ones. 'India turns to Russia, Venezuela for crude supplies amid West Asia crisis' demonstrates nations navigating existing sanction landscapes, while the mention of 'Iran: Deal Or No Deal? The Citrini Report And EU Diplomacy Suggest One May Happen' indicates potential shifts in international regulatory frameworks concerning Iran.",
-        "Cyber & Infrastructure Threats": "This pillar shows moderate elevation, driven by explicit threats to critical infrastructure and reported security breaches. 'Trump warns 'whole civilization will die tonight,' as Iranian official urges human chains around power plants' directly refers to energy infrastructure, and 'Russia threatens to blow up iconic UK bridge' highlights similar physical threats. The 'Delhi Assembly security breach' and challenges in 'Automated Pentesting Tool' also point to vulnerabilities in security postures.",
-        "Climate & Resource Shock": "This pillar is currently at low activity. The news feed contains no information regarding extreme weather events, natural resource scarcity, or significant environmental disasters. This pillar is presently at baseline monitoring levels."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is exceptionally high, primarily due to escalating tensions involving Iran, as evidenced by \"US Iran War Live Updates:Iran Warns Of Global Fallout As US Tensions Escalate.\" The veto by Russia and China of a UN resolution regarding the Hormuz strait underscores the deeply entrenched international divisions surrounding the region.",
+        "Energy & Maritime Disruption": "The 'Energy & Maritime Disruption' pillar is at its maximum, directly threatened by \"Marco Rubio slams Iran over commercial ship strikes in Hormuz.\" This critical situation is further compounded by \"Russia and China veto UN resolution aimed at reopening Hormuz strait,\" indicating a severe impediment to global shipping and energy flows.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress is elevated, largely due to the potential and actual disruptions in key maritime passages like Hormuz following the veto of the UN resolution. The ongoing geopolitical friction has broad implications for international logistics and the movement of goods.",
+        "Sovereign Financial Stress": "Sovereign financial stress remains a concern, with \"Chicago Fed's Goolsbee warns of successive inflationary shocks\" indicating persistent economic headwinds. These inflationary pressures could strain national budgets and increase debt servicing costs for various economies.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressure is moderate, influenced by the warning from Chicago Fed's Goolsbee regarding \"successive inflationary shocks.\" Such inflationary environments can erode currency value and tighten liquidity conditions in financial markets.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation are a significant risk, particularly given the \"Russia and China veto UN resolution aimed at reopening Hormuz strait\" which highlights deep global policy divergences. This fragmentation creates uncertainty and heightens the likelihood of new unilateral trade and financial restrictions.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are substantial, illustrated by \"Iran launches huge cyberattacks against US as 'critical infrastructure' hit.\" Additionally, a \"Healthcare data breach hits system storing patient records\" underscores pervasive vulnerabilities across critical sectors.",
+        "Climate & Resource Shock": "Climate and resource shock remains at a baseline activity level, with no immediate news indicating major disruptive events or resource scarcity. Monitoring continues for any emergent climate-related impacts on global stability."
     },
     "All_Alerts": [
         {
-            "title": "Trump warns 'whole civilization will die tonight,' as Iranian official urges human chains around power plants",
+            "title": "Iran launches huge cyberattacks against US as 'critical infrastructure' hit",
             "severity": "HIGH",
-            "url": "https://www.foxnews.com/politics/trump-warns-whole-civilization-die-tonight-iranian-official-urges-human-chains-around-power-plants",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/04/931/523/president-donald-trump-april-6-2026.jpeg?ve=1&tl=1",
-            "source": "foxnews"
+            "url": "https://www.express.co.uk/news/world/2191394/iran-cyberattacks-us-critical-infrastructure",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2191394_1.jpg",
+            "source": "expresscouk"
         },
         {
-            "title": "Greene raises 25th Amendment after new Trump Iran post: \u2018Evil and madness\u2019",
+            "title": "Chicago Fed's Goolsbee warns of successive inflationary shocks",
             "severity": "HIGH",
-            "url": "https://thehill.com/homenews/administration/5819417-greene-25th-amendment-trump-iran-threat/",
-            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/04/Donald-Trump-Marjorie-Taylor-Greene-04.07.png?strip=1",
-            "source": "thehill"
-        },
-        {
-            "title": "US Embassy sends emergency shelter-in-place warning to Americans ahead of Trump strike",
-            "severity": "HIGH",
-            "url": "https://www.the-express.com/news/world-news/204316/us-embassy-emergency-shelter-in-place-trump-strike",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/204316_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "India\u2019s nuclear leap: Why its fast breeder reactor success matters",
-            "severity": "HIGH",
-            "url": "https://www.aljazeera.com/news/2026/4/7/indias-nuclear-leap-why-its-fast-breeder-reactor-success-matters",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2012-09-18T120000Z_2073128729_GM1E89J0HW301_RTRMADP_3_INDIA-NUCLEAR-1775564286.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "India turns to Russia, Venezuela for crude supplies amid West Asia crisis",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/economy/news/india-turns-to-russia-venezuela-for-crude-supplies-amid-west-asia-crisis-126040701221_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-04/01/full/1774981996-9866.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "'Dangerous escalation': Pakistan condemns Iranian attacks on Saudi energy facilities",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/middle-east/dangerous-escalation-pakistan-condemns-iranian-attacks-on-saudi-energy-facilities/articleshow/130089859.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130090158/130090158.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Jet fuel supply concerns grow as war on Iran drags on, airlines cut flights",
-            "severity": "HIGH",
-            "url": "https://www.cnbc.com/2026/04/07/iran-war-jet-fuel-airlines.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108287514-1775504795172-gettyimages-2267108015-HL_ISOURIMENT_3103724.jpeg?v=1775504849&w=1200&h=675",
-            "source": "cnbc"
-        },
-        {
-            "title": "Former Australian soldier charged with committing 5 war crime murders in Afghanistan",
-            "severity": "HIGH",
-            "url": "https://www.adn.com/nation-world/2026/04/07/former-australian-soldier-charged-with-committing-5-war-crime-murders-in-afghanistan/",
-            "image": "https://www.adn.com/resizer/sn96mOQibZpC74uFVqWyeHcMKEY=/cloudfront-us-east-1.images.arcpublishing.com/adn/5SI7JR5OGNYWM2QL77S7DLBA4I.jpg",
-            "source": "adn"
-        },
-        {
-            "title": "Cartoon by Mike Smith",
-            "severity": "HIGH",
-            "url": "https://www.washingtonpost.com/opinions/2026/04/07/mike-smith-cartoon-iran-war-flight-prices/",
-            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "washingtonpost"
-        },
-        {
-            "title": "Why Your Automated Pentesting Tool Just Hit a Wall",
-            "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/why-your-automated-pentesting-tool-just-hit-a-wall/",
-            "image": "https://www.bleepstatic.com/content/posts/2026/03/30/picus-pentesting-header.jpg",
-            "source": "bleepingcomputer"
-        },
-        {
-            "title": "Delhi Assembly security breach: Accused Sarabjeet sent to 8-day police custody",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/india/delhi-assembly-security-breach-accused-sarabjeet-sent-to-8day-police-custody-articleshow-ggybugq",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-f4064fc4-5174-446d-b7f6-6b4f85da6607.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Iran: Deal Or No Deal? The Citrini Report And EU Diplomacy Suggest One May Happen",
-            "severity": "MEDIUM",
-            "url": "https://seekingalpha.com/article/4888936-iran-deal-or-no-deal-citrini-report-and-eu-diplomacy-suggest-one-may-happen",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1485146883/image_1485146883.jpg?io=getty-c-w1280",
+            "url": "https://seekingalpha.com/news/4573050-chicago-feds-goolsbee-warns-of-successive-inflationary-shocks?feed_item_type=news",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2262826598/image_2262826598.jpg?io=getty-c-w1280",
             "source": "seekingalpha"
         },
         {
-            "title": "Kerala Assembly polls 2026: Roller coaster politics turn election in Pathanamthitta into a thriller",
-            "severity": "MEDIUM",
-            "url": "https://www.thehindu.com/elections/kerala-assembly-polls-2026-roller-coaster-politics-turn-election-in-pathanamthitta-into-a-thriller/article70834488.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
+            "title": "Marco Rubio slams Iran over commercial ship strikes in Hormuz",
+            "severity": "HIGH",
+            "url": "https://english.mathrubhumi.com/news/world/marco-rubio-slams-iran-over-commercial-ship-strikes-in-hormuz-ey3nhdfk",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qbbt03or2ri46zf2lo/0/marco-rubio.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
         },
         {
-            "title": "Vance says he's 'here to help' Orba\u0301n's election campaign during Hungary visit",
-            "severity": "MEDIUM",
-            "url": "https://www.latimes.com/world-nation/story/2026-04-07/vance-says-hes-here-to-help-orbans-election-campaign-during-hungary-visit",
-            "image": "https://images.pexels.com/photos/19226353/pexels-photo-19226353.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "latimes"
-        },
-        {
-            "title": "Indonesia Construction Industry Report 2026: Output to Grow by 5.4% This Year Before Registering an AAGR of 5.9% Between 2027-2030, Driven by Investments in Housing, Mining, and Transport",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/04/07/3269413/28124/en/Indonesia-Construction-Industry-Report-2026-Output-to-Grow-by-5-4-This-Year-Before-Registering-an-AAGR-of-5-9-Between-2027-2030-Driven-by-Investments-in-Housing-Mining-and-Transpor.html",
-            "image": "https://images.pexels.com/photos/12185873/pexels-photo-12185873.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Trump says a \"whole civilization will die tonight\" ahead of Iran deadline",
-            "severity": "WATCH",
-            "url": "https://www.cbsnews.com/video/trump-says-a-whole-civilization-will-die-tonight-ahead-of-iran-deadline/",
-            "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/04/07/e4ea918b-f3a5-440b-8416-7ec366a20018/thumbnail/1200x630/247c6f4dc59e9c06e517485670b256ea/gettyimages-2268829078.jpg",
-            "source": "cbsnews"
-        },
-        {
-            "title": "How $7 bags of Doritos cost PepsiCo billions in sales",
-            "severity": "WATCH",
-            "url": "https://www.latimes.com/business/story/2026-04-07/how-7-bags-of-doritos-cost-pepsico-billions-in-sales",
-            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "latimes"
-        },
-        {
-            "title": "Allison Transmission Holdings (ALSN) Is A Strong Pick For The Next 5 Years, Here\u2019s Why",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/allison-transmission-holdings-alsn-strong-145547109.html",
-            "image": "https://images.pexels.com/photos/9494906/pexels-photo-9494906.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "Russia threatens to blow up iconic UK bridge in revenge for British drones destroying Putin\u2019s key crossing",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/news/38748539/russia-threatens-blow-uk-bridge-revenge-destroying-crossing/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F04%2Fnewspress-collage-hrb74210b-1775573482250.jpg?quality%3D90%26strip%3Dall%261775577100",
-            "source": "thesun"
-        },
-        {
-            "title": "London smash burger restaurant MeatLiquor has shut more than half its locations",
-            "severity": "WATCH",
-            "url": "https://www.timeout.com/london/news/london-smash-burger-restaurant-meatliquor-has-shut-more-than-half-its-locations-040726",
-            "image": "https://media.timeout.com/images/103610663/image.jpg",
-            "source": "timeout"
-        },
-        {
-            "title": "Who are viral math rock duo Angine de Poitrine \u2013 and is the hype justified?",
-            "severity": "WATCH",
-            "url": "http://www.euronews.com/culture/2026/04/07/who-are-viral-math-rock-duo-angine-de-poitrine-and-is-the-hype-justified",
-            "image": "https://images.euronews.com/articles/stories/09/71/33/73/1440x810_cmsv2_c46575aa-0cb0-5d30-9b9e-66f9b564b321-9713373.jpg",
-            "source": "euronews"
-        },
-        {
-            "title": "Micron Is One Of The Most Affordable Growth Stocks Right Now, Here\u2019s How",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/micron-one-most-affordable-growth-145558678.html",
-            "image": "https://images.pexels.com/photos/8369216/pexels-photo-8369216.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "Is Kharg Island Iran\u2019s Achilles Heel? Why Trump has designs on tiny oil hub in the Persian Gulf",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/world/middle-east/iran-kharg-island-map-oil-trump-war-b2953068.html",
-            "image": "https://static.independent.co.uk/2026/03/10/12/57/A-satellite-image-shows-an-oil-terminal-in-Kharg-Island-nazw83hw.jpeg?width=1200&auto=webp&trim=55%2C0%2C55%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "Greek parliament recommends lifting MP immunity in EU farm subsidy fraud scandal",
-            "severity": "WATCH",
-            "url": "http://www.euronews.com/2026/04/07/greek-parliament-recommends-lifting-mp-immunity-in-eu-farm-subsidy-fraud-scandal",
-            "image": "https://images.euronews.com/articles/stories/09/71/28/04/1440x810_cmsv2_41c3eec0-d9ea-51d4-b8b4-9a215e871478-9712804.jpg",
-            "source": "euronews"
-        },
-        {
-            "title": "Pet owners slapped with $1,500 fines in US city as officials enforce strict \u2018walking\u2019 rule",
-            "severity": "WATCH",
-            "url": "https://www.the-sun.com/money/16188727/dog-pet-waste-fined-yonkers-new-york-law/",
-            "image": "https://www.the-sun.com/wp-content%2Fuploads%2Fsites%2F6%2F2026%2F03%2Fyoung-handsome-dog-owner-city-1065798433.jpg?quality%3D80%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "Delhi Assembly security to be revamped with hydraulic road blockers, mobile patrol vehicles",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/delhi-news/delhi-assembly-security-to-be-revamped-with-hydraulic-road-blockers-mobile-patrol-vehicles-101775570881920.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/01/27/1600x900/logo/ht-generic_cities2_1769511880449_1769511907099.jpg",
+            "title": "Iran\u2019s 2nd warning lands like a threat to Gulf after Trump puts US allies on the front line of war",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/videos/irans-2nd-warning-lands-like-a-threat-to-gulf-after-trump-puts-us-allies-on-the-front-line-of-war-101775583916618.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/07/1600x900/logo/13_1775584095924_1775584099756.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "New Assassin\u2019s Creed Shadows Update Brings Big Upgrades for PS5 and Switch 2",
-            "severity": "WATCH",
-            "url": "https://comicbook.com/gaming/news/assassins-creed-ac-shadows-update-april-2026/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2025/03/Assassins-Creed-Shadows.jpg",
-            "source": "comicbook"
+            "title": "US soldier trying to halt wife\u2019s deportation after she was detained on Louisiana military base",
+            "severity": "HIGH",
+            "url": "https://www.cnn.com/2026/04/07/us/immigration-military-bases",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26096721617728.jpg?c=original/w_800",
+            "source": "cnn"
         },
         {
-            "title": "Seth\u2019s Storyline on The Rookie Season 8 Is Too Confusing",
-            "severity": "WATCH",
-            "url": "https://www.tvfanatic.com/seth-storyline-the-rookie-season-8-storyline-too-confusing/",
-            "image": "https://cdn.tvfanatic.com/uploads/2025/04/175515_0289-scaled.jpg",
-            "source": "tvfanatic"
+            "title": "Russia and China veto UN resolution aimed at reopening Hormuz strait as US deadline for deal looms",
+            "severity": "HIGH",
+            "url": "http://www.euronews.com/2026/04/07/russia-and-china-veto-un-resolution-aimed-at-reopening-hormuz-strait-as-us-deadline-for-de",
+            "image": "https://images.euronews.com/articles/stories/09/71/36/07/1440x810_cmsv2_88d55b3b-f064-5e39-aed7-fcb127825689-9713607.jpg",
+            "source": "euronews"
         },
         {
-            "title": "This airport is functional, but don\u2019t pass through security too early",
+            "title": "Hegseth\u2019s claims about Iran war contradict reality, officials say",
+            "severity": "HIGH",
+            "url": "https://www.post-gazette.com/news/world/2026/04/07/iran-war-hegseth-trump-briefing/stories/202604070060",
+            "image": "https://images.pexels.com/photos/13316848/pexels-photo-13316848.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "postgazette"
+        },
+        {
+            "title": "The next hot trade is starting to challenge stocks: Chart of the Day",
+            "severity": "HIGH",
+            "url": "https://finance.yahoo.com/news/the-next-hot-trade-is-starting-to-challenge-stocks-chart-of-the-day-174324227.html",
+            "image": "https://s.yimg.com/os/creatr-uploaded-images/2026-04/80cffbb0-32a6-11f1-9ddd-14bc15eeeadb",
+            "source": "yahoo_sg"
+        },
+        {
+            "title": "Nearly two years on, white-topping of 1.3km road in Bengaluru\u2019s Malleswaram remains unfinished",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/bengaluru/nearly-two-years-on-white-topping-of-1-3km-road-in-bengalurus-malleswaram-remains-unfinished/articleshow/130092942.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117518782/117518782.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Picasso\u2019s \u2018Guernica\u2019 at heart of battle in Spain over location",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/entertainment/article/picassos-guernica-at-heart-of-battle-in-spain-over-location/",
+            "image": "https://www.ctvnews.ca/resizer/v2/I5CGH6C5MNAYNIHKAMN6FG36SM.jpg?auth=2c4a7ed35f48260150477829cdfd2e790e0f16aa2a29fdc43c7992c429dd8be9&smart=true&width=5472&height=3648",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Delhi Assembly Security To Be Revamped After Breach",
+            "severity": "HIGH",
+            "url": "https://www.ndtv.com/india-news/delhi-assembly-security-to-be-revamped-after-breach-11325158",
+            "image": "https://c.ndtvimg.com/2025-07/dnbflcf8_delhi-assembly_625x300_20_July_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
+        },
+        {
+            "title": "Salman Khan granted legal relief in Rajshree Pan Masala advertisement case",
+            "severity": "HIGH",
+            "url": "https://english.mathrubhumi.com/news/india/salman-khan-granted-legal-relief-in-rajshree-pan-masala-advertisement-case-p0jd5gju",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qbbpq1d0mzvyjsmf92/0/salman-khan-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "US Iran War Live Updates:Iran Warns Of Global Fallout As US Tensions Escalate",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/news/world/us-iran-israel-war-live-updates-trump-hormuz-strike-on-tehran-impact-on-petrol-diesel-lpg-price-india-dubai-uae-1835187",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/07/6e18657af6586e85e2164ae10da1ca3117755253795241368_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "Healthcare data breach hits system storing patient records",
+            "severity": "HIGH",
+            "url": "https://www.foxnews.com/tech/healthcare-data-breach-hits-system-storing-patient-records",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/04/931/523/carecloud-data-breach-1.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "CCI okays Torrent Power's proposal to acquire Nabha Power from L&T's arm",
+            "severity": "MEDIUM",
+            "url": "https://www.business-standard.com/companies/news/cci-okays-torrent-power-s-proposal-to-acquire-nabha-power-from-l-t-arm-126040701310_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-12/08/full/1765188886-2404.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Container shipments by Russian Railways down 2% in Q1 2026 \u2014 company",
             "severity": "WATCH",
-            "url": "https://www.smh.com.au/traveller/reviews-and-advice/this-airport-is-functional-but-don-t-pass-through-security-too-early-20260327-p5zjaz.html",
-            "image": "https://images.pexels.com/photos/30812649/pexels-photo-30812649.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "smh"
+            "url": "https://tass.com/economy/2113239",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
+        },
+        {
+            "title": "Iranians form human chains at power plants amid US and Israel strike threats",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/bulletin/news/iran-trump-human-chain-protest-video-b2953229.html",
+            "image": "https://static.independent.co.uk/2026/04/07/16/47/Iranians-unite-in-human-chains-to-protect-infrastructure-amid-Trump-threats.png?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "\u2018Syria is in My Heart\u2019",
+            "severity": "WATCH",
+            "url": "https://today.ucsd.edu/story/syria-is-in-my-heart",
+            "image": "https://today.ucsd.edu/teaser_uploads/_social/260311SarabAziz-UCSanDiegoEJ2a_crop.jpg",
+            "source": "ucsd"
+        },
+        {
+            "title": "Feb 26, 2026; Indianapolis, IN, USA; Pittsburgh linebacker Kyle Louis (LB16) runs the 40-yards dash during the NFL Scouting Combine at Lucas Oil Stadium. Mandatory Credit: Kirby Lee-Imagn Images",
+            "severity": "WATCH",
+            "url": "https://www.si.com/college/pittsburgh/football/three-pitt-panthers-players-improved-2026-nfl-draft-stock",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_5034,h_2831,x_1516,y_628/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/inside_the_panthers/01knm3q4p6d1wwc8p4fk.jpg",
+            "source": "si"
+        },
+        {
+            "title": "GAIL signs long-term charter party agreement for LNG carrier with Alpha Gas",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/business/Industry/gail-signs-long-term-charter-party-agreement-for-lng-carrier-with-alpha-gas/article70835556.ece",
+            "image": "https://th-i.thgim.com/public/todays-paper/tp-business/jvkz19/article70585790.ece/alternates/FREE_1200/GAIL-targeting-GQPFHDLOD.3.jpg.jpg",
+            "source": "thehindu"
+        },
+        {
+            "title": "Trading ban upends State Bank of India's $5 billion short, forces unwind",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/companies/news/trading-ban-upends-state-bank-of-india-s-5-billion-short-forces-unwind-126040701474_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-07/16/full/1752689101-0452.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Iran deploys Ghadir submarines across Strait of Hormuz; What are their features, and how dangerous are they?",
+            "severity": "WATCH",
+            "url": "https://www.india.com/news/world/iran-deploys-ghadir-submarines-across-strait-of-hormuz-what-are-their-features-and-how-dangerous-are-they-us-navy-hoot-torpedo-jask-2-cruise-missile-8372320/",
+            "image": "https://static.india.com/wp-content/uploads/2026/04/QT-ghadir-class-submarine-BEFUN.jpg",
+            "source": "india"
+        },
+        {
+            "title": "Vatican Aid Convoy to Southern Lebanese Town Forced Back by Bombardment",
+            "severity": "WATCH",
+            "url": "https://www.usnews.com/news/world/articles/2026-04-07/vatican-aid-convoy-to-southern-lebanese-town-forced-back-by-bombardment",
+            "image": "https://images.pexels.com/photos/18597927/pexels-photo-18597927.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "usnews"
+        },
+        {
+            "title": "'Europe Is a Bit of a Mess', Donald Trump Jr. Tells Panel in Bosnia",
+            "severity": "WATCH",
+            "url": "https://www.usnews.com/news/world/articles/2026-04-07/europe-is-a-bit-of-a-mess-donald-trump-jr-tells-panel-in-bosnia",
+            "image": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "usnews"
+        },
+        {
+            "title": "\u2018X-Men\u2019 Reboot Director Says \u2018Beef\u2019 Creator and \u2018The Bear\u2019 Writer Are \u2018Working on a Draft\u2019 of the Script: \u2018We\u2019re Still Developing\u2019",
+            "severity": "WATCH",
+            "url": "https://variety.com/2026/film/news/x-men-reboot-director-beef-creator-the-bear-writer-new-script-1236710596/",
+            "image": "https://variety.com/wp-content/uploads/2025/07/x-men.png",
+            "source": "variety"
+        },
+        {
+            "title": "SalesCloser Announces Commencement of Trading on the TSX Venture Exchange",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/globe-newswire/salescloser-announces-commencement-of-trading-on-the-tsx-venture-exchange",
+            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "Apple\u2019s foldable iPhone is on track to launch in September, report says",
+            "severity": "WATCH",
+            "url": "https://techcrunch.com/2026/04/07/apples-foldable-iphone-is-on-track-to-launch-in-september-report-says/",
+            "image": "https://techcrunch.com/wp-content/uploads/2025/06/apple-on-phone.jpg",
+            "source": "techcrunch"
+        },
+        {
+            "title": "Building Canada strong by investing in the Marpole Community Centre in Vancouver",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/pressreleases/26/04/n51687982/building-canada-strong-by-investing-in-the-marpole-community-centre-in-vancouver",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "source": "benzinga"
+        },
+        {
+            "title": "Parts of the UK where certain homeowners face up to \u00a328,000 council tax",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/cost-of-living/parts-uk-certain-homeowners-face-33729757",
+            "image": "https://i2-prod.birminghammail.co.uk/incoming/article33729748.ece/ALTERNATES/s615/0_House-prices.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "\u2018Ghost Murmur,\u2019 a never-used secret tool, finds airman in Iran: \u2018If your heart is beating, we will find you\u2019",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/04/07/us-news/ghost-murmur-a-never-used-secret-tool-deployed-to-find-lost-airman-in-iran-in-daring-mission/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F04%2F2026-washington-dc-president-trump-125118896.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Retired Astronaut to Newsmax: Artemis Lunar Mission 'Truly Spectacular'",
+            "severity": "WATCH",
+            "url": "https://www.newsmax.com/us/nasa-artemis-ii-bill-mcarthur/2026/04/07/id/1252104",
+            "image": "https://www.newsmax.com/app_themes/newsmax/images/facebook/newsmaxfblogo.gif",
+            "source": "newsmax"
+        },
+        {
+            "title": "Oshawa man charged with manslaughter in deadly Courtice, Ont., fire",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/toronto/article/oshawa-man-charged-with-manslaughter-in-deadly-courtice-ont-fire/",
+            "image": "https://www.ctvnews.ca/resizer/v2/72E34LHMBJGZ7HJCXSON6DQONI.jpg?auth=78ad81754309893308a7a4f5a8b7a5b890c33f5952388b48f4678d0fb56342e2&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
+        },
+        {
+            "title": "AMTD chairman joins HKUST Guangzhou advisory board",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/company-news/amtd-chairman-joins-hkust-guangzhou-advisory-board-93CH-4350041",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEA7D094_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Tesco, B&M and Matalan ban for serial Midland shoplifter",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/tesco-bm-matalan-ban-serial-33729690",
+            "image": "https://i2-prod.birminghammail.co.uk/incoming/article33729706.ece/ALTERNATES/s615/0_Samantha-James.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Welsh government wins Cardiff Airport legal battle against Bristol over \u00a3200m subsidy",
+            "severity": "WATCH",
+            "url": "https://www.bbc.com/news/articles/c208pd37n50o",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/0a2c/live/33884530-32a4-11f1-bcd7-95478cdf5125.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "Meta employee in London accused of downloading 30,000 private Facebook images",
+            "severity": "WATCH",
+            "url": "https://www.theguardian.com/uk-news/2026/apr/07/meta-worker-london-accused-downloading-private-facebook-images",
+            "image": "https://i.guim.co.uk/img/media/a7067d7cdd917bc7889ffec5c07e310dc86e6495/448_0_4105_3286/master/4105.jpg?width=140&quality=85&auto=format&fit=max&s=46f7d603cbac661eb5acc9184119310b",
+            "source": "theguardian"
+        },
+        {
+            "title": "\"It's just unreal\" - Frostpunk series passes impressive sales milestone, as a Switch version is announced and major Frostpunk 2 DLC is revealed",
+            "severity": "WATCH",
+            "url": "https://www.eurogamer.net/frostpunk-sales-milestone-and-dlc",
+            "image": "https://assetsio.gnwcdn.com/frostpunk2_mVfzhwm.jpg?width=690&quality=85&format=jpg&auto=webp",
+            "source": "eurogamer"
         }
     ],
-    "Last_Updated": "2026-04-08T02:56:40.953211Z"
+    "Last_Updated": "2026-04-08T05:50:37.009208Z"
 }
