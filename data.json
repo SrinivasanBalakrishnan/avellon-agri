@@ -1,209 +1,267 @@
 {
-    "AGRI_Score": 63.2,
-    "Velocity": "0.0",
+    "AGRI_Score": 64.0,
+    "Velocity": "+0.8",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.0 reflects persistent high-level threats driven primarily by continued \"Energy & Maritime Disruption\" (100) and elevated \"Geopolitical Conflict Intensity\" (73.2), despite a temporary de-escalation. Although a \"two-week ceasefire agreed\" in the Iran war led to oil prices diving \"below $100\" and global stocks jumping, expert warnings like \"Don\u2019t expect fuel prices to return to pre-Iran war levels anytime soon\" underscore lingering market volatility and supply concerns. Furthermore, the \"FBI and NSA issue joint 'warning' of Iran-linked cyberattacks on critical infrastructure,\" indicating an active and evolving threat landscape beyond kinetic conflict.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.9,
+        "Geopolitical Conflict Intensity": 73.2,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 65.4,
+        "Trade & Supply Chain Stress": 67.0,
         "Sovereign Financial Stress": 53.4,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 65.0,
+        "Sanctions & Regulatory Fragmentation": 69.6,
+        "Cyber & Infrastructure Threats": 61.9,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Despite a declared \"two-week ceasefire agreed\" in the Iran war, leading to a temporary reduction in kinetic conflict, the underlying geopolitical tensions remain high. The sentiment expressed in \"Xinhua Commentary: A step back from war, but a long road to peace\" indicates that true resolution is distant, maintaining a high risk of renewed conflict.",
+        "Energy & Maritime Disruption": "This pillar remains at its maximum score due to the fundamental instability in energy markets, despite a temporary dip in oil prices following the ceasefire. Warnings like \"EU to face austerity amid absence of cheap oil \u2014 Russian security official\" and the fact that \"India Pays Record Price For Crude Oil In April 2026\" highlight persistent supply concerns and high costs that are not expected to normalize soon.",
+        "Trade & Supply Chain Stress": "The temporary \"Iran-US ceasefire impact\" suggests that \"Hormuz to see 'controlled' movement,\" which could slightly ease maritime shipping concerns. However, ongoing trade friction, evidenced by \"US carmakers accuse EU of blocking supersised pick-up trucks from roads,\" continues to introduce stress points into global supply chains.",
+        "Sovereign Financial Stress": "Central banks are actively monitoring the geopolitical situation, with the \"RBI holds repo rate, warns of impact of West Asia conflict on economy.\" The potential for \"austerity amid absence of cheap oil\" in the EU signals looming fiscal pressures for sovereign entities in various regions.",
+        "Currency & Liquidity Pressure": "While \"global markets surge\" post-ceasefire, offering some temporary relief, the overall environment remains susceptible to pressure. The RBI's explicit warning regarding the conflict's impact on the economy suggests that underlying vulnerabilities could still trigger currency depreciation or liquidity tightening.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory disagreements persist, as seen with \"US carmakers accuse EU of blocking supersised pick-up trucks from roads,\" indicating ongoing fragmentation in international trade policies. Although a ceasefire is in place, the broader geopolitical context means that the threat of new or expanded sanctions remains a significant concern, contributing to regulatory uncertainty.",
+        "Cyber & Infrastructure Threats": "This pillar remains a critical concern, with \"Iran-Linked Hackers Target US Industrial Sites, Attempt To Erase Data\" reported by authorities. The \"FBI and NSA issue joint 'warning' of Iran-linked cyberattacks on critical infrastructure,\" urging immediate defensive actions by US companies.",
+        "Climate & Resource Shock": "There are no immediate reports within the provided news feed indicating significant climate events or resource shocks. This pillar currently reflects routine monitoring, with geopolitical and economic factors dominating the risk landscape."
+    },
     "All_Alerts": [
         {
-            "title": "Iran-US ceasefire details: Trump predicts 'positive action', 'big money' after truce; US to 'hang around' Strait of Hormuz",
+            "title": "Oil dives below $100, stocks jump after two-week ceasefire agreed",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-us-ceasefire-details-trump-predicts-positive-action-big-money-after-truce-us-to-hang-around-strait-of-hormuz/articleshow/130101561.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130102182/130102182.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Australia PM welcomes US pause on Iran strikes, calls for de-escalation",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/world-news/australia-pm-welcomes-us-pause-on-iran-strikes-calls-for-de-escalation-126040800217_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-05/05/full/1746419024-3186.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "\u2018Biggest diplomatic win in years\u2019: Pakistan\u2019s quiet role in US-Iran ceasefire",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1989780/biggest-diplomatic-win-in-years-pakistans-quiet-role-in-us-iran-ceasefire",
-            "image": "https://i.dawn.com/large/2026/04/08095355de752db.webp",
+            "url": "https://www.dawn.com/news/1989806/oil-dives-below-100-stocks-jump-after-two-week-ceasefire-agreed",
+            "image": "https://i.dawn.com/large/2026/04/081206472cf9a49.webp",
             "source": "dawn"
         },
         {
-            "title": "French arms exports to Israel \u2018a continuous pipeline of military hardware\u2019",
+            "title": "EU to face austerity amid absence of cheap oil \u2014 Russian security official",
             "severity": "HIGH",
-            "url": "https://www.france24.com/en/middle-east/20260408-french-arms-exports-to-israel-a-continuous-pipeline-of-military-hardware",
-            "image": "https://s.france24.com/media/display/8893a7ac-32ab-11f1-8213-005056a90284/w:1280/p:16x9/000-33MT6X4.jpg",
-            "source": "france24"
+            "url": "https://tass.com/politics/2113461",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
         },
         {
-            "title": "Instant view: India's central bank holds rates as Iran war upends economic outlook",
+            "title": "Price of oil tumbles as global stocks rebound on two-week ceasefire",
             "severity": "HIGH",
-            "url": "https://sg.finance.yahoo.com/news/instant-view-indias-central-bank-050838177.html",
-            "image": "https://images.pexels.com/photos/586104/pexels-photo-586104.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo_sg"
+            "url": "https://www.standard.co.uk/business/business-news/investors-traders-donald-trump-strait-of-hormuz-iran-b1277953.html",
+            "image": "https://static.standard.co.uk/2026/03/06/17/06173457-604b0fa0-3449-41d2-baa1-7e7500bde780.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
         },
         {
-            "title": "Tata Motors, TMPV shares soar up to 11% on Iran war ceasefire. Here\u2019s why it matters",
+            "title": "War paused, oil down, but here\u2019s why you shouldn\u2019t get your hopes up for lower fuel prices",
             "severity": "HIGH",
-            "url": "http://economictimes.indiatimes.com/markets/stocks/news/tata-motors-tmpv-shares-soar-up-to-11-on-iran-war-ceasefire-heres-why-it-matters/articleshow/130103009.cms",
-            "image": "https://images.pexels.com/photos/34098896/pexels-photo-34098896.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.iol.co.za/motoring/industry-news/war-paused-oil-down-but-heres-why-you-shouldnt-get-your-hopes-up-for-lower-fuel-prices-de1684ca-9f39-40a4-9255-da596b5beb09",
+            "image": "https://images.pexels.com/photos/5014710/pexels-photo-5014710.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "iol"
+        },
+        {
+            "title": "How to talk about money for a resilient financial future",
+            "severity": "HIGH",
+            "url": "https://www.iol.co.za/personal-finance/financial-planning/how-to-talk-about-money-for-a-resilient-financial-future-2e579f7b-cfff-48ad-b2f2-bfdf8f03b541",
+            "image": "https://images.pexels.com/photos/6632532/pexels-photo-6632532.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "iol"
+        },
+        {
+            "title": "RBI holds repo rate, warns of impact of West Asia conflict on economy",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-holds-repo-rate-warns-of-impact-of-west-asia-conflict-on-economy/articleshow/130105728.cms",
+            "image": "https://img.etimg.com/thumb/msid-130105718,resizemode-4,width-1200,height-900,imgsize-82758,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "PNP launches crackdown against fixers exploiting gov't aid",
+            "title": "India Pays Record Price For Crude Oil In April 2026: What\u2019s Behind The Surge",
             "severity": "HIGH",
-            "url": "https://newsinfo.inquirer.net/2208719/fwd-pnp-steps-up-efforts-vs-fixers-exploiting-govt-aid-amid-energy-crisis",
-            "image": "https://newsinfo.inquirer.net/files/2024/10/PNP-headquarters-file-620x349.jpeg",
-            "source": "inquirer"
+            "url": "https://news.abplive.com/business/india-costliest-crude-oil-20-years-april-2026-explained-1835309",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/06/0a5974e6fb29374518febe5e656ea36d17754863134891307_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
         },
         {
-            "title": "Delhi assembly security breach: Two police personnel suspended",
+            "title": "Pete Hegseth \u2018not speaking truth\u2019 to Trump? Alarming report claims POTUS \u2018repeating misleading info\u2019 about Iran war",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/city/delhi-assembly-security-breach-two-police-personnel-suspended-article-13883117.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260406100520_sbbrh.jpg",
+            "url": "https://www.hindustantimes.com/world-news/us-news/pete-hegseth-not-speaking-truth-to-trump-alarming-report-claims-potus-repeating-misleading-info-about-iran-war-101775632359768.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/08/1600x900/logo/TRUMP-CABINET-39_1775632844565_1775632875566.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Everything we know as Donald Trump declares two-week ceasefire in Iran war",
+            "severity": "HIGH",
+            "url": "https://www.manchestereveningnews.co.uk/news/world-news/everything-know-donald-trump-declares-33730749",
+            "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33730771.ece/ALTERNATES/s615/0_JS402341043.jpg",
+            "source": "manchestereveningnews"
+        },
+        {
+            "title": "'Don\u2019t expect fuel prices to return to pre-Iran war levels anytime soon'",
+            "severity": "HIGH",
+            "url": "https://www.mirror.co.uk/money/dont-expect-fuel-prices-return-36982358",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article36969110.ece/ALTERNATES/s615/5_Daily-life-driving-petrol-diesel-prices-Emmer-Green-Berkshire-UK-04-Apr-2026.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Iran-Linked Hackers Target US Industrial Sites, Attempt To Erase Data; FBI Issues Urgent Warning",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/world/iran-linked-hackers-target-us-oil-water-sites-us-iran-ceasefire-tensions-cyberattacks-middle-east-conflict-ws-l-10021271.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/01/punit-canva-2026-01-16T151735.666-2026-01-8f0ac1b6060db6a2f1b5da033bc6ee51-3x2.png",
+            "source": "news18"
+        },
+        {
+            "title": "War of words erupts between TMC and Election Commission after brief, tense meeting",
+            "severity": "HIGH",
+            "url": "http://economictimes.indiatimes.com/news/elections/assembly-elections/west-bengal/tmc-claims-election-chief-told-them-to-get-lost-in-heated-meeting-as-accusations-fly/articleshow/130105186.cms",
+            "image": "https://images.pexels.com/photos/3183174/pexels-photo-3183174.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "\u2018We are almost incomparable\u2019: England\u2019s Emma Sing on challenging Kildunne and Six Nations hopes",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/sport/2026/apr/08/england-rugby-emma-sing-interview-ellie-kildunne-six-nations-hopes",
+            "image": "https://i.guim.co.uk/img/media/6ad9e69f51ef71f09c0f223c20ee96d292af7d06/443_0_4429_3543/master/4429.jpg?width=140&quality=85&auto=format&fit=max&s=0c9d5c29473b74b0d8a81bb54e57c6e6",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "US carmakers accuse EU of blocking supersised pick-up trucks from roads, FT reports",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/business/us-carmakers-accuse-eu-of-blocking-supersised-pick-up-trucks-from-roads-ft-reports/articleshow/130105063.cms",
+            "image": "https://img.etimg.com/thumb/msid-130105141,resizemode-4,width-1200,height-900,imgsize-54552,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Andrew Mountbatten-Windsor finally moves into new home after Prince Edward clash",
+            "severity": "HIGH",
+            "url": "https://www.express.co.uk/news/royal/2191468/andrew-mountbatten-windsor-new-home-edward-clash",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/106/590x/2191468_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Xinhua Commentary: A step back from war, but a long road to peace",
+            "severity": "HIGH",
+            "url": "http://chinanationalnews.com/news/278970715/xinhua-commentary-a-step-back-from-war-but-a-long-road-to-peace",
+            "image": "https://image.chitra.live/api/v1/wps/72f9a5b/a4836f73-b318-4042-94e9-bfcf41d154b6/0/XxjidwE000029-20260408-CBMFN0A001-600x315.jpg",
+            "source": "chinanationalnews"
+        },
+        {
+            "title": "FBI and NSA issue joint 'warning' of Iran-linked cyberattacks on critical infrastructure; says: US companies should urgently ...",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/fbi-and-nsa-issue-joint-warning-of-iran-linked-cyberattacks-on-critical-infrastructure-says-us-companies-should-urgently-/articleshow/130103462.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130103523/130103523.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Tariff optimisation a strategic lever for commercial property growth",
+            "severity": "MEDIUM",
+            "url": "https://www.iol.co.za/business-report/energy/tariff-optimisation-a-strategic-lever-for-commercial-property-growth-b8c37f31-12ad-4b0e-91f8-d81a3c8ba896",
+            "image": "https://images.pexels.com/photos/4386345/pexels-photo-4386345.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "iol"
+        },
+        {
+            "title": "Average UK house price fell by 0.5 per cent month on month in March",
+            "severity": "MEDIUM",
+            "url": "https://www.standard.co.uk/homesandproperty/property-news/uk-house-price-fall-march-b1277944.html",
+            "image": "https://static.standard.co.uk/homesandproperty/s3fs-public/thumbnails/image/2020/05/13/13/EstateAgentsReportshutterstock-1152968060.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
+        },
+        {
+            "title": "Iran-US ceasefire impact: Oil prices drop, Hormuz to see 'controlled' movement; global markets surge",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/iran-us-ceasefire-impact-oil-prices-drop-hormuz-to-see-controlled-movement-global-markets-surge/articleshow/130105392.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130105744/130105744.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "RBI MPC meeting LIVE: Headline inflation remains our target, and managing that is our primary goal, says RBI guv",
+            "severity": "MEDIUM",
+            "url": "https://www.thehindu.com/business/rbi-monetary-policy-meeting-speech-april-8-2026-live-updates/article70837023.ece",
+            "image": "https://th-i.thgim.com/public/incoming/dl223x/article70837027.ece/alternates/FREE_1200/2026-02-23T075101Z_1096779676_RC25GJAG4Q4T_RTRMADP_3_INDIA-CENBANK-LOANS-BROKERS.JPG",
+            "source": "thehindu"
+        },
+        {
+            "title": "Risk-on sentiment will return although volatility may remain in the near-term: ABSL AMC's A Balasubramanian",
+            "severity": "MEDIUM",
+            "url": "https://www.moneycontrol.com/news/business/markets/risk-on-sentiment-will-return-although-volatility-may-remain-in-the-near-term-absl-amc-s-a-balasubramanian-13883204.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2021/11/Balasubramanian1280.jpg",
             "source": "moneycontrol"
         },
         {
-            "title": "Trove of sensitive LAPD records leaked in hack attack",
-            "severity": "HIGH",
-            "url": "https://nypost.com/2026/04/08/us-news/trove-of-sensitive-lapd-records-leaked-in-hack-attack/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F04%2F2025-lapd-officers-guard-los-125209328.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "A hacker has allegedly breached one of China\u2019s supercomputers and is attempting to sell a trove of stolen data",
-            "severity": "HIGH",
-            "url": "https://www.cnn.com/2026/04/08/china/china-supercomputer-hackers-hnk-intl",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/shutterstock-editorial-9936217b.jpg?c=original/w_800",
-            "source": "cnn"
-        },
-        {
-            "title": "Antwerp Court advises Belgian govt to clear Mehul Choksi's extradition",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/india-news/antwerp-court-advises-belgian-govt-to-clear-mehul-choksi-s-extradition-126040800170_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-03/26/full/1742957432-9395.jpg",
+            "title": "RBI policy highlights underlying risks for India despite US-Iran ceasefire",
+            "severity": "MEDIUM",
+            "url": "https://www.business-standard.com/markets/news/rbi-growth-inflation-outlook-us-iran-ceasefire-west-asia-crisis-impact-126040800493_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-02/01/full/1769936644-6186.jpeg",
             "source": "business-standard"
         },
         {
-            "title": "Behind the US-Iran ceasefire: Was it China in the shadows or Pakistan in the spotlight?",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/behind-the-us-iran-ceasefire-was-it-china-in-the-shadows-or-pakistan-in-the-spotlight/articleshow/130102344.cms",
-            "image": "https://img.etimg.com/thumb/msid-130103062,resizemode-4,width-1200,height-900,imgsize-2028740,overlay-economictimes/articleshow.jpg",
+            "title": "Early menopause: How women under 45 can protect their heart through stress control, explain UAE doctors",
+            "severity": "WATCH",
+            "url": "https://gulfnews.com/uae/early-menopause-how-women-under-45-can-protect-their-heart-through-stress-control-explain-uae-doctors-1.500499887",
+            "image": "https://media.assettype.com/gulfnews/import/2024/03/08/Person-with-heart_18e1e03f9cb_large.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Why Real Madrid believe \u2013 and history shows \u2013 they should never be discounted, even after Bayern loss",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7177708/2026/04/08/real-madrid-champions-league-still-alive/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/04/08015039/GettyImages-2270277587-scaled-e1775627462162.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "A\u030alandsbanken: Cyclicals and consumer discretionaries to benefit from ceasefire; energy outlook turns negative",
+            "severity": "WATCH",
+            "url": "https://www.marketscreener.com/news/landsbanken-cyclicals-and-consumer-discretionaries-to-benefit-from-ceasefire-energy-outlook-turns-ce7e50dadc8fff23",
+            "image": "https://images.pexels.com/photos/9494918/pexels-photo-9494918.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "marketscreener"
+        },
+        {
+            "title": "This new dining hall in Bengaluru is all about hearty Karnataka fare",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/food/dining/this-new-dining-hall-in-bengaluru-is-all-about-hearty-karnataka-fare/article70787800.ece",
+            "image": "https://th-i.thgim.com/public/food/k7cbwc/article70833830.ece/alternates/FREE_1200/_SJP2118-Edit.jpg",
+            "source": "thehindu"
+        },
+        {
+            "title": "RBI ups crude oil, exchange rate baseline assumptions for FY27",
+            "severity": "WATCH",
+            "url": "http://economictimes.indiatimes.com/news/economy/policy/rbi-ups-crude-oil-exchange-rate-baseline-assumptions-for-fy27/articleshow/130105901.cms",
+            "image": "https://img.etimg.com/thumb/msid-130105995,resizemode-4,width-1200,height-900,imgsize-100986,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "VICTOR JOECKS: Democrat SOS\u2019s error shows need for greater election security",
-            "severity": "MEDIUM",
-            "url": "https://www.reviewjournal.com/opinion/opinion-columns/victor-joecks/victor-joecks-democrat-soss-error-shows-need-for-greater-election-security-3734937/",
-            "image": "https://www.reviewjournal.com/wp-content/uploads/2026/04/21556621_web1_ETL_VETERANOS_042924_6.jpg?w=700",
-            "source": "reviewjournal"
+            "title": "Move to liberalise FDI flows from land-bordering countries",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/ht-insight/economy/move-to-liberalise-fdi-flows-from-land-bordering-countries-101775632380995.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/08/1600x900/logo/Punjab-has-received-a-cumulative-foreign-direct-in_1693337937076_1775632559871.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "The Latest: Trump pulls back on threats as US, Israel and Iran reach a 2-week ceasefire deal",
+            "title": "Indian Restaurant in Canada Faces 10-Day Ban After Minor Served Alcohol Without ID Check",
             "severity": "WATCH",
-            "url": "https://www.kgw.com/article/syndication/associatedpress/the-latest-trump-pulls-back-on-threats-as-us-israel-and-iran-reach-a-2-week-ceasefire-deal/616-ebe7a241-3e63-4c17-b2f9-a8f8c2545425",
-            "image": "https://media.kgw.com/assets/KGW/images/bcfd953c-83f5-4c61-a3e8-76fcacbb797e/20260408T014610/bcfd953c-83f5-4c61-a3e8-76fcacbb797e_1920x1080.jpg",
-            "source": "kgw"
+            "url": "https://newsable.asianetnews.com/world/indian-restaurant-in-canada-faces-10-day-ban-after-minor-served-alcohol-id-check-articleshow-cqe4q35",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01k15z6c5paqy15ygyt1g2456e,imgname-impact-of-alcohol-on-lifespan-1753620885686.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "European stocks set to soar after U.S.-Iran ceasefire deal",
+            "title": "Maersk Says US, Iran Ceasefire May Create Strait of Hormuz Transit Opportunities",
             "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/04/08/european-markets-ftse-dax-cac-ftsemib-ibex-react-to-iran-us-ceasefire-deal.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108286678-1775139972370-gettyimages-2269529443-mms16608_o1vg2idv.jpeg?v=1775140038&w=1200&h=675",
-            "source": "cnbc"
+            "url": "https://www.usnews.com/news/top-news/articles/2026-04-08/maersk-says-us-iran-ceasefire-may-create-strait-of-hormuz-transit-opportunities",
+            "image": "https://images.pexels.com/photos/30812649/pexels-photo-30812649.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "usnews"
         },
         {
-            "title": "Shipowners eye escape for 800 vessels as Hormuz reopening looms",
+            "title": "All Simhastha 2028 Works to Be Completed by Diwali 2027: CM Dr. Yadav",
             "severity": "WATCH",
-            "url": "https://seekingalpha.com/news/4573161-shipowners-eye-escape-for-800-vessels-as-hormuz-reopening-looms?feed_item_type=news",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2232198457/image_2232198457.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "url": "https://www.deccanherald.com/dhbrandpr/all-simhastha-2028-works-to-be-completed-by-diwali-2027-cm-dr-yadav-3960334",
+            "image": "https://media.assettype.com/deccanherald/2026-04-08/adoqq4t5/Picture0.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "What parents should avoid before school reopening",
+            "title": "IPL 2026: Yashasvi Jaiswal hits 100 sixes, joins Rajasthan Royals' elite power-hitters",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/life-style/parenting/moments/what-parents-should-avoid-before-school-reopening/articleshow/130103025.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130103024/130103024.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Has Occidental Petroleum (OXY) Run Too Far After Its 78% One Year Rally?",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/occidental-petroleum-oxy-run-too-050835414.html",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://sports.yahoo.com/articles/ipl-2026-yashasvi-jaiswal-hits-071600510.html",
+            "image": "https://images.pexels.com/photos/7518599/pexels-photo-7518599.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo"
         },
         {
-            "title": "Assessing BCE\u2019s Valuation After Recent Share Price Weakness And Short Term Recovery",
+            "title": "Sunil Narine Bowls Maiden Super Over: What Are Men's T20 Records That Seem Impossible To Break?",
             "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/assessing-bce-valuation-recent-share-050858635.html",
-            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "How Irish engineers are cashing in on AI boom",
-            "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/c80m37382e2o",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/88ec/live/ab554f80-32aa-11f1-934f-036468834728.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "New Gig Worker Tax Break May Reshape DoorDash Dasher Economics",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/gig-worker-tax-break-may-050923804.html",
-            "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "Jet fuel supply could take months to recover after Hormuz reopening",
-            "severity": "WATCH",
-            "url": "https://www.bangkokpost.com/business/general/3233143/iata-chief-says-jet-fuel-supply-could-take-months-to-recover-after-hormuz-reopening",
-            "image": "https://static.bangkokpost.com/media/content/20260408/c1_3233143.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Is It Too Late To Consider Deere (DE) After Strong Multi Year Share Price Gains?",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/too-consider-deere-strong-multi-050728258.html",
-            "image": "https://images.pexels.com/photos/27772608/pexels-photo-27772608.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
-        },
-        {
-            "title": "Edinburgh North-South tramline: SNP says build line to Infirmary first and find a new route to Granton",
-            "severity": "WATCH",
-            "url": "https://www.scotsman.com/news/edinburgh-north-south-tramline-snp-says-build-line-to-infirmary-first-and-find-a-new-route-to-granton-6565804",
-            "image": "https://www.scotsman.com/jpim-static/image/2025/09/25/12/35/tram.jpeg?width=1200&auto=webp&trim=30%2C0%2C30%2C0",
-            "source": "scotsman"
-        },
-        {
-            "title": "\u2018Security agents stopped and arrested me after filming air strikes in the Gulf\u2019",
-            "severity": "WATCH",
-            "url": "https://metro.co.uk/2026/04/08/security-agents-stopped-arrested-filming-air-strikes-gulf-27887012/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/04/SEI_292298092-159b.jpg?quality=90&strip=all",
-            "source": "metro"
-        },
-        {
-            "title": "Anthropic\u2019s Mythos AI sends email after breaking containment; rollout halted over safety concerns",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/technology/anthropic-s-mythos-ai-sends-email-without-internet-after-breaking-containment-during-testing-company-halts-public-rollout-over-safety-concerns-article-13883119.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260216113635_Anthropic-.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Anthropic\u2019s biggest AI leak yet: How Claude Code spill exposed secrets and sparked chaos",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/technology/tech-news/anthropics-biggest-ai-leak-yet-how-claude-code-spill-exposed-secrets-and-sparked-chaos/articleshow/130101902.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130101921/130101921.jpg",
-            "source": "toi"
+            "url": "https://www.news18.com/explainers/sunil-narine-bowls-maiden-super-over-what-are-mens-t20-records-that-seem-impossible-to-break-10020679.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/t20-impossible-records-2026-04-685714f65a7b3aed3e5f1ae612fa5991-1200x800.png",
+            "source": "news18"
         }
     ],
-    "Last_Updated": "2026-04-08T17:12:19.127747Z"
+    "Last_Updated": "2026-04-08T19:26:24.272940Z"
 }
