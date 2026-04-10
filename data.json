@@ -1,216 +1,274 @@
 {
     "AGRI_Score": 64.6,
-    "Velocity": "+1.2",
+    "Velocity": "0.0",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.6 is significantly elevated, primarily driven by extreme levels in Energy & Maritime Disruption (100) and high Geopolitical Conflict Intensity (85.5). The 'Iran war' and its immediate aftermath are central to this score, with news of 'gas prices spike in wake of Iran war' and 'Saudi Says Attacks on Oil Assets Hit Output and Exports' directly fueling the energy crisis. Recent military actions and their economic ripple effects are the core drivers of the current risk landscape.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 88.7,
+        "Geopolitical Conflict Intensity": 85.5,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 63.0,
+        "Trade & Supply Chain Stress": 60.0,
         "Sovereign Financial Stress": 52.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 60.1,
+        "Sanctions & Regulatory Fragmentation": 60.5,
+        "Cyber & Infrastructure Threats": 64.1,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Despite a 'Ceasefire deal brings relief to some in Iran', the intensity remains high due to recent significant military actions where the 'US thrashed military targets in Iran'. The lingering geopolitical friction and the 'Momentum Grows for NATO Reappraisal' after the conflict underscore ongoing instability.",
+        "Energy & Maritime Disruption": "This pillar is at its maximum due to the direct impact of the 'Iran war', which has caused 'gas prices spike' and led to 'Saudi Says Attacks on Oil Assets Hit Output and Exports'. Nations like 'India must rethink reliance on West Asia after biggest energy shock', indicating widespread disruption.",
+        "Trade & Supply Chain Stress": "The 'biggest energy shock' is forcing nations like 'India must rethink reliance on West Asia', suggesting significant re-evaluation and potential stress on established trade routes and commodity flows. Such energy disruptions inevitably create downstream pressures on manufacturing and distribution networks globally.",
+        "Sovereign Financial Stress": "Concerns that 'Inflation may jump by most in nearly four years as gas prices spike in wake of Iran war' pose a significant threat to national budgets and economic stability. While the 'Pound dips, but races toward biggest weekly surge', broader market volatility linked to the conflict indicates underlying fiscal pressures.",
+        "Currency & Liquidity Pressure": "The 'Pound dips, but races toward biggest weekly surge since January' demonstrates active, albeit volatile, currency market responses to geopolitical events and economic data. Furthermore, 'India to push for reporting of offshore rupee trades' highlights efforts by authorities to manage currency stability and prevent undue liquidity pressures.",
+        "Sanctions & Regulatory Fragmentation": "The 'Momentum Grows for NATO Reappraisal After Refusal to Help America with Iran War' could lead to shifts in international alliances and regulatory cooperation frameworks. Elevated geopolitical tensions inherently raise the risk of new or expanded sanctions, which would further fragment global regulatory environments.",
+        "Cyber & Infrastructure Threats": "While no direct cyberattack news is present, the context of 'US thrashed military targets in Iran' suggests an elevated environment where cyber operations are a latent threat. Reports of 'Attacks on Oil Assets' in Saudi Arabia, though physical, underscore the vulnerability of critical infrastructure to direct assault in conflict zones.",
+        "Climate & Resource Shock": "The current news feed does not indicate any immediate, severe climate events or resource shocks, reflecting the pillar's low score. However, 'Big Tech puts financial heft behind next-gen nuclear power as AI demand surges' points to long-term resource considerations for energy production to meet growing demand."
+    },
     "All_Alerts": [
         {
-            "title": "Watch here: 11,000 litres of milk poured into Narmada river during MP temple ritual, video sparks debate",
+            "title": "War jitters fade: Pound dips, but races toward biggest weekly surge since January",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/etimes/trending/watch-here-11000-litres-of-milk-poured-into-narmada-river-during-mp-temple-ritual-video-sparks-debate/articleshow/130163631.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130163637/130163637.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Martin Lewis issues 'urgent' energy bills update",
-            "severity": "HIGH",
-            "url": "https://www.express.co.uk/finance/personalfinance/2192392/martin-lewis-urgent-solution-energy",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/23/590x/2192392_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "From battlefields to data centres: The US-Iran war in the AI age",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1989447/from-battlefields-to-data-centres-the-us-iran-war-in-the-ai-age",
-            "image": "https://i.dawn.com/large/2026/04/081236100aaacad.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "Irish fuel protests enter fourth day as government seeks to head off shortages, open blocked roads",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com/news/world/europe/irish-fuel-protests-enter-fourth-day-as-government-seeks-to-head-off-shortages-open-blocked-roads/article_1e9a9602-f4fc-5735-a632-cccb2a3e432b.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/custom/image/f84403b8-7d76-11ee-9d02-a72a4951957f.png?resize=600%2C600",
-            "source": "thestar"
-        },
-        {
-            "title": "China supercomputer breach exposes massive defence data, sparks security concerns",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/magazines/panache/china-supercomputer-breach-exposes-massive-defence-data-sparks-security-concerns/articleshow/130164411.cms",
-            "image": "https://img.etimg.com/thumb/msid-130164451,resizemode-4,width-1200,height-900,imgsize-137150,overlay-etpanache/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Inflation expected to climb to highest level in 2 years",
-            "severity": "HIGH",
-            "url": "https://www.npr.org/2026/04/10/nx-s1-5779728/inflation-expected-to-climb-to-highest-level-in-2-years",
-            "image": "https://media.npr.org/include/images/facebook-default-wide.jpg",
-            "source": "npr"
-        },
-        {
-            "title": "War in Iran strands tons of tea in Kenyan port",
-            "severity": "HIGH",
-            "url": "https://www.npr.org/2026/04/10/nx-s1-5777546/war-in-iran-strands-tons-of-tea-in-kenyan-port",
-            "image": "https://media.npr.org/include/images/facebook-default-wide.jpg",
-            "source": "npr"
-        },
-        {
-            "title": "Gaza marks 6 months of ceasefire that may offer lessons for Iran war",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/agency-feeds/gaza-marks-6-months-of-ceasefire-that-may-offer-lessons-for-iran-war-10025822.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/07/News18_World_Section_Default_Image_1600x900-2025-07-4401653589b9d10b46b8abb07f758342-3x2.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Hungary's ruling party accuses Ukraine of sabotage as it readies for crucial election",
-            "severity": "HIGH",
-            "url": "https://www.npr.org/2026/04/10/nx-s1-5776589/hungarys-ruling-party-accuses-ukraine-of-sabotage-as-it-readies-for-crucial-election",
-            "image": "https://media.npr.org/include/images/facebook-default-wide.jpg",
-            "source": "npr"
-        },
-        {
-            "title": "What\u2019s Orthodox Easter for which Russia and Ukraine agreed to a 32-hour ceasefire?",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/explainers/russia-and-ukraine-agree-to-ceasefire-for-orthodox-easter-how-is-it-different-from-easter-13998807.html",
-            "image": "https://images.firstpost.com/uploads/2026/04/Untitled-design-2026-04-10T135437.951-2026-04-b72f32a77b4f41122a0d59ec680440d2.jpg",
+            "url": "https://www.firstpost.com/business/war-jitters-fade-pound-dips-but-races-toward-biggest-weekly-surge-since-january-13998889.html",
+            "image": "https://images.firstpost.com/uploads/2026/02/stux-pound-414418_1280-1-2026-02-c5da83a88e0633708bd3789eb500ad99.jpg",
             "source": "firstpost"
         },
         {
-            "title": "Asian Development Bank upgrades Pakistan\u2019s economic growth rate to 3.5pc",
+            "title": "How to complete Olaf\u2019s Grand Exhibition Dazzle Beach room in Disney Dreamlight Valley",
             "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1990480/asian-development-bank-upgrades-pakistans-economic-growth-rate-to-35pc",
-            "image": "https://i.dawn.com/large/2026/04/1012314057a2e80.webp",
-            "source": "dawn"
+            "url": "https://www.destructoid.com/how-to-complete-olafs-grand-exhibition-dazzle-beach-room-in-disney-dreamlight-valley/",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "destructoid"
         },
         {
-            "title": "3 detained in Buxar over alleged plot to breach PM security: Cops",
+            "title": "Inflation may jump by most in nearly four years as gas prices spike in wake of Iran war",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/cities/patna-news/3-detained-in-buxar-over-alleged-plot-to-breach-pm-security-cops-101775810470961.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/10/1600x900/logo/A--Getty-Images-iStockphoto-_1775810468855.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.post-gazette.com/business/money/2026/04/10/cpi-inflation-report-iran-war-gas-prices/stories/202604100041",
+            "image": "https://73f3e7d5672db1849e6c-6434aaf008a29447cc424990bc6a54a7.ssl.cf2.rackcdn.com/stories/202604100041/1140x_a10-7_cTC/US-Economy-7_1775817842.jpg",
+            "source": "postgazette"
         },
         {
-            "title": "Angela Rayner declares war - she has a secret plan to bring Britain to its knees",
+            "title": "Saudi Says Attacks on Oil Assets Hit Output and Exports",
             "severity": "HIGH",
-            "url": "https://www.express.co.uk/finance/personalfinance/2192382/angela-rayner-declares-war-she-has-secret-plan-bring-britain-to-its-knees",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/23/590x/2192382_1.jpg",
-            "source": "expresscouk"
+            "url": "https://financialpost.com/pmn/business-pmn/saudi-says-attacks-on-oil-assets-hit-output-and-exports",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/saudi-pipeline-keeps-some-gulf-oil-flowing-amid-disruption-.jpg",
+            "source": "financialpost"
         },
         {
-            "title": "Hungary elections: what is at stake and who is likely to win?",
-            "severity": "MEDIUM",
-            "url": "https://ca.news.yahoo.com/hungary-elections-stake-likely-win-040042085.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/5U9YCY87X_8sCam6.GIFYQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xOTIwO2NmPXdlYnA-/https://media.zenfs.com/en/theguardian_763/a690c17d43aad8395fef6de60818947d",
-            "source": "yahoo"
+            "title": "Ceasefire deal brings relief to some in Iran, but Trump's threat to end a civilization still echoes - AP News",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeWlKUFFlNVZiTUhFaU1reUhHdk9OM19LYzJkUXN1eHk4aGlwZ1Jhc24xMUZjbEU5SWZCdTZSZlAwRE5VSThuc2hQRU02ZDNTVzRxVTNpalJBanlLUmQybFJYSnNCemlFYUpueUgtQk11aTh1V3lDb1hFUGVvbmJ6U181V0RvbkNFX1h3dzVpZ1ZWaVBTZno4ZEloV0NEWWVzWGIxZFloRVZyVVZydl9kSXBkSms?oc=5",
+            "image": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "LIVE | Pakistan gears up to host US, Iran ceasefire talks",
-            "severity": "MEDIUM",
-            "url": "https://www.iol.co.za/news/world/live-pakistan-gears-up-to-host-us-iran-ceasefire-talks-c2165111-1358-4e3a-9a96-70d2c7d2bdab",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "iol"
+            "title": "India must rethink reliance on West Asia after biggest energy shock: ONGC",
+            "severity": "HIGH",
+            "url": "https://www.business-standard.com/economy/news/india-must-rethink-reliance-on-west-asia-after-biggest-energy-shock-ongc-126041000626_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-01/08/full/1736325682-0183.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "India & Pakistan Follow \u2018Blue Book\u2019 For VVIP Security, Is There A Difference? What Is \u2018Yellow Book\u2019?",
-            "severity": "MEDIUM",
-            "url": "https://www.news18.com/explainers/us-iran-ceasefire-talks-both-india-pakistan-follow-blue-book-protocol-for-vvip-security-is-there-a-difference-what-is-yellow-book-ws-kl-10025592.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/new-2026-04-d18009905f7483edc009e70d733a2f27-1200x800.jpg",
-            "source": "news18"
+            "title": "By the numbers: US thrashed military targets in Iran, but some capabilities remain",
+            "severity": "HIGH",
+            "url": "https://www.beaumontenterprise.com/news/article/by-the-numbers-us-thrashed-military-targets-in-22199111.php",
+            "image": "https://s.hdnux.com/photos/01/65/73/67/30916072/3/square_large.jpg",
+            "source": "beaumontenterprise"
         },
         {
-            "title": "SP serves show-cause notice to MLA Rais Sheikh in Maharashtra's Bhiwandi",
-            "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/city/thane/sp-serves-show-cause-notice-to-mla-rais-sheikh-in-maharashtras-bhiwandi/articleshow/130162268.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130162337/130162337.jpg",
-            "source": "toi"
+            "title": "Big Tech puts financial heft behind next-gen nuclear power as AI demand surges",
+            "severity": "HIGH",
+            "url": "https://www.channelnewsasia.com/business/big-tech-puts-financial-heft-behind-next-gen-nuclear-power-ai-demand-surges-6049071",
+            "image": "https://dam.mediacorp.sg/image/upload/s--aLQbxQML--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-04-10T103634Z_1_LYNXMPEM390KV_RTROPTP_3_IRAN-CRISIS-AMAZON-COM.JPG?itok=pUccUu-V",
+            "source": "channelnewsasia"
         },
         {
-            "title": "\u201cToo big to fail\u201d stocks keep shorts sidelined, BofA\u2019s Hartnett says",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/too-big-to-fail-stocks-keep-shorts-sidelined-bofas-hartnett-says-4355947",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEL3S10K_L.jpg",
-            "source": "investing_au"
+            "title": "Momentum Grows for NATO Reappraisal After Refusal to Help America with Iran War",
+            "severity": "HIGH",
+            "url": "https://www.breitbart.com/clips/2026/04/10/momentum-grows-for-nato-reappraisal-after-refusal-to-help-america-with-iran-war/",
+            "image": "https://media.breitbart.com/media/2026/04/GettyImages-2221388157-640x335.jpg",
+            "source": "breitbart"
         },
         {
-            "title": "Arne Slot reacts to Andy Robertson\u2019s decision to leave Liverpool",
-            "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/news/arne-slot-reacts-andy-robertson-084500538.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/Ds4.Ed4u3Pp5iElE9VRYAA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTYyO2NmPXdlYnA-/https://media.zenfs.com/en/anfield_index_166/28eb6a4c1fd7e479eee14fdab7334092",
-            "source": "yahoo"
+            "title": "Media Iran War Disgrace: Are They Actually Rooting for the Ayatollahs to Spite Trump?",
+            "severity": "HIGH",
+            "url": "https://www.breitbart.com/clips/2026/04/10/media-iran-war-disgrace-are-they-actually-rooting-for-the-ayatollahs-to-spite-trump/",
+            "image": "https://media.breitbart.com/media/2026/03/AP26072356093420-640x335.png",
+            "source": "breitbart"
         },
         {
-            "title": "Most Spaniards see US as threat \u2013 survey",
-            "severity": "WATCH",
-            "url": "https://www.rt.com/news/637920-spain-us-threat-poll/",
-            "image": "https://mf.b37mrtl.ru/files/2026.04/article/69d897952030270b325e3e53.jpg",
-            "source": "rt"
-        },
-        {
-            "title": "SIP inflows rise to Rs 32,087 crore in March even as stoppage ratio rises; AUM dips on MTM losses",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/markets/sip-inflows-rise-to-rs-32-087-crore-in-march-even-as-stoppage-ratio-rises-aum-dips-on-mtm-losses-13885433.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/10/20251023080818_SIPpic.png",
+            "title": "Salman Khan\u2019s security steps in after a fan puts arms around him at airport - watch",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/entertainment/salman-khan-s-security-steps-in-after-a-fan-puts-arms-around-him-at-airport-watch-article-13885585.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260410102509_Salman-Khan-spotted-at-airport.png",
             "source": "moneycontrol"
         },
         {
-            "title": "Volkswagen targets up to 25% volume growth with Taigun facelift",
-            "severity": "WATCH",
-            "url": "https://www.businesstoday.in/latest/corporate/story/volkswagen-targets-up-to-25-volume-growth-with-taigun-facelift-525057-2026-04-10",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69d8b7a87ba01-the-company-expects-the-overall-indian-passenger-vehicle-market-to-grow-by-around-5-7-in-the-near-t-104106545-16x9.jpg?size=1280:720",
-            "source": "businesstoday"
-        },
-        {
-            "title": "Eni to acquire stake in Nouveau Monde Graphite for $70 million",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/company-news/eni-to-acquire-stake-in-nouveau-monde-graphite-for-70-million-93CH-4601859",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB5S0BB_L.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Starmer says he is \u2018fed up\u2019 with Trump and Putin\u2019s impact on UK energy costs",
-            "severity": "WATCH",
-            "url": "https://www.theguardian.com/politics/2026/apr/10/starmer-fed-up-trump-uk-politics",
-            "image": "https://i.guim.co.uk/img/media/1ad7ff506b70c2e1929aa5550d72d242eeb623ec/1083_0_5417_4334/master/5417.jpg?width=140&quality=85&auto=format&fit=max&s=2a67e4c27aff53fc284301d0674a314f",
-            "source": "theguardian"
-        },
-        {
-            "title": "Daaru Hai, Chips Kahan Hai? Jodhpur Thief Leaves Bizarre Note After Stealing Lakhs",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/city/daaru-hai-chips-kahan-hai-jodhpur-thief-leaves-bizarre-note-after-stealing-lakhs-article-154043872",
-            "image": "https://images.timesnownews.com/thumb/msid-154044212,width-1280,height-720,resizemode-75/154044212.jpg",
+            "title": "Kaithi Vs Bholaa Copyright Row: Bombay HC Takes Up Lawsuit, Rejects Chennai Jurisdiction Claim By Tamil Filmmakers",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/entertainment-news/south/kaithi-vs-bholaa-copyright-row-bombay-hc-takes-up-lawsuit-rejects-chennai-jurisdiction-claim-by-tamil-filmmakers-article-154045030",
+            "image": "https://images.timesnownews.com/thumb/msid-154045354,width-1280,height-720,resizemode-75/154045354.jpg",
             "source": "timesnownews"
         },
         {
-            "title": "Man takes wife to court over Dh5.8m after she sells family home with power of attorney",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/uae/crime/man-takes-wife-to-court-over-dh58m-after-she-sells-family-home-with-power-of-attorney-1.500502344",
-            "image": "https://media.assettype.com/gulfnews/import/2020/09/09/Stock-Law-court-crime_174735e8b58_large.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "title": "Morgan Rogers: Arsenal face three-way fight to sign Aston Villa star as Chelsea to 'renew interest'",
+            "severity": "HIGH",
+            "url": "https://www.standard.co.uk/sport/football/rogers-transfer-latest-arsenal-fc-chelsea-man-utd-b1278236.html",
+            "image": "https://static.standard.co.uk/2026/04/10/9/57/Morgan-Rogers-Chelsea-Arsenal.jpeg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
         },
         {
-            "title": "Vijay Jana Nayagan Movie Leaked: 5-Minute Clip From Actor's Film Goes Viral On Social Media",
+            "title": "BAFTA Film Awards Review of Tourette\u2019s Fiasco Finds \u201cWeaknesses\u201d in Planning and Crisis Procedures, But No \u201cMalicious Intent\u201d",
+            "severity": "HIGH",
+            "url": "https://www.hollywoodreporter.com/movies/movie-news/bafta-awards-review-planning-crisis-john-davidson-lindo-bbc-1236561073/",
+            "image": "https://www.hollywoodreporter.com/wp-content/uploads/2026/02/FotoJet-2026-02-23T110841.027.jpg",
+            "source": "hollywoodreporter"
+        },
+        {
+            "title": "Islamabad, Pakistan\u2019s quiet capital, steps into the diplomatic spotlight.",
+            "severity": "MEDIUM",
+            "url": "https://www.nytimes.com/live/2026/04/10/world/iran-war-trump-israel-lebanon/islamabad-pakistan-talks",
+            "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10israel-iran-islamabad-czpf/10israel-iran-islamabad-czpf-mediumSquareAt3X.jpg",
+            "source": "nytimes"
+        },
+        {
+            "title": "AI chatbots refilling psych meds sparks debate",
+            "severity": "MEDIUM",
+            "url": "https://www.foxnews.com/tech/ai-chatbots-refilling-psych-meds-sparks-debate",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/04/931/523/ai-presecription-refills-1.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "India to push for reporting of offshore rupee trades despite resistance: Report",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/exclusive-india-to-push-for-reporting-of-offshore-rupee-trades-despite-resistance-sources-say/articleshow/130166715.cms",
+            "image": "https://img.etimg.com/thumb/msid-130166739,resizemode-4,width-1200,height-900,imgsize-34240,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Want muscle from creatine? Resistance training is the missing link",
             "severity": "WATCH",
-            "url": "https://www.news18.com/movies/south-cinema/vijay-jana-nayagan-movie-leaked-5-minute-clip-from-actors-film-goes-viral-on-social-media-ws-l-10025507.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/01/punit-canva-2026-01-09T174252.428-2026-01-a98b7a0fc07b6ca141c5ceb94505e8f5-3x2.png",
+            "url": "https://www.news-medical.net/news/20260410/Want-muscle-from-creatine-Resistance-training-is-the-missing-link.aspx",
+            "image": "https://www.news-medical.net/images/news/ImageForNews_834895_17758170973245398.jpg",
+            "source": "news-medical"
+        },
+        {
+            "title": "Martin Lewis gives \u2018urgent\u2019 energy bill advice amid Iran ceasefire",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/news/uk/home-news/martin-lewis-energy-bills-iran-ceasefire-fixed-deals-b2955176.html",
+            "image": "https://static.independent.co.uk/2026/03/12/14/14/rtyjthregfwregtrhgf.jpeg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "Do androids dream of domestic feats?",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/asia/china/china-daily/androids-robots-ai-data-humanoid-training-manufacturing-care-b2952221.html",
+            "image": "https://static.independent.co.uk/2026/04/05/20/01/robot-1.jpeg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "The perfect brew: Herbal infusions are all the rage",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/asia/china/china-daily/tea-herbal-infusion-brew-health-chinese-medicine-b2952207.html",
+            "image": "https://static.independent.co.uk/2026/04/05/20/30/beverage.jpeg?width=1200&auto=webp&trim=84%2C0%2C84%2C0",
+            "source": "independentuk"
+        },
+        {
+            "title": "Alibaba confirms it is behind top-ranked AI video model HappyHorse",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/alibaba-confirms-it-is-behind-topranked-ai-video-model-happyhorse-4356197",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXNPEI2E0M2_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Form 6K STUDIO CITY INTERNATIONAL HOLDINGS Ltd For: 10 April",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/filings/form-6k-studio-city-international-holdings-ltd-for-10-april-93CH-4356196",
+            "image": "https://i-invdn-com.investing.com/news/international_newspapers_69x52._800x533_L_1419494241.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Filthy fossil fuels, a dizzying debut and the ominous side of the moon \u2013 the week in art",
+            "severity": "WATCH",
+            "url": "https://www.theguardian.com/artanddesign/2026/apr/10/the-week-in-art",
+            "image": "https://i.guim.co.uk/img/media/8e304a74a31f268674bded59cdc25215b2e5a713/0_302_4096_3277/master/4096.jpg?width=140&quality=85&auto=format&fit=max&s=687bacd207a15bf9b13e2e3acc137a5f",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "Over 4 lakh LPG connections converted to PNG, crude inventories remain sufficient: Petroleum Ministry",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/india/over-4-lakh-lpg-connections-converted-to-png-crude-inventories-remain-sufficient-petroleum-ministry-13885566.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260313112000_Petroleum-.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Mukul Choudhary Receives 'Scary' Verdict From R Ashwin After LSG Heroics: \"Surprise Surprise\"",
+            "severity": "WATCH",
+            "url": "https://sports.ndtv.com/cricket/mukul-choudhary-receives-scary-verdict-from-r-ashwin-after-lsg-heroics-surprise-surprise-11338671",
+            "image": "https://c.ndtvimg.com/2026-04/gsblad18_csac_625x300_10_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605",
+            "source": "ndtv"
+        },
+        {
+            "title": "Jerusalem man indicted for passing information to Iranian agent",
+            "severity": "WATCH",
+            "url": "https://www.timesofisrael.com/jerusalem-man-indicted-for-passing-information-to-iranian-agent/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2026/04/iran-1.jpg",
+            "source": "timesofisrael"
+        },
+        {
+            "title": "\u2018China chic\u2019 growing cooler by design",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/asia/china/china-daily/china-chic-fashion-retail-style-guochao-b2952210.html",
+            "image": "https://static.independent.co.uk/2026/04/05/20/49/design-1.jpeg?width=1200&auto=webp&trim=111%2C0%2C111%2C0",
+            "source": "independentuk"
+        },
+        {
+            "title": "Cresco Labs Opens Sunnyside Bridgeport, Expanding Access in the Ohio Valley",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/cresco-labs-opens-sunnyside-bridgeport-expanding-access-in-the-ohio-valley",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/bw20260410202708_suns23038_oh_bridgeport_ss_detailspage_exte.jpeg",
+            "source": "financialpost"
+        },
+        {
+            "title": "Power demand to rise up to 6% in financial year 2027 amid expected El Nino-led heat: Crisil",
+            "severity": "WATCH",
+            "url": "http://economictimes.indiatimes.com/industry/energy/power/power-demand-to-rise-up-to-6-in-this-financial-year-amid-expected-el-nino-led-heat-crisil/articleshow/130167015.cms",
+            "image": "https://img.etimg.com/thumb/msid-130167088,resizemode-4,width-1200,height-900,imgsize-288518,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "El Nino-led heat to drive power demand to 6% in FY27",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/industry/energy/power/power-demand-to-rise-up-to-6-in-this-financial-year-amid-expected-el-nino-led-heat-crisil/articleshow/130167015.cms",
+            "image": "https://img.etimg.com/thumb/msid-130167088,resizemode-4,width-1200,height-900,imgsize-288518,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "\u2018ONGC doing something big in...\u2019: Chairman Arun Singh on India\u2019s energy reliance, security",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/india/story/ongc-doing-something-big-in-chairman-arun-singh-on-indias-energy-reliance-security-525106-2026-04-10",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69d8d2d83421b-ongc-chairman-says-india-should-explore-whatever-oil-and-gas-is-there-in-the-country-103707207-16x9.png?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "Akshay Kumar, Bobby Deol & Madhuri Dixit Spotted Keeping It Cool In The City I WATCH",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/videos/movies/akshay-kumar-bobby-deol-madhuri-dixit-spotted-keeping-it-cool-in-the-city-i-watch-10026178.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/1775817926_0xa7IIY8Di-THUMBS-1png-OnioelrqMo-1200x720.png",
             "source": "news18"
         },
         {
-            "title": "Gold tumbles 12% in March, logs steepest fall since 2013 on global sell-off",
+            "title": "Why your husband's making you miserable - and when it's time to walk away. So many women feel they deserve more. Now therapist LUCY BERESFORD - who's helped thousands - reveals signs it's time to go... and what happens next",
             "severity": "WATCH",
-            "url": "https://www.firstpost.com/business/gold-prices-see-worst-monthly-fall-since-2013-plunge-12-in-march-world-gold-council-13998798.html",
-            "image": "https://images.firstpost.com/uploads/2026/04/gold1-2026-04-39c518d13d2a19ad08f3d655651d37d3.jpg",
-            "source": "firstpost"
+            "url": "https://www.dailymail.co.uk/lifestyle/love-sex/article-15721661/therapist-husband-miserable-wives-marital-problems-divorce.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/04/10/11/107790887-0-image-a-7_1775815286638.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Kill piracy, save cinema | Actors react to \u2018Jana Nayagan\u2019 leak",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/movies-music/news/chiranjeevi-jana-nayagan-leak-anti-piracy-tojbuv41",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qdfjeput3xkgaba5kv/0/jana-nayagan-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
         }
     ],
-    "Last_Updated": "2026-04-10T20:47:52.987304Z"
+    "Last_Updated": "2026-04-10T22:45:11.775867Z"
 }
