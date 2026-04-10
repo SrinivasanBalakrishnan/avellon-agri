@@ -1,216 +1,226 @@
 {
-    "AGRI_Score": 64.7,
-    "Velocity": "+0.6",
+    "AGRI_Score": 63.2,
+    "Velocity": "-1.5",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.2 reflects a significantly elevated risk environment, primarily driven by extreme levels of 'Energy & Maritime Disruption' at 100 and heightened 'Geopolitical Conflict Intensity' at 76.6. Persistent doubts regarding a US-Iran ceasefire and Iran's asserted control over the Strait of Hormuz are directly fueling concerns, as evidenced by headlines such as \"Oil Prices Climb Toward $100 as Iran Ceasefire Doubts Deepen\" and \"Hormuz traffic plummets as Iran asserts control.\" These tensions are impacting global oil flows and generating broader inflation and growth risks across economies, with the IMF flagging a \"global growth downgrade.\"",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.7,
+        "Geopolitical Conflict Intensity": 76.6,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 73.4,
-        "Sovereign Financial Stress": 55.0,
+        "Trade & Supply Chain Stress": 67.4,
+        "Sovereign Financial Stress": 52.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 67.4,
+        "Sanctions & Regulatory Fragmentation": 61.4,
+        "Cyber & Infrastructure Threats": 55.7,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is significantly elevated as a ceasefire between the US and Iran shows strain, with 'Middle East crisis live: Trump casts doubt on Iran war ceasefire over continued closure of strait of Hormuz.' Moreover, Mojtaba Khamenei's signal to 'take Strait of Hormuz into new phase' indicates a potential major strategic shift, raising the specter of direct confrontation.",
+        "Energy & Maritime Disruption": "This pillar is at maximum severity due to Iran's assertion of control over the Strait of Hormuz and the subsequent plummeting of traffic. 'Hormuz traffic plummets as Iran asserts control' directly translates to critical supply chain and energy flow disruptions, pushing 'Oil Prices Climb Toward $100 as Iran Ceasefire Doubts Deepen.'",
+        "Trade & Supply Chain Stress": "The significant disruption in the Strait of Hormuz, a critical global shipping choke point, immediately elevates trade and supply chain stress. This disruption, coupled with a 'Japan wholesale inflation jumps as BOJ flags stagflation risk from oil shock,' signals broader economic impacts from impeded commerce and rising input costs.",
+        "Sovereign Financial Stress": "Sovereign financial stress is experiencing upward pressure as nations contend with inflation and growth risks stemming from geopolitical events. South Korea's decision to 'holds rates steady as Iran war fans inflation, growth risks' exemplifies central banks grappling with these external pressures, further compounded by the 'IMF flags global growth downgrade.'",
+        "Currency & Liquidity Pressure": "The looming threat of stagflation, highlighted by 'Japan wholesale inflation jumps as BOJ flags stagflation risk from oil shock,' could exert downward pressure on currency valuations. Additionally, a potential global growth downgrade flagged by the IMF suggests tighter liquidity conditions as investors seek safe havens amid economic uncertainty.",
+        "Sanctions & Regulatory Fragmentation": "While new sanctions are not explicitly announced, the escalating rhetoric and 'Trump warns Iran over Hormuz shipping' indicate a high potential for regulatory actions impacting trade and shipping routes. The overall uncertainty surrounding 'US-Iran ceasefire deal shows strain ahead of talks' creates an environment ripe for further regulatory fragmentation.",
+        "Cyber & Infrastructure Threats": "Cyber threats remain a persistent concern, as evidenced by a 'Data Breach Alert: Edelson Lechtzin LLP Investigates Figure Lending Corp. Data Breach Affecting Nearly 1 Million Users.' This incident underscores the ongoing vulnerability of critical financial infrastructure to malicious cyber activity.",
+        "Climate & Resource Shock": "There is currently routine monitoring activity within this pillar based on the provided news feed. No immediate climate or resource shocks beyond the energy market disruptions (covered elsewhere) are highlighted in the current intelligence.",
+        "Economic Volatility & Market Instability": "Economic volatility is rising as global growth downgrades are anticipated, and the specter of 'Japan wholesale inflation jumps as BOJ flags stagflation risk from oil shock' looms large. Cryptocurrency markets are also experiencing turbulence with 'Pepeto CoinMarketCap Live Update While Cardano Price Prediction Warns ADA Holders And Shiba Inu Pattern Returns', indicating broader market unease."
+    },
     "All_Alerts": [
         {
-            "title": "Stocks shaky as Israeli attacks on Lebanon tests Iran ceasefire - Reuters",
+            "title": "Pepeto CoinMarketCap Live Update While Cardano Price Prediction Warns ADA Holders And Shiba Inu Pattern Returns",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MZ1daUm9fTmVBRlFTMU9oX3BLNjhQaHFwdy1rRzhQaTVhMG56TlhVaTdzUE1EUlVGU2stVmZkVXgzZUs1TlBDdUZLTjltMGxNMjAzS240U3BuYUM4Z3M5WWlKbWY3WVh1NEJ5RzFNNTJuamgtTXZwbDV2WXFEN0U?oc=5",
-            "image": "https://images.pexels.com/photos/5468003/pexels-photo-5468003.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/04/10/3271502/0/en/Pepeto-CoinMarketCap-Live-Update-While-Cardano-Price-Prediction-Warns-ADA-Holders-And-Shiba-Inu-Pattern-Returns.html",
+            "image": "https://ml.globenewswire.com/Resource/Download/be6f9f09-53af-497c-aad5-10de6c1b22e5/crypto-news-cardano-10-2.png",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Oil Prices Climb Toward $100 as Iran Ceasefire Doubts Deepen - Crude Oil Prices Today | OilPrice.com",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN01tTHJKNUVtbVhzSy1IQ1BNUFJidVV1TnRud2EyQ3Y0bEZlVWVkd0ViVktUd01Td1F4R0x3X3I4OW1XSS1TY21jaUZwa2NxLVVPUHo5NnpXRG4yajMxaFJicVdZNWp5VHdIUDRpN2d6S3RVYmFFaDF6OThGWjRfN0dWZ2tPeXN4Q3VVQU9jS0lWRklfSjJhY0pSY0FJMjFkZTdoR25xUlRVQkwzZFh3ZHB3MHRCQdIBuwFBVV95cUxOSklEVGpGX2JRZDZyUF85dFhYSlJ1ZWM3a3IySFhBNFNDbDhEanlCY2xCSVdraHoxSU9CNmtTTExtRkM2VFJtY2YzMzBjaFVoQy1WN08tS2FUZ3BLUmpfYjdiSUhYdTNwOExrazhDTzZmRmo4Um1XcHpKNDA3QXRUXzlWc2VsYVNRUGNyd0IzZGZKWThvbW1kdklRSnFmMzZIaDJQVW53cWFYbUp1RVYtdjhOYjdpSUJZVUM0?oc=5",
+            "image": "https://images.pexels.com/photos/14501973/pexels-photo-14501973.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Army top brass are targeting Brits with this hobby - in WW3 they may be conscripted first",
+            "title": "South Korea holds rates steady as Iran war fans inflation, growth risks",
             "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/uk/2192348/gamers-military-draft-call-of-duty-world-war-conscription",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2192348_1.jpg",
-            "source": "expresscouk"
+            "url": "https://www.cnbc.com/2026/04/10/south-korea-rates-steady-as-iran-war-fans-inflation-growth-risks.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108101853-1739423686558-gettyimages-2191512036-SKOREA_STOCKS.jpeg?v=1739423783&w=1200&h=675",
+            "source": "cnbc"
         },
         {
-            "title": "A ceasefire in Iran offers the world little hope",
+            "title": "Hormuz traffic plummets as Iran asserts control",
             "severity": "HIGH",
-            "url": "https://www.japantimes.co.jp/editorials/2026/04/10/iran-ceasefire-offers-little-hope/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/04/10/534266.jpg",
-            "source": "japantimes"
+            "url": "https://www.dawn.com/news/1990371/hormuz-traffic-plummets-as-iran-asserts-control",
+            "image": "https://i.dawn.com/large/2026/04/10074949c347527.webp",
+            "source": "dawn"
         },
         {
-            "title": "India, US to boost cooperation in AI, critical minerals under Pax Silica",
+            "title": "Trump Calls Netanyahu With Blunt Message: Be 'Low-Key' On Lebanon As Iran Talks At Stake",
             "severity": "HIGH",
-            "url": "https://www.business-standard.com/economy/news/india-us-to-boost-cooperation-in-ai-critical-minerals-under-pax-silica-126041000025_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-09/10/full/1725947616-56.jpg",
-            "source": "business-standard"
+            "url": "https://www.news18.com/world/trump-calls-netanyahu-with-blunt-message-be-low-key-on-lebanon-as-iran-talks-at-stake-ws-l-10025088.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/10/Trump-Netanyahu-2025-10-4c51d33283cc4b0a1ed8d87c25ca1ae3-3x2.jpg",
+            "source": "news18"
         },
         {
-            "title": "India finalising deal to supply oil, gas to Mauritius: EAM Jaishankar",
+            "title": "Marco Rubio To Visit India In May As Trade Deal, Iran War Draw Focus",
             "severity": "HIGH",
-            "url": "https://www.business-standard.com/external-affairs-defence-security/news/india-finalising-deal-to-supply-oil-gas-to-mauritius-eam-jaishankar-126041000006_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/27/full/1774593556-1138.jpg",
-            "source": "business-standard"
+            "url": "https://www.ndtvprofit.com/india/us-secretary-marco-rubio-to-visit-india-next-month-discussed-trade-quad-more-during-vikram-misris-white-house-visit-11336759",
+            "image": "https://c.ndtvimg.com/2026-04/aerc396_bb_625x300_10_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1080,height=607",
+            "source": "ndtv"
         },
         {
-            "title": "Japan wholesale inflation heats up as West Asia conflict fuels input cost surge",
+            "title": "Japan wholesale inflation jumps as BOJ flags stagflation risk from oil shock",
             "severity": "HIGH",
-            "url": "https://www.firstpost.com/business/japan-wholesale-inflation-march-west-asia-war-input-costs-boj-policy-import-prices-13998669.html",
-            "image": "https://images.firstpost.com/uploads/2026/04/AFP__20260402__A6HZ2G3__v1__MidRes__JapanEconomyForex-1-2026-04-421605b1e462bdf2eadf436f66b6ce11.jpg",
-            "source": "firstpost"
+            "url": "https://investinglive.com/news/japan-wholesale-inflation-jumps-as-boj-flags-stagflation-risk-from-oil-shock-20260410/",
+            "image": "https://images.investinglive.com/images/usdyen%20chart%20update%2010%20April%202026_id_f70d7d3c-5a7f-4331-8f57-64640d922061_size975.jpg",
+            "source": "forexlive"
         },
         {
-            "title": "\u2018War machine\u2019: Ex-PM wants troops in Iran",
+            "title": "Trump warns Iran over Hormuz shipping",
             "severity": "HIGH",
-            "url": "https://au.news.yahoo.com/war-machine-ex-pm-wants-011257124.html",
-            "image": "https://media.zenfs.com/en/nca_newswire_424/3c2a06bba082edc2b70a62b254c6057b",
-            "source": "yahoo"
+            "url": "https://zeenews.india.com/world/trump-warns-iran-over-hormuz-shipping-3035612.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/04/10/1929245-article-gallery-1.jpg?im=Resize=(1200,900)",
+            "source": "zeenews"
         },
         {
-            "title": "Better stop now\u2019: Donald Trump issues fresh warning to Iran over tanker fees in the Strait of Hormuz ahead of peace talks",
+            "title": "Alex Jones Slams Trump as a \u2018Rotting Husk\u2019 of His Old Self, Thanks Him for MAGA Ousting | Video",
             "severity": "HIGH",
-            "url": "https://www.india.com/news/world/better-stop-now-donald-trump-issues-fresh-warning-to-iran-over-tanker-fees-in-the-strait-of-hormuz-ahead-of-peace-talks-islamabad-tehran-doing-poor-job-us-iran-israel-ceasefire-deal-8375186/",
-            "image": "https://static.india.com/wp-content/uploads/2026/04/President-Trump-Mainnn.jpg",
-            "source": "india"
-        },
-        {
-            "title": "Oil prices rise after strikes on Saudi oil facilities",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-rise-after-strikes-on-saudi-oil-facilities/articleshow/130156602.cms",
-            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-63384,resizemode-75,msid-130156602/markets/commodities/news/oil-prices-rise-after-strikes-on-saudi-oil-facilities.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Cisco Joins Project Glasswing As AI Security Bets Shape CSCO Outlook",
-            "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/cisco-joins-project-glasswing-ai-012039311.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/2X08msI4hcmvs9LGljF5pg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTMy/https://media.zenfs.com/en/simply_wall_st__316/638b8a33ffdac135a253ab1e9f920ab9",
-            "source": "yahoo"
-        },
-        {
-            "title": "Why ServiceNow (NOW) Stock Is Nosediving",
-            "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/why-servicenow-now-stock-nosediving-011747287.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/9IIBkUH7nEP.2bV19aV53Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMjAw/https://media.zenfs.com/en/stockstory_922/c0b1d72e47902016f7d9ad328477ef83",
-            "source": "yahoo"
-        },
-        {
-            "title": "JFrog, Snowflake, and Qualys Shares Plummet, What You Need To Know",
-            "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/jfrog-snowflake-qualys-shares-plummet-010947645.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/A4.eHS63p28L8qlo8k0LjA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMjAw/https://media.zenfs.com/en/stockstory_922/78911236fb90d375dc311c3cf37430be",
-            "source": "yahoo"
-        },
-        {
-            "title": "HubSpot, Asana, and Zeta Global Shares Are Falling, What You Need To Know",
-            "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/hubspot-asana-zeta-global-shares-005347500.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/bjuOzsuICZ23ZXC.Y6oz3A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMjAw/https://media.zenfs.com/en/stockstory_922/7bad53107ddbf53939fcddca8de2d381",
-            "source": "yahoo"
-        },
-        {
-            "title": "PubMatic, Braze, Alarm.com, American Express Global Business Travel, and SoundHound AI Shares Plummet, What You Need To Know",
-            "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/pubmatic-braze-alarm-com-american-004547297.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/.rYh5pDhexHh5E7D8UOt6g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMjAw/https://media.zenfs.com/en/stockstory_922/2a07e1ffd682070ce0b308492019d84e",
-            "source": "yahoo"
-        },
-        {
-            "title": "Box, C3.ai, Dropbox, RingCentral, and Paycom Stocks Trade Down, What You Need To Know",
-            "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/box-c3-ai-dropbox-ringcentral-003747621.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/AlRWPXP7LiXMk99Sf0FK_A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMjAw/https://media.zenfs.com/en/stockstory_922/a82ba01d287ed0ef3c8be77f643de856",
+            "url": "https://ca.news.yahoo.com/alex-jones-slams-trump-rotting-024919180.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/oe_Scpl.1okLgHEOo2qz.A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwNDg7aD0xMTUyO2NmPXdlYnA-/https://media.zenfs.com/en/thewrap.com/9abf6cfb9d5e6b517e99c111066cffa4",
             "source": "yahoo"
         },
         {
             "title": "US-Iran ceasefire deal shows strain ahead of talks with oil flows squeezed",
-            "severity": "MEDIUM",
-            "url": "https://au.investing.com/news/world-news/usiran-ceasefire-deal-shows-strain-ahead-of-talks-with-oil-flows-squeezed-4355741",
-            "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM39022_L.jpg",
-            "source": "investing_au"
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/world/us-iran-ceasefire-deal-shows-strain-ahead-of-talks-with-oil-flows-squeezed-article-13885132.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260408145514_hormuznewship.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Fresh food demand drives cold chain upgrade in seafood sector",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/industry/cons-products/food/fresh-food-demand-drives-cold-chain-upgrade-in-seafood-sector/articleshow/130161954.cms",
-            "image": "https://img.etimg.com/thumb/msid-130161930,resizemode-4,width-1200,height-900,imgsize-98437,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "North Korea and China agree to deepen cooperation in talks between foreign ministers",
-            "severity": "MEDIUM",
-            "url": "https://www.beaumontenterprise.com/news/world/article/north-korea-and-china-agree-to-deepen-cooperation-22198661.php",
-            "image": "https://s.hdnux.com/photos/01/65/73/54/30915351/3/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "Dallas investigating after tip claims IT employees worked for Austin simultaneously, officials say",
-            "severity": "MEDIUM",
-            "url": "https://www.wfaa.com/article/news/local/dallas-investigating-after-tip-claims-it-employees-worked-for-austin-simultaneously-officials-say/287-7f30b592-4916-4e22-98b5-9018538ee2d9",
-            "image": "https://media.wfaa.com/assets/WFAA/images/e6930ef2-29bd-4933-a98f-f59512cb555b/e6930ef2-29bd-4933-a98f-f59512cb555b_1920x1080.jpg",
-            "source": "wfaa"
-        },
-        {
-            "title": "Oil prices extend gains as Hormuz disruptions persist; US-Iran talks eyed",
-            "severity": "MEDIUM",
-            "url": "https://uk.investing.com/news/commodities-news/oil-prices-extend-gains-as-hormuz-disruptions-persist-usiran-talks-eyed-4601711",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPEC0R0GY_L.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Russian Diplomat: Moscow Will Not Abandon Cuba, Help With Energy",
-            "severity": "WATCH",
-            "url": "https://www.usnews.com/news/world/articles/2026-04-09/russian-diplomat-moscow-will-not-abandon-cuba-help-with-energy",
-            "image": "https://www.usnews.com/dims4/USNEWS/2d554e9/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F02%2Fafb8978e2329a34a8552782cdee51b%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM39027%3A22026-04-10T012628Z_2_LYNXMPEM39027_RTROPTP_3_CUBA-CRISIS-RUSSIA-OIL.JPG",
-            "source": "usnews"
-        },
-        {
-            "title": "Fast Retailing shares hit record high after Uniqlo owner hikes FY profit outlook",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/fast-retailing-shares-hit-record-high-after-uniqlo-owner-hikes-fy-profit-outlook-4601715",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEA8G0YH_L.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "PBOC sets USD/ CNY reference rate for today at 6.8654 (vs. estimate at 6.8313)",
-            "severity": "WATCH",
-            "url": "https://investinglive.com/centralbank/pboc-sets-usd-cny-reference-rate-for-today-at-68654-vs-estimate-at-68313-20260410/",
-            "image": "https://images.investinglive.com/images/pboc%20cny%20yuan%20note%2024%20September%202025%203_id_58cea28d-3d4f-4d4f-9833-4bc79df02b71_size975.jpeg",
-            "source": "forexlive"
-        },
-        {
-            "title": "Amazon, Snowflake, Tempus AI, Arrive AI And Eos Energy: Why These 5 Stocks Are On Investors' Radars Today",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/markets/equities/26/04/51747371/amazon-snowflake-tempus-ai-arrive-ai-and-eos-energy-why-these-5-stocks-are-on-investors-radars-t",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/04/09/Financial-Graph-With-Uptrend-Line-Techno_0.jpeg?width=1200&height=800&fit=crop",
+            "title": "Data Breach Alert: Edelson Lechtzin LLP Investigates Figure Lending Corp. Data Breach Affecting Nearly 1 Million Users.",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/04/g51747631/data-breach-alert-edelson-lechtzin-llp-investigates-figure-lending-corp-data-breach-affecting-near",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
             "source": "benzinga"
         },
         {
-            "title": "A Look At CNX Resources (CNX) Valuation As Shares Trade Near Multi Year Highs",
+            "title": "Middle East crisis live: Trump casts doubt on Iran war ceasefire over continued closure of strait of Hormuz",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/world/live/2026/apr/10/iran-war-live-updates-trump-ceasefire-strait-hormuz-israel-lebanon-hezbollah",
+            "image": "https://i.guim.co.uk/img/media/303f09d83face881e45ad8f73382672c80397e16/890_0_6319_5058/master/6319.jpg?width=140&quality=85&auto=format&fit=max&s=2633016f3ce1e6d893479f7d2fe5f06b",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "US-Iran ceasefire: Trump warns Iran over Strait of Hormuz tolls as Pakistan prepares for peace talks",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/world/mena/us-iran-ceasefire-trump-warns-iran-over-strait-of-hormuz-tolls-as-pakistan-prepares-for-peace-talks-1.500502110",
+            "image": "https://media.assettype.com/gulfnews/2026-04-09/q4ll6xw8/preview.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Assembly polls: CAPF personnel flag poor living conditions at Bengal camps",
+            "severity": "MEDIUM",
+            "url": "https://www.hindustantimes.com/india-news/assembly-polls-capf-personnel-flag-poor-living-conditions-at-bengal-camps-101775764437833.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/logo/ht-generic_india3_1751287297962_1751287304722.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "\u2018Will take Strait of Hormuz into new phase\u2019: Mojtaba Khamenei signals major strategic shift amid rising global tensions",
+            "severity": "MEDIUM",
+            "url": "https://www.india.com/news/world/iran-news-mojtaba-khamenei-strait-of-hormuz-new-phase-strategy-revenge-warning-us-israel-tensions-global-oil-supply-crisis-middle-east-conflict-8375260/",
+            "image": "https://static.india.com/wp-content/uploads/2026/04/Will-take-Strait-of-Hormuz-into-new-phase.jpg",
+            "source": "india"
+        },
+        {
+            "title": "Dalal Street Buzz: Top Stocks In Focus This Morning",
             "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/look-cnx-resources-cnx-valuation-012047114.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/YKnQI35JvAAiV8MH5GprJQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD05NTI-/https://media.zenfs.com/en/simply_wall_st__316/eef9466e6f34181a6d71526776146ed6",
+            "url": "https://news.abplive.com/business/mutual-funds/dalal-street-market-watch-stocks-in-focus-today-1835652",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/03/29/fc4d380e8276b9b778fad902658af20c17747475506071379_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "'Even in our most hopeful scenario...': IMF flags global growth downgrade",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/latest/economy/story/even-in-our-most-hopeful-scenario-imf-flags-global-growth-downgrade-524981-2026-04-10",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69d865f034af3-imf-warns-of-global-growth-downturn-in-its-spring-meetings-with-world-bank-105225733-16x9.jpeg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "GIFT Nifty, Asian markets signal positive start; Sensex, Nifty may rebound after previous session\u2019s decline",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/markets/gift-nifty-asian-markets-signal-positive-start-sensex-nifty-may-rebound-after-previous-session-s-decline-13885140.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260312080450_Market_8.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Fiance\u0301e of man wounded in ICE shooting speaks out",
+            "severity": "WATCH",
+            "url": "https://www.nbcnews.com/video/shorts/fiancee-of-man-wounded-in-ice-shooting-speaks-out-261070405987",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_04/f_vert_brk_la_ice_update_260408-mqx295.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "Nifty, Sensex, Nifty Bank outlook for today: Gift Nifty up 53 points; key levels to watch",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/markets/story/nifty-sensex-nifty-bank-outlook-for-today-gift-nifty-up-53-points-key-levels-to-watch-524982-2026-04-10",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69d86554cbd43-us-stocks-advanced-on-thursday-as-ongoing-negotiations-toward-a-peaceful-resolution-to-the-six-week-104951476-16x9.jpg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "Pakistan Minister Khawaja Asif's 'cancerous state' post for Israel fires back",
+            "severity": "WATCH",
+            "url": "https://zeenews.india.com/world/pakistan-minister-khawaja-asifs-cancerous-state-post-for-israel-fires-back-3035614.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/04/10/1929241-mixcollage-10-apr-2026-08-05-am-1770.jpg?im=Resize=(1200,900)",
+            "source": "zeenews"
+        },
+        {
+            "title": "Who Leonardo Dicaprio's parents are and how they shaped his early life",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/ask-legit/biographies/1703770-who-leonardo-dicaprios-parents-how-shaped-early-life/",
+            "image": "https://cdn.legit.ng/images/1200x675/4a94454ba7c68586.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Why Melania Trump gave Epstein address today? FLOTUS speech sparks Amanda Ungaro, Pam Bondi theories",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/world-news/us-news/why-melania-trump-gave-epstein-address-today-flotus-speech-sparks-amanda-ungaro-paolo-zampolli-pam-bondi-theories-101775786672909.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/10/1600x900/logo/USA-TRUMP-MELANIA-34_1775789213866_1775789220247.JPG",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Google DeepMind CEO Demis Hassabis: Google combined all the company's resources to catch up with...",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-deepmind-ceo-demis-hassabis-google-combined-all-the-companys-resources-to-catch-up-with/articleshow/130157692.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130157687/130157687.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Cuban president tells NBC he won\u2019t resign under US pressure, as Russia backs old ally",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/cuban-president-tells-nbc-won-024723917.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/7rOfnkT6SKA0.G2LdPjMuw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTMyO2NmPXdlYnA-/https://media.zenfs.com/en/theguardian_763/3d31a94b8d8631f90b75cc33f60b8a55",
             "source": "yahoo"
         },
         {
-            "title": "Sagittarius Horoscope Today, April 10, 2026",
+            "title": "Punjab to offer \u20b910cr subsidy for eco-friendly projects, says minister Sanjeev Arora",
             "severity": "WATCH",
-            "url": "https://www.news18.com/astrology/horoscope/sagittarius-daily-horoscope-today-dhanu-rashifal-astrological-predictions-on-april-10-2026-ws-e-10024584.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/image-2026-04-18d5e241a1a448cfa5a144aea5c25ecf-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Ship Traffic Through Strait Of Hormuz Below 10% Of Normal Despite US-Iran Ceasefire",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/world/ship-traffic-through-strait-of-hormuz-below-10-of-normal-despite-us-iran-ceasefire-ws-l-10025003.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/hormuz-2026-04-adea3c03c0291f9d33f8849c88c19ef2-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Don\u2019t promote mob mentality, avoid congregations: HC to Rampal",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/chandigarh-news/dont-promote-mob-mentality-avoid-congregations-hc-to-rampal-101775757712720.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/09/1600x900/logo/Rampal-was-convicted-by-a-Hisar-court-in-October-2_1775762515198.jpg",
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/punjab-to-offer-10cr-subsidy-for-eco-friendly-projects-says-minister-sanjeev-arora-101775764316326.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/09/1600x900/logo/Industry-minister-Sanjeev-Arora_1775764314342.jpg",
             "source": "hindustantimes"
+        },
+        {
+            "title": "Royale Empire\u2019 case: RERA Punjab pulls up builder, orders compensation",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/cities/chandigarh/rera-punjab-zirakpur-royale-empire-delayed-possession-interest-penalty-10628805/",
+            "image": "https://images.indianexpress.com/2022/09/Screenshot-2022-09-09-at-11.56.03.png",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Judge Ema Aitken to keep top job after high-profile fracas at Northern Club involving Winston Peters",
+            "severity": "WATCH",
+            "url": "https://www.nzherald.co.nz/nz/politics/judge-ema-aitken-to-keep-top-job-after-high-profile-fracas-at-northern-club-involving-winston-peters/72DZN5WXCNBHXJF36D447JM6YU/",
+            "image": "https://www.nzherald.co.nz/resizer/v2/SBHTXKWDQZHTNJZOXL56UOMPBE.jpg?auth=c0a2df66449dab204849a812a85cc54e6e664ae230f7083569b6833fdc8438fa&smart=true&width=300&height=300",
+            "source": "nzherald"
         }
     ],
-    "Last_Updated": "2026-04-10T13:24:34.891406Z"
+    "Last_Updated": "2026-04-10T14:55:11.345179Z"
 }
