@@ -1,253 +1,281 @@
 {
     "AGRI_Score": 64.3,
-    "Velocity": "+0.7",
+    "Velocity": "0.0",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) currently stands at 64.3, primarily driven by extreme levels in Energy & Maritime Disruption and heightened Geopolitical Conflict Intensity. The ongoing \"West Asia crisis\" and \"US-Iran peace negotiations\" introduce significant uncertainty, with a maximal risk posture in energy markets due to regional tensions and the context of the \"Iran war.\" Concurrently, global funds are \"flee[ing] Indian stocks at record pace on growth fears,\" signaling a broader financial impact stemming from regional instability.",
+    "AI_Brief": "The overall Avellon Global Risk Index (AGRI) score of 64.3/100 reflects a high-risk environment, predominantly driven by critical \"Energy & Maritime Disruption\" and intense \"Geopolitical Conflict Intensity.\" The inability of Iran to locate mines in the Strait of Hormuz, as reported by \"Iran Has A Hormuz Problem: It Cannot Locate Mines Planted To Block Route,\" fuels the highest risk category, threatening vital global energy transit. This maritime vulnerability, coupled with ongoing US-Iran tensions and a \"fragile adjustment\" in peace talks, continues to elevate broader systemic risks across trade and financial markets.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 81.8,
+        "Geopolitical Conflict Intensity": 80.6,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 67.9,
-        "Sovereign Financial Stress": 55.0,
+        "Trade & Supply Chain Stress": 67.2,
+        "Sovereign Financial Stress": 52.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 59.7,
-        "Cyber & Infrastructure Threats": 55.7,
+        "Sanctions & Regulatory Fragmentation": 57.2,
+        "Cyber & Infrastructure Threats": 63.7,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The intensity remains high due to active diplomatic efforts amidst lingering hostilities, as evidenced by \"How Pakistan became the unlikely mediator of US-Iran peace negotiations\" and \"US-Iran talks set to bring together Vance and Iranian officials in Pakistan as ceasefire strains.\" Despite \"Yemen Sees Celebrations After Ceasefire Announcement,\" reports like \"'Buried But Not Destroyed': Iran Retains Over 1,000 Missiles Ready For Deployment? US Intel Warns\" indicate persistent underlying military capabilities and a potential for rapid escalation.",
-        "Energy & Maritime Disruption": "This pillar is at a critical maximum, directly reflecting the profound impact of the \"West Asia crisis\" and the context of the \"Iran war\" on the region's energy flows and maritime routes. The fact that the \"Govt to set up weekly monitoring system to track EXIM trends\" underscores the severe concern for trade and energy disruptions, requiring constant vigilance.",
-        "Trade & Supply Chain Stress": "Elevated stress is apparent as governments implement measures to mitigate the impact of regional instability on commercial flows. The \"West Asia crisis\" has prompted India's \"Govt to set up weekly monitoring system to track EXIM trends,\" indicating proactive steps to monitor potential disruptions to exports and imports.",
-        "Sovereign Financial Stress": "This pillar reflects moderate pressure, largely influenced by significant capital outflows from emerging markets. \"Global funds flee Indian stocks at record pace on growth fears,\" with \"FIIs sell Indian equities worth Rs 48,213 crore in April,\" indicating investor apprehension and a flight to perceived safety.",
-        "Currency & Liquidity Pressure": "Moderate pressure on currencies and liquidity is observed, stemming from the withdrawal of foreign capital. The substantial \"FIIs sell Indian equities worth Rs 48,213 crore in April, so far\" exerts downward pressure on the local currency and tightens market liquidity.",
-        "Sanctions & Regulatory Fragmentation": "Concerns over potential new sanctions and increased regulatory complexity are emerging, driven by intelligence reports regarding illicit arms transfers. \"Is China Secretly Arming Iran Amid Truce Talks? US Intel Raises Red Flags\" suggests a scenario that could lead to expanded sanctions regimes and further fragmentation of international trade and financial regulations.",
-        "Cyber & Infrastructure Threats": "While no direct cyber attack news is present, infrastructure vulnerabilities are highlighted, indirectly increasing the threat landscape. News of \"Pune May Get Water Only On Alternate Days This Summer\" and calls to \"Suspend water rate? Don't fool around\" emphasize existing infrastructure stress that could be exploited by malicious actors.",
-        "Climate & Resource Shock": "This pillar shows low, localized impact, with emerging resource scarcity indicating a need for routine monitoring rather than immediate widespread shock. Reports that \"Pune May Get Water Only On Alternate Days This Summer\" and the discussion around \"water rate hike\" underscore regional water scarcity challenges affecting communities."
+        "Geopolitical Conflict Intensity": "Geopolitical tensions remain very high, as evidenced by ongoing US-Iran peace talks in Islamabad being \"overshadowed by mutual mistrust\" and the explicit statement that \"The Iran War has been paused \u2014 it is not over.\" Further intensifying this risk is the report that \"Mojtaba Khamenei Suffers Severe Disfiguring Injuries After Airstrike,\" indicating persistent, high-stakes military activity.",
+        "Energy & Maritime Disruption": "Risk in this pillar is critically high, directly stemming from the headline \"Iran Has A Hormuz Problem: It Cannot Locate Mines Planted To Block Route.\" This inability poses an immediate and severe threat to global maritime navigation and crucial energy supply lines, signaling extreme potential for disruption.",
+        "Trade & Supply Chain Stress": "Elevated stress is anticipated given the critical \"Energy & Maritime Disruption\" in strategic maritime routes, which could severely impact global shipping and commodity flows. The IMF's warning that \"even in best case, no neat return to status quo\" further underscores persistent challenges for trade stability amidst geopolitical uncertainties.",
+        "Sovereign Financial Stress": "Moderate to high stress persists, influenced by the broader global economic uncertainty highlighted by the IMF chief's statement that \"even in best case, no neat return to status quo.\" While no specific sovereign defaults are reported, geopolitical tensions and their economic fallout could pressure national budgets and debt servicing capabilities.",
+        "Currency & Liquidity Pressure": "Current pressures remain moderate, with no immediate news indicating significant currency depreciations or liquidity shortages. However, the ongoing \"Geopolitical Conflict Intensity\" and warnings from the IMF about a non-return to the \"status quo\" suggest potential for future currency volatility if global economic stability deteriorates.",
+        "Sanctions & Regulatory Fragmentation": "The risk remains elevated due to the fragile \"US-Iran ceasefire\" and the overarching geopolitical tensions, which often precede or intensify sanctions regimes. Despite ongoing talks, the \"mutual mistrust\" between the US and Iran means regulatory fragmentation and potential new sanctions remain a significant concern.",
+        "Cyber & Infrastructure Threats": "The threat level is high, partly evidenced by the direct physical risks to critical maritime infrastructure implied by \"Iran Has A Hormuz Problem: It Cannot Locate Mines Planted To Block Route.\" Escalating \"Geopolitical Conflict Intensity\" in the region also heightens the risk of state-sponsored cyberattacks targeting essential services and infrastructure.",
+        "Climate & Resource Shock": "This pillar exhibits baseline activity, as the provided news feed contains no specific reports related to climate events, resource scarcity, or environmental shocks. Current data suggests routine monitoring is sufficient for this category."
     },
     "All_Alerts": [
         {
-            "title": "How Pakistan became the unlikely mediator of US-Iran peace negotiations",
+            "title": "Iran Has A Hormuz Problem: It Cannot Locate Mines Planted To Block Route",
             "severity": "HIGH",
-            "url": "https://www.sbs.com.au/news/article/why-is-pakistan-mediating-us-iran-peace-talks/de9hbp2p0",
-            "image": "https://assets.sbs.com.au/dims4/default/c7d2df4/2147483647/strip/false/crop/5392x2478+0+557/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F9c%2F05%2F7b0ff33b4d08a06c8bd85eac8ddd%2Fgettyimages-2257025791.jpg",
-            "source": "sbs"
+            "url": "https://www.ndtv.com/world-news/iran-has-a-hormuz-problem-it-cannot-locate-mines-planted-to-block-route-iran-war-strait-of-hormuz-11342329",
+            "image": "https://c.ndtvimg.com/2026-04/fm965evc_strait-of-hormuz-_625x300_10_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
         },
         {
-            "title": "'My companions on this flight': Iran marks Pakistan trip with tribute to Minab school strike victims",
+            "title": "Vance in Islamabad for Iran talks overshadowed by mutual mistrust",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/middle-east/my-companions-on-this-flight-iran-marks-pakistan-trip-with-tribute-to-minab-school-strike-victims/articleshow/130184207.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130184567/130184567.jpg",
-            "source": "toi"
+            "url": "https://sg.news.yahoo.com/vance-islamabad-iran-talks-overshadowed-064918393.html",
+            "image": "https://media.zenfs.com/en/afp.com.sg/a86957d3e055c8fe0fbb9d7162eede66",
+            "source": "yahoo_sg"
         },
         {
-            "title": "Rubina Dilaik Reveals Why She Quit Alcohol: \u201cCould Not Sleep at Night\u201d - Shocking Impact on Mental Health & Sleep",
+            "title": "Mega Saturday showdown: Modi, Mamata, Shah, Abhishek flex power across Bengal in rally war",
             "severity": "HIGH",
-            "url": "https://www.timesnownews.com/health/rubina-dilaik-reveals-why-she-quit-alcohol-could-not-sleep-at-night-shocking-impact-on-mental-health-sleep-article-154051281",
-            "image": "https://images.timesnownews.com/thumb/msid-154051280,width-1280,height-720,resizemode-75/154051280.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Kharmaas To End On April 14: Cosmic Change Signals Good News For These Zodiac Signs, Check Here",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/religion/kharmaas-to-end-on-april-14-cosmic-change-signals-good-news-for-these-zodiac-signs-check-here-1835842",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2025/12/18/17081881d56d6e0c259a8bdfce0e2ef717660480572071090_original.jpeg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "US Soldiers Who Survived Kuwait Attack Dispute Pentagon's Account, Call It 'Falsity'",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/world/us-soldiers-who-survived-kuwait-attack-dispute-pentagons-account-call-it-falsity-ws-l-10027085.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/Untitled-design-73-2026-04-81f067375164adf78066c4c462c9722d-1200x800.png",
-            "source": "news18"
-        },
-        {
-            "title": "US-Iran talks: Why this is JD Vance's biggest political test yet",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/explainers/us-iran-talks-why-this-is-jd-vances-biggest-political-test-yet-13999069.html",
-            "image": "https://images.firstpost.com/uploads/2026/04/Untitled-design-2026-04-11T094707.656-2026-04-c579348f36e16b539d46582c051569fb.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "War Update: Yemen Sees Celebrations After Ceasefire Announcement",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/videos/news/world-war-update-yemen-sees-celebrations-after-ceasefire-announcement-1835844",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/11/7ad4e2139ebbf947dc0dc0be600e177a1775882353793963_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "\u2018Buried But Not Destroyed\u2019: Iran Retains Over 1,000 Missiles Ready For Deployment? US Intel Warns",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/buried-but-not-destroyed-iran-retains-over-1000-missiles-ready-for-deployment-us-intel-warns/videoshow/130184585.cms",
-            "image": "https://timesofindia.indiatimes.com/photo/msid-130184585/130184585.jpg?resizemode=4",
-            "source": "toi"
-        },
-        {
-            "title": "Osmen\u0303a backs water rate hike: 'Suspend water rate? Don't fool around'",
-            "severity": "HIGH",
-            "url": "https://cebudailynews.inquirer.net/715262/osmena-backs-water-rate-hike-suspend-water-rate-dont-fool-around",
-            "image": "https://cebudailynews.inquirer.net/files/2025/06/Cebu-City-Vice-Mayor-Tomas-Osmena-620x538.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "West Asia crisis: Govt to set up weekly monitoring system to track EXIM trends",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/small-biz/trade/exports/insights/west-asia-crisis-govt-to-set-up-weekly-monitoring-system-to-track-exim-trends/articleshow/130184511.cms",
-            "image": "https://img.etimg.com/thumb/msid-130184511,resizemode-4,width-1200,height-900,imgsize-14940,overlay-etrise/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Jaishankar lands in UAE today \u2014 first Indian minister to visit since Iran war began",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/world/jaishankar-lands-in-uae-today-first-indian-minister-to-visit-since-iran-war-began-13999048.html",
-            "image": "https://images.firstpost.com/uploads/2026/03/Firstpost-2026-03-09T140903.289-2026-03-adba3db7ebf8b0786d57173cd93ac179.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Breaking News: Iranian Speaker Carries Memory of Slain Children Ahead of Peace Talks",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/videos/news/world-breaking-news-iranian-speaker-carries-memory-of-slain-children-ahead-of-peace-talks-1835843",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/11/ef4382cdcbce4d50e7d981e725750a451775881843051963_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "Global funds flee Indian stocks at record pace on growth fears",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/global-funds-flee-indian-stocks-at-record-pace-on-growth-fears/articleshow/130184531.cms",
-            "image": "https://img.etimg.com/thumb/msid-130184551,resizemode-4,width-1200,height-900,imgsize-57750,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "How Donald Trump flexes his political influence abroad",
-            "severity": "HIGH",
-            "url": "https://apnews.com/article/trump-orban-hungary-foreign-election-influence-4f4b8cd1ad982c714dc78280c0343162",
-            "image": "https://dims.apnews.com/dims4/default/b80cca3/2147483647/strip/false/crop/5801x3867+0+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F6c%2F18%2Fb642f17099e8401f6f3510c78059%2Fe3c8e82d8af24f24abccf590ef4aac84",
-            "source": "apnews"
-        },
-        {
-            "title": "UK drivers face \u00a3200 fine for common driving courtesy",
-            "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/lifestyle/driving-fines-cars-penalty-points-36984461",
-            "image": "https://i2-prod.mirror.co.uk/lifestyle/article36984458.ece/ALTERNATES/s615/0_Rideshare-driver-behind-the-steering-wheel-driving-in-urban-city-with-palm-trees.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Is China Secretly Arming Iran Amid Truce Talks? US Intel Raises Red Flags",
-            "severity": "MEDIUM",
-            "url": "https://www.timesnownews.com/world/us/us-news/is-china-secretly-arming-iran-amid-truce-talks-us-intel-raises-red-flags-article-154051274",
-            "image": "https://images.timesnownews.com/thumb/msid-154051295,width-1280,height-720,resizemode-75/154051295.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "US-Iran talks set to bring together Vance and Iranian officials in Pakistan as ceasefire strains",
-            "severity": "MEDIUM",
-            "url": "https://www.bostonglobe.com/2026/04/11/world/us-iran-talks-vance-iranian-officials-in-pakistan/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/HB2M6KJA55GQXGW2BLQKO6PD5E.jpg?auth=8d9c16f750240d542319366add4027f2b013077593d2353ef41b2a7294a2ac87&smart=true&width=7536&height=5024",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "FIIs sell Indian equities worth Rs 48,213 crore in April, so far; FY26 sell-off balloons to Rs 1.79 lakh crore",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-sell-indian-equities-worth-rs-48213-crore-in-april-so-far-fy26-sell-off-balloons-to-rs-1-79-lakh-crore/articleshow/130184582.cms",
-            "image": "https://img.etimg.com/thumb/msid-130184575,resizemode-4,width-1200,height-900,imgsize-43988,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "First Indirect, Then Direct Talks: How Diplomacy Is Taking Shape Between US, Iran In Islamabad",
-            "severity": "MEDIUM",
-            "url": "https://www.news18.com/world/first-indirect-then-direct-talks-how-diplomacy-is-taking-shape-between-us-iran-in-islamabad-ws-l-10027105.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/03/Untitled-design-2026-03-13T091218.005-2026-03-2d7d511199e17248f4a4f1700000fcfe-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Pune May Get Water Only On Alternate Days This Summer: What Residents Should Do Now",
-            "severity": "MEDIUM",
-            "url": "https://www.news18.com/cities/pune/pune-may-get-water-only-on-alternate-days-this-summer-what-residents-should-do-now-10027106.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/03/Untitled-design-2026-03-24T110900.545-2026-03-c18a80e4028a3dfcabe9d1e7b7e369bc-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Trump likes to back winners in foreign elections. The upcoming vote in Hungary will test his clout",
-            "severity": "MEDIUM",
-            "url": "https://www.thestar.com/news/world/united-states/trump-likes-to-back-winners-in-foreign-elections-the-upcoming-vote-in-hungary-will-test-his-clout/article_14079ee2-0e69-5922-a2e9-2afc6d4f7b52.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/7/b8/7b8a0d59-ee06-5c63-909a-89d733b22430/69d9cac4e9946.image.jpg?crop=1620%2C851%2C0%2C114&resize=1200%2C630&order=crop%2Cresize",
-            "source": "thestar"
-        },
-        {
-            "title": "Indian markets surge for second consecutive week amid US-Iran ceasefire",
-            "severity": "WATCH",
-            "url": "https://zeenews.india.com/economy/indian-markets-surge-for-second-consecutive-week-amid-us-iran-ceasefire-3036005.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/04/11/1929686-stockimage970x545.jpg?im=Resize=(1200,900)",
-            "source": "zeenews"
-        },
-        {
-            "title": "Chitrangda Singh alerts fans as her X account gets hacked; asks to ignore recent activity",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/chitrangda-singh-alerts-fans-as-her-x-account-gets-hacked-asks-to-ignore-recent-activity/articleshow/130184581.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130184581/130184581.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Tata Sons committed to Air India: N Chandrasekaran",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/tata-sons-committed-to-air-india-n-chandrasekaran/articleshow/130184614.cms",
-            "image": "https://img.etimg.com/thumb/msid-130184614,resizemode-4,width-1200,height-900,imgsize-65526,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Reforms in India: From ease of doing business to ease of trusting systems",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/opinion/columns/reforms-in-india-from-ease-of-doing-business-to-ease-of-trusting-systems-126041100210_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-04/11/full/1775882443-0405.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Tesla stock: This is the most important catalyst this year",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/company-news/tesla-stock-this-is-the-most-important-catalyst-this-year-4603515",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPED920DJ_L.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "India conveys solidarity with Gulf nations: 'Restoring stability, deepening economic partnership\u2019",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/india-news/india-conveys-solidarity-with-gulf-nations-restoring-stability-deepening-economic-partnership-101775880825641.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/11/1600x900/logo/ANI-20260403016-0_1775881500115_1775881515938.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Unlocking Divyastra MK2: Inside India\u2019s push for long-range, next-gen unmanned strike capability",
-            "severity": "WATCH",
-            "url": "https://english.mathrubhumi.com/news/india/unlocking-divyastra-mk2-inside-indias-push-for-long-range-next-gen-unmanned-strike-capabilityd-defence-innovation-ozm3xujn",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qdmua1h6xuoypamzcp/0/mk2-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "url": "https://english.mathrubhumi.com/news/india/west-bengal-election-mega-rallies-modi-mamata-amitshah-abhishek-banerjee-2026-m29mx84s",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qe3rawk6l31yhxio5n/0/west-bengal-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
             "source": "mathrubhumi"
         },
         {
-            "title": "Ghaziabad: LPG supply expands with 5 kg cylinders rollout for workers, low-income homes",
-            "severity": "WATCH",
-            "url": "https://www.businesstoday.in/india/story/ghaziabad-lpg-supply-expands-with-5-kg-cylinders-rollout-for-workers-low-income-homes-525199-2026-04-11",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69d9ccd635338-lpg-crisis-solution-11234277-16x9.jpg?size=1280:720",
-            "source": "businesstoday"
+            "title": "Indians On Student, Tourist Visa To Russia Forced To Participate In War Against Ukraine? SC Asks Centre To Verify",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/india/indians-on-student-tourist-visa-to-russia-forced-to-participate-in-war-against-ukraine-sc-asks-centre-to-verify-article-154050694",
+            "image": "https://images.timesnownews.com/thumb/msid-154052013,width-1280,height-720,resizemode-75/154052013.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "MFs gain during market pain: Net flows zip 56% in march",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/mf/mf-news/mfs-gain-during-market-pain-net-flows-zip-56-in-march/articleshow/130184231.cms",
-            "image": "https://img.etimg.com/thumb/msid-130184231,resizemode-4,width-1200,height-900,imgsize-57870,overlay-etwealthmutualfunds/articleshow.jpg",
+            "title": "Mojtaba Khamenei Suffers Severe Disfiguring Injuries After Airstrike, Recovery Ongoing: Report",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/news/world/mojtaba-khamenei-health-iran-us-negotiations-pakistan-severe-injuries-after-airstrike-recovery-report-1835886",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/03/11/43d42ace562af2e2d2f77473a4a6697d1773214102002240_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "Moneycontrol Pro Weekender | IMF chief: Even in best case, no neat return to status quo",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/business/markets/moneycontrol-pro-weekender-imf-chief-even-in-best-case-no-neat-return-to-status-quo-13885568.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2024/03/shipping-bbo.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Iran US Peace Talks: JD Vance lands in Islamabad to lead high-stakes negotiations as world watches closely",
+            "severity": "HIGH",
+            "url": "https://www.india.com/news/world/iran-us-peace-talks-pakistan-jd-vance-islamabad-iran-delegation-ghalibaf-us-iran-conflict-ceasefire-middle-east-tensions-strait-of-hormuz-oil-crisis-global-impact-news-8376859/",
+            "image": "https://static.india.com/wp-content/uploads/2026/04/Iran-US-Peace-Talks-1.jpg",
+            "source": "india"
+        },
+        {
+            "title": "The Iran War has been paused \u2014 it is not over. Islamabad talks can deliver a fragile adjustment",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/opinion/columns/iran-war-israel-pakistan-us-islamabad-ceasefire-strait-hormuz-10630854/",
+            "image": "https://images.indianexpress.com/2026/04/Lebanon-Israeli-strike_20260411062317.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Vance Arrives in Pakistan as US-Iran Peace Talks Set to Kick Off",
+            "severity": "HIGH",
+            "url": "https://financialpost.com/pmn/business-pmn/vance-arrives-in-pakistan-as-us-iran-peace-talks-set-to-kick-off",
+            "image": "https://images.pexels.com/photos/164763/pexels-photo-164763.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "Delhi road rage: Child influencer Abhinav Arora\u2019s family attacked in Tilak Nagar, 3 arrested",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/new-updates/delhi-road-rage-abhinav-aroras-family-attacked-in-tilak-nagar-3-arrested/articleshow/130185945.cms",
+            "image": "https://img.etimg.com/thumb/msid-130185956,resizemode-4,width-1200,height-900,imgsize-1610998,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Common driving courtesy on British roads that could cost you \u00a3200",
+            "title": "Sexual abuse claims have dragged the international criminal court into crisis \u2013 but what happens now?",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/law/2026/apr/11/sexual-abuse-claims-karim-khan-international-criminal-court-crisis-what-happens-now",
+            "image": "https://i.guim.co.uk/img/media/e51ef73949d2fbd3fd441d3f7c47c751e6ddf67c/445_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=a65226f4c5bc11c28284d7e3f74d3cfa",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "Jana Nayagan Leak Could Lead To Rs 400 Crore Loss For Producers, Says Film Distributor Tirupur Subramaniam",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/entertainment-news/south/jana-nayagan-leak-could-lead-to-rs-400-crore-loss-for-producers-says-film-distributor-tirupur-subramaniam-article-154051563",
+            "image": "https://images.timesnownews.com/thumb/msid-154051563,width-1280,height-720,resizemode-75/154051563.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "ServiceNow (NOW) Stock Trades Down, Here Is Why",
+            "severity": "HIGH",
+            "url": "https://equity-insider.com/servicenow-now-stock-trades-down-here-is-why/",
+            "image": "https://equity-insider.com/wp-content/uploads/2026/04/Screenshot-2026-04-11-140128.jpg",
+            "source": "equity_insider"
+        },
+        {
+            "title": "Match Preview: Liverpool Return to Premier League Action Against Fulham",
+            "severity": "MEDIUM",
+            "url": "https://sports.yahoo.com/articles/match-preview-liverpool-return-premier-065500770.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/0cE5ojkUV68cGp64Gra6eg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/anfield_index_166/9f0b016a36d37c283fd366ba609acf5e",
+            "source": "yahoo"
+        },
+        {
+            "title": "Vance arrives in Pakistan for talks with Iranian officials to shore up shaky cease-fire",
+            "severity": "MEDIUM",
+            "url": "https://nypost.com/2026/04/11/us-news/jd-vance-arrives-in-pakistan-for-talks-with-iranian-officials-to-shore-up-shaky-cease-fire/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F04%2Fu-s-vice-president-jd-125421263.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "US-Iran ceasefire: JD Vance lands in Islamabad to lead talks as fragile truce hangs in balance",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/world/us/us-iran-ceasefire-jd-vance-lands-in-islamabad-to-lead-talks-as-fragile-truce-hangs-in-balance/articleshow/130186159.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130186201/130186201.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Djibouti President Ismai\u0308l Omar Guelleh is reelected for a sixth term",
+            "severity": "MEDIUM",
+            "url": "https://www.kgw.com/article/syndication/associatedpress/djibouti-president-ismal-omar-guelleh-is-reelected-for-a-sixth-term/616-111f2312-7b41-468c-b639-5c0518937bc7",
+            "image": "https://media.kgw.com/assets/KGW/images/d0c1e0b0-b3e3-4d56-9a41-537fa44c145f/20260411T061339/d0c1e0b0-b3e3-4d56-9a41-537fa44c145f_1920x1080.jpg",
+            "source": "kgw"
+        },
+        {
+            "title": "UP RERA\u2019s Rs 3,200 crore push: How new projects are set to fuel jobs, urban growth and regional economies",
+            "severity": "MEDIUM",
+            "url": "https://www.moneycontrol.com/news/business/real-estate/up-rera-s-rs-3-200-crore-push-how-new-projects-are-set-to-fuel-jobs-urban-growth-and-regional-economies-13886035.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/02/20250202060304_Noida-real-estate.jpeg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "What time is Tyson Fury fighting tonight? When will the ring walk start?",
             "severity": "WATCH",
-            "url": "https://www.express.co.uk/life-style/cars/2191594/headlights-driving-illegal-fines-penalties-cost",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/24/590x/2191594_1.jpg",
+            "url": "https://www.express.co.uk/sport/boxing/2191618/tyson-fury-fight-time-tonight",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/102/590x/2191618_1.jpg",
             "source": "expresscouk"
         },
         {
-            "title": "Rajnikanth, Kamal Haasan, Suriya demand stricter anti-piracy measure post 'Jana Nayagan' leak",
+            "title": "Weekly Numerology Horoscope (13th April - 19th April, 2026): A Week of Strong Decisions, New Direction, and Inner Confidence",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/entertainment/tamil-cinema/rajnikanth-kamal-haasan-suriya-demand-stricter-anti-piracy-measure-post-jana-nayagan-leak-101775879236277.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2025/07/20/1600x900/logo/tamil_cinema_1753008194866_1753008212765.jpg",
+            "url": "https://economictimes.indiatimes.com/astrology/numerology-predictions/weekly-numerology-horoscope-13th-april-19th-april-2026-a-week-of-strong-decisions-new-direction-and-inner-confidence/articleshow/130186060.cms",
+            "image": "https://img.etimg.com/thumb/msid-130186263,resizemode-4,width-1200,height-900,imgsize-199688,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "5 post-meal light movements post meal to boost digestion and metabolism",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/india/5-post-meal-light-movements-post-meal-to-boost-digestion-and-metabolism/slideshow/130186262.cms",
+            "image": "https://img.etimg.com/thumb/msid-130186262,width-1200,height-900,overlay-economictimes/slideshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Priyanka Chopra Jonas Looks Sultry, Is Named Bentley's Brand Ambassador",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/lifestyle/fashion/priyanka-chopra-jonas-looks-sultry-is-named-bentleys-brand-ambassador-10027215.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/imgi_2_670732157_18580768666041620_6594528858644068315_n-2026-04-87c7e34c9c0e13bf705aeee69a7a4989-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Marlow: Why an Iran/U.S. 'Joint Venture' to Control Hormuz Strait Really Could Be a 'Beautiful Thing'",
+            "severity": "WATCH",
+            "url": "https://www.breitbart.com/clips/2026/04/10/marlow-why-an-iran-u-s-joint-venture-to-control-hormuz-strait-really-could-be-a-beautiful-thing/",
+            "image": "https://media.breitbart.com/media/2026/03/Strait-of-Hormuz-shipping-640x335.jpg",
+            "source": "breitbart"
+        },
+        {
+            "title": "Defence stocks set for mixed Q4; Nuvama bets on BEL, Solar Industries, and a smallcap pick",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/defence-stocks-set-for-mixed-q4-nuvama-bets-on-bel-solar-industries-and-a-smallcap-pick/articleshow/130186050.cms",
+            "image": "https://img.etimg.com/thumb/msid-130186039,resizemode-4,width-1200,height-900,imgsize-19728,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "UK pauses Chagos handover to Mauritius amid opposition from Trump",
+            "severity": "WATCH",
+            "url": "https://www.firstpost.com/world/uk-pauses-chagos-handover-to-mauritius-amid-opposition-from-trump-13999127.html",
+            "image": "https://images.firstpost.com/uploads/2026/03/2-2026-03-389a866a78ae3924fee122af5b3575c4.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Jaishankar Lands In Abu Dhabi For Two-Day UAE Visit Focused On Energy Security, Strategic Ties",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/india/jaishankar-lands-in-abu-dhabi-for-two-day-uae-visit-focused-on-energy-security-strategic-ties-ws-l-10027310.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/11/s-jaishankar-2025-11-12a625c4964a2a6f09529e8a45e976c3-3x2.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Knowledge Nugget: Government securities, T-bills, and bond yields explained for UPSC prelims",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/knowledge-nugget-rbi-govt-securities-bond-yields-explained-upsc-10629921/",
+            "image": "https://images.indianexpress.com/2026/04/RBI_G-sec-bond-yields.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Nifty Prediction For Monday, April 13: Can Rally Sustain Above 24,000?",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/business/markets/nifty-prediction-for-monday-april-13-can-rally-sustain-above-24000-ws-l-10027153.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/10/stock-market-2025-10-da4779be99b8c81dc48f09b780bc2aef-3x2.png",
+            "source": "news18"
+        },
+        {
+            "title": "The Hidden Economics Of Everyday Life | The Week In Whys",
+            "severity": "WATCH",
+            "url": "https://www.ndtvprofit.com/economy/from-oil-to-mangoes-the-hidden-economics-of-everyday-life-the-week-in-whys-11342207",
+            "image": "https://c.ndtvimg.com/2026-04/vv3i7ksc_april-11-the-week-in-why_625x300_11_April_26.png?im=FeatureCrop,algorithm=dnn,width=1080,height=607",
+            "source": "ndtv"
+        },
+        {
+            "title": "A ceasefire built for headlines, not peace",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/columns/opinion-iran-us-ceasefire-built-for-headlines-not-peace-e8g7npxo",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qe3nx34tcx34wdqaib/1/donald-trump-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Strong start to 2026: India Real Estate attracts $1.2 billion in private equity; what it means for buyers, investors",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/real-estate/news/strong-start-to-2026-india-real-estate-attracts-1-2-billion-in-private-equity-what-it-means-for-buyers-investors/articleshow/130186084.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130186123/130186123.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "ED searches Delhi realty firm accused of collecting \u20b92,000 cr from 19,400 homebuyers",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/ed-searches-delhi-realty-firm-accused-of-collecting-2-000-cr-from-19-400-homebuyers-101775889341688.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/11/1600x900/logo/The-accused-entities-collected-approximately--2024_1775889335820.jpg",
             "source": "hindustantimes"
+        },
+        {
+            "title": "Varun Tej Konidela Condemns Jana Nayagan Leak, Calls It 'Outright Theft And A Complete Betrayal'",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/movies/tamil-cinema/varun-tej-konidela-condemns-jana-nayagan-leak-calls-it-outright-theft-and-a-complete-betrayal-ws-l-10027271.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/01/FotoJet-2026-01-21T143318.079-2026-01-d894a7388c582789f12efa8b3c398d2e-3x2.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Kamal Haasan, Suriya demand stricter anti-piracy measure post 'Jana Nayagan' leak",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/entertainment/kamal-haasan-suriya-demand-stricter-anti-piracy-measure-post-jana-nayagan-leak-article-13886096.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260411060429_Celebs-react-to-Jana-Nayagan-leak.png",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Why Cloudflare (NET) Stock Is Down Today",
+            "severity": "WATCH",
+            "url": "https://equity-insider.com/why-cloudflare-net-stock-is-down-today/",
+            "image": "https://equity-insider.com/wp-content/uploads/2026/04/NET.webp",
+            "source": "equity_insider"
+        },
+        {
+            "title": "Waitrose wimps who sacked heroic worker should learn a lesson from Iceland boss",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/uk/2192445/waitrose-wimps-who-sacked-heroic",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2192445_1.jpg",
+            "source": "expresscouk"
         }
     ],
-    "Last_Updated": "2026-04-11T16:45:12.169968Z"
+    "Last_Updated": "2026-04-11T18:55:47.563162Z"
 }
