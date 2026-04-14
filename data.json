@@ -1,267 +1,272 @@
 {
-    "AGRI_Score": 62.5,
-    "Velocity": "+2.6",
+    "AGRI_Score": 65.7,
+    "Velocity": "+3.2",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.5/100 reflects a significantly elevated risk environment, primarily driven by extreme levels of 'Energy & Maritime Disruption' and high 'Geopolitical Conflict Intensity'. President Trump's declared blockade of the Strait of Hormuz, as highlighted by headlines like 'Trump\u2019s Strait of Hormuz blockade threatens piracy and risks outright war against China' and 'US-Iran war: Hormuz blockade tests which side can endure more pain', is the principal driver. This action directly threatens global energy flows and maritime trade, also exacerbating 'Trade & Supply Chain Stress' and creating a highly volatile geopolitical landscape, despite NATO allies refusing to join the blockade, indicating international fragmentation.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 69.5,
+        "Geopolitical Conflict Intensity": 82.3,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 71.8,
+        "Trade & Supply Chain Stress": 75.8,
         "Sovereign Financial Stress": 53.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 59.3,
+        "Sanctions & Regulatory Fragmentation": 62.1,
+        "Cyber & Infrastructure Threats": 59.1,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical risk is acutely high, dominated by the US-Iran confrontation over the Strait of Hormuz. Headlines such as 'Donald Trump\u2019s blockade of Hormuz is a dangerous gamble' underscore the direct threat of war and regional destabilization, further complicated by 'Nato allies refuse to join Trump\u2019s Hormuz blockade' suggesting a lack of unified international response.",
-        "Energy & Maritime Disruption": "This pillar is at its maximum risk level due to President Trump's blockade of the Strait of Hormuz, a critical chokepoint for global oil transit. News confirming 'US-Iran war: Hormuz blockade tests which side can endure more pain' indicates direct disruption to maritime energy routes, posing an immediate threat to global supply.",
-        "Trade & Supply Chain Stress": "Trade and supply chains face significant stress from the escalating tensions in the Middle East and associated maritime disruption. The potential for 'Trump\u2019s Strait of Hormuz blockade threatens piracy and risks outright war against China' directly jeopardizes global shipping routes, while 'Heathrow airport traffic surges as war diverts global flights' indicates broader disruptions impacting air cargo and travel logistics.",
-        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, influenced by global monetary policy uncertainty and emerging market vulnerabilities. 'US Treasury\u2019s Bessent backs \u201cwait and see\u201d on rates' suggests a cautious approach to interest rates, while 'Pakistan says all options on table for funding, weighs strategic fuel reserve' points to specific sovereign fiscal pressures and resource planning challenges.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressures are moderate, reflecting ongoing market adjustments and policy signals. The 'US Treasury\u2019s Bessent backs \u201cwait and see\u201d on rates' stance creates an environment of monetary policy uncertainty that can impact currency valuations, and the divergent market behavior noted in 'Rates Spark: Equities Are Back, But Bonds Are Not - Why?' indicates uneven liquidity distribution and investor confidence.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation is a concern, particularly in the context of international responses to geopolitical events. The 'Nato allies refuse to join Trump\u2019s Hormuz blockade' highlights a significant divergence in regulatory and strategic alignment among major powers, preventing a unified front against potential maritime disruptions and coercion.",
-        "Cyber & Infrastructure Threats": "Cyber threats remain a moderate but persistent concern, with recent high-profile incidents underscoring vulnerabilities. Reports like 'Millions of Rockstar Games business records stolen, hacking group says' and 'Booking.com hacked; tells customers: Unauthorised persons may have viewed any information you ...' demonstrate ongoing risks to corporate and personal data.",
-        "Climate & Resource Shock": "This pillar currently presents a low level of risk, with no immediate, severe climate or resource shock events reported. The current activity warrants routine monitoring for any emerging environmental or resource scarcity issues."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Alarm raised over health of PTI\u2019s jailed leaders",
+            "title": "Oil surges past $100 as Trump\u2019s Hormuz blockade raises global economic risks",
             "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1991482/alarm-raised-over-health-of-ptis-jailed-leaders",
-            "image": "https://i.dawn.com/large/2026/04/14081918ed2b65e.webp",
-            "source": "dawn"
+            "url": "https://www.iol.co.za/business-report/economy/oil-surges-past-100-as-trumps-hormuz-blockade-raises-global-economic-risks-ba03d075-ca8e-4223-8858-3cebd9f18233",
+            "image": "https://images.pexels.com/photos/27404517/pexels-photo-27404517.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "iol"
         },
         {
-            "title": "Trump\u2019s Strait of Hormuz blockade threatens piracy and risks outright war against China",
+            "title": "Market Trading Guide: Buy MCX, Adani Energy Solutions and 2 more stocks on Wednesday for short-term gains of up to 11%",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/world/middle-east/trump-blockade-iran-strait-of-hormuz-china-us-war-b2957020.html",
-            "image": "https://static.independent.co.uk/2026/04/13/12/2026-04-13T012208Z_412603665_RC21OKAMIPJF_RTRMADP_3_USA-TRUMP.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Nato allies refuse to join Trump\u2019s Hormuz blockade",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/europe/nato-allies-refuse-to-join-trumps-hormuz-blockade/articleshow/130249982.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130250039/130250039.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "US-Iran war: Hormuz blockade tests which side can endure more pain",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/world-news/us-iran-war-hormuz-blockade-tests-which-side-can-endure-more-pain-126041400120_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/14/full/1773473517-7996.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "How Tehran's Nuclear Commitments Pushed The US-Iran Deal Into Last-Minute Deadlock",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/world/us-iran-nuclear-deal-stalled-tehran-enrichment-freeze-20-year-dispute-islamabad-talks-ws-l-10031600.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/MixCollage-14-Apr-2026-08-29-AM-5351-2026-04-5fea098cc574ed39f08b988beaf6b904-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Ahead of China visit, Trump says Xi wants end to Iran war",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/ahead-of-china-visit-trump-says-xi-wants-end-to-iran-war-article-13888079.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260310153330_Trump-Xi.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "US Treasury\u2019s Bessent backs \u201cwait and see\u201d on rates",
-            "severity": "HIGH",
-            "url": "https://investinglive.com/centralbank/us-treasurys-bessent-backs-wait-and-see-on-rates-20260414/",
-            "image": "https://images.investinglive.com/images/sxp5%2014%20April%202026_id_a0aed879-bd80-4bfc-8c5a-a0355ac8cda2_size975.jpg",
-            "source": "forexlive"
-        },
-        {
-            "title": "Pakistan says all options on table for funding, weighs strategic fuel reserve",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/pakistan-says-all-options-on-table-for-funding-weighs-strategic-fuel-reserve/articleshow/130250108.cms",
-            "image": "https://img.etimg.com/thumb/msid-130250113,resizemode-4,width-1200,height-900,imgsize-96178,overlay-economictimes/articleshow.jpg",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/market-trading-guide-buy-mcx-adani-energy-solutions-and-2-more-stocks-on-wednesday-for-short-term-gains-of-up-to-11/slideshow/130251612.cms",
+            "image": "https://img.etimg.com/thumb/msid-130251612,width-1200,height-900,overlay-etmarkets/slideshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Donald Trump\u2019s blockade of Hormuz is a dangerous gamble",
+            "title": "ASEAN pushes for unimpeded transit in Strait of Hormuz",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/donald-trump-s-blockade-of-hormuz-is-a-dangerous-gamble-101776135756034.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/14/1600x900/logo/USA-TRUMP--75_1776136088696_1776136097496.JPG",
+            "url": "https://cebudailynews.inquirer.net/716496/asean-pushes-for-unimpeded-transit-in-strait-of-hormuz",
+            "image": "https://cebudailynews.inquirer.net/files/2026/04/AFP__20260304__99WD7EN__v1__MidRes__IranIsraelUsConflictTransport-1-620x414.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "US-sanctioned tankers pass Strait of Hormuz despite US blockade",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/world/us-sanctioned-tankers-pass-strait-hormuz-despite-us-blockade-10635277/",
+            "image": "https://images.indianexpress.com/2026/04/iran-oil-1600.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Govt studying targeted measures to cushion impact of Middle East conflict, says Johari",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/news/nation/2026/04/14/govt-studying-targeted-measures-to-cushion-impact-of-middle-east-conflict-says-johari",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/14/3858627.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Hezbollah Rejects Talks Ahead Of Israel-Lebanon Talks, Bint Jbeil Witnesses The Most Violent Clashes",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/videos/international/hezbollah-rejects-talks-ahead-of-israel-lebanon-talks-bint-jbeil-witnesses-the-most-violent-clashes/videoshow/130251544.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-130251544/130251544.jpg?resizemode=4",
+            "source": "toi"
+        },
+        {
+            "title": "Xi and Sa\u0301nchez say China and Spain should help safeguard multilateralism",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com/news/world/asia/xi-and-snchez-say-china-and-spain-should-help-safeguard-multilateralism/article_95c090a9-002c-58f0-8997-b1262c04f018.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/3/32/332f1cc8-6de8-5277-8846-94b081ba7b65/69ddce813b512.image.jpg?crop=1620%2C851%2C0%2C114&resize=1200%2C630&order=crop%2Cresize",
+            "source": "thestar"
+        },
+        {
+            "title": "US Navy starts Hormuz blockade: This 9,000-tonne destroyers with Tomahawk has been deployed to stop the sea traffic, check features",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/defence/us-navy-starts-hormuz-blockade-this-9000-tonne-destroyers-with-tomahawk-has-been-deployed-to-stop-the-sea-traffic-check-features/articleshow/130251179.cms",
+            "image": "https://img.etimg.com/thumb/msid-130251431,resizemode-4,width-1200,height-900,imgsize-42656,overlay-etdefence/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Cheap Oil Era Ending? Analysts Believe War Damage May Keep Crude High for Years",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/business-economy/economy/cheap-oil-era-ending-analysts-believe-war-damage-may-keep-crude-high-for-years-article-154072738",
+            "image": "https://images.timesnownews.com/thumb/msid-154072735,width-1280,height-720,resizemode-75/154072735.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Watch: Spine chilling visuals of glacier collapse and why it is not a good news",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/life-style/travel/news/watch-spine-chilling-visuals-of-glacier-collapse-and-why-it-is-not-a-good-news/articleshow/130251210.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130251460/130251460.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "How US Navy is enforcing Strait of Hormuz blockade to cut off Iran\u2019s oil exports | Explained",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/world-news/how-us-navy-is-enforcing-strait-of-hormuz-blockade-to-cut-off-iran-s-oil-exports-101776136316844.html",
+            "image": "https://www.hindustantimes.com/images/default/default-621.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "Heathrow airport traffic surges as war diverts global flights",
+            "title": "Watch: Mohsin Naqvi Uses 'Imaginary' India Fuel Crisis To Justify PSL Crowd Bans",
             "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1991490/heathrow-airport-traffic-surges-as-war-diverts-global-flights",
-            "image": "https://i.dawn.com/large/2026/04/1408034521e7412.webp",
-            "source": "dawn"
+            "url": "https://news.abplive.com/sports/cricket/psl-2026-mohsin-naqvi-uses-imaginary-india-fuel-crisis-to-justify-psl-crowd-bans-1836365",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/14/f6d4bc3510d3f067dc7c496c848e6b3b177614244879924_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
         },
         {
-            "title": "'They're getting sick of him': Ex-GOP operative in awe as Trump booed at UFC Miami",
+            "title": "UN Secretary-General Says 'No Military Solution' To Iran War",
             "severity": "HIGH",
-            "url": "https://www.rawstory.com/trump-2676709323/",
-            "image": "https://www.rawstory.com/media-library/president-donald-trump-attends-ufc-327-at-kaseya-center-in-miami-florida-on-april-11-2026-julia-demaree-nikhinson-pool-via-r.jpg?id=65510271&width=980",
-            "source": "rawstory"
-        },
-        {
-            "title": "Millions of Rockstar Games business records stolen, hacking group says",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/tech/millions-of-rockstar-games-business-records-stolen-hacking-group-says-14000082.html",
-            "image": "https://images.firstpost.com/uploads/2026/04/Anodot-Hackers-2026-04-5afd3b39d45c448886625f15d3b570d9.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Booking.com hacked; tells customers: Unauthorised persons may have viewed any information you ...",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/technology/tech-news/booking-com-hacked-tells-customers-unauthorised-persons-may-have-viewed-any-information-you-/articleshow/130249686.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130249681/130249681.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Is GTA 6 info at risk? Hackers threaten to leak stolen Rockstar Games internal data",
-            "severity": "HIGH",
-            "url": "https://english.mathrubhumi.com/technology/rockstar-games-data-breach-shinyhunters-ransom-april-14-deadline-snowflake-anodot-s3ki7t5i",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qgatsb1qt5lqdorx22/0/rockstar-games-hacked-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
-        },
-        {
-            "title": "US State Secy Marco Rubio likely to join Israel-Lebanon talks in Washington",
-            "severity": "MEDIUM",
-            "url": "https://www.business-standard.com/world-news/us-state-secy-marco-rubio-likely-to-join-israel-lebanon-talks-in-washington-126041400095_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-11/12/full/1731400717-0855.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Arizona lands commitment from standout TE Max Markofski",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/arizona-lands-commitment-standout-te-032040190.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/wYoR50Jy9KnvNKvzbsw7bQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMjYwO2NmPXdlYnA-/https://media.zenfs.com/en/on3_recruiting_articles_521/9e861e54159a1de0bc85161166c73e41",
-            "source": "yahoo"
-        },
-        {
-            "title": "Happy Baisakhi 2026: Wishes, messages, quotes, images, greetings, Facebook & WhatsApp status",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/life-style/events/happy-baisakhi-2026-wishes-messages-quotes-images-greetings-facebook-whatsapp-status/articleshow/130210451.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130210460/130210460.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Rates Spark: Equities Are Back, But Bonds Are Not - Why?",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4890390-rates-spark-equities-are-back-but-bonds-are-not-why",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1429574708/image_1429574708.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "US mine hunters sail west, likely bound for Middle East amid Trump\u2019s new strategy for the Strait of Hormuz",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/us/news/us-mine-hunters-sail-west-likely-bound-for-middle-east-amid-trumps-new-strategy-for-the-strait-of-hormuz/articleshow/130255024.cms",
-            "image": "https://img.etimg.com/thumb/msid-130255012,resizemode-4,width-1200,height-900,imgsize-211460,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Tom Holland's Spider-Man reveals new name in 'Brand New Day' footage",
-            "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/entertainment/movies/2026/04/13/spider-man-brand-new-day-peter-parker-name-cinemacon/89598985007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/13/USAT/89598100007-spidey.jpg?crop=3049,1712,x407,y0&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "usatoday"
-        },
-        {
-            "title": "Carney's Liberals win Canada majority",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/world/americas/carneys-liberals-win-canada-majority-1.500505668",
-            "image": "https://media.assettype.com/gulfnews/2026-04-14/2mkmy5lw/preview.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "Godzilla Minus One Director's Grandgear Release Date & Teaser Revealed",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/godzilla-minus-one-director-first-english-movie-release-date-first-image-revealed/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/04/7a844bd2-fb55-4d15-89d8-aaea757438a8.jpg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
-        },
-        {
-            "title": "Update: China's foreign trade up 15 pct in Q1",
-            "severity": "WATCH",
-            "url": "http://chinanationalnews.com/news/278982502/update-china-foreign-trade-up-15-pct-in-q1",
-            "image": "https://image.chitra.live/api/v1/wps/2ace463/591039db-64ad-47c0-8773-e523e6c57423/0/XxjwshE000022-20260414-CBMFN0A002-600x315.jpg",
+            "url": "http://chinanationalnews.com/news/278982957/un-secretary-general-says-no-military-solution-to-iran-war",
+            "image": "https://image.chitra.live/api/v1/wps/a5cd37b/a9098dda-0d68-4cfb-b687-b9eb8f773a5c/0/ZGIwNTZkYWItMzA-600x315.jpg",
             "source": "chinanationalnews"
         },
         {
-            "title": "President Murmu, PM Modi and top leaders pay tribute to Dr B.R. Ambedkar at Parliament",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/india/president-murmu-pm-modi-and-top-leaders-pay-tribute-to-dr-b-r-ambedkar-at-parliament/videoshow/130250153.cms",
-            "image": "https://img.etimg.com/thumb/msid-130250153,width-1200,height-900,overlay-economictimes/news/india/president-murmu-pm-modi-and-top-leaders-pay-tribute-to-dr-b-r-ambedkar-at-parliament.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "EU firms rethinking China operations over rare earths curbs: Lobby",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/world/eu-china-operations-rare-earths-curbs-business-lobby-6054901",
-            "image": "https://dam.mediacorp.sg/image/upload/s--m0zVKADK--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2025/11/27/000_84y97t3.jpg?itok=GEXZDA6W",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Wild get the Blues in their road finale, falling in St. Louis",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/wild-blues-road-finale-falling-030700367.html",
-            "image": "https://s.yimg.com/cv/apiv2/sports/share/PD_010626-Social_Share_GENRIC_YAHOO_SPORTS-1200x630.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Muthoot, Oil India, Piramal Finance among top stock ideas; check targets & stop losses",
-            "severity": "WATCH",
-            "url": "https://www.businesstoday.in/markets/stocks/story/muthoot-oil-india-piramal-finance-among-top-stock-ideas-check-targets-stop-losses-525489-2026-04-14",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69ddae267a8db-muthoot-finance-ltd-is-demonstrating-a-high-velocity-reversal-on-the-daily-chart--staging-a-robust-r-140156690-16x9.jpg?size=1280:720",
-            "source": "businesstoday"
-        },
-        {
-            "title": "LPG, CNG, PNG prices today, April 14: Check rates in Delhi, Mumbai, Kolkata, other major cities",
-            "severity": "WATCH",
-            "url": "https://www.businesstoday.in/india/story/lpg-cng-png-prices-today-april-14-check-rates-in-delhi-mumbai-kolkata-other-major-cities-525487-2026-04-14",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69ddadd4a84fd-lpg--cng--png-prices-today-check-rates-across-major-cities-140030993-16x9.png?size=1280:720",
-            "source": "businesstoday"
-        },
-        {
-            "title": "Zanai Bhosle Pens Emotional Note After Grandma Asha Bhosle\u2019s Funeral: 'She Has Seen It All From Above'",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/movies/bollywood/zanai-bhosle-pens-emotional-note-after-grandma-asha-bhosles-funeral-she-has-seen-it-all-from-above-ws-l-10031551.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/BeFunky-collage-14-2026-04-32c8109319616a578f5e391539e5eb13-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Aug 21, 2021; Las Vegas, Nevada; Manny Pacquiao is pictured before the start of a world welterweight championship bout against Yordenis Ugas at T-Mobile Arena. Mandatory Credit: Stephen R. Sylvanie-Imagn Images",
-            "severity": "WATCH",
-            "url": "https://www.si.com/fannation/boxing/manny-pacquiao-team-makes-floyd-mayweather-rematch-guarantee",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3600,h_2025,x_0,y_13/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/boxing/01kp4qne9ana2c36kk4q.jpg",
-            "source": "si"
-        },
-        {
-            "title": "Coalition would toughen scrutiny of migrants\u2019 \u2018values\u2019 and wants new assessment of those from Gaza",
-            "severity": "WATCH",
-            "url": "https://theconversation.com/coalition-would-toughen-scrutiny-of-migrants-values-and-wants-new-assessment-of-those-from-gaza-280462",
-            "image": "https://images.theconversation.com/files/729745/original/file-20260414-85-ugxcod.jpg?ixlib=rb-4.1.0&rect=0%2C191%2C6223%2C3111&q=45&auto=format&w=1356&h=668&fit=crop",
-            "source": "theconversation"
-        },
-        {
-            "title": "John Cena Remembers Asha Bhosle With Emotional Instagram Post | See Here",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/movies/bollywood/john-cena-remembers-asha-bhosle-with-emotional-instagram-post-see-here-ws-l-10031508.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/BeFunky-collage-13-2026-04-847c78728127d6d2037af3cd997114e7-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Zanai Bhosle says she was overwhelmed with emotions at grandmother Asha Bhosle\u2019s funeral: \u2018She lives on...\u2019",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/entertainment/music/zanai-bhosle-says-she-was-overwhelmed-with-emotions-at-grandmother-asha-bhosle-funeral-101776130623034.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/14/1600x900/logo/Asha_Bhosle_1776130615105_1776130615311.jpg",
+            "title": "Did NBA YoungBoy go live \u2018declaring war\u2019 after NBA Ben 10 shooting? Viral post sparks debate",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/world-news/us-news/did-nba-youngboy-go-live-declaring-war-after-nba-ben-10-shooting-viral-post-sparks-debate-101776139143217.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/14/1600x900/logo/licensed-image_1776142736064_1776142744151.webp",
             "source": "hindustantimes"
         },
         {
-            "title": "M&A boom in Japan is fueling record corporate bond sales",
+            "title": "President vs. Pope: How feud with Leo could hurt Trump",
+            "severity": "HIGH",
+            "url": "https://globalnation.inquirer.net/318242/president-vs-pope-how-feud-with-leo-could-hurt-trump",
+            "image": "https://globalnation.inquirer.net/files/2026/04/President-vs.-Pope-How-feud-with-Leo-could-hurt-Trump-620x203.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Australia\u2019s immigration powers are already godlike. So why does Angus Taylor want them to be Trump-like too? | Abul Rizvi",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/commentisfree/2026/apr/14/australia-immigration-powers-angus-taylor-trump-ntwnfb",
+            "image": "https://i.guim.co.uk/img/media/cf455be894ab66953a2fa74e472e0ac6a5aa8cd8/400_0_4883_3907/master/4883.jpg?width=140&quality=85&auto=format&fit=max&s=abc43a6eb78df15f5cb51e1ae40c7134",
+            "source": "theguardian"
+        },
+        {
+            "title": "Fine update for drivers doing 22mph in 20mph zones across England",
+            "severity": "HIGH",
+            "url": "https://www.birminghammail.co.uk/motoring/motoring-news/fine-update-drivers-doing-22mph-33762817",
+            "image": "https://i2-prod.birminghammail.co.uk/motoring/motoring-news/article33762864.ece/ALTERNATES/s615/0_20mph_.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "16 warships in Middle East: How US plans to enforce sweeping blockade in Strait of Hormuz amid Iran war",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/defence/international/16-warships-in-middle-east-how-us-plans-to-enforce-sweeping-blockade-in-strait-of-hormuz-amid-iran-war/articleshow/130250509.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130250732/130250732.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "EU expects new Hungarian authorities to support sanctions on Russia \u2014 media",
+            "severity": "HIGH",
+            "url": "https://tass.com/world/2116543",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
+        },
+        {
+            "title": "Bahrain to pay April salaries for private sector citizens from unemployment fund",
+            "severity": "MEDIUM",
+            "url": "https://www.khaleejtimes.com/world/gulf/bahrain-april-salaries-private-sector-unemployment-fund",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-04-14/9meh9wvs/Screenshot-2026-04-14-at-7.08.20-AM.png",
+            "source": "khaleejtimes"
+        },
+        {
+            "title": "3 Zodiac Signs Enter A Powerful New Era Starting April 14, 2026 As Moon Trine Jupiter Brings Stability, Luck & Breakthroughs",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/astrology/others/3-zodiac-signs-enter-a-powerful-new-era-starting-april-14-2026-as-moon-trine-jupiter-brings-stability-luck-breakthroughs/articleshow/130257001.cms",
+            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-131386,resizemode-75,msid-130257001/astrology/others/3-zodiac-signs-enter-a-powerful-new-era-starting-april-14-2026-as-moon-trine-jupiter-brings-stability-luck-breakthroughs.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Austal: Strong Buy Intact, Free Cash Flow Remains The Key Risk",
+            "severity": "MEDIUM",
+            "url": "https://seekingalpha.com/article/4890404-austal-strong-buy-intact-free-cash-flow-remains-the-key-risk",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1345102641/image_1345102641.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Bursa Malaysia extends gains at midday amid regional rally, cautious sentiment",
             "severity": "WATCH",
-            "url": "https://www.japantimes.co.jp/business/2026/04/14/companies/japan-record-corporate-bond-sales/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/04/14/534690.jpg",
-            "source": "japantimes"
+            "url": "https://www.thestar.com.my/business/business-news/2026/04/14/bursa-malaysia-extends-gains-at-midday-amid-regional-rally-cautious-sentiment",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/14/3858628.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Colleges to share \u00a3175m to meet future jobs need",
+            "severity": "WATCH",
+            "url": "https://www.bbc.com/news/articles/crr1x1yn8l1o",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/0a4b/live/edb15c40-3749-11f1-8a34-6b2c37f4bef9.png",
+            "source": "bbc"
+        },
+        {
+            "title": "Meet the South East Water staff trying to keep the taps running",
+            "severity": "WATCH",
+            "url": "https://www.bbc.com/news/articles/c23zx8m99zlo",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/026a/live/1f860ac0-3747-11f1-b669-c509fb2e8e1e.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "Pakistan says all options on table for funding, weighs strategic fuel reserve",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/14/pakistan-says-all-options-on-table-for-funding-weighs-strategic-fuel-reserve",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/14/3858625.JPG",
+            "source": "thestar_my"
+        },
+        {
+            "title": "No Intel Past, No Problem? Netanyahu Makes Bold Bet on Maj Gen Roman Gofman for Mossad",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/world/middle-east/no-intel-past-no-problem-netanyahu-makes-bold-bet-on-maj-gen-roman-gofman-for-mossad-article-154072416",
+            "image": "https://images.timesnownews.com/thumb/msid-154072726,width-1280,height-720,resizemode-75/154072726.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "The people making the case for the economic benefits of HS2",
+            "severity": "WATCH",
+            "url": "https://www.bbc.com/news/articles/ce8jgp3zkwro",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/b864/live/7919b690-3747-11f1-879d-1b2f5c3919b8.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "India Exempt From Hormuz Toll, No Vessel Charged, Says Iranian Envoy",
+            "severity": "WATCH",
+            "url": "https://www.ndtvprofit.com/economy/india-exempt-from-hormuz-toll-no-vessel-charged-says-iranian-envoy-11354317",
+            "image": "https://c.ndtvimg.com/2026-04/mh1s0rq8_hormuz_625x300_11_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1080,height=607",
+            "source": "ndtv"
+        },
+        {
+            "title": "Iran Consulate\u2019s Viral Repost Praising India Sparks Internet Frenzy; 'Yahan Gyaan Bhi Milta Hai Aur Swag Bhi'",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/viral/iran-consulates-viral-repost-praising-india-on-israel-palestine-debate-sparks-internet-frenzy-yahan-gyaan-bhi-milta-hai-aur-swag-bhi-ws-el-10031918.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/image-2026-04-62f5af848677d43c1619c01c98b8692e-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "TCS Nashik row explodes: How undercover police op revealed sexual abuse, coercion, religious pressure; firm vows zero tolerance",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/nashik/tcs-nashik-row-explodes-how-undercover-police-op-revealed-sexual-abuse-coercion-religious-pressure-firm-vows-zero-tolerance/articleshow/130250231.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130250883/130250883.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Hidden cameras found in town\u2019s change rooms",
+            "severity": "WATCH",
+            "url": "https://www.news.com.au/national/victoria/crime/police-investigate-hidden-cameras-allegedly-placed-in-change-rooms/news-story/96ad6c368ccac30e24e2ca7d6ca293ba?from=rss-basic",
+            "image": "https://content.api.news/v3/images/bin/12da75bf22e5a6b2636cd9a83df87c00?width=320",
+            "source": "news"
+        },
+        {
+            "title": "Zanai Bhosle's First Post For 'Love Of Life' Asha Bhosle After Her Death",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/entertainment/zanai-bhosles-first-post-for-love-of-life-asha-bhosle-after-her-death-she-has-seen-it-all-from-above-11354184",
+            "image": "https://c.ndtvimg.com/2026-04/b7p4eino_gg_625x300_14_April_26.png?im=FitAndFill,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
+        },
+        {
+            "title": "Late Asha Bhosle's granddaughter Zanai Bhosle expresses gratitude for honoring her grandmother: 'She's seen it all from above'",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/late-asha-bhosles-granddaughter-zanai-bhosle-expresses-gratitude-for-honoring-her-grandmother-shes-seen-it-all-from-above/articleshow/130250809.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130250809/130250809.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Asha Bhosle And Lata Mangeshkar's Brother Announces Asia's Biggest Hospital Dedicated To His Sisters",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/movies/bollywood/asha-bhosle-and-lata-mangeshkars-brother-announces-asias-biggest-hospital-dedicated-to-his-sisters-ws-l-10031819.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/FotoJet-2026-04-13T180750.147-2026-04-e03e11450469ca2ccc766e3167f108e5-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Zanai Bhosle misses grandmother Asha Bhosle, says \u2018Overwhelmed with emotions, I'll write something when I can\u2019",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/entertainment/zanai-bhosle-misses-grandmother-asha-bhosle-says-overwhelmed-with-emotions-i-ll-write-something-when-i-can-article-13888133.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260414041507_asha-zanai.jpg",
+            "source": "moneycontrol"
         }
     ],
-    "Last_Updated": "2026-04-14T15:21:29.926909Z"
+    "Last_Updated": "2026-04-14T17:17:45.425481Z"
 }
