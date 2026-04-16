@@ -1,188 +1,233 @@
 {
-    "AGRI_Score": 62.2,
-    "Velocity": "-0.3",
+    "AGRI_Score": 63.1,
+    "Velocity": "+0.9",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The AGRI score of 63.1 is elevated, primarily driven by acute \"Energy & Maritime Disruption\" and sustained \"Geopolitical Conflict Intensity.\" The catastrophic fire at the Geelong refinery, resulting in \"Explosions, toxic smoke,\" directly pushes the energy pillar to maximum severity. Simultaneously, ongoing political debate surrounding \"Trump\u2019s Iran war powers\" and the \"Iran war clouds outlook\" maintain heightened geopolitical tension, impacting broader economic sentiment and indirectly contributing to elevated trade and financial concerns.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.5,
+        "Geopolitical Conflict Intensity": 81.1,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 61.7,
-        "Sovereign Financial Stress": 55.0,
+        "Trade & Supply Chain Stress": 67.4,
+        "Sovereign Financial Stress": 52.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.2,
-        "Cyber & Infrastructure Threats": 57.1,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 53.6,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to persistent tensions surrounding the 'Iran war,' as evidenced by headlines like 'GOP stops 4th attempt to curtail Trump\u2019s Iran war powers' and 'Trump tells Dutch royals he wants swift end to Iran war, backs pressure.' Further instability is signaled by Peru's ongoing ballot count, which 'drags on amid frustration with presidential election.'",
+        "Energy & Maritime Disruption": "This pillar is at its maximum, unequivocally driven by the catastrophic 'Explosions, toxic smoke as massive fire breaks out at Geelong refinery - The Age.' While South Korea's plan to 'use the Iran crisis to spur a renewables revolution' indicates a response to energy concerns, it does not alleviate the immediate disruption from the refinery incident.",
+        "Trade & Supply Chain Stress": "The ongoing 'Iran war clouds outlook' cited by Japanese firms inherently creates uncertainty for international trade, indirectly contributing to stress on supply chains. Although no direct disruptions are reported, the high geopolitical and energy risks suggest potential for future trade impediments.",
+        "Sovereign Financial Stress": "While 'Allspring sees opportunity to add duration as inflation pressures begin to abate,' the 'Iran war clouds outlook' is causing 'More Japanese firms say no to rate hikes,' indicating continued financial caution. The Chancellor's action to 'cuts bills for thousands more firms' also points to ongoing government intervention to mitigate economic pressures.",
+        "Currency & Liquidity Pressure": "Inflation pressures are showing signs of abatement, suggesting some easing on currency stability as 'Allspring sees opportunity to add duration.' However, the broader economic uncertainty stemming from the 'Iran war clouds outlook' could still introduce underlying liquidity pressures in global markets.",
+        "Sanctions & Regulatory Fragmentation": "The environment remains conducive to potential regulatory shifts and pressures, with reports noting 'Trump tells Dutch royals he wants swift end to Iran war, backs pressure.' The continuous debate over 'Trump\u2019s Iran war powers' highlights an active political landscape where new or intensified sanctions frameworks could be considered.",
+        "Cyber & Infrastructure Threats": "A tangible cyber threat is present, as 'Booking.com customers warned of \"reservation hijacking\" after data breach - CBC.' This incident underscores the ongoing vulnerability of critical digital services to malicious activity.",
+        "Climate & Resource Shock": "This pillar remains at baseline activity, with no acute shocks reported; however, there is a clear strategic shift towards renewable resources. South Korea is planning to 'use the Iran crisis to spur a renewables revolution,' and there's an ongoing public debate about 'Time to end the biomass scam,' reflecting focus on sustainable energy policy.",
+        "undefined": "This pillar is not applicable as all 8 specified pillars have been addressed."
+    },
     "All_Alerts": [
         {
-            "title": "Eagle Nuclear Energy Provides First Quarter 2026 Corporate Update",
+            "title": "Allspring sees opportunity to add duration as inflation pressures begin to abate",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/04/g51846759/eagle-nuclear-energy-provides-first-quarter-2026-corporate-update",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
+            "url": "https://www.cnbc.com/video/2026/04/16/allspring-sees-opportunity-to-add-duration-as-inflation-abates.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108291512-17762245551776224552-45271079616-1080pnbcnews.jpg?v=1776224554",
+            "source": "cnbc"
         },
         {
-            "title": "142 Morbi ceramics units resume operations",
+            "title": "Trump tells Dutch royals he wants swift end to Iran war, backs pressure: Report",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/rajkot/142-morbi-ceramics-units-resume-operations/articleshow/130292442.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117691980/117691980.jpg",
-            "source": "toi"
+            "url": "https://www.moneycontrol.com/world/trump-tells-dutch-royals-he-wants-swift-end-to-iran-war-backs-pressure-report-article-13890278.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260415163947_trumpiran.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Lyse Doucet: Under fragile ceasefire, Iranians wonder if US deal can be done",
+            "title": "Explosions, toxic smoke as massive fire breaks out at Geelong refinery - The Age",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/lyse-doucet-under-fragile-ceasefire-211719130.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/Jzmea.GfEB9ieVjqBPQffA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwMDA7aD0xMTI2O2NmPXdlYnA-/https://media.zenfs.com/en/bbc_us_articles_995/49022fc0954f79a5a96b2da94a42afa8",
-            "source": "yahoo"
-        },
-        {
-            "title": "ESCO Announces Agreement to Acquire Megger Group Limited",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/04/g51846755/esco-announces-agreement-to-acquire-megger-group-limited",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Live: Fuel crisis set to worsen with massive fire at Geelong refinery",
-            "severity": "HIGH",
-            "url": "https://www.abc.net.au/news/2026-04-16/asx-markets-business-live-news-april-16/106569522",
-            "image": "https://images.pexels.com/photos/5725589/pexels-photo-5725589.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "abc_net"
-        },
-        {
-            "title": "Live: Viva Energy in trading halt as ASX 200 opens flat - Australian Broadcasting Corporation",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNc0EzaGVldGc4UUN2VVNCSmVHUTlLeGxZMFhROFd3MWw0YmwtZ1JWNGRnRWNfVy1kUGVFQmpDeDdQMGhrS20wNlhTd0RyLTEwYXl4SnBWY3ljUkgxQXNhcHlDdkhPRkFWZHA5Um02eEo5eWgxSDF2TnZtQ05LTUtwTk1wM3RwV2ljY25MdHRRN05UUQ?oc=5",
-            "image": "https://images.pexels.com/photos/5725589/pexels-photo-5725589.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMTFYVmpYUVBHVjJ1TEY2VkI5WjFHM2pDcUhQVFNTOUhTaFpSYWItamFHTERCclo4VUZRWWQ0RkpwNmJyN1U1TWdycUlvc2IwWEVNR1JnVFNraVBLUkZ6WjhsWHRxeEZ1aVpTeGpDMHVJeVc1ZFBTWjNYMU8tN25kRElZa3doR0FLYVg0YmhHSTZTMllRZHFsYlgwbm5mSkVBV0dKaUsyMEFzLVA1TE0waVhHLXgzTFhMMVNBTGt3SkVVbUJqcW9LZ1Vn?oc=5",
+            "image": "https://images.pexels.com/photos/6289066/pexels-photo-6289066.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Scott Bessent Predicts Americans Will Still Be Paying Biden-Era Gas Prices In Summer Thanks To Iran War",
+            "title": "Iowa House passes sales tax exemption for nuclear energy facilities",
             "severity": "HIGH",
-            "url": "https://dailycaller.com/2026/04/15/scott-bessent-americans-will-pay-biden-era-gas-prices/",
-            "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https%3A%2F%2Fcdn01.dailycaller.com%2Fwp-content%2Fuploads%2F2026%2F04%2FDCNF-Bessent-Doocy-Gas-Prices-Featured.jpg",
-            "source": "dailycaller"
-        },
-        {
-            "title": "Tillis vows to keep blocking Fed nominee and says Trump should apologize for pope attacks",
-            "severity": "HIGH",
-            "url": "https://www.nbcnews.com/politics/congress/tillis-vows-keep-blocking-fed-nominee-says-trump-apologize-pope-attack-rcna258751",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-04/260415-thom-tillis-frank-thorp-v-ew-211p-d918bd.jpg",
-            "source": "nbcnews"
-        },
-        {
-            "title": "Britain could face food shortages this summer as impact of Iran war hits supplies",
-            "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/politics/2194598/britain-could-face-food-shortages",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/139/590x/2194598_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Iranian proposal offers ships safe passage on Omani side of Hormuz, source says",
-            "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/iranian-proposal-offers-ships-safe-passage-on-omani-side-of-hormuz-source-says/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/04/hormuz-ships.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Lionel Messi accused of breaching US$7 million contract by sitting out a Florida soccer friendly",
-            "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/sports/article/lionel-messi-accused-of-breaching-us7-million-contract-by-sitting-out-a-florida-soccer-friendly/",
-            "image": "https://www.ctvnews.ca/resizer/v2/E742FOEMWQMAATFK27Z5LBRIWM.jpg?auth=588902a70eb82ca97d04611d651137e96d22808a05c5bcca42e8e8a81e38e894&smart=true&width=1400&height=936",
-            "source": "ctvnews"
-        },
-        {
-            "title": "House Republicans struggle with spy powers reauthorization",
-            "severity": "MEDIUM",
-            "url": "https://ca.news.yahoo.com/house-republicans-struggle-spy-powers-212451721.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/YBz9vm626PyovNLgoGxRAw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjkwO2NmPXdlYnA-/https://media.zenfs.com/en/us.abcnews.go.com/26d4e38f981641e186a944c482b33d9e",
+            "url": "https://finance.yahoo.com/economy/policy/articles/iowa-house-passes-sales-tax-230343465.html",
+            "image": "https://media.zenfs.com/en/iowa_capital_dispatch_articles_671/29ff6ffe66c083573403c16276e0c5fd",
             "source": "yahoo"
         },
         {
-            "title": "Iran could struggle to enforce all of its latest shipping threats, experts say.",
+            "title": "GOP stops 4th attempt to curtail Trump\u2019s Iran war powers",
+            "severity": "HIGH",
+            "url": "https://thehill.com/newsletters/defense-national-security/5833467-senate-rejects-iran-war-resolution/",
+            "image": "https://images.pexels.com/photos/32357268/pexels-photo-32357268.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "thehill"
+        },
+        {
+            "title": "More Japanese firms say no to rate hikes as Iran war clouds outlook",
+            "severity": "HIGH",
+            "url": "https://www.marketscreener.com/news/more-japanese-firms-say-no-to-rate-hikes-as-iran-war-clouds-outlook-ce7e50ddd98cf225",
+            "image": "https://images.pexels.com/photos/32357268/pexels-photo-32357268.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "marketscreener"
+        },
+        {
+            "title": "Harvard academic has blunt message for taxpayers on Iran war",
+            "severity": "HIGH",
+            "url": "https://www.thestreet.com/economy/harvard-academic-has-blunt-message-for-taxpayers-on-iran-war",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTQyMjM3/gettyimages-1444934349-1.jpg?io=1&profile=rss",
+            "source": "thestreet"
+        },
+        {
+            "title": "Australians increase spending in March, led by over-65s",
+            "severity": "HIGH",
+            "url": "https://www.abc.net.au/news/2026-04-16/household-spending-rises-in-march-driven-by-fuel-over-65s-cba/106568310",
+            "image": "https://images.pexels.com/photos/9951077/pexels-photo-9951077.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "abc_net"
+        },
+        {
+            "title": "How South Korea plans to use the Iran crisis to spur a renewables revolution",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/world/2026/apr/16/south-korea-solar-power-renewables-revolution",
+            "image": "https://i.guim.co.uk/img/media/67be326f60f54bc22338fe2a65547ae6b406410b/416_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=0ef9a6b60252a7b2230e7108a46656c1",
+            "source": "theguardian"
+        },
+        {
+            "title": "Chancellor cuts bills for thousands more firms as she continues Washington talks",
+            "severity": "HIGH",
+            "url": "https://www.standard.co.uk/news/politics/rachel-reeves-washington-iran-israeli-government-b1278883.html",
+            "image": "https://static.standard.co.uk/2026/04/16/00/aca828ba4f9a04c6dc44f7bbacf25f49Y29udGVudHNlYXJjaGFwaSwxNzc2Mzc4MzQ3-2.84090532.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
+        },
+        {
+            "title": "Booking.com customers warned of 'reservation hijacking' after data breach - CBC",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQll4aXlSTkpTWUVsa2hPdnBzMnhIdHRIUFlrUm54b1JEOEhReTRwelgtWjhSRWxVZ05GX1V1T1JaWWZSNnZDU05sdXo1d2ttOVZjaXc3NEFUcEswbHNHX3NFLWxjR1kyVlp0MlZYQUhaSGZBMWlzUXpyOVFzVDJmR1ZjeHZBN1pDTFVn?oc=5",
+            "image": "https://images.pexels.com/photos/16660293/pexels-photo-16660293.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Peru\u2019s ballot count drags on amid frustration with presidential election",
             "severity": "MEDIUM",
-            "url": "https://www.nytimes.com/live/2026/04/15/world/iran-war-trump-us-israel/iran-could-struggle-to-enforce-all-of-its-latest-shipping-threats-experts-say",
-            "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15israel-iran-shipping-threats-hmbw/15israel-iran-shipping-threats-hmbw-mediumSquareAt3X.jpg",
-            "source": "nytimes"
+            "url": "https://www.aljazeera.com/news/2026/4/15/perus-ballot-count-drags-on-amid-frustration-with-presidential-election",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/reuters_69e007e4-1776289764.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
         },
         {
-            "title": "Unearthed 1969 video showcases Velvet Underground in its prime in Dallas",
+            "title": "10 Best Tinted Moisturizers Tested 2026, Dermatologist-Approved",
             "severity": "WATCH",
-            "url": "https://www.dallasnews.com/arts-entertainment/music/article/unearthed-1969-video-showcases-legendary-band-22200218.php",
-            "image": "https://s.hdnux.com/photos/01/65/77/11/30929500/3/rawImage.jpg",
-            "source": "dallasnews"
+            "url": "https://www.glamour.com/gallery/best-tinted-moisturizer",
+            "image": "https://media.glamour.com/photos/69dfd71caa060839143ce68d/16:9/w_3488,h_1962,c_limit/04.15_GL_Best%20Tinted%20Moisturizers_v1%20(1).jpg",
+            "source": "glamour"
         },
         {
-            "title": "Magyar\u2019s Big Plans for Budapest",
+            "title": "Vincent Kompany shows once again why he is perfect for Bayern Munich",
             "severity": "WATCH",
-            "url": "https://foreignpolicy.com/2026/04/15/hungary-peter-magyar-tisza-fidesz-orban-election-sulyok-resign-reforms-russia/",
-            "image": "https://foreignpolicy.com/wp-content/uploads/2026/04/MagyarHungary-GettyImages-2271141958.jpg?resize=1200,1200",
-            "source": "foreignpolicy"
+            "url": "https://sports.yahoo.com/articles/vincent-kompany-shows-once-again-230834482.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/1pDAKYV3UGSLEK2I5rf3aQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTQ0O2NmPXdlYnA-/https://media.zenfs.com/en/sb_nation_articles_115/88aab57e4413e9ec7b6f434fc2dc92cc",
+            "source": "yahoo"
         },
         {
-            "title": "Johnny Somali: 5 things to know about US streamer jailed in South Korea over \u2018comfort women\u2019 row",
+            "title": "Energy Fuels says Ross Bhappu has been appointed CEO",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/johnny-somali-5-things-to-know-about-us-streamer-jailed-in-south-korea-over-comfort-women-row-101776283040285.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/15/1600x900/logo/446067531_7451618948300342_4717765823684579511_n_1746867267788_1776285165068.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.marketscreener.com/news/energy-fuels-says-ross-bhappu-has-been-appointed-ceo-ce7e50ddd98cf22c",
+            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "marketscreener"
         },
         {
-            "title": "Spokane-area beer makers collaborate to toast their passions - Wed, 15 Apr 2026 PST",
+            "title": "Marcus Rashford: Spanish media pressure could help Man United get what they want for winger",
             "severity": "WATCH",
-            "url": "http://www.spokesman.com/stories/2026/apr/15/spokane-area-beer-makers-collaborate-to-toast-thei/",
-            "image": "https://thumb.spokesman.com/Hr43all1mfx8ioi7g-Eny30VJtY=/2500x1405/smart/media.spokesman.com/photos/2026/04/15/69e0314222cfe.image.jpg",
+            "url": "https://sports.yahoo.com/articles/marcus-rashford-spanish-media-pressure-230500546.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/aF8_SbmARjWi8gppmLleeA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMDU0O2NmPXdlYnA-/https://media.zenfs.com/en/the_peoples_person_articles_356/e2f099e1341a5f4c3886f07aed093113",
+            "source": "yahoo"
+        },
+        {
+            "title": "Time to end the biomass scam: Drax, Britain's largest carbon emitter, received \u00a31bn in subsidies last year - \u00a32.7m a day and more than \u00a3100k an hour, which we all pay for",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.co.uk/news/article-15736385/Time-end-biomass-scam-Drax-Britains-largest-carbon-emitter-received-1bn-subsidies-year-2-7m-day-100k-hour-pay-for.html",
+            "image": "https://i.dailymail.co.uk/1s/2026/04/15/17/90939683-0-image-a-4_1776272056199.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Samsung Elevates Experiences To Care for Users and Their Families With SmartThings Update",
+            "severity": "WATCH",
+            "url": "https://news.samsung.com/global/samsung-elevates-experiences-to-care-for-users-and-their-families-with-smartthings-update",
+            "image": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/04/15164815/Samsung-Corporate-Technology-Samsung-SmartThings-Now-Brief-Home-Security-Family-Care-Pet-Care_Thumb932-728x410.jpg",
+            "source": "samsungglobal"
+        },
+        {
+            "title": "Trump backs Braun to unseat WA\u2019s Gluesenkamp Perez in U.S. House race - Wed, 15 Apr 2026 PST",
+            "severity": "WATCH",
+            "url": "http://www.spokesman.com/stories/2026/apr/15/trump-backs-braun-to-unseat-was-gluesenkamp-perez-/",
+            "image": "https://thumb.spokesman.com/l2sMHX5ZvY-IivJJOF8GNS33NSY=/600x0/media.spokesman.com/graphics/2020/08/sr_placeholder.png",
             "source": "spokesman"
         },
         {
-            "title": "Iran's Bitcoin toll 'virtually impossible' to collect, says policy institute",
+            "title": "Universal Pictures at CinemaCon 2026: Everything Revealed",
             "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/crypto/articles/irans-bitcoin-toll-virtually-impossible-212013726.html",
-            "image": "https://media.zenfs.com/en/dlnews_702/85e9be2dd052ee7fd4ff6caa24ac2135",
+            "url": "https://me.ign.com/en/steven-spielberg-event-film-project/243293/universal-pictures-at-cinemacon-2026-everything-revealed",
+            "image": "https://sm.ign.com/ign_me/news/u/universal-/universal-pictures-at-cinemacon-2026-everything-revealed_a7bu.jpg",
+            "source": "ign_me"
+        },
+        {
+            "title": "Sleek water filter weighs less than 1 oz but will still save your gut",
+            "severity": "WATCH",
+            "url": "https://newatlas.com/outdoor-gear/lifestraw-sip-essential-ultralight-filter/",
+            "image": "https://ic-cdn.flipboard.com/newatlas.com/1bd864f322cd177da6de1efd730e4dbf55dd3c23/_xlarge.jpeg",
+            "source": "newatlas"
+        },
+        {
+            "title": "No disruption in LPG, fuel supply, says Delhi CM",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/delhi-news/no-disruption-in-lpg-fuel-supply-says-delhi-cm-101776279203254.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/15/1600x900/logo/The-chief-minister-urged-residents-to-avoid-panic-_1776279200864.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Hotspots where asking rents have surged revealed amid wider price standstill",
+            "severity": "WATCH",
+            "url": "https://uk.finance.yahoo.com/news/hotspots-where-asking-rents-surged-230100276.html",
+            "image": "https://media.zenfs.com/en/snappa.ukfinance/ed526734bb2c76036a0c187336b7de5a",
             "source": "yahoo"
         },
         {
-            "title": "Reliant Stadium Returns in August 2026",
+            "title": "Drax claimed record \u00a3999m in subsidies for burning trees in 2025, thinktank says",
             "severity": "WATCH",
-            "url": "http://www.businesswire.com/news/home/20260415537284/en/Reliant-Stadium-Returns-in-August-2026/?feedref=JjAwJuNHiystnCoBq_hl-fArZ4S48GqIjCUpbTPJDg_ZRHqeOKdIRBEENMvWuUUmOKZXz2bZRmEQ1BwkpoG4oul5C1rkGQ_h4BkZ40LwsoN4gnxBSGiVu_qLafVdV0IiQPT0fDRifTq3nSfcMpa1LQ%3D%3D",
-            "image": "https://mms.businesswire.com/media/20260415537284/en/2776067/21/phoenix_final_v2_1080p.jpg",
-            "source": "businesswire"
+            "url": "https://uk.finance.yahoo.com/news/drax-claimed-record-999m-subsidies-230141039.html",
+            "image": "https://media.zenfs.com/en/theguardian_763/9a7b3ee1d21af53fea5404c7d58b62bb",
+            "source": "yahoo"
         },
         {
-            "title": "Maritimes face some of the highest milk prices in Canada",
+            "title": "One Brockton urgent care to close, another to change",
             "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/atlantic/article/maritimes-face-some-of-the-highest-milk-prices-in-canada/",
-            "image": "https://www.ctvnews.ca/resizer/v2/GFNOXTRIYVBNPMZUBIY2RMWZWM.jpeg?auth=f6c0dc7924b99151665d0644c55d7ac5f9a12efd8014a01bb7d47b2f6833067d&smart=true&width=4032&height=2268",
+            "url": "https://www.wcvb.com/article/signature-healthcare-brockton-urgent-care-closing/71030625",
+            "image": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/brockton-hospital-66b24f6671fc0.png?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+            "source": "wcvb"
+        },
+        {
+            "title": "What is Arsenal's record in UEFA Champions League knockouts? Mikel Arteta's Gunners aiming for strong run",
+            "severity": "WATCH",
+            "url": "https://www.sportingnews.com/us/soccer/news/arsenal-record-champions-league-knockouts-round-16-porto/3dc0d0e6099e6d911a738daa",
+            "image": "https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2025-04/nba-plain--0a38fd1d-2361-4ac3-b631-bf29a7288cb3.png.webp?itok=y-tFaAQT",
+            "source": "sportingnews"
+        },
+        {
+            "title": "Brockton Hospital resumes ambulance service after cyber incident",
+            "severity": "WATCH",
+            "url": "https://www.bostonglobe.com/2026/04/15/metro/brockton-hospital-cyber-ambulance-service-resumes/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/OW6O5MBA5YJ55LP4MSPANQUCRQ.jpg?auth=a669f601ce5657141e78f678175406c360abd2237910a2f8688695e0b650dd4e&smart=true&width=5472&height=3648",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "B.C. court orders transfer of title to 4 Kelowna homes to millionaire over employee\u2019s \u2018undue influence\u2019",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/vancouver/article/bc-court-orders-transfer-of-title-to-4-kelowna-homes-to-millionaire-over-employees-undue-influence/",
+            "image": "https://www.ctvnews.ca/resizer/v2/JOV4VI5S4ZH47GIIF7VUMBUEWU.png?auth=169020c13f1de7e20b22453bc78b0953ae157b53e404d7c6b2b97e6ddc1e93e3&smart=true&width=1920&height=1080",
             "source": "ctvnews"
         },
         {
-            "title": "A year has passed since landmark court judgement so why is Labour so scared of giving women single-sex spaces?",
+            "title": "WA Police won't remove racist comments on its social media posts",
             "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/news/38831012/labour-women-single-sex-spaces-julie-bindel/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F04%2Fcrop-38831303.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "If Miami migrant shelter is \u2018unused,\u2019 show numbers \u2014 don\u2019t punish kids in secret | Opinion",
-            "severity": "WATCH",
-            "url": "https://www.miamiherald.com/opinion/editorials/article315419597.html",
-            "image": "https://www.miamiherald.com/public/latest-news/e1lt2u/picture313900361/alternates/FREE_1140/IMG_6359%20(1).JPG",
-            "source": "miamiherald"
-        },
-        {
-            "title": "Man arrested at Trump National Golf Club with weapons and body armor",
-            "severity": "WATCH",
-            "url": "https://www.marca.com/en/lifestyle/us-news/2026/04/15/69dff65ae2704e44748b4596.html",
-            "image": "https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/04/15/17762846788520.jpg",
-            "source": "marca"
-        },
-        {
-            "title": "Dog poop row turns ugly: AIS officer booked for lewd jibe",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/hyderabad/dog-poop-row-turns-ugly-ais-officer-booked-for-lewd-jibe/articleshow/130292306.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130292301/130292301.jpg",
-            "source": "toi"
+            "url": "https://www.abc.net.au/news/2026-04-16/western-australia-police-facebook-comments-moderation-racism/105049288",
+            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "abc_net"
         }
     ],
-    "Last_Updated": "2026-04-16T09:26:07.479930Z"
+    "Last_Updated": "2026-04-16T11:10:41.371928Z"
 }
