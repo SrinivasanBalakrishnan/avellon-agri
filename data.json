@@ -1,300 +1,225 @@
 {
-    "AGRI_Score": 65.6,
-    "Velocity": "+3.4",
+    "AGRI_Score": 64.0,
+    "Velocity": "-1.6",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.0 signifies a significantly elevated risk landscape, primarily driven by extreme 'Energy & Maritime Disruption' and acute 'Geopolitical Conflict Intensity'. Critical energy vulnerabilities are highlighted by the warning that \"Europe has 'maybe 6 weeks of jet fuel left,'\" amplified by escalating regional tensions where it's \"time to start thinking about the post-Iran war market environment.\" India's alarm over \"'Targeting commercial shipping unacceptable': At UN\" underscores the direct threat to global trade routes in the Hormuz Strait, contributing to high 'Trade & Supply Chain Stress.' Concurrently, the \"Starlink outage hit drone tests\" reveals growing 'Cyber & Infrastructure Threats' across critical sectors, further pushing the overall risk profile upwards.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 78.2,
+        "Geopolitical Conflict Intensity": 75.9,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 74.2,
+        "Trade & Supply Chain Stress": 70.6,
         "Sovereign Financial Stress": 52.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 68.5,
-        "Cyber & Infrastructure Threats": 61.3,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 67.5,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar reflects a high level of regional instability, specifically around the Middle East, as evidenced by news suggesting it's \"time to start thinking about the post-Iran war market environment.\" The Romanian defence ministry reporting Russian drone activity breaching its airspace also signals escalating military tensions near European borders.",
+        "Energy & Maritime Disruption": "This pillar is at its maximum due to severe threats to energy supply and critical shipping lanes. A stark warning that \"Europe has 'maybe 6 weeks of jet fuel left,'\" highlights immediate energy scarcity, while India's concerns over \"'Targeting commercial shipping unacceptable': At UN\" underscore the direct impact on maritime trade through the vital Hormuz Strait.",
+        "Trade & Supply Chain Stress": "Significant pressures are evident within global trade networks, indicated by reports such as \"Smartphones Get Costlier In India: Over 80 Models See 15% Price Surge, Budget Segment Shrinks.\" Furthermore, \"Banks halt gold, silver imports amid delay in government clearance\" points to disruptions in specific commodity supply chains, potentially linked to broader policy or logistical issues.",
+        "Sovereign Financial Stress": "This pillar indicates an elevated level of financial concern, with a medium-term outlook for India's economy projecting its \"current account deficit may rise to 2% of GDP in FY27 if oil stays at $82\u201387.\" Additionally, Pakistan's acknowledgment of \"Seven Hours Of Power Outages Amid Middle East Crisis\" highlights the direct fiscal and economic strain energy disruptions place on national governments.",
+        "Currency & Liquidity Pressure": "Pressures on currency stability and market liquidity are at a moderate level, influenced by disruptions in cross-border financial flows. The news of \"Banks halt gold, silver imports amid delay in government clearance\" could indirectly reflect governmental efforts to manage foreign exchange reserves or domestic liquidity, indicating cautious financial policy.",
+        "Sanctions & Regulatory Fragmentation": "The environment shows a moderate level of fragmentation and regulatory hurdles, though direct new sanctions are not explicitly detailed. The halt of \"gold, silver imports amid delay in government clearance\" suggests potential regulatory friction impacting trade, even if not explicitly sanction-related, creating barriers for imports.",
+        "Cyber & Infrastructure Threats": "This pillar reflects a high threat level, particularly concerning critical digital and physical infrastructure. The \"Starlink outage hit drone tests, exposing Pentagon's growing reliance on SpaceX\" directly illustrates the vulnerability of crucial satellite communications for military operations and broader infrastructure.",
+        "Climate & Resource Shock": "This pillar indicates a relatively low level of immediate risk, with ongoing issues but no severe acute shocks reported. The mention of \"MCG says PNG rush hitting water & sewer networks\" suggests localized resource management challenges potentially exacerbated by population shifts rather than an overarching climate-driven crisis."
+    },
     "All_Alerts": [
         {
-            "title": "Wall street continues rally, Asian markets trade soft | Brent Oil above $98 | Wipro Results",
+            "title": "Trump Says Iran Deal Will Bring \u2018Free Oil\u2019 and \u2018Free Hormuz Strait\u2019 - WSJ",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/videos/eye-on-india/videos/wall-street-continues-rally-asian-markets-trade-soft-brent-oil-above-98-wipro-results-13891446.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260417023924_OB-17-APRIL-378x213.jpeg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Blockade as war: The perilous logic of strangulation",
-            "severity": "HIGH",
-            "url": "https://www.japantimes.co.jp/commentary/2026/04/17/world/iran-blockade-as-war/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/04/17/535244.JPG",
-            "source": "japantimes"
-        },
-        {
-            "title": "Elsbeth Season 3 Episode 16 Perfectly Cast Griffin Dunne In An Odd Story During Sexual Assault Awareness Month",
-            "severity": "HIGH",
-            "url": "https://www.tvfanatic.com/elsbeth-s03e16-review-murder-he-wrote/",
-            "image": "https://cdn.tvfanatic.com/uploads/2026/04/3158531_0129b.jpg",
-            "source": "tvfanatic"
-        },
-        {
-            "title": "Major flight disruption coming? Europe has just 6 weeks of ATF left amid summer travel rush - India Today",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcl9OUGs2a3p3cm5Mc05wbzBBS0RHSlM2bmE0NU5wejRMVFdDbVpXOURZd2UxNmFyYjVCRGh4al91ZE1zRDFVcjZSX2d4VEhwckRSVFpkdkxKN0FkdEtpOVBBSVBiVUlGWTd1Z3VuZlhUeUdfSlZncnc4Vm1ONDM5T1FvUjFJRDJiMkIzdHVKWjRhaHBDY2ZjcHIzMlp2c3BpcTJtQ3cxQ2gxTDhpSnhBNHBOWmEtczNXa0pnVlVmazA1YS1PX1NybjYydHdjTUFxTkxv0gHYAUFVX3lxTFB6OGpTWEVVZlFtTkVKRFMxNGt2VGxlM0duTTRwV1F4d21rUE5lYk51TEp2cHN4OElTazY0b2xhb2Q0VVA4NDFzbmRPOWRXZXlLLURKUWwzUW5sS0JPWXV0TVRBM2JMdTZQRkpsNVFmV1E4b1ZiNHhFQzFwT0plOHBRSFN3ejdpZnhBWGpVX01kT3kwQW95MkdvOG1HcEM1Y05GQm5EbUZIa3JJcGJFRW9zenprdGI2Z0FfMVFtLTJKaDdHczRaazQ1VDFIRDhjeF9TOHNlY3RqMQ?oc=5",
-            "image": "https://images.pexels.com/photos/6289066/pexels-photo-6289066.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNQWk2UmVkSW4zTUFDNlB4Q0w5MEJydV9GZThVUXE5WllsaUpOMDY0S3N5NTRHVF9PQkZ0YlVZVEZTTEdqRjV5RElmcEtBU0NsbkdydEdneExlcnN6WW02N283VjMwN2F6aE10cDlpRGt1Q2tXLThaT251VTZpYWNGYlpuVEtFelltTkxBZXdHbFdvQkdBMHVYZ0p1RUNDcnVqcEh5SjBnWU5FbFEweWVnbVRBYXVrWmczczhJOUNzcTFaY0RqbmJHUzlHbjJjVjZNZ0FFX3NJc2lJamZSRW9YNTRUalNOTWRaVWxBVkJMQWtkSjVQTmgxTg?oc=5",
+            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Space Force report predicts future conflict with China",
+            "title": "Europe has 'maybe 6 weeks of jet fuel left,' energy agency head warns",
             "severity": "HIGH",
-            "url": "https://www.washingtontimes.com/news/2026/apr/16/space-force-report-predicts-future-conflict-china/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2025/08/05/Philippines-China_Rocket_Launch_82930_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
-            "source": "washingtontimes"
+            "url": "https://abc7.com/post/europe-has-6-weeks-jet-fuel-left-energy-agency-head-warns/18903163/",
+            "image": "https://cdn.abcotvs.com/dip/images/18903173_AP26106357558864.jpg?w=1600",
+            "source": "abc7"
         },
         {
-            "title": "IMD Weather Update: Temperatures Rising Across Bengaluru, Pune, Kolkata; Relief Likely In Jammu",
+            "title": "It's time to start thinking about the post-Iran war market environment: Lombard Odier",
             "severity": "HIGH",
-            "url": "https://www.news18.com/cities/new-delhi-news/today-temperatures-heatwave-weather-today-weather-jammu-hyderabad-pune-bangalore-kolkata-ws-l-10036303.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/heatwave-alert-across-India-imd-forecast-2026-04-3663a1ba7c98e0136bc42a06d96b427a-1200x800.png",
-            "source": "news18"
+            "url": "https://www.cnbc.com/video/2026/04/17/start-thinking-about-post-iran-war-market-environment-lombard-odier.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108292948-17763959851776395982-45316075716-1080pnbcnews.jpg?v=1776395984",
+            "source": "cnbc"
         },
         {
-            "title": "African economies turn to IMF as Iran war, aid cuts deepen fiscal strain",
+            "title": "'Targeting commercial shipping unacceptable': At UN, India raises alarm over Hormuz attacks, seafarer deaths",
             "severity": "HIGH",
-            "url": "https://www.firstpost.com/business/african-economies-imf-iran-war-aid-cuts-growth-inflation-africa-crisis-14001366.html",
-            "image": "https://images.firstpost.com/uploads/2026/04/AFP__20260416__A82F28G__v1__MidRes__UsEconomyImfWorldBank-1-2026-04-0f97a05a564ef988358b73130486c086.jpg",
+            "url": "https://www.firstpost.com/world/targeting-commercial-shipping-unacceptable-at-un-india-raises-alarm-over-hormuz-attacks-seafarer-deaths-14001407.html",
+            "image": "https://images.firstpost.com/uploads/2025/12/Firstpost-2025-12-16T085615.489-2025-12-1f81396f0c27a23b29eaa67176e5c697.jpg",
             "source": "firstpost"
         },
         {
-            "title": "US Israel-Iran War Day 49: Trump hints at \u2018end\u2019 to war; Israel-Lebanon call it a truce for now as Mideast tensions persist",
+            "title": "Australian former soldier gets bail on Afghanistan war crime charges",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/defence/us-israel-iran-war-news-day-49-updates-strait-of-hormuz-blockage-peace-talk-donald-trump-us-israel-iran-middle-east-war/articleshow/130321499.cms",
-            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-128166,resizemode-75,msid-130321499/news/defence/us-israel-iran-war-news-day-49-updates-strait-of-hormuz-blockage-peace-talk-donald-trump-us-israel-iran-middle-east-war.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Democrats move to impeach Hegseth over Iran war",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1992466/democrats-move-to-impeach-hegseth-over-iran-war",
-            "image": "https://i.dawn.com/large/2026/04/17075403ad43043.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "News18 Daily Digest, April 17: Lok Sabha Expansion Bill Sparks Row | Gulf War Enters Critical Phase",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/podcast/news18-daily-digest/news18-daily-digest-april-17-lok-sabha-expansion-bill-sparks-row-gulf-war-enters-critical-phase-10038182.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/DAILY_DIGEST_17_APR-2026-04-d810af7b4985ca3541339071e4022b4b.png",
-            "source": "news18"
-        },
-        {
-            "title": "Why falling immunisation rates have experts alarmed - 3AW",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTmZIUEdrUmNWZ2FqQ1lBWnJhYk9hM0pyMmRhbHJoVm1aY3p3YUJGQ1d2YVJlcG41cUlDVTJjUjEwNmM0MkZMNjB4NE82eHJpNzlmc0FrUm14TkV6TUlBRURaRXBfOXRCY0FHRHE5NFN3S3k2bFpjVFRWWFFWQlc4YQ?oc=5",
-            "image": "https://images.pexels.com/photos/12167976/pexels-photo-12167976.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Bitcoin, Ethereum Flat, XRP, Dogecoin Gain Amid Trump's 'Nuclear Dust' Claim, Lebanon Ceasefire: Analyst Says BTC In For 'Good' Q2",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/crypto/cryptocurrency/26/04/51875762/bitcoin-ethereum-flat-xrp-dogecoin-gain-iran-ceasefire-btc-q2-outlook",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/04/16/President-Of-The-United-States-Donald-Tr.jpeg?width=1200&height=800&fit=crop",
-            "source": "benzinga"
-        },
-        {
-            "title": "Tamil Nadu polls: DMK bets on Senthilbalaji to breach ADMK's western bastion",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/india/tamil-nadu-polls-dmk-bets-on-senthilbalaji-to-breach-admks-western-bastion/articleshow/130320840.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130320871/130320871.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Data Breach Alert: Edelson Lechtzin LLP Investigates Cookeville Regional Medical Center Data Breach",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/04/g51875647/data-breach-alert-edelson-lechtzin-llp-investigates-cookeville-regional-medical-center-data-breach",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Breitbart Business Digest: What Economic Uncertainty? Jobless Data Exceeds Expectations, Shows Resilient Labor Market",
-            "severity": "MEDIUM",
-            "url": "https://www.breitbart.com/economy/2026/04/16/breitbart-business-digest-what-economic-uncertainty-jobless-data-exceeds-expectations-shows-resilient-labor-market/",
-            "image": "https://media.breitbart.com/media/2026/04/bbd-4-16-26-getty-640x335.png",
-            "source": "breitbart"
-        },
-        {
-            "title": "Energy bill payers could save over \u00a3200",
-            "severity": "MEDIUM",
-            "url": "https://www.express.co.uk/finance/personalfinance/2194930/energy-bill-payers-could-save",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/23/590x/2194930_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Amid possible Pakistan visit, Trump praises PM Modi, calls him a friend, says, \u2018We had a very good conversation\u2019",
-            "severity": "MEDIUM",
-            "url": "https://www.india.com/news/world/amid-possible-pakistan-visit-trump-praises-pm-modi-calls-him-a-friend-says-we-had-a-very-good-conversation-west-asia-tension-iran-us-ceasefire-talks-in-islamabad-8383761/",
-            "image": "https://static.india.com/wp-content/uploads/2026/04/PIC-2026-04-17T081133.670.jpg",
-            "source": "india"
-        },
-        {
-            "title": "The Hunting Party Season 2 Episode 10 Review: What Will the Trio\u2019s Rebellion Cost Them?",
-            "severity": "MEDIUM",
-            "url": "https://www.tvfanatic.com/the-hunting-party-season-2-episode-10-review-byron-may/",
-            "image": "https://cdn.tvfanatic.com/uploads/2026/04/The-Trio-Rebels-4x3-1.jpg",
-            "source": "tvfanatic"
-        },
-        {
-            "title": "\u2018Camel dreams of cottonseed\u2019: Iran mocks Trump, calls his deal claims \u2018building castles in the air\u2019",
-            "severity": "MEDIUM",
-            "url": "https://www.moneycontrol.com/world/camel-dreams-of-cottonseed-iran-mocks-trump-calls-his-deal-claims-building-castles-in-the-air-article-13891421.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260417025753_trump-iran.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "By-election called one week after Qld state MP's death",
-            "severity": "MEDIUM",
-            "url": "https://www.abc.net.au/news/2026-04-17/by-election-called-stafford-jimmy-sullivan-mp/106575484",
-            "image": "https://images.pexels.com/photos/6366444/pexels-photo-6366444.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "abc_net"
-        },
-        {
-            "title": "Mary Berry shares homemade beef burger recipe \u2018you must make\u2019 this spring",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/life-style/food/2191101/mary-berry-burger-homemade-recipe",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/14/590x/2191101_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Man City vs Arsenal title race verdict - the key game that's already been played and demolition job prediction",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/man-city-vs-arsenal-title-030000908.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/1eF6IkdxbnoCjOZe3mBvNw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2MjA7aD0xMDgwO2NmPXdlYnA-/https://media.zenfs.com/en/manchester_evening_news_792/3b8a1de86dfc03c4a0524191ce181cdf",
-            "source": "yahoo"
-        },
-        {
-            "title": "Arsenal news: Mikel Arteta gets demand from club legends as \u00a351m star rules out transfer",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/sport/football/news/arsenal-ian-wright-thierry-henry-37027711",
-            "image": "https://i2-prod.dailystar.co.uk/incoming/article36113201.ece/ALTERNATES/s615/1_Arsenal-FC-v-Atletico-de-Madrid-UEFA-Champions-League-202526-League-Phase-MD3.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "OUT-standing! Shreyas Iyer\u2019s mid-air relay catch dismisses Hardik Pandya, leaves Wankhede silent",
-            "severity": "WATCH",
-            "url": "https://english.mathrubhumi.com/sports/cricket/shreyas-iyer-stunning-catch-mumbai-indians-ipl-2026-april-16-match-jfprg6xm",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qio61eh66n2na7u688/0/shreyas-iyer-catch-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
-        },
-        {
-            "title": "A \u201cdeath\u201d protein may be the key to slowing aging at its source",
-            "severity": "WATCH",
-            "url": "https://www.sciencedaily.com/releases/2026/04/260416071951.htm",
-            "image": "https://www.sciencedaily.com/images/1920/aged-hematopoietic-stem-cell.webp",
-            "source": "sciencedaily"
-        },
-        {
-            "title": "Trump rails against court decision that once again stalls his White House ballroom project",
-            "severity": "WATCH",
-            "url": "https://abcnews.com/Politics/wireStory/trump-rails-court-decision-stalls-white-house-ballroom-132113389",
-            "image": "https://i.abcnewsfe.com/a/0ef99edf-fcb9-4f35-8ebf-86b3c92afd72/wirestory_1f3ad790860ce7a9c61a5a70d58b8b0e_16x9.jpg?w=1600",
-            "source": "abcnews"
-        },
-        {
-            "title": "Iconic Jumeirah Burj Al Arab in Dubai to close for major renovation work",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/lifestyle/travel/2026/04/17/iconic-jumeirah-burj-al-arab-in-dubai-to-close-for-major-renovation-work",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/16/3862825.JPG",
+            "url": "https://www.thestar.com.my/news/world/2026/04/17/australian-former-soldier-gets-bail-on-afghanistan-war-crime-charges",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/17/3864150.jpg",
             "source": "thestar_my"
         },
         {
-            "title": "U.S. intelligence detects signs China is weighing giving Iran advance radar systems",
-            "severity": "WATCH",
-            "url": "https://www.aol.com/articles/us-intelligence-detects-signs-china-230343636.html",
-            "image": "https://images.pexels.com/photos/29505140/pexels-photo-29505140.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "aol"
+            "title": "Australia's Most Decorated Veteran Walks Free on Bail on War Crimes Charges Related to Afghan Deaths",
+            "severity": "HIGH",
+            "url": "https://www.usnews.com/news/world/articles/2026-04-17/australias-most-decorated-veteran-walks-free-on-bail-on-war-crimes-charges-related-to-afghan-deaths",
+            "image": "https://www.usnews.com/object/image/0000019d-66bd-dc91-a59f-ffbf5d560000/fb00e54fa5dd4d5295e35449748f762bAustralia_Afghanistan_War_Crimes_672_5.jpg?update-time=1775543924000&size=responsive640",
+            "source": "usnews"
         },
         {
-            "title": "Why Naver and Coupang Rejoined a Loss-Making Government GPU Supply Project",
-            "severity": "WATCH",
-            "url": "https://it.chosun.com/news/articleView.html?idxno=2023092160514",
-            "image": "https://it.chosun.com/news/photo/202604/2023092160514_441105_1922.png",
-            "source": "it_chosun"
+            "title": "Smartphones Get Costlier In India: Over 80 Models See 15% Price Surge, Budget Segment Shrinks",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/technology/gadgets/smartphone-price-hike-india-2026-budget-phones-cost-increase-mid-range-growth-1837015",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/13/db1b5f8adf0f53ceaf1cde732fb00d9c17760668172441164_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
         },
         {
-            "title": "Albanese says no fuel restrictions in wake of massive Geelong refinery fire",
-            "severity": "WATCH",
-            "url": "https://www.theguardian.com/australia-news/2026/apr/17/albanese-no-fuel-restrictions-geelong-refinery-fire",
-            "image": "https://i.guim.co.uk/img/media/a2409cf582aa7de6ffa366f78fe88de3c08a34d9/0_0_5833_4667/master/5833.jpg?width=140&quality=85&auto=format&fit=max&s=2c5c7fe8e2a7390725cf82fc14be47a7",
-            "source": "theguardian"
-        },
-        {
-            "title": "Ancient Collisions, Modern Supply Chains: A New Map for Rare Earth Discovery - Rare Earth Exchanges",
-            "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVG1MLVZNb3daczV0ZGVOSGtGUlV4ZGNjT01aMks4WWFZcDNEQVBWMEhnazd6Z3NLeU9EMWV5cVJwY1owVExxYm9icHphMDREcFdUNnIzUFhtZWR0Yk81Sm03RHlPbmYzZzhYM3FTSk5Nck41alFFa3Q2U3I2WU9kYW1DcjhXdEF3R1M3cjZmb3ozbEFZeVpHRWptT3AyS0FlbmpCQndwUWpfMEFKX2hFcg?oc=5",
-            "image": "https://images.pexels.com/photos/12231821/pexels-photo-12231821.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Boruto Confirms Dark Future as Naruto's Multiverse Is Quickly Falling Apart",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/naruto-dark-multiverse-boruto-two-blue-vortex-broken-future/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/04/boruto-and-naruto-timelines-broken-future.png?w=1600&h=900&fit=crop",
-            "source": "screenrant"
-        },
-        {
-            "title": "Water levels in Karnataka\u2019s 14 reservoirs drop to 36%",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/india/karnataka/water-levels-in-karnataka-s-14-reservoirs-drop-to-36-3970773",
-            "image": "https://media.assettype.com/deccanherald/2026-04-16/tolcmsou/file85fypalv8qrv3xhs45s.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Airline adding bunk beds for economy travelers but bans snacks, smells and cuddling",
-            "severity": "WATCH",
-            "url": "https://abcnews.com/International/wireStory/airline-adding-bunk-beds-economy-travelers-bans-snacks-132124688",
-            "image": "https://i.abcnewsfe.com/a/970716f5-e73d-432f-b992-24e00a9a5990/wirestory_c2c434f60116f332c0ce96c69d662c3b_16x9.jpg?w=1600",
-            "source": "abcnews"
-        },
-        {
-            "title": "After a paralyzing stroke, a South Korean pianist recreates himself as a one-handed performer",
-            "severity": "WATCH",
-            "url": "https://abcnews.com/Entertainment/wireStory/after-paralyzing-stroke-south-korean-pianist-recreates-handed-132123414",
-            "image": "https://i.abcnewsfe.com/a/cad63a81-2236-4aaa-9f47-a9d9318800f6/wirestory_4aa4d4ebf27c4cf68e25e470e116b44d_16x9.jpg?w=1600",
-            "source": "abcnews"
-        },
-        {
-            "title": "For Christopher Nolan, Tom Holland, Anne Hathaway Film The Odyssey Was A 'Nightmare,' Here's Why",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/entertainment-news/hollywood/for-christopher-nolan-tom-holland-anne-hathaway-film-the-odyssey-was-a-nightmare-heres-why-article-154097979",
-            "image": "https://images.timesnownews.com/thumb/msid-154097981,width-1280,height-720,resizemode-75/154097981.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Arrest made in theft of Hurricane Melissa relief supplies in Mississauga",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/toronto/local/peel/article/arrest-made-in-theft-of-hurricane-melissa-relief-supplies-in-mississauga/",
-            "image": "https://www.ctvnews.ca/resizer/v2/MG37GY2K35BQJFEPK24HGZVMRM.jpg?auth=87c5d4711e4d9420c182e8afd48da40d89261db5367b86dc62c94f98030cc9cf&smart=true&width=1920&height=1080",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Prisoners sue Govt over inhumane conditions",
-            "severity": "WATCH",
-            "url": "https://www.news.com.au/national/western-australia/six-prisoners-have-sued-the-state-of-western-australia-over-inhumane-conditions-inside-hakea-prison/news-story/d674e5e5b41d4ded04db8b03e3aef33e?from=rss-basic",
-            "image": "https://content.api.news/v3/images/bin/01df442dd8901a115776534288c0acbe?width=320",
-            "source": "news"
-        },
-        {
-            "title": "Jana Nayagan Leak: 3 More Arrested, A Freelance Assistant Editor Is The Main Accused",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/movies/tamil-cinema/jana-nayagan-leak-3-more-arrested-a-freelance-assistant-editor-is-the-main-accused-ws-l-10038106.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/01/FotoJet-2026-01-21T143318.079-2026-01-d894a7388c582789f12efa8b3c398d2e-3x2.jpg",
+            "title": "Pakistan Govt Acknowledges Seven Hours Of Power Outages Amid Middle East Crisis",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/world/pakistan-govt-acknowledges-seven-hours-of-power-outages-amid-middle-east-crisis-10038282.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/03/electricity-cut-2026-03-71e0b1e13fe3f24435ea531a06177cdb-1200x800.png",
             "source": "news18"
         },
         {
-            "title": "Washington state to impose fines in work zones starting July as speed camera program expands",
+            "title": "Banks halt gold, silver imports amid delay in government clearance",
+            "severity": "HIGH",
+            "url": "https://www.business-standard.com/markets/commodities/banks-halt-gold-silver-imports-amid-delay-in-government-clearance-126041700237_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-04/07/full/1775547328-5297.jpeg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Romanian defence ministry says radars caught Russian drone breaching air space",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/news/world/2026/04/17/romanian-defence-ministry-says-radars-caught-russian-drone-breaching-air-space",
+            "image": "https://cdn.thestar.com.my/Themes/img/tsol-default-image2023.png",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Roberts-Smith sat impassively as judge revealed \u2018exceptional circumstances\u2019 to release him",
+            "severity": "HIGH",
+            "url": "https://www.smh.com.au/national/roberts-smith-sat-impassively-as-judge-revealed-exceptional-circumstances-to-release-him-20260416-p5zoe7.html",
+            "image": "https://static.ffx.io/images/$zoom_2.6475%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/ccd5d67cf2b5c4eddc19c5cd36145c1fb5729d5a9862dd04c58214e197edf303",
+            "source": "smh"
+        },
+        {
+            "title": "Stoush over Harry and Meghan\u2019s \u2018leaked\u2019 Australian itinerary leaves tabloids stranded at the baggage carousel",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/media/commentisfree/2026/apr/17/prince-harry-meghan-sussex-leaked-australia-itinerary-tabloids-ntwnfb",
+            "image": "https://i.guim.co.uk/img/media/5bc4fc77484c08c28387cd211949af8fad287302/93_0_2814_2252/master/2814.jpg?width=140&quality=85&auto=format&fit=max&s=079e3da5c5cb19f562ef27254b60178d",
+            "source": "theguardian"
+        },
+        {
+            "title": "Starlink outage hit drone tests, exposing Pentagon's growing reliance on SpaceX",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/tech/technology/starlink-outage-hit-drone-tests-exposing-pentagons-growing-reliance-on-spacex/articleshow/130322552.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-18646,resizemode-75,msid-130322552/tech/technology/starlink-outage-hit-drone-tests-exposing-pentagons-growing-reliance-on-spacex.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "T20 World Cup 2026 Hit By Match-Fixing Allegations; ICC Launches Probe Into Cricket Canada",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/cricket/t20-world-cup-2026-hit-by-match-fixing-allegations-icc-launches-probe-into-cricket-canada-ws-kln-10038185.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/canada-cricket-team-t20-world-cup-2026-2026-04-ddf6b9e2ebc18c7cd197a281b0c059c5-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "\u2018Reckless\u2019 shortcuts? MCG says PNG rush hitting water & sewer networks",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/gurgaon/reckless-shortcuts-mcg-says-png-rush-hitting-water-sewer-networks/articleshow/130322052.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130322045/130322045.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "IOL Investigation | South African petrol and diesel prices versus other countries: Is our fuel really overpriced?",
+            "severity": "MEDIUM",
+            "url": "https://www.iol.co.za/motoring/industry-news/iol-investigation-south-african-petrol-and-diesel-prices-versus-other-countries-is-our-fuel-really-overpriced-da9793ae-9e70-4d40-af6b-c8adbc418c19",
+            "image": "https://images.pexels.com/photos/6692312/pexels-photo-6692312.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "iol"
+        },
+        {
+            "title": "India\u2019s current account deficit may rise to 2% of GDP in FY27 if oil stays at $82\u201387: CRISIL",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/economy/finance/indias-current-account-deficit-may-rise-to-2-of-gdp-in-fy27-if-oil-stays-at-8287-crisil/articleshow/130329583.cms",
+            "image": "https://img.etimg.com/thumb/msid-130329628,resizemode-4,width-1200,height-900,imgsize-64878,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Why Seadrill (SDRL) Stock Is Trading Up Today",
             "severity": "WATCH",
-            "url": "https://www.kgw.com/article/news/local/washington/washington-state-impose-fines-work-zones-starting-july-speed-camera-program-expands/281-1eb774d9-816d-4d2a-94f5-6c34f1895a78",
-            "image": "https://media.kgw.com/assets/KING/images/d55e7724-0cd9-45ac-b300-7be46d754ad9/20260417T020414/d55e7724-0cd9-45ac-b300-7be46d754ad9_1920x1080.jpg",
-            "source": "kgw"
+            "url": "https://ca.finance.yahoo.com/news/why-seadrill-sdrl-stock-trading-045827478.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/tws_wiFP4_t8ztSNt5rpAA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUw/https://news-assets.stockstory.org/cover-images/_1400x700_crop_center-center_none/seadrill-cover-image-b9f24a3cf2d6_2026-02-23-195917_yrnx.jpeg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Artemis II astronauts share reflections from moon mission",
+            "severity": "WATCH",
+            "url": "https://www.nbcnews.com/video/shorts/artemis-ii-astronauts-share-reflections-from-moon-mission-261549637917",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_04/artemis_crew_vertical-b0ch9m.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "China offers loans, technology for Vietnam railways",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/china-offers-loans-technology-vietnam-045720191.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/og_gWMU_dB0lgTduiKbDpg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2MDA7aD0xMDY2O2NmPXdlYnA-/https://media.zenfs.com/en/reuters.com/2274a090a415a0aec2468c17c6f67f9c",
+            "source": "yahoo"
+        },
+        {
+            "title": "\u2018Rolling resistance\u2019: new way to save on fuel bills",
+            "severity": "WATCH",
+            "url": "https://www.news.com.au/technology/motoring/motoring-news/bridgestone-potenza-re005-tested/news-story/e37626be5f6c3d5343b5baf55df2e797?from=rss-basic",
+            "image": "https://content.api.news/v3/images/bin/6c66042c6ce9955eb2d08c891dec0101?width=320",
+            "source": "news"
+        },
+        {
+            "title": "South Koreans breath sighs of relief as escaped wolf is returned to zoo safely",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/south-koreans-breath-sighs-relief-045859401.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/q3NkVoF7DymWWdW04Bfwfw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://media.zenfs.com/en/cp_news_842/ba0fb3ec94dac2fb4609b6a8cddaf2db",
+            "source": "yahoo"
+        },
+        {
+            "title": "Pair charged over alleged 1000L fuel heist",
+            "severity": "WATCH",
+            "url": "https://www.news.com.au/national/nsw-act/crime/two-men-charged-with-alleged-theft-of-1000-litres-of-fuel-from-regional-construction-site/news-story/e79496a359251b72a3edd59e52aa64ea?from=rss-basic",
+            "image": "https://content.api.news/v3/images/bin/2c0c91a12edcc3728cbb5a1bcc4dac3a?width=320",
+            "source": "news"
+        },
+        {
+            "title": "Wipro to Vedanta: 10 Stocks Driving Market Buzz Today, April 17",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/gallery/business/wipro-to-vedanta-10-stocks-driving-market-buzz-today-april-17-vszw65y",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01k0yaey0e2r5prrec3rpe5yf9,imgname-share-market-in-office-time-1753364264973.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "VIDYA strengthens global coffee presence with acquisition in Romania",
+            "severity": "WATCH",
+            "url": "http://economictimes.indiatimes.com/industry/cons-products/fmcg/vidya-strengthens-global-coffee-presence-with-acquisition-in-romania/articleshow/130323028.cms",
+            "image": "https://img.etimg.com/thumb/msid-130323145,resizemode-4,width-1200,height-900,imgsize-11550,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Why BCCI Is Unlikely To Ban RR Team Manager For Using Mobile Phone In Dug-Out During IPL Match",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/cricket/ipl-2026-why-bcci-unlikely-ban-rr-team-manager-romi-bhinder-using-mobile-phone-rajasthan-royals-dug-out-during-match-ws-kln-10038221.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/rajasthan-royals-dugout-BCCI-1-2026-04-a895dc82393b349207226361ef625f16-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "The Business of Football: A 10-year anniversary EFL special, plus League Two takeover talk",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7193246/2026/04/17/efl-vertu-scmp-psr-tranmere-newport-business/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/04/16110517/GettyImages-2271007747-scaled-e1776351996231.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "Rajinikanth's Jailer 2 Leaked Ahead Of Release, Makers Urge Everyone Not To 'Use, Share Or Repost'",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/movies/tamil-cinema/rajinikanth-jailer-2-leaked-ahead-of-release-makers-urge-everyone-not-to-use-share-or-repost-ws-l-10038217.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/01/Rajinikanth-Jailer-2-2026-01-bde93e47857d23e398397ccbd9d71fab-3x2.jpg",
+            "source": "news18"
         }
     ],
-    "Last_Updated": "2026-04-17T15:01:20.120381Z"
+    "Last_Updated": "2026-04-17T16:59:27.229874Z"
 }
