@@ -1,82 +1,133 @@
 {
-    "AGRI_Score": 63.7,
-    "Velocity": "+1.9",
+    "AGRI_Score": 65.4,
+    "Velocity": "+1.7",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 65.4 reflects a significantly elevated risk environment, primarily driven by critical disruptions in Energy & Maritime sectors and intensifying Geopolitical Conflict. The persistent \"U.S. military blockade on ships entering or leaving Iran will continue\" directly fuels the extreme Energy & Maritime disruption score of 100, impacting global supply lines. This ongoing \"US-Iran conflict\" simultaneously exacerbates Trade & Supply Chain Stress, as evidenced by \"Iran war triggers global food crisis; fertilizer shock raises famine fears,\" maintaining overall risk at a high level despite some underlying market confidence.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 74.4,
+        "Geopolitical Conflict Intensity": 80.1,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 67.8,
+        "Trade & Supply Chain Stress": 74.9,
         "Sovereign Financial Stress": 53.2,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 59.7,
-        "Cyber & Infrastructure Threats": 65.5,
+        "Sanctions & Regulatory Fragmentation": 57.7,
+        "Cyber & Infrastructure Threats": 65.8,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar reflects severe tension, largely due to ongoing regional hostilities and strategic rivalries. The broader \"US-Iran conflict\" and related military actions, alongside ideological clashes like \"White House vs the pope,\" signify a sustained period of heightened geopolitical friction.",
+        "Energy & Maritime Disruption": "This pillar is at its maximum due to direct military interference with critical shipping routes. The headline stating \"The U.S. military blockade on ships entering or leaving Iran will continue until Trump ends it\" confirms a severe, active disruption to maritime commerce and energy transit, precluding any routine monitoring.",
+        "Trade & Supply Chain Stress": "Global trade routes and supply chains are experiencing considerable strain from the spillover effects of geopolitical events. \"Turbulence ahead as airfares fluctuate amid Middle East conflict\" and the \"Iran war triggers global food crisis; fertilizer shock raises famine fears\" illustrate significant pressures on logistics and commodity availability.",
+        "Sovereign Financial Stress": "While certain markets demonstrate resilience, underlying fiscal vulnerabilities and inflation concerns persist in the global economy. \"Fed's Waller says Iran war and inflation risks could keep rates on hold\" indicates central bank caution, balancing against positive sentiment from \"Earnings poised to stoke confidence in a stock market that has rebounded to all-time highs.\"",
+        "Currency & Liquidity Pressure": "This pillar indicates moderate pressure, shaped by inflation risks and the Federal Reserve's cautious stance on interest rates. The impact of the \"Iran war and inflation risks\" on monetary policy suggests ongoing vigilance is necessary, preventing a return to baseline activity for liquidity management.",
+        "Sanctions & Regulatory Fragmentation": "The enforceability of current sanctions and the potential for new restrictive measures continue to create a fragmented regulatory landscape. The ongoing \"U.S. military blockade on ships entering or leaving Iran will continue\" exemplifies persistent unilateral actions that challenge international trade norms and create regulatory uncertainty.",
+        "Cyber & Infrastructure Threats": "Cyber infrastructure remains a critical area of vulnerability, with significant potential for widespread exploitation. The report that \"Over 1 billion Windows users at risk after disgruntled security researcher leaks Defender zero-days\" highlights a substantial and immediate threat to global digital security and resilience.",
+        "Climate & Resource Shock": "While localized climate events occur, the most immediate resource shocks are currently driven by geopolitical conflicts, not solely environmental factors. The deepening \"food crisis\" with \"Robot Dogs Patrolling Precious Crops\" and \"fertilizer shock raises famine fears\" is directly linked to the Iran war, indicating routine monitoring for environmental impacts."
+    },
     "All_Alerts": [
         {
-            "title": "Indian refiners pay for Iran oil in yuan via ICICI Bank, says report",
+            "title": "White House vs the pope: What is behind the clash and Catholic just war doctrine?",
             "severity": "HIGH",
-            "url": "https://www.business-standard.com/economy/news/indian-refiners-pay-for-iran-oil-in-yuan-via-icici-bank-says-report-126041701307_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-04/09/full/1744139191-5854.jpg",
-            "source": "business-standard"
+            "url": "https://ca.news.yahoo.com/white-house-vs-pope-behind-164228093.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/FCy.8Jt0hrKxJeNIlOo5kA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwNDg7aD0xMTUyO2NmPXdlYnA-/https://media.zenfs.com/en/euronews_ca_articles_409/3144c59bba5027880bfec364d418b265",
+            "source": "yahoo"
         },
         {
-            "title": "Significant Differences Remain Between Iran-US, Including on Nuclear Issues, Senior Iranian Official Says",
+            "title": "Middle East conflict dents Cape Town tourism",
             "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-04-17/significant-differences-remain-between-iran-us-including-on-nuclear-issues-senior-iranian-official-says",
-            "image": "https://www.usnews.com/object/image/0000019d-9c92-d58e-a3fd-ded24c860000/tag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM3G16R%3A12026-04-17T175019Z_1_LYNXMPEM3G16R_RTROPTP_3_IRAN-CRISIS-NUCLEAR.JPG?update-time=1776448219000&size=responsive640",
-            "source": "usnews"
+            "url": "https://ca.finance.yahoo.com/video/middle-east-conflict-dents-cape-191613830.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/1ibNOPJ2_9fGteq14Po3hw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/d9b2a1c4-65ac-4210-a616-2aeb996cef18/main/1280x720/42s109ms/match/image.jpg",
+            "source": "yahoo"
         },
         {
-            "title": "Major airline cuts flights to US tourist hotspot amid jet fuel crisis",
+            "title": "Robot Dogs Patrolling Precious Crops as Food Crisis Deepens",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/bulletin/news/air-canada-flights-suspended-jfk-toronto-montreal-b2960070.html",
-            "image": "https://static.independent.co.uk/2026/04/17/17/42/GettyImages-2268615203.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "url": "https://futurism.com/robots-and-machines/robot-dog-food-crisis",
+            "image": "https://futurism.com/wp-content/uploads/2026/04/robot-dog-food-crisis.jpg",
+            "source": "futurism"
         },
         {
-            "title": "It looks like there was more signs of insider trading on today's Iran war news",
+            "title": "Turbulence ahead as airfares fluctuate amid Middle East conflict - Australian Broadcasting Corporation",
             "severity": "HIGH",
-            "url": "https://investinglive.com/commodities/it-looks-like-there-was-more-signs-of-insider-trading-on-todays-iran-war-news-20260417/",
-            "image": "https://images.investinglive.com/images/Insider%20trading_id_bddc4c74-bcaa-4dd4-b139-941059a5a170_size975.jpeg",
-            "source": "forexlive"
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU1ROVjRLOEQ4V2ZzcDZzMFoxdnFRNmNtRE4yZjRYYmZHSHp6eWVDRVF1VUx6a21feXJOeXNaejZwZHdTeHhfZGtYTGZwdktkdHp3UjVrN21XbXA5Vzc5MkpxUC1XWnMzMklBeDZtdzNFQklxMXNVQWltcUQ5M283S1pMank2Q0VWWDZhbEIzcUxKcjVWai1rTE1CVmFHalZBRnd3a0xQVG5sN3poQ3c?oc=5",
+            "image": "https://images.pexels.com/photos/4666/berlin-eu-european-union-federal-chancellery.jpg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Zelenskiy: Ukraine Believes Russia Will Try Again to Involve Belarus in the War",
+            "title": "Elon Musk backs \u2018universal high income\u2019 to combat AI job losses",
             "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-04-17/zelenskiy-ukraine-believes-russia-will-try-again-to-involve-belarus-in-the-war",
-            "image": "https://www.usnews.com/object/image/0000019d-9c89-d58e-a3fd-dedb21970000/tag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM3G16I%3A12026-04-17T174107Z_1_LYNXMPEM3G16I_RTROPTP_3_UKRAINE-CRISIS-ZELENSKIY-AWARD.JPG?update-time=1776447667000&size=responsive640",
-            "source": "usnews"
+            "url": "https://www.foxbusiness.com/fox-news-tech/elon-musk-backs-universal-high-income-combat-ai-job-losses",
+            "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/04/elon_musk.png",
+            "source": "foxbusiness"
         },
         {
-            "title": "UBC researchers aim to deliver earlier warnings on the toxic drug supply",
+            "title": "Residents React After Huntington Board Approves Melville Crossing",
             "severity": "HIGH",
-            "url": "https://news.ubc.ca/2026/04/ubc-track-and-trace/",
-            "image": "https://news.ubc.ca/wp-content/uploads/2026/04/ubc_20260416_pj_3474.jpg",
-            "source": "ubc_ca"
+            "url": "https://patch.com/new-york/huntington/residents-react-after-huntington-board-approves-melville-crossing",
+            "image": "https://patch.com/img/cdn20/users/27193599/20260417/031529/styles/patch_image/public/huntington-1___17133345913.jpg",
+            "source": "patch"
         },
         {
-            "title": "\u2018Morale is going to be at an all-time low\u2019: Iran war troops living on meager rations as Postal Service stops delivering",
+            "title": "Earnings poised to stoke confidence in a stock market that has rebounded to all-time highs. Here's what's ahead",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-war-soldiers-food-shortages-mail-b2959960.html",
-            "image": "https://static.independent.co.uk/2026/04/17/15/15/GettyImages-2267550706.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
+            "url": "https://www.cnbc.com/2026/04/17/stock-market-next-week-outlook-for-april-20-24-2026.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108288908-1775679274107-gettyimages-2269830645-AFP_A77J37J.jpeg?v=1776349252&w=1200&h=675",
+            "source": "cnbc"
         },
         {
-            "title": "Trump shifts focus to affordability as mediators make progress on war with Iran",
+            "title": "Fed's Waller says Iran war and inflation risks could keep rates on hold",
             "severity": "HIGH",
-            "url": "https://www.wbur.org/hereandnow/2026/04/17/trump-iran-affordability",
-            "image": "https://media.wbur.org/wp/2016/06/HereandNow-3000b-1000x1000.jpg",
-            "source": "wbur_org"
+            "url": "https://qz.com/fed-waller-iran-war-inflation-rates-hold-041726",
+            "image": "https://qz.com/cdn-cgi/image/width=300,height=300,fit=cover,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2269097800.jpg",
+            "source": "quartz"
         },
         {
-            "title": "Rabbi reflects on war, antisemitism and securing synagogues",
+            "title": "World reacts to Strait of Hormuz reopening amid US-Iran conflict",
             "severity": "HIGH",
-            "url": "https://www.wbur.org/hereandnow/2026/04/17/rabbi-war-antisemitism",
-            "image": "https://media.wbur.org/wp/2026/04/IMG_8219-scaled.jpg",
-            "source": "wbur_org"
+            "url": "https://www.aljazeera.com/news/2026/4/17/world-reacts-to-the-opening-of-the-strait-of-hormuz-amid-us-iran-conflict",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-15T185247Z_1216729001_RC2B2KAX6KP6_RTRMADP_3_IRAN-CRISIS-SHIPPING-HORMUZ-1776443177.jpg?resize=1200%2C630",
+            "source": "aljazeera_us"
+        },
+        {
+            "title": "Mojtaba\u2019s hidden revenge? Iran war triggers global food crisis; fertilizer shock raises famine fears",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/videos/world-news/mojtabas-hidden-revenge-iran-war-triggers-global-food-crisis-fertilizer-shock-raises-famine-fears-101776452761428.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/17/1600x900/logo/9juyhj_1776452816689_1776452818891.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "\u2018Bouncing back\u2019 is a myth. Here\u2019s what real resilience looks like",
+            "severity": "HIGH",
+            "url": "https://www.fastcompany.com/91526321/bouncing-back-is-a-myth-heres-what-real-resilience-looks-like?partner=rss",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/04/p-91526321-resilience-myth.jpg",
+            "source": "fastcompany"
+        },
+        {
+            "title": "Rain douses Bandhwari smouldering after 50-hour firefighting ops",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/gurgaon/rain-douses-bandhwari-smouldering-after-50-hour-firefighting-ops/articleshow/130342364.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130342362/130342362.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "\u2018Absolutely disgusting\u2019 \u2013 Chelsea fans furious as website co-owned by Todd Boehly selling Blues tickets for \u00a31700",
+            "severity": "HIGH",
+            "url": "https://www.thesun.co.uk/sport/38853453/chelsea-fans-todd-boehly-vivid-seats-protest-man-utd/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F04%2FHB-OFF-PLATFORM-BOEHLY-PROTEST_14a48c.jpg?quality%3D90%26strip%3Dall",
+            "source": "thesun"
+        },
+        {
+            "title": "The U.S. military blockade on ships entering or leaving Iran will continue until Trump ends it.",
+            "severity": "HIGH",
+            "url": "https://www.nytimes.com/live/2026/04/17/world/iran-us-war-trump/the-us-military-blockade-on-ships-entering-or-leaving-iran-will-continue-until-trump-ends-it",
+            "image": "https://static01.nyt.com/images/2026/04/17/multimedia/17israel-iran-centcom-topart-fhzc/17israel-iran-centcom-topart-fhzc-mediumSquareAt3X.jpg",
+            "source": "nytimes"
+        },
+        {
+            "title": "PP's fate in hands of Supreme Court",
+            "severity": "HIGH",
+            "url": "https://www.bangkokpost.com/opinion/opinion/3238869/pps-fate-in-hands-of-supreme-court",
+            "image": "https://static.bangkokpost.com/media/content/dcx/2026/04/18/6054259.jpg",
+            "source": "bangkokpost"
         },
         {
             "title": "Anthropic CEO Dario Amodei Heads to White House Hoping to End Pentagon AI Fight",
@@ -86,166 +137,152 @@
             "source": "breitbart"
         },
         {
-            "title": "Iran reopens Strait of Hormuz but Trump says blockade \u2018WILL REMAIN IN FULL FORCE\u2019",
-            "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/world/mideast-conflict/article/iran-reopens-strait-of-hormuz-but-trump-says-blockade-will-remain-in-full-force/",
-            "image": "https://www.ctvnews.ca/resizer/v2/PRDGFSGYSFEJ7XUEVCOSH2MGEM.jpg?auth=795898d099faedd42b6a481d4bf4d60b4c60ac333471ce6077317164ef9d97f0&smart=true&width=1400&height=933",
+            "title": "WrestleMania 42 mega-preview and predictions: 7 big questions for WWE's biggest show of the year",
+            "severity": "MEDIUM",
+            "url": "https://ca.sports.yahoo.com/news/wrestlemania-42-mega-preview-and-predictions-7-big-questions-for-wwes-biggest-show-of-the-year-roman-reigns-cm-punk-pat-mcafee-cody-rhodes-191617311.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/VDR06gA4.EzAKN85hV7URA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://d29szjachogqwa.cloudfront.net/images/2026-04/e4a3f304-19fe-418c-a6d0-77bcc80c15fa",
+            "source": "yahoo"
+        },
+        {
+            "title": "India-China SCO talks focus on trade security, connectivity under first bilateral consultations",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-china-sco-talks-focus-on-trade-security-connectivity-under-first-bilateral-consultations/articleshow/130341108.cms",
+            "image": "https://img.etimg.com/thumb/msid-130342255,resizemode-4,width-1200,height-900,imgsize-96026,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Over 1 billion Windows users at risk after disgruntled security researcher leaks Defender zero-days",
+            "severity": "MEDIUM",
+            "url": "https://www.tomsguide.com/computing/online-security/over-1-billion-windows-users-at-risk-after-disgruntled-security-researcher-leaks-defender-zero-days",
+            "image": "https://cdn.mos.cms.futurecdn.net/sN6famZzB72kSNZMLrvXs3-1280-80.jpg",
+            "source": "tomsguide"
+        },
+        {
+            "title": "Tokischa\u2019s Debut Album \u2018Amor & Droga\u2019 & More Best New Music Latin",
+            "severity": "WATCH",
+            "url": "https://www.billboard.com/music/latin/best-new-music-latin-tokischa-thalia-1236225349/",
+            "image": "https://www.billboard.com/wp-content/uploads/2026/04/tokischa-cr-jesus-soto-fuentes-press-billboard-1800.jpg",
+            "source": "billboard"
+        },
+        {
+            "title": "Natalie Portman is pregnant with her third child",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/entertainment/article/actor-natalie-portman-is-pregnant-with-her-third-child/",
+            "image": "https://www.ctvnews.ca/resizer/v2/B4A425BLNJBBFKEPVIH3XI5BA4.jpg?auth=9f45901baf244ebace3b2cf7e46ed29dc3c51d43b65548d6c4b712298c2c5ee8&smart=true&width=3937&height=2625",
             "source": "ctvnews"
         },
         {
-            "title": "Tottenham may have broken rules with move for Bournemouth defender",
-            "severity": "HIGH",
-            "url": "https://uk.sports.yahoo.com/news/tottenham-may-broken-rules-move-171534635.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/_gH3CArO021TLUbu1fc1nw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_telegraph_818/94de60132dd94f6003fea00753d010c8",
-            "source": "yahoo"
-        },
-        {
-            "title": "35 Million Xfinity Customers Have Until August 14 To Claim $117.5 Million Settlement",
-            "severity": "HIGH",
-            "url": "https://www.forbes.com/sites/larsdaniel/2026/04/17/35-million-xfinity-customers-have-until-august-14-to-claim-1175m-settlement/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/673dfbc7514103e1f7d48785/0x0.jpg",
-            "source": "forbes"
-        },
-        {
-            "title": "Last chance to get up to $10,000 checks from pharmacy giant\u2019s $5.3 million settlement \u2013 see if you qualify",
-            "severity": "HIGH",
-            "url": "https://www.the-sun.com/money/16238489/pharmercia-data-leak-settlement-claim-form/",
-            "image": "https://www.the-sun.com/wp-content%2Fuploads%2Fsites%2F6%2F2026%2F04%2Fnewspress-collage-m9c1ia8dw-1776444398638.jpg?quality%3D90%26strip%3Dall%261776430016",
-            "source": "thesun"
-        },
-        {
-            "title": "British Gas launches energy tariff priced \u00a3258 lower than July's predicted Ofgem cap",
-            "severity": "MEDIUM",
-            "url": "https://www.express.co.uk/finance/personalfinance/2195319/british-gas-launches-energy-tariff",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/23/590x/2195319_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "10 Best Toner Pads Tested for Glowy Skin 2026, Dermatologist-Approved",
-            "severity": "MEDIUM",
-            "url": "https://www.glamour.com/story/best-toner-pad",
-            "image": "https://media.glamour.com/photos/69d7cc7585786f759d2ba43e/16:9/w_1936,h_1089,c_limit/04.09_GL_Best%20Toner%20Pads_v2.jpg",
-            "source": "glamour"
-        },
-        {
-            "title": "US, Israeli commercial ships still banned from passing through Strait of Hormuz \u2014 agency",
+            "title": "Energy sector a good place to be when markets stabilize, says Freedom Capital's Jay Woods",
             "severity": "WATCH",
-            "url": "https://tass.com/world/2118931",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
+            "url": "https://www.cnbc.com/video/2026/04/17/energy-sector-a-good-place-to-be-when-markets-stabilize-says-freedom-capitals-jay-woods.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108293410-17764527831776452780-45330602459-1080pnbcnews.jpg?v=1776452782",
+            "source": "cnbc"
         },
         {
-            "title": "Trump says Israel barred from bombing Lebanon: 'Enough is enough'",
+            "title": "Strait Of Hormuz \"Completely Open\". But Iran's Guards Impose Fresh Conditions",
             "severity": "WATCH",
-            "url": "https://www.business-standard.com/world-news/trump-says-israel-barred-from-bombing-lebanon-enough-is-enough-126041701465_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-04/13/full/1776062367-9786.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Form 6K Lloyds Banking Group plc For: 17 April",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/filings/form-6k-lloyds-banking-group-plc-for-17-april-93CH-4369540",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEB190HU_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "RFK Jr. grilled on Trump's mental health after 'unhinged' posts",
-            "severity": "WATCH",
-            "url": "https://www.nj.com/politics/2026/04/trumps-erratic-social-media-posts-just-put-rfk-jr-on-the-hot-seat.html",
-            "image": "https://www.nj.com/resizer/v2/HTVZ34PX6BDGHPFSIU3G27YMWA.jpg?auth=c9996f459bec4807fe0845ae664d9d827883c5cb509f16dee50c1632d3816bee&smart=true&height=1200",
-            "source": "nj"
-        },
-        {
-            "title": "Abbott Threatens $200 Million Cut to Texas Cities Over Immigration Policies",
-            "severity": "WATCH",
-            "url": "https://www.newsmax.com/newsfront/greg-abbott-texas-dallas/2026/04/17/id/1253314",
-            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=555dcc62-e316-42cb-a28b-490f890c9ac1&SiteName=Newsmax",
-            "source": "newsmax"
-        },
-        {
-            "title": "Women\u2019s Reservation Bill: Historic blunder by Congress and INDIA alliance at the altar of political selfishness",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/blogs/rebel-with-a-cause/womens-reservation-bill-historic-blunder-by-congress-and-india-alliance-at-the-altar-of-political-selfishness/",
-            "image": "https://static.toiimg.com/imagenext/toiblogs/thumb/blogs/wp-content/uploads/2023/01/sheh.jpg?resizemode=4&width=1280&height=720",
-            "source": "toi"
-        },
-        {
-            "title": "Gold jumps as Hormuz shipping resumes and inflation fears cool",
-            "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/money/2026/04/17/gold-prices-hormuz/89661639007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/13/USAT/89584967007-20260412-t-105733-z-2123040405-rc-2-gnka-77-qi-7-rtrmadp-3-irancrisishormuz.JPG?crop=3570,2008,x836,y1085&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "usatoday"
-        },
-        {
-            "title": "While You Are Watching Iran, South Korea\u2019s Stock Market Is Going Absolutely Berserk",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/while-watching-iran-south-korea-173609757.html",
-            "image": "https://media.zenfs.com/en/24_7_wall_st__718/700665e6595b41b3ec9cb0e525c55a0a",
-            "source": "yahoo"
-        },
-        {
-            "title": "Petrol Queues, Search Spikes: India's Oil Panic Eases After Hormuz Opens",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/india-news/us-israel-iran-war-petrol-queues-search-spikes-indias-oil-panic-eases-after-hormuz-opens-11373444",
-            "image": "https://i.ndtvimg.com/i/2017-05/petrol-650-400_650x400_41493807540.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
+            "url": "https://www.ndtv.com/world-news/strait-of-hormuz-completely-open-but-irans-revolutionary-guards-impose-fresh-conditions-11373756",
+            "image": "https://c.ndtvimg.com/2026-04/fm5dibcs_hormuz_625x300_09_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
             "source": "ndtv"
         },
         {
-            "title": "Supreme Court hands a win to oil and gas companies in Louisiana environmental damage case",
+            "title": "Julissa Turpin Celebrates Half Marathon 8 Years After She and Her 13 Siblings Were Rescued from Abusive Home",
             "severity": "WATCH",
-            "url": "https://www.adn.com/nation-world/2026/04/17/supreme-court-hands-a-win-to-oil-and-gas-companies-in-louisiana-environmental-damage-case/",
-            "image": "https://www.adn.com/resizer/BcDw73tebSV5PEOIp4tIMkvlEhs=/cloudfront-us-east-1.images.arcpublishing.com/adn/47F3I2JFKI4K22YULU6IO53FVI.jpg",
-            "source": "adn"
+            "url": "https://ca.news.yahoo.com/julissa-turpin-celebrates-half-marathon-191552505.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/11PJ88mLFXKBsJOa.WLyFw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/people_218/9f035a4f949b821e744f0420703eb1c1",
+            "source": "yahoo"
         },
         {
-            "title": "Why Delta Air Lines Stock Is Climbing Friday Afternoon",
+            "title": "Natalie Portman pregnant with 3rd child, her 1st with Tanguy Destable",
             "severity": "WATCH",
-            "url": "https://www.benzinga.com/trading-ideas/movers/26/04/51893463/why-delta-air-lines-stock-is-climbing-friday-afternoon",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/04/17/Delta-Air-Lines-Jet-Overturns-At-Toronto.jpeg?optimize=medium&dpr=1&auto=webp&height=675&width=1200&fit=crop",
+            "url": "https://globalnews.ca/news/11806221/natalie-portman-pregnant-third-child-tanguy-destable/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/04/natalie-portman-pregnant.jpg?quality=65&strip=all",
+            "source": "globalnews"
+        },
+        {
+            "title": "Tottenham Braced for Real Madrid and PSG Bids for Pape Matar Sarr",
+            "severity": "WATCH",
+            "url": "https://www.givemesport.com/tottenham-braced-bids-pape-matar-sarr-real-madrid-psg/",
+            "image": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/04/2025-09-12t201716z_1256189358_up1el9c1kcr9d_rtrmadp_3_soccer-france-om-lor-report-1.jpg?w=1600&h=900&fit=crop",
+            "source": "givemesport"
+        },
+        {
+            "title": "The clutch is back full circle, and it\u2019s never looked sharper",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/htcity/htcity-showstoppers/the-clutch-is-back-full-circle-and-it-s-never-looked-sharper-101776422020164.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/17/1600x900/logo/MixCollage-17-Apr-2026-04-39-PM-5617_1776424202025_1776424232968.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "SF Climate Week 2026 Kicks Off April 18 with More Than 60,000 Attendees, 650 Events, and Over 1,000 Speakers, including Al Gore, SF Mayor Daniel Lurie and Alex Honnold",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/pressreleases/26/04/n51896692/sf-climate-week-2026-kicks-off-april-18-with-more-than-60-000-attendees-650-events-and-over-1-000-",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
             "source": "benzinga"
         },
         {
-            "title": "I'm a consumer expert \u2013 here's what to do if an airline cancels your flight over jet fuel",
+            "title": "Trump govt is hiring again, remember Doge?",
             "severity": "WATCH",
-            "url": "https://www.express.co.uk/news/uk/2195485/air-travel-jet-fuel-flight-cancellation-rights",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2195485_1.jpg",
-            "source": "expresscouk"
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-administration-shifts-strategy-job-hiring-surge-amidst-controversial-workforce-cuts/articleshow/130342383.cms",
+            "image": "https://img.etimg.com/thumb/msid-130342450,resizemode-4,width-1200,height-900,imgsize-58934,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Alec Baldwin to Face Civil Trial Over Alleged Negligence in \u2018Rust\u2019 Shooting",
+            "title": "These Gnarly Meals Being Served To US Troops Are Going Mega Viral For All Of The Wrong Reasons",
             "severity": "WATCH",
-            "url": "https://variety.com/2026/film/news/alec-baldwin-rust-shooting-civil-trial-negligence-1236724621/",
-            "image": "https://variety.com/wp-content/uploads/2023/02/DSC_9567.jpg",
-            "source": "variety"
+            "url": "https://www.buzzfeed.com/mjs538/troop-meals-in-the-middle-east",
+            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-04/17/18/thumb/mk2IsEkGR.jpg?crop=1245:830;3,0&resize=1250:830&resize=1200:*",
+            "source": "buzzfeeduk"
         },
         {
-            "title": "Cher pleads for conservatorship of son Elijah Blue Allman after he's locked up in psychiatric hospital",
+            "title": "Lebanese prez says negotiations not weakness, country reclaimed its sovereignty",
             "severity": "WATCH",
-            "url": "https://www.dailymail.co.uk/tvshowbiz/article-15742881/Cher-son-Elijah-conservator.html",
-            "image": "https://i.dailymail.co.uk/1s/2026/04/17/18/107976029-0-image-a-12_1776446491676.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.news18.com/agency-feeds/lebanese-prez-says-negotiations-not-weakness-country-reclaimed-its-sovereignty-10042108.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/07/News18_World_Section_Default_Image_1600x900-2025-07-4401653589b9d10b46b8abb07f758342-3x2.jpg",
+            "source": "news18"
         },
         {
-            "title": "Where to watch the NBA Playoffs: Live stream the 2026 postseason from anywhere",
+            "title": "Temporary truce: On U.S.-Israel ceasefire with Iran",
             "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-nba-playoffs-basketball-2026",
-            "image": "https://i.insider.com/69e25935367066d7c296dfa0?width=1200&format=jpeg",
-            "source": "insider"
+            "url": "https://www.thehindu.com/opinion/editorial/temporary-truce-the-hindu-editorial-on-us-israel-ceasefire-with-iran/article70875248.ece",
+            "image": "https://www.thehindu.com/theme/images/og-image.png",
+            "source": "thehindu"
         },
         {
-            "title": "Mental health nurse who called colleague 'lazy' caught having 'noisy' sex on shift",
+            "title": "2 new Bengali films to be screened at Moscow fest",
             "severity": "WATCH",
-            "url": "https://www.birminghammail.co.uk/news/uk-news/mental-health-nurse-who-called-33793043",
-            "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33792856.ece/ALTERNATES/s615/1_Glanrhyd-Hospital.jpg",
-            "source": "birminghammail"
+            "url": "https://timesofindia.indiatimes.com/city/kolkata/2-new-bengali-films-to-be-screened-at-moscow-fest/articleshow/130340305.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130340281/130340281.jpg",
+            "source": "toi"
         },
         {
-            "title": "UK nursery worker jailed over toddler's death in her care",
+            "title": "Alec Baldwin Ordered to Face Civil Trial in 'Rust' 'Shooting",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/uk/nursery-worker-jailed-for-toddlers-tragic-death-shocking-details-uncovered/articleshow/130338661.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130338661/130338661.jpg",
+            "url": "https://www.newsmax.com/us/alec-baldwin-halyna-hutchins-rust/2026/04/17/id/1253320",
+            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=adb0053e-b920-437d-84f0-d386e2189aa7&SiteName=Newsmax",
+            "source": "newsmax"
+        },
+        {
+            "title": "Tether extends $127.5 million in funding to crypto platform Drift as critics blast rival Circle for failing to freeze hacked funds",
+            "severity": "WATCH",
+            "url": "https://fortune.com/2026/04/17/tether-127-5-million-drift-circle-freeze-hacked-funds/",
+            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/04/GettyImages-2238050115-e1776450880146.jpg?w=2048",
+            "source": "fortune"
+        },
+        {
+            "title": "Speaking at KU School of Law, Justice Sotomayor embarrasses the high court | Opinion",
+            "severity": "WATCH",
+            "url": "https://www.kansascity.com/opinion/opn-columns-blogs/david-mastio/article315444490.html",
+            "image": "https://www.kansascity.com/public/latest-news/1bzxts/picture315447555/alternates/FREE_1140/justice%20sonia%20sotomayor.jpg",
+            "source": "kansascity"
+        },
+        {
+            "title": "Man sentenced to 10 years jail for rape on false promise of marriage",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/goa/man-sentenced-to-10-years-jail-for-rape-on-false-promise-of-marriage/articleshow/130341392.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130341564/130341564.jpg",
             "source": "toi"
         }
     ],
-    "Last_Updated": "2026-04-18T05:44:24.302603Z"
+    "Last_Updated": "2026-04-18T07:18:44.079003Z"
 }
