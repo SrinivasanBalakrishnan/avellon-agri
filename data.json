@@ -1,265 +1,246 @@
 {
-    "AGRI_Score": 64.9,
-    "Velocity": "+0.1",
+    "AGRI_Score": 65.9,
+    "Velocity": "+1.0",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 65.9 reflects heightened global instability, primarily driven by severe energy and maritime disruptions alongside escalating geopolitical conflict. The 'Energy & Maritime Disruption' pillar is at 100, directly influenced by the 'Middle East conflict: Iran launches drones toward US warships' and subsequent 'Strait of Malacca congestion fears grow amid Hormuz supply disruption,' causing 'fuel costs [to] surge.' This intense geopolitical activity, also evidenced by 'North Korea again tests cluster munitions,' is driving a 'dollar climbs to one-week high as US-Iran tensions dent risk appetite,' indicating broader market sensitivity to conflict.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.1,
+        "Geopolitical Conflict Intensity": 76.4,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 59.2,
+        "Trade & Supply Chain Stress": 65.0,
         "Sovereign Financial Stress": 53.2,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.0,
-        "Cyber & Infrastructure Threats": 62.6,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 66.6,
         "Climate & Resource Shock": 45
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar is at a critical level (76.4) due to direct military confrontations and escalating threats emerging from the Middle East. 'Middle East conflict: Iran launches drones toward US warships' and 'US Iran war LIVE updates: US seizes Iranian vessel; Tehran slams attacks, says \u2018will respond soon\u2019' illustrate an extremely elevated risk of broader conflict.",
+        "Energy & Maritime Disruption": "The pillar is maxed out at 100, signifying severe and immediate threats to global energy supplies and sea lanes. 'Air Canada scraps key US routes as fuel costs surge amid Iran war' and 'Strait of Malacca congestion fears grow amid Hormuz supply disruption' directly reflect operational and economic impacts stemming from the geopolitical events.",
+        "Trade & Supply Chain Stress": "Risk in this area is elevated (65.0) as maritime choke points become increasingly volatile due to geopolitical tensions. 'Strait of Malacca congestion fears grow amid Hormuz supply disruption' signals potential delays and increased costs for global shipping routes.",
+        "Sovereign Financial Stress": "Moderate elevation (53.2) is observed, influenced by the broader risk-off sentiment permeating financial markets. 'Dow Futures Sink Over 450 Points' indicates a direct negative market reaction to the escalating tensions.",
+        "Currency & Liquidity Pressure": "This pillar shows moderate pressure (50.0) as investors seek safer assets amid rising global uncertainty. The 'Dollar climbs to one-week high as US-Iran tensions dent risk appetite' reflects a flight to safety impacting currency valuations.",
+        "Sanctions & Regulatory Fragmentation": "Risk is moderate (55.0), stemming from assertive actions taken to enforce blockades and interdict vessels, potentially leading to further escalations. 'US Navy seizes an Iranian-flagged ship near Strait of Hormuz and Tehran vows swift response' highlights direct enforcement actions that fragment trade and regulatory environments.",
+        "Cyber & Infrastructure Threats": "This pillar is elevated (66.6) due to both physical attacks on critical infrastructure and significant cyber breaches. A 'Ukrainian drone attack on Russia's Tuapse port kills one' demonstrates physical infrastructure vulnerability, while a 'Hack at Vercel sends crypto developers scrambling' shows persistent cyber risks.",
+        "Climate & Resource Shock": "This pillar indicates routine monitoring (45) despite specific regional events, as broader systemic shocks are not yet dominant. 'Micronesia: FSM: Cyclone - 04-2026 - Cyclone Sinlaku #2' represents a localized climate event, while 'China Revives Coal-to-Gas Projects as Energy Security Frays' reflects strategic adjustments rather than an immediate shock."
+    },
     "All_Alerts": [
         {
-            "title": "Japan Manufacturers Hurt Most by Aluminum Shortage From Iran War",
+            "title": "Middle East conflict: Iran launches drones toward US warships after merchant vessel attack",
             "severity": "HIGH",
-            "url": "https://financialpost.com/pmn/business-pmn/japan-manufacturers-hurt-most-by-aluminum-shortage-from-iran-war",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/inside-the-kato-light-metal-industry-co-factory.jpg",
-            "source": "financialpost"
+            "url": "https://english.mathrubhumi.com/news/world/middle-east-conflict-iran-launches-drones-toward-us-warships-after-merchant-vessel-attack-hk8otysu",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qkzf1xsi1xj4p7ik6h/0/uss-abraham-lincoln.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
         },
         {
-            "title": "US Fires Upon, Seizes Iranian Ship, While Outlook For Peace Talks Uncertain",
+            "title": "Iran's president stresses importance of diplomacy while noting distrust of US",
             "severity": "HIGH",
-            "url": "https://www.rferl.org/a/iran-cargo-ship-seized-pakistan-ceasefire-negotiations/33735754.html",
-            "image": "https://gdb.rferl.org/08d40000-0a00-0242-e8ae-08da40af6b21_cx0_cy7_cw0_w1080_h608.jpg",
-            "source": "rferl"
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/irans-president-stresses-importance-of-diplomacy-while-noting-distrust-of-us/articleshow/130385680.cms",
+            "image": "https://img.etimg.com/thumb/msid-130385721,resizemode-4,width-1200,height-900,imgsize-83386,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "FirstFT: US navy seizes Iranian ship that defied blockade, says Trump",
+            "title": "Dollar climbs to one-week high as US-Iran tensions dent risk appetite",
             "severity": "HIGH",
-            "url": "https://www.ft.com/content/d9c18992-da9d-4659-9c1c-697ee3e4a5ce",
-            "image": "https://d1e00ek4ebabms.cloudfront.net/production/bf4c4785-8ee1-48a7-81dc-852b05f06506.jpg",
-            "source": "financialtimes"
+            "url": "https://www.firstpost.com/business/dollar-climbs-to-one-week-high-as-us-iran-tensions-dent-risk-appetite-14002241.html",
+            "image": "https://images.firstpost.com/uploads/2025/07/brics-dollar-2025-07-918aafea97292ea61bf4bed0361d006f.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "U.S. seizes first Iranian ship in blockade, imperiling talks",
+            "title": "Ukrainian drone attack on Russia's Tuapse port kills one",
             "severity": "HIGH",
-            "url": "https://www.japantimes.co.jp/news/2026/04/20/world/politics/us-iranian-ship-blockade-talks/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/04/20/535835.jpg",
-            "source": "japantimes"
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/ukrainian-drone-attack-on-russias-tuapse-port-kills-one/articleshow/130385631.cms",
+            "image": "https://img.etimg.com/thumb/msid-130385631,resizemode-4,width-1200,height-900,imgsize-515824,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Britain deserves more than being dragged into crisis by a shambolic government flailing in self-preservation mode",
+            "title": "US Iran war LIVE updates: US seizes Iranian vessel; Tehran slams attacks, says \u2018will respond soon\u2019",
             "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/news/38868992/britain-crisis-shambolic-government-sun-says-starmer/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F04%2Fnewspress-collage-l4hz1udwv-1776636007263.jpg?quality%3D90%26strip%3Dall%261776639624",
-            "source": "thesun"
-        },
-        {
-            "title": "\u2018Trainwreck\u2019: Barnaby\u2019s Iran warning",
-            "severity": "HIGH",
-            "url": "https://au.news.yahoo.com/trainwreck-barnaby-iran-warning-220210282.html",
-            "image": "https://media.zenfs.com/en/nca_newswire_424/9cfef9e76fd91a8bea76c3e4f5c23fab",
-            "source": "yahoo"
-        },
-        {
-            "title": "At least 170 soldiers killed, 54 disabled due to war over past year, Defense Ministry reports",
-            "severity": "HIGH",
-            "url": "https://www.jpost.com/israel-news/article-893550",
-            "image": "https://images.pexels.com/photos/586104/pexels-photo-586104.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "jpost"
-        },
-        {
-            "title": "Iran accuses US of ceasefire breach, vows retaliation over attack on ship",
-            "severity": "HIGH",
-            "url": "https://www.marketscreener.com/news/iran-accuses-us-of-ceasefire-breach-vows-retaliation-over-attack-on-ship-ce7e50d3dc8ff52d",
-            "image": "https://images.pexels.com/photos/18959222/pexels-photo-18959222.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "marketscreener"
-        },
-        {
-            "title": "Baton, knives, drugs seized in Sault arrest",
-            "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/northern-ontario/article/baton-knives-drugs-seized-in-sault-arrest/",
-            "image": "https://www.ctvnews.ca/resizer/v2/KJ7UHKQKZCREFFTFGVZXJGCH2I.jpg?auth=e2751f4d4929b33a5ea4beb77f61e0b006567fd57361d1d87429fe119ab58eb2&smart=true&width=1020&height=574",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Trump: We\u2019ve blown a hole in Iranian ship trying to breach blockade",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/trump-ve-blown-hole-iranian-210719597.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/JBVCJ8GFPKE8gBdLlZ6Fpw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_telegraph_818/d715acedd9637092377924dfd132c709",
-            "source": "yahoo"
-        },
-        {
-            "title": "CDN Top Stories [April 20]- Air quality in Metro Cebu declines further",
-            "severity": "MEDIUM",
-            "url": "https://cebudailynews.inquirer.net/718454/cdn-top-stories-april-20-air-quality-in-metro-cebu-declines-further",
-            "image": "https://cebudailynews.inquirer.net/files/2026/04/671281320_1957551695135443_4814030853161735891_n-edited-scaled-1-620x349.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Anti-Zionist Jewish activist Tony Greenstein tells 'Post' he will fight Green Party suspension",
-            "severity": "MEDIUM",
-            "url": "https://www.jpost.com/diaspora/antisemitism/article-893551",
-            "image": "https://images.pexels.com/photos/8828456/pexels-photo-8828456.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "jpost"
-        },
-        {
-            "title": "Profits shrivel as yellow tail winemaker posts $5.5 million loss",
-            "severity": "MEDIUM",
-            "url": "https://www.abc.net.au/news/2026-04-20/low-wine-consumption-rising-costs-tariffs-see-yellow-tail-slump/106566568",
-            "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "source": "abc_net"
-        },
-        {
-            "title": "New vision system trims the terror of \"man overboard\"",
-            "severity": "WATCH",
-            "url": "https://newatlas.com/marine/new-vision-system-trims-terror-man-overboard/",
-            "image": "https://ic-cdn.flipboard.com/newatlas.com/49a9fd8b0c396a5ef5aa26f3c5dade2b54f03d67/_xlarge.jpeg",
-            "source": "newatlas"
-        },
-        {
-            "title": "Oil prices rebound 7% on Monday's open as Strait of Hormuz is closed again",
-            "severity": "WATCH",
-            "url": "https://www.marketscreener.com/news/oil-prices-rebound-7-on-monday-s-open-as-strait-of-hormuz-is-closed-again-ce7e50d3dc8ff424",
-            "image": "https://images.pexels.com/photos/5833772/pexels-photo-5833772.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "marketscreener"
-        },
-        {
-            "title": "Connecticut Sun training camp notes: Former Huskies embrace leadership, French stars arriving late",
-            "severity": "WATCH",
-            "url": "https://www.courant.com/2026/04/19/connecticut-sun-training-camp-notes-former-huskies-embrace-leadership-french-stars-arriving-late/",
-            "image": "https://www.courant.com/wp-content/uploads/2025/08/2229468151-e1755114135594.jpg?w=1400px&strip=all",
-            "source": "courant"
-        },
-        {
-            "title": "LIV Golf Makes Telling Announcement for 2027 Season",
-            "severity": "WATCH",
-            "url": "https://www.newsweek.com/sports/golf/liv-golf-makes-telling-announcement-for-2027-season-11851183",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/04/GettyImages-2271846322.jpg?w=1600&h=900&q=88",
-            "source": "newsweek"
-        },
-        {
-            "title": "2 arrested after fake engine oil factory busted in Ghazipur",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/delhi-news/2-arrested-after-fake-engine-oil-factory-busted-in-ghazipur-101776621943529.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/19/1600x900/logo/A-senior-police-officer-said-the-scale-of-the-oper_1776621941333.jpg",
+            "url": "https://www.hindustantimes.com/world-news/us-iran-war-live-updates-trump-iranian-ship-strait-of-hormuz-oil-prices-peace-talks-pakistan-tehran-middle-east-news-101776649032563.html",
+            "image": "https://www.hindustantimes.com/images/default/default-621.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "High Rolling Iranian Businesswoman Nabbed at Los Angeles Airport, Accused of Arms Trafficking",
-            "severity": "WATCH",
-            "url": "https://www.breitbart.com/border/2026/04/19/high-rolling-iranian-businesswoman-nabbed-at-los-angeles-airport-accused-of-arms-trafficking/",
-            "image": "https://media.breitbart.com/media/2026/04/MixCollage-19-Apr-2026-04-55-PM-6277-640x335.jpg",
-            "source": "breitbart"
+            "title": "Air Canada scraps key US routes as fuel costs surge amid Iran war - Fox Business",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWEJfX2sxLTZMaUdUZGFpS0xac3hULVJpNk4ycGx4SmtzYzAtZjhoWU9hOWxhY05IX01adkZTT0lJNllsWGxGMGdsX2ROVWFhcjI2b3ZOcWtfd29ZejlvN3ZuQmVKVWh3X1RGMmlORkpSRDRNZ1BRbHV6S00xekJSMlFMUk5FOGtYdkczZ21mQ25hRXBPZVdWMnJzLUtrM2pTRmfSAacBQVVfeXFMTU5CUmNaaEViQlhOMkw3eERtcWxwTG4wUnByVlZvcGNOOUdmaUE0Y0dsNFdENGVtRVJEcHhoQlF2Xzk3dzZ5aFRtVnNmN2p3YTBuRDZsZDg2akNBd1VHaDRCMXY0YXlNZXJtUGFWT0p5ZHllWFNsWXlDYkhIMy1ITmdicXRscVhpaGJNNjdoRFgwSHlNUUFLTElucUJ4aFF3bmt2MUNWU3M?oc=5",
+            "image": "https://images.pexels.com/photos/31334739/pexels-photo-31334739.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "8 Most Perfect Movies of the Last 26 Years, Ranked",
-            "severity": "WATCH",
-            "url": "https://collider.com/most-perfect-movies-last-26-years-ranked/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/02/parasite-2019-staircase-scene.jpg?w=1200&h=675&fit=crop",
-            "source": "collider"
+            "title": "US Navy seizes an Iranian-flagged ship near Strait of Hormuz and Tehran vows swift response",
+            "severity": "HIGH",
+            "url": "https://abcnews.com/Business/wireStory/us-navy-seizes-iranian-flagged-ship-strait-hormuz-132180224",
+            "image": "https://i.abcnewsfe.com/a/533c5731-7f84-46f5-b4da-f50a88631c9d/wirestory_0a637f98d588930f195f61cffe07d4f3_16x9.jpg?w=1600",
+            "source": "abcnews"
         },
         {
-            "title": "Pokemon Gen 9 Is Getting The Huge Sendoff It Deserves",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/pokemon-anime-scarlet-violet-gen-9/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/09/pokemon-scarlet-violet-trainers-koraidon-miraidon-paldea.jpg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
+            "title": "People in south Lebanon find widespread destruction as they return after fragile ceasefire",
+            "severity": "HIGH",
+            "url": "https://apnews.com/video/people-in-south-lebanon-find-widespread-destruction-as-they-return-after-fragile-ceasefire-c94210b785c64737ad7184c016d0c440",
+            "image": "https://dims.apnews.com/dims4/default/7ccedda/2147483647/strip/false/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F84%2F28%2F328b1f79a03015407cf887dcf5d0%2Fleb-ceasefire-south-20260420cr-1920x1080.jpg",
+            "source": "apnews"
         },
         {
-            "title": "10 Most Satisfying Anime Rewatches Of All Time",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/best-anime-rewatch-satisfying/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/04/horimiya-and-steins-gate-anime-featured-image-anime-featured-image.png?w=1600&h=900&fit=crop",
-            "source": "screenrant"
+            "title": "North Korea again tests cluster munitions in a launch observed by Kim",
+            "severity": "HIGH",
+            "url": "https://abcnews.com/International/wireStory/north-korea-tests-cluster-munitions-launch-observed-kim-132193250",
+            "image": "https://i.abcnewsfe.com/a/9e1d3689-a61e-43f8-896b-2f992c2dc442/wirestory_6e84f9d5a62f2067af2df8735fbc279d_16x9.jpg?w=1600",
+            "source": "abcnews"
         },
         {
-            "title": "Wine grape grower bakes cupcakes to pay bills as fuel costs bite in 'worst' harvest",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/rural/2026-04-20/grape-almond-tough-harvests-as-fuel-prices-skyrocket/106501358",
-            "image": "https://images.pexels.com/photos/6692312/pexels-photo-6692312.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "abc_net"
+            "title": "Micronesia: FSM: Cyclone - 04-2026 - Cyclone Sinlaku #2 (2026-04-19)",
+            "severity": "HIGH",
+            "url": "https://reliefweb.int/report/micronesia-federated-states/fsm-cyclone-04-2026-cyclone-sinlaku-2-2026-04-19",
+            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/11/3f/113f64ea-56a8-4e33-b6ea-2173bcb95073.png",
+            "source": "reliefweb"
         },
         {
-            "title": "A cheaper way to fight 'forever chemicals': How pH-controlled traps could clean drinking water",
-            "severity": "WATCH",
-            "url": "https://phys.org/news/2026-04-cheaper-chemicals-ph.html",
-            "image": "https://scx2.b-cdn.net/gfx/news/hires/2026/new-method-to-trap-and.jpg",
-            "source": "phys"
+            "title": "Hack at Vercel sends crypto developers scrambling to lock down API keys - CoinDesk",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOHE4Tl9Udl9VNThlWlN3TFIyU0UxRm9NTmt0ZG9nUnpzVUxIY1NHcTJMT0htcVJnXzFOUmJPQVloSzNWamRGbmFzQ3hUbXF3dllCdXlQZEpnaHJraktxZW9RVXZuaWRqX1RmR3hiRGJPdVFyRkZUQUZMYnFFNlRzLVVRYkdDd29TR2YtWXN4RnJZLW9XMlYzY3FsYXE1T2VZRFdTT0lYcFVhaFRqenpMTWxn?oc=5",
+            "image": "https://images.pexels.com/photos/32529341/pexels-photo-32529341.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "KIMMTRAK doubles the likelihood of being alive at five years for first line HLA-A*02:01+ patients with metastatic uveal melanoma",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/04/19/3276674/0/en/KIMMTRAK-doubles-the-likelihood-of-being-alive-at-five-years-for-first-line-HLA-A-02-01-patients-with-metastatic-uveal-melanoma.html",
-            "image": "https://images.pexels.com/photos/28767587/pexels-photo-28767587.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "title": "Humana, Inc. Data Breach: Edelson Lechtzin LLP Launches Investigation Into Exposure of Social Security Numbers, Medical Claims, and Patient Account Data",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/04/g51904512/humana-inc-data-breach-edelson-lechtzin-llp-launches-investigation-into-exposure-of-social-securit",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "source": "benzinga"
         },
         {
-            "title": "Three MacBook Neo Questions Apple Must Answer",
+            "title": "Iran vows \u2018strong response\u2019 after US Navy seizes Iranian ship coming from China, calling it a violation of the ceasefire",
+            "severity": "HIGH",
+            "url": "https://www.india.com/news/world/iran-united-states-us-navy-donald-trump-touska-white-house-strait-of-hormuz-mojtaba-khamenei-tehran-gulf-nations-onam-saudi-arabia-china-8386903/",
+            "image": "https://static.india.com/wp-content/uploads/2026/04/President-Trump-Mainnn-7.jpg",
+            "source": "india"
+        },
+        {
+            "title": "'Excessive demands' and 'ceasefire breach' by US: Iran rejects second round of negotiation talks in Islamabad",
+            "severity": "HIGH",
+            "url": "https://zeenews.india.com/world/excessive-demands-and-ceasefire-breach-by-us-iran-rejects-second-round-of-negotiation-talks-in-islamabad-3039060.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/04/20/1933393-phosphorus-2026-04-20t070522.935.jpg?im=Resize=(1200,900)",
+            "source": "zeenews"
+        },
+        {
+            "title": "Donald Trump says US troops intercept, seize Iranian ship trying to breach blockade, Tehran vows \u2018swift response\u2019",
+            "severity": "HIGH",
+            "url": "https://www.india.com/news/world/donald-trump-says-us-troops-intercept-seize-iranian-ship-trying-to-breach-blockade-tehran-vows-swift-response-8386910/",
+            "image": "https://static.india.com/wp-content/uploads/2026/04/trump-17.png",
+            "source": "india"
+        },
+        {
+            "title": "Britain's foreign office condemns North Korea missile launches",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/international/article-893557",
+            "image": "https://images.pexels.com/photos/7594407/pexels-photo-7594407.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "jpost"
+        },
+        {
+            "title": "China Revives Coal-to-Gas Projects as Energy Security Frays",
+            "severity": "MEDIUM",
+            "url": "https://financialpost.com/pmn/business-pmn/china-revives-coal-to-gas-projects-as-energy-security-frays",
+            "image": "https://images.pexels.com/photos/33218944/pexels-photo-33218944.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "Kospi Up 1%, Nikkei Rises In Early Asian Trade On Hopes Of Iran-US Peace Talks",
+            "severity": "MEDIUM",
+            "url": "https://www.ndtvprofit.com/markets/asian-stocks-today-april-16-20-check-nikkei-hang-seng-kospi-nasdaq-s-and-p-500-futures-brent-oil-price-11381145",
+            "image": "https://c.ndtvimg.com/2026-04/k2cidqs8_korea-stock-exchange_625x300_20_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1080,height=607",
+            "source": "ndtv"
+        },
+        {
+            "title": "Wealth flows into Singapore as safe-haven appeal strengthens; Strait of Malacca congestion fears grow amid Hormuz supply disruption: Singapore live news",
+            "severity": "MEDIUM",
+            "url": "https://sg.news.yahoo.com/live/singapore-live-news-wealth-flows-into-singapore-as-safe-haven-appeal-strengthens-strait-of-malacca-congestion-fears-grow-amid-hormuz-supply-disruption-014012357.html",
+            "image": "https://s.yimg.com/uu/api/res/1.2/th5GL4rYeXhrrFWpkaBmcw--~B/aD04MTA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/live_blog_260420_9434.jpg",
+            "source": "yahoo_sg"
+        },
+        {
+            "title": "Dow Futures Sink Over 450 Points, Oil Reaches $90 Again; Trump Says Marines Took Custody Of Iranian Ship, Tehran Rejects Negotiations",
+            "severity": "MEDIUM",
+            "url": "https://www.benzinga.com/news/politics/26/04/51904522/dow-futures-fall-oil-spikes-trump-iran-ship-seizure-tehran-rejects-talks",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/04/19/President-Donald-J--Trump-Delivers-Remar_0.jpeg?width=1200&height=800&fit=crop",
+            "source": "benzinga"
+        },
+        {
+            "title": "Chalmers faces CGT questions, leaves door open to extended fuel relief in recast budget",
             "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/three-macbook-neo-questions-apple-212633030.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/auSImJlpk_aKVaJE5JZUWA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE5MTg7aD0xMjYyO2NmPXdlYnA-/https://media.zenfs.com/en/forbes_contributor_845/abf4bca24f27d22fd01f22530a4c5880",
+            "url": "https://www.sbs.com.au/news/article/chalmers-faces-cgt-questions-leaves-door-open-to-extended-fuel-relief-in-recast-budget/jpoz55sfb",
+            "image": "https://assets.sbs.com.au/dims4/default/ce08863/2147483647/strip/false/crop/6605x3035+0+685/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fde%2F01%2F29105e4141febb7a55a4447ba695%2F20260420124012276671-original.jpg",
+            "source": "sbs"
+        },
+        {
+            "title": "Tyler Courtney Wins First 410 Race Since Injury vs. World Of Outlaws",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/tyler-courtney-wins-first-410-015523768.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/nmXPVDSucOOi5sTL_r3MGQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTUzOTtjZj13ZWJw/https://media.zenfs.com/en/flosports_articles_736/42c64e49850b3c2bf271ba0261906187",
             "source": "yahoo"
         },
         {
-            "title": "Spectre of stagflation haunts Thailand",
+            "title": "WrestleMania 42 Night 2 results, full list of winners",
             "severity": "WATCH",
-            "url": "https://www.bangkokpost.com/business/general/3240108/spectre-of-stagflation-haunts-thailand",
-            "image": "https://static.bangkokpost.comhttps//static.bangkokpost.com/media/content/dcx/2026/04/20/6056643.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Latest acquisition by Brad Jacobs\u2019 QXO building products rollup is largest so far",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/latest-acquisition-brad-jacobs-qxo-215041099.html",
-            "image": "https://media.zenfs.com/en/freightwaves_373/65d11872b9d03231cb9b1fe3480a1478",
+            "url": "https://sports.yahoo.com/articles/wrestlemania-42-night-2-results-015448188.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/25KuiXBC6zFfSYbHz.S9HQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE3MDA7aD0yMDQ4O2NmPXdlYnA-/https://media.zenfs.com/en/the_big_lead_articles_114/6de8937820045bb31500a522fd165eef",
             "source": "yahoo"
         },
         {
-            "title": "Casting Aegon the Conqueror for Game of Thrones\u2019 Movie: 10 Actors Who\u2019d Be Perfect",
+            "title": "SAM ADOLPHSEN: \u2018One-Door\u2019 Welfare Policy Is A One-Way Street To Welfare Fraud",
             "severity": "WATCH",
-            "url": "https://comicbook.com/movies/list/casting-aegon-the-conqueror-for-game-of-thrones-movie-10-actors-whod-be-perfect/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/04/game-of-thrones-aegons-conquest-aegon-i-targaryen-casting.jpg",
-            "source": "comicbook"
+            "url": "https://dailycaller.com/2026/04/19/opinion-one-door-welfare-policy-is-a-one-way-street-to-welfare-fraud-sam-adolphsen/",
+            "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https%3A%2F%2Fcdn01.dailycaller.com%2Fwp-content%2Fuploads%2F2026%2F01%2FNick-Shirleys-Security-Forced-To-Step-In-As-Angry-Somali-Berates-Him-e1768431036117.jpg",
+            "source": "dailycaller"
         },
         {
-            "title": "7 Most Controversial Isekai Anime (Ranked By How Extreme They Get)",
+            "title": "IDF says viral photo of Israeli soldier smashing Jesus statue is real",
             "severity": "WATCH",
-            "url": "https://comicbook.com/anime/list/7-most-controversial-isekai-anime-ranked-by-how-extreme-they-get/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/04/Most-Controversial-Isekai-Anime.jpg",
-            "source": "comicbook"
-        },
-        {
-            "title": "Spider-Man\u2019s 10 Most Iconic Villains of the 2000s, Ranked by Importance",
-            "severity": "WATCH",
-            "url": "https://comicbook.com/comics/list/spider-mans-10-most-iconic-villains-of-the-2000s-ranked-by-importance/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/04/Mister-Negative-Green-Goblin-and-Morlun.jpg",
-            "source": "comicbook"
-        },
-        {
-            "title": "Leadership shake-up for opposition People's Party",
-            "severity": "WATCH",
-            "url": "https://www.bangkokpost.com/thailand/politics/3239973/leadership-shakeup-for-opposition-peoples-party",
-            "image": "https://static.bangkokpost.com/media/content/dcx/2026/04/20/6056473.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Ryan Reynolds Says He\u2019s \u2018Never Been More Proud\u2019 of Wife Blake Lively for \u2018Level of Integrity\u2019 amid Justin Baldoni Legal Battle",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/ryan-reynolds-says-never-more-213925371.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/nAPKk3ShtH71csSFJdf15A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/people_218/cab7ab176fe92b0266587b909f771044",
+            "url": "https://ca.news.yahoo.com/idf-says-viral-photo-israeli-015414122.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/YlAngn3JSHk6WVdUZaSWaQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE4MDA7aD0xMTk4O2NmPXdlYnA-/https://media.zenfs.com/en/united_press_international_articles_356/c59a9696b7d96c878a9720c32def66f8",
             "source": "yahoo"
         },
         {
-            "title": "Bengaluru parents flag issues in National Institute of Open Schooling question papers, allege poor response from board",
+            "title": "Nations gather for first-ever conference on fossil fuel exit",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-parents-flag-issues-in-national-institute-of-open-schooling-question-papers-allege-poor-response-from-board/articleshow/130377024.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117518781/117518781.jpg",
-            "source": "toi"
+            "url": "https://www.japantimes.co.jp/environment/2026/04/20/climate-change/first-conference-fossil-fuel-exit/",
+            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/04/20/535926.jpg",
+            "source": "japantimes"
         },
         {
-            "title": "Rush hour turns chaotic at Udhna railway station",
+            "title": "Tradewind Finance Provides USD 2.5 Million Non-Recourse Export Factoring Facility to Vietnamese Cable Exporter",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/surat/rush-hour-turns-chaotic-at-udhna-railway-station/articleshow/130377012.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130377003/130377003.jpg",
-            "source": "toi"
+            "url": "https://www.prnewswire.com/apac/news-releases/tradewind-finance-provides-usd-2-5-million-non-recourse-export-factoring-facility-to-vietnamese-cable-exporter-302745968.html",
+            "image": "https://mma.prnewswire.com/media/2263763/5922635/Tradewind_Finance_Logo.jpg?p=publish",
+            "source": "prnewswire_apac"
+        },
+        {
+            "title": "Fuel rations and free buses: How countries have responded to rising oil prices",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/fuel-rations-free-buses-countries-082218873.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/9LyqTVP2iQe4Lv2UET_V7g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/bbc_us_articles_995/5d4abf8c89229465ed51f43812d4005e",
+            "source": "yahoo"
+        },
+        {
+            "title": "Here\u2019s how using more recycled plastic could ease the pain of oil shocks",
+            "severity": "WATCH",
+            "url": "https://theconversation.com/heres-how-using-more-recycled-plastic-could-ease-the-pain-of-oil-shocks-280591",
+            "image": "https://images.theconversation.com/files/730587/original/file-20260417-71-t3bomf.jpg?ixlib=rb-4.1.0&rect=0%2C351%2C4256%2C2128&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
+        },
+        {
+            "title": "Empty multi-level parking, choked Streets: inside India\u2019s Parking Paradox",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/empty-multi-level-parking-choked-streets-inside-india-s-parking-paradox-101776626208381.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/logo/ht-generic_india1_1751287243850_1751287256749.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Seized Iranian cargo vessel was en route to Iranian Bandar Abbas port \u2014 US Central Command",
+            "severity": "WATCH",
+            "url": "https://tass.com/world/2119385",
+            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260420/1471719.jpg",
+            "source": "tass"
         }
     ],
-    "Last_Updated": "2026-04-20T10:04:24.021655Z"
+    "Last_Updated": "2026-04-20T13:57:37.302856Z"
 }
