@@ -1,293 +1,246 @@
 {
-    "AGRI_Score": 65.2,
-    "Velocity": "-1.5",
+    "AGRI_Score": 62.8,
+    "Velocity": "-2.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently registers 62.8, primarily driven by severe 'Energy & Maritime Disruption' and heightened 'Geopolitical Conflict Intensity'. Escalating tensions in the Strait of Hormuz, evidenced by a \"US destroyer shooting a cargo ship's engine out\" and a subsequent \"Oil jumps after US seizes Iranian ship near Hormuz,\" directly contribute to the perfect score in maritime disruption and significantly elevate geopolitical risks. These disruptions, coupled with \"Alaska Air pull[ing] 2026 profit forecast amid fuel costs related uncertainty,\" are imposing considerable pressure on global supply chains and economic forecasts, underscoring the interconnected nature of these high-severity risks.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 84.4,
+        "Geopolitical Conflict Intensity": 74.5,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 58.0,
+        "Trade & Supply Chain Stress": 67.9,
         "Sovereign Financial Stress": 52.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 66.1,
+        "Sanctions & Regulatory Fragmentation": 60.2,
         "Cyber & Infrastructure Threats": 56.2,
-        "Climate & Resource Shock": 35
+        "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is significantly elevated due to ongoing US-Iran tensions and the looming expiration of a ceasefire, as indicated by 'US-Iran talks in limbo as Trump vows no let-up in blockade' and 'High stakes call as major war deadline looms'. The active enforcement of a blockade by US forces in the Gulf further exacerbates the risk of direct military confrontation in a critical global chokepoint.",
+        "Energy & Maritime Disruption": "This pillar reflects maximum disruption, stemming directly from naval actions and heightened energy price volatility. News of 'What a US destroyer shooting a cargo ship's engine out' and 'Oil jumps after US seizes Iranian ship near Hormuz' highlights acute maritime insecurity in crucial shipping lanes, while 'Alaska Air pulls 2026 profit forecast amid fuel costs related uncertainty' confirms the direct economic impact of soaring energy costs.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress is elevated due to the direct impact of maritime hostilities and the threat of prolonged blockades. The ongoing 'US-Iran talks in limbo as Trump vows no let-up in blockade' suggests persistent challenges for goods movement through vital shipping corridors, adding friction to global trade flows.",
+        "Sovereign Financial Stress": "Sovereign financial stress remains moderate, though underlying pressures from energy costs could increase it. While 'USFR: Ultrashort-Dated Floating-Rate Treasuries For Liquidity' indicates efforts to manage liquidity, the broader economic uncertainty from high fuel prices could strain national budgets over time.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at a moderate level, with financial markets exhibiting some sensitivity to global events. The focus on 'Ultrashort-Dated Floating-Rate Treasuries For Liquidity' suggests an emphasis on short-term financial management in response to broader market conditions.",
+        "Sanctions & Regulatory Fragmentation": "This pillar shows elevated pressure driven by the persistent US-Iran confrontation and associated enforcement actions. The explicit mention of 'Trump vows no let-up in blockade' signals a continued environment of restrictive trade measures and regulatory complexity impacting international commerce.",
+        "Cyber & Infrastructure Threats": "Cyber threats are an ongoing concern, as evidenced by the 'Hackers accessed personal information for up to 70,000 people in Canada Life data breach'. This event underscores the persistent risk of data compromises and the need for robust digital security measures across various sectors.",
+        "Climate & Resource Shock": "This pillar indicates baseline activity, with no immediate severe climate events or resource shocks reported in the current feed. The provided news does not contain information suggesting any significant shifts or disruptions related to climate change or resource scarcity."
+    },
     "All_Alerts": [
         {
-            "title": "Trade Setup for April 21: Top 15 things to know before the opening bell as ceasefire deadline approaches",
+            "title": "What a US destroyer shooting a cargo ship's engine out says about how the Navy is handling Iran blockade runners",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/business/markets/trade-setup-for-april-21-top-15-things-to-know-before-the-opening-bell-as-ceasefire-deadline-approaches-13894524.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/07/20250715083916_5.jpg",
-            "source": "moneycontrol"
+            "url": "https://www.businessinsider.com/us-navy-destroyer-shooting-cargo-ship-engine-room-iran-blockade-2026-4",
+            "image": "https://i.insider.com/69e6891a3fecbb42897a1d0f?width=1200&format=jpeg",
+            "source": "businessinsider_us"
         },
         {
-            "title": "The carbon cost of our clicks",
+            "title": "The AI Class Wars: Hooked on the Good Stuff, Now Paying Street Prices for Claude Sonnet Juice",
             "severity": "HIGH",
-            "url": "https://www.fastcompany.com/91529026/the-carbon-cost-of-our-clicks",
-            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/04/INC-Masters-Fast-Company-publishing-2026-04-17T130902.781.png",
-            "source": "fastcompany"
+            "url": "https://hackernoon.com/the-ai-class-wars-hooked-on-the-good-stuff-now-paying-street-prices-for-claude-sonnet-juice",
+            "image": "https://hackernoon.imgix.net/images/25wSLwpOYNYKfuwCiBECzAH9bHF3_d8mgij0o.jpeg",
+            "source": "hackernoon"
         },
         {
-            "title": "Ayala Land halts selling of Laurean Residences",
+            "title": "US-Iran talks in limbo as Trump vows no let-up in blockade",
             "severity": "HIGH",
-            "url": "https://business.inquirer.net/586251/ayala-land-halts-selling-of-laurean-residences",
-            "image": "https://business.inquirer.net/files/2025/03/ayaland-featured-620x338.png",
-            "source": "inquirer"
+            "url": "https://gulfnews.com/world/mena/us-iran-talks-in-limbo-as-trump-vows-no-let-up-in-blockade-1.500512894",
+            "image": "https://media.assettype.com/gulfnews/2026-04-20/cwr454np/Iran-US-Presidents.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
         },
         {
-            "title": "Iran will keep lying, former Mossad chief Yossi Cohen warns",
+            "title": "Jared Diamond on warning signs \u2013 and hope \u2013 for the future of democracy",
             "severity": "HIGH",
-            "url": "https://www.jpost.com/middle-east/iran-news/article-893645",
-            "image": "https://images.pexels.com/photos/14439232/pexels-photo-14439232.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "jpost"
+            "url": "https://newsroom.ucla.edu/stories/jared-diamond-11th-luskin-lecture-for-thought-leadership",
+            "image": "https://s3.amazonaws.com/cms.ipressroom.com/173/files/20263/69e2ac072cfac21917b14c32_4.15.26+Jared+Diamond+WEB+Selects/4.15.26+Jared+Diamond+WEB+Selects_28293c8c-a303-4f5c-aac7-04212316d503-prv.jpg",
+            "source": "ucla"
         },
         {
-            "title": "Project 21 - Chad: Sudanese Emergency | Border Monitoring Comparative Analysis - Displacement and protection dynamics related to the Sudanese crisis (April 2023 - March 2026)",
+            "title": "Four metres of WWII 'short snorter' banknotes signify mateship",
             "severity": "HIGH",
-            "url": "https://reliefweb.int/report/chad/project-21-chad-sudanese-emergency-border-monitoring-comparative-analysis-displacement-and-protection-dynamics-related-sudanese-crisis-april-2023-march-2026",
-            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/3d/b4/3db4b8d7-5ebb-54f5-8227-605bd1b26c53.png",
-            "source": "reliefweb"
+            "url": "https://www.abc.net.au/news/2026-04-21/australian-war-memorial-curator-finds-4-metre-wwii-short-snorter/106576724",
+            "image": "https://images.pexels.com/photos/18959222/pexels-photo-18959222.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "abc_net"
         },
         {
-            "title": "Auto sales pulled back by 9.8% in Q1 on Middle East crisis",
+            "title": "High stakes call as major war deadline looms",
             "severity": "HIGH",
-            "url": "https://business.inquirer.net/586245/auto-sales-pulled-back-by-9-8-in-q1-on-middle-east-crisis",
-            "image": "https://business.inquirer.net/files/2025/02/cars-11Febraury2025-620x349.jpg",
-            "source": "inquirer"
+            "url": "https://www.news.com.au/national/politics/wong-speaks-with-lebanon-pakistan-foreign-ministers-as-ceasefire-deadline-draws-near/news-story/3fa5837330b43ef9115c1f579dc6158d?from=rss-basic",
+            "image": "https://content.api.news/v3/images/bin/60a248db3b09df8bf4cac6f3c1e55940?width=320",
+            "source": "news"
         },
         {
-            "title": "News24 | Israel races to expand military sites in Gaza, forcing Palestinians into confined \u2018cities\u2019",
+            "title": "Alaska Air pulls 2026 profit forecast amid fuel costs related uncertainty",
             "severity": "HIGH",
-            "url": "https://www.news24.com/world/israel-racing-ahead-to-expand-military-sites-in-gaza-forcing-palestinians-into-ghettos-20260420-1053",
-            "image": "https://images.pexels.com/photos/14501973/pexels-photo-14501973.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "news24"
-        },
-        {
-            "title": "Starmer the Incurious asks no questions and sees no Mandy-shaped red flags",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/politics/2026/apr/20/starmer-the-incurious-asks-no-questions-and-sees-no-mandy-shaped-red-flags",
-            "image": "https://i.guim.co.uk/img/media/e4c4dafa5ed03177663a1a961705cc5c72503f29/349_0_3486_2789/master/3486.jpg?width=140&quality=85&auto=format&fit=max&s=1e10f0363047bae1f77e65bd820b3375",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "Sudan War Enters Year 4 As Child Hunger Reaches Breaking Point",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/news/world/sudan-war-enters-year-4-as-child-hunger-reaches-breaking-point-1837680",
-            "image": "https://feeds.abplive.com/images/dw/76762579_607.jpeg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "Is the Iran war America's Suez or its Gallipoli?",
-            "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/opinion/opinion/3240715/is-the-iran-war-americas-suez-or-its-gallipoli",
-            "image": "https://static.bangkokpost.com/media/content/dcx/2026/04/21/6057985.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Lovable denies data breach, says public settings are \u2018intentional\u2019",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/lovable-denies-data-breach-says-public-settings-are-intentional/articleshow/130399530.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-387305,resizemode-75,msid-130399530/tech/artificial-intelligence/lovable-denies-data-breach-says-public-settings-are-intentional.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "PCB bans Dasun Shanaka from PSL for one season for joining IPL's RR",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/sports/pcb-bans-dasun-shanaka-from-psl-for-one-season-for-joining-ipls-rr-articleshow-03lpgf7",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-052a0ab7-f029-4f95-b31c-f633fc3ced81.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Ganja, mobile phone supplied into Mandya jail",
-            "severity": "HIGH",
-            "url": "https://www.deccanherald.com/india/karnataka/ganja-mobile-phone-supplied-into-mandya-jail-3974876",
-            "image": "https://media.assettype.com/deccanherald/import/sites/dh/files/articleimages/2020/09/08/jail-istock-884409-1599568135.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "BPI upbeat on navigating global risks",
-            "severity": "MEDIUM",
-            "url": "https://business.inquirer.net/586240/bpi-upbeat-on-navigating-global-risks",
-            "image": "https://business.inquirer.net/files/2025/04/BPI-file22April2025-620x349.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "US security agency still using Mythos despite ban \u2013 government using new security tool despite Pentagon's 'supply chain risk' designation",
-            "severity": "MEDIUM",
-            "url": "https://www.techradar.com/pro/security/us-security-agency-still-using-mythos-despite-ban-government-using-new-security-tool-despite-pentagons-supply-chain-risk-designation",
-            "image": "https://cdn.mos.cms.futurecdn.net/mfPaYGQmks2VALWFFBnSej-1280-80.jpg",
-            "source": "techradar_uk"
-        },
-        {
-            "title": "Thousands of companies file claims as U.S. tariff refund system launches",
-            "severity": "MEDIUM",
-            "url": "https://www.theglobeandmail.com/business/international-business/article-companies-file-claims-us-tariff-refund-system-donald-trump/",
-            "image": "https://www.theglobeandmail.com/resizer/v2/2PWO57AYXJBUZDB2537LLZIEPY.jpg?auth=0ed138509bb1ec87c16eae79555e5d5d999eb46a815ffe021532dbc2e049bda6&smart=true&width=7937&height=5291",
-            "source": "theglobeandmail"
-        },
-        {
-            "title": "Border dispute needs steady dialogue",
-            "severity": "MEDIUM",
-            "url": "https://www.bangkokpost.com/opinion/opinion/3240735/border-dispute-needs-steady-dialogue",
-            "image": "https://static.bangkokpost.com/media/content/dcx/2026/04/20/6058005.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Islamabad Peace Talks Round Two: Who Are The Key US, Iran Negotiators?",
-            "severity": "MEDIUM",
-            "url": "https://www.news18.com/world/islamabad-peace-talks-round-two-who-are-the-key-us-iran-negotiators-ws-l-10046275.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/Islamabad-Peace-Talks-Delegation-US-Iran-REUTERS-AFP-2026-04-496466e514076dba0a95b8442b0a34cc.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "India's buffers can steady markets, but hard policy choices lie ahead",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/opinion/columns/india-s-buffers-can-steady-markets-but-hard-policy-choices-lie-ahead-126042001216_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-04/20/full/1776705719-0404.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Find out more as Fidelity Bank, Access holdings lead top gainers on NGX as market extends gain",
-            "severity": "WATCH",
-            "url": "https://www.legit.ng/business-economy/capital-market/1706360-fidelity-bank-access-holdings-lead-top-gainers-ngx/",
-            "image": "https://cdn.legit.ng/images/1200x675/37b5ff74a8dc6c50.jpeg?v=1",
-            "source": "legit"
-        },
-        {
-            "title": "CARFAX Canada Used Vehicle Market Insights",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/carfax-canada-used-vehicle-market-insights",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/bw20260420153958_header-cfc-mktinsights-q2-2026.jpeg",
-            "source": "financialpost"
-        },
-        {
-            "title": "Singer D4vd charged with murder of 14-year-old Celeste Rivas Hernandez, found decomposed in his car",
-            "severity": "WATCH",
-            "url": "https://www.dailycamera.com/2026/04/20/d4vd-arrest-murder-charge/",
-            "image": "https://www.dailycamera.com/wp-content/uploads/2026/04/D4vd-Arrest-What_to_Know_86464_61b941-1.jpg?w=1400px&strip=all",
-            "source": "dailycamera"
-        },
-        {
-            "title": "F1 2026 rule changes agreed ahead of Miami Grand Prix as Max Verstappen prevails",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/sport/formula-1/f1-2026-max-verstappen-miami-37044773",
-            "image": "https://i2-prod.mirror.co.uk/sport/article37044772.ece/ALTERNATES/s615/0_Max-Verstappen.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "PetroGreen powers on Pangasinan solar park",
-            "severity": "WATCH",
-            "url": "https://business.inquirer.net/586239/petrogreen-powers-on-pangasinan-solar-park",
-            "image": "https://business.inquirer.net/files/2025/03/PetroGreen-Energy-Corp-620x349.png",
-            "source": "inquirer"
-        },
-        {
-            "title": "With release of delayed funds, Mainers can still apply for federal heating assistance",
-            "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/articles/release-delayed-funds-mainers-still-180354673.html",
-            "image": "https://media.zenfs.com/en/maine_morning_star_articles_742/d15199e1f74b5fd5366e99460bb9db00",
-            "source": "yahoo"
-        },
-        {
-            "title": "New 'Divergent', Dungeon Crawler Carl and dizzying crowds mark BookCon's 2026 return",
-            "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/entertainment/books/2026/04/20/bookcon-2026-author-news-big-crowds/89648036007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/20/USAT/89702563007-heroines-of-romantasy-panel.jpg?crop=1799,1013,x0,y93&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "usatoday"
-        },
-        {
-            "title": "How Trump's psychedelics executive order could unlock stalled cannabis reform",
-            "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/04/20/trump-psychedelics-executive-order-cannabis-reform.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108294101-1776704829935-gettyimages-2271696834-marijuana_offenses_312_042026.jpeg?v=1776704875&w=1200&h=675",
+            "url": "https://www.cnbc.com/2026/04/20/alaska-air-pulls-2026-profit-forecast-amid-fuel-costs-related-uncertainty.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108222468-17624478812025-11-06t164936z_1599647591_rc23rha3up33_rtrmadp_0_usa-shutdown-air-travel.jpeg?v=1762448018&w=1200&h=675",
             "source": "cnbc"
         },
         {
-            "title": "Did Ford CEO Jim Farley just take a shot at Tesla?",
-            "severity": "WATCH",
-            "url": "https://www.thestreet.com/automotive/did-ford-ceo-jim-farley-just-take-a-shot-at-tesla",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTQ3MTE5/detroit-michigan-september-30-ford-motor-company-ceo-jim-farley-speaks-at-a-ford-pro-accelerate-event-on-september-30-2025-in-detroit-michigan-the-event-is-fords-inaugural-forum-bringing-together-busi.jpg?io=1&profile=rss",
-            "source": "thestreet"
+            "title": "Iran seeks to wait Trump out as ceasefire deadline nears",
+            "severity": "HIGH",
+            "url": "https://thehill.com/policy/defense/5840087-us-iran-ceasefire-talks/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/04/Top-Iran_041926_AP_Asghar-Besharati.jpg?strip=1",
+            "source": "thehill"
         },
         {
-            "title": "M-HEAL Returns to Ghana to Strengthen Partnerships and Advance Neonatal Care Prototypes",
-            "severity": "WATCH",
-            "url": "https://bme.umich.edu/2026/04/20/m-heal-returns-to-ghana-to-strengthen-partnerships-and-advance-neonatal-care-prototypes/",
-            "image": "https://bme.umich.edu/wp-content/uploads/sites/13/2026/04/IMG_1436.jpg",
-            "source": "umich"
+            "title": "Hackers accessed personal information for up to 70,000 people in Canada Life data breach",
+            "severity": "HIGH",
+            "url": "https://www.theglobeandmail.com/business/article-hackers-personal-information-70000-people-canada-life-data-breach/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/7RO6SZ6W5ZBZBFO5LIUGRWSA4Q.jpg?auth=cd67d5ba8e0200837892dcb2456fbd13bad24e7b104b44596bed6b1389b527f2&smart=true&width=3360&height=2240",
+            "source": "theglobeandmail"
         },
         {
-            "title": "Radisson Hotel Group Targets 80,000 Jobs in India by 2030 with 500-Hotel Expansion",
-            "severity": "WATCH",
-            "url": "https://hospitalitybizindia.com/news-track/radisson-hotel-group-targets-80000-jobs-in-india-by-2030-with-500-hotel-expansion/",
-            "image": "https://hospitalitybizindia.com/wp-content/uploads/2024/02/Radisson_Blu.jpg.webp",
-            "source": "hospitalitybizindia"
+            "title": "GURU Organic Energy Files $15 Million Lawsuit Against Pepsi for Breach of Distribution Agreement & Misuse of Confidential Product Information",
+            "severity": "HIGH",
+            "url": "https://financialpost.com/globe-newswire/guru-organic-energy-files-15-million-lawsuit-against-pepsi-for-breach-of-distribution-agreement-misuse-of-confidential-product-information",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/guru-organic-energy.png",
+            "source": "financialpost"
         },
         {
-            "title": "Ford CEO says Tesla doesn\u2019t have an \u2018updated vehicle,\u2019 and now he\u2019s pivoting to catch up with his real competitor: China\u2019s BYD",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/sectors/technology/articles/ford-ceo-says-tesla-doesn-180115430.html",
-            "image": "https://media.zenfs.com/en/fortune_175/18e928c87f4a62bff9ad9d92c311b76e",
-            "source": "yahoo"
+            "title": "USFR: Ultrashort-Dated Floating-Rate Treasuries For Liquidity",
+            "severity": "MEDIUM",
+            "url": "https://seekingalpha.com/article/4892157-usfr-ultrashort-dated-floating-rate-treasuries-for-liquidity",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2190298706/image_2190298706.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
         },
         {
-            "title": "Palantir Issues Ominous Corporate Manifesto",
-            "severity": "WATCH",
-            "url": "https://futurism.com/artificial-intelligence/palantir-corporate-manifesto",
-            "image": "https://futurism.com/wp-content/uploads/2026/04/palantir-corporate-manifesto.jpg",
-            "source": "futurism"
+            "title": "AI Isn\u2019t The Product, Context Is",
+            "severity": "MEDIUM",
+            "url": "https://hackernoon.com/ai-isnt-the-product-context-is",
+            "image": "https://hackernoon.imgix.net/images/lzNo4dkW5zOPd9J4BUjNxD0iRNE3-5g83bvw.png",
+            "source": "hackernoon"
         },
         {
-            "title": "Apr 4, 2026; Arlington, Texas, USA; Cincinnati Reds pitcher Graham Ashcraft (23) throws during the seventh inning against the Texas Rangers at Globe Life Field. Mandatory Credit: Kevin Jairaj-Imagn Images",
-            "severity": "WATCH",
-            "url": "https://www.si.com/mlb/reds/onsi/breaking-down-the-reds-biggest-contributors-through-22-games-01kpnnwfxkrd",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2626,h_1477,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/inside_the_reds/01kpnp33zc8dh7822ky6.jpg",
-            "source": "si"
+            "title": "IEA calls for Iraq-Turkey pipeline to bypass Hormuz and boost Europe\u2019s energy security",
+            "severity": "MEDIUM",
+            "url": "https://investinglive.com/commodities/iea-calls-for-iraq-turkey-pipeline-to-bypass-hormuz-and-boost-europes-energy-security-20260420/",
+            "image": "https://images.investinglive.com/images/proposed%20ceyhan%20basra%20oil%20pipeline%2021%20April%202026_id_ede6453a-2662-4612-b91b-fc9b71172ba0_size975.jpg",
+            "source": "forexlive"
         },
         {
-            "title": "Running Late By 5 Minutes? In Japan, You\u2019ll Get A Formal Apology For That",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/viral/running-late-by-5-minutes-in-japan-youll-get-a-formal-apology-for-that-ws-l-10046080.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/TV_5829422_japantrain_1.jpg",
-            "source": "news18"
+            "title": "Trump 'under no pressure' to make a deal with Iran as ceasefire nears expiration",
+            "severity": "MEDIUM",
+            "url": "https://www.kcra.com/article/trump-under-no-pressure-to-make-a-deal-with-iran-as-ceasefire-nears-expiration/71076325",
+            "image": "https://kubrick.htvapps.com/htv-prod/images/65fa7210-7aaf-4420-857f-bbfb0390abcf.jpg?crop=1.00xw:0.847xh;0,0.0432xh&resize=1200:*",
+            "source": "kcra"
         },
         {
-            "title": "Best Identity Theft Protection Services We've Tested in 2026",
-            "severity": "WATCH",
-            "url": "https://www.cnet.com/tech/services-and-software/best-identity-theft-protection/",
-            "image": "https://www.cnet.com/a/img/resize/0c2afcac72330518a7c73f70b51b2377275ab84e/hub/2025/04/16/b14ce9d3-e54b-48cd-b105-cb7c70fcd299/l3dwlwnvbn-gettyimages-953887362.jpg?auto=webp&fit=crop&height=614&width=1092",
-            "source": "cnet"
+            "title": "Oil jumps after US seizes Iranian ship near Hormuz",
+            "severity": "MEDIUM",
+            "url": "https://www.rt.com/business/638779-oil-prices-surge-middle-east/",
+            "image": "https://mf.b37mrtl.ru/files/2026.04/article/69e67d1920302709f25e5bb2.jpg",
+            "source": "rt"
         },
         {
-            "title": "1Password vs. RoboForm: Which Password Manager Gives You More for Less?",
+            "title": "David Haye's final swipe at Adam Thomas after I'm a Celeb double exit",
             "severity": "WATCH",
-            "url": "https://www.pcmag.com/comparisons/1password-vs-roboform-which-password-manager-gives-you-more-for-less",
-            "image": "https://i.pcmag.com/imagery/comparisons/03ZciY2MlNz0QSavdI1KoNS-1..v1776201240.jpg",
-            "source": "pcmag"
+            "url": "https://www.express.co.uk/showbiz/tv-radio/2196356/david-hayes-final-swipe-adam-thomas-im-a-celeb",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/20/590x/2196356_1.jpg",
+            "source": "expresscouk"
         },
         {
-            "title": "Letters to The Editor \u2014 April 21, 2026",
+            "title": "Best bird seed for backyard birds",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/opinion/letters/letters-to-the-editor-april-21-2026/article70885667.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
+            "url": "https://www.businessinsider.com/guides/pets/best-bird-seed",
+            "image": "https://i.insider.com/69e69ddd367066d7c296ed26?width=1200&format=jpeg",
+            "source": "insider"
         },
         {
-            "title": "Ryan Reynolds 'never been more proud' of wife Blake Lively as court battle comes",
+            "title": "Soaring jet fuel prices threaten to drive up summer travel costs",
             "severity": "WATCH",
-            "url": "https://www.dailystar.co.uk/showbiz/us-showbiz/ryan-reynolds-never-been-more-37042312",
-            "image": "https://i2-prod.dailystar.co.uk/incoming/article36830155.ece/ALTERNATES/s615/3_GettyImages-2165629590.jpg",
-            "source": "dailystar"
+            "url": "https://www.foxbusiness.com/economy/soaring-jet-fuel-prices-threaten-drive-up-summer-travel-costs",
+            "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/03/us-airport-travelers-plane.jpg",
+            "source": "foxbusiness"
         },
         {
-            "title": "Vercel Confirms Major Security Incident as Hacker Claims $2M Ransom Demand",
+            "title": "Trump Shrugs Off Energy Secretary's Remarks On High Gas Prices",
             "severity": "WATCH",
-            "url": "https://www.techrepublic.com/article/news-vercel-security-incident-ransom-claims/",
-            "image": "https://assets.techrepublic.com/uploads/2026/04/hacker-using-computer-and-falling-dollar-bills-ha-2026-01-11-08-33-32-utc-1.jpg",
-            "source": "techrepublic"
+            "url": "https://www.huffpost.com/entry/trump-energy-secretary-high-gas-prices-reaction_n_69e68316e4b0b6f552bb94fe",
+            "image": "https://img.huffingtonpost.com/asset/69e68521180000804f5b309d.jpg?cache=llRoLGAwzi&ops=1778_1000",
+            "source": "huffpost"
+        },
+        {
+            "title": "We're young, in love, and sleep in separate bedrooms. It's made our romantic life even better.",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/couple-has-separate-bedrooms-good-for-relationship-2026-4",
+            "image": "https://i.insider.com/69e297dea98bc8fdc096c042?width=1024&format=jpeg",
+            "source": "businessinsider_us"
+        },
+        {
+            "title": "Ontario Defence Association Established to Strengthen Province\u2019s Role in Canada\u2019s Defence and Security Ecosystem",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/04/20/3277529/0/en/Ontario-Defence-Association-Established-to-Strengthen-Province-s-Role-in-Canada-s-Defence-and-Security-Ecosystem.html",
+            "image": "https://images.pexels.com/photos/8828456/pexels-photo-8828456.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "St Enodoc Church in Cornwall \u2014 and other news in pictures",
+            "severity": "WATCH",
+            "url": "https://www.thetimes.com/uk/photography-uk/article/st-enodoc-church-in-cornwall-and-other-news-in-pictures-czdwlwxck",
+            "image": "https://www.thetimes.com/imageserver/image/043d17ff-e314-4365-a679-d90652433c87.jpg?strip=all&format=webp&crop=6522px%2C3668px%2C0px%2C242px&resize=1200",
+            "source": "thetimes"
+        },
+        {
+            "title": "How Tim Cook started at Apple in 1998, and how 15 years of being the CEO ends",
+            "severity": "WATCH",
+            "url": "https://appleinsider.com/articles/26/04/20/how-tim-cook-started-at-apple-in-1998-and-how-15-years-of-being-the-ceo-ends",
+            "image": "https://photos5.appleinsider.com/gallery/58801-119840-43836-85275-000-lead-Tim-Cook-with-Steve-Jobs-xl-xl.jpg",
+            "source": "appleinsider"
+        },
+        {
+            "title": "News of the day: Big bank optimism, rising inflation, REIT sector shrinking, would-be rate cuts, investment portfolio stress and more",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/uncategorized/news-of-the-day-big-bank-optimism-rising-inflation-reit-sector-shrinking-would-be-rate-cuts-investment-portfolio-stress-and-more",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/0418-mg-financial-district.jpg",
+            "source": "financialpost"
+        },
+        {
+            "title": "Epic Fury just sent China\u2019s Xi Jinping an unmistakable message",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/04/20/opinion/operation-epic-fury-just-sent-chinas-xi-jinping-an-unmistakable-message/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F04%2Fchina-s-president-xi-jinping-125661277-e1776718728844.jpg?quality%3D90%26strip%3Dall",
+            "source": "nypost"
+        },
+        {
+            "title": "Bengaluru: Bannerghatta Road re-laying begins after months of complaints",
+            "severity": "WATCH",
+            "url": "https://www.deccanherald.com/india/karnataka/bengaluru/bengaluru-bannerghatta-road-re-laying-begins-after-months-of-complaints-3975050",
+            "image": "https://media.assettype.com/deccanherald/2026-04-20/3xrnqvqh/file85i1rw4dywi1jttnw46f.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Apple CEO Tim Cook to stand down after nearly 15 years in charge",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/business/companies/apple-ceo-tim-cook-to-end-nearly-15-year-reign-leading-the-iphone-maker-20260421-p5zplu.html",
+            "image": "https://static.ffx.io/images/$zoom_0.7760116666666667%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_110%2C$y_76/t_crop_custom/q_86%2Cf_auto/5c783552fec57e97b6d803cf41ae18980bbbf897",
+            "source": "smh"
+        },
+        {
+            "title": "Times letters: Vetting process and ministerial accountability",
+            "severity": "WATCH",
+            "url": "https://www.thetimes.com/comment/letters-to-editor/article/vetting-process-and-ministerial-accountability-xnjvl9frc",
+            "image": "https://www.thetimes.com/imageserver/image/methode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fe7b2e2fa-4a1c-4a2a-836d-603a3cd68b15.jpg?strip=all&format=webp&crop=5000px%2C2812px%2C0px%2C262px&resize=1200",
+            "source": "thetimes"
+        },
+        {
+            "title": "INEC chairman is supporting ADC? Forensic report emerges",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/nigeria/1706380-did-amupitan-post-support-apc-inec-announces-development-forensic-report/",
+            "image": "https://cdn.legit.ng/images/1200x675/fe5a981f50780c5a.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Buffalo Next: Gap headed for Quaker Crossing",
+            "severity": "WATCH",
+            "url": "https://buffalonews.com/article_014b0c2f-c10a-4fb1-8b2d-b0a84b53a190.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/buffalonews.com/content/tncms/assets/v3/editorial/0/14/014b0c2f-c10a-4fb1-8b2d-b0a84b53a190/69e652503eea3.preview.jpg?crop=1024%2C538%2C0%2C72",
+            "source": "buffalonews"
+        },
+        {
+            "title": "Defense lawyer wanted to halt trial of woman found guilty of second-degree murder",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/kitchener/article/defense-lawyer-wanted-to-halt-trial-of-woman-found-guilty-of-second-degree-murder/",
+            "image": "https://www.ctvnews.ca/resizer/v2/5YRJTR4MHVEFNK22YSZANM5LJE.jpeg?auth=a984ee7168b19571aa6921497f820309580eef82dbe5f19654f6961be7b4a80a&smart=true&width=2420&height=1816",
+            "source": "ctvnews"
         }
     ],
-    "Last_Updated": "2026-04-21T06:06:58.352958Z"
+    "Last_Updated": "2026-04-21T09:45:42.658972Z"
 }
