@@ -1,274 +1,237 @@
 {
-    "AGRI_Score": 62.8,
-    "Velocity": "0.0",
+    "AGRI_Score": 62.9,
+    "Velocity": "+0.1",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.8 reflects a significantly elevated risk environment, primarily driven by severe disruptions in the Energy & Maritime Disruption sector (100) and heightened Geopolitical Conflict Intensity (70.7). Escalating tensions between the US and Iran, exemplified by headlines like \"US, Iran Warn: With Talks in Limbo, We're Ready for War\" and \"Dual Iran, U.S. blockades have traffic in Strait of Hormuz crippled once again,\" are creating a critical choke point for global energy supplies and maritime trade. This instability threatens to trigger broader economic repercussions, necessitating close monitoring of global supply chains and financial markets.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 70.7,
+        "Geopolitical Conflict Intensity": 78.1,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 65.9,
+        "Trade & Supply Chain Stress": 62.2,
         "Sovereign Financial Stress": 52.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 60.2,
-        "Cyber & Infrastructure Threats": 65.8,
+        "Sanctions & Regulatory Fragmentation": 61.4,
+        "Cyber & Infrastructure Threats": 57.1,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is exceptionally high due to the overt threats of war between the US and Iran, with reports stating 'US, Iran Warn: With Talks in Limbo, We're Ready for War' and 'Iran Warns Of \u2018New Cards On Battlefield\u2019 If War Resumes'. Concurrently, rising tensions between China and Japan over the Taiwan Strait passage further underscore a precarious global security landscape.",
-        "Energy & Maritime Disruption": "This pillar is at its maximum, driven by the immediate and severe impact of US-Iran hostilities on critical shipping lanes. News reports confirm 'Dual Iran, U.S. blockades have traffic in Strait of Hormuz crippled once again' and 'Both the US and Iran are firing on commercial ships in the Strait of Hormuz,' directly threatening global energy supply chains and leading to warnings that 'Airlines are about to run out of jet fuel because of the Iran war.'",
-        "Trade & Supply Chain Stress": "Trade and supply chain stress is significantly impacted by the severe maritime disruptions in the Strait of Hormuz, a vital artery for global commerce. The 'Dual Iran, U.S. blockades' and the firing on commercial ships directly impede the flow of goods, creating bottlenecks and increasing transit costs for international trade.",
-        "Sovereign Financial Stress": "Sovereign financial stress remains moderate but is subject to increasing pressure from the global geopolitical instability and energy market volatility. The potential for prolonged high energy prices, hinted at by 'Trump invokes Cold War law in move to boost energy supply,' could strain national budgets and economic stability globally.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressure is at a moderate level, reflecting general market unease rather than specific financial crises. The elevated geopolitical risks and energy supply concerns foster an environment of uncertainty that can lead to capital flight or currency depreciation in vulnerable economies.",
-        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation are a notable concern, with the ongoing US-Iran standoff inherently posing risks for new or expanded sanctions regimes. While the 'sanctioned hit' headline refers to an interview, it highlights the term's prevalence in current discourse and the potential for a heightened regulatory response to geopolitical events.",
-        "Cyber & Infrastructure Threats": "Infrastructure threats are markedly elevated, particularly concerning critical maritime infrastructure due to the direct military actions in the Strait of Hormuz. Reports of 'Both the US and Iran are firing on commercial ships in the Strait of Hormuz' constitute a physical threat to vital transportation assets, distinct from local infrastructure issues like the 'San Jose Del Monte city drowning in promises: residents left gasping for potable water'.",
-        "Climate & Resource Shock": "This pillar reflects routine monitoring, with no widespread climate-related or resource shocks reported in the current feed. While local resource management issues exist, such as the potable water crisis in San Jose Del Monte, these are localized infrastructure failures rather than systemic climate or resource shocks impacting global risk."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "China-Japan tensions escalate after Taiwan Strait passage",
+            "title": "JA Solar Summit Highlights Shift Toward Solar-Storage Integration as Global Demand Holds Firm",
             "severity": "HIGH",
-            "url": "https://www.upi.com/Top_News/World-News/2026/04/20/japan-relations-deteriorate/2251776726484/",
-            "image": "https://cdnph.upi.com/ph/st/th/2251776726484/2026/upi_com/1a6911dbefe8dcfa6e82e231f569af1c/v1.5/China-Japan-tensions-escalate-after-Taiwan-Strait-passage.jpg",
-            "source": "upi"
+            "url": "https://www.benzinga.com/pressreleases/26/04/n51929373/ja-solar-summit-highlights-shift-toward-solar-storage-integration-as-global-demand-holds-firm",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "source": "benzinga"
         },
         {
-            "title": "Dual Iran, U.S. blockades have traffic in Strait of Hormuz crippled once again",
+            "title": "South Korea\u2019s Lee Denies US Intelligence Leak on Nuclear Site",
             "severity": "HIGH",
-            "url": "https://nationalpost.com/news/world/israel-middle-east/us-iran-strait-of-hormuz-traffic-crippled-again",
-            "image": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/04/Iran-war-1.jpg",
-            "source": "nationalpost"
-        },
-        {
-            "title": "US, Iran Warn: With Talks in Limbo, We're Ready for War",
-            "severity": "HIGH",
-            "url": "https://www.newsmax.com/politics/iran-u-s-war/2026/04/20/id/1253593",
-            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=aa5ce76f-4b50-4098-8cf2-02fcd4c04fba&SiteName=Newsmax",
-            "source": "newsmax"
-        },
-        {
-            "title": "Trump invokes Cold War law in move to boost energy supply - Axios",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZQ0ZzVlg1Tk1oS01IMTBOaGptVlVBNXE4b0ctcER2UFR5cGFIel84ODJ1WEZuZGNwakdwNDNrc0ZGeDFETlFHMkxfMEFMMFZxdkpJVWdhY3JyaEpVb1J1SVB4Ti1hQkZLang2TlRNQl9CQzBacEE1Q0JfSQ?oc=5",
-            "image": "https://images.pexels.com/photos/7594407/pexels-photo-7594407.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "CM questions Centre\u2019s inaction on Kaleshwaram irregularities probe",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/hyderabad/cm-questions-centres-inaction-on-kaleshwaram-irregularities-probe/articleshow/130401859.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130401851/130401851.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Airlines are about to run out of jet fuel because of the Iran war",
-            "severity": "HIGH",
-            "url": "https://www.cnn.com/2026/04/20/business/jet-fuel-airlines-iran-war",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-2270636077.jpg?c=original/w_800",
-            "source": "cnn"
-        },
-        {
-            "title": "Was Kash Patel targeted? Steve Bannon calls Fox interview a 'sanctioned hit'",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/was-kash-patel-targeted-steve-bannon-calls-fox-interview-a-sanctioned-hit-101776709289749.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/20/1600x900/logo/Kash_Patel_1776628144967_1776628145115_1776712296206.JPG",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Iran\u2019s chief negotiator comes out swinging as he says regime is ready to reveal \u2018new cards for the battlefield\u2019",
-            "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/news/38879521/iran-negotiator-ready-reveal-cards-war-ceasefire/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F04%2Fnewspress-collage-mkqvyu4up-1776726130858.jpg?quality%3D90%26strip%3Dall%261776729745",
-            "source": "thesun"
-        },
-        {
-            "title": "Both the US and Iran are firing on commercial ships in the Strait of Hormuz. Are both sides acting lawfully?",
-            "severity": "HIGH",
-            "url": "https://www.unsw.edu.au/newsroom/news/2026/04/both-the-us-and-iran-are-firing-on-commercial-ships-in-the-strait-of-hormuz-are-both-sides-acting-lawfully",
-            "image": "https://www.unsw.edu.au//content/dam/images/unsw-wide/general/news/2026/2024-01-newsroom/AdobeStock_1760844381.jpeg/jcr:content/renditions/cq5dam.web.1920.1920.jpeg",
-            "source": "unsw_edu"
-        },
-        {
-            "title": "Iran Warns Of \u2018New Cards On Battlefield\u2019 If War Resumes: Parliament Speaker",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/world/iran-warns-of-new-cards-on-battlefield-if-war-resumes-parliament-speaker-ws-l-10046367.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/Untitled-design-2026-04-21T042124.454-2026-04-f7afd057060f55e711116abeb928eca4.png",
-            "source": "news18"
-        },
-        {
-            "title": "Lease breach costs Bodhi Society prime plot in Bengaluru's Jayanagar",
-            "severity": "HIGH",
-            "url": "https://www.deccanherald.com/india/karnataka/bengaluru/lease-breach-costs-bodhi-society-prime-plot-in-bengalurus-jayanagar-3974972",
-            "image": "https://media.assettype.com/deccanherald/2026-04-20/1txpifen/istockphoto-868677116-612x612.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Ryan Reynolds says \u201cI\u2019ve never in my life been more proud of\u201d Blake Lively",
-            "severity": "HIGH",
-            "url": "https://ohnotheydidnt.livejournal.com/132238775.html",
-            "image": "https://l-stat.livejournal.net/img/sign.png",
-            "source": "livejournal"
-        },
-        {
-            "title": "Kill Breach - Official Announcement Trailer",
-            "severity": "HIGH",
-            "url": "https://za.ign.com/pc/230747/kill-breach-official-announcement-trailer",
-            "image": "https://sm.ign.com/t/ign_za/video/k/kill-breac/kill-breach-official-announcement-trailer_5xpg.1280.png",
-            "source": "ign_za"
-        },
-        {
-            "title": "San Jose Del Monte city drowning in promises: residents left gasping for potable water",
-            "severity": "HIGH",
-            "url": "https://opinion.inquirer.net/191183/san-jose-del-monte-city-drowning-in-promises-residents-left-gasping-for-potable-water",
-            "image": "https://opinion.inquirer.net/files/2024/06/SHARP-EDGES-JAKE-J-MADERAZO.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Apple stock slips as Tim Cook steps down after 15 years, John Ternus takes charge as new CEO",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/news/international/us/apple-stock-slips-as-tim-cook-steps-down-after-15-years-john-ternus-takes-charge-as-new-ceo/articleshow/130404610.cms",
-            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-137346,resizemode-75,msid-130404610/news/international/us/apple-stock-slips-as-tim-cook-steps-down-after-15-years-john-ternus-takes-charge-as-new-ceo.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Rigaku Enters Strategic Alliance with Onto Innovation through 27 % Equity Investment",
-            "severity": "WATCH",
-            "url": "http://www.businesswire.com/news/home/20260420467739/en/Rigaku-Enters-Strategic-Alliance-with-Onto-Innovation-through-27-Equity-Investment/?feedref=JjAwJuNHiystnCoBq_hl-eAh7yh3ccNzLJZaxyWkP0mljpP0CpzuEOW8PSMzp0v37dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSHGnYFEfW-VLubTIB9HxyrA%3D%3D",
-            "image": "https://mms.businesswire.com/media/20260420467739/en/2778820/22/doublelogo.jpg",
-            "source": "businesswire"
-        },
-        {
-            "title": "Notre Dame running back Jeremiyah Love (4) celebrates after getting a first down in the second half of a NCAA football game against Southern California at Notre Dame Stadium on Saturday, Oct. 18, 2025, in South Bend.",
-            "severity": "WATCH",
-            "url": "https://www.si.com/nfl/cardinals/onsi/one-thing-arizona-cardinals-cannot-afford-to-get-wrong-nfl-draft",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1246,h_700,x_319,y_48/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_cardinals/01kppegbdte8ejnrds3t.jpg",
-            "source": "si"
-        },
-        {
-            "title": "Arista Networks CEO Jayshree Ullal sells $55.76 million in shares",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/insider-trading-news/arista-networks-ceo-jayshree-ullal-sells-5576-million-in-shares-93CH-4618323",
-            "image": "https://i-invdn-com.investing.com/news/news_pile_69x52._800x533_L_1419494209.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Josh Hutcherson Says Backlash For Not Being a Taylor Swift Fan Reminded Him \u201cWhy I Don\u2019t Want to Be Online\u201d",
-            "severity": "WATCH",
-            "url": "https://www.hollywoodreporter.com/tv/tv-news/josh-hutcherson-stays-offline-backlash-not-taylor-swift-fan-1236569866/",
-            "image": "https://www.hollywoodreporter.com/wp-content/uploads/2026/04/Josh-Hutcherson-getty-H-2026.png",
-            "source": "hollywoodreporter"
-        },
-        {
-            "title": "Two UC Berkeley faculty members win New Horizons prizes for math and physics",
-            "severity": "WATCH",
-            "url": "https://news.berkeley.edu/2026/04/20/two-uc-berkeley-faculty-members-win-new-horizons-prizes-for-math-and-physics/",
-            "image": "https://news.berkeley.edu/wp-content/uploads/2026/04/New-Horizons-winners-1024x576.jpg",
-            "source": "berkeley"
-        },
-        {
-            "title": "The 'dumb machine' promising a clean energy breakthrough",
-            "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/c5yvm11xrn6o",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/3cdc/live/60502c90-2c32-11f1-a79a-77e93010d956.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "I love British TV so much that I can't decide between Acorn TV and BritBox \u2014 it's really down to which exclusives you want most",
-            "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/tech/britbox-vs-acorn-tv",
-            "image": "https://i.insider.com/682df5c2ac40ae2b0c9ea8bb?width=1200&format=jpeg",
-            "source": "insider"
-        },
-        {
-            "title": "Cape Breton runners honor their Boston Marathon hero on the 100th anniversary of his stunning victory",
-            "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/04/20/sports/cape-breton-road-runners-johnny-miles-boston-marathon/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/QBMYDJPNJNHSTKW5LEKSMNFLEI.jpeg?auth=cc1fc5947ddba6f4d853c3408c2756e818a2215d64ecbc83c781f09b623c1bd7&smart=true&width=2981&height=1964",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "10 Greatest Supernatural Thrillers of the Last 25 Years, Ranked",
-            "severity": "WATCH",
-            "url": "https://collider.com/best-supernatural-thriller-movies-last-25-years-ranked/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2024/01/sophie-wilde-in-talk-to-me.jpg?w=1600&h=900&fit=crop",
-            "source": "collider"
-        },
-        {
-            "title": "Renewable energies overtook global electricity demand last year, led by solar growth in China, India",
-            "severity": "WATCH",
-            "url": "https://www.beaumontenterprise.com/news/article/renewable-energies-overtook-global-electricity-22216837.php",
-            "image": "https://s.hdnux.com/photos/01/66/02/02/30941344/3/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "'I love you, Mom': Grieving son to witness execution of mother's killer",
-            "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/news/nation/2026/04/20/grieving-son-to-witness-execution-of-mothers-killer-in-florida/89667834007/",
-            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/04/20/USAT/89705499007-79817201115-0-dd-21-e-4-a-793-c-421891-ea-4609-b-4-f-68-bf-5.jpeg?auto=webp&crop=2011,1131,x25,y48&format=pjpg&width=1200",
-            "source": "usatoday"
-        },
-        {
-            "title": "Apple's Tim Cook to step down as CEO in September",
-            "severity": "WATCH",
-            "url": "https://www.bangkokpost.com/world/3240835/apples-tim-cook-to-step-down-as-ceo-in-september",
-            "image": "https://static.bangkokpost.com/media/content/20260421/c1_6058230.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Smart Investors Identify These Hidden Earnings Catalyst Patterns Before Markets React",
-            "severity": "WATCH",
-            "url": "https://equity-insider.com/smart-investors-identify-these-hidden-earnings-catalyst-patterns-before-markets-react/",
-            "image": "https://equity-insider.com/wp-content/uploads/2026/04/earnings-catalyst-5.jpg",
-            "source": "equity_insider"
-        },
-        {
-            "title": "Tim Cook is stepping down as Apple's CEO. Investors are $4 trillion richer because of him.",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/tim-cook-is-stepping-down-as-apples-ceo-investors-are-4-trillion-richer-because-of-him-230325543.html",
-            "image": "https://s.yimg.com/uu/api/res/1.2/c.RebIZ96Vin_0Wa21TgGg--~B/aD0zMzA2O3c9NDk1OTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/9379ea09-0861-4dfb-be70-2f197b10972d",
+            "url": "https://ca.finance.yahoo.com/news/south-korea-lee-denies-us-015610520.html",
+            "image": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
             "source": "yahoo"
         },
         {
-            "title": "WestJet cuts flight capacity due to jet fuel costs, following Air Canada\u2019s lead",
-            "severity": "WATCH",
-            "url": "https://globalnews.ca/news/11809575/westjet-cuts-flight-capacity-due-to-jet-fuel-costs-following-air-canadas-lead/",
-            "image": "https://globalnews.ca/wp-content/uploads/2019/03/yvr-planes.jpg?quality=65&strip=all",
-            "source": "globalnews"
+            "title": "Sensex Today | Nifty 50 | Stock Market Live Updates: GIFT Nifty signals a positive start; Asian shares trade higher",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-hcl-tech-vedanta-share-price-21-april-2026/liveblog/130405344.cms",
+            "image": "https://economictimes.indiatimes.com/thumb/msid-130405344,width-1200,height-900,resizemode-4,imgsize-188291/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-hcl-tech-vedanta-share-price-21-april-2026.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "CNBC's The China Connection newsletter: China ships more humanoid robots than the U.S. as investors diverge on AI bets",
-            "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/04/21/china-humanoid-robots-us-investors.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108292968-1776403495000-gettyimages-2271230175-vcg111634549753.jpeg?v=1776403547&w=1200&h=675",
-            "source": "cnbc"
+            "title": "Ex-CENTCOM commander warns against 'risky' US ground operation to seize Iran\u2019s enriched uranium",
+            "severity": "HIGH",
+            "url": "https://www.foxnews.com/media/ex-centcom-commander-warns-against-risky-us-ground-operation-seize-irans-enriched-uranium",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/931/523/petraeus-iran-arrogance-fox-news-001.jpg?ve=1&tl=1",
+            "source": "foxnews"
         },
         {
-            "title": "Settlement hearing for alleged drugged gambler kept confidential",
-            "severity": "WATCH",
-            "url": "https://www.reviewjournal.com/news/civil-courts/settlement-hearing-for-alleged-drugged-gambler-kept-confidential-3790347/",
-            "image": "https://www.reviewjournal.com/wp-content/uploads/2026/04/21599620_web1_copy_LV-AERIALS-OCT16-19-140.jpg?w=700",
-            "source": "reviewjournal"
+            "title": "Wong's flurry of talks as Albanese warns Australians will feel 'long tail' of war",
+            "severity": "HIGH",
+            "url": "https://www.sbs.com.au/news/article/wong-talks-albanese-warns-australians-long-tail-war-impact/3o6n188dd",
+            "image": "https://assets.sbs.com.au/dims4/default/0aa307c/2147483647/strip/false/crop/9428x4332+0+977/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F06%2Fda%2F3b2873984dfbba02a8be8092c1a7%2F20260415146579750187-original.jpg",
+            "source": "sbs"
         },
         {
-            "title": "KelpDAO suffers $290 million heist tied to Lazarus hackers",
-            "severity": "WATCH",
-            "url": "https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2023/12/01/Hackers_crypto.jpg",
-            "source": "bleepingcomputer"
+            "title": "Donald Trump to lift blockade on the Strait of Hormuz? US President issues major statement ahead of talks with Iran, warns of...",
+            "severity": "HIGH",
+            "url": "https://www.india.com/news/world/donald-trump-us-president-white-house-strait-of-hormuz-iran-peace-talk-islamabad-pakistan-jd-vance-steve-witkoff-jared-kushner-israel-netanyahu-8388104/",
+            "image": "https://static.india.com/wp-content/uploads/2026/04/Donald-Trump-new-2.jpg",
+            "source": "india"
         },
         {
-            "title": "Final day of Kitchener encampment hearing wraps up",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/kitchener/article/final-day-of-kitchener-encampment-hearing-wraps-up/",
-            "image": "https://www.ctvnews.ca/resizer/v2/P5IW6LQ5LZFSVHRNLCQ4QPBL6Q.png?auth=3c15e7427a6adf1b751fc64af4a31787e7c0ce0290129240bdcb40552bd9b1c8&smart=true&width=4032&height=2268",
-            "source": "ctvnews"
+            "title": "Was the Attack on an Iranian Primary School a War Crime?",
+            "severity": "HIGH",
+            "url": "https://reliefweb.int/report/iran-islamic-republic/was-attack-iranian-primary-school-war-crime",
+            "image": "https://reliefweb.int/modules/custom/reliefweb_meta/images/icons/Iran_IRN.png",
+            "source": "reliefweb"
         },
         {
-            "title": "COA disallows P375M in OVP\u2019s secret funds",
+            "title": "Arrest Netanyahu? European moves spark fresh tensions with Israel",
+            "severity": "HIGH",
+            "url": "https://www.smh.com.au/world/europe/arrest-netanyahu-european-moves-spark-fresh-tensions-with-israel-20260421-p5zpl2.html",
+            "image": "https://static.ffx.io/images/$zoom_0.3058%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/864507971524a3d4b701726a2bf975678f5ac4ea",
+            "source": "smh"
+        },
+        {
+            "title": "Japan approves scrapping a ban on lethal weapons exports in a change of its postwar pacifist policy",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/japan-approves-scrapping-ban-lethal-013143990.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/z5KV5aN450bmAwUGL90GTQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNzkwO2NmPXdlYnA-/https://media.zenfs.com/en/cp_news_842/9cc53cfdd72a480594ace8dafccb269f",
+            "source": "yahoo"
+        },
+        {
+            "title": "PMs Wong, Anwar agree on importance of diplomacy, discuss supply chain resilience amid Middle East crisis - CNA",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU2FydG9BSkliYlM1ejN5TF9WbW9kWU9MbGxyeXB4ZlhwZDV2Q2dHeHhtRU1zTEgxZ1pNcEZmOG13LU04Z1lkTHBPQ1l5MEpFSXRkNTFiM3VnQzBLVG5mcVpZMmhhenhjMlV4LUI3Z1doSTdSZlpHdVNCb3NTVE90N0dKRE1YX0VrdllyTjhSNEFTeFpzLTdLRG9PMGI0Yk9ycWxqNHhyLVZteTQ?oc=5",
+            "image": "https://images.pexels.com/photos/20258/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Hegseth's firing of army general amid war with Iran sparks concern in the White House",
+            "severity": "HIGH",
+            "url": "https://www.rawstory.com/pete-hegseth-2676788821/",
+            "image": "https://www.rawstory.com/media-library/pete-hegseth.jpg?id=65162833&width=980",
+            "source": "rawstory"
+        },
+        {
+            "title": "Middle East war live: US, Iran warn ready for war as talks in limbo",
+            "severity": "HIGH",
+            "url": "https://www.france24.com/en/middle-east/20260421-middle-east-war-live-us-iran-warn-ready-for-war-as-talks-in-limbo",
+            "image": "https://s.france24.com/media/display/39fca5a4-38e0-11f1-ab4f-005056a97e36/w:1280/p:16x9/2026-04-14T074521Z-988534792-RC2HMKAXER36-RTRMADP-3-IRAN-CRISIS-PAKISTAN-TALKS.jpg",
+            "source": "france24"
+        },
+        {
+            "title": "Anti-Muslim influencer launches racist attack on Mahmood after being blocked from UK",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/anti-muslim-influencer-blocked-britain-155650088.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/o3JPQ3XC6FuzOEiUaVXB2Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIzMTY7aD0xNDM0O2NmPXdlYnA-/https://media.zenfs.com/en/the_telegraph_818/dfb1e74640d969effde172df20e63bb2",
+            "source": "yahoo"
+        },
+        {
+            "title": "Gold steady as investors await clarity on US-Iran talks",
+            "severity": "MEDIUM",
+            "url": "http://economictimes.indiatimes.com/markets/commodities/news/gold-steady-as-investors-await-clarity-on-us-iran-talks/articleshow/130405381.cms",
+            "image": "https://images.pexels.com/photos/12231821/pexels-photo-12231821.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Hitler complaint, rapist meeting boycott: Nepean campaign exposes One Nation dysfunction",
+            "severity": "MEDIUM",
+            "url": "https://www.smh.com.au/politics/victoria/hitler-complaint-rapist-meeting-boycott-nepean-campaign-exposes-one-nation-dysfunction-20260420-p5zpfi.html",
+            "image": "https://static.ffx.io/images/$zoom_0.22428057992202727%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_144%2C$y_222/t_crop_custom/q_86%2Cf_auto/eb3e29741cd5a177e40982dceb7f8a77896698de",
+            "source": "smh"
+        },
+        {
+            "title": "Major airline that flies from Heathrow cancels flights in May - all 46 routes listed",
             "severity": "WATCH",
-            "url": "https://newsinfo.inquirer.net/2215515/coa-disallows-p375m-in-ovps-secret-funds",
-            "image": "https://newsinfo.inquirer.net/files/2026/04/Sara-duterte-21April2026.jpg",
-            "source": "inquirer"
+            "url": "https://www.express.co.uk/news/uk/2196380/major-airline-cancels-heathrow-flights-may-all-46-routes-listed",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2196380_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Daily Voice: Valuations at multi-year lows in private banks offer reasonable margin of safety, stay with domestic-oriented themes, says Bajaj Life's Srinivas Rao Ravuri",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/markets/daily-voice-valuations-at-multi-year-lows-in-private-banks-offer-reasonable-margin-of-safety-stay-with-domestic-oriented-themes-says-bajaj-life-s-srinivas-rao-ravuri-13894618.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2022/10/SrinivasRaoRavuri.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Stocks in news today: Vedanta, JSW Steel, Oil India, HCL Tech, TVS Motor, PNB Housing",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/markets/stocks/story/stocks-in-news-today-vedanta-jsw-steel-oil-india-hcl-tech-tvs-motor-pnb-housing-526590-2026-04-21",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69e6d75fa87fd-the-bse-sensex-settled-2676-points--or-003--higher-at-78-52030--while-the-nse-nifty-edged-up-11-214810193-16x9.jpg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "Oliver Jones Exits Apple TV to Join Amazon MGM Studios as U.K. Scripted Senior Commissioner",
+            "severity": "WATCH",
+            "url": "https://variety.com/2026/tv/global/oliver-jones-apple-tv-amazon-mgm-uk-scripted-commissioner-1236726604/",
+            "image": "https://variety.com/wp-content/uploads/2026/04/Oliver-Jones.jpg",
+            "source": "variety"
+        },
+        {
+            "title": "Asia-Pacific needs peace, not confrontation: FM spokesperson",
+            "severity": "WATCH",
+            "url": "http://english.people.com.cn/n3/2026/0421/c90000-20448592.html",
+            "image": "https://images.pexels.com/photos/11082253/pexels-photo-11082253.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "en_people_cn"
+        },
+        {
+            "title": "Melthundu: In Tamil Nadu, it\u2019s a cloth of protest, pride & politics",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/india/melthundu-in-tamil-nadu-its-a-cloth-of-protest-pride-politics/articleshow/130405361.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130405403/130405403.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "DM inspects ESCI hospital, directs timely care for Noida workers",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/noida-news/dm-inspects-esci-hospital-directs-timely-care-for-noida-workers-101776715635038.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/20/1600x900/logo/The-inspection-came-amid-the-district-administrati_1776715632528.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Billions in Wealth, Millions in Pay: A look at Tim Cook\u2019s earnings story at Apple; all about his net worth and paycheck",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/us/business/billions-in-wealth-millions-in-pay-a-look-at-tim-cooks-earnings-story-at-apple-all-about-his-net-worth-and-paycheck/articleshow/130405341.cms",
+            "image": "https://img.etimg.com/thumb/msid-130405383,resizemode-4,width-1200,height-900,imgsize-56128,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "India\u2019s fertiliser output falls to five-year low in March",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/business/indias-fertiliser-output-falls-to-five-year-low-in-march-101776736221811.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/21/1600x900/logo/A-farmer-sprinkles-fertiliser-on-crops-in-a-field-_1776736217124.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Tim Cook Is Stepping Down as Apple\u2019s CEO. He\u2019s Keeping the Most Important Job\u2013For Now",
+            "severity": "WATCH",
+            "url": "https://www.inc.com/jason-aten/tim-cook-is-stepping-down-as-apples-ceo-hes-keeping-the-most-important-job-for-now/91333822",
+            "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/04/tim_cook_retire_executive_chairman.jpg",
+            "source": "inc"
+        },
+        {
+            "title": "Earnings call transcript: Mitchell Services Q3 2026 sees stock rise",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-mitchell-services-q3-2026-sees-stock-rise-93CH-4618360",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB6R0AQ_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Heatwave Alert for Chd for Next 3 Days",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/heatwave-alert-for-chd-for-next-3-days/articleshow/130402437.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130402430/130402430.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Fresh FIR against ex-bank manager for duping NRI of Rs 2.5cr",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/fresh-fir-against-ex-bank-manager-for-duping-nri-of-rs-2-5cr/articleshow/130402408.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130402402/130402402.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Keen to do social work, simply sought fair wage: Brother of main accused in Noida workers\u2019 protest case",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/cities/delhi/keen-to-do-social-work-simply-sought-fair-wage-brother-of-main-accused-in-noida-workers-protest-case-10647239/",
+            "image": "https://images.indianexpress.com/2026/04/Aditya-Anand.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Mumbai businessman loses Rs 3.25 crore in cheating-cum-extortion case; 9 booked",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/city/mumbai-businessman-loses-rs-3-25-crore-in-cheating-cum-extortion-case-9-booked-article-13894630.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260421002557_DdadsdjdsS4.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Cher files for conservatorship again, cites son\u2019s drug use and 'no concept of money'",
+            "severity": "WATCH",
+            "url": "https://www.foxnews.com/entertainment/cher-files-conservatorship-again-cites-sons-drug-use-no-concept-money",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/03/931/523/cher-elijah-mug-split.jpg?ve=1&tl=1",
+            "source": "foxnews"
         }
     ],
-    "Last_Updated": "2026-04-21T11:14:43.323825Z"
+    "Last_Updated": "2026-04-21T13:57:46.028986Z"
 }
