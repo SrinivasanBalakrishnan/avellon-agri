@@ -1,281 +1,265 @@
 {
-    "AGRI_Score": 64.5,
-    "Velocity": "+1.9",
+    "AGRI_Score": 63.0,
+    "Velocity": "-1.5",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at an elevated 64.5/100, primarily driven by critical levels in \"Energy & Maritime Disruption\" (100) and heightened \"Geopolitical Conflict Intensity\" (77.8). The ongoing Iran conflict and its direct impact on crucial chokepoints like the Strait of Hormuz are exacerbating global fuel crises and pushing oil prices higher, as evidenced by news headlines like \"Military Planners to Discuss Hormuz Reopening in London\" and \"UK inflation set to rise after Middle East conflict pushed up fuel prices.\" This confluence of military tensions and energy market volatility creates significant strategic risk across multiple sectors.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.8,
+        "Geopolitical Conflict Intensity": 78.4,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 69.4,
+        "Trade & Supply Chain Stress": 66.5,
         "Sovereign Financial Stress": 52.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 64.1,
-        "Cyber & Infrastructure Threats": 61.8,
+        "Sanctions & Regulatory Fragmentation": 56.5,
+        "Cyber & Infrastructure Threats": 57.1,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The geopolitical landscape remains highly volatile due to the ongoing Iran conflict, with 'Trump extends ceasefire in Iran war' indicating continued, albeit paused, hostilities. Further tensions are highlighted by 'Iran urges UN condemnation after US seizes cargo ship,' demonstrating direct confrontation and a deteriorating diplomatic environment.",
-        "Energy & Maritime Disruption": "This pillar is at critical levels, directly impacted by the geopolitical situation, with 'Military Planners to Discuss Hormuz Reopening in London' and 'UK hosting countries for talks on Strait of Hormuz mission' pointing to severe maritime route concerns. The direct consequence is visible in 'Brittany Ferries issues major fuel crisis update to passengers in UK, France and Spain' and 'Stocks fall, oil climbs amid uncertainty over US-Iran talks,' underscoring immediate fuel supply and cost pressures.",
-        "Trade & Supply Chain Stress": "Supply chains face significant stress from energy costs and maritime risks, as seen with 'Brittany Ferries issues major fuel crisis update to passengers,' directly affecting commercial transport. Furthermore, global trade routes are under review due to conflict, with 'Canada says USMCA review is a checkpoint, not a cliff' indicating ongoing scrutiny of international agreements amidst broader uncertainty.",
-        "Sovereign Financial Stress": "Governments are facing increased fiscal burdens, with 'Britain 'more vulnerable' than other countries to war as conflict threatens to blow \u00a316bn hole in Reeves Budge' highlighting the economic cost of geopolitical instability. Spain's approval of 'a plan to ease its housing crisis' also indicates significant domestic financial challenges requiring state intervention.",
-        "Currency & Liquidity Pressure": "Market uncertainty linked to geopolitical events is impacting financial assets, with 'Stocks fall, oil climbs amid uncertainty over US-Iran talks' showing immediate market reactions. The potential for substantial budget deficits, such as the '\u00a316bn hole in Reeves Budge' from conflict, could further pressure national currencies and liquidity.",
-        "Sanctions & Regulatory Fragmentation": "The international environment for maritime trade is becoming more fragmented, indicated by 'Iran urges UN condemnation after US seizes cargo ship,' suggesting potential for increased seizure actions or retaliatory measures. Domestically, there's a push for tighter energy sector oversight, with 'Energy bosses face BAN on bonuses if they break rules under watchdog overhaul,' signifying evolving regulatory landscapes.",
-        "Cyber & Infrastructure Threats": "Critical infrastructure is under heightened threat, as underscored by the urgent call for 'pipeline security must be a priority' in the face of growing cyber threats. Additionally, 'Illegal LPG transfers fuel serious blast risk in Pune\u2019s industrial belt' highlights physical infrastructure vulnerabilities and safety concerns.",
-        "Climate & Resource Shock": "While the lowest scoring pillar, resource scarcity is a significant local concern, with 'As water crisis deepens, tanker demand surges in Bengaluru' showcasing critical water stress. Global conflicts also impact resource access for vulnerable nations, forcing 'Tiny Pacific Nations Face Tough Choices on Food, Fuel Posed by Iran War.'"
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Military Planners to Discuss Hormuz Reopening in London",
+            "title": "Costello warns Australia has \u2018lost our way\u2019",
             "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-04-21/military-planners-to-discuss-hormuz-reopening-in-london",
-            "image": "https://www.usnews.com/object/image/0000019d-b250-d91b-a1bf-b2d3aadb0000/tag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM3K1DZ%3A12026-04-21T231042Z_1_LYNXMPEM3K1DZ_RTROPTP_3_UKRAINE-CRISIS-BRITAIN-HEALEY.JPG?update-time=1776813042000&size=responsive640",
-            "source": "usnews"
+            "url": "https://www.news.com.au/finance/economy/australian-economy/costello-warns-australia-has-lost-our-way-as-debt-nears-1-trillion-20-years-on-from-debt-free-day/news-story/78cb821ba7c0999e08541a4bd621ccb7?from=rss-basic",
+            "image": "https://content.api.news/v3/images/bin/76d170c19202a103818e28c801c18b7c?width=320",
+            "source": "news"
         },
         {
-            "title": "Trump extends ceasefire in Iran war: Here\u2019s what to know",
+            "title": "Secret \u2018Kuwait of Australia\u2019 fuel-rich claim revealed in tiny town - realcommercial.com.au",
             "severity": "HIGH",
-            "url": "https://usa.inquirer.net/195006/trump-extends-ceasefire-in-iran-war-heres-what-to-know",
-            "image": "https://usa.inquirer.net/files/2026/04/AP26110230128109-scaled.jpg",
-            "source": "inquirer"
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVWtMQ3VkNVVlNWlHMHREazlwM0VSQkF1eG9Ldnl3aUhnVm9DcEFaVGUwRjBDc21VX1RwZVNkeDJwYzNQSFhJOWo3YmZmOERXMnpzLVpjdTluc1JDMnJFQVlWaXdhR01JMUZobWthbElDdnJEd0xWOFFoSmFqbmRlWV82TUZpNkhUQ21pU0lWZ1ZWbURxaHM2NUp3LUxPVGFtVDdqZA?oc=5",
+            "image": "https://images.pexels.com/photos/5561922/pexels-photo-5561922.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Brittany Ferries issues major fuel crisis update to passengers in UK, France and Spain",
+            "title": "US Iran war news live: Trump agrees to ceasefire extension, Pakistan PM thanks him as maritime tensions spike",
             "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/uk/2196769/brittany-ferries-fuel-crisis-update-passengers-uk-france-spain",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2196769_1.jpg",
-            "source": "expresscouk"
+            "url": "https://www.moneycontrol.com/world/us-iran-pakistan-us-iran-ceasefire-donald-trump-asim-munir-shehbaz-sharif-jd-vance-un-liveblog-13895776.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260421134603_Trump-new-0007.jpg",
+            "source": "moneycontrol"
         },
         {
-            "title": "Tiny Pacific Nations Face Tough Choices on Food, Fuel Posed by Iran War",
+            "title": "Donald Trump Extends Middle East Ceasefire; Strait Of Hormuz Blockade To Continue | Latest News",
             "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-04-21/tiny-pacific-nations-face-tough-choices-on-food-fuel-posed-by-iran-war",
-            "image": "https://www.usnews.com/object/image/0000019d-b250-d91b-a1bf-b2d3a3e10000/tag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM3K1DV%3A22026-04-21T230922Z_2_LYNXMPEM3K1DV_RTROPTP_3_IRAN-CRISIS-OMAN-HORMUZ.JPG?update-time=1776812962000&size=responsive640",
-            "source": "usnews"
+            "url": "https://www.timesnownews.com/videos/times-now/india/donald-trump-extends-middle-east-ceasefire-strait-of-hormuz-blockade-to-continue-latest-news-video-154132907",
+            "image": "https://images.pexels.com/photos/36594160/pexels-photo-36594160.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "timesnownews"
         },
         {
-            "title": "State prison officials are grappling with a crisis behind bars",
+            "title": "Iran-Israel war LIVE: Trump extends Iran ceasefire but maintains blockade",
             "severity": "HIGH",
-            "url": "http://www.spectrumlocalnews.com/nys/buffalo/news/2026/04/21/state-prison-officials-are-grappling-with-a-crisis-behind-bars",
-            "image": "https://images.pexels.com/photos/8828456/pexels-photo-8828456.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "spectrumlocalnews"
+            "url": "https://www.thehindu.com/news/international/iran-israel-us-war-live-updates-april-22-2026-donald-trump-tehran-strait-of-hormuz-blockade/article70891192.ece",
+            "image": "https://th-i.thgim.com/public/incoming/ipckv/article70891191.ece/alternates/FREE_1200/Trump_38931.jpg",
+            "source": "thehindu"
         },
         {
-            "title": "Pentagon details record $1.5 trillion budget request",
+            "title": "Flight cancellations in Australia 'cannot be ruled out' warns Albanese government as crisis drags on",
             "severity": "HIGH",
-            "url": "https://www.washingtonpost.com/national-security/2026/04/21/pentagon-15-trillion-budget-details/",
-            "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MIUESMAMVFS2JISDLGT6RODZ5Y_size-normalized.jpg&w=1600&h=900",
-            "source": "washingtonpost"
-        },
-        {
-            "title": "As water crisis deepens, tanker demand surges in Bengaluru",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/bengaluru/as-water-crisis-deepens-tanker-demand-surges-in-bengaluru/articleshow/130426785.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117518775/117518775.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Spain approves a plan to ease its housing crisis",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/nri/migrate/spain-approves-a-plan-to-ease-its-housing-crisis/articleshow/130431961.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-146174,resizemode-75,msid-130431961/nri/migrate/spain-approves-a-plan-to-ease-its-housing-crisis.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Canada says USMCA review is a checkpoint, not a cliff",
-            "severity": "HIGH",
-            "url": "https://investinglive.com/news/canada-says-usmca-review-is-a-checkpoint-not-a-cliff-20260421/",
-            "image": "https://images.investinglive.com/images/Canada%20housing%20starts_id_87db396b-608f-4a5d-a8fb-0e8f447d1db0_size975.jpeg",
-            "source": "forexlive"
-        },
-        {
-            "title": "Stocks fall, oil climbs amid uncertainty over US-Iran talks",
-            "severity": "HIGH",
-            "url": "https://business.inquirer.net/586453/stocks-fall-oil-climbs-amid-uncertainty-over-us-iran-talks",
-            "image": "https://business.inquirer.net/files/2025/02/NYSE-Feb-25-2025-scaled.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Britain 'more vulnerable' than other countries to war as conflict threatens to blow \u00a316bn hole in Reeves Budge",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/money/markets/article-15752715/Britain-vulnerable-countries-war-conflict-threatens-blow-16bn-hole-Reeves-Budge.html",
-            "image": "https://i.dailymail.com/1s/2026/04/21/17/108051011-0-image-a-3_1776789942444.jpg",
+            "url": "https://www.dailymail.com/news/article-15753907/Flight-cancellations-Australia-ruled-warns-Albanese-government-crisis-drags-on.html",
+            "image": "https://i.dailymail.com/1s/2026/04/22/02/108060691-0-image-a-6_1776820613463.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "UK inflation set to rise after Middle East conflict pushed up fuel prices",
+            "title": "Trump says Anthropic is 'shaping up,' open to deal with Pentagon",
             "severity": "HIGH",
-            "url": "https://uk.finance.yahoo.com/news/uk-inflation-set-rise-middle-230129974.html",
-            "image": "https://media.zenfs.com/en/snappa.ukfinance/5743930c286921e590d5eac71994c6a7",
-            "source": "yahoo"
+            "url": "https://www.firstpost.com/tech/trump-says-anthropic-is-shaping-up-open-to-deal-with-pentagon-14002988.html",
+            "image": "https://images.firstpost.com/uploads/2026/03/2026-03-11T223216Z_2_LYNXMPEM2A1IL_RTROPTP_4_PENTAGON-ANTHROPIC-EXEMPTION-2026-03-c2a4d1d4949480b3648ad88cadaf5f3e-1200x675.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "Iran urges UN condemnation after US seizes cargo ship",
+            "title": "'His life mattered': Family of man who died in Fiji military custody says he begged for his life",
             "severity": "HIGH",
-            "url": "https://globalnation.inquirer.net/319331/iran-urges-un-condemnation-after-us-seizes-cargo-ship",
-            "image": "https://globalnation.inquirer.net/files/2026/01/75496003_906.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Energy bosses face BAN on bonuses if they break rules under watchdog overhaul as compensation to households sped up too",
-            "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/money/38890240/energy-bosses-bonuses-banned-break-rules-ofgem/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F04%2Fnewspress-collage-eixspqkkv-1776805188116.jpg?quality%3D80%26strip%3Dall%261776808805",
-            "source": "thesun"
-        },
-        {
-            "title": "Peters says Luxon didn't warn him about leadership vote, Mooney denies leaking",
-            "severity": "HIGH",
-            "url": "https://www.rnz.co.nz/news/political/593046/peters-says-luxon-didn-t-warn-him-about-leadership-vote-mooney-denies-leaking",
-            "image": "https://images.pexels.com/photos/4666/berlin-eu-european-union-federal-chancellery.jpg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.rnz.co.nz/news/pacific_fiji/593096/his-life-mattered-family-of-man-who-died-in-fiji-military-custody-says-he-begged-for-his-life",
+            "image": "https://images.pexels.com/photos/8721399/pexels-photo-8721399.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "rnz_co_nz"
         },
         {
-            "title": "In the face of growing cyber threats, pipeline security must be a priority",
+            "title": "Park Ji Hoon Talks About His Recent Box Office Hit \u201cThe King\u2019s Warden,\u201d Upcoming Projects, And More",
             "severity": "HIGH",
-            "url": "https://www.washingtontimes.com/news/2026/apr/21/face-growing-cyber-threats-pipeline-security-must-priority/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/04/21/Randy_Weber_118th_cong_s743x929.jpeg?ffb8d13c7a049f99118b23b64d048f07c00a05d5",
-            "source": "washingtontimes"
+            "url": "https://www.soompi.com/article/1835052wpp/park-ji-hoon-talks-about-his-recent-box-office-hit-the-kings-warden-upcoming-projects-and-more",
+            "image": "https://0.soompi.io/wp-content/uploads/2026/04/21183645/park-ji-hoon-05_926dcd.jpeg",
+            "source": "soompi"
         },
         {
-            "title": "Blake Lively Alleges $64 Million Fallout From Justin Baldoni Conflict",
+            "title": "Ludhiana teachers on census duty, new school term suffers; principals report up to 90% staff shortage.",
             "severity": "HIGH",
-            "url": "https://www.eonline.com/news/1431155/blake-lively-claims-s64-million-fallout-from-justin-baldoni-conflict",
-            "image": "https://akns-images.eonline.com/eol_images/Entire_Site/2025021/rs_1200x1200-250121152653-blake-lively-justin-baldoni-2.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
-            "source": "eonline"
-        },
-        {
-            "title": "UK hosting countries for talks on Strait of Hormuz mission",
-            "severity": "MEDIUM",
-            "url": "https://www.independent.co.uk/news/uk/home-news/uk-strait-of-hormuz-mission-talks-military-planners-b2962209.html",
-            "image": "https://static.independent.co.uk/2026/04/21/20/16/GettyImages-2271668741.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Illegal LPG transfers fuel serious blast risk in Pune\u2019s industrial belt",
-            "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/city/pune/illegal-lpg-transfers-fuel-serious-blast-risk-in-punes-industrial-belt/articleshow/130426809.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130426794/130426794.jpg",
+            "url": "https://timesofindia.indiatimes.com/city/ludhiana/ludhiana-teachers-on-census-duty-new-school-term-suffers-principals-report-up-to-90-staff-shortage-/articleshow/130427406.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117623945/117623945.jpg",
             "source": "toi"
         },
         {
-            "title": "RFK Jr. says NIH cuts are 'painful,' defends firing of former CDC director",
-            "severity": "WATCH",
-            "url": "https://abcnews.com/US/rfk-jr-nih-cuts-painful-defends-firing-former/story?id=132202102",
-            "image": "https://i.abcnewsfe.com/a/63acf29f-6696-4d11-ac66-7e41240cc999/kennedy-rt-jef-260421_1776788065373_hpMain_16x9.jpg?w=1600",
-            "source": "abcnews"
+            "title": "Japan exports beat but rising import costs squeeze trade surplus",
+            "severity": "HIGH",
+            "url": "https://investinglive.com/news/japan-exports-beat-but-rising-import-costs-squeeze-trade-surplus-20260422/",
+            "image": "https://images.investinglive.com/images/usdyen%20chart%20update%2022%20April%202026_id_df886079-afcc-4cdb-8c2d-6a3497580cd1_size975.jpg",
+            "source": "forexlive"
         },
         {
-            "title": "Alaska Senate adopts \u2018skinny\u2019 capital budget with focus on school maintenance",
-            "severity": "WATCH",
-            "url": "https://www.adn.com/politics/alaska-legislature/2026/04/21/alaska-senate-adopts-skinny-capital-budget-with-focus-on-school-maintenance/",
-            "image": "https://www.adn.com/resizer/pBinXLzdcNtW3-EGYskg_QeEDlQ=/cloudfront-us-east-1.images.arcpublishing.com/adn/L6WTUHMXSFGN3FA323353C736U.JPG",
-            "source": "adn"
+            "title": "Iran war triggers largest energy crisis surpassing past oil shocks, IEA says; Singapore ramps up LNG purchases as Iran war disrupts supply: Singapore live news",
+            "severity": "HIGH",
+            "url": "https://sg.news.yahoo.com/live/singapore-live-news-iran-war-triggers-largest-energy-crisis-surpassing-past-oil-shocks-iea-says-singapore-ramps-up-lng-purchases-as-iran-war-disrupts-supply-014717387.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/yXWehqOYSuTVdLWe29kBqg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://s.yimg.com/uu/api/res/1.2/nQUrni79e28cBnU7dtUiOw--~B/aD0yNjU0O3c9Mzk4MTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-04/2c8ba0fc-fe47-4095-a732-dbb15bd0845c",
+            "source": "yahoo"
         },
         {
-            "title": "Motorsport star gives update after suffering heartbreaking burns from being engulfed in flames during freak car explosion",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/sport/othersports/article-15753559/kylie-marie-walton-janey-lee-update-explosion.html",
-            "image": "https://i.dailymail.com/1s/2026/04/22/00/108058495-0-image-a-12_1776812559793.jpg",
-            "source": "dailymailuk"
+            "title": "Dhanorkar accuses officials of protocol breach, seeks privileges panel inquiry",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/nagpur/dhanorkar-accuses-officials-of-protocol-breach-seeks-privileges-panel-inquiry/articleshow/130429250.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130429249/130429249.jpg",
+            "source": "toi"
         },
         {
-            "title": "New study bridges the worlds of classical and quantum physics",
-            "severity": "WATCH",
-            "url": "https://news.mit.edu/2026/new-study-bridges-classical-and-quantum-physics-0421",
-            "image": "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202604/MIT-QuantumBridge-01-press.jpg?itok=MbjLXnQO",
-            "source": "mit"
+            "title": "Trump: Government of Iran 'seriously fractured'",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/world/mena/trump-government-of-iran-seriously-fractured-1.500514872",
+            "image": "https://media.assettype.com/gulfnews/import/2024/10/26/People-walk-along-a-street-in-Tehran-_192c95ba2f5_large.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
         },
         {
-            "title": "The REAL economic time bomb ticking in America that will financially cripple a generation... but it's not ALL the fault of boomers",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/yourmoney/article-15712329/economic-time-bomb-america-gen-z-boomers.html",
-            "image": "https://i.dailymail.com/1s/2026/04/21/21/108054421-0-image-a-18_1776802612696.jpg",
-            "source": "dailymailuk"
+            "title": "Trump news at a glance: Trump backs off threat to resume bombing Iran and extends ceasefire",
+            "severity": "HIGH",
+            "url": "https://www.yahoo.com/news/articles/trump-news-glance-trump-backs-010739173.html",
+            "image": "https://media.zenfs.com/en/the_guardian_765/da3b3be29611576a11a2f694935818ee",
+            "source": "yahoo"
         },
         {
-            "title": "Boy, 15, among alleged kidnappers of Sydney rapper\u2019s bodyguard",
-            "severity": "WATCH",
-            "url": "https://www.smh.com.au/national/nsw/boy-15-among-alleged-kidnappers-of-sydney-rapper-s-bodyguard-20260422-p5zpys.html",
-            "image": "https://static.ffx.io/images/$zoom_1%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_112%2C$y_34/t_crop_custom/q_86%2Cf_auto/0c4ac1c6f8bb258948dd2e73b65b837506af5553bd2c1a14886d685c3c560002",
-            "source": "smh"
+            "title": "Medha Shankr On Marriage Proposals Before 12th Fail: 'Relatives Didn't Know I'll Be Successful' | Exclusive",
+            "severity": "MEDIUM",
+            "url": "https://www.news18.com/movies/bollywood/medha-shankr-on-marriage-proposals-before-12th-fail-relatives-didnt-know-ill-be-successful-exclusive-ws-l-10047707.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/FotoJet-2026-04-21T135459.436-2026-04-d07601d45cf77630da624cca3b692859.jpg",
+            "source": "news18"
         },
         {
-            "title": "The Best Cordless Drills",
-            "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/home/best-cordless-drill",
-            "image": "https://i.insider.com/61eefad8d2653000180467d2?width=1200&format=jpeg",
-            "source": "insider"
+            "title": "Former US NSA Raises Concerns Over Pakistan's Motives In Iran Talks, Calls It China's 'Client'",
+            "severity": "MEDIUM",
+            "url": "https://ommcomnews.com/world-news/former-us-nsa-raises-concerns-over-pakistans-motives-in-iran-talks-calls-it-chinas-client/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/04/New-Project-2026-04-22T072408.104.jpg",
+            "source": "ommcomnews"
         },
         {
-            "title": "Paraguay plans to accept 25 third-country migrant deportees from US",
-            "severity": "WATCH",
-            "url": "https://www.aljazeera.com/news/2026/4/21/paraguay-plans-to-accept-25-third-country-migrant-deportees-from-us",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/AP25243812139636-1776808183.jpg?resize=1200%2C675",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Mohali: GMADA estate officer pays Rs1.3 Lakh as court moves to attach office vehicle",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/chandigarh-news/mohali-gmada-estate-officer-pays-rs1-3-lakh-as-court-moves-to-attach-office-vehicle-101776796359895.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/21/1600x900/logo/The-payment-came-after-the-GMADA-official-repeated_1776796357652.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Bird flu vaccine trial against potential pandemic strain begins",
-            "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/cy41z0yj8mjo",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/9e51/live/21b43310-3da2-11f1-b377-d7765ac78768.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "You're playing with your dog WRONG! Vets reveal why throwing a ball isn't enough - and the games to play instead to build a strong bond with your pet",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/sciencetech/article-15752217/playing-dog-Vets-throwing-ball-bond.html",
-            "image": "https://i.dailymail.com/1s/2026/04/21/15/108046847-0-image-a-43_1776782425340.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "After being sexually assaulted by terrorists, female IDF reservists refuse to serve - report",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/israel-news/article-893780",
-            "image": "https://images.pexels.com/photos/32237794/pexels-photo-32237794.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "jpost"
-        },
-        {
-            "title": "Starmer to face PMQs amid pressure over Mandelson vetting scandal",
-            "severity": "WATCH",
-            "url": "https://www.standard.co.uk/news/politics/keir-starmer-olly-robbins-foreign-office-emily-thornberry-angela-rayner-b1279542.html",
-            "image": "https://static.standard.co.uk/2026/04/22/00/e08441d0c7a619a8dd2a69eef14763dcY29udGVudHNlYXJjaGFwaSwxNzc2ODk3MTEx-2.84295304.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
-        },
-        {
-            "title": "Bonus ban for failing fat cat energy bosses under new shake-up of watchdog Ofgem",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/money/bonus-ban-failing-fat-cat-37050409",
-            "image": "https://i2-prod.mirror.co.uk/money/article36942292.ece/ALTERNATES/s615/4_Pensive-male-thinking-about-high-prices-Managing-family-finances-Rise-of-utilities-gas-electricity-rental-charges-wate.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Jill Zarin being sued by pal over pickleball company",
-            "severity": "WATCH",
-            "url": "https://pagesix.com/2026/04/21/society/jill-zarin-being-sued-by-pal-over-pickleball-company/",
-            "image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F04%2Fjill-zarin-attends-mend-skincare-126123575.jpg",
+            "title": "The 2 critical Iran lifelines the US has left largely untouched \u2014 just as cease-fire talks stall",
+            "severity": "MEDIUM",
+            "url": "https://nypost.com/2026/04/21/opinion/the-2-critical-iran-lifelines-the-us-has-left-largely-untouched-just-as-cease-fire-talks-stall/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F04%2F2026-displayed-support-irans-negotiating-126129445.jpg?quality%3D90%26strip%3Dall",
             "source": "nypost"
         },
         {
-            "title": "Southern Poverty Law Center charged with defrauding donors with payments to informants",
-            "severity": "WATCH",
-            "url": "https://buffalonews.com/news/nation-world/crime-courts/article_aff0e00c-1ad2-57e4-a854-18d0680cb90d.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/buffalonews.com/content/tncms/assets/v3/editorial/8/ba/8ba52fc4-7fdc-56d3-b031-a7b4d117e9b0/69e7f61657b9f.image.jpg?resize=1200%2C675",
-            "source": "buffalonews"
+            "title": "Apple\u2019s Tim Cook takes on crucial new role: Global ambassador",
+            "severity": "MEDIUM",
+            "url": "http://economictimes.indiatimes.com/news/international/business/apples-tim-cook-takes-on-crucial-new-role-global-ambassador/articleshow/130429952.cms",
+            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Justice Department charges Southern Poverty Law Center with fraud over investigations into extremist groups, Blanche says",
+            "title": "Trump extends Iran ceasefire with Tehran regime \u2018seriously fractured\u2019",
+            "severity": "MEDIUM",
+            "url": "https://ca.news.yahoo.com/trump-extends-iran-ceasefire-tehran-203033993.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/R6UQCvLPn1Jma_FC34evEA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyODA7aD04NzA7Y2Y9d2VicA--/https://media.zenfs.com/en/pa_viral_news_uk_120/fe086dd778c6edec6e189a4472962a14",
+            "source": "yahoo"
+        },
+        {
+            "title": "Gold rises as oil weakens after US extends ceasefire with Iran",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-rises-as-oil-weakens-after-us-extends-ceasefire-with-iran/articleshow/130429965.cms",
+            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-61996,resizemode-75,msid-130429965/markets/commodities/news/gold-rises-as-oil-weakens-after-us-extends-ceasefire-with-iran.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Virginia voters approve new congressional map favoring Democrats, CBS News projects",
             "severity": "WATCH",
-            "url": "https://www.cbsnews.com/minnesota/news/southern-poverty-law-center-justice-department-investigation-informants-hate-groups/",
-            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2025/02/14/8aced9fa-8a2e-43b1-b169-890654d65f79/thumbnail/1024x576/bf5c77e7dfc64ab80e756151f4601269/gettyimages-1074465070.jpg",
-            "source": "minnesotacbslocal"
+            "url": "https://www.yahoo.com/news/articles/virginia-voters-approve-congressional-map-010025475.html",
+            "image": "https://media.zenfs.com/en/cbs_news_897/aebd07a375fc2aa34f03e08eeaff2657",
+            "source": "yahoo"
+        },
+        {
+            "title": "Gaza recovery to cost $71 billion, UN\u2013EU report finds",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-04-22/gaza-strip-reconstruction-recovery-cost-israel-war-hamas/106587608",
+            "image": "https://images.pexels.com/photos/32237794/pexels-photo-32237794.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "abc_net"
+        },
+        {
+            "title": "Trump, 79, Explodes at James Carville, 81, in Wild 340-Word Tirade",
+            "severity": "WATCH",
+            "url": "https://www.thedailybeast.com/trump-79-explodes-at-james-carville-81-in-wild-340-word-tirade/",
+            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/JTNGJUFW2JBJ7APBXOBGUXV5QQ.jpg?auth=c0ba8bb018dec14b74a1b44b7c85371e38b8c03e2b480dc1177b7d8afdf1727c&smart=true&width=3000&height=1688",
+            "source": "thedailybeast"
+        },
+        {
+            "title": "Lufthansa To Cancel 20,000 Flights As Jet Fuel Prices Soar",
+            "severity": "WATCH",
+            "url": "https://www.ndtvprofit.com/business/lufthansa-to-cancel-20-000-flights-as-jet-fuel-prices-soar-amid-us-iran-war-check-impacted-regions-11390816",
+            "image": "https://c.ndtvimg.com/2026-04/t666ni1s_bb_625x300_22_April_26.jpg?im=FitAndFill,algorithm=dnn,width=1080,height=607",
+            "source": "ndtv"
+        },
+        {
+            "title": "BEST plugs loopholes with manufacturers to hasten deliveries",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/best-plugs-loopholes-with-manufacturers-to-hasten-deliveries-101776800621241.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/21/1600x900/logo/-p-BEST-plugs-loopholes-with-manufacturers-to-hast_1776800619003.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "BEST aims to ply 9-mt CNG buses for easy mobility in crowded streets",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/bestaims-to-ply-9-mt-cng-buses-for-easy-mobility-in-crowded-streets-101776800380856.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/21/1600x900/logo/Mumbai--India--Dec-29--2025---A-BEST-electric-bus-_1776800378924.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Calgary professor investigates role social media, AI plays in hate crimes",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/calgary/article/calgary-professor-investigates-role-social-media-ai-plays-in-hate-crimes/",
+            "image": "https://www.ctvnews.ca/resizer/v2/HEEELWWABRBMNK4VWAF3DYJNQI.png?auth=6fcb5489f2e55b11362de7778d13c44a4ad2bd5f7a97d1394e64901e1b4a84d3&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
+        },
+        {
+            "title": "MAGA Podcaster Turns On Trump Over His \u2018Diabolical\u2019 Easter Post: \u2018It\u2019s ******* Dark\u2019",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/maga-podcaster-turns-trump-over-015029136.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/ourVWCpRTAQmxWTKo0t7iQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTUzOTtjZj13ZWJw/https://media.zenfs.com/en/the_huffington_post_584/d47bb56ca17b0fa7c242cea50f033e3b",
+            "source": "yahoo"
+        },
+        {
+            "title": "Zeenat Aman reveals Asha Bhosle's 'Dum Maro Dum' was originally meant for Lata Mangeshkar and Usha Uthup",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/zeenat-aman-reveals-asha-bhosles-dum-maro-dum-was-originally-meant-for-lata-mangeshkar-and-usha-uthup/articleshow/130429850.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130429909/130429909.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Tamil Nadu, West Bengal set to vote as campaign for assembly polls winds up",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/tamil-nadu-west-bengal-set-to-vote-as-campaign-for-assembly-polls-winds-up-101776819785002.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/22/1600x900/logo/ANI-20260421489-0_1776819897595_1776819909704.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Iran urges UN to press US to release seized commercial vessel Touska",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/world-news/iran-urges-un-to-press-us-to-release-seized-commercial-vessel-touska-126042200069_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-01/19/full/1737266685-469.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Sonu Nigam recalls helping Asha Bhosle with heel spur on 1996 US tour",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/music/news/sonu-nigam-recalls-helping-asha-bhosle-with-heel-spur-on-1996-us-tour-singer-shared-how-he-massaged-her-feet-for-relief/articleshow/130429831.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130429828/130429828.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Blake Lively claims \u2018mean girl\u2019 smear campaign cost her $300M",
+            "severity": "WATCH",
+            "url": "https://pagesix.com/2026/04/21/celebrity-news/blake-lively-claims-mean-girl-smear-campaign-cost-her-300m/",
+            "image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F04%2Fblake-lively-attends-ends-us-126126111.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Sabarimala: Non-believer has no biz to challenge customs, says judge",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/india/sabarimala-non-believer-has-no-biz-to-challenge-customs-says-judge/articleshow/130429712.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130429730/130429730.jpg",
+            "source": "toi"
         }
     ],
-    "Last_Updated": "2026-04-22T11:13:04.197728Z"
+    "Last_Updated": "2026-04-22T13:57:55.597149Z"
 }
