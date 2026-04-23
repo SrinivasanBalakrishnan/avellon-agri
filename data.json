@@ -1,244 +1,239 @@
 {
-    "AGRI_Score": 61.9,
-    "Velocity": "-1.5",
+    "AGRI_Score": 62.7,
+    "Velocity": "+0.8",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The current AGRI score of 62.7/100 reflects a significantly elevated risk landscape, predominantly driven by severe 'Energy & Maritime Disruption' (92.6) and high 'Geopolitical Conflict Intensity' (74.7). Tensions in the Middle East are the primary catalyst, with headlines such as 'Iran tightens control of Hormuz after US calls off renewed attacks' and 'Geopolitical tensions impact global markets as Iran seizes vessels' underscoring significant threats to critical global energy transit and trade. This environment directly contributes to 'Trade & Supply Chain Stress' (72.1) and permeates broader market sentiment, as 'European stocks inch broadly lower as Hormuz tensions remain'.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 73.6,
+        "Geopolitical Conflict Intensity": 74.7,
         "Energy & Maritime Disruption": 92.6,
-        "Trade & Supply Chain Stress": 65.7,
+        "Trade & Supply Chain Stress": 72.1,
         "Sovereign Financial Stress": 53.0,
         "Currency & Liquidity Pressure": 50.0,
         "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 64.1,
+        "Cyber & Infrastructure Threats": 62.7,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Tensions in the Middle East are escalating with Iran's increased control over the Strait of Hormuz, a critical choke point, as evidenced by 'Iran tightens control of Hormuz after US calls off renewed attacks' and 'Geopolitical tensions impact global markets as Iran seizes vessels'. Broader global conflict dynamics persist, with Russia's ongoing conflict and the 'Saudi Veto: Why Riyadh Blocked Pakistan\u2019s $1.5 Billion Arms Deal With Sudan!' highlighting continued regional rivalries and arms deal complexities.",
+        "Energy & Maritime Disruption": "The extremely high score is directly attributable to severe maritime disruptions and energy supply concerns stemming from Middle East tensions, particularly Iran's actions in the Strait of Hormuz. 'Iran tightens control of Hormuz after US calls off renewed attacks' indicates a significant threat to global energy transit, leading to 'European stocks inch broadly lower as Hormuz tensions remain' and reinforcing calls for a shift to renewables to avoid 'fossil fuel 'blackmail from war-driving authoritarian regimes'.",
+        "Trade & Supply Chain Stress": "Trade routes face significant stress due to heightened geopolitical tensions impacting crucial shipping lanes, especially in the Middle East. 'Geopolitical tensions impact global markets as Iran seizes vessels' signals direct disruption to maritime trade and supply predictability, contributing to uncertainty for global commerce.",
+        "Sovereign Financial Stress": "While the UK's budget deficit is at a three-year low, 'War Headwinds Build' suggests looming financial pressures and a challenging fiscal outlook for nations. Broader market sentiment is negatively impacted by geopolitical events, as 'European stocks inch broadly lower as Hormuz tensions remain' and 'FTSE 100 today: Stocks open lower' reflect the economic fallout.",
+        "Currency & Liquidity Pressure": "Geopolitical tensions are influencing global market movements, creating potential indirect pressures on currency and liquidity as investors seek safer assets. 'Geopolitical tensions impact global markets as Iran seizes vessels' implies a wider financial uncertainty that can affect capital flows and exchange rates.",
+        "Sanctions & Regulatory Fragmentation": "The international regulatory landscape remains fragmented and subject to geopolitical influence, evidenced by actions like 'The Saudi Veto: Why Riyadh Blocked Pakistan\u2019s $1.5 Billion Arms Deal With Sudan!'. This highlights complex political influences on cross-border deals and defense trade, rather than a cohesive global framework.",
+        "Cyber & Infrastructure Threats": "Cyber threats persist, as 'South Korea fines matchmaking firm Duo $815,000 over data breach affecting 420,000 users' demonstrates ongoing vulnerabilities in data security across industries. Developments in military drone technology, such as 'US firm\u2019s drone system integrated with military-grade engine tested', also signify evolving infrastructure and defense security challenges.",
+        "Climate & Resource Shock": "Localized resource scarcity is evident, with 'Palestinians resort to burning cooking oil, plastic, to prepare meals and stay warm' indicating severe humanitarian impacts from resource access issues in conflict zones. Infrastructure remains vulnerable to natural events, as 'CPI seeks \u20b9500 crore to rebuild Peddavagu project breached in 2024 floods' shows the ongoing costs of climate-related damage."
+    },
     "All_Alerts": [
         {
-            "title": "War in Iran Gives New Fuel to a Tax Debate in Australia",
+            "title": "EU 'must' shift to renewables to end fossil fuel 'blackmail from war-driving authoritarian regimes'",
             "severity": "HIGH",
-            "url": "https://www.nytimes.com/2026/04/23/world/asia/iran-australia-natural-gas-tax.html",
-            "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23int-oz-gas-tax-01-zbht/23int-oz-gas-tax-01-zbht-mediumSquareAt3X.jpg",
-            "source": "nytimes"
+            "url": "https://www.france24.com/en/tv-shows/spotlight/20260423-eu-must-shift-to-renewables-to-end-fossil-fuel-blackmail-from-war-driving-authoritarian-regimes",
+            "image": "https://s.france24.com/media/display/eba997ca-3edb-11f1-9097-005056a90284/w:1280/p:16x9/EN-20260422-181119-182332-CS.jpg",
+            "source": "france24"
         },
         {
-            "title": "'This is a war to save Bengal', says BJP's Agnimitra Paul in Asansol",
+            "title": "Palestinians resort to burning cooking oil, plastic, to prepare meals and stay warm",
             "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/india/this-is-a-war-to-save-bengal-says-bjps-agnimitra-paul-in-asansol-articleshow-gd9h8pg",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-c3c9a257-464b-4ca9-8220-2374fe8ca3e5.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://apnews.com/video/palestinians-resort-to-burning-cooking-oil-plastic-to-prepare-meals-and-stay-warm-4ba1993ceec6478e81b1f364647e26f3",
+            "image": "https://dims.apnews.com/dims4/default/441aaf3/2147483647/strip/false/crop/1920x1080+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ffd%2F86%2Fc52cc858efe6f3a81f35eb439d2c%2Fgaz-alternative-cooking-fuel-20260423cr-1920x1080.jpg",
+            "source": "apnews"
         },
         {
-            "title": "Indian Hotels Poised for Golden Cycle Amid Strong ADR Growth: Nomura",
+            "title": "UK Budget Deficit at Three-Year Low But War Headwinds Build",
             "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/business/indian-hotels-poised-for-golden-cycle-amid-strong-adr-growth-nomura-articleshow-6id49g3",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-4236fd8c-768b-45a0-9aba-ef41a55e63a3.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://financialpost.com/pmn/business-pmn/uk-budget-deficit-at-three-year-low-but-war-headwinds-build",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/uk-government-borrowing-drops-to-three-year-low.jpg",
+            "source": "financialpost"
         },
         {
-            "title": "Sensex Crashes 700 Points, Rupee Breaches 94 as US-Iran Blockade War Escalates",
+            "title": "ABP Live Pet First | High Blood Pressure In Dogs: Hidden Signs That Every Pet Owner Should Watch",
             "severity": "HIGH",
-            "url": "https://www.timesnownews.com/business-economy/markets/sensex-crashes-700-points-rupee-breaches-94-as-us-iran-blockade-war-escalates-article-154143367",
-            "image": "https://images.timesnownews.com/thumb/msid-154143370,width-1280,height-720,resizemode-75/154143370.jpg",
+            "url": "https://news.abplive.com/lifestyle/abp-live-pet-first-high-blood-pressure-in-dogs-hidden-signs-that-every-pet-owner-should-watch-1838200",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/23/d3ed61d8bb6a036a7f545813e07e7b2a1776927023489937_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "The Saudi Veto: Why Riyadh Blocked Pakistan\u2019s $1.5 Billion Arms Deal With Sudan!",
+            "severity": "HIGH",
+            "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/the-saudi-veto-why-riyadh-blocked-pakistans-15-billion-arms-deal-with-sudan-527047-2026-04-23",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/video/202604/thumbnail-original_1773.jpg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "Putin 'invited in from cold' by Trump for Miami G20 despite rejecting efforts to end war",
+            "severity": "HIGH",
+            "url": "https://www.the-express.com/news/world-news/205546/putin-invited-cold-trump-miami",
+            "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/205546_1.jpg",
+            "source": "express"
+        },
+        {
+            "title": "Iran tightens control of Hormuz after US calls off renewed attacks",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/world/middle-east/iran-tightens-control-of-hormuz-after-us-calls-off-renewed-attacks-3977933",
+            "image": "https://media.assettype.com/deccanherald/2026-04-23/q4w6u9je/file85izvfj4pp312ml73k7b.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "France April flash services PMI 46.5 vs 48.5 expected",
+            "severity": "HIGH",
+            "url": "https://investinglive.com/news/france-april-flash-services-pmi-465-vs-485-expected-20260423/",
+            "image": "https://images.investinglive.com/images/FRANCE%20FLAG_id_9a9da1ca-89d7-464c-b900-20a3f8447b5f_size975.jpg",
+            "source": "forexlive"
+        },
+        {
+            "title": "US firm\u2019s drone system integrated with military-grade engine tested, offers unmatched power",
+            "severity": "HIGH",
+            "url": "https://interestingengineering.com/military/us-drone-system-engine-tested",
+            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/04/drone-engine.jpg",
+            "source": "interestingengineering"
+        },
+        {
+            "title": "Unmatched Expertise: Why Pakistan\u2019s Drone War Failed Against India\u2019s Kutch Air Defence!",
+            "severity": "HIGH",
+            "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/unmatched-expertise-why-pakistans-drone-war-failed-against-indias-kutch-air-defence-527045-2026-04-23",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/video/202604/thumbnail-original_1771.jpg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "St George's Day flag rules as England households warned of \u00a32,500 fine",
+            "severity": "HIGH",
+            "url": "https://www.manchestereveningnews.co.uk/news/uk-news/st-georges-day-flag-rules-33821659",
+            "image": "https://i2-prod.manchestereveningnews.co.uk/news/uk-news/article33821658.ece/ALTERNATES/s615/0_England-Flag-on-Sky.jpg",
+            "source": "manchestereveningnews"
+        },
+        {
+            "title": "CPI seeks \u20b9500 crore to rebuild Peddavagu project breached in 2024 floods",
+            "severity": "HIGH",
+            "url": "https://www.thehindu.com/news/national/andhra-pradesh/cpi-seeks-500-crore-to-rebuild-peddavagu-project-breached-in-2024-floods/article70892997.ece",
+            "image": "https://images.pexels.com/photos/18254877/pexels-photo-18254877.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "thehindu"
+        },
+        {
+            "title": "South Korea fines matchmaking firm Duo $815,000 over data breach affecting 420,000 users",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/south-korea-fines-matchmaking-firm-duo-815000-over-data-breach-affecting-420000-users/articleshow/130459560.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130459556/130459556.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "European stocks inch broadly lower as Hormuz tensions remain",
+            "severity": "MEDIUM",
+            "url": "https://au.investing.com/news/stock-market-news/european-stocks-inch-broadly-lower-as-hormuz-tensions-remain-4379088",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEI1E0FU_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "'Shut up Trump': Iran mocks US president with AI-video over ceasefire extension on 'Pakistan's request'",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/world/middle-east/shut-up-trump-iran-mocks-us-president-with-ai-video-over-ceasefire-extension-on-pakistans-request/articleshow/130460081.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130460352/130460352.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "\u2018Michael\u2019 review: The King of Pop deserved honesty, not this sanitized greatest-hits reel",
+            "severity": "MEDIUM",
+            "url": "https://me.mashable.com/entertainment/70248/michael-review-the-king-of-pop-deserved-honesty-not-this-sanitized-greatest-hits-reel",
+            "image": "https://sm.mashable.com/mashable_me/photo/default/untitled-2026-04-23t124134945_m1pk.jpg",
+            "source": "mashable_me"
+        },
+        {
+            "title": "Elon Musk\u2019s remark on Australian birth rate sparks debate: \u2018Australians are becoming an endangered species\u2019",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/life-style/spotlight/elon-musks-remark-on-australian-birth-rate-sparks-debate-australians-are-becoming-an-endangered-species/articleshow/130460083.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130460326/130460326.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Geopolitical tensions impact global markets as Iran seizes vessels",
+            "severity": "MEDIUM",
+            "url": "https://www.iol.co.za/business-report/economy/geopolitical-tensions-impact-global-markets-as-iran-seizes-vessels-0299fcc5-f584-48d1-b480-8e864f419648",
+            "image": "https://images.pexels.com/photos/9494906/pexels-photo-9494906.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "iol"
+        },
+        {
+            "title": "FTSE 100 today: Stocks open lower as Middle East tensions keep pressure on markets",
+            "severity": "MEDIUM",
+            "url": "https://uk.investing.com/news/stock-market-news/ftse-100-today-stocks-open-lower-as-middle-east-tensions-keep-pressure-on-markets-4624176",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEC4J0DY_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "'Trump, Shut Up': Iran Trolls Ceasefire Extension With AI Video | WATCH",
+            "severity": "MEDIUM",
+            "url": "https://www.timesnownews.com/world/middle-east/shut-up-trump-iran-trolls-ceasefire-extension-with-ai-video-article-154144008",
+            "image": "https://images.timesnownews.com/thumb/msid-154145068,width-1280,height-720,resizemode-75/154145068.jpg",
             "source": "timesnownews"
         },
         {
-            "title": "\u2018The last thing we needed\u2019: US farmers hit by spiralling prices due to Iran war",
-            "severity": "HIGH",
-            "url": "https://www.ft.com/content/c3b70fde-3e8a-4661-a4cb-7dc1564f43b1",
-            "image": "https://images.pexels.com/photos/31334739/pexels-photo-31334739.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "financialtimes"
-        },
-        {
-            "title": "Showdown At Sea: US Blocks Iranian Oil Tankers, Tehran Seizes Ships In Hormuz As Standoff Deepens",
-            "severity": "HIGH",
-            "url": "https://www.timesnownews.com/world/middle-east/showdown-at-sea-us-blocks-iranian-oil-tankers-tehran-seizes-ships-in-hormuz-as-standoff-deepens-article-154143263",
-            "image": "https://images.timesnownews.com/thumb/msid-154143336,width-1280,height-720,resizemode-75/154143336.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Baramati Bypoll: Sunetra Pawar Steps Into Battlefield, Seeks Mandate After Ajit Pawar\u2019s Death",
-            "severity": "HIGH",
-            "url": "https://www.timesnownews.com/city/baramati-bypoll-sunetra-pawar-steps-into-battlefield-seeks-mandate-after-ajit-pawars-death-article-154143302",
-            "image": "https://images.timesnownews.com/thumb/msid-154143321,width-1280,height-720,resizemode-75/154143321.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Noida Weather: Temperatures Breach 40\u00b0C Amid Heatwave, Govt Schools To Start At 7:30am Now",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/cities/noida/noida-weather-temperatures-breach-40c-amid-heatwave-govt-schools-to-start-at-730am-now-ws-l-10051047.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/image-2026-04-deff91cc8d09c354b4db333fa768181e.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Code of Conduct Breach \u2013 Match 32: LSG vs RR - IPL T20",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLazI5N2VSMjhCbFFBcThkTnRrY0R3ZDl2Nmt6NHF1TjRtS1BOak83TVI0T0dWd0t6cjB0QllRQzB1cWs1b2NjbHVUU2x3ZU5xQy1mWWdMOGhZeG4zUU01NmMteTh4RWcxbUhfc1BVaUo5SXppR2tHSV9VOXJYS28?oc=5",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Harju Elekter Group financial results, 1-3/2026",
+            "title": "Knowledge Nugget | Model Code of Conduct: What parties can and cannot do during polls",
             "severity": "MEDIUM",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/04/23/3279529/0/en/Harju-Elekter-Group-financial-results-1-3-2026.html",
-            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Take Iran's words at \u2018face value\u2019, cautions White House amid peace talks",
-            "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/world-news/take-irans-words-at-face-value-cautions-white-house-amid-peace-talks-101776915348317.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/23/1600x900/logo/USA-TRUMP--57_1774465100135_1774465119621_1776915440821.JPG",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Iran Lists Reasons Halting Peace Talks With US, Call Out Trump's 'Hypocrisy'",
-            "severity": "MEDIUM",
-            "url": "https://www.ndtvprofit.com/world/iran-war-lists-reasons-halting-peace-talks-with-us-calls-out-trumps-hypocrisy-11396322",
-            "image": "https://c.ndtvimg.com/2026-04/j9rm2tuc_iranian-president-masoud-pezeshkian-stated-iran-supports-dialogue-and-agreements_625x300_23_April_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1080,height=607",
-            "source": "ndtv"
-        },
-        {
-            "title": "VIDEO: 2026 Acura Integra A-Spec Manual with Technology Package",
-            "severity": "WATCH",
-            "url": "https://www.detroitnews.com/videos/media/video/2026/04/23/video-2026-acura-integra-a-spec-manual-with-technology-package/89730450007/",
-            "image": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/04/22/PDTN/89730266007-acura-integra-fr.jpg?crop=3999,2251,x0,y0&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "detroitnews"
-        },
-        {
-            "title": "Food pyramid's confusing design leaves one writer baffled",
-            "severity": "WATCH",
-            "url": "https://www.detroitnews.com/story/life/food/2026/04/23/new-food-pyramid-design-leaves-writer-confused/89716470007/",
-            "image": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/04/21/PDTN/89716511007-foodnemancolumnfilepicget.jpg?crop=2999,1687,x0,y156&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "detroitnews"
-        },
-        {
-            "title": "Justin Trudeau tells CNBC that international organizations may no longer be fit for purpose. Watch live",
-            "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/04/23/justin-trudeau-canada-trade-us-trump-geopolitics-iran-war.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108295917-1776916213252-20260423_trudeau.jpg?v=1776916339&w=1200&h=675",
-            "source": "cnbc"
-        },
-        {
-            "title": "Boost your protein intake with these 3 easy tofu recipes",
-            "severity": "WATCH",
-            "url": "https://www.detroitnews.com/story/life/food/2026/04/23/tofu-recipes-for-protein-and-healthy-eating/89423030007/",
-            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/04/01/PDTN/89423216007-foodtofurecipes-2-pg-1.jpg?auto=webp&crop=2999,1687,x0,y0&format=pjpg&width=1200",
-            "source": "detroitnews"
-        },
-        {
-            "title": "Daily Briefing: Electoral battle begins in West Bengal, Tamil Nadu amid tight security",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/live-news/daily-briefing-top-news-today-10651266/",
-            "image": "https://images.indianexpress.com/2026/04/Newsletter-morning-expresso-Final-1600x900-11.jpg",
+            "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/knowledge-nugget-model-code-of-conduct-pm-modi-exit-polls-upsc-10650305/",
+            "image": "https://images.indianexpress.com/2026/04/Knowledge-Nugget-Model-Code-of-Conduct.jpg",
             "source": "indianexpress"
         },
         {
-            "title": "Daily Horoscope: April 23, 2026",
+            "title": "ENFR Can See Substantial Growth Driven By Global Gas Demand",
             "severity": "WATCH",
-            "url": "https://www.vice.com/en/article/daily-horoscope-april-23-2026/",
-            "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/04/image_b0f10e.png",
-            "source": "vice"
+            "url": "https://seekingalpha.com/article/4893193-enfr-can-see-substantial-growth-driven-by-global-gas-demand",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2215387590/image_2215387590.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
         },
         {
-            "title": "Why the Trump team\u2019s arcane economic theory won\u2019t play at the gas pumps",
+            "title": "Labour's tax hikes had FINALLY started bringing down Government borrowing despite bonanza on benefits and public sector pay... but that was before Iran chaos",
             "severity": "WATCH",
-            "url": "https://sg.news.yahoo.com/why-trump-team-arcane-economic-040051250.html",
-            "image": "https://images.pexels.com/photos/35442480/pexels-photo-35442480.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo_sg"
+            "url": "https://www.dailymail.com/news/article-15757945/Labour-tax-hikes-Government-borrowing-benefits-public-sector-pay-Iran.html",
+            "image": "https://i.dailymail.com/1s/2026/04/23/08/108093673-0-image-a-4_1776928492138.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Number of billionaires globally could reach 4,000 in next five years",
+            "title": "Annual Government borrowing drops unexpectedly to lowest in three years",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/news/2026/apr/23/billionaires-super-rich-global-wealth-gap-economy",
-            "image": "https://i.guim.co.uk/img/media/3d93cefadb568b6e6f6d119d6feca450cd4ffcdd/560_0_3560_2848/master/3560.jpg?width=140&quality=85&auto=format&fit=max&s=260551a434b2649263c274cdef882c3f",
-            "source": "theguardiantheguardian"
+            "url": "https://ca.news.yahoo.com/annual-government-borrowing-drops-unexpectedly-063525414.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/yuu7rfAMuRhHMLfcquD_tA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://media.zenfs.com/en/pa_viral_news_uk_120/418c4987593fb5d98a284a80b1465719",
+            "source": "yahoo"
         },
         {
-            "title": "Life, Liberty, and Happiness: A guide for yesterday and today?",
+            "title": "Just six inflatable 'small boats' slashed by French police to stop migrant crossings, admits minister as new deal announced",
             "severity": "WATCH",
-            "url": "https://www.brookings.edu/articles/life-liberty-and-happiness-a-guide-for-yesterday-and-today/",
-            "image": "https://www.brookings.edu/wp-content/uploads/2026/04/life-liberty-happiness.png?quality=50",
-            "source": "brookings"
+            "url": "https://www.standard.co.uk/news/politics/migrants-channel-france-deal-riot-police-small-boats-b1279686.html",
+            "image": "https://static.standard.co.uk/2026/04/23/07/01KP68R98M3D7J1EVKQAX620G0.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
         },
         {
-            "title": "Eugenia Last daily horoscopes: Virgo, stop procrastinating and push for positive change (04/23/26)",
+            "title": "Ministry to fast-track legal action against smugglers and fuel cartels",
             "severity": "WATCH",
-            "url": "https://www.mlive.com/advice/2026/04/horoscope-for-thursday-april-23-2026.html",
-            "image": "https://www.mlive.com/resizer/v2/JA2LC4PBMVBNJLU46NFQEVIDJY.jpg?auth=7b433def95c06432a275c99c94b32520cf5b083a494196e04935000cd2d5bd19&smart=true&height=1200",
-            "source": "mlive"
+            "url": "https://www.thestar.com.my/news/nation/2026/04/23/ministry-to-fast-track-legal-action-against-smugglers-and-fuel-cartels",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/23/3874249.JPG",
+            "source": "thestar_my"
         },
         {
-            "title": "Houston synagogue and Jewish day school close due to unspecified threats",
+            "title": "Apple iPad Mini 8: Should you wait for it? Price, display, OLED surprises and all you need to know",
             "severity": "WATCH",
-            "url": "https://www.jpost.com/diaspora/article-893883",
-            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "jpost"
+            "url": "https://gulfnews.com/technology/apple-ipad-mini-8-should-you-wait-for-it-price-display-oled-surprises-and-all-you-need-to-know-1.500516394",
+            "image": "https://media.assettype.com/gulfnews/2025-10-28/cj1u68gf/_1x_1.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
         },
         {
-            "title": "How to find a career you love \u2013 for gen Z and everyone else: \u2018You don\u2019t want your life\u2019s compass to be dread\u2019",
+            "title": "India's medical AI moment: Where tech meets talent and codes become the cure",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/us-news/2026/apr/23/jodi-kantor-interview-how-to-start-gen-z-careers-jobs",
-            "image": "https://i.guim.co.uk/img/media/b9bc63e070fd1cbe19436e1b731e5060702d9e16/528_1539_6232_4988/master/6232.jpg?width=140&quality=85&auto=format&fit=max&s=16e900bfd0aee703132c6b16c6794a4b",
-            "source": "theguardiantheguardian"
+            "url": "https://www.firstpost.com/tech/indias-medical-ai-moment-where-tech-meets-talent-and-codes-become-the-cure-ws-e-14003511.html",
+            "image": "https://images.firstpost.com/uploads/2026/04/image-2026-04-796c494d7010e0cc077168e605c3a4d3-1200x675.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "\u2018Lawrence is karma\u2019: the gangster who became an icon of Modi\u2019s India",
+            "title": "Finnish Trainee Pilots Sketch Giant P**is-Shaped Flight Path In Sky",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/world/2026/apr/23/lawrence-bishnoi-gangster-icon-modi-india",
-            "image": "https://i.guim.co.uk/img/media/eae6e469b2f59e6fb742b53f0bfeff7f775676b6/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=41b0f40d3f11e6ad3e887e80c88159fe",
-            "source": "theguardiantheguardian"
+            "url": "https://www.timesnownews.com/viral/finnish-trainee-pilots-sketch-giant-explicit-shaped-flight-path-in-sky-article-154144923",
+            "image": "https://images.timesnownews.com/thumb/msid-154145164,width-1280,height-720,resizemode-75/154145164.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "Why is stock market falling today? Sensex plunges 800 pts, Nifty breaks 24,200. Key reasons behind the selloff",
+            "title": "'Disgusted' Neil Robertson facing punishment for unusual World Championship incident",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-stock-market-falling-today-sensex-plunges-800-pts-nifty-breaks-24200-key-reasons-behind-the-selloff/articleshow/130456345.cms",
-            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-111036,resizemode-75,msid-130456345/markets/stocks/news/why-is-stock-market-falling-today-sensex-plunges-800-pts-nifty-breaks-24200-key-reasons-behind-the-selloff.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "On The Up: Diesel storage project races ahead at Marsden Point, Northland",
-            "severity": "WATCH",
-            "url": "https://www.nzherald.co.nz/northern-advocate/news/on-the-up-diesel-storage-project-races-ahead-at-marsden-point-northland/GPBXJPVC5VA7FFPQFCSIVAM5JA/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/XR63A5554RFRTLGFYN6IB6DO6I.jpg?auth=e443e1f707b294d171688956668315fd68e22e2e70e1332059903993110821e4&smart=true&width=300&height=300",
-            "source": "nzherald"
-        },
-        {
-            "title": "Media advisory: MSU to host first Apple Manufacturing Academy Spring Forum, tours",
-            "severity": "WATCH",
-            "url": "https://msutoday.msu.edu/news/2026/04/apple-spring-forum-media-advisory",
-            "image": "https://msu-p-001.sitecorecontenthub.cloud/api/public/content/open-graph-85744dafcd9e426196bb2379731e9209?v=a3af5e42",
-            "source": "msutoday"
-        },
-        {
-            "title": "Boeing posts smaller-than-expected loss as recovery gains traction",
-            "severity": "WATCH",
-            "url": "https://www.postandcourier.com/business/boeing-posts-smaller-than-expected-loss-as-recovery-gains-traction/article_01bbe6e5-4ecb-4054-8d3d-a810a14af4d6.html",
-            "image": "https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/custom/image/6903687a-a7dc-11e9-896c-0bef6d6c9301.jpg?resize=600%2C314",
-            "source": "postandcourier"
-        },
-        {
-            "title": "\u2018Impossible\u2019: Iran rejects reopening Strait of Hormuz, accuses US of ceasefire violations",
-            "severity": "WATCH",
-            "url": "https://english.mathrubhumi.com/news/world/iran-seizes-msc-francesca-epaminondas-strait-of-hormuz-trump-ceasefire-extension-navy-secretary-resigns-c910ihwz",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qnea5s4r0l9fkc918p/0/strait-of-hormuz-blockade-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
-        },
-        {
-            "title": "Gold Remains India's Most Trusted Store Of Wealth: Here's Why",
-            "severity": "WATCH",
-            "url": "https://www.ndtvprofit.com/markets/gold-remains-indias-most-trusted-store-of-wealth-heres-why-11396286",
-            "image": "https://c.ndtvimg.com/2026-04/tjic5r34_buying-gold-on-akshaya-tritiya_625x300_18_April_26.jpg?im=FitAndFill,algorithm=dnn,width=1080,height=607",
-            "source": "ndtv"
-        },
-        {
-            "title": "Kyle Sandilands berated Kiis FM listeners and bosses in expletive-laden rants, court documents claim",
-            "severity": "WATCH",
-            "url": "https://www.theguardian.com/media/2026/apr/23/kyle-sandilands-kiis-fm-rants-court-documents-ntwnfb",
-            "image": "https://i.guim.co.uk/img/media/c55995ac79fa3592e70e1991c14c63f0a9f784f8/703_0_7857_6286/master/7857.jpg?width=140&quality=85&auto=format&fit=max&s=b32db2bc8b77dac6eecc7143b86f178a",
-            "source": "theguardian"
+            "url": "https://www.express.co.uk/sport/othersport/2197350/Neil-Robertson-World-Snooker-Championship-punishment",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/4/590x/2197350_1.jpg",
+            "source": "expresscouk"
         }
     ],
-    "Last_Updated": "2026-04-23T16:02:47.276887Z"
+    "Last_Updated": "2026-04-23T19:21:41.501627Z"
 }
