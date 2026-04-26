@@ -1,274 +1,232 @@
 {
-    "AGRI_Score": 65.4,
-    "Velocity": "+1.6",
+    "AGRI_Score": 63.1,
+    "Velocity": "-2.3",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 65.4/100 reflects a significantly elevated risk landscape, predominantly driven by severe pressures in Geopolitical Conflict Intensity (84.1) and acute Energy & Maritime Disruption (92.6). Persistent high-intensity conflict is evident with \"Russian attacks on Ukraine kill at least five, damage ship in port\" and \"Zelensky accuses Russia of 'nuclear terrorism' on Chernobyl anniversary,\" escalating global tensions. Concurrently, the aviation sector faces critical challenges as \"Virgin Atlantic boss says aviation industry 'cannot absorb' jet fuel prices 'at these levels',\" indicating widespread economic strain from energy costs.",
+    "AI_Brief": "The current AGRI score of 63.1 reflects a significantly elevated risk landscape, predominantly driven by acute disruptions in energy and maritime trade coupled with escalating geopolitical tensions. The \"Energy & Maritime Disruption\" pillar stands at an alarming 92.6, directly influenced by the \"HORMUZ TRACKER: Traffic Halted With Blockades Firmly in Place,\" which has led to warnings of \"Price hikes due to Iran war will be felt for at least eight months after conflict ends.\" This severe impact is compounded by \"Geopolitical Conflict Intensity\" at 76.7, signifying widespread instability with profound economic ripple effects, including a \"UN Warns Fertiliser Disruption From Strait Of Hormuz Closure May Trigger Hunger Crisis.\" The convergence of these high-severity risks necessitates ongoing, active monitoring.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 84.1,
+        "Geopolitical Conflict Intensity": 76.7,
         "Energy & Maritime Disruption": 92.6,
-        "Trade & Supply Chain Stress": 66.1,
+        "Trade & Supply Chain Stress": 65.4,
         "Sovereign Financial Stress": 53.4,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 66.2,
+        "Sanctions & Regulatory Fragmentation": 55.3,
+        "Cyber & Infrastructure Threats": 60.6,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Global geopolitical tensions are at a critical level, driven by escalating conflicts and nuclear proliferation concerns in key regions. The persistent Russian attacks in Ukraine and Iran's unwavering stance on enriched uranium, as per \"Why Iran\u2019s 60 per cent enriched uranium is non-negotiable,\" indicate a very high probability of further destabilization.",
-        "Energy & Maritime Disruption": "Energy markets are experiencing extreme price volatility, particularly impacting the aviation sector, which is struggling with unmanageable jet fuel costs, according to \"Virgin Atlantic boss says aviation industry 'cannot absorb' jet fuel prices 'at these levels'.\" Maritime infrastructure also faces direct threats from ongoing conflicts, with \"Russian attacks on Ukraine kill at least five, damage ship in port\" highlighting continued operational risks.",
-        "Trade & Supply Chain Stress": "Trade and supply chains face moderate stress, primarily from elevated energy costs and conflict-induced disruptions to critical port infrastructure. While companies like AiMOGA Robotics are expanding into new markets, these strategic responses have not yet fully mitigated existing pressures.",
-        "Sovereign Financial Stress": "Sovereign financial systems are under moderate pressure, navigating external shocks from regions like West Asia. While some economies, such as India, demonstrate resilience in demand, the overarching global environment presents ongoing challenges to fiscal health, as noted in the \"Weekly economy wrap: West Asia shock tests India, demand holds firm.\"",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressures are currently at a level warranting routine monitoring, with no immediate severe indicators reported. However, the elevated geopolitical and energy risks could translate into future financial market volatility, necessitating continued vigilance.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation is moderate, shaped by ongoing geopolitical tensions and the internal security responses of heavily sanctioned nations. The execution of a man in Iran for armed rebellion reflects the strict internal enforcement within a heavily sanctioned state, and the persistent lack of diplomatic breakthroughs suggests that diverging regulatory landscapes will continue to pose challenges.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are concerningly high, with substantial data breaches demonstrating significant vulnerabilities across various sectors. The theft of \"personal data of 350,000 engineers\" and the \"UK Biobank leak: Health details of 500 000 people are offered for sale\" highlight severe digital security lapses, while a \"Major fire breaks out at RAF Fairford\" indicates physical infrastructure risks.",
-        "Climate & Resource Shock": "Climate and resource shocks are at a low-risk level, with current news indicating forward-looking sustainability discussions and strategic energy resource development. The \"UAE agriculture conference turns focus to future sustainability\" and \"NTPC Exploring 2 Nuclear Power Units\" show proactive planning rather than immediate crises."
+        "Geopolitical Conflict Intensity": "Intense regional conflict is evident with \"HORMUZ TRACKER: Traffic Halted With Blockades Firmly in Place,\" indicating direct military or blockade action. Further, the \"Iran must rollback its nuclear, missile program - opinion\" headline signals ongoing high-stakes diplomatic and military pressure points.",
+        "Energy & Maritime Disruption": "The Strait of Hormuz remains a critical choke point, with \"HORMUZ TRACKER: Traffic Halted With Blockades Firmly in Place\" indicating a severe halt to traffic. This disruption is projected to cause long-term economic pain, as ministers warn \"Price hikes due to Iran war will be felt for at least eight months after conflict ends.\"",
+        "Trade & Supply Chain Stress": "The complete halt of traffic in the Strait of Hormuz, as reported by the \"HORMUZ TRACKER,\" presents a significant immediate disruption to global trade routes. Compounding this, \"Internal government files reveal fears of widespread flight cancellations and supply chain collapse across Australia as perfect storm hits,\" highlighting broader systemic fragilities.",
+        "Sovereign Financial Stress": "Projections of sustained economic pressure are clear, with warnings that \"Higher food and fuel prices could last for more than eight months after Iran war ends.\" This long-term inflationary outlook directly threatens national budgets and macroeconomic stability.",
+        "Currency & Liquidity Pressure": "The anticipated duration of \"Higher food and fuel prices\" for more than eight months will exert persistent inflationary pressure across economies. Such sustained inflation could lead to currency depreciation and necessitate tighter liquidity conditions from central banks to manage price stability.",
+        "Sanctions & Regulatory Fragmentation": "The call for \"Iran must rollback its nuclear, missile program - opinion\" suggests a looming potential for new or expanded international sanctions if diplomatic efforts fail. Concurrently, \"China and Myanmar vow more trade and security cooperation\" hints at efforts to create alternative trade blocs that could fragment existing regulatory frameworks.",
+        "Cyber & Infrastructure Threats": "Heightened security concerns are demonstrated by the \"UK In Touch With US Ahead Of King Charles' Visit Amid Trump Security Breach,\" indicating a broad threat environment that often includes cyber components. Furthermore, \"Internal government files reveal fears of widespread flight cancellations and supply chain collapse across Australia\" point to potential vulnerabilities in critical national infrastructure.",
+        "Climate & Resource Shock": "The \"UN Warns Fertiliser Disruption From Strait Of Hormuz Closure May Trigger Hunger Crisis\" directly illustrates a critical resource shock with immediate humanitarian implications. This major disruption to a vital agricultural input underscores the severe fragility of global resource allocation under geopolitical stress."
     },
     "All_Alerts": [
         {
-            "title": "Why Iran\u2019s 60 per cent enriched uranium is non-negotiable",
+            "title": "HORMUZ TRACKER: Traffic Halted With Blockades Firmly in Place",
             "severity": "HIGH",
-            "url": "https://www.firstpost.com/opinion/iran-60-percent-enriched-uranium-non-negotiable-14004529.html",
-            "image": "https://images.firstpost.com/uploads/2026/03/isfahan1-2026-03-175f45800d5abeaa6d8acfdd09490ad0.jpg",
-            "source": "firstpost"
+            "url": "https://ca.finance.yahoo.com/news/hormuz-tracker-traffic-halted-blockades-104736578.html",
+            "image": "https://media.zenfs.com/en/bloomberg_holding_pen_162/633b16d4f5f3f6a5d727a731d86b00f7",
+            "source": "yahoo"
         },
         {
-            "title": "NTPC Exploring 2 Nuclear Power Units Of 1,400 MW In Banka District Of Bihar",
+            "title": "Price hikes due to Iran war will be felt for at least eight months after conflict ends, minister warns",
             "severity": "HIGH",
-            "url": "https://www.ndtvprofit.com/business/ntpc-exploring-2-nuclear-power-units-of-1-400-mw-in-banka-district-of-bihar-11410940",
-            "image": "https://c.ndtvimg.com/2026-02/jie8aejc_nuclear-energy-unsplash_625x300_12_February_26.jpg?im=FeatureCrop,algorithm=dnn,width=1080,height=607",
+            "url": "https://ca.news.yahoo.com/price-hikes-due-iran-war-100257435.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/dnWGKrGSArsyD1bXq2KK6g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjQ0O2NmPXdlYnA-/https://media.zenfs.com/en/the_independent_577/de859f51adf727024a101507576d089a",
+            "source": "yahoo"
+        },
+        {
+            "title": "Higher food and fuel prices could last for more than eight months after Iran war ends, Darren Jones warns",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/higher-food-fuel-prices-could-103800851.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/6ZswmW5a_4OOd8eqeejg5Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyODA7aD03NjA7Y2Y9d2VicA--/https://media.zenfs.com/en/sky.com/5fd99b5290f54f9a7c99bf2a9da561e3",
+            "source": "yahoo"
+        },
+        {
+            "title": "Internal government files reveal fears of widespread flight cancellations and supply chain collapse across Australia as perfect storm hits",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.com/news/article-15761029/australia-flights-cancellations-fuel-prices-supply-chain.html",
+            "image": "https://i.dailymail.com/1s/2026/04/26/06/108168139-0-image-a-38_1777180468249.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "UN Warns Fertiliser Disruption From Strait Of Hormuz Closure May Trigger Hunger Crisis",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/news/world/us-iran-war-news-live-un-warns-fertiliser-disruption-from-strait-of-hormuz-closure-may-trigger-hunger-crisis-1838829",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/22/fb0c7d3e1ca05915f2485bb0099325cc17768361648601200_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "UK In Touch With US Ahead Of King Charles' Visit Amid Trump Security Breach",
+            "severity": "HIGH",
+            "url": "https://www.ndtv.com/world-news/uk-in-touch-with-us-ahead-of-king-charles-visit-amid-trump-security-breach-11411273",
+            "image": "https://c.ndtvimg.com/2025-09/iot7i12g_trump-charles-afp_625x300_18_September_25.jpeg?im=FitAndFill,algorithm=dnn,width=1200,height=738",
             "source": "ndtv"
         },
         {
-            "title": "Russian attacks on Ukraine kill at least five, damage ship in port",
+            "title": "AAP Moves RS Chairman, Seeks Disqualification of 7 Rebel MPs",
             "severity": "HIGH",
-            "url": "https://www.aljazeera.com/news/2026/4/26/russian-strikes-kill-at-least-five-civilians-across-ukraine",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/AFP__20260425__A8XQ99E__v1__MidRes__UkraineRussiaConflictWar-1777190039.jpg?resize=1200%2C630",
-            "source": "aljazeera_us"
+            "url": "https://www.timesnownews.com/india/aap-moves-rajya-sabha-chairman-seeks-disqualification-of-7-rebel-mps-article-154173556",
+            "image": "https://images.timesnownews.com/thumb/msid-154173543,width-1280,height-720,resizemode-75/154173543.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "\u2018He refused to say that there was no radiation and no danger to the population'",
+            "title": "Iran must rollback its nuclear, missile program - opinion",
             "severity": "HIGH",
-            "url": "https://www.rfi.fr/en/international/20260426-he-refused-to-say-that-there-was-no-radiation-and-no-danger-to-the-population-chernobyl",
-            "image": "https://s.rfi.fr/media/display/90318318-3e3a-11f1-ae04-005056bf30b7/w:1280/p:16x9/Pr-Kindzelski-his-team-and-the-survivors-of-Chernobyl.jpg",
-            "source": "rfi_fr"
+            "url": "https://www.jpost.com/opinion/article-893807",
+            "image": "https://images.pexels.com/photos/7594407/pexels-photo-7594407.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "jpost"
         },
         {
-            "title": "Zelensky accuses Russia of 'nuclear terrorism' on Chernobyl anniversary",
-            "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/world/3244314/zelensky-accuses-russia-of-nuclear-terrorism-on-chernobyl-anniversary",
-            "image": "https://static.bangkokpost.com/media/content/20260426/c1_6066009.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Iran war live: Trump says White House Press Dinner shooting won't stop him 'winning'",
-            "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/news/us-news/trump-shooting-iran-war-live-37071201",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37071211.ece/ALTERNATES/s615/0_BESTPIX-President-Trump-Makes-a-Statement-From-White-House-After-Possible-Shooting-At-WHCA-Din.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Iran executes man over membership in jihadist group, armed rebellion",
-            "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/iran-executes-man-over-membership-in-jihadist-group-armed-rebellion/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/01/AFP__20260131__94PC4G6__v1__HighRes__FranceIranPoliticsDemo.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Chernobyl could have destroyed all of Europe. How this 3-man 'suicide squad' prevented that",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/explainers/chernobyl-nuclear-disaster-3-man-suicide-squad-saved-europe-14003245.html",
-            "image": "https://images.firstpost.com/uploads/2026/04/chernobyl1-2026-04-1c4aefb0cd87157f96c9d3ac38a58961.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "AiMOGA Robotics Expands into Vietnam, OMODA&JAECOO Unlock New Smart Ecosystem Layout",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/04/g52052307/aimoga-robotics-expands-into-vietnam-omoda-jaecoo-unlock-new-smart-ecosystem-layout",
+            "title": "OMODA&JAECOO Brings OMODA 4 and OMODA 7 to Auto China 2026 in a Show of Global Strength",
+            "severity": "MEDIUM",
+            "url": "https://www.benzinga.com/pressreleases/26/04/g52052476/omoda-jaecoo-brings-omoda-4-and-omoda-7-to-auto-china-2026-in-a-show-of-global-strength",
             "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
             "source": "benzinga"
         },
         {
-            "title": "Virgin Atlantic boss says aviation industry 'cannot absorb' jet fuel prices 'at these levels' after tickets rise by up to \u00a3360",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-15766281/Virgin-Atlantic-boss-aviation-jet-fuel-prices-tickets-rise.html",
-            "image": "https://i.dailymail.com/1s/2026/04/26/09/108169307-0-image-a-5_1777191804911.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Major fire breaks out at RAF Fairford",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/major-fire-raf-fairford-084241667.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/Qbpzw81ffo.A0o5NOpj8_Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_telegraph_818/8c349a7342456b0caebba1527b12c59f",
-            "source": "yahoo"
-        },
-        {
-            "title": "Hacker steals personal data of 350,000 engineers",
-            "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/thailand/general/3244315/hacker-steals-personal-data-of-350000-engineers",
-            "image": "https://static.bangkokpost.com/media/content/20260426/c1_3244315.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Re: UK Biobank leak: Health details of 500 000 people are offered for sale on Chinese website",
-            "severity": "HIGH",
-            "url": "https://www.bmj.com/content/393/bmj.s781/rr-0",
-            "image": "https://www.bmj.com/sites/default/files/highwire/bmj/393/8486.cover-source.jpg",
-            "source": "bmj"
-        },
-        {
-            "title": "In UP chessboard, SP\u2019s latest move: Women-led push to breach BJP allies\u2019 base",
-            "severity": "HIGH",
-            "url": "https://indianexpress.com/article/political-pulse/in-up-chessboard-sps-latest-move-women-led-push-to-breach-bjp-allies-base-10656618/",
-            "image": "https://images.indianexpress.com/2026/04/akhilesh.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Chaos at WH Correspondents' Dinner as Trump evacuated after breach",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/world/chaos-at-wh-correspondents-dinner-as-trump-evacuated-after-breach-articleshow-445fvf5",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-6a49fb98-b0da-44d8-8cf6-b44822ef3c47.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "A Hotel that refuses to forget: Two Presidents, 48 years apart; Hilton\u2019s uncanny deja vu moment",
-            "severity": "HIGH",
-            "url": "https://zeenews.india.com/world/a-hotel-that-refuses-to-forget-two-presidents-48-years-apart-hilton-s-uncanny-deja-vu-moment-3041141.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/04/26/1936073-custom-size-2026-04-26t135120.311.png?im=Resize=(1200,900)",
-            "source": "zeenews"
-        },
-        {
-            "title": "Weekly economy wrap: West Asia shock tests India, demand holds firm",
+            "title": "Where \u2018Amby\u2019 once rolled, CPI(M) centres campaign on unemployment to reclaim ground",
             "severity": "MEDIUM",
-            "url": "https://www.business-standard.com/economy/news/weekly-economy-wrap-west-asia-shock-india-oil-prices-pmi-exports-us-trade-126042600320_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/hp/home-page/2026-04/26/9343/full/1775842301-3458.jpg",
-            "source": "business-standard"
+            "url": "https://www.deccanherald.com/elections/west-bengal/where-amby-once-rolled-cpim-centres-campaign-on-unemployment-to-reclaim-ground-3981518",
+            "image": "https://media.assettype.com/deccanherald/2026-04-26/0i5hpxrn/HGmkM72aMAAc6lS.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "King\u2019s security for US state visit to be reviewed after shooting at Trump dinner",
+            "title": "Dubai university offers up to 100% scholarships for UAE, GCC students amid regional disruption",
             "severity": "MEDIUM",
-            "url": "https://www.independent.co.uk/news/uk/politics/donald-trump-shooting-king-charles-state-visit-b2965101.html",
-            "image": "https://static.independent.co.uk/2026/04/23/17/2235429001.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "url": "https://www.khaleejtimes.com/uae/de-montfort-university-dubai-scholarships-relief-measures-in-person-learning",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes/import/images/vwe2kq_eNHa82fGBOgKa_GfO4AQ.jpg",
+            "source": "khaleejtimes"
         },
         {
-            "title": "UAE agriculture conference turns focus to future sustainability",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/uae/environment/uae-agriculture-conference-turns-focus-to-future-sustainability-1.500519581",
-            "image": "https://media.assettype.com/gulfnews/2026-04-26/v44kd0zb/IMG4762.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "Ex-Sunderland man brings the energy as Albion head for season finale",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/ex-sunderland-man-brings-energy-084427240.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/uLH0o9Pu.94RQosG6Qw4Rg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_argus_uk_644/97073f0ec4cff094d00883bc56047439",
-            "source": "yahoo"
-        },
-        {
-            "title": "\u2018Michael\u2019 shines onstage but sidesteps depth",
-            "severity": "WATCH",
-            "url": "https://entertainment.inquirer.net/665440/michael-shines-onstage-but-sidesteps-depth",
-            "image": "https://entertainment.inquirer.net/files/2026/04/Michael_4stills-700x467.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Why engineering-led construction still matters in modern real estate",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/real-estate/news/why-engineering-led-construction-still-matters-in-modern-real-estate/articleshow/130528465.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130528506/130528506.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Heroes, zeros from Knicks\u2019 Game 4 win over Hawks: Atlanta star shut down by OG Anunoby",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/04/26/sports/heroes-zeros-from-knicks-game-4-win-over-hawks/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F04%2FJalen-Johnson.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Trump health: POTUS' discolored hand triggers fresh questions after Florida appearance, \u2018Looking worse than...\u2019",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/trump-health-potus-discolored-hand-triggers-fresh-questions-after-florida-appearance-looking-worse-than-101777156476677.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/25/1600x900/logo/US-PRESIDENT-TRUMP-RETURNS-TO-WASHINGTON-19_1777158117426_1777158124504.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Russian defence minister visits North Korea",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/news/world/2026/04/26/russian-defence-minister-visits-north-korea",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/26/3878619.jpg",
+            "title": "China and Myanmar vow more trade and security cooperation",
+            "severity": "MEDIUM",
+            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/26/china-and-myanmar-vow-more-trade-and-security-cooperation",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/26/3878811.jpg",
             "source": "thestar_my"
         },
         {
-            "title": "Tractor Supply: Unclear Future Ahead",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4894400-tractor-supply-unclear-future-ahead",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1305391534/image_1305391534.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "title": "Drivers risk \u00a310,000 fines as 'most common' driving offence soars on UK roads",
+            "severity": "MEDIUM",
+            "url": "https://www.birminghammail.co.uk/motoring/motoring-news/drivers-risk-10000-fines-most-33806883",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article33806885.ece/ALTERNATES/s615/0_traffic.jpg",
+            "source": "birminghammail"
         },
         {
-            "title": "The Tim Cook era: How Apple became a $4 trillion empire through several hits and a few misses",
+            "title": "India\u2019s First Indigenous Bullet Train Set For 2027 Debut: A Big Leap For High-Speed Rail",
             "severity": "WATCH",
-            "url": "https://indianexpress.com/article/technology/opinion-technology/tim-cook-era-apple-empire-hits-and-misses-10656569/",
-            "image": "https://images.indianexpress.com/2026/04/Tech-featured-image203.jpg",
-            "source": "indianexpress"
+            "url": "https://www.news18.com/lifestyle/travel/indias-first-indigenous-bullet-train-set-for-2027-debut-a-big-leap-for-high-speed-rail-10058385.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/02/Untitled-design-20-2026-02-900a1a1058e0fdf34e6401e9b4b4eb5c-3x2.png",
+            "source": "news18"
         },
         {
-            "title": "Why Strait of Hormuz disruption is more severe for global LNG markets than for oil",
+            "title": "Power Integrations (POWI) Soars 25% Ahead of Earnings Outcome",
             "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/why-strait-hormuz-disruption-more-083809137.html",
-            "image": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
+            "url": "https://ca.finance.yahoo.com/news/power-integrations-powi-soars-25-104414149.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/VT4sa70w.fBgTVh8X425lQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE1MzY7aD0xMDI0/https://media.zenfs.com/en/insidermonkey.com/2f81169e56709ee578124845f2ca360c",
             "source": "yahoo"
         },
         {
-            "title": "FTA with New Zealand to benefit Agra's leather exporters: Piyush Goyal",
+            "title": "BGR: Renewed Growth Catalyst Can Improve Earnings (Rating Upgrade)",
             "severity": "WATCH",
-            "url": "https://www.business-standard.com/economy/news/fta-with-new-zealand-to-benefit-agra-s-leather-exporters-piyush-goyal-126042600307_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260426/thumb-126042600307.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Delta CEO Ed Bastian sparks backlash after revealing what\u2019s really driving sky-high ticket prices",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/04/26/lifestyle/delta-ceo-ed-bastian-sparks-backlash-after-revealing-whats-really-driving-sky-high-ticket-prices/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F04%2FAdobeStock_1315284.jpeg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Fox News fans rage 'none of this makes sense' as WHCD shooter's huge weapons stash exposed",
-            "severity": "WATCH",
-            "url": "https://www.the-express.com/entertainment/tv/205775/cole-tomas-allen-washington-shooting",
-            "image": "https://cdn-images.the-express.com/img/dynamic/22/590x/205775_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "Dangerous Rise In Political Violence: Musk On White House Correspondents\u2019 Dinner Shooting",
-            "severity": "WATCH",
-            "url": "https://ommcomnews.com/world-news/dangerous-rise-in-political-violence-musk-on-white-house-correspondents-dinner-shooting/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/04/28-1.jpg",
-            "source": "ommcomnews"
-        },
-        {
-            "title": "Who is Cole Allen, the California teacher arrested after opening fire at the White House Correspondents\u2019 Dinner with Trump",
-            "severity": "WATCH",
-            "url": "https://english.elpais.com/usa/2026-04-26/who-is-cole-allen-the-california-teacher-arrested-after-opening-fire-at-the-white-house-correspondents-dinner-with-trump.html",
-            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "elpais"
-        },
-        {
-            "title": "Coupang: Mounting Costs And Slowing Growth Weigh On Margins",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4894398-mounting-costs-slowing-growth-threaten-coupangs-stock-margins",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1312190830/image_1312190830.jpg?io=getty-c-w1280",
+            "url": "https://seekingalpha.com/article/4894410-bgr-renewed-growth-catalyst-can-improve-earnings-rating-upgrade",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/885294104/image_885294104.jpg?io=getty-c-w1280",
             "source": "seekingalpha"
         },
         {
-            "title": "After years of boycott, Trump attends White House Correspondents\u2019 Dinner \u2013 Why now?",
+            "title": "I lost four stone, the visceral fat on my tummy and kickstarted my stagnant post-menopausal metabolism with this bone broth and olive oil diet. And you can meal prep it all from Sunday roast leftovers",
             "severity": "WATCH",
-            "url": "https://zeenews.india.com/world/after-years-of-boycott-trump-attends-white-house-correspondents-dinner-why-now-3041142.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/04/26/1936076-los-angeles-protest-1.jpg?im=Resize=(1200,900)",
-            "source": "zeenews"
+            "url": "https://www.dailymail.com/lifestyle/article-15766401/I-lost-four-stone-visceral-fat-tummy-kickstarted-stagnant-post-menopausal-metabolism-bone-broth-olive-oil-diet-you-meal-prep-Sunday-roast-leftovers.html",
+            "image": "https://i.dailymail.com/1s/2026/04/26/11/108170285-0-image-a-9_1777198004032.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Women born on these dates are most likely to be ideal Godmother figures",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/astrology/numerology-tarot/women-born-on-these-dates-are-most-likely-to-be-ideal-godmother-figures/articleshow/130530092.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130530121/130530121.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "12 Years Later, Sci-Fi\u2019s Biggest Masterpiece Still Hasn\u2019t Been Adapted Like It Deserves",
+            "severity": "WATCH",
+            "url": "https://collider.com/red-rising-books-movie-tv-show-adaptation-status-pierce-brown/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/04/red-rising-official-special-edition-bastien-lecouffe-deharme.jpg?w=1200&h=675&fit=crop",
+            "source": "collider"
+        },
+        {
+            "title": "St George's Day parade LIVE as thousands head into Manchester city centre for spectacle",
+            "severity": "WATCH",
+            "url": "https://www.manchestereveningnews.co.uk/whats-on/whats-on-news/st-georges-day-parade-live-33828824",
+            "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33828847.ece/ALTERNATES/s615/0_Gary-OakleyManchester-Evening-News.jpg",
+            "source": "manchestereveningnews"
+        },
+        {
+            "title": "The Strait of Hormuz and the \u2018tadka\u2019 of geopolitics",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/opinion/columns/the-strait-of-hormuz-lpg-condom-coke-cooking-urea-war-iran-10656739/",
+            "image": "https://images.indianexpress.com/2026/04/Diet-Coke-shortage-in-India.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "UAE launches Dh1 billion national fund to support vital industries",
+            "severity": "WATCH",
+            "url": "https://gulfnews.com/uae/government/uae-launches-dh1-billion-national-fund-to-support-vital-industries-1.500519661",
+            "image": "https://media.assettype.com/gulfnews/2024-11-18/ap6vu9jq/UAEECONOMY2019_resources1_16a3106b387_original_ratio.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Advanced Micro (AMD) Climbs 25% as Analyst Goes Bullish, Hikes PT by 70%",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/advanced-micro-amd-climbs-25-104058407.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/wjnr0hFuODVovrQ6SSGXEg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE1MDA7aD0xMDAw/https://media.zenfs.com/en/insidermonkey.com/492c62347921e61d07d7596a47309de2",
+            "source": "yahoo"
+        },
+        {
+            "title": "Sales Of Affordable Homes Down 23% In January-March In Top Eight Cities: Knight Frank",
+            "severity": "WATCH",
+            "url": "https://www.ndtvprofit.com/economy/sales-of-affordable-homes-down-23-per-cent-in-january-march-in-top-eight-cities-knight-frank-11411206",
+            "image": "https://c.ndtvimg.com/2026-04/rnjlhp84_housing-apartment-_625x300_26_April_26.jpg?im=FitAndFill,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
+        },
+        {
+            "title": "Legendary photographer Raghu Rai passes away: Why he felt colour photos lacked seriousness, he told HT",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/legendary-photographer-raghu-rai-passes-away-why-he-felt-colour-photos-lacked-seriousness-he-told-ht-101777199283070.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/26/1600x900/logo/raghu_raiii_1777199767624_1777199774621.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "We live next door to \u2018Real Slim Shady\u2019... he and his \u2018XL Bullies\u2019 have left us scared to even step outside our own homes",
+            "severity": "WATCH",
+            "url": "https://www.thesun.co.uk/news/38881143/marshall-mathers-xl-bullys-scare-neighbours-at-home/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F04%2Fmar_922095.png",
+            "source": "thesun"
+        },
+        {
+            "title": "Herzog not planning to pardon Netanyahu anytime soon, wants to negotiate plea deal - report",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-894167",
+            "image": "https://images.pexels.com/photos/23913923/pexels-photo-23913923.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "jpost"
+        },
+        {
+            "title": "Did Rapido Break Apple's Security Code? A Report",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/technology-science/did-rapido-break-apples-security-code-a-report-article-154173541",
+            "image": "https://images.timesnownews.com/thumb/msid-154173552,width-1280,height-720,resizemode-75/154173552.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Parrots are 'wild animals', rules HC; orders Maharashtra govt to compensate farmer for crop damage",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/india/parrots-are-wild-animals-rules-hc-orders-maharashtra-govt-to-compensate-farmer-for-crop-damage/articleshow/130529953.cms",
+            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-2034158,resizemode-75,msid-130529953/news/india/parrots-are-wild-animals-rules-hc-orders-maharashtra-govt-to-compensate-farmer-for-crop-damage.jpg",
+            "source": "economictimes_indiatimes"
         }
     ],
-    "Last_Updated": "2026-04-26T20:49:22.061611Z"
+    "Last_Updated": "2026-04-26T22:48:19.170074Z"
 }
