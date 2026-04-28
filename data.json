@@ -1,211 +1,216 @@
 {
-    "AGRI_Score": 61.9,
-    "Velocity": "-0.7",
+    "AGRI_Score": 61.6,
+    "Velocity": "-0.3",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 61.9/100 reflects a significantly elevated risk environment, primarily driven by severe Energy & Maritime Disruption and heightened Geopolitical Conflict Intensity. Warnings from UK Labour leader Starmer regarding the \"Iran war impact on UK\" underscore the potential for regional conflicts to disrupt global energy flows and consumer markets. The specific mention of Iran's \"red lines\" concerning the Strait of Hormuz indicates continued high stakes for critical maritime chokepoints, reinforcing the elevated risk profile.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.4,
+        "Geopolitical Conflict Intensity": 71.0,
         "Energy & Maritime Disruption": 92.6,
-        "Trade & Supply Chain Stress": 63.9,
+        "Trade & Supply Chain Stress": 70.9,
         "Sovereign Financial Stress": 53.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 54.5,
-        "Cyber & Infrastructure Threats": 65.3,
+        "Sanctions & Regulatory Fragmentation": 59.4,
+        "Cyber & Infrastructure Threats": 58.6,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The intensity remains high due to escalating rhetoric around potential conflicts, as evidenced by \"Starmer issues warning about Iran war impact on UK despite attempts to reassure public.\" Furthermore, active extremist violence persists, with \"Islamic State militants kill at least 29 in an attack on a village in northeastern Nigeria,\" indicating persistent non-state actor threats.",
-        "Energy & Maritime Disruption": "Risk is critically high, largely due to potential ramifications from regional conflicts. The news that \"Iran passed 'written messages' to US spelling out its 'red lines' \u2014 uranium, Hormuz\" highlights the critical risk to maritime trade through this key chokepoint. Broader impacts on consumer behavior and holiday plans are also anticipated should an \"Iran war\" escalate, as warned by Starmer.",
-        "Trade & Supply Chain Stress": "Elevated stress is anticipated due to the potential spillover effects of geopolitical tensions. \"Starmer says Iran war could impact shopping habits and holiday plans\" directly links conflict to consumer demand and the subsequent strain on supply chains. Businesses should anticipate potential shifts in market dynamics and logistical challenges.",
-        "Sovereign Financial Stress": "This pillar exhibits routine monitoring activity, with no immediate significant drivers of elevated sovereign financial stress identified in the news feed. While local budget discipline is noted in Fairfax City, this does not indicate widespread national or international sovereign distress.",
-        "Currency & Liquidity Pressure": "This pillar remains at a baseline activity level, with no specific news items indicating unusual pressures on global currencies or liquidity. Markets are currently awaiting earnings, suggesting a focus on corporate performance rather than systemic monetary concerns.",
-        "Sanctions & Regulatory Fragmentation": "This pillar shows moderate activity, with no new sanctions or significant fragmentation reported, although the \"Met officers could sue 'Big Brother Bosses' after Mail revealed Scotland Yard used AI to pry on phones\" points to emerging regulatory challenges in data privacy and AI governance. Potential future regulatory actions linked to geopolitical events remain a background consideration.",
-        "Cyber & Infrastructure Threats": "This pillar remains highly active, underscored by significant data compromises and concerns over digital surveillance. The \"5.5 million hit in latest ADT data breach with hackers already leaking stolen personal info online\" demonstrates persistent vulnerabilities and the ongoing threat of personal information leaks.",
-        "Climate & Resource Shock": "This pillar shows low-level activity, with discussions on climate finance rather than immediate shocks. The \"Colombia climate conference highlights lack of financing for shift from fossil fuels\" indicates long-term systemic challenges but no acute, sudden resource disruptions."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Starmer issues warning about Iran war impact on UK despite attempts to reassure public",
+            "title": "Blockade breach? $500 million Russian-linked superyacht sails through Strait of Hormuz amid US-Iran war",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/bulletin/news/starmer-britain-shopping-holidays-iran-b2966028.html",
-            "image": "https://static.independent.co.uk/2026/04/27/10/22e36f74ec2ff9bf2abc3b8669f50539Y29udGVudHNlYXJjaGFwaSwxNzc3MzY4NzU3-2.84365603.jpg?width=1200&auto=webp&crop=3%3A2",
+            "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/blockade-breach-500-million-russian-linked-superyacht-sails-through-strait-of-hormuz-amid-us-iran-war/articleshow/130567581.cms",
+            "image": "https://img.etimg.com/thumb/msid-130567615,resizemode-4,width-1200,height-900,imgsize-58862,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Heavy use of drones featured in counter-landing exercise in Palawan",
+            "severity": "HIGH",
+            "url": "https://globalnation.inquirer.net/320189/heavy-use-of-drones-featured-in-counter-landing-exercise-in-palawan",
+            "image": "https://globalnation.inquirer.net/files/2026/04/1000235319-620x349.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Trump reportedly unhappy with Iranian proposal to reopen Hormuz, shelve nuclear issue",
+            "severity": "HIGH",
+            "url": "https://www.timesofisrael.com/liveblog-april-28-2026/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2026/04/AP26117736692167.jpg",
+            "source": "timesofisrael"
+        },
+        {
+            "title": "Mexico's military captures top cartel leader in another blow to the Jalisco New Generation Cartel",
+            "severity": "HIGH",
+            "url": "https://www.independent.co.uk/news/mexico-united-states-mexico-city-claudia-sheinbaum-sinaloa-cartel-b2966080.html",
+            "image": "https://static.independent.co.uk/2026/04/28/03/M%27xico_Drug_Lord_Arrested_41698.jpg?width=1200&auto=webp&crop=3%3A2",
             "source": "independentuk"
         },
         {
-            "title": "Starmer says Iran war could impact shopping habits and holiday plans \u2013 but tells Brits, \u2018Don\u2019t panic\u2019",
+            "title": "Korea Passes UK to Become World's Eighth-Largest Stock Market",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/starmer-says-iran-war-could-220447303.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/Msp9B8AtAyF6GdUMqT9UVg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_independent_577/4daeeb860940cc3064090b8bae2a9f92",
-            "source": "yahoo"
+            "url": "https://www.ndtvprofit.com/world/korea-passes-uk-to-become-worlds-eighth-largest-stock-market-11418256",
+            "image": "https://c.ndtvimg.com/2026-04/ek977nug_the-rally-in-korean-stocks-mirrors-that-of-taiwans-which-also-overtook-the-uk-to-become-the-worlds-seventhlargest-share-market_625x300_28_April_26.jpg?im=FitAndFill,algorithm=dnn,width=1080,height=607",
+            "source": "ndtv"
         },
         {
-            "title": "Islamic State militants kill at least 29 in an attack on a village in northeastern Nigeria",
+            "title": "Shrinking snow forebodes water scarcity in Indus basin",
             "severity": "HIGH",
-            "url": "https://www.newsday.com/news/nation/nigeria-islamic-state-group-militant-attack-n76880",
-            "image": "https://images.pexels.com/photos/6289066/pexels-photo-6289066.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "newsday"
+            "url": "https://www.dawn.com/news/1995671/shrinking-snow-forebodes-water-scarcity-in-indus-basin",
+            "image": "https://i.dawn.com/large/2026/04/2807245847ba4c3.webp",
+            "source": "dawn"
         },
         {
-            "title": "Mexico's Sheinbaum rules out a conflict with U.S. over 2 CIA agents killed in Chihuahua accident",
+            "title": "How Asia-Pacific is fighting a fuel shock that could get worse",
             "severity": "HIGH",
-            "url": "https://www.post-gazette.com/news/world/2026/04/27/mexicos-sheinbaum-rules-out-conflict-with-us-cia-agents-killed/stories/202604270084",
-            "image": "https://73f3e7d5672db1849e6c-6434aaf008a29447cc424990bc6a54a7.ssl.cf2.rackcdn.com/stories/202604270084/1140x_a10-7_cTC/Mexico-US-Embassy-Deaths_1777328314.jpg",
-            "source": "postgazette"
+            "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/how-asia-pacific-is-fighting-a-fuel-shock-that-could-get-worse/articleshow/130567466.cms",
+            "image": "https://img.etimg.com/thumb/msid-130567530,resizemode-4,width-1200,height-900,imgsize-74756,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "PSIX Investor Alert: Power Solutions International Securities Fraud Lawsuit - Investors With Losses May Seek to Lead the Class Action After Company Allegedly Overstated Data Center Margins: Levi & Korsinsky",
+            "title": "Bitcoin, Ethereum, XRP, Dogecoin Retreat As Trump Discusses Iran's 'New' Proposal: Analyst Says BTC's Bias 'Firmly To The Upside' As Long As...",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/04/g52082208/psix-investor-alert-power-solutions-international-securities-fraud-lawsuit-investors-with-losses-m",
+            "url": "https://www.benzinga.com/crypto/cryptocurrency/26/04/52083332/bitcoin-ethereum-xrp-dogecoin-retreat-trump-iran-proposal-btc-upside-bias-analyst",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/04/27/Bitcoin-Coins-On-Reflective-Black-Surfac.jpeg?width=1200&height=800&fit=crop",
+            "source": "benzinga"
+        },
+        {
+            "title": "'Iran Hit Us Hard, But We Did Nothing': Israel's Gulf Ally Admits Weakness Despite US Support",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/videos/international/iran-hit-us-hard-but-we-did-nothing-israels-gulf-ally-admits-weakness-despite-us-support/videoshow/130567562.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-130567562/130567562.jpg?resizemode=4",
+            "source": "toi"
+        },
+        {
+            "title": "BJP Minister Nitesh Rane Gets One-Month Jail In 2019 Mud Attack Case",
+            "severity": "HIGH",
+            "url": "https://www.ndtv.com/india-news/bjp-minister-nitesh-rane-gets-one-month-jail-in-2019-mud-attack-case-11417152",
+            "image": "https://c.ndtvimg.com/2025-03/3pt7aaj8_nitesh-rane-_625x300_10_March_25.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
+        },
+        {
+            "title": "Trump breaks royal protocol as he welcomes King Charles to the White House",
+            "severity": "HIGH",
+            "url": "https://www.dailystar.co.uk/news/latest-news/trump-breaks-royal-protocol-welcomes-37078773",
+            "image": "https://i2-prod.dailystar.co.uk/news/latest-news/article37078771.ece/ALTERNATES/s615/0_gettyimages-2272937790-612x612.jpg",
+            "source": "dailystar"
+        },
+        {
+            "title": "US Iran news live: Trump unhappy with Iranian proposal, UN calls for Hormuz to reopen",
+            "severity": "MEDIUM",
+            "url": "https://www.moneycontrol.com/world/us-iran-ceasefire-us-iran-war-news-vladimir-putin-us-israel-talks-pakistan-liveblog-13901294.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260427140920_trumpiran.png",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Is 2026 West Bengal Assembly election Mamata Banerjee\u2019s toughest political battle? Can she save her Bhabanipur stronghold from turning saffron?",
+            "severity": "MEDIUM",
+            "url": "https://www.india.com/news/india/west-bengal-assembly-elections-2026-mamata-banerjee-suvendu-adhikari-bjp-trinamool-congress-abhishek-left-front-bengali-hindus-muslims-rajasthan-gujarat-bihar-jharkhand-8395185/",
+            "image": "https://static.india.com/wp-content/uploads/2026/04/Mamata-Banerjee-main.jpg",
+            "source": "india"
+        },
+        {
+            "title": "Hut 8 Announces Pricing of $3.25 Billion of Investment-Grade Senior Secured Notes for River Bend Data Center Project",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/pressreleases/26/04/n52083408/hut-8-announces-pricing-of-3-25-billion-of-investment-grade-senior-secured-notes-for-river-bend-da",
             "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
             "source": "benzinga"
         },
         {
-            "title": "Met officers could sue 'Big Brother Bosses' after Mail revealed Scotland Yard used AI to pry on phones",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-15768165/Met-officers-sue-Big-Brother-Bosses-Mail-revealed-Scotland-Yard-used-AI-pry-phones.html",
-            "image": "https://i.dailymail.com/1s/2026/04/27/22/108200991-0-image-a-34_1777324855273.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "5.5 million hit in latest ADT data breach with hackers already leaking stolen personal info online \u2014 how to stay safe",
-            "severity": "HIGH",
-            "url": "https://www.tomsguide.com/computing/online-security/5-5-million-hit-in-latest-adt-data-breach-with-hackers-already-leaking-stolen-personal-info-online-how-to-stay-safe",
-            "image": "https://cdn.mos.cms.futurecdn.net/YWaznQX7zfH5ETWeG4QmtT-1280-80.jpg",
-            "source": "tomsguide"
-        },
-        {
-            "title": "Trump's subtle but friendly move that immediately broke royal protocol with King Charles",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-15770161/Trumps-subtle-friendly-immediately-broke-royal-protocol-King-Charles.html",
-            "image": "https://i.dailymail.com/1s/2026/04/27/22/108200981-0-image-a-88_1777324603495.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Former corrections officer accused of trafficking drugs into Regina jail is headed toward trial",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/former-corrections-officer-accused-trafficking-214844045.html",
-            "image": "https://media.zenfs.com/en/regina_leader_post_articles_534/9d08081707ec74fee767f7265a1a275f",
+            "title": "Matheson: Anaheim Ducks find an unlikely hero in Jeffrey Viel",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/matheson-anaheim-ducks-unlikely-hero-022652996.html",
+            "image": "https://media.zenfs.com/en/edmonton_journal_articles_165/eb87abf532363d3da6f6adc035b53876",
             "source": "yahoo"
         },
         {
-            "title": "Trump assassination attempt sparks new wave of unfounded conspiracy theories",
-            "severity": "HIGH",
-            "url": "https://thehill.com/homenews/media/5851732-conspiracy-theories-trump-whca-dinner/",
-            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/04/whca_dinner_042526upi01_w.jpg?strip=1",
-            "source": "thehill"
-        },
-        {
-            "title": "Iran passed 'written messages' to US spelling out its 'red lines' \u2014 uranium, Hormuz",
-            "severity": "MEDIUM",
-            "url": "https://gulfnews.com/world/mena/iran-passed-written-messages-to-us-spelling-out-its-red-lines-uranium-hormuz-1.500520456",
-            "image": "https://media.assettype.com/gulfnews/2026-04-27/bxhbmz4u/newsml_afp_com_20260427T132307Z_doc_a9472cq.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "EOSE Investor Alert: EOS Energy Enterprises, Inc. Securities Fraud Lawsuit - Investors With Losses May Seek to Lead the Class Action After Allegedly Misleading Automated Production Claims: Levi & Korsinsky",
-            "severity": "MEDIUM",
-            "url": "https://www.benzinga.com/pressreleases/26/04/g52082202/eose-investor-alert-eos-energy-enterprises-inc-securities-fraud-lawsuit-investors-with-losses-may-",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Fairfax City Community Rallies Behind Willard-Sherwood Center Amid Budget Discipline",
-            "severity": "MEDIUM",
-            "url": "https://patch.com/virginia/fairfaxcity/fairfax-city-community-rallies-behind-willard-sherwood-center-amid-budget",
-            "image": "https://patch.com/img/cdn20/users/23738464/20260427/054140/styles/patch_image/public/img-0303___27170541703.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Colombia climate conference highlights lack of financing for shift from fossil fuels",
+            "title": "Daily Quiz: On dramatic revolt aboard the HMS Bounty",
             "severity": "WATCH",
-            "url": "https://www.washingtontimes.com/news/2026/apr/27/colombia-climate-conference-highlights-lack-financing-shift-fossil/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/04/27/Climate_Fossil_Fuels_Conference_36344_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
-            "source": "washingtontimes"
+            "url": "https://www.thehindu.com/news/international/daily-quiz-on-dramatic-revolt-aboard-the-hms-bounty/article70914655.ece",
+            "image": "https://th-i.thgim.com/public/incoming/1i7md4/article70914653.ece/alternates/FREE_1200/PandoraQuiz.jpg",
+            "source": "thehindu"
         },
         {
-            "title": "8 Of The Most Expensive Seafood Chains Across America",
+            "title": "The Ithaka Group Q1 2026 Commentary",
             "severity": "WATCH",
-            "url": "https://www.thedailymeal.com/2154958/most-expensive-seafood-chains-in-america/",
-            "image": "https://www.thedailymeal.com/img/gallery/8-of-the-most-expensive-seafood-chains-across-america/l-intro-1776890554.jpg",
-            "source": "thedailymeal"
+            "url": "https://seekingalpha.com/article/4894794-the-ithaka-group-q1-2026-commentary",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1482264798/image_1482264798.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
         },
         {
-            "title": "Stock futures are little changed after the S&P 500 posts another record, Wall Street awaits earnings: Live updates",
+            "title": "Chicken noodle soup",
             "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/04/27/stock-market-today-live-updates.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108297656-1777301356480-Traders-Photo-20260427-KK-PRESS-007.jpg?v=1777301466",
-            "source": "cnbc"
+            "url": "https://www.smh.com.au/goodfood/recipes/chicken-noodle-soup-20260428-p5zrpb.html",
+            "image": "https://static.ffx.io/images/$zoom_0.654%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_49/t_crop_custom/q_86%2Cf_auto/t_metro_goodfood_no_label_no_age_social_wm/15c3c02ae1eff16bb12e64cd1214b6e128b08259",
+            "source": "smh"
         },
         {
-            "title": "Series of events lined up for VGRC",
+            "title": "Group of budget airlines seeks relief fund from Trump administration",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/surat/series-of-events-lined-up-for-vgrc/articleshow/130563438.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117693525/117693525.jpg",
+            "url": "https://ca.finance.yahoo.com/news/group-budget-airlines-seeks-relief-022232182.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/ySMIN2jumbZYccV4r58KNQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2NzA7aD0xMTE0/https://media.zenfs.com/en/united_press_international_articles_356/63cb39b458b3c70d594d574e0215ca38",
+            "source": "yahoo"
+        },
+        {
+            "title": "12 billion plastic sushi fish later, is it time for a sustainable soy sauce option?",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-04-28/sustainable-alternative-shoyu-tai-sushi-plastic-soy-sauce-fish/106596352",
+            "image": "https://images.pexels.com/photos/6755087/pexels-photo-6755087.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "abc_net"
+        },
+        {
+            "title": "Varun Beverages share price targets, dividend: Why VBL stock is in focus today, should you buy?",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/markets/stocks/story/varun-beverages-share-price-targets-dividend-why-vbl-stock-is-in-focus-today-should-you-buy-527692-2026-04-28",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69f01977ba15e-vbls-commentary-suggested-even-better-growth-trends-in-q2--which--along-with-a-low-base-for-may-and-28203479-16x9.png?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "Pantoro Q3 2026 slides: strong cash flow amid operational headwinds",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/company-news/pantoro-q3-2026-slides-strong-cash-flow-amid-operational-headwinds-93CH-4387681",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEA7D094_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Conspiracy theories surge online despite real-time reporting after White House Correspondents\u2019 Dinner shooting",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/conspiracy-theories-emerge-post-correspondents-dinner-shooting-despite-live-reporting/articleshow/130567481.cms",
+            "image": "https://img.etimg.com/thumb/msid-130567520,resizemode-4,width-1200,height-900,imgsize-103786,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Sensex, Nifty 50 Likely To Open Lower Today; Gift Nifty Signals Weak Start",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/business/markets/sensex-nifty-50-likely-to-open-lower-today-gift-nifty-signals-weak-start-ws-l-10061028.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/09/markets-2025-09-6823029a9108eee68093a488c5b46dfd-3x2.png",
+            "source": "news18"
+        },
+        {
+            "title": "Spat on, heckled, treated differently: The issue forcing players out of local footy",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/sport/afl/spat-on-heckled-treated-differently-the-issue-forcing-players-out-of-local-footy-20260408-p5zm9g.html",
+            "image": "https://static.ffx.io/images/$zoom_0.2116%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_58%2C$y_124/t_crop_custom/q_86%2Cf_auto/e640e90b7ad44ff665382bb65dce7845d77538a7",
+            "source": "smh"
+        },
+        {
+            "title": "Stock Market Live Updates: Nifty opens in red, stays above 24,050; BSE Sensex drops over 100 points as oil prices rise to $110; what\u2019s the outlook?",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-28-april-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/130567478.cms",
+            "image": "https://static.toiimg.com/photo/msid-33550531/33550531.jpg",
             "source": "toi"
         },
         {
-            "title": "Anchor Ben Simmoneau shares frightening health scare story, urges others not to ignore symptoms",
+            "title": "Netanyahu\u2019s criminal trial hits pause again over 'security schedule'. This time just 90 minutes before testimony",
             "severity": "WATCH",
-            "url": "https://www.wcvb.com/article/ben-simmoneau-shares-frightening-health-scare-story/71142780",
-            "image": "https://kubrick.htvapps.com/htv-prod/images/739951d8-794b-49c3-8dbe-ab62aae86184.png?crop=0.995xw:1.00xh;0.00325xw,0&resize=1200:*",
-            "source": "wcvb"
+            "url": "https://www.firstpost.com/world/netanyahus-criminal-trial-hits-pause-again-over-security-schedule-this-time-just-90-minutes-before-testimony-14005066.html",
+            "image": "https://images.firstpost.com/uploads/2026/01/2026-01-08T122922Z_1217817561_RC2BSGAOHVMV_RTRMADP_3_LEBANON-SECURITY-2026-01-9a0e453dff5e41d8a9dc63baaeb5e936-1200x675.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "Full Transcript: Bed Bath & Beyond Q1 2026 Earnings Call",
+            "title": "The Bengal line-up: TMC bets on continuity, old guard; BJP turns to newcomers",
             "severity": "WATCH",
-            "url": "https://www.benzinga.com/insights/news/26/04/52082221/full-transcript-bed-bath-amp-beyond-q1-2026-earnings-call",
-            "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?optimize=medium&dpr=1&auto=webp&height=675&width=1200&fit=crop",
-            "source": "benzinga"
-        },
-        {
-            "title": "Velugumatla drive: HC refuses relief against demolitions at Bhoodan land",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/hyderabad/velugumatla-drive-hc-refuses-relief-against-demolitions-at-bhoodan-land/articleshow/130563364.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130563348/130563348.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "What Would You Have Done on the Season Finale of \u2018Invincible\u2019?",
-            "severity": "WATCH",
-            "url": "https://gizmodo.com/what-would-you-have-done-on-the-season-finale-of-invincible-2000751392",
-            "image": "https://gizmodo.com/app/uploads/2026/04/Invincible_finale-2.jpg",
-            "source": "gizmodotech"
-        },
-        {
-            "title": "10 Depressing Movies of the Last 10 Years That Are Impossible To Shake",
-            "severity": "WATCH",
-            "url": "https://collider.com/most-depressing-movies-last-10-years/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/10/p0m121x1-1.jpg?w=1600&h=900&fit=crop",
-            "source": "collider"
-        },
-        {
-            "title": "What Is Bruce Springsteen\u2019s Setlist for Philadelphia?",
-            "severity": "WATCH",
-            "url": "https://nj1015.com/ixp/942/p/bruce-springsteen-philly-setlist-2026/",
-            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "nj1015"
-        },
-        {
-            "title": "The Scariest Horror Shorts of the Overlook Film Festival",
-            "severity": "WATCH",
-            "url": "https://www.hollywoodreporter.com/movies/movie-news/the-scariest-horror-shorts-of-2026-1236578209/",
-            "image": "https://www.hollywoodreporter.com/wp-content/uploads/2026/04/Program-2-Carousel-768x432-1.jpg",
-            "source": "hollywoodreporter"
-        },
-        {
-            "title": "Challenges Facing the MCP in 2026: Critical Security, Architectual, and More",
-            "severity": "WATCH",
-            "url": "https://hackernoon.com/challenges-facing-the-mcp-in-2026-critical-security-architectual-and-more",
-            "image": "https://hackernoon.imgix.net/images/pL08BO3ouKNkhrqPjjNqbI6Myh73-uz83bbd.jpeg",
-            "source": "hackernoon"
-        },
-        {
-            "title": "Trump Called Cole Allen Anti-Christian. His Manifesto Suggests the Opposite",
-            "severity": "WATCH",
-            "url": "https://www.newsweek.com/trump-cole-allen-anti-christian-manifesto-opposite-11884524",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/04/Trump-Called-Cole-Allen-Anti-Christian.-His-Manifesto-Suggests-the-Opposite.jpg?w=1600&h=900&q=88",
-            "source": "newsweek"
+            "url": "https://indianexpress.com/article/political-pulse/the-bengal-line-up-tmc-bets-on-continuity-old-guard-bjp-turns-to-newcomers-10659018/",
+            "image": "https://images.indianexpress.com/2026/04/PP-20-NANDIGRAM-10_20260427180243.jpg",
+            "source": "indianexpress"
         }
     ],
-    "Last_Updated": "2026-04-28T10:21:49.733158Z"
+    "Last_Updated": "2026-04-28T14:28:33.256695Z"
 }
