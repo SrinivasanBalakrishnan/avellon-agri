@@ -1,216 +1,260 @@
 {
-    "AGRI_Score": 61.6,
-    "Velocity": "-0.3",
+    "AGRI_Score": 62.8,
+    "Velocity": "+1.2",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The AGRI score of 62.8 is significantly driven by exceptionally high Energy & Maritime Disruption (92.6) and elevated Geopolitical Conflict Intensity (76.1). The ongoing 'Iran war drives up Europe power prices' directly contributes to this, alongside serious diplomatic exchanges around 'Iran\u2019s Hormuz Proposal' and the 'Iran-US war latest.' Furthermore, warnings of 'higher prices and jet fuel crisis' and the potential for a 'China export ban looms' underscore rising Trade & Supply Chain Stress, amplifying the overall risk profile.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 71.0,
+        "Geopolitical Conflict Intensity": 76.1,
         "Energy & Maritime Disruption": 92.6,
-        "Trade & Supply Chain Stress": 70.9,
+        "Trade & Supply Chain Stress": 73.5,
         "Sovereign Financial Stress": 53.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 59.4,
-        "Cyber & Infrastructure Threats": 58.6,
+        "Sanctions & Regulatory Fragmentation": 58.2,
+        "Cyber & Infrastructure Threats": 59.3,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "The intensity remains high, primarily due to escalating tensions surrounding the 'Iran war drives up Europe power prices' and diplomatic maneuvers concerning 'Iran\u2019s Hormuz Proposal.' Reports of 'Iran-US war latest: Trump considers Tehran\u2019s latest peace proposal' indicate a volatile, yet potentially pivotal, moment in the conflict, preventing a de-escalation of this pillar.",
+        "Energy & Maritime Disruption": "This pillar is at a critical level, directly impacted by the 'Iran war [driving] up Europe power prices' and the resulting urgency for 'renewables in vogue.' The 'jet fuel crisis' mentioned by Keir Starmer and 'LPG shortage' in Karnataka further highlight widespread energy supply challenges and price volatility.",
+        "Trade & Supply Chain Stress": "Elevated stress persists due to potential disruptions like a 'China export ban looms,' prompting actions such as 'Lindian locks in cheap Kazakh acid supply.' The general warning from Keir Starmer about 'higher prices' also reflects underlying global supply chain pressures.",
+        "Sovereign Financial Stress": "This pillar reflects moderate stress, with warnings from Keir Starmer for the UK public not to 'panic' as he 'levels with the public' over price rises. Household financial strain is evident, with news of the '\u00a3117 energy bill discount to be wiped out with UK households left \u00a3220 worse off.'",
+        "Currency & Liquidity Pressure": "This pillar remains at a baseline activity level, though market participants are closely monitoring events, as indicated by routine 'FX option expiries for 28 April 10am New York cut.' No significant adverse liquidity events or major currency devaluations are currently highlighted in the feed.",
+        "Sanctions & Regulatory Fragmentation": "Risk in this pillar is driven by the geopolitical backdrop, which always carries the potential for new restrictive measures. While no new direct sanctions are announced, the 'China export ban looms' could significantly fragment trade regulations.",
+        "Cyber & Infrastructure Threats": "While specific new incidents are not detailed, the heightened global conflict environment inherently raises the risk of state-sponsored cyber-attacks and targeting of critical infrastructure. Maintaining robust defenses against such evolving threats is a continuous priority.",
+        "Climate & Resource Shock": "This pillar remains at routine monitoring, as the current news feed does not contain any immediate or severe climate-related shocks or significant resource scarcity issues beyond the mentioned energy shortfalls. While renewable energy is 'in vogue,' this is a response to energy disruption rather than a direct climate shock event."
+    },
     "All_Alerts": [
         {
-            "title": "Blockade breach? $500 million Russian-linked superyacht sails through Strait of Hormuz amid US-Iran war",
+            "title": "Renewables in vogue as Iran war drives up Europe power prices",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/blockade-breach-500-million-russian-linked-superyacht-sails-through-strait-of-hormuz-amid-us-iran-war/articleshow/130567581.cms",
-            "image": "https://img.etimg.com/thumb/msid-130567615,resizemode-4,width-1200,height-900,imgsize-58862,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.bangkokpost.com/video/world/3245609/renewables-in-vogue-as-iran-war-drives-up-europe-power-prices",
+            "image": "https://static.bangkokpost.com/media/content/20260428/c1_3245609_700.jpg",
+            "source": "bangkokpost"
         },
         {
-            "title": "Heavy use of drones featured in counter-landing exercise in Palawan",
+            "title": "Karoline Leavitt Confirms Talks On Iran\u2019s Hormuz Proposal; Trump\u2019s \u2018Red Lines\u2019 Reiterated",
             "severity": "HIGH",
-            "url": "https://globalnation.inquirer.net/320189/heavy-use-of-drones-featured-in-counter-landing-exercise-in-palawan",
-            "image": "https://globalnation.inquirer.net/files/2026/04/1000235319-620x349.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Trump reportedly unhappy with Iranian proposal to reopen Hormuz, shelve nuclear issue",
-            "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/liveblog-april-28-2026/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/04/AP26117736692167.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Mexico's military captures top cartel leader in another blow to the Jalisco New Generation Cartel",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/mexico-united-states-mexico-city-claudia-sheinbaum-sinaloa-cartel-b2966080.html",
-            "image": "https://static.independent.co.uk/2026/04/28/03/M%27xico_Drug_Lord_Arrested_41698.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Korea Passes UK to Become World's Eighth-Largest Stock Market",
-            "severity": "HIGH",
-            "url": "https://www.ndtvprofit.com/world/korea-passes-uk-to-become-worlds-eighth-largest-stock-market-11418256",
-            "image": "https://c.ndtvimg.com/2026-04/ek977nug_the-rally-in-korean-stocks-mirrors-that-of-taiwans-which-also-overtook-the-uk-to-become-the-worlds-seventhlargest-share-market_625x300_28_April_26.jpg?im=FitAndFill,algorithm=dnn,width=1080,height=607",
-            "source": "ndtv"
-        },
-        {
-            "title": "Shrinking snow forebodes water scarcity in Indus basin",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/1995671/shrinking-snow-forebodes-water-scarcity-in-indus-basin",
-            "image": "https://i.dawn.com/large/2026/04/2807245847ba4c3.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "How Asia-Pacific is fighting a fuel shock that could get worse",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/how-asia-pacific-is-fighting-a-fuel-shock-that-could-get-worse/articleshow/130567466.cms",
-            "image": "https://img.etimg.com/thumb/msid-130567530,resizemode-4,width-1200,height-900,imgsize-74756,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Bitcoin, Ethereum, XRP, Dogecoin Retreat As Trump Discusses Iran's 'New' Proposal: Analyst Says BTC's Bias 'Firmly To The Upside' As Long As...",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/crypto/cryptocurrency/26/04/52083332/bitcoin-ethereum-xrp-dogecoin-retreat-trump-iran-proposal-btc-upside-bias-analyst",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/04/27/Bitcoin-Coins-On-Reflective-Black-Surfac.jpeg?width=1200&height=800&fit=crop",
-            "source": "benzinga"
-        },
-        {
-            "title": "'Iran Hit Us Hard, But We Did Nothing': Israel's Gulf Ally Admits Weakness Despite US Support",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/iran-hit-us-hard-but-we-did-nothing-israels-gulf-ally-admits-weakness-despite-us-support/videoshow/130567562.cms",
-            "image": "https://timesofindia.indiatimes.com/photo/msid-130567562/130567562.jpg?resizemode=4",
-            "source": "toi"
-        },
-        {
-            "title": "BJP Minister Nitesh Rane Gets One-Month Jail In 2019 Mud Attack Case",
-            "severity": "HIGH",
-            "url": "https://www.ndtv.com/india-news/bjp-minister-nitesh-rane-gets-one-month-jail-in-2019-mud-attack-case-11417152",
-            "image": "https://c.ndtvimg.com/2025-03/3pt7aaj8_nitesh-rane-_625x300_10_March_25.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
-            "source": "ndtv"
-        },
-        {
-            "title": "Trump breaks royal protocol as he welcomes King Charles to the White House",
-            "severity": "HIGH",
-            "url": "https://www.dailystar.co.uk/news/latest-news/trump-breaks-royal-protocol-welcomes-37078773",
-            "image": "https://i2-prod.dailystar.co.uk/news/latest-news/article37078771.ece/ALTERNATES/s615/0_gettyimages-2272937790-612x612.jpg",
-            "source": "dailystar"
-        },
-        {
-            "title": "US Iran news live: Trump unhappy with Iranian proposal, UN calls for Hormuz to reopen",
-            "severity": "MEDIUM",
-            "url": "https://www.moneycontrol.com/world/us-iran-ceasefire-us-iran-war-news-vladimir-putin-us-israel-talks-pakistan-liveblog-13901294.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260427140920_trumpiran.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Is 2026 West Bengal Assembly election Mamata Banerjee\u2019s toughest political battle? Can she save her Bhabanipur stronghold from turning saffron?",
-            "severity": "MEDIUM",
-            "url": "https://www.india.com/news/india/west-bengal-assembly-elections-2026-mamata-banerjee-suvendu-adhikari-bjp-trinamool-congress-abhishek-left-front-bengali-hindus-muslims-rajasthan-gujarat-bihar-jharkhand-8395185/",
-            "image": "https://static.india.com/wp-content/uploads/2026/04/Mamata-Banerjee-main.jpg",
-            "source": "india"
-        },
-        {
-            "title": "Hut 8 Announces Pricing of $3.25 Billion of Investment-Grade Senior Secured Notes for River Bend Data Center Project",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/pressreleases/26/04/n52083408/hut-8-announces-pricing-of-3-25-billion-of-investment-grade-senior-secured-notes-for-river-bend-da",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Matheson: Anaheim Ducks find an unlikely hero in Jeffrey Viel",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/matheson-anaheim-ducks-unlikely-hero-022652996.html",
-            "image": "https://media.zenfs.com/en/edmonton_journal_articles_165/eb87abf532363d3da6f6adc035b53876",
-            "source": "yahoo"
-        },
-        {
-            "title": "Daily Quiz: On dramatic revolt aboard the HMS Bounty",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/international/daily-quiz-on-dramatic-revolt-aboard-the-hms-bounty/article70914655.ece",
-            "image": "https://th-i.thgim.com/public/incoming/1i7md4/article70914653.ece/alternates/FREE_1200/PandoraQuiz.jpg",
-            "source": "thehindu"
-        },
-        {
-            "title": "The Ithaka Group Q1 2026 Commentary",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4894794-the-ithaka-group-q1-2026-commentary",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1482264798/image_1482264798.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Chicken noodle soup",
-            "severity": "WATCH",
-            "url": "https://www.smh.com.au/goodfood/recipes/chicken-noodle-soup-20260428-p5zrpb.html",
-            "image": "https://static.ffx.io/images/$zoom_0.654%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_49/t_crop_custom/q_86%2Cf_auto/t_metro_goodfood_no_label_no_age_social_wm/15c3c02ae1eff16bb12e64cd1214b6e128b08259",
-            "source": "smh"
-        },
-        {
-            "title": "Group of budget airlines seeks relief fund from Trump administration",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/group-budget-airlines-seeks-relief-022232182.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/ySMIN2jumbZYccV4r58KNQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2NzA7aD0xMTE0/https://media.zenfs.com/en/united_press_international_articles_356/63cb39b458b3c70d594d574e0215ca38",
-            "source": "yahoo"
-        },
-        {
-            "title": "12 billion plastic sushi fish later, is it time for a sustainable soy sauce option?",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-04-28/sustainable-alternative-shoyu-tai-sushi-plastic-soy-sauce-fish/106596352",
-            "image": "https://images.pexels.com/photos/6755087/pexels-photo-6755087.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "abc_net"
-        },
-        {
-            "title": "Varun Beverages share price targets, dividend: Why VBL stock is in focus today, should you buy?",
-            "severity": "WATCH",
-            "url": "https://www.businesstoday.in/markets/stocks/story/varun-beverages-share-price-targets-dividend-why-vbl-stock-is-in-focus-today-should-you-buy-527692-2026-04-28",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69f01977ba15e-vbls-commentary-suggested-even-better-growth-trends-in-q2--which--along-with-a-low-base-for-may-and-28203479-16x9.png?size=1280:720",
+            "url": "https://www.businesstoday.in/bt-tv/short-video/karoline-leavitt-confirms-talks-on-irans-hormuz-proposal-trumps-red-lines-reiterated-527716-2026-04-28",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/short_video/202604/thumbnail-original_2103-sixteen_nine_0.jpg?size=1280:720",
             "source": "businesstoday"
         },
         {
-            "title": "Pantoro Q3 2026 slides: strong cash flow amid operational headwinds",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/company-news/pantoro-q3-2026-slides-strong-cash-flow-amid-operational-headwinds-93CH-4387681",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEA7D094_L.jpg",
-            "source": "investing_au"
+            "title": "Keir Starmer warns UK 'don't panic' as he 'levels with the public' over price rises",
+            "severity": "HIGH",
+            "url": "https://www.dailystar.co.uk/news/latest-news/keir-starmer-warns-uk-dont-37078849",
+            "image": "https://i2-prod.dailystar.co.uk/news/latest-news/article37078848.ece/ALTERNATES/s615/1_The-Prime-Minister-Gives-Speech-On-Government-Upgrade-to-Workers-Rights.jpg",
+            "source": "dailystar"
         },
         {
-            "title": "Conspiracy theories surge online despite real-time reporting after White House Correspondents\u2019 Dinner shooting",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/conspiracy-theories-emerge-post-correspondents-dinner-shooting-despite-live-reporting/articleshow/130567481.cms",
-            "image": "https://img.etimg.com/thumb/msid-130567520,resizemode-4,width-1200,height-900,imgsize-103786,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "title": "Amazon Now to expand to 100 cities: Eternal, Swiggy shares fall up to 3% as quick commerce war deepens - Moneycontrol.com",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMU5lZWlFN09OWGtpNm1JRTBGT3JmOHRkc0NHbGhVQkkzekxFakEyQ3FvclgtRm1CQmJESENPNkhYdUZpeF94VFpRQVVNRV90VmV5OVhFTXhia2JiUmt3OXNhdEJqZzZoc0tGdEQ2eFRPRC1idEQ5UXZCVEtCZmZ2YlBNY1lqcm1nTTA5V0ZMaEJVUUkxWHVKR0twYjJNVlJsaDB3cy1CUXRZbW53aXROQ045enBZTFc3VHlLQXMwbzJjWllmVTRiSEJmUnZLaGJta0ZseThnVms4VE5yeGQxbmFjY1BMd3NLQ2R1WDVNQXRQTlVjSVpJ0gH8AUFVX3lxTE9PZ2NsYkdjS3dJVVgzU1ZSeTBHZmZKOXRLd0cxXzI5T3BtOHMtUURaWlRzOUszMXExZGI2V3JaR25jTDkxQlI3d1NGZ25oNkVjNGlsVE1BelU5MEJEamFuZEFEQ2VmcElVV3NBVy1JNlpzNW9Zd3h3YlN4RW8tZmNXMHhUVl8xUGlLQlNRcHpzSDlJdzNjdlBLNTNnU0VuZ0xhVmtEb3FLQUtzTVlXYzVvaHdrdTJuLXM4WWlnZWJPNE1veGpRb1dZekNxV1M4ZDZLbFJiaVpHcnFiTjk1STNZa3lheDRjdDVGUVZISXFzNklTdVhsZ0JyN0pmdw?oc=5",
+            "image": "https://images.pexels.com/photos/32357268/pexels-photo-32357268.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Sensex, Nifty 50 Likely To Open Lower Today; Gift Nifty Signals Weak Start",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/business/markets/sensex-nifty-50-likely-to-open-lower-today-gift-nifty-signals-weak-start-ws-l-10061028.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/09/markets-2025-09-6823029a9108eee68093a488c5b46dfd-3x2.png",
-            "source": "news18"
+            "title": "FX option expiries for 28 April 10am New York cut",
+            "severity": "HIGH",
+            "url": "https://investinglive.com/Orders/fx-option-expiries-for-28-april-10am-new-york-cut-20260428/",
+            "image": "https://images.investinglive.com/images/FXO%20FX%20OPTION%20EXPIRIES%20IL%20V2_id_f978c7c1-7edb-418e-8766-ef11237b97c9_size975.jpg",
+            "source": "forexlive"
         },
         {
-            "title": "Spat on, heckled, treated differently: The issue forcing players out of local footy",
-            "severity": "WATCH",
-            "url": "https://www.smh.com.au/sport/afl/spat-on-heckled-treated-differently-the-issue-forcing-players-out-of-local-footy-20260408-p5zm9g.html",
-            "image": "https://static.ffx.io/images/$zoom_0.2116%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_58%2C$y_124/t_crop_custom/q_86%2Cf_auto/e640e90b7ad44ff665382bb65dce7845d77538a7",
+            "title": "Lindian locks in cheap Kazakh acid supply as China export ban looms",
+            "severity": "HIGH",
+            "url": "https://www.smh.com.au/business/companies/lindian-locks-in-cheap-kazakh-acid-supply-as-china-export-ban-looms-20260428-p5zrsj.html",
+            "image": "https://static.ffx.io/images/$zoom_0.7354%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_40/t_crop_custom/q_86%2Cf_auto/1109202aa3caff464ad3030fb5b15a477139c8ab1631d45fe26f03c79a4f4558",
             "source": "smh"
         },
         {
-            "title": "Stock Market Live Updates: Nifty opens in red, stays above 24,050; BSE Sensex drops over 100 points as oil prices rise to $110; what\u2019s the outlook?",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-28-april-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/130567478.cms",
-            "image": "https://static.toiimg.com/photo/msid-33550531/33550531.jpg",
-            "source": "toi"
+            "title": "Iran-US war latest: Trump considers Tehran\u2019s latest peace proposal as Germany warns he\u2019s being \u2018humiliated\u2019",
+            "severity": "HIGH",
+            "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-strait-of-hormuz-merz-b2966129.html",
+            "image": "https://static.independent.co.uk/2026/04/27/23/e26e675a5cb0cc9c846d15e29766de62Y29udGVudHNlYXJjaGFwaSwxNzc3NDEzMDUz-2.84249414.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
         },
         {
-            "title": "Netanyahu\u2019s criminal trial hits pause again over 'security schedule'. This time just 90 minutes before testimony",
-            "severity": "WATCH",
-            "url": "https://www.firstpost.com/world/netanyahus-criminal-trial-hits-pause-again-over-security-schedule-this-time-just-90-minutes-before-testimony-14005066.html",
-            "image": "https://images.firstpost.com/uploads/2026/01/2026-01-08T122922Z_1217817561_RC2BSGAOHVMV_RTRMADP_3_LEBANON-SECURITY-2026-01-9a0e453dff5e41d8a9dc63baaeb5e936-1200x675.jpg",
+            "title": "\u2018We cook once a day\u2019: How Karnataka low-income households are changing food habits amid LPG shortage",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/cities/bangalore/we-cook-once-a-day-how-karnataka-low-income-households-are-changing-food-habits-amid-lpg-shortage-10659541/",
+            "image": "https://images.indianexpress.com/2026/03/Bengaluru-LPG-Firewood.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Keir Starmer gives grim update on higher prices and jet fuel crisis",
+            "severity": "HIGH",
+            "url": "https://www.mirror.co.uk/travel/keir-starmer-gives-grim-update-37078847",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37078851.ece/ALTERNATES/s615/1_GettyImages-2272096653.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Telenor Q1 net income triples on True Corp gain but outlook cut on war impact",
+            "severity": "HIGH",
+            "url": "https://au.investing.com/news/earnings/telenor-q1-net-income-triples-on-true-corp-gain-but-outlook-cut-on-war-impact-4387777",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEE5K0J0_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "George Clooney defends Jimmy Kimmel after Donald Trump asks ABC to fire him over Melania joke",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/entertainment/hollywood/george-clooney-defends-jimmy-kimmel-after-donald-trump-asks-abc-to-fire-him-over-melania-joke-101777351776943.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/28/1600x900/logo/Jimmy_Kimmel_1777351867222_1777351867460.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "WB Assembly Elections 2026 | BJP eyes breach of TMC\u2019s south Bengal fortress amid SIR shadow",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/india/west-bengal/wb-assembly-elections-2026-bjp-eyes-breach-of-tmcs-south-bengal-fortress-amid-sir-shadow-3983469",
+            "image": "https://media.assettype.com/deccanherald/2026-04-28/t9xikl1f/swarna-19.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Dubai gold prices fall again after Dh25 drop from April peak",
+            "severity": "MEDIUM",
+            "url": "https://gulfnews.com/business/retail/dubai-gold-prices-fall-again-after-dh25-drop-from-april-peak-1.500521511",
+            "image": "https://images.pexels.com/photos/18475683/pexels-photo-18475683.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "gulfnews"
+        },
+        {
+            "title": "'Regime change must come from within': Rubio diverges as Trump claims shift in Iran",
+            "severity": "MEDIUM",
+            "url": "https://www.firstpost.com/world/us-president-donald-trump-listens-to-us-secretary-of-state-marco-rubio-reuters-14005159.html",
+            "image": "https://images.firstpost.com/uploads/2026/04/blobhttpsweb.whatsapp.comb4bdd32e-b2c6-44aa-998b-ebdae9810f7e-2026-04-28T110318.885-2026-04-a0c665a3dd567381306681b0222b9474.jpg",
             "source": "firstpost"
         },
         {
-            "title": "The Bengal line-up: TMC bets on continuity, old guard; BJP turns to newcomers",
+            "title": "West Bengal phase 2 elections: 2,500 CAPF companies, drones, bike patrols part of massive security cover",
+            "severity": "MEDIUM",
+            "url": "https://www.moneycontrol.com/news/india/west-bengal-phase-2-elections-2-500-capf-companies-drones-bike-patrols-part-of-massive-security-cover-13901578.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260428051946_Bengal-security.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "UNSW marks 10 years of landmark Torch partnership",
             "severity": "WATCH",
-            "url": "https://indianexpress.com/article/political-pulse/the-bengal-line-up-tmc-bets-on-continuity-old-guard-bjp-turns-to-newcomers-10659018/",
-            "image": "https://images.indianexpress.com/2026/04/PP-20-NANDIGRAM-10_20260427180243.jpg",
+            "url": "https://www.unsw.edu.au/newsroom/news/2026/04/unsw-marks-10-years-of-landmark-torch-partnership",
+            "image": "https://www.unsw.edu.au//content/dam/images/unsw-wide/general/news/2026/2026-04-torch-10years/Room2.jpg/jcr:content/renditions/cq5dam.web.1920.1920.jpeg",
+            "source": "unsw_edu"
+        },
+        {
+            "title": "Trump shooting scare renews 'staged' conspiracy theory",
+            "severity": "WATCH",
+            "url": "https://www.iol.co.za/news/world/trump-shooting-scare-renews-staged-conspiracy-theory-b738f0f3-fb47-4096-b966-44bac15ff62a",
+            "image": "https://images.pexels.com/photos/29505140/pexels-photo-29505140.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "iol"
+        },
+        {
+            "title": "Google AI data center to position Vizag as gateway for \u2018Intelligence India\u2019: Rakesh Bharti Mittal",
+            "severity": "WATCH",
+            "url": "https://telecom.economictimes.indiatimes.com/news/industry/google-ai-hub-transforming-vizag-into-indias-tech-gateway/130570773",
+            "image": "https://etimg.etb2bimg.com/thumb/msid-130570773,width-1200,height-900,resizemode-4/.jpg",
+            "source": "telecom_economictimes"
+        },
+        {
+            "title": "Jindal Saw slips 8% on posting weak Q4 results; PAT down 52%, revenue 8%",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/markets/news/jindal-saw-share-price-slips-8-percent-on-weak-q4-results-pat-down-52-percent-revenue-8-percent-126042800326_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260428/thumb-126042800326.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "\u00a3117 energy bill discount to be wiped out with UK households left \u00a3220 worse off",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/cost-of-living/117-energy-bill-discount-wiped-33816320",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article33816420.ece/ALTERNATES/s615/0_energy2.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Is Trump descended from kings? Report says he's a distant cousin of UK King Charles",
+            "severity": "WATCH",
+            "url": "https://www.firstpost.com/world/is-trump-descended-from-kings-report-says-hes-a-distant-cousin-of-uk-king-charles-14005161.html",
+            "image": "https://images.firstpost.com/uploads/2026/04/AFP__20260427__A96K6TC__v1__HighRes__UsBritainRoyalsPoliticsDiplomacy-2026-04-87ac4e5122b0e55b542450073a822cee-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "China And US May Confront Each Other In New Battleground - Space",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/world-news/china-and-us-may-confront-each-other-in-new-battleground-space-11418868",
+            "image": "https://c.ndtvimg.com/2022-12/0cp3tbs_us-china-flags-reuters_625x300_14_December_22.jpeg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
+        },
+        {
+            "title": "Small cars strike back: Maruti Suzuki bets on mass mobility while costs squeeze fourth quarter profits",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/small-cars-strike-back-maruti-suzuki-bets-on-mass-mobility-while-costs-squeeze-fourth-quarter-profits/articleshow/130578170.cms",
+            "image": "https://img.etimg.com/thumb/msid-130578312,resizemode-4,width-1200,height-900,imgsize-55384,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Seven dead, 85 wounded in Pakistani strikes in Afghanistan: Report",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/world/pakistan-strikes-afghanistan-kunar-university-deadly-escalation-10659442/",
+            "image": "https://images.indianexpress.com/2026/04/Afghanistan-2.jpg",
             "source": "indianexpress"
+        },
+        {
+            "title": "Plastiblends India jumps after Q4 profit rises 45% YoY",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/markets/capital-market-news/plastiblends-india-jumps-after-q4-profit-rises-45-yoy-126042800350_1.html",
+            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "British institution on the brink! Sadiq Khan ordered to act now to stop death of black cab",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/uk/2197976/sadiq-khan-slammed-londons-black-taxis-disappear",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2197976_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "KRERA directs Bangalore Development Authority to pay \u20b922 lakh to homebuyer for failing to provide basic infra",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/real-estate/krera-directs-bangalore-development-authority-to-pay-22-lakh-to-homebuyer-for-failing-to-provide-basic-infra-101777353137774.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/28/1600x900/logo/asdsdad_1777353631115_1777353636927.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Encounter specialist now Bengal poll observer: Who is Ajay Pal Sharma?",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/india/encounter-specialist-now-bengal-poll-observer-who-is-ajay-pal-sharma-13901575.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260428052352_Ajay-Pal-Sharma-main.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Walsall homeowner fails in planning permission bid for loft dormer he already built",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/black-country/walsall-homeowner-fails-planning-permission-33847275",
+            "image": "https://i2-prod.birminghammail.co.uk/incoming/article33847291.ece/ALTERNATES/s615/1_image-64.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Encounter specialist's deployment to West Bengal sparks row; TMC, Akhilesh accuse BJP of planting 'agents'",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/encounter-specialist-ajay-pal-sharmas-deployment-to-west-bengal-sparks-row-tmc-akhilesh-accuse-bjp-of-planting-agents-101777349328158.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/28/1600x900/logo/ajay_pal_sharma_bengal_1777351376144_1777351381471.png",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Did Kash Patel\u2019s Hindu identity keep him off Trump dinner shooter\u2019s hit list?",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/world/did-kash-patel-s-hindu-identity-keep-him-off-trump-dinner-shooter-s-hit-list-article-13901517.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260426091851_kashpatelnew.png",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Kash Patel Out? Prediction Market Buzzes With Hot Takes As Trump Reportedly Unhappy With FBI Director",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/markets/prediction-markets/26/04/52083721/kash-patel-out-prediction-market-buzzes-with-hot-takes-as-trump-reportedly-unhappy-wit",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/04/28/National-Harbor--Md-Us---Mar-3--2023-Kas.jpeg?width=1200&height=800&fit=crop",
+            "source": "benzinga"
+        },
+        {
+            "title": "Joe Gibbs Racing intends to amend Spire, Gabehart lawsuit",
+            "severity": "WATCH",
+            "url": "https://www.motorsport.com/nascar-cup/news/joe-gibbs-racing-intends-to-amend-spire-gabehart-lawsuit/10816057/",
+            "image": "https://cdn-3.motorsport.com/images/amp/Y9lLnGL2/s6/hg3pht8auaeckfv.jpg",
+            "source": "motorsport_en"
         }
     ],
-    "Last_Updated": "2026-04-28T14:28:33.256695Z"
+    "Last_Updated": "2026-04-28T17:51:38.851039Z"
 }
