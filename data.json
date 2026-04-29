@@ -1,288 +1,251 @@
 {
-    "AGRI_Score": 63.1,
-    "Velocity": "+1.0",
+    "AGRI_Score": 62.1,
+    "Velocity": "-1.0",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.1 reflects a significantly elevated risk environment, primarily driven by critical challenges in Energy & Maritime Disruption (92.6) and high Geopolitical Conflict Intensity (78.1). The energy sector faces acute pressure, as evidenced by the 'Indian airline industry warns 'whole sector on verge of collapse' over jet fuel' and concerns regarding '25 Days-Worth Of Oil Supply Left In The USA'. Ongoing geopolitical actions, such as 'Ukraine Hits Russia\u2019s Oil Machine', further contribute to sustained global instability and economic vulnerability.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 78.1,
+        "Geopolitical Conflict Intensity": 72.7,
         "Energy & Maritime Disruption": 92.6,
-        "Trade & Supply Chain Stress": 69.6,
-        "Sovereign Financial Stress": 53.5,
+        "Trade & Supply Chain Stress": 63.8,
+        "Sovereign Financial Stress": 55.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 59.4,
-        "Cyber & Infrastructure Threats": 62.0,
+        "Sanctions & Regulatory Fragmentation": 64.6,
+        "Cyber & Infrastructure Threats": 61.1,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Risk remains elevated due to ongoing conflicts and their economic repercussions. 'Ukraine Hits Russia\u2019s Oil Machine' indicates continued military action targeting critical infrastructure, sustaining geopolitical tensions.",
-        "Energy & Maritime Disruption": "This pillar remains critically high, primarily driven by severe supply concerns and cost pressures. The 'Indian airline industry warns 'whole sector on verge of collapse' over jet fuel' highlights immediate operational threats, while the reported '25 Days-Worth Of Oil Supply Left In The USA' underscores underlying supply fragility.",
-        "Trade & Supply Chain Stress": "Stress is moderately high, influenced by sector-specific vulnerabilities and essential commodity market movements. The dire warning from the 'Indian airline industry' about jet fuel costs suggests cascading impacts on logistics and global trade infrastructure.",
-        "Sovereign Financial Stress": "This pillar indicates moderate underlying financial stress, with specific market activities noted. The 'FRONTIER LITHIUM ANNOUNCES LISTING OF WARRANTS' points to ongoing, albeit specific, capital market activity which can influence broader sovereign sentiment.",
-        "Currency & Liquidity Pressure": "Pressure in this area is currently at a moderate level, suggesting routine monitoring is advised. No direct news points to significant currency or liquidity shocks, but broader economic strains could indirectly impact this pillar.",
-        "Sanctions & Regulatory Fragmentation": "Risk is moderate to elevated, although direct new sanctions events are not highlighted. The persistent 'Ukraine Hits Russia\u2019s Oil Machine' suggests a backdrop where sanctions regimes are actively in play, impacting global markets and trade rules.",
-        "Cyber & Infrastructure Threats": "Risk is at a moderate level, though the provided news does not directly identify new cyber events. The ongoing targeting of critical infrastructure, such as 'Russia\u2019s Oil Machine' in the Ukraine conflict, underlines persistent vulnerabilities across essential systems.",
-        "Climate & Resource Shock": "This pillar is at a lower risk level, yet regional impacts from environmental factors are observable. 'Water availability concerns dominate GMC meeting as heat rises' and 'Overland flooding triggers evacuation alert in northern Alberta community' illustrate localized but impactful climate events."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "5,000 households in Gaya to get PNG connections by year-end",
+            "title": "Full Transcript: Enphase Energy Q1 2026 Earnings Call",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/patna/5000-households-in-gaya-to-get-png-connections-by-year-end/articleshow/130588666.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130588694/130588694.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Chilling bodycam warning sign as \u2018murdered\u2019 12-year-old ran into cops just days before she was found dead at home",
-            "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/news/38957691/bodycam-video-police-eve-rogers-before-death/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F04%2Fch-eve-bodycam-off-platform.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "MAGA Civil War Ramps Up as Fired Border Goon Blasts Trump",
-            "severity": "HIGH",
-            "url": "https://www.thedailybeast.com/maga-civil-war-ramps-up-as-fired-border-goon-blasts-trump/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/LKVVRP363RE7JDTO4KHSOX7VFM.jpg?auth=8948cfbc07f68e0877c99a1238d7d994e2bd7baf20f3f314f7502fbb3ef3caf5&smart=true&width=3000&height=1688",
-            "source": "thedailybeast"
-        },
-        {
-            "title": "WATCH: Ilhan Omar roasted for brutal resurfaced video about \u2018World War Eleven\u2019",
-            "severity": "HIGH",
-            "url": "https://www.foxnews.com/politics/watch-ilhan-omar-roasted-brutal-resurfaced-video-world-war-eleven",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/01/931/523/ilhan-omar-minneapolis-minnesota.jpg?ve=1&tl=1",
-            "source": "foxnews"
-        },
-        {
-            "title": "Hubballi blood banks appeal for donors as heat curbs turnout",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/hubballi/hubballi-blood-banks-appeal-for-donors-as-heat-curbs-turnout/articleshow/130586871.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130586864/130586864.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Water availability concerns dominate GMC meeting as heat rises",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/patna/water-availability-concerns-dominate-gmc-meeting-as-heat-rises/articleshow/130588598.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130588598/130588598.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "FRONTIER LITHIUM ANNOUNCES LISTING OF WARRANTS FROM PROSPECTUS OFFERING",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/04/n52106978/frontier-lithium-announces-listing-of-warrants-from-prospectus-offering",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "url": "https://www.benzinga.com/insights/news/26/04/52115979/full-transcript-enphase-energy-q1-2026-earnings-call",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?width=1200&height=800&fit=crop",
             "source": "benzinga"
         },
         {
-            "title": "Indian airline industry warns 'whole sector on verge of collapse' over jet fuel",
+            "title": "Senate Republicans block measure to stop Trump from attacking Cuba",
             "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/news/world-news/airlines-jet-fuel-flights-india-37083455",
-            "image": "https://i2-prod.mirror.co.uk/news/world-news/article37083454.ece/ALTERNATES/s615/1_Passenger-airplane-flying-in-the-cloudy-sky.jpg",
-            "source": "mirroruk"
+            "url": "https://thehill.com/homenews/senate/5854017-senate-republicans-block-trump-cuba-resolution/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2025/05/paulrand_collinssusan_050625gn01_w.jpg?strip=1",
+            "source": "thehill"
         },
         {
-            "title": "There Will be No Taylor Swift, AI Version... if She Has Anything to Say About It - Gizmodo",
+            "title": "As US-Iran talks remain \u2018stalled\u2019, experts warn of \u2018long-term disruptions\u2019",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTEpUVGRCeDJoRF84SnFpX2w0YjZabWdVSlVQOTZ5b0Y1bHM4RFhmaWZzc0Z6RUJJdlNGLVlzbzVSdVh4Z3o0Si14ZVdEVkJpN2xMSmRUdlJXSzNNQ19WWUF4UTVCTV8tQnVyZW9wdVB0YjFraV9VNTBwcE5CV3VXQWlqTUIwZEpTdW9sMnk1dlNkcEJzQVRQQWNvRGlURzIwRllybmZuai13TTA?oc=5",
-            "image": "https://images.pexels.com/photos/26604099/pexels-photo-26604099.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.aljazeera.com/economy/2026/4/28/as-us-iran-talks-remain-stalled-experts-warn-of-long-term-disruptions",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/04/2026-04-24T214142Z_1786840552_RC2TTKAPWFG4_RTRMADP_3_IRAN-CRISIS-IRGC-SEIZURE-1777098718.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
+        },
+        {
+            "title": "\"The Bank of Japan can't save the yen\"",
+            "severity": "HIGH",
+            "url": "https://investinglive.com/centralbank/the-bank-of-japan-cant-save-the-yen-20260428/",
+            "image": "https://images.investinglive.com/images/usdyen%20How%20much%20longer%20belwo%20160%2029%20April%202026_id_cec55285-7c76-481f-8800-6b9b0695b980_size975.jpg",
+            "source": "forexlive"
+        },
+        {
+            "title": "King Charles highlights U.S.-U.K. bond in speech to Congress before state dinner",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/canada/royal-family/article/king-charles-highlights-us-uk-bond-in-speech-to-congress-before-state-dinner/",
+            "image": "https://www.ctvnews.ca/resizer/v2/CBUMOZQNNJEMFCE6D3E4AUKBBA.jpg?auth=829a9d7195100eb93432e3756b86f8b5ec174bc415cb29bdcfebd417ebc8e4b1&smart=true&width=4279&height=2853",
+            "source": "ctvnews"
+        },
+        {
+            "title": "ISM\u00ae Honors Farryn Melton with 2026 J. Shipman Gold Medal Award",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/04/n52115945/ism-honors-farryn-melton-with-2026-j-shipman-gold-medal-award",
+            "image": "https://images.pexels.com/photos/5014710/pexels-photo-5014710.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "benzinga"
+        },
+        {
+            "title": "Burlington is Adding 4M Square Feet of Warehouse Space Through 2028",
+            "severity": "HIGH",
+            "url": "https://wwd.com/sourcing-journal/logistics/burlington-store-4-million-square-feet-warehouse-space-distribution-centers-savannah-georgia-phoenix-arizona-1238933046/",
+            "image": "https://wwd.com/wp-content/uploads/2026/04/aerialconcept.jpg?w=150",
+            "source": "wwd"
+        },
+        {
+            "title": "U.S. intelligence agencies consider what Iran would do if Trump declares victory",
+            "severity": "HIGH",
+            "url": "https://www.cbc.ca/news/world/us-intelligence-agencies-trump-iran-war-9.7180533?cmp=rss",
+            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "cbc"
+        },
+        {
+            "title": "Lebanese PM condemns Israeli strike killing civil defence members as \u2018war crime\u2019",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/world/lebanese-pm-condemns-israeli-strike-killing-civil-defence-members-as-war-crime-article-13902526.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260422124505_lebanonattack.png",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Senate Republicans block Democrats' attempt to force Cuba war powers vote",
+            "severity": "HIGH",
+            "url": "https://www.aol.com/articles/senate-republicans-block-democrats-attempt-220523841.html",
+            "image": "https://images.pexels.com/photos/34585957/pexels-photo-34585957.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "aol"
+        },
+        {
+            "title": "Phase-1 vote surge new poll rider in TMC\u2019s comfort zone - The Times of India",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNXBURHlsSGpadEdZWlgwd1hJYXFOVk11N25VXzZTTnpIVmNrWVp3ZzNPcXhxRFpEOTZtOVAzMy1wbzBkbDdJWVpWdGFGNVM0SnhJNUUwdWdma3QzdUx5Y3JJZ1BjRnhZaGhTaEk4TlFodnBQa1RTQVhTdk82dGNvVnY4QnA4NVgwenFnQnpxOHZMZTBqZVg5NUNnY0JLS2d2elpPYjIxRk9LWkprZk5XOXFrdml6N2JYNTNhNUVwcw?oc=5",
+            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "West Bengal Assembly Elections: Phase 2 Brings Real 'Khela' As BJP Aims To Breach Mamata's Fortress",
+            "title": "Duke reinstates Students for Justice in Palestine after suspension over antisemitism concerns",
             "severity": "HIGH",
-            "url": "https://www.news18.com/india/west-bengal-assembly-elections-phase-2-bjp-tmc-mamata-banerjee-suvendu-adhikari-bhabanipur-south-bengal-latest-updates-10062897.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/bengal-elections-2026-04-b3b8b5578ced564d1b184a441028dcb4-1200x800.jpg",
-            "source": "news18"
+            "url": "https://www.foxnews.com/media/duke-reinstates-students-justice-palestine-suspension-antisemitism-concerns",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/04/931/523/duke-university-campus-north-carolina.jpg?ve=1&tl=1",
+            "source": "foxnews"
         },
         {
-            "title": "Overland flooding triggers evacuation alert in northern Alberta community",
+            "title": "Trump MOM-s -CRUSH- On Charles Sparks EPSTEIN Fury- Charles Caught In Awkward Viral Moment",
             "severity": "HIGH",
-            "url": "https://www.thestar.com/news/canada/alberta/overland-flooding-triggers-evacuation-alert-in-northern-alberta-community/article_e68c1570-48ab-5284-ab1d-d5e47a01bb1d.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/c/79/c797d1d7-c564-5455-9445-0f84a92be6b0/69f0f933c959f.image.jpg?crop=1622%2C852%2C0%2C114&resize=1200%2C630&order=crop%2Cresize",
-            "source": "thestar"
+            "url": "https://timesofindia.indiatimes.com/videos/entertainment/english/melania-cant-stop-laughing-as-donald-trump-drops-moms-king-charles-story-internet-reacts/videoshow/130590143.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-130590143/130590143.jpg?resizemode=4",
+            "source": "toi"
         },
         {
-            "title": "Ex-City of London Police officer who assaulted child found to have breached professional standards",
-            "severity": "HIGH",
-            "url": "https://www.standard.co.uk/news/crime/city-of-london-police-officer-assault-b1280306.html",
-            "image": "https://static.standard.co.uk/2024/05/21/14/c44ab79a79ee60755329b5c2ebb9b32bY29udGVudHNlYXJjaGFwaSwxNzE2Mzg1ODI5-2.5235129.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
-        },
-        {
-            "title": "OpenAI breaks free from Microsoft's exclusive grip",
-            "severity": "HIGH",
-            "url": "https://www.latimes.com/business/story/2026-04-28/openai-breaks-free-from-microsofts-exclusive-grip",
-            "image": "https://ca-times.brightspotcdn.com/dims4/default/43620bb/2147483647/strip/false/crop/3600x2400+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F7a%2F3e%2Feb0c7fc24680937d7605a594e866%2Feurope-artifical-intelligence-26548.jpg",
-            "source": "latimes"
-        },
-        {
-            "title": "Montana wildlife agency floats proposal to close East Gallatin to fishing from boats",
+            "title": "Water Treatment Expert Jason McGee of Loretto Explains How Local Suppliers Improve Safety and Reliability for HelloNation",
             "severity": "MEDIUM",
-            "url": "https://www.newsday.com/news/nation/montana-east-gallatin-river-fishing-regulations-b83485",
-            "image": "https://cdn.newsday.com/projects/logos/nd-logo-square.jpg?f=Landscape+16%3A9&w=1280&q=1",
-            "source": "newsday"
+            "url": "https://www.benzinga.com/pressreleases/26/04/n52115964/water-treatment-expert-jason-mcgee-of-loretto-explains-how-local-suppliers-improve-safety-and-reli",
+            "image": "https://images.pexels.com/photos/6755087/pexels-photo-6755087.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "benzinga"
         },
         {
-            "title": "Ukraine Hits Russia\u2019s Oil Machine, but Struggles to Dent Its Economy",
-            "severity": "WATCH",
-            "url": "https://www.wsj.com/world/russia/ukraine-hits-russias-oil-machine-but-struggles-to-dent-its-economy-8e8d0322",
-            "image": "https://images.pexels.com/photos/8828447/pexels-photo-8828447.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "wsj"
-        },
-        {
-            "title": "Octopus Energy responds to Martin Lewis over May 1 change which 'doesn't sound great'",
-            "severity": "WATCH",
-            "url": "https://www.birminghammail.co.uk/news/cost-of-living/octopus-energy-responds-martin-lewis-33822513",
-            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article33822607.ece/ALTERNATES/s615/0_octopus.jpg",
-            "source": "birminghammail"
-        },
-        {
-            "title": "City passes bylaw dissolving several council committees",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/edmonton/article/city-passes-bylaw-dissolving-several-council-committees/",
-            "image": "https://www.ctvnews.ca/resizer/v2/6JGZT4FR5FCR3APAOJGDKTHISI.png?auth=81157f98a022c9a06d5f41f15305bc0cea7cc1ca010701829a86de1c80727ad2&smart=true&width=1920&height=1080",
-            "source": "ctvnews"
-        },
-        {
-            "title": "There Are 25 Days-Worth Of Oil Supply Left In The USA, But Don't Panic",
-            "severity": "WATCH",
-            "url": "https://www.jalopnik.com/2159510/25-days-oil-left-u-s/",
-            "image": "https://www.jalopnik.com/img/gallery/there-are-25-days-worth-of-oil-supply-left-in-the-usa-but-dont-panic/l-intro-1777400571.jpg",
-            "source": "jalopnik"
-        },
-        {
-            "title": "Citarella Set To Open In Westhampton Beach Thursday",
-            "severity": "WATCH",
-            "url": "https://patch.com/new-york/westhampton-hamptonbays/citarella-set-open-westhampton-beach-thursday",
-            "image": "https://patch.com/img/cdn20/users/1296254/20260428/022741/styles/patch_image/public/joe-cita50874___28142524682.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Old money or a new demographic: Brown-Forman faces a tough choice",
-            "severity": "WATCH",
-            "url": "https://www.ft.com/content/eddb214d-fc49-4552-acd2-92a9f4bfaf7b",
-            "image": "https://d1e00ek4ebabms.cloudfront.net/production/8a9b3a88-9a61-437f-826b-5814b77869b8.jpg",
-            "source": "financialtimes"
-        },
-        {
-            "title": "HMP Wandsworth labelled \u2018inhumane\u2019 after being found to be most overcrowded prison in UK",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/uk/home-news/hmp-wandsworth-prison-overcrowding-uk-b2966683.html",
-            "image": "https://static.independent.co.uk/2026/04/28/18/2244824700.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Exclusive-US Spy Agencies Examine How Iran Would React to Trump Declaring Victory",
-            "severity": "WATCH",
-            "url": "https://www.usnews.com/news/world/articles/2026-04-28/exclusive-us-spy-agencies-examine-how-iran-would-react-to-trump-declaring-victory",
-            "image": "https://www.usnews.com/dims4/USNEWS/e5c3641/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F99%2F4e091692ce6d1e8cd457f0717276f8%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM3R1IJ%3A12026-04-28T182608Z_1_LYNXMPEM3R1IJ_RTROPTP_3_IRAN-CRISIS-USA-AGENCIES.JPG",
-            "source": "usnews"
-        },
-        {
-            "title": "Ravens signing Diego Pavia after controversial QB went undrafted",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/04/28/sports/ravens-signing-diego-pavia-after-controversial-qb-went-undrafted/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F04%2Flooks-throw-pass-schools-nfl-124098304.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Andy Ogles Gets Defensive With College Students In Heated Town Hall",
-            "severity": "WATCH",
-            "url": "https://www.huffpost.com/entry/andy-ogles-laughed-belmont-university-tennessee_n_69f0c610e4b02e917fa95fc1",
-            "image": "https://img.huffingtonpost.com/asset/69f0d136180000694d5b3fcd.jpeg?cache=qHVhyCDxRp&ops=1778_1000",
-            "source": "huffpost"
-        },
-        {
-            "title": "King Charles III will meet Trump, address Congress in a bid to spotlight UK-US ties",
-            "severity": "WATCH",
-            "url": "https://www.kxan.com/news/national-news/king-charles-iii-will-meet-trump-address-congress-in-a-bid-to-spotlight-uk-us-ties/",
-            "image": "https://www.kxan.com/wp-content/uploads/sites/40/2026/04/AP26117733087958-e1777384461637.jpg?strip=1",
-            "source": "kxan"
-        },
-        {
-            "title": "Former Vanderbilt QB Diego Pavia reportedly signing 3-year deal with Ravens as undrafted free agent",
-            "severity": "WATCH",
-            "url": "https://au.sports.yahoo.com/former-vanderbilt-qb-diego-pavia-reportedly-signing-3-year-deal-with-ravens-as-undrafted-free-agent-182723490.html",
-            "image": "https://s.yimg.com/os/creatr-uploaded-images/2025-12/fb4104e0-da70-11f0-baef-10a848a7680f",
+            "title": "Netanyahu trial: President\u2019s legal team invites prosecution, defense to preliminary plea-deal talks",
+            "severity": "MEDIUM",
+            "url": "https://www.yahoo.com/news/articles/netanyahu-trial-president-legal-team-214403261.html",
+            "image": "https://media.zenfs.com/en/jerusalem_post_articles_818/0be881fc0eb94d3babdd8184b1ff1df0",
             "source": "yahoo"
         },
         {
-            "title": "DMK functionary allegedly instigates vandalism of public water supply; DYFI activist held after he exposes it in Krishnagiri",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/cities/Coimbatore/dmk-functionary-allegedly-instigates-vandalism-of-public-water-supply-dyfi-activist-held-after-he-exposes-it-in-krishnagiri/article70917499.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
+            "title": "CCTV operator records, shares EVM strongroom clipping online; arrested",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/city/chennai/cctv-operator-records-shares-evm-strongroom-clipping-online-arrested/articleshow/130588996.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130588978/130588978.jpg",
+            "source": "toi"
         },
         {
-            "title": "When the world's an oyster for Sun (Pharma)",
+            "title": "Scunthorpe defeat Southend in first play-off eliminator",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/opinion/et-commentary/when-the-worlds-an-oyster-for-sun-pharma/articleshow/130588584.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-189048,resizemode-75,msid-130588584/opinion/et-commentary/when-the-worlds-an-oyster-for-sun-pharma.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://uk.sports.yahoo.com/news/scunthorpe-defeat-southend-first-play-221053394.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/waKq5LFBcZDx6uI2pJt3Uw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/news_and_star_893/ffbcffe70df3542a6317db73bdf7bdd1",
+            "source": "yahoo"
         },
         {
-            "title": "UK Inventor Publishes Mathematical Framework for Disciplined Supply Creation Across Money, Credits, and Critical Resources. Introducing PDM and Mann Mechanics",
+            "title": "F1 Insider Describes Miami Grand Prix as the \u2018Relaunch\u2019 of the 2026 Season",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/04/28/3283108/0/en/UK-Inventor-Publishes-Mathematical-Framework-for-Disciplined-Supply-Creation-Across-Money-Credits-and-Critical-Resources-Introducing-PDM-and-Mann-Mechanics.html",
-            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "url": "https://sports.yahoo.com/articles/f1-insider-describes-miami-grand-221024412.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/dbCInQ36TtxXG2paVRHAFw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwNDg7aD0xMzY2O2NmPXdlYnA-/https://media.zenfs.com/en/motorbiscuit_articles_333/43d2c9c69bcd3adb8e605a45cad5ec76",
+            "source": "yahoo"
         },
         {
-            "title": "Pipe-diver device ready for relaunch into Calgary\u2019s Beaspaw water feeder main",
+            "title": "\u2018Dancing With the Stars\u2019 Bosses Talk Casting Ciara and Maura for Season 35, \u2018Next Pro\u2019 Spinoff and Emmys Hopes",
             "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/calgary/article/pipe-diver-device-ready-for-relaunch-into-calgarys-beaspaw-water-feeder-main/",
-            "image": "https://www.ctvnews.ca/resizer/v2/JO35PTB25FGRFCRK2KE7T7WSLA.jpeg?auth=c2bfeb23d2117794497f0a18f2d7302800718461cec7492d1891a7b993a8c1c5&smart=true&width=1920&height=1080",
+            "url": "https://www.hollywoodreporter.com/tv/tv-features/dancing-with-the-stars-season-35-ciara-maura-next-pro-emmys-1236579655/",
+            "image": "https://www.hollywoodreporter.com/wp-content/uploads/2026/04/DWTS_FYC2026_045-e1777411665255.jpg",
+            "source": "hollywoodreporter"
+        },
+        {
+            "title": "Earnings call transcript: Clearwater Paper Q1 2026 sees mixed results",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-clearwater-paper-q1-2026-sees-mixed-results-93CH-4635298",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEB2N09U_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "U.S. crude stockpiles fell 1.8M barrels last week, API says",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/news/4581221-u-s-crude-stockpiles-fell-1_8m-barrels-last-week-api-says?feed_item_type=news",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1280385662/image_1280385662.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Sigenergy plans up to $200mn India manufacturing push",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/chennai/sigenergy-plans-up-to-200mn-india-manufacturing-push/articleshow/130589040.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130589034/130589034.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Trump OKs mining near Minnesota's Boundary Waters, allowing Chilean firm to seek permits",
+            "severity": "WATCH",
+            "url": "https://www.cbc.ca/news/canada/manitoba/boundary-waters-mining-trump-lifts-ban-9.7180628?cmp=rss",
+            "image": "https://i.cbc.ca/ais/4c283f8a-d03b-4f37-84e5-9e05f041138a,1777412492948/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C188%2C2048%2C1152%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "King Charles Did Something Remarkable Today. That Should Worry All of Us.",
+            "severity": "WATCH",
+            "url": "https://slate.com/news-and-politics/2026/04/king-charles-visits-congress.html?via=rss",
+            "image": "https://compote.slate.com/images/6d0c39e9-b653-489b-9c33-1fd561a970b3.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+            "source": "slate_usa"
+        },
+        {
+            "title": "FULL SPEECH: King Charles addresses U.S. Congress, highlights U.K.-U.S. bond",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/canada/royal-family/article/full-speech-king-charles-addresses-us-congress-highlights-uk-us-bond/",
+            "image": "https://www.ctvnews.ca/resizer/v2/HC2GHMNORNDWTEG4AQOJPPDMTU.jpg?auth=45ca952ffe389cc364cb4b0ede79e1815dbd3a6c345dd67b92d9226a3825d640&smart=true&width=1920&height=1080",
             "source": "ctvnews"
         },
         {
-            "title": "Rep. Stutzman to Newsmax: Need for WH Ballroom 'Is About Security'",
+            "title": "King Charles III Delivers Subtle, Witty Commentary on America in Address Before Congress",
             "severity": "WATCH",
-            "url": "https://www.newsmax.com/politics/stutzman-white-house-ballroom/2026/04/28/id/1254499",
-            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=65019647-d5e6-4503-b504-551931ec9205&SiteName=Newsmax",
+            "url": "https://www.usnews.com/news/national-news/articles/2026-04-28/king-charles-iii-delivers-subtle-witty-commentary-on-america-in-address-before-congress",
+            "image": "https://www.usnews.com/dims4/USNEWS/d87841a/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F85%2F59%2F50b281b64464b23f50597dfa1b6d%2Fgettyimages-2273072905.jpg",
+            "source": "usnews"
+        },
+        {
+            "title": "Prediction markets are surging \u2013 here\u2019s what you need to know",
+            "severity": "WATCH",
+            "url": "https://news.stanford.edu/stories/2026/04/prediction-markets-facts-gambling-regulation",
+            "image": "https://news.stanford.edu/__data/assets/image/0026/186731/GettyImages-1064957868.jpg",
+            "source": "stanford"
+        },
+        {
+            "title": "HII\u2019s Ingalls wins $283M Navy contract for frigate work",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/stock-market-news/hiis-ingalls-wins-283m-navy-contract-for-frigate-work-93CH-4635294",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB6208D_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Fuzzy eligibility guidelines leave allied healthcare aspirants clueless",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/chennai/fuzzy-eligibility-guidelines-leave-allied-healthcare-aspirants-clueless/articleshow/130589013.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130588991/130588991.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "\u2018Stole a charity\u2019: Elon Musk accuses Sam Altman of betrayal in courtroom showdown",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/opening-arguments-begin-elon-musk-161414151.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/WlQIZ1.7KQggwqaaECNDIw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xOTIwO2NmPXdlYnA-/https://media.zenfs.com/en/theguardian_763/146c82abb48721ef01b82acc14eac731",
+            "source": "yahoo"
+        },
+        {
+            "title": "U.S. track star Abby Steiner suing Puma, Mercedes F1 over claim shoes caused injuries",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7238440/2026/04/28/abby-steiner-shoes-puma-mercedes/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/04/28174434/abby-steiner-1-1-scaled.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "Baldoni\u2019s lawyers say 'unlikable' Blake caused business losses",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/justin-baldonis-lawyers-say-unlikable-blake-lively-caused-business-losses-cite-actress-trolling-kate-middleton-before-cancer-diagnosis/articleshow/130590202.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130590454/130590454.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Musk, OpenAI Clash in Courtroom Battle",
+            "severity": "WATCH",
+            "url": "https://www.newsmax.com/newsfront/openai-elon-musk-sam-altman/2026/04/28/id/1254526",
+            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=308c2e5f-7f48-4506-be05-8b739612b25b&SiteName=Newsmax",
             "source": "newsmax"
-        },
-        {
-            "title": "Riyan Parag Caught Smoking Vape? Viral Clip From RR-PBKS IPL 2026 Clash Sparks Major Controversy",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/sports/cricket/riyan-parag-caught-smoking-vape-in-dressing-room-viral-clip-from-rr-pbks-ipl-2026-clash-sparks-storm-article-154191985",
-            "image": "https://images.timesnownews.com/thumb/msid-154192046,width-1280,height-720,resizemode-75/154192046.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Hot Mic Catches Reporters Blasting Security After Trump Assassination Attempt: 'Two Random Chicks...'",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/us/us-news/hot-mic-catches-reporters-blasting-security-after-trump-assassination-attempt-two-random-chicks-article-154191886",
-            "image": "https://images.timesnownews.com/thumb/msid-154192062,width-1280,height-720,resizemode-75/154192062.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "No bail for activists held for violent Noida protest",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/noida/no-bail-for-activists-held-for-violent-noida-protest/articleshow/130588190.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130588189/130588189.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "11 California class-action settlements with payouts up to $5,000 that you can claim now",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/04/28/business/11-ongoing-california-class-action-settlements-with-payouts/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F04%2Fgeneral-view-krispy-kreme-doughnuts-119069425.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Court rejects former GBU registrar\u2019s anticipatory bail in Rs 5 crore fee fraud case",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/noida/court-rejects-former-gbu-registrars-anticipatory-bail-in-rs-5-crore-fee-fraud-case/articleshow/130588011.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130588010/130588010.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "ETtech Explainer: How the Altman vs Musk trial is unfolding in court",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/tech/technology/ettech-explainer-how-the-altman-vs-musk-trial-is-unfolding-in-court/articleshow/130587383.cms",
-            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-74944,resizemode-75,msid-130587383/tech/technology/ettech-explainer-how-the-altman-vs-musk-trial-is-unfolding-in-court.jpg",
-            "source": "economictimes_indiatimes"
         }
     ],
-    "Last_Updated": "2026-04-29T06:29:39.530598Z"
+    "Last_Updated": "2026-04-29T10:11:57.525769Z"
 }
