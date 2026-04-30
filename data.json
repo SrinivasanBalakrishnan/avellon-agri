@@ -1,246 +1,279 @@
 {
-    "AGRI_Score": 61.8,
-    "Velocity": "+4.1",
+    "AGRI_Score": 63.2,
+    "Velocity": "+1.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The AGRI score of 61.8 reflects a heightened global risk environment, primarily driven by severe disruptions in energy markets and escalating geopolitical conflict intensity. Crude oil prices have soared to $120, hitting their highest level since 2022, as reported in \"Oil Price Today (April 30),\" while \"UAE to exit OPEC on May 1\" introduces further market uncertainty. Concurrently, US-Iran tensions are amplified by discussions of potential US troop reductions and threats to the Strait of Hormuz, as highlighted by \"Trump weighing reduction of US troop presence in Germany after Iran feud\" and \"\u2018Strait of Trump\u2019\" headlines. These factors collectively indicate a volatile landscape where energy security and international relations are under significant pressure.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 70.2,
+        "Geopolitical Conflict Intensity": 82.1,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 68.1,
+        "Trade & Supply Chain Stress": 62.0,
         "Sovereign Financial Stress": 53.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 54.5,
-        "Cyber & Infrastructure Threats": 59.0,
+        "Sanctions & Regulatory Fragmentation": 62.9,
+        "Cyber & Infrastructure Threats": 50.2,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The pillar's high score reflects mounting tensions, particularly between the US and Iran, with President Trump's considerations of troop reductions in Germany and renaming the Strait of Hormuz signaling heightened friction. The \"Iran war\" discussions between Putin and Trump, alongside Bangladesh's new Russia-backed nuclear reactor, indicate a complex and active global conflict landscape.",
-        "Energy & Maritime Disruption": "This pillar's extreme score of 100 is directly attributable to \"Crude oil soars to $120, hits highest level since 2022,\" signaling severe market stress. Further disruption is anticipated as \"UAE to exit OPEC on May 1\" introduces uncertainty regarding future supply and market coordination, compounded by geopolitical threats to crucial shipping lanes like the Strait of Hormuz.",
-        "Trade & Supply Chain Stress": "Trade tensions are evident with \"Prices of Nvidia's B300 server at $1 million in China on US curbs,\" demonstrating the impact of regulatory actions on critical technology supply. Furthermore, reports like \"\u2018Pakistan double-deals America again\u2019: Expert flags land routes allowing Iran to bypass US blockade\" indicate ongoing efforts to circumvent trade blockades, complicating global commerce.",
-        "Sovereign Financial Stress": "The global economic environment is experiencing pressure from high commodity prices, exemplified by \"Iran Blames US For Price Hike,\" which contributes to inflationary concerns for national economies. Elevated energy costs impose significant fiscal burdens on import-reliant nations, potentially exacerbating sovereign debt and economic vulnerability.",
-        "Currency & Liquidity Pressure": "Geopolitical volatility and significant commodity price increases are expected to induce greater currency fluctuations and impact market liquidity. The \"Iran Blames US For Price Hike\" headline underscores how inflation, driven by external factors like energy costs, can directly erode purchasing power and currency value.",
-        "Sanctions & Regulatory Fragmentation": "The effectiveness of sanctions regimes is under scrutiny, with \"\u2018Pakistan double-deals America again\u2019: Expert flags land routes allowing Iran to bypass US blockade\" highlighting challenges in enforcement. US curbs, such as those leading to \"Prices of Nvidia's B300 server at $1 million in China on US curbs,\" demonstrate how regulatory actions are segmenting markets and creating alternative supply channels.",
-        "Cyber & Infrastructure Threats": "Cyber risks remain a significant concern, illustrated by the report that \"Iran-linked hackers release personal details of over 2000 US troops,\" indicating persistent state-sponsored activity. Such incidents underscore the continuous threat to critical national security infrastructure and sensitive personnel data.",
-        "Climate & Resource Shock": "This pillar currently reflects routine monitoring with no immediate severe shocks identified from the news feed. Environmental risks and resource management require continuous vigilance for long-term strategic planning."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Bangladesh enters nuclear club: Russia-backed reactor goes live \u2013 Why is India alert?",
+            "title": "Shehbaz Sharif Warns Pakistan Fuel Crisis Deepens As Oil Bill Hits $800M A Week Amid Iran War",
             "severity": "HIGH",
-            "url": "https://zeenews.india.com/world/bangladesh-enters-nuclear-club-russia-backed-reactor-goes-live-why-is-india-alert-3042198.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/04/30/1937596-bangladesh-nuclear-plant-1.jpg?im=Resize=(1200,900)",
-            "source": "zeenews"
-        },
-        {
-            "title": "Iran Blames US For Price Hike",
-            "severity": "HIGH",
-            "url": "https://www.timesnownews.com/india/iran-blames-us-for-price-hike-says-donald-trump-officials-offering-him-junk-advice-article-154203726",
-            "image": "https://images.timesnownews.com/thumb/msid-154203877,width-1280,height-720,resizemode-75/154203877.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "\u2018Pakistan double-deals America again\u2019: Expert flags land routes allowing Iran to bypass US blockade",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/world/us-iran-war-pakistan-overland-transit-routes-trump-blockade-operation-economic-fury-islamabad-talks-14005944.html",
-            "image": "https://images.firstpost.com/uploads/2025/11/Firstpost-2025-11-14T123256.656-2025-11-7339012c8beef29203ebc91bd2848116.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Oil Price Today (April 30): Crude oil soars to $120, hits highest level since 2022. What are experts saying?",
-            "severity": "HIGH",
-            "url": "http://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-april-30-crude-oil-soars-to-120-hit-highest-level-since-2022-what-are-experts-saying/articleshow/130621152.cms",
-            "image": "https://img.etimg.com/thumb/msid-130621148,resizemode-4,width-1200,height-900,imgsize-43944,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Trump weighing reduction of US troop presence in Germany after Iran feud",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/world-news/trump-weighing-reduction-of-us-troop-presence-in-germany-after-iran-feud-126043000072_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260430/thumb-126043000072.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "\u2018Strait of Trump\u2019: President Trump depicts renaming the Strait of Hormuz in newly shared post, sparks concerns",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/us/news/strait-of-trump-president-trump-depicts-renaming-the-strait-of-hormuz-in-newly-shared-post-sparks-concerns/articleshow/130627018.cms",
-            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-66884,resizemode-75,msid-130627018/us/news/strait-of-trump-president-trump-depicts-renaming-the-strait-of-hormuz-in-newly-shared-post-sparks-concerns.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Prices of Nvidia's B300 server at $1 million in China on US curbs",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/tech/technology/prices-of-nvidias-b300-server-at-1-million-in-china-on-us-curbs/articleshow/130626998.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-87680,resizemode-75,msid-130626998/tech/technology/prices-of-nvidias-b300-server-at-1-million-in-china-on-us-curbs.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "UAE to exit OPEC on May 1: What does this mean for oil markets, prices and supply?",
-            "severity": "HIGH",
-            "url": "https://www.businesstoday.in/world/story/uae-to-exit-opec-on-may-1-what-does-this-mean-for-oil-markets-prices-and-supply-528056-2026-04-30",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69f1dca642ea2-uae-to-exit-opec--opec-on-may-1-will-this-change-oil-markets-292536646-16x9.png?size=1280:720",
+            "url": "https://www.businesstoday.in/bt-tv/short-video/shehbaz-sharif-warns-pakistan-fuel-crisis-deepens-as-oil-bill-hits-800m-a-week-amid-iran-war-528140-2026-04-30",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/short_video/202604/thumbnail-original_2332-sixteen_nine_0.jpg?size=1280:720",
             "source": "businesstoday"
         },
         {
-            "title": "Polen Global Growth Q1 2026 Commentary",
+            "title": "Healthy rise in exports in April so far: Goyal",
             "severity": "HIGH",
-            "url": "https://seekingalpha.com/article/4896258-polen-global-growth-q1-2026-commentary",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2192704905/image_2192704905.jpg?io=getty-c-w1280",
+            "url": "https://economictimes.indiatimes.com/small-biz/trade/exports/insights/healthy-rise-in-exports-in-april-so-far-goyal/articleshow/130624114.cms",
+            "image": "https://img.etimg.com/thumb/msid-130624191,resizemode-4,width-1200,height-900,imgsize-151508,overlay-etrise/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Brent crude tops $125 a barrel on Iran war worries, while world stocks retreat",
+            "severity": "HIGH",
+            "url": "https://www.wfaa.com/article/news/nation-world/brent-crude-tops-125-barrel-iran-war-stocks-retreat/507-3c45eec2-b859-45fb-b432-b67879fd6e7f",
+            "image": "https://images.pexels.com/photos/32357268/pexels-photo-32357268.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "wfaa"
+        },
+        {
+            "title": "Cognex: Reindustrialization And The Military Industrial Complex Can Drive Global Growth",
+            "severity": "HIGH",
+            "url": "https://seekingalpha.com/article/4896335-cognex-stock-reindustrialization-and-military-industrial-complex-can-drive-global-growth",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/177312519/image_177312519.jpg?io=getty-c-w1280",
             "source": "seekingalpha"
         },
         {
-            "title": "Iran war, Victory Day ceasefire, Ukraine deal 'close': What Putin and Trump discussed in 90-minute call",
+            "title": "Zelensky to make every effort to prolong Ukraine conflict \u2014 Donetsk leader",
             "severity": "HIGH",
-            "url": "https://www.businesstoday.in/world/story/iran-war-victory-day-ceasefire-ukraine-deal-close-what-putin-and-trump-discussed-in-90-minute-call-528122-2026-04-30",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202604/69f2b769e560b-trump-putin-talk-over-iran-war-305900538-16x9.jpeg?size=1280:720",
-            "source": "businesstoday"
+            "url": "https://tass.com/politics/2124617",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
         },
         {
-            "title": "'Just a drop in the ocean': Iran-linked hackers release personal details of over 2000 US troops",
+            "title": "Nepal Airlines Shows J&K In Pakistan Map, Apologises Citing \u2018Cartographic Inaccuracy\u2019 After Backlash",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/middle-east/just-a-drop-in-the-ocean-iran-linked-hackers-release-personal-details-of-over-2000-us-troops/articleshow/130621023.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130621060/130621060.jpg",
-            "source": "toi"
+            "url": "https://news.abplive.com/news/world/jammu-kashmir-in-pakistan-nepal-airlines-india-nepal-ties-map-error-ladakh-kathmandu-delhi-1839557",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/01/538480d8029a546988c1a8710fe5373017750144624991200_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
         },
         {
-            "title": "Gold Rate Today Live: City-wise gold and silver prices in Mumbai, Delhi, Kolkata, Chennai, Hyderabad, Surat, Jaipur",
-            "severity": "MEDIUM",
-            "url": "https://www.india.com/business/gold-silver-copper-metal-prices-sarafa-market-comex-mcx-mumbai-delhi-kolkata-chennai-hyderabad-surat-jaipur-crude-oil-us-federal-reserve-8397469/",
-            "image": "https://static.india.com/wp-content/uploads/2026/04/Gold-Main.jpg",
-            "source": "india"
-        },
-        {
-            "title": "Top-seeded Pistons stay alive in playoffs with Magic win",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/top-seeded-pistons-stay-alive-021021167.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/b4NWeESrUTXDlWnMaKdkKQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE1MzY7aD0xMDI0O2NmPXdlYnA-/https://media.zenfs.com/en/afp.co.uk/834e28ec846943726ae85b1d2c28d24b",
-            "source": "yahoo"
-        },
-        {
-            "title": "Report: Head of LIV Golf Yasir Al-Rumayyan is stepping down as league's future in doubt",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/report-head-liv-golf-yasir-020929987.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/MfEw7KTttCDp5Dc2W7vHKw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTcwNTtoPTQ3MTtjZj13ZWJw/https://media.zenfs.com/en/golf_digest_articles_737/921dd2a5c0fe8db2390d0eb1e383e939",
-            "source": "yahoo"
-        },
-        {
-            "title": "WHO validates Australia for eliminating trachoma as public health problem",
-            "severity": "WATCH",
-            "url": "https://www.news-medical.net/news/20260429/WHO-validates-Australia-for-eliminating-trachoma-as-public-health-problem.aspx",
-            "image": "https://www.news-medical.net/image-handler/picture/2016/6/blind_%27s_feet_with_stick-CHAINFOTO24-1000_2e9f8aa9159745749a4cc8db3c3fac96-620x480.jpg",
-            "source": "news-medical"
-        },
-        {
-            "title": "Takaichi speaks at event marking 100 years since start of Showa Era",
-            "severity": "WATCH",
-            "url": "https://www.japantimes.co.jp/news/2026/04/30/japan/japan-showa-era-100-year-anniversary-event/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/04/30/537837.jpg",
-            "source": "japantimes"
-        },
-        {
-            "title": "Watch: Zohran Mamdani says he would ask King Charles to return Koh-i-Noor diamond",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/us/watch-zohran-mamdani-says-he-would-ask-king-charles-to-return-koh-i-noor-diamond/articleshow/130621143.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130621162/130621162.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Red Wings are 'softest team in the league', says Darren McCarty",
-            "severity": "WATCH",
-            "url": "https://www.detroitnews.com/story/sports/other/2026/04/29/darren-mccarty-says-detroit-red-wings-are-softest-team-in-the-nhl/89865505007/",
-            "image": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/03/25/PDTN/89317689007-s-006-mc-carty-1108-y-1-dot-11062008-13-u-7-igf.jpg?crop=1891,1064,x0,y0&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "detroitnews"
-        },
-        {
-            "title": "Watch: Lee Jae Wook And Shin Ye Eun Discover Chaotic Island Life In First Teasers For \u201cDoctor On The Edge\u201d",
-            "severity": "WATCH",
-            "url": "https://www.soompi.com/article/1837159wpp/watch-lee-jae-wook-and-shin-ye-eun-discover-chaotic-island-life-in-first-teasers-for-doctor-on-the-edge",
-            "image": "https://0.soompi.io/wp-content/uploads/2026/04/29185148/doctor-on-the-edge-2-.png",
-            "source": "soompi"
-        },
-        {
-            "title": "White House press dinner shooting reveals deepening political divides in U.S.",
-            "severity": "WATCH",
-            "url": "http://english.people.com.cn/n3/2026/0430/c90000-20452171.html",
-            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "en_people_cn"
-        },
-        {
-            "title": "Monaghan removed from downtown Spokane and relocated to cemetery",
-            "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/articles/monaghan-removed-downtown-spokane-relocated-020800636.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
-            "source": "yahoo"
-        },
-        {
-            "title": "Agoda's Top Picks for Trending Coastal Destinations Across Asia for Early Summer Travel",
-            "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/agodas-top-picks-for-trending-coastal-destinations-across-asia-for-early-summer-travel-302756635.html",
-            "image": "https://mma.prnewswire.com/media/2567836/Agoda.jpg?p=original",
-            "source": "prnewswire_apac"
-        },
-        {
-            "title": "Anthropic Reportedly Plotting to Surpass OpenAI\u2019s Valuation in Next Funding Round",
-            "severity": "WATCH",
-            "url": "https://gizmodo.com/anthropic-reportedly-plotting-to-surpass-openais-valuation-in-next-funding-round-2000751535",
-            "image": "https://gizmodo.com/app/uploads/2026/04/dario-amodei-triumphant.jpg",
-            "source": "gizmodotech"
-        },
-        {
-            "title": "5 things we learned from WSU's spring practice slate: QB battle rolls on, a new offensive lineman and more",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/5-things-learned-wsus-spring-020400714.html",
-            "image": "https://s.yimg.com/cv/apiv2/sports/share/PD_010626-Social_Share_GENRIC_YAHOO_SPORTS-1200x630.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Mango terrorism",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/blogs/toi-edit-page/mango-terrorism/",
-            "image": "https://static.toiimg.com/imagenext/toiblogs/thumb/blogs/wp-content/uploads/2023/11/WhatsApp-Image-2023-11-30-at-11.20.28-AM.jpeg?resizemode=4&width=1280&height=720",
-            "source": "toi"
-        },
-        {
-            "title": "TikTokers 'raid' Scientology buildings and post them onlilne",
-            "severity": "WATCH",
-            "url": "https://www.nbcnews.com/video/teens-rush-through-scientology-buildings-in-viral-trend-262423109932",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_04/1777514777603_now_topstory_scientology_viral_trend_260429_S3_1920x1080-buziyw.jpg",
-            "source": "nbcnews"
-        },
-        {
-            "title": "Does the secret service remain unpaid? Fact checking lawmaker\u2019s claims",
-            "severity": "WATCH",
-            "url": "https://www.kcra.com/article/does-the-secret-service-remain-unpaid/71169683",
-            "image": "https://kubrick.htvapps.com/htv-prod/images/f1270cc5-9505-4298-9198-31b2d88bd27d.jpg?crop=1.00xw:0.846xh;0,0.0457xh&resize=1200:*",
-            "source": "kcra"
-        },
-        {
-            "title": "Ringgit opens lower vs US$, mixed against peers",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/04/30/ringgit-opens-lower-vs-us-mixed-against-peers",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/30/3884759.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Man charged with trying to kill Trump took hotel room selfie before rushing gala, investigators say",
-            "severity": "WATCH",
-            "url": "https://www.adn.com/nation-world/2026/04/29/man-charged-with-trying-to-kill-trump-took-hotel-room-selfie-before-rushing-gala-investigators-say/",
-            "image": "https://www.adn.com/resizer/CoWSR538N3_aa7uSu7J_C-kVZPQ=/cloudfront-us-east-1.images.arcpublishing.com/adn/CWJ5MHMNOFKN4JSQMUAFOEUQPM.jpg",
-            "source": "adn"
-        },
-        {
-            "title": "Stephen Fry sues companies over stage fall that broke multiple bones",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/bulletin/culture/stephen-fry-suing-cogx-festival-o2-arena-b2967729.html",
-            "image": "https://static.independent.co.uk/2026/02/04/17/aa5d5960d0667d0ca7504c35e90af0bfY29udGVudHNlYXJjaGFwaSwxNzcwMzEyMDM1-2.72459000.jpg?width=1200&auto=webp&crop=3%3A2",
+            "title": "Oil prices top $125 as US considers military options to break Iran deadlock",
+            "severity": "HIGH",
+            "url": "https://www.independent.co.uk/news/business/oil-prices-today-brent-crude-stocks-strait-of-hormuz-iran-b2967779.html",
+            "image": "https://static.independent.co.uk/2026/04/30/05/Oil_Majors_BP_78_42.jpg?width=1200&auto=webp&crop=3%3A2",
             "source": "independentuk"
         },
         {
-            "title": "Trump administration announces moves to sharply curtail gun regulations",
+            "title": "Many have asked if Trump is gaining financially from the Iran War. Peter Hartcher answers",
+            "severity": "HIGH",
+            "url": "https://www.smh.com.au/world/middle-east/many-have-asked-if-trump-is-gaining-financially-from-the-iran-war-peter-hartcher-answers-20260430-p5zshq.html",
+            "image": "https://static.ffx.io/images/$zoom_0.19988674971687428%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_55/t_crop_custom/q_86%2Cf_auto/524e48f7822afd8917158fbf5ab82aa579e08f6c",
+            "source": "smh"
+        },
+        {
+            "title": "StanChart profit jumps 17%, books US$190mil charge on Iran war",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/04/30/stanchart-profit-jumps-17-books-us190mil-charge-on-iran-war",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/30/3885057.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Myanmar mass prison sentence cut trims Suu Kyi's jail term",
+            "severity": "HIGH",
+            "url": "https://globalnation.inquirer.net/320558/myanmar-mass-prison-sentence-cut-trims-suu-kyis-jail-term",
+            "image": "https://globalnation.inquirer.net/files/2026/04/Myanmar-mass-prison-sentence-cut-trims-Suu-Kyis-jail-term-620x413.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "UAE Exits OPEC: What It Means For Oil Prices And India\u2019s Import Bill",
+            "severity": "MEDIUM",
+            "url": "https://news.abplive.com/business/uae-exits-opec-oil-prices-impact-on-indian-economy-india-imports-bill-1839561",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/28/8e4bc54de193772b3e0409be62b3086317773718917241324_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "Asian shares fall as Brent hits 4-year high; bonds battered by central bank hawks",
+            "severity": "MEDIUM",
+            "url": "https://www.thestar.com.my/business/business-news/2026/04/30/asian-shares-fall-as-brent-hits-4-year-high-bonds-battered-by-central-bank-hawks",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/30/3885062.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Can the EU\u2019s Article 42.7 offer Europe NATO-like collective defence?",
+            "severity": "MEDIUM",
+            "url": "https://www.aljazeera.com/news/2026/4/30/can-the-eus-article-42-7-offer-europe-nato-like-collective-defence",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260212__97849W8__v1__HighRes__BelgiumNato-1772709226.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
+        },
+        {
+            "title": "Modi Holds Narrow Edge Over Rivals in Key State, Exit Polls Show",
+            "severity": "MEDIUM",
+            "url": "https://financialpost.com/pmn/business-pmn/modi-holds-narrow-edge-over-rivals-in-key-state-exit-polls-show",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/modi-faces-key-electoral-test-in-state-polls-current-ruling.jpg",
+            "source": "financialpost"
+        },
+        {
+            "title": "Mexico's dilemma -- Extradite officials to U.S. or risk angering Trump",
+            "severity": "MEDIUM",
+            "url": "https://www.latimes.com/world-nation/story/2026-04-29/mexicos-dilemma-extradite-officials-to-u-s-or-risk-angering-trump",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/7904300/2147483647/strip/false/crop/1400x900+0+0/resize/1400x900!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F76%2F25%2F9d13d5414037bc41e5e94374f5f7%2F2-pack-mex-usa.jpg",
+            "source": "latimes"
+        },
+        {
+            "title": "Taiwan accuses China of vegetable laundering via Vietnam",
             "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/04/29/nation/trump-curtail-gun-regulations/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/HVWTIFZMRQXNRSHILEYETKPSPI.jpg?auth=06460ad1a5b24b059531893ca5e1c1a3e44013163f31c6f5211f4a638c704c94&smart=true&width=6192&height=4128",
-            "source": "bostonglobe"
+            "url": "https://www.theguardian.com/world/2026/apr/30/taiwan-accuses-china-of-vegetable-laundering-via-vietnam",
+            "image": "https://i.guim.co.uk/img/media/3eb33627ca3c0b89a4110344374d729573c34ace/563_0_3640_2912/master/3640.jpg?width=140&quality=85&auto=format&fit=max&s=f6b252de27667040cc6a9b30cfc3aa96",
+            "source": "theguardian"
+        },
+        {
+            "title": "Sudha Chandran meets Premanand Ji Maharaj; says, \u2018I had tears in my eyes, tears of joy\u2019",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/sudha-chandran-meets-premanand-ji-maharaj-says-i-had-tears-in-my-eyes-tears-of-joy/articleshow/130624035.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130624081/130624081.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Why does squishing NeeDoh, slime, or putty feel so satisfying?",
+            "severity": "WATCH",
+            "url": "https://theconversation.com/why-does-squishing-needoh-slime-or-putty-feel-so-satisfying-280710",
+            "image": "https://images.theconversation.com/files/732965/original/file-20260429-57-tj7wp3.png?ixlib=rb-4.1.0&rect=0%2C0%2C1277%2C638&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
+        },
+        {
+            "title": "Australia isn\u2019t getting a fair share of tax on gas exports. Queensland has shown how to raise the bar",
+            "severity": "WATCH",
+            "url": "https://theconversation.com/australia-isnt-getting-a-fair-share-of-tax-on-gas-exports-queensland-has-shown-how-to-raise-the-bar-281526",
+            "image": "https://images.theconversation.com/files/733193/original/file-20260430-57-flkflq.jpg?ixlib=rb-4.1.0&rect=0%2C465%2C5184%2C2592&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
+        },
+        {
+            "title": "Rupee hits record low of 95.20 against US dollar, slides 32 paise in early trade",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-hits-record-low-of-95-20-against-us-dollar-slides-32-paise-in-early-trade/articleshow/130623920.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130623940/130623940.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Hyderabad\u2019s Maison D\u2019atre Hosts \u2018The Long Parade\u2019 by Annelies Van Baelen",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/entertainment/art/hyderabads-maison-datre-hosts-the-long-parade-by-annelies-van-baelen/article70915199.ece",
+            "image": "https://th-i.thgim.com/public/incoming/5ubcnm/article70920593.ece/alternates/FREE_1200/maison8.jpeg",
+            "source": "thehindu"
+        },
+        {
+            "title": "Kimi Antonelli Eyes History With Hat-Trick At Miami GP! Toto Wolff Makes Grand F1 Admission",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/sports/formula-one/kimi-antonelli-eyes-history-with-hat-trick-at-miami-gp-toto-wolff-makes-grand-f1-admission-ws-lno-10065366.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/Mercedes-Kimi-Antonelli-2026-04-eaf175774b5d551de7066e9f1b52dbf1-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "D-Day veteran who 'was amazing man' dies aged 106",
+            "severity": "WATCH",
+            "url": "https://www.bbc.com/news/articles/cx21e82dxngo",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/af32/live/eab5dea0-43c2-11f1-ac78-2112837ce2aa.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "Air Products to Expand Industrial Gas Supply for Samsung Electronics' Next-Generation Semiconductor Fab in South Korea",
+            "severity": "WATCH",
+            "url": "https://www.prnewswire.com/apac/news-releases/air-products-to-expand-industrial-gas-supply-for-samsung-electronics-next-generation-semiconductor-fab-in-south-korea-302758325.html",
+            "image": "https://images.pexels.com/photos/37303705/pexels-photo-37303705.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "prnewswire_apac"
+        },
+        {
+            "title": "Zodiac Energy receives solar power project worth Rs 5.44 cr",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/markets/capital-market-news/zodiac-energy-receives-solar-power-project-worth-rs-5-44-cr-126043000320_1.html",
+            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "OMCs under pressure as crude tops $126; Nifty Oil & Gas index slips 1.6%",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/markets/news/omcs-under-pressure-as-crude-tops-126-nifty-oil-gas-index-slips-1-6-126043000310_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260430/thumb-126043000310.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Major update over new leasehold rules for all of England and Wales",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/major-update-over-new-leasehold-33862834",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article33862849.ece/ALTERNATES/s615/0_leasehold.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Marcos inaugurates P1.21 billion irrigation project in Leyte",
+            "severity": "WATCH",
+            "url": "https://newsinfo.inquirer.net/2220747/marcos-inaugurates-p1-21-billion-irrigation-project-in-leyte",
+            "image": "https://newsinfo.inquirer.net/files/2026/04/1000028093-620x465.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "On witness stand, Elon Musk accuses Sam Altman's lawyer of trying to trick him",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/world-news/on-witness-stand-elon-musk-accuses-sam-altmans-lawyer-of-trying-to-trick-him-101777524944385.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/30/1600x900/logo/MUSK-OPENAI-COURT-54_1777525198659_1777525210860.JPG",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Pregnant rough sleepers, autism charity controversy and a seagull screeching competition",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/podcasts/early-edition/pregnant-rough-sleepers-autism-charity-controversy-and-a-seagull-screeching-competition/",
+            "image": "https://www.irishtimes.com/resizer/v2/PZRJANZ5EUU3VBMQHNPKOFPPNU.jpg?auth=61860c60cba1e73b099583dfd4c5596798d6db8ea2ae5840a4a44113c725e8d6&smart=true&width=630&height=350",
+            "source": "irishtimes"
+        },
+        {
+            "title": "Alleged transfer of \u20ac1.5m by autism body to UK parent charity \u2018possibly criminal\u2019",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/ireland/social-affairs/2026/04/30/alleged-transfer-of-15m-by-autism-charity-to-uk-parent-charity-possibly-criminal/",
+            "image": "https://www.irishtimes.com/resizer/v2/ZJ4HG5ZLFBNSPRPEXLQWTZHJJM.jpg?auth=af611fb5bcd2c6704e43c38767dc34598891d86c2ada2064cb97d0ea265878e1&smart=true&width=630&height=350",
+            "source": "irishtimes"
+        },
+        {
+            "title": "This May Day it is important to remember the vital role protest plays in a vibrant democracy",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/opinion/2026/04/30/this-may-day-it-is-important-to-remember-the-vital-role-protest-plays-in-a-vibrant-democracy/",
+            "image": "https://www.irishtimes.com/resizer/v2/B4YZWOF2U5GMLFUNTHQDMYNP2U.JPG?auth=01b65f9ca186aa8198f9eff70f907ed42e865fb081d5f9ce1932bf537fb4a56f&smart=true&width=630&height=350",
+            "source": "irishtimes"
+        },
+        {
+            "title": "Vaibhav Sooryavanshi faces fresh AI remarks; Jofra Archer receives text message from Gujarat Titans",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cricket/vaibhav-sooryavanshi-faces-fresh-ai-remarks-jofra-archer-receives-text-message-from-gujarat-titans-101777524153400.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/30/1600x900/logo/Vaibhav_Archer_1777524667671_1777524671665.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "National Iwi Chairs Forum calls for halt to proposed Waitangi Treaty clause changes",
+            "severity": "WATCH",
+            "url": "https://www.rnz.co.nz/news/te-manu-korihi/593873/national-iwi-chairs-forum-calls-for-halt-to-proposed-waitangi-treaty-clause-changes",
+            "image": "https://images.pexels.com/photos/22663779/pexels-photo-22663779.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "Dunedin City Councillor Benedict Ong defends leaking email",
+            "severity": "WATCH",
+            "url": "https://www.rnz.co.nz/news/political/593865/dunedin-city-councillor-benedict-ong-defends-leaking-email",
+            "image": "https://images.pexels.com/photos/7518599/pexels-photo-7518599.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "Pune chlorine gas leak: 24 hospitalised after chemical escapes defunct Kondhwa plant",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/news/india/pune-kondhwa-chlorine-gas-leak-gangadham-sassoon-hospital-residents-hospitalised-j4zq97aw",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qsvgdqu34t9w0u6nyk/0/pune-chlorine-gas-leak-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "IPL Pulse: Churned teams and cleansed guts",
+            "severity": "WATCH",
+            "url": "https://www.cricbuzz.com/cricket-news/138592/ipl-pulse-churned-teams-and-cleansed-guts",
+            "image": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c945182/dont-go-by-this-picture-caps-arent-edible.jpg",
+            "source": "cricbuzz"
         }
     ],
-    "Last_Updated": "2026-04-30T14:12:06.848655Z"
+    "Last_Updated": "2026-04-30T17:26:06.732899Z"
 }
