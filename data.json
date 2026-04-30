@@ -1,279 +1,204 @@
 {
-    "AGRI_Score": 63.2,
-    "Velocity": "+1.4",
+    "AGRI_Score": 62.5,
+    "Velocity": "-0.7",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.5 indicates a significantly elevated risk environment, primarily driven by extreme levels in \"Energy & Maritime Disruption\" (100) and high \"Geopolitical Conflict Intensity\" (75.6). This surge is directly attributed to escalating tensions between the US and Iran, with explicit threats of blockades in the Strait of Hormuz, as evidenced by headlines like \"Trump says Iran will \u2018have to cry uncle\u2019 to open \u2018genius\u2019 blockade of Strait of Hormuz\" and \"Iran Warns Of Unprecedented Action If US Continues 'Naval Blockade' Of Hormuz.\" The potential for a prolonged 'war for months' and its immediate impact on crude prices and vital supply chains are the key contributors to this heightened risk posture.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 82.1,
+        "Geopolitical Conflict Intensity": 75.6,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 62.0,
+        "Trade & Supply Chain Stress": 65.9,
         "Sovereign Financial Stress": 53.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 62.9,
-        "Cyber & Infrastructure Threats": 50.2,
+        "Sanctions & Regulatory Fragmentation": 59.4,
+        "Cyber & Infrastructure Threats": 53.7,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Risk is significantly elevated due to the direct confrontation over the Strait of Hormuz, with both US and Iranian leadership issuing warnings of blockades and unprecedented action. Further intensity is added by repeated interceptions of aid flotillas near Gaza, as seen in \"Activists say Israel has intercepted their Gaza aid flotilla near Crete, detaining crews,\" indicating ongoing regional friction.",
+        "Energy & Maritime Disruption": "This pillar faces extreme disruption from the escalating rhetoric surrounding a potential US 'naval blockade' and an Iranian counter-blockade of the Strait of Hormuz, a critical global oil transit chokepoint. This geopolitical tension is already translating into significant market impacts, with fuel prices jumping by 'up to 10% across Emirates' and crude surges negatively affecting stock markets.",
+        "Trade & Supply Chain Stress": "Supply chains are under considerable stress, with a direct threat to critical commodities like 'world rice supply threatened by Iran war, El Nino.' The maritime chokepoint threats in the Strait of Hormuz exacerbate this, creating significant disruption risks for global shipping and trade routes.",
+        "Sovereign Financial Stress": "Sovereign financial stability faces increasing pressure as crude price surges negatively impact broader markets, evidenced by the 'ASX 200 makes it eight in a row down as crude surge hobbles mining stocks.' The prospect of a prolonged 'war for months' coupled with economic strain on citizens and industries, such as failing airlines, suggests a deteriorating fiscal outlook.",
+        "Currency & Liquidity Pressure": "Elevated fuel prices, jumping by 'up to 10% across Emirates,' are likely to contribute to inflationary pressures and reduce consumer liquidity in affected regions. Market volatility driven by escalating geopolitical tensions and crude surges could further strain national currencies and create demand for safer assets.",
+        "Sanctions & Regulatory Fragmentation": "The direct confrontation over the Strait of Hormuz, including threats of 'naval blockade,' indicates a high probability of intensified sanctions and counter-measures between the US and Iran. This escalating rhetoric suggests a further fragmentation of global trade and financial regulatory frameworks as parties adopt more restrictive policies.",
+        "Cyber & Infrastructure Threats": "While the news feed does not contain direct reports of cyberattacks, the intensely elevated geopolitical climate, specifically the US-Iran confrontation and implied 'war for months,' significantly raises the potential for state-sponsored cyber and infrastructure targeting. Organizations should enhance their digital defenses as a precautionary measure against potential disruptions stemming from these escalating global tensions.",
+        "Climate & Resource Shock": "This pillar currently demonstrates routine monitoring, with specific concerns regarding 'El Nino' impacting global 'rice supply' being noted. While some environmental conservation efforts are highlighted, there are no widespread, immediate climate-induced shocks reported across multiple sectors."
+    },
     "All_Alerts": [
         {
-            "title": "Shehbaz Sharif Warns Pakistan Fuel Crisis Deepens As Oil Bill Hits $800M A Week Amid Iran War",
+            "title": "Trump says Iran will \u2018have to cry uncle\u2019 to open \u2018genius\u2019 blockade of Strait of Hormuz",
             "severity": "HIGH",
-            "url": "https://www.businesstoday.in/bt-tv/short-video/shehbaz-sharif-warns-pakistan-fuel-crisis-deepens-as-oil-bill-hits-800m-a-week-amid-iran-war-528140-2026-04-30",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/short_video/202604/thumbnail-original_2332-sixteen_nine_0.jpg?size=1280:720",
-            "source": "businesstoday"
+            "url": "https://ca.news.yahoo.com/trump-says-iran-cry-uncle-073941152.html",
+            "image": "https://s.yimg.com/os/en/the_independent_577/347246c8b8b397bfb2542400cdf8b912",
+            "source": "yahoo"
         },
         {
-            "title": "Healthy rise in exports in April so far: Goyal",
+            "title": "Iran Warns Of Unprecedented Action If US Continues 'Naval Blockade' Of Hormuz | World News",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/small-biz/trade/exports/insights/healthy-rise-in-exports-in-april-so-far-goyal/articleshow/130624114.cms",
-            "image": "https://img.etimg.com/thumb/msid-130624191,resizemode-4,width-1200,height-900,imgsize-151508,overlay-etrise/articleshow.jpg",
+            "url": "https://www.timesnownews.com/videos/times-now/world/iran-warns-of-unprecedented-action-if-us-continues-naval-blockade-of-hormuz-world-news-video-154206159",
+            "image": "https://images.pexels.com/photos/3183174/pexels-photo-3183174.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "timesnownews"
+        },
+        {
+            "title": "From surplus to strain: world rice supply threatened by Iran war, El Nino",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/news/world/2026/04/30/from-surplus-to-strain-world-rice-supply-threatened-by-iran-war-el-nino",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/30/3885480.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Atour Lifestyle Holdings Limited Releases 2025 Environmental, Social and Governance Report",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/04/30/3284517/0/en/Atour-Lifestyle-Holdings-Limited-Releases-2025-Environmental-Social-and-Governance-Report.html",
+            "image": "https://images.pexels.com/photos/32237794/pexels-photo-32237794.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "AI Is Making Workers Faster \u2014 And More Insecure",
+            "severity": "HIGH",
+            "url": "https://hackernoon.com/ai-is-making-workers-faster-and-more-insecure",
+            "image": "https://hackernoon.imgix.net/images/fLNyoGYXKZWXxzpVCuZn5DMe9MO2-6kh3801.png",
+            "source": "hackernoon"
+        },
+        {
+            "title": "Trump shocks US oil companies, hints at 'war for months' even as airlines fail, Americans bleed cash",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/videos/world-news/trump-shocks-us-oil-companies-hints-at-war-for-months-even-as-airlines-fail-americans-bleed-cash-101777534302960.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/30/1600x900/logo/hqdefault_1777534300136_1777534424596.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Activists say Israel has intercepted their Gaza aid flotilla near Crete, detaining crews",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com/news/world/europe/activists-say-israel-has-intercepted-their-gaza-aid-flotilla-near-crete-detaining-crews/article_22418827-b4b1-5ebd-865f-224e80581601.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/d/27/d27631aa-73b5-5d3e-b2db-7507fbb57d05/69f30625d7059.image.jpg?crop=1620%2C851%2C0%2C114&resize=1200%2C630&order=crop%2Cresize",
+            "source": "thestar"
+        },
+        {
+            "title": "Watch: Trump cuts ahead to greet his own cabinet as King Charles waits awkwardly for a handshake; here\u2019s the full story",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/us/news/watch-trump-cuts-ahead-to-greet-his-own-cabinet-as-king-charles-waits-awkwardly-for-a-handshake-heres-the-full-story/articleshow/130626063.cms",
+            "image": "https://img.etimg.com/thumb/msid-130626305,resizemode-4,width-1200,height-900,imgsize-153478,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Brent crude tops $125 a barrel on Iran war worries, while world stocks retreat",
-            "severity": "HIGH",
-            "url": "https://www.wfaa.com/article/news/nation-world/brent-crude-tops-125-barrel-iran-war-stocks-retreat/507-3c45eec2-b859-45fb-b432-b67879fd6e7f",
-            "image": "https://images.pexels.com/photos/32357268/pexels-photo-32357268.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "wfaa"
-        },
-        {
-            "title": "Cognex: Reindustrialization And The Military Industrial Complex Can Drive Global Growth",
-            "severity": "HIGH",
-            "url": "https://seekingalpha.com/article/4896335-cognex-stock-reindustrialization-and-military-industrial-complex-can-drive-global-growth",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/177312519/image_177312519.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Zelensky to make every effort to prolong Ukraine conflict \u2014 Donetsk leader",
-            "severity": "HIGH",
-            "url": "https://tass.com/politics/2124617",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Nepal Airlines Shows J&K In Pakistan Map, Apologises Citing \u2018Cartographic Inaccuracy\u2019 After Backlash",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/news/world/jammu-kashmir-in-pakistan-nepal-airlines-india-nepal-ties-map-error-ladakh-kathmandu-delhi-1839557",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/01/538480d8029a546988c1a8710fe5373017750144624991200_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "Oil prices top $125 as US considers military options to break Iran deadlock",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/business/oil-prices-today-brent-crude-stocks-strait-of-hormuz-iran-b2967779.html",
-            "image": "https://static.independent.co.uk/2026/04/30/05/Oil_Majors_BP_78_42.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Many have asked if Trump is gaining financially from the Iran War. Peter Hartcher answers",
-            "severity": "HIGH",
-            "url": "https://www.smh.com.au/world/middle-east/many-have-asked-if-trump-is-gaining-financially-from-the-iran-war-peter-hartcher-answers-20260430-p5zshq.html",
-            "image": "https://static.ffx.io/images/$zoom_0.19988674971687428%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_55/t_crop_custom/q_86%2Cf_auto/524e48f7822afd8917158fbf5ab82aa579e08f6c",
-            "source": "smh"
-        },
-        {
-            "title": "StanChart profit jumps 17%, books US$190mil charge on Iran war",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/04/30/stanchart-profit-jumps-17-books-us190mil-charge-on-iran-war",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/30/3885057.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Myanmar mass prison sentence cut trims Suu Kyi's jail term",
-            "severity": "HIGH",
-            "url": "https://globalnation.inquirer.net/320558/myanmar-mass-prison-sentence-cut-trims-suu-kyis-jail-term",
-            "image": "https://globalnation.inquirer.net/files/2026/04/Myanmar-mass-prison-sentence-cut-trims-Suu-Kyis-jail-term-620x413.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "UAE Exits OPEC: What It Means For Oil Prices And India\u2019s Import Bill",
+            "title": "UAE announces petrol, diesel prices for May 2026 as fuel rates jump by up to 10% across Emirates",
             "severity": "MEDIUM",
-            "url": "https://news.abplive.com/business/uae-exits-opec-oil-prices-impact-on-indian-economy-india-imports-bill-1839561",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/28/8e4bc54de193772b3e0409be62b3086317773718917241324_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "Asian shares fall as Brent hits 4-year high; bonds battered by central bank hawks",
-            "severity": "MEDIUM",
-            "url": "https://www.thestar.com.my/business/business-news/2026/04/30/asian-shares-fall-as-brent-hits-4-year-high-bonds-battered-by-central-bank-hawks",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/04/30/3885062.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Can the EU\u2019s Article 42.7 offer Europe NATO-like collective defence?",
-            "severity": "MEDIUM",
-            "url": "https://www.aljazeera.com/news/2026/4/30/can-the-eus-article-42-7-offer-europe-nato-like-collective-defence",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/03/AFP__20260212__97849W8__v1__HighRes__BelgiumNato-1772709226.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Modi Holds Narrow Edge Over Rivals in Key State, Exit Polls Show",
-            "severity": "MEDIUM",
-            "url": "https://financialpost.com/pmn/business-pmn/modi-holds-narrow-edge-over-rivals-in-key-state-exit-polls-show",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/04/modi-faces-key-electoral-test-in-state-polls-current-ruling.jpg",
-            "source": "financialpost"
-        },
-        {
-            "title": "Mexico's dilemma -- Extradite officials to U.S. or risk angering Trump",
-            "severity": "MEDIUM",
-            "url": "https://www.latimes.com/world-nation/story/2026-04-29/mexicos-dilemma-extradite-officials-to-u-s-or-risk-angering-trump",
-            "image": "https://ca-times.brightspotcdn.com/dims4/default/7904300/2147483647/strip/false/crop/1400x900+0+0/resize/1400x900!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F76%2F25%2F9d13d5414037bc41e5e94374f5f7%2F2-pack-mex-usa.jpg",
-            "source": "latimes"
-        },
-        {
-            "title": "Taiwan accuses China of vegetable laundering via Vietnam",
-            "severity": "WATCH",
-            "url": "https://www.theguardian.com/world/2026/apr/30/taiwan-accuses-china-of-vegetable-laundering-via-vietnam",
-            "image": "https://i.guim.co.uk/img/media/3eb33627ca3c0b89a4110344374d729573c34ace/563_0_3640_2912/master/3640.jpg?width=140&quality=85&auto=format&fit=max&s=f6b252de27667040cc6a9b30cfc3aa96",
-            "source": "theguardian"
-        },
-        {
-            "title": "Sudha Chandran meets Premanand Ji Maharaj; says, \u2018I had tears in my eyes, tears of joy\u2019",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/sudha-chandran-meets-premanand-ji-maharaj-says-i-had-tears-in-my-eyes-tears-of-joy/articleshow/130624035.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130624081/130624081.jpg",
+            "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-announces-petrol-diesel-prices-for-may-2026-as-fuel-rates-jump-by-up-to-10-across-emirates/articleshow/130627084.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130627044/130627044.jpg",
             "source": "toi"
         },
         {
-            "title": "Why does squishing NeeDoh, slime, or putty feel so satisfying?",
+            "title": "Evening Wrap: ASX 200 makes it eight in a row down as crude surge hobbles mining stocks, WDS and STO rally gathers pace - Market Index",
             "severity": "WATCH",
-            "url": "https://theconversation.com/why-does-squishing-needoh-slime-or-putty-feel-so-satisfying-280710",
-            "image": "https://images.theconversation.com/files/732965/original/file-20260429-57-tj7wp3.png?ixlib=rb-4.1.0&rect=0%2C0%2C1277%2C638&q=45&auto=format&w=1356&h=668&fit=crop",
-            "source": "theconversation"
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNMm5vRU1adlNFQWs5UlE2bjFieVEtRHItLVFESXZoM05wYTVLSmREbWtvM2EtdjZnQXJ6U0VUZWFRVUhyenQxeExtci0ybFdYbVk2dXBqemZoSXlsZEw5RmVNX2tVcXlpQ0lwOEVMa1RoUzVtbXBOZ1FSSjh6RE01Mk9xeWVia3NXTGRaODBnR2wzaktPRm5vek03Q3dKV1U0SWVnRHBQSXpvdUpvcFVpTnVPMXFFTjZ1NHhRWkd3aEV6bjEwamVuTDNsV1o3cE1GbzN6eC1HUkh0a0dqckRpQ2J3bVJlaG1Q?oc=5",
+            "image": "https://images.pexels.com/photos/34579082/pexels-photo-34579082.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Australia isn\u2019t getting a fair share of tax on gas exports. Queensland has shown how to raise the bar",
+            "title": "Air China reports Q1 profit after year-ago loss",
             "severity": "WATCH",
-            "url": "https://theconversation.com/australia-isnt-getting-a-fair-share-of-tax-on-gas-exports-queensland-has-shown-how-to-raise-the-bar-281526",
-            "image": "https://images.theconversation.com/files/733193/original/file-20260430-57-flkflq.jpg?ixlib=rb-4.1.0&rect=0%2C465%2C5184%2C2592&q=45&auto=format&w=1356&h=668&fit=crop",
-            "source": "theconversation"
+            "url": "https://uk.investing.com/news/stock-market-news/air-china-reports-q1-profit-after-yearago-loss-93CH-4639575",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB660A4_L.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "Rupee hits record low of 95.20 against US dollar, slides 32 paise in early trade",
+            "title": "Earnings call transcript: AIB Group Q1 2026 shows strong loan growth",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-hits-record-low-of-95-20-against-us-dollar-slides-32-paise-in-early-trade/articleshow/130623920.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130623940/130623940.jpg",
-            "source": "toi"
+            "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-aib-group-q1-2026-shows-strong-loan-growth-93CH-4639576",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB65083_L.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "Hyderabad\u2019s Maison D\u2019atre Hosts \u2018The Long Parade\u2019 by Annelies Van Baelen",
+            "title": "UAE announces increase in fuel prices for May 2026",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/entertainment/art/hyderabads-maison-datre-hosts-the-long-parade-by-annelies-van-baelen/article70915199.ece",
-            "image": "https://th-i.thgim.com/public/incoming/5ubcnm/article70920593.ece/alternates/FREE_1200/maison8.jpeg",
-            "source": "thehindu"
+            "url": "https://economictimes.indiatimes.com/news/international/uae/uae-announces-increase-in-fuel-prices-for-may-2026/articleshow/130627134.cms",
+            "image": "https://img.etimg.com/thumb/msid-130627100,resizemode-4,width-1200,height-900,imgsize-55184,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Kimi Antonelli Eyes History With Hat-Trick At Miami GP! Toto Wolff Makes Grand F1 Admission",
+            "title": "India successfully conducts maiden salvo launch of naval anti-ship missile",
             "severity": "WATCH",
-            "url": "https://www.news18.com/sports/formula-one/kimi-antonelli-eyes-history-with-hat-trick-at-miami-gp-toto-wolff-makes-grand-f1-admission-ws-lno-10065366.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/04/Mercedes-Kimi-Antonelli-2026-04-eaf175774b5d551de7066e9f1b52dbf1-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "D-Day veteran who 'was amazing man' dies aged 106",
-            "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/cx21e82dxngo",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/af32/live/eab5dea0-43c2-11f1-ac78-2112837ce2aa.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Air Products to Expand Industrial Gas Supply for Samsung Electronics' Next-Generation Semiconductor Fab in South Korea",
-            "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/air-products-to-expand-industrial-gas-supply-for-samsung-electronics-next-generation-semiconductor-fab-in-south-korea-302758325.html",
-            "image": "https://images.pexels.com/photos/37303705/pexels-photo-37303705.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "prnewswire_apac"
-        },
-        {
-            "title": "Zodiac Energy receives solar power project worth Rs 5.44 cr",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/zodiac-energy-receives-solar-power-project-worth-rs-5-44-cr-126043000320_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
+            "url": "https://www.business-standard.com/external-affairs-defence-security/news/india-successfully-conducts-maiden-salvo-launch-of-naval-anti-ship-missile-126043000549_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-04/30/full/1777534875-1541.jpg",
             "source": "business-standard"
         },
         {
-            "title": "OMCs under pressure as crude tops $126; Nifty Oil & Gas index slips 1.6%",
+            "title": "Exclusive: Lara Dutta On 16 Years Of Housefull \"Fun\" And Being Friends With 'Biggest Prankster' Akshay Kumar",
             "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/news/omcs-under-pressure-as-crude-tops-126-nifty-oil-gas-index-slips-1-6-126043000310_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260430/thumb-126043000310.jpg",
-            "source": "business-standard"
+            "url": "https://www.ndtv.com/entertainment/exclusive-lara-dutta-on-16-years-of-housefull-fun-and-being-friends-with-biggest-prankster-akshay-kumar-11429898",
+            "image": "https://c.ndtvimg.com/2026-04/nmlsn9g4_lara-dutta_625x300_30_April_26.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
         },
         {
-            "title": "Major update over new leasehold rules for all of England and Wales",
+            "title": "'Raja Shivaji': Riteish Deshmukh and Genelia Deshmukh's magnum opus begins its advance bookings in Hindi and Marathi",
             "severity": "WATCH",
-            "url": "https://www.birminghammail.co.uk/news/midlands-news/major-update-over-new-leasehold-33862834",
-            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article33862849.ece/ALTERNATES/s615/0_leasehold.jpg",
-            "source": "birminghammail"
+            "url": "https://www.firstpost.com/entertainment/raja-shivaji-riteish-deshmukh-and-genelia-deshmukhs-magnum-opus-begins-its-advance-bookings-in-hindi-and-marathi-14006093.html",
+            "image": "https://images.firstpost.com/uploads/2026/04/shivaj-1-2026-04-745730d471cfe38409c9f605e3d9f31c.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "Marcos inaugurates P1.21 billion irrigation project in Leyte",
+            "title": "Egypt: Italian woman convicted of adultery, battle over her daughter",
             "severity": "WATCH",
-            "url": "https://newsinfo.inquirer.net/2220747/marcos-inaugurates-p1-21-billion-irrigation-project-in-leyte",
-            "image": "https://newsinfo.inquirer.net/files/2026/04/1000028093-620x465.jpg",
-            "source": "inquirer"
+            "url": "https://ca.news.yahoo.com/egypt-italian-woman-convicted-adultery-073834546.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/h_WbmB.N2ehA1TpT9b0QNg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwNDg7aD0xMTUyO2NmPXdlYnA-/https://media.zenfs.com/en/euronews_ca_articles_409/dd04098e1eb62dcb70678c1ecee86255",
+            "source": "yahoo"
         },
         {
-            "title": "On witness stand, Elon Musk accuses Sam Altman's lawyer of trying to trick him",
+            "title": "Israeli forces intercept Global Sumud Flotilla in international waters near Greece",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/world-news/on-witness-stand-elon-musk-accuses-sam-altmans-lawyer-of-trying-to-trick-him-101777524944385.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/30/1600x900/logo/MUSK-OPENAI-COURT-54_1777525198659_1777525210860.JPG",
-            "source": "hindustantimes"
+            "url": "https://ca.news.yahoo.com/israeli-forces-intercept-global-sumud-073831543.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/ZVEOE3SxDa_K_ic4U6qQDA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwNDg7aD0xMTUyO2NmPXdlYnA-/https://media.zenfs.com/en/euronews_ca_articles_409/141323969396e5d022093cedee4ae872",
+            "source": "yahoo"
         },
         {
-            "title": "Pregnant rough sleepers, autism charity controversy and a seagull screeching competition",
+            "title": "Critically endangered mountain bongos return to Kenya after years in Czech zoo in win for conservation efforts",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/podcasts/early-edition/pregnant-rough-sleepers-autism-charity-controversy-and-a-seagull-screeching-competition/",
-            "image": "https://www.irishtimes.com/resizer/v2/PZRJANZ5EUU3VBMQHNPKOFPPNU.jpg?auth=61860c60cba1e73b099583dfd4c5596798d6db8ea2ae5840a4a44113c725e8d6&smart=true&width=630&height=350",
-            "source": "irishtimes"
+            "url": "https://ca.news.yahoo.com/critically-endangered-mountain-bongos-return-074053217.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/HofrT1qoJ_qYpckFOVxy2A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_independent_577/201852191053bb86a824455417712518",
+            "source": "yahoo"
         },
         {
-            "title": "Alleged transfer of \u20ac1.5m by autism body to UK parent charity \u2018possibly criminal\u2019",
+            "title": "Centre explores wider role for non-residents in MSME financing",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/ireland/social-affairs/2026/04/30/alleged-transfer-of-15m-by-autism-charity-to-uk-parent-charity-possibly-criminal/",
-            "image": "https://www.irishtimes.com/resizer/v2/ZJ4HG5ZLFBNSPRPEXLQWTZHJJM.jpg?auth=af611fb5bcd2c6704e43c38767dc34598891d86c2ada2064cb97d0ea265878e1&smart=true&width=630&height=350",
-            "source": "irishtimes"
+            "url": "https://www.moneycontrol.com/news/business/centre-explores-wider-role-for-non-residents-in-msme-financing-13904355.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260410020625_glass-workers-economy-MSME.jpg",
+            "source": "moneycontrol"
         },
         {
-            "title": "This May Day it is important to remember the vital role protest plays in a vibrant democracy",
+            "title": "U.S. weighs 'reduction' of troops in Germany as Trump's feud with Berlin deepens",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/opinion/2026/04/30/this-may-day-it-is-important-to-remember-the-vital-role-protest-plays-in-a-vibrant-democracy/",
-            "image": "https://www.irishtimes.com/resizer/v2/B4YZWOF2U5GMLFUNTHQDMYNP2U.JPG?auth=01b65f9ca186aa8198f9eff70f907ed42e865fb081d5f9ce1932bf537fb4a56f&smart=true&width=630&height=350",
-            "source": "irishtimes"
+            "url": "https://www.cnbc.com/2026/04/30/us-reviews-cutting-troop-numbers-in-germany-amid-trumps-berlin-feud-.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108299731-1777529741962-gettyimages-144129191-69684902.jpeg?v=1777529774&w=1200&h=675",
+            "source": "cnbc"
         },
         {
-            "title": "Vaibhav Sooryavanshi faces fresh AI remarks; Jofra Archer receives text message from Gujarat Titans",
+            "title": "Fears over fate of Australians among Gaza aid flotilla",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cricket/vaibhav-sooryavanshi-faces-fresh-ai-remarks-jofra-archer-receives-text-message-from-gujarat-titans-101777524153400.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/04/30/1600x900/logo/Vaibhav_Archer_1777524667671_1777524671665.jpg",
-            "source": "hindustantimes"
+            "url": "https://au.news.yahoo.com/fears-over-fate-australians-among-073520050.html",
+            "image": "https://media.zenfs.com/en/aap.com.au/6f81b7943c0cf42382a8fc7cf6ac908b",
+            "source": "yahoo"
         },
         {
-            "title": "National Iwi Chairs Forum calls for halt to proposed Waitangi Treaty clause changes",
+            "title": "Internet slams Donald Trump after he cuts off Queen Camilla at high-profile White House event; Watch",
             "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/te-manu-korihi/593873/national-iwi-chairs-forum-calls-for-halt-to-proposed-waitangi-treaty-clause-changes",
-            "image": "https://images.pexels.com/photos/22663779/pexels-photo-22663779.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
+            "url": "https://me.mashable.com/culture/70611/internet-slams-donald-trump-after-he-cuts-off-queen-camilla-at-high-profile-white-house-event-watch",
+            "image": "https://sm.mashable.com/mashable_me/photo/default/untitled-2026-04-30t125139343_k1ar.jpg",
+            "source": "mashable_me"
         },
         {
-            "title": "Dunedin City Councillor Benedict Ong defends leaking email",
+            "title": "Goldman Says Retail Has Shifted From \u2019Buy the Dip\u2019 to \u2019Trade the Mania\u2019",
             "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/political/593865/dunedin-city-councillor-benedict-ong-defends-leaking-email",
-            "image": "https://images.pexels.com/photos/7518599/pexels-photo-7518599.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
+            "url": "https://uk.investing.com/analysis/goldman-says-retail-has-shifted-from-buy-the-dip-to-trade-the-mania-200624285",
+            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "Pune chlorine gas leak: 24 hospitalised after chemical escapes defunct Kondhwa plant",
+            "title": "Opinion: Opinion | The Perfect Exit? Why This Is The Ideal Moment For Anyone Looking To Leave OPEC",
             "severity": "WATCH",
-            "url": "https://english.mathrubhumi.com/news/india/pune-kondhwa-chlorine-gas-leak-gangadham-sassoon-hospital-residents-hospitalised-j4zq97aw",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qsvgdqu34t9w0u6nyk/0/pune-chlorine-gas-leak-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
-        },
-        {
-            "title": "IPL Pulse: Churned teams and cleansed guts",
-            "severity": "WATCH",
-            "url": "https://www.cricbuzz.com/cricket-news/138592/ipl-pulse-churned-teams-and-cleansed-guts",
-            "image": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c945182/dont-go-by-this-picture-caps-arent-edible.jpg",
-            "source": "cricbuzz"
+            "url": "https://www.ndtv.com/opinion/after-uae-why-this-may-actually-be-the-perfect-time-for-those-looking-to-leave-opec-11429682",
+            "image": "https://i.ndtvimg.com/i/2018-04/donald-trump-saudi-crown-prince-reuters_650x400_71523071354.jpg?im=FitAndFill,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
         }
     ],
-    "Last_Updated": "2026-04-30T17:26:06.732899Z"
+    "Last_Updated": "2026-04-30T19:41:46.012417Z"
 }
