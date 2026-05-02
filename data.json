@@ -1,211 +1,267 @@
 {
-    "AGRI_Score": 63.4,
-    "Velocity": "-0.9",
+    "AGRI_Score": 65.3,
+    "Velocity": "+1.9",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.4 reflects significant global risk, primarily driven by severe disruptions in Energy & Maritime sectors and escalating Geopolitical Conflict Intensity. News reports explicitly highlight the 'Iran war disrupts oil shipments,' which has directly impacted energy markets, leading to increased fuel prices and affecting corporate earnings as seen with 'Exxon Mobil and Chevron earnings fall'. This pervasive geopolitical tension and its immediate economic consequences, particularly in the energy sector, are the dominant factors elevating the overall risk profile.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 65.3 reflects significantly elevated global risk, primarily driven by severe geopolitical conflict intensity and energy/maritime disruption. The impending 'Iran war deadline' discussions, coupled with 'IDF Scrambles Jets As Hezbollah Drone Wave Breaches Northern Israel Defenses,' indicate a highly volatile security landscape. This direct regional conflict severely impacts maritime security and energy transit routes, underscoring the acute nature of current global risks.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 71.7,
+        "Geopolitical Conflict Intensity": 81.8,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 60.3,
+        "Trade & Supply Chain Stress": 63.9,
         "Sovereign Financial Stress": 54.0,
         "Currency & Liquidity Pressure": 50.0,
         "Sanctions & Regulatory Fragmentation": 61.4,
-        "Cyber & Infrastructure Threats": 60.9,
+        "Cyber & Infrastructure Threats": 57.6,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is high at 71.7, driven by ongoing international tensions and conflict. The persistent 'Iran war' is a central factor, with headlines noting 'Republicans divided as Trump faces critical deadline on war in Iran' and the surprising query 'Is Trump among early nominees for Nobel Peace Prize despite starting Iran war?', underscoring the conflict's continued impact and political ramifications.",
-        "Energy & Maritime Disruption": "At an extreme 100, this pillar is critically impacted by current events. The 'Iran war disrupts oil shipments' is a direct cause for significant supply chain and pricing challenges, evident in 'Fuel price rises caused by cost of oil rather than retail margins \u2013 watchdog' and the introduction of a 'monthly \u2018fuel surcharge\u2019 of 97 cent' by Panda Waste.",
-        "Trade & Supply Chain Stress": "This pillar sits at 60.3, indicating substantial pressure, largely stemming from the energy disruptions. The 'Iran war disrupts oil shipments' inevitably creates ripple effects throughout global trade routes and commodity movements, further emphasized by 'The global scramble for ports' suggesting increased competition and potential bottlenecks.",
-        "Sovereign Financial Stress": "With a score of 54.0, this pillar experiences moderate underlying pressure. While no direct sovereign defaults are reported, the broader economic consequences of 'fuel price rises caused by cost of oil' contribute to inflationary pressures that can strain national budgets and fiscal stability.",
-        "Currency & Liquidity Pressure": "This pillar, at 50.0, indicates moderate pressure within financial markets. The volatility observed in 'Oil prices stable after volatile trading, global stocks diverge' suggests underlying movements that could influence currency valuations and broader market liquidity conditions.",
-        "Sanctions & Regulatory Fragmentation": "At 61.4, this pillar is at a moderately high level, reflecting the ongoing potential for restrictive measures. While no new sanctions against Iran are explicitly mentioned, the geopolitical backdrop of the 'Iran war' inherently elevates the risk of further sanctions or regulatory shifts in response to the conflict.",
-        "Cyber & Infrastructure Threats": "This pillar stands at 60.9, indicating a significant and ongoing threat landscape. The report of a 'Judge tosses charges tied to alleged Michigan voter data breach' highlights persistent vulnerabilities in critical data systems and the need for vigilance against cyber incursions.",
-        "Climate & Resource Shock": "The Climate & Resource Shock pillar remains at a lower level of 35. The provided news feed does not contain immediate reports of significant climate events or resource scarcity, indicating a period of routine monitoring for this specific risk area."
+        "Geopolitical Conflict Intensity": "This pillar is at an extreme level due to the pervasive discussion of an 'Iran war deadline' and the active conflict involving 'IDF Scrambles Jets As Hezbollah Drone Wave Breaches Northern Israel Defenses.' The ongoing 'clash over Iran war powers deadline' further highlights a deeply unstable geopolitical environment. Escalating tensions around the Gaza aid flotilla interception also contribute to the high intensity of regional conflict.",
+        "Energy & Maritime Disruption": "The score of 100 for this pillar is directly attributable to the 'Hezbollah Drone Wave Breaches Northern Israel Defenses,' which poses a severe threat to regional stability and critical infrastructure. Furthermore, the 'Gaza aid flotilla activists taken to Crete after Israeli interception' underscores heightened maritime insecurity in vital shipping lanes, indicating significant potential for disruption to energy transport and trade routes.",
+        "Trade & Supply Chain Stress": "This pillar shows moderate-high stress, partly due to news that 'The Real Greek restaurant chain on brink of collapse,' indicating specific sectoral economic vulnerability. Additionally, 'TD Cowen cuts Clorox stock price target on guidance cut, ERP issues' points to potential internal and external supply chain challenges for a major consumer goods company.",
+        "Sovereign Financial Stress": "Sovereign financial stress remains at a moderate level, influenced by the financial distress of specific entities like 'The Real Greek restaurant chain on brink of collapse,' which can signal broader economic headwinds. Corporate performance concerns, such as 'TD Cowen cuts Clorox stock price target on guidance cut,' suggest underlying economic pressures without indicating immediate sovereign default risk.",
+        "Currency & Liquidity Pressure": "This pillar is currently experiencing baseline activity, with no specific news indicating immediate or severe currency devaluations or widespread liquidity shortages. Monitoring continues for any spillover effects from geopolitical tensions or sectoral economic downturns on financial markets.",
+        "Sanctions & Regulatory Fragmentation": "The elevated score reflects the intense political discourse around an 'Iran war powers deadline,' which suggests a high probability of new or expanded sanctions regimes and international regulatory divergence. Rep. Josh Gottheimer's comments on 'growing clash over Iran war powers deadline' reinforce the potential for significant legislative and regulatory changes impacting global operations.",
+        "Cyber & Infrastructure Threats": "This pillar is at a moderate level, with the 'Hezbollah Drone Wave Breaches Northern Israel Defenses' representing a direct physical threat to national infrastructure and airspace. While primarily a kinetic threat, drone incursions often raise concerns about potential cyber reconnaissance or attacks targeting critical systems.",
+        "Climate & Resource Shock": "This pillar is experiencing routine monitoring, as there are no immediate reports of severe climate events or sudden resource shortages impacting global stability. The increasing 'Mumbai Water Purifier Rental Demand' highlights ongoing resource management challenges related to water access and quality, rather than an acute shock."
     },
     "All_Alerts": [
         {
-            "title": "The Week in Numbers: big tech spends big on AI, oil marches on",
+            "title": "A deadline for the Iran war is here. What does the War Powers Act say? - The Washington Post",
             "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/video/week-numbers-big-tech-spends-095315750.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/Qvbtfpttk3bTWV6sSu4mBQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/e0c08a75-19f5-4fbc-b296-0a80f29d3ee0/main/1280x720/1m7s669ms/match/image.jpg",
-            "source": "yahoo"
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeGZ2UmIwTkpPY1NIWU5aMC1Fa2FKajhmQmNlRjVCMDdhdnZsOTZPQnhHdFVCSlVZbHlIVVFFTDNINnRyOHJJRGFGZmZOWGxKVjUxeGxpaVV3S0tTLUxBNjFCc000S2VlZnA5Q2hhMGJJUEJUMmJ2MXJDelRRejhNLWZB?oc=5",
+            "image": "https://images.pexels.com/photos/31334739/pexels-photo-31334739.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Exxon Mobil and Chevron earnings fall as Iran war disrupts oil shipments",
+            "title": "The Real Greek restaurant chain on brink of collapse",
             "severity": "HIGH",
-            "url": "https://www.cnbc.com/2026/05/01/exxon-xom-chevron-cvx-q1-2026-earnings.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108278918-17737568702026-03-17t141246z_604984502_rc2iyjas9hqi_rtrmadp_0_markets-fed.jpeg?v=1773756890&w=1200&h=675",
-            "source": "cnbc"
+            "url": "https://www.bbc.com/news/articles/c93xqnlq33qo",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/c8b5/live/3d482cf0-4570-11f1-b2fe-073887f0633b.jpg",
+            "source": "bbc"
         },
         {
-            "title": "Exxon Profit Surprises Analysts Despite Iran War\u2019s Tumult",
+            "title": "I wear white T-shirts nearly every day \u2013 these are the best ones to buy",
             "severity": "HIGH",
-            "url": "https://financialpost.com/pmn/business-pmn/exxon-profit-surprises-analysts-despite-iran-wars-tumult",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/05/european-majors-outperform-during-iran-war-bp-shares-rise-t.jpg",
-            "source": "financialpost"
+            "url": "https://www.independent.co.uk/extras/indybest/fashion-beauty/womens-clothing/best-white-t-shirts-for-women-b2016411.html",
+            "image": "https://static.independent.co.uk/2026/05/01/10/12/white-t-shirts.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+            "source": "independentuk"
         },
         {
-            "title": "Is Trump among early nominees for Nobel Peace Prize despite starting Iran war?",
+            "title": "Pundit Scott Jennings drops F-bomb on CNN amid heated Iran war debate",
             "severity": "HIGH",
-            "url": "https://www.firstpost.com/explainers/is-trump-among-early-nominees-for-nobel-peace-prize-despite-starting-iran-war-14006529.html",
-            "image": "https://images.firstpost.com/uploads/2026/05/Untitled-design-2026-05-01T143306.890-2026-05-92149bd9d344cd4ee54964e00eca7b47.jpg",
-            "source": "firstpost"
+            "url": "https://www.washingtontimes.com/news/2026/may/1/pundit-scott-jennings-drops-f-bomb-cnn-amid-heated-iran-war-debate/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2024/12/29/AP21301756916793_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
+            "source": "washingtontimes"
         },
         {
-            "title": "Fuel price rises caused by cost of oil rather than retail margins \u2013 watchdog",
+            "title": "Jets are at risk of losing Russell Wilson bidding war with a TV gig",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/fuel-price-rises-caused-cost-105022494.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/xMJ5P0uS_UqysljwsZi2Qw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://media.zenfs.com/en/pa_viral_news_uk_120/6a1f6cf7b304e86e5269e217ef1b3d21",
-            "source": "yahoo"
+            "url": "https://www.sportingnews.com/us/nfl/new-york-jets/news/jets-are-risk-losing-russell-wilson-bidding-war-tv-gig/e59dc80fb8a8ca6047f8eaa9",
+            "image": "https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2026-01/Russell%20Wilson.jpg.webp?itok=qUOyebvv",
+            "source": "sportingnews"
         },
         {
-            "title": "Republicans divided as Trump faces critical deadline on war in Iran",
+            "title": "Minnesota lawmakers face ethics complaints over DWI incident, conflict allegations",
             "severity": "HIGH",
-            "url": "https://www.al.com/news/2026/05/republicans-divided-as-trump-faces-critical-deadline-on-war-in-iran.html",
-            "image": "https://www.al.com/resizer/v2/Y4EABNVZPVCFZCWH35J7WYR4CQ.jpg?auth=4bd11f80d437e5c4b4759d12bc1a1095d971ae2ffecaa6a64320936f7e9747a0&smart=true&height=1200",
-            "source": "al"
+            "url": "https://www.startribune.com/minnesota-lawmakers-face-ethics-complaints-over-dwi-incident-conflict-allegations/601829100",
+            "image": "https://images.pexels.com/photos/14439232/pexels-photo-14439232.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "startribune"
         },
         {
-            "title": "Judge tosses charges tied to alleged Michigan voter data breach",
+            "title": "Reimagining the legal frame for cantonments",
             "severity": "HIGH",
-            "url": "https://www.detroitnews.com/story/news/politics/2026/05/01/judge-tosses-charges-tied-to-alleged-michigan-voter-data-breach/89884439007/",
-            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2025/07/11/PDTN/84617524007-20250711-fllh-lambert-prelim-021.JPG?auto=webp&crop=3599,2025,x0,y187&format=pjpg&width=1200",
-            "source": "detroitnews"
+            "url": "https://www.hindustantimes.com/opinion/reimagining-the-legal-frame-for-cantonments-101777649103068.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/01/1600x900/logo/The-Cantonments-Act-has-always-stood-apart-from-or_1777649100691.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "I expect to be charged, says Rafizi",
+            "title": "\u2018Congress has an important role to play\u2019: Rep. Josh Gottheimer on growing clash over Iran war powers deadline",
             "severity": "HIGH",
-            "url": "https://www.thestar.com.my/news/nation/2026/05/01/i-expect-to-be-charged-says-rafizi",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/01/3887495.jpg",
-            "source": "thestar_my"
+            "url": "https://www.cnn.com/2026/05/01/us/video/cnn-sitroom-wolf-blitzer-josh-gottheimer-congress-iran-war-powers",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/still-22587474-1429639-415-thumb.jpg?c=original",
+            "source": "cnn"
         },
         {
-            "title": "ONEMAIN HOLDINGS, INC. REPORTS FIRST QUARTER 2026 RESULTS",
+            "title": "Iran war and its discontents",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/05/n52206897/onemain-holdings-inc-reports-first-quarter-2026-results",
+            "url": "https://www.hindustantimes.com/editorials/iran-war-and-its-discontents-101777649104849.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/01/1600x900/logo/The-US-clearly-appears-to-have-run-out-of-ideas-to_1777649102962.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "IDF Scrambles Jets As Hezbollah Drone Wave Breaches Northern Israel Defenses",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/videos/international/idf-scrambles-jets-as-hezbollah-drone-wave-breaches-northern-israel-defenses/videoshow/130681260.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-130681260/130681260.jpg?resizemode=4",
+            "source": "toi"
+        },
+        {
+            "title": "Over 100 Gaza aid flotilla activists taken to Crete after Israeli interception",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/1996697/over-100-gaza-aid-flotilla-activists-taken-to-crete-after-israeli-interception",
+            "image": "https://i.dawn.com/large/2026/05/01194958e303c74.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "Director/PDMR Shareholding",
+            "severity": "MEDIUM",
+            "url": "https://www.benzinga.com/pressreleases/26/05/g52218365/directorpdmr-shareholding",
             "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
             "source": "benzinga"
         },
         {
-            "title": "U.S. Stock Market today: Oil prices stable after volatile trading, global stocks diverge",
-            "severity": "MEDIUM",
-            "url": "http://economictimes.indiatimes.com/news/international/us/u-s-stock-market-today-oil-prices-stable-after-volatile-trading-global-stocks-diverge/articleshow/130676044.cms",
-            "image": "https://images.pexels.com/photos/37303705/pexels-photo-37303705.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "\ud83d\udcf8 New look for Europe\u2019s smallest nations, their adidas kits",
-            "severity": "MEDIUM",
-            "url": "https://onefootball.com/en/news/new-look-for-europes-smallest-nations-their-adidas-kits-42797058",
-            "image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F42797058%3Fdate=2026-05-01",
-            "source": "onefootball"
-        },
-        {
-            "title": "Patriot Twitter reviews: Mammootty, Fahadh Faasil film called wasted opportunity; Mohanlal fans disappointed",
-            "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/entertainment/others/patriot-twitter-reviews-mammootty-fahadh-faasil-film-called-wasted-opportunity-mohanlal-fans-disappointed-101777628227684.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/01/1600x900/logo/Patriot_Review_1777628247483_1777628270363.jpeg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "SEON CEO: Prediction markets can forecast the future. Can they survive their own manipulation problem?",
-            "severity": "MEDIUM",
-            "url": "https://fortune.com/2026/05/01/prediction-markets-regulation-manipulation-cftc-fraud-tamas-kadar-seon/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/04/1670326540450.jpg?w=2048",
-            "source": "fortune"
-        },
-        {
-            "title": "The global scramble for ports",
+            "title": "The 10 K-Beauty Products Bazaar Readers Couldn\u2019t Stop Buying",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/world-news/the-global-scramble-for-ports-101777632466486.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/01/1600x900/logo/AFP_96EN2G3_1777632782538_1777632787450.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.harpersbazaar.com/beauty/skin-care/g69802390/most-popular-korean-beauty-products-2025/",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/1218-kbeauty-00-69446ebfde4a5.jpg",
+            "source": "harpersbazaar"
         },
         {
-            "title": "Panda Waste set to introduce monthly \u2018fuel surcharge\u2019 of 97 cent",
+            "title": "How time travel could work: Scientists have uncovered a way to send messages into the PAST",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/ireland/2026/05/01/panda-waste-set-to-introduce-monthly-fuel-surcharge-of-97-cent/",
-            "image": "https://www.irishtimes.com/resizer/v2/6OZP32BL4FOX5DSXWRGJ4EWL7E.jpg?auth=7edcd7965b2b722b7a565e56b0560c5b31a2b349deddfc5da8001edfecf27f50&smart=true&width=630&height=350",
-            "source": "irishtimes"
+            "url": "https://www.dailymail.com/sciencetech/article-15782551/How-time-travel-work-Scientists.html",
+            "image": "https://i.dailymail.com/1s/2026/05/01/16/108309073-0-image-a-17_1777648620037.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Affluent Travelers Are Experiencing Two Different Trends In Luxury Wellness",
+            "title": "TD Cowen cuts Clorox stock price target on guidance cut, ERP issues",
             "severity": "WATCH",
-            "url": "https://ca.style.yahoo.com/affluent-travelers-experiencing-two-different-105152983.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/Csn6LHQ9RwmzE4nsrtCMoQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE5MTg7aD0xMzAwO2NmPXdlYnA-/https://media.zenfs.com/en/forbes_contributor_845/1f080fe88d07fae94cecffdb27f605e2",
-            "source": "yahoo"
+            "url": "https://au.investing.com/news/stock-market-news/td-cowen-cuts-clorox-stock-price-target-on-guidance-cut-erp-issues-93CH-4400930",
+            "image": "https://i-invdn-com.investing.com/news/oil_2_800x533_L_1412692774.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "Poultry Processing Equipment Market Analysis Report 2026: $6.37 Bn Opportunities, Trends, Competitive Landscape, Strategies, and Forecasts, 2020-2025, 2025-2030F, 2035F",
+            "title": "Earnings call transcript: Encompass Health Q1 2026 beats forecasts, stock surges",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/05/01/3285810/28124/en/Poultry-Processing-Equipment-Market-Analysis-Report-2026-6-37-Bn-Opportunities-Trends-Competitive-Landscape-Strategies-and-Forecasts-2020-2025-2025-2030F-2035F.html",
-            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-encompass-health-q1-2026-beats-forecasts-stock-surges-93CH-4400929",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB6J0AJ_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Sri Lanka Cement Industry Report 2026: Portland, Blended, Specialty, and Green Cement Market Size & Forecast by Value and Volume 2021-2025 & 2026-2030",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/05/01/3286076/28124/en/Sri-Lanka-Cement-Industry-Report-2026-Portland-Blended-Specialty-and-Green-Cement-Market-Size-Forecast-by-Value-and-Volume-2021-2025-2026-2030.html",
+            "image": "https://images.pexels.com/photos/16574945/pexels-photo-16574945.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "globenewswire_fr"
         },
         {
-            "title": "No evidence of widespread fuel price-gouging, watchdog says - BBC",
+            "title": "Alix Earle Spotted With Ex Braxton Berrios at \u2018Sports Illustrated\u2019 F1 Party in Miami 5 Months After Split",
             "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1MbEp1OXNZbDYtLUZkMTJVX3N3Uzg1T0tDcDdtamRWSE0xUFZCM3FJSmJmTmlIX3M5QWdxdHQ3RmJ2YTZIUW5JWDNTRjRvRXlhYVY1N2oySUVPMXlD?oc=5",
-            "image": "https://images.pexels.com/photos/255552/pexels-photo-255552.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.cosmopolitan.com/entertainment/celebs/a71185009/alix-earle-spotted-with-braxton-berrios-miami/",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/cd3f830d-4c8c-46bb-ba61-6c0cb6bc8ee4.jpeg",
+            "source": "cosmopolitan"
         },
         {
-            "title": "HF Sinclair: Q1 Earnings Snapshot",
+            "title": "Mumbai Water Purifier Rental Demand Increases as \u20b920,000 Purchase Costs and \u20b96,000 AMC Accelerate Move to \u20b9600/Month Alternatives Such as Rentomojo",
             "severity": "WATCH",
-            "url": "https://www.beaumontenterprise.com/business/article/hf-sinclair-q1-earnings-snapshot-22236064.php",
-            "image": "https://s.hdnux.com/photos/01/34/02/56/24128414/3/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "Bill would bar sex criminals from getting federal pensions in wake of Eric Swalwell scandal",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/05/01/us-news/bill-would-bar-sex-criminals-from-getting-federal-pensions-in-wake-of-eric-swalwell-scandal/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F04%2Fsen-joni-ernst-r-iowa-126728397_53c0d8.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "How Rekhta Foundation is preserving\u2014and reimagining\u2014Urdu in the AI age",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/research/how-rekhta-foundation-is-preserving-and-reimagining-urdu-in-the-ai-age-10666003/",
-            "image": "https://images.indianexpress.com/2026/05/Eresearch-feature.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Quote of the Day by Harper Lee: \"You never really understand a person until you...\"",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/education/quote-of-the-day-by-harper-lee-you-never-really-understand-a-person-until-you-article-13905392.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260501104623_lee.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Wabash Announces First Quarter 2026 Results",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/05/01/3285811/10640/en/Wabash-Announces-First-Quarter-2026-Results.html",
-            "image": "https://images.pexels.com/photos/7947848/pexels-photo-7947848.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/05/01/3286074/0/en/Mumbai-Water-Purifier-Rental-Demand-Increases-as-20-000-Purchase-Costs-and-6-000-AMC-Accelerate-Move-to-600-Month-Alternatives-Such-as-Rentomojo.html",
+            "image": "https://i.ibb.co/FdR5TJX/Water-Purifier-With-Mineral-Enhancer-In-Delhi-Rentomojo-03-05-2026-04-18-PM.png",
             "source": "globenewswire_fr"
         },
         {
-            "title": "Households urged not to cut grass all month for 'No Mow May'",
+            "title": "F1 Miami GP LIVE: Practice schedule, times and updates ahead of sprint qualifying",
             "severity": "WATCH",
-            "url": "https://www.manchestereveningnews.co.uk/news/uk-news/households-urged-not-cut-grass-33871437",
-            "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article33871732.ece/ALTERNATES/s615/0_GettyImages-2191456666-2.jpg",
-            "source": "manchestereveningnews"
+            "url": "https://www.independent.co.uk/f1/f1-miami-gp-live-2026-practice-stream-time-updates-results-b2969016.html",
+            "image": "https://static.independent.co.uk/2026/05/01/16/01KQFG34769SVSM5MAMGJ50HR3.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
         },
         {
-            "title": "Where are we at with Mudryk's doping case?",
+            "title": "InterCure reports FY results",
             "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/news/where-mudryks-doping-case-105145119.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/1PkcqCrHUaOL.XjHr97xZA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwNDg7aD0xMTUyO2NmPXdlYnA-/https://media.zenfs.com/en/bbc_us_articles_995/0b7d85670268a457862442e48354b856",
-            "source": "yahoo"
+            "url": "https://seekingalpha.com/news/4584100-intercure-reports-fy-results",
+            "image": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+            "source": "seekingalpha"
         },
         {
-            "title": "UAE calls for immediate reopening of Strait of Hormuz at UN Security Council",
+            "title": "The best movies on Netflix right now (May 2026)",
             "severity": "WATCH",
-            "url": "https://gulfnews.com/uae/government/uae-calls-for-immediate-reopening-of-strait-of-hormuz-at-un-security-council-1.500525792",
-            "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "source": "gulfnews"
+            "url": "https://www.boston.com/culture/streaming/2026/05/01/best-movies-on-netflix-may-2026/",
+            "image": "https://bdc2020.o0bc.com/wp-content/uploads/2023/02/national-lampoons-animal-house-streaming-on-netflix-63f689716bb1a-edited-63f689becc3fa-scaled.jpeg",
+            "source": "boston"
+        },
+        {
+            "title": "Frequent power outages? This device can save your AC, TV from getting damaged",
+            "severity": "WATCH",
+            "url": "https://www.india.com/news/india/power-outages-in-summer-stabilisers-can-save-ac-tv-refrigerator-from-getting-damaged-volatage-fluctuations-8399122/",
+            "image": "https://static.india.com/wp-content/uploads/2026/05/AC.jpg",
+            "source": "india"
+        },
+        {
+            "title": "FBI says hackers are making millions from stolen cargo - losses 'surged' to nearly $725 million in 2025",
+            "severity": "WATCH",
+            "url": "https://www.techradar.com/pro/security/fbi-says-hackers-are-making-millions-from-stolen-cargo-losses-surged-to-nearly-usd725-million-in-2025",
+            "image": "https://cdn.mos.cms.futurecdn.net/82Zyie4jRoZdohT4CLDFyY-1280-80.jpg",
+            "source": "techradar_au"
+        },
+        {
+            "title": "Amazon Web Services, Microsoft and NVIDIA will provide AI tech to Pentagon",
+            "severity": "WATCH",
+            "url": "https://www.engadget.com/2161995/amazon-web-services-microsoft-and-nvidia-will-provide-ai-tech-to-pentagon/",
+            "image": "https://www.engadget.com/img/gallery/amazon-web-services-microsoft-and-nvidia-will-provide-ai-tech-to-pentagon/l-intro-1777649027.jpg",
+            "source": "engadget"
+        },
+        {
+            "title": "Profit for the biggest US oil companies declined in the first quarter, but only on paper",
+            "severity": "WATCH",
+            "url": "https://www.kgw.com/article/syndication/associatedpress/profit-for-the-biggest-us-oil-companies-declined-in-the-first-quarter-but-only-on-paper/616-73f58c96-b97d-4e9e-90b3-7f0a038f4044",
+            "image": "https://media.kgw.com/assets/KGW/images/644fc607-da17-4cdd-b1c6-c5f0a31286b6/20260501T143450/644fc607-da17-4cdd-b1c6-c5f0a31286b6_1920x1080.jpg",
+            "source": "kgw"
+        },
+        {
+            "title": "Could OPEC lose its grip on oil?",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/commodities/energy/oil-gas/opec-grip-on-oil",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/05/0502-bc-opec-.jpg",
+            "source": "financialpost"
+        },
+        {
+            "title": "AI adoption is accelerating faster than its security layer",
+            "severity": "WATCH",
+            "url": "https://www.thestreet.com/technology/ai-adoption-is-accelerating-faster-than-its-security-layer",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTcyNDA5/male-professionals-working-on-laptops-at-coworking-desk-males-sit-at-desks-using-laptops-with-multiple-screens-with-female-colleagues-working-in-the-background.jpg?io=1&profile=rss",
+            "source": "thestreet"
+        },
+        {
+            "title": "Watch: 2 Bears Enter Srinagar Golf Course, Run Away With Flagstick",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/india-news/watch-2-bears-enter-srinagar-golf-course-run-away-with-flagstick-11436721",
+            "image": "https://c.ndtvimg.com/2026-05/2c7f0734_bear_625x300_01_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
+        },
+        {
+            "title": "Colchester church appeals ban on street preaching after passerby told \u2018he was going to hell\u2019",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/news/uk/home-news/bread-life-community-church-colchester-b2969017.html",
+            "image": "https://static.independent.co.uk/2026/05/01/16/1245084877.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "Teacher banned from profession after pretending to be in Australian army",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/bulletin/news/teacher-banned-australian-army-alexandra-slay-b2969014.html",
+            "image": "https://static.independent.co.uk/2026/05/01/16/2272330012.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "Pragmata: Best mods and where to find them",
+            "severity": "WATCH",
+            "url": "https://www.rockpapershotgun.com/pragmata-best-mods",
+            "image": "https://assetsio.gnwcdn.com/diana-unleashing-hack.jpg?width=690&quality=85&format=jpg&auto=webp",
+            "source": "rockpapershotgun"
+        },
+        {
+            "title": "Man held at Lko airport with firearm in luggage",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/lucknow-news/man-held-at-lko-airport-with-firearm-in-luggage-101777647482465.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/01/1600x900/logo/For-representation-only--HT-File-Photo-_1777647480202.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "UK accused of leaving allies with \u2018no safe route out\u2019 of Afghanistan after ending evacuation support",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/news/uk/home-news/afghan-visa-pakistan-uk-evacuation-settlement-b2967380.html",
+            "image": "https://static.independent.co.uk/2026/04/22/17/2026-04-22T091255Z_6461825_RC28UKA1UIZA_RTRMADP_3_USA-TRUMP-AFGHANISTAN-CONGO.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
         }
     ],
-    "Last_Updated": "2026-05-01T22:55:00.107969Z"
+    "Last_Updated": "2026-05-02T03:30:05.438545Z"
 }
