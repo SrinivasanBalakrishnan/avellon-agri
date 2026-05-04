@@ -1,209 +1,253 @@
 {
-    "AGRI_Score": 65.1,
-    "Velocity": "-0.3",
+    "AGRI_Score": 65.2,
+    "Velocity": "+0.1",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 65.2 is critically high, predominantly driven by severe 'Energy & Maritime Disruption' and 'Geopolitical Conflict Intensity' pillars. The Strait of Hormuz remains a flashpoint, as evidenced by 'Tensions intensify at Strait: Cargo ship sailing near Hormuz attacked by Iran' and 'US Navy to shadow Hormuz convoys', elevating the Energy & Maritime Disruption pillar to its maximum score. This acute maritime risk is compounded by persistent regional conflict, notably 'Smoke rises over southern Lebanon as Israel and Hezbollah clash,' creating a highly volatile operating environment that impacts global supply chains and sovereign financial outlooks.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.6,
+        "Geopolitical Conflict Intensity": 79.1,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 68.1,
-        "Sovereign Financial Stress": 54.0,
+        "Trade & Supply Chain Stress": 64.0,
+        "Sovereign Financial Stress": 55.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 64.0,
+        "Sanctions & Regulatory Fragmentation": 60.9,
+        "Cyber & Infrastructure Threats": 60.7,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains high due to escalating regional hostilities and ongoing complex diplomatic efforts. Reports of 'Smoke rises over southern Lebanon as Israel and Hezbollah clash' indicate a widening scope of direct military engagement. The 'Middle East crisis' continues to drive uncertainty, with Iran's proposed '30-day plan to end war' highlighting the persistent, high-stakes nature of the conflict.",
+        "Energy & Maritime Disruption": "This pillar is at its peak due to acute threats to critical shipping lanes and energy infrastructure in the Middle East. The headline 'Cargo ship sailing near Hormuz attacked by Iran' directly reflects the severe and immediate risk of maritime disruption, necessitating actions like the 'US Navy to shadow Hormuz convoys'. Despite 'Crude oil dips below $110' on one day, the underlying operational risk in strategic straits keeps this pillar at its maximum, underscoring systemic fragility.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress is elevated by geopolitical friction impacting global economic and financial interconnectedness. 'China\u2019s Rare Defiance of US Sanctions Sparks Showdown Over Banks' signals potential disruptions to international payment systems and trade flows. Furthermore, the 'Asean+3 outlook softens despite unchanged growth forecast as oil risks rise' indicates that energy and maritime disruptions are expected to translate into broader economic and trade challenges for the region.",
+        "Sovereign Financial Stress": "Sovereign financial stress shows moderate levels, with some regional markets experiencing positive momentum even as global risks persist. 'Asian stocks advance on tech, dollar edges lower' and 'Asian stocks track Wall Street tech rally' suggest some localized market resilience. However, the overall 'Asean+3 outlook softens despite unchanged growth forecast as oil risks rise' indicates that escalating energy costs and geopolitical instability could still exert downward pressure on sovereign financial health.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at moderate levels, with some easing noted in specific currency movements amidst broader market activity. The 'dollar edges lower' in conjunction with 'Asian stocks track Wall Street tech rally' points to shifts in capital allocation and investor sentiment. While no immediate liquidity crises are reported, the ongoing geopolitical and energy volatility warrants routine monitoring of global currency markets.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation are a significant concern, driven by direct challenges to international enforcement mechanisms. 'China\u2019s Rare Defiance of US Sanctions Sparks Showdown Over Banks' illustrates a direct confrontation that threatens to fragment global financial regulatory frameworks. This defiance creates increased complexity for multinational corporations and financial institutions navigating divergent compliance requirements.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats remain moderately high, particularly in the context of critical national assets and emerging technological demands. The development of a '10-MW nuclear reactor on truck bed: Power bank for AI data centres' highlights the growing strategic importance and potential vulnerabilities of specialized energy infrastructure. While no specific cyber incidents are detailed, the focus on securing essential power sources for advanced technologies indicates ongoing vigilance against potential threats.",
+        "Climate & Resource Shock": "This pillar currently reflects baseline activity, with no immediate severe climate or resource shock events reported in the provided feed. Although 'Oil Price Today (May 4): Crude oil dips below $110' indicates some commodity market fluctuation, this is predominantly influenced by geopolitical and demand-side dynamics rather than direct climate-induced resource scarcity. The primary resource-related concern stems from geopolitical control over energy transit, not environmental shocks."
+    },
     "All_Alerts": [
         {
-            "title": "U.S. stock futures mixed, oil falls as Trump touts new plan to partially reopen Strait of Hormuz - MarketWatch",
+            "title": "Middle East crisis: Iran proposes 30-day plan to end war, says it has received US reply",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS1lSVFlJY3VuYWpyV2tIS05DeEdPaWRZTUk0Ri1uTHpmejcySmgyV1dGNm8yb0czVGRYMzRual9iWGE5anZaeVpMXzhPeGtVcXY2dFNhVlFzUDd2RUpybURMM1lkd0xaeDVKb3NJaVhWZzJvZEZPeFBpTy1Bb2ZnMnVUMm1XaVBvYXBjb3B6X0twV0tXMjlRMHUwbklWLV9JSHg5TFl5SnlVNGxSMVJMaGZpUTQxNjR4TXNFTktEaHNaMjZfaHF1bTNuaVdKcEhRaXc?oc=5",
-            "image": "https://images.pexels.com/photos/7947848/pexels-photo-7947848.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "US Futures Gain, Oil Falls on Signs of Iran Talks: Markets Wrap - Bloomberg.com",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjNZVHRDOHZTNURSYlVYSkljTUNPNDhtX2xfU2JwTzFqUWl2N0F0bUkzRzlUUk52YmJPVndHMFJOMjBqbkF5LXplS2RwUnFfRE1HaHdtRFlDQ0REUXZMTGx6S0d3ek5uVHg3Yld3MndTUllOc1NIclZJQy1jcnNyM1d1QnJZcjlWM2Uyckc4UjBza2FZdFhvamFSVGluek1JblI4YzhWd0o4S0haVk1ab29n?oc=5",
-            "image": "https://images.pexels.com/photos/11849157/pexels-photo-11849157.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Iran warns will attack US forces in Hormuz after Trump announces escort plan",
-            "severity": "HIGH",
-            "url": "https://www.channelnewsasia.com/world/iran-attack-us-forces-hormuz-trump-escort-plan-negotiations-6097486",
-            "image": "https://dam.mediacorp.sg/image/upload/s--60bDzqQl--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-05-01T095314Z_2_LYNXMPEM402D8_RTROPTP_3_IRAN-CRISIS-OMAN-HORMUZ.JPG?itok=WE_1bo5_",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "WSJ says Trump plan to guide ships through Hormuz doesn\u2019t involve U.S. Navy escorts",
-            "severity": "HIGH",
-            "url": "https://investinglive.com/commodities/wsj-says-trump-plan-to-guide-ships-through-hormuz-doesnt-involve-us-navy-escorts-20260503/",
-            "image": "https://images.investinglive.com/images/strait%20of%20hormuz%2012%20March%202026_id_ecf3efca-bfd1-4b77-9b30-edcd757aacee_size975.jpg",
-            "source": "forexlive"
-        },
-        {
-            "title": "Oil Prices Edge Down While Stock Futures Inch Up - The New York Times",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOVEUzdWJhWTZvUVpxcHBkMzFpS1I3YlFFTThUMXQzbEdLcUFKcDdLUEVPLThNczNPcGRYeUxEdm4xVTRwMzlQcXd6RWhDdXV4VTNtMDFKZG80X2RQbXBQd1U2U29MVWFhLUlsMFhvVWxPbDZlMWdGNXZqdw?oc=5",
-            "image": "https://images.pexels.com/photos/11849157/pexels-photo-11849157.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Japan deploys low-cost \u2018cardboard drones\u2019 for warfare",
-            "severity": "HIGH",
-            "url": "https://www.upi.com/Top_News/World-News/2026/05/03/japan-cardboard-drones-modern-warfare-cost-efficiency/5351777845870/",
-            "image": "https://cdnph.upi.com/ph/st/th/5351777845870/2026/upi_com/31682acefa660f8ceb29f9772b4e668c/v1.5/Japan-deploys-low-cost-cardboard-drones-for-warfare.jpg",
-            "source": "upi"
-        },
-        {
-            "title": "Water crisis deepens Kazhakkoottam and Technopark",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/thiruvananthapuram/water-crisis-deepens-kazhakkoottam-and-technopark/articleshow/130739117.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-117593872/117593872.jpg",
+            "url": "https://timesofindia.indiatimes.com/world/middle-east/middle-east-crisis-iran-proposes-30-day-plan-to-end-war-says-it-has-received-us-reply/articleshow/130743370.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130743457/130743457.jpg",
             "source": "toi"
         },
         {
-            "title": "\u2018Reset\u2019 or \u2018calculated stabilisation\u2019? Why ties between China and the Philippines appear to be warming",
+            "title": "A gas sector gaslighting itself",
             "severity": "HIGH",
-            "url": "https://www.channelnewsasia.com/east-asia/china-philippines-bilateral-ties-tensions-south-china-sea-6096811",
-            "image": "https://dam.mediacorp.sg/image/upload/s--nSkKaXwT--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2025-07-18t151636z_1_lynxmpel6h0pj_rtroptp_3_china-philippines.jpg?itok=yr014qsA",
-            "source": "channelnewsasia"
+            "url": "https://www.dawn.com/news/1997185/a-gas-sector-gaslighting-itself",
+            "image": "https://i.dawn.com/large/2026/05/0407135636f8392.webp",
+            "source": "dawn"
         },
         {
-            "title": "Instructure confirms data breach, ShinyHunters claims attack",
+            "title": "China\u2019s Rare Defiance of US Sanctions Sparks Showdown Over Banks",
             "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-data-breach-shinyhunters-claims-attack/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/05/03/instructure-canvas.jpg",
-            "source": "bleepingcomputer"
-        },
-        {
-            "title": "Verstappen hit with penalty for pit exit breach in Miami GP - F1",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdHdvbVB3REp5MFZscGZNU2pxN1ZGWjhWcDhWNlE1SGZIaV92bVlvWkx3cDZTTXdiZjJtYTRjRWUtT2ZqTEdaRnBuVVhYblFZRWlUOUQyaEJkdW1zM2VsZUdkZy1CT2tFZ24ydS04NmVkNzZ5MzhJNGZWdW1Xbk0wRUZqT0RYeWJka1BvcU13dXk0VlZJQWQzRUxyTVNzVHR0UjhkU3E2YlNyblV0OXNJUWpZOHdndWxnbG5pQ0JSOXAxeF81NDI1Rm40QnRmaktVVUE?oc=5",
-            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Miami Grand Prix result changes as Charles Leclerc handed monster penalty hours after race",
-            "severity": "HIGH",
-            "url": "https://www.express.co.uk/sport/f1-autosport/2201428/miami-gp-result-leclerc-penalty",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/73/590x/2201428_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Charles Leclerc penalised by Miami Grand Prix stewards amid multiple post-race investigations - F1",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdTI3ZkdlaS05ZWpCa3lFQV82SlEwYWJWN2N5eXBBN0lqSm8xcEpfM0lVbU9vaG05UVB4b0pGc3lfZjY1bHBPdnhmZjJNazdvN0tQQm5KUFd6eEY4Z2F4N1hoSXJoQUJ5Y3FLcHhkV2llTUd1eWxCNi1TdjdiWWh0YUhVNEEwaG1RSTdMZnpNcURUdTFsS0ltR05qX29aOTdsTVJvY0NFVUxDTE1OeFpzUWZzSzdZM3FYWEJITXZjeHQ5NVJjUjJWYXVrbGd0ZHJBbXpfWDcxMk5PbVBJcGEtN1NEemN0UQ?oc=5",
-            "image": "https://images.pexels.com/photos/6949994/pexels-photo-6949994.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Tehran\u2019s proposals do not include 15-year enrichment pause \u2014 news agency",
-            "severity": "MEDIUM",
-            "url": "https://tass.com/world/2125819",
-            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260504/1473061.jpg",
-            "source": "tass"
-        },
-        {
-            "title": "Trump calls Iran talks 'very positive,' US to 'guide' ships through Hormuz",
-            "severity": "MEDIUM",
-            "url": "https://www.channelnewsasia.com/world/iran-us-war-negotiations-strait-hormuz-trump-6097486",
-            "image": "https://dam.mediacorp.sg/image/upload/s--xVZQyK7x--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-05-03T212234Z_1_LYNXMPEM420DY_RTROPTP_3_IRAN-CRISIS-DAILYLIFE.JPG?itok=anT4-TWS",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "PBF Energy Virtual Annual Meeting: Directors Elected, KPMG Ratified, Pay and Equity Plan Approved",
-            "severity": "MEDIUM",
-            "url": "https://finance.yahoo.com/sectors/energy/articles/pbf-energy-virtual-annual-meeting-220201434.html",
-            "image": "https://media.zenfs.com/en/marketbeat_955/3cd748dacf4a3550eb01c0ef7fe43232",
+            "url": "https://ca.finance.yahoo.com/news/beijing-tells-china-firms-to-ignore-us-sanctions-on-refiners-101833131.html",
+            "image": "https://media.zenfs.com/en/bloomberg_markets_video_2/383b71787b77e4ffb759d0a27232c215",
             "source": "yahoo"
         },
         {
-            "title": "Yarn prices rise by \u20b97 in May; up \u20b941 in five months in Tirupur",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/coimbatore/yarn-prices-rise-by-7-in-may-up-41-in-five-months-in-tirupur/articleshow/130739118.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130739105/130739105.jpg",
+            "title": "10-MW nuclear reactor on truck bed: Power bank for AI data centres",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/business/energy/10-mw-nuclear-reactor-on-truck-bed-power-bank-for-ai-data-centres-1.500526646",
+            "image": "https://gumlet-images.assettype.com/gulfnews/2026-05-04/e0uofm2l/Tech-radar.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Trump is 'clearly sleep deprived' \u2014 and it's making him more erratic: analysis",
+            "severity": "HIGH",
+            "url": "https://www.rawstory.com/trump-iran-2676845974/",
+            "image": "https://www.rawstory.com/media-library/file-photo-u-s-president-donald-trump-speaks-during-a-press-conference-in-the-james-s-brady-press-briefing-room-at-the-white.jpg?id=66668322&width=980",
+            "source": "rawstory"
+        },
+        {
+            "title": "US Navy to shadow Hormuz convoys but stop short of direct escorts (Avios, echoing WSJ)",
+            "severity": "HIGH",
+            "url": "https://investinglive.com/commodities/us-navy-to-shadow-hormuz-convoys-but-stop-short-of-direct-escorts-avios-echoing-wsj-20260504/",
+            "image": "https://images.investinglive.com/images/oil%20update%2004%20May%202026_id_886694ff-ab13-4b06-bad7-be4f62c2364c_size975.jpg",
+            "source": "forexlive"
+        },
+        {
+            "title": "Germany\u2019s Merz downplays rift with Trump over troop drawdown",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/germany-merz-downplays-rift-trump-021443569.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/dbxMetP_sX42x4pIW.3huQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/0b805e23-1729-4b65-aeb7-df8155e73606/main/1280x720/22s410ms/match/image.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Mum charged with involuntary manslaughter after boy riding e-motorcycle hits veteran",
+            "severity": "HIGH",
+            "url": "https://www.mirror.co.uk/news/us-news/mum-charged-son-motorcycle-veteran-37106249",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37106245.ece/ALTERNATES/s615/0_orange-county-mother-facing-additional-1078044291.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Smoke rises over southern Lebanon as Israel and Hezbollah clash",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/smoke-rises-over-southern-lebanon-021406813.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/TWVq2T7uYWpNsKi4N5jvyQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/c042f2b9-ce1c-4540-b7e5-3d0e5ef5f0e3/main/1280x720/16s80ms/match/image.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Tensions intensify at Strait: Cargo ship sailing near Hormuz attacked by Iran",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/tensions-intensify-at-strait-cargo-ship-sailing-near-hormuz-attacked-by-iran/articleshow/130743260.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130743372/130743372.jpg",
             "source": "toi"
         },
         {
-            "title": "Pistons complete series comeback, surge past Magic in decisive Game 7 win",
-            "severity": "WATCH",
-            "url": "https://www.mlive.com/pistons/2026/05/pistons-complete-series-comeback-surge-past-magic-in-decisive-game-7-win.html",
-            "image": "https://www.mlive.com/resizer/v2/FF3JV4KJCVCP5CCRQRHIIE32UM.jpg?auth=6ab313ef25272702fa03818f848ddd404148e09ee0bbe94884e57052151907a0&smart=true&height=1200",
-            "source": "mlive"
+            "title": "'No pilgrims': regional war hushes Iraq's holy cities",
+            "severity": "HIGH",
+            "url": "https://www.bangkokpost.com/world/3249324/no-pilgrims-regional-war-hushes-iraqs-holy-cities",
+            "image": "https://static.bangkokpost.com/media/content/20260504/c1_6076454.jpg",
+            "source": "bangkokpost"
         },
         {
-            "title": "US will 'guide' stranded ships from the Strait of Hormuz, starting on Monday",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/agency-feeds/us-will-guide-stranded-ships-from-the-strait-of-hormuz-starting-on-monday-10072006.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/07/News18_World_Section_Default_Image_1600x900-2025-07-4401653589b9d10b46b8abb07f758342-3x2.jpg",
+            "title": "Asian stocks advance on tech, dollar edges lower",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/business/markets/asian-stocks-advance-on-tech-dollar-edges-lower-13906935.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260303060527_asian-stocks-down.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Asian stocks track Wall Street tech rally as Seoul, Taipei hit records",
+            "severity": "HIGH",
+            "url": "https://www.channelnewsasia.com/asia/asia-stocks-wall-street-tech-rally-6097666",
+            "image": "https://dam.mediacorp.sg/image/upload/s--MTLgtgXu--/c_crop,h_450,w_800,x_0,y_41/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-05-04T020634Z_1_LYNXMPEM4303S_RTROPTP_3_GLOBAL-MARKETS-HONGKONG.JPG?itok=REkVONvI",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "Strait \u200bof \u2060Hormuz reopens on Monday? Donald Trump makes big announcement, Iran responds",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/us/strait-of-hormuz-reopens-on-monday-donald-trump-makes-big-announcement-iran-responds/articleshow/130742215.cms",
+            "image": "https://img.etimg.com/thumb/msid-130742215,resizemode-4,width-1200,height-900,imgsize-149350,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Asean+3 outlook softens despite unchanged growth forecast as oil risks rise - AMRO",
+            "severity": "MEDIUM",
+            "url": "https://www.thestar.com.my/business/business-news/2026/05/04/asean3-outlook-softens-despite-unchanged-growth-forecast-as-oil-risks-rise---amro",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/04/3890279.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Key factors to test market rally post assembly election results; what should investors do",
+            "severity": "MEDIUM",
+            "url": "https://www.businesstoday.in/markets/story/key-factors-to-test-market-rally-post-assembly-election-results-what-should-investors-do-529498-2026-05-04",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202605/69f7ff825cdea-markets-may-continue-to-debate-more-on-oil-versus-macro-calculus--while-giving-a-brief-cheer-for-ele-040756391-16x9.png?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "Oil Price Today (May 4): Crude oil dips below $110, falls for second session. What\u2019s behind the decline?",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-may-4-crude-oil-dips-below-110-falls-for-second-session-whats-behind-the-decline/articleshow/130743352.cms",
+            "image": "https://img.etimg.com/thumb/msid-130743344,resizemode-4,width-1200,height-900,imgsize-76304,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Seymour bemoans critics reducing immigration debate to 'soap opera' politics",
+            "severity": "MEDIUM",
+            "url": "https://www.rnz.co.nz/news/political/594148/seymour-bemoans-critics-reducing-immigration-debate-to-soap-opera-politics",
+            "image": "https://images.pexels.com/photos/11082253/pexels-photo-11082253.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "Election Results 2026 Analysis Live Updates: Can BJP\u2019s gains in Bengal and Assam overcome regional pushback?",
+            "severity": "MEDIUM",
+            "url": "https://indianexpress.com/article/political-pulse/assembly-election-results-2026-analysis-live-updates-assam-kerala-tamil-nadu-west-bengal-puducherry-trends-insights-10670847/",
+            "image": "https://images.indianexpress.com/2026/05/Analysis-blog-feature-live-1.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "PML Kalyanasundaram Result Live In Kalapet Assembly Election 2026",
+            "severity": "MEDIUM",
+            "url": "https://www.news18.com/elections/pml-kalyanasundaram-kalapet-live-result-2026-win-lost-status-exaxt-en-10071142.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/27-pml-kalyanasundaram-puducherry-key-candidate-1600x900-2026-04-3d8edb81e2ee8838d9d2239fd76b51a4-1200x800.jpg",
             "source": "news18"
         },
         {
-            "title": "Oil rises as US-Iran deal remains elusive - Reuters",
+            "title": "US to \u2018guide\u2019 neutral ships through Strait of Hormuz \u2013 Trump",
             "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYm1UTGNtdHU5aVdlSkxNS25FbzFkcEZBUXNYVzc2SmQ5Zm5xN3NLWjVGTkVwT08wY3FXMTZ2Qk9ld1RfUEhFWi1YaElRVlpVSHl5RFVyNFozWFl1ajFta3UzcDlRY19QM21VdUJNZ2dGZmpNZnljNERTV2V0ZG90U01sYWNkbWwtc1JSSXNvWjZFR1I0TjJLTm9QOWx4RVFheXRaRVpiajVVRko5LXhqeVVDdnFzUm9qNENoVFdxNFFJYUpM?oc=5",
-            "image": "https://images.pexels.com/photos/7947848/pexels-photo-7947848.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.rt.com/news/639406-trump-guide-hormuz-ships/",
+            "image": "https://mf.b37mrtl.ru/files/2026.05/article/69f8009585f5407734297287.jpg",
+            "source": "rt"
         },
         {
-            "title": "Proceeds of crime helping to fund community organizations in Ontario. Here is how",
+            "title": "Asia stocks rise; S.Korea at record high, Hong Kong up on tech gains",
             "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/toronto/politics/queens-park/article/proceeds-of-crime-helping-to-fund-community-organizations-in-ontario-here-is-how/",
-            "image": "https://www.ctvnews.ca/resizer/v2/ZYQS7CRHRNHSNKPUDIR3KH3CQY.png?auth=20181636d3b9872ac1806f929f946a4a3a91520d1b3153180259a17f8890fafc&smart=true&width=1920&height=1080",
-            "source": "ctvnews"
+            "url": "https://au.investing.com/news/stock-market-news/asia-stocks-rise-skorea-at-record-high-hong-kong-up-on-tech-gains-4401989",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPED0803Y_L.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "Power loom worker electrocuted at workplace in Namakkal",
+            "title": "US steps in: Trump launches dramatic \u2018rescue mission\u2019 in Strait of Hormuz",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/coimbatore/power-loom-worker-electrocuted-at-workplace-in-namakkal/articleshow/130739115.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130739106/130739106.jpg",
-            "source": "toi"
+            "url": "https://english.mathrubhumi.com/news/world/us-escort-stranded-ships-strait-of-hormuz-iran-talks-progress-m0eqrbu6",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1qvxyk6ynxrzp5wr7ry/0/hormuz-png.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
         },
         {
-            "title": "Josh was a promising sportsman who died at 14 after sudden cardiac arrest",
+            "title": "\u2018The Audacity\u2019 Star Billy Magnussen Breaks Down His \u201cCrazy\u201d Silicon Valley Fight Club Scene",
             "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-05-04/josh-oguns-cardiac-arrest-parents-screening-for-athletes/106636456",
-            "image": "https://live-production.wcms.abc-cdn.net.au/030fde8130c4d2885fee72e6159155b9?impolicy=wcms_crop_resize&cropH=2508&cropW=4459&xPos=0&yPos=418&width=862&height=485",
-            "source": "abc_net"
+            "url": "https://www.hollywoodreporter.com/tv/tv-features/the-audacity-billy-magnussen-fight-club-episode-4-1236582195/",
+            "image": "https://www.hollywoodreporter.com/wp-content/uploads/2026/05/Audacity_104_EA_0609_0026-RT-H-2026.jpg",
+            "source": "hollywoodreporter"
         },
         {
-            "title": "South Korea invests $5.7B to boost AI industry",
+            "title": "Mercury tumbles by five notches as rain lashes parts of Punjab, Haryana",
             "severity": "WATCH",
-            "url": "https://www.upi.com/Top_News/World-News/2026/05/03/government-invest-ai-national-growth-fund/7251777845370/",
-            "image": "https://cdnph.upi.com/ph/st/th/7251777845370/2026/i/17778456723908/v1.5/South-Korea-invests-57B-to-boost-AI-industry.jpg",
-            "source": "upi"
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/mercury-tumbles-by-five-notches-as-rain-lashes-parts-of-punjab-haryana-101777837730736.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/03/1600x900/logo/Vendors-sit-outside-shops-on-a-waterlogged-road-fo_1777837724388.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "India-Jamaica ties a tale of continuity and change: Jaishankar's op-ed",
+            "title": "Earnings call transcript: NAB\u2019s Q1 2026 results show mixed performance",
             "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/world/indiajamaica-ties-a-tale-of-continuity-and-change-jaishankars-oped-articleshow-smq6n2m",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-d873fb59-bbb0-431a-bf86-919e62b0be5e.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-nabs-q1-2026-results-show-mixed-performance-93CH-4401988",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEE3N0D1_L.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "Netanyahu's trial: A-G agrees to meet PM's defense for possible plea bargain",
+            "title": "Man arrested, girl hospitalized after crashing into wall in Clovis, police say",
             "severity": "WATCH",
-            "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-895006",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/687370",
-            "source": "jpost"
+            "url": "https://www.yahoo.com/news/articles/man-arrested-girl-hospitalized-crashing-020601903.html",
+            "image": "https://media.zenfs.com/en/kfsn_articles_810/b2c3c4711870f908285a0b255b11f841",
+            "source": "yahoo"
         },
         {
-            "title": "Charles Leclerc handed huge Miami GP penalty after battle with Max Verstappen and George Russell",
+            "title": "New parents Katrina Kaif, Vicky Kaushal make first public appearance after welcoming baby boy Vihaan",
             "severity": "WATCH",
-            "url": "https://www.motorsport.com/f1/news/charles-leclerc-penalised-in-miami-gp/10817968/",
-            "image": "https://cdn-4.motorsport.com/images/amp/0mXRVez6/s6/charles-leclerc-ferrari.jpg",
-            "source": "motorsport_en"
+            "url": "https://www.moneycontrol.com/entertainment/bollywood/new-parents-katrina-kaif-vicky-kaushal-make-first-public-appearance-after-welcoming-baby-boy-vihaan-article-13907005.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260504015153_Katrina-Kaif-and-Vicky-Kaushal-spotted-at-the-airport.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Top restaurant received complaints about renowned chef\u2019s behaviour to women",
+            "title": "Cowboys and Eagles' Draft-Night Trade Negotiation Caught on Video by ESPN",
             "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/life/food/top-restaurant-amisfield-received-complaints-about-renowned-chef-s-behaviour-to-women",
-            "image": "https://images.pexels.com/photos/26604099/pexels-photo-26604099.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
+            "url": "https://www.newsweek.com/sports/nfl/cowboys-and-eagles-draft-night-trade-negotiation-caught-on-video-by-espn-11908965",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2025/10/GettyImages-2233751332.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "The Victorian tourism destination with a completely undeserved reputation",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/national/victoria/the-victorian-tourism-destination-with-a-completely-undeserved-reputation-20260428-p5zrt3.html",
+            "image": "https://static.ffx.io/images/$zoom_0.1938%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_27/t_crop_custom/q_86%2Cf_auto/7984da6160a11c6ced90c18a5e4dba461cfbd5b4",
+            "source": "smh"
+        },
+        {
+            "title": "Inter Milan win Italian title for third time in six seasons",
+            "severity": "WATCH",
+            "url": "https://gulfnews.com/sport/football/inter-milan-win-italian-title-for-third-time-in-six-seasons-2-1.500527834",
+            "image": "https://gumlet-images.assettype.com/gulfnews/2026-05-04/7jgx7wdg/Screenshot-2026-05-04-at-9.41.07-AM.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Bullish start likely for Dalal Street as GIFT Nifty advances 100 points",
+            "severity": "WATCH",
+            "url": "http://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/130742491.cms",
+            "image": "https://img.etimg.com/thumb/msid-130742478,resizemode-4,width-1200,height-900,imgsize-37484,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         }
     ],
-    "Last_Updated": "2026-05-04T10:19:26.433196Z"
+    "Last_Updated": "2026-05-04T14:18:07.296888Z"
 }
