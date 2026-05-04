@@ -1,204 +1,288 @@
 {
-    "AGRI_Score": 64.4,
-    "Velocity": "-0.8",
+    "AGRI_Score": 64.1,
+    "Velocity": "-0.3",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at 64.4, driven primarily by extreme levels of 'Energy & Maritime Disruption' (100.0) and heightened 'Geopolitical Conflict Intensity' (75.2). Escalating tensions in the Strait of Hormuz, as evidenced by 'Trump deploys 15,000 troops to the Strait of Hormuz as showdown with Iran looms', directly threaten critical energy transit and global trade. This is compounded by an overarching 'Energy Crisis Is Undoing the Last Ones', signaling widespread impact across various pillars.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.1/100 is significantly elevated, primarily driven by extreme levels in Energy & Maritime Disruption and high Geopolitical Conflict Intensity. Escalating tensions in the Middle East, evidenced by claims of a \"US warship \u2018hit by missiles\u2019\" and \"Iran threatens ships that take up U.S. offer on Strait of Hormuz transit,\" pose immediate threats to global energy flows and maritime security. Concurrently, heightened Cyber & Infrastructure Threats, with reports of \"30,000 Facebook users hacked\" and an \"Alberta voter list leak,\" contribute to a broadly precarious risk landscape.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.2,
+        "Geopolitical Conflict Intensity": 70.6,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 63.7,
-        "Sovereign Financial Stress": 55.0,
+        "Trade & Supply Chain Stress": 64.5,
+        "Sovereign Financial Stress": 53.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.0,
-        "Cyber & Infrastructure Threats": 63.2,
+        "Sanctions & Regulatory Fragmentation": 59.7,
+        "Cyber & Infrastructure Threats": 67.0,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is significantly elevated due to the explicit threat of 'Iran war: What\u2019s happening on day 66 as Trump announces Hormuz mission?' and ongoing military actions, like 'Russian army liberated 13 villages in April \u2014 military expert'. The deployment of US troops to the Strait of Hormuz signifies a dangerous escalation, raising the probability of direct confrontation in a critical region.",
-        "Energy & Maritime Disruption": "Risk in this pillar is at its maximum, fundamentally driven by an acute 'Energy Crisis Is Undoing the Last Ones' and direct threats to maritime transit. The deployment of 15,000 US troops to the 'Strait of Hormuz as showdown with Iran looms' and Iran's Revolutionary Guards unveiling a 'New Map of Strait of Hormuz Under Their Control' represent a severe and immediate threat to global energy supplies and shipping lanes.",
-        "Trade & Supply Chain Stress": "Trade and supply chain stress is elevated due to looming protectionist measures and the immediate threat of maritime disruption. 'Donald Trump's EU car tariffs \u2018targeting Germany,\u2019 says key German MEP' indicates potential new trade barriers, while the escalating situation in the Strait of Hormuz poses a significant risk to global shipping and supply routes.",
-        "Sovereign Financial Stress": "Sovereign financial stress is moderate, with market sentiment showing a divergence between commodity-driven volatility and specific sector gains. While 'Gold futures slide to Rs 1.50 lakh/10g as oil surge, dollar weigh on bullion' suggests some market pressures, 'AI Chipmakers in Korea, Taiwan Drive Asian Stocks to Record' highlights pockets of robust investment activity.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressure is moderate, influenced by commodity price movements and dollar strength. The report notes 'Gold futures slide to Rs 1.50 lakh/10g as oil surge, dollar weigh on bullion,' indicating pressure on non-dollar assets and potential liquidity shifts driven by energy markets.",
-        "Sanctions & Regulatory Fragmentation": "This pillar is elevated due to the emergence of new trade barriers and shifts in energy policy. 'Donald Trump's EU car tariffs \u2018targeting Germany,\u2019' signifies an intent towards increased regulatory fragmentation, while the 'UAE gains freedom to produce what industries need after OPEC exit' points to a changing global energy governance landscape.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are elevated, primarily due to heightened military tensions in critical regions. The significant military buildup, specifically 'Trump deploys 15,000 troops to the Strait of Hormuz,' increases the inherent risk of both physical and cyberattacks on infrastructure in that strategically vital area.",
-        "Climate & Resource Shock": "This pillar reflects baseline activity with no specific climate or resource-related shocks reported in the current news feed. Monitoring continues for any emerging environmental or supply-side pressures that could impact global resources."
+        "Geopolitical Conflict Intensity": "This pillar is high due to active military engagement claims and regional instability, with 'Iran war latest: US warship \u2018hit by missiles\u2019, Tehran claims' indicating direct confrontation. Threats concerning 'Strait of Hormuz transit' and the ongoing 'Sudan Crisis Situation Analysis' further underscore a volatile global geopolitical environment.",
+        "Energy & Maritime Disruption": "This pillar is at its peak due to explicit threats to vital energy shipping lanes, as 'Iran threatens ships that take up U.S. offer on Strait of Hormuz transit' signals potential blockades of a critical chokepoint. The 'Iran war latest: US warship \u2018hit by missiles\u2019, Tehran claims' further highlights active military risks in key maritime zones, directly impacting energy security.",
+        "Trade & Supply Chain Stress": "Global trade routes face indirect but significant pressure from the severe geopolitical and maritime threats in the Strait of Hormuz, which will inevitably impact shipping efficiency and costs. The launch of 'FourKites Launches Agentic Ocean Booking Platform' indicates industry efforts to optimize logistics in anticipation of or response to potential disruptions.",
+        "Sovereign Financial Stress": "This pillar shows moderate stress, with positive news like 'Seoul shares spike over 5 pct to approach 7,000 on chip rally' providing a localized counterpoint to global anxieties. However, the overarching geopolitical and energy uncertainties could rapidly translate into broader sovereign financial instability if conflicts escalate further.",
+        "Currency & Liquidity Pressure": "Moderate pressure is observed, influenced by a mix of regional market performance and global uncertainty. While the 'won sharply up' in Seoul indicates localized currency strength, the high global geopolitical and energy risks could swiftly introduce liquidity pressures across other major economies.",
+        "Sanctions & Regulatory Fragmentation": "While no new sanctions are explicitly announced, the escalating military claims in 'Iran war latest' and 'Iran threatens ships' indicate a high probability of future sanctions or increased regulatory scrutiny on shipping and financial transactions. This anticipates a future increase in regulatory complexity and potential fragmentation.",
+        "Cyber & Infrastructure Threats": "This pillar is notably elevated due to multiple high-severity incidents, including '30,000 Facebook users hacked' and an 'Alberta voter list leak is a potential public safety disaster.' Additionally, 'AI agents create new risks requiring continuous monitoring and oversight' highlights the evolving and complex nature of cyber threats to critical infrastructure.",
+        "Climate & Resource Shock": "This pillar currently reflects baseline activity with a focus on mitigating future risks through innovation. 'Cibus Announces Transfer of Gene-Edited Herbicide Tolerance Traits in Interoc Rice Seeds' highlights advancements in agricultural resilience and food security. The development of 'Saskatchewan\u2019s First Subsurface Natural Hydrogen System' also signals progress in alternative energy resources."
     },
     "All_Alerts": [
         {
-            "title": "Iran war: What\u2019s happening on day 66 as Trump announces Hormuz mission?",
+            "title": "Max Power Appoints Tony Van Burgsteden as CFO to Support Commercial Advancement of Saskatchewan\u2019s First Subsurface Natural Hydrogen System",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/iran-war-happening-day-66-091108881.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/DBjTLp6XuMArsdYhcouHkw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/al_jazeera_289/9fe5970332979dae1a86ff45f77f99f9",
-            "source": "yahoo"
+            "url": "https://www.globenewswire.com/news-release/2026/05/04/3286567/0/en/Max-Power-Appoints-Tony-Van-Burgsteden-as-CFO-to-Support-Commercial-Advancement-of-Saskatchewan-s-First-Subsurface-Natural-Hydrogen-System.html",
+            "image": "https://images.pexels.com/photos/35102453/pexels-photo-35102453.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
         },
         {
-            "title": "Russian army liberated 13 villages in April \u2014 military expert",
+            "title": "Dana White says 4,300 people will attend UFC White House event and \u2018most of them will be military\u2019",
             "severity": "HIGH",
-            "url": "https://tass.com/politics/2125933",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
+            "url": "https://bloodyelbow.com/2026/05/04/dana-white-says-4300-people-will-attend-ufc-white-house-event-and-most-of-them-will-be-military/",
+            "image": "https://bloodyelbow.com/wp-content/uploads/1/2026/04/GettyImages-2273167540-1024x683.jpg",
+            "source": "bloodyelbow"
         },
         {
-            "title": "This Energy Crisis Is Undoing the Last Ones",
+            "title": "Cibus Announces Transfer of Gene-Edited Herbicide Tolerance Traits in Interoc Rice Seeds for Testing and Production",
             "severity": "HIGH",
-            "url": "https://foreignpolicy.com/2026/05/04/energy-crisis-history-20th-century-west-order/",
-            "image": "https://foreignpolicy.com/wp-content/uploads/2026/04/0-Energy-crisis-iran-war-gas-prices.jpg?resize=1200,1200",
-            "source": "foreignpolicy"
-        },
-        {
-            "title": "CubeSmart Reports Q1 2026 Results: Full Earnings Call Transcript",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/insights/news/26/05/52241103/cubesmart-reports-q1-2026-results-full-earnings-call-transcript",
-            "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?width=1200&height=800&fit=crop",
+            "url": "https://www.benzinga.com/pressreleases/26/05/g52242530/cibus-announces-transfer-of-gene-edited-herbicide-tolerance-traits-in-interoc-rice-seeds-for-testi",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
             "source": "benzinga"
         },
         {
-            "title": "AI Chipmakers in Korea, Taiwan Drive Asian Stocks to Record",
+            "title": "Nuclear Vision Limited Announces Name Change to Union Power Metals Corporation Effective May 4, 2026 and Launch of New Corporate Website",
             "severity": "HIGH",
-            "url": "https://financialpost.com/pmn/business-pmn/ai-chipmakers-in-korea-taiwan-drive-asian-stocks-to-record",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/05/776484418.jpg",
-            "source": "financialpost"
+            "url": "https://www.benzinga.com/pressreleases/26/05/g52242536/nuclear-vision-limited-announces-name-change-to-union-power-metals-corporation-effective-may-4-202",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "source": "benzinga"
         },
         {
-            "title": "This Forgotten Netflix War Thriller Is the Most Surprising True Story of WWII",
+            "title": "Iran war latest: US warship \u2018hit by missiles\u2019, Tehran claims",
             "severity": "HIGH",
-            "url": "https://collider.com/operation-mincemeat-netflix-movie-true-story-ww2-war-thriller/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/02/new-netflix-logo-symbol.jpg?w=1600&h=900&fit=crop",
-            "source": "collider"
+            "url": "https://www.thetimes.com/world/middle-east/article/iran-war-latest-news-us-ship-attacked-strait-hormuz-bmqbsgcdc",
+            "image": "https://www.thetimes.com/imageserver/image/e26d68bf-f79a-4846-ae58-19484a26e57b.jpg?strip=all&format=webp&crop=4987px%2C2805px%2C0px%2C289px&resize=1200",
+            "source": "thetimes"
         },
         {
-            "title": "Flotilla ordeal ends with tearful mother embracing son",
+            "title": "Sudan Crisis Situation Analysis: (Period: 20/04/26 - 26/04/26)",
             "severity": "HIGH",
-            "url": "https://au.news.yahoo.com/flotilla-ordeal-ends-tearful-mother-091012798.html",
-            "image": "https://media.zenfs.com/en/aap.com.au/399f027983644a9c617f9db40f7b53e3",
-            "source": "yahoo"
+            "url": "https://reliefweb.int/report/sudan/sudan-crisis-situation-analysis-period-200426-260426",
+            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/f1/24/f124bd5e-a15a-45e6-91e2-e4121726fb88.png",
+            "source": "reliefweb"
         },
         {
-            "title": "Trump deploys 15,000 troops to the Strait of Hormuz as showdown with Iran looms",
+            "title": "Iran threatens ships that take up U.S. offer on Strait of Hormuz transit",
             "severity": "HIGH",
-            "url": "https://www.the-express.com/news/us-news/206389/trump-deploys-15000-troops-strait",
-            "image": "https://cdn-images.the-express.com/img/dynamic/10/590x/206389_1.jpg",
-            "source": "express"
+            "url": "https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-ship-attack-threat-peace-proposal/",
+            "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/05/04/b7c5baea-e3f3-4048-918e-8fca8dbcf562/thumbnail/1200x630/05fb5d9fa97b07294333da28e0623a06/hhf1wigasaaqfa.jpg",
+            "source": "cbsnews"
         },
         {
-            "title": "Vijay's TVK set to breach Fort George, proud parents can't contain their hapiness",
+            "title": "AI agents create new risks requiring continuous monitoring and oversight",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/entertainment/vijay-s-tvk-set-to-breach-fort-george-proud-parents-can-t-contain-their-hapiness-article-13907753.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260504090340_vijaynewpic.png",
+            "url": "https://www.techradar.com/pro/ai-agents-create-new-risks-requiring-continuous-monitoring-and-oversight",
+            "image": "https://cdn.mos.cms.futurecdn.net/qP76MS2BAb7kSuWrvJXXYL-1280-80.jpg",
+            "source": "techradar_sg"
+        },
+        {
+            "title": "Netanyahu testimony canceled overnight after defense cites security schedule",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/israel-news/article-895061",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/686920",
+            "source": "jpost"
+        },
+        {
+            "title": "Alberta voter list leak is a potential public safety disaster: enforcement experts",
+            "severity": "HIGH",
+            "url": "https://globalnews.ca/news/11828244/alberta-voter-list-leak-public-safety-disaster/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/04/44a3eb6eb1d9781bef3d1812468415ff2f9414368429229e6baf73bf7fdb6613.jpg?quality=65&strip=all",
+            "source": "globalnews"
+        },
+        {
+            "title": "30,000 Facebook users hacked in shocking \u2018blue tick\u2019 scam",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/trends/30-000-facebook-users-hacked-in-shocking-blue-tick-scam-13907924.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/06/20250628022836_facebook.jpg",
             "source": "moneycontrol"
         },
         {
-            "title": "Donald Trump's EU car tariffs \u2018targeting Germany,\u2019 says key German MEP",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/donald-trumps-eu-car-tariffs-075120959.html",
-            "image": "https://s.yimg.com/os/en/euronews_ca_articles_409/052cc65e8ca64f89e6e34e5ee9c22e78",
+            "title": "This water filter pitcher has more than 12,000 5-star reviews and is currently 43% off",
+            "severity": "MEDIUM",
+            "url": "https://www.nbcnews.com/select/shopping/deal-of-the-day-waterdrop-pitcher-rcna343172",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-04/260430-dotd-waterdrop-pitcher-mm-main-0b367f.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "Debate to explore whether the U.S. scientific enterprise is too risk-averse",
+            "severity": "MEDIUM",
+            "url": "https://hub.jhu.edu/2026/05/04/hopkins-forum-debate-risk-aversion-research/",
+            "image": "https://api.hub.jhu.edu/factory/sites/default/files/styles/soft_crop_1300/public/2026-05/microscope.jpg",
+            "source": "jhu"
+        },
+        {
+            "title": "What the Supreme Court still has left to decide this term",
+            "severity": "MEDIUM",
+            "url": "https://www.vox.com/politics/487650/supreme-court-2026-term-what-is-left",
+            "image": "https://platform.vox.com/wp-content/uploads/sites/2/2026/05/gettyimages-2262890515.jpg?quality=90&strip=all&crop=0,10.701317345043,100,78.597365309914",
+            "source": "vox"
+        },
+        {
+            "title": "FourKites Launches Agentic Ocean Booking Platform",
+            "severity": "MEDIUM",
+            "url": "http://www.businesswire.com/news/home/20260504510211/en/FourKites-Launches-Agentic-Ocean-Booking-Platform/?feedref=JjAwJuNHiystnCoBq_hl-fLcmYSZsqlD_XPbplM8Ta6D8R-QU5o2AvY8bhI9uvWSD8DYIYv4TIC1g1u0AKcacnnViVjtb72bOP4-4nHK5iej_DoWrIhfD31cAxcB60aE",
+            "image": "https://mms.businesswire.com/media/20260504510211/en/2792517/22/FourKites_Logo_Positive_RGB_2025.jpg",
+            "source": "businesswire"
+        },
+        {
+            "title": "Seoul shares spike over 5 pct to approach 7,000 on chip rally; won sharply up",
+            "severity": "MEDIUM",
+            "url": "https://www.upi.com/Top_News/World-News/2026/05/04/korea-KOSPI-Korea-Stock-Index-fresh-high-7000-point-chip-rally/1661777888603/",
+            "image": "https://cdnph.upi.com/ph/st/th/1661777888603/2026/i/17778887647449/v1.5/Seoul-shares-spike-over-5-pct-to-approach-7000-on-chip-rally-won-sharply-up.jpg",
+            "source": "upi"
+        },
+        {
+            "title": "Blaize and Winmate Sign Strategic Partnership Agreement to Bring AI to Rugged Systems for Defense and Critical Infrastructure",
+            "severity": "WATCH",
+            "url": "https://www.prnewswire.com/apac/news-releases/blaize-and-winmate-sign-strategic-partnership-agreement-to-bring-ai-to-rugged-systems-for-defense-and-critical-infrastructure-302761250.html",
+            "image": "https://mma.prnewswire.com/media/2971837/The_two_companies_will_integrate_Blaize_s_AI_chips_into_Winmate_s_rugged_systems__including_drones.jpg?p=original",
+            "source": "prnewswire_apac"
+        },
+        {
+            "title": "Centrum Launches Newly Reformulated Adults 50+ Complete Multivitamin with Clinically Shown Cognitive Benefits",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/news-release/2026/05/04/3286555/0/en/Centrum-Launches-Newly-Reformulated-Adults-50-Complete-Multivitamin-with-Clinically-Shown-Cognitive-Benefits.html",
+            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
+        },
+        {
+            "title": "Helix Energy Solutions Sells Shallow Water Abandonment Business to the Chouest Group",
+            "severity": "WATCH",
+            "url": "http://www.businesswire.com/news/home/20260504546651/en/Helix-Energy-Solutions-Sells-Shallow-Water-Abandonment-Business-to-the-Chouest-Group/?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+            "image": "https://mms.businesswire.com/media/20260504546651/en/751254/22/Helix_Energy_Solutions_Logo_colour_RGB.jpg",
+            "source": "businesswire"
+        },
+        {
+            "title": "Legence Sets First Quarter 2026 Earnings Release Date and Webcast Schedule",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/05/04/3286549/0/en/Legence-Sets-First-Quarter-2026-Earnings-Release-Date-and-Webcast-Schedule.html",
+            "image": "https://images.pexels.com/photos/7947848/pexels-photo-7947848.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "SOLV Energy Expands Utility Infrastructure Platform with Roberson Waite Electric Acquisition, Advancing Long-Term Growth Strategy for Shareholders",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/05/04/3286558/0/en/SOLV-Energy-Expands-Utility-Infrastructure-Platform-with-Roberson-Waite-Electric-Acquisition-Advancing-Long-Term-Growth-Strategy-for-Shareholders.html",
+            "image": "https://images.pexels.com/photos/5833772/pexels-photo-5833772.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "NYC Italian enclaves left out of the party as World Cup comes to US with Italy on sidelines: \u2018Turned the lights off\u2019",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/05/04/us-news/nyc-italian-enclaves-left-out-of-the-party-as-world-cup-comes-to-us-with-italy-on-sidelines-turned-the-lights-off/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F05%2Fitalian-football-federation-figc-headquarters-126937666.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "10 Barrel Brewing Launches Clean Slate and Salty Sips, Expanding RTD Line with Functional N/A and Low-Sugar Cocktails",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/news-release/2026/05/04/3286553/0/en/10-Barrel-Brewing-Launches-Clean-Slate-and-Salty-Sips-Expanding-RTD-Line-with-Functional-N-A-and-Low-Sugar-Cocktails.html",
+            "image": "https://images.pexels.com/photos/6950135/pexels-photo-6950135.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
+        },
+        {
+            "title": "CW Petroleum Corp (OTCQB: CWPE) Reports Year-End 2025",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/05/04/3286547/0/en/CW-Petroleum-Corp-OTCQB-CWPE-Reports-Year-End-2025.html",
+            "image": "https://images.pexels.com/photos/17865605/pexels-photo-17865605.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Tenax Therapeutics Appoints Timothy Healey, MBA as Chief Commercial Officer",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/news-release/2026/05/04/3286546/12401/en/Tenax-Therapeutics-Appoints-Timothy-Healey-MBA-as-Chief-Commercial-Officer.html",
+            "image": "https://images.pexels.com/photos/4021262/pexels-photo-4021262.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
+        },
+        {
+            "title": "What we learned about the Rangers last week: Offense won't go without Corey Seager",
+            "severity": "WATCH",
+            "url": "https://www.dallasnews.com/sports/rangers/article/texas-rangers-corey-seager-ezequiel-duran-22235773.php",
+            "image": "https://s.hdnux.com/photos/01/66/12/30/30975490/5/rawImage.jpg",
+            "source": "dallasnews"
+        },
+        {
+            "title": "RFK Jr.\u2019s New Podcast Is as Weird as You\u2019d Expect",
+            "severity": "WATCH",
+            "url": "https://www.wired.com/story/rfk-jrs-new-podcast-is-as-weird-as-youd-expect/",
+            "image": "https://media.wired.com/photos/69f367ae78fa4200617e3b11/16:9/w_2120,h_1193,c_limit/GettyImages-2272611171.jpg",
+            "source": "wired"
+        },
+        {
+            "title": "These 3 \u2018secret\u2019 dividend shares could be top stocks to buy in May!",
+            "severity": "WATCH",
+            "url": "https://uk.finance.yahoo.com/news/3-secret-dividend-shares-could-110000785.html",
+            "image": "https://media.zenfs.com/en/fool.co.uk/48ed29634c47e88b2fbda72a3d791c8f",
             "source": "yahoo"
         },
         {
-            "title": "Indiana Democrats are running for office in record numbers. What's in the water?",
-            "severity": "MEDIUM",
-            "url": "https://www.yahoo.com/news/articles/indiana-democrats-running-office-record-091126947.html",
-            "image": "https://media.zenfs.com/en/indianapolis_star_natl_articles_522/8b948454ece27c09dcd1d52021ab7650",
+            "title": "How a onetime top Dodgers prospect became an advisor to four U.S. presidents",
+            "severity": "WATCH",
+            "url": "https://www.latimes.com/sports/dodgers/story/2026-05-04/how-dodgers-prospect-became-advisor-to-four-u-s-presidents",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/954b438/2147483647/strip/false/crop/382x60+0+0/resize/382x60!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fde%2F5f%2F46c2d05b430cbc6e775301df1062%2Flogo-full-black.png",
+            "source": "latimes"
+        },
+        {
+            "title": "e2open Logistics as a Service gives shippers control while driving capacity",
+            "severity": "WATCH",
+            "url": "https://finance.yahoo.com/sectors/technology/articles/e2open-logistics-gives-shippers-control-110000028.html",
+            "image": "https://media.zenfs.com/en/freightwaves_373/42e2b67d73b31d63b2f6c2bcc7e39d7d",
             "source": "yahoo"
         },
         {
-            "title": "Gold futures slide to Rs 1.50 lakh/10g as oil surge, dollar weigh on bullion",
-            "severity": "MEDIUM",
-            "url": "https://www.moneycontrol.com/news/business/economy/gold-futures-slide-to-rs-1-50-lakh-10g-as-oil-surge-dollar-weigh-on-bullion-13907791.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260324020716_gold.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Assembly election results 2026: Top 10 winners and losers",
-            "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/india/assembly-election-results-2026-top-10-winners-and-losers-west-bengal-tvk-vijay-tamil-nadu-assam-kerala-vijayan-mamata-puducherry/articleshow/130776095.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130776860/130776860.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Bhabanipur Election Results 2026 LIVE: Mamata Banerjee's Lead Slips As BJP's Suvendu Adhikari Gains Ground",
-            "severity": "MEDIUM",
-            "url": "https://www.news18.com/india/bhabanipur-election-results-2026-west-bengal-tmc-bjp-mamata-banerjee-vs-suvendu-adhikari-latest-updates-liveblog-10073066.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/03/Untitled-design-81-2026-03-12aa666d9b713fb175a436c603e84525-1200x800.png",
-            "source": "news18"
-        },
-        {
-            "title": "What is the best internet solution for business travel? Why Holafly for Business is becoming the preferred choice for global companies",
-            "severity": "MEDIUM",
-            "url": "https://financialpost.com/globe-newswire/what-is-the-best-internet-solution-for-business-travel-why-holafly-for-business-is-becoming-the-preferred-choice-for-global-companies",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "financialpost"
-        },
-        {
-            "title": "Ather Energy Q4 loss narrows on strong volume growth, revenue rises sharply",
+            "title": "Tahoe is losing a major power source amid Google, Apple data center expansion",
             "severity": "WATCH",
-            "url": "https://www.business-standard.com/companies/quarterly-results/ather-energy-q4-loss-narrows-on-strong-volume-growth-revenue-rises-sharply-126050400822_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260504/thumb-126050400822.jpg",
-            "source": "business-standard"
+            "url": "https://www.sfgate.com/renotahoe/article/tahoe-power-data-centers-22234748.php",
+            "image": "https://s.hdnux.com/photos/01/66/11/17/30970841/3/rawImage.jpg",
+            "source": "sfgate"
         },
         {
-            "title": "JPMorgan Chart Pack: Retail Capitulates, Then Chases Tech and Energy Higher",
+            "title": "Superior Group of Companies Reports First Quarter 2026 Results",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/analysis/jpmorgan-chart-pack-retail-capitulates-then-chases-tech-and-energy-higher-200624354",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_uk"
+            "url": "https://www.globenewswire.com/fr/news-release/2026/05/04/3286565/23379/en/Superior-Group-of-Companies-Reports-First-Quarter-2026-Results.html",
+            "image": "https://images.pexels.com/photos/35102453/pexels-photo-35102453.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
         },
         {
-            "title": "UAE gains freedom to produce what industries need after OPEC exit, says Al Mazrouei",
+            "title": "Aerospace supplier Groupe Meloche acquiring France\u2019s Groupe Rossi Ae\u0301ro",
             "severity": "WATCH",
-            "url": "https://gulfnews.com/business/energy/uae-gains-freedom-to-produce-what-industries-need-after-opec-exit-says-al-mazrouei-1.500528264",
-            "image": "https://gumlet-images.assettype.com/gulfnews/2026-05-04/7niuhn4p/WhatsApp-Image-2026-05-04-at-12.43.27.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "url": "https://www.theglobeandmail.com/business/article-aerospace-supplier-groupe-meloche-acquiring-frances-groupe-rossi-aero/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/GVFGLZK2YZAJDINHIHJQPJUKNY.JPG?auth=55d53d38324ef7e5fd97f51868543c9611d799bac40704a9fb3851977ae8c577&smart=true&width=6445&height=4297",
+            "source": "theglobeandmail"
         },
         {
-            "title": "Iran's Revolutionary Guards Unveil New Map of Strait of Hormuz Under Their Control, State Media Says",
+            "title": "High operating costs and uneven consumer spending put Canada\u2019s restaurant sector \u2013 a key economic engine \u2013 under pressure",
             "severity": "WATCH",
-            "url": "https://www.usnews.com/news/world/articles/2026-05-04/irans-revolutionary-guards-unveil-new-map-of-strait-of-hormuz-under-their-control-state-media-says",
-            "image": "https://www.usnews.com/dims4/USNEWS/6d1d038/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F54%2F1aa28262661a9bbf1c8b4796ee70d4%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM430HR%3A12026-05-04T091108Z_1_LYNXMPEM430HR_RTROPTP_3_IRAN-CRISIS-SAUDI-LIQUOR.JPG",
-            "source": "usnews"
+            "url": "https://www.globenewswire.com/fr/news-release/2026/05/04/3286543/0/en/High-operating-costs-and-uneven-consumer-spending-put-Canada-s-restaurant-sector-a-key-economic-engine-under-pressure.html",
+            "image": "https://images.pexels.com/photos/11082253/pexels-photo-11082253.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
         },
         {
-            "title": "Pak foreign minister discusses regional situation with Iranian counterpart",
+            "title": "My little boy was born brain damaged after docs delayed vital procedure by 30 minutes \u2013 they wouldn\u2019t listen to me",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/pak-foreign-minister-discusses-regional-situation-with-iranian-counterpart-101777885844320.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2025/12/30/1600x900/logo/US_News_1767090888271_1767090921295.png",
-            "source": "hindustantimes"
+            "url": "https://www.thesun.co.uk/health/39006377/boy-brain-damaged-docs-delayed-test-mum-ignored/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F05%2Fnewspress-collage-du0la6uah-1777892081213.jpg?quality%3D90%26strip%3Dall%261777895701",
+            "source": "thesun"
         },
         {
-            "title": "NFL provides new footage of Steelers\u2019 Makai Lemon draft blunder",
+            "title": "Why Banksy\u2019s \u2018guerrilla art\u2019 is dangerous",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/nfl-provides-footage-steelers-makai-091041024.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/zze8g9f1MOqwEtAobMzjmg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/pittsburgh_steelers_wire_usa_today_sports_articles_164/1e90597dba4a3c09ea084cec8af15862",
-            "source": "yahoo"
+            "url": "https://www.firstpost.com/opinion/why-banksys-guerrilla-art-is-dangerous-14007380.html",
+            "image": "https://images.firstpost.com/uploads/2026/05/630pm-1-2026-05-43ba4c5c77ce7d7f1014f183b7caabeb.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "S&P 500 falls from record high on Middle East worries - Mon, 04 May 2026 PST",
+            "title": "Should ex-Raytown officer lose license after shooting man who posed no threat? | Opinion",
             "severity": "WATCH",
-            "url": "http://www.spokesman.com/stories/2026/may/04/sp-500-falls-from-record-high-on-middle-east-worri/",
-            "image": "https://thumb.spokesman.com/Tuv2TjUSSaA92Vk0o8131WS9JjA=/2500x1405/smart/media.spokesman.com/photos/2026/05/04/69f8e66c36f4e.image.jpg",
-            "source": "spokesman"
-        },
-        {
-            "title": "India looks to boost LNG tank capacity as Qatar supplies stall",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/india-looks-to-boost-lng-tank-capacity-as-qatar-supplies-stall/articleshow/130804060.cms",
-            "image": "https://img.etimg.com/thumb/msid-130804125,resizemode-4,width-1200,height-900,imgsize-147668,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Iran vows kinetic response to Trump's \u2018Project Freedom\u2019 naval mission in Hormuz Strait",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/iran-vows-kinetic-response-to-trumps-project-freedom-naval-mission-in-hormuz-strait-101777884875781.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/04/1600x900/logo/US_1777885119721_1777885120038.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Terms of Trade: And then there were none",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/india-news/terms-of-trade-and-then-there-were-none-101777884972473.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/04/1600x900/logo/In-West-Bengal--the-BJP-finally-managed-to-unseat-_1777884965927.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.kansascity.com/opinion/opn-columns-blogs/toriano-porter/article315606789.html",
+            "image": "https://www.kansascity.com/public/latest-news/pv1xgi/picture301105174/alternates/FREE_1140/WilliamsKenny.jpeg",
+            "source": "kansascity"
         }
     ],
-    "Last_Updated": "2026-05-04T21:13:46.104872Z"
+    "Last_Updated": "2026-05-04T23:00:26.151308Z"
 }
