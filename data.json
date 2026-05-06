@@ -1,244 +1,260 @@
 {
-    "AGRI_Score": 65.1,
-    "Velocity": "+5.8",
+    "AGRI_Score": 63.6,
+    "Velocity": "-1.5",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.6/100 reflects a significantly elevated risk landscape, primarily driven by the extreme volatility in Energy & Maritime Disruption (100) and high Geopolitical Conflict Intensity (71.2). The potential for an 'Iran war oil shock' remains a dominant concern, directly impacting global economic stability and energy markets, even as 'Brent oil drops below $100/bbl on US-Iran deal hopes'. Ongoing geopolitical flashpoints, such as Russia's continued aggression in Ukraine, also contribute to this heightened risk profile, indicating persistent global uncertainty.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 80.3,
+        "Geopolitical Conflict Intensity": 71.2,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 66.4,
-        "Sovereign Financial Stress": 55.0,
+        "Trade & Supply Chain Stress": 64.5,
+        "Sovereign Financial Stress": 54.3,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.7,
-        "Cyber & Infrastructure Threats": 57.7,
+        "Sanctions & Regulatory Fragmentation": 62.0,
+        "Cyber & Infrastructure Threats": 58.1,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "High intensity is maintained by persistent global flashpoints and the looming prospect of a Middle East conflict. The headline 'Is attacking Iran a just war \u2014 or just a war? Marco Rubio debates Pope Leo' underscores the serious consideration of military action, while 'Russia snubs Ukraine's unilateral ceasefire, firing dozens of drones' highlights unmitigated conflict in Eastern Europe.",
+        "Energy & Maritime Disruption": "This pillar is at its maximum severity due to acute risks of supply shocks from Middle East tensions. Reports discussing '3 charts explain how the Iran war oil shock could impact the economy' emphasize the fragility of energy markets, despite 'Brent oil drops below $100/bbl on US-Iran deal hopes' suggesting a momentary reprieve linked to de-escalation hopes.",
+        "Trade & Supply Chain Stress": "Moderate stress persists, influenced by a mix of regional developments and localized disruptions. While 'India, Vietnam elevate ties to enhanced comprehensive strategic partnership; set $25 billion trade target' indicates efforts to bolster trade, an 'oil spill closes ramps from Hwy. 427 to EB Hwy. 409' demonstrates ongoing vulnerabilities in logistical networks.",
+        "Sovereign Financial Stress": "Underlying financial vulnerabilities persist, influenced by global uncertainties and potential market shocks. The prospect of an 'Iran war oil shock could impact the economy' signals a significant macroeconomic threat, while 'Retail investors have the opportunity to play volatility that are meaningful' points to an active, yet potentially unstable, market environment.",
+        "Currency & Liquidity Pressure": "This pillar reflects moderate pressure, with market participants observing opportunities arising from volatility. The mention that 'Retail investors have the opportunity to play volatility that are meaningful: UBS' Alli McCartney' suggests a market prepared for, and perhaps contributing to, rapid shifts in asset values and capital flows.",
+        "Sanctions & Regulatory Fragmentation": "The elevated score reflects the dynamic geopolitical landscape, where policy shifts can occur rapidly. The observation that 'US threats recede' in relation to Iran suggests a complex and evolving regulatory environment that demands continuous monitoring for potential changes in sanctions or trade policies.",
+        "Cyber & Infrastructure Threats": "Persistent and evolving threats continue to pose significant risks, particularly with the increased sophistication of attacks. The 'Gigamon 2026 Survey: AI Now Drives 83 Percent of Breaches as Attackers Outpace Defenders' highlights the growing and pervasive challenge of artificial intelligence-driven cyber-attacks against critical systems.",
+        "Climate & Resource Shock": "This pillar shows lower risk overall, though specific regional resource challenges are emerging with high severity. 'Breathe Pakistan: Water minister, experts sound alarm on Pakistan's 'lifeline' Indus basin 'shrinking'' indicates a severe and localized resource degradation issue that could escalate to broader socio-economic challenges."
+    },
     "All_Alerts": [
         {
-            "title": "U.S. and Iran closing in on one-page memo to end war, sources say",
+            "title": "3 charts explain how the Iran war oil shock could impact the economy",
             "severity": "HIGH",
-            "url": "https://www.theglobeandmail.com/world/article-iran-seeks-fair-deal-after-us-pauses-operation-to-open-strait-of/",
-            "image": "https://www.theglobeandmail.com/resizer/v2/CSUU4L4YPRBJBAZUOFMYXWJ2DU.JPG?auth=0f7401644ca5d02df01b6714035397d8c3904f5d5afc16e2cc2f019e0c289a0f&smart=true&width=6000&height=4000",
-            "source": "theglobeandmail"
+            "url": "https://finance.yahoo.com/economy/article/3-charts-explain-how-the-iran-war-oil-shock-could-impact-the-economy-105600349.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/BmV7eWgufeWNA122rNjAnA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMTQ2/https://d29szjachogqwa.cloudfront.net/images/user-uploaded/screenshot-2026-05-05-at-23325-pm_8703.png",
+            "source": "finance_yahoo"
         },
         {
-            "title": "Trump Pauses Hormuz Escort Mission as Iran Deal Talks Show Progress",
+            "title": "Is attacking Iran a just war \u2014 or just a war? Marco Rubio debates Pope Leo",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/trump-pauses-hormuz-escort-mission-091500120.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/Jd2ArsXlQgEGVeIc4PFUUA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU7Y2Y9d2VicA--/https://media.zenfs.com/en/cover_media_989/1003ea493f00f0582d304b7394fda7c3",
-            "source": "yahoo"
+            "url": "https://www.thetimes.com/world/europe/article/pope-leo-marco-rubio-visit-trump-z0v00gpvg",
+            "image": "https://www.thetimes.com/imageserver/image/ef3fade7-3773-4050-9143-a02c989f44f8.jpg?strip=all&format=webp&crop=1600px%2C900px%2C0px%2C0px&resize=1200",
+            "source": "thetimes"
         },
         {
-            "title": "US, Iran move closer to one-page 14-point memo to halt war as talks enter crucial phase: Report",
+            "title": "Natural Resource Partners L.P. Reports First Quarter 2026 Results and Declares First Quarter 2026 Distribution of $0.75 per Common Unit",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/us-iran-near-one-page-14-point-memo-to-end-war-as-talks-enter-crucial-phase-report-article-13910554.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260506090517_Trump-Hormuz.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Jim Cramer says Warren Buffett is wrong about investors being addicted to 'gambling' \u2014 they're addicted to the S&P 500",
-            "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/jim-cramer-says-warren-buffett-091500901.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/RoD2F7oEAUISboVJukAkXA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUw/https://media.zenfs.com/en/moneywise_327/85da53bda9dad7b387ba45a2f805521c",
-            "source": "yahoo"
-        },
-        {
-            "title": "The war in Ukraine is forcing a rethink of the Western obsession with 'perfect' weapons",
-            "severity": "HIGH",
-            "url": "https://www.yahoo.com/news/articles/war-ukraine-forcing-rethink-western-091201313.html",
-            "image": "https://media.zenfs.com/en/business_insider_consolidated_articles_886/5df3b960b2e870f4942a37a5214d8bf5",
-            "source": "yahoo"
-        },
-        {
-            "title": "Local elections in UK could hasten end of embattled PM Keir Starmer\u2019s tenure",
-            "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/local-elections-in-uk-could-hasten-end-of-embattled-pm-keir-starmers-tenure/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/05/AP26075407416979.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Stock Market Today: S&P 500, Dow Futures Advance As Trump Pauses 'Project Freedom'\u2014Super Micro Computer, AMD, Intel In Focus",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/markets/equities/26/05/52312914/stock-market-today-sp-500-dow-futures-advance-as-trump-pauses-project-freedom-super-micro-comput",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/05/06/Wall-Street.jpeg?width=1200&height=800&fit=crop",
+            "url": "https://www.benzinga.com/pressreleases/26/05/g52315042/natural-resource-partners-l-p-reports-first-quarter-2026-results-and-declares-first-quarter-2026-d",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
             "source": "benzinga"
         },
         {
-            "title": "Middle East conflict: Three opportunities for India to secure supply chains in energy, fertilizers & defence - explained",
+            "title": "Breathe Pakistan: Water minister, experts sound alarm on Pakistan's 'lifeline' Indus basin 'shrinking'",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/middle-east-conflict-three-opportunities-for-india-to-secure-supply-chains-in-energy-fertilisers-defence-explained/articleshow/130849361.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130849796/130849796.jpg",
-            "source": "toi"
+            "url": "https://www.dawn.com/news/1997828/breathe-pakistan-water-minister-experts-sound-alarm-on-pakistans-lifeline-indus-basin-shrinking",
+            "image": "https://i.dawn.com/large/2026/05/06152943f8d5dde.webp",
+            "source": "dawn"
         },
         {
-            "title": "Is OpenAI launching a mobile phone? Here\u2019s the lowdown",
+            "title": "Brent oil drops below $100/bbl on US-Iran deal hopes",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/tech/technology/is-openai-launching-a-mobile-phone-heres-the-lowdown/articleshow/130849659.cms",
-            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-23248,resizemode-75,msid-130849659/tech/technology/is-openai-launching-a-mobile-phone-heres-the-lowdown.jpg",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/brent-oil-slips-below-100/bbl-on-us-iran-deal-hopes/articleshow/130853197.cms",
+            "image": "https://img.etimg.com/thumb/msid-130853242,resizemode-4,width-1200,height-900,imgsize-1387939,overlay-etmarkets/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Apps, activists and an \u2018air war\u2019: Essex campaign is test of Reform UK\u2019s professionalisation - The Guardian",
+            "title": "Retail investors have the opportunity to play volatility that are meaningful: UBS' Alli McCartney",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb2dyZmliUU43bk5qMWJNUHRPU2Jnb1B1NzFHbTBEOGEzejRXWTQ5ZzZqMFdmay01eFB3NDA4QmNxWVZYbTYxaTBuN01vb2o1SWdNZGRmZGQzeHBaMlo0MHBUbkpQSnh6dEdXbUdJdTA5bkZNN0xTZnJNTXhNcVVtalNlbjZLYzJWOFhuLXVfSGdTeVd2Y0wyMFNrbFhFZUkyU1E?oc=5",
-            "image": "https://images.pexels.com/photos/36201272/pexels-photo-36201272.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.cnbc.com/video/2026/05/06/retail-investors-have-the-opportunity-to-play-volatility-that-are-meaningful-ubs-alli-mccartney.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108302790-17780637861778063784-45743460623-1080pnbcnews.jpg?v=1778063786",
+            "source": "cnbc"
         },
         {
-            "title": "Midlands drug farmer 'knowingly entered UK in breach of deportation order'",
+            "title": "Iranian navy talks up possible safe transit through Strait of Hormuz as US threats recede",
             "severity": "HIGH",
-            "url": "https://www.birminghammail.co.uk/news/midlands-news/midlands-drug-farmer-knowingly-entered-33894363",
-            "image": "https://i2-prod.birminghammail.co.uk/incoming/article33894785.ece/ALTERNATES/s615/0_festim-ahmetaj.jpg",
-            "source": "birminghammail"
+            "url": "https://investinglive.com/news/iranian-navy-talks-up-possible-safe-transit-through-strait-of-hormuz-as-us-threats-recede-20260506/",
+            "image": "https://images.investinglive.com/images/Strait%20of%20Hormuz_id_6881abc9-fc01-4219-b86c-567046ca794c_size975.jpg",
+            "source": "forexlive"
         },
         {
-            "title": "United Nations demands Israel 'immediately' release two Gaza aid flotilla activists",
+            "title": "Russia snubs Ukraine's unilateral ceasefire, firing dozens of drones",
             "severity": "HIGH",
-            "url": "http://www.euronews.com/2026/05/06/united-nations-demands-israel-immediately-release-two-gaza-aid-flotilla-activists",
-            "image": "https://images.euronews.com/articles/stories/09/74/85/27/1440x810_cmsv2_b50f7cdb-3fd3-5e01-9889-4be90c12c76c-9748527.jpg",
-            "source": "euronews"
+            "url": "https://www.thehindu.com/news/international/russia-snubs-ukraines-unilateral-ceasefire-firing-dozens-of-drones/article70946508.ece",
+            "image": "https://th-i.thgim.com/public/incoming/gmqxu9/article70946803.ece/alternates/FREE_1200/2026-05-06T062238Z_74369764_RC2G3LA0PLZG_RTRMADP_3_UKRAINE-CRISIS-ATTACK-KHARKIV.JPG",
+            "source": "thehindu"
         },
         {
-            "title": "Surfshark and Incogni just bundled some of the most important cybersecurity available \u2014 only $75",
+            "title": "Gigamon 2026 Survey: AI Now Drives 83 Percent of Breaches as Attackers Outpace Defenders",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/05/g52313293/gigamon-2026-survey-ai-now-drives-83-percent-of-breaches-as-attackers-outpace-defenders",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "source": "benzinga"
+        },
+        {
+            "title": "Jimmy Kimmel vs Melania Trump: Joke war escalates as comedian refuses to back off; Here\u2019s what he said of her marriage this time",
+            "severity": "HIGH",
+            "url": "https://me.mashable.com/culture/70900/jimmy-kimmel-vs-melania-trump-joke-war-escalates-as-comedian-refuses-to-back-off-heres-what-he-said",
+            "image": "https://sm.mashable.com/mashable_me/photo/default/untitled-2026-05-06t152426847_btmy.jpg",
+            "source": "mashable_me"
+        },
+        {
+            "title": "India, Vietnam elevate ties to enhanced comprehensive strategic partnership; set $25 billion trade target",
             "severity": "MEDIUM",
-            "url": "https://mashable.com/article/may-6-surfshark-one-plan-1-year-subscription",
-            "image": "https://helios-i.mashable.com/imagery/articles/077lcGEuQHqZTl8NhRvh28N/hero-image.fill.size_1200x675.v1777977271.jpg",
-            "source": "mashable_us"
+            "url": "https://www.deccanherald.com/india/india-vietnam-elevate-ties-to-enhanced-comprehensive-strategic-partnership-set-25-billion-trade-target-3993053",
+            "image": "https://media.assettype.com/deccanherald/2026-05-06/hxs5eiau/file85q5vk18xkpwb5wf9k9.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Public safety dominates discourse as Fredericton set to elect new mayor",
+            "title": "'Endangering Catholics': Trump-Pope tensions escalate ahead of Rubio\u2019s talks at Vatican",
             "severity": "MEDIUM",
-            "url": "https://www.cbc.ca/news/canada/new-brunswick/fredericton-municipal-election-9.7187919?cmp=rss",
-            "image": "https://i.cbc.ca/ais/d05cae90-6c24-4047-ab29-710447a9814e,1778006759238/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3B",
-            "source": "cbc"
+            "url": "https://timesofindia.indiatimes.com/world/us/endangering-catholics-trump-pope-tensions-escalate-ahead-of-rubios-talks-at-vatican/articleshow/130845364.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130853078/130853078.jpg",
+            "source": "toi"
         },
         {
-            "title": "NBA stars playing in Europe instead of U.S.? That's what soccer giants want",
+            "title": "Exelon: Q1 Earnings Snapshot",
             "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7255096/2026/05/06/nba-europe-euroleague-transfer-license-negotiation/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/01/19133332/GettyImages-2255916410-scaled-e1778022371296.jpg",
-            "source": "theathleticuk"
+            "url": "https://www.wfaa.com/article/syndication/associatedpress/exelon-q1-earnings-snapshot/616-7dce9de9-5fa1-44c1-b724-a51a3fd19d5d",
+            "image": "https://media.wfaa.com/assets/WFAA/images/e59de581-e189-4292-97f8-e37dfe885d24/20260506T032228/e59de581-e189-4292-97f8-e37dfe885d24_1920x1080.jpg",
+            "source": "wfaa"
         },
         {
-            "title": "Inside the production design of The Devil Wears Prada 2: No, that Last Supper scene wasn't real location",
+            "title": "Morning Bid: End in sight?",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/lifestyle/art-culture/inside-the-production-design-of-the-devil-wears-prada-2-no-that-last-supper-scene-wasnt-real-location-101778058355262.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/06/1600x900/logo/miranda_1778058699947_1778058706303.png",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Jesse Derry needed lengthy treatment on the pitch.",
-            "severity": "WATCH",
-            "url": "https://www.si.com/soccer/jesse-derry-chelsea-message-horror-head-injury",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4500,h_2531,x_0,y_469/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01kqy6ndzj682pfnt82s.jpg",
-            "source": "si"
-        },
-        {
-            "title": "Declan Rice urges Arsenal fans to bring \u2018all the energy\u2019 for Champions League final",
-            "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/news/declan-rice-urges-arsenal-fans-091452945.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/jeEFB9sXKzfwihyfn4fYyQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MTtjZj13ZWJw/https://media.zenfs.com/en/pa-sport.com/dac76cb1e645003f09c70c9145734d78",
+            "url": "https://ca.finance.yahoo.com/news/morning-bid-end-sight-105538197.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/NdNUAjH35R6.h0JMVc54SA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2MDA7aD05MDA-/https://media.zenfs.com/en/reuters.com/442b87d6e641ef71b4f9b32b1076eb5b",
             "source": "yahoo"
         },
         {
-            "title": "\"Keep it up\": Lady documents day with mum who rides keke, video goes viral, Nigerians react",
+            "title": "In 1964, Arno Penzias and Robert Wilson heard a persistent microwave noise, and found evidence for the Big Bang",
             "severity": "WATCH",
-            "url": "https://www.legit.ng/people/1708704-video-mother-a-keke-driver-trends-stirs-reactions-online/",
-            "image": "https://cdn.legit.ng/images/1200x675/af522718b8949a10.jpeg?v=1",
-            "source": "legit"
+            "url": "https://economictimes.indiatimes.com/news/international/us/in-1964-arno-penzias-and-robert-wilson-heard-a-persistent-microwave-noise-and-found-evidence-for-the-big-bang/articleshow/130849960.cms",
+            "image": "https://img.etimg.com/thumb/msid-130849960,resizemode-4,width-1200,height-900,imgsize-790138,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Why Ageing Is An Access Issue \u2014 And What Uber Gets Right",
+            "title": "SolarEdge Announces First Quarter 2026 Financial Results",
             "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/why-ageing-access-issue-uber-091420910.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/xeC75W9uNHHkrDuCZ9bmxA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE5MTg7aD0yMzMwO2NmPXdlYnA-/https://media.zenfs.com/en/forbes_contributor_845/82a31937325d97f7b059bf0760a287c6",
-            "source": "yahoo"
+            "url": "http://www.businesswire.com/news/home/20260506121779/en/SolarEdge-Announces-First-Quarter-2026-Financial-Results/?feedref=JjAwJuNHiystnCoBq_hl-X2BgZ-vGn4dO0OtHrHlsBouWxj09bKgFPs8Ri9iZvJhWJT50v2g3Ei-19qH0fyPszGrim8IhAkVNXbaI1AGppOzkqEXpa07kut2m9xviGvGbQQtmzdfgYBqoK3SS-VE4Q%3D%3D",
+            "image": "https://www.businesswire.com/bw-logo.png",
+            "source": "businesswire"
         },
         {
-            "title": "Citizens cuts Aviat Networks stock price target on weak results",
+            "title": "UTeM signs advanced computing MOU with GSOTU",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/citizens-cuts-aviat-networks-stock-price-target-on-weak-results-93CH-4652940",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB66095_L.jpg",
-            "source": "investing_uk"
+            "url": "https://www.thestar.com.my/news/nation/2026/05/06/utem-signs-advanced-computing-mou-with-gsotu",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/06/3895128.jpg",
+            "source": "thestar_my"
         },
         {
-            "title": "Nifty, Sensex Up 1%, Brent Hovers Near $104 - Three Reasons Why Markets Are Rising",
+            "title": "\u2018It is really going to jam things up\u2019: Truck rollover, oil spill closes ramps from Hwy. 427 to EB Hwy. 409",
             "severity": "WATCH",
-            "url": "https://www.ndtvprofit.com/markets/nifty-sensex-up-0-6-percent-most-sectors-in-green-three-reasons-why-markets-are-rising-today-11455328",
-            "image": "https://c.ndtvimg.com/2026-04/l495vfa_bull-markets_625x300_01_April_26.jpeg?im=FitAndFill,algorithm=dnn,width=1080,height=607",
+            "url": "https://www.ctvnews.ca/toronto/article/it-is-really-going-to-jam-things-up-truck-rollover-closes-ramps-from-hwy-427-to-eb-hwy-409/",
+            "image": "https://www.ctvnews.ca/resizer/v2/GHXZWDCLMZCZ5HZ6SUP2MVA2VM.png?auth=8c0ca0f0b48edb3e563e60084985bf5ec93ced6dc3e3d016764da353d8d92b96&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Carmen High School teacher returns to alma mater to inspire the next generation",
+            "severity": "WATCH",
+            "url": "https://www.tmj4.com/news/local-news/in-your-community/milwaukee-county/carmen-high-school-teacher-returns-to-alma-mater-to-inspire-the-next-generation",
+            "image": "https://ewscripps.brightspotcdn.com/dims4/default/541359d/2147483647/strip/true/crop/1920x1008+0+216/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F3e%2F6f%2F8abac33b49c8b27fd193b8048f79%2F67e88369-52a3-4773-ba63-0763b70d8995.jpeg",
+            "source": "tmj4"
+        },
+        {
+            "title": "How Vienna is preparing for Eurovision 2026 while police brace for protests",
+            "severity": "WATCH",
+            "url": "https://metro.co.uk/2026/05/06/vienna-preparing-eurovision-2026-expected-protests-28255605/",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/05/GettyImages-2272214382.jpg?quality=90&strip=all",
+            "source": "metro"
+        },
+        {
+            "title": "Delhi HC grants two more weeks to Centre to respond to Professor Ashok Swain's plea against blacklisting order",
+            "severity": "WATCH",
+            "url": "https://www.deccanherald.com/india/delhi/delhi-hc-grants-two-more-weeks-to-centre-to-respond-to-academician-swains-plea-against-blacklisting-order-3993020",
+            "image": "https://media.assettype.com/deccanherald/2026-03-30/wui78z56/deccanherald2024-12-23su4t5ozideccanherald2023-1007ec95c8-fb10-4581-9507-b90ceaee74b5thedelhihighcourtcreditptifilephoto12240181685687492.avif?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "The great Starlink sting: how Ukrainian hackers are duping Russian troops",
+            "severity": "WATCH",
+            "url": "https://www.thetimes.com/world/russia-ukraine-war/article/ukraine-starlink-hackers-hunting-russian-troops-rsdggmz6z",
+            "image": "https://www.thetimes.com/imageserver/image/a43819f4-f0a2-4f21-832f-ec6b55b18656.jpg?strip=all&format=webp&crop=6000px%2C3375px%2C0px%2C73px&resize=1200",
+            "source": "thetimes"
+        },
+        {
+            "title": "10 K-Dramas Better Than 'Crash Landing on You'",
+            "severity": "WATCH",
+            "url": "https://collider.com/k-dramas-better-than-crash-landing-on-you/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2023/11/lee-dong-wook-holding-jo-bo-ah-in-his-arms-tale-of-the-nine-tailed-official-photo.jpg?w=1200&h=675&fit=crop",
+            "source": "collider"
+        },
+        {
+            "title": "The Traitors star and Booker winners join UK book festival's massive 2026 line up",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/news/uk-news/traitors-star-booker-winners-join-37117201",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37117295.ece/ALTERNATES/s615/0_Douglas-Stuart-Author-Pic.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "India, Vietnam Finalise Trade Roadmap, Target $25 Billion By 2030",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/india-news/india-vietnam-finalise-trade-roadmap-target-25-billion-by-2030-11456614",
+            "image": "https://c.ndtvimg.com/2026-05/0mo253ok_pm-modi-vietnamese-president-to-lam_625x300_06_May_26.jpeg",
             "source": "ndtv"
         },
         {
-            "title": "(Hello Africa) Chinese agricultural mission boosts rice yields, incomes for women farmers in Guinea-Bissau",
+            "title": "'I work in travel - it's safer to book package holidays right now'",
             "severity": "WATCH",
-            "url": "http://chinanationalnews.com/news/279033569/hello-africa-chinese-agricultural-mission-boosts-rice-yields-incomes-for-women-farmers-in-guinea-bissau",
-            "image": "https://image.chitra.live/api/v1/wps/a767840/c9dba524-fae3-4bfd-b50b-971e485ede42/0/CnbbeeE000011-20260506-CBMFN0A001-600x315.jpg",
-            "source": "chinanationalnews"
+            "url": "https://www.mirror.co.uk/travel/news/i-work-travel-its-safer-37116779",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37117140.ece/ALTERNATES/s615/0_GettyImages-2258426350.jpg",
+            "source": "mirroruk"
         },
         {
-            "title": "Odisha govt issues SOP to combat urban flooding for coming monsoon",
+            "title": "German machinery orders up in Q1 on strong March",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/odisha/odisha-govt-issues-sop-to-combat-urban-flooding-for-coming-monsoon/article70946371.ece",
-            "image": "https://th-i.thgim.com/public/incoming/xmmkmx/article70946410.ece/alternates/FREE_1200/PTI06_21_2025_000298A.jpg",
-            "source": "thehindu"
+            "url": "https://finance.yahoo.com/economy/articles/german-machinery-orders-q1-strong-105318101.html",
+            "image": "https://media.zenfs.com/en/dpa_international_526/c09e537c01445fbf8b738c70351cc016",
+            "source": "yahoo"
         },
         {
-            "title": "Crossword editor\u2019s desk: the Guardian\u2019s 30,000th cryptic",
+            "title": "Wall Street Breakfast Podcast: Soda & Chips: McDonald's And AMD In Focus",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/crosswords/crossword-blog/2026/may/06/crossword-editors-desk-the-guardian-30000th-cryptic",
-            "image": "https://i.guim.co.uk/img/media/da84bac286c31db8f05464e8c6de0577131ece87/0_65_1960_1568/master/1960.jpg?width=140&quality=85&auto=format&fit=max&s=175c74c25f40399f73249046dcc7e81c",
-            "source": "theguardiantheguardian"
+            "url": "https://seekingalpha.com/article/4899174-wall-street-breakfast-podcast-soda-and-chips-mcdonalds-and-amd-in-focus",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2208746424/image_2208746424.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
         },
         {
-            "title": "CrossCountry confirms additional services via Birmingham from 17 May",
+            "title": "Global Payments Reports First Quarter 2026 Results",
             "severity": "WATCH",
-            "url": "https://www.birminghammail.co.uk/news/midlands-news/crosscountry-confirms-additional-services-via-33895345",
-            "image": "https://i2-prod.birminghammail.co.uk/incoming/article33895330.ece/ALTERNATES/s615/0_CrossCountry-industrial-action.jpg",
-            "source": "birminghammail"
+            "url": "http://www.businesswire.com/news/home/20260506301951/en/Global-Payments-Reports-First-Quarter-2026-Results/?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+            "image": "https://mms.businesswire.com/media/20260506301951/en/2487590/22/GP_new.jpg",
+            "source": "businesswire"
         },
         {
-            "title": "India targets $25 billion trade with Vietnam by 2030, says PM Modi",
+            "title": "Are people of Jammu & Kashmir being punished for not electing a BJP CM? Omar Abdullah on statehood delay",
             "severity": "WATCH",
-            "url": "https://www.business-standard.com/external-affairs-defence-security/news/india-targets-25-billion-trade-with-vietnam-by-2030-says-pm-modi-126050600728_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/06/full/1778052576-7051.jpg",
-            "source": "business-standard"
+            "url": "https://www.deccanherald.com/india/jammu-and-kashmir/are-people-of-jammu-kashmir-being-punished-for-not-electing-a-bjp-cm-omar-abdullah-on-statehood-delay-3992851",
+            "image": "https://media.assettype.com/deccanherald/2026-05-06/wv3ubxjk/file85pqzeym2kgwjpafhkp.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Russia \u2018ignores Ukraine ceasefire\u2019 with fresh wave of airstrikes",
+            "title": "Strict rules Arsenal must follow if the Gunners win UEFA Champions League",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/bulletin/news/ukraine-russia-war-ceasefire-putin-b2971324.html",
-            "image": "https://static.independent.co.uk/2026/05/06/07/2026-05-06T062238Z_74369764_RC2G3LA0PLZG_RTRMADP_3_UKRAINE-CRISIS-ATTACK-KHARKIV.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "url": "https://www.legit.ng/sports/football/1708760-strict-rules-arsenal-follow-gunners-win-uefa-champions-league/",
+            "image": "https://cdn.legit.ng/images/1200x675/35d09d2bd7757f1b.jpeg?v=1",
+            "source": "legit"
         },
         {
-            "title": "Why Gen Z is getting fired after being hired | The Excerpt",
+            "title": "Which LIV players have the most value to the PGA Tour? It starts with Bryson DeChambeau",
             "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/news/nation/2026/05/06/whats-behind-the-rise-in-gen-z-job-turnover-the-excerpt/89951040007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/05/USAT/89951169007-getty-images-2186780958.jpg?crop=8191,4609,x0,y427&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "usatoday"
+            "url": "https://www.nytimes.com/athletic/7256621/2026/05/06/liv-golf-pga-tour-players-dechambeau-return-rank/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/05/05193814/GettyImages-2261570733-scaled.jpg",
+            "source": "theathleticuk"
         },
         {
-            "title": "Russia snubs Ukraine\u2019s unilateral ceasefire, firing dozens of drones",
+            "title": "Bungled IVF procedure prompts good Samaritan donor couple to sue doctors claiming they've been left traumatised",
             "severity": "WATCH",
-            "url": "https://abcnews.com/International/wireStory/russia-snubs-ukraines-unilateral-ceasefire-firing-dozens-drones-132699135",
-            "image": "https://i.abcnewsfe.com/a/647b255a-3f33-4deb-bef7-d26d33a0e42a/wirestory_484f28530eb0c2ce64fff9be5eb7c9d3_16x9.jpg?w=1600",
-            "source": "abcnews"
-        },
-        {
-            "title": "'Ball without Billionaires': Amazon union leader arrested after show to protest Bezos's Met Gala",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/trends/ball-without-billionaires-amazon-union-leader-arrested-after-show-to-protest-bezos-s-met-gala-13910412.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/06/20250627041250_Jeff-bezos-and-Lauren-Sanchez-wedding-AFP.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Are people of J-K being punished for not electing a BJP CM? Omar Abdullah on statehood delay",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/omar-abdullah-on-statehood-delay-people-of-j-k-being-punished-for-not-electing-bjp-cm/article70946203.ece",
-            "image": "https://th-i.thgim.com/public/incoming/k0bbdt/article70946223.ece/alternates/FREE_1200/PTI05_05_2026_000267B.jpg",
-            "source": "thehindu"
+            "url": "https://www.dailymail.com/news/article-15794275/IVF-mixup-Monash.html",
+            "image": "https://i.dailymail.com/1s/2026/05/06/10/108409931-0-image-a-18_1778061243537.jpg",
+            "source": "dailymailuk"
         }
     ],
-    "Last_Updated": "2026-05-06T21:16:20.779926Z"
+    "Last_Updated": "2026-05-06T22:57:04.977537Z"
 }
