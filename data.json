@@ -1,216 +1,246 @@
 {
-    "AGRI_Score": 60.8,
-    "Velocity": "-4.8",
+    "AGRI_Score": 63.1,
+    "Velocity": "+2.3",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.1 is primarily driven by critically high 'Energy & Maritime Disruption' and significantly elevated 'Geopolitical Conflict Intensity'. Despite crude oil prices tumbling, the 'Energy & Maritime Disruption' pillar remains at 100 due to underlying market caveats, as noted by 'Crude oil prices tumble, but gas prices offer major caveat', and sustained profit distortions for 'Foreign oil company profits double'. Escalating geopolitical tensions, evidenced by 'Ukraine war briefing: Nato jets scrambled after drones crash in Latvia' and 'After Beirut strike, Netanyahu says 'no immunity' for militants', further compound the overall risk landscape, indicating persistent global instability.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 71.2,
+        "Geopolitical Conflict Intensity": 75.0,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 62.0,
+        "Trade & Supply Chain Stress": 63.8,
         "Sovereign Financial Stress": 53.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 53.7,
+        "Sanctions & Regulatory Fragmentation": 58.2,
+        "Cyber & Infrastructure Threats": 64.2,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar is highly elevated, directly influenced by heightened military activity in Europe, as 'Ukraine war briefing: Nato jets scrambled after drones crash in Latvia' indicates direct Russian aggression pushing NATO to respond. Concurrently, 'After Beirut strike, Netanyahu says 'no immunity' for militants' signals ongoing kinetic actions and rhetoric, sustaining high regional instability in the Middle East.",
+        "Energy & Maritime Disruption": "The critically high score of 100 persists despite some market softening, as 'Crude oil prices tumble, but gas prices offer major caveat' highlights a disconnect between commodity and consumer prices. Structural market issues, including 'Foreign oil company profits double with assist from Trump's moves', suggest deep-seated disruptions and strategic interventions influencing energy economics.",
+        "Trade & Supply Chain Stress": "This pillar reflects elevated stress, with efforts to mitigate disruption through technology evident as 'Shippeo acquires AI-powered workflow platform'. However, potential future trade friction is signaled by 'EU ban on Chinese energy equipment discriminatory \u2014 Ministry of Commerce', indicating rising protectionist tendencies that could impact global supply flows.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, with no immediate news signaling widespread defaults or bond market crises. However, the indirect impact of high energy costs, as indicated by sustained 'Foreign oil company profits double', could exacerbate fiscal pressures for energy-importing nations, warranting careful observation of their debt trajectories.",
+        "Currency & Liquidity Pressure": "This pillar sits at a moderate level, with no direct news indicating imminent currency collapses or liquidity shortages. Nevertheless, the volatility in global energy markets and geopolitical shifts create an environment where capital flows and currency valuations require routine monitoring for potential sudden shifts.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation remains a concern, highlighted by 'EU ban on Chinese energy equipment discriminatory \u2014 Ministry of Commerce', which suggests an increasing trend towards trade barriers. While 'Iran reviewing US proposal as Trump pressures Tehran for agreement on deal to end war' indicates diplomatic attempts, the existing sanctions regime against Iran continues to contribute to global regulatory complexity.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are significantly elevated, directly evidenced by 'Ivanti warns of new EPMM flaw exploited in zero-day attacks', confirming active exploitation of critical vulnerabilities. While 'ComEd Energy Efficiency Program Receives National Recognition' shows efforts in infrastructure resilience, the persistent and evolving nature of cyber threats remains a major concern.",
+        "Climate & Resource Shock": "This pillar is at a very low-risk level, indicating routine monitoring rather than immediate shock. News regarding 'BP plans to sell shares in flagship carbon projects as it pulls back from green agenda' reflects corporate strategy adjustments rather than an acute climate event. Furthermore, 'Hantavirus risk is \u2018low,\u2019 WHO says' directly confirms minimal immediate biological resource threats."
+    },
     "All_Alerts": [
         {
-            "title": "Iran accuses US of \u2018stabbing from behind\u2019 in Macron talks as Hormuz tensions deepen",
+            "title": "ComEd Energy Efficiency Program Receives National Recognition From Energy Coalition",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/iran-accuses-us-of-stabbing-from-behind-in-macron-talks-as-hormuz-tensions-deepen-article-13911915.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260507105935_Pezeshkian.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "'China's Nostradamus' who predicted Trump's war with Iran names 3 reasons 'US will lose'",
-            "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/us/2202782/chinas-nostradamus-predicted-trumps-war-three-reasons",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/198/590x/2202782_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Israeli military investigates soldier's act against Virgin Mary statue in Lebanon",
-            "severity": "HIGH",
-            "url": "https://www.bbc.com/news/articles/cddpygv2j90o",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/747b/live/83e47940-4a00-11f1-a9e7-0f8f590f205b.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "TIDEWATER RENEWABLES LTD. ANNOUNCES FIRST QUARTER 2026 RESULTS, OPERATIONAL UPDATE, AND INCREASED 2026 GUIDANCE",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/05/n52359307/tidewater-renewables-ltd-announces-first-quarter-2026-results-operational-update-and-increased-202",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Iran reviewing US proposal on deal to end war as Trump ramps up pressure",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/us-fires-iranian-oil-tanker-034701882.html",
-            "image": "https://media.zenfs.com/en/euronews_ca_articles_409/acad2d9962232fc6f6c4aca22fc10966",
-            "source": "yahoo"
-        },
-        {
-            "title": "Retired pastor guilty of abortion buffer zone breach",
-            "severity": "HIGH",
-            "url": "https://www.bbc.com/news/articles/cewpk8er8e5o",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/2ef6/live/18f4a390-49ff-11f1-a9e7-0f8f590f205b.png",
-            "source": "bbc"
-        },
-        {
-            "title": "Trumponomics and the New Brand of Capitalism. Read more in today\u2019s WSJ Politics newsletter:",
-            "severity": "MEDIUM",
-            "url": "https://www.wsj.com/politics/policy/trumponomics-and-the-new-brand-of-capitalism-8444693d",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "wsj"
-        },
-        {
-            "title": "The death of the photo pass: Why show reviews without original photos miss the big picture",
-            "severity": "MEDIUM",
-            "url": "https://www.bostonglobe.com/2026/05/07/arts/death-of-the-photo-pass/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/I2FEJHJKPBAYPIYS76WVO3RUZU.jpg?auth=f207853512d9d75ae53139f98147306a91d30dcc7f189e88b9da2705f758d818&smart=true&width=2517&height=1684",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "The Daily Mauling: 5/7/26",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/daily-mauling-5-7-26-110300627.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/rIrcNviAREBh_WgDM9re4Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/sb_nation_articles_115/e5995a484319346aec7227905da8f7d6",
-            "source": "yahoo"
-        },
-        {
-            "title": "RBC Capital raises ATCO stock price target on energy, housing trends",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/rbc-capital-raises-atco-stock-price-target-on-energy-housing-trends-93CH-4413889",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB65083_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "A lost \u2018golden goose\u2019 or \u2018reasonable\u2019 deal? How a landfill tested Utah\u2019s school trust lands system",
-            "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/articles/lost-golden-goose-reasonable-deal-110204775.html",
-            "image": "https://media.zenfs.com/en/utah_news_dispatch_articles_862/f14a2090f9a2e06ecec841267e2b1fd0",
-            "source": "yahoo"
-        },
-        {
-            "title": "Iowa basketball offseason updates from Jan Jensen, Ben McCollum",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/iowa-basketball-offseason-updates-jan-110146090.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/ezJGhSKQ45oPUbeSVZYAnQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xODIyO2NmPXdlYnA-/https://media.zenfs.com/en/hawk_central_articles_538/d06f5df19c7bf4381352ab2da1c237f4",
-            "source": "yahoo"
-        },
-        {
-            "title": "New 2026 NBA Mock Draft with a Lottery Shake-up That Would Devastate the League",
-            "severity": "WATCH",
-            "url": "https://bleacherreport.com/articles/25423155-new-2026-nba-mock-draft-lottery-shake-would-devastate-league",
-            "image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/2026-05/br_app_mockdraft_nba_16x9-(32).jpg",
-            "source": "bleacherreport"
-        },
-        {
-            "title": "Montreal car collector sues Ferrari Quebec for $20M after being burned by explosion",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/montreal-car-collector-sues-ferrari-110052574.html",
-            "image": "https://media.zenfs.com/en/national_post_articles_198/01c84ab0315d84c8de77dcdac8347d3a",
-            "source": "yahoo"
-        },
-        {
-            "title": "Citi downgrades Nordic Telecoms amid softening growth, competition pressure",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/citi-downgrades-nordic-telecoms-amid-softening-growth-competition-pressure-4413906",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEL5A0OC_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "BTIG cuts Kratos Defense stock price target on valuation adjustments",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/btig-cuts-kratos-defense-stock-price-target-on-valuation-adjustments-93CH-4413905",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEB0M0CA_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Oppenheimer raises Clean Harbors stock price target on guidance lift",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/oppenheimer-raises-clean-harbors-stock-price-target-on-guidance-lift-93CH-4413895",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB5S0BB_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Fortinet stock rating upgraded to buy at BTIG on strong results",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/fortinet-stock-rating-upgraded-to-buy-at-btig-on-strong-results-93CH-4413894",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB66095_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "PROG Holdings names CEO Steve Michaels as board chairman",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/prog-holdings-names-ceo-steve-michaels-as-board-chairman-93CH-4413903",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB670Y6_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "What Are the Chances Your MLB Team's Top Prospect Actually Delivers on the Hype?",
-            "severity": "WATCH",
-            "url": "https://bleacherreport.com/articles/25418813-what-are-chances-your-mlb-teams-top-prospect-actually-delivers-hype",
-            "image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/getty_images/2026-05/2222777039_large_cropped.jpg",
-            "source": "bleacherreport"
-        },
-        {
-            "title": "Kalmar Corporation - Managers' transactions - Engstro\u0308m",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/05/07/3289834/0/en/Kalmar-Corporation-Managers-transactions-Engstr%C3%B6m.html",
-            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "Shake Shack Appoints Michelle Hook as Chief Financial Officer",
-            "severity": "WATCH",
-            "url": "http://www.businesswire.com/news/home/20260507583277/en/Shake-Shack-Appoints-Michelle-Hook-as-Chief-Financial-Officer/?feedref=JjAwJuNHiystnCoBq_hl-fLcmYSZsqlD_XPbplM8Ta6D8R-QU5o2AvY8bhI9uvWSD8DYIYv4TIC1g1u0AKcacnnViVjtb72bOP4-4nHK5iej_DoWrIhfD31cAxcB60aE",
-            "image": "https://mms.businesswire.com/media/20260507583277/en/2797421/22/Michelle_Hook_Headshot.jpg",
-            "source": "businesswire"
-        },
-        {
-            "title": "Stratasys Releases First Quarter 2026 Financial Results",
-            "severity": "WATCH",
-            "url": "http://www.businesswire.com/news/home/20260507698003/en/Stratasys-Releases-First-Quarter-2026-Financial-Results/?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
+            "url": "http://www.businesswire.com/news/home/20260507490057/en/ComEd-Energy-Efficiency-Program-Receives-National-Recognition-From-Energy-Coalition/?feedref=JjAwJuNHiystnCoBq_hl-YKT6SDyMw5Lye4ovXwHmkqD8R-QU5o2AvY8bhI9uvWSD8DYIYv4TIC1g1u0AKcacnnViVjtb72bOP4-4nHK5idAXrgr_e1ZUbxvK6BY66Xm",
             "image": "https://www.businesswire.com/bw-logo.png",
             "source": "businesswire"
         },
         {
-            "title": "Royal Enfield To Invest Rs 2,200 Crore In New Andhra Pradesh Manufacturing Plant",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/auto/royal-enfield-andhra-pradesh-plant-rs-2200-crore-investment-article-154267221",
-            "image": "https://images.timesnownews.com/thumb/msid-154267562,width-1280,height-720,resizemode-75/154267562.jpg",
-            "source": "timesnownews"
+            "title": "Ukraine war briefing: Nato jets scrambled after drones crash in Latvia",
+            "severity": "HIGH",
+            "url": "https://www.independent.co.uk/bulletin/news/ukraine-war-briefing-nato-jets-latvia-b2972412.html",
+            "image": "https://static.independent.co.uk/2026/05/07/16/2033617364.jpg?width=1200&auto=webp&trim=0%2C126%2C0%2C125",
+            "source": "independentuk"
         },
         {
-            "title": "10 MLB Hot Takes on Mike Trout, Central Division Races, Shohei Ohtani and More",
-            "severity": "WATCH",
-            "url": "https://bleacherreport.com/articles/25425584-10-mlb-hot-takes-mike-trout-central-division-races-shohei-ohtani-and-more",
-            "image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/2026-05/br_sbs-hot-takes_16x9-(1).png",
-            "source": "bleacherreport"
+            "title": "\u200bForeign oil company profits double with assist from Trump's moves: NYT",
+            "severity": "HIGH",
+            "url": "https://www.rawstory.com/oil-company-profits-iran/",
+            "image": "https://www.rawstory.com/media-library/a-man-pumps-gas-at-an-exxon-station-as-the-price-of-oil-and-gas-has-surged-amid-the-u-s-israeli-conflict-with-iran-in-washingt.jpg?id=65358557&width=980",
+            "source": "rawstory"
         },
         {
-            "title": "A.R.I. Pursues Litigation Against Artemis Following Loan Default, Alleging Concealed Bank Accounts, Misrepresentation, and Fraudulent Transfers Involving CEO Walid Halty",
-            "severity": "WATCH",
-            "url": "http://www.businesswire.com/news/home/20260507667360/en/A.R.I.-Pursues-Litigation-Against-Artemis-Following-Loan-Default-Alleging-Concealed-Bank-Accounts-Misrepresentation-and-Fraudulent-Transfers-Involving-CEO-Walid-Halty/?feedref=JjAwJuNHiystnCoBq_hl-Q-tiwWZwkcswR1UZtV7eGe24xL9TZOyQUMS3J72mJlQ7fxFuNFTHSunhvli30RlBNXya2izy9YOgHlBiZQk2LOzmn6JePCpHPCiYGaEx4DL1Rq8pNwkf3AarimpDzQGuQ%3D%3D",
-            "image": "https://mms.businesswire.com/media/20260507667360/en/2798159/22/1-ARI-fix-green_6000.jpg",
-            "source": "businesswire"
+            "title": "Crude oil prices tumble, but gas prices offer major caveat",
+            "severity": "HIGH",
+            "url": "https://www.thestreet.com/economy/oil-prices-have-fallen-but-what-it-means-for-consumers-is-surprising",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTg0MDU1/vessels-pass-through-strait-of-hormuz-following-us-iran-ceasefire.jpg?io=1&profile=rss",
+            "source": "thestreet"
         },
         {
-            "title": "Cushman & Wakefield Reports Financial Results for the First Quarter 2026",
-            "severity": "WATCH",
-            "url": "http://www.businesswire.com/news/home/20260506767774/en/Cushman-Wakefield-Reports-Financial-Results-for-the-First-Quarter-2026/?feedref=JjAwJuNHiystnCoBq_hl-a2-DX8EjssEmMYWAmn7L6JnP4KQ0-VuR_Ed1_p6a8aSQvj2g8ZtgMSWm4nAO4sO4nr0TKd7CILvKt8KtThduJU_d6mxM68GteRxmy6jDm8WOZiG4SwpSv6tLEhMuQ8iTnO1u3OvtUKtPLlU5Ry9otk%3D",
-            "image": "https://mms.businesswire.com/media/20260506767774/en/669112/22/CW_Logo_Color.jpg",
-            "source": "businesswire"
+            "title": "After Beirut strike, Netanyahu says 'no immunity' for militants",
+            "severity": "HIGH",
+            "url": "https://www.detroitnews.com/story/news/world/2026/05/07/after-beirut-strike-netanyahu-says-no-immunity-militants/89977127007/",
+            "image": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/05/07/PDTN/89977222007-20260507-t-071150-z-1621527210-rc-274-lag-0-tpx-rtrmadp-3-irancrisislebanonisrael.JPG?crop=5794,3260,x0,y300&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "detroitnews"
         },
         {
-            "title": "Americold Realty Trust, Inc. and EQT Announce a $1.3 Billion North American Cold Storage Joint Venture",
+            "title": "Shippeo acquires AI-powered workflow platform",
+            "severity": "HIGH",
+            "url": "https://finance.yahoo.com/sectors/technology/articles/shippeo-acquires-ai-powered-workflow-153331209.html",
+            "image": "https://media.zenfs.com/en/freightwaves_373/9ab8cb0e3e9bdd2a9c3d4b5896510063",
+            "source": "yahoo"
+        },
+        {
+            "title": "Daxxify (DaxibotulinumtoxinA) Market Research Report 2026: Epidemiology, Pipeline Analysis, Market Insights & Forecasts, 2020-2025, 2025-2030F, 2035F",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/05/07/3290299/28124/en/Daxxify-DaxibotulinumtoxinA-Market-Research-Report-2026-Epidemiology-Pipeline-Analysis-Market-Insights-Forecasts-2020-2025-2025-2030F-2035F.html",
+            "image": "https://images.pexels.com/photos/32237794/pexels-photo-32237794.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Vatican and State Department stress solid ties after Rubio\u2019s fence-mending visit over Trump attacks",
+            "severity": "HIGH",
+            "url": "https://www.adn.com/nation-world/2026/05/07/vatican-and-state-department-stress-solid-ties-after-rubios-fence-mending-visit-over-trump-attacks/",
+            "image": "https://www.adn.com/resizer/zSDbZBLfORcELRbVjMpNRjzNKK0=/cloudfront-us-east-1.images.arcpublishing.com/adn/SPPGQAHICEQU2M5QSZCSQTINVY.jpg",
+            "source": "adn"
+        },
+        {
+            "title": "Men From Concord And Derry Arrested On Stalking And Breach Of Bail Charges: Concord Police Log",
+            "severity": "HIGH",
+            "url": "https://patch.com/new-hampshire/concord-nh/men-concord-derry-arrested-stalking-breach-bail-charges-concord-police-log",
+            "image": "https://patch.com/img/cdn20/users/546351/20260507/113021/styles/patch_image/public/concord-police-suv-stock-copy___07113002444.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "'Star Wars' actor Mark Hamill posts 'If Only' image of Trump in grave",
+            "severity": "HIGH",
+            "url": "https://www.washingtontimes.com/news/2026/may/7/star-wars-actor-mark-hamill-posts-image-trump-grave/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2024/09/15/2024_TIFF_-__Wild_Robot__Premiere_70403_s1440x972.jpg?db2c21bc7e7d4dbd77ff513e0eda0f261d948302",
+            "source": "washingtontimes"
+        },
+        {
+            "title": "Ivanti warns of new EPMM flaw exploited in zero-day attacks",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/ivanti-warns-of-new-epmm-flaw-exploited-in-zero-day-attacks/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2026/03/10/Ivanti-headpic.jpg",
+            "source": "bleepingcomputer"
+        },
+        {
+            "title": "Iran reviewing US proposal as Trump pressures Tehran for agreement on deal to end war",
+            "severity": "HIGH",
+            "url": "https://www.adn.com/nation-world/2026/05/07/iran-reviewing-us-proposal-as-trump-pressures-tehran-for-agreement-on-deal-to-end-war/",
+            "image": "https://www.adn.com/resizer/R2snFF6IywXgc7O7anb44-ktIvs=/cloudfront-us-east-1.images.arcpublishing.com/adn/CRGZOPSGBUPWE2SD3K42P74X5Q.jpg",
+            "source": "adn"
+        },
+        {
+            "title": "Hantavirus risk is \u2018low,\u2019 WHO says as 30 more passengers being traced",
+            "severity": "MEDIUM",
+            "url": "https://globalnews.ca/news/11838480/hantavirus-cruise-ship-disembarked-passengers-search-world-health-organization-update/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/05/hantavirus-cruise-ship-update.jpg?quality=65&strip=all",
+            "source": "globalnews"
+        },
+        {
+            "title": "Schmutzler to Newsmax: Indiana Win Signals Wish for Redistricting, Change",
+            "severity": "MEDIUM",
+            "url": "https://www.newsmax.com/politics/indiana-brian-schmutzler-trump/2026/05/07/id/1255519",
+            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=57eff912-a71e-4e27-a3e4-4cda9ad03585&SiteName=Newsmax",
+            "source": "newsmax"
+        },
+        {
+            "title": "Sampla metro extension on Hry govt\u2019s agenda, claims CM",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/sampla-metro-extension-on-hry-govts-agenda-claims-cm/articleshow/130906361.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130906353/130906353.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "BP plans to sell shares in flagship carbon projects as it pulls back from green agenda",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/05/07/3289761/0/en/Americold-Realty-Trust-Inc-and-EQT-Announce-a-1-3-Billion-North-American-Cold-Storage-Joint-Venture.html",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
+            "url": "https://www.theguardian.com/business/2026/may/07/bp-sell-shares-carbon-projects-green-agenda",
+            "image": "https://i.guim.co.uk/img/media/c7d30b064f6d482dafe5abaf75f9de42e0b85976/298_0_2939_2352/master/2939.jpg?width=140&quality=85&auto=format&fit=max&s=a9e0fa37c8694317d169ef3c2d9a97d5",
+            "source": "theguardian"
+        },
+        {
+            "title": "Oil falls below $100 a barrel on Middle East peace hopes",
+            "severity": "WATCH",
+            "url": "https://www.khaleejtimes.com/business/energy/oil-falls-below-100-a-barrel-on-middle-east-peace-hopes",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes/import/images/FC4AaTrpE9rEbUJ6JqGXcWvDORw.jpg",
+            "source": "khaleejtimes"
+        },
+        {
+            "title": "Spain's hidden gems: As bookings soar, where to avoid the crowds during May half-term",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/travel/article-15797597/Spains-hidden-gems-bookings-soar-avoid-crowds-half-term.html",
+            "image": "https://i.dailymail.com/1s/2026/05/07/12/108438351-0-image-a-7_1778153586086.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "News24 | PODCAST | Bruce Whitfield\u2019s Business Week: Your long-term oil price prediction. Plus: Donkey Long Tong rises",
+            "severity": "WATCH",
+            "url": "https://www.news24.com/multimedia/podcasts/podcast-bruce-whitfields-business-week-your-long-term-oil-price-prediction-plus-donkey-long-tong-rises-20260507-0896",
+            "image": "https://images.pexels.com/photos/5831252/pexels-photo-5831252.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "news24"
+        },
+        {
+            "title": "EU ban on Chinese energy equipment discriminatory \u2014 Ministry of Commerce",
+            "severity": "WATCH",
+            "url": "https://tass.com/economy/2128041",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
+        },
+        {
+            "title": "MLB Insider Says Giants Trading Former Red Sox Star Rafael Devers 'Is A Possibility'",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/mlb-insider-says-giants-trading-153538427.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/ya6ANPZPFdQ7ZD71lYR6rA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE1MjA7aD04NTY7Y2Y9d2VicA--/https://media.zenfs.com/en/nesn_articles_905/ae9ff0f8adb3f9fe346d3d5769e2b02d",
+            "source": "yahoo"
+        },
+        {
+            "title": "Federico Valverde (left) and Aure\u0301lien Tchouame\u0301ni have reportedly clashed.",
+            "severity": "WATCH",
+            "url": "https://www.si.com/soccer/what-on-earth-going-real-madrid-locker-room",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1919,h_1079,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01kr1d5hb5gcqt9wjg5v.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Novak Djokovic pledges support to Aryna Sabalenka as tennis stars plot Grand Slam boycott",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/sport/tennis/2202963/Novak-Djokovic-Aryna-Sabalenka-Grand-Slam-boycott",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/72/590x/2202963_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Uber Zooms Ahead On Platform Strength, Analysts Revise Estimates After Q1 Print",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/05/52374967/uber-zooms-ahead-on-platform-strength-analysts-revise-estimates-after-q1-print",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/05/07/Uber-shutterstock-2416070631_0.jpeg?optimize=medium&dpr=1&auto=webp&height=675&width=1200&fit=crop",
+            "source": "benzinga"
+        },
+        {
+            "title": "Ten women collectors now in Chhattisgarh as Sai govt pushes \u2018nari-led\u2019 bureaucracy",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/raipur/ten-women-collectors-now-in-chhattisgarh-as-sai-govt-pushes-nari-led-bureaucracy/articleshow/130906187.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-130906091/130906091.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Shin Bet to change 'Qatargate' opinion says Urich, Feldstein didn't harm state security - report",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-895498",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/708643",
+            "source": "jpost"
+        },
+        {
+            "title": "India stun South Korea, reach women\u2019s recurve team final",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/sports/others/india-stun-south-korea-reach-women-s-recurve-team-final-101778167937415.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/07/1600x900/logo/-p-India-stun-South-Korea--reach-women-s-recurve-t_1778167935038.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Why Alberta province is seeking to separate from Canada",
+            "severity": "WATCH",
+            "url": "https://www.firstpost.com/explainers/why-alberta-province-is-seeking-to-separate-from-canada-14008623.html",
+            "image": "https://images.firstpost.com/uploads/2024/12/Canada-flag-2024-12-9a6539b7cdeffa7cabf90781c0c30e7c-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Domestic player among four charged in Bangladesh corruption probe",
+            "severity": "WATCH",
+            "url": "https://www.espncricinfo.com/story/domestic-player-among-four-charged-in-bangladesh-corruption-probe-1535757",
+            "image": "https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/366300/366372.jpg",
+            "source": "espncricinfo"
+        },
+        {
+            "title": "Southern Water unveils \u00a342m sewage plan",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/southern-water-unveils-42m-sewage-152243177.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/lUBT1YPuswWabHHDpMM5Bw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/bbc_us_articles_995/7d8e22b6243e7a83d07244934d920c48",
+            "source": "yahoo"
+        },
+        {
+            "title": "TOWIE's Jake Hall allegedly 'became agitated' before he died",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/galleries/article-15798903/TOWIEs-Jake-Hall-allegedly-agitated-died.html",
+            "image": "https://i.dailymail.com/1s/2026/05/07/16/108435793-0-image-a-121_1778166414478.jpg",
+            "source": "dailymailuk"
         }
     ],
-    "Last_Updated": "2026-05-07T23:03:46.923186Z"
+    "Last_Updated": "2026-05-08T03:36:35.702403Z"
 }
