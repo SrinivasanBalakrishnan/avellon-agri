@@ -1,63 +1,105 @@
 {
-    "AGRI_Score": 63.4,
-    "Velocity": "-0.4",
+    "AGRI_Score": 65.8,
+    "Velocity": "+2.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The overall AGRI score of 63.4 is predominantly driven by extreme levels in \"Energy & Maritime Disruption\" (100) and elevated \"Geopolitical Conflict Intensity\" (76.6). This is primarily due to persistent tensions in West Asia, with reports like \"US, Iran no closer to ending ending war as Qatari tanker sails toward Strait of Hormuz\" and \"Iran warns US vs attacks on oil tankers, other ships but ceasefire holds\" indicating high risk to maritime transit and energy supplies. These critical security concerns are the primary contributors to the current threat environment, overshadowing moderate or lower risks in other pillars.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 65.8/100 reflects a significantly elevated risk landscape, primarily driven by extreme levels in 'Energy & Maritime Disruption' and high 'Geopolitical Conflict Intensity'. Ongoing tensions in the Middle East, as evidenced by \"Iran warns US vs attacks on oil tankers, other ships but ceasefire holds\" and \"Live: Iran's IRGC threatens US sites as Trump awaits Tehran response,\" are directly contributing to maritime security concerns and the climbing energy costs highlighted in \"Trump sends mixed signals on Iran as energy costs climb.\" These intertwined factors are creating a volatile global environment, impacting both security and economic stability.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.6,
+        "Geopolitical Conflict Intensity": 85.1,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 66.4,
+        "Trade & Supply Chain Stress": 68.4,
         "Sovereign Financial Stress": 55.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 54.5,
-        "Cyber & Infrastructure Threats": 63.0,
+        "Sanctions & Regulatory Fragmentation": 58.5,
+        "Cyber & Infrastructure Threats": 66.0,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict remains high, fueled by persistent tensions in West Asia and military actions in Lebanon. Reports such as \"Israeli strike kills seven in south Lebanon, Lebanese health ministry says\" and \"Israel Ran Covert Iraq Outpost During Iran War\" demonstrate active conflict and long-standing regional friction.",
-        "Energy & Maritime Disruption": "The energy and maritime disruption score is at its maximum, directly linked to heightened security risks for shipping in key transit choke points. The continued impasse between the US and Iran, coupled with warnings of attacks on oil tankers, as seen in \"US, Iran no closer to ending war as Qatari tanker sails toward Strait of Hormuz\" and \"Iran warns US vs attacks on oil tankers, other ships but ceasefire holds,\" creates an extremely volatile environment for global energy supply.",
-        "Trade & Supply Chain Stress": "Trade and supply chain stress remains elevated, indirectly impacted by the broader geopolitical climate. The ongoing \"West Asia conflict dims the big fat wedding glow in Bengaluru\" suggests a dampening effect on economic activities and high-value services, indicating ripple effects across various sectors.",
-        "Sovereign Financial Stress": "Sovereign financial stress registers at a moderate level, currently exhibiting routine monitoring for major systemic issues. The provided news feed does not contain high-severity reports directly indicating widespread sovereign defaults or significant national debt crises.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressures are currently at a baseline activity level, with no specific news items indicating unusual volatility in exchange rates or significant liquidity crunches. The financial market appears to be functioning without immediate, high-severity disruptions to currency valuations or capital flows.",
-        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation are at a moderate level, influenced by the ongoing geopolitical landscape but without new, immediate major policy changes or escalations. The continued tensions between the US and Iran, as noted in \"US, Iran no closer to ending war,\" suggest a persistent environment where existing sanctions are a factor.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats remain a concern, highlighted by successful attacks impacting critical services. The headline \"Canvas system back online after a cyberattack disrupted thousands of schools\" explicitly demonstrates the vulnerability of educational infrastructure to cyber exploits, causing significant operational disruption.",
-        "Climate & Resource Shock": "Climate and resource shock currently registers at a low level, with the provided news feed containing no direct indicators of significant environmental disasters, resource scarcity, or climate-related disruptions. This pillar is undergoing routine monitoring for potential future impacts."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains high, with a fragile ceasefire holding in the Middle East while the U.S. awaits Iran's response, as reported by 'Fragile cease-fire holds in Middle East while U.S. awaits Iranian war response'. Furthermore, ISIS disrupting Damascus and assassinating a Shi'ite figure indicates continued localized instability and terror threats.",
+        "Energy & Maritime Disruption": "This pillar is at extreme risk due to explicit threats of maritime conflict and rising energy costs. 'Iran warns US vs attacks on oil tankers, other ships but ceasefire holds' underscores the direct threat to global shipping and energy supply routes, compounding the concerns over 'energy costs climb' as tensions escalate.",
+        "Trade & Supply Chain Stress": "While no direct supply chain disruptions are reported, the high geopolitical and energy risks implicitly threaten trade stability. Increased maritime risks, as seen with Iran's warnings, pose potential indirect pressures on global shipping and trade routes in the near future.",
+        "Sovereign Financial Stress": "Sovereign financial stress remains at a moderate level, with no direct reports of national financial crises or debt concerns. However, the broader macroeconomic environment, influenced by climbing energy costs, could introduce underlying pressure on national budgets and economic stability.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at moderate levels, lacking specific news about significant exchange rate volatility or funding market stress. The general increase in geopolitical risk, however, can create an environment where capital flows could become more sensitive to adverse developments.",
+        "Sanctions & Regulatory Fragmentation": "This pillar shows moderate risk, as no new significant international sanctions or widespread regulatory fragmentation events are reported. The investigation in Peru concerning a former IDF soldier is a localized legal development, not indicative of systemic regulatory fragmentation.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are elevated following reported incidents and vulnerabilities. The 'Canvas system back online after a cyberattack disrupted thousands of schools' highlights persistent cyber risks, while geological factors could 'put data centers at risk by making strained electrical grids even worse'.",
+        "Climate & Resource Shock": "This pillar reflects routine monitoring, with no immediate climate or resource shocks reported. While a geological phenomenon could impact data centers, this is an infrastructure vulnerability rather than a direct climate-driven resource scarcity or major environmental disaster."
     },
     "All_Alerts": [
         {
-            "title": "\u2018SNL U.K.\u2019 Cold Open: Peter Serafinowicz Guest Stars as Nigel Farage in Time-Traveling Downing Street Sketch",
+            "title": "Fragile cease-fire holds in Middle East while U.S. awaits Iranian war response",
             "severity": "HIGH",
-            "url": "https://variety.com/2026/tv/global/snl-uk-cold-open-keir-starmer-nigel-farage-peter-serafinowicz-1236742432/",
-            "image": "https://variety.com/wp-content/uploads/2026/05/MixCollage-09-May-2026-10-07-PM-7370.jpg",
-            "source": "variety"
+            "url": "https://uk.investing.com/news/economy-news/fragile-ceasefire-holds-in-middle-east-while-us-awaits-iranian-war-response-4665091",
+            "image": "https://i-invdn-com.investing.com/news/Iran-USA_800x533_L_1750939967.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "Leader\u2019s warning as One Nation surges",
+            "title": "Peru opens investigation into former IDF soldier after Hind Rajab Foundation files complaint",
             "severity": "HIGH",
-            "url": "https://au.news.yahoo.com/leader-warning-one-nation-surges-213638611.html",
-            "image": "https://media.zenfs.com/en/nca_newswire_424/cd573fecd10a02be7575e38236fab7ae",
+            "url": "https://www.jpost.com/israel-news/article-895629",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/526839",
+            "source": "jpost"
+        },
+        {
+            "title": "\u2018It was an honor\u2019: Daniel Dubois thanks Fabio Wardley for epic heavyweight war",
+            "severity": "HIGH",
+            "url": "https://sports.yahoo.com/articles/honor-daniel-dubois-thanks-fabio-230141251.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/ORXNf1Pa9HxH7EHN0NIAqg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNDU4O2NmPXdlYnA-/https://media.zenfs.com/en/sb_nation_articles_115/6dc6838585057971038a749cd6d054ec",
             "source": "yahoo"
         },
         {
-            "title": "WSJ: Israel Ran Covert Iraq Outpost During Iran War",
+            "title": "I\u2019m stuck between my warring co-workers playing peacemaker and it\u2019s making me miserable \u2013 What do you suggest?",
             "severity": "HIGH",
-            "url": "https://www.newsmax.com/newsfront/israel-iran-iraq/2026/05/09/id/1255762",
-            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=2e00604c-871d-4033-a128-ff58306e31d3&SiteName=Newsmax",
-            "source": "newsmax"
+            "url": "https://www.thesun.co.uk/fabulous/39011763/peacemaker-fighting-co-workers-karren-brady/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F04%2Fcrop-38819480.jpg?quality%3D90%26strip%3Dall%261777247524",
+            "source": "thesun"
         },
         {
-            "title": "US, Iran no closer to ending war as Qatari tanker sails toward Strait of Hormuz",
+            "title": "How Canada\u2019s military went from a \u2018death spiral\u2019 to a recruitment boom - BBC",
             "severity": "HIGH",
-            "url": "https://au.investing.com/news/world-news/us-iran-no-closer-to-ending-war-as-qatari-tanker-sails-toward-strait-of-hormuz-4421301",
-            "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM4802W_L.jpg",
-            "source": "investing_au"
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5iUllSNzliVlBzZzJFQ1J1TjBvR05jUkl2YWt6Mi1sY2UzWDcxNkloYTdQdUJjV1NVZjdqYXI5UWZJNmxzM3M0ZDBPQ25NOUk5eWFiSmdnelBDUQ?oc=5",
+            "image": "https://images.pexels.com/photos/34089440/pexels-photo-34089440.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "West Asia conflict dims the big fat wedding glow in Bengaluru",
+            "title": "Why Canada is seeing its biggest military recruitment surge in 30 years",
             "severity": "HIGH",
-            "url": "https://www.deccanherald.com/india/karnataka/bengaluru/west-asia-conflict-dims-the-big-fat-wedding-glow-in-bengaluru-3997263",
-            "image": "https://media.assettype.com/deccanherald/2026-05-09/r3qji9xb/file84cfm4ilw0w1ex4wudcq.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
+            "url": "https://www.bbc.com/news/articles/crrpd1pvgkzo",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/2574/live/5060f7c0-4a4f-11f1-ac76-69efd0e705cd.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "Australia news live: Ley urges Liberals to accept Farrer loss to One Nation with \u2018humility\u2019, saying \u2018voters never get it wrong\u2019",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/australia-news/live/2026/may/10/politics-updates-farrer-byelection-one-nation-win-liberal-coalition-loss-reactions-pauline-hanson-angus-taylor-tim-wilson-insiders-anthony-albanese-labor-ntwnfb",
+            "image": "https://i.guim.co.uk/img/media/4691880c9609631dce091ea02342f21377636b4a/0_0_2953_2362/master/2953.jpg?width=140&quality=85&auto=format&fit=max&s=527f3684b5136a62322f9425c3f2ef89",
+            "source": "theguardian"
+        },
+        {
+            "title": "Sunday shows preview: Trump sends mixed signals on Iran as energy costs climb",
+            "severity": "HIGH",
+            "url": "https://thehill.com/homenews/sunday-talk-shows/5871312-sunday-shows-preview-trump-sends-mixed-signals-on-iran-as-energy-costs-climb/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/05/Sunday-shows-preview-05.09.png?strip=1",
+            "source": "thehill"
+        },
+        {
+            "title": "Putin briefed India, China, US on Ukraine conflict for ceasefire",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/world/putin-briefed-india-china-us-on-ukraine-conflict-for-ceasefire-articleshow-gm64yym",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-fe03bbe7-ade3-44af-904f-4ab915854b22.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "President Trump attends LIV Golf tournament as Iran warns against attacks on ships",
+            "severity": "HIGH",
+            "url": "https://www.wcvb.com/article/president-trump-attends-liv-golf-tournament-as-iran-warns-against-attacks-on-ships/71260096",
+            "image": "https://kubrick.htvapps.com/htv-prod/images/72144844-ac20-4773-a2a1-367395d4a304.jpg?crop=1.00xw:0.376xh;0,0.00214xh&resize=1200:*",
+            "source": "wcvb"
+        },
+        {
+            "title": "ISIS disrupts Damascus calm, says it assassinated Shi'ite figure",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/middle-east/isis-threat/article-895628",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/720190",
+            "source": "jpost"
         },
         {
             "title": "Canvas system back online after a cyberattack disrupted thousands of schools",
@@ -81,151 +123,158 @@
             "source": "yahoo"
         },
         {
-            "title": "Huge \u2018Brit\u2019 female celeb\u2019s affair with top sports star exposed after thousands of intimate pics & messages leaked online",
-            "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/tvandshowbiz/39059467/brit-female-celebs-affair-sports-star-exposed/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F05%2Fcrop-39059695.jpg?quality%3D80%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "This week\u2019s milestones: May 10 to May 16",
+            "title": "Jim Cramer makes a bold call on AI as stocks waver",
             "severity": "MEDIUM",
-            "url": "https://newsinfo.inquirer.net/2225913/this-weeks-milestones-may-10-to-may-16",
-            "image": "https://newsinfo.inquirer.net/files/2026/05/1222226.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Is Oldham ungovernable? The town \u2018paralysed\u2019 by political factions",
-            "severity": "MEDIUM",
-            "url": "https://www.thetimes.com/uk/politics/article/local-elections-no-party-majority-overall-control-l36q888ml",
-            "image": "https://www.thetimes.com/imageserver/image/d7aaa5a5-45a3-4ce3-8742-569bde0be17e.jpg?strip=all&format=webp&crop=1194px%2C671px%2C0px%2C62px&resize=1200",
-            "source": "thetimes"
-        },
-        {
-            "title": "New diesel price cut expected next week",
-            "severity": "MEDIUM",
-            "url": "https://newsinfo.inquirer.net/2225980/new-diesel-price-cut-expected-next-week",
-            "image": "https://newsinfo.inquirer.net/files/2026/04/fuel-oil-price-11April2026_4-620x415.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Fluence Energy, Inc. 2026 Q2 - Results - Earnings Call Presentation",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4902012-fluence-energy-inc-2026-q2-results-earnings-call-presentation",
-            "image": "https://seekingalpha.com/samw/static/images/DefaultArticleImage.7d3405a63.png",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Smoke rises in southern Lebanon as national news agency reports strikes in the area",
-            "severity": "WATCH",
-            "url": "https://www.detroitnews.com/videos/news/world/2026/05/09/smoke-rises-in-southern-lebanon/90013699007/",
-            "image": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/05/09/PDTN/90013754007-20260509-t-133241-z-943353550-rc-2-o-5-lakqcic-rtrmadp-3-irancrisislebanonisrael.JPG?crop=3424,1926,x0,y0&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "detroitnews"
-        },
-        {
-            "title": "Israel said to have built secret base in Iraqi desert to support Iran air campaign",
-            "severity": "WATCH",
-            "url": "https://www.timesofisrael.com/israel-said-to-have-built-secret-base-in-iraqi-desert-to-support-iran-air-campaign/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/05/AP26071421217370.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Suze Orman has a stern message about your tax refund",
-            "severity": "WATCH",
-            "url": "https://www.thestreet.com/personal-finance/suze-orman-has-a-stern-message-about-your-tax-refund",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTg3MjE5/suze-orman.jpg?io=1&profile=rss",
+            "url": "https://www.thestreet.com/investing/stocks/jim-cramer-makes-a-bold-call-on-ai-as-stocks-waver",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTg3MjA1/jim-cramer.jpg?io=1&profile=rss",
             "source": "thestreet"
         },
         {
-            "title": "Weekly Tarot Card Readings: Tarot prediction for May 10\u201315,2026",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/astrology/horoscope/weekly-tarot-card-readings-tarot-prediction-for-may-10152026-101778348676894.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/09/1600x900/logo/tarot_march_1772317698144_1772317778915_1778349477973.png",
-            "source": "hindustantimes"
+            "title": "Wedbush sends blunt message on Elon Musk's Tesla and Intel deal",
+            "severity": "MEDIUM",
+            "url": "https://www.thestreet.com/technology/wedbush-sends-blunt-message-on-elon-musks-tesla-and-intel-deal",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTg3NDUy/key-speakers-at-the-us-saudi-investment-forum.jpg?io=1&profile=rss",
+            "source": "thestreet"
         },
         {
-            "title": "Israeli strike kills seven in south Lebanon, Lebanese health ministry says",
-            "severity": "WATCH",
-            "url": "https://www.detroitnews.com/story/news/world/2026/05/09/israeli-strike-kills-seven-in-south-lebanon-lebanese-health-ministry-says/90013504007/",
-            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/05/09/PDTN/90013754007-20260509-t-133241-z-943353550-rc-2-o-5-lakqcic-rtrmadp-3-irancrisislebanonisrael.JPG?auto=webp&crop=3424,1926,x0,y0&format=pjpg&width=1200",
-            "source": "detroitnews"
+            "title": "'Geology can make the risks of solar storms 1000 times worse': Below the US is a 200-kilometer-thick lost continent that could put data centers at risk by making strained electrical grids even worse",
+            "severity": "MEDIUM",
+            "url": "https://www.techradar.com/pro/geology-can-make-the-risks-of-solar-storms-1000-times-worse-below-the-us-is-a-200-kilometer-thick-lost-continent-that-could-put-data-centers-at-risk-by-making-strained-electrical-grids-even-worse",
+            "image": "https://cdn.mos.cms.futurecdn.net/pgDNwHjXEKSqpopwtsRMJG-1280-80.jpg",
+            "source": "techradar_sg"
         },
         {
-            "title": "Mamdani\u2019s anti-Zionist policies are targeting New York's Jewish businesses - opinion",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/opinion/article-895431",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/700136",
-            "source": "jpost"
+            "title": "Birx to Newsmax: Cruise Passengers Should Get Hantavirus PCR Tests",
+            "severity": "MEDIUM",
+            "url": "https://www.newsmax.com/politics/birx-hantavirus-cruise/2026/05/09/id/1255767",
+            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8aebeae3-c2e1-4780-b272-76081acc32b0&SiteName=Newsmax",
+            "source": "newsmax"
         },
         {
-            "title": "Liverpool miss out on deal for \u00a339m star as Euro giants close in on agreement",
+            "title": "Live: Iran's IRGC threatens US sites as Trump awaits Tehran response",
             "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/news/liverpool-miss-deal-39m-star-213500343.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/FFhMIG.SheAG9oAn1z0p_g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/anfield_watch_articles_625/46cceccaf57e811745b004b560b17fe1",
-            "source": "yahoo"
+            "url": "https://www.abc.net.au/news/2026-05-10/iran-war-live-updates/106661834",
+            "image": "https://live-production.wcms.abc-cdn.net.au/791049da0bf8cd3e41021010c39682db?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485",
+            "source": "abc_net"
         },
         {
-            "title": "Iran 'definitely' at WC, but lays out concerns",
+            "title": "Daily horoscope May 10, 2026: Today\u2019s predictions for your star sign",
             "severity": "WATCH",
-            "url": "https://www.espn.com/soccer/story/_/id/48724139/iran-definitely-2026-world-cup-federation-lays-concerns",
-            "image": "https://a.espncdn.com/photo/2026/0430/r1651244_1296x729_16-9.jpg",
-            "source": "espn"
+            "url": "https://metro.co.uk/2026/05/10/daily-horoscope-may-10-2026-todays-predictions-star-sign-28288740/",
+            "image": "https://metro.co.uk/wp-content/uploads/2023/04/SEC_152845384-9ad1.jpg?quality=90&strip=all",
+            "source": "metro"
         },
         {
-            "title": "Quote of the day by Friedrich Nietzsche: 'To live is to suffer, to survive is to find ...' Life lessons on success, challenges and positivity by German classical scholar and philosopher",
+            "title": "Cancer weekly horoscope: Maggie Innes reveals what your star sign has in store for May 10 \u2013 16",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-friedrich-nietzsche-to-live-is-to-suffer-to-survive-is-to-find-life-lessons-on-success-challenges-and-positivity-by-german-classical-scholar-and-philosopher/articleshow/130982924.cms",
-            "image": "https://img.etimg.com/thumb/msid-130982930,resizemode-4,width-1200,height-900,imgsize-2161042,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.thesun.co.uk/fabulous/39053452/cancer-weekly-horoscope-may-10-16/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2025%2F02%2Ffabs-new-horoscope-format-aries-809671400_77ee8c.jpg?quality%3D90%26strip%3Dall",
+            "source": "thesun"
         },
         {
-            "title": "Forget Sandisk Stock at $1,500 Per Share. Buy This Sizzling Artificial Intelligence (AI) Memory ETF Instead.",
+            "title": "Horoscope today, May 10, 2026: Daily star sign guide from Mystic Meg with Maggie Innes",
             "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/forget-sandisk-stock-1-500-213500231.html",
-            "image": "https://media.zenfs.com/en/motleyfool.com/86731acf46e0a4816e9b525c20841aec",
-            "source": "yahoo"
+            "url": "https://www.thesun.co.uk/fabulous/39055981/horoscope-daily-star-sign-may-10-mystic-meg/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2025%2F04%2Fnewspress-collage-qep7xfy6u-1745618986322.jpg?quality%3D90%26strip%3Dall%261745622606",
+            "source": "thesun"
         },
         {
-            "title": "Aurora is the KDE side of Bluefin, and it might be the most polished Linux desktop right now",
+            "title": "Your Ethernet wall ports might already work, but your builder wired them for phones",
             "severity": "WATCH",
-            "url": "https://www.xda-developers.com/aurora-is-the-kde-side-of-bluefin-and-it-might-be-the-most-polished-linux-desktop-right-now/",
-            "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/02/aurora-desktop.jpg?w=1600&h=900&fit=crop",
+            "url": "https://www.xda-developers.com/ethernet-wall-ports-already-work-but-wired-for-phones/",
+            "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/04/flat-cat6-ethernet-cable-rj45-6.jpg?w=1600&h=900&fit=crop",
             "source": "xda_developers"
         },
         {
-            "title": "DOE keeps moratorium on new coal power plants",
+            "title": "2026\u2019s Wildly Divisive Gothic Romance Is Officially Streaming on HBO Max",
             "severity": "WATCH",
-            "url": "https://newsinfo.inquirer.net/2226004/doe-keeps-moratorium-on-new-coal-power-plants",
-            "image": "https://newsinfo.inquirer.net/files/2025/09/Department-of-Energy-DOE-FILE-620x349.png",
-            "source": "inquirer"
+            "url": "https://collider.com/margot-robbie-jacob-elordi-divisive-gothic-romance-wuthering-heights-streaming-success-hbo-max-may-2026/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/03/copy-of-collider-template-82.jpg?w=1600&h=900&fit=crop",
+            "source": "collider"
         },
         {
-            "title": "What do Fisherman's Wharf modernization efforts mean for SF's fading fishing hub?",
+            "title": "From ground to the skies: How drones are reshaping operations along borders",
             "severity": "WATCH",
-            "url": "https://abc7news.com/post/what-do-fishermans-wharf-modernization-efforts-mean-san-franciscos-fading-fishing-hub/19051622/",
-            "image": "https://cdn.abcotvs.com/dip/images/19071261_050926-kgo-fishermans-wharf-img.jpg?w=1600",
-            "source": "abc7news"
+            "url": "https://indianexpress.com/article/india/from-ground-to-the-skies-how-drones-are-reshaping-operations-along-borders-10681619/",
+            "image": "https://images.indianexpress.com/2026/05/drones-2col.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "What Chevron\u2019s CEO Just Said About Global \u2018Supply Outages\u2019 Could Derail Trump\u2019s Economic Momentum",
+            "title": "Round 2 Game 3 Open Thread: Colorado Avalanche @ Minnesota Wild (7:00 P.M.)",
             "severity": "WATCH",
-            "url": "https://finance.yahoo.com/economy/articles/chevron-ceo-just-said-global-210719600.html",
-            "image": "https://media.zenfs.com/en/24_7_wall_st__718/6d28faa09112af127fb7f064ec0173db",
+            "url": "https://sports.yahoo.com/articles/round-2-game-3-open-230000533.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/2YmrpwyMZw2hUA0APySflg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNzQwO2NmPXdlYnA-/https://media.zenfs.com/en/sb_nation_articles_115/9d0c43884791836900405fc51591290f",
             "source": "yahoo"
         },
         {
-            "title": "Cencora Q2 Earnings Call Highlights",
+            "title": "Kiev troops bombard Donetsk People\u2019s Republic seven times over past day",
             "severity": "WATCH",
-            "url": "https://finance.yahoo.com/sectors/healthcare/articles/cencora-q2-earnings-call-highlights-210445028.html",
-            "image": "https://media.zenfs.com/en/marketbeat_955/a14aade48e49da11f4ff9a65cfc66e6b",
-            "source": "yahoo"
+            "url": "https://tass.com/politics/2129195",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
         },
         {
-            "title": "Can Turkey's New Missile Hit the US Mainland?",
+            "title": "INTERACTIVE: Climate woes brewing higher coffee bean prices",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/can-turkeys-new-missile-hit-the-us-mainland-article-154285215",
-            "image": "https://images.timesnownews.com/thumb/msid-154285268,width-1280,height-720,resizemode-75/154285268.jpg",
-            "source": "timesnownews"
+            "url": "https://www.thestar.com.my/news/nation/2026/05/10/interactive-climate-woes-brewing-higher-coffee-bean-prices",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/09/3899928.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "So your new 'co\u2010worker' is an AI agent. Here's how to make the best of your relationship",
+            "severity": "WATCH",
+            "url": "https://www.abc4.com/news/national/so-your-new-co%E2%80%91worker-is-an-ai-agent-heres-how-to-make-the-best-of-your-relationship/",
+            "image": "https://www.abc4.com/wp-content/uploads/sites/4/2026/05/AI-agent-e1778179532447.jpg?strip=1",
+            "source": "abc4"
+        },
+        {
+            "title": "India\u2019s big cheese moment",
+            "severity": "WATCH",
+            "url": "https://www.deccanherald.com/lifestyle/food-and-drink/indias-big-cheese-moment-3995585",
+            "image": "https://media.assettype.com/deccanherald/2026-05-09/rp1vsu64/file85p6qa8hvo76m5gyxj.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "The federal government must issue more debt than it expected as cash flow weakens, and \u2018the bond market is shouting\u2019",
+            "severity": "WATCH",
+            "url": "https://fortune.com/2026/05/09/us-debt-treasury-bonds-government-borrowing-cash-flow-yields-fed/",
+            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/05/GettyImages-2270816760-e1778362715321.jpg?w=2048",
+            "source": "fortune"
+        },
+        {
+            "title": "Gr Noida issues tenders worth \u20b943 crore; U-turn planned near Tilpata Chowk",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/others/gr-noida-issues-tenders-worth-43-crore-u-turn-planned-near-tilpata-chowk-101778350161986.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/09/1600x900/logo/The-proposed-U-turn-will-come-up-ahead-of-Tilpata-_1778350156270.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "30 Strongest One Piece Devil Fruits, Ranked (So Far)",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/one-piece-strongest-devil-fruit-ranked/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/one-piece-anime-luffy-ace-and-imu-anime-featured-image.png?w=1600&h=900&fit=crop",
+            "source": "screenrant"
+        },
+        {
+            "title": "Where to watch UFC 328: Chimaev vs. Strickland Live streams, fight card, odds, venue",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-ufc-328",
+            "image": "https://i.insider.com/69fe4607e1443b8dc48e3700?width=1200&format=jpeg",
+            "source": "insider"
+        },
+        {
+            "title": "3 directors of Noida tourism firm held for duping customers",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/noida-news/3-directors-of-noida-tourism-firm-held-for-duping-customers-101778350155496.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/09/1600x900/logo/Police-said-further-investigation-remains-underway_1778350153636.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "WFI issues notice to Vinesh Phogat, bars her from Gonda meet",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/sports/others/wfi-issues-notice-to-vinesh-phogat-bars-her-from-gonda-meet-101778348595238.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/09/1600x900/logo/India-s-Vinesh-Phogat-during-the-2024-Summer-Olymp_1778349134001.jpg",
+            "source": "hindustantimes"
         },
         {
             "title": "NFL insider speculates on what could get Mike Vrabel fired from Patriots if Dianna Russini scandal continues to escalate",
@@ -240,28 +289,7 @@
             "url": "https://www.the-express.com/news/world-news/206849/iran-issues-terrifying-new-threat",
             "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/206849_1.jpg",
             "source": "express"
-        },
-        {
-            "title": "Erika Kirk urges graduates to follow in her husband\u2019s footsteps: \u2018defend liberty\u2019",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/05/09/us-news/erika-kirk-recalls-charlie-kirk-during-hillsdale-graduation-speech/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F05%2Ferika-kirk-speaks-174th-hillsdale-127337562.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Middlesbrough star gets public rollicking off Wag after focusing so much on play-off clash he forgets her birthday",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/sport/39060520/middlesbrough-callum-brittain-wag-public-forgot-birthday/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F05%2FLB-OFF-callum.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "WFI issues notice to Vinesh Phogat, wrestler posts cryptic message",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/sports/wfi-issues-notice-to-vinesh-phogat-wrestler-posts-cryptic-message-articleshow-4r57uiw",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-41ffd923-2897-454e-88b1-9d04df2b506b.jpg",
-            "source": "newsable_asianetnews"
         }
     ],
-    "Last_Updated": "2026-05-10T09:42:47.231411Z"
+    "Last_Updated": "2026-05-10T11:03:29.901725Z"
 }
