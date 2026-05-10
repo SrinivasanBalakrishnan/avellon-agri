@@ -1,295 +1,260 @@
 {
-    "AGRI_Score": 65.8,
-    "Velocity": "+2.4",
+    "AGRI_Score": 63.9,
+    "Velocity": "-1.9",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 65.8/100 reflects a significantly elevated risk landscape, primarily driven by extreme levels in 'Energy & Maritime Disruption' and high 'Geopolitical Conflict Intensity'. Ongoing tensions in the Middle East, as evidenced by \"Iran warns US vs attacks on oil tankers, other ships but ceasefire holds\" and \"Live: Iran's IRGC threatens US sites as Trump awaits Tehran response,\" are directly contributing to maritime security concerns and the climbing energy costs highlighted in \"Trump sends mixed signals on Iran as energy costs climb.\" These intertwined factors are creating a volatile global environment, impacting both security and economic stability.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at 63.9, reflecting a significantly elevated risk environment primarily driven by acute geopolitical tensions and the associated potential for Energy & Maritime Disruption. The score is particularly influenced by the 'Energy & Maritime Disruption' pillar reaching its maximum at 100, directly linked to news indicating 'Iran warns US against attacks on its ships as ceasefire appears to hold' and 'US Iran war news live: Iran threatens strikes on US bases as Israel intensifies Lebanon attacks'. These developments, combined with a 'Geopolitical Conflict Intensity' score of 84.8, underscore a heightened risk of regional escalation impacting global energy flows and trade routes.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 85.1,
+        "Geopolitical Conflict Intensity": 84.8,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 68.4,
-        "Sovereign Financial Stress": 55.0,
+        "Trade & Supply Chain Stress": 60.5,
+        "Sovereign Financial Stress": 54.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.5,
-        "Cyber & Infrastructure Threats": 66.0,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 61.5,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains high, with a fragile ceasefire holding in the Middle East while the U.S. awaits Iran's response, as reported by 'Fragile cease-fire holds in Middle East while U.S. awaits Iranian war response'. Furthermore, ISIS disrupting Damascus and assassinating a Shi'ite figure indicates continued localized instability and terror threats.",
-        "Energy & Maritime Disruption": "This pillar is at extreme risk due to explicit threats of maritime conflict and rising energy costs. 'Iran warns US vs attacks on oil tankers, other ships but ceasefire holds' underscores the direct threat to global shipping and energy supply routes, compounding the concerns over 'energy costs climb' as tensions escalate.",
-        "Trade & Supply Chain Stress": "While no direct supply chain disruptions are reported, the high geopolitical and energy risks implicitly threaten trade stability. Increased maritime risks, as seen with Iran's warnings, pose potential indirect pressures on global shipping and trade routes in the near future.",
-        "Sovereign Financial Stress": "Sovereign financial stress remains at a moderate level, with no direct reports of national financial crises or debt concerns. However, the broader macroeconomic environment, influenced by climbing energy costs, could introduce underlying pressure on national budgets and economic stability.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at moderate levels, lacking specific news about significant exchange rate volatility or funding market stress. The general increase in geopolitical risk, however, can create an environment where capital flows could become more sensitive to adverse developments.",
-        "Sanctions & Regulatory Fragmentation": "This pillar shows moderate risk, as no new significant international sanctions or widespread regulatory fragmentation events are reported. The investigation in Peru concerning a former IDF soldier is a localized legal development, not indicative of systemic regulatory fragmentation.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are elevated following reported incidents and vulnerabilities. The 'Canvas system back online after a cyberattack disrupted thousands of schools' highlights persistent cyber risks, while geological factors could 'put data centers at risk by making strained electrical grids even worse'.",
-        "Climate & Resource Shock": "This pillar reflects routine monitoring, with no immediate climate or resource shocks reported. While a geological phenomenon could impact data centers, this is an infrastructure vulnerability rather than a direct climate-driven resource scarcity or major environmental disaster."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains exceptionally high, with headlines such as 'US Iran war news live: Iran threatens strikes on US bases as Israel intensifies Lebanon attacks' indicating direct threats of military action between major powers. Concurrently, the successful 'India Successfully Carries Out Test-Firing of Advance Agni Missile with Multi-Payloads' signals ongoing regional military modernization and strategic competition, further contributing to the elevated global tension landscape.",
+        "Energy & Maritime Disruption": "This pillar is at its maximum due to critical threats against maritime transit and energy infrastructure, as evidenced by 'Iran warns US against attacks on its ships as ceasefire appears to hold' amidst wider regional hostilities. The ongoing 'US Iran war news live' and associated threats against 'US bases' highlight the immediate and severe risk of disruption to vital oil shipping lanes and global energy supplies.",
+        "Trade & Supply Chain Stress": "While no direct supply chain disruption headlines are present, the elevated geopolitical conflict and maritime disruption inherently pose a significant threat to global trade routes and supply chain resilience. The potential for naval confrontations or attacks on shipping, as implied by 'Iran threatens strikes on US bases', introduces considerable uncertainty for international commerce and logistics planning.",
+        "Sovereign Financial Stress": "Sovereign financial stress remains a moderate concern, with 'Pakistan to issue first 'Panda bond' next week' indicating efforts by sovereign entities to diversify funding sources, possibly in response to existing or anticipated fiscal pressures. Domestically, discussions around fiscal policies, such as 'Socialist Mamdani\u2019s \u2018tax the rich\u2019 war cry will only hurt New York', signal internal economic debates that could influence investor confidence and state finances.",
+        "Currency & Liquidity Pressure": "There are no direct indicators of severe currency or liquidity pressures in the provided news feed. However, the broader geopolitical instability, particularly in key energy-producing regions, creates an environment where capital flows could become volatile, potentially affecting currency valuations and the availability of liquidity in sensitive markets.",
+        "Sanctions & Regulatory Fragmentation": "No new sanctions or significant regulatory fragmentation initiatives are explicitly mentioned in the news feed. Nevertheless, the persistent tensions between the US and Iran, detailed in 'Iran threatens strikes on US bases', maintain an underlying risk for the imposition of new restrictive measures or the intensification of existing sanctions regimes, leading to potential regulatory challenges for international entities.",
+        "Cyber & Infrastructure Threats": "This pillar reflects a moderate level of concern, though no large-scale state-sponsored cyberattacks are reported. The 'NS&I issues statement to customers over 'blocked emails'' highlights vulnerabilities in digital communication and service delivery, indicating a need for routine monitoring of digital infrastructure security, especially given the heightened geopolitical climate.",
+        "Climate & Resource Shock": "The current environment for climate and resource shocks reflects baseline activity, with no immediate events signaling severe disruptions. News concerning 'India is rapidly scaling up renewable energy' indicates ongoing efforts in energy transition, focusing on long-term sustainability rather than immediate crisis response to resource scarcity or climate-related disasters."
     },
     "All_Alerts": [
         {
-            "title": "Fragile cease-fire holds in Middle East while U.S. awaits Iranian war response",
+            "title": "US Iran war news live: Iran threatens strikes on US bases as Israel intensifies Lebanon attacks",
             "severity": "HIGH",
-            "url": "https://uk.investing.com/news/economy-news/fragile-ceasefire-holds-in-middle-east-while-us-awaits-iranian-war-response-4665091",
-            "image": "https://i-invdn-com.investing.com/news/Iran-USA_800x533_L_1750939967.jpg",
-            "source": "investing_uk"
+            "url": "https://www.moneycontrol.com/world/us-iran-war-news-live-iran-threatens-strikes-on-us-bases-as-israel-intensifies-lebanon-attacks-liveblog-13913987.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260409070840_AFP__20260402__A6HR9VY__v2__MidRes__UsPresidentDonaldTrumpDeliversNationalAddressOnW.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Theaterisation in focus as Lt Gen NS Raja Subramani named next CDS, Vice Adm Krishna Swaminathan new navy chief",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/india-news/theaterisation-in-focus-as-lt-gen-ns-raja-subramani-named-next-cds-vice-adm-krishna-swaminathan-new-navy-chief-101778376423653.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/10/1600x900/logo/new_cds_navy_chief_india_1778376846234_1778376856369.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "May 9, 2026; Cleveland, Ohio, USA; Cleveland Cavaliers guard James Harden (1) drives to the basket against Detroit Pistons forward Tobias Harris (12) during the second half of game three in the second round of the 2026 NBA Playoffs at Rocket Arena. Mandatory Credit: Ken Blaze-Imagn Images",
+            "severity": "HIGH",
+            "url": "https://www.si.com/nba/pistons/onsi/james-harden-donovan-mitchell-spoil-detroit-pistons-game-3-comeback-01kr7eam6p38",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_5661,h_3184,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_pistons/01kr7enz60c0n3jx13yj.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Michael Goodwin: Socialist Mamdani\u2019s \u2018tax the rich\u2019 war cry will only hurt New York",
+            "severity": "HIGH",
+            "url": "https://nypost.com/2026/05/09/opinion/mamdanis-tax-the-rich-scheme-will-result-in-business-leaders-leaving-nyc/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F05%2F100-days-address-speech-dedicated-125537500-e1778371049597.jpg?quality%3D90%26strip%3Dall",
+            "source": "nypost"
+        },
+        {
+            "title": "Putin says he thinks Russia-Ukraine war is coming to an end",
+            "severity": "HIGH",
+            "url": "https://www.detroitnews.com/story/news/world/2026/05/09/putin-says-he-thinks-russia-ukraine-war-is-coming-to-an-end/90016498007/",
+            "image": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/05/10/PDTN/90016732007-20260509-t-192155-z-291919862-rc-2-u-5-laq-1-mxx-rtrmadp-3-ww-2-anniversaryputin.JPG?crop=7972,4485,x0,y416&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "detroitnews"
         },
         {
             "title": "Peru opens investigation into former IDF soldier after Hind Rajab Foundation files complaint",
             "severity": "HIGH",
-            "url": "https://www.jpost.com/israel-news/article-895629",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/526839",
-            "source": "jpost"
-        },
-        {
-            "title": "\u2018It was an honor\u2019: Daniel Dubois thanks Fabio Wardley for epic heavyweight war",
-            "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/honor-daniel-dubois-thanks-fabio-230141251.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/ORXNf1Pa9HxH7EHN0NIAqg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNDU4O2NmPXdlYnA-/https://media.zenfs.com/en/sb_nation_articles_115/6dc6838585057971038a749cd6d054ec",
+            "url": "https://www.yahoo.com/news/articles/peru-opens-investigation-former-idf-013531394.html",
+            "image": "https://media.zenfs.com/en/jerusalem_post_articles_818/323b38534d7202cee5bf6490c4a28b71",
             "source": "yahoo"
         },
         {
-            "title": "I\u2019m stuck between my warring co-workers playing peacemaker and it\u2019s making me miserable \u2013 What do you suggest?",
+            "title": "India Successfully Carries Out Test-Firing of Advance Agni Missile with Multi-Payloads",
             "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/fabulous/39011763/peacemaker-fighting-co-workers-karren-brady/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F04%2Fcrop-38819480.jpg?quality%3D90%26strip%3Dall%261777247524",
-            "source": "thesun"
+            "url": "https://www.timesnownews.com/india/india-successfully-carries-out-test-firing-of-advance-agni-missile-with-multi-payloads-article-154285796",
+            "image": "https://images.timesnownews.com/thumb/msid-154285795,width-1280,height-720,resizemode-75/154285795.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "How Canada\u2019s military went from a \u2018death spiral\u2019 to a recruitment boom - BBC",
+            "title": "Fearing return to war, Iran conservationists shore up damaged heritage sites",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5iUllSNzliVlBzZzJFQ1J1TjBvR05jUkl2YWt6Mi1sY2UzWDcxNkloYTdQdUJjV1NVZjdqYXI5UWZJNmxzM3M0ZDBPQ25NOUk5eWFiSmdnelBDUQ?oc=5",
-            "image": "https://images.pexels.com/photos/34089440/pexels-photo-34089440.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://sg.news.yahoo.com/fearing-return-war-iran-conservationists-013120206.html",
+            "image": "https://media.zenfs.com/en/afp.com.sg/339c1d7c0f3ee76d97e500a1f4bb7893",
+            "source": "yahoo_sg"
         },
         {
-            "title": "Why Canada is seeing its biggest military recruitment surge in 30 years",
+            "title": "Iran warns US against attacks on its ships as ceasefire appears to hold",
             "severity": "HIGH",
-            "url": "https://www.bbc.com/news/articles/crrpd1pvgkzo",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/2574/live/5060f7c0-4a4f-11f1-ac76-69efd0e705cd.jpg",
-            "source": "bbc"
+            "url": "https://www.business-standard.com/world-news/iran-warns-us-against-attacks-on-its-ships-as-ceasefire-appears-to-hold-126051000015_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260510/thumb-126051000015.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "Australia news live: Ley urges Liberals to accept Farrer loss to One Nation with \u2018humility\u2019, saying \u2018voters never get it wrong\u2019",
+            "title": "NS&I issues statement to customers over 'blocked emails'",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/australia-news/live/2026/may/10/politics-updates-farrer-byelection-one-nation-win-liberal-coalition-loss-reactions-pauline-hanson-angus-taylor-tim-wilson-insiders-anthony-albanese-labor-ntwnfb",
-            "image": "https://i.guim.co.uk/img/media/4691880c9609631dce091ea02342f21377636b4a/0_0_2953_2362/master/2953.jpg?width=140&quality=85&auto=format&fit=max&s=527f3684b5136a62322f9425c3f2ef89",
-            "source": "theguardian"
-        },
-        {
-            "title": "Sunday shows preview: Trump sends mixed signals on Iran as energy costs climb",
-            "severity": "HIGH",
-            "url": "https://thehill.com/homenews/sunday-talk-shows/5871312-sunday-shows-preview-trump-sends-mixed-signals-on-iran-as-energy-costs-climb/",
-            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/05/Sunday-shows-preview-05.09.png?strip=1",
-            "source": "thehill"
-        },
-        {
-            "title": "Putin briefed India, China, US on Ukraine conflict for ceasefire",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/world/putin-briefed-india-china-us-on-ukraine-conflict-for-ceasefire-articleshow-gm64yym",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-fe03bbe7-ade3-44af-904f-4ab915854b22.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://www.express.co.uk/finance/personalfinance/2202473/NSI-Premium-Bonds",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/23/590x/2202473_1.jpg",
+            "source": "expresscouk"
         },
         {
             "title": "President Trump attends LIV Golf tournament as Iran warns against attacks on ships",
             "severity": "HIGH",
-            "url": "https://www.wcvb.com/article/president-trump-attends-liv-golf-tournament-as-iran-warns-against-attacks-on-ships/71260096",
+            "url": "https://www.wmur.com/article/president-trump-attends-liv-golf-tournament-as-iran-warns-against-attacks-on-ships/71260096",
             "image": "https://kubrick.htvapps.com/htv-prod/images/72144844-ac20-4773-a2a1-367395d4a304.jpg?crop=1.00xw:0.376xh;0,0.00214xh&resize=1200:*",
-            "source": "wcvb"
+            "source": "wmur"
         },
         {
-            "title": "ISIS disrupts Damascus calm, says it assassinated Shi'ite figure",
-            "severity": "HIGH",
-            "url": "https://www.jpost.com/middle-east/isis-threat/article-895628",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/720190",
-            "source": "jpost"
-        },
-        {
-            "title": "Canvas system back online after a cyberattack disrupted thousands of schools",
-            "severity": "HIGH",
-            "url": "https://www.adn.com/nation-world/2026/05/09/canvas-hack-exposes-schools-vulnerability-to-cyberattacks/",
-            "image": "https://www.adn.com/resizer/KRIP6-BmFTtcavDY5aabXs0vqLs=/cloudfront-us-east-1.images.arcpublishing.com/adn/7LKE23VASVCPRHDDSAQA2RPNRA.jpg",
-            "source": "adn"
-        },
-        {
-            "title": "Iran warns US vs attacks on oil tankers, other ships but ceasefire holds",
-            "severity": "HIGH",
-            "url": "https://globalnation.inquirer.net/322403/iran-warns-us-vs-attacks-on-oil-tankers-other-ships-but-ceasefire-holds",
-            "image": "https://globalnation.inquirer.net/files/2026/05/AP26128731032784-620x413.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "WRC Rally Portugal organisers fined for stage security breach",
-            "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/wrc-rally-portugal-organisers-fined-205054465.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/hGVVhd3lGWovdXg0.ZtYXA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTk4O2NmPXdlYnA-/https://media.zenfs.com/en/motorsport_articles_445/acaf6576868989f04635e24172daba01",
-            "source": "yahoo"
-        },
-        {
-            "title": "Jim Cramer makes a bold call on AI as stocks waver",
+            "title": "Stock Trader\u2019s Guide to Navigating High Stakes Trump-Xi Talks",
             "severity": "MEDIUM",
-            "url": "https://www.thestreet.com/investing/stocks/jim-cramer-makes-a-bold-call-on-ai-as-stocks-waver",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTg3MjA1/jim-cramer.jpg?io=1&profile=rss",
-            "source": "thestreet"
+            "url": "https://financialpost.com/pmn/business-pmn/stock-traders-guide-to-navigating-high-stakes-trump-xi-talks",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/05/chinese-rare-earth-producers-shares-have-soared.jpg",
+            "source": "financialpost"
         },
         {
-            "title": "Wedbush sends blunt message on Elon Musk's Tesla and Intel deal",
+            "title": "Vijay sworn in as Tamil Nadu CM: What did TVK promise ahead of Assembly polls",
             "severity": "MEDIUM",
-            "url": "https://www.thestreet.com/technology/wedbush-sends-blunt-message-on-elon-musks-tesla-and-intel-deal",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTg3NDUy/key-speakers-at-the-us-saudi-investment-forum.jpg?io=1&profile=rss",
-            "source": "thestreet"
+            "url": "https://economictimes.indiatimes.com/news/elections/assembly-elections/tamil-nadu/vijay-sworn-in-as-tamil-nadu-cm-what-did-tvk-manifesto-promise-ahead-of-assembly-elections-2026-polls/articleshow/130986975.cms",
+            "image": "https://img.etimg.com/thumb/msid-130987491,resizemode-4,width-1200,height-900,imgsize-62034,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "'Geology can make the risks of solar storms 1000 times worse': Below the US is a 200-kilometer-thick lost continent that could put data centers at risk by making strained electrical grids even worse",
-            "severity": "MEDIUM",
-            "url": "https://www.techradar.com/pro/geology-can-make-the-risks-of-solar-storms-1000-times-worse-below-the-us-is-a-200-kilometer-thick-lost-continent-that-could-put-data-centers-at-risk-by-making-strained-electrical-grids-even-worse",
-            "image": "https://cdn.mos.cms.futurecdn.net/pgDNwHjXEKSqpopwtsRMJG-1280-80.jpg",
-            "source": "techradar_sg"
-        },
-        {
-            "title": "Birx to Newsmax: Cruise Passengers Should Get Hantavirus PCR Tests",
-            "severity": "MEDIUM",
-            "url": "https://www.newsmax.com/politics/birx-hantavirus-cruise/2026/05/09/id/1255767",
-            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8aebeae3-c2e1-4780-b272-76081acc32b0&SiteName=Newsmax",
-            "source": "newsmax"
-        },
-        {
-            "title": "Live: Iran's IRGC threatens US sites as Trump awaits Tehran response",
+            "title": "Tarot Card Reading Today, May 10, 2026",
             "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-05-10/iran-war-live-updates/106661834",
-            "image": "https://live-production.wcms.abc-cdn.net.au/791049da0bf8cd3e41021010c39682db?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485",
-            "source": "abc_net"
+            "url": "https://www.news18.com/astrology/horoscope/tarot-card-reading-today-may-10-2026-daily-tarot-card-predictions-for-all-zodiac-signs-ws-el-10081856.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/05/image-2026-05-a94043f01265c2ac43a487535bce6476-1200x800.jpg",
+            "source": "news18"
         },
         {
-            "title": "Daily horoscope May 10, 2026: Today\u2019s predictions for your star sign",
+            "title": "Pakistan to issue first 'Panda bond' next week, finance minister says",
             "severity": "WATCH",
-            "url": "https://metro.co.uk/2026/05/10/daily-horoscope-may-10-2026-todays-predictions-star-sign-28288740/",
-            "image": "https://metro.co.uk/wp-content/uploads/2023/04/SEC_152845384-9ad1.jpg?quality=90&strip=all",
-            "source": "metro"
-        },
-        {
-            "title": "Cancer weekly horoscope: Maggie Innes reveals what your star sign has in store for May 10 \u2013 16",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/fabulous/39053452/cancer-weekly-horoscope-may-10-16/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2025%2F02%2Ffabs-new-horoscope-format-aries-809671400_77ee8c.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "Horoscope today, May 10, 2026: Daily star sign guide from Mystic Meg with Maggie Innes",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/fabulous/39055981/horoscope-daily-star-sign-may-10-mystic-meg/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2025%2F04%2Fnewspress-collage-qep7xfy6u-1745618986322.jpg?quality%3D90%26strip%3Dall%261745622606",
-            "source": "thesun"
-        },
-        {
-            "title": "Your Ethernet wall ports might already work, but your builder wired them for phones",
-            "severity": "WATCH",
-            "url": "https://www.xda-developers.com/ethernet-wall-ports-already-work-but-wired-for-phones/",
-            "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/04/flat-cat6-ethernet-cable-rj45-6.jpg?w=1600&h=900&fit=crop",
-            "source": "xda_developers"
-        },
-        {
-            "title": "2026\u2019s Wildly Divisive Gothic Romance Is Officially Streaming on HBO Max",
-            "severity": "WATCH",
-            "url": "https://collider.com/margot-robbie-jacob-elordi-divisive-gothic-romance-wuthering-heights-streaming-success-hbo-max-may-2026/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/03/copy-of-collider-template-82.jpg?w=1600&h=900&fit=crop",
-            "source": "collider"
-        },
-        {
-            "title": "From ground to the skies: How drones are reshaping operations along borders",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/india/from-ground-to-the-skies-how-drones-are-reshaping-operations-along-borders-10681619/",
-            "image": "https://images.indianexpress.com/2026/05/drones-2col.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Round 2 Game 3 Open Thread: Colorado Avalanche @ Minnesota Wild (7:00 P.M.)",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/round-2-game-3-open-230000533.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/2YmrpwyMZw2hUA0APySflg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNzQwO2NmPXdlYnA-/https://media.zenfs.com/en/sb_nation_articles_115/9d0c43884791836900405fc51591290f",
-            "source": "yahoo"
-        },
-        {
-            "title": "Kiev troops bombard Donetsk People\u2019s Republic seven times over past day",
-            "severity": "WATCH",
-            "url": "https://tass.com/politics/2129195",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "INTERACTIVE: Climate woes brewing higher coffee bean prices",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/news/nation/2026/05/10/interactive-climate-woes-brewing-higher-coffee-bean-prices",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/09/3899928.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "So your new 'co\u2010worker' is an AI agent. Here's how to make the best of your relationship",
-            "severity": "WATCH",
-            "url": "https://www.abc4.com/news/national/so-your-new-co%E2%80%91worker-is-an-ai-agent-heres-how-to-make-the-best-of-your-relationship/",
-            "image": "https://www.abc4.com/wp-content/uploads/sites/4/2026/05/AI-agent-e1778179532447.jpg?strip=1",
-            "source": "abc4"
-        },
-        {
-            "title": "India\u2019s big cheese moment",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/lifestyle/food-and-drink/indias-big-cheese-moment-3995585",
-            "image": "https://media.assettype.com/deccanherald/2026-05-09/rp1vsu64/file85p6qa8hvo76m5gyxj.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "url": "https://www.deccanherald.com/world/pakistan/pakistan-to-issue-first-panda-bond-next-week-finance-minister-says-3997346",
+            "image": "https://media.assettype.com/deccanherald/2025-07-29/nz3he23b/file81ppbcprn36ns2d0dii.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
             "source": "deccanherald"
         },
         {
-            "title": "The federal government must issue more debt than it expected as cash flow weakens, and \u2018the bond market is shouting\u2019",
+            "title": "India is rapidly scaling up renewable energy. Now it needs to store it",
             "severity": "WATCH",
-            "url": "https://fortune.com/2026/05/09/us-debt-treasury-bonds-government-borrowing-cash-flow-yields-fed/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/05/GettyImages-2270816760-e1778362715321.jpg?w=2048",
-            "source": "fortune"
+            "url": "https://indianexpress.com/article/explained/explained-sci-tech/india-energy-storage-renewable-power-grid-explained-10681344/",
+            "image": "https://images.indianexpress.com/2026/05/Solar_panels_in_India.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Gr Noida issues tenders worth \u20b943 crore; U-turn planned near Tilpata Chowk",
+            "title": "\"Using ChatGPT As A Sort Of Therapist\": 19 Absolutely Unhinged Wellness Trends Of 2026 That Prove We've Officially Lost Our Collective Minds",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/others/gr-noida-issues-tenders-worth-43-crore-u-turn-planned-near-tilpata-chowk-101778350161986.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/09/1600x900/logo/The-proposed-U-turn-will-come-up-ahead-of-Tilpata-_1778350156270.jpg",
+            "url": "https://www.buzzfeed.com/haein_jung/worst-2026-wellness-trends-unhinged",
+            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-04/25/13/thumb/4Ag-OAHsf.jpg?crop=2988:1992;6,0&resize=1250:830&resize=1200:*",
+            "source": "buzzfeeduk"
+        },
+        {
+            "title": "Horoscope Today, May 10, 2026: Astrological Predictions For All Zodiac Signs",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/astrology/horoscope/daily-horoscope-today-may-10-2026-zodiac-astrological-prediction-ws-el-10081842.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/05/image-2026-05-6a5ef10c153f29c42248e44e080bebf1-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Leadership | Campus\u2013community ties: A win-win for future",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/leadership-campus-community-ties-a-win-win-for-future-101778357657991.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/09/1600x900/logo/Education--youth-engagement-and-social-development_1778357655998.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "30 Strongest One Piece Devil Fruits, Ranked (So Far)",
+            "title": "Shah Rukh Khan, Aamir Khan... Everyone Backed Us: Deepak Tijori gets emotional as Pehla Nasha poster sparks 90s nostalgia",
             "severity": "WATCH",
-            "url": "https://screenrant.com/one-piece-strongest-devil-fruit-ranked/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/one-piece-anime-luffy-ace-and-imu-anime-featured-image.png?w=1600&h=900&fit=crop",
-            "source": "screenrant"
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/deepak-tijori-reflects-on-nostalgic-ride-with-pehla-nasha-and-support-from-bollywood-stars/articleshow/130985180.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-130985187/130985187.jpg",
+            "source": "toi"
         },
         {
-            "title": "Where to watch UFC 328: Chimaev vs. Strickland Live streams, fight card, odds, venue",
+            "title": "In a fractured world, I turn to trees",
             "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-ufc-328",
-            "image": "https://i.insider.com/69fe4607e1443b8dc48e3700?width=1200&format=jpeg",
-            "source": "insider"
+            "url": "https://www.deccanherald.com/environment/in-a-fractured-world-i-turn-to-trees-3995525",
+            "image": "https://media.assettype.com/deccanherald/2026-05-10/8rc2esio/file85p3zh13bk1bnorqb4s.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "3 directors of Noida tourism firm held for duping customers",
+            "title": "Day before MC polls: 1,238 cartons of illegal liquor seized in Sonepat",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/noida-news/3-directors-of-noida-tourism-firm-held-for-duping-customers-101778350155496.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/09/1600x900/logo/Police-said-further-investigation-remains-underway_1778350153636.jpg",
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/day-before-mc-polls-1-238-cartons-of-illegal-liquor-seized-in-sonepat-101778356941586.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/09/1600x900/logo/CM-flying-inspector-Bijender-Singh-said-the-team-b_1778356937771.png",
             "source": "hindustantimes"
         },
         {
-            "title": "WFI issues notice to Vinesh Phogat, bars her from Gonda meet",
+            "title": "EAM Jaishankar hands over India-assisted agro-processing facility in South Trinidad",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/sports/others/wfi-issues-notice-to-vinesh-phogat-bars-her-from-gonda-meet-101778348595238.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/09/1600x900/logo/India-s-Vinesh-Phogat-during-the-2024-Summer-Olymp_1778349134001.jpg",
+            "url": "https://www.deccanherald.com/india/eam-jaishankar-hands-over-india-assisted-agro-processing-facility-in-south-trinidad-3997242",
+            "image": "https://media.assettype.com/deccanherald/2026-05-10/9kty7f1h/HH5O1CUWgAs4bzq.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "10 UK hotspots seeing surge in bookings as Brits avoid going abroad",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/travel/articles/2203306/mad-dash-staycations-bookings-soaring",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/25/590x/2203306_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Treasurer Jim Chalmers confirms tax win for Aussie landlords in the budget - but not everyone will be spared",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-15804747/albanese-budget-negative-gearing-jim-chalmers.html",
+            "image": "https://i.dailymail.com/1s/2026/05/10/01/108498271-0-image-a-2_1778371974986.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Australia to Tackle \u2018Unacceptable\u2019 Housing Market, Chalmers Says",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-pmn/australia-to-tackle-unacceptable-housing-market-chalmers-says",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/05/776495021.jpg",
+            "source": "financialpost"
+        },
+        {
+            "title": "Gadgets Weekly: Google's screen-less smartwearable Fitbit Air and more",
+            "severity": "WATCH",
+            "url": "https://www.deccanherald.com/technology/gadget-weekly-googles-fitbit-air-launch-oneplus-nord-ce-6-debut-acer-tablet-release-and-more-3995817",
+            "image": "https://media.assettype.com/deccanherald/2026-05-08/8xrkmf17/Google-Fitbit-Air.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Fallen Olympics hero Scott Miller opens up for the first time about being jailed over meth and heroin dealing - and reveals the key to his stunning physical transformation",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/sport/olympics/article-15804685/Scott-Miller-swimming-Olympics-jail-drugs-meth-ice-heroin-dealing.html",
+            "image": "https://i.dailymail.com/1s/2026/05/10/01/108498497-0-image-a-20_1778372678743.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "\u2018I have a most villainous hunger\u2019: 8 famous writers\u2019 letters to their mothers",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/books-and-literature/8-writers-letters-mothers-day-james-joyce-sylvia-plath-walt-whitman-10681555/",
+            "image": "https://images.indianexpress.com/2026/05/Mothers-Day-letters.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Mediawatch: Putting down the watchdog?",
+            "severity": "WATCH",
+            "url": "https://www.rnz.co.nz/news/political/594762/mediawatch-putting-down-the-watchdog",
+            "image": "https://images.pexels.com/photos/7947848/pexels-photo-7947848.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "Ludhiana: Rupnagar ASI, NRI son booked in dowry case",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/ludhiana-rupnagar-asi-nri-son-booked-in-dowry-case-101778352437093.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/09/1600x900/logo/The-FIR-was-registered-under-Sections-406--crimina_1778356275587.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "NFL insider speculates on what could get Mike Vrabel fired from Patriots if Dianna Russini scandal continues to escalate",
+            "title": "US: Trespasser killed after being hit by Frontier plane, 17 injured at Denver Airport",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/nfl-insider-speculates-could-mike-213203720.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/d1FHTPeg4rXlj0rVbgCUWg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/atoz_sports_articles_485/89b4907e43542cc30c103b5493eef1d1",
-            "source": "yahoo"
+            "url": "https://zeenews.india.com/world/us-trespasser-killed-after-being-hit-by-frontier-plane-17-injured-at-denver-airport-3046012.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/05/10/1941094-police-pixababy-image-1.png?im=Resize=(1200,900)",
+            "source": "zeenews"
         },
         {
-            "title": "Iran issues terrifying new threat as missiles 'locked onto American targets'",
+            "title": "Bizarre reason for unfair dismissal claim",
             "severity": "WATCH",
-            "url": "https://www.the-express.com/news/world-news/206849/iran-issues-terrifying-new-threat",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/206849_1.jpg",
-            "source": "express"
+            "url": "https://www.news.com.au/national/courts-law/unfair-dismissal-claim-thrown-out-after-woolworths-worker-stopped-taking-shifts-because-of-hurt-feelings/news-story/c4191da8f8a4e520d4242b02eb002643?from=rss-basic",
+            "image": "https://content.api.news/v3/images/bin/57001e1a34cb053cb07819e4c2ace795?width=320",
+            "source": "news"
         }
     ],
-    "Last_Updated": "2026-05-10T11:03:29.901725Z"
+    "Last_Updated": "2026-05-10T13:42:03.147800Z"
 }
