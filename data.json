@@ -1,253 +1,295 @@
 {
-    "AGRI_Score": 64.6,
-    "Velocity": "+1.2",
+    "AGRI_Score": 64.2,
+    "Velocity": "-0.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at 64.6/100, reflecting a high-moderate risk environment driven primarily by acute Energy & Maritime Disruption and elevated Geopolitical Conflict Intensity. The \"JPMorgan pulls no punches on Strait of Hormuz, oil prices\" headline underscores significant vulnerabilities in global energy supply, while \"Iran has executed at least 13 protest detainees since war began in February\" highlights persistent geopolitical flashpoints. Furthermore, \"Calbee to strip color from packaging on 14 snack products amid ink shortage\" indicates tangible Trade & Supply Chain Stress, contributing to the overall heightened risk posture.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at 64.2/100, reflecting a significantly elevated risk environment primarily driven by acute geopolitical tensions and potential flow-on effects for energy and maritime security. The \"Iranian FM threatens UAE\" explicitly highlights escalating regional friction, underpinning the high score in 'Geopolitical Conflict Intensity' and contributing to the 'Energy & Maritime Disruption' concerns. Discussions regarding the \"Cost of war on agenda as Trump meets Xi\" further indicate persistent global instability, necessitating vigilance against potential broader economic and security repercussions. Cyber threats are also notably active, with an \"alarming hack\" on Capitol Hill raising infrastructure security concerns.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.1,
+        "Geopolitical Conflict Intensity": 82.0,
         "Energy & Maritime Disruption": 96.7,
-        "Trade & Supply Chain Stress": 69.9,
+        "Trade & Supply Chain Stress": 69.0,
         "Sovereign Financial Stress": 54.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 62.9,
-        "Cyber & Infrastructure Threats": 67.8,
+        "Sanctions & Regulatory Fragmentation": 60.5,
+        "Cyber & Infrastructure Threats": 58.2,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The execution of \"at least 13 protest detainees since war began in February\" in Iran signals ongoing severe internal repression and contributes to regional instability. President Trump's arrival in \"Beijing for 2-day summit with China's Xi Jinping\" presents a critical diplomatic juncture with potential implications for international relations and trade disputes.",
-        "Energy & Maritime Disruption": "The report that \"JPMorgan pulls no punches on Strait of Hormuz, oil prices\" explicitly indicates a very high risk of disruption in a critical global oil transit chokepoint. This situation signals potential severe impacts on global energy supplies and price volatility.",
-        "Trade & Supply Chain Stress": "Evidence that \"Calbee to strip color from packaging on 14 snack products amid ink shortage\" directly demonstrates real-world supply chain vulnerabilities affecting consumer goods manufacturing. These shortages highlight broader fragility within global production and logistics networks, increasing operational risks for businesses.",
-        "Sovereign Financial Stress": "The Senate's confirmation of \"Kevin Warsh as Fed chair, succeeding Jerome Powell\" introduces a significant shift in U.S. monetary policy leadership, potentially impacting market expectations and financial stability. Concurrently, \"Gold discounts in India breach $200/ounce record amid profit-taking\" suggests notable market volatility and shifts in investor sentiment.",
-        "Currency & Liquidity Pressure": "The confirmation of \"Kevin Warsh as Federal Reserve chair\" will likely lead to new policy considerations that could influence global currency valuations and central bank liquidity operations. This transition necessitates close monitoring for potential shifts in the U.S. monetary stance, which has global repercussions.",
-        "Sanctions & Regulatory Fragmentation": "The confirmation of \"Kevin Warsh as Fed chair as Trump's economic vision comes into focus\" suggests a potential for evolving regulatory priorities and trade stances that could lead to new forms of fragmentation. This implies a need to watch for shifts in international economic policy that may introduce new barriers or compliance complexities.",
-        "Cyber & Infrastructure Threats": "Reports of \"Scammers use judge\u2019s fake account for extortion bid in Buxar, FIR lodged\" highlight persistent cybercrime targeting critical public figures and potentially undermining trust in judicial systems. Furthermore, the \"Scope of access to leaked Alberta voter list may be incomplete\" reveals vulnerabilities in electoral infrastructure and data security, posing risks to democratic processes.",
-        "Climate & Resource Shock": "Despite a low overall score, the \"Water Crisis Deepens in Corpus Christi as Industry and Drought Strain Supply\" illustrates acute localized resource scarcity exacerbated by industrial demands and environmental factors. This event underscores specific regional vulnerabilities to climate-related resource challenges, warranting routine monitoring for escalation."
+        "Geopolitical Conflict Intensity": "This pillar reflects significant global friction, evidenced by the \"Iranian FM threatens UAE\" headline, indicating heightened regional tensions and the risk of escalation. Discussions around the \"Cost of war on agenda as Trump meets Xi\" underscore ongoing conflicts and their economic toll, maintaining an elevated state of geopolitical concern. ",
+        "Energy & Maritime Disruption": "The extremely high score in this pillar reflects acute underlying market anxieties, directly influenced by heightened geopolitical tensions in critical regions. The \"Iranian FM threatens UAE\" headline poses an immediate risk to maritime security and energy transit routes in the Persian Gulf, given the strategic importance of the Strait of Hormuz.",
+        "Trade & Supply Chain Stress": "This pillar is under pressure from shifting global trade dynamics and political maneuvering, as \"Tariff refunds begin to reach businesses\" signal ongoing adjustments to past trade policies. Furthermore, the statement that \"Ties with Russia more valuable in volatile times\" suggests strategic re-evaluations of supply chains and trade partnerships amidst global volatility.",
+        "Sovereign Financial Stress": "Sovereign financial stability faces moderate pressure from the economic consequences of ongoing global events and domestic political shifts. The \"Cost of war on agenda\" implies significant fiscal outlays impacting national budgets, and the confirmation of \"Kevin Warsh confirmed as Fed chair as central bank faces Trump assault\" introduces potential for policy uncertainty affecting financial markets. ",
+        "Currency & Liquidity Pressure": "This pillar shows moderate pressure, influenced by a blend of economic policy changes and global financial implications. The confirmation of \"Kevin Warsh confirmed as Fed chair\" signifies a period of transition in monetary leadership, potentially influencing market liquidity and currency valuations. The broader implications of the \"Cost of war\" hint at macro-financial strains that could indirectly affect currency stability and capital flows.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory landscapes are experiencing notable shifts and fragmentation, contributing to an elevated risk profile. \"Senate Republicans block Democrats\u2019 effort to reverse several Trump-era CFPB changes\" illustrates ongoing domestic regulatory flux, while the start of \"Tariff refunds\" reflects the dynamic nature of trade policy and its implications for compliance. ",
+        "Cyber & Infrastructure Threats": "This pillar exhibits a clear and present danger, with critical systems facing direct attacks and data breaches. \"Chaos on Capitol Hill as lawmakers hit with alarming hack\" demonstrates a significant cyberattack on government infrastructure, reinforcing the persistent threat to national security and operational continuity. Furthermore, the \"Scope of access to leaked Alberta voter list may be incomplete\" highlights vulnerabilities in public data systems, increasing concerns over information integrity.",
+        "Climate & Resource Shock": "This pillar shows a low level of immediate concern, indicating routine monitoring rather than active shock. The provided news feed contains no specific reports of climate events, resource scarcity, or environmental disasters impacting global stability."
     },
     "All_Alerts": [
         {
-            "title": "Senate confirms Trump pick Warsh as chairman of the Federal Reserve, following Powell",
+            "title": "Decree debate has to wait for court",
             "severity": "HIGH",
-            "url": "https://www.beaumontenterprise.com/business/article/senate-is-set-to-confirm-trump-pick-warsh-as-22256904.php",
-            "image": "https://s.hdnux.com/photos/01/66/05/17/30954463/6/square_large.jpg",
-            "source": "beaumontenterprise"
+            "url": "https://www.bangkokpost.com/thailand/politics/3254568/decree-debate-has-to-wait-for-court",
+            "image": "https://static.bangkokpost.com/media/content/dcx/2026/05/14/6087743.jpg",
+            "source": "bangkokpost"
         },
         {
-            "title": "Memopezil Unveiled: Does It Really Work for Memory, Focus & Brain Health? Full Memopezil Consumer Report!",
+            "title": "Live: Cost of war on agenda as Trump meets Xi, UAE denies Netanyahu's secret visit",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/05/g52540033/memopezil-unveiled-does-it-really-work-for-memory-focus-brain-health-full-memopezil-consumer-repor",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
+            "url": "https://www.abc.net.au/news/2026-05-14/iran-live-updates-may-14-trump-netanyahu-china-xi-jinping-visit/106674744",
+            "image": "https://live-production.wcms.abc-cdn.net.au/f9eeaf3d8535e67709c350a10c87e2d4?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485",
+            "source": "abc_net"
         },
         {
-            "title": "Tennis legend breaks silence on shock plot to become new Real Madrid president after bizarre Florentino Perez rant",
+            "title": "U.S. says $100 million offer to help Cuba still stands, if Havana will accept it",
             "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/sport/39100220/rafael-nadal-real-madrid-president-florentino-perez-rant/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F05%2Fcrop-39100347.jpg?quality%3D80%26strip%3Dall",
+            "url": "https://www.miamiherald.com/news/nation-world/world/americas/cuba/article315744979.html",
+            "image": "https://www.miamiherald.com/public/latest-news/c713i2/picture314324570/alternates/FREE_1140/MIA_AIDFORVICTIMSOFHURRICANEMELISSA_SN_004.JPG",
+            "source": "miamiherald"
+        },
+        {
+            "title": "Iranian FM threatens UAE, claims Tehran knew of Netanyahu\u2019s visit to Abu Dhabi",
+            "severity": "HIGH",
+            "url": "https://www.timesofisrael.com/liveblog-may-14-2026/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2026/04/AP26115184851755-e1777275037973.jpg",
+            "source": "timesofisrael"
+        },
+        {
+            "title": "British Jewish war hero who witnessed horrors of Nazi camp and helped liberate it dies aged 103",
+            "severity": "HIGH",
+            "url": "https://www.thesun.co.uk/news/39101411/jewish-war-hero-dies-stanley-fisher/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F05%2Fnewspress-collage-sr4eibzmo-1778705720195.jpg?quality%3D90%26strip%3Dall%261778709339",
             "source": "thesun"
         },
         {
-            "title": "Kevin Warsh confirmed as Fed chair, succeeding Jerome Powell",
+            "title": "Senate Republicans block Democrats\u2019 effort to reverse several Trump-era CFPB changes",
             "severity": "HIGH",
-            "url": "https://www.cnn.com/2026/05/13/economy/kevin-warsh-confirmation-trump-fed-chair",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/23-023-024-08-gettyimages-2272390600.jpg?c=original/w_800",
-            "source": "cnn"
+            "url": "https://ca.finance.yahoo.com/news/ap-exclusive-senate-democrats-plan-111142530.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/.6i4sE50EmW.I7QZH14laQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAw/https://media.zenfs.com/en/cp_finance_889/bd6eacabe8285a12884a39ac35015151",
+            "source": "yahoo"
         },
         {
-            "title": "Calbee to strip color from packaging on 14 snack products amid ink shortage",
+            "title": "Remains of 2nd U.S. Army soldier who went missing during military exercises in Morocco have been recovered",
             "severity": "HIGH",
-            "url": "https://qz.com/calbee-japan-black-white-packaging-ink-iran-war-051326",
-            "image": "https://images.pexels.com/photos/36731054/pexels-photo-36731054.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "quartz"
+            "url": "https://www.kgw.com/article/syndication/associatedpress/remains-of-2nd-us-army-soldier-who-went-missing-during-military-exercises-in-morocco-have-been-recovered/616-ade0f698-6077-48b1-b4bb-b8c3a5a9c2a5",
+            "image": "https://media.kgw.com/assets/KGW/images/2068cf20-ad85-4b5f-b2d3-b4b7f4eaee12/20260513T162549/2068cf20-ad85-4b5f-b2d3-b4b7f4eaee12_1920x1080.jpg",
+            "source": "kgw"
         },
         {
-            "title": "US Senate confirms Kevin Warsh as Federal Reserve chair, replacing Jerome Powell - The Guardian",
+            "title": "Mountain Province Diamond Reports Q1 2026 Results: Full Earnings Call Transcript",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTjVuUnhOYTdDTmU4U1lZdG56VU9JYzdxVU5BVDVUOTZkdzQ1OHliclBjNlIwNFo4NWFlSU9iXzEzcVNCbkdhM1l4NUx1RjVuQTNUQzRrS0ZlOW1uRGZWQzV2QVdJVEc2MmJZUXFmcGhKWlQ4ckVhMmFiZUprbDRWRU5FNW9JVVdXaHc?oc=5",
-            "image": "https://images.pexels.com/photos/32357268/pexels-photo-32357268.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.benzinga.com/insights/news/26/05/52548348/mountain-province-diamond-reports-q1-2026-results-full-earnings-call-transcript",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_3.jpg?width=1200&height=800&fit=crop",
+            "source": "benzinga"
         },
         {
-            "title": "Water Crisis Deepens in Corpus Christi as Industry and Drought Strain Supply",
+            "title": "Willamette Valley Vineyards Posts Results for Q1 2026",
             "severity": "HIGH",
-            "url": "https://qz.com/corpus-christi-texas-water-crisis-drought-industry-051326",
-            "image": "https://images.pexels.com/photos/31748014/pexels-photo-31748014.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "quartz"
-        },
-        {
-            "title": "Revital Gluco Under Investigation: Full RevitalGluco Consumer Report Reveals Shocking Hidden Risks",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/05/g52539944/revital-gluco-under-investigation-full-revitalgluco-consumer-report-reveals-shocking-hidden-risks",
+            "url": "https://www.benzinga.com/pressreleases/26/05/n52548363/willamette-valley-vineyards-posts-results-for-q1-2026",
             "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
             "source": "benzinga"
         },
         {
-            "title": "JPMorgan pulls no punches on Strait of Hormuz, oil prices - thestreet.com",
+            "title": "BitGo Holdings Q2 2026 Earnings Call Transcript",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ0dqMkFxdVZLdC1BM1Itc1RwZkdOcFMyWXVIaTUzVWVURlp1Q2o1VGRET3ZhbjUwSURfSDBPZFoxbWVuRzM0eWpzVVBWRUdDb1JtMjRtUWZtNWlrY2pjTEZyOEFhZ1dDdVlEVC1BZ1N5SU9POFQ4SFB4ZVVaMWg5Q0NqbmZfR0RTSDUxc2xiMlpFcm9Wc1dIaHRncHNRTXhE?oc=5",
-            "image": "https://images.pexels.com/photos/6950135/pexels-photo-6950135.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.benzinga.com/insights/news/26/05/52548340/bitgo-holdings-q2-2026-earnings-call-transcript",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1200&height=800&fit=crop",
+            "source": "benzinga"
         },
         {
-            "title": "Senate confirms Kevin Warsh as Fed chair as Trump's economic vision comes into focus",
+            "title": "Transcript: Staar Surgical Q1 2026 Earnings Conference Call",
             "severity": "HIGH",
-            "url": "https://www.foxnews.com/politics/senate-confirms-kevin-warsh-fed-chair-trumps-economic-vision-comes-focus",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/05/931/523/kevin-warsh-senate-hearing-1.png?ve=1&tl=1",
-            "source": "foxnews"
+            "url": "https://www.benzinga.com/insights/news/26/05/52548333/transcript-staar-surgical-q1-2026-earnings-conference-call",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_4.jpg?width=1200&height=800&fit=crop",
+            "source": "benzinga"
         },
         {
-            "title": "Trump arrives in Beijing for 2-day summit with China's Xi Jinping",
+            "title": "Kevin Warsh confirmed as Fed chair as central bank faces Trump assault",
             "severity": "HIGH",
-            "url": "https://qz.com/trump-arrives-beijing-summit-xi-jinping-051326",
-            "image": "https://images.pexels.com/photos/36731054/pexels-photo-36731054.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "quartz"
+            "url": "https://www.channelnewsasia.com/world/kevin-warsh-federal-reserve-chair-trump-inflation-6119806",
+            "image": "https://dam.mediacorp.sg/image/upload/s--4NVDE-BP--/c_crop,h_562,w_999,x_1,y_13/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/v1/one-cms/core/Senate_Federal_Reserve_66895.jpg?itok=Z8w0D52A",
+            "source": "channelnewsasia"
         },
         {
-            "title": "Iran has executed at least 13 protest detainees since war began in February",
+            "title": "The scales have tilted toward Republicans in the voting maps fight, but it may not last",
             "severity": "HIGH",
-            "url": "https://qz.com/iran-executions-protest-detainees-war-crackdown-051326",
-            "image": "https://images.pexels.com/photos/32357268/pexels-photo-32357268.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "quartz"
+            "url": "https://ca.news.yahoo.com/scales-tilted-toward-republicans-voting-222150968.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/IIeDMFRU5VHfb68.aw8sbw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwNDQ7aD0xMTUwO2NmPXdlYnA-/https://media.zenfs.com/en/bbc_us_articles_995/df6eaa3162ebb5645ce17c2ffc4e8f10",
+            "source": "yahoo"
+        },
+        {
+            "title": "Trump admin turns its own courtroom blunder into attack on judge",
+            "severity": "HIGH",
+            "url": "https://www.rawstory.com/trump-2676891512/",
+            "image": "https://www.rawstory.com/media-library/a-judge-s-gavel-on-top-of-a-flag.jpg?id=53801686&width=980",
+            "source": "rawstory"
         },
         {
             "title": "Scope of access to leaked Alberta voter list may be incomplete: Elections Alberta",
             "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/calgary/article/scope-of-access-to-leaked-alberta-voter-list-may-be-incomplete-elections-alberta/",
-            "image": "https://www.ctvnews.ca/resizer/v2/OZDWSJY5Q6ZYGOKOM4XSIEKZW4.jpg?auth=f968dcdd28529dd23d0a4eb74bbcbf407e0f3780af7468cd0bd25c7883295108&smart=true&width=1400&height=889",
-            "source": "ctvnews"
+            "url": "https://ca.news.yahoo.com/scope-access-leaked-alberta-voter-175616293.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/TKUuebQH3_fJHh_Tguk2ng--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTI0O2NmPXdlYnA-/https://media.zenfs.com/en/cp_news_842/189622e1f5291907acaffcc2fad65519",
+            "source": "yahoo"
         },
         {
-            "title": "Scammers use judge\u2019s fake account for extortion bid in Buxar, FIR lodged",
+            "title": "Chaos on Capitol Hill as lawmakers hit with alarming hack",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/patna/scammers-use-judges-fake-account-for-extortion-bid-in-buxar-fir-lodged/articleshow/131074545.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
+            "url": "https://www.rawstory.com/congress-breach/",
+            "image": "https://www.rawstory.com/media-library/how-scammers-use-psychology-to-create-some-of-the-most-convincing-internet-cons-hacker-with-laptop-image-via-shutterstock.png?id=55633265&width=980",
+            "source": "rawstory"
+        },
+        {
+            "title": "ARC Raiders: Security Breach Container Locations Guide",
+            "severity": "HIGH",
+            "url": "https://screenrant.com/arc-raiders-all-security-breach-locations-map-guide/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/11/security-breach-prompt-in-arc-raiders.png?w=1600&h=900&fit=crop",
+            "source": "screenrant"
+        },
+        {
+            "title": "\u2018Ties with Russia more valuable in volatile times\u2019: Jaishankar as he meets Lavrov",
+            "severity": "MEDIUM",
+            "url": "https://indianexpress.com/article/india/ties-with-russia-more-valuable-in-volatile-times-jaishankar-as-he-meets-lavrov-10688315/",
+            "image": "https://images.indianexpress.com/2026/05/External-Affairs-Minister-S-Jaishankar-with-his-Russian-counterpart-Sergey-Lavrov-in-New-Delhi-on-Wednesday.-PTI.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Hard Chews Gummies Claims Evaluated: Investigating the Salt Tonic Trick Recipe for Men",
+            "severity": "MEDIUM",
+            "url": "https://www.benzinga.com/pressreleases/26/05/g52548343/hard-chews-gummies-claims-evaluated-investigating-the-salt-tonic-trick-recipe-for-men",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "source": "benzinga"
+        },
+        {
+            "title": "Tariff refunds begin to reach businesses as Trump lashes out at Supreme Court",
+            "severity": "MEDIUM",
+            "url": "https://www.bostonglobe.com/2026/05/13/business/trump-tariff-refunds-supreme-court/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/J36Z324OU7XO5EIVLTCAPNTPKU.jpg?auth=4d268b7cd35417d625a4ccb264126b50c7ef604111fb9ce91e64e41fcae71be5&smart=true&width=8256&height=5504",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "Does England's defence put winning streak at risk?",
+            "severity": "MEDIUM",
+            "url": "https://www.bbc.com/sport/rugby-union/articles/cq8p5ldxz0jo",
+            "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/d953/live/c29c5eb0-4d56-11f1-a84e-777fb0e2277b.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "HIGH LINER FOODS REPORTS OPERATING RESULTS FOR THE FIRST QUARTER OF 2026",
+            "severity": "MEDIUM",
+            "url": "https://www.benzinga.com/pressreleases/26/05/n52546395/high-liner-foods-reports-operating-results-for-the-first-quarter-of-2026",
+            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "source": "benzinga"
+        },
+        {
+            "title": "Canadians\u2019 plasma is now a liquid asset. Is that ethical? I donated to learn more",
+            "severity": "WATCH",
+            "url": "https://www.theglobeandmail.com/business/economy/article-plasma-blood-services-donation-grifols/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/XKJMGSZ5A5BHHBPT34JVUBI2YQ.JPG?auth=51d59115be94a0d31b87bb10782a01281ed1b2f4e56709d456bd9f9d42a5dd55&smart=true&width=3500&height=2333",
+            "source": "theglobeandmail"
+        },
+        {
+            "title": "\u201cPre-breakup phase\u201d: Taylor Swift and Travis Kelce photos spark chilling Joe Alwyn breakup comparisons",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/sports/nfl/news/pre-breakup-phase-taylor-swift-and-travis-kelce-photos-spark-chilling-joe-alwyn-breakup-comparisons/articleshow/131067894.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131067894/131067894.jpg",
             "source": "toi"
         },
         {
-            "title": "Gold discounts in India breach $200/ounce record amid profit-taking",
-            "severity": "HIGH",
-            "url": "https://sg.finance.yahoo.com/news/gold-discounts-india-breach-200-180647792.html",
-            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo_sg"
-        },
-        {
-            "title": "Six-point deduction for Southampton under consideration amid 'spygate' scandal",
-            "severity": "HIGH",
-            "url": "https://uk.sports.yahoo.com/news/six-point-deduction-southampton-under-180300140.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/rMSi.N3ha_XWszaz74OVPA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/goal_uk_815/4ef7455b1b5bdf83e9e31daf71814e02",
-            "source": "yahoo"
-        },
-        {
-            "title": "Crisis of trust opens opportunity to reform admission tests",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/blogs/onkar-singh/crisis-of-trust-opens-opportunity-to-reform-admission-tests/",
-            "image": "https://static.toiimg.com/imagenext/toiblogs/thumb/blogs/wp-content/uploads/2021/12/os-visa-photo-OS-23.1.jpg?resizemode=4&width=1280&height=720",
+            "title": "Petrol, diesel sales surge by 20% amid price hike fear, PM\u2019s announcement",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/pune/petrol-diesel-sales-surge-by-20-amid-price-hike-fear-pms-announcement/articleshow/131076654.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131076852/131076852.jpg",
             "source": "toi"
         },
         {
-            "title": "Form 10Q CareView Communications Inc For: 13 May",
-            "severity": "MEDIUM",
-            "url": "https://au.investing.com/news/filings/form-10q-careview-communications-inc-for-13-may-93CH-4432228",
-            "image": "https://i-invdn-com.investing.com/news/international_newspapers_69x52._800x533_L_1419494241.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "NeuroZen Drops Claims Evaluated: Explore the Official NeuroZen Website Facts (Avoid Scam Risks)",
-            "severity": "MEDIUM",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/05/13/3294365/0/en/NeuroZen-Drops-Claims-Evaluated-Explore-the-Official-NeuroZen-Website-Facts-Avoid-Scam-Risks.html",
-            "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Pawan Khera grilled for over 10 hours in Guwahati over case filed by Assam CM Himanta's wife",
-            "severity": "MEDIUM",
-            "url": "https://www.deccanherald.com/india/assam/pawan-khera-grilled-for-over-10-hours-in-guwahati-over-case-filed-by-assam-cm-himantas-wife-4002046",
-            "image": "https://media.assettype.com/deccanherald/2026-05-13/i40kotjm/deccanherald2026-04-24z2wcqftuBeFunky-collage-11.avif?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Herzog calls on Netanyahu to accept his proposal for plea bargain talks",
-            "severity": "MEDIUM",
-            "url": "https://www.timesofisrael.com/herzog-calls-on-netanyahu-to-accept-his-proposal-for-plea-bargain-talks/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/05/F260422CG38.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Key man set to be recommended by Manchester United directors",
+            "title": "BARMM, Iligan diocese back rehab of Mindanao hydros",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/key-man-set-recommended-manchester-185000914.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/TJjnsUC1euAFwf1WrUmNZw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNzE4O2NmPXdlYnA-/https://media.zenfs.com/en/epl_index_articles_253/ae95e095343adb3365a7888619f62520",
+            "url": "https://newsinfo.inquirer.net/2228326/barmm-iligan-diocese-back-rehab-of-mindanao-hydros",
+            "image": "https://newsinfo.inquirer.net/files/2026/03/Abdulraof-Macacua-BARMM-04March2026.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Iloilo beats heat with cooling hubs",
+            "severity": "WATCH",
+            "url": "https://newsinfo.inquirer.net/2228324/iloilo-beats-heat-with-cooling-hubs",
+            "image": "https://newsinfo.inquirer.net/files/2026/05/Regions1223643.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "The Giants host the Jacksonville Jaguars at MetLife Stadium this year.",
+            "severity": "WATCH",
+            "url": "https://www.si.com/nfl/giants/onsi/ny-giants-vs-jaguars-2026-matchup-preview-01kqzsx2758b",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4419,h_2485,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/giants_country/01kqzsxxg5qkaz6v0w5p.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Kouri Richins, author of a children\u2019s book on grief, gets life sentence for killing her husband",
+            "severity": "WATCH",
+            "url": "https://www.boston.com/news/crime/2026/05/13/kouri-richins-author-of-a-childrens-book-on-grief-gets-life-sentence-for-killing-her-husband/",
+            "image": "https://bdc2020.o0bc.com/wp-content/uploads/2026/05/Richins-6a04f8b05eda7-scaled.jpg",
+            "source": "boston"
+        },
+        {
+            "title": "Shots fired in Senate as it gives Bato dela Rosa refuge",
+            "severity": "WATCH",
+            "url": "https://newsinfo.inquirer.net/2228455/shots-fired-in-senate-as-it-gives-bato-dela-rosa-refuge",
+            "image": "https://newsinfo.inquirer.net/files/2026/05/Front-Page1223763-scaled.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Pune district administration issues heatwave advisory, directs firms to provide fans & rest areas for workers",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/pune/pune-district-administration-issues-heatwave-advisory-directs-firms-to-provide-fans-rest-areas-for-workers/articleshow/131076858.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131076857/131076857.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Light ashfall from Mayon hits Albay",
+            "severity": "WATCH",
+            "url": "https://newsinfo.inquirer.net/2228329/light-ashfall-from-mayon-hits-albay",
+            "image": "https://newsinfo.inquirer.net/files/2026/05/mayon-ashfall-14may2026.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Dubai Humanitarian spotlights impact, advancing future humanitarian priorities",
+            "severity": "WATCH",
+            "url": "https://gulfnews.com/uae/dubai-humanitarian-spotlights-impact-advancing-future-humanitarian-priorities-1.500539676",
+            "image": "https://gumlet-images.assettype.com/gulfnews/2024-11-18/y8yj15fb/The_Dubai_International_Humanitarian_City__IHC___1736b7d3248_original_ratio.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Sen. Rand Paul's Son Apologizes for Drunken D.C. Tirade About 'Gays, Jews'",
+            "severity": "WATCH",
+            "url": "https://www.tmz.com/2026/05/13/rand-pauls-son-william-apologizes-for-drunken-rant/",
+            "image": "https://imagez.tmz.com/image/17/4by3/2026/05/13/17804d0feceb4f2190e4d5ca2ba916aa_xl.jpg",
+            "source": "tmz"
+        },
+        {
+            "title": "Canvas Hack Aftermath: Congress Wants Instructure to Answer Questions",
+            "severity": "WATCH",
+            "url": "https://www.cnet.com/tech/services-and-software/canvas-hack-aftermath/",
+            "image": "https://www.cnet.com/a/img/resize/3a8a7b1274877007e4bff36424b43f977ea51693/hub/2026/05/12/d2cce03a-23a6-44d4-acf0-3051d1cddd99/gettyimages-2275025117.jpg?auto=webp&fit=crop&height=614&width=1092",
+            "source": "cnet"
+        },
+        {
+            "title": "Cheboygan boys golf fifth at NSC finals, Charlevoix earns team title",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/cheboygan-boys-golf-fifth-nsc-212311964.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/Q24ZMMy1JyowrRks999ixQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0yMzQyO2NmPXdlYnA-/https://media.zenfs.com/en/cheboygan-daily-tribune/b81c402e83d1c02e6cf1e7b360b620c2",
             "source": "yahoo"
         },
         {
-            "title": "New coating test improves conductivity of lithium-ion batteries in under 5 minutes",
+            "title": "CIT chief told she could be fired for disclosing misconduct probe",
             "severity": "WATCH",
-            "url": "https://interestingengineering.com/energy/lithium-battery-slurry-sweet-spot",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/05/Untitled-design-2026-05-14T001454.440.jpg",
-            "source": "interestingengineering"
-        },
-        {
-            "title": "Form 13F LFL Advisers For: 13 May",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/filings/form-13f-lfl-advisers-for-13-may-93CH-4432224",
-            "image": "https://i-invdn-com.investing.com/news/World_News_8_800x533_L_1420026210.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Form 13F Rakuten Mobile For: 13 May",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/filings/form-13f-rakuten-mobile-for-13-may-93CH-4432227",
-            "image": "https://i-invdn-com.investing.com/news/news_headline_rolled_69x52._800x533_L_1419494221.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Trump\u2019s bizarre behavior often gets a pass. That\u2019s starting to change",
-            "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/articles/trump-bizarre-behavior-often-gets-155223111.html",
-            "image": "https://media.zenfs.com/en/cnn_articles_875/b3a0caa54f1b5485aec5ece632728dd3",
-            "source": "yahoo"
-        },
-        {
-            "title": "Miami Beach commissioner funded billboards targeting activists: court filing",
-            "severity": "WATCH",
-            "url": "https://www.miamiherald.com/news/local/community/miami-dade/miami-beach/article315739327.html",
-            "image": "https://www.miamiherald.com/public/latest-news/gd0k98/picture315740316/alternates/FREE_1140/screenshotJVP.png",
-            "source": "miamiherald"
-        },
-        {
-            "title": "BBC The One Show viewers in disbelief as guest drops F-bomb live on air",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/tv/tv-news/bbc-one-show-viewers-disbelief-37152628",
-            "image": "https://i2-prod.irishmirror.ie/incoming/article28111944.ece/ALTERNATES/s615/1_The-One-Shows-Alex-Scott-fights-back-tears-as-she-recounts-hitting-rock-bottom-during-alcohol-battl.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Economists divided on extent of property price hit from budget tax overhaul",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-05-14/property-tax-changes-tipped-to-hit-home-prices-budget/106674242",
-            "image": "https://live-production.wcms.abc-cdn.net.au/ed6fa4daf867d04fb2b2120848eaf1f4?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=273&width=862&height=485",
+            "url": "https://www.abc.net.au/news/2026-05-14/cit-ceo-margot-mcneill-tafe-nsw-documents/106675876",
+            "image": "https://live-production.wcms.abc-cdn.net.au/945486c9f1c61b5591420f86f5d54844?impolicy=wcms_crop_resize&cropH=485&cropW=862&xPos=0&yPos=0&width=862&height=485",
             "source": "abc_net"
         },
         {
-            "title": "Father Bought Paper for Rs.30 Lakh, Son Was Appearing for NEET: The Family At the Heart of Paper Leak",
+            "title": "Southampton's spy is mocked in hilarious new Paddy Power video about their play-off scandal",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/education/father-bought-paper-for-rs-30-lakh-son-was-appearing-for-neet-the-family-at-the-heart-of-paper-leak-article-154313125",
-            "image": "https://images.timesnownews.com/thumb/msid-154313173,width-1280,height-720,resizemode-75/154313173.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "19 farmers cheated of Rs 47L in wheat procurement scam in Kutch",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/rajkot/19-farmers-cheated-of-rs-47l-in-wheat-procurement-scam-in-kutch/articleshow/131074803.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131074802/131074802.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "In the wake of Parthi Kandavel investigation, a brief history of Toronto Council and police",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com/news/gta/in-the-wake-of-parthi-kandavel-investigation-a-brief-history-of-toronto-council-and-police/article_083c72e7-495b-48dd-947a-7b773eb0d852.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/3/28/32894078-d848-5028-9376-21f23f0ee669/6a0398cf2c4cf.image.jpg?crop=1782%2C936%2C0%2C113&resize=1200%2C630&order=crop%2Cresize",
-            "source": "thestar"
+            "url": "https://www.dailymail.com/sport/football/article-15814683/Southamptons-spy-mocked-hilarious-new-Paddy-Power-video-play-scandal.html",
+            "image": "https://i.dailymail.com/1s/2026/05/13/21/108589843-0-image-a-31_1778705499298.jpg",
+            "source": "dailymailuk"
         }
     ],
-    "Last_Updated": "2026-05-14T06:50:24.449449Z"
+    "Last_Updated": "2026-05-14T10:26:06.352784Z"
 }
