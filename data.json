@@ -1,239 +1,281 @@
 {
-    "AGRI_Score": 65.9,
-    "Velocity": "+1.2",
+    "AGRI_Score": 64.4,
+    "Velocity": "-1.5",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 65.9 is predominantly driven by extreme concerns in Energy & Maritime Disruption and elevated Geopolitical Conflict Intensity. Iran's explicit warning that renewed conflict with the US could spread 'far beyond the Middle East' directly fuels fears of critical energy chokepoint disruptions and wider regional instability. Concurrently, persistent cost pressures affecting Japan's manufacturing sector indicate enduring Trade & Supply Chain Stress across global networks.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.4 is significantly elevated, primarily driven by extreme levels in 'Energy & Maritime Disruption' (100) and high 'Geopolitical Conflict Intensity' (72.7). This volatility is a direct consequence of escalating tensions between the US and Iran, with headlines like \"Trump Issues Final Ultimatum To Iran As Tensions Hit Boiling Point\" underscoring the precarious geopolitical landscape. Consequently, oil markets are reacting sharply, as seen in \"Oil rebounds on Iran peace deal uncertainty and inventory drawdowns,\" indicating substantial energy market sensitivity to these developments.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 78.4,
+        "Geopolitical Conflict Intensity": 72.7,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 66.7,
+        "Trade & Supply Chain Stress": 62.4,
         "Sovereign Financial Stress": 56.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.4,
-        "Cyber & Infrastructure Threats": 66.7,
+        "Sanctions & Regulatory Fragmentation": 56.0,
+        "Cyber & Infrastructure Threats": 68.8,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical tensions remain highly elevated, primarily driven by Iran's explicit warning that any renewed conflict with the US could expand 'far beyond the Middle East'. Regional defense postures are also shifting, as seen with Malaysia weighing S. Korean missile systems and India-South Korea signing a defense pact, indicating a dynamic and potentially volatile security landscape.",
-        "Energy & Maritime Disruption": "This pillar is at its maximum, reflecting extreme concern over potential disruptions in a critical energy region. Iran's stark warning about conflict spreading 'far beyond the Middle East' directly suggests a high risk to key maritime chokepoints and global energy flows.",
-        "Trade & Supply Chain Stress": "Significant stress persists in trade and supply chains, evidenced by Japan's flash PMI slipping to a five-month low and surging selling prices, indicating persistent cost pressures on manufacturers. While Japan's exports saw a robust rise year-on-year, the underlying cost challenges suggest continued fragility in global supply networks.",
-        "Sovereign Financial Stress": "Sovereign financial stress registers at a moderate level, influenced by economic indicators like Japan's slowing factory activity and rising cost pressures which could impact national revenues. Additionally, local governance issues, such as the 'civic limbo' affecting Bhakti Park, point to inefficiencies that can contribute to broader fiscal challenges.",
-        "Currency & Liquidity Pressure": "Currency pressures are present but not extreme, as indicated by the dollar rally pausing on 'Iran deal hopes' which temporarily eases risk-off sentiment. The yen also showed movement, edging back from its intervention zone, reflecting ongoing sensitivity to global geopolitical and economic developments.",
-        "Sanctions & Regulatory Fragmentation": "This pillar shows moderate fragmentation due to instances like Elon Musk's X admitting noncompliance with Australian child protection requests, highlighting challenges in international regulatory oversight. Furthermore, shifts in defense procurement, such as Malaysia evaluating S. Korean missile systems after a previous deal collapsed, underscore the complex and evolving landscape of international trade and regulatory alignment.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are elevated, as evidenced by strategic partnerships like India and South Korea signing a pact on defense and cyber cooperation, acknowledging the growing digital threat landscape. While new data center investments, such as Google's expansion in Missouri, enhance capabilities, they also present expanded potential targets for sophisticated cyber adversaries.",
-        "Climate & Resource Shock": "This pillar registers at a lower level of concern, though significant risks persist from health crises, as warned by the discussion around Ebola and hantavirus outbreaks and the need for pandemic preparedness. Resource-related challenges, like the paused uranium drilling permit hearing due to a federal lawsuit, reflect ongoing environmental and legal complexities in resource extraction."
+        "Geopolitical Conflict Intensity": "Escalating rhetoric and military posturing between the US and Iran are the primary drivers of this elevated risk, as evidenced by \"Trump Issues Final Ultimatum To Iran As Tensions Hit Boiling Point.\" The ongoing uncertainty surrounding potential peace deals, alongside public weapons demonstrations in Tehran, signals a heightened potential for regional confrontation.",
+        "Energy & Maritime Disruption": "Energy markets are reacting strongly to the geopolitical uncertainty surrounding Iran, with \"Oil rebounds on Iran peace deal uncertainty and inventory drawdowns\" indicating significant volatility. Concerns over the Strait of Hormuz, as mentioned in the \"Transcript: Mitsotakis on Hormuz, Iran and how to escape a debt trap,\" highlight potential chokepoint risks for global oil transit.",
+        "Trade & Supply Chain Stress": "While no direct trade disruption is explicitly mentioned, escalating geopolitical tensions with Iran and Cuba, as implied by US indictments and Trump's rhetoric, create a precarious environment for international trade flows. The overall policy direction suggesting increased pressure on key economies could introduce future friction in supply chains.",
+        "Sovereign Financial Stress": "Discussions around escaping a \"debt trap,\" particularly concerning nations like Greece in Mitsotakis's transcript, indicate persistent underlying sovereign financial vulnerabilities in certain regions. Furthermore, internal economic crackdowns, such as Prabowo\u2019s actions in Indonesia, introduce localized policy uncertainty that could impact investor confidence.",
+        "Currency & Liquidity Pressure": "While the Rupee showed a significant rebound from a \"record low,\" the initial depth of its decline suggests ongoing, albeit fluctuating, currency volatility. Global geopolitical tensions and commodity market uncertainty continue to exert pressure on emerging market currencies and liquidity conditions.",
+        "Sanctions & Regulatory Fragmentation": "The US indictment of former Cuban President Ra\u00fal Castro represents a significant escalation of regulatory pressure and potential for new sanctions against Cuba, as highlighted by \"US raises pressure on Cuba as it indicts former President Raul Castro on murder charges.\" This action contributes to a global environment of increasing regulatory fragmentation and the weaponization of legal tools in international relations.",
+        "Cyber & Infrastructure Threats": "The breach of \"GitHub Internal Repositories via Malicious Nx Console VS Code Extension\" highlights a persistent and evolving threat landscape targeting critical development infrastructure. Significant financial penalties for platform safety breaches, such as the Australian judge's fine against X, underscore the increasing regulatory scrutiny and accountability for cyber security failures in public-facing services.",
+        "Climate & Resource Shock": "While there are ongoing policy debates regarding resource extraction, such as \"Angus Taylor spruik[ing] gas extraction as SA Liberals oppose fracking bid,\" the immediate news feed does not indicate any acute climate events or sudden resource shocks. The current risk level suggests routine monitoring of environmental policies and resource management practices."
     },
     "All_Alerts": [
         {
-            "title": "Iran warns any renewed conflict with the US could spread 'far beyond the Middle East'",
+            "title": "Oil rebounds on Iran peace deal uncertainty and inventory drawdowns By Reuters - Investing.com",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/defence/iran-warns-any-renewed-conflict-with-the-us-could-spread-far-beyond-the-middle-east/articleshow/131237892.cms",
-            "image": "https://img.etimg.com/thumb/msid-131237904,resizemode-4,width-1200,height-900,imgsize-31106,overlay-etdefence/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Google Deepens Missouri Roots with New Data Center, Energy, and Community Investments",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/05/n52708123/google-deepens-missouri-roots-with-new-data-center-energy-and-community-investments",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Japan flash PMI slips to five-month low in May as selling prices hit record high",
-            "severity": "HIGH",
-            "url": "https://investinglive.com/news/japan-flash-pmi-slips-to-five-month-low-in-may-as-selling-prices-hit-record-high-20260521/",
-            "image": "https://images.investinglive.com/images/Japan%20flash%20pmi%2021%20May%202026_id_3852b9b0-bbd1-4f8e-99bd-82c8bf88a3b3_size975.jpg",
-            "source": "forexlive"
-        },
-        {
-            "title": "Dollar rally pauses on Iran deal hopes; yen edges back from intervention zone",
-            "severity": "HIGH",
-            "url": "https://www.channelnewsasia.com/business/dollar-rally-pauses-iran-deal-hopes-yen-edges-back-intervention-zone-6133396",
-            "image": "https://dam.mediacorp.sg/image/upload/s--74527PyI--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-05-21T004713Z_1_LYNXMPEM4K01U_RTROPTP_3_GLOBAL-FOREX.JPG?itok=TUyHSLKB",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "The Ebola and hantavirus outbreaks warn us we must be better prepared if we are to prevent the next pandemic | Helen Clark",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/commentisfree/2026/may/21/the-ebola-and-hantavirus-outbreaks-warn-us-we-must-be-better-prepared-if-we-are-to-prevent-the-next-pandemic",
-            "image": "https://i.guim.co.uk/img/media/3098cee822053df3632abdbee9d024c4a25bd76a/506_2_2897_2316/master/2897.jpg?width=140&quality=85&auto=format&fit=max&s=cf231bb8cec0e97e169d51d29193ec19",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "Japan's factory activity expands at slower pace, cost pressures surge",
-            "severity": "HIGH",
-            "url": "https://www.channelnewsasia.com/business/japans-factory-activity-expands-slower-pace-cost-pressures-surge-6133401",
-            "image": "https://dam.mediacorp.sg/image/upload/s--7NMnUaW4--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-05-21T004307Z_1_LYNXMPEM4K01O_RTROPTP_3_JAPAN-ECONOMY-HIGASHIOSAKA.JPG?itok=MEdqLNLy",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Premium Bhakti Park trapped in civic limbo",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/cities/mumbai-news/premium-bhakti-park-trapped-in-civic-limbo-101779303992690.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/20/1600x900/logo/-p-Premium-Bhakti-Park-trapped-in-civic-limbo--p-_1779303990333.jpeg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Japan April exports rise 14.8% year/year despite Middle East conflict",
-            "severity": "HIGH",
-            "url": "https://au.investing.com/news/economy-news/japan-april-exports-rise-148-yearyear-despite-middle-east-conflict-4448703",
-            "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM4K018_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Brasada Capital Q1 2026 Client Letter",
-            "severity": "HIGH",
-            "url": "https://seekingalpha.com/article/4907301-brasada-capital-q1-2026-client-letter",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2251858283/image_2251858283.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Teacher\u2019s assistant at San Diego mosque recalls students\u2019 bravery as gunmen banged on doors",
-            "severity": "HIGH",
-            "url": "https://www.nbcnews.com/news/us-news/teachers-assistant-san-diego-mosque-recalls-students-bravery-gunmen-ba-rcna346216",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-05/260519-san-diego-shooting-rs-0c14a0.jpg",
-            "source": "nbcnews"
-        },
-        {
-            "title": "Malaysia weighs S. Korean missile systems after Norway deal collapse",
-            "severity": "HIGH",
-            "url": "https://www.upi.com/Top_News/World-News/2026/05/20/malaysia-norwegian-naval-missile-system-delivery-canceled/4061779321776/",
-            "image": "https://cdnph.upi.com/ph/st/th/4061779321776/2026/upi_com/78075420cd25a65d312283caf5d888fd/v1.5/Malaysia-weighs-S-Korean-missile-systems-after-Norway-deal-collapse.jpg",
-            "source": "upi"
-        },
-        {
-            "title": "All the Harry Potter series' controversies from death threats to bullying accusations and JK Rowling's outspoken trans views as Ginny Weasley child actor drops out",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/tvshowbiz/article-15833837/All-Harry-Potter-series-controversies-death-threats-bullying-accusations-JK-Rowlings-outspoken-trans-views-Ginny-Weasley-child-actor-drops-out.html",
-            "image": "https://i.dailymail.com/1s/2026/05/20/13/108747909-0-image-a-42_1779279316415.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Million-pound home is demolished piece by piece after planning breach: Couple who illegally built three-bed home instead of a horse breeding clinic are forced to tear it down",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-15834771/Million-pound-home-demolished-planning-breach-Couple-illegally-built-three-bed-home-instead-horse-breeding-clinic-forced-tear-down.html",
-            "image": "https://i.dailymail.com/1s/2026/05/20/17/108755699-0-image-a-21_1779294715533.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Elon Musk's X admits noncompliance with Australia child protection request - Yahoo",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQLWtienZXak9NZzdoYVZ0UjRuY3MyQ0RTU2pWbnFaMDZubjdud25DbE9LNGY5NllOQk9MZ21RdGZ0RGt6UW42eDZSY2F2bFk1S0Fmd3ZlZklndDhPTGNOMnc1RVlkdkRLWU5BWTN5SjhtUVdPZ3doMlhySldLbkZuOEpFRnduTmxaWWtGRw?oc=5",
-            "image": "https://images.pexels.com/photos/7634552/pexels-photo-7634552.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUkludFUxQTRCbGZ1eDdOakljYUJJRlQtb01JSlZubS1QdlItbm4tdmI4RzA3cFVaSm1DUDVTUWtHdlhVUk0ydEV5RFJRQktOSjZUTHRtOFVJcmFZbVpjQmlsdkJ0NnR2NGw4dHhDT0VOeXNnMWdGRmtXeG9za2NHOGsta2M1bFNOWE9zVHlubHRQdTFjQlQxYml4ZjUxSTdCdE9lbUZQWGxWcTFsRFlHRzA0YlpnRF9OTFM5WmItaGNfVHY1YkFJ?oc=5",
+            "image": "https://images.pexels.com/photos/33218944/pexels-photo-33218944.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "India, South Korea Sign Pact On Defence, Cyber, Training Cooperation",
+            "title": "'Bibi\u2019s Hair Was On Fire\u2019: Trump And Netanyahu Clash Over Iran Strategy In Tense Phone Call",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/news/world/trump-netanyahu-phone-call-clash-over-iran-war-strategy-in-tense-phone-call-bibi-hair-was-on-fire-1845065",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/08/ea9531e59c2f0a8d308706d4c50e808b1775666821368708_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "Malay unity should not be misinterpreted, mutual respect strengthens nation stability, says S'gor Ruler",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/news/nation/2026/05/21/malay-unity-should-not-be-misinterpreted-mutual-respect-strengthens-nation-stability-says-s039gor-ruler",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/21/3919331.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "US raises pressure on Cuba as it indicts former President Raul Castro on murder charges",
+            "severity": "HIGH",
+            "url": "http://www.euronews.com/2026/05/21/us-raises-pressure-on-cuba-as-it-indicts-former-president-raul-castro-on-murder-charges",
+            "image": "https://images.euronews.com/articles/stories/09/76/65/92/1440x810_cmsv2_2796bc35-1537-52b6-bc4b-cfd59311e9be-9766592.jpg",
+            "source": "euronews"
+        },
+        {
+            "title": "Code of Conduct Breach - Match 65: KKR v MI - Hardik Pandya - IPL T20",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVk0wN0E2U2Z1cFZDbkxKdmN1eU1OMGsyWmV3MzhoZ0tId1NHQmJCMlR1V3VnSW5ua3NTU2xIT3VyalNocDlNdXNScm9TV3JBRklwTlpOcmdHbkk5QXBIS2U0ZUU0RFZabVNKaVlsZm9rOWhPNmwyUGlsRDVSOWZfTjZuWFl2bTUtYTFFV1FjUEw?oc=5",
+            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension - The Hacker News",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPb21XSjEyZ0F5ODdWeEVGQWRPNWl0SXo4Ty1lM3ZzZ0hHUWJ2UEhZMEpSOVFWQTRfSkRtZ0VnVkVDRU81S3lCQ081cGZ6RGZha1ZvVkNHWm1lWU9hTnZnb0czMTVVaGlhN21Bc1hGdUFHR1gyeTY4WDh1Z3I4MFlvRFhB?oc=5",
+            "image": "https://images.pexels.com/photos/9830816/pexels-photo-9830816.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "\u2018Game Over After This\u2019: Trump Issues Final Ultimatum To Iran As Tensions Hit Boiling Point | On Cam",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/videos/international/game-over-after-this-trump-issues-final-ultimatum-to-iran-as-tensions-hit-boiling-point-on-cam/videoshow/131239325.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-131239325/131239325.jpg?resizemode=4",
+            "source": "toi"
+        },
+        {
+            "title": "Australian judge fines X $465,000 for online safety breach after 3-year court battle",
+            "severity": "HIGH",
+            "url": "https://abcnews.com/Technology/wireStory/australian-judge-fines-465000-online-safety-breach-after-133172477",
+            "image": "https://i.abcnewsfe.com/a/af09d23d-cf02-4dc4-98d3-faa5b73f2cf2/wirestory_9ade22700f846e775cf07837364e52dc_16x9.jpg?w=1600",
+            "source": "abcnews"
+        },
+        {
+            "title": "Contractor issued show-cause letter over viral video of pickup ramming stray dog, says exco",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/news/nation/2026/05/21/contractor-issued-show-cause-letter-over-viral-video-of-pickup-ramming-stray-dog-says-exco",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/21/3919205.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "In Iran's capital, weapons demonstrations send a signal at home and abroad as threat of war remains",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/global-trends/in-irans-capital-weapons-demonstrations-send-a-signal-at-home-and-abroad-as-threat-of-war-remains/articleshow/131238852.cms",
+            "image": "https://img.etimg.com/thumb/msid-131239199,resizemode-4,width-1200,height-900,imgsize-157762,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "\u2018Good answers only\u2019: Trump pressures Iran as Tehran studies new US proposal",
             "severity": "MEDIUM",
-            "url": "https://www.ndtv.com/india-news/india-south-korea-sign-pact-on-defence-cyber-training-cooperation-11525565",
-            "image": "https://c.ndtvimg.com/2026-05/2v9vk4qk_rajnath-singh-and-south-korean-minister_625x300_21_May_26.jpeg",
+            "url": "https://english.mathrubhumi.com/news/world/iran-us-diplomatic-talks-west-asia-2026-iqfqgekb",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1r9bkoniotzss6u9eah/0/trump-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Transcript: Mitsotakis on Hormuz, Iran and how to escape a debt trap",
+            "severity": "MEDIUM",
+            "url": "https://www.ft.com/content/cb6550b9-2667-4cee-ab7c-50d930ae2040",
+            "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F0c93e85d-00fb-43b9-8816-c36075d8c87c.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "financialtimes"
+        },
+        {
+            "title": "Colorado Democrats censure Gov. Jared Polis for commuting election denier\u2019s sentence",
+            "severity": "MEDIUM",
+            "url": "https://www.nbcnews.com/politics/politics-news/colorado-democrats-censure-gov-jared-polis-commuting-election-deniers-rcna346249",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-05/260520-Jared-Polis-vsb-0004-bd5c77.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "Rupee rebounds 61 paise from record low, rises to 96.25 against US dollar",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/rupee-rebounds-61-paise-from-record-closing-low-rises-to-96-25-against-us-dollar-rupee-today-on-may-21-2026/articleshow/131239568.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131239724/131239724.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Chris Christie Says Trump Ran On Bringing Prices Down, But He's Doing Venezuela, Iran, Cuba, China Instead: 'He Hasn't Delivered'",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/news/politics/26/05/52708741/chris-christie-trump-venezuela-iran-cuba-china-not-delivered",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/05/21/National-Harbor--Md---March-6--2014-New-.jpeg?optimize=medium&dpr=1&auto=webp&height=675&width=1200&fit=crop",
+            "source": "benzinga"
+        },
+        {
+            "title": "Israeli minister's taunting of activists no surprise to those following his career",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-05-21/israel-ben-gvir-condemnation-of-flotilla-activists-treatment/106705168",
+            "image": "https://live-production.wcms.abc-cdn.net.au/646226f4d9d58a5c1094218bf1cc01c9?impolicy=wcms_crop_resize&cropH=676&cropW=1202&xPos=0&yPos=737&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Angus Taylor spruiks gas extraction as SA Liberals oppose fracking bid",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-05-21/federal-and-sa-politicians-split-on-gas-fracking/106706402",
+            "image": "https://live-production.wcms.abc-cdn.net.au/3d1edb407e509096b83e1d9a0e019539?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "New US Ambassador to PH Lee Lipton set to begin post in mid-June",
+            "severity": "WATCH",
+            "url": "https://usa.inquirer.net/198035/new-us-ambassador-to-ph-lee-lipton-set-to-begin-post-in-mid-june",
+            "image": "https://usa.inquirer.net/files/2026/05/Lee-Lipton.png",
+            "source": "inquirer"
+        },
+        {
+            "title": "Why has the US indicted former Cuban president Rau\u0301l Castro?",
+            "severity": "WATCH",
+            "url": "https://au.news.yahoo.com/why-us-indicted-former-cuban-043254749.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Prabowo\u2019s biggest crackdown on Indonesia tycoons shocked his own officials - The Straits Times",
+            "severity": "WATCH",
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdldWczF2ZU9hbmVXamlMMHhCbWZvZ1JMbDJremxsNjZzSUZsQ3MyRUZrOEhIQmp4LTRJcV90MWlZdFlHV0NEcTVYTG5KaktpUzAwbU5OZXB0TUlnSDNpQ3NTZGh4XzdrMy1zc2FRZWx3NElGSWlfWWZ4YXdFN1JLMm9Ib1JUNE13TUp5alFPNGN6MkI4em5TYTdGMEdVRWVHNXAzTDZ1RFk?oc=5",
+            "image": "https://images.pexels.com/photos/26604099/pexels-photo-26604099.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Quote of the day by Field Marshal KM Cariappa: \u201cLeadership is about responsibility, not rank\u201d",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/lifestyle/quote-of-the-day-by-field-marshal-km-cariappa-leadership-is-about-responsibility-not-rank-article-13926098.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/01/20260123130421_Field-Marshal-KM-Cariappa.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "'Cockroach Janta Party founder Abhijeet Dipke's post for AAP's Manish Sisodia before leaving for studies in US emerges: 'No distance will weaken my commitment...'",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/new-updates/cockroach-janta-party-founder-abhijeet-dipkes-post-for-aaps-manish-sisodia-before-leaving-for-studies-in-us-emerges-no-distance-will-weaken-my-commitment-/articleshow/131239690.cms",
+            "image": "https://img.etimg.com/thumb/msid-131239727,resizemode-4,width-1200,height-900,imgsize-51376,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "\"No Faith, No Law, No Morality\": India Slams Pak's 'Genocidal Acts' At UNSC",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/world-news/india-slams-paks-genocidal-acts-at-unsc-no-faith-no-law-no-morality-11526108",
+            "image": "https://c.ndtvimg.com/2025-12/tr471roc_harish-parvathaneni_625x300_11_December_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
             "source": "ndtv"
         },
         {
-            "title": "SpaceX IPO filing lays bare losses and Musk control as it stakes future on AI",
+            "title": "From TACO to FOMO: How retail traders turned Trump-driven volatility into a playbook",
             "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/business/spacex-ipo-filing-lays-bare-losses-and-musk-control-it-stakes-future-ai-6132816",
-            "image": "https://dam.mediacorp.sg/image/upload/s--n0KkyN9x--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-05-20T212815Z_2_LYNXMPEM4J1VF_RTROPTP_3_SPACEX-STARSHIP.JPG?itok=nsMxv8cS",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Best of BS Opinion: Govt must allow greater price adjustments",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/opinion/specials/best-of-bs-opinion-govt-must-allow-greater-price-adjustments-126052001830_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260520/thumb-126052001830.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Apr 6, 2026; Indianapolis, IN, USA; Connecticut Huskies head coach Dan Hurley reacts against the Michigan Wolverines in the second half during the national championship of the Final Four of the men's 2026 NCAA Tournament at Lucas Oil Stadium.",
-            "severity": "WATCH",
-            "url": "https://www.si.com/college/cbb-hq/schedule/newly-forming-diamond-cup-will-create-another-logistical-nightmare-for-longstanding-tournaments",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3667,h_2062,x_0,y_119/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/college_basketball_hq_on_si/01ks3z7vkfdb7fvngqqg.jpg",
-            "source": "si"
-        },
-        {
-            "title": "Project opponent files federal lawsuit; uranium drilling permit hearing paused",
-            "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/articles/project-opponent-files-federal-lawsuit-004448334.html",
-            "image": "https://media.zenfs.com/en/south_dakota_searchlight_articles_601/cb485c59bdef6c53a17ae10dabc57fc8",
+            "url": "https://ca.finance.yahoo.com/news/taco-fomo-retail-traders-turned-043757468.html",
+            "image": "https://media.zenfs.com/en/reuters.ca/83d125432a5bc3c0dcff983de82d7bf4",
             "source": "yahoo"
         },
         {
-            "title": "Harry Styles Is Pleasing Fans Again... This Time With His First Loop Earplugs Collab",
+            "title": "Top 10 billionaires control $2.9 trillion: do they hold their wealth in cash?",
             "severity": "WATCH",
-            "url": "https://www.rollingstone.com/product-recommendations/lifestyle/where-to-buy-harry-styles-pleasing-loop-earplugs-online-1235566584/",
-            "image": "https://www.rollingstone.com/wp-content/uploads/2026/05/PleasingxLoop-Lifestyle-6.png",
-            "source": "rollingstone"
+            "url": "https://gulfnews.com/technology/top-10-billionaires-control-29-trillion-do-they-hold-their-wealth-in-cash-1.500548140",
+            "image": "https://gumlet-images.assettype.com/gulfnews/2026-05-21/ravpt7ua/Top-10-richest.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
         },
         {
-            "title": "UK consumer confidence rises slightly amid signs of Iran de-escalation",
+            "title": "Russian Jets 'Dangerously' Intercept UK's Rivet Joint Aircraft Operating Over Bl...",
             "severity": "WATCH",
-            "url": "https://finance.yahoo.com/economy/articles/uk-consumer-confidence-rises-slightly-004039960.html",
-            "image": "https://media.zenfs.com/en/dpa_international_526/7588741d0f95257c64471511c085ed03",
-            "source": "yahoo"
+            "url": "https://www.timesnownews.com/world/uk/russian-jets-dangerously-intercepted-uks-rivet-joint-aircraft-operating-over-black-sea-raf-shares-video-article-154365471",
+            "image": "https://images.timesnownews.com/thumb/msid-154365557,width-1280,height-720,resizemode-75/154365557.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "10 Shows From The '60s That Are Still Worth Watching Today",
+            "title": "Sandisk: Momentum Is Supported By Fundamentals",
             "severity": "WATCH",
-            "url": "https://screenrant.com/60s-tv-shows-still-worth-watching/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/a-promo-shot-for-the-dick-van-dyke-show.jpg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
+            "url": "https://seekingalpha.com/article/4907328-sandisk-stock-momentum-supported-by-fundamentals",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/471505909/image_471505909.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
         },
         {
-            "title": "Taste of Life: How 19th-century institutes shaped western India\u2019s agri-education",
+            "title": "Tesla inches one step closer to achieve 100 GW US solar manufacturing ambition: Report",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/pune-news/taste-of-life-how-19th-century-institutes-shaped-western-india-s-agrieducation-101779304113294.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/20/1600x900/logo/Richard-Temple-was-one-of-the-strongest-advocates-_1779304111074.jpg",
-            "source": "hindustantimes"
+            "url": "https://interestingengineering.com/energy/tesla-solar-manufacturing-capacity",
+            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/05/solar-facility.jpg",
+            "source": "interestingengineering"
         },
         {
-            "title": "Phoenix and Raven Become First Canadian Telehealth Platforms to Offer Generic Semaglutide Direct to Patients",
+            "title": "Why These Are Sobering Times for Alcohol Companies",
             "severity": "WATCH",
-            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/phoenix-and-raven-become-first-canadian-telehealth-platforms-to-offer-generic-semaglutide-direct-to-patients",
-            "image": "https://images.pexels.com/photos/11816424/pexels-photo-11816424.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://financialpost.com/pmn/business-pmn/why-these-are-sobering-times-for-alcohol-companies",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/05/674871949.jpg",
             "source": "financialpost"
         },
         {
-            "title": "Putin, Xi school US over 'irresponsible' foreign policy in Beijing Summit after Trump's visit",
+            "title": "Oil Edges Up After Plunging on Optimism Over US-Iran Agreement",
             "severity": "WATCH",
-            "url": "https://www.firstpost.com/world/putin-xi-school-us-over-irresponsible-foreign-policy-in-beijing-summit-after-trumps-visit-14013409.html",
-            "image": "https://images.firstpost.com/uploads/2026/05/The-battle-for-Kyiv-2026-05-20T131845.668-2026-05-48b35bdc58215d9bcea746b6ac466bd7-1200x675.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "First, the Strait of Hormuz, what choke point could be next?",
-            "severity": "WATCH",
-            "url": "https://www.washingtonexaminer.com/policy/defense/4575349/strait-hormuz-iran-choke-point-global-economy/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/05/chokepoints3-e1779310379759.jpg?w=696",
-            "source": "washingtonexaminer"
-        },
-        {
-            "title": "Former Officials Named in Microsoft DOJ Complaint",
-            "severity": "WATCH",
-            "url": "https://www.newsmax.com/newsfront/lisa-monaco-doj-microsoft/2026/05/20/id/1257008",
-            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=37a56a8d-8296-4e64-b5b4-872e94b9e086&SiteName=Newsmax",
-            "source": "newsmax"
-        },
-        {
-            "title": "Israel intercepts Gaza-bound aid flotilla, detains hundreds of activists",
-            "severity": "WATCH",
-            "url": "http://english.people.com.cn/n3/2026/0521/c90000-20458624.html",
-            "image": "http://english.people.com.cn/mediafile/pic/BIG/20260521/69/17072651140308558357.png",
-            "source": "en_people_cn"
-        },
-        {
-            "title": "Arrest after suspicious item triggers airport alarm",
-            "severity": "WATCH",
-            "url": "https://au.news.yahoo.com/arrest-suspicious-item-triggers-airport-000514477.html",
-            "image": "https://media.zenfs.com/en/aap.com.au/d73ad1c683e125ec30a88001a9a277e3",
+            "url": "https://ca.finance.yahoo.com/news/oil-edges-plunging-optimism-over-001635501.html",
+            "image": "https://media.zenfs.com/en/bloomberg_holding_pen_162/b93d6d429b637d0c96201ce245b6965d",
             "source": "yahoo"
         },
         {
-            "title": "Who Died (and Who Lived) in The Boys Finale",
+            "title": "Action plan to create 50,000 advanced manufacturing jobs in the West Midlands",
             "severity": "WATCH",
-            "url": "https://me.ign.com/en/the-boys-26/244360/who-died-and-who-lived-in-the-boys-finale",
-            "image": "https://sm.ign.com/ign_me/feature/w/who-died-a/who-died-and-who-lived-in-the-boys-finale_kk1z.jpg",
-            "source": "ign_me"
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/action-plan-drawn-up-create-33981193",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article33981192.ece/ALTERNATES/s615/0_Advanced-robotics-operates-in-a-high-tech-assembly-line-for-electronic-devices-at-a-manufacturing-facility-3D.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "5 Betrayals you won\u2019t see coming at WWE Saturday Night\u2019s Main Event XLIV 2026",
+            "severity": "WATCH",
+            "url": "https://www.sportskeeda.com/wwe/5-betrayals-won-t-see-coming-wwe-saturday-night-s-main-event-xliv-2026",
+            "image": "https://staticg.sportskeeda.com/editor/2026/05/f8cc2-17793304139045-1920.jpg",
+            "source": "sportskeeda"
+        },
+        {
+            "title": "Loud, broken, baffling: Britain reflects on America at 250 in the age of Trump",
+            "severity": "WATCH",
+            "url": "http://economictimes.indiatimes.com/news/international/global-trends/loud-broken-baffling-britain-reflects-on-america-in-the-age-of-trump/articleshow/131239560.cms",
+            "image": "https://img.etimg.com/thumb/msid-131239630,resizemode-4,width-1200,height-900,imgsize-155348,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "French Open staring at players' revolt? Tennis stars plan major media presence decision",
+            "severity": "WATCH",
+            "url": "https://www.firstpost.com/sports/tennis-news/french-open-2026-player-revolt-pay-dispute-grand-slam-14013455.html",
+            "image": "https://images.firstpost.com/uploads/2026/05/french-open-2026-05-4cf6c6de83c10de24916a196f52152aa-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Delhi Power Demand Crosses 8,000MW For First Time This Season Amid Relentless Heatwave",
+            "severity": "WATCH",
+            "url": "https://news.abplive.com/cities/delhi-heatwave-delhi-power-demand-crosses-8-000mw-for-first-time-amid-relentless-heatwave-1845049",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/05/21/83e6b0ae4bbf60d108b89acbcd07236d1779334194966272_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "Delhi\u2019s buffer plan to tackle water demand suffers setback after ammonia surge",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/delhi-news/delhis-buffer-plan-to-tackle-water-demand-suffers-setback-after-ammonia-surge-river-yamuna-101779329091643.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/21/1600x900/logo/Wazirabad-Barrage--2_1779329439683_1779329467696_56b43186-48a0-4c30-89cb-a60907275c4c.jpg",
+            "source": "hindustantimes"
         }
     ],
-    "Last_Updated": "2026-05-21T12:48:59.536195Z"
+    "Last_Updated": "2026-05-21T16:41:21.336126Z"
 }
