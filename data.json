@@ -1,281 +1,223 @@
 {
-    "AGRI_Score": 64.3,
-    "Velocity": "-0.4",
+    "AGRI_Score": 64.8,
+    "Velocity": "+0.5",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.3/100 reflects a significantly elevated risk environment, primarily driven by extreme levels in Energy & Maritime Disruption and heightened Geopolitical Conflict Intensity. The considerable cost of \"US military's Operation Southern Spear has cost more than $640 million\" suggests ongoing responses to, or prevention of, disruption in strategic maritime zones, contributing to the high Energy and Maritime score. This is compounded by escalating global tensions, with \"Trump to deploy 5,000 US troops to Poland\" indicating increased military posturing. Furthermore, a substantial \"AI-Driven Surge in Google Chrome Vulnerabilities\" points to critical cyber threats exacerbating the overall risk profile.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 72.9,
+        "Geopolitical Conflict Intensity": 82.3,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 64.5,
+        "Trade & Supply Chain Stress": 60.4,
         "Sovereign Financial Stress": 55.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.2,
-        "Cyber & Infrastructure Threats": 64.5,
+        "Sanctions & Regulatory Fragmentation": 56.0,
+        "Cyber & Infrastructure Threats": 58.8,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The \"US military's Operation Southern Spear has cost more than $640 million\" indicates persistent, costly military engagement reflecting ongoing global instability. This is further exacerbated by the plan for \"Trump to deploy 5,000 US troops to Poland,\" signaling increased military posturing and heightened tensions in Eastern Europe.",
-        "Energy & Maritime Disruption": "This pillar reflects an extreme level of disruption, although the provided news feed lacks new explicit headlines detailing specific energy supply chain or maritime incidents. The high cost of the \"US military's Operation Southern Spear\" implies significant resources are being expended to manage or respond to existing threats in strategic maritime areas, thereby indicating underlying disruption.",
-        "Trade & Supply Chain Stress": "Supply chains are facing considerable stress, particularly from technological vulnerabilities. An \"AI-Driven Surge in Google Chrome Vulnerabilities: Technical, Supply Chain, and Cyber Risk Analysis\" highlights increasing digital threats to critical software components within global supply networks.",
-        "Sovereign Financial Stress": "Concerns regarding governance and public integrity contribute to sovereign financial stress. The \"DOJ: Dela Rosa \u2018a fugitive\u2019; protectors face raps\" headline points to issues of accountability and corruption that can undermine investor confidence and state credibility.",
-        "Currency & Liquidity Pressure": "This pillar indicates moderate pressure, reflecting a period of routine monitoring for currency valuations and market liquidity. No specific news in the current feed directly indicates new or escalating pressures on global currencies or liquidity.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory decisions are creating fragmentation, as evidenced by the \"Met Police warns of reduced officer numbers after mayor blocks Palantir deal.\" Such actions can hinder public service capabilities and create divergent operational standards, impacting cross-jurisdictional collaboration.",
-        "Cyber & Infrastructure Threats": "Cyber threats remain elevated and sophisticated, evidenced by an \"AI-Driven Surge in Google Chrome Vulnerabilities.\" This points to growing risks to critical digital infrastructure and software integrity, impacting a wide range of users and systems.",
-        "Climate & Resource Shock": "While the overall pillar score indicates low systemic shock, localized resource impacts are evident, such as \"Zambales fishers decry mounting losses.\" This suggests isolated, severe local issues affecting livelihoods rather than a widespread, systemic climate or resource crisis."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "US military's Operation Southern Spear has cost more than $640 million",
+            "title": "South Korea hosts America\u2019s biggest overseas military base \u2013 but what does its future look like under Trump?",
             "severity": "HIGH",
-            "url": "https://www.washingtonexaminer.com/policy/defense/4578610/us-military-operation-southern-spear-boat-strikes-640-million/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2025/10/Drug-boat-strike.png?w=696",
-            "source": "washingtonexaminer"
+            "url": "https://www.theguardian.com/world/2026/may/22/camp-humphreys-south-korea-us-military-base",
+            "image": "https://i.guim.co.uk/img/media/c3201fef33428191442a78ec22ebcfb8c0e2dd6f/442_0_4101_3280/master/4101.jpg?width=140&quality=85&auto=format&fit=max&s=5f8200c2af74958f10a0f5724a06aeeb",
+            "source": "theguardian"
         },
         {
-            "title": "Zambales fishers decry mounting losses",
+            "title": "Iran military rebuilding 'faster than expected' as Khamenei issues nuclear order",
             "severity": "HIGH",
-            "url": "https://newsinfo.inquirer.net/2232426/zambales-fishers-decry-mounting-losses",
-            "image": "https://newsinfo.inquirer.net/files/2026/05/zambales-fishermen-22may2026-scaled.jpeg",
-            "source": "inquirer"
-        },
-        {
-            "title": "DOJ: Dela Rosa \u2018a fugitive\u2019; protectors face raps",
-            "severity": "HIGH",
-            "url": "https://newsinfo.inquirer.net/2232492/doj-dela-rosa-a-fugitive-protectors-face-raps",
-            "image": "https://newsinfo.inquirer.net/files/2026/05/21-may-2026-batodlr.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "This Chicago bar was just named one of the best in all of the U.S.",
-            "severity": "HIGH",
-            "url": "https://www.timeout.com/chicago/news/this-chicago-bar-was-just-named-one-of-the-best-in-all-of-the-u-s-052126",
-            "image": "https://media.timeout.com/images/106407599/image.jpg",
-            "source": "timeout"
-        },
-        {
-            "title": "Robert Harward: 5 things on retired Vice Admiral amid \u2018mask\u2019 row after TV appearance",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/robert-harward-5-things-on-retired-vice-admiral-amid-mask-row-after-tv-appearance-video-watch-fox-news-101779398230475.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/21/1600x900/logo/rh_1779399122591_1779399127977_7c6b7051-4b05-46dd-869b-ef0ec51c97ca.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "AI-Driven Surge in Google Chrome Vulnerabilities: Technical, Supply Chain, and Cyber Risk Analysis \u2013 June 2024 - Rescana",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObUYtd0FDWG52OVdRTThNcGhlS05VckY2R0tPR0dEaTNObktmaW1udUtnakJSQW96QjZmWDhaY29SVmNWTjk4ZUloZ2FBUG1GSkZia3pydmFCVFQxQ3lEWlVvMkVVemVvTC1UQjFzeUVGNzFtWElhUFEwRzAyV1RDdEx3QkRNNFlWWnNTbTBxbk5Bd1RMdFFGdU92ejZRc0Q4Ym1jOWNxN3ozZXFtNFZvMERudDdsT3JFTVRTN3VMTTV4a0hvQTZzQldHdkNabzR2?oc=5",
-            "image": "https://images.pexels.com/photos/1078850/pexels-photo-1078850.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Trump's war on Massie exposes a GOP without principle | Buss",
-            "severity": "HIGH",
-            "url": "https://www.detroitnews.com/story/opinion/columnists/kaitlyn-buss/2026/05/21/thomas-massies-loss-reveals-gop-loyalty-test-trump-kentucky-primary/90173178007/",
-            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/05/20/PDTN/90176016007-trump-massiedefeat-2-up.jpg?auto=webp&crop=1329,748,x65,y0&format=pjpg&width=1200",
-            "source": "detroitnews"
-        },
-        {
-            "title": "Accountability in Senate \u2018shooting\u2019",
-            "severity": "HIGH",
-            "url": "https://opinion.inquirer.net/191852/accountability-in-senate-shooting",
-            "image": "https://opinion.inquirer.net/files/2026/05/senate-shooting-21may2026.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Weakened Wigan thrashed by Hull KR in final tune-up",
-            "severity": "HIGH",
-            "url": "https://www.bbc.com/sport/rugby-league/articles/cpvpdpp91m2o",
-            "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/e2fa/live/0b1d2c20-554d-11f1-bdf3-a1cfc8f36fb3.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Meta Is in Crisis, Google Search\u2019s Makeover, and AI Gets Booed by Graduates",
-            "severity": "HIGH",
-            "url": "https://www.wired.com/story/uncanny-valley-podcast-meta-in-crisis-google-search-makeover-ai-booed-by-graduates/",
-            "image": "https://media.wired.com/photos/6a0e43f5fefe8abd82234107/16:9/w_1232,h_693,c_limit/Uncanny-Valley-Meta-Layoffs-2235448475.jpg",
-            "source": "wired"
-        },
-        {
-            "title": "Met Police warns of reduced officer numbers after mayor blocks Palantir deal",
-            "severity": "HIGH",
-            "url": "https://www.standard.co.uk/news/politics/sadiq-khan-met-police-mayor-mark-rowley-london-b1283239.html",
-            "image": "https://static.standard.co.uk/2026/05/21/21/bc7dc05e6843b1e32110e31aa0493dc9Y29udGVudHNlYXJjaGFwaSwxNzc5NDc4MTEy-2.84581445.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
-        },
-        {
-            "title": "Crescent Biopharma Announces Trial in Progress Presentation for ASCEND Study of CR-001, a PD-1 x VEGF Bispecific Antibody, at Upcoming American Society of Clinical Oncology (ASCO) 2026 Annual Meeting",
-            "severity": "MEDIUM",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/05/21/3299810/0/en/Crescent-Biopharma-Announces-Trial-in-Progress-Presentation-for-ASCEND-Study-of-CR-001-a-PD-1-x-VEGF-Bispecific-Antibody-at-Upcoming-American-Society-of-Clinical-Oncology-ASCO-2026.html",
-            "image": "https://images.pexels.com/photos/7947848/pexels-photo-7947848.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "GR Silver Provides a Corporate Update",
-            "severity": "MEDIUM",
-            "url": "https://www.benzinga.com/pressreleases/26/05/n52735308/gr-silver-provides-a-corporate-update",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Colorado Democrats censure Jared Polis over Tina Peters commutation",
-            "severity": "MEDIUM",
-            "url": "https://www.washingtonexaminer.com/news/justice/4578680/colorado-democrats-censure-jared-polis-tina-peters-commutation/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2023/10/ap22095766373844-scaled.jpg?w=696",
-            "source": "washingtonexaminer"
-        },
-        {
-            "title": "Trump to deploy 5,000 US troops to Poland after earlier plan was canceled",
-            "severity": "WATCH",
-            "url": "https://www.france24.com/en/europe/20260521-trump-to-deploy-5-000-us-troops-to-poland-after-earlier-plan-was-canceled",
-            "image": "https://s.france24.com/media/display/cd050470-5543-11f1-b50b-005056a90284/w:1280/p:16x9/2f5be96a648d3c4a5e3b2efa1580568b6d830e25.jpg",
-            "source": "france24"
-        },
-        {
-            "title": "2 Batavia D101 Board Members Resign On Same Day",
-            "severity": "WATCH",
-            "url": "https://patch.com/illinois/batavia/2-batavia-d101-board-members-resign-same-day",
-            "image": "https://patch.com/img/cdn20/shutterstock/25052038/20260521/113604/styles/patch_image/public/shutterstock-1042946932___21113544112.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Transcript: Ross Stores Q1 2026 Earnings Conference Call",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/insights/news/26/05/52735370/transcript-ross-stores-q1-2026-earnings-conference-call",
-            "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?optimize=medium&dpr=1&auto=webp&height=675&width=1200&fit=crop",
-            "source": "benzinga"
-        },
-        {
-            "title": "Former Oilers head coach Kris Knoblauch in no hurry to find new job",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/former-oilers-head-coach-kris-213335890.html",
-            "image": "https://media.zenfs.com/en/edmonton_journal_articles_165/988ca04c7e6e4881d1d9e0d1586807f6",
-            "source": "yahoo"
-        },
-        {
-            "title": "The Senate as Shakespearean farce",
-            "severity": "WATCH",
-            "url": "https://opinion.inquirer.net/191857/the-senate-as-shakespearean-farce",
-            "image": "https://www.inquirer.net/wp-content/uploads/2016/10/new-inq-fb-def.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "A single call changed everything for AFL record-breaker Scott Pendlebury",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-05-22/scott-pendlebury-sale-basketball-phone-call-record-game/106692622",
-            "image": "https://live-production.wcms.abc-cdn.net.au/59bc0385c104dfdd7b3d5234572bab01?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "Top Maoists Misir Besra, Asim Mondal \u2018sneak out\u2019 of Saranda with key aides",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/others/top-maoists-misir-besra-asim-mondal-sneak-out-of-saranda-with-key-aides-101779384900968.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/01/27/1600x900/logo/ht-generic_cities2_1769511880449_1769511907099.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Trump labels Don Jr\u2019s wedding \u2018bad timing\u2019 ahead of weekend celebration",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/bulletin/news/trump-don-jr-wedding-attendance-bettina-anderson-b2981557.html",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "independentuk"
-        },
-        {
-            "title": "Jet2, British Airways, Ryanair and Easyjet issue urgent flights update for June",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/news/uk/2208365/jet2-british-airways-ryanair-easyjet-flight-update",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2208365_1.jpg",
+            "url": "https://www.express.co.uk/news/world/2208395/iran-military-rebuilding-faster-than-expected-khamenei-issues-nuclear-order",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2208395_1.jpg",
             "source": "expresscouk"
         },
         {
-            "title": "Andrew Mountbatten-Windsor could have Freedom of City of London \u2018lawfully removed\u2019 \u2013 here\u2019s why",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/uk/home-news/andrew-mountbatten-windsor-freedom-city-of-london-epstein-b2981554.html",
-            "image": "https://static.independent.co.uk/2026/05/08/15/1245816367.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "title": "Leo Horoscope Today: May 22, 2026 - Vogue India",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpSnNlb2VwOTRMbjluWU5zUnRpejRVazd6Q2V5UG1vUkxxMTduREFyaThFajQ1dHl4UlhJb29JS3BBb3BBYXl3ZzVzczA1UVFzOXRPVXNydmJNYzVHeXJMelQtZE5IcFVmWkV6Tw?oc=5",
+            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "'Hungry' Palou starts from pole in pursuit of second straight Indy 500 triumph",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/hungry-palou-starts-pole-pursuit-213328571.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/cvQo9QGSmizFW2kf2TVJoQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE1MzY7aD0xMDI0O2NmPXdlYnA-/https://media.zenfs.com/en/afp.co.uk/e8c47ca2c35ff833cb338641b2241e00",
+            "title": "The House got close to voting to end the Iran war. Republicans canceled the vote.",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/house-got-close-voting-end-002554635.html",
+            "image": "https://images.pexels.com/photos/36201272/pexels-photo-36201272.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo"
         },
         {
-            "title": "BARMM education minister sacked",
-            "severity": "WATCH",
-            "url": "https://newsinfo.inquirer.net/2232422/barmm-education-minister-sacked",
-            "image": "https://newsinfo.inquirer.net/files/2026/04/Mohagher-Iqbal-13April2026.jpg",
-            "source": "inquirer"
+            "title": "NAB makes major RBA rate hike call as unemployment rate jumps: 'Balance of risks has shifted' - Yahoo Finance Australia",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcUFmVVNETjdhZzVzZHZSSE8ycHRKd19XUFFzMzNQOFo2S1NPYnBRVjZJcFlBajBnS0hFR005VndwWEk5eGtNTmluejJDQTRXbE83b0d6LUtLSEtxMXZuSHdCZWU2Q0kxcHB6RmgxMV96Z2JmVHZVUkp2VHVPbW0tRkhqNjJKM1dRSTVHV2tZWUxtR3RhSGVyRFdzVEhEeUJ0ME94WE1TRFlGTlc0b0FoVDBZYzdKY0ZOTlVEcE1MZHpyOUNrRUFjX1pvZE02UHlDQUZST1Nn?oc=5",
+            "image": "https://images.pexels.com/photos/17504475/pexels-photo-17504475.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Bernstein initiates BioNTech stock coverage citing pipeline concerns",
+            "title": "Trump says he\u2019ll \u2018try\u2019 to attend son\u2019s wedding, but it\u2019s \u2018not good timing\u2019",
+            "severity": "HIGH",
+            "url": "https://www.nbcnews.com/video/trump-says-he-ll-try-to-attend-son-s-wedding-but-it-s-not-good-timing-263758405652",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_05/1779409238072_f_mo_la_trump_wedding_invitation_260521_S3_1920x1080-2h6y5r.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "US Arrests Sister of Cuban Military Conglomerate Chief",
+            "severity": "HIGH",
+            "url": "https://www.usnews.com/news/world/articles/2026-05-21/us-arrests-sister-of-cuban-military-conglomerate-chief",
+            "image": "https://www.usnews.com/object/image/0000019e-4b21-db00-a59e-ff6585d50000/weekly2.jpg?update-time=1779377470217&size=responsiveSquare150",
+            "source": "usnews"
+        },
+        {
+            "title": "Simba's parent company terminates deal to acquire M1 - CNA",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUDZKSTMtekZjcUtuV3pHNXZoUThIR25XcWpFS2xrTXJIRGtGcUpHeWd5NFY2cFk2cjBabEJQWXpWcklzTWlfOUdnMlRUZ09uS2dydC0tOE10VXJrS2ZjYkNRcnNWUVNfVm0wX1Z6SXlWVkwtaVNuMnpzbzBPWldmT0N3RHI0YkU?oc=5",
+            "image": "https://images.pexels.com/photos/11816424/pexels-photo-11816424.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Data of around 1,700 people potentially compromised in Canvas data breach, N.W.T. gov't says",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/data-around-1-700-people-235407591.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/SYCpl5pX_5UmJ2M_0XDDug--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/cbc.ca/1a8c98acf68f193338ad24167d286766",
+            "source": "yahoo"
+        },
+        {
+            "title": "Oil Rises After Three-Day Drop With Iran-US Talks in Focus",
+            "severity": "MEDIUM",
+            "url": "https://ca.finance.yahoo.com/news/oil-rises-three-day-drop-001721001.html",
+            "image": "https://media.zenfs.com/en/bloomberg_holding_pen_162/57914c62e37dfcefb1c3cf2a5f4c0e38",
+            "source": "yahoo"
+        },
+        {
+            "title": "India\u2019s new trade and defence deals signal strategic autonomy play amid global flux",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/bernstein-initiates-biontech-stock-coverage-citing-pipeline-concerns-93CH-4694110",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEA601YK_L.jpg",
+            "url": "https://www.indusage.com.au/?p=98196",
+            "image": "https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "indusage_au"
+        },
+        {
+            "title": "India needs to raise food grains production to 450 million tonnes by 2047: Chaudhari",
+            "severity": "WATCH",
+            "url": "https://www.foodprocessingbazaar.com/news/india-needs-to-raise-food-grains-production-to-450-million-tonnes-by-2047-chaudhari/",
+            "image": "https://images.pexels.com/photos/12231821/pexels-photo-12231821.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "foodprocessingbazaar"
+        },
+        {
+            "title": "Asia\u2019s currencies are flashing the oil shock alarm",
+            "severity": "WATCH",
+            "url": "https://www.japantimes.co.jp/business/2026/05/22/markets/asia-currencies-oil-shock/",
+            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/05/22/541818.jpg",
+            "source": "japantimes"
+        },
+        {
+            "title": "Laughter Chefs 3 gets a fun partner swap twist with Amaal Mallik\u2019s entry; Tejasswi Prakash joins Vicky Jain, Ankita Lokhande teams up with Aly Goni",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/laughter-chefs-3-gets-a-fun-partner-swap-twist-with-amaal-malliks-entry-tejasswi-prakash-joins-vicky-jain-ankita-lokhande-teams-up-with-aly-goni/articleshow/131254357.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131254367/131254367.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "School Assembly News Headlines Today (May 22): Top National, International & Sports Updates + Thought of the Day",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/education/school-assembly-news-headlines-today-may-22-top-national-international-sports-updates-thought-of-the-day-article-154372533",
+            "image": "https://images.timesnownews.com/thumb/msid-154372534,width-1280,height-720,resizemode-75/154372534.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Never Deal With Stuck Fish Again Using Alex Guarnaschelli's Pan-Searing Tip",
+            "severity": "WATCH",
+            "url": "https://www.thetakeout.com/2174158/alex-guarnaschelli-pan-sear-fish-stop-sticking-tip/",
+            "image": "https://www.thetakeout.com/img/gallery/never-deal-with-stuck-fish-again-using-alex-guarnaschellis-pan-searing-tip/l-intro-1778882384.jpg",
+            "source": "thetakeout"
+        },
+        {
+            "title": "SpaceX's most powerful rocket ever built is now even bigger and more powerful. But will it work?",
+            "severity": "WATCH",
+            "url": "https://www.kcra.com/article/most-powerful-rocket-ever-built-is-now-even-bigger-and-more-powerful-but-will-it-work/71379360",
+            "image": "https://kubrick.htvapps.com/htv-prod/images/8993a372-8de2-4966-9300-1563b13887f9.jpg?crop=1.00xw:0.847xh;0,0.0144xh&resize=1200:*",
+            "source": "kcra"
+        },
+        {
+            "title": "EU downgrades growth forecast, fueling stagflation concerns",
+            "severity": "WATCH",
+            "url": "http://english.people.com.cn/n3/2026/0522/c90000-20459111.html",
+            "image": "http://english.people.com.cn/mediafile/pic/BIG/20260522/22/15656109551042940770.jpg",
+            "source": "en_people_cn"
+        },
+        {
+            "title": "Deep Rock Galactic: Rogue Core Reclaimers tier list \u2013 Best classes to use",
+            "severity": "WATCH",
+            "url": "https://www.destructoid.com/deep-rock-galactic-rogue-core-reclaimers-tier-list-best-classes-to-use/",
+            "image": "https://www.destructoid.com/wp-content/uploads/2026/05/ss_46f12e4aa86d98afd4d2dfa97104fbecc2a425e3.1920x1080.jpg?fit=1200%2C675",
+            "source": "destructoid"
+        },
+        {
+            "title": "Germany charges two accused of IRGC-backed murder plot",
+            "severity": "WATCH",
+            "url": "https://gulfnews.com/world/mena/germany-charges-two-accused-of-irgc-backed-murder-plot-1.500549038",
+            "image": "https://gumlet-images.assettype.com/gulfnews/2026-05-22/4pdege0n/Screenshot-2026-05-22-at-8.09.21-AM.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Astera Labs president and COO Sanjay Gajendra sells $69.77 million in shares",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/insider-trading-news/astera-labs-president-and-coo-sanjay-gajendra-sells-6977-million-in-shares-93CH-4694335",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEL7C0LP_L.jpg",
             "source": "investing_uk"
         },
         {
-            "title": "VCI Global Received NASDAQ Notice Related to Late Filing of 20-F",
+            "title": "Fishermen are being pushed to the brink by fuel costs in Southeast Asia",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/05/21/3299807/0/en/VCI-Global-Received-NASDAQ-Notice-Related-to-Late-Filing-of-20-F.html",
-            "image": "https://images.pexels.com/photos/34635799/pexels-photo-34635799.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
+            "url": "https://economictimes.indiatimes.com/small-biz/trade/exports/insights/fishermen-are-being-pushed-to-the-brink-by-fuel-costs-in-southeast-asia/articleshow/131257403.cms",
+            "image": "https://img.etimg.com/thumb/msid-131257476,resizemode-4,width-1200,height-900,imgsize-312128,overlay-etrise/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Amazon data center communities: Here\u2019s what\u2019s happening near data centers across the US",
+            "title": "Crime gangs' booming counterfeit World Cup football kit trade as real ones 'unaffordable'",
             "severity": "WATCH",
-            "url": "https://www.aboutamazon.com/news/aws/amazon-data-centers-locations-news",
-            "image": "https://assets.aboutamazon.com/dims4/default/2909164/2147483647/strip/false/crop/5272x2962+0+0/resize/1486x835!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fa3%2Ff6%2F0abb1c1a4734ba2e727893e6eae2%2Faws-data-center-exterior-1.jpg",
-            "source": "aboutamazon"
+            "url": "https://www.dailystar.co.uk/sport/football/crime-gangs-booming-counterfeit-world-37190405",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article28533436.ece/ALTERNATES/s615/0_Counterfeit-football-jerseys.jpg",
+            "source": "dailystar"
         },
         {
-            "title": "Travel in the highlands",
+            "title": "Japan's 1,200-Year-Old \u2018Eternal Flame\u2019 Survives Massive Temple Fire | WATCH",
             "severity": "WATCH",
-            "url": "https://opinion.inquirer.net/191850/travel-in-the-highlands",
-            "image": "https://opinion.inquirer.net/files/2024/03/Ambeth-R-Ocampo-looking-back-06March2024.jpg",
+            "url": "https://www.timesnownews.com/world/asia/japan-1200-year-old-eternal-flame-survives-massive-temple-fire-watch-article-154372512",
+            "image": "https://images.timesnownews.com/thumb/msid-154372524,width-1280,height-720,resizemode-75/154372524.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Memorial Day travel plans hit by higher fuel prices",
+            "severity": "WATCH",
+            "url": "https://usa.inquirer.net/198073/memorial-day-travel-plans-hit-by-higher-fuel-prices",
+            "image": "https://usa.inquirer.net/files/2026/05/AP26141192395381-scaled.jpg",
             "source": "inquirer"
         },
         {
-            "title": "Theater of the absurd",
+            "title": "12-Year Act Ends: How Fugitive Murder Convict Co-Starred With Amitabh Bachchan, Aamir Khan & Ranveer Singh",
             "severity": "WATCH",
-            "url": "https://opinion.inquirer.net/191856/theater-of-the-absurd",
-            "image": "https://opinion.inquirer.net/files/2025/05/MA-CERES-P-DOYO-30May2025.jpg",
-            "source": "inquirer"
+            "url": "https://www.news18.com/india/12-year-act-ends-how-fugitive-murder-convict-co-starred-with-amitabh-bachchan-aamir-khan-ranveer-singh-10104900.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/05/Fugitive-Murder-Convict-Hemant-Modi-Co-Starred-With-Amitabh-Bachchan-Aamir-Khan-Sunny-Deol-Ranveer-Singh-2026-05-844404eddc44e75ae36aa4c0f3fc06da-1200x800.jpg",
+            "source": "news18"
         },
         {
-            "title": "Trash or Treasure: Woman's 'Lobster Trap' print worth more than she paid",
+            "title": "How to watch the final episode of The Late Show with Stephen Colbert",
             "severity": "WATCH",
-            "url": "https://www.detroitnews.com/story/life/home-garden/2026/05/21/trash-or-treasure-womans-lobster-trap-print-worth-more-than-she-paid/90146696007/",
-            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2025/11/16/PDTN/87301306007-20251114-ctjhs-treas-029.jpg?auto=webp&crop=3599,2025,x0,y214&format=pjpg&width=1200",
-            "source": "detroitnews"
+            "url": "https://www.businessinsider.com/guides/streaming/how-to-watch-late-show-with-stephen-colbert-final-episode",
+            "image": "https://i.insider.com/6a0f6012b1025a62a5c85bc5?width=1200&format=jpeg",
+            "source": "insider"
         },
         {
-            "title": "Why Sadiq Khan blocked multi-million pound Palantir deal with Met Police",
+            "title": "Windsor man charged with attempted murder after dousing woman with flammable liquid, say police",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/bulletin/news/palantir-uk-sadiq-khan-met-police-b2981544.html",
-            "image": "https://static.independent.co.uk/2026/04/25/14/2237894826.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "url": "https://www.cbc.ca/news/canada/windsor/windsor-man-attempt-murder-ignite-9.7208097?cmp=rss",
+            "image": "https://i.cbc.ca/ais/1.7114028,1707853923000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C267%2C5184%2C2916%29%3B",
+            "source": "cbc"
         },
         {
-            "title": "'My beautiful daughter was jailed for trying to protect her beloved son from the man who was convicted of repeatedly assaulting her... for this shocking reason'",
+            "title": "WA news LIVE: Elderly woman dies in crash near rural WA town",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15824197/My-beautiful-daughter-jailed-trying-protect-beloved-son-man-convicted-repeatedly-assaulting-shocking-reason.html",
-            "image": "https://i.dailymail.com/1s/2026/05/17/14/108671297-0-image-a-98_1779024753920.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Family of man given accidental overdose at Co Clare nursing home settle action",
-            "severity": "WATCH",
-            "url": "https://www.irishtimes.com/crime-law/courts/2026/05/21/family-of-man-given-accidental-overdose-at-co-clare-nursing-home-settle-action/",
-            "image": "https://www.irishtimes.com/resizer/v2/7FHEWBJYGBFKZAB3JBGKTDKSJ4.JPG?auth=6a9c4890630bccb60e2853ab8834231ff4442cc98f6ba6aa8a07da4fb18ba399&smart=true&width=630&height=350",
-            "source": "irishtimes"
-        },
-        {
-            "title": "Sadiq Khan blocks Met Police\u2019s controversial \u00a350 million deal with Palantir",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/uk/home-news/sadiq-khan-blocks-palantir-met-police-deal-b2981515.html",
-            "image": "https://static.independent.co.uk/2026/05/17/20/ec2c8d0e26a8cf87d9d4458a2b04165fY29udGVudHNlYXJjaGFwaSwxNzc5MTMwMjQ5-2.84581466.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "url": "https://www.smh.com.au/national/western-australia/wa-news-live-elderly-woman-dies-in-crash-near-rural-wa-town-20260522-p5zzq4.html",
+            "image": "https://static.ffx.io/images/$zoom_0.2056%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_54/t_crop_custom/q_86%2Cf_auto/331c6f5a1ccf7543cb82febe89aea241d1eba103",
+            "source": "smh"
         }
     ],
-    "Last_Updated": "2026-05-22T09:39:23.905998Z"
+    "Last_Updated": "2026-05-22T12:26:39.159343Z"
 }
