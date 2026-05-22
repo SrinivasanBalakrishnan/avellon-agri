@@ -1,281 +1,265 @@
 {
-    "AGRI_Score": 67.5,
-    "Velocity": "+2.7",
+    "AGRI_Score": 63.8,
+    "Velocity": "-3.7",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 67.5 reflects a significantly heightened risk environment, predominantly driven by the critical 'Energy & Maritime Disruption' pillar registering a maximum 100 and 'Geopolitical Conflict Intensity' at 83.5. This acute elevation is directly attributable to the severe warnings that the \"Strait of Hormuz closed, oil markets nearing \u2018red zone\u2019: IEA chief warns\" amid \"war engulf[ing] the Middle East.\" The confluence of an immediate energy supply crisis and widespread regional military tensions mandates a comprehensive risk posture.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 83.5,
+        "Geopolitical Conflict Intensity": 74.7,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 72.9,
+        "Trade & Supply Chain Stress": 65.9,
         "Sovereign Financial Stress": 55.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 54.5,
-        "Cyber & Infrastructure Threats": 69.9,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 56.9,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The high score is directly attributable to the escalating conflict in the Middle East, as evidenced by headlines like \"As war engulfs the Middle East\" and \"From Hormuz To Ukraine: NATO Faces Pressure Test At High-Stakes Sweden Meet.\" This widespread instability, further complicated by \"Iran Leaves America\u2019s THAAD Arsenal Bleeding,\" indicates a sustained period of high international tension and potential military confrontations.",
-        "Energy & Maritime Disruption": "This pillar is at maximum risk due to critical developments, most notably the warning that the \"Strait of Hormuz closed, oil markets nearing \u2018red zone\u2019: IEA chief warns.\" Compounded by \"Lingering Iran Uncertainty Has Oil Prices Oscillating\" and \"Oil prices rise as investors doubt breakthrough in US-Iran peace talks,\" global energy supply chains face severe and immediate threats.",
-        "Trade & Supply Chain Stress": "Concerns over trade resilience are highlighted by reports such as \"EU may pause Chinese chip ban over auto supply fears,\" indicating potential disruptions in critical technology sectors. The broader implications of geopolitical instability and \"Strait of Hormuz closed\" warnings also threaten global maritime trade routes, increasing the cost and complexity of supply chain management.",
-        "Sovereign Financial Stress": "While not directly cited in the news feed with explicit sovereign debt headlines, the pervasive \"Lingering Iran Uncertainty\" and \"Oil prices rise\" contribute to an environment of global economic uncertainty that can quickly translate into fiscal pressures for nations. Governments face increased expenditures in response to geopolitical events and potential revenue shortfalls from disrupted trade.",
-        "Currency & Liquidity Pressure": "The \"Lingering Iran Uncertainty\" and \"Oil prices rise as investors doubt breakthrough in US-Iran peace talks\" indicate significant market volatility, which can lead to rapid shifts in investor sentiment and capital flows. This environment increases the likelihood of currency depreciation in emerging markets and higher demand for safe-haven assets, creating liquidity challenges.",
-        "Sanctions & Regulatory Fragmentation": "The report that \"EU may pause Chinese chip ban over auto supply fears\" illustrates the ongoing tension between geopolitical objectives and economic realities, suggesting potential for regulatory shifts or fragmentation. The broader context of \"Mike Johnson Feeling the Heat as House Cancels Iran War Powers Vote\" underscores the volatile political landscape influencing international trade and sanction policies.",
-        "Cyber & Infrastructure Threats": "Elevated risk stems from incidents such as the \"Security Breach SHOCK: Punjab Man Held For Allegedly Using Highway CCTV To Share Army Movement\" and the \"Govt admitted NEET breach,\" highlighting vulnerabilities in critical surveillance and data systems. Furthermore, \"Iran Leaves America\u2019s THAAD Arsenal Bleeding\" suggests successful technological or cyber intrusions impacting advanced military infrastructure, indicating a sophisticated threat landscape.",
-        "Climate & Resource Shock": "The \"Warmest night in 14 yrs, power demand to touch 9,000 MW: How Delhi summer is already breaking records\" illustrates direct climate impacts on critical resources like electricity, stressing infrastructure. This environmental pressure is further underscored by initiatives like \"US$80bil for deployment as Southeast Asia's green economy enters a new calculus,\" indicating global efforts to mitigate long-term resource risks."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "As war engulfs the Middle East, China\u2019s Xinjiang is thriving with future tech",
+            "title": "Nato foreign ministers meet to navigate shifting partnership with the US \u2013 Europe live",
             "severity": "HIGH",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/22/as-war-engulfs-the-middle-east-chinas-xinjiang-is-thriving-with-future-tech",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/22/3920937.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Mike Johnson Feeling the Heat as House Cancels Iran War Powers Vote",
-            "severity": "HIGH",
-            "url": "https://www.newsweek.com/mike-johnson-feeling-the-heat-as-house-cancels-iran-war-powers-vote-11981185",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/05/GettyImages-2275812581_cbdd84.jpg?w=1600&h=900&q=88",
-            "source": "newsweek"
-        },
-        {
-            "title": "At least 24 killed in two separate attacks in Honduras",
-            "severity": "HIGH",
-            "url": "https://www.bbc.com/news/articles/cgqpg118qyyo",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/88b3/live/9deda200-557f-11f1-a6d5-8f9517174b83.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Donald Trump: 'Not A Good Time' \u2014 Might Skip Son's Wedding Over Iran War, Blames Media",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/world/donald-trump-may-miss-son-wedding-amid-iran-crisis-articleshow-sykotxf",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01ks6xrcfdjpm00dax277tzcja,imgname-donald-trump-son-wedding-1779422736877.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Terminator-style tech gear could revolutionize hiking \u2014 California is its guinea pig",
-            "severity": "HIGH",
-            "url": "https://tech.yahoo.com/wearables/articles/terminator-style-tech-gear-could-042721022.html",
-            "image": "https://media.zenfs.com/en/california_post_772/2ca884750b6fecb6207ae0f8bc8d36c2",
-            "source": "yahoo"
-        },
-        {
-            "title": "Iran Leaves America\u2019s THAAD Arsenal Bleeding; Pentagon Faces Costly Reality Check",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/iran-leaves-americas-thaad-arsenal-bleeding-pentagon-faces-costly-reality-check/videoshow/131256219.cms",
-            "image": "https://timesofindia.indiatimes.com/photo/msid-131256219/131256219.jpg?resizemode=4",
-            "source": "toi"
-        },
-        {
-            "title": "EU may pause Chinese chip ban over auto supply fears: report",
-            "severity": "HIGH",
-            "url": "https://seekingalpha.com/news/4596126-eu-may-pause-chinese-chip-ban-over-auto-supply-fears-report?feed_item_type=news",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2220442262/image_2220442262.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Warmest night in 14 yrs, power demand to touch 9,000 MW: How Delhi summer is already breaking records",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/india-news/hottest-night-in-14-yrs-power-demand-to-touch-9-000-mw-how-delhi-temperature-summer-is-already-breaking-records-101779419847191.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/22/1600x900/logo/20260521-DGG-PK-MN-Hot-Weather-07-0_1779420922275_1779420937472_a6e7b718-d254-4a84-80bf-2c511222171a.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "'Explore alternative energy sources': PM Modi's diktat to ministers, officials as West Asia crisis continues",
-            "severity": "HIGH",
-            "url": "https://www.businesstoday.in/india/story/explore-alternate-energy-sources-pm-modis-diktat-to-ministers-officials-as-west-asia-crisis-continues-532785-2026-05-22",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202605/6a0fd7bd7ecaf-modi-also-told-ministers-to-implement-reforms-with-vigour--saying-viksit-bharat-2047-was-not-merely-221240288-16x9.jpg?size=1280:720",
-            "source": "businesstoday"
-        },
-        {
-            "title": "Strait of Hormuz closed, oil markets nearing \u2018red zone\u2019: IEA chief warns",
-            "severity": "HIGH",
-            "url": "https://indianexpress.com/article/world/strait-of-hormuz-closed-oil-markets-nearing-red-zone-iea-chief-warns-india-explores-alternative-fuel-plans-10702324/",
-            "image": "https://images.indianexpress.com/2026/05/International-Energy-Agency-Executive-Director-Fatih-Birol_20260522034002.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "BCCI Punishes Entire CSK Squad Following Defeat To GT",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/sports/cricket/entire-csk-squad-handed-punishment-by-bcci-following-defeat-to-gt-1845294",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/05/22/cec0497a31fdadc059d04b9e4da75e24177942212197524_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "Security Breach SHOCK: Punjab Man Held For Allegedly Using Highway CCTV To Share Army Movement",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/india/security-breach-shock-punjab-man-held-for-allegedly-using-highway-cctv-to-share-army-movement-with-pakistan-articleshow-0wq7g3o",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01ffmxqrdztaed37wnqxxj97bx,imgname-befunky-collage--23--jpg.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Govt admitted NEET breach. NTA chief says 'no leak': Does anyone know what happened? - India Today",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRGpsZFlJMVI5TWpzU2R6ZVQyNHBoSHBTbkp6dl9uVzFVY3JwbVc3NGFfcFJEOWxOYTJPaTVrb2czbnlvbE5zcllqRExBdWN3bzUzc1F4R2E3cTNMcXZoQXlKdEtiZF9xaWJSS0FuZ29ILXBLaU1EQUJwV0ZxcmhSLThMN19Vei1rem9FRVB4X2ptNGpiQ09WM3U2V2twOElucnk5cGs1bG5EQ29uU09reURybkM3cVpmNlNQZzZfcTZVUE1oTko1dUs3VlRVdVBVcXFaZ1ZnTkVBbUnSAeABQVVfeXFMUG82LWk5b1hLdFVOaHdlemhyMzBmcng3UEp6ZTV1UjFjWjc0UHFwT3RudGZKUVQ3Q3YxalhFcVBHQzA1R1FqcUFvUDRReTlVc3hsMURFRGdKQkc4VUJTTzBpMnpQcnZ5cFBCZ1BFWl95QnJCa1ZsbXJvdlQyNjcwSWtUYTBQZXpzWXo0aGZmNThGX2RISEMtcmxpZEVYNS1CMjBZYlc2M0Jha3ZIVE13T3hTeTQ2ZEdTTDdxOUFLN2xOZ3pqaGNkWHRFWlRtTnlEbUdxM1dSazFuaFZmeG1NcTE?oc=5",
-            "image": "https://images.pexels.com/photos/6366444/pexels-photo-6366444.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "\u2018Those files should\u2019ve been locked up\u2019: Coworker with just 6 months on the job caught rummaging through confidential files, but it\u2019s the boss who could be in bigger trouble, internet warns",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/us/life/those-files-shouldve-been-locked-up-coworker-with-just-6-months-on-the-job-caught-rummaging-through-confidential-files-but-its-the-boss-who-could-be-in-bigger-trouble-internet-warns/articleshow/131260142.cms",
-            "image": "https://img.etimg.com/thumb/msid-131260383,resizemode-4,width-1200,height-900,imgsize-1948488,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "POET Technologies Lawsuits And Customer Losses Raise Valuation Risk Questions",
-            "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/poet-technologies-lawsuits-customer-losses-031322048.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/OKBwuHbMKNjQhCH7hUzhJw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjYw/https://media.zenfs.com/en/simply_wall_st__316/4e4b82f8b6c5bad245608476f56d80ef",
-            "source": "yahoo"
-        },
-        {
-            "title": "From Hormuz To Ukraine: NATO Faces Pressure Test At High-Stakes Sweden Meet",
-            "severity": "MEDIUM",
-            "url": "https://www.timesnownews.com/world/europe/from-hormuz-to-ukraine-nato-faces-pressure-test-at-high-stakes-sweden-meet-article-154373429",
-            "image": "https://images.timesnownews.com/thumb/msid-154373499,width-1280,height-720,resizemode-75/154373499.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Oil prices rise as investors doubt breakthrough in US-Iran peace talks",
-            "severity": "MEDIUM",
-            "url": "https://ca.finance.yahoo.com/news/oil-prices-rise-investors-doubt-041932428.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/APLCrH.brElra7JsUfoiAg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2MDA7aD0xMDY2/https://media.zenfs.com/en/reuters.com/495a44801e47b4ebade622ebbdc0b5bc",
-            "source": "yahoo"
-        },
-        {
-            "title": "The Commodities Feed: Lingering Iran Uncertainty Has Oil Prices Oscillating",
-            "severity": "MEDIUM",
-            "url": "https://au.investing.com/analysis/the-commodities-feed-lingering-iran-uncertainty-has-oil-prices-oscillating-200614065",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "AFR editor blames \u2018reporter oversight\u2019 for failure to disclose travel payment for energy conference | Weekly Beast",
-            "severity": "MEDIUM",
-            "url": "https://www.theguardian.com/media/2026/may/22/afr-editor-failure-to-disclose-travel-payment-for-energy-conference-ntwnfb",
-            "image": "https://i.guim.co.uk/img/media/196f394cf5d58a5d0f62d9d27661f92bc2d6d7c9/176_0_1336_1069/master/1336.jpg?width=140&quality=85&auto=format&fit=max&s=cd9483bbc92432e0672d1cfcdb46d3ae",
+            "url": "https://www.theguardian.com/world/live/2026/may/22/nato-mark-rutte-us-donald-trump-troops-poland-summit-russia-baltics-drones-tensions-ukraine-latest-news-updates",
+            "image": "https://i.guim.co.uk/img/media/2131d3b2a5805406d2a161cc988b05a3658ab87e/725_0_4331_3465/master/4331.jpg?width=140&quality=85&auto=format&fit=max&s=eedcf82eb7efab984265a8c07ab2c531",
             "source": "theguardian"
         },
         {
-            "title": "US$80bil for deployment as Southeast Asia's green economy enters a new calculus",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/05/22/us80bil-for-deployment-as-southeast-asia039s-green-economy-enters-a-new-calculus",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/22/3921254.jpg",
-            "source": "thestar_my"
+            "title": "Why condom prices in India are set to rise amid Iran war",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/india/why-condom-prices-in-india-are-set-to-rise-amid-iran-war-13927883.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2024/09/20240912062904_durex.jpg",
+            "source": "moneycontrol"
         },
         {
-            "title": "RBI not in favour of rate hikes to defend rupee, prioritises inflation",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-not-in-favour-of-rate-hikes-to-defend-rupee-prioritises-inflation/articleshow/131256206.cms",
-            "image": "https://img.etimg.com/thumb/msid-131256206,resizemode-4,width-1200,height-900,imgsize-82394,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "I asked seven experts if you should open windows during a heatwave \u2013 they had same answer",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/news/uk/2207822/heatwave-windows-open-closed",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2207822_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Shashi Tharoor's Advice To Opposition Amid 'Cockroach Janata Party' Rage",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/india-news/shashi-tharoors-advice-to-opposition-amid-cockroach-janata-party-rage-11531166",
-            "image": "https://c.ndtvimg.com/2026-05/6vis1alc_tharoor_625x300_22_May_26.jpg?im=FitAndFill,algorithm=dnn,width=1200,height=738",
-            "source": "ndtv"
-        },
-        {
-            "title": "Transcript: Blockbuster IPOs to take Wall Street by storm",
-            "severity": "WATCH",
-            "url": "https://www.ft.com/content/ba62d6a5-856a-450f-871d-0066b4117bdc",
-            "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F40e7119b-26a8-41bc-8462-069e4493ca43.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
-            "source": "financialtimes"
-        },
-        {
-            "title": "Oppo Find X9 Ultra, Find X9s launched in India with 7,050mAh battery: Prices, camera, features, and performance",
-            "severity": "WATCH",
-            "url": "https://zeenews.india.com/technology/oppo-find-x9-ultra-find-x9s-launched-in-india-with-7050mah-battery-prices-camera-features-and-performance-3049486.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/05/22/1945943-oppo-find-x9s-ultra.jpg?im=Resize=(1200,900)",
-            "source": "zeenews"
-        },
-        {
-            "title": "Jason Kidd breaks silence following departure from Dallas Mavericks",
-            "severity": "WATCH",
-            "url": "https://www.sportingnews.com/us/nba/dallas-mavericks/news/jason-kidd-breaks-silence-following-departure-dallas-mavericks/54ea52390bcbcc265a8a9109",
-            "image": "https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2025-06/GettyImages-2206921148%20%281%29.jpg.webp?itok=vfhH5mnO",
-            "source": "sportingnews"
-        },
-        {
-            "title": "Rest and recover \u2014 Why Carlos Alcaraz withdrawing from French Open, Wimbledon makes sense",
-            "severity": "WATCH",
-            "url": "https://sportstar.thehindu.com/tennis/french-open-2026-why-carlos-alcaraz-is-right-to-withdraw-from-roland-garros-advantage-jannik-sinner/article71009145.ece",
-            "image": "https://ss-i.thgim.com/public/incoming/fz3ov2/article71009158.ece/alternates/LANDSCAPE_1200/2220969163.jpg",
-            "source": "sportstar"
-        },
-        {
-            "title": "Who Runs Iran Today? No, It's Not Just Mojtaba Khamenei",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/world-news/iran-war-who-runs-iran-today-no-its-not-just-mojtaba-khamenei-11531165",
-            "image": "https://c.ndtvimg.com/2026-05/4im129cg_mojtaba-khamenei_625x300_19_May_26.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=738",
-            "source": "ndtv"
-        },
-        {
-            "title": "Lennar Corporation\u2019s SWOT analysis: stock faces headwinds",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/swot-analysis/lennar-corporations-swot-analysis-stock-faces-headwinds-93CH-4451491",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXNPEL3915F_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "GAIL Q4 PAT slides 38% YoY to Rs 1,262 crore",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/gail-q4-pat-slides-38-yoy-to-rs-1-262-crore-126052200288_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "VA Tech Wabag rises after Q4 PAT jumps 28% YoY to Rs 128 cr",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/va-tech-wabag-rises-after-q4-pat-jumps-28-yoy-to-rs-128-cr-126052200285_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Woman involved in WW2 codebreaking turns 102",
-            "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/c3e2dl4n9jvo",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/cdee/live/812141a0-5524-11f1-87e7-8195a3fea8aa.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "NEET UG Paper Leak Not Linked To NTA System, Exam Agency Tells Parliament Panel",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/education/neet-ug-paper-leak-not-linked-to-nta-system-exam-agency-tells-parliament-panel-11531084",
-            "image": "https://c.ndtvimg.com/2026-05/pork66dk_neet-ug-2026-paper-leak_625x300_22_May_26.jpeg",
-            "source": "ndtv"
-        },
-        {
-            "title": "IPL 2026: Ruturaj Gaikwad penalised after CSK\u2019s crushing defeat to Gujarat Titans",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/ipl-2026/ipl-2026-ruturaj-gaikwad-penalised-after-csks-crushing-defeat-to-gujarat-titans/articleshow/131255522.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131255518/131255518.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Nifty, Sensex, Nifty Bank outlook for today: GIFT Nifty up 20 points; key levels to watch",
-            "severity": "WATCH",
-            "url": "https://www.businesstoday.in/markets/story/nifty-sensex-nifty-bank-outlook-for-today-gift-nifty-up-20-points-key-levels-to-watch-532763-2026-05-22",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202605/6a0fc209311e7-brent-crude-futures-rose-2-per-cent-to-10471-a-barrel-but-were-set-for-a-6-per-cent-drop-in-the-22400361-16x9.png?size=1280:720",
+            "title": "Europe Blinked First? Putin Gains Big As UK, EU Quietly Return To Russian Oil Dependence",
+            "severity": "HIGH",
+            "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/europe-blinked-first-putin-gains-big-as-uk-eu-quietly-return-to-russian-oil-dependence-532845-2026-05-22",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/video/202605/thumbnail-original_1725.jpg?size=1280:720",
             "source": "businesstoday"
         },
         {
-            "title": "Trees Down, Metro Out, Wires Sparking In Bengaluru \u2014 And IMD Says Brace For More",
+            "title": "Rachel Reeves plots \u00a31bn family holiday 'stealth tax' - as summer savings plan is launched",
+            "severity": "HIGH",
+            "url": "https://www.express.co.uk/news/politics/2208437/rachel-reeves-plots-1bn-family-stealth-tax-vat",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/139/590x/2208437_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Realme 16T with 8,000 mAh battery, 50MP camera launched in India: Price, specs and more",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/technology/mobiles-tabs/realme-16t-with-8000-mah-battery-50mp-camera-launched-in-india-price-specs-and-more/articleshow/131259512.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131259507/131259507.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Why China might react badly to any call between Trump and Taiwan's president",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/world-news/why-china-might-react-badly-to-any-call-between-trump-and-taiwans-president-101779427810794.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/22/1600x900/logo/Trump-57_1779416581935_1779416609638_38a9e767-2a38-4b44-9a27-754b8e425a55_1779429396251_e70bb38d-8b20-4a9f-bffa-3213c5e3425f.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Reed Van Dyk, Boyd Holbrook & Gheed On How A New Yorker Article Inspired Their War Film \u2018Atonement\u2019 \u2014 Cannes Studio",
+            "severity": "HIGH",
+            "url": "https://deadline.com/2026/05/reed-van-dyk-boyd-holbrook-gheed-atonement-cannes-1236918680/",
+            "image": "https://deadline.com/wp-content/uploads/2026/05/Violeta-sofia-0493_73b06a-e1779436384145.jpg",
+            "source": "deadline"
+        },
+        {
+            "title": "Trade: The US looking forward to BTA with India, says Sergio Gor",
+            "severity": "HIGH",
+            "url": "https://english.revoi.in/trade-the-us-looking-forward-to-bta-with-india-says-sergio-gor/",
+            "image": "https://english.revoi.in/wp-content/uploads/2026/05/PTI05_21_2026_000674B.webp",
+            "source": "revoi_in"
+        },
+        {
+            "title": "The affordability crisis doesn\u2019t stop at the kitchen table. It\u2019s hitting small business, too.",
+            "severity": "HIGH",
+            "url": "https://finance.yahoo.com/economy/policy/articles/affordability-crisis-doesn-t-stop-074500203.html",
+            "image": "https://media.zenfs.com/en/wisconsin_examiner_articles_718/26328021fb29bbb08c196435dc255e35",
+            "source": "yahoo"
+        },
+        {
+            "title": "Maruti Suzuki Hikes Car Prices By Up To \u20b930,000 From June Amid Rising Input Costs",
+            "severity": "HIGH",
+            "url": "https://www.businesstoday.in/bt-tv/market-today/video/maruti-suzuki-hikes-car-prices-by-up-to-rs30000-from-june-amid-rising-input-costs-532811-2026-05-22",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/video/202605/thumbnail-original_1712.jpg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "Threat Intelligence Market: USD 18.85 Billion by 2031 with Strategic Intelligence Segment Accounting for 33.60% Revenue Share \u2013 Reports Mordor Intelligence",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/05/22/3299924/0/en/Threat-Intelligence-Market-USD-18-85-Billion-by-2031-with-Strategic-Intelligence-Segment-Accounting-for-33-60-Revenue-Share-Reports-Mordor-Intelligence.html",
+            "image": "https://images.pexels.com/photos/32237794/pexels-photo-32237794.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Newsletter: EU makes its trade play in Mexico",
+            "severity": "HIGH",
+            "url": "http://www.euronews.com/my-europe/2026/05/22/newsletter-eu-makes-its-trade-play-in-mexico-amid-energy-and-defence-strains",
+            "image": "https://images.euronews.com/articles/stories/09/76/85/32/1440x810_cmsv2_1c384123-4a30-5703-89ea-39c62fa39516-9768532.jpg",
+            "source": "euronews"
+        },
+        {
+            "title": "ExplainSpeaking: To defend, or not to defend (the rupee), that is the question",
+            "severity": "MEDIUM",
+            "url": "https://indianexpress.com/article/explained/explained-economics/explainspeaking-to-defend-or-not-to-defend-the-rupee-that-is-the-question-10702550/",
+            "image": "https://images.indianexpress.com/2026/05/rupee_e62779.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Rubio\u2019s India Visit Revives Big Questions Over Quad\u2019s Momentum And Strategic Future",
+            "severity": "MEDIUM",
+            "url": "https://www.businesstoday.in/bt-tv/whats-hot/video/rubios-india-visit-revives-big-questions-over-quads-momentum-and-strategic-future-532842-2026-05-22",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/video/202605/thumbnail-original_1723.jpg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "PG&E\u2019s SWOT analysis: stock faces wildfire reform uncertainty",
+            "severity": "MEDIUM",
+            "url": "https://uk.investing.com/news/swot-analysis/pges-swot-analysis-stock-faces-wildfire-reform-uncertainty-93CH-4694514",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXNPEL36021_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "That sinking feeling: Rupee@100 is a mental fear, not macro nightmare",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/economy/indicators/that-sinking-feeling-rupee100-is-a-mental-fear-not-macro-nightmare/articleshow/131258710.cms",
+            "image": "https://img.etimg.com/thumb/msid-131258953,resizemode-4,width-1200,height-900,imgsize-98656,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Trump rolls back Biden EPA rules on refrigeration, air-conditioning",
             "severity": "WATCH",
-            "url": "https://www.news18.com/cities/bengaluru-news/trees-down-metro-out-wires-sparking-in-bengaluru-and-imd-says-brace-for-more-10104953.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/05/bengaluru-rain-2026-05-9253db8480c7f2f8c06100348e39d367-1200x800.png",
-            "source": "news18"
+            "url": "https://www.upi.com/Top_News/US/2026/05/22/Trump-EPA-rules-rollback/9971779432257/",
+            "image": "https://cdnph.upi.com/ph/st/th/9971779432257/2026/upi/0f8455c053e547eb88bbf568976fecd5/v1.5/Trump-rolls-back-Biden-EPA-rules-on-refrigeration-air-conditioning.jpg",
+            "source": "upi"
+        },
+        {
+            "title": "Viral Post | Bengaluru Man Lists 17 Problems In One Year Of Apartment Living, Internet Relates",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/karnataka-news/viral-post-bengaluru-man-lists-17-problems-in-one-year-of-apartment-living-internet-relates-articleshow-rpr82xa",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01km2rnqzxc6hwky1pzpbhsjwz,imgname-thumb-8-1773914480637.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Trump backs down on Strait of Hormuz threat \u2013 raising hopes of Iran peace deal",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/bulletin/news/trump-iran-peace-deal-strait-hormuz-b2981708.html",
+            "image": "https://static.independent.co.uk/2026/05/21/20/51/AP26141586857232.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "Are Jeon So-young and Baek Sun-ho dating? Actress breaks silence",
+            "severity": "WATCH",
+            "url": "https://me.mashable.com/entertainment/71693/are-jeon-so-young-and-baek-sun-ho-dating-actress-breaks-silence",
+            "image": "https://sm.mashable.com/mashable_me/photo/default/park-so-young-and-baek-sun-ho_uem1.jpg",
+            "source": "mashable_me"
+        },
+        {
+            "title": "More US troops in Poland - What does the country have to say about it",
+            "severity": "WATCH",
+            "url": "http://www.euronews.com/my-europe/2026/05/22/more-us-troops-in-poland-what-does-the-country-have-to-say-about-it",
+            "image": "https://images.euronews.com/articles/stories/09/76/83/50/1440x810_cmsv2_16e2ce7c-8415-5acd-a2b7-b58bce2fe1c6-9768350.jpg",
+            "source": "euronews"
+        },
+        {
+            "title": "India to launch 'smart border' project along Pakistan, Bangladesh borders to curb infiltration: Amit Shah",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/defence/india-to-launch-smart-border-project-along-pak-bdesh-borders-to-curb-infiltration-amit-shah/articleshow/131259319.cms",
+            "image": "https://img.etimg.com/thumb/msid-131259444,resizemode-4,width-1200,height-900,imgsize-89220,overlay-etdefence/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Trump announces surprise deployment of 5,000 troops to Poland after vowing to cut US presence in Europe",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-15840011/Trump-announces-surprise-deployment-5-000-troops-Poland-vowing-cut-US-presence-Europe.html",
+            "image": "https://i.dailymail.com/1s/2026/05/22/08/108795053-0-image-a-6_1779436408407.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "BSNL perfects indigenous 4G network, technology brings India to 4th rank worldwide: Pemmasani",
+            "severity": "WATCH",
+            "url": "https://telecom.economictimes.indiatimes.com/news/policy/india-achieves-fourth-place-globally-in-4g-network-development-with-bsnls-indigenous-technology/131259484",
+            "image": "https://etimg.etb2bimg.com/thumb/msid-131259484,width-1200,height-900,resizemode-4/.jpg",
+            "source": "telecom_economictimes"
+        },
+        {
+            "title": "Entrepreneurs expect China's extended visa-free policy to boost China-Russia economic cooperation",
+            "severity": "WATCH",
+            "url": "http://chinanationalnews.com/news/279068528/entrepreneurs-expect-china-extended-visa-free-policy-to-boost-china-russia-economic-cooperation",
+            "image": "https://image.chitra.live/api/v1/wps/c6c77f3/7d904e7a-86e2-4dd0-be7a-9f9669f8e848/0/XxjwshE000029-20260522-CBMFN0A001-600x315.jpg",
+            "source": "chinanationalnews"
+        },
+        {
+            "title": "Naval vessels in maritime training",
+            "severity": "WATCH",
+            "url": "http://english.people.com.cn/n3/2026/0522/c90000-20459488.html",
+            "image": "http://english.people.com.cn/mediafile/pic/BIG/20260522/39/6031693720793457815.jpg",
+            "source": "en_people_cn"
+        },
+        {
+            "title": "Samsung workers vote on hefty pay and bonus package",
+            "severity": "WATCH",
+            "url": "https://finance.yahoo.com/sectors/technology/articles/samsung-workers-vote-hefty-pay-074031121.html",
+            "image": "https://media.zenfs.com/en/dpa_international_526/871fa151fa17586ac3b63e4be9cb810c",
+            "source": "yahoo"
+        },
+        {
+            "title": "EU will not return to Russian oil and gas purchases under any circumstances",
+            "severity": "WATCH",
+            "url": "https://tass.com/economy/2134881",
+            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260522/1475115.jpg",
+            "source": "tass"
+        },
+        {
+            "title": "NATO allies bewildered by Trump's about face on US troop moves in Europe",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/nato-allies-bewildered-trumps-face-074950170.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/M4LJFPC7od0tW7K9LHALjA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MDtjZj13ZWJw/https://media.zenfs.com/en/cp_news_842/5c302f0b8faaf1f4d5a692d381205e86",
+            "source": "yahoo"
+        },
+        {
+            "title": "FIR against SP MP Iqra Hasan over protest at Saharanpur police station",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/lucknow-news/fir-against-sp-mp-iqra-hasan-over-protest-at-saharanpur-police-station-101779436425597.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/01/27/1600x900/logo/ht-generic_cities1_1769511807303_1769511865290.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "New Betting Rules Sparks Insider Trading Fears",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/polymarket-private-startup-bets-insider-trading-concerns-11979371",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/05/Copy-of-32-circle-inset-left-2-1.png?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Scottish academic detained by Israeli forces now safe in Tukey, university says",
+            "severity": "WATCH",
+            "url": "https://www.scotsman.com/news/scots-academic-detained-by-israeli-forces-now-safe-in-tukey-university-says-8636316",
+            "image": "https://www.scotsman.com/jpim-static/image/2026/05/20/12/53/medium.jpeg?width=1200&auto=webp&crop=3%3A2",
+            "source": "scotsman"
+        },
+        {
+            "title": "Midlands dad sues NHS after seven years of treatment for cancer he never had",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/health/midlands-dad-sues-nhs-after-33992145",
+            "image": "https://i2-prod.birminghammail.co.uk/incoming/article33992161.ece/ALTERNATES/s615/0_dad-sues-nhs-af-1549527.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Japan's Nikkei rallies to record close as AI shares shine",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/05/22/japan039s-nikkei-rallies-to-record-close-as-ai-shares-shine",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/22/3921503.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Instagram user booked in Mumbai for \u2018abusive and derogatory\u2019 post against PM Modi",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/cities/mumbai/mumbai-police-fir-pm-narendra-modi-deepfake-video-instagram-10702609/",
+            "image": "https://images.indianexpress.com/2026/05/Mumbai-police-birth-certificate.jpg",
+            "source": "indianexpress"
         }
     ],
-    "Last_Updated": "2026-05-22T16:30:13.657129Z"
+    "Last_Updated": "2026-05-22T19:56:25.146982Z"
 }
