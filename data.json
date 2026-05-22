@@ -1,223 +1,281 @@
 {
-    "AGRI_Score": 64.8,
-    "Velocity": "+0.5",
+    "AGRI_Score": 67.5,
+    "Velocity": "+2.7",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 67.5 reflects a significantly heightened risk environment, predominantly driven by the critical 'Energy & Maritime Disruption' pillar registering a maximum 100 and 'Geopolitical Conflict Intensity' at 83.5. This acute elevation is directly attributable to the severe warnings that the \"Strait of Hormuz closed, oil markets nearing \u2018red zone\u2019: IEA chief warns\" amid \"war engulf[ing] the Middle East.\" The confluence of an immediate energy supply crisis and widespread regional military tensions mandates a comprehensive risk posture.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 82.3,
+        "Geopolitical Conflict Intensity": 83.5,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 60.4,
+        "Trade & Supply Chain Stress": 72.9,
         "Sovereign Financial Stress": 55.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.0,
-        "Cyber & Infrastructure Threats": 58.8,
+        "Sanctions & Regulatory Fragmentation": 54.5,
+        "Cyber & Infrastructure Threats": 69.9,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "The high score is directly attributable to the escalating conflict in the Middle East, as evidenced by headlines like \"As war engulfs the Middle East\" and \"From Hormuz To Ukraine: NATO Faces Pressure Test At High-Stakes Sweden Meet.\" This widespread instability, further complicated by \"Iran Leaves America\u2019s THAAD Arsenal Bleeding,\" indicates a sustained period of high international tension and potential military confrontations.",
+        "Energy & Maritime Disruption": "This pillar is at maximum risk due to critical developments, most notably the warning that the \"Strait of Hormuz closed, oil markets nearing \u2018red zone\u2019: IEA chief warns.\" Compounded by \"Lingering Iran Uncertainty Has Oil Prices Oscillating\" and \"Oil prices rise as investors doubt breakthrough in US-Iran peace talks,\" global energy supply chains face severe and immediate threats.",
+        "Trade & Supply Chain Stress": "Concerns over trade resilience are highlighted by reports such as \"EU may pause Chinese chip ban over auto supply fears,\" indicating potential disruptions in critical technology sectors. The broader implications of geopolitical instability and \"Strait of Hormuz closed\" warnings also threaten global maritime trade routes, increasing the cost and complexity of supply chain management.",
+        "Sovereign Financial Stress": "While not directly cited in the news feed with explicit sovereign debt headlines, the pervasive \"Lingering Iran Uncertainty\" and \"Oil prices rise\" contribute to an environment of global economic uncertainty that can quickly translate into fiscal pressures for nations. Governments face increased expenditures in response to geopolitical events and potential revenue shortfalls from disrupted trade.",
+        "Currency & Liquidity Pressure": "The \"Lingering Iran Uncertainty\" and \"Oil prices rise as investors doubt breakthrough in US-Iran peace talks\" indicate significant market volatility, which can lead to rapid shifts in investor sentiment and capital flows. This environment increases the likelihood of currency depreciation in emerging markets and higher demand for safe-haven assets, creating liquidity challenges.",
+        "Sanctions & Regulatory Fragmentation": "The report that \"EU may pause Chinese chip ban over auto supply fears\" illustrates the ongoing tension between geopolitical objectives and economic realities, suggesting potential for regulatory shifts or fragmentation. The broader context of \"Mike Johnson Feeling the Heat as House Cancels Iran War Powers Vote\" underscores the volatile political landscape influencing international trade and sanction policies.",
+        "Cyber & Infrastructure Threats": "Elevated risk stems from incidents such as the \"Security Breach SHOCK: Punjab Man Held For Allegedly Using Highway CCTV To Share Army Movement\" and the \"Govt admitted NEET breach,\" highlighting vulnerabilities in critical surveillance and data systems. Furthermore, \"Iran Leaves America\u2019s THAAD Arsenal Bleeding\" suggests successful technological or cyber intrusions impacting advanced military infrastructure, indicating a sophisticated threat landscape.",
+        "Climate & Resource Shock": "The \"Warmest night in 14 yrs, power demand to touch 9,000 MW: How Delhi summer is already breaking records\" illustrates direct climate impacts on critical resources like electricity, stressing infrastructure. This environmental pressure is further underscored by initiatives like \"US$80bil for deployment as Southeast Asia's green economy enters a new calculus,\" indicating global efforts to mitigate long-term resource risks."
+    },
     "All_Alerts": [
         {
-            "title": "South Korea hosts America\u2019s biggest overseas military base \u2013 but what does its future look like under Trump?",
+            "title": "As war engulfs the Middle East, China\u2019s Xinjiang is thriving with future tech",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/world/2026/may/22/camp-humphreys-south-korea-us-military-base",
-            "image": "https://i.guim.co.uk/img/media/c3201fef33428191442a78ec22ebcfb8c0e2dd6f/442_0_4101_3280/master/4101.jpg?width=140&quality=85&auto=format&fit=max&s=5f8200c2af74958f10a0f5724a06aeeb",
-            "source": "theguardian"
+            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/22/as-war-engulfs-the-middle-east-chinas-xinjiang-is-thriving-with-future-tech",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/22/3920937.jpg",
+            "source": "thestar_my"
         },
         {
-            "title": "Iran military rebuilding 'faster than expected' as Khamenei issues nuclear order",
+            "title": "Mike Johnson Feeling the Heat as House Cancels Iran War Powers Vote",
             "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/world/2208395/iran-military-rebuilding-faster-than-expected-khamenei-issues-nuclear-order",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2208395_1.jpg",
-            "source": "expresscouk"
+            "url": "https://www.newsweek.com/mike-johnson-feeling-the-heat-as-house-cancels-iran-war-powers-vote-11981185",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/05/GettyImages-2275812581_cbdd84.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
         },
         {
-            "title": "Leo Horoscope Today: May 22, 2026 - Vogue India",
+            "title": "At least 24 killed in two separate attacks in Honduras",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpSnNlb2VwOTRMbjluWU5zUnRpejRVazd6Q2V5UG1vUkxxMTduREFyaThFajQ1dHl4UlhJb29JS3BBb3BBYXl3ZzVzczA1UVFzOXRPVXNydmJNYzVHeXJMelQtZE5IcFVmWkV6Tw?oc=5",
-            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.bbc.com/news/articles/cgqpg118qyyo",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/88b3/live/9deda200-557f-11f1-a6d5-8f9517174b83.jpg",
+            "source": "bbc"
         },
         {
-            "title": "The House got close to voting to end the Iran war. Republicans canceled the vote.",
+            "title": "Donald Trump: 'Not A Good Time' \u2014 Might Skip Son's Wedding Over Iran War, Blames Media",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/house-got-close-voting-end-002554635.html",
-            "image": "https://images.pexels.com/photos/36201272/pexels-photo-36201272.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://newsable.asianetnews.com/world/donald-trump-may-miss-son-wedding-amid-iran-crisis-articleshow-sykotxf",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01ks6xrcfdjpm00dax277tzcja,imgname-donald-trump-son-wedding-1779422736877.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Terminator-style tech gear could revolutionize hiking \u2014 California is its guinea pig",
+            "severity": "HIGH",
+            "url": "https://tech.yahoo.com/wearables/articles/terminator-style-tech-gear-could-042721022.html",
+            "image": "https://media.zenfs.com/en/california_post_772/2ca884750b6fecb6207ae0f8bc8d36c2",
             "source": "yahoo"
         },
         {
-            "title": "NAB makes major RBA rate hike call as unemployment rate jumps: 'Balance of risks has shifted' - Yahoo Finance Australia",
+            "title": "Iran Leaves America\u2019s THAAD Arsenal Bleeding; Pentagon Faces Costly Reality Check",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcUFmVVNETjdhZzVzZHZSSE8ycHRKd19XUFFzMzNQOFo2S1NPYnBRVjZJcFlBajBnS0hFR005VndwWEk5eGtNTmluejJDQTRXbE83b0d6LUtLSEtxMXZuSHdCZWU2Q0kxcHB6RmgxMV96Z2JmVHZVUkp2VHVPbW0tRkhqNjJKM1dRSTVHV2tZWUxtR3RhSGVyRFdzVEhEeUJ0ME94WE1TRFlGTlc0b0FoVDBZYzdKY0ZOTlVEcE1MZHpyOUNrRUFjX1pvZE02UHlDQUZST1Nn?oc=5",
-            "image": "https://images.pexels.com/photos/17504475/pexels-photo-17504475.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Trump says he\u2019ll \u2018try\u2019 to attend son\u2019s wedding, but it\u2019s \u2018not good timing\u2019",
-            "severity": "HIGH",
-            "url": "https://www.nbcnews.com/video/trump-says-he-ll-try-to-attend-son-s-wedding-but-it-s-not-good-timing-263758405652",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_05/1779409238072_f_mo_la_trump_wedding_invitation_260521_S3_1920x1080-2h6y5r.jpg",
-            "source": "nbcnews"
-        },
-        {
-            "title": "US Arrests Sister of Cuban Military Conglomerate Chief",
-            "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-05-21/us-arrests-sister-of-cuban-military-conglomerate-chief",
-            "image": "https://www.usnews.com/object/image/0000019e-4b21-db00-a59e-ff6585d50000/weekly2.jpg?update-time=1779377470217&size=responsiveSquare150",
-            "source": "usnews"
-        },
-        {
-            "title": "Simba's parent company terminates deal to acquire M1 - CNA",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUDZKSTMtekZjcUtuV3pHNXZoUThIR25XcWpFS2xrTXJIRGtGcUpHeWd5NFY2cFk2cjBabEJQWXpWcklzTWlfOUdnMlRUZ09uS2dydC0tOE10VXJrS2ZjYkNRcnNWUVNfVm0wX1Z6SXlWVkwtaVNuMnpzbzBPWldmT0N3RHI0YkU?oc=5",
-            "image": "https://images.pexels.com/photos/11816424/pexels-photo-11816424.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Data of around 1,700 people potentially compromised in Canvas data breach, N.W.T. gov't says",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/data-around-1-700-people-235407591.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/SYCpl5pX_5UmJ2M_0XDDug--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/cbc.ca/1a8c98acf68f193338ad24167d286766",
-            "source": "yahoo"
-        },
-        {
-            "title": "Oil Rises After Three-Day Drop With Iran-US Talks in Focus",
-            "severity": "MEDIUM",
-            "url": "https://ca.finance.yahoo.com/news/oil-rises-three-day-drop-001721001.html",
-            "image": "https://media.zenfs.com/en/bloomberg_holding_pen_162/57914c62e37dfcefb1c3cf2a5f4c0e38",
-            "source": "yahoo"
-        },
-        {
-            "title": "India\u2019s new trade and defence deals signal strategic autonomy play amid global flux",
-            "severity": "WATCH",
-            "url": "https://www.indusage.com.au/?p=98196",
-            "image": "https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "indusage_au"
-        },
-        {
-            "title": "India needs to raise food grains production to 450 million tonnes by 2047: Chaudhari",
-            "severity": "WATCH",
-            "url": "https://www.foodprocessingbazaar.com/news/india-needs-to-raise-food-grains-production-to-450-million-tonnes-by-2047-chaudhari/",
-            "image": "https://images.pexels.com/photos/12231821/pexels-photo-12231821.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "foodprocessingbazaar"
-        },
-        {
-            "title": "Asia\u2019s currencies are flashing the oil shock alarm",
-            "severity": "WATCH",
-            "url": "https://www.japantimes.co.jp/business/2026/05/22/markets/asia-currencies-oil-shock/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/05/22/541818.jpg",
-            "source": "japantimes"
-        },
-        {
-            "title": "Laughter Chefs 3 gets a fun partner swap twist with Amaal Mallik\u2019s entry; Tejasswi Prakash joins Vicky Jain, Ankita Lokhande teams up with Aly Goni",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/laughter-chefs-3-gets-a-fun-partner-swap-twist-with-amaal-malliks-entry-tejasswi-prakash-joins-vicky-jain-ankita-lokhande-teams-up-with-aly-goni/articleshow/131254357.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131254367/131254367.jpg",
+            "url": "https://timesofindia.indiatimes.com/videos/international/iran-leaves-americas-thaad-arsenal-bleeding-pentagon-faces-costly-reality-check/videoshow/131256219.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-131256219/131256219.jpg?resizemode=4",
             "source": "toi"
         },
         {
-            "title": "School Assembly News Headlines Today (May 22): Top National, International & Sports Updates + Thought of the Day",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/education/school-assembly-news-headlines-today-may-22-top-national-international-sports-updates-thought-of-the-day-article-154372533",
-            "image": "https://images.timesnownews.com/thumb/msid-154372534,width-1280,height-720,resizemode-75/154372534.jpg",
-            "source": "timesnownews"
+            "title": "EU may pause Chinese chip ban over auto supply fears: report",
+            "severity": "HIGH",
+            "url": "https://seekingalpha.com/news/4596126-eu-may-pause-chinese-chip-ban-over-auto-supply-fears-report?feed_item_type=news",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2220442262/image_2220442262.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
         },
         {
-            "title": "Never Deal With Stuck Fish Again Using Alex Guarnaschelli's Pan-Searing Tip",
-            "severity": "WATCH",
-            "url": "https://www.thetakeout.com/2174158/alex-guarnaschelli-pan-sear-fish-stop-sticking-tip/",
-            "image": "https://www.thetakeout.com/img/gallery/never-deal-with-stuck-fish-again-using-alex-guarnaschellis-pan-searing-tip/l-intro-1778882384.jpg",
-            "source": "thetakeout"
+            "title": "Warmest night in 14 yrs, power demand to touch 9,000 MW: How Delhi summer is already breaking records",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/india-news/hottest-night-in-14-yrs-power-demand-to-touch-9-000-mw-how-delhi-temperature-summer-is-already-breaking-records-101779419847191.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/22/1600x900/logo/20260521-DGG-PK-MN-Hot-Weather-07-0_1779420922275_1779420937472_a6e7b718-d254-4a84-80bf-2c511222171a.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "SpaceX's most powerful rocket ever built is now even bigger and more powerful. But will it work?",
-            "severity": "WATCH",
-            "url": "https://www.kcra.com/article/most-powerful-rocket-ever-built-is-now-even-bigger-and-more-powerful-but-will-it-work/71379360",
-            "image": "https://kubrick.htvapps.com/htv-prod/images/8993a372-8de2-4966-9300-1563b13887f9.jpg?crop=1.00xw:0.847xh;0,0.0144xh&resize=1200:*",
-            "source": "kcra"
+            "title": "'Explore alternative energy sources': PM Modi's diktat to ministers, officials as West Asia crisis continues",
+            "severity": "HIGH",
+            "url": "https://www.businesstoday.in/india/story/explore-alternate-energy-sources-pm-modis-diktat-to-ministers-officials-as-west-asia-crisis-continues-532785-2026-05-22",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202605/6a0fd7bd7ecaf-modi-also-told-ministers-to-implement-reforms-with-vigour--saying-viksit-bharat-2047-was-not-merely-221240288-16x9.jpg?size=1280:720",
+            "source": "businesstoday"
         },
         {
-            "title": "EU downgrades growth forecast, fueling stagflation concerns",
-            "severity": "WATCH",
-            "url": "http://english.people.com.cn/n3/2026/0522/c90000-20459111.html",
-            "image": "http://english.people.com.cn/mediafile/pic/BIG/20260522/22/15656109551042940770.jpg",
-            "source": "en_people_cn"
+            "title": "Strait of Hormuz closed, oil markets nearing \u2018red zone\u2019: IEA chief warns",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/world/strait-of-hormuz-closed-oil-markets-nearing-red-zone-iea-chief-warns-india-explores-alternative-fuel-plans-10702324/",
+            "image": "https://images.indianexpress.com/2026/05/International-Energy-Agency-Executive-Director-Fatih-Birol_20260522034002.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Deep Rock Galactic: Rogue Core Reclaimers tier list \u2013 Best classes to use",
-            "severity": "WATCH",
-            "url": "https://www.destructoid.com/deep-rock-galactic-rogue-core-reclaimers-tier-list-best-classes-to-use/",
-            "image": "https://www.destructoid.com/wp-content/uploads/2026/05/ss_46f12e4aa86d98afd4d2dfa97104fbecc2a425e3.1920x1080.jpg?fit=1200%2C675",
-            "source": "destructoid"
+            "title": "BCCI Punishes Entire CSK Squad Following Defeat To GT",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/sports/cricket/entire-csk-squad-handed-punishment-by-bcci-following-defeat-to-gt-1845294",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/05/22/cec0497a31fdadc059d04b9e4da75e24177942212197524_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
         },
         {
-            "title": "Germany charges two accused of IRGC-backed murder plot",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/world/mena/germany-charges-two-accused-of-irgc-backed-murder-plot-1.500549038",
-            "image": "https://gumlet-images.assettype.com/gulfnews/2026-05-22/4pdege0n/Screenshot-2026-05-22-at-8.09.21-AM.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "title": "Security Breach SHOCK: Punjab Man Held For Allegedly Using Highway CCTV To Share Army Movement",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/india/security-breach-shock-punjab-man-held-for-allegedly-using-highway-cctv-to-share-army-movement-with-pakistan-articleshow-0wq7g3o",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01ffmxqrdztaed37wnqxxj97bx,imgname-befunky-collage--23--jpg.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "Astera Labs president and COO Sanjay Gajendra sells $69.77 million in shares",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/insider-trading-news/astera-labs-president-and-coo-sanjay-gajendra-sells-6977-million-in-shares-93CH-4694335",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEL7C0LP_L.jpg",
-            "source": "investing_uk"
+            "title": "Govt admitted NEET breach. NTA chief says 'no leak': Does anyone know what happened? - India Today",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRGpsZFlJMVI5TWpzU2R6ZVQyNHBoSHBTbkp6dl9uVzFVY3JwbVc3NGFfcFJEOWxOYTJPaTVrb2czbnlvbE5zcllqRExBdWN3bzUzc1F4R2E3cTNMcXZoQXlKdEtiZF9xaWJSS0FuZ29ILXBLaU1EQUJwV0ZxcmhSLThMN19Vei1rem9FRVB4X2ptNGpiQ09WM3U2V2twOElucnk5cGs1bG5EQ29uU09reURybkM3cVpmNlNQZzZfcTZVUE1oTko1dUs3VlRVdVBVcXFaZ1ZnTkVBbUnSAeABQVVfeXFMUG82LWk5b1hLdFVOaHdlemhyMzBmcng3UEp6ZTV1UjFjWjc0UHFwT3RudGZKUVQ3Q3YxalhFcVBHQzA1R1FqcUFvUDRReTlVc3hsMURFRGdKQkc4VUJTTzBpMnpQcnZ5cFBCZ1BFWl95QnJCa1ZsbXJvdlQyNjcwSWtUYTBQZXpzWXo0aGZmNThGX2RISEMtcmxpZEVYNS1CMjBZYlc2M0Jha3ZIVE13T3hTeTQ2ZEdTTDdxOUFLN2xOZ3pqaGNkWHRFWlRtTnlEbUdxM1dSazFuaFZmeG1NcTE?oc=5",
+            "image": "https://images.pexels.com/photos/6366444/pexels-photo-6366444.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Fishermen are being pushed to the brink by fuel costs in Southeast Asia",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/small-biz/trade/exports/insights/fishermen-are-being-pushed-to-the-brink-by-fuel-costs-in-southeast-asia/articleshow/131257403.cms",
-            "image": "https://img.etimg.com/thumb/msid-131257476,resizemode-4,width-1200,height-900,imgsize-312128,overlay-etrise/articleshow.jpg",
+            "title": "\u2018Those files should\u2019ve been locked up\u2019: Coworker with just 6 months on the job caught rummaging through confidential files, but it\u2019s the boss who could be in bigger trouble, internet warns",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/us/life/those-files-shouldve-been-locked-up-coworker-with-just-6-months-on-the-job-caught-rummaging-through-confidential-files-but-its-the-boss-who-could-be-in-bigger-trouble-internet-warns/articleshow/131260142.cms",
+            "image": "https://img.etimg.com/thumb/msid-131260383,resizemode-4,width-1200,height-900,imgsize-1948488,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Crime gangs' booming counterfeit World Cup football kit trade as real ones 'unaffordable'",
-            "severity": "WATCH",
-            "url": "https://www.dailystar.co.uk/sport/football/crime-gangs-booming-counterfeit-world-37190405",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article28533436.ece/ALTERNATES/s615/0_Counterfeit-football-jerseys.jpg",
-            "source": "dailystar"
+            "title": "POET Technologies Lawsuits And Customer Losses Raise Valuation Risk Questions",
+            "severity": "HIGH",
+            "url": "https://ca.finance.yahoo.com/news/poet-technologies-lawsuits-customer-losses-031322048.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/OKBwuHbMKNjQhCH7hUzhJw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjYw/https://media.zenfs.com/en/simply_wall_st__316/4e4b82f8b6c5bad245608476f56d80ef",
+            "source": "yahoo"
         },
         {
-            "title": "Japan's 1,200-Year-Old \u2018Eternal Flame\u2019 Survives Massive Temple Fire | WATCH",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/asia/japan-1200-year-old-eternal-flame-survives-massive-temple-fire-watch-article-154372512",
-            "image": "https://images.timesnownews.com/thumb/msid-154372524,width-1280,height-720,resizemode-75/154372524.jpg",
+            "title": "From Hormuz To Ukraine: NATO Faces Pressure Test At High-Stakes Sweden Meet",
+            "severity": "MEDIUM",
+            "url": "https://www.timesnownews.com/world/europe/from-hormuz-to-ukraine-nato-faces-pressure-test-at-high-stakes-sweden-meet-article-154373429",
+            "image": "https://images.timesnownews.com/thumb/msid-154373499,width-1280,height-720,resizemode-75/154373499.jpg",
             "source": "timesnownews"
         },
         {
-            "title": "Memorial Day travel plans hit by higher fuel prices",
-            "severity": "WATCH",
-            "url": "https://usa.inquirer.net/198073/memorial-day-travel-plans-hit-by-higher-fuel-prices",
-            "image": "https://usa.inquirer.net/files/2026/05/AP26141192395381-scaled.jpg",
-            "source": "inquirer"
+            "title": "Oil prices rise as investors doubt breakthrough in US-Iran peace talks",
+            "severity": "MEDIUM",
+            "url": "https://ca.finance.yahoo.com/news/oil-prices-rise-investors-doubt-041932428.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/APLCrH.brElra7JsUfoiAg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2MDA7aD0xMDY2/https://media.zenfs.com/en/reuters.com/495a44801e47b4ebade622ebbdc0b5bc",
+            "source": "yahoo"
         },
         {
-            "title": "12-Year Act Ends: How Fugitive Murder Convict Co-Starred With Amitabh Bachchan, Aamir Khan & Ranveer Singh",
+            "title": "The Commodities Feed: Lingering Iran Uncertainty Has Oil Prices Oscillating",
+            "severity": "MEDIUM",
+            "url": "https://au.investing.com/analysis/the-commodities-feed-lingering-iran-uncertainty-has-oil-prices-oscillating-200614065",
+            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "AFR editor blames \u2018reporter oversight\u2019 for failure to disclose travel payment for energy conference | Weekly Beast",
+            "severity": "MEDIUM",
+            "url": "https://www.theguardian.com/media/2026/may/22/afr-editor-failure-to-disclose-travel-payment-for-energy-conference-ntwnfb",
+            "image": "https://i.guim.co.uk/img/media/196f394cf5d58a5d0f62d9d27661f92bc2d6d7c9/176_0_1336_1069/master/1336.jpg?width=140&quality=85&auto=format&fit=max&s=cd9483bbc92432e0672d1cfcdb46d3ae",
+            "source": "theguardian"
+        },
+        {
+            "title": "US$80bil for deployment as Southeast Asia's green economy enters a new calculus",
             "severity": "WATCH",
-            "url": "https://www.news18.com/india/12-year-act-ends-how-fugitive-murder-convict-co-starred-with-amitabh-bachchan-aamir-khan-ranveer-singh-10104900.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/05/Fugitive-Murder-Convict-Hemant-Modi-Co-Starred-With-Amitabh-Bachchan-Aamir-Khan-Sunny-Deol-Ranveer-Singh-2026-05-844404eddc44e75ae36aa4c0f3fc06da-1200x800.jpg",
+            "url": "https://www.thestar.com.my/business/business-news/2026/05/22/us80bil-for-deployment-as-southeast-asia039s-green-economy-enters-a-new-calculus",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/22/3921254.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "RBI not in favour of rate hikes to defend rupee, prioritises inflation",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/economy/indicators/rbi-not-in-favour-of-rate-hikes-to-defend-rupee-prioritises-inflation/articleshow/131256206.cms",
+            "image": "https://img.etimg.com/thumb/msid-131256206,resizemode-4,width-1200,height-900,imgsize-82394,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "I asked seven experts if you should open windows during a heatwave \u2013 they had same answer",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/uk/2207822/heatwave-windows-open-closed",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2207822_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Shashi Tharoor's Advice To Opposition Amid 'Cockroach Janata Party' Rage",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/india-news/shashi-tharoors-advice-to-opposition-amid-cockroach-janata-party-rage-11531166",
+            "image": "https://c.ndtvimg.com/2026-05/6vis1alc_tharoor_625x300_22_May_26.jpg?im=FitAndFill,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
+        },
+        {
+            "title": "Transcript: Blockbuster IPOs to take Wall Street by storm",
+            "severity": "WATCH",
+            "url": "https://www.ft.com/content/ba62d6a5-856a-450f-871d-0066b4117bdc",
+            "image": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F40e7119b-26a8-41bc-8462-069e4493ca43.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+            "source": "financialtimes"
+        },
+        {
+            "title": "Oppo Find X9 Ultra, Find X9s launched in India with 7,050mAh battery: Prices, camera, features, and performance",
+            "severity": "WATCH",
+            "url": "https://zeenews.india.com/technology/oppo-find-x9-ultra-find-x9s-launched-in-india-with-7050mah-battery-prices-camera-features-and-performance-3049486.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/05/22/1945943-oppo-find-x9s-ultra.jpg?im=Resize=(1200,900)",
+            "source": "zeenews"
+        },
+        {
+            "title": "Jason Kidd breaks silence following departure from Dallas Mavericks",
+            "severity": "WATCH",
+            "url": "https://www.sportingnews.com/us/nba/dallas-mavericks/news/jason-kidd-breaks-silence-following-departure-dallas-mavericks/54ea52390bcbcc265a8a9109",
+            "image": "https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2025-06/GettyImages-2206921148%20%281%29.jpg.webp?itok=vfhH5mnO",
+            "source": "sportingnews"
+        },
+        {
+            "title": "Rest and recover \u2014 Why Carlos Alcaraz withdrawing from French Open, Wimbledon makes sense",
+            "severity": "WATCH",
+            "url": "https://sportstar.thehindu.com/tennis/french-open-2026-why-carlos-alcaraz-is-right-to-withdraw-from-roland-garros-advantage-jannik-sinner/article71009145.ece",
+            "image": "https://ss-i.thgim.com/public/incoming/fz3ov2/article71009158.ece/alternates/LANDSCAPE_1200/2220969163.jpg",
+            "source": "sportstar"
+        },
+        {
+            "title": "Who Runs Iran Today? No, It's Not Just Mojtaba Khamenei",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/world-news/iran-war-who-runs-iran-today-no-its-not-just-mojtaba-khamenei-11531165",
+            "image": "https://c.ndtvimg.com/2026-05/4im129cg_mojtaba-khamenei_625x300_19_May_26.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
+        },
+        {
+            "title": "Lennar Corporation\u2019s SWOT analysis: stock faces headwinds",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/swot-analysis/lennar-corporations-swot-analysis-stock-faces-headwinds-93CH-4451491",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXNPEL3915F_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "GAIL Q4 PAT slides 38% YoY to Rs 1,262 crore",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/markets/capital-market-news/gail-q4-pat-slides-38-yoy-to-rs-1-262-crore-126052200288_1.html",
+            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "VA Tech Wabag rises after Q4 PAT jumps 28% YoY to Rs 128 cr",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/markets/capital-market-news/va-tech-wabag-rises-after-q4-pat-jumps-28-yoy-to-rs-128-cr-126052200285_1.html",
+            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Woman involved in WW2 codebreaking turns 102",
+            "severity": "WATCH",
+            "url": "https://www.bbc.com/news/articles/c3e2dl4n9jvo",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/cdee/live/812141a0-5524-11f1-87e7-8195a3fea8aa.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "NEET UG Paper Leak Not Linked To NTA System, Exam Agency Tells Parliament Panel",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/education/neet-ug-paper-leak-not-linked-to-nta-system-exam-agency-tells-parliament-panel-11531084",
+            "image": "https://c.ndtvimg.com/2026-05/pork66dk_neet-ug-2026-paper-leak_625x300_22_May_26.jpeg",
+            "source": "ndtv"
+        },
+        {
+            "title": "IPL 2026: Ruturaj Gaikwad penalised after CSK\u2019s crushing defeat to Gujarat Titans",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/ipl/ipl-2026/ipl-2026-ruturaj-gaikwad-penalised-after-csks-crushing-defeat-to-gujarat-titans/articleshow/131255522.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131255518/131255518.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Nifty, Sensex, Nifty Bank outlook for today: GIFT Nifty up 20 points; key levels to watch",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/markets/story/nifty-sensex-nifty-bank-outlook-for-today-gift-nifty-up-20-points-key-levels-to-watch-532763-2026-05-22",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202605/6a0fc209311e7-brent-crude-futures-rose-2-per-cent-to-10471-a-barrel-but-were-set-for-a-6-per-cent-drop-in-the-22400361-16x9.png?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "Trees Down, Metro Out, Wires Sparking In Bengaluru \u2014 And IMD Says Brace For More",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/cities/bengaluru-news/trees-down-metro-out-wires-sparking-in-bengaluru-and-imd-says-brace-for-more-10104953.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/05/bengaluru-rain-2026-05-9253db8480c7f2f8c06100348e39d367-1200x800.png",
             "source": "news18"
-        },
-        {
-            "title": "How to watch the final episode of The Late Show with Stephen Colbert",
-            "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/streaming/how-to-watch-late-show-with-stephen-colbert-final-episode",
-            "image": "https://i.insider.com/6a0f6012b1025a62a5c85bc5?width=1200&format=jpeg",
-            "source": "insider"
-        },
-        {
-            "title": "Windsor man charged with attempted murder after dousing woman with flammable liquid, say police",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/windsor/windsor-man-attempt-murder-ignite-9.7208097?cmp=rss",
-            "image": "https://i.cbc.ca/ais/1.7114028,1707853923000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C267%2C5184%2C2916%29%3B",
-            "source": "cbc"
-        },
-        {
-            "title": "WA news LIVE: Elderly woman dies in crash near rural WA town",
-            "severity": "WATCH",
-            "url": "https://www.smh.com.au/national/western-australia/wa-news-live-elderly-woman-dies-in-crash-near-rural-wa-town-20260522-p5zzq4.html",
-            "image": "https://static.ffx.io/images/$zoom_0.2056%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_54/t_crop_custom/q_86%2Cf_auto/331c6f5a1ccf7543cb82febe89aea241d1eba103",
-            "source": "smh"
         }
     ],
-    "Last_Updated": "2026-05-22T12:26:39.159343Z"
+    "Last_Updated": "2026-05-22T16:30:13.657129Z"
 }
