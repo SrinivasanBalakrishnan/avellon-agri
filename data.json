@@ -1,252 +1,203 @@
 {
-    "AGRI_Score": 65.4,
-    "Velocity": "+0.7",
+    "AGRI_Score": 63.0,
+    "Velocity": "-2.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 65.4 reflects a high-risk global environment, primarily propelled by extreme energy market disruptions and elevated geopolitical conflict. The 'Energy & Maritime Disruption' pillar is at an extreme 100, driven by persistent domestic fuel price hikes, as evidenced by 'Petrol, diesel prices hiked third time' and 'Petrol, diesel prices raised \u20b95 in a week amid nationwide protests'. Concurrently, geopolitical tensions remain acute with direct threats and bellicose rhetoric, notably between the US and Iran, pushing the 'Geopolitical Conflict Intensity' pillar to a high 78.4.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.0 reflects a significantly elevated risk environment, predominantly driven by extreme tension in the 'Energy & Maritime Disruption' pillar, which stands at 100. This is largely fueled by escalating US-Iran geopolitical dynamics and their direct threat to the Strait of Hormuz, as indicated by \"Iran, Oman negotiate possible tolls system for Strait of Hormuz even as US warns against it - NYT\". The 'Geopolitical Conflict Intensity' pillar, at 71.2, further underscores this precarious situation, with reports like \"Pentagon, US intelligence community preparing for strikes on Iran this weekend \u2014 CBS\" signaling an imminent risk of military action, creating widespread uncertainty across global markets and supply chains.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 78.4,
+        "Geopolitical Conflict Intensity": 71.2,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 66.2,
+        "Trade & Supply Chain Stress": 60.5,
         "Sovereign Financial Stress": 55.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 63.2,
-        "Cyber & Infrastructure Threats": 58.3,
+        "Sanctions & Regulatory Fragmentation": 60.6,
+        "Cyber & Infrastructure Threats": 56.8,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Escalating rhetoric concerning potential conflict, as implied by 'Trump To Miss Son's Wedding Due To Iran War', and direct challenges from Iranian officials, with Mojtaba Aide reportedly laughing off Trump's proposal for uranium, are driving extreme international tensions. These statements, alongside diplomatic maneuvers like Trump's post against the Nuuk skyline, indicate heightened friction and a volatile geopolitical landscape.",
-        "Energy & Maritime Disruption": "The consistent and significant increases in fuel prices, highlighted by 'Petrol, diesel prices hiked third time, sees increase by around 90 paise' and 'Petrol, diesel prices raised \u20b95 in a week amid nationwide protests', underscore a severe and ongoing disruption within energy markets. These price shocks are not only economic but are also generating nationwide social unrest, signaling deep societal impacts.",
-        "Trade & Supply Chain Stress": "The reported risk of an explosion at a 'GKN Aerospace, the Company Whose California Plant Is at Risk of Exploding?' highlights a significant potential for disruption to critical industrial and aerospace supply chains. Furthermore, broader market uncertainties reflected in events like 'Keppel\u2019s M1 Deal Collapses' indicate headwinds for international trade flows and corporate investment strategies.",
-        "Sovereign Financial Stress": "While current reports include large corporate divestments such as 'UOB\u2019s S$387m Property Divestment', these reflect asset reallocation rather than direct sovereign financial distress. However, widespread social discontent stemming from unemployment, as seen in 'How a \u2018Cockroach\u2019 Jibe United India\u2019s Disgruntled Jobless Youth', could indirectly strain government finances through increased social welfare demands and diminished tax revenues.",
-        "Currency & Liquidity Pressure": "Significant corporate financial activities, including 'Keppel\u2019s M1 Deal Collapses' and 'UOB\u2019s S$387m Property Divestment', indicate substantial capital movements that can influence regional currency valuations and local market liquidity. These large-scale financial shifts necessitate close observation for their potential to induce localized currency or liquidity pressures.",
-        "Sanctions & Regulatory Fragmentation": "The implementation of 'New US Immigration Rules Say Return To Home Country First' signals a trend towards more restrictive and fragmented international regulatory frameworks, impacting global mobility and trade. This, combined with high geopolitical tensions, creates an environment where new sanctions or further regulatory shifts are a distinct possibility.",
-        "Cyber & Infrastructure Threats": "The reported 'risk of Exploding' at a GKN Aerospace plant underscores critical vulnerabilities within industrial infrastructure, highlighting the ever-present threat to operational continuity and safety in complex facilities. While not explicitly cyber-related, such incidents demonstrate the broader spectrum of threats that can impact essential infrastructure.",
-        "Climate & Resource Shock": "Current reporting does not indicate any immediate, severe climate events or resource scarcity shocks impacting global systems or supply chains. Monitoring remains at baseline activity for this pillar, with no emergent threats identified in the provided news feed."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is elevated due to the immediate threat of military action between the US and Iran, with the Pentagon reportedly preparing for strikes this weekend. The closure of Iranian airspace, as reported by \"US-Iran War News Live Updates: Trump Rushes Back To White House As Iran Closes Western Airspace\", further underscores the extremely tense and volatile situation in the region.",
+        "Energy & Maritime Disruption": "This pillar is at its maximum due to the severe threat to global energy supplies via the Strait of Hormuz, where Iran and Oman are discussing a tolls system despite US warnings. The broader US-Iran conflict escalation and potential closure of airspace highlight extreme disruption potential for maritime and aerial transit, directly impacting oil and gas flows.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress is elevated by the potential for maritime disruption in the Strait of Hormuz, a critical chokepoint for global commerce, as implied by toll negotiations. Rising domestic energy costs, such as the \"CNG To Get Costlier In New Delhi As IGL Announces Rs 1 Price Hike\", indicate broader inflationary pressures that could impact logistics and manufacturing supply chains.",
+        "Sovereign Financial Stress": "Sovereign financial stress exhibits moderate risk, influenced by general market volatility and investor uncertainty, as evidenced by the high severity of \"Gold, Silver Rate Today May 23\" news. While regional markets like SGX show resilience, specific corporate deals collapsing suggest underlying economic pressures are present in certain sectors.",
+        "Currency & Liquidity Pressure": "This pillar indicates baseline activity, with precious metal rates being monitored as a hedge against inflation or geopolitical uncertainty, as highlighted by \"Gold, Silver Rate Today May 23\". There is no specific news pointing to immediate, widespread currency devaluation or a systemic liquidity crunch.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation is a concern due to Iran's potential imposition of tolls in the Strait of Hormuz, directly challenging international maritime norms and US warnings against it. The escalating US-Iran tensions, including the \"US-Iran War News Live Updates\", inherently raise the probability of new or expanded sanctions regimes impacting global commerce.",
+        "Cyber & Infrastructure Threats": "This pillar shows routine monitoring with an emphasis on infrastructure vulnerabilities, highlighted by a large-scale evacuation due to a \"chemical tank leak in Southern California\". While not a cyber incident, it underscores the potential for critical infrastructure failures to impact populations and economic activity.",
+        "Climate & Resource Shock": "This pillar currently reflects low risk, though environmental concerns like delayed PFAS cleanup at Wurtsmith demonstrate ongoing resource management challenges. Discussions around oil policy, such as Governor Newsom's stance on Chevron, indicate underlying debates about energy transition and resource use."
     },
     "All_Alerts": [
         {
-            "title": "Want To Apply For Green Card? New US Immigration Rules Say Return To Home Country First",
+            "title": "Iran, Oman negotiate possible tolls system for Strait of Hormuz even as US warns against it - NYT",
             "severity": "HIGH",
-            "url": "https://news.abplive.com/news/world/us-tightens-immigration-rules-directs-green-card-applicants-to-return-to-home-country-to-apply-1845518",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/05/23/65693bbfdfd0729693c669e2574a7b921779500714986927_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
+            "url": "https://www.jpost.com/middle-east/iran-news/article-897038",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/722101",
+            "source": "jpost"
         },
         {
-            "title": "How a \u2018Cockroach\u2019 Jibe United India\u2019s Disgruntled Jobless Youth",
+            "title": "Gold, Silver Rate Today May 23; Check 22K, 24K Rates in Delhi, Mumbai, Kolkata & More",
             "severity": "HIGH",
-            "url": "https://financialpost.com/pmn/business-pmn/how-a-cockroach-jibe-united-indias-disgruntled-jobless-youth",
-            "image": "https://images.pexels.com/photos/34635799/pexels-photo-34635799.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "financialpost"
+            "url": "https://newsable.asianetnews.com/business/gold-silver-rate-today-may-23-check-22k-24k-rates-in-delhi-mumbai-kolkata-articleshow-8c50dl0",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01knjz1jrftgfvjhp5p3hr7zze,imgname-gold-silver-price-india-7-april-2026-mumbai-delhi-chennai-kolkata-bangalore-rate-today-bullion-market-update-1-1775531772687.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "Waiting for Badal: Hopes fade for family of CRPF constable in top Maoist\u2019s custody",
+            "title": "US-Iran War News Live Updates: Trump Rushes Back To White House As Iran Closes Western Airspace; Will Ceasefire Hold?",
             "severity": "HIGH",
-            "url": "https://indianexpress.com/article/india/waiting-for-badal-hopes-fade-for-family-of-crpf-constable-in-top-maoists-custody-10703577/",
-            "image": "https://images.indianexpress.com/2026/05/Jammu.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "THE SALAH FILES, Part 5: Scorched Earth. How Mo Salah set 'fire' to his Liverpool farewell, why he was so furious with Arne Slot, the men who masterminded his exit... and an ominous warning for what comes next",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/sport/football/article-15837967/Mohamed-Salah-Files-Five-Liverpool-Slot-Exit.html",
-            "image": "https://i.dailymail.com/1s/2026/05/21/18/108784677-0-image-a-4_1779385860221.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Major Abhilasha Barak to receive 2025 UN Military Gender Advocate of Year Award",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/agency-feeds/major-abhilasha-barak-to-receive-2025-un-military-gender-advocate-of-year-award-10107383.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
+            "url": "https://www.news18.com/world/us-iran-war-live-updates-donald-trump-news-ceasefire-strait-of-hormuz-iran-peace-talks-israel-middle-east-conflict-liveblog-ws-l-10107415.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/05/Donald-Trump-2026-05-3ffc44b64b027eb982cdbfe49a4c19de-1200x800.jpg",
             "source": "news18"
-        },
-        {
-            "title": "Trump To Miss Son's Wedding Due To Iran War, Says \"Love For US Doesn't Allow Me\"",
-            "severity": "HIGH",
-            "url": "https://www.ndtv.com/world-news/president-donald-trump-to-miss-son-donald-trump-jr-wedding-due-to-iran-war-says-love-for-us-doesnt-allow-me-11535612",
-            "image": "https://c.ndtvimg.com/2026-05/rkvtmmeg_donald-trump-and-son-afp_625x300_23_May_26.jpeg",
-            "source": "ndtv"
-        },
-        {
-            "title": "Petrol, diesel prices hiked third time, sees increase by around 90 paise \u2014 check rates in your city",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/petrol-diesel-prices-hiked-third-time-on-may-23-check-fuel-rates-in-delhi-mumbai-chennai-kolkata-and-other-metro-cities/articleshow/131270853.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131271085/131271085.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Citi sees AI price effects as key issue for Warsh",
-            "severity": "HIGH",
-            "url": "https://uk.finance.yahoo.com/news/citi-sees-ai-price-effects-013215523.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
-            "source": "yahoo"
-        },
-        {
-            "title": "The Mandalorian & Grogu's Villains Explained: Imperials, Hutts, And More",
-            "severity": "HIGH",
-            "url": "https://screenrant.com/mandalorian-grogu-movie-villains-explained-imperial-warlords-hutt-twins-explained/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/hutt-twins-in-mandalorian-grogu.jpg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
-        },
-        {
-            "title": "\u2018Want Iran\u2019s Uranium? US Can Never...\u2019: Mojtaba Aide LAUGHS OFF Trump\u2019s \u2018Dream Proposal\u2019 In New Threat",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/want-irans-uranium-us-can-never-mojtaba-aide-laughs-off-trumps-dream-proposal-in-new-threat/videoshow/131270857.cms",
-            "image": "https://timesofindia.indiatimes.com/photo/msid-131270857/131270857.jpg?resizemode=4",
-            "source": "toi"
-        },
-        {
-            "title": "DNC tries to move past autopsy debacle as Martin faces calls to resign as chair",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/dnc-tries-move-past-autopsy-204706365.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/Hl2MT4rXw9YGjErGD8Z9Fg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTk2O2NmPXdlYnA-/https://media.zenfs.com/en/cp_news_842/47ef848c5a1a893004f2de5db255f781",
-            "source": "yahoo"
         },
         {
             "title": "Top Stock Market Highlights of the Week: SGX Retakes regional Crown, Keppel\u2019s M1 Deal Collapses, Singapore\u2019s AI Strategy Update, JustCo\u2019s SGX Debut, and UOB\u2019s S$387m Property Divestment",
             "severity": "HIGH",
             "url": "https://sg.finance.yahoo.com/news/top-stock-market-highlights-week-233000878.html",
-            "image": "https://images.pexels.com/photos/22663779/pexels-photo-22663779.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "image": "https://images.pexels.com/photos/19226353/pexels-photo-19226353.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "yahoo_sg"
         },
         {
-            "title": "SRH vs RCB, IPL 2026: Full list of award winners, player of the match, scorecard & records",
-            "severity": "HIGH",
-            "url": "https://www.sportskeeda.com/cricket/srh-vs-rcb-ipl-2026-full-list-award-winners-player-match-scorecard-records",
-            "image": "https://staticg.sportskeeda.com/editor/2026/05/aff98-17794761483034-1920.jpg",
-            "source": "sportskeeda"
-        },
-        {
-            "title": "What is GKN Aerospace, the Company Whose California Plant Is at Risk of Exploding?",
+            "title": "Bhojshala declared temple; peace prevails in Dhar after HC verdict",
             "severity": "MEDIUM",
-            "url": "https://www.nytimes.com/2026/05/22/us/what-is-gkn-aerospace.html",
-            "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22calif-chem-leak-company-qfvp/22calif-chem-leak-company-qfvp-mediumSquareAt3X-v2.jpg",
-            "source": "nytimes"
+            "url": "https://newsable.asianetnews.com/india/bhojshala-declared-temple-peace-prevails-in-dhar-after-hc-verdict-articleshow-wm87hnz",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-71138c53-6b9a-4a3d-a611-8ac085c2f64a.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "'Hello Greenland!': Trump posts image against Nuuk skyline amid tensions",
+            "title": "ZF Commercial Vehicle Control Systems India Ltd (BOM:533023) Q4 2026 Earnings Call Highlights: ...",
             "severity": "MEDIUM",
-            "url": "https://www.business-standard.com/world-news/hello-greenland-trump-posts-image-against-nuuk-skyline-amid-tensions-126052300079_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260523/thumb-126052300079.jpg",
-            "source": "business-standard"
+            "url": "https://ca.finance.yahoo.com/news/zf-commercial-vehicle-control-systems-030022213.html",
+            "image": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
+            "source": "yahoo"
         },
         {
-            "title": "Marco Rubio Arrives In Kolkata As Part Of His 4-Day Visit To India",
+            "title": "The Hollywood Minute and The Rhonda Swan Show: Wake Up SoCal Edition Highlights Visionaries Marie Diamond and Shaneli Jain",
             "severity": "WATCH",
-            "url": "https://www.ndtvprofit.com/world/us-secretary-of-state-marco-rubio-arrives-in-kolkata-as-part-of-his-four-day-visit-to-india-11535629",
-            "image": "https://c.ndtvimg.com/2026-05/nip1pu18_secretary-marco-rubio_625x300_22_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1080,height=607",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/05/23/3300417/0/en/The-Hollywood-Minute-and-The-Rhonda-Swan-Show-Wake-Up-SoCal-Edition-Highlights-Visionaries-Marie-Diamond-and-Shaneli-Jain.html",
+            "image": "https://images.pexels.com/photos/19226353/pexels-photo-19226353.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "'Call 111' if you spot this shape on your skin as over 1,000 cases of disease reported",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/life-style/health/2208632/lyme-disease-symptom-warning",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/11/590x/2208632_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "CNG To Get Costlier In New Delhi As IGL Announces Rs 1 Price Hike",
+            "severity": "WATCH",
+            "url": "https://www.ndtvprofit.com/business/cng-to-get-costlier-in-new-delhi-as-igl-announces-rs-1-price-hike-11535762",
+            "image": "https://c.ndtvimg.com/2026-05/c1i49ppo_n_625x300_17_May_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1080,height=607",
             "source": "ndtv"
         },
         {
-            "title": "Step by step fuel shock: Petrol, diesel prices raised \u20b95 in a week amid nationwide protests",
+            "title": "\u2018It Takes Two\u2019 rapper Rob Base, who helped bring hip-hop mainstream, dies at 59",
             "severity": "WATCH",
-            "url": "https://english.mathrubhumi.com/news/india/india-petrol-diesel-price-hike-may-2026-hdpl5lwr",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1rasjjfs060uxciprke/0/petrol-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
+            "url": "https://www.beaumontenterprise.com/entertainment/article/it-takes-two-rapper-rob-base-who-helped-22273177.php",
+            "image": "https://s.hdnux.com/photos/01/66/27/11/31027809/3/square_large.jpg",
+            "source": "beaumontenterprise"
         },
         {
-            "title": "Somerset County Scores FIFA World Cup Grants For Summer Fan Events",
+            "title": "Gavin Newsom\u2019s anti-oil smoke and mirrors on Chevron",
             "severity": "WATCH",
-            "url": "https://patch.com/new-jersey/bernardsville-bedminster/somerset-county-scores-fifa-world-cup-grants-summer-fan-events",
-            "image": "https://patch.com/img/cdn20/users/24423246/20260522/094638/styles/patch_image/public/fifa___22214629636.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "PEP AND MAN CITY - THE UNTOLD DECADE, Part 5: The Great Reinventor. JACK GAUGHAN reveals the reason Guardiola stayed one more year, how close City came to signing Lionel Messi and the epic parting gift the manager leaves behind",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/sport/football/article-15837223/PEP-MAN-CITY-UNTOLD-DECADE-5-Great-Reinventor-JACK-GAUGHAN-reveals-reason-Guardiola-stayed-one-year-close-City-came-signing-Lionel-Messi-epic-parting-gift-manager-leaves-behind.html",
-            "image": "https://i.dailymail.com/1s/2026/05/21/13/108775945-0-image-a-36_1779365676872.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Petrol, diesel prices hiked by 87-91 paise; third time since May 15",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/economy/news/petrol-diesel-prices-hiked-by-87-91-paise-third-time-since-may-15-126052300091_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/hp/home-page/2026-05/23/9343/full/1778839934-7624.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Niall Horan releases emotional song about late One Direction bandmate Liam Payne",
-            "severity": "WATCH",
-            "url": "https://pagesix.com/2026/05/22/entertainment/niall-horan-releases-emotional-song-about-late-one-direction-bandmate-liam-payne/",
-            "image": "https://pagesix.com/wp-content%2Fuploads%2Fsites%2F3%2F2026%2F05%2F2023-presented-capital-one-kia-128529604.jpg?w%3D753",
+            "url": "https://nypost.com/2026/05/22/opinion/gavin-newsoms-blame-shifting-on-chevron/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F05%2Fgovernor-gavin-newsom-d-ca-128319748_a65085.jpg?w%3D1024",
             "source": "nypost"
         },
         {
-            "title": "Magnicharters files for bankruptcy as passengers face flight cancellations",
+            "title": "40,000 people under evacuation orders for a chemical tank leak in Southern California",
             "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/news/world-news/magnicharters-airline-bankruptcy-flight-cancellations-37195828",
-            "image": "https://i2-prod.dailystar.co.uk/incoming/article37140314.ece/ALTERNATES/s615/0_Brit-holidaymakers-fast-tracked-through-airports-during-summer-at-THIS-popular-European-destination.jpg",
-            "source": "mirroruk"
+            "url": "https://www.abc15.com/news/national/40-000-people-under-evacuation-orders-for-a-chemical-tank-leak-in-southern-california",
+            "image": "https://ewscripps.brightspotcdn.com/dims4/default/52a2823/2147483647/strip/true/crop/3500x1838+0+346/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F8d%2F15%2F81fd440e47c7ad3c565af462b95f%2Fap26142771182555.jpg",
+            "source": "abc15"
         },
         {
-            "title": "Form S-1 Fluence Energy Inc For: 22 May",
+            "title": "DNC tries to move past autopsy debacle as Martin faces calls to resign as chair",
             "severity": "WATCH",
-            "url": "https://au.investing.com/news/filings/form-s1-fluence-energy-inc-for-22-may-93CH-4453607",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXNPEL89134_L.jpg",
-            "source": "investing_au"
+            "url": "https://www.kgw.com/article/news/politics/national-politics/dnc-tries-to-move-past-autopsy-debacle-as-martin-faces-calls-to-resign-as-chair/616-4a8839d9-49b3-4be4-baa0-ce09764833ca",
+            "image": "https://media.kgw.com/assets/KGW/images/36845e1a-696a-4576-a40b-25c86d256ad1/20260523T015147/36845e1a-696a-4576-a40b-25c86d256ad1_1920x1080.jpg",
+            "source": "kgw"
         },
         {
-            "title": "Pro-Palestinian activist Mahmoud Khalil to appeal to US Supreme Court to avoid re-arrest",
+            "title": "Rubio's Trip to India Signals US Need to Repair Ties",
             "severity": "WATCH",
-            "url": "https://www.deccanherald.com/world/us/pro-palestinian-activist-mahmoud-khalil-to-appeal-to-us-supreme-court-to-avoid-re-arrest-4013324",
-            "image": "https://media.assettype.com/deccanherald/2026-05-23/001inxty/file85yl06do5nqkzdei5j9.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
+            "url": "https://www.usnews.com/news/world/articles/2026-05-22/rubios-trip-to-india-signals-us-need-to-repair-ties",
+            "image": "https://www.usnews.com/dims4/USNEWS/63da305/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Ff4%2Fb92ddcda4529a1d021c75e98e1b35f%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM4M01H%3A22026-05-23T030651Z_2_LYNXMPEM4M01H_RTROPTP_3_INDIA-USA.JPG",
+            "source": "usnews"
         },
         {
-            "title": "Reacher\u2019s Confirmed Return After 2026 Opens The Door For A Complete Genre Shift",
+            "title": "Pentagon, US intelligence community preparing for strikes on Iran this weekend \u2014 CBS",
             "severity": "WATCH",
-            "url": "https://screenrant.com/reacher-prime-video-season-5-genre-shift/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/3f880fed-ee76-44d7-b460-7bac780507ec.jpeg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
+            "url": "https://tass.com/world/2135437",
+            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260523/1475253.jpg",
+            "source": "tass"
         },
         {
-            "title": "Agatha Christie Finally Returns With New Detective Series",
+            "title": "Air Force delays start of PFAS cleanup at Wurtsmith for up to 5 years",
             "severity": "WATCH",
-            "url": "https://collider.com/greatest-detective-new-agatha-christie-adaptation-hercule-poirot-series-the-bbc-reboot/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2022/12/hercule-poirot-1.jpg?w=1600&h=900&fit=crop",
-            "source": "collider"
+            "url": "https://www.detroitnews.com/story/news/politics/2026/05/22/air-force-delays-pfas-pollution-cleanup-wurtsmith-base-oscoda-michigan/90211763007/",
+            "image": "https://www.gannett-cdn.com/presto/2020/06/20/PDTN/51bc568b-bec2-481d-a32f-8b0ce171a612-Naturally_Ocurring_Foam_from_Brochure_646855_7.png?auto=webp&crop=310,175,x21,y0&format=pjpg&width=1200",
+            "source": "detroitnews"
         },
         {
-            "title": "Transformer at Gurugram substation blows up; power outage halts Rapid Rail",
+            "title": "Creative Newtech Ltd (NSE:CNL) Q4 2026 Earnings Call Highlights: Robust Growth Amidst Challenges",
             "severity": "WATCH",
-            "url": "https://www.business-standard.com/india-news/transformer-at-gurugram-substation-blows-up-power-outage-halts-rapid-rail-126052300026_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-06/25/full/1719286044-4326.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Fuel Prices Hiked Again: Petrol Up By 87 Paise Per Litre, Diesel By 91 Paise",
-            "severity": "WATCH",
-            "url": "https://news.abplive.com/business/fuel-price-hike-petrol-prices-by-87-paise-per-litre-diesel-by-91-paise-3rd-hike-in-10-days-check-rates-1845516",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/05/22/966c1b0f1a698abfc0a200cf6e6aad2b17794544684281307_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "7th candidate enters Winnipeg mayoral race",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/manitoba/joshua-pagdato-mayor-candidate-9.7209827?cmp=rss",
-            "image": "https://i.cbc.ca/ais/161b1a32-0001-4b24-b896-19b94f75ea7e,1779498385765/full/max/0/default.jpg?im=Crop%2Crect%3D%28348%2C0%2C2583%2C1452%29%3B",
-            "source": "cbc"
-        },
-        {
-            "title": "Nucor Opens Lexington Rebar Micro Mill To Target Infrastructure Demand",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/nucor-opens-lexington-rebar-micro-011700041.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/kKP2uW2apapUKTO7UQnqWg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTMy/https://media.zenfs.com/en/simply_wall_st__316/e1954f8dd0b2e45a4bf795df92bda10a",
+            "url": "https://ca.finance.yahoo.com/news/creative-newtech-ltd-nse-cnl-030032154.html",
+            "image": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
             "source": "yahoo"
         },
         {
-            "title": "Q1 Earnings Highlights: Sotera Health Company (NASDAQ:SHC) Vs The Rest Of The Research Tools & Consumables Stocks",
+            "title": "LPG, CNG, PNG rates today, May 23: Check latest prices in Delhi, Mumbai, Bengaluru, other cities",
             "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/q1-earnings-highlights-sotera-health-011655509.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/ELo_UKZ6dYo2kdTpNZ_aYw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMjAw/https://media.zenfs.com/en/stockstory_922/9c6ef251c35a01a8633487b10ab3112a",
+            "url": "https://www.businesstoday.in/india/story/lpg-cng-png-rates-today-may-23-check-latest-prices-in-delhi-mumbai-bengaluru-other-cities-532913-2026-05-23",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202605/6a10361b5cc62-lpg--cng--png-prices-on-may-23-check-latest-rates-across-major-cities-225517740-16x9.png?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "Elbit signs deal with German submarine manufacturer TMKS to expand ties between Israel, Germany",
+            "severity": "WATCH",
+            "url": "https://www.yahoo.com/news/world/articles/elbit-signs-deal-german-submarine-030111327.html",
+            "image": "https://media.zenfs.com/en/jerusalem_post_articles_818/5e4f0697e456b041262edf0495d34a0c",
             "source": "yahoo"
         },
         {
-            "title": "Morning Digest: Petrol and \u200cdiesel prices raised for a third time this month; Marco Rubio to arrive in India today for maiden visit, and more",
+            "title": "US Secy Marco Rubio in India to repair ties, starts tour in Kolkata",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/morning-digest-on-may-23-2026/article71012993.ece",
-            "image": "https://th-i.thgim.com/public/incoming/sqv1ym/article71013376.ece/alternates/FREE_1200/2026-05-22T124223Z_311043035_RC2CELA8VCLR_RTRMADP_3_NATO-DIPLOMACY-SWEDEN.JPG",
-            "source": "thehindu"
+            "url": "https://newsable.asianetnews.com/world/us-secy-marco-rubio-in-india-to-repair-ties-starts-tour-in-kolkata-articleshow-of272ta",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-edabe2e4-9a59-46ec-bcd6-1e698d74f393.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "CNG Prices Hiked By 3rd Time In Delhi, To Now Cost Rs 81 Per Kg",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/business-economy/economy/cng-prices-hiked-by-re-1-in-delhi-third-hike-in-8-days-article-154380739",
+            "image": "https://images.timesnownews.com/thumb/msid-154380779,width-1280,height-720,resizemode-75/154380779.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Millions of drivers could get a Blue Badge - check if you're eligible",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/life-style/cars/2207676/millions-drivers-could-get-blue",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/24/590x/2207676_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Iran\u2019s Strait of Hormuz plan sparks fears of global oil shock",
+            "severity": "WATCH",
+            "url": "https://gulfnews.com/world/asia/irans-strait-of-hormuz-plan-sparks-fears-of-global-oil-shock-1.500550639",
+            "image": "https://gumlet-images.assettype.com/gulfnews/2026-05-18/mbbcuisf/newsml_afp_com_20260518T094632Z_doc_b37349f.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Mike Collins fires staffer over 'despicable and unauthorized' X post",
+            "severity": "WATCH",
+            "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4580476/mike-collins-staffer-fired-unauthorized-x-post/",
+            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/05/AP26133659424998-e1779504991501.jpg?w=696",
+            "source": "washingtonexaminer"
+        },
+        {
+            "title": "German tourists caught \u2018driving\u2019 Staten Island Ferry in viral video that leads to probe",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/05/22/us-news/german-tourists-driving-staten-island-ferry-crew-give-steering-lessons/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F05%2FScreenshot-2026-05-22-at-75838-PM.jpg?w%3D575",
+            "source": "nypost"
         },
         {
             "title": "Flotilla activists describe beatings, tasers, mistreatment by Israeli forces",
@@ -291,5 +242,5 @@
             "source": "dailymailuk"
         }
     ],
-    "Last_Updated": "2026-05-23T13:50:03.288003Z"
+    "Last_Updated": "2026-05-23T15:06:30.571571Z"
 }
