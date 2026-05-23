@@ -1,82 +1,84 @@
 {
-    "AGRI_Score": 58.6,
-    "Velocity": "-4.1",
-    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AGRI_Score": 64.7,
+    "Velocity": "+6.1",
+    "Top_Risk_Driver": "Energy & Maritime Disruption",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) at 64.7/100 reflects a high-risk environment primarily driven by critical 'Energy & Maritime Disruption' and heightened 'Geopolitical Conflict Intensity'. Escalating tensions in the Middle East, evidenced by \"Lebanon says Israeli strikes kill 10\" and the persistent threat of a \"Trump Strike Plan Looms Over Fragile Iran Ceasefire,\" fuel the geopolitical score. Simultaneously, the energy sector faces immense pressure, with \"Grid strains to meet peak daytime power demand\" and calls to \"Sanction Backers of Iran's Hormuz Toll Booth\" indicating both domestic supply challenges and potential maritime choke point disruptions.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 74.9,
-        "Energy & Maritime Disruption": 55.4,
-        "Trade & Supply Chain Stress": 71.4,
+        "Geopolitical Conflict Intensity": 76.8,
+        "Energy & Maritime Disruption": 100,
+        "Trade & Supply Chain Stress": 62.4,
         "Sovereign Financial Stress": 55.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.7,
-        "Cyber & Infrastructure Threats": 63.2,
+        "Sanctions & Regulatory Fragmentation": 61.6,
+        "Cyber & Infrastructure Threats": 61.0,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Regional tensions remain critically elevated, as evidenced by \"Lebanon says Israeli strikes kill 10\" and the looming \"Trump Strike Plan Looms Over Fragile Iran Ceasefire.\" Military actions and threats of escalation in the Middle East contribute significantly to the high intensity.",
+        "Energy & Maritime Disruption": "The energy sector faces critical stress with \"Grid strains to meet peak daytime power demand; government says conserve\" indicating supply challenges, while accusations against \"Chevron of spiking gas prices\" highlight market manipulation concerns. Potential maritime disruption is also evident with calls to \"Sanction Backers of Iran's Hormuz Toll Booth,\" threatening a key global shipping lane.",
+        "Trade & Supply Chain Stress": "While no direct supply chain disruption is explicitly stated, the severe energy and geopolitical instability creates an environment ripe for trade friction. Heightened maritime security concerns, as noted with calls to sanction Iran, pose a significant risk to global shipping routes.",
+        "Sovereign Financial Stress": "There is no immediate evidence of widespread sovereign default risk or significant government debt crises in the current feed. However, broader global economic uncertainty stemming from energy price volatility could subtly increase fiscal pressures on import-dependent nations.",
+        "Currency & Liquidity Pressure": "Significant intervention is observed with \"RBI steps up dollar sales to $53 billion to defend rupee in FY26,\" indicating considerable currency depreciation pressure. Such large-scale dollar sales suggest a proactive effort to manage liquidity and maintain exchange rate parities.",
+        "Sanctions & Regulatory Fragmentation": "The call by \"Sen. Cotton: Sanction Backers of Iran's Hormuz Toll Booth\" highlights an ongoing proactive approach to expand economic restrictions against adversarial states. This continuous application of new sanctions introduces further complexities and potential fragmentation in the international regulatory landscape.",
+        "Cyber & Infrastructure Threats": "Significant state-sponsored cyber activity is evident with \"Iran\u2019s Cyber War: Hackers Use Fake Hiring Scams to Go After US Aviation Engineers,\" targeting critical national infrastructure personnel. This sophisticated threat vector underscores an elevated risk of digital espionage and potential operational disruption.",
+        "Climate & Resource Shock": "The current news feed indicates generally routine monitoring for climate and resource shocks, with no immediate major events reported. While \"Grid strains to meet peak daytime power demand; government says conserve\" suggests localized stress, it does not point to a systemic climate-induced resource shock."
+    },
     "All_Alerts": [
         {
-            "title": "Tulsi Gabbard's wild ride from Democratic star to Trump's top spy... before she was frozen out, allegedly spied on by her own CIA and sparked a crisis for a 2028 candidate",
+            "title": "Sen. Cotton: Sanction Backers of Iran's Hormuz Toll Booth",
             "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-15841949/Tulsi-Gabbards-wild-ride-Democratic-star-Trumps-spy-frozen-allegedly-spied-CIA-sparked-crisis-2028-candidate.html",
-            "image": "https://i.dailymail.com/1s/2026/05/22/21/108813211-0-image-a-10_1779480806984.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.newsmax.com/newsfront/tom-cotton-scott-bessent-iran/2026/05/22/id/1257259",
+            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=d4c32707-5e72-46d1-ab29-90473b041ae2&SiteName=Newsmax",
+            "source": "newsmax"
         },
         {
-            "title": "Wall Street rises as Middle East hopes lift sentiment",
+            "title": "Trump Strike Plan Looms Over Fragile Iran Ceasefire",
             "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/video/wall-street-rises-middle-east-215643096.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/2ebiONLyNEzKfpbv0juy3Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/8c5086dd-01f5-46ec-afa5-7d3616d0c4eb/main/1280x720/51s653ms/match/image.jpg",
+            "url": "https://www.timesnownews.com/world/us/us-news/trump-iran-strikes-peace-talks-status-ceasefire-strait-of-hormuz-article-154380107",
+            "image": "https://images.timesnownews.com/thumb/msid-154380108,width-1280,height-720,resizemode-75/154380108.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Lebanon says Israeli strikes kill 10",
+            "severity": "HIGH",
+            "url": "https://globalnation.inquirer.net/324205/lebanon-says-israeli-strikes-kill-10",
+            "image": "https://globalnation.inquirer.net/files/2026/05/AFP__20260522__B3QK963__v1__HighRes__LebanonIsraelIranUsWar-620x413.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Vistra Taps AI Data Center Surge With Long Term Tech Power Deals",
+            "severity": "HIGH",
+            "url": "https://ca.finance.yahoo.com/news/vistra-taps-ai-data-center-231205029.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/ClRZ.IgmIJ0WbgVtc00NvA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTMy/https://media.zenfs.com/en/simply_wall_st__316/4e9c4651014549a6ed957bbf0144b523",
             "source": "yahoo"
         },
         {
-            "title": "Warsh sworn in as Fed chief",
+            "title": "War of words: As BJP slams Congress chief Rai for \u2018abusing PM\u2019, he says video fake",
             "severity": "HIGH",
-            "url": "https://thehill.com/newsletters/5892215-warsh-sworn-in-as-fed-chief/",
-            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/05/warshkevin_trumpdonald_052226gn02_w.jpg?strip=1",
-            "source": "thehill"
+            "url": "https://indianexpress.com/article/cities/lucknow/bjp-slams-up-congress-chief-for-abusing-pm-he-says-video-fake-10703600/",
+            "image": "https://images.indianexpress.com/2026/05/IE-Image-2026-05-17T204632.286_20260522231242.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Report: Israel Formed Secret Unit to Kill or Capture Every Oct. 7 Attacker",
+            "title": "Iran\u2019s Cyber War: Hackers Use Fake Hiring Scams to Go After US Aviation Engineers",
             "severity": "HIGH",
-            "url": "https://www.breitbart.com/politics/2026/05/22/report-israel-formed-secret-unit-to-kill-or-capture-every-oct-7-attacker/",
-            "image": "https://media.breitbart.com/media/2026/05/David-Zini-and-Eyal-Zamir-640x335.jpg",
-            "source": "breitbart"
+            "url": "https://www.timesnownews.com/world/us/us-news/irans-cyber-war-hackers-use-fake-hiring-scams-to-go-after-us-aviation-engineers-article-154380006",
+            "image": "https://images.timesnownews.com/thumb/msid-154380006,width-1280,height-720,resizemode-75/154380006.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "Tunnel to Towers pays the mortgage for a local family",
+            "title": "SRH vs RCB, IPL 2026: Full list of award winners, player of the match, scorecard & records",
             "severity": "HIGH",
-            "url": "https://www.wivb.com/news/local-news/tunnel-to-towers-pays-the-mortgage-for-a-local-family/",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "wivb"
+            "url": "https://www.sportskeeda.com/cricket/srh-vs-rcb-ipl-2026-full-list-award-winners-player-match-scorecard-records",
+            "image": "https://staticg.sportskeeda.com/editor/2026/05/aff98-17794761483034-1920.jpg",
+            "source": "sportskeeda"
         },
         {
-            "title": "Delhi HC issues notice to AAP\u2019s Gopal Rai, journalist in plea seeking contempt over targeting justice Swarana Kanta Sharma",
+            "title": "Flotilla activists describe beatings, tasers and mistreatment by Israeli forces",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/cities/delhi-news/delhi-hc-issues-notice-to-aap-s-gopal-rai-journalist-in-plea-seeking-contempt-over-targeting-justice-swarana-kanta-sharma-101779474633510.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/22/1600x900/logo/An-unprecedented-face-off-began-between-justice-Sh_1779474630462.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Inside Maldives\u2019 maze-like caves 20 storeys below the sea as pics reveal exact spot where divers\u2019 bodies were found",
-            "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/news/39192713/maldives-caves-divers-bodies-found/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F05%2Fwww-instagram-com-p-dyo418yodtz-1083013451_beff02.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "GlycoPulse Claims Evaluated: Most Advanced Blood Sugar Support Ingredients for Healthy Glucose Management by Glyco Pulse",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/05/g52760514/glycopulse-claims-evaluated-most-advanced-blood-sugar-support-ingredients-for-healthy-glucose-mana",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Trump\u2019s Too Busy for Don Jr.\u2019s Wedding\u2014But Not Too Busy for Golf",
-            "severity": "HIGH",
-            "url": "https://www.thedailybeast.com/donald-trumps-too-busy-for-don-jrs-weddingbut-not-too-busy-for-golf/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/W3RIPYQG7BBNPCQP37Z4VXFZGI.jpg?auth=d4a70cd395b2aff4177b378814db7fd0448432cdc6b5412a4b39441c34560c80&smart=true&width=1931&height=1086",
-            "source": "thedailybeast"
+            "url": "https://ca.news.yahoo.com/flotilla-activists-describe-beatings-tasers-194258239.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/4ShXD5q_5C8OhqikbPOc2g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MDtjZj13ZWJw/https://media.zenfs.com/en/cp_news_842/19516d1b28e98be4ebe8192752128820",
+            "source": "yahoo"
         },
         {
             "title": "J\u2019khand HC directs filing PIL in Hotwar jail scandal",
@@ -86,123 +88,179 @@
             "source": "hindustantimes"
         },
         {
-            "title": "Flotilla activists describe beatings, tasers and mistreatment by Israeli forces",
-            "severity": "HIGH",
-            "url": "https://www.latimes.com/world-nation/story/2026-05-22/flotilla-activists-describe-beatings-tasers-mistreatment-by-israeli-forces",
-            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "latimes"
-        },
-        {
-            "title": "Carbon monoxide breach leaves four dead in China coal mine, 90 workers still trapped",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/china-coal-mine-accident-carbon-monoxide-poisoning-death-toll-workers-trapped-101779484572928.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/22/1600x900/logo/CHINA-COAL-SAFETY-0_1695626966240_1779485076619_6d16b080-be7b-455b-9637-2470a4be81fb.JPG",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Marco Rubio's trip to 'great partner' India signals US need to repair ties",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/news/economy/policy/marco-rubios-trip-to-great-partner-india-signals-us-need-to-repair-ties/articleshow/131271516.cms",
-            "image": "https://img.etimg.com/thumb/width-1600,height-900,imgsize-125710,resizemode-75,msid-131271516/news/economy/policy/marco-rubios-trip-to-great-partner-india-signals-us-need-to-repair-ties.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Delhi government\u2019s power infra gap analysis shows 42% transformers aging",
-            "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/cities/delhi-news/delhi-government-s-power-infra-gap-analysis-shows-42-transformers-aging-101779474628733.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/22/1600x900/logo/-p-Delhi-government-s-power-infra-gap-analysis-sho_1779474625937.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Senegal President Sacks PM Sonko, Dissolves Government After Months of Friction",
+            "title": "\u2018It\u2019s in my DNA\u2019: Danault back loving hockey life with Canadiens",
             "severity": "WATCH",
-            "url": "https://www.usnews.com/news/world/articles/2026-05-22/senegal-president-sacks-pm-sonko-dissolves-government-amid-rising-tensions",
-            "image": "https://www.usnews.com/dims4/USNEWS/c2a7b63/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F5b%2Fec0d75e77e15fed5648694ab7291f8%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM4L1NB%3A22026-05-22T230825Z_2_LYNXMPEM4L1NB_RTROPTP_3_SENEGAL-POLITICS.JPG",
-            "source": "usnews"
+            "url": "https://globalnews.ca/news/11861288/its-in-my-dna-danault-back-loving-hockey-life-with-canadiens/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/01/e4d427febb6b69028fe4fba326b6756c63986eb80054bf8c9ace056ace062159.jpg?quality=65&strip=all",
+            "source": "globalnews"
         },
         {
-            "title": "Minister of Defence Chris Penk announces $1.5b investment in maritime security",
+            "title": "Diverse audit coverage displayed across the Scotland 500 ranking",
             "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/political/596094/minister-of-defence-chris-penk-announces-1-point-5b-investment-in-maritime-security",
-            "image": "https://images.pexels.com/photos/31019067/pexels-photo-31019067.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
+            "url": "https://www.scotsman.com/business/diverse-audit-coverage-displayed-across-the-scotland-500-ranking-8637517",
+            "image": "https://www.scotsman.com/jpim-static/image/2026/05/22/14/14/ey-edinburgh-office.jpeg?width=1200&auto=webp&crop=3%3A2",
+            "source": "scotsman"
         },
         {
-            "title": "Iconic rapper Rob Base dead after private cancer battle as family honour It Takes Two star",
+            "title": "Grid strains to meet peak daytime power demand; government says conserve",
             "severity": "WATCH",
-            "url": "https://www.dailystar.co.uk/showbiz/us-showbiz/iconic-rapper-rob-base-dead-37195638",
-            "image": "https://i2-prod.dailystar.co.uk/incoming/article37195642.ece/ALTERNATES/s615/0_GettyImages-1187243214.jpg",
-            "source": "dailystar"
+            "url": "https://indianexpress.com/article/business/grid-strains-to-meet-peak-daytime-power-demand-government-says-conserve-10703603/",
+            "image": "https://images.indianexpress.com/2026/05/Power-3-col.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Americans may spend $2 billion more on gas over Memorial Day as prices still surge",
+            "title": "Danielle Smith's wishful thinking: her separation vote loses, and that's the end of it",
             "severity": "WATCH",
-            "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/4579865/americans-gas-spending-memorial-day-hormuz-closure/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2025/08/Screenshot-2025-08-25-at-6.35.06-AM.png?w=696",
-            "source": "washingtonexaminer"
+            "url": "https://www.cbc.ca/news/canada/calgary/analysis-danielle-smith-separation-vote-strategic-thinking-9.7209635?cmp=rss",
+            "image": "https://i.cbc.ca/ais/2907f498-8e29-44ff-b83b-b0f439c01305,1779493411897/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C157%2C4883%2C2746%29%3B",
+            "source": "cbc"
         },
         {
-            "title": "Khabib Nurmagomedov and Patimat Nurmagomedova combined net worth in 2026: UFC earnings, endorsements, investments and family lifestyle",
+            "title": "'It Takes Two' rapper Rob Base dies at 59 following cancer battle",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/sports/international-sports/khabib-nurmagomedov-and-patimat-nurmagomedova-combined-net-worth-in-2026-ufc-earnings-endorsements-investments-and-family-lifestyle/articleshow/131268386.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131268384/131268384.jpg",
+            "url": "https://www.usatoday.com/story/entertainment/celebrities/2026/05/22/rob-base-rapper-dies-cancer/90223934007/",
+            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/22/USAT/90224281007-20240324-t-055616-z-1698583633-mt-1-usatoday-22853599-rtrmadp-3-mlsaustinfcatorlandocity.JPG?crop=2663,1499,x0,y567&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "usatoday"
+        },
+        {
+            "title": "RBI steps up dollar sales to $53 billion to defend rupee in FY26",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-steps-up-dollar-sales-to-53-billion-to-defend-rupee-in-fy26/articleshow/131270439.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131270442/131270442.jpg",
             "source": "toi"
         },
         {
-            "title": "Rajasthan Cabinet approves new industrial development policy with focus on talent economy",
+            "title": "Cosmo Energy Holdings Co., Ltd. 2026 Q4 - Results - Earnings Call Presentation",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/rajasthan/rajasthan-cabinet-approves-new-industrial-development-policy-with-focus-on-talent-economy/article71012066.ece",
-            "image": "https://th-i.thgim.com/public/incoming/xxepgp/article71012565.ece/alternates/FREE_1200/Rajasthan-fullyGOHFHD8IR.3.jpg.jpg",
-            "source": "thehindu"
+            "url": "https://seekingalpha.com/article/4908166-cosmo-energy-holdings-co-ltd-2026-q4-results-earnings-call-presentation",
+            "image": "https://seekingalpha.com/samw/static/images/DefaultArticleImage.7d3405a63.png",
+            "source": "seekingalpha"
         },
         {
-            "title": "Tulsi Gabbard Resigns as Trump's Director of National Intelligence",
+            "title": "Is Dust the Best Thing in the Universe? Part 4: We Owe Dust Our Lives",
             "severity": "WATCH",
-            "url": "https://time.com/article/2026/05/22/tulsi-gabbard-to-resign-as-trump-s-director-of-national-intelligence/",
-            "image": "https://gcp-na-images.contentstack.com/v3/assets/bltea6093859af6183b/bltd02e14126277ab23/6a109410c98f00df83bc0d1b/GettyImages-2266686743.jpg?branch=production&width=1200&quality=75&auto=webp&crop=1200:675&height=675",
-            "source": "time"
+            "url": "https://www.universetoday.com/articles/is-dust-the-best-thing-in-the-universe-part-4-we-owe-dust-our-lives",
+            "image": "https://www.universetoday.com/article_images/hl_tau_20260515_110517.jpg",
+            "source": "universetoday"
         },
         {
-            "title": "40 tiny, perfect things about summer in New England",
+            "title": "San Francisco immigration court shuts down after purge of judges, leaving asylum cases in chaos",
             "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2022/07/14/magazine/40-tiny-perfect-things-about-summer-new-england/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/4OKWJSBWN5ABRNLHJOHI7QWQZI.jpg?auth=878163eaafddbdee3434b04a81b49f7ab01d4d9061c7bae82c16edfeaf6d1b29&smart=true&width=1400&height=900",
-            "source": "bostonglobe"
+            "url": "https://www.independent.co.uk/news/san-francisco-concord-donald-trump-white-house-department-of-justice-b2982339.html",
+            "image": "https://static.independent.co.uk/2026/05/23/00/San_Francisco_Immigration_Court_1_696.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
         },
         {
-            "title": "What are the lowest scores in PGA Tour history?",
+            "title": "Newsom accuses Chevron of spiking gas prices before Memorial Day weekend",
             "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/news/lowest-scores-pga-tour-history-215717171.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/1ycWjJlXmjGDjPTbPbAGIg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTk0O2NmPXdlYnA-/https://media.zenfs.com/en/usa_today_sports_golfweek_articles_635/4802e2e304209c2ae18776d7e1fe0503",
+            "url": "https://www.sfgate.com/travel/article/newsom-chevron-memorial-day-22272360.php",
+            "image": "https://s.hdnux.com/photos/01/66/26/62/31026356/3/rawImage.jpg",
+            "source": "sfgate"
+        },
+        {
+            "title": "'The Odyssey' Star Officially Responds to Backlash for Christopher Nolan's Fantasy Epic",
+            "severity": "WATCH",
+            "url": "https://collider.com/christopher-nolan-fantasy-epic-the-odyssey-casting-backlash-respone-lupita-nyongo/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/05/the-odyssey-tom-holland-3.jpg?w=1600&h=900&fit=crop",
+            "source": "collider"
+        },
+        {
+            "title": "Tom Hardy\u2019s \u2018MobLand\u2019 Firing Is Reportedly A Fluid Situation",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/tom-hardy-mobland-firing-reportedly-231500955.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/UEWj2nlcZrPoLEnM5LA_.Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIzNjA7aD0xMDkyO2NmPXdlYnA-/https://media.zenfs.com/en/theblast_73/f5e68503636275946aa0a623ea7f33ac",
             "source": "yahoo"
         },
         {
-            "title": "Mercedes' Russell takes pole ahead of Antonelli for sprint race at F1\u2019s Canadian GP",
+            "title": "Fire at Gurugram substation causes blackout, hits rapid metro operations",
             "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/news/mercedes-russell-takes-pole-ahead-215700168.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/MyOeDLUTm4iM.YW4tPsZCg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjQ0O2NmPXdlYnA-/https://media.zenfs.com/en/cp_sports_913/42fdb1d818af72a6bbbcd95f3d88bcf6",
+            "url": "https://www.hindustantimes.com/cities/gurugram-news/fire-at-gurugram-substation-causes-blackout-hits-rapid-metro-operations-101779476262484.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/22/1600x900/logo/-p-Fire-at-Gurugram-substation-causes-blackout--hi_1779476260320.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "McAlester quarterback club hosting first ever Buffalo Stampede 5k",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/mcalester-quarterback-club-hosting-first-230300476.html",
+            "image": "https://s.yimg.com/cv/apiv2/sports/share/PD_010626-Social_Share_GENRIC_YAHOO_SPORTS-1200x630.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Motorist shot by police after \u2018driving directly at officers\u2019 in bid to evade arrest",
+            "title": "Two new substations to boost power supply in Gurugram",
             "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/motorist-shot-police-driving-directly-205443257.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/MGsGbmiLsR9dkb513IPXPg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_independent_577/1f1ae1bb1068d73fcc6fad60055fb82a",
-            "source": "yahoo"
+            "url": "https://www.hindustantimes.com/cities/gurugram-news/two-new-substations-to-boost-power-supply-in-gurugram-101779476248657.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/22/1600x900/logo/A-senior-HVPNL-official-said-that-the-220kV-substa_1779476246121.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Transformer at Gurugram substation blows up; major power outage halts Rapid Rail for nearly an hour",
+            "title": "Rubio visits India to sell energy as Iran oil shock persists",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/india/transformer-at-gurugram-substation-blows-up-major-power-outage-halts-rapid-rail-for-nearly-an-hour-13928375.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260522214221_transformerfireani.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Tartan Army's oldest member Moira, 93, set for fourth World Cup",
-            "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/ceqp91q0lnqo",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/60c1/live/70e97b50-4ae2-11f1-8c8d-458160734f59.jpg",
+            "url": "https://www.bbc.com/news/articles/c87qrwyyrn2o",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/83ff/live/1c0d22f0-54db-11f1-8a44-d3e9da00a02a.jpg",
             "source": "bbc"
+        },
+        {
+            "title": "Children \u2018more likely than working-age adults to live in private rented sector\u2019",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/money/children-resolution-foundation-england-b2982333.html",
+            "image": "https://static.independent.co.uk/2026/05/23/00/22103702-fc16c7a5-e774-412a-8e94-fcb33d40ab95.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "AAPI Month: Congressman thanks supporters, slams bigotry and hate",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/world/aapi-month-congressman-thanks-supporters-slams-bigotry-and-hate-articleshow-gmo3fpe",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-5ea77d2c-58b0-4d92-a297-937d66fb7f2a.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "African proverb of the day: 'No man can outwit...' Life lessons on human nature, challenges, learning, success, and why elders' guidance is highly valuable",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/international/us/african-proverb-of-the-day-no-man-can-outwit-life-lessons-on-human-nature-challenges-learning-success-and-why-elders-guidance-is-highly-valuable/articleshow/131270424.cms",
+            "image": "https://img.etimg.com/thumb/msid-131270432,resizemode-4,width-1200,height-900,imgsize-2435202,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "No time to rest: Struggling Tigers keep leaning on rookie McGonigle",
+            "severity": "WATCH",
+            "url": "https://www.detroitnews.com/story/sports/mlb/tigers/2026/05/22/kevin-mcgonigle-has-played-in-49-of-51-games-for-struggling-tigers/90223322007/",
+            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/05/21/PDTN/90202401007-20260521-t-184437-z-475953555-mt-1-usatoday-29019018-rtrmadp-3-mlbclevelandguardiansatdetroittigers.JPG?auto=webp&crop=3605,2028,x0,y188&format=pjpg&width=1200",
+            "source": "detroitnews"
+        },
+        {
+            "title": "Hungary reverses decision to leave ICC, Magyar announces",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/international/article-897034",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/722224",
+            "source": "jpost"
+        },
+        {
+            "title": "Europe's cheapest city breaks revealed in Post Office costs report - and the British favourite that's on the 'most expensive' list",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/travel/article-15834027/Europe-cheapest-city-break-destinations-Post-Office-report.html",
+            "image": "https://i.dailymail.com/1s/2026/05/20/13/108747631-0-image-a-12_1779278948884.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "MIKE DAVIS: Kilmar Abrego Garcia, the Democrats' patron saint of human traffick",
+            "severity": "WATCH",
+            "url": "https://www.foxnews.com/opinion/mike-davis-kilmar-abrego-garcia-democrats-patron-saint-human-traffick",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/12/931/523/kilmar-abrego-garcia-release-ice-baltimore-002.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "B.C. man sues StubHub for $25,000 for allegedly failing to resell FIFA tickets",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/b-c-man-sues-stubhub-223033521.html",
+            "image": "https://media.zenfs.com/en/the_vancouver_sun_articles_512/a859d87313c383e54bdaefe6eaef0200",
+            "source": "yahoo"
+        },
+        {
+            "title": "Are AdultFriendFinder\u2019s messaging tools actually safe for swapping nudes?",
+            "severity": "WATCH",
+            "url": "https://mashable.com/life/adultfriendfinder-messaging-tools-safe-sending-nudes",
+            "image": "https://helios-i.mashable.com/imagery/articles/025273JKgRoMyml7OIHJiEH/hero-image.fill.size_1200x675.v1778755639.jpg",
+            "source": "mashable_us"
         },
         {
             "title": "VolitionRx receives waiver on market capitalization covenant from Lind Global",
@@ -217,21 +275,7 @@
             "url": "https://www.espn.com/boxing/story/_/id/48846179/mayweather-suing-former-associate-alleged-175m-fraud-scheme",
             "image": "https://a.espncdn.com/photo/2026/0226/r1620488_1296x729_16-9.jpg",
             "source": "espn"
-        },
-        {
-            "title": "Gaza flotilla activists allege abuse by Israeli forces while detained",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/gaza-flotilla-activists-allege-abuse-205242836.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/F8ohIFYv2_bjdEAW0.8sSQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2NTA7aD05Mjg7Y2Y9d2VicA--/https://media.zenfs.com/en/bbc_us_articles_995/98cc6b39d9f5e6e8d2b679c2d11e0daf",
-            "source": "yahoo"
-        },
-        {
-            "title": "Cellphone Etiquette Doesn\u2019t Allow These Rude Habits [The Question]",
-            "severity": "WATCH",
-            "url": "https://patch.com/us/across-america/cellphone-etiquette-doesn-t-allow-these-rude-habits-question",
-            "image": "https://patch.com/img/cdn20/shutterstock/790386/20260522/043415/styles/patch_image/public/shutterstock-1977846431___22162612231.jpg",
-            "source": "patch"
         }
     ],
-    "Last_Updated": "2026-05-23T09:59:18.298741Z"
+    "Last_Updated": "2026-05-23T11:22:02.045441Z"
 }
