@@ -1,253 +1,232 @@
 {
-    "AGRI_Score": 65.1,
-    "Velocity": "-1.7",
+    "AGRI_Score": 62.5,
+    "Velocity": "-2.6",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The AGRI score of 65.1 is primarily driven by an acutely elevated \"Energy & Maritime Disruption\" pillar at 100, directly linked to significant geopolitical tensions. Explicit threats regarding the Strait of Hormuz, as highlighted by headlines such as \"Trump Threatens Oman Over the Strait, Then Says, \u2018They\u2019ll Be Fine.\u2019\" and \"Donald Trump says Iran and Oman will not control Strait of Hormuz\", create immediate and severe risk to global energy transit. This volatility is further exacerbated by the high \"Geopolitical Conflict Intensity\" (72.4), indicating a precarious international security environment surrounding critical maritime chokepoints. These factors collectively push the overall risk assessment significantly upward.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently sits at 62.5, primarily driven by heightened 'Energy & Maritime Disruption' and 'Geopolitical Conflict Intensity.' The ongoing geopolitical tensions, particularly the \"new US strikes on Iran\" and the broader implications of the \"Iran war,\" are directly impacting global oil markets, pushing the energy pillar to its maximum score. This acute military action and the resulting market volatility contribute significantly to the overall elevated risk landscape, demanding close monitoring of flashpoints in critical shipping lanes and energy production regions.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 72.4,
+        "Geopolitical Conflict Intensity": 75.4,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 64.6,
+        "Trade & Supply Chain Stress": 63.2,
         "Sovereign Financial Stress": 55.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.7,
-        "Cyber & Infrastructure Threats": 61.3,
-        "Climate & Resource Shock": 45
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 60.2,
+        "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is critically elevated due to direct threats concerning a key global chokepoint and a stalled diplomatic process. News stating \"Trump Threatens Oman Over the Strait\" and his vow that the US will \"watch over\" the Strait of Hormuz signal high-stakes diplomatic and potential military posturing.",
-        "Energy & Maritime Disruption": "Risk in this area is at its maximum, driven by explicit US rhetoric regarding the control and security of the Strait of Hormuz. Headlines such as \"Donald Trump says Iran and Oman will not control Strait of Hormuz\" directly indicate a severe and imminent threat to maritime freedom and global energy supplies.",
-        "Trade & Supply Chain Stress": "While no direct supply chain disruption headlines exist, the severe threats to the Strait of Hormuz inherently elevate risks for global trade routes. Any disruption in this critical maritime passage, as implied by \"Trump Threatens Oman Over the Strait\", would inevitably cause significant stress across supply chains.",
-        "Sovereign Financial Stress": "This pillar maintains a moderate level with no immediate direct sovereign fiscal crises reported in the feed. While \"Saks Global Leans in Toward Bankruptcy Exit\" indicates corporate distress, it does not directly reflect sovereign financial instability.",
-        "Currency & Liquidity Pressure": "This pillar shows routine monitoring, with no specific indicators of escalating currency depreciation or liquidity challenges. \"Stock futures are little changed as Wall Street awaits key April inflation reading\" suggests a market in observation mode rather than under acute pressure.",
-        "Sanctions & Regulatory Fragmentation": "Elevated geopolitical tensions surrounding the Iran deal, as mentioned in \"Trump says he \u2018doesn\u2019t care about the midterms\u2019 as Iran deal stalls\", suggest potential for new or intensified sanctions. The linkage of Abraham Accords to the Iran deal also indicates a shifting diplomatic and regulatory landscape.",
-        "Cyber & Infrastructure Threats": "This pillar is at a moderate-high level due to confirmed cyber incidents affecting corporate entities. The disclosure by \"Cruise operator Carnival discloses personal data breach\" highlights ongoing vulnerabilities and the reality of data security threats.",
-        "Climate & Resource Shock": "Resource availability is currently facing localized stress, as evidenced by instructions for \"People in Kent told to use water for \u2018essential purposes\u2019 only as heatwave causes supply issues.\" This situation points to the immediate impact of extreme weather events on essential utilities."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains high due to escalating military actions, as evidenced by 'Oil prices bounce higher after new US strikes on Iran' and the ongoing 'Iran war' complicating regional security. Diplomatic efforts, such as 'EU ministers to discuss India, Gulf ties and Ukraine war,' also underscore a complex and fragmented international political environment.",
+        "Energy & Maritime Disruption": "Energy and maritime disruption is at its peak, directly linked to increased military engagement in critical regions. 'Oil prices bounce higher after new US strikes on Iran' confirms immediate market reactions, while 'US yields rise as oil jumps on fresh strikes in Middle East' indicates broader financial apprehension concerning energy supply stability.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress remains moderate, influenced by the complex geopolitical environment rather than direct disruption. Discussions among 'EU ministers to discuss India, Gulf ties and Ukraine war' reflect ongoing efforts to manage trade relationships amidst conflict, indicating potential for re-routing or re-evaluating supply chains.",
+        "Sovereign Financial Stress": "Sovereign financial stress shows moderate signs of pressure, primarily influenced by global market reactions to geopolitical events. The headline 'US yields rise as oil jumps on fresh strikes in Middle East' suggests increasing borrowing costs for governments, reflecting investor concern over inflation and stability.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressure is at a moderate level, as global financial markets react to geopolitical tensions. While 'US yields rise as oil jumps on fresh strikes in Middle East' indicates shifts in bond markets, there is no immediate news of widespread currency devaluations or severe liquidity shortages.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation maintain moderate pressure, with ongoing geopolitical conflicts inherently sustaining a complex global compliance landscape. While no new specific sanctions were announced, the 'EU ministers to discuss India, Gulf ties and Ukraine war' conversation highlights the continued relevance and impact of existing sanction regimes on international relations.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are notable, with critical sectors facing severe vulnerabilities. 'Livengood: Blue Cross, utilities face act of war over their Lansing influence' points to significant risks to essential services, complemented by 'India\u2019s cybersecurity agency sounds alarm on AI-powered attacks, urges firms to patch flaws within 12 hours' highlighting evolving digital threats.",
+        "Climate & Resource Shock": "Climate and resource shock is currently at a low level, indicating routine monitoring despite severe long-term warnings. 'Temperatures likely to remain at record levels until 2030, UN warns' and 'Think it's hot now? The next five years will smash records, UN says' emphasize future climate challenges without reporting an acute, immediate resource shock."
     },
     "All_Alerts": [
         {
-            "title": "Trump Threatens Oman Over the Strait, Then Says, \u2018They\u2019ll Be Fine.\u2019",
+            "title": "Oil prices bounce higher after new US strikes on Iran",
             "severity": "HIGH",
-            "url": "https://www.nytimes.com/2026/05/27/world/middleeast/trump-oman-strait-hormuz.html",
-            "image": "https://static01.nyt.com/images/2026/05/27/multimedia/27mideast-oman-mkhc/27mideast-oman-mkhc-mediumSquareAt3X.jpg",
-            "source": "nytimes"
+            "url": "https://www.dawn.com/news/2003523/oil-prices-bounce-higher-after-new-us-strikes-on-iran",
+            "image": "https://i.dawn.com/large/2026/05/28090836dec2cea.webp",
+            "source": "dawn"
         },
         {
-            "title": "Donald Trump says Iran and Oman will not control Strait of Hormuz, deal remains elusive",
+            "title": "EU ministers to discuss India, Gulf ties and Ukraine war",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/donald-trump-says-iran-and-oman-will-not-control-strait-of-hormuz-deal-remains-elusive-article-13933398.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260527220832_trumprtr13.png",
+            "url": "https://www.yahoo.com/news/politics/articles/eu-ministers-discuss-india-gulf-041126955.html",
+            "image": "https://media.zenfs.com/en/dpa_international_526/f24ec8961e69f1b7a808f7e83afca4e3",
+            "source": "yahoo"
+        },
+        {
+            "title": "Livengood: Blue Cross, utilities face act of war over their Lansing influence",
+            "severity": "HIGH",
+            "url": "https://www.detroitnews.com/story/opinion/columnists/chad-livengood/2026/05/28/livengood-dte-consumers-blue-cross-face-an-act-of-war-in-lansing/90063838007/",
+            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/05/28/PDTN/90290254007-untitled-design-2.png?auto=webp&crop=1199,675,x199,y256&format=pjpg&width=1200",
+            "source": "detroitnews"
+        },
+        {
+            "title": "Temperatures likely to remain at record levels until 2030, UN warns",
+            "severity": "HIGH",
+            "url": "https://www.rfi.fr/en/environment/20260528-temperatures-likely-to-remain-at-record-levels-until-2030-un-warns",
+            "image": "https://s.rfi.fr/media/display/303b9192-5a4b-11f1-a404-005056a90284/w:1280/p:16x9/c7c5d606739c0616e93faa85200fc4a7b2da39b4.jpg",
+            "source": "rfi_fr"
+        },
+        {
+            "title": "U.S. military strikes another alleged drug boat in eastern Pacific, killing two",
+            "severity": "HIGH",
+            "url": "https://www.thehindu.com/news/national/us-military-strikes-another-alleged-drug-boat-in-eastern-pacific-killing-two/article71031917.ece",
+            "image": "https://th-i.thgim.com/public/news/national/y5berm/article71031928.ece/alternates/FREE_1200/Screenshot%202026-05-28%20094058.png",
+            "source": "thehindu"
+        },
+        {
+            "title": "Iran war has complicated plans for an international force in Gaza that has yet to materialize",
+            "severity": "HIGH",
+            "url": "https://www.beaumontenterprise.com/news/world/article/iran-war-has-complicated-plans-for-an-22279961.php",
+            "image": "https://s.hdnux.com/photos/01/66/31/53/31038194/3/square_large.jpg",
+            "source": "beaumontenterprise"
+        },
+        {
+            "title": "AI Giants Bet Billions On The Most Expensive Job In Enterprise",
+            "severity": "HIGH",
+            "url": "https://www.forbes.com/sites/janakirammsv/2026/05/28/ai-giants-bet-billions-on-the-most-expensive-job-in-enterprise/",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/6a17be37edf4f56ca133c49a/0x0.jpg",
+            "source": "forbes"
+        },
+        {
+            "title": "Sudan | Rapid Needs Assessment in Kadugli locality (South Kordofan state), February 2026",
+            "severity": "HIGH",
+            "url": "https://reliefweb.int/report/sudan/sudan-rapid-needs-assessment-kadugli-locality-south-kordofan-state-february-2026",
+            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/2e/13/2e134655-70ae-4419-a46e-e32661c7ce05.png",
+            "source": "reliefweb"
+        },
+        {
+            "title": "Google engineer Polymarket insider trading case: What young traders should learn",
+            "severity": "HIGH",
+            "url": "https://investinglive.com/Education/google-engineer-polymarket-insider-trading-case-what-young-traders-should-learn-20260528/",
+            "image": "https://images.investinglive.com/images/Know%20what%20is%20right%2C%20wrong%20%28and%20illegal%29%20about%20what%20happened_id_b4f779fe-8e45-4dfb-82bb-0c4cc02466d6_size975.jpeg",
+            "source": "forexlive"
+        },
+        {
+            "title": "India\u2019s cybersecurity agency sounds alarm on AI-powered attacks, urges firms to patch flaws within 12 hours",
+            "severity": "HIGH",
+            "url": "https://www.firstpost.com/tech/indias-cybersecurity-agency-sounds-alarm-on-ai-powered-attacks-urges-firms-to-patch-flaws-within-12-hours-14016099.html",
+            "image": "https://images.firstpost.com/uploads/2026/03/image-2026-03-193f25d387673df3d5aa3317998862cb-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Trump Administration in Talks to Fund US Drone Companies- WSJ",
+            "severity": "MEDIUM",
+            "url": "https://au.investing.com/news/stock-market-news/trump-administration-in-talks-to-fund-us-drone-companies-wsj-93CH-4459264",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB65083_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "The Soccer 100: Garrincha \u2014 The king of the playground",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7198943/2026/05/28/world-cup-garrincha-brazil-soccer-100/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/05/29055638/26_Soccer100_Garrincha-scaled.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "Champions League final: Can Arsenal beat PSG? Team of the season? Best goal?",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7311772/2026/05/28/champions-league-final-psg-arsenal-predictions/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/05/27065543/ChampionsLeagueRoundtable.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "US yields rise as oil jumps on fresh strikes in Middle East",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/05/28/us-yields-rise-as-oil-jumps-on-fresh-strikes-in-middle-east",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/28/3930710.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "French Open Fashion Is Serving Grand Slam Glamour With Naomi Osaka And Aryna Sabalenka",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/lifestyle/fashion/french-open-fashion-is-serving-grand-slam-glamour-with-naomi-osaka-and-aryna-sabalenka-article-154414772",
+            "image": "https://images.timesnownews.com/thumb/msid-154414761,width-1280,height-720,resizemode-75/154414761.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Gold and silver price today, May 28: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other cities",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/personal-finance/gold-silver-rate-in-india-live-updates-todays-mcx-gold-silver-prices-etf-comex-may-28-13933584.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260528031215_Gold-and-silver-price-on-May-28.png",
             "source": "moneycontrol"
         },
         {
-            "title": "WWII veteran who dropped out of high school to serve is awarded honorary diploma in Elkhorn",
-            "severity": "HIGH",
-            "url": "https://www.tmj4.com/news/local-news/in-your-community/walworth-county/wwii-veteran-who-dropped-out-of-high-school-to-serve-is-awarded-honorary-diploma-in-elkhorn",
-            "image": "https://ewscripps.brightspotcdn.com/dims4/default/6e740b9/2147483647/strip/true/crop/1920x1008+0+36/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F91%2Fa6%2Fdff41a484ae6958e7da1c39adb99%2Felkhorn-wwii-graduation.jpg",
-            "source": "tmj4"
+            "title": "Stock Market Holiday: Are BSE, NSE Shut Today Due to Bakrid?",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/business-economy/markets/stock-market-holiday-are-bse-nse-shut-today-due-to-bakrid-article-154415061",
+            "image": "https://images.timesnownews.com/thumb/msid-154415047,width-1280,height-720,resizemode-75/154415047.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "Trump says he \u2018doesn\u2019t care about the midterms\u2019 as Iran deal stalls, vows US will \u2018watch over\u2019 Strait of Hormuz",
-            "severity": "HIGH",
-            "url": "https://gulfnews.com/world/mena/trump-says-he-doesnt-care-about-the-midterms-as-iran-deal-stalls-vows-us-will-watch-over-strait-of-hormuz-1.500555372",
-            "image": "https://gumlet-images.assettype.com/gulfnews/2026-05-27/48ok2wzg/newsml_afp_com_20260527T000000Z_PH_GTY_2278488720.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "title": "All 12 Game of the Year Winners, Ranked",
+            "severity": "WATCH",
+            "url": "https://collider.com/game-of-the-year-winners-ranked/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2023/08/dragon-age-inquisition-game.jpg?w=1200&h=675&fit=crop",
+            "source": "collider"
         },
         {
-            "title": "Woman From Hill Arrested Twice In 8 Hours On Stalking, Protective Order, And Breach Charges: Concord Cop Log",
-            "severity": "HIGH",
-            "url": "https://patch.com/new-hampshire/concord-nh/woman-hill-arrested-twice-8-hours-stalking-protective-order-breach-charges",
-            "image": "https://patch.com/img/cdn20/users/546351/20260527/054840/styles/patch_image/public/concord-police-et-rig-1-2022___27174741519.jpg",
-            "source": "patch"
+            "title": "Shoals Tech (SHLS) Hits 2-Year High on Manufacturing Expansion",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/shoals-tech-shls-hits-2-041002674.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/bCH4eBS77htvLGGrz3r9Yw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE1MzY7aD04NjI-/https://media.zenfs.com/en/insidermonkey.com/77cec746c317d8fd7fa4fe53f021e5c4",
+            "source": "yahoo"
         },
         {
-            "title": "Saks Global Leans in Toward Bankruptcy Exit",
-            "severity": "HIGH",
-            "url": "https://wwd.com/business-news/legal/saks-global-bankruptcy-exit-restructuring-plan-1238984004/",
-            "image": "https://wwd.com/wp-content/uploads/2026/01/saks.jpg?w=150",
-            "source": "wwd"
+            "title": "Think it's hot now? The next five years will smash records, UN says",
+            "severity": "WATCH",
+            "url": "https://www.beaumontenterprise.com/news/article/think-it-s-hot-now-the-next-five-years-will-22279960.php",
+            "image": "https://s.hdnux.com/photos/01/66/31/53/31038191/3/square_large.jpg",
+            "source": "beaumontenterprise"
         },
         {
-            "title": "Cruise operator Carnival discloses personal data breach",
-            "severity": "HIGH",
-            "url": "https://www.channelnewsasia.com/business/cruise-operator-carnival-discloses-personal-data-breach-6145746",
-            "image": "https://dam.mediacorp.sg/image/upload/s--ZSRxGMJf--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-05-27T221337Z_1_LYNXMPEM4Q262_RTROPTP_3_MIAMI-CITYSCAPES.JPG?itok=mbE66LsU",
-            "source": "channelnewsasia"
+            "title": "Some brands say their jeans are eco-friendly. Here's how to find a pair that's actually sustainable",
+            "severity": "WATCH",
+            "url": "https://www.beaumontenterprise.com/living/article/some-brands-say-their-jeans-are-eco-friendly-22279959.php",
+            "image": "https://s.hdnux.com/photos/01/66/31/53/31038181/3/square_large.jpg",
+            "source": "beaumontenterprise"
         },
         {
-            "title": "Liberal Gov Gets Rare Conservative Credit, Then Blows It With Embarrassing Victim Routine",
-            "severity": "HIGH",
-            "url": "https://dailycaller.com/2026/05/27/jared-polis-tina-peters-photo-commutation-censure/",
-            "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https%3A%2F%2Fcdn01.dailycaller.com%2Fwp-content%2Fuploads%2F2026%2F05%2FGettyImages-1239426955-scaled-e1779912531876.jpg",
-            "source": "dailycaller"
-        },
-        {
-            "title": "'Alarming moment' Trump confuses Iran with Venezuela during White House meeting",
-            "severity": "MEDIUM",
-            "url": "https://www.express.co.uk/news/world/2210468/alarming-moment-trump-confuses-iran",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2210468_1.jpg",
+            "title": "I'm 13 and I'm running three businesses to fund my \u00a330,000 a year school fees",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/uk/2210413/im-13-im-running-three-businesses",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2210413_1.jpg",
             "source": "expresscouk"
         },
         {
-            "title": "Prime Video's The Boys Replacement Just Arrived & It Features A Major Season 5 Connection",
+            "title": "Rex profit promise 'untenable' for responsible company",
             "severity": "WATCH",
-            "url": "https://screenrant.com/spider-noir-the-boys-replacement-season-5-connection/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/homelander-standing-in-vought-tower-in-the-boys-season-5.jpg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
-        },
-        {
-            "title": "What Are Abraham Accords? 3 Reasons Why Trump Is Linking Them To Iran Deal",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/world/what-are-abraham-accords-3-reasons-why-trump-is-linking-them-to-iran-deal-ws-l-10116394.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/05/ani_20260512203037_1778670700751-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "5Ks | Walks | Theatre | Business Openings | Farmers Markets | More: The Concord NH Patch Weekender",
-            "severity": "WATCH",
-            "url": "https://patch.com/new-hampshire/concord-nh/5ks-walks-theatre-business-openings-farmers-markets-more-concord-nh-patch",
-            "image": "https://patch.com/img/cdn20/shutterstock/546351/20260527/030121/styles/patch_image/public/shutterstock-184054031___27150016700.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Stock futures are little changed as Wall Street awaits key April inflation reading: Live updates",
-            "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/05/27/stock-market-today-live-updates.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108312806-1779913856623-gettyimages-2278503899-6k4a0467_cotgnhag.jpeg?v=1779913941",
-            "source": "cnbc"
-        },
-        {
-            "title": "REPORT: Trump Admin Plans To Send Americans With Ebola To Kenya For Quarantine, Treatment",
-            "severity": "WATCH",
-            "url": "https://dailycaller.com/2026/05/27/trump-admin-ebola-quarantine-kenya-americans/",
-            "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https%3A%2F%2Fcdn01.dailycaller.com%2Fwp-content%2Fuploads%2F2026%2F05%2FGettyImages-1150366558-scaled-e1779917069420.jpg",
-            "source": "dailycaller"
-        },
-        {
-            "title": "Lawmakers approve removing \u2018gender\u2019 from all Louisiana state laws",
-            "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/politics/articles/lawmakers-approve-removing-gender-louisiana-220951891.html",
-            "image": "https://media.zenfs.com/en/louisiana_illuminator_articles_680/392731cdb317365825e9ea3633534462",
+            "url": "https://au.finance.yahoo.com/news/rex-profit-promise-untenable-responsible-040407808.html",
+            "image": "https://media.zenfs.com/en/aap.com.au/22f5f265d4e6b24bcb314edc17cb484f",
             "source": "yahoo"
         },
         {
-            "title": "Dell Wins $9.7 Billion Pentagon Contract, Fueling Stock Rally",
+            "title": "Footballer suing local league after suspension for homophobic slur says HE is the victim of racism in case that could set 'dangerous precedent' for the AFL",
             "severity": "WATCH",
-            "url": "https://www.benzinga.com/trading-ideas/movers/26/05/52827858/dell-wins-9-7-billion-pentagon-contract-fueling-stock-rally",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/05/27/Dell.jpeg?optimize=medium&dpr=1&auto=webp&height=675&width=1200&fit=crop",
-            "source": "benzinga"
-        },
-        {
-            "title": "Every Spider-Man Villain In Spider-Noir",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/every-spider-man-villain-in-spider-noir/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/jack-huston-s-sandman-and-andrew-lewis-caldwell-s-megawatt-standing-close-to-each-other-s-faces-in-spider-noir.jpg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
-        },
-        {
-            "title": "GOP Lawmaker Tries To Do MAGA Slush Fund Damage Control After Being Grilled In Town Hall",
-            "severity": "WATCH",
-            "url": "https://www.huffpost.com/entry/mike-flood-maga-slush-fund-town-hall-federal-spending_n_6a17551de4b062ca52d8a344",
-            "image": "https://img.huffingtonpost.com/asset/6a175a611400002c171ad066.jpeg?cache=R328PfxbBt&ops=1778_1000",
-            "source": "huffpost"
-        },
-        {
-            "title": "\u2018Beautiful to see\u2019: Thousands gather in Saskatoon for Eid al-Adha celebrations",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/saskatoon/article/beautiful-to-see-thousands-gather-in-saskatoon-for-eid-al-adha-celebrations/",
-            "image": "https://www.ctvnews.ca/resizer/v2/CHVKNC3JYBG3NHKKX34MPXAMUA.jpg?auth=7c365669a16f9e09066715b82a78887db8666a1e87c3d681564e81d16d6ee193&smart=true&width=1920&height=1440",
-            "source": "ctvnews"
-        },
-        {
-            "title": "People in Kent told to use water for \u2018essential purposes\u2019 only as heatwave causes supply issues",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/uk/home-news/kent-water-supply-issues-uk-heatwave-b2984803.html",
-            "image": "https://static.independent.co.uk/2026/05/12/12/2224815397.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Synopsys Q2 2026 Earnings Call Transcript",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/insights/news/26/05/52827838/synopsys-q2-2026-earnings-call-transcript",
-            "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_1.jpg?optimize=medium&dpr=1&auto=webp&height=675&width=1200&fit=crop",
-            "source": "benzinga"
-        },
-        {
-            "title": "Matthew Perry assistant imprisoned over fatal drug injections",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/world/matthew-perry-assistant-imprisoned-over-fatal-drug-injections-article-13933396.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260527220355_mathewparryafp.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Earnings call transcript: Marvell Technology sees Q1 FY2027 earnings beat, stock rises",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-marvell-technology-sees-q1-fy2027-earnings-beat-stock-rises-93CH-4701523",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEB1A16P_L.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Orca Announces Quarterly Dividend",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/globe-newswire/orca-announces-quarterly-dividend-20",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "financialpost"
-        },
-        {
-            "title": "The world's carmakers are struggling to compete with China",
-            "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/c4g8vg72z43o",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/7c73/live/3f32dc60-58ec-11f1-8409-e1d7d8df4ed8.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "7 Forgotten Horror Movies That Are Actually Great, Ranked",
-            "severity": "WATCH",
-            "url": "https://comicbook.com/movies/list/7-forgotten-horror-movies-that-are-actually-great-ranked/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/05/forgotten-horror-great-1.jpg",
-            "source": "comicbook"
-        },
-        {
-            "title": "\u2018Impeccable\u2019: Star praises outgoing ABC boss",
-            "severity": "WATCH",
-            "url": "https://www.news.com.au/entertainment/tv/leigh-sales-praises-impeccable-abc-boss-after-his-shock-resignation/news-story/d06c87e209639580f10ca25ee80d83b4?from=rss-basic",
-            "image": "https://content.api.news/v3/images/bin/3e8f2c85e9bc3e4625f3512a75116049?width=320",
-            "source": "news"
-        },
-        {
-            "title": "Israel pounds southern Lebanon after declaring it a \u2018combat zone\u2019",
-            "severity": "WATCH",
-            "url": "https://www.rt.com/news/640665-israel-strikes-southern-lebanon/",
-            "image": "https://mf.b37mrtl.ru/files/2026.05/article/6a1755d285f54023817561b6.jpg",
-            "source": "rt"
-        },
-        {
-            "title": "Commentary: Ex-Malaysian ministers Rafizi and Nik Nazmi\u2019s 'kamikaze' mission is a brazen double dare",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/commentary/rafizi-nik-nazmi-new-party-bersama-kamikaze-anwar-6142141",
-            "image": "https://dam.mediacorp.sg/image/upload/s--H9luwxJp--/c_fill,g_auto,h_338,w_600/f_auto,q_auto/v1/mediacorp/cna/image/2025/05/28/image_from_ios_0.jpg?itok=mBh3crmM",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Adam Wharton forced to miss Crystal Palace Conference League celebrations",
-            "severity": "WATCH",
-            "url": "https://metro.co.uk/2026/05/27/adam-wharton-forced-miss-crystal-palace-conference-league-celebrations-28546106/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/05/GettyImages-2278509823.jpg?quality=90&strip=all",
-            "source": "metro"
-        },
-        {
-            "title": "My terrifying Ebola scare in Texas still haunts me. Now experts fear this deadly eye-bleeding virus is heading for the US... and no one is ready: LAURA COLLINS",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15852665/ebola-virus-world-cup-fears.html",
-            "image": "https://i.dailymail.com/1s/2026/05/27/19/108911697-0-image-a-10_1779906991079.jpg",
+            "url": "https://www.dailymail.com/sport/afl/article-15850611/Northen-Football-League-player-Brad-Fisk-sues-racism-homophobic-slur.html",
+            "image": "https://i.dailymail.com/1s/2026/05/28/04/108919451-0-image-a-20_1779940731784.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Moncton kidnapper released from prison again, with conditions",
+            "title": "Madras High Court bans cow slaughter across Tamil Nadu, says sacrifice not essential to Bakrid",
             "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/moncton-kidnapper-released-prison-again-211533639.html",
-            "image": "https://media.zenfs.com/en/cbc.ca/3d10ef9283df380c0ad62955b6c25381",
-            "source": "yahoo"
+            "url": "https://www.moneycontrol.com/news/india/madras-high-court-bans-cow-slaughter-across-tamil-nadu-says-sacrifice-not-essential-to-bakrid-13933592.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2023/02/Collage-Maker-08-Feb-2023-08.13-PM.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "CBSE OSM portal had 'master password' that could be used to tamper marks, claims 'hacker' Nisarga Adhikary",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/cbse-osm-portal-had-master-password-that-could-be-used-to-tamper-marks-claims-hacker-nisarga-adhikary-101779937467585.html",
+            "image": "https://www.hindustantimes.com/images/default/default-621.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Tamil Nadu ban cow slaughter: Madras HC orders immediate ban ahead of Bakrid",
+            "severity": "WATCH",
+            "url": "http://economictimes.indiatimes.com/news/new-updates/tamil-nadu-ban-on-cow-slaughter-madras-hc-orders-immediate-ban-ahead-of-bakrid/articleshow/131362271.cms",
+            "image": "https://img.etimg.com/thumb/msid-131362341,resizemode-4,width-1200,height-900,imgsize-55330,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "US charges Google engineer with insider trading on Polymarket",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/tech/technology/us-charges-google-engineer-with-insider-trading-on-polymarket/articleshow/131362330.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-165248,resizemode-75,msid-131362330/tech/technology/us-charges-google-engineer-with-insider-trading-on-polymarket.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Madras High Court orders ban on cow slaughter in Tamil Nadu with immediate effect; here's why",
+            "severity": "WATCH",
+            "url": "https://www.deccanherald.com/india/tamil-nadu/madras-high-court-orders-ban-on-cow-slaughter-in-tamil-nadu-with-immediate-effect-heres-why-4018911",
+            "image": "https://media.assettype.com/deccanherald/2026-02-02/26yla6fp/iStock-1222344770.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         }
     ],
-    "Last_Updated": "2026-05-28T10:14:29.530692Z"
+    "Last_Updated": "2026-05-28T16:13:49.101524Z"
 }
