@@ -1,244 +1,281 @@
 {
-    "AGRI_Score": 64.1,
-    "Velocity": "+2.6",
+    "AGRI_Score": 62.7,
+    "Velocity": "-1.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.7 is primarily driven by extreme \"Energy & Maritime Disruption\" (91.6) and high \"Geopolitical Conflict Intensity\" (76.0). Aggressive military actions, such as \"Ukraine targets Russian energy infrastructure; Moscow says over 200 drones intercepted overnight,\" are directly responsible for the significant energy disruption. Elevated geopolitical tensions, including the concern that a potential \"Trump\u2019s Strike On Havana Could Be Catastrophic For The World,\" continue to fuel overall global uncertainty and market apprehension, despite some signs of easing US-Iran tensions indicated by falling oil prices.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.6,
+        "Geopolitical Conflict Intensity": 76.0,
         "Energy & Maritime Disruption": 91.6,
-        "Trade & Supply Chain Stress": 78.2,
+        "Trade & Supply Chain Stress": 70.8,
         "Sovereign Financial Stress": 54.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 54.5,
-        "Cyber & Infrastructure Threats": 70.5,
+        "Sanctions & Regulatory Fragmentation": 59.6,
+        "Cyber & Infrastructure Threats": 60.3,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to active conflict and persistent regional instability. \"Ukraine targets Russian energy infrastructure; Moscow says over 200 drones intercepted overnight\" highlights direct military action, while \"State of trauma: Israel wrestles with mental aftershocks of war\" indicates the lasting societal impact of ongoing conflicts.",
+        "Energy & Maritime Disruption": "This pillar is severely elevated due to direct attacks on critical infrastructure and ongoing geopolitical tensions affecting key waterways. \"Ukraine targets Russian energy infrastructure; Moscow says over 200 drones intercepted overnight\" directly reflects a high level of active disruption, despite \"Oil falls As Iran-US Tensions Show Signs Of Easing\" suggesting some broader de-escalation.",
+        "Trade & Supply Chain Stress": "This pillar shows significant stress, influenced by geopolitical factors impacting economic outlooks and potential shifts in global manufacturing. The \"German chemical lobby VCI sees no recovery in 2026 as Middle East conflict weighs\" illustrates a direct economic impact of geopolitical events on industry, while \"US may need USD 2 trillion push to rebuild domestic manufacturing, cut China dependence: McKinsey\" suggests long-term structural shifts affecting global supply chains.",
+        "Sovereign Financial Stress": "This pillar indicates moderate but manageable stress, driven by the economic reverberations of geopolitical events and long-term industrial strategies. The \"German chemical lobby VCI sees no recovery in 2026 as Middle East conflict weighs\" points to underlying economic uncertainty that could impact government revenues and spending capabilities. Potential large-scale investments in domestic manufacturing, as suggested by McKinsey, could also exert pressure on national budgets.",
+        "Currency & Liquidity Pressure": "This pillar shows baseline activity, with no immediate indications of widespread currency or liquidity crises in the provided feed. While \"Oil falls As Iran-US Tensions Show Signs Of Easing\" might provide some relief to commodity-linked currencies, no direct evidence points to significant pressure within the provided headlines.",
+        "Sanctions & Regulatory Fragmentation": "This pillar reflects moderate risk, with ongoing geopolitical dynamics carrying potential for future regulatory shifts despite current negotiation efforts. \"Trump's room to manoeuvre narrows as US, Iran close in on framework deal\" indicates active diplomatic engagement that could lead to new or modified sanctions regimes, while \"Iran Done, Cuba Next? 4 Reasons Why Trump\u2019s Strike On Havana Could Be Catastrophic For The World\" highlights the risk of new sanctions targets.",
+        "Cyber & Infrastructure Threats": "This pillar shows elevated risk, driven by the active targeting of national infrastructure during conflicts and evolving technological threats. \"Ukraine targets Russian energy infrastructure; Moscow says over 200 drones intercepted overnight\" explicitly demonstrates a high level of infrastructure targeting. The \"AeroVironment (AVAV) Secures $43M Contract to Integrate PANTHER Antenna onto SkyRange Platforms\" also indicates continuous investment in advanced defense technologies against these threats.",
+        "Climate & Resource Shock": "This pillar indicates routine monitoring, as the news feed contains no information regarding significant climate events or resource shortages. The current score reflects an absence of direct, immediate threats related to climate or natural resources."
+    },
     "All_Alerts": [
         {
-            "title": "Quote of the day by Albert Einstein: \u201cIt is in fact, nothing short of a miracle that the modern methods of instruction have not yet entirely strangled the holy curiosity of inquiry.\u201d Learn why curiosity is the highest form of intelligence \u2014 and how the modern world slowly destroys the human mind\u2019s natural power to question, explore, and truly think",
+            "title": "Trump's room to manoeuvre narrows as US, Iran close in on framework deal",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-albert-einstein-it-is-in-fact-nothing-short-of-a-miracle-that-the-modern-methods-of-instruction-have-not-yet-entirely-strangled-the-holy-curiosity-of-inquiry-learn-why-curiosity-is-the-highest-form-of-intelligence-and-how-the-modern-world-slowly-destroys-the-human-minds-natural-power-to-question-explore-and-truly-think/articleshow/131373055.cms",
-            "image": "https://img.etimg.com/thumb/msid-131373217,resizemode-4,width-1200,height-900,imgsize-73496,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Dalal Street On Edge, Oil Prices Fall, Sensex Over 250 Points Higher, Nifty Near 23,950",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/business/mutual-funds/share-market-opens-stock-markets-today-sensex-gift-nifty-may-29-oil-prices-1846811",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/04/27/162a7a93d5ecc3c98ca63f821212f58a17772623827221379_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "The market is not set up to handle any Iran war curveballs, says fund manager",
-            "severity": "HIGH",
-            "url": "https://www.cnbc.com/video/2026/05/29/market-is-not-set-up-to-deal-with-any-iran-curveballs-fund-manager.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108313570-1780016275446-1780015954-46222268485-hd.jpg?v=1780016282",
-            "source": "cnbc"
-        },
-        {
-            "title": "Russian drone launched against Ukraine crashes in Romania, injuring 2",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com/news/world/europe/russian-drone-launched-against-ukraine-crashes-in-romania-injuring-2/article_f32e44f2-10cc-5475-b4b9-c51f05ee6c10.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/7/99/7994c7bb-14fd-5cba-99be-49b017f373e3/6a190e14e25de.image.jpg?crop=1622%2C852%2C0%2C114&resize=1200%2C630&order=crop%2Cresize",
-            "source": "thestar"
-        },
-        {
-            "title": "Khuhro resents Irsa move to drastically slash Sindh\u2019s water share",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/2003344/khuhro-resents-irsa-move-to-drastically-slash-sindhs-water-share",
-            "image": "https://i.dawn.com/large/2026/05/290849296b4d4fb.webp",
+            "url": "https://www.dawn.com/news/2003639/trumps-room-to-manoeuvre-narrows-as-us-iran-close-in-on-framework-deal",
+            "image": "https://i.dawn.com/large/2026/05/29113832ee0c260.webp",
             "source": "dawn"
         },
         {
-            "title": "Broader impact of West Asia crisis to be felt strongly over next few quarters, says TCI MD",
+            "title": "Ukraine targets Russian energy infrastructure; Moscow says over 200 drones intercepted overnight",
             "severity": "HIGH",
-            "url": "https://www.thehindu.com/business/broader-impact-of-west-asia-crisis-to-be-felt-strongly-over-next-few-quarters-says-tci-md/article71034128.ece",
-            "image": "https://th-i.thgim.com/public/incoming/m1xct7/article71035835.ece/alternates/FREE_1200/EplIbTfUYAAH9uk.jpg",
-            "source": "thehindu"
+            "url": "https://timesofindia.indiatimes.com/world/europe/ukraine-targets-russian-energy-infrastructure-moscow-says-over-200-drones-intercepted-overnight/articleshow/131383157.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131383800/131383800.jpg",
+            "source": "toi"
         },
         {
-            "title": "Cuba's fuel crisis leaves nearly 3 mn people facing daily water shortages",
+            "title": "AeroVironment (AVAV) Secures $43M Contract to Integrate PANTHER Antenna onto SkyRange Platforms",
             "severity": "HIGH",
-            "url": "https://www.business-standard.com/world-news/cuba-s-fuel-crisis-leaves-nearly-3-mn-people-facing-daily-water-shortages-126052900063_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260529/thumb-126052900063.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "DR Congo: UNFPA Flash Update - Bundibugyo Ebola Virus Disease (BVD) Outbreak (20 - 26 May 2026)",
-            "severity": "HIGH",
-            "url": "https://reliefweb.int/report/democratic-republic-congo/unfpa-flash-update-bundibugyo-ebola-virus-disease-bvd-outbreak-20-26-may-2026",
-            "image": "https://images.pexels.com/photos/37601423/pexels-photo-37601423.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "reliefweb"
-        },
-        {
-            "title": "Russia-installed Donetsk region leader says Ukrainian drones kill three workers",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/russia-installed-donetsk-region-leader-231306809.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/hNPOkQQdr7ftYrJuyegc2Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2MDA7aD0xMDY2O2NmPXdlYnA-/https://media.zenfs.com/en/reuters.com/ef55d531e1de5b0c709f8b69a7007399",
+            "url": "https://ca.finance.yahoo.com/news/aerovironment-avav-secures-43m-contract-064049319.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/LFY3Q8MBKsvfqHH8E4CTWA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwMDA7aD0xMzM2/https://media.zenfs.com/en/insidermonkey.com/b17124e8173b56c40a8fa07d1a27f287",
             "source": "yahoo"
         },
         {
-            "title": "Cotton crisis",
+            "title": "State of trauma: Israel wrestles with mental aftershocks of war",
             "severity": "HIGH",
-            "url": "https://www.dawn.com/news/2003382/cotton-crisis",
-            "image": "https://i.dawn.com/large/2026/05/29083646462b03e.webp",
-            "source": "dawn"
+            "url": "https://www.aljazeera.com/news/2026/5/29/state-of-trauma-israel-wrestles-with-mental-aftershocks-of-war",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/05/2026-05-09T141738Z_820032507_RC2Q5LA2LJ85_RTRMADP_3_ISRAEL-PALESTINIANS-HEBRON-SETTLERS-1778352472.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
         },
         {
-            "title": "\u2018Culture of silence\u2019 blamed for surge in violence against women",
+            "title": "German chemical lobby VCI sees no recovery in 2026 as Middle East conflict weighs",
             "severity": "HIGH",
-            "url": "https://www.dawn.com/news/2003342/culture-of-silence-blamed-for-surge-in-violence-against-women",
-            "image": "https://i.dawn.com/large/2026/05/29085153cf667b9.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "Akshay Kumar's Heartfelt Tribute To India's Fastest Man Alive",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/sports/akshay-kumar-heartfelt-tribute-to-india-fastest-man-alive-gurindervir-singh-1846810",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/05/29/96a30edac197a01256fec61a1fb6c473178002591807224_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "Ukraine-Russia war latest: Russian drone strikes apartment building in Nato member Romania",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-attack-romania-nato-news-b2985662.html",
-            "image": "https://static.independent.co.uk/2026/05/29/03/2026-05-29T012105Z_921844668_RC2PILAFOHZO_RTRMADP_3_UKRAINE-CRISIS-ROMANIA-DRONES.JPG?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "California Attorney General sues 23andMe successor for 2023 data breach",
-            "severity": "HIGH",
-            "url": "https://equity-insider.com/california-attorney-general-sues-23andme-successor-for-2023-data-breach/",
-            "image": "https://equity-insider.com/wp-content/uploads/2026/05/1d1b02e0-5aa1-11f1-b682-cf91850925ea.jpg.webp",
-            "source": "equity_insider"
-        },
-        {
-            "title": "Will Neet question papers get military-level protection?",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/explainers/will-neet-question-papers-get-military-level-protection-14016415.html",
-            "image": "https://images.firstpost.com/uploads/2026/05/Untitled-design-2026-05-29T075121.140-2026-05-f4451e8367b471be185378cc909c4459.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Trading Plan: Will Nifty 50, Bank Nifty extend selling pressure for third consecutive session amid range-bound trading?",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/business/markets/trading-plan-will-nifty-50-bank-nifty-extend-selling-pressure-for-third-consecutive-session-amid-range-bound-trading-13935022.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260404040240_stock-market.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "23andMe Sued by California Over Massive 2023 Data Breach",
-            "severity": "HIGH",
-            "url": "https://www.cnet.com/tech/services-and-software/23andme-sued-by-california-over-massive-2023-data-breach/",
-            "image": "https://www.cnet.com/a/img/resize/7ce550180606669f8172737c7e8f82e3ff8cda33/hub/2024/10/17/b8cfa85c-6cab-4e4b-a7a1-313ce556e544/gettyimages-1089796154-1.jpg?auto=webp&fit=crop&height=614&width=1092",
-            "source": "cnet"
-        },
-        {
-            "title": "Oil rollback on June 2: Diesel prices to go down up to P7.50/liter",
-            "severity": "MEDIUM",
-            "url": "https://cebudailynews.inquirer.net/732401/oil-rollback-on-june-2-diesel-prices-to-go-down-up-to-p7-50-liter",
-            "image": "https://cebudailynews.inquirer.net/files/2026/05/NewsletterFeatured-Image-10-620x338.png",
-            "source": "inquirer"
-        },
-        {
-            "title": "Mr. Cooper Reviews and Ratings",
-            "severity": "MEDIUM",
-            "url": "https://usa.inquirer.net/198765/mr-cooper-reviews",
-            "image": "https://usa.inquirer.net/files/2026/05/mr-cooper-mortgage-lender-logo.png",
-            "source": "inquirer"
-        },
-        {
-            "title": "China exports are getting costlier \u2014 and the oil shock, AI boom are partly to blame",
-            "severity": "WATCH",
-            "url": "https://www.firstpost.com/business/china-export-prices-ai-boom-oil-shock-global-trade-inflation-14016472.html",
-            "image": "https://images.firstpost.com/uploads/2026/05/AFP__20260429__A9BB7DJ__v1__MidRes__ChinaEconomyAuto-1-2026-05-a89d40a5e0ad9b2d25286ea7f78b0a48.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Oklahoma City Thunder couldn\u2019t handle San Antonio Spurs physical game six",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/oklahoma-city-thunder-couldn-t-035232961.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/7pK3B_T5jHIxohdXhw9oPw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_big_lead_articles_114/e87f890df0ce9f7a00608e23463e86f1",
+            "url": "https://ca.finance.yahoo.com/news/german-chemical-lobby-vci-sees-063428748.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/hGmFOqJJU7zYPCcNLmuqVA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2MDA7aD0xMDY2/https://media.zenfs.com/en/reuters.com/34988307f01b0ffebbfb35d247997d6a",
             "source": "yahoo"
         },
         {
-            "title": "Stock Markets Today: Sensex And Nifty Gain",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/business-economy/markets/stock-markets-today-sensex-and-nifty-gain-article-154424052",
-            "image": "https://images.timesnownews.com/thumb/msid-154424040,width-1280,height-720,resizemode-75/154424040.jpg",
+            "title": "Iran Done, Cuba Next? 4 Reasons Why Trump\u2019s Strike On Havana Could Be Catastrophic For The World",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/explainers/iran-done-cuba-next-4-reasons-why-trumps-strike-on-havana-could-be-catastrophic-for-the-world-ws-kl-10118897.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/05/Untitled-design-2026-05-25T190325.138-2026-05-32a16ac67adbc44d6a29c6cf2a905363-1200x800.png",
+            "source": "news18"
+        },
+        {
+            "title": "Major stake in Melbourne Airport up in the air",
+            "severity": "HIGH",
+            "url": "https://au.finance.yahoo.com/news/major-stake-melbourne-airport-air-062500237.html",
+            "image": "https://media.zenfs.com/en/aap.com.au/5a6d47cc874df0c77e10532d0dece03e",
+            "source": "yahoo"
+        },
+        {
+            "title": "IPL 2026: BCCI bans smart sunglasses in PMOA, warns of action in case of violation",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/sports/cricket/ipl-2026-bcci-bans-smart-sunglasses-in-pmoa-warns-of-action-in-case-of-violation-4020147",
+            "image": "https://media.assettype.com/deccanherald/2026-05-29/fqhf0zu8/f073c3cd-15c5-43ba-bc65-53081e872e5f.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "\u2018Indians Not Allowed\u2019 Policy Sparks Massive Outrage, Breach Candy Club Racism Row Explodes",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/videos/times-now/india/lsquoindians-not-allowedrsquo-policy-sparks-massive-outrage-breach-candy-club-racism-row-explodes-video-154424721",
+            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "timesnownews"
         },
         {
-            "title": "BT Opening Bell | Sensex jumps 352 pts, Nifty tops 24,000; IT stocks shine",
-            "severity": "WATCH",
-            "url": "https://www.businesstoday.in/markets/stocks/story/bt-opening-bell-sensex-jumps-352-pts-nifty-tops-24000-it-stocks-shine-533805-2026-05-29",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202605/6a1907e1b1b7d-in-the-previous-session-on-wednesday--the-sensex-declined-14190-points--or-019--to-settle-at-75-8-29282839-16x9.png?size=1280:720",
-            "source": "businesstoday"
+            "title": "India-Russia Ties Have a Special Role Amid Global Uncertainty: NSA Doval",
+            "severity": "MEDIUM",
+            "url": "https://sputniknews.in/20260529/india-russia-ties-have-a-special-role-amid-global-uncertainty-nsa-doval-11005208.html",
+            "image": "https://cdn1.img.sputniknews.in/images/sharing/article/eng/11005208.jpg?81373521780036719",
+            "source": "sputniknews"
         },
         {
-            "title": "Karan Johar claims \u2018digital detox\u2019, why he unfollowed Shah Rukh, Kareena, Alia",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/entertainment/bollywood/karan-johar-why-he-unfollowed-shah-rukh-khan-alia-bhatt-instagram-digital-detox-10713287/",
-            "image": "https://images.indianexpress.com/2026/05/karan-johar-instag.jpg",
-            "source": "indianexpress"
+            "title": "Bessent says Oman has 'assured' US it won't impose toll in Strait of Hormuz",
+            "severity": "MEDIUM",
+            "url": "https://www.firstpost.com/world/bessent-says-oman-has-assured-us-it-wont-impose-toll-in-strait-of-hormuz-14016552.html",
+            "image": "https://images.firstpost.com/uploads/2025/04/Scott-Bessent-April-23-2025-Reuters-2025-04-945775ee0b3fe453bd2c94d6bbf91720.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "GIFT Nifty indicates flat start for equities on Dalal Street",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/gift-nifty-indicates-flat-start-for-equities-on-dalal-street-126052900220_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
-            "source": "business-standard"
+            "title": "Oil falls As Iran-US Tensions Show Signs Of Easing",
+            "severity": "MEDIUM",
+            "url": "https://www.timesnownews.com/business-economy/economy/oil-falls-as-iran-us-tensions-show-signs-of-easing-article-154425076",
+            "image": "https://images.timesnownews.com/thumb/msid-154425108,width-1280,height-720,resizemode-75/154425108.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "How Karachi Got Its First Hindu Gymkhana In 1925, And Why It's Still Fighting For Survival",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/lifestyle/how-karachi-got-its-first-hindu-gymkhana-in-1925-and-why-its-still-fighting-for-survival-11558821",
-            "image": "https://c.ndtvimg.com/2026-05/sgv775gs_karachi-gym-khana-club_625x300_28_May_26.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
-            "source": "ndtv"
+            "title": "US may need USD 2 trillion push to rebuild domestic manufacturing, cut China dependence: McKinsey",
+            "severity": "MEDIUM",
+            "url": "http://www.chinanationalnews.com/news/279088864/us-may-need-usd-2-trillion-push-to-rebuild-domestic-manufacturing-cut-china-dependence-mckinsey",
+            "image": "https://image.chitra.live/api/v1/wps/96b9890/54223788-9f05-4328-887e-be808dc12479/0/ANI-20260529051917-600x315.jpg",
+            "source": "chinanationalnews"
         },
         {
-            "title": "No justification for Ukraine\u2019s \u2018barbaric\u2019 strike on college dorm \u2013 Russian envoy to UN",
+            "title": "Woman says she is being haunted by a demonic bobblehead doll from Download Festival",
             "severity": "WATCH",
-            "url": "https://www.rt.com/russia/640711-russia-un-ukraine-starobelsk-attack/",
-            "image": "https://mf.b37mrtl.ru/files/2026.05/article/6a190c8c20302738d4592a52.jpg",
-            "source": "rt"
+            "url": "https://www.mirror.co.uk/news/weird-news/woman-says-being-haunted-demonic-37220001",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37220014.ece/ALTERNATES/s615/0_01KSS5AX9DSRZY6N8KTP59T43J.jpg",
+            "source": "mirroruk"
         },
         {
-            "title": "Piyush Goyal engages with over 50 industry leaders in New York to deepen India-US trade",
+            "title": "Try these 7 sunscreens that give maximum sun protection without leaving white cast",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/piyush-goyal-engages-with-over-50-industry-leaders-in-new-york-to-deepen-india-us-trade-investment-innovation-supply-chain-partnerships/articleshow/131381439.cms",
-            "image": "https://img.etimg.com/thumb/msid-131381455,resizemode-4,width-1200,height-900,imgsize-162648,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.hindustantimes.com/lifestyle/fashion/try-these-7-sunscreens-that-give-maximum-sun-protection-without-leaving-white-cast-101780034687834.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/29/1600x900/logo/sunscreen_1757570674750_1757570682564_1780036409133_3638abdf-58e7-4d6d-b128-36d4ec94e535.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "India to have plastic banknotes soon? RBI revives polymer currency plan amid demand surge",
+            "title": "AMZFAST to Unveil Next-Generation Display Portfolio at Computex 2026",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/currency/india-to-have-plastic-banknotes-soon-rbi-revives-polymer-currency-plan-amid-demand-surge-13935275.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260201072404_rupee.jpg",
+            "url": "https://www.prnewswire.com/apac/news-releases/amzfast-to-unveil-next-generation-display-portfolio-at-computex-2026-302785409.html",
+            "image": "https://images.pexels.com/photos/7629244/pexels-photo-7629244.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "prnewswire_apac"
+        },
+        {
+            "title": "Driverless vehicles hit major milestone as labor groups fight to slow expansion",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/driverless-vehicles-hit-major-milestone-064000661.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/WKuVhJbEyTT6u5kilNs1Gg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/the_cool_down_737/11633a2bca4739947c47bbf2db866f8d",
+            "source": "yahoo"
+        },
+        {
+            "title": "Vaibhav Sooryavanshi reminds Pakistan legend of Shahid Afridi \u2014 'young, fearless, explosive, full of energy'",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/sports/cricket/ipl/vaibhav-sooryavanshi-reminds-pakistan-legend-of-shahid-afridi-young-fearless-explosive-full-of-energy-article-13935491.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260529063346_afridi-sooryavanshi-ap-afp.jpg",
             "source": "moneycontrol"
         },
         {
-            "title": "Currency Check: Rupee opens higher amid fresh US-Iran ceasefire hopes",
+            "title": "Drax completes first gas turbine plant as part of 900MW expansion",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/currency/currency-check-rupee-opens-higher-amid-fresh-us-iran-ceasefire-hopes-13935009.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260409103540_rupee-banknote-bloomberg.jpg",
-            "source": "moneycontrol"
+            "url": "https://uk.finance.yahoo.com/news/drax-completes-first-gas-turbine-063900394.html",
+            "image": "https://media.zenfs.com/en/proactive_uk_164/700b8398969e7e1e3f62093fe3400644",
+            "source": "yahoo"
         },
         {
-            "title": "US-Iran truce deal awaits Trump as strikes test fragile ceasefire",
+            "title": "Oil prices set for sharp weekly declines on US-Iran peace deal prospects",
             "severity": "WATCH",
-            "url": "https://gulfnews.com/world/mena/us-iran-truce-deal-awaits-trump-as-strikes-test-fragile-ceasefire-1.500556515",
-            "image": "https://gumlet-images.assettype.com/gulfnews/2026-05-27/o43yzvga/preview.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "url": "https://uk.investing.com/news/commodities-news/oil-prices-set-for-sharp-weekly-declines-on-usiran-peace-deal-prospects-4703891",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEM291B1_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "The 400-Kilogram Secret Inside Every F-35",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/article/4909927-400-kilogram-secret-inside-every-f-35",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1144882812/image_1144882812.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Tom Hardy not fired from MobLand: Controversy explained as Season 3 future remains uncertain",
+            "severity": "WATCH",
+            "url": "https://gulfnews.com/entertainment/tom-hardy-not-fired-from-mobland-controversy-explained-as-season-3-future-remains-uncertain-1.500556674",
+            "image": "https://gumlet-images.assettype.com/gulfnews/2026-05-29/y3265tpm/tomhardy.webp?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
             "source": "gulfnews"
         },
         {
-            "title": "KPMG boss quits amid auditing scandal",
+            "title": "Wiliot Physical AI Platform Expands Supply Chain Visibility Through AT&T Collaboration",
             "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-05-29/kpmg-boss-resigns-over-mishandled-whistleblower-allegations/106737180",
-            "image": "https://live-production.wcms.abc-cdn.net.au/f8d44b3cb93a7137b3f9e38f6a8b8ffb?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=35&width=862&height=485",
-            "source": "abc_net"
+            "url": "https://www.electronicsmedia.info/2026/05/29/wiliot-physical-ai-platform/",
+            "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "source": "electronicsmedia_info"
+        },
+        {
+            "title": "'Mario, Luigi and Cam drugs lines' busted by police in Birmingham",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/mario-luigi-cam-drugs-lines-34029411",
+            "image": "https://i2-prod.birminghammail.co.uk/incoming/article34029427.ece/ALTERNATES/s615/0_cam-drug-line.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Bharat Dynamics shares fall up to 8% on weak Q4 results, brokerages flag execution delays",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/markets/bharat-dynamics-shares-fall-up-to-8-on-weak-q4-results-brokerages-flag-execution-delays-13935435.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260422094706_Sensex_nifty_market_down_Sensex.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Illicit liquor kills 13, gets several others hospitalised in Pune",
+            "severity": "WATCH",
+            "url": "https://www.deccanherald.com/india/maharashtra/illicit-liquor-kills-13-gets-several-others-hospitalised-in-pune-4020197",
+            "image": "https://media.assettype.com/deccanherald/2026-05-29/xh4bs9d0/istockphoto-1248195967-612x612.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "UK drugs gang funded lavish lifestyle including spa days by flooding streets with cocaine",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/news/uk-news/paddy-nolan-lancashire-drugs-gang-37219972",
+            "image": "https://i2-prod.mirror.co.uk/news/article37219970.ece/ALTERNATES/s615/0_Four-of-the-gang-Matthew-Waterworth-Regan-Burnie-Paddy-Nolan-and-Ross-Boys-pictured-on-a-spa-d.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Tom Holland keen to retire from Spider-Man role?",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/tom-holland-keen-to-retire-from-spider-man-role-says-if-i-could-do-what-robert-downey-jr-did-for-me-/articleshow/131380990.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131383856/131383856.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Tokyo Inflation Slowdown Unlikely to Derail BOJ Rate Hike",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-pmn/tokyo-inflation-slowdown-unlikely-to-derail-boj-rate-hike",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/05/tokyo-inflation-eases-to-four-year-low-price-growth-in-nati.jpg",
+            "source": "financialpost"
+        },
+        {
+            "title": "Guatemala's president denies report of US deal on anti-drug trafficking strikes",
+            "severity": "WATCH",
+            "url": "https://abcnews.com/International/wireStory/guatemalas-president-denies-report-us-deal-anti-drug-133398752",
+            "image": "https://s.abcnews.com/images/US/abc_news_default_2000x2000_update_16x9_992.jpg",
+            "source": "abcnews"
+        },
+        {
+            "title": "Israel\u2019s future will be decided by those who show up",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/israel-news/culture/article-897438",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/722971",
+            "source": "jpost"
+        },
+        {
+            "title": "Why BCCI Has Banned IPL Players And Match Officials From Wearing Smart Sunglasses?",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/cricket/why-bcci-has-banned-ipl-players-and-match-officials-from-wearing-smart-sunglasses-ws-kl-10118983.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/05/ipl-cricket-match-stadium-bcci-2026-05-c760c6c8e962c72a7bb891abe206dda0-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Murderer was secretly managing business putting workers on mega-project",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/national/murderer-was-secretly-managing-business-putting-workers-on-mega-project-20260529-p60205.html",
+            "image": "https://static.ffx.io/images/$zoom_3%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_294/t_crop_custom/q_86%2Cf_auto/91615766bc540042dd85e7357a05f19d2341cf3a",
+            "source": "smh"
+        },
+        {
+            "title": "ANZ to appeal class action decision",
+            "severity": "WATCH",
+            "url": "https://www.rnz.co.nz/news/business/596753/anz-to-appeal-class-action-decision",
+            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "No more smart glasses: BCCI tightens security protocols for remaining IPL 2026 matches",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/sports/cricket/ipl-2026-bcci-smart-glasses-ban-g853w0k5",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1rfmcvqdsk9nnwd674n/1/royal-challengers-bengaluru-s-virat-kohli-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Foreigner vlogger \u2018followed by man to the bathroom on AC train in India': 'Always trust your instincts'",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/lifestyle/travel/foreign-vlogger-warns-after-being-followed-by-man-to-the-bathroom-on-ac-train-in-india-always-trust-your-instincts-101780031319210.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/29/1600x900/logo/MixCollage-29-May-2026-10-36-AM-5219_1780031636588_1780031646758_0600d8a2-95d1-4bee-9c1c-408679944d79.jpg",
+            "source": "hindustantimes"
         }
     ],
-    "Last_Updated": "2026-05-29T15:55:46.801379Z"
+    "Last_Updated": "2026-05-29T18:42:53.178466Z"
 }
