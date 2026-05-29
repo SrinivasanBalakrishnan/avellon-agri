@@ -1,267 +1,204 @@
 {
-    "AGRI_Score": 62.1,
-    "Velocity": "-0.3",
+    "AGRI_Score": 61.5,
+    "Velocity": "-0.6",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.1 indicates a heightened risk environment, predominantly driven by severe 'Energy & Maritime Disruption' (91.6) and intensified 'Geopolitical Conflict Intensity' (77.3). This surge is directly linked to events such as the \"US inflation rose at fastest pace in three years in April as Iran war hikes up prices,\" underscoring how geopolitical tensions translate into significant economic instability through energy markets. Additionally, escalating diplomatic shifts, exemplified by \"Moscow deepens defence ties with Taliban after formal recognition,\" contribute to a complex and volatile global landscape.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 61.5 is primarily driven by the exceptionally high scores in Geopolitical Conflict Intensity (77.6) and Energy & Maritime Disruption (91.6). Elevated tensions surrounding US-Iran relations, despite reports that \"US, Iran edge toward 60-day deal to prevent further escalation,\" create significant uncertainty. This directly impacts global energy markets, as evidenced by the warning that \"Gas price relief uncertain as US and Iran weigh tentative ceasefire,\" underscoring a critical nexus between geopolitical volatility and resource stability.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.3,
+        "Geopolitical Conflict Intensity": 77.6,
         "Energy & Maritime Disruption": 91.6,
-        "Trade & Supply Chain Stress": 67.7,
+        "Trade & Supply Chain Stress": 64.7,
         "Sovereign Financial Stress": 54.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 60.3,
+        "Sanctions & Regulatory Fragmentation": 54.0,
+        "Cyber & Infrastructure Threats": 57.7,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is significantly elevated due to evolving international alignments and ongoing kinetic actions. The report that \"Moscow deepens defence ties with Taliban after formal recognition\" signals new geopolitical realignments, while \"U.S. strikes another suspected drug-smuggling boat, killing two people\" indicates continued direct military engagements contributing to regional instability.",
-        "Energy & Maritime Disruption": "Risk in this pillar is extremely high, with direct impacts on global economics. The headline \"US inflation rose at fastest pace in three years in April as Iran war hikes up prices\" explicitly links ongoing conflicts to soaring energy costs and broad inflation, indicating severe supply and price volatility. Maritime security remains a concern, with the \"U.S. strikes another suspected drug-smuggling boat\" highlighting persistent threats to sea lanes and trade routes.",
-        "Trade & Supply Chain Stress": "This pillar shows elevated stress, primarily from broader economic and diplomatic shifts rather than direct disruption. \"India, Canada to avoid sensitive sectors in trade pact talks: Piyush Goyal\" indicates a cautious and potentially fragmented approach to international trade agreements, which could impede robust supply chain development. The general inflationary pressures caused by energy price hikes, as noted in the 'Iran war hikes up prices' brief, also contribute to higher costs across supply chains.",
-        "Sovereign Financial Stress": "This area is experiencing moderate stress, with specific localized concerns. The \"Santa Rosa school district mulls massive raise for finance chief despite being on brink of collapse\" highlights significant sub-sovereign financial mismanagement and potential for fiscal distress. Meanwhile, \"Long-term interest rates seen easing after Middle East-driven surge\" suggests ongoing volatility in financial markets influenced by external events, though with some signs of potential relief.",
-        "Currency & Liquidity Pressure": "This pillar reflects baseline activity, with general market adjustments rather than acute pressure. \"Average US long-term mortgage rate climbs to 6.53%, highest level in nine months\" indicates a tightening credit environment that can impact liquidity. However, the news about \"Long-term interest rates seen easing after Middle East-driven surge\" suggests that broader liquidity issues are not currently escalating aggressively.",
-        "Sanctions & Regulatory Fragmentation": "This pillar demonstrates moderate risk, marked by shifting diplomatic landscapes and domestic regulatory scrutiny. \"Moscow deepens defence ties with Taliban after formal recognition\" creates a complex environment ripe for new or expanded sanctions considerations by international bodies. Domestically, \"Breach Candy Club Under Lens; Tharoor Exposes 'Racist' Rules\" shows active regulatory challenges regarding social and operational compliance.",
-        "Cyber & Infrastructure Threats": "Risk in this pillar is elevated, particularly concerning critical sectors. A report indicates \"Mid-tier entities in Indian BFSI under-invested in security, most exposed to cyberattacks,\" highlighting significant vulnerabilities in the financial services infrastructure. Furthermore, the \"Google Engineer Charged With Using Insider Info for $1 Million Haul on Polymarket\" underscores persistent insider threats and the potential for digital platform exploitation.",
-        "Climate & Resource Shock": "This pillar currently reflects routine monitoring, with no immediate indicators of systemic shocks. While \"Jannik Sinner denies heat was to blame for shock French Open exit\" mentions heat, it is a localized athletic observation and does not point to widespread climate-related resource scarcity or disaster. The news feed provides no direct evidence of a significant or imminent climate or resource shock impacting broader geopolitical stability."
+        "Geopolitical Conflict Intensity": "This pillar remains critically high due to persistent US-Iran tensions, despite potential de-escalation talks. The headline \"Cuba sees higher risk of US military aggression as talks stall\" also indicates rising regional conflict potential elsewhere. ",
+        "Energy & Maritime Disruption": "Risk in this pillar is extremely high, directly linked to the geopolitical situation. \"Gas price relief uncertain as US and Iran weigh tentative ceasefire\" highlights the ongoing threat to energy supply and pricing stability from the evolving diplomatic landscape.",
+        "Trade & Supply Chain Stress": "This pillar shows moderate stress, with regulatory oversight and ethical sourcing as key themes. \"Apple says latest conflict minerals review found no basis to link suppliers to armed groups\" demonstrates ongoing scrutiny in complex supply chains.",
+        "Sovereign Financial Stress": "Financial markets are highly responsive to geopolitical developments, as seen by \"Asian Stocks to Rise on Firming US-Iran Sentiment.\" However, direct sovereign stress events are not explicitly reported, indicating a reactive rather than causative role from the news.",
+        "Currency & Liquidity Pressure": "This pillar is at a baseline monitoring level, with no direct reports of currency crises. Market sentiment shifts due to geopolitical news, as indicated by \"Asian Stocks to Rise on Firming US-Iran Sentiment,\" can indirectly influence liquidity.",
+        "Sanctions & Regulatory Fragmentation": "This pillar exhibits moderate risk, primarily from domestic regulatory non-compliance rather than international fragmentation. \"Some PMA users say they will flout new rules despite risk of fines, jail from Jun 1\" points to localized enforcement challenges.",
+        "Cyber & Infrastructure Threats": "This pillar shows elevated risk, primarily from data security breaches and insider threats. \"California sues 23andMe, alleging it failed to protect user data in 2023 breach\" highlights significant vulnerabilities and legal repercussions for data custodians.",
+        "Climate & Resource Shock": "This pillar is currently at a low risk level, indicating routine monitoring. The provided news feed does not contain any direct reports pertaining to significant climate events or resource scarcity shocks."
     },
     "All_Alerts": [
         {
-            "title": "Santa Rosa school district mulls massive raise for finance chief despite being on brink of collapse",
+            "title": "Initial framework: US, Iran edge toward 60-day deal to prevent further escalation amid uncertainty",
             "severity": "HIGH",
-            "url": "https://nypost.com/2026/05/28/us-news/santa-rosa-school-district-on-brink-of-collapse-mulls-raise-for-finance-chief/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F05%2Fsrhs-srcschools-org-our-school-128972347.jpg?w%3D1024",
-            "source": "nypost"
+            "url": "https://gulfnews.com/world/mena/initial-framework-us-iran-edge-toward-60-day-deal-to-prevent-further-escalation-1.500556416",
+            "image": "https://gumlet-images.assettype.com/gulfnews/2026-05-28/zv1kr0ug/Screenshot-2026-05-29-at-5.43.46-AM.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
         },
         {
-            "title": "U.S. strikes another suspected drug-smuggling boat, killing two people",
+            "title": "Cuba sees higher risk of US military aggression as talks stall",
             "severity": "HIGH",
-            "url": "https://www.washingtontimes.com/news/2026/may/28/us-strikes-another-suspected-drug-smuggling-boat-killing-two-people/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/05/18/Pentagon_Congress_61483_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
-            "source": "washingtontimes"
+            "url": "https://www.jpost.com/international/article-897710",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/721441",
+            "source": "jpost"
         },
         {
-            "title": "Moscow deepens defence ties with Taliban after formal recognition",
+            "title": "Groundhog Day: Iran War Edition",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/moscow-deepens-defence-ties-with-taliban-after-formal-recognition-article-13934884.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260528160031_putin.png",
-            "source": "moneycontrol"
+            "url": "https://foreignpolicy.com/2026/05/28/iran-war-trump-mou-deal-lebanon-israel/",
+            "image": "https://foreignpolicy.com/wp-content/uploads/2026/05/Trump-Rubio-Hegseth.jpeg?resize=1200,1200",
+            "source": "foreignpolicy"
         },
         {
-            "title": "Champion Iron Q4 2025 Earnings Call Transcript",
+            "title": "Asian Stocks to Rise on Firming US-Iran Sentiment: Markets Wrap - Bloomberg.com",
             "severity": "HIGH",
-            "url": "https://www.benzinga.com/insights/news/26/05/52846555/champion-iron-q4-2025-earnings-call-transcript",
-            "image": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2025/11/06/movers_1.jpg",
-            "source": "benzinga"
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQS3R1U0FoSWY2aUpubVNqdlJBTURUYklRMnpWWlB4RGsxd0tvRTVXbTdKR0NCdW9BMkxicmxuNjdfUWhrNEV4YnM0UDlSS1NRUV9ZT0NSSjZUbGZNVkNEWUlvVVU5dmxQX2dNbXNEeWxjcWZMTUdUZUNua3FKTTZDZ014dEJPaGlTSm9XNjRWekx6WnJBaHBTTk5lUWNiRkFoc04wTHVlTjlNaW9jREloV1g3VQ?oc=5",
+            "image": "https://images.pexels.com/photos/4666/berlin-eu-european-union-federal-chancellery.jpg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "US inflation rose at fastest pace in three years in April as Iran war hikes up prices",
+            "title": "Gas price relief uncertain as US and Iran weigh tentative ceasefire",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/business/2026/may/28/inflation-increased-april-iran-war-price-rises",
-            "image": "https://i.guim.co.uk/img/media/0c98b4915557d21cf5ada02793836648119791cc/680_0_3320_2656/master/3320.jpg?width=140&quality=85&auto=format&fit=max&s=dec5048e98c170240e056a6498b31d0c",
-            "source": "theguardian"
+            "url": "https://www.wcvb.com/article/gas-prices-uncertain-us-iran-tentative-ceasefire/71435596",
+            "image": "https://kubrick.htvapps.com/htv-prod/images/411afae4-2fce-4685-aee5-02a496152057.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+            "source": "wcvb"
         },
         {
-            "title": "Mid-tier entities in Indian BFSI under-invested in security, most exposed to cyberattacks: Report",
+            "title": "US officials say there have been no US aircraft shot down, contradicting Iranian claims",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/business/banks/mid-tier-entities-in-indian-bfsi-under-invested-in-security-most-exposed-to-cyberattacks-report-13934871.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/03/20260306123510_gffe.jpeg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Breach Candy Club Under Lens; Tharoor Exposes 'Racist' Rules | Can 'New India' Allow This Farce!",
-            "severity": "HIGH",
-            "url": "https://www.timesnownews.com/videos/times-now/india-upfront/breach-candy-club-under-lens-tharoor-exposes-racist-rules-can-new-india-allow-this-farce-video-154420501",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "timesnownews"
-        },
-        {
-            "title": "India, Canada to avoid sensitive sectors in trade pact talks: Piyush Goyal",
-            "severity": "MEDIUM",
-            "url": "https://www.moneycontrol.com/news/business/india-canada-to-avoid-sensitive-sectors-in-trade-pact-talks-piyush-goyal-13934896.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260527151426_Piyush-Goyal-canada-carney.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Trump Invested in Intel And it Soared 500%. Here\u2019s the Next Industry the Government is Buying.",
-            "severity": "MEDIUM",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/trump-invested-intel-soared-500-160930019.html",
-            "image": "https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "finance_yahoo"
-        },
-        {
-            "title": "Long-term interest rates seen easing after Middle East-driven surge",
-            "severity": "MEDIUM",
-            "url": "https://www.khaleejtimes.com/business/economy/long-term-interest-rates-seen-easing-after-middle-east-driven-surge",
-            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-05-16/3eqcrqce/http___doc_afp_com_B2ZU48N.jpeg",
-            "source": "khaleejtimes"
-        },
-        {
-            "title": "WFI Challenges in SC Delhi HC\u2019s Order Allowing Vinesh Phogat to Participate in Asian Games Selection Trials",
-            "severity": "MEDIUM",
-            "url": "https://english.revoi.in/wfi-challenges-in-sc-delhi-hcs-order-allowing-vinesh-phogat-to-participate-in-asian-games-selection-trials/",
-            "image": "https://english.revoi.in/wp-content/uploads/2026/05/22-phogat.png",
-            "source": "revoi_in"
-        },
-        {
-            "title": "Jannik Sinner denies heat was to blame for shock French Open exit",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/sport/tennis/jannik-sinner-paris-tnt-sports-carlos-alcaraz-tim-henman-b2985419.html",
-            "image": "https://static.independent.co.uk/2026/05/28/17/28-192557a7dd48415389d1ec5ca7191576.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "No room for 'double standards' on terrorism: Ajit Doval in Russia",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/india/no-room-for-double-standards-on-terrorism-ajit-doval-in-russia-4019551",
-            "image": "https://media.assettype.com/deccanherald/2026-05-28/rck8myq9/file861lh01uurdsu0j7h9l.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Black People \u2014 Including Queen Latifah \u2014 Are Sharing Their Love For Haka, And This Got Me In My Feels, Y'all",
-            "severity": "WATCH",
-            "url": "https://www.buzzfeed.com/morgansloss1/queen-latifah-black-people-share-love-for-haka",
-            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-05/28/02/thumb/pwONUQgH6.jpg?crop=2490:1660;5,0&resize=1250:830&resize=1200:*",
-            "source": "buzzfeed"
-        },
-        {
-            "title": "Average US long-term mortgage rate climbs to 6.53%, highest level in nine months",
-            "severity": "WATCH",
-            "url": "https://www.bostonherald.com/2026/05/28/mortgage-rates-may-28/",
-            "image": "https://www.bostonherald.com/wp-content/uploads/2026/05/Mortgage_Rates_25938_109a6e.jpg?w=1400px&strip=all",
-            "source": "bostonherald"
-        },
-        {
-            "title": "Apartments planned on Muskegon Lake receive city approval",
-            "severity": "WATCH",
-            "url": "https://www.mlive.com/news/muskegon/2026/05/apartments-planned-on-muskegon-lake-receive-city-approval.html",
-            "image": "https://www.mlive.com/resizer/v2/7TSRI3KVURH5NKDINHTBMAQR74.jpg?auth=d36ffbcb43fe30917520439472e353a133531c87f3522acb2ee48b09055ad3de&smart=true&height=1200",
-            "source": "mlive"
-        },
-        {
-            "title": "Do you lose more weight by eating more protein? Stanford educated longevity expert reveals the truth: \u2018Protein is actually the least...\u2019",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/magazines/panache/do-you-lose-more-weight-by-eating-more-protein-stanford-educated-longevity-expert-reveals-the-truth-protein-is-actually-the-least/articleshow/131373805.cms",
-            "image": "https://img.etimg.com/thumb/msid-131373799,resizemode-4,width-1200,height-900,imgsize-24604,overlay-etpanache/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Ebola concerns spread as officials call US reaction \u2018unprecedented\u2019",
-            "severity": "WATCH",
-            "url": "https://www.the-express.com/news/world-news/208462/ebola-spread-US-reaction-unprecedented",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/208462_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "Trump-Era Pride Is Being Severely Underfunded, Again. So It's Time For Us To Step Up.",
-            "severity": "WATCH",
-            "url": "https://www.huffpost.com/entry/trump-era-pride-2026-underfunded_n_6a185240e4b062ca52d97c71",
-            "image": "https://img.huffingtonpost.com/asset/6a18596c140000f7306b3782.jpeg?cache=PHqah4lHDb&ops=1778_1000",
-            "source": "huffpost"
-        },
-        {
-            "title": "Google Engineer Charged With Using Insider Info for $1 Million Haul on Polymarket",
-            "severity": "WATCH",
-            "url": "https://gizmodo.com/google-engineer-charged-with-using-insider-info-for-1-million-haul-on-polymarket-2000764588",
-            "image": "https://gizmodo.com/app/uploads/2026/01/shutterstock_2649710799.jpg",
-            "source": "gizmodotech"
-        },
-        {
-            "title": "Florida influencer with no right hand gets ticket for using phone in \u2018right hand\u2019 while driving",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/us/florida-influencer-with-no-right-hand-gets-ticket-for-using-phone-in-right-hand-while-driving/articleshow/131373611.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131373818/131373818.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "1777 March Made Scotch Plains Farmhouse Historic. Now It\u2019s Part Of America\u2019s 250th",
-            "severity": "WATCH",
-            "url": "https://patch.com/new-jersey/scotchplains/1777-march-made-scotch-plains-farmhouse-historic-now-it-s-part-america-s",
-            "image": "https://patch.com/img/cdn20/shutterstock/24423246/20260528/120951/styles/patch_image/public/shutterstock-2638257627___28120859635.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Nepali woman who disappeared in Virginia in 2024: New forensic evidence found in Mamta Kafle Bhatt case",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/us/nepali-woman-who-disappeared-in-virginia-in-2024-new-forensic-evidence-found-in-mamta-kafle-bhatt-case/articleshow/131373736.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131373767/131373767.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Trucking, logistics firms double down on U.S. expansions",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/economy/articles/trucking-logistics-firms-double-down-161148985.html",
-            "image": "https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "finance_yahoo"
-        },
-        {
-            "title": "U-Haul Holding Company to Participate in the Bank of America Self-Storage Virtual Conference",
-            "severity": "WATCH",
-            "url": "http://www.businesswire.com/news/home/20260528762230/en/U-Haul-Holding-Company-to-Participate-in-the-Bank-of-America-Self-Storage-Virtual-Conference/?feedref=JjAwJuNHiystnCoBq_hl-a2-DX8EjssEmMYWAmn7L6JnP4KQ0-VuR_Ed1_p6a8aSQvj2g8ZtgMSWm4nAO4sO4nr0TKd7CILvKt8KtThduJU_d6mxM68GteRxmy6jDm8WOZiG4SwpSv6tLEhMuQ8iTnO1u3OvtUKtPLlU5Ry9otk%3D",
-            "image": "https://mms.businesswire.com/media/20260528762230/en/2817096/22/LOGO%2C_U-HAUL_HOLDING_COMPANY-2_COLOR.jpg",
-            "source": "businesswire"
-        },
-        {
-            "title": "India's 1st rainfall derivatives contract starts on May 29: What to expect",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/news/india-s-1st-rainfall-derivatives-contract-starts-on-may-29-what-to-expect-126052801620_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/28/full/1779984331-7543.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Crude oil inventories fall -3.327 million versus -4.143 million estimate",
-            "severity": "WATCH",
-            "url": "https://investinglive.com/news/crude-oil-inventories-fall-3327-million-versus-4143-million-estimate-20260528/",
-            "image": "https://images.investinglive.com/images/Oil%20inventory%20data_id_a5c8f2c5-9fba-4447-a59c-3e2437e20683_size975.jpg",
+            "url": "https://investinglive.com/commodities/us-officials-say-there-have-been-no-us-aircraft-shot-down-contradicting-iranian-claims-20260528/",
+            "image": "https://images.investinglive.com/images/Breaking%20news%20general%201_id_98306b96-b31c-4f27-bac8-051feeb7cc59_size975.jpg",
             "source": "forexlive"
         },
         {
-            "title": "Aid supplies reach heart of Congo's Ebola outbreak as WHO head travels to Kinshasa",
-            "severity": "WATCH",
-            "url": "https://www.latimes.com/world-nation/story/2026-05-28/aid-supplies-reach-heart-of-congos-ebola-outbreak-as-who-head-travels-to-kinshasa",
-            "image": "https://ca-times.brightspotcdn.com/dims4/default/202d5f6/2147483647/strip/false/crop/7641x5094+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fbf%2F7d%2Fa40790c9487eb8460be34fd3c2e3%2F2cab39b5548849d688fade3c168d39ec.jpg",
-            "source": "latimes"
+            "title": "Apple says latest conflict minerals review found no basis to link suppliers to armed groups",
+            "severity": "HIGH",
+            "url": "https://9to5mac.com/2026/05/28/apple-says-latest-conflict-minerals-review-found-no-basis-to-link-suppliers-to-armed-groups/",
+            "image": "https://9to5mac.com/wp-content/uploads/sites/6/2024/12/Apple-faces-criminal-complaints-over-Congo-conflict-minerals.jpg?quality=82&strip=all",
+            "source": "9to5mac"
         },
         {
-            "title": "Crude oil inventories fall less than forecasted, pressuring prices",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/economic-indicators/crude-oil-inventories-fall-less-than-forecasted-pressuring-prices-93CH-4460712",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEA7D094_L.jpg",
-            "source": "investing_au"
+            "title": "Trump's pressure brings Iran to table for nuke talks: US official",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/world/trumps-pressure-brings-iran-to-table-for-nuke-talks-us-official-articleshow-tw8qgmi",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-7ead1149-13a7-4c55-924d-c37f5f3dc5fc.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "How to watch NBA games: Live stream every game of the 2025-2026 season",
-            "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/streaming/how-to-watch-nba-games-live-streams",
-            "image": "https://i.insider.com/6a18607d2ab5f9757add577e?width=1200&format=jpeg",
-            "source": "insider"
+            "title": "California Sues Owner of Former 23andMe - Newser",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUHM2bW9SeEJ0QWdYWjVLdmJaWEJyMFRiT1M1RGg4QjlzSHZLWEhxWVJTTDAtMWJuVk4tZEdjWjVnSjloMXU3Nm9KMUhHYXh0MDJVSGt6RkdoaGNQX05vZWo2SDI2YzVjRkd0cnhYeGE0M2ROSU5OTnBTMVNXVnJCd0JwQkVMXzg?oc=5",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "East Haven Police Blotter: May 20 to May 26, 2026",
-            "severity": "WATCH",
-            "url": "https://patch.com/connecticut/easthaven/east-haven-police-blotter-may-20-may-26-2026",
-            "image": "https://patch.com/img/cdn20/users/1713316/20260528/111733/styles/patch_image/public/east-haven-police-logo-2___28111706703.jpg",
-            "source": "patch"
+            "title": "Google engineer charged with using inside information to win $1.2M on Polymarket",
+            "severity": "HIGH",
+            "url": "https://www.bostonglobe.com/2026/05/28/business/google-engineer-charged-with-using-inside-information-win-12m-polymarket/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/QZ2IPSHYDP2SM6OFKJ2GMBH2PM.jpg?auth=0440df04c00c1a450f2a64bd5c5cdd1b659413a5999bc982d9768c576b9ec7fa&smart=true&width=6000&height=4000",
+            "source": "bostonglobe"
         },
         {
-            "title": "Remote work requests receiving \u2018blanket\u2019 rejections: civil servant unions",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/toronto/politics/queens-park/article/remote-work-requests-receiving-blanket-rejections-civil-servant-unions/",
-            "image": "https://www.ctvnews.ca/resizer/v2/GINPTDV74BFJNKWJTOA7KAR2ZA.jpg?auth=1620324b51ec8ebe99f5b765bf859a0e01dde2738c4441ae92f95be91703cb44&smart=true&width=4032&height=3024",
-            "source": "ctvnews"
+            "title": "California sues 23andMe, alleging it failed to protect user data in 2023 breach - ABC News - Breaking News, Latest News and Videos",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQclJRYnR6aXBiM2V4bWliMkhQUzIwRmtjbjhzYllua0NGVzRJVXFvcngtX3RaVEw1ek9mU3ZQVXo4TUdxTWlmeWRwMFVDcFE1dFZRVkk1TWpCX1F4NlpHOG9VVU5kcjF2RkRPU3paLVJaSUxjMDh6ZXk4Vk51TWpORHA5a1RkTkRRaE1mWWJ0RzktQUx3d2NzYjhLSndoN21kb0dCMEJKWDJPVk5N0gGyAUFVX3lxTE4wcjBzQVdLSlFITGNnWm5pTUJ1ZWRWLTMyRkdPQnBnY1FFdVRIZ1JWU2hZMEp3T0g2Qm1YSHY0NnVFekNBTVJsX0l0MFhESlBkYmpfX29NN0VrdzBUMlh5YnZUdUJta0VxUDktZ0xBOVNvRUQ4LVNaaWprYll1NHFqeDJ0clBhRktZWk9kenJKUGZWZVUyUG5sdVNldVVJUnN1V05GZWM2RmJadl9yM25fNXc?oc=5",
+            "image": "https://images.pexels.com/photos/37730212/pexels-photo-37730212.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "UK minister visits Australia for \u2018lessons\u2019 ahead of expected British social media crackdown",
-            "severity": "WATCH",
-            "url": "https://www.theguardian.com/media/2026/may/28/uk-social-media-crackdown-british-minister-visits-australia",
-            "image": "https://i.guim.co.uk/img/media/dccd49151a35b6b40c638462b5def560b92f2dd3/226_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=37f020f95c80cc97de9cfcf0f34366f1",
-            "source": "theguardiantheguardian"
+            "title": "CN Says STB Was Right to Freeze the UP-NS Merger and Demand More Information",
+            "severity": "MEDIUM",
+            "url": "https://financialpost.com/globe-newswire/cn-says-stb-was-right-to-freeze-the-up-ns-merger-and-demand-more-information",
+            "image": "https://images.pexels.com/photos/8962476/pexels-photo-8962476.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
         },
         {
-            "title": "'You're making a mistake': The last-minute call to Trump that exposed a stunning White House rift",
+            "title": "Some PMA users say they will flout new rules despite risk of fines, jail from Jun 1",
+            "severity": "MEDIUM",
+            "url": "https://www.channelnewsasia.com/singapore/pma-personal-mobility-aid-rules-medical-certificate-6147121",
+            "image": "https://dam.mediacorp.sg/image/upload/s--FZ-sIFyC--/c_crop,h_2677,w_4759,x_90,y_301/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2021-09/img_5645.jpg?itok=JjtTC1N5",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "Angel Reese tried to stretch her range, but her ugly shooting streak only got worse in Dream loss to Lynx",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15855357/trump-david-sacks-ai-order-white-house-mythos.html",
-            "image": "https://i.dailymail.com/1s/2026/05/28/14/108920847-0-image-a-15_1779975587740.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.foxnews.com/outkick-sports/angel-reese-ugly-shooting-streak-dream-loss-lynx",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/05/931/523/angel-reese-atlanta-dream-lynx-fox-news-002.jpeg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Operation Southern Spear: SOUTHCOM Blows Up Drug Boat in Pacific, Killing Two",
+            "severity": "WATCH",
+            "url": "https://www.breitbart.com/latin-america/2026/05/28/operation-southern-spear-southcom-blows-up-drug-boat-pacific-killing-two/",
+            "image": "https://media.breitbart.com/media/2026/05/Strike-on-narco-terrorist-boat-640x335.jpg",
+            "source": "breitbart"
+        },
+        {
+            "title": "Pender Growth Fund Provides Financial Highlights and Company Updates",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/globe-newswire/pender-growth-fund-provides-financial-highlights-and-company-updates-21",
+            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "\u2018Boy kibble\u2019 and the maxxing of food and protein",
+            "severity": "WATCH",
+            "url": "https://lifestyle.inquirer.net/572607/boy-kibble/",
+            "image": "https://lifestyle.inquirer.net/files/2026/05/22____Boy-kibble-and-the-maxxing-of-food-and-protein-1-scaled-e1779952720933.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "US bars drone flights over sites of World Cup matches",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/international/article-897709",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/723252",
+            "source": "jpost"
+        },
+        {
+            "title": "Bodies of two elderly women found in New Rajinder Nagar house, probe underway",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/noida-news/bodies-of-two-elderly-women-found-in-new-rajinder-nagar-house-probe-underway-101779994417339.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/28/1600x900/logo/Deputy-commissioner-of-police--central--Rohit-Rajb_1779994414269.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Sandfire Resources America Announces Variation to Bridge Loan Agreement",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/globe-newswire/sandfire-resources-america-announces-variation-to-bridge-loan-agreement-5",
+            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "Building Systems That Scale Without Friction: Steve Bapple on Solving Complex Operational Problems at the Root",
+            "severity": "WATCH",
+            "url": "https://www.usatoday.com/story/special/contributor-content/2026/05/28/building-systems-that-scale-without-friction-steve-bapple-on-solving-complex-operational-problems/90302500007/",
+            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/05/28/USAT/90302510007-image-1-18.jpeg?auto=webp&crop=1265,712,x0,y384&format=pjpg&width=1200",
+            "source": "usatoday"
+        },
+        {
+            "title": "Our Films, Producers Of Cannes Winning \u2018Fatherland\u2019, Teaming With Alice Rohrwacher For Feature Take Of \u2018The Baron In The Trees\u2019",
+            "severity": "WATCH",
+            "url": "https://deadline.com/2026/05/alice-rohrwacher-baron-in-the-trees-lorenzo-mieli-mario-gianani-1236929487/",
+            "image": "https://deadline.com/wp-content/uploads/2026/05/The-Baron-in-the-trees.jpg",
+            "source": "deadline"
+        },
+        {
+            "title": "Commentary: The value of Shangri-La Dialogue in a world increasingly shaped by hard power",
+            "severity": "WATCH",
+            "url": "https://www.channelnewsasia.com/commentary/shangrila-dialogue-security-singapore-power-rules-norms-6146341",
+            "image": "https://dam.mediacorp.sg/image/upload/s--rqTs4wGN--/c_fill,g_auto,h_338,w_600/f_auto,q_auto/v1/mediacorp/tdy/image/2023/06/06/20230604_ili_shangri-la_dialogue_2023-7.jpg?itok=6GWTMmhs",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "Drain regulator proposed at Mungeshpur to prevent Yamuna water backflow during floods",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/others/drain-regulator-proposed-at-mungeshpur-to-prevent-yamuna-water-backflow-during-floods-101779994413052.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/28/1600x900/logo/The-proposed-regulator-will-be-installed-at-the-po_1779994406429.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "ShinyHunters Alleges 42M Records Stolen from Charter Communications",
+            "severity": "WATCH",
+            "url": "https://www.techrepublic.com/article/news-charter-shinyhunters-cyber-incident/",
+            "image": "https://assets.techrepublic.com/uploads/2026/05/serious-woman-works-while-man-talks-on-phone-2026-01-09-00-45-56-utc.jpg?f=jpeg",
+            "source": "techrepublic"
         }
     ],
-    "Last_Updated": "2026-05-29T04:12:43.084276Z"
+    "Last_Updated": "2026-05-29T10:04:32.749382Z"
 }
