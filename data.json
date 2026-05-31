@@ -1,309 +1,232 @@
 {
-    "AGRI_Score": 64.3,
-    "Velocity": "+0.8",
+    "AGRI_Score": 61.7,
+    "Velocity": "-2.6",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.3 reflects significantly elevated risk, primarily driven by heightened 'Energy & Maritime Disruption' (91.6) and 'Geopolitical Conflict Intensity' (82.5). Escalating military tensions in Eastern Europe and the Middle East are the core drivers, exemplified by \"Ukraine warns Belarus: 500 military targets ready if it joins Russia war\" and the \"Iran missile strike at Kuwait base damages US drones, injures Americans: Report.\" These developments signal an increased potential for supply chain disruptions, energy market volatility, and direct military confrontation, pushing the overall risk profile higher.",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 61.7 is significantly elevated, primarily driven by critical levels in \"Energy & Maritime Disruption\" (91.6) and \"Geopolitical Conflict Intensity\" (78.9). Ongoing naval confrontations, exemplified by the \"US says it disabled another commercial ship trying to breach blockade and reach Iran\", directly fuel maritime instability and contribute to rising crude prices, as seen with \"Guyana poised for oil windfall as Iran crisis lifts crude prices\". Furthermore, intensified conflict, such as \"Zelenskyy after Ukrainian drones hit Russian oil facilities\", underscores a volatile global security environment, keeping overall risk high despite more moderate scores in other areas.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 82.5,
+        "Geopolitical Conflict Intensity": 78.9,
         "Energy & Maritime Disruption": 91.6,
-        "Trade & Supply Chain Stress": 63.5,
-        "Sovereign Financial Stress": 55.0,
+        "Trade & Supply Chain Stress": 67.0,
+        "Sovereign Financial Stress": 54.5,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 64.1,
-        "Cyber & Infrastructure Threats": 68.5,
+        "Sanctions & Regulatory Fragmentation": 56.2,
+        "Cyber & Infrastructure Threats": 52.7,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is high due to overt military threats and incidents, with \"Ukraine warns Belarus: 500 military targets ready if it joins Russia war\" directly signaling potential expansion of conflict. Further, the \"Iran missile strike at Kuwait base damages US drones, injures Americans: Report\" indicates active hostile engagements, increasing regional instability and the potential for broader escalation.",
-        "Energy & Maritime Disruption": "The high score in this pillar stems from severe geopolitical tensions impacting key energy-producing regions, despite no direct headlines of maritime blockades. The \"Iran missile strike at Kuwait base damages US drones, injures Americans: Report\" in the Persian Gulf region inherently raises risks for oil transit, while the \"Ukraine warns Belarus\" threat poses potential disruptions to Eastern European energy infrastructure and routes.",
-        "Trade & Supply Chain Stress": "This pillar reflects moderate stress, influenced by persistent inflationary concerns indicated by \"Inflation won Trump the presidency, but could cost him the midterms.\" Additionally, the escalating \"Ukraine warns Belarus\" conflict creates a looming threat of further trade route disruptions and increased logistical complexities.",
-        "Sovereign Financial Stress": "Sovereign financial stress is moderate, with ongoing concerns about inflation's impact on national economies as highlighted by the discussion on \"Inflation won Trump the presidency, but could cost him the midterms.\" Market analysts are closely watching indices, as indicated by the \"Sensex, Nifty outlook for Monday, June 1\" headline, signaling underlying economic uncertainties.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at moderate levels, largely influenced by persistent inflation which often necessitates central bank interventions that affect currency valuations. The general market outlook, as reflected in headlines like \"Sensex, Nifty outlook for Monday, June 1,\" suggests an environment where liquidity conditions could shift based on economic data and central bank actions.",
-        "Sanctions & Regulatory Fragmentation": "This pillar shows moderate-high risk, driven by the potential for expanded sanctions in response to geopolitical escalation, as indicated by the \"Ukraine warns Belarus\" warning and the \"Iran missile strike.\" Regulatory bodies are also active, with \"California attorney general sues 23andMe for data breach\" demonstrating ongoing legal and compliance challenges in the private sector.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are moderate-high, underscored by a significant \"California attorney general sues 23andMe for data breach,\" indicating persistent vulnerabilities in data security. Physical infrastructure also faces threats, as shown by a \"United Airlines flight diverted after passenger \u2018attempted to breach cockpit\u2019,\" highlighting the need for vigilance against both digital and physical security breaches.",
-        "Climate & Resource Shock": "The current news feed indicates routine monitoring for environmental shifts rather than immediate climate-related shocks. There are no specific headlines detailing severe weather events or resource scarcity impacting global systems, placing this pillar at a low risk level."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict remains severely elevated due to persistent tensions surrounding Iran and ongoing conflict in Ukraine. The repeated incidents of the US disabling ships attempting to breach the Iranian blockade underscore the high-stakes naval confrontations in critical maritime corridors, while intensified military actions, like Ukrainian drones targeting Russian oil facilities, indicate a widening scope of direct conflict.",
+        "Energy & Maritime Disruption": "This pillar is at a critical level, directly influenced by heightened geopolitical tensions impacting global energy markets and shipping routes. The Iran crisis continues to lift crude prices, as evidenced by \"Guyana poised for oil windfall as Iran crisis lifts crude prices\", while maritime blockades and attacks on energy infrastructure, such as \"Zelenskyy after Ukrainian drones hit Russian oil facilities\", pose significant disruption risks to supply.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress remains elevated due to the ongoing maritime disruptions stemming from geopolitical conflicts. Repeated attempts to breach blockades, such as the \"US says it disabled another commercial ship trying to breach blockade and reach Iran\", highlight vulnerabilities in global shipping and potential bottlenecks that could affect trade flows.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, with some political concerns affecting economic outlooks in key nations. Warnings about potential chancellor appointments in Britain, like \"Andy Burnham warned appointing Ed Miliband as Chancellor is 'disaster for Britain'\", introduce uncertainty into fiscal policy, though high oil prices benefit some nations.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are currently at a routine monitoring level, without explicit widespread distress. While rising crude prices, highlighted by \"Guyana poised for oil windfall as Iran crisis lifts crude prices\", may create differential impacts on national currencies, there are no immediate reports of systemic liquidity shortages or significant currency devaluations.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation show a moderate level of activity, driven by continued enforcement of international restrictions. The \"US says it disabled another commercial ship trying to breach blockade and reach Iran\" demonstrates active measures to uphold existing blockades and sanctions regimes, highlighting a fragmented global regulatory environment.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are currently at a moderate level, with no direct cyberattacks reported in the feed, but physical infrastructure remains vulnerable. Incidents such as \"Zelenskyy after Ukrainian drones hit Russian oil facilities\" demonstrate the ongoing threat of physical attacks on critical energy infrastructure in conflict zones, warranting continued vigilance against both digital and physical disruptions.",
+        "Climate & Resource Shock": "This pillar indicates a low level of immediate risk, with no major global climate or resource shocks reported. Localized incidents, such as \"APEPDCL suffers loss of Rs 2.15 crore due to heavy winds and rain\", represent regional disruptions rather than systemic global threats, suggesting routine monitoring for climate and resource-related events."
     },
     "All_Alerts": [
         {
-            "title": "Why dermatologists are warning against salon botox, fillers, lasers and IV Drips",
+            "title": "US says it disabled another commercial ship trying to breach blockade and reach Iran",
             "severity": "HIGH",
-            "url": "https://www.thehindu.com/sci-tech/health/why-dermatologists-are-warning-against-salon-botox-fillers-lasers-and-iv-drips/article71027818.ece",
-            "image": "https://th-i.thgim.com/public/life-and-style/96zn7t/article71040662.ece/alternates/FREE_1200/iStock-1715074546.jpg",
-            "source": "thehindu"
+            "url": "https://economictimes.indiatimes.com/news/international/business/us-says-it-disabled-another-commercial-ship-trying-to-breach-blockade-and-reach-iran/articleshow/131412357.cms",
+            "image": "https://img.etimg.com/thumb/msid-131412366,resizemode-4,width-1200,height-900,imgsize-233530,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Best car insurance for veterans and military families in 2026",
+            "title": "Guyana poised for oil windfall as Iran crisis lifts crude prices",
             "severity": "HIGH",
-            "url": "https://www.cnbc.com/select/best-cheap-car-insurance-veterans-military/",
-            "image": "https://image.cnbcfm.com/api/v1/image/108213706-1760725869735-gettyimages-1889378391-dsc01195.jpeg?v=1760727664&w=1200&h=675",
-            "source": "cnbc"
+            "url": "https://www.theglobeandmail.com/business/article-guyana-poised-for-oil-windfall-as-iran-crisis-lifts-crude-prices/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/IDFGNB2ALBEUZCVB5PG5XSVXIM.JPG?auth=eb2c4f6fa143e6bda515001a7afdb5695e28a957414225d1fe13bfdffed66d08&smart=true&width=5500&height=3666",
+            "source": "theglobeandmail"
         },
         {
-            "title": "Ukraine warns Belarus: 500 military targets ready if it joins Russia war",
+            "title": "Beijing Moans After Top American Commander Describes Key US Allies With Two Words",
             "severity": "HIGH",
-            "url": "https://www.the-express.com/news/world-news/208382/ukraine-warns-belarus-500-military-targets-ready-country-joins-russia-war",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/208382_1.jpg",
-            "source": "express"
+            "url": "https://dailycaller.com/2026/05/30/xavier-brunson-describes-china-japan-south-korea-international-institute-strategic-studies/",
+            "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https%3A%2F%2Fcdn01.dailycaller.com%2Fwp-content%2Fuploads%2F2026%2F05%2FGettyImages-2190105013-scaled-e1780145032570.jpg",
+            "source": "dailycaller"
         },
         {
-            "title": "Is a Union Cabinet reshuffle on the cards? The signs that point to it",
+            "title": "SpaceX lands a $4 billion contract to help build Trump's Golden Dome",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/toi-plus/politics/is-a-union-cabinet-reshuffle-on-the-cards-the-signs-that-point-to-it/articleshow/131407353.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-75,overlay-toiplus,width-1200,height-900,msid-131407559/131407559.jpg",
+            "url": "https://www.engadget.com/2184272/spacex-lands-a-4-billion-contract-to-help-build-trump-golden-dome/",
+            "image": "https://www.engadget.com/img/gallery/spacex-lands-a-4-billion-contract-to-help-build-trumps-golden-dome/l-intro-1780157912.jpg",
+            "source": "engadget"
+        },
+        {
+            "title": "Iran\u2019s Team Trains in Limbo for World Cup Overshadowed by War",
+            "severity": "HIGH",
+            "url": "https://www.nytimes.com/2026/05/30/world/middleeast/iran-mens-soccer-team-world-cup.html",
+            "image": "https://static01.nyt.com/images/2026/05/31/multimedia/31int-worldcup-iran-camp-new-top-pjtm/31int-worldcup-iran-camp-new-top-pjtm-mediumSquareAt3X.jpg",
+            "source": "nytimes"
+        },
+        {
+            "title": "Five steps to solve Britain's energy crisis securing warm homes and affordable power",
+            "severity": "HIGH",
+            "url": "https://www.express.co.uk/news/politics/2211524/five-steps-solve-britains-energy-crisis",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/139/590x/2211524_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "'Bringing the war back where it came from': Zelenskyy after Ukrainian drones hit Russian oil facilities",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/world/europe/bringing-the-war-back-where-it-came-from-zelenskyy-after-ukrainian-drones-hit-russian-oil-facilities/articleshow/131412167.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131412958/131412958.jpg",
             "source": "toi"
         },
         {
-            "title": "Inflation won Trump the presidency, but could cost him the midterms",
+            "title": "Andy Burnham warned appointing Ed Miliband as Chancellor is 'disaster for Britain'",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/business/2026/may/30/inflation-trump-presidency-midterm-election",
-            "image": "https://i.guim.co.uk/img/media/e4ed4433a5457bdb77ed2fa5e0002f58d91dc5db/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=96bf35ba58e1526c61db67003882f772",
-            "source": "theguardian"
+            "url": "https://www.express.co.uk/news/politics/2211440/andy-burnham-ed-miliband-disaster-Britain",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/139/590x/2211440_1.jpg",
+            "source": "expresscouk"
         },
         {
-            "title": "Who You Send to the Moon Matters More Than You Think",
+            "title": "US disables ship allegedly trying to breach Iran port blockade",
             "severity": "HIGH",
-            "url": "https://www.universetoday.com/articles/who-you-send-to-the-moon-matters-more-than-you-think",
-            "image": "https://www.universetoday.com/article_images/1280px-Iss067e149651.webp_20260530_110106.png",
-            "source": "universetoday"
-        },
-        {
-            "title": "The Pentagon says laser weapons are nearly ready for prime time",
-            "severity": "HIGH",
-            "url": "https://www.fastcompany.com/91550162/the-pentagon-says-laser-weapons-are-nearly-ready-for-prime-time",
-            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/05/p-1-91550162-the-pentagon-says-laser-weapons-are-nearly-ready-for-prime-time.jpg",
-            "source": "fastcompany"
-        },
-        {
-            "title": "Look at how Germany defeated the Red Army Faction. The lessons about how to fight terrorism are all there | Jason Burke",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/commentisfree/2026/may/30/germany-defeat-red-army-faction-lessons-fight-terrorism",
-            "image": "https://i.guim.co.uk/img/media/a880e7f680b2da7635c89db0a1d2101068f6167b/116_0_5734_4589/master/5734.jpg?width=140&quality=85&auto=format&fit=max&s=637a22e94f4dddd66c93716c84b340a7",
-            "source": "theguardian"
-        },
-        {
-            "title": "Americans echo Pope Leo\u2019s concerns about AI: \u2018It threatens workers, privacy and human life\u2019",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/world/2026/may/30/pope-leo-ai-reaction",
-            "image": "https://i.guim.co.uk/img/media/251ab6693623af1fb75dc95def3df86246c8c7a1/33_0_4585_3667/master/4585.jpg?width=140&quality=85&auto=format&fit=max&s=00b529713fbdebb5d3e7432e287f05d7",
-            "source": "theguardian"
-        },
-        {
-            "title": "Caves and tunnels with dark World War II pasts",
-            "severity": "HIGH",
-            "url": "https://www.cnn.com/2026/05/30/travel/travel-news-world-war-ii-sites-milan-peleliu",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/shutterstock-editorial-14326384t-20260529173515038.jpg?c=original/w_800",
-            "source": "cnn"
-        },
-        {
-            "title": "Commonwealth Games 2026 \u2014 Indian Athletics Series Ludhiana leg to serve as CWG qualification platform",
-            "severity": "HIGH",
-            "url": "https://sportstar.thehindu.com/athletics/commonwealth-games-2026-indian-athletics-series-ludhiana-leg-cwg-qualification-platform-afi-latest-update/article71041084.ece",
-            "image": "https://ss-i.thgim.com/public/incoming/m31ygr/article71041059.ece/alternates/LANDSCAPE_1200/31_RVM_3804.jpg",
-            "source": "sportstar"
-        },
-        {
-            "title": "Iran missile strike at Kuwait base damages US drones, injures Americans: Report",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-missile-strike-at-kuwait-base-damages-us-drones-injures-americans-report/articleshow/131407551.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131407566/131407566.jpg",
+            "url": "https://timesofindia.indiatimes.com/world/us/us-disables-ship-allegedly-trying-to-breach-iran-port-blockade/articleshow/131412142.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131412159/131412159.jpg",
             "source": "toi"
         },
         {
-            "title": "Why Punjab civic election outcome rings alarm bells for Congress before 2027 finals",
-            "severity": "HIGH",
-            "url": "https://indianexpress.com/article/political-pulse/punjab-civic-election-alarm-bells-congress-2027-10715696/",
-            "image": "https://images.indianexpress.com/2026/05/Warring-Channi-Punjab-Congress.png",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Sensex, Nifty outlook for Monday, June 1: What to expect from stock market?",
-            "severity": "HIGH",
-            "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-outlook-for-monday-june-1-what-to-expect-from-stock-market-key-levels-strategy-534087-2026-05-30",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202605/6a1ab85bba7f8-while-nair-expects-the-near-term-directional-call-for-equities-to-hinge-on-the-rbi-monetary-policy-d-301341947-16x9.png?size=1280:720",
-            "source": "businesstoday"
-        },
-        {
-            "title": "United Airlines flight diverted after passenger \u2018attempted to breach cockpit\u2019",
-            "severity": "HIGH",
-            "url": "https://indianexpress.com/article/world/us-news/united-airlines-flight-diverted-after-passenger-attempted-to-breach-cockpit-10715590/",
-            "image": "https://images.indianexpress.com/2026/05/united.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "California attorney general sues 23andMe for data breach",
-            "severity": "HIGH",
-            "url": "https://www.latimes.com/business/story/2026-05-30/california-attorney-general-sues-23andme-for-data-breach",
-            "image": "https://images.pexels.com/photos/9408872/pexels-photo-9408872.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "latimes"
-        },
-        {
-            "title": "World Insights: What's behind Japan's deepening alignment with the Philippines?",
+            "title": "Colombia accuses Ecuador of 'deliberate interference' in general elections",
             "severity": "MEDIUM",
-            "url": "http://www.chinanationalnews.com/news/279091459/world-insights-what-behind-japan-deepening-alignment-with-the-philippines",
-            "image": "https://image.chitra.live/api/v1/wps/2d08705/405d748f-7072-40b8-b7ca-50e9a2079f64/0/XxjidwE000018-20260530-CBMFN0A001-600x315.jpg",
-            "source": "chinanationalnews"
+            "url": "https://abcnews.com/International/wireStory/colombia-accuses-ecuador-deliberate-interference-general-elections-133451428",
+            "image": "https://i.abcnewsfe.com/a/05a41a28-8b34-493e-be88-e58912bcd86e/wirestory_8cd04c6e17686dc9f833747461bb1d7b_16x9.jpg?w=1600",
+            "source": "abcnews"
         },
         {
-            "title": "Why Supreme Court flagged 'use of POCSO as weapon of harassment' in matrimonial disputes",
+            "title": "\u2018Opposite visions\u2019: What to know about Colombia\u2019s presidential election",
             "severity": "MEDIUM",
-            "url": "https://www.moneycontrol.com/news/india/why-supreme-court-flagged-use-of-pocso-as-weapon-of-harassment-in-matrimonial-disputes-13936380.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/10/20251015065250_Supreme-Court-of-India.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Northern Oil and Gas: Duvernay Acquisition Comes At A Fair Price, But Adds To Its Leverage",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4910274-northern-oil-and-gas-duvernay-acquisition-comes-at-a-fair-price-but-adds-to-its-leverage",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2208284640/image_2208284640.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "What is a Fata Morgana? Sea mirage sparks queries",
-            "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/cddplzzz2gno",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/33a3/live/1b194080-59d2-11f1-a86d-8bf9558fa476.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Small, flat, rooftop satellite antennas could replace big, bulky, costly dishes",
-            "severity": "WATCH",
-            "url": "https://newatlas.com/telecommunications/flat-rooftop-satellite-antennas/",
-            "image": "https://ic-cdn.flipboard.com/newatlas.com/d1fc2b93eaf936676b5ff8a785b55ae2adc7c1d2/_xlarge.jpeg",
-            "source": "newatlas"
-        },
-        {
-            "title": "Why you MUST tell your doctor about your itchy groin: It's the symptom so many patients are too embarrassed to ask about but this is why you can't ignore it... and how to deal with it for good, writes DR ELLIE",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/health/article-15858671/doctor-itchy-groin-patients-health-embarrassed-DR-ELLIE.html",
-            "image": "https://i.dailymail.com/1s/2026/05/29/14/108958061-0-image-a-28_1780062205732.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Hegseth Knocks Europe While Hailing Ties With China, Asia Allies",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/pmn/business-pmn/hegseth-knocks-europe-while-hailing-ties-with-china-asia-allies",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/05/major-annual-joint-us-military-exercises-in-the-indo-pacific.jpg",
-            "source": "financialpost"
-        },
-        {
-            "title": "Karen Hauer speaks for first time about 'emotional' Strictly exit she kept secret from everyone",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/tv/tv-news/karen-hauer-speaks-first-time-37213752",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37213859.ece/ALTERNATES/s615/0_KAREN-HAUER-c-Zo-Birkbeck-Photography-29.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Same tired recipe, and same result for Canadiens",
-            "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/articles/canadiens-same-tired-recipe-same-110037873.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/RGfOKEIjdD0YIbKNZNRh4g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/the_hockey_news_montreal_canadiens_articles_443/ec3087dd69220b85a805d8268a3ffd27",
+            "url": "https://ca.news.yahoo.com/opposite-visions-know-colombia-presidential-162152780.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/cf7568b9def0a5204e17e3569d4a06be3b784b3fc742978fe4df955bb8aeb9e8/lightyear_networkapi/resizefill_w770_h513;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fal_jazeera_289%2F95b75fc944c557f753737b107c712524",
             "source": "yahoo"
         },
         {
-            "title": "WWE Clash in Italy 2026 predictions: Roman Reigns, Cody Rhodes on upset alert",
-            "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/sports/2026/05/30/wwe-clash-in-italy-2026-predictions-picks/90285448007/",
-            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/05/27/USAT/90286003007-back-05092026-ks-80190.jpg?auto=webp&crop=3496,1967,x0,y349&format=pjpg&width=1200",
-            "source": "usatoday"
+            "title": "Husband, 42, Demanded Separate Finances To Protect His Kid But Now Expects Wife To Help With $65K A Year School \u2014 'Technically Her Stepdaughter'",
+            "severity": "MEDIUM",
+            "url": "https://www.benzinga.com/news/topics/26/05/52893177/husband-42-demanded-separate-finances-to-protect-his-kid-but-now-expects-wife-to-help-with-65k-a-year",
+            "image": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/05/30/Education-School-Student-Computer-Networ.jpeg",
+            "source": "benzinga"
         },
         {
-            "title": "Kevin Hart's No Good, Terrible Comments About That George Floyd Joke",
-            "severity": "WATCH",
-            "url": "https://www.huffpost.com/entry/kevin-hart-roast-tony-hinchcliffe-george-floyd_n_6a18695be4b0ddcc8468b827",
-            "image": "https://img.huffingtonpost.com/asset/6a186e54140000a2661ad1da.jpeg?cache=Wg5TFy2SCo&ops=1778_1000",
-            "source": "huffpost"
-        },
-        {
-            "title": "260 ancient Sudan burial sites reveal lost civilization predating the Pharaohs",
-            "severity": "WATCH",
-            "url": "https://www.the-express.com/news/world-news/208374/260-ancient-sudan-burial-sites-reveal-lost-civilization-predating-pharaohs",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/208374_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "Ex-Pentagon official says UAP files reveal 'treasure trove' of intelligence dating back to the 1940s",
-            "severity": "WATCH",
-            "url": "https://www.foxnews.com/media/ex-pentagon-official-says-uap-files-reveal-treasure-trove-intelligence-dating-back-1940s",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/05/931/523/ufo-spaceship-fbi-investigation-fox-news-001-scaled.jpeg?ve=1&tl=1",
-            "source": "foxnews"
-        },
-        {
-            "title": "BROADCAST BIAS: \u2018The View\u2019 whines about Giant scandal of NFL player introducing Trump",
-            "severity": "WATCH",
-            "url": "https://www.foxnews.com/opinion/broadcast-bias-view-whines-giant-scandal-nfl-player-introducing-trump",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/03/931/523/broadcast-bias-image.jpg?ve=1&tl=1",
-            "source": "foxnews"
-        },
-        {
-            "title": "6 Signs Of A Happy Dog, According To Veterinarians",
-            "severity": "WATCH",
-            "url": "https://www.huffpost.com/entry/dog-happy-signs-veterinarians-goog_n_6a186391e4b0ddcc8468af2a",
-            "image": "https://img.huffingtonpost.com/asset/66314f962200007344fc7922.jpeg?cache=wpm86ZElRI&ops=1778_1000",
-            "source": "huffpost"
-        },
-        {
-            "title": "Hurricane season 2026: Rapid intensification becoming the norm",
-            "severity": "WATCH",
-            "url": "https://www.orlandosentinel.com/2026/05/30/hurricane-season-2026-rapid-intensification-becoming-the-norm/",
-            "image": "https://www.orlandosentinel.com/wp-content/uploads/migration/2022/06/01/DCIVGWD2PVCP7JCKQR6RGORYQM.jpg?w=1400px&strip=all",
-            "source": "orlandosentinel"
-        },
-        {
-            "title": "Is sustainable denim indeed fashion\u2019s toughest greenwashing challenge?",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/lifestyle/style/2026/05/30/is-sustainable-denim-indeed-fashions-toughest-greenwashing-challenge",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/29/3932473.jpg",
+            "title": "Job security is top priority",
+            "severity": "MEDIUM",
+            "url": "https://www.thestar.com.my/news/nation/2026/05/31/job-security-is-top-priority",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/31/3934776.JPG",
             "source": "thestar_my"
         },
         {
-            "title": "Challenging AI Assumptions",
+            "title": "Liverpool wants to play aggressive soccer and Iraola could be the perfect fit",
             "severity": "WATCH",
-            "url": "https://www.forbes.com/sites/johnwerner/2026/05/30/challenging-ai-assumptions/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/6a18e1a6e093a12f170cc305/0x0.jpg",
-            "source": "forbes"
+            "url": "https://www.thestar.com/sports/soccer/liverpool-wants-to-play-aggressive-soccer-and-iraola-could-be-the-perfect-fit/article_b7f9cc4d-504d-531e-a3e7-da281e9281f3.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/5/a9/5a9e9221-717b-5487-8435-7e2a9322944f/6a1b0f720decf.image.jpg?crop=1620%2C851%2C0%2C114&resize=1200%2C630&order=crop%2Cresize",
+            "source": "thestar"
         },
         {
-            "title": "6 foods that contain more omega-3 than salmon",
+            "title": "4 miners walk out of Laos mine after water recedes; 2 still missing",
             "severity": "WATCH",
-            "url": "https://www.vogue.in/content/6-foods-that-contain-more-omega-3-than-salmon",
-            "image": "https://assets.vogue.in/photos/6a195f662816f8c2aedf761e/16:9/w_1072,h_603,c_limit/Weekends%20and%20dinner%20parties%20at%20home%20%E2%9C%A8Cooking,%20laughing,%20chatting%20and%20eating%20A%20few%20of%20the%20new%20rec.jpg",
-            "source": "vogue"
+            "url": "https://ca.news.yahoo.com/4-miners-walk-laos-mine-162054753.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/408b9af33c33ec233985ae28d444142181aeebe4ea2f57ae4b49c5435e2ffb14/lightyear_networkapi/resizefill_w900_h599;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Funited_press_international_articles_356%2F0b9b13a83d63677cb5f46ec26d4ffc15",
+            "source": "yahoo"
         },
         {
-            "title": "New 2026 NBA Mock Draft with Blockbuster Kawhi Leonard Trade Idea",
+            "title": "Patanjali Foods Q4FY26 result: Profit jumps 46% to \u20b9524 cr; income up 17%",
             "severity": "WATCH",
-            "url": "https://bleacherreport.com/articles/25431369-new-2026-nba-mock-draft-blockbuster-kawhi-leonard-trade-idea",
-            "image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/2026-05/br_app_mockdraft_nba_16x9-(4).png",
-            "source": "bleacherreport"
+            "url": "https://www.business-standard.com/companies/quarterly-results/patanjali-foods-q4-profit-rises-46pc-to-rs-524cr-revenue-rises-to-rs-11-212-crore-126053001426_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-08/28/full/1724835440-8884.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "Supermarkets 'furious' over call for new Aldi, Lidl, Asda, Tesco, Sainsbury's rule",
+            "title": "Minister\u2019s assurance on infrastructure improvement in Madurai",
             "severity": "WATCH",
-            "url": "https://www.birminghammail.co.uk/whats-on/shopping/supermarkets-furious-over-call-new-34037034",
-            "image": "https://i2-prod.birminghammail.co.uk/whats-on/shopping/article34037083.ece/ALTERNATES/s615/0_supermarkets.jpg",
-            "source": "birminghammail"
+            "url": "https://www.thehindu.com/news/cities/Madurai/ministers-assurance-on-infrastructure-improvement-in-madurai/article71042285.ece",
+            "image": "https://th-i.thgim.com/public/incoming/ojavot/article71042408.ece/alternates/FREE_1200/C.T.%20R.%20Nirmalkumar-02.jpg",
+            "source": "thehindu"
         },
         {
-            "title": "Grab 9 cheap games in Xbox store\u2019s June 2026 sale for under $10",
+            "title": "Opinion: Analysis: Amit Shah's Blueprint To Secure Porous India-Bangladesh Border",
             "severity": "WATCH",
-            "url": "https://www.trueachievements.com/news/cheap-xbox-games-xbox-store-june-2026-sale",
-            "image": "https://www.trueachievements.com/imgs/175456/cheap-games.jpg",
-            "source": "trueachievements"
+            "url": "https://www.ndtv.com/opinion/analysis-amit-shahs-blueprint-to-secure-porous-india-bangladesh-border-11569588",
+            "image": "https://c.ndtvimg.com/2024-08/pagcgin_bsf-generic-border-security-force-ani_625x300_24_August_24.jpeg?im=FaceCrop,algorithm=dnn,width=1200,height=738",
+            "source": "ndtv"
         },
         {
-            "title": "How 1.5 billion barrels of oil went up in smoke: FP Video explains",
+            "title": "Trump suffers twin court setbacks as judges clap back at Kennedy center renaming and IRS deal",
             "severity": "WATCH",
-            "url": "https://financialpost.com/news/how-1-5-billion-barrels-of-oil-went-up-in-smoke-fp-video-explains",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/05/donald-trump-0529-pj.jpg",
-            "source": "financialpost"
+            "url": "https://timesofindia.indiatimes.com/world/us/trump-suffers-twin-court-setbacks-as-judges-clap-back-at-kennedy-center-renaming-and-irs-deal/articleshow/131412381.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131412378/131412378.jpg",
+            "source": "toi"
         },
         {
-            "title": "Toronto plastic surgeon must pay $22.5M in damages for violating patients' privacy with clinic cameras",
+            "title": "APEPDCL suffers loss of Rs 2.15 crore due to heavy winds and rain",
             "severity": "WATCH",
-            "url": "https://nationalpost.com/news/canada/toronto-plastic-surgeon-must-pay-22-5m-in-damages-for-violating-patients-privacy-with-clinic-cameras",
-            "image": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/05/0618-fo-ai-school-threats_291930765.jpg",
-            "source": "nationalpost"
+            "url": "https://timesofindia.indiatimes.com/city/vijayawada/apepdcl-suffers-loss-of-rs-2-15-crore-due-to-heavy-winds-and-rain/articleshow/131412377.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131412376/131412376.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "SMEs urged to utilise financing facility",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/news/nation/2026/05/31/smes-urged-to-utilise-financing-facility",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/31/3935149.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Keeping strong",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/opinion/2026/05/31/keeping--strong",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/05/31/3934846.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Punjab govt clears regularisation framework for over 65,000 employees to end contractual system",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/india/punjab-govt-clears-regularisation-framework-for-over-65000-employees-to-end-contractual-system/articleshow/131412120.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131412153/131412153.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Satellite images show China is building nuke launch pads and bunkers",
+            "severity": "WATCH",
+            "url": "https://metro.co.uk/2026/05/30/satellite-images-show-china-building-nuke-launch-pads-bunkers-28580929/",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/05/SEI_299320706-75da.jpg?quality=90&strip=all",
+            "source": "metro"
+        },
+        {
+            "title": "In Britain, the widening gap between the PM and people",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/opinion/in-britain-the-widening-gap-between-the-pm-and-people-101780157782858.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/05/30/1600x900/logo/In-normal-times--Starmer-would-have-lasted-an-enti_1780157780403.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Why do presidents get annual check-ups - and is it a medical or PR exercise?",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/medical-pr-exercise-why-presidents-150607025.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/d017c934eed12d7fd6fd66ac3697bd68c42258722685ac260fbd6a54933fb602/lightyear_networkapi/resizefill_w1000_h563;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2F4b4cd0930771bd964daea272efbf3e9b",
+            "source": "yahoo"
+        },
+        {
+            "title": "Harmanpreet Kaur becomes second Indian after Smriti Mandhana to score 4000 runs in women\u2019s T20Is",
+            "severity": "WATCH",
+            "url": "https://sportstar.thehindu.com/cricket/womens-cricket/harmanpreet-kaur-reaches-4000-runs-women-t20is-players-list-smriti-mandhana-suzie-bates/article71042323.ece",
+            "image": "https://ss-i.thgim.com/public/incoming/uk77is/article71042319.ece/alternates/LANDSCAPE_1200/NH30Harmanpreet35.JPG",
+            "source": "sportstar"
+        },
+        {
+            "title": "Side hustles are booming in Britain - but here's what you need to know before starting up",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/finance/personalfinance/2210708/side-hustles-are-booming-britain",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/23/590x/2210708_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Mumbai bizman held for procuring arms licence on forged docus",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/mumbai/mumbai-bizman-held-for-procuring-arms-licence-on-forged-docus/articleshow/131412156.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131332931/131332931.jpg",
+            "source": "toi"
         }
     ],
-    "Last_Updated": "2026-05-30T23:04:36.604350Z"
+    "Last_Updated": "2026-05-31T04:23:39.587343Z"
 }
