@@ -1,258 +1,183 @@
 {
-    "AGRI_Score": 61.4,
-    "Velocity": "+0.6",
+    "AGRI_Score": 59.3,
+    "Velocity": "-2.1",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.3/100 reflects a significantly elevated risk environment, primarily driven by heightened geopolitical conflict intensity and the associated potential for Energy & Maritime Disruption. This is underscored by the high severity 'flare-up in Middle East fighting' leading to 'Asian stocks slide' and direct threats like 'Hezbollah threatens to target Tel Aviv, Haifa,' which maintain a high conflict intensity despite renewed ceasefire agreements. The Energy & Maritime Disruption pillar, at 84.9, reflects acute concerns stemming from this regional instability, impacting global energy security and markets.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.1,
+        "Geopolitical Conflict Intensity": 73.2,
         "Energy & Maritime Disruption": 84.9,
-        "Trade & Supply Chain Stress": 69.3,
+        "Trade & Supply Chain Stress": 61.9,
         "Sovereign Financial Stress": 54.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 61.4,
-        "Cyber & Infrastructure Threats": 59.1,
+        "Sanctions & Regulatory Fragmentation": 54.5,
+        "Cyber & Infrastructure Threats": 57.3,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "The score is elevated due to the active 'flare-up in Middle East fighting' and direct threats of escalation, such as 'Hezbollah threatens to target Tel Aviv, Haifa.' Despite a renewed ceasefire between Israel and Lebanon, the underlying tensions remain high, signaling ongoing conflict risk. ",
+        "Energy & Maritime Disruption": "This pillar shows the highest risk, directly influenced by the 'flare-up in Middle East fighting' which inherently threatens key energy routes and supply stability. Although oil prices 'ease off highs' temporarily, the geopolitical context maintains a high risk of future disruption. ",
+        "Trade & Supply Chain Stress": "While some positive developments like the 'Laos, China railway' benefiting 19 countries are noted, there is no direct evidence in the feed of widespread systemic stress. The current level suggests a need for continued monitoring of global trade dynamics. ",
+        "Sovereign Financial Stress": "General market retreats, with 'Asian stocks slide on flare-up in Middle East fighting' and 'US stocks halt their record-breaking rally,' indicate some financial vulnerability. However, the current data does not point to imminent sovereign debt crises or widespread financial instability. ",
+        "Currency & Liquidity Pressure": "The current environment indicates baseline activity, with no specific news items detailing significant currency devaluation events or liquidity crunches. Monitoring of global financial flows and central bank actions remains standard. ",
+        "Sanctions & Regulatory Fragmentation": "Efforts by 'Trump seeks to overcome barriers to Iran deal' suggest a dynamic regulatory landscape where sanctions policies could be re-evaluated. This indicates a potential for shifts in regulatory frameworks and compliance complexities. ",
+        "Cyber & Infrastructure Threats": "A 'data breach in Middletown last year involved Social Security numbers, personal info' highlights a persistent and severe threat to digital infrastructure and personal data. This incident underscores the ongoing need for robust cyber defense mechanisms. ",
+        "Climate & Resource Shock": "Localized incidents such as 'water contamination affects nine residential societies in Ahmedabad' and a 'flesh-eating New World screwworm case detected in Texas' are present. However, there is an absence of widespread, large-scale climate events or global resource shortages impacting strategic operations. "
+    },
     "All_Alerts": [
         {
-            "title": "House approves war powers resolution to halt military action against Iran, in a rebuke of Trump",
+            "title": "Israel and Lebanon agree to renew ceasefire as Trump seeks to overcome barriers to Iran deal",
             "severity": "HIGH",
-            "url": "https://www.boston.com/news/politics/2026/06/03/house-approves-war-powers-resolution-to-halt-military-action-against-iran-in-a-rebuke-of-trump/",
-            "image": "https://bdc2020.o0bc.com/wp-content/uploads/2026/06/Congress_Republicans_86888-6a208513b9419-scaled.jpg",
-            "source": "boston"
-        },
-        {
-            "title": "Pe\u0301rez confirms Mourinho will return to Real Madrid if he is re-elected president",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/football/2026/jun/03/perez-confirms-mourinho-will-return-to-real-madrid-if-he-is-re-elected-president",
-            "image": "https://i.guim.co.uk/img/media/40a3c9654c593b897f0ef7598d089b8a7faf15a2/355_0_4489_3592/master/4489.jpg?width=140&quality=85&auto=format&fit=max&s=3f129e0e78448acb2ca1898f6147e0e1",
+            "url": "https://www.theguardian.com/world/2026/jun/04/israel-lebanon-renew-ceasefire-hezbollah-trump-iran-deal-middle-east-us",
+            "image": "https://i.guim.co.uk/img/media/7090ba4f5ab7b395c721352c86880a7842a55212/1041_0_6871_5496/master/6871.jpg?width=140&quality=85&auto=format&fit=max&s=03a3819577cbbc4cd8e3ce6ffa6b0509",
             "source": "theguardian"
         },
         {
-            "title": "Chinese spies using job websites to target UK government staff, MI5 warns",
+            "title": "Data breach in Middletown last year involved Social Security numbers, personal info",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/uk/politics/chinese-spies-uk-government-military-staff-job-websites-b2989162.html",
-            "image": "https://static.independent.co.uk/2026/06/01/20/30/iStock-2221694396.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Small-cap camera maker could file for bankruptcy",
-            "severity": "HIGH",
-            "url": "https://www.thestreet.com/investing/stocks/small-cap-camera-maker-gopro-could-file-for-bankruptcy",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMDYzODM3/gopro-is-struggling-with-rising-chip-prices.jpg?profile=rss",
-            "source": "thestreet"
-        },
-        {
-            "title": "Ward, Polchinski, Flood: Recent Death Notices From Ridgefield",
-            "severity": "HIGH",
-            "url": "https://patch.com/connecticut/ridgefield/ward-polchinski-flood-recent-death-notices-ridgefield",
-            "image": "https://patch.com/img/cdn20/users/22994611/20260603/055636/styles/patch_image/public/obit-generic-11-candles-flower___03164842199.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Iran FM says 'no tangible progress' in talks but Trump says deal close",
-            "severity": "HIGH",
-            "url": "https://www.channelnewsasia.com/world/iran-fm-says-no-tangible-progress-in-talks-trump-says-deal-close-6160831",
-            "image": "https://dam.mediacorp.sg/image/upload/s--9kNzbVak--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-06-03T124702Z_1_LYNXMPEM520ZM_RTROPTP_3_IRAN-CRISIS-DAILY-LIFE.JPG?itok=vAE8hUbJ",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Our estate was labelled a war zone after the riot - but the reality is very different",
-            "severity": "HIGH",
-            "url": "https://www.bbc.com/news/articles/c152ev87keqo",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/951d/live/a2e4fa60-5f25-11f1-9da4-8b99067aa239.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Chinese hackers use new Atlas RAT malware in European cyberattacks",
-            "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-new-atlas-rat-malware-in-european-cyberattacks/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2025/03/05/chinese-hacker-flag.jpg",
-            "source": "bleepingcomputer"
-        },
-        {
-            "title": "Flesh-eating screwworm infection detected in South Texas, USDA says",
-            "severity": "HIGH",
-            "url": "https://arstechnica.com/health/2026/06/flesh-eating-screwworm-infection-detected-in-south-texas-usda-says/",
-            "image": "https://cdn.arstechnica.net/wp-content/uploads/2016/11/CSIRO_ScienceImage_115_The_Tip_of_a_Screw_Worm_Fly_Larvae.jpg",
-            "source": "arstechnica"
-        },
-        {
-            "title": "'Biggest Canadian flag' unfurled in Vancouver for World Cup, but may breach etiquette",
-            "severity": "HIGH",
-            "url": "https://ca.sports.yahoo.com/news/biggest-canadian-flag-unfurled-vancouver-190459817.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/JxqgoE922tk1g28hHxQqYQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNzk2O2NmPXdlYnA-/https://media.zenfs.com/en/cp_sports_913/42bb0e9dfb1ecbcf8b91ce219edbb386",
+            "url": "https://ca.news.yahoo.com/data-breach-middletown-last-involved-032108100.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/a0cc9c7da748446f91191d721f2cdd418af4fd718e2e031b335521b487cdc3c4/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fvideo.wlwt.hearstnews.com%2Fedc97bde2b3525c05cbed97c081271ea",
             "source": "yahoo"
         },
         {
-            "title": "Savage House review: Richard E Grant, Claire Foy and much boozing, humping and double dealing",
+            "title": "Trade Spotlight: How should you trade Narayana Hrudayalaya, ABB India, Federal Bank, Premier Energies, Ather Energy, and others on June 4?",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/business/markets/trade-spotlight-how-should-you-trade-narayana-hrudayalaya-abb-india-federal-bank-premier-energies-ather-energy-and-others-on-june-4-13940619.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/11/20251118070809_Buy_1280x720_3.png",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Asian stocks slide on flare-up in Middle East fighting, oil eases off highs",
             "severity": "MEDIUM",
-            "url": "https://www.irishtimes.com/culture/film/review/2026/06/03/savage-house-review-richard-e-grant-claire-foy-and-much-boozing-humping-and-double-dealing/",
-            "image": "https://www.irishtimes.com/resizer/v2/SHBYBLWFKRBVZKD3HJHVGZTNKQ.jpg?auth=347f93829e5f8defee980d049aab352b0e052cd631ff130bfa5a6bced2cd55ad&smart=true&width=630&height=350",
-            "source": "irishtimes"
-        },
-        {
-            "title": "Sea Resort 2027",
-            "severity": "MEDIUM",
-            "url": "https://www.vogue.com/fashion-shows/resort-2027/sea",
-            "image": "https://assets.vogue.com/photos/6a1fe2d1a41510631847791e/16:9/pass/00001-sea-resort-2027-credit-brand.jpg",
-            "source": "vogue"
-        },
-        {
-            "title": "South OC Pizza Joint Is One Of Best In Nation, Per Report",
-            "severity": "WATCH",
-            "url": "https://patch.com/california/lagunaniguel-danapoint/south-oc-pizza-joint-one-best-nation-report",
-            "image": "https://patch.com/img/cdn20/shutterstock/25354323/20260603/102840/styles/patch_image/public/shutterstock-1115696309___03102821066.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Spanish hotel chain Melia\u0301 to shutter hotels in Cuba in latest blow to island's tourism sector",
-            "severity": "WATCH",
-            "url": "https://www.beaumontenterprise.com/news/world/article/spanish-hotel-chain-meli-to-shutter-hotels-in-22290159.php",
-            "image": "https://s.hdnux.com/photos/01/66/35/60/31054894/3/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "Grab what you can while you can: The new reality in the South China Sea",
-            "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/cy823n3ln29o",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/3a80/live/357b5b10-5e74-11f1-8b8c-6d33e1d5abb6.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "\u2018Euphoria\u2019 Star Adewale Akinnuoye-Agbaje Reveals the Deleted Scenes He Shot With Sydney Sweeney",
-            "severity": "WATCH",
-            "url": "https://collider.com/euphoria-series-finale-meaning-alamo-rue-adewale-akinnuoye-agbaje/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/06/adewale-akinnuoye-agbaje-euphoria-season-3-interview.jpg?w=1600&h=900&fit=crop",
-            "source": "collider"
-        },
-        {
-            "title": "The First 10 Villains Hal Jordan\u2019s Green Lantern Fought, Ranked by Power",
-            "severity": "WATCH",
-            "url": "https://comicbook.com/comics/list/the-first-10-villains-hal-jordans-green-lantern-fought-ranked-by-power/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/06/Green-Lantern.jpg",
-            "source": "comicbook"
-        },
-        {
-            "title": "Jun 2, 2026; Philadelphia, Pennsylvania, USA; San Diego Padres left Fiedler Jase Bowen (4) after striking out against the Philadelphia Phillies in his major league debut at Citizens Bank Park. Mandatory Credit: Eric Hartline-Imagn Images",
-            "severity": "WATCH",
-            "url": "https://www.si.com/mlb/padres/onsi/padres-manager-hopes-25-year-old-prospect-will-ignite-team-after-call-up",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6733,h_3787,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/inside_the_padres/01kt74qbnj3tqmthyn5t.jpg",
-            "source": "si"
-        },
-        {
-            "title": "The Post-PlayStation-Showcase Fallout",
-            "severity": "WATCH",
-            "url": "https://kotaku.com/the-post-playstation-showcase-fallout-2000702105",
-            "image": "https://kotaku.com/app/uploads/2026/06/image-91.jpg",
-            "source": "kotakugamerguide"
-        },
-        {
-            "title": "Trans minors sue to stop Justice Department access to medical records",
-            "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/06/03/nation/trans-minors-sue-stop-justice-department-access-medical-records/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/4XDKWNXXZF46YD7I7H2XSDVJGA.jpg?auth=990b6f38c9bdcd5a68eff3059e6550145c4752611e4b7b49819a1ac692a25e32&smart=true&width=6720&height=4480",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "I\u2019m embarrassed by iconic England pic \u2013 I\u2019m not brave, my son who tragically died after joining the Army is real hero",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/sport/39297807/terry-butcher-son-ptsd-army-england-hero-blood/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F06%2Fac_03_06_terry_butcher-op.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "Army veteran creates non-profit VAST to help homeless heroes",
-            "severity": "WATCH",
-            "url": "https://abc7.com/videoClip/military-veterans-mental-health-homelessness/19229004/",
-            "image": "https://cdn.abcotvs.com/dip/images/19229003_060326-localish-agd9394-prideveteran-ktrk-vid.jpg?w=992",
-            "source": "abc30"
-        },
-        {
-            "title": "What Pixar Gets So Very Wrong \u2014 And Right \u2014 About Beavers",
-            "severity": "WATCH",
-            "url": "https://www.inverse.com/entertainment/hoppers-streaming-real-beaver-science",
-            "image": "https://imgix.bustle.com/uploads/image/2026/3/31/131c59b5/hopperheader.jpg?w=1200&h=675&fit=crop&crop=faces&fm=jpg",
-            "source": "inverse"
-        },
-        {
-            "title": "Your Summer 2026 Anime Guide: What to Watch and Where It\u2019s Streaming",
-            "severity": "WATCH",
-            "url": "https://gizmodo.com/anime-streaming-guide-new-returning-series-summer-2026-2000766985",
-            "image": "https://gizmodo.com/app/uploads/2026/06/Summer-Anime-2026.jpg",
-            "source": "gizmodotech"
-        },
-        {
-            "title": "Bragar Eagel & Squire, P.C. Announces that a Class Action Lawsuit Has Been Filed Against Calix, Inc. and Encourages Investors to Contact the Firm",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/pressreleases/26/06/g52989960/bragar-eagel-squire-p-c-announces-that-a-class-action-lawsuit-has-been-filed-against-calix-inc-and",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "New World Screwworm: 5 things about flesh-eating fly as USDA flags possible case in South Texas",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/new-world-screwworm-5-things-about-flesh-eating-fly-usda-flags-possible-case-in-south-texas-prevention-treatment-101780521335710.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/03/1600x900/logo/nws_1780523808979_1780523813499_3ae2522e-9bca-4d21-ae58-ae1d71f56042.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Community calls for O\u0304tara bottle stop to close, alcohol-related harm only getting 'worse'",
-            "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/community/597205/community-calls-for-otara-bottle-stop-to-close-alcohol-related-harm-only-getting-worse",
-            "image": "https://images.pexels.com/photos/9408872/pexels-photo-9408872.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "UN envoy intervenes in Woodside gas plant challenge",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-06-04/un-special-rapporteur-woodside-north-west-shelf/106724220",
-            "image": "https://live-production.wcms.abc-cdn.net.au/8bcd0f705103151a1f20c5469d1ddc3e?impolicy=wcms_crop_resize&cropH=1122&cropW=1994&xPos=0&yPos=899&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "Three more grey whales found dead on B.C. coast after four discovered in April",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/vancouver/vancouver-island/article/three-more-grey-whales-found-dead-on-bc-coast-after-four-discovered-in-april/",
-            "image": "https://www.ctvnews.ca/resizer/v2/RFWGLESRSRET3DKA2CFHY2ETFQ.jpg?auth=6744008175d09db5dbf316fd3dde9308944fe17e9baafdde28ee4cfdf75165e8&smart=true&width=1400&height=933",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Frustrated councillors move to force staff to table renoviction bylaw",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/ottawa/frustrated-councillors-move-to-force-staff-to-table-renoviction-bylaw-9.7222452?cmp=rss",
-            "image": "https://i.cbc.ca/ais/921216f1-1989-4af2-997b-fbeb532fa0d7,1780521926128/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3B",
-            "source": "cbc"
-        },
-        {
-            "title": "NTUC concerned about employers presenting retrenchments as 'new opportunities' by asking workers to reapply for roles abroad",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/singapore/retrenchment-disguised-job-loss-apply-overseas-new-opportunity-6155641",
-            "image": "https://dam.mediacorp.sg/image/upload/s--9omjjAM2--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2026/06/02/lzx_5197.jpg?itok=g4uKzhpt",
+            "url": "https://www.channelnewsasia.com/asia/asian-stocks-up-middle-east-flare-up-oil-eases-6161061",
+            "image": "https://dam.mediacorp.sg/image/upload/s--gCZACz2T--/c_crop,h_562,w_1000,x_0,y_4/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/v1/one-cms/core/Financial_Markets_Wall_Street__2241.jpg?itok=XeRd2xmD",
             "source": "channelnewsasia"
         },
         {
-            "title": "2 scientists charged with bringing deactivated mpox virus into the US and lying to authorities",
+            "title": "Maruti Suzuki Flex Fuel Car Launch Live: India's First E100 Car \u2014 Price, Mileage, Engine And More",
             "severity": "WATCH",
-            "url": "https://www.abc15.com/us-news/crime/2-scientists-charged-with-bringing-deactivated-mpox-virus-into-the-us-and-lying-to-authorities",
-            "image": "https://ewscripps.brightspotcdn.com/dims4/default/5f955ad/2147483647/strip/true/crop/2577x1353+0+183/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F6b%2F6e%2F39d2a9b1494482dda2fa4e88d127%2Fap26153792797100.jpg",
-            "source": "abc15"
+            "url": "https://www.timesnownews.com/auto/car-news/maruti-suzuki-flex-fuel-car-launch-live-india-first-e100-car-price-mileage-engine-and-more-liveblog-154456479",
+            "image": "https://images.timesnownews.com/thumb/msid-154456479,thumbsize-66964,width-1280,height-720,resizemode-75/154456479.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "Sabrina Carpenter Granted Restraining Order Against Alleged Stalker",
+            "title": "Coastal Financial and Triumph Financial Stocks Trade Down, What You Need To Know",
             "severity": "WATCH",
-            "url": "https://www.eonline.com/news/1432627/sabrina-carpenter-granted-restraining-order-against-stalker",
-            "image": "https://akns-images.eonline.com/eol_images/Entire_Site/20260603/20801000-5ac0-48b3-a74b-06da19dc1e0f_1780519381.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
-            "source": "eonline"
+            "url": "https://ca.finance.yahoo.com/news/coastal-financial-triumph-financial-stocks-032733495.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/PCmd1ZZLiMd._Pwt0ONIpQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMjAw/https://media.zenfs.com/en/stockstory_922/d669aa1c806e33775fa01f42571135ff",
+            "source": "yahoo"
         },
         {
-            "title": "Where to watch NBA Finals: Knicks vs. Spurs live streams, schedule, odds",
+            "title": "19 countries and regions benefiting from laos, China railway",
             "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-nba-finals-knicks-vs-spurs-2026",
-            "image": "https://i.insider.com/6a20955ab4fb977f35984333?width=1200&format=jpeg",
-            "source": "insider"
+            "url": "http://www.chinanationalnews.com/news/279101005/19-countries-and-regions-benefiting-from-laos-china-railway",
+            "image": "https://image.chitra.live/api/v1/wps/1f6596c/7b504f4f-f9c9-4c6f-9b68-d7929c37a4e0/0/China-Laos-train-600x315.jpg",
+            "source": "chinanationalnews"
+        },
+        {
+            "title": "Asian shares retreat as US stocks halt their record-breaking rally, while oil prices fall back",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com/news/world/asian-shares-retreat-as-us-stocks-halt-their-record-breaking-rally-while-oil-prices-fall-back/article_39f5c1f0-4e98-5ebd-9c51-2b5ba8f3fcbc.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/f/82/f822f43d-477a-5b24-aea4-239db92aaf7f/6a20f13b11e76.image.jpg?crop=1620%2C851%2C0%2C114&resize=1200%2C630&order=crop%2Cresize",
+            "source": "thestar"
+        },
+        {
+            "title": "Singapore has enough LNG supplies for the rest of the year, energy regulator says",
+            "severity": "WATCH",
+            "url": "https://www.channelnewsasia.com/singapore/singapore-enough-lng-fuel-supplies-2026-ema-6160496",
+            "image": "https://dam.mediacorp.sg/image/upload/s--3dnouGoF--/c_crop,h_449,w_799,x_1,y_1/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-06-03T180200Z_1_LYNXMPEM521G3_RTROPTP_3_UKRAINE-CRISIS-LNG.JPG?itok=HYdHjttO",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "50 Residents Fall Sick After Water Contamination Affects Nine Residential Societies In Ahmedabad",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/city/ahmedabad/50-residents-fall-sick-after-water-contamination-affects-nine-residential-societies-in-ahmedabad-article-154456520",
+            "image": "https://images.timesnownews.com/thumb/msid-154456605,width-1280,height-720,resizemode-75/154456605.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Vale unloads extra-large gift to Cambrian College",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/northern-ontario/article/vale-unloads-extra-large-gift-to-cambrian-college/",
+            "image": "https://www.ctvnews.ca/resizer/v2/GEMMZBK2MNFIJCHIZ7VGHFBRBI.jpg?auth=f432269d246955590201a2782e44298b6395de025ed8605f589ac4b869db69a3&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
+        },
+        {
+            "title": "\u2018Horror\u2019 flesh-eating New World screwworm case detected in Texas: USDA",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/06/03/us-news/horror-flesh-eating-new-world-screwworm-case-detected-in-texas-usda/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F06%2F129662315.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Nvidia, Hyundai Motor discuss AI R&D center in S.Korea- report",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/nvidia-hyundai-motor-discuss-ai-rd-center-in-skorea-report-4471019",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEM4I1BN_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "To Lam\u2019s Southeast Asia Visits Expand Vietnam\u2019s \u2018Neighborhood Bamboo Diplomacy\u2019",
+            "severity": "WATCH",
+            "url": "https://thediplomat.com/2026/06/to-lams-southeast-asia-visits-expand-vietnams-neighborhood-bamboo-diplomacy/",
+            "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/06/thediplomat_2026-06-04-124118.jpg",
+            "source": "thediplomat"
+        },
+        {
+            "title": "Hezbollah threatens to target Tel Aviv, Haifa, if Israel strikes again in Beirut",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/middle-east/article-898329",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/724123",
+            "source": "jpost"
+        },
+        {
+            "title": "Trading Plan: Can Nifty 50 continue to underperform Bank Nifty amid range-bound trading?",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/markets/trading-plan-can-nifty-50-continue-to-underperform-bank-nifty-amid-range-bound-trading-13940664.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/05/20260502045004_nifty_market-Sensex.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Pune Job Scam Case: 700 Employees Left Jobless As Firm Shuts Down Overnight, CEO Arrested",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/pune/pune-job-scam-case-700-employees-left-jobless-as-firm-shuts-down-overnight-ceo-arrested-article-154456281",
+            "image": "https://images.timesnownews.com/thumb/msid-154456334,width-1280,height-720,resizemode-75/154456334.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "ED Raids 15 Places In 6 States In Tirumala Ghee Adulteration Case, Seizes Rs 60 lakh",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/india/ed-raids-15-places-in-6-states-in-tirumala-ghee-adulteration-case-seizes-rs-60-lakh-ws-l-10129346.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/06/Untitled-design-2026-06-04T072551.660-2026-06-962090b041e1beb7e48649cb539891a5-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "100m sprinting: Gurindervir Singh is India\u2019s fastest man, but the finish line is still far away",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/data/100m-sprinting-gurindervir-singh-is-indias-fastest-man-but-the-finish-line-is-still-far-away/article71056704.ece",
+            "image": "https://th-i.thgim.com/public/incoming/d7q4y1/article71054175.ece/alternates/FREE_1200/2150_23_5_2026_21_19_52_1_ATHLETICS_23052026_29.JPG",
+            "source": "thehindu"
+        },
+        {
+            "title": "Tirupati ghee adulteration case: ED seizes \u20b960-lakh cash in searches",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/tirupati-ghee-adulteration-case-ed-seizes-60-lakh-cash-in-searches-101780514571281.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/03/1600x900/logo/Tirupati-Balaji-Temple_1780514569501.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Pilot allegedly dive bombs over crowded South Carolina beach: \u2018Dove out of our beach chairs\u2019",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/06/03/us-news/pilot-allegedly-dive-bombs-over-crowded-south-carolina-beach-dove-out-of-our-beach-chairs/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F06%2FRGBDUV4QS5CRDOIOHOQST6RHFE-copy-1.jpg?w%3D671",
+            "source": "nypost"
+        },
+        {
+            "title": "Former RCom MD remanded in CBI custody in \u20b92,929-cr loan fraud case",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/former-rcom-md-remanded-in-cbi-custody-in-2-929-cr-loan-fraud-case-101780514389304.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/03/1600x900/logo/-p-Former-RCom-MD-remanded-in-CBI-custody-in--2-92_1780514387192.jpg",
+            "source": "hindustantimes"
         }
     ],
-    "Last_Updated": "2026-06-04T10:04:48.985829Z"
+    "Last_Updated": "2026-06-04T15:29:08.304771Z"
 }
