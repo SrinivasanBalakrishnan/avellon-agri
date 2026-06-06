@@ -1,82 +1,105 @@
 {
-    "AGRI_Score": 60.6,
-    "Velocity": "0.0",
+    "AGRI_Score": 61.2,
+    "Velocity": "+0.6",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 61.2 is currently elevated, predominantly driven by severe pressures in Energy & Maritime Disruption and Geopolitical Conflict Intensity. The reported \"Strait of Hormuz closure\" directly impacts global energy flows and maritime security, while \"air raid sirens blare in Bahrain as Iranian missiles, drones head for Gulf neighbors\" underscores acute regional conflict. These factors, alongside significant stress in trade and cyber threats, create a complex and volatile risk environment that requires continuous monitoring.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 73.2,
+        "Geopolitical Conflict Intensity": 76.4,
         "Energy & Maritime Disruption": 84.9,
-        "Trade & Supply Chain Stress": 69.4,
+        "Trade & Supply Chain Stress": 68.7,
         "Sovereign Financial Stress": 54.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 59.6,
-        "Cyber & Infrastructure Threats": 56.1,
+        "Sanctions & Regulatory Fragmentation": 55.3,
+        "Cyber & Infrastructure Threats": 61.3,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical tensions are critically high, evidenced by \"air raid sirens blare in Bahrain as Iranian missiles, drones head for Gulf neighbors,\" indicating active conflict in the Gulf region. Furthermore, \"Putin's nuclear threat scares Trump away from European NATO allies\" highlights significant strategic fragmentation and elevated major power conflict risks.",
+        "Energy & Maritime Disruption": "This pillar faces severe disruption, largely due to the reported \"Strait of Hormuz closure,\" which is a critical choke point for global oil transit. Such a closure has direct implications for energy supply, as indicated by \"US energy firms benefit from Strait of Hormuz closure,\" suggesting significant market volatility and supply chain rerouting.",
+        "Trade & Supply Chain Stress": "Trade and supply chains are under considerable pressure, exacerbated by the \"Strait of Hormuz closure\" which will inevitably cause significant delays and increased shipping costs for global commodities. The warning that \"fuel duty rule change 'not going to be enough'\" indicates persistent high energy costs are expected to continue impacting logistics and operational expenses for businesses.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, driven by inflationary pressures prompting central banks, like the Bank of Canada, to consider rate hikes even with questionable economic logic. Concerns about a \"US Market Crash\" and \"FII Outflow\" also point to potential capital flight and market instability affecting national treasuries.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at a baseline activity level, with notable concerns arising from \"FII Outflow\" in emerging markets, which can impact local currency values. The contemplation of \"Bank of Canada\" rate hikes due to inflation could also introduce volatility into currency markets.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation is moderate, with ongoing \"US-Iran Talks\" complicated by \"Tehran\u2019s Cash Demand,\" indicating persistent disagreements over financial and economic restrictions. The geopolitical realignment hinted at by \"Putin's nuclear threat scares Trump away from European NATO allies\" could lead to further divergent regulatory and alliance structures.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are elevated, particularly regarding the resilience of physical infrastructure, as highlighted by a \"van ploughing through construction works\" and the need for worker safety measures. The \"CBSE moves data to its own servers\" suggests proactive steps to manage data security, indicating awareness of potential cyber vulnerabilities.",
+        "Climate & Resource Shock": "This pillar exhibits routine monitoring activity, with no immediate shocks evident in the provided news feed. While the \"Aviation industry looks skywards as leaders fly in for Rio summit\" suggests ongoing discussions around environmental policy, there are no reported incidents of severe climate events or resource shortages."
+    },
     "All_Alerts": [
         {
-            "title": "Ukraine targets St. Petersburg again after Putin rejects Zelenskyy's offer for direct talks",
+            "title": "US energy firms benefit from Strait of Hormuz closure: Rosneft CEO Sechin",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/ukraine-targets-st-petersburg-again-073818870.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/5db2f69cf82bc9348adb739e9cfde6cc1c222a518e18d187a086952b240872ee/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcp_news_842%2F019f5c801fa4fdcdefa18a366b2db5bb",
-            "source": "yahoo"
-        },
-        {
-            "title": "Technical issue detected on UK\u2019s largest warship HMS Prince of Wales",
-            "severity": "HIGH",
-            "url": "https://uk.news.yahoo.com/technical-issue-detected-uk-largest-073738595.html",
-            "image": "https://media.zenfs.com/en/itv_news_193/e12994160a173051fbffd0a4b5b2dd7f",
-            "source": "yahoo"
-        },
-        {
-            "title": "Iran\u2019s knockout blow: Professor Steve Hanke on looming economic disaster as Strait of Hormuz stays closed",
-            "severity": "HIGH",
-            "url": "https://www.rt.com/podcast/641112-steve-hanke-russia-hormuz/",
-            "image": "https://mf.b37mrtl.ru/files/2026.06/article/6a23c8a785f54036767e17bf.jpg",
-            "source": "rt"
-        },
-        {
-            "title": "Von der Leyen warned about China. Europe didn't listen. Will it now?",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/von-der-leyen-warned-china-060101388.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/04e6f1d7f10a010f1b26349ef4622bce8e351233df3fa18dd42c8d6c0ba1e76d/lightyear_networkapi/resizefill_w1024_h576;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Feuronews_ca_articles_409%2Fa40ebbcd8c8d443fe1d8bb5dc620e4a6",
-            "source": "yahoo"
-        },
-        {
-            "title": "Russia wants to cause UK harm \u2014 it\u2019s time to take that seriously, ex-military chief warns",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/uk/politics/russia-threat-uk-putin-cables-defence-investment-plan-b2989125.html",
-            "image": "https://static.independent.co.uk/2025/10/14/10/30/2.webp?width=1200&auto=webp&trim=0%2C94%2C0%2C93",
-            "source": "independentuk"
-        },
-        {
-            "title": "GDP beats forecasts, but West Asia conflict clouds India's growth outlook",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/business/economy/gdp-beats-forecasts-but-west-asia-conflict-clouds-india-s-growth-outlook-13942666.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/04/20260415121726_India-Indian-economy.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Ukraine launches massive attack on Russia hours after Putin snubs 'rude' Zelensky",
-            "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/news/ukraine-launches-massive-attack-russia-37256816",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37256841.ece/ALTERNATES/s615/0_PAY-St-Petersburg-under-attack-1-east2west-news.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Accused can't be denied access to documents forming part of chargesheet: SC",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/india-news/accused-can-t-be-denied-access-to-documents-forming-part-of-chargesheet-sc-126060600242_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260606/thumb-126060600242.jpg",
+            "url": "https://www.business-standard.com/world-news/us-energy-firms-benefit-from-strait-of-hormuz-closure-rosneft-ceo-sechin-126060600394_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260606/thumb-126060600394.jpg",
             "source": "business-standard"
         },
         {
-            "title": "Bahrain denounces 'blatant aggression' as US, Iran trade strikes in the Middle East",
+            "title": "Air raid sirens blare in Bahrain as Iranian missiles, drones head for Gulf neighbors",
             "severity": "HIGH",
-            "url": "https://www.iol.co.za/news/world/bahrain-denounces-blatant-aggression-as-us-iran-trade-strikes-in-the-middle-east-c529485f-a719-49ae-9471-9335f0825664",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/67276f6a793c6d7af7e8955360c4edd1b4f48852/2000&operation=CROP&offset=0x40&resize=2000x1125",
-            "source": "iol"
+            "url": "https://www.wmur.com/article/air-raid-sirens-bahrain-iran-missiles-drones-gulf-neighbors/71511277",
+            "image": "https://kubrick.htvapps.com/htv-prod/images/d5c7dde5-abf9-41d8-8c18-e654840552ca.jpg?crop=1.00xw:0.846xh;0,0&resize=1200:*",
+            "source": "wmur"
+        },
+        {
+            "title": "Rachel Reeves warned fuel duty rule change 'not going to be enough'",
+            "severity": "HIGH",
+            "url": "https://www.birminghammail.co.uk/motoring/motoring-news/rachel-reeves-warned-fuel-duty-34039945",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article34039983.ece/ALTERNATES/s615/0_petrol.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Moment van ploughs through construction works in road rage incident as firm fixing potholes forced to give staff bodycams for their own safety",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.com/news/article-15878959/Moment-van-ploughs-construction-works-road-rage-incident-firm-fixing-potholes-staff-bodycams.html",
+            "image": "https://i.dailymail.com/1s/2026/06/06/10/109170183-0-image-m-13_1780736812722.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "No US Tomahawks for Berlin: Putin's nuclear threat scares Trump away from European NATO allies?",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/videos/no-us-tomahawks-for-berlin-putins-nuclear-threat-scares-trump-away-from-european-nato-allies-101780736576153.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/06/1600x900/logo/nomis_1780736619538_1780736622519_8ecfb093-a105-4973-a521-367c1ebfacf0.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Inside the 1920s-era hotel NYC is converting into affordable apartments",
+            "severity": "HIGH",
+            "url": "https://www.businessinsider.com/see-the-vintage-hotel-nyc-is-converting-into-affordable-housing-2026-6",
+            "image": "https://i.insider.com/6a22ff6d2e5a80cfe0503e9f?width=1200&format=jpeg",
+            "source": "insider"
+        },
+        {
+            "title": "Aviation industry looks skywards as leaders fly in for Rio summit",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/business/2026/jun/06/aviation-industry-looks-skywards-as-leaders-fly-in-for-rio-summit",
+            "image": "https://i.guim.co.uk/img/media/e9092a50530f1c20aad55857bf4c1e1c7228e096/0_0_509_407/master/509.jpg?width=140&quality=85&auto=format&fit=max&s=cc88ed2c64685231f80bf5e4542d1b83",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "Can Eating A Bowl Of Moong Sprouts Every Morning Help With Weight Loss? Here\u2019s What To Know",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/lifestyle/can-eating-a-bowl-of-moong-sprouts-every-morning-help-with-weight-loss-here-s-what-to-know-1848498",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/06/06/2bb10ccccd2f754c42c5c49d32009afc17807362198841402_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "Bank of Canada may soon feel the need to raise rates because of inflation. But the logic may not make sense this time",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com/business/opinion/bank-of-canada-may-soon-feel-the-need-to-raise-rates-because-of-inflation-but-the-logic-may-not-make-sense-this-time/article_f9e765a5-fca7-4d3a-91e2-e1dfdeebcdb2.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/5/03/5036e4bc-3a54-5817-b6e8-872b1c073d36/6a207dead5693.image.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
+            "source": "thestar"
+        },
+        {
+            "title": "CBSE retains COEMPT for re-evaluation, moves data to its own servers",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/india/cbse-retains-coempt-for-reevaluation-moves-data-to-its-own-servers-articleshow-s1lmzng",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-817562a0-a106-49bc-a16f-38a5c556df5c.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "McLaren breach Monaco F1 curfew with \"extensive\" Lando Norris repairs - Crash.net",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbHNZbnYxMjd3Yl9Ebll5ME5kUktYbEZWT3FjTHZJVUN4MldYajBoRWJHci1VQnJ3WUtxamM2Zkk2VGk1VlZNUmhsVWNmYTRuQ210RE93dFpnNjBVV3RDVVRBYTB5OElDYUpIWjFRbDZhUTNrRVU5QUF3QVhBZFZKcU05bnltSnFKaXI3cFBVWDcwMGwwdk5oaEpXNzZIQkE1THpRWg?oc=5",
+            "image": "https://images.pexels.com/photos/36594160/pexels-photo-36594160.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
             "title": "Mega blow for Germany as Bayern Munich star ruled out of World Cup after suffering injury in training",
@@ -86,11 +109,39 @@
             "source": "yahoo"
         },
         {
-            "title": "Zinc prices at multi-year highs: What\u2019s driving the rally and what lies ahead?",
+            "title": "A Look At SolarEdge Technologies (SEDG) Valuation After A Sharp Single Day Share Price Drop",
             "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/zinc-prices-at-multi-year-highs-whats-driving-the-rally-and-what-lies-ahead/articleshow/131546761.cms",
-            "image": "https://img.etimg.com/thumb/msid-131546796,resizemode-4,width-1200,height-900,imgsize-35818,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://ca.finance.yahoo.com/news/look-solaredge-technologies-sedg-valuation-090940776.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/Q0XS9XUI5QcC2NMUsbxZUg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD05NTI7Y2Y9d2VicA--/https://media.zenfs.com/en/simply_wall_st__316/0cbefd4f4355a61c575e924654327eb0",
+            "source": "yahoo"
+        },
+        {
+            "title": "OGE Energy Legal Setback Puts Regulatory Risks And Valuation In Focus",
+            "severity": "MEDIUM",
+            "url": "https://ca.finance.yahoo.com/news/oge-energy-legal-setback-puts-090924500.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/LOutzgkf3Q5ED8RtEd0B9g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjYwO2NmPXdlYnA-/https://media.zenfs.com/en/simply_wall_st__316/4597a37bfa9a7a58117bf2260ae6580e",
+            "source": "yahoo"
+        },
+        {
+            "title": "The Billion-Dollar Hurdle In US-Iran Talks: Why Tehran\u2019s Cash Demand Puts Trump In A Political Bind",
+            "severity": "MEDIUM",
+            "url": "https://www.news18.com/world/the-billion-dollar-hurdle-in-us-iran-talks-why-tehrans-cash-demand-puts-trump-in-a-political-bind-ws-l-10133868.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/06/trump-2026-06-8bf240766e0f8594c9c2d6f212c2f5fd-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Who wants that oil pipeline anyway? How Mark Carney could escape the oilsands mess",
+            "severity": "MEDIUM",
+            "url": "https://www.thestar.com/business/opinion/carney-oilsands-tktk/article_eef90271-1ae3-44d1-859c-0977b6f31efa.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/a/d6/ad67bfda-6f21-5085-b66c-00a6c3b3c727/6a21acba20ccb.image.jpg?crop=1776%2C932%2C0%2C117&resize=1200%2C630&order=crop%2Cresize",
+            "source": "thestar"
+        },
+        {
+            "title": "Pope Leo XIV visits Spain as Church seeks a fresh voice in changing Europe",
+            "severity": "MEDIUM",
+            "url": "https://www.rfi.fr/en/international/20260606-pope-leo-xiv-visits-spain-as-church-seeks-a-fresh-voice-in-changing-europe",
+            "image": "https://s.rfi.fr/media/display/f51ef226-6183-11f1-be38-005056bfb2b6/w:1280/p:16x9/000-B67V7WE.jpg",
+            "source": "rfi_fr"
         },
         {
             "title": "Nifty Prediction For Monday: Will It Defend 23,150 Amid US Market Crash, FII Outflow? Know Key Levels For June 8",
@@ -100,95 +151,102 @@
             "source": "news18"
         },
         {
-            "title": "'We Come Without Past Baggage': Nepal Foreign Minister To NDTV On Gen Z Support",
+            "title": "Assessing APA Corporation\u2019s Valuation After Strong Results And Free Cash Flow Strength Attract Investor Attention",
             "severity": "WATCH",
-            "url": "https://www.ndtv.com/world-news/shisir-khanal-nepal-foreign-minister-to-ndtv-on-gen-z-support-we-come-without-past-baggage-11599289",
-            "image": "https://c.ndtvimg.com/2026-06/kcuh8gug_we-come-without-past-baggage_625x300_06_June_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
-        },
-        {
-            "title": "Are these the first shots of the US Air Force's sixth-generation F-47 fighter?",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/defence/international/are-these-the-first-shots-of-the-us-air-forces-sixth-generation-f-47-fighter/articleshow/131546894.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131546919/131546919.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Thyroid-friendly morning routine: Dietician shares what to eat, what to avoid and when to take medicine",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/lifestyle/health/thyroid-friendly-morning-routine-dietician-shares-what-to-eat-what-to-avoid-and-when-to-take-medicine-101780726836206.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/06/1600x900/logo/photo-1595787572590-545171362a1c_1775985699900_1775985707743_1780727451579_e452ae13-621b-4c83-b9c8-c40266cc9fa6.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Lee Jun Young Shocks Everyone With His Behavior In \u201cReborn Rookie\u201d",
-            "severity": "WATCH",
-            "url": "https://www.soompi.com/article/1845884wpp/lee-jun-young-shocks-everyone-with-his-behavior-in-reborn-rookie",
-            "image": "https://0.soompi.io/wp-content/uploads/2026/06/06003246/Lee-Jun-Young-Lee-Ju-Myoung.jpg",
-            "source": "soompi"
-        },
-        {
-            "title": "Over 100 pieces of Abbasid-era gold jewellery discovered at Saudi Arabia's Diriyah archaeological site",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/rest-of-world/over-100-pieces-of-abbasid-era-gold-jewellery-discovered-at-saudi-arabias-diriyah-archaeological-site/articleshow/131546834.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131546880/131546880.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Feral teens take over towns with drug dealing and boozed-up aggressive yobs",
-            "severity": "WATCH",
-            "url": "https://www.dailystar.co.uk/news/latest-news/feral-teens-take-over-towns-37256805",
-            "image": "https://i2-prod.dailystar.co.uk/news/latest-news/article37256804.ece/ALTERNATES/s615/0_Broadstairs-Viking-Bay-beach-huts-aerial-view-England.jpg",
-            "source": "dailystar"
-        },
-        {
-            "title": "South America to ramp up India outreach despite geography",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/economy/foreign-trade/south-america-to-ramp-up-india-outreach-despite-geography/articleshow/131546582.cms",
-            "image": "https://img.etimg.com/thumb/msid-131546768,resizemode-4,width-1200,height-900,imgsize-175410,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Putin Offers Joint Production Of 'World's Best' Sukhoi Su-57 Jet To India: 'No Restrictions'",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/world/putin-offers-joint-production-of-worlds-best-sukhoi-su-57-jet-to-india-no-restrictions-ws-l-10133699.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/06/vputin-2026-06-3962fd13fb363fc60b2c0c1cccd68e81-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "France to edge out Spain for World Cup glory, economists say: Reuters poll",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/sport/france-edge-out-spain-world-cup-glory-economists-say-reuters-poll-6166201",
-            "image": "https://dam.mediacorp.sg/image/upload/s--VjbFPrbt--/c_fill,g_auto,h_338,w_600/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-06-06T071259Z_1_LYNXMPEM5505Q_RTROPTP_3_SOCCER-FRIENDLY-FRA-CIV.JPG?itok=S0S6RLZp",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Russia admits oil output is falling as drone-hit refineries force unscheduled shutdowns",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/russia-admits-oil-output-falling-073400346.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/vQaPAObWh4Vv0kGRbJUcGg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUw/https://media.zenfs.com/en/the_cool_down_737/428b21cdae9a1f9d7e06165c2c6d9e2e",
+            "url": "https://ca.finance.yahoo.com/news/assessing-apa-corporation-valuation-strong-090755755.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/sGTFzTt3dUReME5YzoQaJg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIzODg7aD04NjQ7Y2Y9d2VicA--/https://media.zenfs.com/en/simply_wall_st__316/da713992716ec87035eff27f58858a3e",
             "source": "yahoo"
         },
         {
-            "title": "\u2018Oxygen\u2019: An Israeli mother sacrifices all to keep soldier son breathing",
+            "title": "What Pensacola parents should know about teen takeovers",
             "severity": "WATCH",
-            "url": "https://www.timesofisrael.com/oxygen-an-israeli-mother-sacrifices-all-to-keep-soldier-son-breathing/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/06/Reeeel-Schmooze-YT-Thumbnail-Exodus-2-e1780600291234.jpg",
-            "source": "timesofisrael"
+            "url": "https://www.yahoo.com/news/us/articles/pensacola-parents-know-teen-takeovers-090741133.html",
+            "image": "https://media.zenfs.com/en/pensacola-news-journal/612681258a04664f456befbaa0285bc4",
+            "source": "yahoo"
         },
         {
-            "title": "Gulf countries targeted by Iran after exchange of fire with US, in latest threat to fragile ceasefire",
+            "title": "\u2018Quantum Physics for Babies\u2019: Woman in China amazed by AI, science books for kids in cafe",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/world/middle-east/2026/06/06/gulf-countries-targeted-by-iran-after-exchange-of-fire-with-us-in-latest-threat-to-fragile-ceasefire/",
-            "image": "https://www.irishtimes.com/resizer/v2/YWIV5RLSSC3JAUSEVTLIFD2KBU.jpg?auth=498bf7495d0f254a547b4af90e2e86e3aebc288084bc9878a262ade6d0a585d8&smart=true&width=630&height=350",
-            "source": "irishtimes"
+            "url": "https://www.hindustantimes.com/trending/quantum-physics-for-babies-woman-in-china-amazed-by-ai-science-books-for-kids-in-cafe-101780736109803.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/06/1600x900/logo/vdvdd_c_1780736568703_1780736576878_9185a032-8a62-4c08-88f5-be821b5cd687.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Kuwait and Bahrain targeted by Iran after exchange of fire with US",
+            "title": "Matthew Perry's belongings - including Banksy artworks and Friends memorabilia - sell for \u00a31 million",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/world/middle-east/2026/06/06/kuwait-and-bahrain-targeted-by-iran-after-exchange-of-fire-with-us/",
-            "image": "https://www.irishtimes.com/resizer/v2/YWIV5RLSSC3JAUSEVTLIFD2KBU.jpg?auth=498bf7495d0f254a547b4af90e2e86e3aebc288084bc9878a262ade6d0a585d8&smart=true&width=630&height=350",
-            "source": "irishtimes"
+            "url": "https://www.mirror.co.uk/3am/celebrity-news/matthew-perrys-belongings-including-banksy-37256827",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37256833.ece/ALTERNATES/s615/0_Jeff-VespaContour-by-Getty-Images.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "British dad braves drones on Ukraine front line for 13th time delivering bread and pizza",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/uk/2214104/british-dad-braves-drones-ukraine",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2214104_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "NASCAR Cup Series at Michigan odds, picks: Denny Hamlin favored, primed to win again",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7335707/2026/06/06/nascar-cup-series-firekeepers-casino-400-michigan-odds-picks/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/06/05103331/GettyImages-2279151836.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "Gardener shares the flower trick that can leave you with 'more squash than you know what to do with'",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/gardener-shares-flower-trick-leave-090500373.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/97f04e09184089d53fde95e4f15a656e1369e891af90cd6bed0326d19508e7a6/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cool_down_737%2F069886a3f87a29fc6e4e2c4d03cfda1b",
+            "source": "yahoo"
+        },
+        {
+            "title": "Quebec single mother welcomes triplets after years of fertility struggles",
+            "severity": "WATCH",
+            "url": "https://globalnews.ca/news/11892963/quebec-single-mother-triplets/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/06/Screenshot-2026-06-05-210602.png",
+            "source": "globalnews"
+        },
+        {
+            "title": "In Ohio, the Sikh community passes traditions to the next generation",
+            "severity": "WATCH",
+            "url": "https://www.npr.org/sections/the-picture-show/2026/06/06/g-s1-95444/photos-of-sikh-communites-in-ohio",
+            "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5041x3361+0+0/resize/5041x3361!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F17%2Fc4b2c14e4fde95e225c688e3bed8%2Fsikhohio-apamarthy-030.JPG",
+            "source": "npr"
+        },
+        {
+            "title": "Trump Said US Intelligence Beat Iran\u2014The Record Backs Him | Opinion",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/trump-said-us-intelligence-beat-iranthe-record-backs-him-opinion-12031369",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/06/GettyImages-2272128867.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "This Toronto couple grows most of the vegetables they eat in their compact garden. Now, they're sharing their bounty",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com/life/home-and-garden/this-toronto-couple-grows-most-of-the-vegetables-they-eat-in-their-compact-garden-now-theyre-sharing-their-bounty/article_3fc3f063-6c08-4f57-b4cd-2a6a13d1aae2.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/b/12/b1241c95-a8e1-5bef-8582-76191dca2ed5/6a1dc7efe47d1.image.jpg?crop=1662%2C873%2C0%2C187&resize=1200%2C630&order=crop%2Cresize",
+            "source": "thestar"
+        },
+        {
+            "title": "Two original Banksy artworks owned by Friends star Matthew Perry sell at auction for nearly \u00a31million",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-15878997/Two-original-Banksy-artworks-Matthew-Perry-sell-auction.html",
+            "image": "https://i.dailymail.com/1s/2026/06/06/09/109170143-0-image-a-13_1780735470933.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "CBSE to continue using Coempt Edutek's OSM system for Class 12 re-evaluation: Report",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/india/cbse-to-continue-using-coempt-eduteks-osm-system-for-class-12-re-evaluation-report/articleshow/131546893.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131547367/131547367.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Fully-grown woman gets lifetime flying ban for vaping on flight as passenger grasses her up",
+            "severity": "WATCH",
+            "url": "https://www.dailystar.co.uk/news/latest-news/fully-grown-woman-gets-lifetime-37256952",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37256941.ece/ALTERNATES/s615/0_VIDEO-Woman-banned-from-airlines-for-life-after-being-caught-VAPING-on-plane.jpg",
+            "source": "dailystar"
         },
         {
             "title": "US CENTCOM Says It Intercepted Iranian Missiles, Drones Aimed At Gulf Region | Watch",
@@ -210,42 +268,7 @@
             "url": "https://www.timesnownews.com/entertainment-news/tv/shilpa-shinde-false-sexual-harassment-row-explained-why-did-bhabiji-ghar-par-hain-actress-accuse-producer-article-154472811",
             "image": "https://images.timesnownews.com/thumb/msid-154473106,width-1280,height-720,resizemode-75/154473106.jpg",
             "source": "timesnownews"
-        },
-        {
-            "title": "Primark spin-off plan looks threadbare without proper online retail strategy",
-            "severity": "WATCH",
-            "url": "https://www.irishtimes.com/business/2026/06/06/primark-spin-off-plan-looks-threadbare-without-proper-online-retail-strategy/",
-            "image": "https://www.irishtimes.com/resizer/v2/IQTTVAMCVVASPAEKPJAU4RLTZU.jpg?auth=2af1fb3160061669fc57f80105236ca88de1b78b4a12f554d34063832f0bbb38&smart=true&width=630&height=350",
-            "source": "irishtimes"
-        },
-        {
-            "title": "From Basketball Royalty To NCAA Trailblazer: Krishna Jayasankar's Rise In Shot Put",
-            "severity": "WATCH",
-            "url": "https://www.ndtvprofit.com/sports/from-basketball-royalty-to-ncaa-trailblazer-krishna-jayasankars-rise-in-shot-put-11590110",
-            "image": "https://c.ndtvimg.com/2026-06/tj40s02_krishna-jayasankar_625x300_04_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
-            "source": "ndtv"
-        },
-        {
-            "title": "'Everything looked real': How scammers are hijacking your holiday",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-06-06/booking-com-scammers-target-travel-reservations/106759168",
-            "image": "https://live-production.wcms.abc-cdn.net.au/7f2849e48e0d45fa6efaac9756ce772e?impolicy=wcms_crop_resize&cropH=1125&cropW=2000&xPos=0&yPos=105&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "Did Meta\u2019s own AI help hack into Instagram users\u2019 accounts? | Explained",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/sci-tech/technology/did-metas-own-ai-help-hack-into-instagram-users-accounts-explained/article71068359.ece",
-            "image": "https://th-i.thgim.com/public/incoming/nek7p5/article71068358.ece/alternates/FREE_1200/2026-04-28T032450Z_2081106618_RC22YKACROBN_RTRMADP_3_MANUS-M-A-CHINA.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "The high-end salons disrupting Australia\u2019s nail industry",
-            "severity": "WATCH",
-            "url": "https://www.smh.com.au/national/victoria/the-high-end-salons-disrupting-australia-s-nail-industry-20260604-p603tf.html",
-            "image": "https://static.ffx.io/images/$zoom_0.1909%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_277%2C$y_25/t_crop_custom/q_86%2Cf_auto/afae4acd780d81576ab47868746fe9ca353eddbe",
-            "source": "smh"
         }
     ],
-    "Last_Updated": "2026-06-06T19:40:17.879841Z"
+    "Last_Updated": "2026-06-06T21:10:21.848897Z"
 }
