@@ -1,286 +1,239 @@
 {
-    "AGRI_Score": 63.0,
-    "Velocity": "+2.6",
+    "AGRI_Score": 60.1,
+    "Velocity": "-2.9",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 60.1/100 is predominantly driven by the severe escalation in geopolitical conflict and its direct implications for energy and maritime disruption. Specific drivers include \"Iran-US war latest: Tehran attacks 18 US airbases across Middle East after Trump orders major new strikes\" and \"Iran Retaliates: Tehran claims missile attacks on US military bases in Iraq, Kuwait, and Bahrain,\" raising the specter of widespread regional instability. While \"the much-feared crunch in oil markets has yet to arrive,\" the high-severity military actions in the Persian Gulf region maintain extreme vigilance regarding potential energy supply interruptions.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 79.3,
+        "Geopolitical Conflict Intensity": 72.2,
         "Energy & Maritime Disruption": 83.7,
-        "Trade & Supply Chain Stress": 69.1,
+        "Trade & Supply Chain Stress": 64.7,
         "Sovereign Financial Stress": 55.3,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 61.4,
-        "Cyber & Infrastructure Threats": 68.7,
+        "Sanctions & Regulatory Fragmentation": 57.7,
+        "Cyber & Infrastructure Threats": 61.1,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "The intensity of geopolitical conflict is critically high due to direct military engagements between the US and Iran, as evidenced by \"Tehran attacks 18 US airbases across Middle East\" and \"Iran Retaliates: Tehran claims missile attacks on US military bases in Iraq, Kuwait, and Bahrain.\" The deployment of an \"Iranian Missile Splits Into Multiple Warheads\" further complicates defensive measures and indicates a serious escalation.",
+        "Energy & Maritime Disruption": "Risk for energy and maritime disruption is extremely elevated, largely due to the escalating US-Iran conflict situated in a vital global energy transit region. Despite the \"much-feared crunch in oil markets has yet to arrive,\" the ongoing attacks on military bases in the Persian Gulf region underscore the potential for severe supply chain interruptions.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress remains elevated, primarily due to heightened geopolitical tensions that threaten key shipping lanes and regional stability. The escalation of conflict between the US and Iran introduces significant uncertainty, potentially impacting global logistics and commodity flows.",
+        "Sovereign Financial Stress": "This pillar exhibits moderate stress, influenced by broader market warnings about financial vulnerabilities. Pimco's warning of \"a Wave of Defaults Is Coming for Low-Quality Borrowers\" suggests systemic credit risks that could, by extension, impact sovereign credit profiles amidst a volatile global environment.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at moderate levels, with no explicit crisis indicators in the current feed, but are subject to a volatile geopolitical backdrop. Elevated global tensions typically lead to capital flight and increased demand for safe-haven assets, requiring close observation for emerging pressures.",
+        "Sanctions & Regulatory Fragmentation": "The risk of increased sanctions and regulatory fragmentation is moderate, driven by the intensifying geopolitical standoff involving Iran. Such high-stakes conflicts often result in the imposition of new economic restrictions, increasing compliance complexities for international operations.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are moderately high, highlighted by significant data breach incidents and the general elevation of geopolitical conflict. The \"S.Korea slaps Coupang with $409 mln fine over massive data breach\" underscores the severe financial and reputational consequences of cyber vulnerabilities.",
+        "Climate & Resource Shock": "This pillar currently registers low risk, indicating baseline activity without immediate or pressing concerns from the provided news feed. Routine monitoring for long-term environmental shifts and potential resource strain continues as part of standard risk assessment."
+    },
     "All_Alerts": [
         {
-            "title": "U.S. military says it's striking 'multiple targets' in Iran in 2nd day of renewed fire",
+            "title": "Iran-US war latest: Tehran attacks 18 US airbases across Middle East after Trump orders major new strikes",
             "severity": "HIGH",
-            "url": "https://www.npr.org/2026/06/10/nx-s1-5853882/us-strike-iran-second-day-renewed-fire",
-            "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7851x5234+0+0/resize/7851x5234!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F23%2F92%2Fd72ab8aa42ebaa33d94f74ca55a4%2Fap26159461183432.jpg",
-            "source": "npr"
+            "url": "https://www.independent.co.uk/news/world/middle-east/iran-us-war-live-trump-attack-kuwait-israel-hormuz-b2993690.html",
+            "image": "https://static.independent.co.uk/2026/06/11/05/2026-06-11T015802Z_2011256516_RC2DRLA3U8A1_RTRMADP_3_IRAN-CRISIS-USA-CENTCOM.JPG?width=1200&auto=webp&trim=0%2C281%2C0%2C281",
+            "source": "independentuk"
         },
         {
-            "title": "Explosions heard in Bandar Abbas, Qeshm Island, Minab, Sirik, Kargan as US launches new attacks on multiple targets in Iran",
+            "title": "John Bolton Fears 'Bad Deal' Coming For America Because Trump 'Clearly Wants An Agreement' That Allows Him to Declare Victory",
             "severity": "HIGH",
-            "url": "https://gulfnews.com/world/mena/explosions-heard-in-bandar-abbas-qeshm-island-minab-sirik-kargan-as-us-launches-new-attacks-on-multiple-targets-in-iran-1.500570329",
-            "image": "https://media.assettype.com/gulfnews/2024-11-17/u2j9xxp0/US_aircraft_carrier_Afghanistan_17b97952dc4_original_ratio.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "\u2018I love the inflation\u2019: Trump comment on latest price jump sparks backlash - The Straits Times",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb1dONkJYMV9mR0lkM3JMakJ6aUtrdGdDYVdJTHRzTVRhZTgtUnZRd1BBWkhvZnpJS0s1dmVQMUxhdHhqNTF4UVlOQ1BlaGRxZFo3aUx1TEJKUkEweU9aN2pRcnhZNlptODY5OENiaWM2ZnJoaE1rRGJWMFRWd29CZHlRRHNUVDkwQmVkbU9qZnp2TUNPcHROcjlpLW5RaGdhTWNSendPeTFMbUpxdjNiMzEwcHc0bUVnYW1POQ?oc=5",
-            "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "source": "google"
-        },
-        {
-            "title": "Triple-Digit Heat, Fire And Flooding Threats Slam Bay Area All At Once",
-            "severity": "HIGH",
-            "url": "https://patch.com/california/san-francisco/triple-digit-heat-fire-flooding-threats-slam-bay-area-all-once",
-            "image": "https://patch.com/img/cdn20/users/24074589/20260610/060050/styles/patch_image/public/031226-pcs-golden-gate-bridge-ca-wittner___10180015808.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "US effectively using ceasefire with Iran, refining intel data \u2014 Pentagon chief",
-            "severity": "HIGH",
-            "url": "https://tass.com/world/2145259",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Iran closes Strait of Hormuz with warning after US strikes 'multiple targets'",
-            "severity": "HIGH",
-            "url": "https://www.the-express.com/news/world-news/209412/us-launches-strikes-against-multiple",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/209412_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "Convicted gang rapist Mohammed Skaf hit with two dozen drug charges in Sydney",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/australia-news/2026/jun/11/convicted-gang-rapist-mohammad-skaf-drug-charges-sydney-ntwnfb",
-            "image": "https://i.guim.co.uk/img/media/d78a7abff63daa2a9a15de82fd3fe2d6882fde41/187_0_1860_1489/master/1860.jpg?width=140&quality=85&auto=format&fit=max&s=0492664bc06b2535109feb5e836d9b62",
-            "source": "theguardian"
-        },
-        {
-            "title": "Trans Mountain oil pipeline hits full capacity as Strait of Hormuz crisis disrupts supply",
-            "severity": "HIGH",
-            "url": "https://investinglive.com/commodities/trans-mountain-oil-pipeline-hits-full-capacity-as-strait-of-hormuz-crisis-disrupts-supply-20260610/",
-            "image": "https://images.investinglive.com/images/Oil%20price%20update%2011%20June%202026_id_24c8f501-05dc-4b13-be81-d752063fd6d1_size975.jpg",
-            "source": "forexlive"
-        },
-        {
-            "title": "Five Star Bancorp Names Cliff Cooper as Executive Vice President / Food, Agribusiness & Diversified Industries President",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/06/g53132000/five-star-bancorp-names-cliff-cooper-as-executive-vice-president-food-agribusiness-diversified-ind",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
+            "url": "https://www.benzinga.com/news/politics/26/06/53133114/john-bolton-fears-bad-deal-because-trump-clearly-wants-an-agreement",
+            "image": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/06/11/Eighteen-Counts-In-Maryland-Case.jpeg",
             "source": "benzinga"
         },
         {
-            "title": "Hegseth Reveals US Military BOMBING Iran RIGHT NOW After Trump Declares New War | Watch",
+            "title": "Iran Retaliates: Tehran claims missile attacks on US military bases in Iraq, Kuwait, and Bahrain",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/hegseth-reveals-us-military-bombing-iran-right-now-after-trump-declares-new-war-watch/videoshow/131646418.cms",
-            "image": "https://timesofindia.indiatimes.com/photo/msid-131646418/131646418.jpg?resizemode=4",
-            "source": "toi"
+            "url": "https://news.abplive.com/videos/news/world-iran-retaliates-tehran-claims-missile-attacks-on-us-military-bases-in-iraq-kuwait-and-bahrain-1849491",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/06/11/5ed615b00bef7e2e15e1c5ab5cd1c40d1781150945206963_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
         },
         {
-            "title": "$18 beers, $7 sodas: \u2018Hilarious\u2019 prices at Kansas City Fan Fest shock locals",
+            "title": "Are the US and Iran back at war? Why bombing your way to peace won\u2019t work",
             "severity": "HIGH",
-            "url": "https://www.kansascity.com/sports/fifa-world-cup/article316080017.html",
-            "image": "https://www.kansascity.com/public/latest-news/x66hcr/picture316076930/alternates/FREE_1140/IMG_0455.jpeg",
-            "source": "kansascity"
+            "url": "https://au.news.yahoo.com/us-iran-back-war-why-041120634.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "source": "yahoo"
         },
         {
-            "title": "Cybercriminals exploit Fifa World Cup fans with scams",
+            "title": "Iranian Missile Splits Into Multiple Warheads, Makes It Difficult To Intercept | Video",
             "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/business/general/3269118/cybercriminals-exploit-fifa-world-cup-fans-with-scams",
-            "image": "https://static.bangkokpost.com/media/content/dcx/2026/06/11/6118348.jpg",
-            "source": "bangkokpost"
+            "url": "https://www.ndtvprofit.com/world/caught-on-camera-iranian-missile-splits-into-multiple-warheads-mid-air-makes-it-difficult-to-intercept-11620450",
+            "image": "https://c.ndtvimg.com/2026-06/cscnvjt4_iran_625x300_11_June_26.png?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+            "source": "ndtv"
         },
         {
-            "title": "Trump threatens more strikes on Iran, as back-and-forth attacks threaten truce deal",
+            "title": "Pimco Warns a Wave of Defaults Is Coming for Low-Quality Borrowers",
             "severity": "HIGH",
-            "url": "https://www.bostonglobe.com/2026/06/10/world/trump-threatens-more-strikes-iran-back-and-forth-attacks-threaten-truce-deal/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/ZSRLM4OJ6VBAFPCYPM7T6GGZEY.jpg?auth=d493abadc2fa0ffdc700700b9a63175c113ed879fed2eaa73e4103c90cd48e69&smart=true&width=4075&height=2717",
-            "source": "bostonglobe"
+            "url": "https://www.ndtvprofit.com/business/pimco-warns-a-wave-of-defaults-is-coming-for-low-quality-borrowers-11620614",
+            "image": "https://c.ndtvimg.com/2026-06/1l9uo0cc_pimco-bbg_625x300_11_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+            "source": "ndtv"
+        },
+        {
+            "title": "Regulation and deregulation",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/2006808/regulation-and-deregulation",
+            "image": "https://i.dawn.com/large/2026/06/11035024ec537b3.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "Why the much-feared crunch in oil markets has yet to arrive - Financial Times",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWlpTeUJlVEwzTGVYdy1JdHNjUTRqTlVpR3l5Z3E4Q0dhdHNiOVhuSWNKamZVYXh3bUR4SjBCLVpLcUl1VHRmVDVHOXB6bnd1RVZCT3Y0QUJDSm5qbXluU0cycGotNkpBX0p1dnhXdGNBTHk4RHJrZ1RrRTdyLTRXalFtdWg?oc=5",
+            "image": "https://images.pexels.com/photos/11849157/pexels-photo-11849157.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Walk in Brunei marks 81st Commemoration of Australia's largest amphibious operation in WW2",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/06/11/walk-in-brunei-marks-81st-commemoration-of-australia039s-largest-amphibious-operation-in-ww2",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/11/3953116.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "FIFA World Cup 2026 fresh controversies: Messi passport leak, visa cancellations and Trump's remarks",
+            "severity": "HIGH",
+            "url": "https://www.firstpost.com/sports/football-news/world-cup-2026-controversies-messi-passport-leak-scotland-fans-trump-visa-comments-14021173.html",
+            "image": "https://images.firstpost.com/uploads/2026/06/messi-passport-details-leak-2026-06-0d12b05ef7ad223e509a97cd501871b7-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Everton Ordered To Pay Burnley Over 35 Million Pounds For Financial Breaches",
+            "severity": "HIGH",
+            "url": "https://sports.ndtv.com/football/everton-ordered-to-pay-burnley-over-35-mn-for-financial-breaches-11619796",
+            "image": "https://c.ndtvimg.com/2026-06/45fvfbhg_team-everton-afp_625x300_11_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "S.Korea slaps Coupang with $409 mln fine over massive data breach",
+            "severity": "HIGH",
+            "url": "https://au.investing.com/news/stock-market-news/skorea-slaps-coupang-with-409-mln-fine-over-massive-data-breach-4481725",
+            "image": "https://i-invdn-com.investing.com/news/Coupang_800x533_L_1615573245.jpg",
+            "source": "investing_au"
         },
         {
             "title": "South Korea fines Coupang $409 million in country's largest data breach penalty",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/tech/technology/south-korea-fines-coupang-409-million-in-countrys-largest-data-breach-penalty/articleshow/131648401.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-63926,resizemode-75,msid-131648401/tech/technology/south-korea-fines-coupang-409-million-in-countrys-largest-data-breach-penalty.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Man With Warrants Chased Through Bow, Concord: New Hampshire State Police Roundup",
-            "severity": "HIGH",
-            "url": "https://patch.com/new-hampshire/concord-nh/man-warrants-chased-through-bow-concord-new-hampshire-state-police-roundup",
-            "image": "https://patch.com/img/cdn20/users/546351/20260610/061635/styles/patch_image/public/jason-williams-nhsp-collage___10181323777.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Foreign funding case: HC quashes FIR, ED case against NewsClick, founder",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/cities/delhi-news/foreign-funding-case-hc-quashes-fir-ed-case-against-newsclick-founder-101781114785067.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/01/27/1600x900/logo/ht-generic_cities1_1769511807303_1769511865290.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "House panel to probe health data breach",
-            "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/thailand/general/3268988/house-panel-to-probe-health-data-breach",
-            "image": "https://static.bangkokpost.com/media/content/20260611/c1_3268988_260611050332.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "DCC says it supports revised $7.6B buyout proposal from KKR-led consortium",
-            "severity": "MEDIUM",
-            "url": "https://seekingalpha.com/news/4602420-dcc-says-it-supports-revised-7_6b-buyout-proposal-from-kkr-led-consortium?feed_item_type=news",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2229926792/image_2229926792.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "India eyes Canada as potential crude oil supplier in deepening energy ties",
-            "severity": "MEDIUM",
-            "url": "https://globalnews.ca/news/11899072/india-canada-crude-oil-energy-supplier/",
-            "image": "https://globalnews.ca/wp-content/uploads/2026/06/india-commissioner-canada-e1781130928248.jpg?quality=65&strip=all",
-            "source": "globalnews"
-        },
-        {
-            "title": "GMDA CEO directs STP works to be completed in 18 months, 100 percent usage of tertiary water",
-            "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/cities/gurugram-news/gmda-ceo-directs-stp-works-to-be-completed-in-18-months-100-percent-usage-of-tertiary-water-101781115088835.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/10/1600x900/logo/-p-GMDA-CEO-directs-STP-works-to-be-completed-in-1_1781115085928.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Hurricanes Poua sick of making up the numbers",
-            "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/sport/597887/hurricanes-poua-sick-of-making-up-the-numbers",
-            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "BTB REIT Publishes its Third Annual ESG Report",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/pressreleases/26/06/n53132103/btb-reit-publishes-its-third-annual-esg-report",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Photographer Brianna Capozzi Gives New Meaning to the Word \u201cWomanizer\u201d",
-            "severity": "WATCH",
-            "url": "https://www.harpersbazaar.com/culture/art-books-music/a71551133/brianna-capozzi-womanizer/",
-            "image": "https://hips.hearstapps.com/hmg-prod/images/5ce14457-e07e-4905-a642-4547b4492fb7.jpg",
-            "source": "harpersbazaar"
-        },
-        {
-            "title": "JAB Strengthens Focus on Core Consumer Investments With Senior Appointments",
-            "severity": "WATCH",
-            "url": "http://www.businesswire.com/news/home/20260610503055/en/JAB-Strengthens-Focus-on-Core-Consumer-Investments-With-Senior-Appointments/?feedref=JjAwJuNHiystnCoBq_hl-RLXHJgazfQJNuOVHefdHP-D8R-QU5o2AvY8bhI9uvWSD8DYIYv4TIC1g1u0AKcacnnViVjtb72bOP4-4nHK5ieT3WxPE8m_kWI77F87CseT",
-            "image": "https://www.businesswire.com/bw-logo.png",
-            "source": "businesswire"
-        },
-        {
-            "title": "Why new dads shouldn\u2019t panic about low testosterone \u2014 and more UCLA media",
-            "severity": "WATCH",
-            "url": "https://newsroom.ucla.edu/in-the-news/why-new-dads-shouldnt-panic-about-low-testosterone-and-more-ucla-media",
-            "image": "https://s3.amazonaws.com/cms.ipressroom.com/173/files/20265/6a29e9f42cfac22d62113e46_cropped_1170x780/cropped_1170x780_549326fe-e6e3-4734-a019-9957f1080191-prv.jpg",
-            "source": "ucla"
-        },
-        {
-            "title": "Perley Health celebrates more than 20 seniors in the \u2018Century Club\u2019",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/ottawa/article/perley-health-celebrates-more-than-20-seniors-in-the-century-club/",
-            "image": "https://www.ctvnews.ca/resizer/v2/OIMFWCMEJRBAZN7CLIFT5RYUAY.JPG?auth=948129387c41839cd825c0b38bf8f1ad2520c182476b783c99c161cfeb0af892&smart=true&width=4032&height=2268",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Vanilla Ice to Newsmax: America 250 Will Unite People",
-            "severity": "WATCH",
-            "url": "https://www.newsmax.com/us/vanilla-ice-250th-anniversary-celebration-usa/2026/06/10/id/1259263",
-            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=8bdb308c-312f-4eb1-a8ac-15aabdf42d23&SiteName=Newsmax",
-            "source": "newsmax"
-        },
-        {
-            "title": "After rabbis\u2019 threat, IDF says men and women won\u2019t serve in same tanks",
-            "severity": "WATCH",
-            "url": "https://www.timesofisrael.com/after-rabbis-threat-idf-says-men-and-women-wont-serve-in-same-tanks/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2018/06/7_52-e1578580429733.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Upgraded $50 Polymarket promo code \u201cMASS\u201d announced for NBA Finals Game 4 tonight",
-            "severity": "WATCH",
-            "url": "https://www.masslive.com/betting/2026/06/upgraded-50-polymarket-promo-code-mass-announced-for-nba-finals-game-4-tonight.html",
-            "image": "https://www.masslive.com/resizer/v2/QNEODSAAGFBZHEJHCJ3RTZFQ7M.png?auth=aa2675a0fc52946a4838da564f1bd509a68d99925c574b48c5b903c4ccc87c9a&smart=true&height=1200",
-            "source": "masslive"
-        },
-        {
-            "title": "Notorious gang rapist charged after raid",
-            "severity": "WATCH",
-            "url": "https://au.news.yahoo.com/notorious-gang-rapist-charged-syd-220633304.html",
-            "image": "https://media.zenfs.com/en/nca_newswire_424/0267235cf3ff69b38bd579d8ba1db7f9",
+            "url": "https://ca.finance.yahoo.com/news/south-korea-fines-coupang-409-032153432.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/Z1NjofaSHV_gVpJaFuUuXw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2MDA7aD0xMDY2/https://media.zenfs.com/en/reuters-finance.com/cf67e10a2a8926a7025c36a24eb7a627",
             "source": "yahoo"
         },
         {
-            "title": "Is your house your pension? The problem at the heart of the intergenerational divide",
-            "severity": "WATCH",
-            "url": "https://www.theglobeandmail.com/business/commentary/article-house-pension-intergenerational-divide-wealth/",
-            "image": "https://www.theglobeandmail.com/resizer/v2/V4QW6XWRIJGJNHYWXZDEGYO5RA.JPG?auth=fe217da760528499100db216fa272580327cec42ce788e3c369f79cdf1d3e018&smart=true&width=7188&height=4794",
-            "source": "theglobeandmail"
+            "title": "India trade deal buoys horticulture sector at Fieldays 2026",
+            "severity": "MEDIUM",
+            "url": "https://www.rnz.co.nz/news/indonz-featured/597917/india-trade-deal-buoys-horticulture-sector-at-fieldays-2026",
+            "image": "https://images.pexels.com/photos/34926384/pexels-photo-34926384.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
         },
         {
-            "title": "Five Star Bancorp promotes Cliff Cooper to EVP",
+            "title": "Judge considers arguments in challenge to New Mexico\u2019s universal childcare program",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/five-star-bancorp-promotes-cliff-cooper-to-evp-93CH-4722826",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEB230DM_L.jpg",
-            "source": "investing_uk"
+            "url": "https://www.bostonglobe.com/2026/06/11/nation/new-mexico-universal-childcare-program/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/CRAL7CQTODAP2VFO6ATF57QLIU.jpg?auth=97b4bfdd040bfd2240d0f1d54480e8bc0cc37871b18b8309fddcbea416a2127b&smart=true&width=3490&height=2327",
+            "source": "bostonglobe"
         },
         {
-            "title": "Cybersecurity stocks in spotlight as U.S. vulnerability takes center stage",
+            "title": "HistoriCity: The Great Nicobar\u2019s Past and Present",
             "severity": "WATCH",
-            "url": "https://www.thestreet.com/investing/stocks/cybersecurity-stocks-in-spotlight-as-u-s-vulnerability-takes-center-stage",
-            "image": "https://www.thestreet.com/.image/MTY4NjM4OTY4MTU0MDQwMjE1/why-regulators-cant-give-jpmorgan-a-silver-bullet-for-hackers.jpg?profile=rss&x=70&y=51",
-            "source": "thestreet"
+            "url": "https://www.hindustantimes.com/india-news/historicity-the-great-nicobar-s-past-and-present-101781151099425.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/11/1600x900/logo/Both-Andaman-and-Nicobar-were-created-due-to-a-his_1781151092070.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Polymarket Promo Code TSNEWS: Get $50 Prediction Market Bonus for NBA Finals Game 4",
+            "title": "Smart Home Buying Guide: Smart Plugs, Lights & Sensors Explained",
             "severity": "WATCH",
-            "url": "https://www.sportingnews.com/us/predictions-markets/news/polymarket-promo-code-tsnews-get-50-prediction-market-bonus-nba-finals-game-4/7c5249e65cdd84382b144fe2",
-            "image": "https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2026-06/USATSI_29155730.jpg.webp?itok=1nxvp-ep",
-            "source": "sportingnews"
+            "url": "https://www.news18.com/tech/smart-home-buying-guide-smart-plugs-lights-sensors-explained-ws-el-10142420.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/06/image-2026-06-dfbf51eb5edb880f6de86732e354e0ef-1200x800.jpg",
+            "source": "news18"
         },
         {
-            "title": "Should You Be Able to Bet on Reality TV?",
+            "title": "Former US Marine who covered up \u2018Nazi\u2019 tattoo wins Democratic primary",
             "severity": "WATCH",
-            "url": "http://www.vulture.com/article/reality-tv-kalshi-polymarket.html",
-            "image": "https://pyxis.nymag.com/v1/imgs/d3d/9e5/aa8d9ab3a9251d33a19d9c84df2124aaa5-reality-tv-betting.1x.rsocial.w1200.jpg",
-            "source": "vulture"
+            "url": "https://www.rt.com/news/641372-us-nazi-tattooed-dem-wins/",
+            "image": "https://mf.b37mrtl.ru/files/2026.06/article/6a2a32d920302734ff33f474.png",
+            "source": "rt"
         },
         {
-            "title": "Delhi Gymkhana files: Dead members dining, drone over VIP zone, crores in legal fees, auditor exit",
+            "title": "Pope Leo celebrates mass at Gaudi\u0301's Sagrada Fami\u0301lia in Barcelona",
             "severity": "WATCH",
-            "url": "https://indianexpress.com/article/cities/delhi/delhi-gymkhana-files-dead-members-dining-drone-over-vip-zone-crores-in-legal-fees-auditor-exit-10733871/",
-            "image": "https://images.indianexpress.com/2026/06/Research-Premium-feature-image-1600-x-900-px_20260610223346.jpg",
+            "url": "https://www.yahoo.com/news/world/articles/pope-leo-celebrates-mass-gaud-041027710.html",
+            "image": "https://media.zenfs.com/en/dpa_international_526/3fba21f0ecdebd6c5ca7c755c33bde78",
+            "source": "yahoo"
+        },
+        {
+            "title": "Pakistan controls POK. So why does the territory have its own PM, President and flag?",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/world/pakistan-controls-pok-so-why-does-the-territory-have-its-own-pm-president-and-flag-article-13946720.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/11/20251106115517_PoK-2.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Rapist \u2018directed everybody\u2019 in drug ring: cops - News.com.au",
+            "severity": "WATCH",
+            "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPUG1zVTBYXzk5NFpucEpHX2ZNQVpiajRFXzlpQTlRQ1psdW1QRUdmLVhzb05YMHRpeU9sdnplME1SczVmbTRVTVp5SjJNZHpKTUpQVDd4eUhDTGQ2a0RFVGNJZWJwWjhrbkk1T1ZCT0pwdERRcUJvSFN5VlhNSFliaEsyYVdzMWlPMmRIcUppY0paSFE2a0sxaWxrT1I3cWg2dU8tYUNvbG9ibTl1TTROT3JBVGxhV0F5UC1TU2VwV3R0SXdhTWdwdEhKSGJXV2ZDcG9iMC1DeklKUjZlR3k5YXJBcUEwUDFyVGJIc2hKLUkxd0w5dklLTERUbHVNNng5Mk1jaUxRY1hTQQ?oc=5",
+            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Ethanol Stocks Rally After Government Scraps Duty On Higher Blends Till E30",
+            "severity": "WATCH",
+            "url": "https://www.ndtvprofit.com/markets/ethanol-stocks-surge-balrampur-chini-mills-praj-industries-triveni-engineering-rally-after-government-scraps-duty-on-higher-blends-till-e30-11620590",
+            "image": "https://c.ndtvimg.com/2026-06/287s7u64_ethanol-stocks_625x300_11_June_26.jpeg",
+            "source": "ndtv"
+        },
+        {
+            "title": "India gets fertiliser cost relief as NFL receives urea bids below $450/tonne: Report",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/commodities/india-gets-fertiliser-cost-relief-as-nfl-receives-urea-bids-below-450-tonne-report-13946764.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2017/03/urea.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Kmart to move checkouts back to store entrances in major retail revamp",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-15890847/Kmart-checkouts-store-entrances-major-retail-revamp.html",
+            "image": "https://i.dailymail.com/1s/2026/06/11/05/109270883-0-image-a-40_1781150505690.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "SpaceX\u2019s IPO success may rub off on Ambani",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/spacexs-ipo-success-may-rub-off-on-ambani/articleshow/131648502.cms",
+            "image": "https://img.etimg.com/thumb/msid-131648704,resizemode-4,width-1200,height-900,imgsize-25288,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "8 Universally Beloved Movies Nobody Wants to See a Remake Of",
+            "severity": "WATCH",
+            "url": "https://collider.com/universally-beloved-movies-no-remakes/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/03/forrest-gump-tom-hanks-2.jpg?w=1600&h=900&fit=crop",
+            "source": "collider"
+        },
+        {
+            "title": "Tere Naam, Rangeela sequels greenlit, but will Salman Khan and Urmila Matondkar return? Details inside",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/tere-naam-rangeela-sequels-greenlit-but-will-salman-khan-urmila-matondkar-return-details-inside-tanu-weds-manu-3-2-eros-101781147971718.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/11/1600x900/logo/Tere_Naam_Rangeela_1781150141467_1781150147923_33bf5ce1-a879-40a7-a07b-caf1284d3874.png",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "David Sullivan fallout: Why the FA, Karren Brady and West Ham have questions to answer",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7347796/2026/06/11/david-sullivan-allegations-fa-west-ham-karren-brady/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/06/10112311/GettyImages-530226958-scaled.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "Daily Briefing: PM Modi becomes India\u2019s longest-serving elected prime minister, uses \u2018historic\u2019 moment to pitch next-decade agenda",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/live-news/daily-briefing-top-news-today-10734042/",
+            "image": "https://images.indianexpress.com/2026/06/Newsletter-morning-expresso-Final-1600x900-3.jpg",
             "source": "indianexpress"
         },
         {
-            "title": "Canada\u2019s new antisemitism advisory council falls short in protecting our Jewish community - opinion",
+            "title": "\u2018Is He Messi\u2019s Childhood Friend?\u2019: Calcutta HC Questions TMC\u2019s Aroop Biswas In Stadium Chaos Case",
             "severity": "WATCH",
-            "url": "https://www.jpost.com/opinion/article-899029",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/725153",
-            "source": "jpost"
-        },
-        {
-            "title": "HC orders \u20b92 lakh compensation for man\u2019s 8-day illegal detention",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/lucknow-news/hc-orders-2-lakh-compensation-for-man-s-8-day-illegal-detention-101781114961985.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/10/1600x900/logo/The-court-further-directed-that-the-amount-be-reco_1781114959495.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.news18.com/india/is-he-messis-childhood-friend-calcutta-hc-questions-tmcs-aroop-biswas-in-stadium-chaos-case-ws-l-10142395.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/06/Untitiled-2026-06-11T085224.795-2026-06-592efef583f0f449bb8d33b2f6aa08e8-1200x800.jpg",
+            "source": "news18"
         }
     ],
-    "Last_Updated": "2026-06-11T10:48:16.532738Z"
+    "Last_Updated": "2026-06-11T16:13:22.715740Z"
 }
