@@ -1,75 +1,105 @@
 {
-    "AGRI_Score": 59.5,
-    "Velocity": "-2.1",
+    "AGRI_Score": 61.0,
+    "Velocity": "+1.5",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 61.0/100 reflects an elevated risk environment, primarily driven by heightened geopolitical conflict intensity and persistent vulnerabilities in energy and maritime security. Escalating tensions, such as the \"Ukrainian drone attack kills one in Russian border Bryansk region\" and \"North Korea condemns US missile sale approval to South Korea,\" contribute significantly to the overall score. Furthermore, while \"Persian Gulf oil flows reaching 7M bbl/day, helped by U.S. escorts\" indicates mitigation, it underscores the inherent fragility of critical energy supply routes that necessitate active protection, keeping the Energy & Maritime pillar at a critical level.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 69.2,
+        "Geopolitical Conflict Intensity": 79.6,
         "Energy & Maritime Disruption": 83.7,
-        "Trade & Supply Chain Stress": 62.2,
+        "Trade & Supply Chain Stress": 63.7,
         "Sovereign Financial Stress": 54.5,
         "Currency & Liquidity Pressure": 50.0,
         "Sanctions & Regulatory Fragmentation": 59.7,
-        "Cyber & Infrastructure Threats": 62.6,
+        "Cyber & Infrastructure Threats": 56.9,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to active hostilities and escalating international rhetoric. A \"Ukrainian drone attack kills one in Russian border Bryansk region\" demonstrates direct kinetic action, while \"North Korea condemns US missile sale approval to South Korea\" highlights rising tensions in key regions.",
+        "Energy & Maritime Disruption": "Despite current successful operations, the high score reflects the inherent risk in crucial supply lines. The report that \"Persian Gulf oil flows reaching 7M bbl/day, helped by U.S. escorts\" indicates the necessary measures to maintain flows, highlighting the underlying fragility that requires active intervention to prevent disruption.",
+        "Trade & Supply Chain Stress": "No immediate news indicates significant new disruptions to global trade routes or supply chains at this time. However, the overarching geopolitical landscape and the threat of regional conflicts suggest an underlying fragility that could quickly impact international commerce.",
+        "Sovereign Financial Stress": "Rising inflation in major emerging markets signals ongoing economic pressures on sovereign finances. \"India's retail inflation rises to 3.93% in May, experts warn more\" points to persistent domestic challenges that could necessitate difficult fiscal and monetary policy decisions.",
+        "Currency & Liquidity Pressure": "Inflationary pressures, as seen with \"India's retail inflation rises to 3.93% in May,\" can lead to currency depreciation and capital outflows. Separately, the report that \"Retail traders chase SpaceX exposure as speculative fervor spreads across markets\" indicates a potentially volatile market environment that could impact liquidity.",
+        "Sanctions & Regulatory Fragmentation": "While no new sanctions were imposed, ongoing diplomatic efforts, such as the \"US and Iran say deal closer than ever, as enriched uranium disagreements continue,\" suggest a dynamic and potentially shifting regulatory landscape. The environment is characterized by continuous negotiation and the potential for new policy actions related to international compliance.",
+        "Cyber & Infrastructure Threats": "Cybersecurity remains a significant concern, with large-scale data breaches continuing to impact critical services and consumer trust. The news that \"Charter faces lawsuit over Spectrum data breach affecting 40M\" underscores the pervasive and high-impact nature of these digital threats.",
+        "Climate & Resource Shock": "The current news feed indicates routine monitoring for environmental challenges rather than acute shocks. Efforts such as \"US Democratic lawmakers pledge to help speed up disaster recovery in Puerto Rico\" and localized weather events represent ongoing environmental management and recovery, not systemic crises."
+    },
     "All_Alerts": [
         {
-            "title": "Cushing crude stocks sit less than 2 mmbbls above operational floor amid global supply crisis",
+            "title": "Ukrainian drone attack kills one in Russian border Bryansk region",
             "severity": "HIGH",
-            "url": "https://financialpost.com/globe-newswire/cushing-crude-stocks-sit-less-than-2-mmbbls-above-operational-floor-amid-global-supply-crisis",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/06/cushing-storage-inventories.png",
-            "source": "financialpost"
+            "url": "https://www.thestar.com.my/news/world/2026/06/13/ukrainian-drone-attack-kills-one-in-russian-border-bryansk-region",
+            "image": "https://cdn.thestar.com.my/Themes/img/tsol-default-image2023.png",
+            "source": "thestar_my"
+        },
+        {
+            "title": "DOJ greenlights Warner Bros. merger with Paramount",
+            "severity": "HIGH",
+            "url": "https://www.washingtonexaminer.com/news/business/4607328/doj-greenlights-warner-bros-paramount-merger/",
+            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/06/doj-paramount-warner-bros-merger.jpg?w=696",
+            "source": "washingtonexaminer"
+        },
+        {
+            "title": "North Korea condemns US missile sale approval to South Korea, KCNA says",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/news/world/2026/06/13/north-korea-condemns-us-missile-sale-approval-to-south-korea-kcna-says",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/13/3956314.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Gothic 1 Remake Review",
+            "severity": "HIGH",
+            "url": "https://me.ign.com/en/gothic-remake/245589/gothic-1-remake-review",
+            "image": "https://sm.ign.com/t/ign_me/review/g/gothic-1-r/gothic-1-remake-review_nup4.1200.jpg",
+            "source": "ign_me"
+        },
+        {
+            "title": "NCAA believes the \u201cProtect College Sports Act\u201d would trump Brendan Sorsby\u2019s case - NBC Sports",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYkxQdV9uNElWbEJWWVdHVXBRLTBEeEJEWTc5TUp3R2o1V0c0Sk5WaXRlNmZDSndXTU8zOExvMkUzSDNsLVBRMFVXVzZRZzhLbmhCZV9jdDhkTE5XTDJsaFhPZk9xRGx2S0NnY1AwdkFycGttUldRMzc5VGd3MFpRa05WMWJFdDRFTDRuNHpuTXdZdnpMTXh3UVlTQXJTLVprUV91RFRZNUQyLTVWS2l2Z1hYSjhoQW10blREalpYaWNMMlJ5UTU2Qjl5a0pLSUI1UjNmcVZ3?oc=5",
+            "image": "https://images.pexels.com/photos/20188726/pexels-photo-20188726.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
             "title": "US Democratic lawmakers pledge to help speed up disaster recovery in Puerto Rico",
             "severity": "HIGH",
-            "url": "https://www.newsday.com/news/nation/puerto-rico-hurricanes-recovery-quakes-pablo-fema-y04230",
-            "image": "https://images.pexels.com/photos/14619626/pexels-photo-14619626.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "newsday"
+            "url": "https://abcnews.com/US/wireStory/us-democratic-lawmakers-pledge-speed-disaster-recovery-puerto-133830394",
+            "image": "https://i.abcnewsfe.com/a/fa87b210-6d35-49cf-b868-d1b9c802ba0f/wirestory_18da5ca12a3a4df8ab4501874d43d57d_16x9.jpg?w=1600",
+            "source": "abcnews"
         },
         {
-            "title": "Spencer Pratt goes nuclear and threatens to expose 'secret recordings' of his LA mayor rivals after being booted from race",
+            "title": "Brad Pitt Making Secret Moves to Gain Intel For Battle With Angelina Jolie",
             "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-15895977/spencer-pratt-los-angeles-mayor-election-karen-bass-nithya-raman-secret-recordings.html",
-            "image": "https://i.dailymail.com/1s/2026/06/12/22/109318179-0-image-a-22_1781298157333.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.tmz.com/2026/06/12/brad-pitt-attempting-to-gain-intel-for-angelina-jolie-battle/",
+            "image": "https://imagez.tmz.com/image/8a/4by3/2026/06/11/8a8b8d78930541ad834f7b34f7a9ecf7_xl.jpg",
+            "source": "tmz"
         },
         {
-            "title": "US and Iran have agreed to wording of a deal to end their war, Pakistan's prime minister says",
+            "title": "Rep. Stutzman to Newsmax: Trust Trump on Iran",
             "severity": "HIGH",
-            "url": "https://www.beaumontenterprise.com/news/world/article/us-and-iran-are-close-to-a-deal-to-end-their-war-22302700.php",
-            "image": "https://s.hdnux.com/photos/01/66/42/41/31074383/3/square_large.jpg",
-            "source": "beaumontenterprise"
+            "url": "https://www.newsmax.com/politics/iran-marlin-stutzman-donald-trump/2026/06/12/id/1259522",
+            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=12520f52-aa36-48dd-8ff8-a06e8f513d4e&SiteName=Newsmax",
+            "source": "newsmax"
         },
         {
-            "title": "What's Inside US-Iran MoU? Iran FM Araghchi Gives Details On Hormuz, Lebanon, Nuclear Issue, And More",
+            "title": "India's retail inflation rises to 3.93% in May, experts warn more",
             "severity": "HIGH",
-            "url": "https://www.timesnownews.com/world/middle-east/whats-inside-us-iran-mou-iran-fm-araghchi-gives-details-on-hormuz-lebanon-nuclear-issue-and-more-article-154585131",
-            "image": "https://images.timesnownews.com/thumb/msid-154585357,width-1280,height-720,resizemode-75/154585357.jpg",
-            "source": "timesnownews"
+            "url": "https://newsable.asianetnews.com/business/indias-retail-inflation-rises-to-393-in-may-experts-warn-more-articleshow-3h18pnv",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-571e102c-a9b1-4e0e-a38d-053662454af6.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "\u2018Breach of peace provocation\u2019: FIR against Didi over March 9 speech",
+            "title": "Charter faces lawsuit over Spectrum data breach affecting 40M",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/kolkata/breach-of-peace-provocation-fir-against-didi-over-march-9-speech/articleshow/131693326.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131693306/131693306.jpg",
-            "source": "toi"
+            "url": "https://www.al.com/news/2026/06/spectrum-customers-your-personal-information-may-have-been-compromised-in-this-massive-data-breach.html",
+            "image": "https://www.al.com/resizer/v2/ON4YZJAIU5AHFLS5SZKGWZGAQ4.jpg?auth=9d9b04a7fb416eae6bd4baf6ec2a03cbaad7d282f9de6cff9c3ea46eebb8b646&smart=true&height=1200",
+            "source": "al"
         },
         {
-            "title": "Maine disables data breach notification portal after fake disclosures",
-            "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2021/02/03/data-breach-header.jpg",
-            "source": "bleepingcomputer"
-        },
-        {
-            "title": "Karisma Kapoor remembers ex-husband Sunjay Kapur on first death anniversary with emotional note: \u2018In our hearts forever\u2019",
+            "title": "Lake restoration in Bengaluru: Why most fixes fall short",
             "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/karisma-kapoor-remembers-ex-husband-sunjay-kapur-on-first-death-anniversary-with-emotional-note-in-our-hearts-forever/articleshow/131693568.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131693569/131693569.jpg",
-            "source": "toi"
+            "url": "https://www.deccanherald.com/india/karnataka/bengaluru/lake-restoration-in-bengaluru-why-most-fixes-fall-short-4037426",
+            "image": "https://media.assettype.com/deccanherald/2026-05-28/0rt8hvgl/file8612ilk7no63bjlmkqg.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
             "title": "World Cup 2026 opening ceremony live updates, reviews on Katy Perry and other performances in USA",
@@ -79,159 +109,180 @@
             "source": "sportingnews"
         },
         {
-            "title": "Youth refused special chairs for classroom due to attendance at fee-paying school, High Court hears",
-            "severity": "MEDIUM",
-            "url": "https://www.irishtimes.com/crime-law/courts/2026/06/12/youth-refused-special-chairs-for-classroom-due-to-attendance-at-fee-paying-school-high-court-hears/",
-            "image": "https://www.irishtimes.com/resizer/v2/7FHEWBJYGBFKZAB3JBGKTDKSJ4.JPG?auth=6a9c4890630bccb60e2853ab8834231ff4442cc98f6ba6aa8a07da4fb18ba399&smart=true&width=630&height=350",
-            "source": "irishtimes"
+            "title": "Wooden floors will be shinier and dust-free if wiped with 1 natural item cleaner loves",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/life-style/property/2216299/how-to-make-wooden-floors-shinier-dust-free",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/51/590x/2216299_1.jpg",
+            "source": "expresscouk"
         },
         {
-            "title": "Alanis Morissette and Michael Buble\u0301 Kick Off World Cup in Canada With Star-Studded Open Ceremony",
+            "title": "`Inside the NBA' making the most of its 1st appearance in the finals",
             "severity": "WATCH",
-            "url": "https://www.rollingstone.com/music/music-news/world-cup-canada-alanis-morissette-michael-buble-1235574174/",
-            "image": "https://www.rollingstone.com/wp-content/uploads/2026/06/alanis-world-cup-canada.jpg",
-            "source": "rollingstone"
-        },
-        {
-            "title": "Runoffs provide Trump\u2019s next big GOP tests: From the Politics Desk",
-            "severity": "WATCH",
-            "url": "https://www.nbcnews.com/politics/politics-news/runoffs-provide-trump-big-gop-tests-politics-desk-rcna349858",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-06/260611-donald-trump-vl-459p-3fcec8.jpg",
-            "source": "nbcnews"
-        },
-        {
-            "title": "Wall Street climbs as SpaceX shares launch, oil slides on Mideast deal hopes",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/world/stocks-wall-street-oil-prices-spacex-peace-deal-6180306",
-            "image": "https://dam.mediacorp.sg/image/upload/s--KR45KH1L--/c_fill,g_auto,h_338,w_600/f_auto,q_auto/v1/mediacorp/cna/image/2026/06/13/ap26163502018974.jpg?itok=IoVynFs9",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Brooklyn bistro names basketball-themed spaghetti dish after local Knicks hero Jose Alvarado",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/06/12/us-news/patrizias-of-williamsburg-names-spagetti-after-jose-alvarado/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F06%2F061226-showing-owner-patrizias-antonio-130724987.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Sudbury police believe encampment death was a homicide",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/northern-ontario/article/sudbury-police-believe-encampment-death-was-a-homicide/",
-            "image": "https://www.ctvnews.ca/resizer/v2/S5WRU47E65CLTKGVS5EISHF3FU.jpg?auth=9ef5d5556db80e02b3501418eee05dfb9f0c09a56201bf99d4ccbf8b0e5b36b1&smart=true&width=1351&height=760",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Taiwan opposition leader seeks to ease US concerns over China stance",
-            "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/articles/taiwan-opposition-leader-seeks-ease-211526034.html",
-            "image": "https://media.zenfs.com/en/reuters.com/f38466bbf446e2c661f5ca9085d12b28",
-            "source": "yahoo"
-        },
-        {
-            "title": "How Israel's operation 'Eternal Darkness' in southern Lebanon is expanding",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-06-13/israel-s-operation-continues-to-expand-in-lebanon/106784908",
-            "image": "https://live-production.wcms.abc-cdn.net.au/6d05301b41645e6cf7ecc10017873440?impolicy=wcms_crop_resize&cropH=2385&cropW=4240&xPos=0&yPos=223&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "Elizabeth Olsen shows and films ranked from Avengers to Love & Death",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/3am/celebrity-news/elizabeth-olsen-shows-films-ranked-37289193",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37289200.ece/ALTERNATES/s615/0_GettyImages-2246632201-1.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Lockheed Martin wins $2.8B in Defense contracts for F-35, helicopters",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/lockheed-martin-wins-28b-in-defense-contracts-for-f35-helicopters-93CH-4485721",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPEC1O0W9_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Could Trump 'take back' Washington, DC, if he doesn't like new mayor?",
-            "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/news/politics/2026/06/12/trump-take-back-dc-mayor-primary/90527911007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/12/USAT/90527924007-getty-images-2280436820.jpg?crop=1023,576,x0,y0&width=1023&height=511&format=pjpg&auto=webp",
-            "source": "usatoday"
-        },
-        {
-            "title": "Trump, Nearly 80, Among World\u2019s Oldest Leaders",
-            "severity": "WATCH",
-            "url": "https://www.thedailybeast.com/donald-trump-nearly-80-among-worlds-oldest-leaders/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/XEDGKRPQCVEQRAYJNK5P3YAK4Q.jpg?auth=46a34b734f708650bb2e835614bb8dcd75fc1a39187f125d30aec2af2b7bccf7&smart=true&width=3422&height=1925",
-            "source": "thedailybeast"
-        },
-        {
-            "title": "Danni Wyatt-Hodge blasts England to record T20 World Cup win",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/danni-wyatt-hodge-blasts-england-211807929.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/q2cAWjlVcuNsOtidEvLEIQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNDkwO2NmPXdlYnA-/https://media.zenfs.com/en/the_telegraph_818/78e50292d0a4ce5e1e283fd34d133912",
-            "source": "yahoo"
-        },
-        {
-            "title": "George Furbank gives Saints farewell gift to seal thrilling playoff win against Leicester",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/george-furbank-gives-saints-farewell-212121194.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/fr9m2yrlKhNX7jlPuf7eUg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xOTIwO2NmPXdlYnA-/https://media.zenfs.com/en/theguardian_763/32921c60b6d130e9cd83041cbb60810a",
-            "source": "yahoo"
-        },
-        {
-            "title": "Form 10Q Wayfair Inc For: 12 June",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/filings/form-10q-wayfair-inc-for-12-june-93CH-4485709",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEL9Q0UZ_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Solidarity and heritage shown during CultureFest\u2019s Ukraine Night",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/regina/yorkton/article/solidarity-and-heritage-shown-during-culturefests-ukraine-night/",
-            "image": "https://www.ctvnews.ca/resizer/v2/FUAFC3MDG5BCJLJNOPJY7D7S3Y.jpg?auth=1a5a652372ceb303d75db1d4056c96bd580cca6d10d77a1bb6c739f0e5557c16&smart=true&width=4032&height=3024",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Former The View conservative voice Elisabeth Hasselbeck set to serve as guest host for Bari Weiss\u2019 CBS",
-            "severity": "WATCH",
-            "url": "https://www.the-independent.com/arts-entertainment/tv/news/elisabeth-hasselbeck-cbs-mornings-b2994936.html",
-            "image": "https://static.independent.co.uk/2026/03/02/19/15/The-View.png?width=1200&auto=webp&trim=0%2C49%2C0%2C49",
+            "url": "https://www.independent.co.uk/news/espn-nba-tnt-sports-charles-barkley-new-york-knicks-b2995017.html",
+            "image": "https://static.independent.co.uk/2026/06/13/00/ESPN_Inside_the_NBA_Basketball_32212.jpg?width=1200&auto=webp&crop=3%3A2",
             "source": "independentuk"
         },
         {
-            "title": "Ukraine turns Russia\u2019s land bridge into \u2018highway of death\u2019",
+            "title": "Persian Gulf oil flows reaching 7M bbl/day, helped by U.S. escorts, DoE secretary says",
             "severity": "WATCH",
-            "url": "https://uk.news.yahoo.com/ukraine-turns-russia-land-bridge-194333681.html",
-            "image": "https://media.zenfs.com/en/the_telegraph_818/ccab24b207a014c8d1ea2660ea54259d",
+            "url": "https://seekingalpha.com/news/4603096-persian-gulf-oil-flows-reaching-7m-bblday-helped-by-us-escorts-doe-secretary-says?feed_item_type=news",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1213764535/image_1213764535.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Canada earns first-ever World Cup point after 1-1 draw with Bosnia and Herzegovina",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/toronto/article/canada-earns-first-ever-world-cup-point-after-1-1-draw-with-bosnia-and-herzegovina/",
+            "image": "https://www.ctvnews.ca/resizer/v2/ZINQK4UCHFAVFNP5DIOWO4OIE4.jpg?auth=b5740dbf6785c8fc16dada2adc72eed545b63229404c6ab0b28822ad82c0ce51&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Ontario faces a weekend weather whiplash with storms Saturday, heavy rain Sunday",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/ontario-faces-weekend-weather-whiplash-235351608.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/e8eb2ecf87ec1a3c0fb85f0048f6801739944db40d8febb10cca80b61520bde9/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_weather_network_616%2F6da4ccc8a36e8e2f96b481f411ec9794",
             "source": "yahoo"
         },
         {
-            "title": "CBI files chargesheets in Rs 657cr fund diversion cases",
+            "title": "Retail traders chase SpaceX exposure as speculative fervor spreads across markets",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/chandigarh/cbi-files-chargesheets-in-rs-657cr-fund-diversion-cases/articleshow/131693461.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131358489/131358489.jpg",
-            "source": "toi"
+            "url": "https://uk.finance.yahoo.com/news/retail-traders-chase-spacex-exposure-235209043.html",
+            "image": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
+            "source": "yahoo"
         },
         {
-            "title": "EOW arrests two absconders in foodgrain scam",
+            "title": "Kickoff of World Cup Fan Festival in Boston draws thousands to City Hall Plaza",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/lucknow/eow-arrests-two-absconders-in-foodgrain-scam/articleshow/131693440.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
+            "url": "https://www.bostonglobe.com/2026/06/12/metro/kickoff-world-cup-fan-festival-boston-draws-thousands-city-hall-plaza/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/MFMZQDWL252CVO7QKZHQOWWE54.JPG?auth=c1a6e9dca4a2f820108161cf4c14f8eba96f8db47e30cb63b8cac13252301dcf&smart=true&width=3500&height=2341",
+            "source": "bostonglobe"
         },
         {
-            "title": "European Commission seeks further answers over Russia's participation at the Venice Biennale",
+            "title": "US and Iran say deal closer than ever, as enriched uranium disagreements continue",
             "severity": "WATCH",
-            "url": "http://www.euronews.com/2026/06/12/european-commission-seeks-further-answers-over-russias-participation-at-the-venice-biennal",
-            "image": "https://images.euronews.com/articles/stories/09/79/63/16/1440x810_cmsv2_6cc6fee9-3759-5616-ac73-6696ab3c52c5-9796316.jpg",
-            "source": "euronews"
+            "url": "https://www.sbs.com.au/news/article/us-and-iran-say-deal-closer-than-ever-as-enriched-uranium-disagreements-continue/sg6od7yfx",
+            "image": "https://assets.sbs.com.au/dims4/default/fffea8c/2147483647/strip/false/crop/3936x1809+0+412/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2F2d%2Fa1%2F02cb231840f581ffe64728b4da5a%2F20260612164964279517-original.jpg",
+            "source": "sbs"
         },
         {
-            "title": "Wallingford Police Blotter: May 20 Through May 31, 2026",
+            "title": "South Korean civic group urges \u2018One Korea\u2019 unification",
             "severity": "WATCH",
-            "url": "https://patch.com/connecticut/wallingford/wallingford-police-blotter-may-20-through-may-31-2026",
-            "image": "https://patch.com/img/cdn20/users/26251933/20260612/034631/styles/patch_image/public/new-police-lights-shutterstock-20216638___12154534306.jpg",
-            "source": "patch"
+            "url": "https://www.upi.com/Voices/2026/06/12/civic-group-urging-one-korea-unification-rejecting-two-state-theory/6841781307200/",
+            "image": "https://cdnph.upi.com/ph/st/th/6841781307200/2026/i/17813078805460/v1.5/South-Korean-civic-group-urges-One-Korea-unification.jpg",
+            "source": "upi"
+        },
+        {
+            "title": "Waubeka, Wisconsin, celebrates Flag Day as the birthplace of an American tradition",
+            "severity": "WATCH",
+            "url": "https://www.tmj4.com/news/local-news/waubeka-wisconsin-celebrates-flag-day-as-the-birthplace-of-an-american-tradition",
+            "image": "https://ewscripps.brightspotcdn.com/dims4/default/900c311/2147483647/strip/true/crop/4031x2116+0+20/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F98%2Fd3%2F2c79b22540d1b8f37be23f0948c0%2Fimage.jpeg",
+            "source": "tmj4"
+        },
+        {
+            "title": "Government bans bulk buyers from retail petrol pumps",
+            "severity": "WATCH",
+            "url": "https://www.deccanherald.com/india/government-bans-bulk-buyers-from-retail-petrol-pumps-4037224",
+            "image": "https://media.assettype.com/deccanherald/2026-03-25/rsdguiqz/file85478r9phg01le2yk42j.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Ranking launched of top 50 Scottish agriculture companies",
+            "severity": "WATCH",
+            "url": "https://www.scotsman.com/business/ranking-launched-of-top-50-scottish-agriculture-companies-8688358",
+            "image": "https://www.scotsman.com/jpim-static/image/2026/06/12/11/59/2agg.jpeg?width=1200&auto=webp&trim=0%2C65%2C0%2C65",
+            "source": "scotsman"
+        },
+        {
+            "title": "WATCH: Utah officers break down doors of St. George apartment doors for fire rescue",
+            "severity": "WATCH",
+            "url": "https://abcnews.com/video/133831543/",
+            "image": "https://i.abcnewsfe.com/a/3ff50251-aad2-4da2-b7d9-515296694f18/260612_wn_utah_vo_hpMain_16x9.jpg?w=992",
+            "source": "abcnews"
+        },
+        {
+            "title": "Giant mattress retailer to sell chain in Chapter 11 bankruptcy",
+            "severity": "WATCH",
+            "url": "https://www.thestreet.com/retail/sleep-number-to-sell-chain-in-chapter-11-bankruptcy",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTEzNzg2/mattress-store-lead-ko-031726.jpg?profile=rss",
+            "source": "thestreet"
+        },
+        {
+            "title": "Form 144 D-Wave Quantum Inc. For: 12 June",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/filings/form-144-dwave-quantum-inc-for-12-june-93CH-4485900",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXNPEL360RU_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Province points to housing, care gaps as seniors face homelessness in Metro Vancouver",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/vancouver/article/province-points-to-housing-care-gaps-as-seniors-face-homelessness-in-metro-vancouver/",
+            "image": "https://www.ctvnews.ca/resizer/v2/H5F6CLT7DVGUJJNDHLRADF6LRU.png?auth=b9a9ef26ead831cdc0abe5baa463e986b4be4cf5c0e609b3bf3b2e71dd8ef91c&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Head of Palestinian football not granted US visa to attend FIFA World Cup",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/sports/fifa-world-cup/head-of-palestinian-football-not-granted-us-visa-to-attend-fifa-world-cup-126061201239_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260612/thumb-126061201239.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Elon Musk becomes world's first trillionaire \u2014 here's what $1 trillion can buy",
+            "severity": "WATCH",
+            "url": "https://www.latimes.com/business/story/2026-06-12/elon-musk-becomes-worlds-first-trillionaire-heres-what-1-trillion-can-buy",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/786caf5/2147483647/strip/false/crop/2761x1840+0+0/resize/1486x990!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F5d%2F70%2F28ae11eb40fe84b672a9f6b47a2e%2Fcdebe71d215f47c082a174883e18478f.jpg",
+            "source": "latimes"
+        },
+        {
+            "title": "Police arrest Brampton man accused of striking officer with vehicle during traffic stop",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/toronto/local/peel/article/police-arrest-brampton-man-accused-of-striking-officer-with-vehicle-during-traffic-stop/",
+            "image": "https://www.ctvnews.ca/resizer/v2/WGDEXOQCCVBNDLKRTGGI7CU2WQ.jpg?auth=ad028bc59020a57e5eed9de6b816990eed8537556c1b2212dc457577f0dd144d&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Ben Stokes expected to play for Durham during England\u2019s second Test",
+            "severity": "WATCH",
+            "url": "https://www.nzherald.co.nz/sport/ben-stokes-expected-to-play-for-durham-during-englands-second-test/premium/EQ7NY4MFGBBYNIJ4KHOOD32NBM/",
+            "image": "https://www.nzherald.co.nz/resizer/v2/QDUMIEP7DRGPFKUY7PFZ3SIDX4.jpg?auth=335e79d9bd1684316a9834410154e12c78db6fa07cb1914d72ecca6f48a03eff&smart=true&width=300&height=300",
+            "source": "nzherald"
+        },
+        {
+            "title": "Thailand probes claim of large-scale personal data sales",
+            "severity": "WATCH",
+            "url": "https://www.bangkokpost.com/thailand/general/3270170/thailand-probes-claim-of-largescale-personal-data-sales",
+            "image": "https://static.bangkokpost.com/media/content/dcx/2026/06/13/6120665.jpeg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "Agencies probe personal data sales",
+            "severity": "WATCH",
+            "url": "https://www.bangkokpost.com/business/general/3270170/agencies-probe-personal-data-sales",
+            "image": "https://static.bangkokpost.com/media/content/dcx/2026/06/13/6120665.jpeg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "Assault in police custody: Court orders registering case against 4 Agra S-Is, 1 head constable",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/lucknow-news/assault-in-police-custody-court-orders-registering-case-against-4-agra-s-is-1-head-constable-101781288281374.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/12/1600x900/logo/The-case-has-been-registered-against-S-Is-Neelesh-_1781288279045.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Where to watch USA vs. Paraguay live streams free from anywhere",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-usa-vs-paraguay-world-cup-2026",
+            "image": "https://i.insider.com/6a2c540e50aa6577af872350?width=1200&format=jpeg",
+            "source": "insider"
+        },
+        {
+            "title": "Kaleo Collective Official Alberta Mega Summer 50/50 Raffle Participation Rules",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/edmonton/mega-summer-5050/article/kaleo-collective-official-alberta-mega-summer-5050-raffle-participation-rules/",
+            "image": "https://www.ctvnews.ca/resizer/v2/https%3A%2F%2Fstatic.themebuilder.aws.arc.pub%2Fbellmediainc%2F1730923620854.svg?auth=f1cf09be30d79f3fc423ee797e5d40ba62b742439525848fa3215fac178a9980&width=1200",
+            "source": "ctvnews"
         }
     ],
-    "Last_Updated": "2026-06-13T09:25:20.266613Z"
+    "Last_Updated": "2026-06-13T11:57:00.576567Z"
 }
