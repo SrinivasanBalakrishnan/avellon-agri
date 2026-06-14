@@ -1,218 +1,295 @@
 {
-    "AGRI_Score": 60.2,
-    "Velocity": "-0.6",
+    "AGRI_Score": 60.9,
+    "Velocity": "+0.7",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at an elevated 60.2/100, primarily driven by intense geopolitical conflict and significant energy and maritime disruption. Ongoing 'Attacks on vessels with Indian seafarers' underscore persistent threats to global shipping, while the continuous funding of conflicts, exemplified by 'Germany buys projectiles for Ukraine', sustains high conflict intensity. Vulnerability in critical energy infrastructure also remains a concern, as demonstrated by the 'Zaporozhye nuclear power plant' incident, contributing to the heightened risk profile.",
+    "AI_Brief": "The current AGRI score of 60.9 is largely driven by elevated risks in Energy & Maritime Disruption and Geopolitical Conflict Intensity. The severe 'full power outage due to incident' in the Kherson Region underscores the ongoing vulnerability of critical infrastructure amidst geopolitical tensions. This is compounded by continued active conflict, as seen in the 'US strike against Tren de Aragua leader in Venezuela,' and the complex negotiations surrounding an 'Iran peace deal,' which collectively heighten global instability and energy market uncertainty.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.9,
+        "Geopolitical Conflict Intensity": 75.5,
         "Energy & Maritime Disruption": 83.7,
-        "Trade & Supply Chain Stress": 60.7,
-        "Sovereign Financial Stress": 55.0,
+        "Trade & Supply Chain Stress": 64.1,
+        "Sovereign Financial Stress": 54.5,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 61.7,
+        "Sanctions & Regulatory Fragmentation": 61.4,
+        "Cyber & Infrastructure Threats": 61.2,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is high due to continued direct and indirect involvement in conflicts and regional tensions. The 'Germany buys projectiles for Ukraine at 6,000 euros' headline indicates sustained military engagement, while 'MPs call for end to real estate event over fear it pushes sale of Israeli settlements' highlights ongoing friction in sensitive geopolitical regions.",
-        "Energy & Maritime Disruption": "Risk in this pillar is very high, largely due to direct threats to crucial transit routes and energy infrastructure. 'Attacks on vessels with Indian seafarers' directly impact maritime safety and global trade flows, and the 'Zaporozhye nuclear power plant confirms restoration of external power supply' points to persistent vulnerabilities in vital energy assets.",
-        "Trade & Supply Chain Stress": "This pillar remains moderately stressed, primarily influenced by maritime security issues and underlying global instability. The 'Attacks on vessels with Indian seafarers' create direct impediments to shipping and trade, and despite assurances of 'sufficient fertilizer supply for Kharif 2026' in Karnataka, the mention of 'global disruptions' implies ongoing, broader supply chain challenges.",
-        "Sovereign Financial Stress": "Sovereign financial stability faces moderate pressure from ongoing military expenditures and potential systemic financial weaknesses. The 'Germany buys projectiles for Ukraine at 6,000 euros' signifies considerable government spending, while a 'Belgian court ruling could expose fraud lies' introduces a potential contagion risk for the broader financial system.",
-        "Currency & Liquidity Pressure": "This pillar shows moderate pressure, influenced by geopolitical uncertainties and potential financial system shocks. 'Elliot Abrams to Newsmax: Watch Your Wallet With Iran' indicates an environment where capital flows could be restricted or face increased scrutiny, and the potential exposure of 'fraud lies' from the Belgian court ruling could undermine investor confidence and liquidity.",
-        "Sanctions & Regulatory Fragmentation": "This area experiences moderate fragmentation and pressure, stemming from politically motivated restrictions and complex international relations. 'MPs call for end to real estate event over fear it pushes sale of Israeli settlements' illustrates calls for restrictive measures, while discussions involving Iran at the 'G7 summit' imply ongoing regulatory complexities and potential for new or expanded sanctions.",
-        "Cyber & Infrastructure Threats": "This pillar shows moderate-high risk, directly evidenced by incidents affecting critical infrastructure. The 'Zaporozhye nuclear power plant confirms restoration of external power supply' highlights the continuous threat to vital energy infrastructure, necessitating vigilant monitoring of both cyber and physical security protocols.",
-        "Climate & Resource Shock": "This pillar is currently at baseline activity, with no immediate, widespread shocks reported. While 'global disruptions' are acknowledged, the 'Pralhad Joshi assures Karnataka has sufficient fertilizer supply for Kharif 2026' indicates effective local management of critical resource availability for the foreseeable future."
+        "Geopolitical Conflict Intensity": "Active kinetic operations are ongoing, exemplified by the 'US strike against Tren de Aragua leader in Venezuela.' The complex regional dynamics are further highlighted by 'Middle East Live: Dozens protest peace deal outside Iran foreign ministry,' indicating significant internal resistance to potential diplomatic resolutions.",
+        "Energy & Maritime Disruption": "A direct and severe disruption to critical energy infrastructure is evident with the 'Kherson Region suffers full power outage due to incident.' This event, occurring within a conflict zone, significantly elevates the risk of further energy supply interruptions and potential broader maritime security concerns.",
+        "Trade & Supply Chain Stress": "Persistent geopolitical tensions, such as the 'US strike against Tren de Aragua leader in Venezuela,' implicitly strain regional trade routes and operational security due to heightened risk perceptions. While an 'UK and Japan set to agree investment deal worth \u00a318bn' suggests some positive bilateral trade developments, it does not fully mitigate existing underlying stress.",
+        "Sovereign Financial Stress": "Efforts to bolster economic ties are visible with the 'UK and Japan set to agree investment deal worth \u00a318bn,' aiming to provide some financial resilience. However, 'Institutional Capital Flows Are Reshaping Global Financial Markets in Unprecedented Ways' indicates a period of significant global market flux that can introduce underlying stress to sovereign financial stability.",
+        "Currency & Liquidity Pressure": "The dynamic nature of global finance is reflected in 'Institutional Capital Flows Are Reshaping Global Financial Markets in Unprecedented Ways,' which can introduce volatility and pressure on national currencies and liquidity. Discussions surrounding a 'peace deal with Iran' also carry implications for global oil markets and associated currency flows, with potential impacts yet to fully materialize.",
+        "Sanctions & Regulatory Fragmentation": "The potential 'peace deal with Iran' introduces significant uncertainty regarding future sanctions regimes, with 'Dozens protest peace deal outside Iran foreign ministry' indicating domestic opposition. Reports like 'How Russians skirt Putin's digital iron curtain' underscore the ongoing challenges in effectively enforcing existing sanctions and regulatory controls globally.",
+        "Cyber & Infrastructure Threats": "Critical infrastructure is under direct threat, as demonstrated by 'California water systems hit by Iranian hackers in terrifying threat to drinking supply.' This incident, alongside the jailing of an 'Ex-school district employee jailed for hacks on former employer,' highlights both state-sponsored and insider vulnerabilities to digital security and essential services.",
+        "Climate & Resource Shock": "Localized resource management concerns are present, with 'Metro Vancouver urges residents to keep saving water as temperatures rise' due to increasing temperatures. While cyberattacks on water systems occurred, the underlying environmental conditions for resource shock are currently at baseline activity with conservation efforts primarily driven by heat warnings."
     },
     "All_Alerts": [
         {
-            "title": "Attacks on vessels with Indian seafarers, Iranian \u2018service fee\u2019 may feature in IORA meet",
+            "title": "US strike against Tren de Aragua leader in Venezuela exemplifies Trump's approach to war on drugs",
             "severity": "HIGH",
-            "url": "https://www.thehindu.com/news/national/attacks-on-vessels-with-indian-seafarers-iranian-service-fee-may-feature-in-iora-meet/article71098396.ece",
-            "image": "https://th-i.thgim.com/public/incoming/grtyen/article71098645.ece/alternates/FREE_1200/fx9g6_7t_400x400.jpg",
-            "source": "thehindu"
+            "url": "https://www.beaumontenterprise.com/news/world/article/us-strike-against-tren-de-aragua-leader-in-22304176.php",
+            "image": "https://s.hdnux.com/photos/01/34/02/56/24128414/3/square_large.jpg",
+            "source": "beaumontenterprise"
         },
         {
-            "title": "Zaporozhye nuclear power plant confirms restoration of external power supply",
+            "title": "US and Pakistan say deal to end Iran war closer than ever but Tehran needs time",
             "severity": "HIGH",
-            "url": "https://tass.com/economy/2146075",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Germany buys projectiles for Ukraine at 6,000 euros \u2014 security forces",
-            "severity": "HIGH",
-            "url": "https://tass.com/world/2146077",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Despite global disruptions, Pralhad Joshi assures Karnataka has sufficient fertilizer supply for Kharif 2026",
-            "severity": "HIGH",
-            "url": "https://www.deccanherald.com/india/karnataka/despite-global-disruptions-pralhad-joshi-assures-karnataka-has-sufficient-fertilizer-supply-for-kharif-2026-4038240",
-            "image": "https://media.assettype.com/deccanherald/2025-03-28/n2d7lv3r/iStock-522391502.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Toy Story 5's New Villain Continues the Series' 30-Year War On Outside Forces",
-            "severity": "HIGH",
-            "url": "https://screenrant.com/toy-story-5-themes-outside-forces/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/06/the-tablet-from-toy-story-5.jpg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
-        },
-        {
-            "title": "MPs call for end to real estate event over fear it pushes sale of Israeli settlements",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/uk-news/2026/jun/13/uk-london-real-estate-west-bank-israel-settlements",
-            "image": "https://i.guim.co.uk/img/media/f1c4dc5082f69f33b32d3eb6d1ff8bb30876300f/614_0_3977_3182/master/3977.jpg?width=140&quality=85&auto=format&fit=max&s=78e5847195664febf521fe99d1f1f7dc",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "Two suspects detained after Harry Kane & Jude Bellingham's boots stolen from England team ahead of World Cup",
-            "severity": "HIGH",
-            "url": "https://uk.sports.yahoo.com/news/two-suspects-detained-harry-kane-153818711.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/FBNR7skcc43YQrTRnmnQrw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/goal_uk_815/16df7cea3b5954207d6973966fed3df5",
+            "url": "https://ca.news.yahoo.com/us-pakistan-deal-end-iran-213556297.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/a0fd40c1ee55aec44ff4729d25f31d5215f78f521d1c5c3650684043120c70bc/lightyear_networkapi/resizefill_w640_h428;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fpa_viral_news_704%2F164f09e10109ad85537ffa48838f6ccc",
             "source": "yahoo"
         },
         {
-            "title": "Banks Beware: Belgian court ruling could expose fraud lies",
+            "title": "Reactions as UK Army shares details of 3 compulsory assessment tests",
             "severity": "HIGH",
-            "url": "https://www.iol.co.za/news/south-africa/banks-beware-belgian-court-ruling-could-expose-fraud-lies-8526d32a-fc07-4883-8f2c-12a873440156",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/f76a1ff6964a2a79cffb44debcae0cfa726fb465/2752&operation=CROP&offset=11x0&resize=2731x1536",
-            "source": "iol"
+            "url": "https://www.legit.ng/people/1714398-recruitment-uk-army-lists-3-compulsory-tests-aspiring-soldier-face/",
+            "image": "https://cdn.legit.ng/images/1200x675/e3cbaf063dfd0fae.jpeg?v=1",
+            "source": "legit"
         },
         {
-            "title": "Trump\u2019s G7 summit plans include meetings with Middle East leaders on Iran and dinner at Versailles palace",
+            "title": "Audience disrupts tribute meeting for Thopte after event overruns at Balgandharva Auditorium",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/cities/pune-news/audience-disrupts-tribute-meeting-for-thopte-after-event-overruns-at-balgandharva-auditorium-101781372309061.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/13/1600x900/logo/As-the-delay-continued--ticket-holders-for-the-pla_1781372306542.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Mystery Potato Hovering Over Colorado Is Reported in Latest U.F.O. Files - The New York Times",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcTRzUWNzWW9FSlhQZF9MbXhNZmd0Ul9GZ2JpZ3J0VzlZMm9xSW5laENhMmtGNDRXRVhsRFg1bk9rTkgxNUdlQzBzcVZTelUxd2dUUGdTZE4xSFZsMHV2M09BTmZQbEVIWnc3MWhRNVFyVkdic1d6SEdkSjVHX3pBdnhfQkdiYW1SWTBZdi1vY3UtYmtpaTdPSEtlMnVWU253enc0Z216ZzR5RU5YTUZOZ2NR?oc=5",
+            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Duterte health up for reassessment as ICC trial nears",
+            "severity": "HIGH",
+            "url": "https://globalnation.inquirer.net/327148/duterte-health-up-for-reassessment-as-icc-trial-nears",
+            "image": "https://globalnation.inquirer.net/files/2026/01/1159300-620x413.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Trump claims peace deal with Iran to be signed",
+            "severity": "HIGH",
+            "url": "https://www.smh.com.au/world/trump-claims-peace-deal-with-iran-to-be-signed-20260614-p606kt.html",
+            "image": "https://static.ffx.io/images/w_800%2Ch_450%2Cc_fill%2Cg_auto:faces/q_86%2Cf_auto/eec8573fe334ecc8f90aff26b43ed9dec5429a30",
+            "source": "smh"
+        },
+        {
+            "title": "Ex-school district employee jailed for hacks on former employer",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2021/05/01/hacking.jpg",
+            "source": "bleepingcomputer"
+        },
+        {
+            "title": "California water systems hit by Iranian hackers in terrifying threat to drinking supply",
+            "severity": "HIGH",
+            "url": "https://nypost.com/2026/06/13/us-news/iranian-hackers-claim-breach-of-california-water-systems-after-us-strikes-on-iran/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F06%2Firanian-hacker-group-alleges-breached-130834328.jpg",
+            "source": "nypost"
+        },
+        {
+            "title": "Two phones and an app: How Russians skirt Putin's digital iron curtain",
             "severity": "MEDIUM",
-            "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-g7-summit-iran-war-middle-east-leaders-versailles-b2995221.html",
-            "image": "https://static.independent.co.uk/2026/06/13/16/45/GettyImages-2279674671.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Elliot Abrams to Newsmax: Watch Your Wallet With Iran",
-            "severity": "WATCH",
-            "url": "https://www.newsmax.com/politics/elliot-abrams-iran-ceasefire/2026/06/13/id/1259554",
-            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=c38cfabf-c4e6-43b3-9580-2d0a7f97e018&SiteName=Newsmax",
-            "source": "newsmax"
-        },
-        {
-            "title": "Alanis Morissette, Michael Buble\u0301 & More Launch Canada\u2019s 2026 World Cup Opening Ceremony",
-            "severity": "WATCH",
-            "url": "https://www.billboard.com/music/music-news/2026-world-cup-canada-opening-ceremony-alanis-morissette-1236272474/",
-            "image": "https://www.billboard.com/wp-content/uploads/2026/06/alanis-morissette-2026-world-cup-toronto-stadium-billboard-1800.png",
-            "source": "billboard"
-        },
-        {
-            "title": "This Week in Collector Car Auctions: Historical Collection Comes to Market and Modern Muscle Keeps Climbing",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/week-collector-car-auctions-historical-164007383.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/g3gB8qrDe.WeuYlj08Hx8g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTky/https://media.zenfs.com/en/motorious_297/640e71ea265fb29a32f7ea9cebafce87",
-            "source": "yahoo"
-        },
-        {
-            "title": "The Walmart Deep Dish Frozen Pizza You're Better Off Skipping",
-            "severity": "WATCH",
-            "url": "https://www.thedailymeal.com/2189597/walmart-deep-dish-frozen-pizza-skip/",
-            "image": "https://www.thedailymeal.com/img/gallery/the-walmart-deep-dish-frozen-pizza-youre-better-off-skipping/l-intro-1779981416.jpg",
-            "source": "thedailymeal"
-        },
-        {
-            "title": "Exeter Chiefs produce one of the great comebacks to reach Prem final",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/exeter-chiefs-produce-one-great-163707054.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/Qa4VWMYvRCXlcxH0T7mEGw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTAyO2NmPXdlYnA-/https://media.zenfs.com/en/the_telegraph_818/49605e9d932e401fb9dcea216c0a6ac0",
-            "source": "yahoo"
-        },
-        {
-            "title": "Trump and Macron will meet over dinner at Versailles palace after G7 summit in France",
-            "severity": "WATCH",
-            "url": "https://www.newsday.com/news/nation/trump-g7-summit-macron-versailles-france-meeting-y08845",
-            "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600",
-            "source": "newsday"
-        },
-        {
-            "title": "Quote of the Day by Duke of Sussex Prince Harry: 'Real men treat women with dignity...'-Here's a powerful quote on respecting and treating women with dignity defines true character",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-duke-of-sussex-prince-harry-real-men-treat-women-with-dignity-heres-a-powerful-quote-on-respecting-and-treating-women-with-dignity-defines-true-character/articleshow/131707017.cms",
-            "image": "https://img.etimg.com/thumb/msid-131707336,resizemode-4,width-1200,height-900,imgsize-64162,overlay-economictimes/articleshow.jpg",
+            "url": "https://economictimes.indiatimes.com/tech/technology/two-phones-and-an-app-how-russians-skirt-putins-digital-iron-curtain/articleshow/131715021.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-24044,resizemode-75,msid-131715021/tech/technology/two-phones-and-an-app-how-russians-skirt-putins-digital-iron-curtain.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Slogan Shift: Mahmood Achakzai Slams 'Hybrid Regime' As PoJK Unrest Turns Against Pakistan | Exclusive Details",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/world/slogan-shift-mahmood-achakzai-slams-hybrid-regime-as-pojk-unrest-turns-against-pakistan-exclusive-details-10148139.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/06/2197220_1781368835561-1200x800.jpg",
-            "source": "news18"
+            "title": "Metro Vancouver urges residents to keep saving water as temperatures rise",
+            "severity": "MEDIUM",
+            "url": "https://www.cbc.ca/news/canada/british-columbia/metro-vancouver-water-restrictions-9.7234695?cmp=rss",
+            "image": "https://i.cbc.ca/ais/d3d9e57e-8509-4155-bea6-223a6a223b15,1781386042395/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C338%2C6500%2C3656%29%3B",
+            "source": "cbc"
         },
         {
-            "title": "\u2018Trafficked\u2019 from Thailand to Laos, two Gujarat sisters return home 18 months later",
+            "title": "A point in hand, Canada's next goal is first FIFA World Cup victory",
             "severity": "WATCH",
-            "url": "https://indianexpress.com/article/cities/ahmedabad/operation-mahisagar-anand-sisters-rescued-laos-trafficking-10738235/",
-            "image": "https://images.indianexpress.com/2026/06/Police_20260613173455.jpg",
-            "source": "indianexpress"
+            "url": "https://www.ctvnews.ca/toronto/sports/article/a-point-in-hand-canadas-next-goal-is-first-fifa-world-cup-victory/",
+            "image": "https://www.ctvnews.ca/resizer/v2/DYHZ5P67API26D2MRFGYDEK6TU.jpg?auth=60c68dec252d8d69d86ecf991294aec2f3e0e74524ba41364eb0a72f7ac26419&smart=true&width=1400&height=933",
+            "source": "ctvnews"
         },
         {
-            "title": "Gurugram police bust interstate illegal arms network, arrest mastermind",
+            "title": "Chiefs go down fighting as Cherokee falls to Ridgewood in Group 4 final",
             "severity": "WATCH",
-            "url": "https://www.news18.com/agency-feeds/gurugram-police-bust-interstate-illegal-arms-network-arrest-mastermind-10148150.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
-            "source": "news18"
+            "url": "https://sports.yahoo.com/articles/chiefs-down-fighting-cherokee-falls-214510481.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/3qb151G0YIPigaui.wGKog--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/courier-post/31da0b8946d05eecca1131703dbb1543",
+            "source": "yahoo"
         },
         {
-            "title": "Polymarket promo code \u201cMASS\u201d updates $50 NBA and NHL Finals bonus",
+            "title": "UP minister lauds govt schemes as BJP marks 12 years at Centre",
             "severity": "WATCH",
-            "url": "https://www.masslive.com/betting/2026/06/polymarket-promo-code-mass-updates-50-nba-and-nhl-finals-bonus.html",
-            "image": "https://www.masslive.com/resizer/v2/QNEODSAAGFBZHEJHCJ3RTZFQ7M.png?auth=aa2675a0fc52946a4838da564f1bd509a68d99925c574b48c5b903c4ccc87c9a&smart=true&height=1200",
-            "source": "masslive"
+            "url": "https://www.hindustantimes.com/cities/noida-news/up-minister-lauds-govt-schemes-as-bjp-marks-12-years-at-centre-101781372371545.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/13/1600x900/logo/The-minister-was-speaking-at-a-programme-in-Noida-_1781372368940.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "The inside story of the heist that rocked the England camp: Full extent of the devastation revealed, fates of the table-tennis table and dartboard - plus the 'key witness' left behind",
+            "title": "Institutional Capital Flows Are Reshaping Global Financial Markets in Unprecedented Ways",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/sport/football/article-15897453/inside-story-heist-rocked-England-World-Cup.html",
-            "image": "https://i.dailymail.com/1s/2026/06/13/16/109327617-0-image-a-58_1781363538243.jpg",
+            "url": "https://equity-insider.com/institutional-capital-flows-are-reshaping-global-financial-markets-in-unprecedented-ways/",
+            "image": "https://equity-insider.com/wp-content/uploads/2026/06/smart-money-movement-3.jpg",
+            "source": "equity_insider"
+        },
+        {
+            "title": "UK and Japan set to agree investment deal worth \u00a318bn",
+            "severity": "WATCH",
+            "url": "https://finance.yahoo.com/economy/policy/articles/uk-japan-set-agree-investment-214127006.html",
+            "image": "https://media.zenfs.com/en/dpa_international_526/732f1d77210fd045dc32767f4d4a7c53",
+            "source": "yahoo"
+        },
+        {
+            "title": "Scotland vs. Haiti (live updates): Boston Stadium hosts 1st 2026 FIFA World Cup match tonight",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/scotland-vs-haiti-live-updates-203142301.html",
+            "image": "https://s.yimg.com/os/en/wfxt_cox_articles_703/477504415a56476747c9fc2e1cb2b414",
+            "source": "yahoo"
+        },
+        {
+            "title": "Video after mum allegedly murdered",
+            "severity": "WATCH",
+            "url": "https://au.news.yahoo.com/video-mum-allegedly-murdered-213816464.html",
+            "image": "https://media.zenfs.com/en/nca_newswire_424/27eca4310bb08acc729c25420ee6c3bb",
+            "source": "yahoo"
+        },
+        {
+            "title": "Kherson Region suffers full power outage due to incident",
+            "severity": "WATCH",
+            "url": "https://tass.com/emergencies/2146119",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
+        },
+        {
+            "title": "Middle East Live: Dozens protest peace deal outside Iran foreign ministry",
+            "severity": "WATCH",
+            "url": "https://www.france24.com/en/middle-east/20260613-middle-east-live-dozens-protest-peace-deal-outside-iran-foreign-ministry",
+            "image": "https://s.france24.com/media/display/e5273bfe-671d-11f1-b7c4-005056bfb2b6/w:1280/p:16x9/28fe482f33ac7cbb9c10cc02dee922b4d034ed98.jpg",
+            "source": "france24"
+        },
+        {
+            "title": "Look: Incredible scenes as Qatar earn first ever World Cup point",
+            "severity": "WATCH",
+            "url": "https://www.khaleejtimes.com/sports/fifa-world-cup/look-incredible-scenes-as-qatar-earn-first-ever-world-cup-point",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-06-13/tqsr9im8/2026newsmlUP1EM6D1N247J2144061577.jpeg",
+            "source": "khaleejtimes"
+        },
+        {
+            "title": "China issues guidelines on financial services data amid broader cybersecurity push",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/tech/technology/china-issues-guidelines-on-financial-services-data-amid-broader-cybersecurity-push/articleshow/131715012.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-50708,resizemode-75,msid-131715012/tech/technology/china-issues-guidelines-on-financial-services-data-amid-broader-cybersecurity-push.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "200+ unique white lie T-shirt ideas that will attract attention at a party",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/people/family-relationship/1477675-best-white-lies-party-t-shirt-ideas-attract-attention/",
+            "image": "https://cdn.legit.ng/images/1200x675/1943d8e01004d58e.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "French regenerative farms lose far less in drought, study finds, enough for 130 million baguettes",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/french-regenerative-farms-lose-far-214500971.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/5cf2e9802e8979aa54575705d5d89b93097f3abb0e1cbdc613358265abf07a3a/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cool_down_737%2Fca98821c0109a225c5abf6595ed992aa",
+            "source": "yahoo"
+        },
+        {
+            "title": "Residents protest \u2018prolonged\u2019 power outage in Noida Sector 11",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/noida-news/residents-protest-prolonged-power-outage-in-noida-sector-11-101781372311633.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/01/27/1600x900/logo/ht-generic_cities2_1769511880449_1769511907099.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Water company turned off taps in trendy seaside town during heatwave, leaving homeowners unable to flush their toilets...but let a giant solar farm use 500 gallons a day to wash its dirty panels",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-15891191/water-company-outage-solar-farm-wash-panels.html",
+            "image": "https://i.dailymail.com/1s/2026/06/13/19/109331579-0-image-a-9_1781376300840.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Where to watch Qatar vs. Switzerland live streams free from anywhere",
+            "title": "Tilting Pax Silica in our favor",
             "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-qatar-vs-switzerland-world-cup-2026",
-            "image": "https://i.insider.com/6a2c5ba624b3540ad29c2cec?width=1200&format=jpeg",
+            "url": "https://opinion.inquirer.net/192382/tilting-pax-silica-in-our-favor",
+            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "inquirer"
+        },
+        {
+            "title": "Adobe's CFO Jumps Ship To Marvell For 'Once-In-A-Generation' AI Expansion",
+            "severity": "WATCH",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/adobes-cfo-jumps-ship-marvell-213152665.html",
+            "image": "https://media.zenfs.com/en/benzinga_79/6e68f86a69849a6344a469d6c2d8a80a",
+            "source": "yahoo"
+        },
+        {
+            "title": "DraftKings promo code guarantees $200 bonus for Brazil vs. Morocco and more",
+            "severity": "WATCH",
+            "url": "https://www.mlive.com/sports-betting/2026/06/draftkings-promo-code-for-world-cup-guarantees-200-bonus-for-brazil-vs-morocco-and-more.html",
+            "image": "https://www.mlive.com/resizer/v2/B7N7IQU44ZAIPPW2OTTFJSRKAQ.jpg?auth=493afeaa24ba839b60f9b3df1eb05f368880a5f9994b875b964dabbb30fb2dc1&smart=true&height=1200",
+            "source": "mlive"
+        },
+        {
+            "title": "Howmet Aerospace (HWM) Stock Valuation Check After Q1 2026 Beat And Rising Institutional Support",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/howmet-aerospace-hwm-stock-valuation-211551086.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/QodIBkg0ZO3lphirbhH4Yg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIzODg7aD04NjQ-/https://media.zenfs.com/en/simply_wall_st__316/4a39ac79965dbdc4c586d12ea5141f62",
+            "source": "yahoo"
+        },
+        {
+            "title": "Bill Maher endorses controversial Senate candidate Graham Platner despite aspiring lawmaker's Nazi-linked tattoo and sex scandal",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-15897483/graham-platner-bill-maher-support-video-maine-senate-election.html",
+            "image": "https://i.dailymail.com/1s/2026/06/13/21/109332883-0-image-a-47_1781384195265.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Where to watch Knicks vs Spurs game 5: NBA Finals live stream, channel, odds, venue",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-nba-finals-knicks-vs-spurs-2026-g5",
+            "image": "https://i.insider.com/6a2c80400b873a3c9460c3a6?width=1200&format=jpeg",
             "source": "insider"
         },
         {
-            "title": "Saifuddin: Vital to register banned compounds quickly",
+            "title": "Here's Why Tyra Banks Is Suing Netflix Over The \"America's Next Top Model\" Documentary",
             "severity": "WATCH",
-            "url": "https://www.thestar.com.my/news/nation/2026/06/14/saifuddin-vital-to-register-banned-compounds-quickly",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/14/3957228.jpg",
-            "source": "thestar_my"
+            "url": "https://www.buzzfeed.com/chelseastewart/tyra-banks-sues-netflix",
+            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-06/13/20/thumb/-fDtKHltT.jpg?crop=1245:830;3,0&resize=1250:830&resize=1200:*",
+            "source": "buzzfeed"
         },
         {
-            "title": "IND vs AFG: Shubman Gill becomes second-fastest player to reach 3000 ODI runs",
+            "title": "Hill: Latest court ruling could officially spell the end for NCAA",
             "severity": "WATCH",
-            "url": "https://sportstar.thehindu.com/cricket/shubman-gill-second-fastest-player-to-reach-3000-odi-runs-india-vs-afghanistan/article71098507.ece",
-            "image": "https://ss-i.thgim.com/public/incoming/jjb28i/article71098505.ece/alternates/LANDSCAPE_1200/51_ODI_MATCH_INDIA_AFGHANISTAN_13_06_DHARAMSHALA.jpg",
-            "source": "sportstar"
+            "url": "https://www.reviewjournal.com/sports/sports-columns/adam-hill/hill-latest-court-ruling-could-officially-spell-the-end-for-ncaa-3837757/",
+            "image": "https://www.reviewjournal.com/wp-content/uploads/2026/06/21781682_web1_Sorsby.jpg?w=700",
+            "source": "reviewjournal"
         },
         {
-            "title": "Rohit Sharma Emulates Virender Sehwag's Huge Feat, Joins Elite List Of Openers",
+            "title": "America\u2019s Next Netflix Lawsuit: Tyra Banks Slams Streamer Over \u2018Reality Check\u2019 Docuseries\u2019 \u201cFalse Narrative\u201d",
             "severity": "WATCH",
-            "url": "https://sports.ndtv.com/cricket/rohit-sharma-emulates-virender-sehwags-huge-feat-joins-elite-list-of-openers-11632711",
-            "image": "https://c.ndtvimg.com/2026-06/meuj30b4_rohit-sharma-afp_625x300_13_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
+            "url": "https://deadline.com/2026/06/tyra-banks-defamation-suit-netflix-reality-check-docuseries-1236955745/",
+            "image": "https://deadline.com/wp-content/uploads/2026/06/GettyImages-2260329206.jpg",
+            "source": "deadline"
         },
         {
-            "title": "Bidhannagar Police Issues Third Notice to Arup Biswas in Messi Tour Case",
+            "title": "Watch Fatboy Slim play impromptu set at anti-fascism protest rally in Brighton",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/kolkata/bidhannagar-police-issues-third-notice-to-arup-biswas-in-messi-tour-case/articleshow/131707728.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131707727/131707727.jpg",
+            "url": "https://www.nme.com/news/music/watch-fatboy-slim-play-impromptu-set-at-anti-fascism-protest-rally-in-brighton-3950778",
+            "image": "https://www.nme.com/wp-content/uploads/2026/06/fatboy_slim_brighton.jpg",
+            "source": "nme"
+        },
+        {
+            "title": "Why will Friday be a day of reckoning for KPMG?",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-06-14/kpmg-faces-day-of-reckoning-parliamentary-hearing-audit-scandal/106785480",
+            "image": "https://live-production.wcms.abc-cdn.net.au/edc4b6f1835813454f2198fa464d79f2?impolicy=wcms_crop_resize&cropH=2495&cropW=4435&xPos=0&yPos=231&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "RPSC files cyber FIR after recruitment portal tampering bid, 3 applications withdrawn illegally",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/jaipur/rpsc-files-cyber-fir-after-recruitment-portal-tampering-bid-3-applications-withdrawn-illegally/articleshow/131712084.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131712083/131712083.jpg",
             "source": "toi"
-        },
-        {
-            "title": "Sales of this car explode 593% in a month, highest in nearly 2.5 years, priced from Rs 12 lakh",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/automobile/sales-of-this-car-explode-593-in-a-month-highest-in-nearly-2-5-years-priced-from-rs-12-lakh-article-13948856.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260613151200_Honda-City-2026.jpg",
-            "source": "moneycontrol"
         }
     ],
-    "Last_Updated": "2026-06-14T04:47:47.169809Z"
+    "Last_Updated": "2026-06-14T09:46:28.360274Z"
 }
