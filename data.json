@@ -1,286 +1,232 @@
 {
-    "AGRI_Score": 62.0,
-    "Velocity": "+0.2",
+    "AGRI_Score": 61.3,
+    "Velocity": "-0.7",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The current AGRI score of 61.3/100, while elevated, reflects a significant de-escalation in a major geopolitical flashpoint, predominantly influencing the Energy & Maritime Disruption and Geopolitical Conflict Intensity pillars. The \"US, Iran reach deal to end war\" and \"Trump says Hormuz will be free\" headlines are the primary drivers for this shift, leading to a noticeable \"Oil prices tumble after US, Iran agree to end war, reopen Hormuz.\" However, the score remains above a routine monitoring level as \"Oil and gas supplies could take months to return to normal after Iran deal,\" indicating lingering logistical hurdles despite the peace agreement.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 81.3,
+        "Geopolitical Conflict Intensity": 73.9,
         "Energy & Maritime Disruption": 83.7,
-        "Trade & Supply Chain Stress": 66.6,
-        "Sovereign Financial Stress": 55.0,
+        "Trade & Supply Chain Stress": 66.5,
+        "Sovereign Financial Stress": 54.5,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.4,
-        "Cyber & Infrastructure Threats": 61.4,
-        "Climate & Resource Shock": 25
+        "Sanctions & Regulatory Fragmentation": 57.0,
+        "Cyber & Infrastructure Threats": 56.9,
+        "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Despite a current high score, a major conflict has been resolved as \"US, Iran reach deal to end war\" and \"Deal is reached to end Iran war and Trump orders stop to US naval blockade.\" This dramatically reduces immediate conflict intensity, though regional geopolitical dynamics require continued close observation.",
+        "Energy & Maritime Disruption": "This pillar, while previously critically high, is experiencing immediate relief due to the peace agreement, leading to \"Oil prices tumble over 4% after US-Iran peace deal eases supply fears in Strait of Hormuz.\" However, full normalization will be gradual as \"Oil and gas supplies could take months to return to normal after Iran deal,\" indicating a prolonged recovery for supply chains.",
+        "Trade & Supply Chain Stress": "The reopening of the Strait of Hormuz, as authorized by Trump stating, \"'Let the oil flow!',\" is a crucial development that will significantly alleviate maritime trade bottlenecks. This resolution is expected to reduce broad supply chain pressures that were exacerbated by the prior conflict.",
+        "Sovereign Financial Stress": "Financial markets have reacted positively to the peace agreement, with \"Gold gains over 1% after US, Iran reach peace deal\" and \"Shares jump, oil skids in Asia on news of Gulf deal.\" This indicates improved investor sentiment and a reduction in the immediate systemic financial risk previously associated with the conflict.",
+        "Currency & Liquidity Pressure": "Global financial uncertainty has diminished following the US-Iran peace deal, contributing to an easing of general market pressures on currencies and liquidity. The overall positive market reaction suggests a reduction in the flight-to-safety dynamic that often strains liquidity during times of conflict.",
+        "Sanctions & Regulatory Fragmentation": "While the deal ends military conflict, specifics on the easing or removal of existing sanctions and their complex regulatory implications are not yet detailed. However, the movement towards peace opens a potential pathway for de-escalation in sanctions regimes, reducing future fragmentation risks.",
+        "Cyber & Infrastructure Threats": "Internal information security concerns remain relevant, highlighted by \"Trump \u2018Furious\u2019 Over Belief That Situation Room Audio Was Leaked to NYT Journalists.\" Such incidents underscore the persistent challenges in protecting sensitive government communications and critical infrastructure from various threats.",
+        "Climate & Resource Shock": "This pillar currently indicates baseline activity, with no widespread acute shocks reported globally. However, localized challenges persist, exemplified by the \"State to ensure drinking water supply till August 31 amid rainfall deficit,\" requiring targeted resource management."
+    },
     "All_Alerts": [
         {
-            "title": "The 2023 war film with 98% audience Rotten Tomatoes score now on Prime TV",
+            "title": "Who won the Iran-US war \u2014 Trump or Tehran? And who lost?",
             "severity": "HIGH",
-            "url": "https://www.express.co.uk/entertainment/films/2217228/2023-war-film-98-audience",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/36/590x/2217228_1.jpg",
-            "source": "expresscouk"
+            "url": "https://indianexpress.com/article/world/who-won-iran-war-trump-tehran-pakistan-munir-netanyahu-100-days-analysis-10738761/",
+            "image": "https://images.indianexpress.com/2026/06/US-8-5.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Kremlin may be forced into unpopular mobilization as recruitment campaign falters - report",
+            "title": "US, Iran reach deal to end war",
             "severity": "HIGH",
-            "url": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-899367",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/720177",
-            "source": "jpost"
+            "url": "https://www.bostonherald.com/2026/06/14/us-iran-reach-deal-to-end-war/",
+            "image": "https://www.bostonherald.com/wp-content/uploads/2026/06/GettyImages-2280239199.jpg?w=1400px&strip=all",
+            "source": "bostonherald"
         },
         {
-            "title": "Iran threatens 'strong response' to Beirut strike as Trump says US-Iran deal remains on track",
+            "title": "Gold gains over 1% after US, Iran reach peace deal",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/iran-threatens-strong-response-to-beirut-strike-as-trump-says-us-iran-deal-remains-on-track-article-13949305.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260614170144_iranflagnew.png",
-            "source": "moneycontrol"
+            "url": "https://sg.finance.yahoo.com/news/gold-gains-over-1-us-000128849.html",
+            "image": "https://images.pexels.com/photos/15407743/pexels-photo-15407743.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo_sg"
         },
         {
-            "title": "Bandits kill three, burn houses in popular northern state",
+            "title": "'Deal with Iran complete': Trump says Hormuz will be free; signing expected in Geneva on Friday",
             "severity": "HIGH",
-            "url": "https://www.legit.ng/nigeria/1714472-tragedy-bandits-kill-3-set-houses-ablaze-fresh-attack/",
-            "image": "https://cdn.legit.ng/images/1200x675/4209fdf1d6ae99f5.jpeg?v=1",
-            "source": "legit"
+            "url": "https://www.firstpost.com/world/trump-says-deal-with-iran-reached-toll-free-shipping-strait-of-hormuz-naval-blockade-lifted-war-ends-west-asia-14022456.html",
+            "image": "https://images.firstpost.com/uploads/2026/04/iran-war-2026-04-0a3edfbf307b58e6532018b1b65573f0.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "Ron DeSantis takes veiled shot at Trump as Florida GOP civil war goes nuclear",
+            "title": "Deal is reached to end Iran war and Trump orders stop to US naval blockade - AP News",
             "severity": "HIGH",
-            "url": "https://www.rawstory.com/trump-desantis-2677038139/",
-            "image": "https://www.rawstory.com/media-library/u-s-president-donald-trump-florida-governor-ron-desantis-and-u-s-homeland-security-secretary-kristi-noem-visit-a-medical-tent.jpg?id=61133587&width=980",
-            "source": "rawstory"
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdVZrMms1bUJyekVvUnptMmhBSE9sLUFRT05xSTAyci1SaEdXSUhXTjNLWEt6Ry1qX1k5Z2ROeXZNUkFIYTJsWkFYRzdSWXQ4M294ZHRLcXU2RmJEVzZPNmNwd2ZacWMzVFdJdW5Bb2wybFZpV2g1bTBQY1FaRTBneHgxSVZ2cVkxall4QU9nWQ?oc=5",
+            "image": "https://images.pexels.com/photos/18959222/pexels-photo-18959222.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Residents block road over frequent power cuts",
+            "title": "Oil slips 4% as US, Iran reach peace deal to reopen Strait of Hormuz",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/trichy/residents-block-road-over-frequent-power-cuts/articleshow/131725120.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131725118/131725118.jpg",
-            "source": "toi"
+            "url": "https://www.thestar.com.my/business/business-news/2026/06/15/oil-slips-4-as-us-iran-reach-peace-deal-to-reopen-strait-of-hormuz",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/15/3958633.jpeg",
+            "source": "thestar_my"
         },
         {
-            "title": "West Asia crisis, commodity imports hurting rupee: FM",
+            "title": "Iran's World Cup experience is less joyful amid war with host US, team captain says before debut",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/bengaluru/west-asia-crisis-commodity-imports-hurting-rupee-fm/articleshow/131725105.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131725103/131725103.jpg",
-            "source": "toi"
+            "url": "https://www.wfaa.com/article/sports/soccer/world-cup/irans-world-cup-experience-is-less-joyful-amid-war-with-host-us-team-captain-says-before-debut/616-5aa90aef-7ab8-4ea5-a276-cec50a8836a4",
+            "image": "https://images.pexels.com/photos/9808743/pexels-photo-9808743.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "wfaa"
         },
         {
-            "title": "America no longer has the stomach for war - opinion",
+            "title": "Oil prices tumble after US, Iran agree to end war, reopen Hormuz",
             "severity": "HIGH",
-            "url": "https://www.jpost.com/opinion/article-899090",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/725252",
-            "source": "jpost"
+            "url": "https://au.investing.com/news/commodities-news/oil-prices-tumble-after-us-iran-agree-to-end-war-reopen-hormuz-4486254",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEM280Y8_1200_L.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "'What is going on!?' - Breach races through for try in chaotic start to semi-final",
+            "title": "Oil and gas supplies could take months to return to normal after Iran deal, energy experts say",
             "severity": "HIGH",
-            "url": "https://www.tntsports.co.uk/rugby/pwr/2025-2026/what-is-going-on-jess-breach-races-through-for-try-in-chaotic-start-to-pwr-semi-final-between-saracens-and-exeter_vid60082204/video.shtml",
-            "image": "https://i.eurosport.com/2026/06/14/image-64017c70-418f-487b-8a1f-a1095dc70e2e-68-310-310.jpeg",
-            "source": "eurosport_com"
+            "url": "https://www.beaumontenterprise.com/business/article/oil-and-gas-supplies-could-take-months-to-return-22305097.php",
+            "image": "https://s.hdnux.com/photos/01/66/44/52/31083140/3/square_large.jpg",
+            "source": "beaumontenterprise"
         },
         {
-            "title": "Camp Pendleton breach during pursuit leads to over 112 pounds of cocaine, fentanyl seized",
+            "title": "Trump \u2018Furious\u2019 Over Belief That Situation Room Audio Was Leaked to NYT Journalists | Report",
             "severity": "HIGH",
-            "url": "https://abc7.com/post/camp-pendleton-breach-during-pursuit-leads-to-major-drug-bust/19295883/",
-            "image": "https://cdn.abcotvs.com/dip/images/19293380_061326-kabc-1030pm-camp-pendleton-breach-vid.jpg",
-            "source": "abc7"
-        },
-        {
-            "title": "Joe Rogan Thinks Bernie Sanders Changed His Target To Billionaires Once He Became A Millionaire Himself. 'It's Adorable In Its Transparency'",
-            "severity": "MEDIUM",
-            "url": "https://www.benzinga.com/news/topics/26/06/53185727/joe-rogan-thinks-bernie-sanders-changed-his-target-to-billionaires-once-he-became-a-millionaire-himse",
-            "image": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/06/14/Joe-Rogan-Smiles-In-A-Closeup-Shot-Again.jpeg",
-            "source": "benzinga"
-        },
-        {
-            "title": "Donald Trump to meet West Asia partners on sidelines of G7 in France",
-            "severity": "MEDIUM",
-            "url": "https://www.business-standard.com/world-news/trump-to-meet-west-asia-partners-on-sidelines-of-g7-in-france-126061400846_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260614/thumb-126061400846.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "India Pushes 'Make in India' in Rafale Talks, Focus on Co-Production",
-            "severity": "MEDIUM",
-            "url": "https://newsable.asianetnews.com/world/india-pushes-make-in-india-in-rafale-talks-focus-on-coproduction-articleshow-8ekv7bw",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-026159c0-dfc0-4bf1-acb6-3b3d1c3466e1.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "GDP preview: \u2018Calm before the storm\u2019 as good growth expected before oil shock hit",
-            "severity": "MEDIUM",
-            "url": "https://www.nzherald.co.nz/business/gdp-preview-calm-before-the-storm-good-growth-expected-before-the-oil-shock-hit/premium/2AYURLIOYZCX3ENEVH5EJXPD6M/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/WUK7ZMTMVFBLPI7FT64TXVJ5QA.jpg?auth=57d5dfb11731af3d0d76a17fb3938495bdee0aedee8ed1ebdd4f31e36a6f199e&smart=true&width=300&height=300",
-            "source": "nzherald"
-        },
-        {
-            "title": "New Zealand M&A market gains momentum as dealmakers eye 2026 opportunities - Silvana Schenone",
-            "severity": "MEDIUM",
-            "url": "https://www.nzherald.co.nz/business/business-reports/capital-markets-report/new-zealand-ma-market-gains-momentum-as-dealmakers-eye-2026-opportunities-silvana-schenone/premium/BWNUUTW5NNBOBHSYYF3UBVRYWE/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/3RHRESFUL5FQ3BEDNETQE5M5PI.jpg?auth=732d2b8e033fa5f6aedf09f2645bb21d475439c8534f8eda99443073669fa892&smart=true&width=300&height=300",
-            "source": "nzherald"
-        },
-        {
-            "title": "How To Buy a Used EV: Range, Battery Health and What To Check",
-            "severity": "WATCH",
-            "url": "https://www.abc4.com/automotive/how-to-buy-a-used-ev-range-battery-health-and-what-to-check/",
-            "image": "https://www.abc4.com/wp-content/uploads/sites/4/2026/06/AP24211490091975-e1781271085610.jpg?strip=1",
-            "source": "abc4"
-        },
-        {
-            "title": "'Gorgeous' Jennifer Hudson stuns in form-fitting dress for rare appearance alongside boyfriend Common",
-            "severity": "WATCH",
-            "url": "https://www.hellomagazine.com/us/907270/jennifer-hudson-common-rare-special-outing/",
-            "image": "https://images.hellomagazine.com/horizon/landscape/4d1e779a2833-gettyimages-2175498323.jpg",
-            "source": "hellomagazine"
-        },
-        {
-            "title": "Top 5 Powers Spider-Man Lost",
-            "severity": "WATCH",
-            "url": "https://comicbook.com/comics/list/top-5-powers-spider-man-lost/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/06/Symbiote-Spider-Man-Doctor-Strange.jpg",
-            "source": "comicbook"
-        },
-        {
-            "title": "This $16 Whimsigoth Blush Looks Dark & Moody but Shoppers Say It\u2019s \u2018So Natural\u2019",
-            "severity": "WATCH",
-            "url": "https://shopping.yahoo.com/beauty/makeup/articles/16-whimsigoth-blush-looks-dark-170000216.html",
-            "image": "https://media.zenfs.com/en/sheknows_ecomm_265/c29323c37829aecd23160f6ff1c51a47",
+            "url": "https://ca.news.yahoo.com/trump-furious-over-belief-situation-232312419.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/900acd149bc6fc687044ff814361c9bd0b09b1f797ece66057931b7c43f478da/lightyear_networkapi/resizefill_w1024_h576;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthewrap.com%2Feb3310a3b773d005c6ad7fc9632e123a",
             "source": "yahoo"
         },
         {
-            "title": "Noida Airport\u2019s promises and portents at take-off",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/opinion/noida-airport-s-promises-and-portents-at-takeoff-101781456576941.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/14/1600x900/logo/The-commencement-of-operations-offers-a-much-neede_1781456575014.jpg",
-            "source": "hindustantimes"
+            "title": "Nifty\u2019s hidden discount sale: 54% of top Indian stocks are cheaper now than in 2023. Is it time to buy?",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/niftys-hidden-discount-sale-54-of-top-indian-stocks-are-cheaper-now-than-in-2023-is-it-time-to-buy/articleshow/131732647.cms",
+            "image": "https://img.etimg.com/thumb/msid-131732754,resizemode-4,width-1200,height-900,imgsize-2832789,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "India needs China-style social discipline for progress",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/opinion/india-needs-china-style-social-discipline-for-progress-101781456574860.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/14/1600x900/logo/People-credit-the-dictatorial-Chinese-government-f_1781456572482.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Fisherfolk return to sea with hope as annual ban ends",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/trichy/fisherfolk-return-to-sea-with-hope-as-annual-ban-ends/articleshow/131725472.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131725486/131725486.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "FBI says Russian hackers hijacked old Wi-Fi routers",
-            "severity": "WATCH",
-            "url": "https://www.foxnews.com/tech/fbi-says-russian-hackers-hijacked-old-wi-fi-routers",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/09/931/523/router-security-photo-2.jpg?ve=1&tl=1",
-            "source": "foxnews"
-        },
-        {
-            "title": "No succour for families a year after the AI crash",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/editorials/no-succour-for-families-a-year-after-the-ai-crash-101781456577156.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/14/1600x900/logo/Apart-from-saying-that-the-inquiry-was-proceeding-_1781456574733.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "CM Dhami lauds intellectuals as 'opinion makers' for Uttarakhand's future",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/cm-dhami-lauds-intellectuals-as-opinion-makers-for-uttarakhands-future-articleshow-535l6ap",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-0f443daf-72b7-486f-8bdc-d9395ea4dc6c.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Wyatt calls for Indigenous Procurement Policy to be shut down if \u2018black clad\u2019 rorts continue",
-            "severity": "WATCH",
-            "url": "https://www.smh.com.au/national/western-australia/wyatt-calls-for-indigenous-procurement-policy-to-be-shut-down-if-black-clad-rorts-continue-20260614-p606oh.html",
-            "image": "https://static.ffx.io/images/$zoom_0.3521%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_163%2C$y_5/t_crop_custom/q_86%2Cf_auto/b7546cbe0ced6bfdba703281c1014f20a9a1aa0d",
-            "source": "smh"
-        },
-        {
-            "title": "Logan Jones worked with the second team throughout offseason practices behind starter Garrett Bradbury.",
-            "severity": "WATCH",
-            "url": "https://www.si.com/nfl/bears/onsi/predicting-bears-53-man-roster-minicamp-2026",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4300,h_2418,x_0,y_122/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/bear_digest/01kv1ydw60cvgvzrg018.jpg",
-            "source": "si"
-        },
-        {
-            "title": "Polymarket announces new $50 promo code \u201cOREGON\u201d for UFC Freedom 250",
-            "severity": "WATCH",
-            "url": "https://www.oregonlive.com/betting/2026/06/polymarket-announces-new-50-promo-code-oregon-for-ufc-freedom-250.html",
-            "image": "https://www.oregonlive.com/resizer/v2/22MXZKH2WRAQ3GCLWCGFNA7LGY.png?auth=ab2a4a6bf587c9478e987b7f96a3b6ac3103f89ec322db92035438e1d2aff124&smart=true&height=1200",
-            "source": "oregonlive"
-        },
-        {
-            "title": "Half-naked heir to raisin empire lands in handcuffs after hurling vile insults at Jewish neighbors from balcony of $5.3m mansion",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15898753/California-palisades-Bruce-Lion-raisin-antisemitic-slurs-mansion-arrested.html",
-            "image": "https://i.dailymail.com/1s/2026/06/14/17/109345053-0-image-a-13_1781455348863.jpg",
+            "title": "Trump says peace deal with Iran is now complete and authorizes full opening of Strait of Hormuz: 'Let the oil flow!'",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.com/news/article-15899569/Trump-peace-deal-Iran-open-Strait-Hormuz-oil.html",
+            "image": "https://i.dailymail.com/1s/2026/06/14/22/109348171-0-image-a-3_1781474072399.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Netflix's 10/10 Action Series Is One Of The Greatest Revenge Stories Ever Told",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/blue-eye-samurai-netflix-best-revenge-stories/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/06/blue_eye_samurai_u_s1_e5_00_36_51_22_r-scaled.jpg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
+            "title": "Shares jump, oil skids in Asia on news of Gulf deal",
+            "severity": "MEDIUM",
+            "url": "https://www.thestar.com.my/business/business-news/2026/06/15/shares-jump-oil-skids-in-asia-on-news-of-gulf-deal",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/15/3958638.jpg",
+            "source": "thestar_my"
         },
         {
-            "title": "Auburn head coach Alex Golesh hinted at another Tiger commitment on Saturday morning.",
-            "severity": "WATCH",
-            "url": "https://www.si.com/college/auburn/recruiting/alex-golesh-teases-potential-defensive-line-commitment",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3600,h_2025,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/auburn_daily/01kv3ghvzmgb8a8x4xzw.jpg",
-            "source": "si"
+            "title": "State to ensure drinking water supply till August 31 amid rainfall deficit",
+            "severity": "MEDIUM",
+            "url": "https://www.hindustantimes.com/cities/pune-news/state-to-ensure-drinking-water-supply-till-august-31-amid-rainfall-deficit-101781464918270.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/14/1600x900/logo/Chairing-a-review-meeting-on-water-storage-in-dams_1781464914891.jpeg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Where to watch Netherlands vs. Japan live streams free from anywhere",
-            "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-netherlands-vs-japan-world-cup-2026",
-            "image": "https://i.insider.com/6a2c88419ab49a561171f35c?width=1200&format=jpeg",
-            "source": "insider"
+            "title": "Oil prices tumble over 4% after US-Iran peace deal eases supply fears in Strait of Hormuz",
+            "severity": "MEDIUM",
+            "url": "https://www.moneycontrol.com/world/oil-prices-tumble-over-4-after-us-iran-peace-deal-eases-supply-fears-in-strait-of-hormuz-article-13949385.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260615001313_oil.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Ben Stokes could play for Durham after being stood down by England",
-            "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/news/ben-stokes-could-play-durham-165805490.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/IlRhDneqDm1UUVBmPeRfAQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY1OTtjZj13ZWJw/https://media.zenfs.com/en/pa-sport.com/64357933e7823923042d1d0506096a84",
+            "title": "Iran World Cup coach says 'impacted' by politics but ignoring 'hype'",
+            "severity": "MEDIUM",
+            "url": "https://sports.yahoo.com/articles/iran-world-cup-coach-says-002347065.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/P8E0uz3nMpjstd_fDXYxkg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE1MzY7aD0xMDI0O2NmPXdlYnA-/https://media.zenfs.com/en/afp.com/58c0da9c60b6e398b9ce456b7ffe3d0f",
             "source": "yahoo"
         },
         {
-            "title": "Explosive new book on Trump sparks alarm in White House amid fears sensitive conversations were taped: report",
+            "title": "Trump team outraged after reporters obtain 'sensitive' leaked audio of Situation Room meetings for new book",
+            "severity": "MEDIUM",
+            "url": "https://www.dailymail.com/news/article-15899311/Trump-outraged-leaked-audio-Situation-Room.html",
+            "image": "https://i.dailymail.com/1s/2026/06/14/23/109348991-0-image-a-31_1781476533415.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Germany\u2019s Steinmeier visits Manila as Marcos eyes stronger defence, trade, and Indo-Pacific ties",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-haberman-book-situation-room-b2995492.html",
-            "image": "https://static.independent.co.uk/2026/04/19/15/2221286216.jpg?width=1200&auto=webp&crop=3%3A2",
+            "url": "https://gulfnews.com/world/asia/philippines/germanys-steinmeier-visits-manila-as-marcos-eyes-stronger-defence-trade-and-indo-pacific-ties-1.500574389",
+            "image": "https://media.assettype.com/gulfnews/2026-06-15/t2r8o6vg/germany-PH-leaders.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Capricorn Horoscope Today: June 15, 2026",
+            "severity": "WATCH",
+            "url": "https://www.vogue.in/content/capricorn-horoscope-today-june-15-2026",
+            "image": "https://assets.vogue.in/photos/6912e055a26e3c01d1b39cf3/16:9/w_1920,h_1080,c_limit/12-Capricorn_16;9.png",
+            "source": "vogue"
+        },
+        {
+            "title": "Bato Dela Rosa\u2019s camp surrenders 20 firearms, says PNP",
+            "severity": "WATCH",
+            "url": "https://newsinfo.inquirer.net/2246318/dela-rosas-camp-surrenders-20-guns-pnp",
+            "image": "https://newsinfo.inquirer.net/files/2026/06/15june2026-bato1-620x409.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Helicopter with American singer Oliver Tree on passenger list collides with another in Brazil, killing 6",
+            "severity": "WATCH",
+            "url": "https://www.wmur.com/article/brazil-helicopter-crash-oliver-tree/71582984",
+            "image": "https://kubrick.htvapps.com/htv-prod/images/3cabc162-f7f2-48d6-aff1-25c4e60f810e.jpg?crop=1.00xw:0.846xh;0,0.137xh&resize=1200:*",
+            "source": "wmur"
+        },
+        {
+            "title": "Christopher Luxon and Winston Peters welcome US-Iran deal",
+            "severity": "WATCH",
+            "url": "https://www.rnz.co.nz/news/political/598213/christopher-luxon-and-winston-peters-welcome-us-iran-deal",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "Don\u2019t allow AAP govt\u2019s good work to come to halt: Kejriwal",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/dont-allow-aap-govt-s-good-work-to-come-to-halt-kejriwal-101781462764009.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/14/1600x900/logo/AAP-national-convener-Arvind-Kejriwal--chief-minis_1781464555005.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "SEBI Board to consider Open Market Buyback Revival, tweak in pricing norms for relisted stocks, Easier MF borrowing and measure for agri-commodity",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/markets/sebi-board-to-consider-open-market-buyback-revival-tweak-in-pricing-norms-for-relisted-stocks-easier-mf-borrowing-and-measure-for-agri-commodity-13949194.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260223113855_SEBI.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Scammers robbed victims of almost \u00a31.3bn last year, as tech firms blamed for 'profiting from devastating crimes'",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/money/beatthescammers/article-15895385/Scammers-robbed-victims-1-3bn-year-tech-firms-blamed-profiting-devastating-crimes.html",
+            "image": "https://i.dailymail.com/1s/2026/06/12/15/109309329-0-image-a-4_1781275262780.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Where to watch Sweden vs. Tunisia free live stream from anywhere",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-sweden-vs-tunisia-world-cup-2026",
+            "image": "https://i.insider.com/6a2f0d640b873a3c9460c94e?width=1200&format=jpeg",
+            "source": "insider"
+        },
+        {
+            "title": "Where to watch UFC Freedom 250 at the White House: Topuria vs Gaethje live stream",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-ufc-freedom-250-2026",
+            "image": "https://i.insider.com/6a2c6f3b9ab49a561171f276?width=1200&format=jpeg",
+            "source": "insider"
+        },
+        {
+            "title": "Iran\u2019s tiny diaspora doesn\u2019t agree on much in Tijuana, except Team Melli",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/sport/football/iran-world-cup-diaspora-tijuana-team-melli-flag-b2995579.html",
+            "image": "https://static.independent.co.uk/2026/06/14/20/37/AP26158857026629.jpg?width=1200&auto=webp&crop=3%3A2",
             "source": "independentuk"
         },
         {
-            "title": "Team Trump Panics Over Possible Situation Room Leak",
+            "title": "Trailfinders set up Saracens final after stunning upset ends Gloucester\u2019s reign",
             "severity": "WATCH",
-            "url": "https://www.thedailybeast.com/team-trump-panics-over-possible-situation-room-leak/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/NQZAGGGRH5DFBEH2DWDR7AHTXU.JPG?auth=458a3e2b76bd0785e8daf7aed8a616304adbeb799a7df20c0b624598952fddb3&smart=true&width=5500&height=3667",
-            "source": "thedailybeast"
-        },
-        {
-            "title": "White House Suspects Leaked Audio Used in New Book",
-            "severity": "WATCH",
-            "url": "https://www.newsmax.com/politics/white-house-regime-change-new-york-times/2026/06/14/id/1259611",
-            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=a7b527c9-e0cc-43da-af5b-4ee5aa244406&SiteName=Newsmax",
-            "source": "newsmax"
-        },
-        {
-            "title": "Tyra Banks sues Netflix, claims documentary edited interview to imply 'America's Next Top Model' cover-up",
-            "severity": "WATCH",
-            "url": "https://www.foxnews.com/entertainment/tyra-banks-sues-netflix-claims-documentary-edited-interview-imply-americas-next-top-model-cover",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/09/931/523/TyraBanks.jpg?ve=1&tl=1",
-            "source": "foxnews"
-        },
-        {
-            "title": "Southington Police Logs: May 26 to June 8, 2026",
-            "severity": "WATCH",
-            "url": "https://patch.com/connecticut/southington/southington-police-logs-may-26-june-8-2026",
-            "image": "https://patch.com/img/cdn20/users/25990360/20260527/020831/styles/patch_image/public/southington-police-department-arrest-log-logo___27140754580.jpg",
-            "source": "patch"
+            "url": "https://uk.sports.yahoo.com/news/saracens-face-trailfinders-final-historic-203344214.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/p4ZY6ttX6i1w8e1GJUKLiA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xOTIwO2NmPXdlYnA-/https://media.zenfs.com/en/theguardian_763/162583285ff19361b2765586651995d8",
+            "source": "yahoo"
         }
     ],
-    "Last_Updated": "2026-06-15T05:03:13.457737Z"
+    "Last_Updated": "2026-06-15T12:29:23.615967Z"
 }
