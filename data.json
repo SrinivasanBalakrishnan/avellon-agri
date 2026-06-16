@@ -1,300 +1,253 @@
 {
-    "AGRI_Score": 64.2,
-    "Velocity": "+1.3",
+    "AGRI_Score": 62.1,
+    "Velocity": "-2.1",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently sits at 62.1, primarily driven by significant 'Energy & Maritime Disruption' and heightened 'Geopolitical Conflict Intensity'. Ongoing discussions around a new Iran nuclear deal and its potential impact on the Strait of Hormuz, as highlighted by news such as 'WH Touts Hormuz Reopening, but Some Key Details May Yet Be in Flux' and 'Oil Holds Decline as Traders Seek Clarity on Hormuz Reopening', are creating considerable market uncertainty and policy debate. Furthermore, the high severity of the B52 Bomber crash underscores an elevated baseline of military incidents, contributing to the overall geopolitical risk perception.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.7,
+        "Geopolitical Conflict Intensity": 71.4,
         "Energy & Maritime Disruption": 83.7,
-        "Trade & Supply Chain Stress": 66.4,
+        "Trade & Supply Chain Stress": 63.4,
         "Sovereign Financial Stress": 54.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 61.2,
-        "Cyber & Infrastructure Threats": 61.3,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 62.0,
         "Climate & Resource Shock": 45
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar's elevated score reflects the ongoing geopolitical maneuvering around the 'Trump administration is touting a new nuclear deal with Iran' and the 'B52 Bomber Crash at Edwards Air Force'. These events signal active diplomatic tensions and military readiness, even if the Iran deal is presented as a de-escalation measure. The underlying complexities and resistance, noted by 'Senate Republicans want a say on Trump\u2019s Iran deal', indicate persistent points of friction.",
+        "Energy & Maritime Disruption": "This pillar is the highest driver due to critical developments surrounding maritime chokepoints and energy policy. The uncertainty around the 'WH Touts Hormuz Reopening, but Some Key Details May Yet Be in Flux' and the associated 'Oil Holds Decline as Traders Seek Clarity on Hormuz Reopening' indicate direct disruption potential to global energy flows. Additionally, the 'KEMI BADENOCH: Net-zero is the economics of the madhouse' statement highlights significant policy disagreements that could influence future energy market volatility.",
+        "Trade & Supply Chain Stress": "The current score for trade and supply chains reflects indirect pressures stemming from energy market uncertainties and geopolitical shifts. While no direct supply chain disruptions are reported, potential fluctuations in 'Gas Prices Could Fall With Iran Deal' and broader energy policy debates, such as ending the 'war on oil and gas', could alter logistical costs and trade routes. This environment necessitates vigilant monitoring of global commodity flows.",
+        "Sovereign Financial Stress": "Sovereign financial stress is experiencing increased attention, particularly with 'Cash Squeeze Set to Lift Taiwan\u2019s Yields Further, Analysts Say'. This indicates a tightening of credit conditions for some economies. Furthermore, the 'CBI books firm for defrauding bank of \u20b920 crore' points to ongoing issues with financial integrity and oversight within specific regions, which could impact broader financial confidence.",
+        "Currency & Liquidity Pressure": "While not at extreme levels, this pillar reflects underlying pressures. The 'Cash Squeeze Set to Lift Taiwan\u2019s Yields Further' suggests a tightening of liquidity that could lead to currency depreciation or capital outflow pressures in susceptible markets. This calls for close observation of interest rate movements and capital flows in emerging and frontier markets.",
+        "Sanctions & Regulatory Fragmentation": "This pillar's current state is largely influenced by the diplomatic activity surrounding the 'Trump administration is touting a new nuclear deal with Iran'. Any deal or its rejection could lead to significant shifts in the international sanctions landscape. The fact that 'Senate Republicans want a say on Trump\u2019s Iran deal' underscores the political complexities and potential for regulatory divergence, keeping this pillar at a moderate risk level.",
+        "Cyber & Infrastructure Threats": "This pillar is at an elevated level due to incidents like the 'B52 Bomber Crash at Edwards Air Force' which highlights critical infrastructure failure or military asset compromise. Additionally, the 'Ukrainian National Federation building in Regina damaged by weekend fire' points to potential physical infrastructure threats, which could have malicious origins or lead to operational disruptions.",
+        "Climate & Resource Shock": "While not the primary driver of the overall AGRI score, the 'KEMI BADENOCH: Net-zero is the economics of the madhouse ... the war on oil and gas must end now' headline indicates significant political and economic debate regarding climate policy and resource management. This ongoing policy friction suggests that while acute shocks may be absent, long-term resource and climate-related policy uncertainty remains a consideration for risk planning."
+    },
     "All_Alerts": [
         {
-            "title": "What was it all for? US-Iran agreement brings bitter rivals full circle",
+            "title": "The Trump administration is touting a new nuclear deal with Iran, but how new is it?",
             "severity": "HIGH",
-            "url": "https://sg.news.yahoo.com/us-iran-agreement-brings-bitter-154627714.html",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo_sg"
+            "url": "https://www.nbcnews.com/video/the-white-house-is-touting-a-new-nuclear-deal-with-iran-but-how-new-is-it-265127493583",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_06/1781565516346_now_hallie_ami_iran_deal_comparison_260615_S3_1920x1080-onpkwb.jpg",
+            "source": "nbcnews"
         },
         {
-            "title": "Two Just Stop Oil activists damaged varnish on \u00a3100m Rokeby Venus oil painting in National Gallery after smashing glass with hammer, court hears",
+            "title": "B52 Bomber Crash at Edwards \u200bAir \u200bForce: All crew members dead after Boeing Stratofortress crashed following take-off in California, all about supersonic aircraft capable of carrying nuclear warheads",
             "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-15901859/activists-damaged-varnish-painting-smashing-glass-hammer-court-hears.html",
-            "image": "https://i.dailymail.com/1s/2026/06/15/17/109367443-0-image-a-4_1781542744760.jpg",
+            "url": "https://economictimes.indiatimes.com/news/international/us/b52-bomber-crash-at-edwards-air-force-all-crew-members-dead-after-boeing-stratofortress-crashed-following-take-off-in-california-all-about-supersonic-aircraft-capable-of-carrying-nuclear-warheads/articleshow/131756689.cms",
+            "image": "https://img.etimg.com/thumb/msid-131756689,resizemode-4,width-1200,height-900,imgsize-71990,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Dell (DELL) Stock Is Up, What You Need To Know",
+            "severity": "HIGH",
+            "url": "https://ca.finance.yahoo.com/news/dell-dell-stock-know-231607053.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/V8MFACl0djqZN3ZaUX2HsA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMjAwO2NmPXdlYnA-/https://media.zenfs.com/en/stockstory_922/b5d4c7c2ad660a2ff5268d8c7d8e5a0f",
+            "source": "yahoo"
+        },
+        {
+            "title": "KEMI BADENOCH: Net-zero is the economics of the madhouse ... the war on oil and gas must end now",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.com/news/article-15901995/KEMI-BADENOCH-Net-zero-economics-madhouse-war-oil-gas-end-now.html",
+            "image": "https://i.dailymail.com/1s/2026/06/15/18/109368105-0-image-a-25_1781545347618.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Iran Says Ending War In Lebanon \u2018Integral\u2019 Part Of Peace MoU With US",
+            "title": "'I worry for him': Brendon McCullum breaks silence on Ben Stokes nightclub controversy",
             "severity": "HIGH",
-            "url": "https://ommcomnews.com/world-news/iran-says-ending-war-in-lebanon-integral-part-of-peace-mou-with-us/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/06/20260609001-1.jpg",
-            "source": "ommcomnews"
-        },
-        {
-            "title": "Trump and Iran\u2019s three-headed dragon - opinion",
-            "severity": "HIGH",
-            "url": "https://www.jpost.com/opinion/article-899446",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/672403",
-            "source": "jpost"
-        },
-        {
-            "title": "Trump's Iran war is one of the greatest strategic blunders in US history",
-            "severity": "HIGH",
-            "url": "https://news.sky.com/story/trumps-iran-war-is-one-of-the-greatest-strategic-blunders-in-us-history-13554425",
-            "image": "https://e3.365dm.com/26/06/1920x1080/skynews-donald-trump-trump_7274358.jpg?20260615181656",
-            "source": "skynews"
-        },
-        {
-            "title": "EU introduces new anti-Russian sanctions",
-            "severity": "HIGH",
-            "url": "https://tass.com/world/2146799",
-            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260615/1477773.jpg",
-            "source": "tass"
-        },
-        {
-            "title": "China says growing its military helps world peace",
-            "severity": "HIGH",
-            "url": "https://www.thehindu.com/news/international/china-says-growing-its-military-helps-world-peace/article71106308.ece",
-            "image": "https://th-i.thgim.com/public/incoming/1blvaj/article71106321.ece/alternates/FREE_1200/2026-06-08T083940Z_683439900_RC2GPLAIKHDA_RTRMADP_3_NORTHKOREA-CHINA.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Ransomware Hits Australia\u2019s Sugar Mills, Shutting Down Operations",
-            "severity": "HIGH",
-            "url": "https://www.yahoo.com/news/world/articles/ransomware-hits-australia-sugar-mills-170229843.html",
-            "image": "https://media.zenfs.com/en/gadget_review_articles_822/01174974c78d1051b9a189363e28fe67",
+            "url": "https://sports.yahoo.com/articles/worry-him-brendon-mccullum-breaks-232000134.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/uQxiza_lzHUrsfsPyoq3Qw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/willow_sports_articles_673/8b98834cb52b69eafe2c7fbe66bc8372",
             "source": "yahoo"
         },
         {
-            "title": "US, Iran Sign Framework Deal To Reopen Hormuz, Launch Nuclear Talks",
+            "title": "World Cup official says twitch caused gesture resembling supremacist sign; FIFA says no breach",
             "severity": "HIGH",
-            "url": "https://ommcomnews.com/world-news/us-iran-sign-framework-deal-to-reopen-hormuz-launch-nuclear-talks/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/06/20260407007-1-scaled-e1781542900293.jpg",
-            "source": "ommcomnews"
+            "url": "https://www.independent.co.uk/news/shaun-evans-fifa-australian-geneva-germany-b2996255.html",
+            "image": "https://static.independent.co.uk/2026/06/16/00/APTOPIX_Curacao_Germany_WCup_Soccer_69443.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
         },
         {
-            "title": "Obama Blasts \u2018Bully\u2019 Trump Amid Furor Over Vile Slur",
+            "title": "CBI books firm for defrauding bank of \u20b920 crore",
             "severity": "HIGH",
-            "url": "https://www.thedailybeast.com/obama-blasts-bully-trump-amid-furor-over-vile-slur/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/PRDLS6PNBNGSLDAWN2LP5XMDQQ.jpg?auth=c0d395cdfded0efa543c9d0d6289b9a5372e819adfe7ef086e398612cefa6aad&smart=true&width=4596&height=2585",
-            "source": "thedailybeast"
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/cbi-books-firm-for-defrauding-bank-of-20-crore-101781549245572.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/15/1600x900/logo/CBI-books-firm-for-defrauding-bank-of--20-crore_1781549243581.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Council of Europe investigates ShinyHunters data breach claims",
+            "title": "FIFA issue statement on World Cup official accused of making 'white power' gesture on TV",
             "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/06/15/Council-of--Europe.jpg",
-            "source": "bleepingcomputer"
+            "url": "https://www.dailystar.co.uk/sport/football/shaun-evans-referee-world-cup-37300689",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37295850.ece/ALTERNATES/s615/0_122x176x1180x885-384x288.jpg",
+            "source": "dailystar"
         },
         {
-            "title": "Man Run Over, Killed | Mega Millions | Manhunt After Camp Pendleton Breach | 350-Acre Fire: SoCal In-Brief",
-            "severity": "HIGH",
-            "url": "https://patch.com/california/los-angeles/man-run-over-killed-mega-millions-manhunt-after-camp-pendleton-breach-350",
-            "image": "https://patch.com/img/cdn20/shutterstock/24074589/20260615/014716/styles/patch_image/public/shutterstock-2348093759-2___15014513653.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Vaibhav Sooryavanshi\u2019s Heated Clash With Sri Lanka Cricketer Could Invite Sanctions",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/cricket/vaibhav-sooryavanshis-heated-clash-with-sri-lanka-cricketer-could-invite-sanctions-ws-l-10151560.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/06/Untitled-design-7-2026-06-a27e023c0ac50bda316d425e066dc7d9-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Political Tensions, Visa Woes, Travel Chaos: Challenges Facing Iran At FIFA World Cup 2026",
-            "severity": "MEDIUM",
-            "url": "https://www.ndtvprofit.com/sports/political-tensions-visa-woes-travel-chaos-challenges-facing-iran-at-fifa-world-cup-2026-11640168",
-            "image": "https://c.ndtvimg.com/2026-06/jh7vr9fg_iran-football_625x300_15_June_26.jpg",
-            "source": "ndtv"
-        },
-        {
-            "title": "Baseus Spacemate RD1 Pro 15-in-1 dock review: Feature-rich, capable desktop companion, but leaves MacBook users behind",
-            "severity": "MEDIUM",
-            "url": "https://www.notebookcheck.net/Baseus-Spacemate-RD1-Pro-15-in-1-dock-review-Feature-rich-capable-desktop-companion-but-leaves-MacBook-users-behind.1277998.0.html",
-            "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Baseus-Spacemate-RD1-PRo-1556.png",
-            "source": "notebookcheck"
-        },
-        {
-            "title": "China is quietly taking control of US medicine. We must stop helping it.",
-            "severity": "MEDIUM",
-            "url": "https://thehill.com/opinion/5923996-us-china-medicine-control-risk/",
-            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/06/AP26079556785267.jpg?strip=1",
-            "source": "thehill"
-        },
-        {
-            "title": "Trump, Macron make nice at the G7 summit in France",
-            "severity": "MEDIUM",
-            "url": "https://www.washingtontimes.com/news/2026/jun/15/donald-trump-emmanuel-macron-make-nice-g7-summit-france/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/06/15/AP26166592891072_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
-            "source": "washingtontimes"
-        },
-        {
-            "title": "Anthropic meeting with White House to resolve Mythos and Fable AI restrictions",
-            "severity": "MEDIUM",
-            "url": "https://www.washingtonexaminer.com/policy/technology/4608906/anthropic-meeting-white-house-resolve-mythos-fable-ai-restrictions/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/06/GettyImages-2278092828.jpg?w=696",
-            "source": "washingtonexaminer"
-        },
-        {
-            "title": "UFC star KO'd after playing Canadian national anthem in front of Trump at White House",
+            "title": "Cash Squeeze Set to Lift Taiwan\u2019s Yields Further, Analysts Say",
             "severity": "WATCH",
-            "url": "https://www.the-express.com/sport/mma/209704/Aiemann-Zahabi-Sean-OMalley-UFC-White-House",
-            "image": "https://cdn-images.the-express.com/img/dynamic/54/590x/209704_1.jpg",
-            "source": "express"
+            "url": "https://financialpost.com/pmn/business-pmn/cash-squeeze-set-to-lift-taiwans-yields-further-analysts-say",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/06/taiwans-bond-yields-hold-near-multi-year-highs.jpg",
+            "source": "financialpost"
         },
         {
-            "title": "I found 42 early Amazon Prime Day deals worth shopping before next week\u2019s sale",
+            "title": "Senate Republicans want a say on Trump\u2019s Iran deal",
             "severity": "WATCH",
-            "url": "https://www.cnn.com/cnn-underscored/deals/amazon-prime-day-2026-06-15",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/best-electric-toothbrush-cnnu-01.jpg?c=original/w_800",
-            "source": "cnn"
+            "url": "https://www.politico.com/news/2026/06/15/trump-iran-deal-congress-vote-00962844",
+            "image": "https://static.politico.com/52/fa/f9452d3b438a9ff211c3287f4433/u-s-congress-65914.jpg",
+            "source": "politico"
         },
         {
-            "title": "Horror at chicken restaurant as woman \u2018stabs worker' over wrong order",
+            "title": "Patriots host UFL all-star on reported workout",
             "severity": "WATCH",
-            "url": "https://www.express.co.uk/news/world/2217706/chicken-restaurant-woman-stabs-worker",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2217706_1.jpg",
+            "url": "https://sports.yahoo.com/articles/patriots-host-ufl-star-reported-232110254.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/becc731a6eb3e61c2a4d47072413ced418d813cccd0b98576a2066c54eaea711/lightyear_networkapi/resizefit_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F5c56536e867e9c41ba0a7032428c2a3c",
+            "source": "yahoo"
+        },
+        {
+            "title": "Form 4 Arista Networks For: 15 June",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/filings/form-4-arista-networks-for-15-june-93CH-4488699",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEL4L0EC_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Gold Holds Gain as Trump Touts Reopening of Hormuz This Week",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-pmn/gold-holds-gain-as-trump-touts-reopening-of-hormuz-this-week",
+            "image": "https://images.pexels.com/photos/15407743/pexels-photo-15407743.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "WH Touts Hormuz Reopening, but Some Key Details May Yet Be in Flux",
+            "severity": "WATCH",
+            "url": "https://www.newsmax.com/politics/WH-Touts-Hormuz-Reopening-but-Some-Key-Details-May-Yet-Be-in-Flux/2026/06/15/id/1259753",
+            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=c8d97ae0-19ff-4f76-b4a5-86229df5ce6c&SiteName=Newsmax",
+            "source": "newsmax"
+        },
+        {
+            "title": "Oil Holds Decline as Traders Seek Clarity on Hormuz Reopening",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-pmn/oil-holds-decline-as-traders-seek-clarity-on-hormuz-reopening",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/06/vessels-cluster-around-hormuz-ahead-of-possible-reopening.jpg",
+            "source": "financialpost"
+        },
+        {
+            "title": "Gas Prices Could Fall With Iran Deal. Map Shows Biggest Winners by State",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/us-gas-prices-drop-states-iran-war-12076023",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/06/State-Gas-Prices-1.jpeg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Ukrainian National Federation building in Regina damaged by weekend fire",
+            "severity": "WATCH",
+            "url": "https://www.cbc.ca/news/canada/saskatchewan/ukrainian-national-federation-building-regina-fire-9.7236461?cmp=rss",
+            "image": "https://i.cbc.ca/ais/ea9b5635-f0b2-434d-9877-c3f8c546a5c9,1781563282835/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C277%2C4032%2C2268%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "NYT \u2018Pips\u2019 Hints, Answers And Walkthrough For Tuesday, June 16",
+            "severity": "WATCH",
+            "url": "https://www.forbes.com/sites/erikkain/2026/06/15/nyt-pips-answers-tuesday-june-16/",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/68ab7aaa205e351d8e7e68df/0x0.jpg?width=960",
+            "source": "forbes"
+        },
+        {
+            "title": "Trump's Iran deal has left Netanyahu in a shrinking corner",
+            "severity": "WATCH",
+            "url": "https://www.haaretz.com/israel-news/israel-security/2026-06-16/ty-article/.premium/trumps-iran-deal-may-be-the-toughest-pill-netanyahu-has-had-to-swallow/0000019e-ccf3-d142-a19e-fff3acc50000",
+            "image": "https://img.haarets.co.il/bs/0000019e-cd91-d142-a19e-ff931c6f0000/f3/53/e3e52f324f35a18bb867632bcbd9/247020-2.jpg?height=81",
+            "source": "haaretz_is"
+        },
+        {
+            "title": "Nurse describes last horror of bunjee jumper thrown from a cliff with no rope",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/world/2217769/nurse-describes-last-horror-bunjee-jumper-thrown-from-cliff-rope",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2217769_1.jpg",
             "source": "expresscouk"
         },
         {
-            "title": "Nicki Minaj Wishes Donald Trump a Happy 80th Birthday With AI-Generated Photos Featuring Elon Musk & Sydney Sweeney",
+            "title": "Will Generac's (GNRC) New Belvidere Megawatt Packaging Hub Redefine Its Data Center Power Narrative?",
             "severity": "WATCH",
-            "url": "https://www.billboard.com/music/rb-hip-hop/nicki-minaj-donald-trump-birthday-ai-images-musk-sweeney-1236272954/",
-            "image": "https://www.billboard.com/wp-content/uploads/2026/05/2258686448-e1778768204913.jpg",
-            "source": "billboard"
-        },
-        {
-            "title": "US Oil Reserve Hits 43-Year Low as Trump Aims to Tame Prices - Bloomberg.com",
-            "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVXljeTdhRjAycFJSY3JrcXdsYXlKaWlwbVM4aDBTNFdWaVpuaDU5SFdhYzVPUWFFeFVRbWxxWVhXcG5uUF9tYzVCSjREN2NTcHl5MGQxYi1zbUdhaWYxWlRqQ1ZKUUlVZ0l1cFdfU04yVEVLVjVxcFNiVlNERFdQQlRRakZrWGR4dUc1d1QxaVlGYkZtVHg0cXNxRWVDQWJycHd3N1VZZFN2bXZ5dGRmV3VOdXlGQQ?oc=5",
-            "image": "https://images.pexels.com/photos/5725589/pexels-photo-5725589.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Jan 12, 2025; Philadelphia, Pennsylvania, USA; Philadelphia Eagles safety C.J. Gardner-Johnson (8) reacts against the Green Bay Packers during the first half in an NFC wild card game at Lincoln Financial Field.",
-            "severity": "WATCH",
-            "url": "https://www.si.com/nfl/bills/onsi/minicamp-bills-breakout-too-good-to-be-true-and-it-impacts-jim-leonhard-defense",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4868,h_2738,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/bills_central/01kv5zyvmdba56dw1yc2.jpg",
-            "source": "si"
-        },
-        {
-            "title": "New Xbox Pricing Is Already Dividing Fans",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/xbox-buy-now-pay-later-reaction/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/04/xbox-game-pass-with-blue-and-purple-swirl-background.jpg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
-        },
-        {
-            "title": "White House Responds to Josh Hokit Calling Michelle Obama 'A Man' at UFC Event",
-            "severity": "WATCH",
-            "url": "https://www.usmagazine.com/sports/news/white-house-responds-to-josh-hokits-michelle-obama-comment/",
-            "image": "https://www.usmagazine.com/wp-content/uploads/2026/06/GettyImages-2270929775White-House-Responds-to-Josh-Hokit-Calling-Michelle-Obama-A-Man-at-UFC-Event.jpg?crop=365px%2C0px%2C1635px%2C924px&resize=1000%2C563&quality=86&strip=all",
-            "source": "usmagazine"
-        },
-        {
-            "title": "Ionic Studios and Questar Entertainment Form Joint Venture to Operate GoTraveler, North America's Largest Travel Channel on Free Streaming Television",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/pressreleases/26/06/n53204514/ionic-studios-and-questar-entertainment-form-joint-venture-to-operate-gotraveler-north-americas-la",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Ladakh: Rejuvenated T-Trench water body to benefit 2,000 residents",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/ladakh-rejuvenated-ttrench-water-body-to-benefit-2000-residents-articleshow-4bqu052",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-fd112f70-8401-48d8-8ef9-dca4d4110398.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Arbitration Tribunal Rejects Bulk of Ukraine's Kerch Strait Case Against Russia",
-            "severity": "WATCH",
-            "url": "https://www.usnews.com/news/world/articles/2026-06-15/arbitration-tribunal-rejects-bulk-of-ukraines-kerch-strait-case-against-russia",
-            "image": "https://www.usnews.com/dims4/USNEWS/e84ddd7/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Fd6%2F1a586aa590477f366805c5a6556376%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM5E1J3%3A12026-06-15T170049Z_1_LYNXMPEM5E1J3_RTROPTP_3_UKRAINE-CRISIS-CRIMEA-BRIDGE.JPG",
-            "source": "usnews"
-        },
-        {
-            "title": "Trump in G7 summit in France as he touts signing of Iran memorandum",
-            "severity": "WATCH",
-            "url": "https://www.cbsnews.com/news/trump-g7-summit-france-iran-deal/",
-            "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/06/15/3c963ac3-d241-4611-82f8-a5f2a5262314/thumbnail/1200x630/92ea1c604f6b7ac8b89bfc574d099940/ap26166581095025.jpg",
-            "source": "cbsnews"
-        },
-        {
-            "title": "Critical cellular system discovery may lead to treatment of some cancers",
-            "severity": "WATCH",
-            "url": "https://phys.org/news/2026-06-critical-cellular-discovery-treatment-cancers.html",
-            "image": "https://scx2.b-cdn.net/gfx/news/2026/researcher-discovers-a.jpg",
-            "source": "phys"
-        },
-        {
-            "title": "The state of emergency housing in six charts",
-            "severity": "WATCH",
-            "url": "https://www.nzherald.co.nz/nz/politics/the-state-of-emergency-housing-in-six-charts/premium/4HPPRZDY7FHG5HQXUROFAHMA3Q/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/XCC5PMG5HRG55KX7K432KID73E.jpg?auth=a8c88c469f8dec06783625e30e5f2594b4a8162435326a134c511ce6a8cac170&smart=true&width=300&height=300",
-            "source": "nzherald"
-        },
-        {
-            "title": "McCullum wants players to celebrate success, but not \"in excess\"",
-            "severity": "WATCH",
-            "url": "https://www.cricbuzz.com/cricket-news/139172/new-zealand-tour-of-england-2nd-test-2026-brendon-mccullum-wants-players-to-celebrate-success-but-not-in-excess",
-            "image": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1008392/the-concern-at-the-moment-is-making-sure-that-ben-is-fine-and-we-need-to-look-after-him-and-rally-around-him.jpg",
-            "source": "cricbuzz"
-        },
-        {
-            "title": "'Medicine is no place for politics': IMA pushes back against proposed global boycott - interview",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/diaspora/antisemitism/article-899513",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/687638",
-            "source": "jpost"
-        },
-        {
-            "title": "Rebel TMC MP seeks expulsion of Kalyan Banerjee over verbal abuse allegations",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/rebel-tmc-mp-seeks-expulsion-of-kalyan-banerjee-over-verbal-abuse-allegations-articleshow-0a9vm7x",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-3a80b516-8465-4ac4-b766-f5d76e7830ac.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Retired Edmonton police detective Bill Clark sentenced for leaking confidential info to media",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/retired-edmonton-police-detective-bill-165531346.html",
-            "image": "https://media.zenfs.com/en/edmonton_journal_articles_165/fa3ad1dba6719426c76d524d0b320e54",
+            "url": "https://ca.finance.yahoo.com/news/generacs-gnrc-belvidere-megawatt-packaging-231637696.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/HDK4RD2Jy1qw5LWA7ZX85Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjYwO2NmPXdlYnA-/https://media.zenfs.com/en/simply_wall_st__316/e9b120ed891433a716746028adaa1b8e",
             "source": "yahoo"
         },
         {
-            "title": "Trump, Vance and Ghalibaf digitally sign US-Iran peace memorandum; formal ceremony in Switzerland on June 19",
+            "title": "Egypt, EU join forces on \u20ac690 million clean-energy grid investment",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/us/trump-vance-and-ghalibaf-digitally-sign-us-iran-peace-memorandum-formal-ceremony-in-switzerland-on-june-19/articleshow/131750246.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131750349/131750349.jpg",
-            "source": "toi"
+            "url": "https://gulfnews.com/business/energy/egypt-eu-join-forces-on-690-million-clean-energy-grid-investment-1.500575519",
+            "image": "https://media.assettype.com/gulfnews/import/2022/10/18/20221018-solar-plant_183ec23f6ba_large.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
         },
         {
-            "title": "Where to watch Belgium vs. Egypt live streams free from anywhere",
+            "title": "A year on, six questions still haunt the Air India crash investigation",
             "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-belgium-vs-egypt-world-cup-2026",
-            "image": "https://i.insider.com/6a3023cea462940611899597?width=1200&format=jpeg",
+            "url": "https://www.bbc.com/news/articles/c6214prydklo",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/3a0a/live/fbecc040-4b4c-11f0-8bdb-73c0815c1d31.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "Breitbart Business Digest: Lower Immigration, Higher Productivity? History Says Yes.",
+            "severity": "WATCH",
+            "url": "https://www.breitbart.com/economy/2026/06/15/breitbart-business-digest-lower-immigration-higher-productivity-history-says-yes/",
+            "image": "https://media.breitbart.com/media/2026/06/bbd-6-15-26-640x335.png",
+            "source": "breitbart"
+        },
+        {
+            "title": "North Korea touts industrial \u2018miracles\u2019 as output exceeds targets, state media says",
+            "severity": "WATCH",
+            "url": "https://www.yahoo.com/news/world/articles/north-korea-touts-industrial-miracles-230545762.html",
+            "image": "https://media.zenfs.com/en/reuters.com/b90323fc5e6564c4d3a5d9605b29282b",
+            "source": "yahoo"
+        },
+        {
+            "title": "$2.5M worth of cocaine seized at Michigan-Canada border",
+            "severity": "WATCH",
+            "url": "https://www.detroitnews.com/story/news/local/michigan/2026/06/15/cocaine-millions-seized-canada-michigan-border-patrol/90565517007/",
+            "image": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/06/15/PDTN/90565549007-detfo-fo-external-release-port-huron-cocaine-seizure-6112026.png?crop=1840,1034,x0,y0&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "detroitnews"
+        },
+        {
+            "title": "Lawyers clash over criminal charges as accused in Toronto cop shooting remains unconscious",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com/news/gta/lawyers-clash-over-criminal-charges-as-accused-in-toronto-cop-shooting-remains-unconscious/article_82844c1b-eb45-470d-8c7c-348068ad20e0.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/5/df/5df6a2e9-3fa1-55e0-80ca-0652419f6cb3/6a30684a48d41.image.jpg?crop=1763%2C926%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
+            "source": "thestar"
+        },
+        {
+            "title": "Where to watch Iran vs. New Zealand live streams free from anywhere",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-iran-vs-new-zealand-world-cup-2026",
+            "image": "https://i.insider.com/6a303843a462940611899688?width=1200&format=jpeg",
             "source": "insider"
         },
         {
-            "title": "Protests will continue 'until religious group leaves'",
+            "title": "World Cup official accused of 'white power' gesture breaks silence as FIFA make decision",
             "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/us/articles/protests-continue-until-religious-group-090232418.html",
-            "image": "https://media.zenfs.com/en/bbc_us_articles_995/d23a9c43d89c143d2b15f4f2ebf645a2",
-            "source": "yahoo"
+            "url": "https://www.mirror.co.uk/sport/football/news/referee-gesture-world-cup-germany-37300670",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37295850.ece/ALTERNATES/s615/0_122x176x1180x885-384x288.jpg",
+            "source": "mirroruk"
         },
         {
-            "title": "MSF staff abused Sudanese refugees in sex-for-food scandal",
+            "title": "DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act",
             "severity": "WATCH",
-            "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o",
-            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/a500/live/d357deb0-68d5-11f1-b1db-af71d47507d6.jpg",
-            "source": "bbc"
+            "url": "https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2024/03/18/AI_Artificial_Intelligence.jpg",
+            "source": "bleepingcomputer"
+        },
+        {
+            "title": "FIFA clears referee accused of making 'White power' gesture after he calls it 'involuntary twitch'",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7361902/2026/06/15/world-cup-referee-white-power-cleared/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/06/14205840/shaun-evans-ref-scaled.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "Weekly Scam Alert: JCPenney Hack Allegedly Exposed Social Security Numbers",
+            "severity": "WATCH",
+            "url": "https://www.thestate.com/money/scam-alert-jcpenney-hack-shinyhunters-identity-theft/",
+            "image": "https://images.pexels.com/photos/5916257/pexels-photo-5916257.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "thestate"
         }
     ],
-    "Last_Updated": "2026-06-16T05:06:07.596068Z"
+    "Last_Updated": "2026-06-16T11:23:07.658586Z"
 }
