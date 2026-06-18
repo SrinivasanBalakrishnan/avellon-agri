@@ -1,253 +1,302 @@
 {
-    "AGRI_Score": 61.8,
-    "Velocity": "+1.4",
-    "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index stands at 61.8, reflecting significant concern driven primarily by elevated risks in Energy & Maritime Disruption and Geopolitical Conflict Intensity. Persistent uncertainty surrounding maritime transit through the Strait of Hormuz, as highlighted by \"Explained: Trump said Hormuz is open. So why aren\u2019t ships crossing yet?\", alongside global anticipation of \"Iran deal details,\" are key factors. Furthermore, vulnerabilities in crude oil reserves, with \"India's oil reserves cover only 9-10 days of crude imports: Report\", underscore the precarity of energy supply chains, demanding heightened vigilance for potential shocks.",
+    "AGRI_Score": 60.1,
+    "Velocity": "-1.7",
+    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
+    "AI_Brief": "The overall AGRI score of 60.1 reflects a heightened risk environment, predominantly driven by elevated geopolitical tensions and significant disruptions in energy and trade sectors. Geopolitical Conflict Intensity remains critically high at 79.3, influenced by Finland's decision to lift its nuclear weapons ban and ongoing concerns regarding NATO's military preparedness. Concurrently, Energy & Maritime Disruption is notably elevated due to the expiration of the waiver on Russian oil, adding pressure to global energy markets, while Trade & Supply Chain Stress reflects ongoing international trade adjustments.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.2,
-        "Energy & Maritime Disruption": 83.7,
-        "Trade & Supply Chain Stress": 62.7,
-        "Sovereign Financial Stress": 54.7,
+        "Geopolitical Conflict Intensity": 79.3,
+        "Energy & Maritime Disruption": 64.0,
+        "Trade & Supply Chain Stress": 68.2,
+        "Sovereign Financial Stress": 54.3,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.5,
-        "Cyber & Infrastructure Threats": 62.5,
+        "Sanctions & Regulatory Fragmentation": 61.4,
+        "Cyber & Infrastructure Threats": 58.6,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The Geopolitical Conflict Intensity pillar remains high, influenced by persistent global market attention on potential \"Iran deal details\" and ongoing political dynamics in the Middle East, despite some reported \"Middle East optimism.\" Specific regional tensions, like those implied by questions around the Strait of Hormuz, continue to contribute to this elevated assessment.",
-        "Energy & Maritime Disruption": "Energy and Maritime Disruption risk is significantly elevated, driven by continued uncertainty regarding critical shipping lanes, as evidenced by questions like \"Trump said Hormuz is open. So why aren\u2019t ships crossing yet?\". This is compounded by acute vulnerabilities in energy reserves for major economies, highlighted by \"India's oil reserves cover only 9-10 days of crude imports: Report\", indicating limited capacity to withstand supply shocks.",
-        "Trade & Supply Chain Stress": "Trade and Supply Chain Stress shows moderate levels of concern, primarily from climate-related vulnerabilities impacting key resources, such as how \"a strong El Ni\u00f1o leaves tropical commodities acutely exposed.\" Additionally, regulatory shifts in immigration, like the \"US Green Card crunch,\" suggest potential future impacts on labor mobility and specialized supply chain talent.",
-        "Sovereign Financial Stress": "Sovereign Financial Stress indicates a moderate risk posture, influenced by market reactions to geopolitical developments and anticipation of central bank policies. \"European shares flat as investors await Iran deal details, Fed policy\" reflects broader investor caution regarding economic fundamentals and potential rate adjustments.",
-        "Currency & Liquidity Pressure": "Currency and Liquidity Pressure is currently under routine monitoring. Specific analysis of currency dynamics, such as \"Citi notes EUR/GBP flows and fundamentals diverge amid gilt buying,\" points to ongoing vigilance regarding capital movements and market liquidity in particular regions.",
-        "Sanctions & Regulatory Fragmentation": "Sanctions and Regulatory Fragmentation risk is elevated, driven by the significant implications of potential \"Iran deal details\" on existing and future sanctions regimes. Furthermore, tightening immigration policies, as seen with the \"US Green Card crunch deepens,\" represent a form of regulatory fragmentation impacting global talent flows.",
-        "Cyber & Infrastructure Threats": "Cyber and Infrastructure Threats present a moderate risk level, directly evidenced by successful breaches against public sector systems. \"Ontario jail forced to take servers offline after suffering \u2018breach\u2019 of security systems\" highlights the ongoing and material impact of cyberattacks on essential infrastructure.",
-        "Climate & Resource Shock": "Climate and Resource Shock is currently experiencing baseline activity, yet underlying vulnerabilities are noted. The impact of \"a strong El Ni\u00f1o leaves tropical commodities acutely exposed\" underscores a growing awareness of how climate phenomena can directly affect global resource availability and supply resilience."
+        "Geopolitical Conflict Intensity": "This pillar remains at a critically high level, primarily due to shifts in international security postures and alliance dynamics. Finland's parliament passing a law to lift its long-standing ban on nuclear weapons introduces new strategic considerations, while 'NATO Chief Downplays US Military Cutbacks as Top Commander Makes Backup Plans' signals underlying concerns about alliance cohesion and readiness.",
+        "Energy & Maritime Disruption": "Energy disruption is a significant concern following the 'US Quietly Allows Waiver on Russian Oil to Expire,' which could tighten global oil supplies and impact market pricing. Further insights into international oil production, as highlighted by 'Jim Cramer Points to SLB for Critical Insights Into International Oil Production,' underscore the ongoing volatility in the energy sector.",
+        "Trade & Supply Chain Stress": "This pillar continues to experience elevated stress, influenced by ongoing international trade discussions and regional initiatives. The 'Modi-Trump meeting' indicates significant bilateral trade and technology discussions, while 'Botswana committed to greater intra-African trade' shows efforts towards regional trade integration amidst broader global fragmentation.",
+        "Sovereign Financial Stress": "Sovereign financial indicators require continuous monitoring, particularly concerning the legal and economic implications for state-affiliated entities. The dismissal of the case against 'Turkish Bank Halkbank' has direct implications for Turkey's sovereign financial standing and its integration into global financial systems.",
+        "Currency & Liquidity Pressure": "This pillar is under baseline activity, but global economic shifts and trade dynamics warrant careful observation for potential impacts on currency valuations and liquidity. While no direct news items explicitly detail immediate currency or liquidity crises, the broader geopolitical and trade environment can rapidly influence these conditions.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation is a notable concern, particularly with shifts in sanctions enforcement and international legal precedents. The 'US Quietly Allows Waiver on Russian Oil to Expire' represents a significant policy change in sanctions implementation, and the 'Federal Judge dismisses case against Turkish Bank Halkbank' demonstrates the complexities and evolving landscape of international legal and financial regulations.",
+        "Cyber & Infrastructure Threats": "Threats to cyber and critical infrastructure require routine monitoring, especially with the accelerating global competition in advanced technologies. The statement ''US, India In A Foot Race On AI': Ex-US Envoy Says Modi-Trump Meeting Signals Bigger Tech Push' highlights the strategic importance and dual-use nature of AI, which can pose both opportunities and significant cyber risks.",
+        "Climate & Resource Shock": "This pillar indicates low immediate risk based on current events in the feed, with activity remaining at a routine monitoring level. No specific news items from the provided feed directly indicate an imminent or unfolding climate-related resource shock."
     },
     "All_Alerts": [
         {
-            "title": "Australia shares close at two\u2010month high on Middle East optimism",
+            "title": "US Quietly Allows Waiver on Russian Oil to Expire",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/australia-shares-close-at-twomonth-high-on-middle-east-optimism/articleshow/131795214.cms",
-            "image": "https://img.etimg.com/thumb/msid-131795214,resizemode-4,width-1200,height-900,imgsize-55100,overlay-etmarkets/articleshow.jpg",
+            "url": "https://www.newsmax.com/newsfront/us-waiver-russia/2026/06/17/id/1259980",
+            "image": "https://www.newsmax.com/CMSPages/GetFile.aspx?guid=491de5ce-5b71-4f83-9308-76386022916f&SiteName=Newsmax",
+            "source": "newsmax"
+        },
+        {
+            "title": "Finland's parliament passes law to lift long-standing ban on nuclear weapons",
+            "severity": "HIGH",
+            "url": "https://www.washingtonexaminer.com/news/world/4612503/finland-lift-ban-nuclear-weapons/",
+            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/06/AP23322364779433.jpg?w=696",
+            "source": "washingtonexaminer"
+        },
+        {
+            "title": "Modi-Trump meeting: 7 big takeaways for India from Trump's press brief at G7",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/india/modi-trump-meeting-7-big-takeaways-for-india-from-trumps-press-brief-at-g7/videoshow/131806841.cms",
+            "image": "https://img.etimg.com/thumb/msid-131806841,width-1200,height-900,overlay-economictimes/news/india/modi-trump-meeting-7-big-takeaways-for-india-from-trumps-press-brief-at-g7.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Archaeologists uncover pieces of history from the Battle of Bunker Hill",
+            "title": "Indian Muslims should look to Indonesia's cultural ideals, not to those of Pakistan: RSS leader",
             "severity": "HIGH",
-            "url": "https://apnews.com/video/archaeologists-uncover-pieces-of-history-from-the-battle-of-bunker-hill-6656d4b2d13841cfa46dacbf1accc32c",
-            "image": "https://dims.apnews.com/dims4/default/9a3b92e/2147483647/strip/false/crop/1920x1080+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F04%2F5d%2F403cb356719534b081f2b20b0a03%2Fus-ma-america-250-battle-of-bunker-hill-20260617cr-1920x1080.jpg",
-            "source": "apnews"
-        },
-        {
-            "title": "Death Rate in ICE Immigrant Detention Centers More Than Doubles Under Trump, Reuters Analysis Finds",
-            "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-06-17/death-rate-in-ice-immigrant-detention-centers-more-than-doubles-under-trump-reuters-analysis-finds",
-            "image": "https://www.usnews.com/dims4/USNEWS/0ab12cb/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Fee%2Fb8e0a0c1c54e412b103fa0c7b98228%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM5G0S1%3A12026-06-17T100243Z_1_LYNXMPEM5G0S1_RTROPTP_3_USA-TRUMP-MIGRATION-DETENTION.JPG",
-            "source": "usnews"
-        },
-        {
-            "title": "US Green Card crunch deepens: EB-1 moves back, EB-2, EB-5 shut for Indians",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/immigration/us-green-card-crunch-deepens-eb-1-moves-back-eb-2-eb-5-shut-for-indians-126061700671_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-09/25/full/1758794072-872.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "SHINE Tapped for EPRI-Led Consortium Building U.S. Nuclear Fuel Recycling Capability",
-            "severity": "HIGH",
-            "url": "https://www.benzinga.com/pressreleases/26/06/n53243486/shine-tapped-for-epri-led-consortium-building-u-s-nuclear-fuel-recycling-capability",
-            "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
-            "source": "benzinga"
-        },
-        {
-            "title": "Global Markets| European shares flat as investors await Iran deal details, Fed policy; BMW slides",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-markets-european-shares-flat-as-investors-await-iran-deal-details-fed-policy-bmw-slides/articleshow/131795164.cms",
-            "image": "https://img.etimg.com/thumb/msid-131795164,resizemode-4,width-1200,height-900,imgsize-255044,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Netanyahu rejects prosecution's 'absurd' Case 2000 thesis during defense questioning in court",
-            "severity": "HIGH",
-            "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-899681",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/726010",
-            "source": "jpost"
-        },
-        {
-            "title": "What belongs in a modern crisis playbook",
-            "severity": "HIGH",
-            "url": "https://www.prdaily.com/what-belongs-in-a-modern-crisis-playbook/",
-            "image": "https://www.prdaily.com/wp-content/uploads/2022/01/talking-to-reporters-crisis-media-relations.jpg",
-            "source": "prdaily"
-        },
-        {
-            "title": "Ontario jail forced to take servers offline after suffering \u2018breach\u2019 of security systems",
-            "severity": "HIGH",
-            "url": "https://globalnews.ca/news/11908099/lindsay-jail-cyber-issues/",
-            "image": "https://globalnews.ca/wp-content/uploads/2026/06/CP28508669-e1781643901638.jpg?quality=65&strip=all",
-            "source": "globalnews"
-        },
-        {
-            "title": "Explained: Trump said Hormuz is open. So why aren\u2019t ships crossing yet?",
-            "severity": "MEDIUM",
-            "url": "https://indianexpress.com/article/world/strait-of-hormuz-if-theres-a-peace-deal-why-arent-ships-crossing-yet-explained-10744144/",
-            "image": "https://images.indianexpress.com/2026/06/Photo-2026-06-17T120211.829.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "As oil roundtrips, AI booms, and US consumers spend, economists' Fed outlooks hit the extremes",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/as-oil-roundtrips-ai-booms-and-us-consumers-spend-economists-fed-outlooks-hit-the-extremes/articleshow/131795238.cms",
-            "image": "https://img.etimg.com/thumb/msid-131795270,resizemode-4,width-1200,height-900,imgsize-45776,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Why a strong El Nin\u0303o leaves tropical commodities acutely exposed",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/news/economy/agriculture/why-a-strong-el-nio-leaves-tropical-commodities-acutely-exposed/articleshow/131795246.cms",
-            "image": "https://img.etimg.com/thumb/msid-131795405,resizemode-4,width-1200,height-900,imgsize-34146,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "'Shut Down Malls Too': Is Telegram Hurting Its Own Case With Snarky Replies On X?",
-            "severity": "MEDIUM",
-            "url": "https://www.news18.com/india/telegram-ban-neet-exam-paper-leaks-shut-down-malls-sarcastic-replies-on-twitter-x-ws-l-10155001.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/06/telegram-neet-ban-x-twitter-replies-2026-06-835d136fea9e6da9d8d38dc921d39e80-1200x800.png",
-            "source": "news18"
-        },
-        {
-            "title": "Citi notes EUR/GBP flows and fundamentals diverge amid gilt buying",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/forex-news/citi-notes-eurgbp-flows-and-fundamentals-diverge-amid-gilt-buying-93CH-4732437",
-            "image": "https://i-invdn-com.investing.com/news/Pound_800x533_L_1760713550.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Is India prepared for an oil shock? Report flags just 9-10 days of crude reserves",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/business/is-india-prepared-for-an-oil-shock-report-flags-just-9-10-days-of-crude-reserves-4042262",
-            "image": "https://media.assettype.com/deccanherald/2026-06-17/8onrwhp4/3b59a558-ff3b-407c-b1b9-8d1fa0de090f.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "url": "https://www.deccanherald.com/india/indian-muslims-should-look-to-indonesias-cultural-ideals-not-to-those-of-pakistan-rss-leader-4042788",
+            "image": "https://media.assettype.com/deccanherald/2026-06-17/jg1wj1n8/INjuEMN.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
             "source": "deccanherald"
         },
         {
-            "title": "India's oil reserves cover only 9-10 days of crude imports: Report",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/economy/news/india-s-oil-reserves-cover-only-9-10-days-of-crude-imports-report-126061700640_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260617/thumb-126061700640.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Are Equity Markets Priced for a Rate Hike?",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/analysis/are-equity-markets-priced-for-a-rate-hike-200625712",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Through county relegations and club struggles, Blackpool cricket endures",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/county-relegations-club-struggles-blackpool-100241200.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/lURqNopgMLk6xQhIh6x19A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xOTIwO2NmPXdlYnA-/https://media.zenfs.com/en/theguardian_763/d349de1cfc2a44a2f3e4b36c55e213d1",
+            "title": "Jack\u2019s Daily: Summer Trades Begin; Blackhawks Prospect Dealt; Coaching News",
+            "severity": "HIGH",
+            "url": "https://sports.yahoo.com/articles/jack-daily-summer-trades-begin-164014380.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/daTxSWmHUa8adl9bYbn18w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE0NDA7aD04MTA7Y2Y9d2VicA--/https://media.zenfs.com/en/chicago_hockey_now_articles_210/64bd61e1e6a510f74c1767e6a7ed76d1",
             "source": "yahoo"
         },
         {
-            "title": "What are VA loan eligibility requirements and the best lenders?",
-            "severity": "WATCH",
-            "url": "https://www.cnbc.com/select/va-loan-eligibility-requirements/",
-            "image": "https://image.cnbcfm.com/api/v1/image/108322164-1781554411066-gettyimages-1670270813-getty_vet_shoot2_00058.jpeg?v=1781554440&w=1200&h=675",
-            "source": "cnbc"
+            "title": "Experimental fentanyl vaccine showed promise in an early-stage trial",
+            "severity": "HIGH",
+            "url": "https://www.nbcnews.com/now/video/experimental-fentanyl-vaccine-showed-promise-in-an-early-stage-trial-265248325661",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_06/1781714359232_now_daily_a_fentanyl_vaccine_260617_S3_1920x1080-3ityy8.jpg",
+            "source": "nbcnews"
         },
         {
-            "title": "Senate GOP quietly seeks to curb Trump troop moves from Europe",
-            "severity": "WATCH",
-            "url": "https://www.kron4.com/hill-politics/senate-gop-quietly-seeks-to-curb-trump-troop-moves-from-europe/",
-            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "kron4"
-        },
-        {
-            "title": "Technical tidal wave drives European loan spreads to nine-year tights",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/technical-tidal-wave-drives-european-100400888.html",
-            "image": "https://media.zenfs.com/en/pitchbook_790/7961460740aa4e390aad9991590a61fa",
-            "source": "yahoo"
-        },
-        {
-            "title": "India\u2019s AI Race Moves from Pilots to Production as GCCs, IT Services and Enterprises Drive 350K Active Hiring Demand",
-            "severity": "WATCH",
-            "url": "https://www.fmlive.in/indias-ai-race-moves-from-pilots-to-production-as-gccs-it-services-and-enterprises-drive-350k-active-hiring-demand/",
-            "image": "https://www.fmlive.in/wp-content/uploads/2021/10/DA-Portfolio-1024x1024-1.png",
-            "source": "fmlive_in"
-        },
-        {
-            "title": "Why bosses are missing a $29bn trick",
-            "severity": "WATCH",
-            "url": "https://au.news.yahoo.com/why-bosses-missing-29bn-trick-100109754.html",
-            "image": "https://media.zenfs.com/en/nca_newswire_424/a3a305d93088ace29b9c9d8169e1860a",
-            "source": "yahoo"
-        },
-        {
-            "title": "Zelenskyy hails G7 for new air defence, increased pressure on Russia",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/world/zelenskyy-hails-g7-for-new-air-defence-increased-pressure-on-russia-articleshow-7tvymsm",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-729675b0-7c9b-40cf-a96e-92efc940753d.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Opinion: We should ease back on housing support",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/opinion/should-ease-back-housing-support",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/06/no0616housing.jpg",
-            "source": "financialpost"
-        },
-        {
-            "title": "David Hofstedter and his family foundation: From Toronto real estate to global Jewish learning",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/business-and-innovation/real-estate/article-899645",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/725960",
-            "source": "jpost"
-        },
-        {
-            "title": "When does a tyrannical boss become a legal liability?",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/fp-work/when-does-tyrannical-boss-become-legal-liability",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/06/0617-mg-bad-boss.jpg",
-            "source": "financialpost"
-        },
-        {
-            "title": "Midsomer Murders actress calls out casting directors for requiring bust size on applications",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/tvshowbiz/article-15906569/Midsomer-Murders-actress-calls-casting-directors-requiring-bust-size-applications.html",
-            "image": "https://i.dailymail.com/1s/2026/06/17/10/109407459-0-image-a-4_1781690187149.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Telegram under scrutiny: Why India, the biggest market, has become Pavel Durov firm\u2019s toughest test",
-            "severity": "WATCH",
-            "url": "https://www.firstpost.com/tech/telegram-under-scrutiny-why-india-the-biggest-market-has-become-pavel-durov-firms-toughest-test-ws-e-14023491.html",
-            "image": "https://images.firstpost.com/uploads/2026/06/image-2026-06-861b25208b7a8d8f5459a26781cfeec2-1200x675.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "LIVE | \u2018Senona had keys\u2019 Nyuswa thought R200m drugs would be safe | Madlanga Commission",
-            "severity": "WATCH",
-            "url": "https://www.iol.co.za/news/politics/senona-had-keys-nyuswa-thought-r200m-drugs-would-be-safe-madlanga-commission-ddc5656d-2a23-447e-a37e-d49679f38e39",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/30eaa689cd5421e1424749a8457653d633dcf47d/4032&operation=CROP&offset=0x378&resize=4032x2268",
+            "title": "\u2018We Just Want to Go Home\u2019: Desperation and Chaos Erupt as 10,000 Stranded Malawians Wait for Repatriation in Durban",
+            "severity": "HIGH",
+            "url": "https://www.iol.co.za/news/we-just-want-to-go-home-desperation-and-chaos-erupt-as-10000-stranded-malawians-wait-for-repatriation-in-durban-75c674de-7036-4bf0-add6-0cb7f8b93e18",
+            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/36d971ad14188c445894e2675120318efc4aff98/1280&operation=CROP&offset=0x80&resize=1280x720",
             "source": "iol"
         },
         {
-            "title": "James Rew handed England test debut against New Zealand",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/james-rew-handed-england-test-093904989.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/vp8EOVdjOnD9Nh0FZL2Pvg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/somerset_county_gazette_560/4676df6159799214779a47be54e99950",
+            "title": "NATO Chief Downplays US Military Cutbacks as Top Commander Makes Backup Plans",
+            "severity": "HIGH",
+            "url": "https://www.military.com/nato-chief-downplays-us-military-cutbacks-as-top-commander-makes-backup-plans",
+            "image": "https://static0.mltimages.com/wordpresshttps://static0.mltimages.com/wordpress/wp-content/uploads/2026/06/ap26168365133203.jpg?w=1600&h=900&fit=crop",
+            "source": "military"
+        },
+        {
+            "title": "AI will create more jobs for humans, not replace them, Amaon founder Bezos says",
+            "severity": "HIGH",
+            "url": "https://www.bbc.com/news/articles/ceqdrw2yy3vo",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/1b53/live/14d94320-6a65-11f1-8e1d-bbbb1017d210.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "A Trollish New Campus Novel Hates Students and Professors Alike",
+            "severity": "HIGH",
+            "url": "https://www.newyorker.com/books/under-review/a-trollish-new-campus-novel-hates-students-and-professors-alike",
+            "image": "https://media.newyorker.com/photos/6a316b464c80e4b10d9addd5/16:9/w_2800,h_1575,c_limit/new%20yorker%20book%20review%20.jpeg",
+            "source": "newyorker"
+        },
+        {
+            "title": "US: Federal Judge dismisses case against Turkish Bank Halkbank",
+            "severity": "HIGH",
+            "url": "https://en.protothema.gr/2026/06/17/us-federal-judge-dismisses-case-against-turkish-bank-halkbank/",
+            "image": "https://en.protothema.gr/wp-content/uploads/2026/06/halkbank_arxeio.webp",
+            "source": "protothema"
+        },
+        {
+            "title": "Lionel Messi's team breaks silence on Kolkata chaos: Names ex-Bengal minister, alleges protocol breach, clears organiser",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/sports/football/lionel-messis-team-breaks-silence-on-kolkata-chaos-names-ex-bengal-minister-alleges-protocol-breach-clears-organiser-101781711624062.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/17/1600x900/logo/Dutta_said_Messi_was_unhappy_on_being_touched_1766_1781711843840_1781711843978_9dcd3367-d79b-4607-a2d0-5413028a5a44.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Live: DR Congo holds Portugal to draw, player investigated for betting breach - Australian Broadcasting Corporation",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdUVDZ180Q0NpemZwU3I4blJHck1YMW4zNVlYQ0swenBhUVptZnpsLVo4dDZGSHA5TXFBS0JUUGdEYUlpd1FJNFVDeThjRGJiRmZsa01NZDJpYklxc2tpY1NveS15cDRxSkZIN1pKRE9MRnUxeWhweklwLXg0b2loamJNdWNFdFlPTDNYYi1FamRZVlZaVVhXMHpQbk5YRlBROGIxTmljazdXUWJZeXJWWHBoOA?oc=5",
+            "image": "https://images.pexels.com/photos/30030072/pexels-photo-30030072.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Remarks on PM Modi: Privilege notice against Mallikarjun Kharge referred to Parliamentary panel",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/india/remarks-on-pm-modi-privilege-notice-against-mallikarjun-kharge-referred-to-parliamentary-panel-4042766",
+            "image": "https://media.assettype.com/deccanherald/2026-05-19/4jpsizen/deccanherald2026-04-12qyk9seobdeccanherald2026-03-11mq91zojxcong.avif?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Official | Marseille handed suspended Europa League exclusion and \u20ac10m fine over UEFA settlement breach",
+            "severity": "HIGH",
+            "url": "https://sports.yahoo.com/articles/official-marseille-handed-suspended-europa-162000616.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/DWpnGYRLip4LuTpIo3TvmQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/get_french_football_news_702/a3e6a6e5736a8f48e929d76d32223a93",
             "source": "yahoo"
         },
         {
-            "title": "Police say sufficient evidence gathered to indict Netanyahu minister over unlawful diplomatic passports",
+            "title": "'US, India In A Foot Race On AI': Ex-US Envoy Says Modi-Trump Meeting Signals Bigger Tech Push",
+            "severity": "MEDIUM",
+            "url": "https://www.news18.com/india/us-india-in-a-foot-race-on-ai-ex-us-envoy-says-modi-trump-meeting-signals-bigger-tech-push-ws-l-10156782.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/06/Modi-Trump-G7-2026-Evian-2026-06-562786ee7f0b78fd45115864b815c171-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Jim Cramer Explains Why He Is \u201cInclined to Stick\u201d With EquipmentShare",
+            "severity": "MEDIUM",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-why-inclined-163832390.html",
+            "image": "https://media.zenfs.com/en/insidermonkey.com/6eeac832621827d123ccd03733dcdaca",
+            "source": "yahoo"
+        },
+        {
+            "title": "Jim Cramer Points to SLB for Critical Insights Into International Oil Production",
+            "severity": "MEDIUM",
+            "url": "https://finance.yahoo.com/energy/articles/jim-cramer-points-slb-critical-163810895.html",
+            "image": "https://media.zenfs.com/en/insidermonkey.com/2d22beb31b770813a228fb67297cb5d3",
+            "source": "yahoo"
+        },
+        {
+            "title": "Botswana committed to greater intra-African trade",
+            "severity": "MEDIUM",
+            "url": "https://www.thestar.com.my/news/world/2026/06/18/botswana-committed-to-greater-intra-african-trade",
+            "image": "https://cdn.thestar.com.my/Themes/img/tsol-default-image2023.png",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Jim Cramer on AEVEX: \u201cI Still Think the Fundamental Story Here is Terrific\u201d",
+            "severity": "MEDIUM",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-aevex-still-think-163840488.html",
+            "image": "https://media.zenfs.com/en/insidermonkey.com/293138d34069d99e680c827f55215206",
+            "source": "yahoo"
+        },
+        {
+            "title": "Teen suing Trump speaks: 'You don't fight that hard to avoid trial unless you're afraid'",
             "severity": "WATCH",
-            "url": "https://www.haaretz.com/israel-news/israel-crime/2026-06-17/ty-article/.premium/police-say-enough-evidence-gathered-to-charge-minister-over-diplomatic-passports/0000019e-d4bd-d015-a3be-d6ff34a80000",
-            "image": "https://img.haarets.co.il/bs/0000019e-d4e5-db7a-a9bf-ddf545d10001/ae/e1/530d92064e3d992cba3e3cfe28c3/320361-2.webp?height=81",
-            "source": "haaretz_is"
+            "url": "https://www.rawstory.com/the-court-told-us-to-come-back-later-we-are-out-of-time/",
+            "image": "https://www.rawstory.com/media-library/a-family-watches-firefighter-helicopters-battle-a-wildfire-known-as-the-sandy-fire-in-simi-valley-california-u-s-may-18-20.jpg?id=66951450&width=980",
+            "source": "rawstory"
+        },
+        {
+            "title": "Ukraine Denies Russian Claims Of Strike On Bus Carrying Belarusian Children",
+            "severity": "WATCH",
+            "url": "https://www.rferl.org/a/belarus-ukraine-russia-drone-strike-bus-children/33783067.html",
+            "image": "https://gdb.rferl.org/97e20d41-4ff2-4429-81b7-475f77d03f67_cx0_cy11_cw0_w1080_h608.jpg",
+            "source": "rferl"
+        },
+        {
+            "title": "The \u2018Winona Ryder Pixie Cut\u2019 Is Summer's Most Surprisingly Versatile Hair Trend",
+            "severity": "WATCH",
+            "url": "https://www.glamour.com/story/the-winona-ryder-pixie-cut-trend",
+            "image": "https://media.glamour.com/photos/6a32cc30af1a34cd55518e6d/16:9/w_2064,h_1161,c_limit/115357029",
+            "source": "glamour"
+        },
+        {
+            "title": "BTG Capital buys Newfoundland\u2019s shuttered Stephenville airport",
+            "severity": "WATCH",
+            "url": "https://www.theglobeandmail.com/business/article-stephenville-airport-btg-capital-newfoundland/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/WK23HOMSPZAEPHH7J4KGNWP4QQ.JPG?auth=9a4ebfb141255aa074d7c20b41944b262d01e5d39e6b3945f368e765ca65629c&smart=true&width=3402&height=2268",
+            "source": "theglobeandmail"
+        },
+        {
+            "title": "'Sorry for being a burden': 23-year-old NEET aspirant dies by suicide in Dehradun",
+            "severity": "WATCH",
+            "url": "https://www.deccanherald.com/india/uttarakhand/sorry-for-being-a-burden-23-year-old-neet-aspirant-dies-by-suicide-in-dehradun-4042743",
+            "image": "https://media.assettype.com/deccanherald/2026-03-11/niceiyoh/deccanherald2025-07-02bkna1lmhdeccanherald2025-05-246laghkvldeccanherald2025-05-12rllolweudeccanherald2024-09-28yogrcmw1deccanheraldimportsitesdhfilesarticleimages20230131istock-suicide-1181219-1673771332-1186226-1675103868.avif?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "As crime surges in some Latin American countries, a far-right backlash is brewing",
+            "severity": "WATCH",
+            "url": "https://www.dailycamera.com/2026/06/17/crime-surge-far-right-latin-american-countries/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2026/06/Latin_America_Crime_Elections__2_18-1.jpg?w=1400px&strip=all",
+            "source": "dailycamera"
+        },
+        {
+            "title": "Pride in America Craters Ahead of Trump\u2019s America 250 Bash",
+            "severity": "WATCH",
+            "url": "https://www.thedailybeast.com/pride-in-america-craters-ahead-of-trumps-america-250-bash/",
+            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/C6UDCLJ7LZFCRAJHKUL53G2UOA.JPG?auth=aa035d4f537902ec0dd5c869a3e187bd3e85cb9cf955d3b0284f10ff32fdfc5b&smart=true&width=2046&height=1151",
+            "source": "thedailybeast"
+        },
+        {
+            "title": "Ugandan Opposition Figure's Lawyer Charged With Treason-Related Offence",
+            "severity": "WATCH",
+            "url": "https://www.usnews.com/news/world/articles/2026-06-17/ugandan-opposition-figures-lawyer-charged-with-treason-related-offence",
+            "image": "https://www.usnews.com/dims4/USNEWS/3597b19/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F67%2F4ba9c2ffdc48c86bf742e446b16a9c%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM5G1GH%3A12026-06-17T163930Z_1_LYNXMPEM5G1GH_RTROPTP_3_UGANDA-POLITICS.JPG",
+            "source": "usnews"
+        },
+        {
+            "title": "India-UK Trade Pact Operational From July 15, PM Modi Calls It \u2018Historic Milestone\u2019",
+            "severity": "WATCH",
+            "url": "https://ommcomnews.com/india-news/india-uk-trade-pact-operational-from-july-15-pm-modi-calls-it-historic-milestone/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/06/20250724322F-1-e1781714311709.jpg",
+            "source": "ommcomnews"
+        },
+        {
+            "title": "'Untouchable' family-run crime gang sentenced",
+            "severity": "WATCH",
+            "url": "https://www.bbc.com/news/articles/czrxv0d1n5zo",
+            "image": "https://ichef.bbci.co.uk/news/1024/branded_news/b684/live/eb3e68a0-6a5b-11f1-8115-ed1047107edc.png",
+            "source": "bbc"
+        },
+        {
+            "title": "Trump administration to buy back another energy company\u2019s offshore wind leases for 4 more projects",
+            "severity": "WATCH",
+            "url": "https://www.bostonglobe.com/2026/06/17/nation/trump-offshore-wind-projects/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/75USI5YSCCHBHSJCY6QZCA7EH4.jpg?auth=e0f1263e32d5702a8893601530d895f85b212f2980c8ea8fdbd1a8899d6f9031&smart=true&width=4584&height=2784",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "Chennai, what makes you happy? Homes, footpaths boost happiness as much as friends in the city, says study",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/chennai/chennai-what-makes-you-happy-homes-footpaths-boost-happiness-as-much-as-friends-in-the-city-says-study/articleshow/131806732.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131806727/131806727.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Trump Says He Did Not Want to See Economic Catastrophe as He Defends Iran Deal",
+            "severity": "WATCH",
+            "url": "https://www.usnews.com/news/world/articles/2026-06-17/trump-says-he-did-not-want-to-see-economic-catastrophe-as-he-defends-iran-deal",
+            "image": "https://www.usnews.com/dims4/USNEWS/75eca4b/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Ffb%2Fda0b83c35e1bf3dcf884bdfd223726%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM5G1FV%3A12026-06-17T163347Z_1_LYNXMPEM5G1FV_RTROPTP_3_IRAN-CRISIS-OIL.JPG",
+            "source": "usnews"
+        },
+        {
+            "title": "Fox World Cup announcers: Full list of 2026 broadcasters and analysts",
+            "severity": "WATCH",
+            "url": "https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/17/fox-world-cup-announcers-analysts-donovan-lalas-henry-ibrahimovic/90590216007/",
+            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/17/USAT/90590698007-gty-2277569982.jpg?crop=5993,3374,x4,y624&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "usatoday"
+        },
+        {
+            "title": "\u2018Manosphere\u2019-led anti-feminist ideologies making women less safe, MPs say",
+            "severity": "WATCH",
+            "url": "https://globalnews.ca/news/11908649/anti-feminism-women-gender-violence-manosphere-report/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/06/antifeminism-vigil-intimate-partner-violence-women-e1781651259767.jpg?quality=65&strip=all",
+            "source": "globalnews"
+        },
+        {
+            "title": "The Traitors UK reveals \u2018sickening\u2019 moment he lost \u00a340,000 in heartbreaking scam",
+            "severity": "WATCH",
+            "url": "https://metro.co.uk/2026/06/17/traitors-uk-reveals-sickening-moment-lost-40-000-heartbreaking-scam-28816877/",
+            "image": "https://metro.co.uk/wp-content/uploads/2026/06/SEI_280869705-c41a-e1781713022221.jpg?quality=90&strip=all",
+            "source": "metro"
+        },
+        {
+            "title": "Ontario city scraps Indian Road in favour of Ojibway name",
+            "severity": "WATCH",
+            "url": "https://globalnews.ca/news/11909634/indian-road-aki-kingston-ont/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/06/Indian-Rd.-intersection-e1781707037208.jpg?quality=65&strip=all",
+            "source": "globalnews"
+        },
+        {
+            "title": "Electrolux Group announces the preliminary outcome of the oversubscribed rights issue",
+            "severity": "WATCH",
+            "url": "https://www.prnewswire.com/apac/news-releases/electrolux-group-announces-the-preliminary-outcome-of-the-oversubscribed-rights-issue-302803346.html",
+            "image": "https://images.pexels.com/photos/11082253/pexels-photo-11082253.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "prnewswire_apac"
+        },
+        {
+            "title": "Ozempic Maker Novo Nordisk Confirms Security Incident After $25M Hacker Demand",
+            "severity": "WATCH",
+            "url": "https://www.techrepublic.com/article/news-novo-nordisk-1-3tb-theft-25m-demand-emea/",
+            "image": "https://assets.techrepublic.com/uploads/2026/06/novo-nordisk-1.jpg?f=jpeg",
+            "source": "techrepublic"
         }
     ],
-    "Last_Updated": "2026-06-17T22:06:02.021847Z"
+    "Last_Updated": "2026-06-18T04:41:34.638581Z"
 }
