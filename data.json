@@ -1,272 +1,281 @@
 {
-    "AGRI_Score": 57.9,
-    "Velocity": "-0.7",
+    "AGRI_Score": 62.2,
+    "Velocity": "+4.3",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The AGRI score of 62.2 is primarily driven by escalating Geopolitical Conflict Intensity and imminent Energy & Maritime Disruption. Russia's aggressive stance toward Ukraine following drone attacks, with \"'ZERO TALKS, ONLY ATTACKS': Russia Threatens Ukraine After Moscow Drone Attack,\" heightens direct conflict risk. This is compounded by Iran's explicit threat to \"launch missiles and block Hormuz Strait as Switzerland meeting cancelled,\" which directly elevates global energy supply and trade route disruption concerns, overriding earlier market optimism from a reported US-Iran peace deal. Cyber & Infrastructure Threats also contribute significantly due to pervasive ransomware and ongoing physical attacks on key facilities.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.4,
+        "Geopolitical Conflict Intensity": 76.4,
         "Energy & Maritime Disruption": 64.0,
-        "Trade & Supply Chain Stress": 66.4,
+        "Trade & Supply Chain Stress": 64.9,
         "Sovereign Financial Stress": 54.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.7,
-        "Cyber & Infrastructure Threats": 62.3,
-        "Climate & Resource Shock": 25
+        "Sanctions & Regulatory Fragmentation": 55.7,
+        "Cyber & Infrastructure Threats": 67.3,
+        "Climate & Resource Shock": 55
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar is significantly elevated due to renewed direct threats between major actors. \"'ZERO TALKS, ONLY ATTACKS': Russia Threatens Ukraine After Moscow Drone Attack\" signals heightened conflict, while \"Iran threatens to launch missiles and block Hormuz Strait\" demonstrates a dangerous escalation in Middle Eastern tensions.",
+        "Energy & Maritime Disruption": "The potential for severe disruption is high, directly linked to a critical chokepoint. Iran's threat to \"block Hormuz Strait\" poses an immediate risk to global oil and gas transit, signaling potential energy supply shocks. Further, concerns about a \"massive energy crisis\" for AI data centers highlight underlying resource strain.",
+        "Trade & Supply Chain Stress": "Global trade routes face considerable jeopardy from potential maritime interference. The explicit threat by \"Iran threatens to launch missiles and block Hormuz Strait\" would directly impact a vital shipping lane, leading to significant delays and cost increases across international supply chains.",
+        "Sovereign Financial Stress": "This pillar reflects moderate stress, with contradictory market signals requiring careful assessment. While \"Investors Cheer US-Iran Peace Deal\" led to positive market performance, the subsequent and contradictory threat of a Hormuz Strait blockade suggests potential underlying financial volatility could emerge rapidly.",
+        "Currency & Liquidity Pressure": "Currently, this pillar indicates baseline activity, with no immediate signs of widespread currency or liquidity crises. Despite geopolitical tensions, there are no specific reports detailing significant currency devaluations or a systemic lack of market liquidity at this time.",
+        "Sanctions & Regulatory Fragmentation": "This area is under routine monitoring, as no new significant sanctions or major regulatory fragmentation events are reported. Discussions such as \"White House talks with Anthropic shift to setting AI security rules\" point towards future regulatory developments, rather than current fragmentation.",
+        "Cyber & Infrastructure Threats": "This pillar is high due to a confluence of sophisticated cyberattacks and physical infrastructure targeting. Reports of \"Gentlemen ransomware uses multiple EDR killers to disable defenses\" and \"Passco Companies, LLC Data Breach Exposes Personal Information\" underscore the pervasive digital threat, alongside \"Ukraine\u2019s new drone tactics\" causing chaos in Russia.",
+        "Climate & Resource Shock": "This pillar exhibits moderate concern, primarily driven by underlying resource demands. Discussions around a \"massive energy crisis\" for AI data centers highlight the growing strain on energy resources, indicating potential future shocks related to resource availability and consumption."
+    },
     "All_Alerts": [
         {
-            "title": "Maritime data company says stranded ships have begun transiting the Strait of Hormuz",
+            "title": "Quote of the Day by Henry Ford: 'The Whole Secret of a Successful Life Is to Find Out What Is One\u2019s Destiny to Do, and Then Do It' offers valuable life lesson for today's youth, aspirants in fast-paced modern world",
             "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/maritime-data-company-says-stranded-155053185.html",
-            "image": "https://media.zenfs.com/en/cp_finance_889/c700ef2400446ac49eea02cf3b605df2",
-            "source": "yahoo"
+            "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-henry-ford-the-whole-secret-of-a-successful-life-is-to-find-out-what-is-ones-destiny-to-do-and-then-do-it-offers-valuable-life-lesson-for-todays-youth-aspirants-in-fast-paced-modern-world/articleshow/131843868.cms",
+            "image": "https://img.etimg.com/thumb/msid-131843868,resizemode-4,width-1200,height-900,imgsize-1844509,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "U.S. allows more than a dozen ships through to Iranian ports, lifting blockade under deal, Vance says",
+            "title": "The Iran War Was a Spectacular Failure",
             "severity": "HIGH",
-            "url": "https://www.post-gazette.com/news/world/2026/06/18/iran-update-today-latest-june-18-2026/stories/202606180060",
-            "image": "https://73f3e7d5672db1849e6c-6434aaf008a29447cc424990bc6a54a7.ssl.cf2.rackcdn.com/stories/202606180060/1140x_a10-7_cTC/Iran-US-Trump-2_1781802000.jpg",
-            "source": "postgazette"
+            "url": "https://www.newyorker.com/newsletter/the-daily/the-iran-war-was-a-spectacular-failure",
+            "image": "https://media.newyorker.com/photos/66bbc14a3a338ff378df3b0c/16:9/w_1184,h_666,c_limit/newsletter-flagship-daily-header2.png",
+            "source": "newyorker"
         },
         {
-            "title": "Vance defends Iran deal, says U.S. \u2018only powerful ally\u2019 Israel has left",
+            "title": "S&P 500, Nasdaq And Dow End Holiday-Shortened Week Higher As Investors Cheer US-Iran Peace Deal \u2014 SPCX, AMZN, ONDS, NFLX, TTWO In Focus",
             "severity": "HIGH",
-            "url": "https://globalnews.ca/news/11911710/iran-deal-vance-israel-strait-of-hormuz/",
-            "image": "https://globalnews.ca/wp-content/uploads/2026/06/b2e9de740f49cb9ce87647ba1f9bffc110a4d80f54ef6a63f5585a08d090c1bb.jpg?quality=65&strip=all",
-            "source": "globalnews"
+            "url": "https://newsable.asianetnews.com/markets/s-p-500-nasdaq-and-dow-end-holiday-shortened-week-higher-as-investors-cheer-us-iran-peace-deal-spcx-amzn-onds-nflx-ttwo-in-focus-articleshow-8qzqndg",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-b2aad5e9-b1bf-4da3-af5e-9d319c6ce3a7.webp",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "Revealed on TV: How Iranian pilots flew '60-yr-old jets at 50 feet altitude to bomb US' Kuwait base'",
+            "title": "Senior aide to Alberta premier urges First Nations chiefs to fix their communities - Global News",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/videos/revealed-on-tv-how-iranian-pilots-flew-60-yr-old-jets-at-50-feet-altitude-to-bomb-us-kuwait-base-101781801889957.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/18/1600x900/logo/1_1781801955686_1781801959978_19a39dab-55b7-4a1e-a548-ef77155a9c1d.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Household battery installations nearly double during Iran war",
-            "severity": "HIGH",
-            "url": "https://www.thetimes.com/uk/environment/article/uk-household-battery-installations-iran-war-3876gt9hz",
-            "image": "https://images.pexels.com/photos/30541554/pexels-photo-30541554.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "thetimes"
-        },
-        {
-            "title": "'They flooded us': Chrome miner claims R67m devastation in dispute with Sibanye Stillwater",
-            "severity": "HIGH",
-            "url": "https://www.iol.co.za/news/south-africa/they-flooded-us-chrome-miner-claims-r67m-devastation-in-dispute-with-sibanye-stillwater-904ee6a8-2e56-4056-955d-96b19ea9de99",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/9ce19afe44c121be95f1cc15e9134600b54d58ac/1280&operation=CROP&offset=0x0&resize=1280x720",
-            "source": "iol"
-        },
-        {
-            "title": "\u2018PM Modi specifically voiced...\u2019: What did India discuss with global leaders at G7 Summit? Foreign Ministry answers",
-            "severity": "HIGH",
-            "url": "https://www.india.com/news/india/pm-modi-specifically-voiced-what-did-pm-modi-discuss-with-global-leaders-at-g7-summit-foreign-ministry-answers-8450580/",
-            "image": "https://static.india.com/wp-content/uploads/2026/06/Modi-Trump-1.jpg",
-            "source": "india"
-        },
-        {
-            "title": "Running low: Mumbai\u2019s water crisis fuels tanker price surge",
-            "severity": "HIGH",
-            "url": "https://indianexpress.com/article/cities/mumbai/water-crisis-lake-levels-drop-private-tanker-prices-surge-bmc-restrictions-10746679/",
-            "image": "https://images.indianexpress.com/2026/06/Mumbais-water-crisis.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "\u2018We Are Committed\u2019: JD Vance Says US Will Honour First Phase Of Iran Deal",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/world/we-are-committed-jd-vance-says-us-will-honour-first-phase-of-iran-deal-ws-bl-10159457.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/06/Untitled-design-2026-06-18T222617.310-2026-06-391438d108ce295e3ff02d467d5d156e-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "\u2018Navigating WW3\u2019 on Agenda at Secret Meeting of World\u2019s Elites",
-            "severity": "HIGH",
-            "url": "https://www.newsweek.com/world-war-3-secret-meeting-world-elites-12091475",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/06/Copy-of-32-image-2026-06-18T161449-497.png?w=1600&h=900&q=88",
-            "source": "newsweek"
-        },
-        {
-            "title": "Sygnia uncovers Velvet Ant breach dating back to 2016 - SecurityBrief Australia",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQai0wN3B3SHpIaGdrY3BheS1fOGY2Rk1lcWwwZTE4TkgzQ05LS3B1OXdteHhjeUVBTGtqaHozVHZoeVpTckRGTFBkTnFCV2dpLVlrV0psSXhDcy1VQmhUMTdpcnViTHdtYXBnWDdNSERnX3AyN25WYTVnWjd5d0dxYnZ0SUJaaHRkNDdQQ3pSanFVdw?oc=5",
-            "image": "https://images.pexels.com/photos/34635799/pexels-photo-34635799.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSmQ5VlFwbW1OemJZUklMYXgtNjNTTUdmdHNnbURST3pPWHBnd2NkclZ0UF9QOFhfMzQxazA2dkg3aktOaVppTlhncW5vbnplZjRUUGJjOGtNUXZKSW5DSGdwVHkzZnFNMkNtOTlNOEUzNVpPTDlBajZJdTdaNjdKd2NMNmtWX1ZMUUctZ2VR?oc=5",
+            "image": "https://images.pexels.com/photos/12105318/pexels-photo-12105318.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Kerala govt objects to Guv Arlekar\u2019s meeting with officials over Yoga Day, flags protocol breach",
+            "title": "'ZERO TALKS, ONLY ATTACKS': Russia Threatens Ukraine After Moscow Drone Attack; Lavrov's Big Warning",
             "severity": "HIGH",
-            "url": "https://english.mathrubhumi.com/news/kerala/kerala-govt-objects-to-guv-arlekars-meeting-with-officials-over-yoga-day-flags-protocol-breach-lxr8yk05",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1rvlisdngdk73mw67w5/0/rajendra-arlekar-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
+            "url": "https://timesofindia.indiatimes.com/videos/international/zero-talks-only-attacks-russia-threatens-ukraine-after-moscow-drone-attack-lavrovs-big-warning/videoshow/131843873.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-131843873/131843873.jpg?resizemode=4",
+            "source": "toi"
         },
         {
-            "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
+            "title": "Trump awards Medal of Honor to 3 veterans of the Vietnam, Afghanistan wars",
             "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/05/07/Cryptocurrency-bitcoin.jpg",
+            "url": "https://www.cbsnews.com/news/trump-awards-medal-of-honor-3-veterans-vietnam-afghanistan-wars-james-capers-jr-nicholas-dockery-john-w-ripley/",
+            "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/06/18/9dc0b623-7cd7-4de0-9275-1944665ddd9c/thumbnail/1200x630/14fee231090befd6ad5cee9083df6d93/gettyimages-2281650472.jpg",
+            "source": "cbsnews"
+        },
+        {
+            "title": "'Holy crap, this is not how you cool facilities' \u2014 Nuclear engineer wants to use special bubbles to save AI data centers from a massive energy crisis",
+            "severity": "HIGH",
+            "url": "https://www.techradar.com/pro/holy-crap-this-is-not-how-you-cool-facilities-nuclear-engineer-wants-to-use-special-bubbles-to-save-ai-data-centers-from-a-massive-energy-crisis",
+            "image": "https://cdn.mos.cms.futurecdn.net/HGTB9s2jTcfMqnyo33HySU-1280-80.png",
+            "source": "techradar_au"
+        },
+        {
+            "title": "How Ukraine\u2019s new drone tactics are causing chaos in Russia after largest-ever attack on Moscow",
+            "severity": "HIGH",
+            "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-drones-oil-refineries-brovdi-b2998767.html",
+            "image": "https://static.independent.co.uk/2026/06/18/17/2026-06-18T095753Z_1858317788_RC27WLAWFTJS_RTRMADP_3_UKRAINE-CRISIS-ATTACK-MOSCOW.JPG?width=1200&auto=webp&trim=0%2C0%2C1%2C0",
+            "source": "independentuk"
+        },
+        {
+            "title": "Canadian hacker pleads guilty to charges for cyberattack on Texas Republican website",
+            "severity": "HIGH",
+            "url": "https://www.theglobeandmail.com/business/economy/article-canadian-hacker-pleads-guilty-cyberattack-texas-republican-website/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/YISUHCQZSJHQ3DUDEZQ3ZA7SYE.JPG?auth=c75f739fd7fe10d8afee4e3e724392dd56a21f431343d4bee0eb6133ca165ce2&smart=true&width=6192&height=4128",
+            "source": "theglobeandmail"
+        },
+        {
+            "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2026/06/18/gentlemen.jpg",
             "source": "bleepingcomputer"
         },
         {
-            "title": "PM Modi, Trump Push For Early India-US Trade Deal As Negotiators Enter Final Stretch",
-            "severity": "MEDIUM",
-            "url": "https://www.ndtvprofit.com/economy/pm-modi-trump-push-for-early-india-us-trade-deal-as-negotiators-enter-final-stretch-foreign-secretary-11656315",
-            "image": "https://c.ndtvimg.com/2026-06/jtv0gfmc_pm-modi-donald-trump_625x300_18_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
-            "source": "ndtv"
+            "title": "Silicon valley is racing to solve a problem it created",
+            "severity": "HIGH",
+            "url": "https://www.thestreet.com/technology/silicon-valley-is-racing-to-solve-a-problem-it-created",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMDgzNTE3/photo-3083517.jpg?profile=rss",
+            "source": "thestreet"
         },
         {
-            "title": "7 Most Powerful Versions of Batman Villains, Ranked",
-            "severity": "WATCH",
-            "url": "https://comicbook.com/comics/list/7-most-powerful-versions-of-batman-villains-ranked/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/01/Emperor-Joker-DC-Comics.png",
-            "source": "comicbook"
-        },
-        {
-            "title": "Mood-boosting summer fragrances explained and why scent science has become a wellness essential",
-            "severity": "WATCH",
-            "url": "https://www.kansascity.com/living/article316169101.html",
-            "image": "https://www.kansascity.com/public/latest-news/py0du8/picture316169437/alternates/FREE_1140/GettyImages-1583795177.jpg",
-            "source": "kansascity"
-        },
-        {
-            "title": "Chloe Qisha is here to make your summer playlist horny AF",
-            "severity": "WATCH",
-            "url": "https://www.cosmopolitan.com/uk/entertainment/a71459579/chloe-qisha-interview/",
-            "image": "https://hips.hearstapps.com/hmg-prod/images/83432806-939c-4105-afed-adb7c03620c4.jpg",
-            "source": "cosmopolitan"
-        },
-        {
-            "title": "Coromandel\u2019s Thomas Mosen lands $43m backing for AI start-up Sea12 in US boom",
-            "severity": "WATCH",
-            "url": "https://www.nzherald.co.nz/business/coromandels-thomas-mosen-lands-43m-backing-for-ai-start-up-sea12-in-us-boom/premium/AIIGQULDDNBCTHITBFOFEL7IY4/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/A7CY7MZS5ZHGFLVQQKISSAHFCA.jpg?auth=e7c27f7803c7d8c3878d7fc71f9d076f11bb5c1b032908da5a9494a15175b4d0&smart=true&width=300&height=300",
-            "source": "nzherald"
-        },
-        {
-            "title": "Battery Industry Veteran Bob Galyen, Former CATL CTO, Joins EnPower Board of Directors",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/pressreleases/26/06/n53284851/battery-industry-veteran-bob-galyen-former-catl-cto-joins-enpower-board-of-directors",
+            "title": "Passco Companies, LLC Data Breach Exposes Personal Information: Murphy Law Firm Investigates Legal Claims",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/pressreleases/26/06/g53294423/passco-companies-llc-data-breach-exposes-personal-information-murphy-law-firm-investigates-legal-c",
             "image": "https://cdn.benzinga.com/files/imagecache/bz2_opengraph_meta_image_400x300/sites/all/themes/bz2/images/bz-icon.png",
             "source": "benzinga"
         },
         {
-            "title": "Stranded oil is streaming out of Hormuz as Iran deal takes effect",
-            "severity": "WATCH",
-            "url": "https://www.detroitnews.com/story/business/2026/06/18/stranded-oil-is-streaming-out-of-hormuz-as-iran-deal-takes-effect/90607692007/",
-            "image": "https://www.detroitnews.com/gcdn/authoring/authoring-images/2026/06/18/PDTN/90607959007-20260618-t-131155-z-2111309546-rc-2-awlase-77-c-rtrmadp-3-irancrisisomanhormuz.JPG?crop=5495,3093,x0,y0&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "detroitnews"
+            "title": "Alleged drunk driver in deadly Hwy. 11 crash back in jail accused of bail breach",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/barrie/article/alleged-drunk-driver-in-deadly-hwy-11-crash-back-in-jail-accused-of-bail-breach/",
+            "image": "https://www.ctvnews.ca/resizer/v2/D5AJNEETLNCSNGTOWXYQXWC4GA.png?auth=4acfc62feecdcf2a8fc64e18c23b5cb23ca4022dd5ad7a80f4734396ad63cd47&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
         },
         {
-            "title": "Watch SpaceX launch new batch of US spy satellites from California early on June 19",
-            "severity": "WATCH",
-            "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-179-nro",
-            "image": "https://cdn.mos.cms.futurecdn.net/QZNuMdpMBx9zQgA8YmXodh-1280-80.jpg",
-            "source": "space"
-        },
-        {
-            "title": "DC Revives Three Fan-Favorite Superhero Teams for DC Next Level Initiative",
-            "severity": "WATCH",
-            "url": "https://sea.ign.com/teen-titans-2016-current/244411/dc-revives-three-fan-favorite-superhero-teams-for-dc-next-level-initiative",
-            "image": "https://sm.ign.com/ign_ap/news/d/dc-revives/dc-revives-three-fan-favorite-superhero-teams-for-dc-next-le_4pt3.jpg",
-            "source": "ign"
-        },
-        {
-            "title": "'We Were Treated Like Animals': Australian Police Probe Claims Of Israeli Sexual Assault On Gaza Flotilla Survivors",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/world/we-were-treated-like-animals-australian-police-probe-claims-of-israeli-sexual-assault-on-gaza-flotilla-survivors-10159460.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/06/4181981_1781801841196-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Global Cell and Gene Therapy CDMO Market Anticipating Remarkable Growth at a CAGR of ~24% by 2034 | DelveInsight",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/06/18/3314441/0/en/Global-Cell-and-Gene-Therapy-CDMO-Market-Anticipating-Remarkable-Growth-at-a-CAGR-of-24-by-2034-DelveInsight.html",
-            "image": "https://images.pexels.com/photos/30855417/pexels-photo-30855417.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "Pakistan-linked \u2018Ice\u2019 racket busted in Tricity, advocate held",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/cities/chandigarh/ncb-methamphetamine-ice-network-chandigarh-drug-bust-10746719/",
-            "image": "https://images.indianexpress.com/2026/06/methamphetamine-file-photo.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "\u2018A testament to 1.4 billion Indians\u2019: PM Modi highlights 12 years of growth and transformation in Paris address",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/india/a-testament-to-1-4-billion-indians-pm-modi-highlights-12-years-of-growth-and-transformation-in-paris-address-13953440.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260616183640_Modi-G7-France.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "$200 Billion Export Opportunity For India To BRICS By 2030: ASSOCHAM",
-            "severity": "WATCH",
-            "url": "https://www.ndtvprofit.com/economy/200-billion-export-opportunity-for-india-to-brics-by-2030-assocham-11656295",
-            "image": "https://c.ndtvimg.com/2026-06/rk18df38_v_625x300_18_June_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
-            "source": "ndtv"
-        },
-        {
-            "title": "Senate Armed Services chair slams Iran peace deal",
-            "severity": "WATCH",
-            "url": "https://www.politico.com/live-updates/2026/06/18/congress/wicker-gop-iran-deal-00967290",
-            "image": "https://static.politico.com/fb/97/d681a35945089b40dd6569ab44c1/u-s-congress-36414.jpg",
-            "source": "politico"
-        },
-        {
-            "title": "Canadian cities offer new office space, incentives to host proposed defence bank",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/canadian-cities-offer-office-space-165910373.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/MAy2nkJ.cGzewUVqIw0kVQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE2MDA7aD0xMDY4/https://media.zenfs.com/en/reuters.ca/3087c5dfcf0f7b1f626078528dce4d07",
-            "source": "yahoo"
-        },
-        {
-            "title": "Vance questions Iran deal as signing ceremony nears in Switzerland",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/galleries/article-15911719/Vance-questions-Iran-deal-signing-ceremony-nears-Switzerland.html",
-            "image": "https://i.dailymail.com/1s/2026/06/18/17/109419017-0-image-a-256_1781801840539.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Developers working on Heathrow's third runway could be forced to install 'green bridges' to protect wildlife",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15911619/Developers-working-Heathrows-runway-forced-install-green-bridges-protect-wildlife.html",
-            "image": "https://i.dailymail.com/1s/2026/06/18/17/109447719-0-image-a-4_1781801063382.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "The horrific past of Baby Preston's mother - tortured and killed pensioner at age 14",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/news/uk/2219138/horrific-past-baby-prestons-mother",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2219138_1.jpg",
+            "title": "Iran threatens to launch missiles and block Hormuz Strait as Switzerland meeting cancelled",
+            "severity": "HIGH",
+            "url": "https://www.express.co.uk/news/world/2219232/iran-threats-launch-missiles-block",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2219232_1.jpg",
             "source": "expresscouk"
         },
         {
-            "title": "Under fire all-rounder Ben Stokes set to return to cricketing action after being ousted by England",
-            "severity": "WATCH",
-            "url": "https://www.india.com/sports/under-fire-all-rounder-ben-stokes-set-to-return-to-cricketing-action-after-being-ousted-by-england-8450583/",
-            "image": "https://static.india.com/wp-content/uploads/2026/06/Stokes.jpg",
-            "source": "india"
+            "title": "White House talks with Anthropic shift to setting AI security rules",
+            "severity": "MEDIUM",
+            "url": "https://www.businessinsider.com/white-house-talks-anthropic-ai-security-rules-2026-6",
+            "image": "https://i.insider.com/6a34635b0e60dfb3f373f69e?width=1200&format=jpeg",
+            "source": "businessinsider_us"
         },
         {
-            "title": "Managers of former Ibis hotel near Red Cow claim receivers interfering with operation",
+            "title": "Filipino fans join massive crowd at Knicks victory parade in NYC",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/crime-law/courts/2026/06/18/managers-of-former-ibis-hotel-near-red-cow-claim-receivers-interfering-with-operation/",
-            "image": "https://www.irishtimes.com/resizer/v2/WIRSRSL6JBYDTQXWF6A63DF4NE.jpg?auth=b2b3782bb7fd7bed78d31ec1b0065683fc79b4b26546f18428822d17082f147b&smart=true&width=630&height=350",
-            "source": "irishtimes"
+            "url": "https://usa.inquirer.net/201072/filipino-fans-join-massive-crowd-at-knicks-victory-parade-in-nyc",
+            "image": "https://usa.inquirer.net/files/2026/06/Fil-Ams-at-Knicks-parade-featured-scaled.png",
+            "source": "inquirer"
         },
         {
-            "title": "Hot-head Moutet courts more controversy at Queen's Club",
+            "title": "Netanyahu vows Israeli forces will stay in southern Lebanon despite U.S.-Iran agreement",
             "severity": "WATCH",
-            "url": "https://www.skysports.com/tennis/news/12040/13555411/corentin-moutet-hot-headed-frenchman-courts-more-controversy-in-hsbc-championship-at-queens-club",
-            "image": "https://e0.365dm.com/26/06/2048x1152/skysports-corentin-moutet-tennis_7276863.jpg?20260618171441",
-            "source": "skysports"
+            "url": "https://www.the-express.com/news/world-news/209919/express-netanyahu-vows-israeli-forces",
+            "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/209919_1.jpg",
+            "source": "express"
         },
         {
-            "title": "\u2018Taking my escape off the table\u2019: Mixed emotions surface over MAID eligibility for mental illness",
+            "title": "Rude Food by Vir Sanghvi: Across the milky way",
             "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/health/article/taking-my-escape-off-the-table-mixed-emotions-surface-over-maid-eligibility-for-mental-illness/",
-            "image": "https://www.ctvnews.ca/resizer/v2/SOGHUNQ4UFCZXGUSK4G4JWGA5Q.png?auth=9e521f9b686f638c42fa414fe4c2aa24da8f2e6e98201ba86e9e9d076787ecbb&smart=true&width=1920&height=1080",
-            "source": "ctvnews"
+            "url": "https://www.hindustantimes.com/lifestyle/brunch/rude-food-by-vir-sanghvi-across-the-milky-way-101781822438385.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/18/1600x900/logo/Last-week--news-broke-that-Kwality-Wall-s-will-sto_1781822436036.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "3 Years Later, the BBC's Perfect \u2018Broadchurch\u2019 Replacement Is Finally Back",
+            "severity": "WATCH",
+            "url": "https://collider.com/vigil-season-3-trailer-bbc/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/06/vigil-cal-macaninch.jpg?w=1600&h=900&fit=crop",
+            "source": "collider"
+        },
+        {
+            "title": "Long gamma-ray bursts may trace collapsing stars rather than neutron-star mergers",
+            "severity": "WATCH",
+            "url": "https://phys.org/news/2026-06-gamma-ray-collapsing-stars-neutron.html",
+            "image": "https://scx2.b-cdn.net/gfx/news/2026/evaluation-of-gamma-ra.jpg",
+            "source": "phys"
+        },
+        {
+            "title": "Free-Speech Fight: 3 Amazon Engineers Who Sounded Alarm On Climate Cost Of Data Centres Claim HR Backlash",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/tech/free-speech-fight-3-amazon-engineers-who-sounded-alarm-on-climate-cost-of-data-centres-claim-hr-backlash-10159622.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/06/data-center-2026-06-7286cc939e1e796ef1e8b6fbf03b44f5-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Iran seeks access to up to $100B in frozen overseas assets",
+            "severity": "WATCH",
+            "url": "https://www.upi.com/Top_News/World-News/2026/06/18/Iran-seeks-access-to-up-to-100B-in-frozen-overseas-assets/9851781822039/",
+            "image": "https://cdnph.upi.com/ph/st/th/9851781822039/2026/upi_com/b8a15d3f3bee4e41ddc8761293ce9bb6/v1.5/Iran-seeks-access-to-up-to-100B-in-frozen-overseas-assets.jpg",
+            "source": "upi"
+        },
+        {
+            "title": "We can no longer take our freedom for granted, writes GENERAL LORD DANNATT",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/debate/article-15912511/No-longer-freedom-granted-GENERAL-LORD-DANNATT.html",
+            "image": "https://i.dailymail.com/1s/2026/06/18/23/109454877-0-image-a-91_1781822507054.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Florida man indicted for allegedly plotting mass shooting targeting Jewish employees at advocacy organization",
+            "severity": "WATCH",
+            "url": "https://www.foxnews.com/us/florida-man-indicted-allegedly-plotting-mass-shooting-targeting-jewish-employees-advocacy-organization",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/06/931/523/aipac-folder-rayburn-house-fox-news-001.jpeg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Four wildlife rescue centres to become operational in UP soon",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/others/four-wildlife-rescue-centres-to-become-operational-in-upsoon-101781807550469.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/18/1600x900/logo/For-representation-only--HT-FIle-Photo-_1781807543726.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Obama celebrates opening of his presidential museum with call to citizenship",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/obama-presidential-center-designed-hub-100756497.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/698eff6709eb27fb8e54502d0f9e453cd2a3357ac697b775a97227ea4dd56b24/lightyear_networkapi/resizefill_w800_h533;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F2981e65fcd72e572d448126c5a5a41dc",
+            "source": "yahoo"
+        },
+        {
+            "title": "New $50 Polymarket promo code \u201cMASS\u201d upgraded for Mexico vs. South Korea tonight",
+            "severity": "WATCH",
+            "url": "https://www.masslive.com/betting/2026/06/new-50-polymarket-promo-code-mass-upgraded-for-mexico-vs-south-korea-tonight.html",
+            "image": "https://www.masslive.com/resizer/v2/QNEODSAAGFBZHEJHCJ3RTZFQ7M.png?auth=aa2675a0fc52946a4838da564f1bd509a68d99925c574b48c5b903c4ccc87c9a&smart=true&height=1200",
+            "source": "masslive"
+        },
+        {
+            "title": "Lincoln Memorial Reflecting Pool work expenses grow",
+            "severity": "WATCH",
+            "url": "https://thehill.com/newsletters/energy-environment/5931358-lincoln-memorial-reflecting-pool-work-expenses-grow/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/06/lincoln_reflecting_pool_061726nk09_w.jpg?strip=1",
+            "source": "thehill"
+        },
+        {
+            "title": "Los Angeles Councilmember Tim McOsker Elected Board Chair of the Alameda Corridor Transportation Authority",
+            "severity": "WATCH",
+            "url": "http://www.businesswire.com/news/home/20260618879727/en/Los-Angeles-Councilmember-Tim-McOsker-Elected-Board-Chair-of-the-Alameda-Corridor-Transportation-Authority/?feedref=JjAwJuNHiystnCoBq_hl-fLcmYSZsqlD_XPbplM8Ta6D8R-QU5o2AvY8bhI9uvWSD8DYIYv4TIC1g1u0AKcacnnViVjtb72bOP4-4nHK5iej_DoWrIhfD31cAxcB60aE",
+            "image": "https://mms.businesswire.com/media/20260618879727/en/2835394/22/Tim-McOsker.jpg",
+            "source": "businesswire"
+        },
+        {
+            "title": "Fresh footage shows it was Putin\u2019s OWN missile that struck oil depot & caused lid to fly off in massive firebal",
+            "severity": "WATCH",
+            "url": "https://www.thesun.co.uk/news/39463714/footage-putins-missile-oil-depot-fireball/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F06%2Fnewspress-collage-qb8lyt0cf-1781820981254.jpg?quality%3D90%26strip%3Dall%261781824596",
+            "source": "thesun"
+        },
+        {
+            "title": "Opinion: After months of LNG hearings, Alaska still deserves answers",
+            "severity": "WATCH",
+            "url": "https://www.adn.com/opinions/2026/06/18/opinion-after-months-of-lng-hearings-alaska-still-deserves-answers/",
+            "image": "https://www.adn.com/resizer/eJPe-MqAntTPqRB_k2ZgNQyFUwc=/cloudfront-us-east-1.images.arcpublishing.com/adn/42B2N3YIVJANLFYPSQPYTHESNQ.JPG",
+            "source": "adn"
+        },
+        {
+            "title": "Some of the Lincoln Memorial Reflecting Pool liner appears to be falling apart",
+            "severity": "WATCH",
+            "url": "https://abcnews.com/Politics/lincoln-memorial-reflecting-pool-liner-appears-falling-apart/story?id=134002251",
+            "image": "https://i.abcnewsfe.com/a/47fbef30-fad1-4ab1-b7c3-8dcfe5496572/algae-dc-2-abc-gmh-260618_1781808680098_hpMain_16x9.jpg?w=1600",
+            "source": "abcnews"
+        },
+        {
+            "title": "ICC member states to vote July 24 on whether to remove chief prosecutor \u2014 WSJ",
+            "severity": "WATCH",
+            "url": "https://www.timesofisrael.com/icc-member-states-to-vote-july-24-on-whether-to-remove-chief-prosecutor-wsj/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2025/05/AP25134547291739.jpg",
+            "source": "timesofisrael"
+        },
+        {
+            "title": "Over 2K Flags, Patriotic Flyovers, Performances: Field Of Honor In Wheaton",
+            "severity": "WATCH",
+            "url": "https://patch.com/illinois/wheaton/over-2k-flags-patriotic-flyovers-performances-field-honor-wheaton",
+            "image": "https://patch.com/img/cdn20/users/22925010/20260618/063823/styles/patch_image/public/american-flag-shutterstock___18183129394.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "Alumnus sues CU Boulder for ending Email for Life program",
+            "severity": "WATCH",
+            "url": "https://www.dailycamera.com/2026/06/18/lawsuit-cu-boulder-email-alumni/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2020/07/DCC-L-CUCampus_CLG8266.jpg?w=1400px&strip=all",
+            "source": "dailycamera"
+        },
+        {
+            "title": "Where to watch Mexico vs. South Korea live streams free from anywhere",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-mexico-vs-south-korea-world-cup-2026",
+            "image": "https://i.insider.com/6a342edff4bed3c6152cbb7e?width=1200&format=jpeg",
+            "source": "insider"
         }
     ],
-    "Last_Updated": "2026-06-19T05:00:13.933149Z"
+    "Last_Updated": "2026-06-19T10:47:02.197893Z"
 }
