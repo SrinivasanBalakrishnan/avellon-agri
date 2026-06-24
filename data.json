@@ -1,295 +1,237 @@
 {
-    "AGRI_Score": 57.0,
-    "Velocity": "-0.9",
+    "AGRI_Score": 56.8,
+    "Velocity": "-0.2",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 57.0/100 reflects a moderately elevated risk landscape, predominantly driven by high geopolitical tensions and their potential spillover effects into global energy and trade. The 'Geopolitical Conflict Intensity' pillar is significantly elevated at 73.9, fueled by high-stakes rhetoric concerning the Middle East as seen in 'Jon Stewart on Trump and Middle East: \u2018Iran is a circumcision away from becoming Israel\u2019', which in turn directly influences 'Energy & Maritime Disruption' and 'Trade & Supply Chain Stress'. While financial and cyber risks are at a medium level, the confluence of persistent geopolitical friction and its immediate economic consequences prevents the overall score from receding to a baseline activity level.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 73.9,
+        "Geopolitical Conflict Intensity": 70.9,
         "Energy & Maritime Disruption": 64.0,
-        "Trade & Supply Chain Stress": 67.9,
-        "Sovereign Financial Stress": 55.0,
+        "Trade & Supply Chain Stress": 68.6,
+        "Sovereign Financial Stress": 55.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 55.8,
+        "Sanctions & Regulatory Fragmentation": 57.7,
+        "Cyber & Infrastructure Threats": 55.3,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "High-intensity geopolitical rhetoric and international security concerns continue to drive this pillar. The headline 'Jon Stewart on Trump and Middle East: \u2018Iran is a circumcision away from becoming Israel\u2019' underscores persistent and volatile regional tensions, while the 'Board of Peace members to \u2018recalibrate\u2019 at Cyprus resort after rocky first six months' suggests ongoing challenges in conflict resolution efforts.",
-        "Energy & Maritime Disruption": "Uncertainty surrounding global energy supply dynamics contributes to a medium-high risk. 'Traders Question How Much Iranian Oil Can Really Return to Market - Crude Oil Prices Today | OilPrice.com' highlights a significant variable that could impact global crude oil prices and supply stability.",
-        "Trade & Supply Chain Stress": "The ongoing fluidity in international trade relations maintains a medium-high stress level. The news that an 'India\u2013US trade deal may be signed before July 24' indicates active, high-stakes negotiations that could reshape trade flows, introducing both opportunity and potential friction points.",
-        "Sovereign Financial Stress": "Discussions around fiscal responsibility and national budgeting keep this pillar at a medium risk level. 'Thune says Mike Lee needs to \u2018come to grips\u2019 with SAVE America Act math' points to internal political debates that can affect market confidence in sovereign financial stability.",
-        "Currency & Liquidity Pressure": "This pillar reflects a routine monitoring environment with no immediate, acute pressures evident in the current news cycle. There are no specific headlines indicating immediate currency volatility or significant liquidity concerns within global markets.",
-        "Sanctions & Regulatory Fragmentation": "The potential for changes in international sanctions regimes remains a key factor in this medium-risk pillar. The question of 'How Much Iranian Oil Can Really Return to Market' directly relates to the potential easing or re-imposition of sanctions and their market impact.",
-        "Cyber & Infrastructure Threats": "While direct cyber attack news is absent, awareness of critical infrastructure resilience is ongoing, keeping this pillar at a medium level. The event '6 Hours, 250,000 Gallons Of Water: How Montco Firefighters Contained A Disasater' highlights the persistent need for robust infrastructure and emergency response capabilities.",
-        "Climate & Resource Shock": "This pillar remains at a low-risk level, indicating no immediate, widespread climate or resource-driven disruptions impacting global markets. Although 'The Vanished Rabbit-Rat That Triggered Australia\u2019s Extinction Crisis' signals long-term ecological concerns, it does not indicate an immediate shock to global resources or supply chains."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Jon Stewart on Trump and Middle East: \u2018Iran is a circumcision away from becoming Israel\u2019",
+            "title": "\u2018Represent Vancouver proudly\u2019: Goldeneyes\u2019 Caroline \u201cKK\u201d Harvey on taking her talents north of the border",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/culture/2026/jun/23/jon-stewart-trump-iran-israel-reflecting-pool-green-jd-vance",
-            "image": "https://i.guim.co.uk/img/media/f45612e30c2d3c6533f52717c56492207afa4009/485_0_2005_1604/master/2005.jpg?width=140&quality=85&auto=format&fit=max&s=666482684d9bbb25d5e3322dbba63c67",
+            "url": "https://www.ctvnews.ca/vancouver/article/represent-vancouver-proudly-goldeneyes-caroline-kk-harvey-on-taking-her-talents-north-of-the-border/",
+            "image": "https://www.ctvnews.ca/resizer/v2/KZ44BNC3KRFCJBPZAVKFLJNVVA.jpeg?auth=81e25b18df58f6474caafa5b616bbb0b9d87e919ffb04b175bcc29aa55edcc18&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Morning Mail: bird flu risk to 150 native species, France roasts in heatwave, Ronaldo record",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/australia-news/2026/jun/24/morning-mail-wednesday-ntwnfb",
+            "image": "https://i.guim.co.uk/img/media/8d0b12a2b41bb4928d5a86e9fe16ab69d1de77b9/535_0_4375_3500/master/4375.jpg?width=140&quality=85&auto=format&fit=max&s=fd7adbab06634aa29b249c718c009bfa",
             "source": "theguardian"
         },
         {
-            "title": "The Vanished Rabbit-Rat That Triggered Australia\u2019s Extinction Crisis",
+            "title": "Congress delivers historic but toothless war powers rebuke over Iran conflict",
             "severity": "HIGH",
-            "url": "https://www.yahoo.com/lifestyle/articles/vanished-rabbit-rat-triggered-australia-160200963.html",
-            "image": "https://media.zenfs.com/en/a_z_animals_articles_598/1e1cc244b6675d7857f42dac73d6ce52",
-            "source": "yahoo"
+            "url": "https://investinglive.com/commodities/congress-delivers-historic-but-toothless-war-powers-rebuke-over-iran-conflict-20260623/",
+            "image": "https://images.investinglive.com/images/Trump%20Purple_id_a406cda7-3ab7-42a8-b78b-73f6f07b8d74_size975.jpg",
+            "source": "forexlive"
         },
         {
-            "title": "Raut and rebel MP Patil trade abuses",
+            "title": "Inside the civil war threatening to tear England apart as McCullum responds to Stokes rift claim - Fox Sports",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/mumbai/raut-and-rebel-mp-patil-trade-abuses/articleshow/131943156.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "ASUS Announces ExpertBook P5 G2 and B5 G2 Now Available for Purchase in the United States",
-            "severity": "HIGH",
-            "url": "https://www.globenewswire.com/news-release/2026/06/23/3316277/0/en/ASUS-Announces-ExpertBook-P5-G2-and-B5-G2-Now-Available-for-Purchase-in-the-United-States.html",
-            "image": "https://images.pexels.com/photos/30839695/pexels-photo-30839695.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "Board of Peace members to \u2018recalibrate\u2019 at Cyprus resort after rocky first six months",
-            "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/board-of-peace-members-to-recalibrate-at-cyprus-resort-after-rocky-first-six-months/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/02/AP26022390745792-1.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "India\u2013US trade deal may be signed before July 24: What\u2019s done and remaining for agreement",
-            "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/indiaus-trade-deal-may-be-signed-before-july-24-whats-done-and-remaining-for-agreement/articleshow/131943176.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131943184/131943184.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "PM Modi meets BRICS NSAs, urges cooperation on security challenges",
-            "severity": "MEDIUM",
-            "url": "https://newsable.asianetnews.com/world/pm-modi-meets-brics-nsas-urges-cooperation-on-security-challenges-articleshow-691n342",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-fade6db2-18d1-4287-93c8-571fe6199f39.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Traders Question How Much Iranian Oil Can Really Return to Market - Crude Oil Prices Today | OilPrice.com",
-            "severity": "MEDIUM",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTUgySTRMY1FoT0dhMS02SmVyQjRqT3ZTWGxibnRyNHFXd3pQbDNKc1BTNHM4Y0haWXB6WEE2MWNVbXZ2ZlVyaV85ZGJueVVIQXdCUDFOZ1NTNGlmMzRZXzFaUERLT25qY1JCWTNUakdyMGNLSDg4TkpZUmJLb2V2UUx5Q1FXSVUtYmJVVDByRFJ4LTh3TXVldFVRel9oUmxWdmRuTWczUjdoM21STjg1SFdJRdIBuAFBVV95cUxQSzJXNlpBN2swRjJ2dVJsQ1VYeHRfRFV6UjkwNm5fU2FjNWQ4MHhXaWFKQnQ4VDhPN1A3RVpuV0xtV0VibHJ0bzlUWFlJbDRGeGYtcDhzc1FYOFU0UmZ0RDY4T1dpZER1RWpwMDltRWJ4cnJBYVJiREg1RU83dnkzYmE3aUt2Wkw2Z0tCZm9SSkg4dlQ4TlZlZ0swckcyX3FiVmt3a2p4WWhiWDVWZ2pfbE5BaGRjSVc0?oc=5",
-            "image": "https://images.pexels.com/photos/6692312/pexels-photo-6692312.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPaEVDMTRhRFBpN1dpUlJtZ3FZLVJKSVZDZWFDWmxqbkRwMG5ZeEFmeHpCZ1RjdTI5dFk5Z21XSjVkY2g3OGxyeE1VNVB3WjJPMGVseW9vS21fM3JDNGNoYXR2X0ROUEVCdWZZaFdXa3VzT05tclpQczRYOWl1dkpTXzVKa1dzb21RdUZ4UmwwV2hZWEgwdXE4MlRsN0FiZFByb0NtMWV2SVNVQjhDVGs1VGdOeGJacDBkUExiZXpaOEp4bS1pc0NRREhhNXNRdlRVN1VmQURfX3gwVVZnMGNFZXBCMUExSERRSzFnbHpmX0YyZDA?oc=5",
+            "image": "https://images.pexels.com/photos/11816424/pexels-photo-11816424.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Dr Wee: Diesel announcement \u2018election candy\u2019",
+            "title": "Tata Electronics confirms cyberattack as hackers leak data",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2026/06/23/tataelectronics.jpg",
+            "source": "bleepingcomputer"
+        },
+        {
+            "title": "Marco Rubio says getting allies on board with Iran peace plan is \"a work in progress\"",
             "severity": "MEDIUM",
-            "url": "https://www.thestar.com.my/news/nation/2026/06/24/dr-wee-diesel-announcement-election-candy",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/24/3974212.jpg",
-            "source": "thestar_my"
+            "url": "https://www.cbsnews.com/video/marco-rubio-says-getting-allies-board-iran-peace-plan-work-progress/",
+            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/06/23/36bfc5e5-ae14-45cd-a509-99c35d9d962d/thumbnail/1200x630/472b4933131e8d01cecff394b0ff27a2/cbsn-fusion-marco-rubio-says-getting-allies-board-iran-peace-plan-work-progress-thumbnail.jpg",
+            "source": "cbsnews"
         },
         {
-            "title": "England make surprise selection call for New Zealand decider",
+            "title": "Questerre reports on AGM and Special Meeting voting results",
             "severity": "MEDIUM",
-            "url": "https://www.independent.co.uk/bulletin/sport/england-test-team-stokes-robinson-atkinson-new-zealand-b3001445.html",
-            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "independentuk"
+            "url": "https://financialpost.com/globe-newswire/questerre-reports-on-agm-and-special-meeting-voting-results",
+            "image": "https://images.pexels.com/photos/37601423/pexels-photo-37601423.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
         },
         {
-            "title": "GTT Bags a New Order",
-            "severity": "WATCH",
-            "url": "https://www.marketscreener.com/news/gtt-bags-a-new-order-ce7f5fdad18cf020",
-            "image": "https://cdn.zonebourse.com/static/resize/0/0//images//reuters/2026-02-19T170753Z_1_LYNXMPEM1I123_RTROPTP_4_CHINA-USA-LNG.JPG",
-            "source": "marketscreener"
+            "title": "Recent Hydrothermal Explosion at Yellowstone National Park \u2014 Later, a New Thermal Pool Appears",
+            "severity": "MEDIUM",
+            "url": "https://www.discovermagazine.com/recent-hydrothermal-explosion-at-yellowstone-national-park-later-a-new-thermal-pool-appears-49284",
+            "image": "https://cdn.discovermagazine.com/assets/image/59689/biscuit-new-pool-meta.jpg",
+            "source": "discovermagazine"
         },
         {
-            "title": "40 mayors worldwide endorse a pact to shape data center development",
-            "severity": "WATCH",
-            "url": "https://www.dailycamera.com/2026/06/23/mayors-worldwide-data-center-development-pact/",
-            "image": "https://www.dailycamera.com/wp-content/uploads/2026/06/Climate_Data_Centers_Mayors__717-1.jpg?w=1400px&strip=all",
-            "source": "dailycamera"
+            "title": "Dissatisfaction over inflation",
+            "severity": "MEDIUM",
+            "url": "https://opinion.inquirer.net/192637/dissatisfaction-over-inflation",
+            "image": "https://opinion.inquirer.net/files/2026/06/Filipinos-consumer-inflation-FILE-30march2026-300x169.jpg",
+            "source": "inquirer"
         },
         {
-            "title": "WATCH: Dennis Malloy to return to New Jersey 101.5",
-            "severity": "WATCH",
-            "url": "https://nj1015.com/dennis-malloy-returns-1015/",
-            "image": "https://townsquare.media/site/385/files/2026/06/attachment-dennis-judi-1600-x-1067-px-1.jpg",
-            "source": "nj1015"
+            "title": "Raymond in talks to buy German engineering firm Deharde",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/raymond-in-talks-to-buy-german-engineering-firm-deharde/articleshow/131949871.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131950068/131950068.jpg",
+            "source": "toi"
         },
         {
-            "title": "David Hopkinson reacts as Newcastle United confirm 'transformative' deal",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/david-hopkinson-reacts-newcastle-united-160200607.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/VULCR5RSRmrYN6MGERPLxA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_northern_echo_uk_642/7415eae15d1ffb321e8170352c1dabfb",
-            "source": "yahoo"
+            "title": "Algoma Steel Group Inc. Announces Results of Voting at Annual Meeting of Shareholders",
+            "severity": "MEDIUM",
+            "url": "https://financialpost.com/globe-newswire/algoma-steel-group-inc-announces-results-of-voting-at-annual-meeting-of-shareholders-2",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
         },
         {
-            "title": "I\u2019m a cleaning professional, my \u00a31.15 fail safe hack for getting suncream out of clothes",
+            "title": "US eases Iranian oil trade restrictions \u2013 will India gain or just watch prices fluctuate?",
             "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/fabulous/39515542/cleaning-pro-hack-suncream-out-clothes/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F06%2Fjd_suncream__6_jpg-JS422725781_75f54f.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
+            "url": "https://zeenews.india.com/economy/us-eases-iranian-oil-trade-restrictions-will-india-gain-or-just-watch-prices-fluctuate-3057357.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/06/24/1958150-iranian-oil-waiver-1.jpg",
+            "source": "zeenews"
         },
         {
-            "title": "6 Hours, 250,000 Gallons Of Water: How Montco Firefighters Contained A Disasater",
+            "title": "Noah Presgrove's friends hire famous attorney to battle lawsuit claiming teenager was 'beat to death' by someone he knew... as fight between 'jealous love rivals' emerges",
             "severity": "WATCH",
-            "url": "https://patch.com/pennsylvania/norristown/6-hours-250-000-gallons-water-how-montco-firefighters-contained-disasater",
-            "image": "https://patch.com/img/cdn20/shutterstock/22848544/20260623/120039/styles/patch_image/public/shutterstock-fire___23115839868.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "From Trump\u2019s strength to Vance\u2019s retreat: Regime change is the only path to peace - opinion",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/opinion/article-900233",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/726565",
-            "source": "jpost"
-        },
-        {
-            "title": "Andy Burnham edges closer to coronation as leadership rivals struggle to garner support",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-labour-leadership-starmer-defence-b3001386.html",
-            "image": "https://static.independent.co.uk/2026/06/23/7/16/2282767586-getty-(1).jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "2026 July 4 Fireworks Guide For Highland Park",
-            "severity": "WATCH",
-            "url": "https://patch.com/illinois/highlandpark/2026-july-4-fireworks-guide-highland-park",
-            "image": "https://patch.com/img/cdn20/shutterstock/26158341/20260621/064822/styles/patch_image/public/shutterstock-534043438-1___21184409457.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Thune says Mike Lee needs to \u2018come to grips\u2019 with SAVE America Act math",
-            "severity": "WATCH",
-            "url": "https://www.washingtonexaminer.com/news/senate/4620787/thune-blunt-mike-lee-come-to-grips-save-america-act-math-voter-id-bill/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/06/AP26174539375359-e1782230440595.jpg?w=696",
-            "source": "washingtonexaminer"
-        },
-        {
-            "title": "Plea to conduct scientific census, recommend Berijam lake area in Kodaikanal for notification as Tiger Reserve",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/cities/Madurai/plea-to-conduct-scientific-census-recommend-berijam-lake-area-in-kodaikanal-for-notification-as-tiger-reserve/article71138743.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
-        },
-        {
-            "title": "Justice Department withdraws subpoenas that sought reporters\u2019 grand jury testimony, sources say",
-            "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/06/23/business/justice-department-washington-post-wall-street-journal/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/3DPT3YWPWVUAUIGZQKOXJVNLY4.jpg?auth=5217b21a8941c6417d18ffe0dd96243ff4dd91c446a81b12cb6ff3145fe07ccf&smart=true&width=3000&height=2000",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "When parties take victory laps too soon",
-            "severity": "WATCH",
-            "url": "https://rollcall.com/2026/06/23/when-parties-take-victory-laps-too-soon/",
-            "image": "https://rollcall.com/app/uploads/2026/06/mcnerney094_091922.jpg",
-            "source": "rollcall"
-        },
-        {
-            "title": "Farmers protest in Dharwad against power supply privatisation move",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/karnataka/farmers-protest-in-dharwad-against-power-supply-privatisation-move/article71138452.ece",
-            "image": "https://th-i.thgim.com/public/incoming/625iex/article71138801.ece/alternates/FREE_1200/2699_23_6_2026_20_26_2_1_24HUBLIFARMERSPROTEST_2.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Charting new pathways for growth in Asean",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/06/24/charting-new-pathways-for-growth-in-asean",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/24/3974075.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Nationwide diesel subsidy plan to significantly cut leakages",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/news/nation/2026/06/24/nationwide-diesel-subsidy-plan-tosignificantlycut-leakages",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/24/3973772.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "AI companies should release environmental impact, commit to clean energy, says UN chief",
-            "severity": "WATCH",
-            "url": "https://www.dailycamera.com/2026/06/23/climate-guterres-ai-impact/",
-            "image": "https://www.dailycamera.com/wp-content/uploads/2026/06/Climate_Guterres_AI_85235.jpg?w=1400px&strip=all",
-            "source": "dailycamera"
-        },
-        {
-            "title": "\u201cI was 38 when we went on tour with Pearl Jam. A long time ago, I\u2019d given up on the dream of something like that happening\u201d: Dead Pioneers on how indigenous politics and pedal-builds have powered them to punk glory",
-            "severity": "WATCH",
-            "url": "https://www.guitarworld.com/artists/bands/dead-pioneers-wagon-burner",
-            "image": "https://cdn.mos.cms.futurecdn.net/Vu6nFkkcMBbBJVbxLj6sEH-1280-80.jpg",
-            "source": "guitarworld"
-        },
-        {
-            "title": "Boris Becker has \u00a35,000 watch seized by bailiffs on behalf of his ex-wife moments before public appearance - 'as Lilly's lawyer says they won't stop coming for his riches'",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15922727/Boris-Becker-5-000-watch-seized-bailiffs-behalf-ex-wife-moments-public-appearance-Lillys-lawyer-says-wont-stop-coming-riches.html",
-            "image": "https://i.dailymail.com/1s/2026/06/23/16/109544305-0-image-a-56_1782230159507.jpg",
+            "url": "https://www.dailymail.com/news/article-15909095/noah-presgrove-friends-lawyer-death-lawsuit.html",
+            "image": "https://i.dailymail.com/1s/2026/06/22/17/109521069-0-image-a-4_1782144351175.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Cyber fraud case filed in Navi Mumbai over a year after scrap dealer lost Rs 2.3cr to stock trading scam",
+            "title": "ICC chamber wants Duterte present in court Sept. 7",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/mumbai/cyber-fraud-case-filed-in-navi-mumbai-over-a-year-after-scrap-dealer-lost-rs-2-3cr-to-stock-trading-scam/articleshow/131943216.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131808615/131808615.jpg",
+            "url": "https://globalnation.inquirer.net/328475/icc-chamber-wants-duterte-present-in-court-sept-7",
+            "image": "https://globalnation.inquirer.net/files/2026/06/ICC-24June2026-620x349.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "In New York's primaries, progressives face the establishment, and a Kennedy scion seeks office",
+            "severity": "WATCH",
+            "url": "https://www.wcvb.com/article/new-york-primaries-2026/71672126",
+            "image": "https://kubrick.htvapps.com/htv-prod/images/9b62e697-f7f0-44a8-8631-44f10015d065.jpg?crop=1.00xw:0.846xh;0,0.0625xh&resize=1200:*",
+            "source": "wcvb"
+        },
+        {
+            "title": "Legal tech firm sues US over order limiting foreign access to top-tier Anthropic models",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/legal-tech-firm-sues-us-213827063.html",
+            "image": "https://media.zenfs.com/en/reuters.ca/94db1dabfb4be8c8c58094ffeb7142ec",
+            "source": "yahoo"
+        },
+        {
+            "title": "Cody Rhodes",
+            "severity": "WATCH",
+            "url": "https://www.si.com/fannation/wrestling/wwe/wwe-smackdown-spoilers-for-june-26-from-london-england-taped-june23",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1477,h_830,x_228,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/wrestling_on_fannation/01kqggfdg3bpfr2htha7.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Trial underway for Natick engineer accused of exporting US technology to Iran",
+            "severity": "WATCH",
+            "url": "https://www.bostonglobe.com/2026/06/23/metro/natick-engineer-trial-violating-iran-sanctions/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/562LKXWQONUUSIY6XD4MXOTZRU.jpg?auth=fc23dc482cdf1f444a4ccb09dbe131f4cf1b51ba0a5ab3f8a5130a3826dfd658&smart=true&width=2156&height=1355",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "Goldman Sachs Intuitive Surgical call goes against the grain",
+            "severity": "WATCH",
+            "url": "https://www.thestreet.com/investing/stocks/goldman-sachs-intuitive-surgical-call-goes-against-the-grain",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMDg3OTk3/davidsolomon_pl_230626.jpg?profile=rss",
+            "source": "thestreet"
+        },
+        {
+            "title": "Tech drags down world stocks, oil dips on supply hopes",
+            "severity": "WATCH",
+            "url": "https://www.nzherald.co.nz/business/markets/shares/tech-drags-down-world-stocks-oil-dips-on-supply-hopes/LL2XTLVIUJD4HOSAC5YSR3KFGQ/",
+            "image": "https://www.nzherald.co.nz/resizer/v2/JVTFYLMJ6JGITNWOI254XAOCGE.jpg?auth=b2b8b8b9cf3f7db81e1ecfcb84db19c0198f694faa07f9a698e7af9018c2baf5&smart=true&width=300&height=300",
+            "source": "nzherald"
+        },
+        {
+            "title": "Rental apartment demand hikes",
+            "severity": "WATCH",
+            "url": "https://www.bangkokpost.com/property/3275759/rental-apartment-demand-hikes",
+            "image": "https://static.bangkokpost.com/media/content/dcx/2026/06/24/6132254.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "Sheep shearing, sausage making and skateparks - the quirky extras owners are offering to boost holiday let profits",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/money/buytolet/article-15923437/Sheep-shearing-sausage-making-skateparks-quirky-extras-owners-offering-boost-holiday-let-profits.html",
+            "image": "https://i.dailymail.com/1s/2026/06/23/21/109548277-0-image-a-5_1782245901539.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Tata Electronics Leak Exposes 200,000 Files, Including Apple and Tesla Documents",
+            "severity": "WATCH",
+            "url": "https://www.techrepublic.com/article/news-apac-india-tata-electronics-data-leak/",
+            "image": "https://assets.techrepublic.com/uploads/2026/06/tata.jpg?f=jpeg",
+            "source": "techrepublic"
+        },
+        {
+            "title": "Drop in supply pushes tomato prices up by 30%",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/pune/drop-in-supply-pushes-tomato-prices-up-by-30/articleshow/131949824.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131949823/131949823.jpg",
             "source": "toi"
         },
         {
-            "title": "Supreme Court denies Rastafarian's lawsuit against prison officials for cutting his dreadlocks",
+            "title": "33 Massive Skeletons People Uncovered In Their Family's Closet That They Wish They Could Shove Back In",
             "severity": "WATCH",
-            "url": "https://www.washingtonexaminer.com/news/supreme-court/4620560/supreme-court-denies-rastafarian-lawsuit-prison-cut-dreadlocks/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/06/AP26138777228543.jpg?w=696",
-            "source": "washingtonexaminer"
+            "url": "https://www.buzzfeed.com/hannahmarder/family-secrets-people-uncovered-fs",
+            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2023-11/20/23/enhanced/f2d8602a0bb1/original-519-1700522950-4.jpg?crop=1244:829;0,0&resize=1250:830&resize=1200:*",
+            "source": "buzzfeeduk"
         },
         {
-            "title": "The 10-step phone security tune-up you should run every year - and why",
+            "title": "Accused of misconduct and cleared, ex-CEO wins vindication and $2.3 million",
             "severity": "WATCH",
-            "url": "https://www.zdnet.com/article/10-step-phone-security-tune-up-to-run-every-year/",
-            "image": "https://www.zdnet.com/a/img/2026/06/22/41bdf4f1-811b-4c2e-8e4a-d082209e7f0d/bluephonesecuregettyimages-2252316651.jpg",
-            "source": "zdnet"
+            "url": "https://www.abc.net.au/news/2026-06-24/ex-ceo-carley-scott-wins-federal-court-case-against-ela/106831298",
+            "image": "https://live-production.wcms.abc-cdn.net.au/f45800dabf7101781caeed2b43fdf9d3?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+            "source": "abc_net"
         },
         {
-            "title": "All on board with MACC elephant transfer probe",
+            "title": "From \u00a367 toilet seat to a \u00a3362 shower gel, the extraordinary items crook Peter Murrell bought with embezzled SNP cash",
             "severity": "WATCH",
-            "url": "https://www.thestar.com.my/news/nation/2026/06/24/all-on-board-with-macc-elephant-transfer-probe",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/24/3974204.jpg",
-            "source": "thestar_my"
+            "url": "https://www.thesun.co.uk/news/39517508/crook-peter-murrell-bought-extraordinary-items-snp-cash/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F06%2Fcrop-39517985.jpg?quality%3D90%26strip%3Dall",
+            "source": "thesun"
         },
         {
-            "title": "Cops mull Interpol help",
+            "title": "Sask. RCMP officer sentenced to probation after admitting he illegally entered home",
             "severity": "WATCH",
-            "url": "https://www.thestar.com.my/news/nation/2026/06/24/cops-mull-interpol-help",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/24/3973804.jpg",
-            "source": "thestar_my"
+            "url": "https://www.cbc.ca/news/canada/saskatchewan/moose-jaw-rcmp-steven-sharpen-sentencing-unlawfully-dwelling-house-9.7246337?cmp=rss",
+            "image": "https://i.cbc.ca/ais/1.4785126,1535340038000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C1920%2C1080%29%3B",
+            "source": "cbc"
         },
         {
-            "title": "SC issues notice to Assam on Shyamkanu bail plea in Zubeen death case",
+            "title": "Coupang\u2019s $409M Fine Shows the Real Cost of Weak AI Governance",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/guwahati/sc-issues-notice-to-assam-on-shyamkanu-bail-plea-in-zubeen-death-case/articleshow/131943107.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131943105/131943105.jpg",
-            "source": "toi"
+            "url": "https://www.techrepublic.com/article/news-coupang-fine-ai-governance-board-risk/",
+            "image": "https://assets.techrepublic.com/uploads/2026/06/young-caucasian-female-programmer-in-glasses-write-2026-03-13-04-14-49-utc-1.jpg?f=jpeg",
+            "source": "techrepublic"
         },
         {
-            "title": "Does VP not have his own login? Odd detail from JD Vance-Jared Kushner's photo triggers concerns",
+            "title": "Alarm over suspected illegal sales of imported peanuts",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/us/does-vp-not-have-his-own-login-odd-detail-from-jd-vance-jared-kushners-photo-triggers-concerns/articleshow/131942840.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131942957/131942957.jpg",
-            "source": "toi"
+            "url": "https://www.abc.net.au/news/2026-06-24/australian-biosecurity-investigate-suspected-illegal-peanut-sale/106831950",
+            "image": "https://live-production.wcms.abc-cdn.net.au/0a2849c8babc4a62f39ca6383bee7d3b?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=0&width=862&height=485",
+            "source": "abc_net"
         },
         {
-            "title": "Waterfront Disturbance Leads To Arrest In Glastonbury",
+            "title": "Grab NS&I's 4.69% savings deal now - it won't last for long: SYLVIA MORRIS",
             "severity": "WATCH",
-            "url": "https://patch.com/connecticut/glastonbury/waterfront-disturbance-leads-arrest-glastonbury",
-            "image": "https://patch.com/img/cdn20/users/103600/20260623/114132/styles/patch_image/public/riverfront-boathouse-___23113955163.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Man facing 61 charges for Vanier, Overbrook break-ins",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/ottawa/article/man-facing-61-charges-for-vanier-overbrook-break-ins/",
-            "image": "https://www.ctvnews.ca/resizer/v2/27RATRD2QNEGHB53CNCIY7HYOA.jpg?auth=14e4b1902cc26cf16585e2f3c5c7869a2f2903021af78e3a710ff5a0a3430375&smart=true&width=1920&height=1080",
-            "source": "ctvnews"
+            "url": "https://www.dailymail.com/money/saving/article-15923377/Grab-NS-4-69-savings-deal-wont-long-SYLVIA-MORRIS.html",
+            "image": "https://i.dailymail.com/1s/2026/06/23/20/109548279-0-image-a-11_1782242153944.jpg",
+            "source": "dailymailuk"
         }
     ],
-    "Last_Updated": "2026-06-24T04:06:13.252120Z"
+    "Last_Updated": "2026-06-24T09:40:58.634567Z"
 }
