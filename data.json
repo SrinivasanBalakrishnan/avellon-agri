@@ -1,286 +1,253 @@
 {
-    "AGRI_Score": 59.8,
-    "Velocity": "+1.1",
+    "AGRI_Score": 59.2,
+    "Velocity": "-0.6",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.2/100 reflects an elevated risk environment, primarily driven by persistent geopolitical tensions and significant disruptions in key trade arteries. Geopolitical Conflict Intensity (79.9) remains very high due to escalating economic friction, as evidenced by 'Alibaba sues the US government for adding it to list of firms linked to Chinese military'. Concurrently, Energy & Maritime Disruption (64.0) is pronounced, with 'Gulf oil tanker rates shatter records as Strait of Hormuz deal triggers a rush,' indicating acute logistical stress impacting global trade and supply chains.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 88.7,
+        "Geopolitical Conflict Intensity": 79.9,
         "Energy & Maritime Disruption": 64.0,
-        "Trade & Supply Chain Stress": 65.2,
+        "Trade & Supply Chain Stress": 69.3,
         "Sovereign Financial Stress": 55.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.2,
-        "Cyber & Infrastructure Threats": 60.5,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 64.9,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "The pillar remains at a very high level, with escalating economic and political friction between major powers underscored by 'Alibaba sues the US government for adding it to list of firms linked to Chinese military.' Discussions around a '$300 Billion Reconstruction Fund' for Iran also highlight ongoing regional strategic considerations and potential for influence competition.",
+        "Energy & Maritime Disruption": "Despite reports of 'Hormuz fears ease,' the pillar shows high disruption with 'Gulf oil tanker rates shatter records as Strait of Hormuz deal triggers a rush,' indicating significant logistical pressure and cost increases in crucial shipping lanes. This surge reflects a sudden shift in demand dynamics following recent agreements, overwhelming current capacity and impacting global energy flow.",
+        "Trade & Supply Chain Stress": "This pillar is at a high level, primarily due to the 'Alibaba sues the US government' headline, signalling escalating trade policy fragmentation and potential for restrictions affecting global supply chains. The record-breaking 'Gulf oil tanker rates' also contribute significantly, as increased shipping costs for critical commodities directly translate into supply chain pressure.",
+        "Sovereign Financial Stress": "The score indicates a moderate level of stress, highlighted by the geopolitical financial discussions surrounding 'Who Pays For Iran\u2019s $300 Billion Reconstruction Fund,' implying substantial future financial commitments with unclear backing. Furthermore, the 'SEC declares Dangote Refinery share promotions illegal' indicates regulatory challenges affecting investor confidence and large-scale project financing in emerging markets.",
+        "Currency & Liquidity Pressure": "This pillar remains at a moderate level, with global market volatility reflected in 'Asian stocks are mixed after Big Tech sell-off,' which can impact investor sentiment and cross-border capital flows. The notable fluctuations in 'Gold Silver Rate Today (June 24): Metals Fall' further suggest underlying shifts in asset preferences and broader market liquidity adjustments.",
+        "Sanctions & Regulatory Fragmentation": "This pillar is at a moderate level, driven by the 'Alibaba sues the US government' situation, which exemplifies increasing regulatory divergence and the weaponization of economic policy against major corporations. Additionally, the 'SEC declares Dangote Refinery share promotions illegal' highlights growing domestic regulatory scrutiny and varied enforcement across jurisdictions.",
+        "Cyber & Infrastructure Threats": "The pillar stands at a high level due to the critical warning that 'Your OTP isn\u2019t a One-Time-Password any more. And that carries a security cost,' indicating a fundamental erosion of a common digital security protocol. This suggests sophisticated cyber threats are actively exploiting vulnerabilities, posing a heightened risk to digital infrastructure and data integrity.",
+        "Climate & Resource Shock": "This pillar reflects a very low level of global systemic risk, with reported events being localized in impact. While 'a wave of gut infections sweeps India' during monsoon and 'BBC expert Wednesday warning for... Epipens, insulin as red alert heat hits' highlight regional health and resource management challenges, there is no indication of widespread, catastrophic climate-induced resource scarcity or infrastructure collapse."
+    },
     "All_Alerts": [
         {
-            "title": "Trump criticizes Senate War Powers vote, says Iran \u2018on the ropes\u2019",
+            "title": "Gulf States, Private Investors Or The US? Who Pays For Iran\u2019s $300 Billion Reconstruction Fund",
             "severity": "HIGH",
-            "url": "https://uk.investing.com/news/economy-news/trump-criticizes-senate-war-powers-vote-says-iran-on-the-ropes-4741630",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEM320F7_1200_L.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Trump back on campaign trail, tests Rust Belt pitch in Pennsylvania",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/trump-back-campaign-trail-tests-040150398.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/cb923010a080ea14d20df7c5a85049b96a592b596bafaea1e89478adf1d8abb7/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fcf-images.us-east-1.prod.boltdns.net%2Fv1%2Fjit%2F6415665815001%2F6816794b-6de3-4ec5-99b4-e8646aebab7e%2Fmain%2F1280x720%2F47s357ms%2Fmatch%2Fimage.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Who Owns TMC? Mamata vs Ritabrata Fight Lands At Election Commission",
-            "severity": "HIGH",
-            "url": "https://www.timesnownews.com/india/who-owns-tmc-mamata-vs-ritabrata-fight-lands-at-election-commission-article-154740713",
-            "image": "https://images.timesnownews.com/thumb/msid-154740979,width-1280,height-720,resizemode-75/154740979.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "'NUCLEAR NAVY IS HERE': Kim Stuns Trump With 5,000-Ton North Korean Nuke Destroyer | WATCH",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/nuclear-navy-is-here-kim-stuns-trump-with-5000-ton-north-korean-nuke-destroyer-watch/videoshow/131954825.cms",
-            "image": "https://timesofindia.indiatimes.com/photo/msid-131954825/131954825.jpg?resizemode=4",
-            "source": "toi"
-        },
-        {
-            "title": "South Korea's military says detains North Korean soldier near border",
-            "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/world/3275852/south-koreas-military-says-detains-north-korean-soldier-near-border",
-            "image": "https://static.bangkokpost.com/media/content/20260624/c1_3275852.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "'Exercise Caution, Remain Vigilant': India Revises Iran Advisory, Warns Against Non-Essential Travel",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/world/india-iran-travel-advisory-indian-embassy-tehran-indian-nationals-avoid-non-essential-travel-security-situation-us-iran-peace-deal-strait-of-hormuz-ws-l-10169464.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/06/MixCollage-24-Jun-2026-09-42-AM-5346-2026-06-9c96879c245b0bcd45c4ef580bc0ef04-1200x800.jpg",
+            "url": "https://www.news18.com/world/gulf-states-private-investors-or-the-us-who-pays-for-irans-300-billion-reconstruction-fund-ws-l-10169826.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/06/Trump-Iran-MoU-2026-06-596b13545992ce8fa4c86a67bceac801-1200x800.jpg",
             "source": "news18"
         },
         {
-            "title": "The awkward moment I realised my 'nice guy' date was never writing his own text messages",
+            "title": "After 900-Point Crash, Sensex Stages Sharp Comeback; Nifty Crosses 24K",
             "severity": "HIGH",
-            "url": "https://www.dailymail.com/lifestyle/article-15924577/The-awkward-moment-realised-nice-guy-date-never-writing-text-messages.html",
-            "image": "https://i.dailymail.com/1s/2026/06/24/04/109556411-0-image-a-26_1782272685877.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Who Is Ketan Agarwal? Pune Real Estate Firm Director Whose Trek Death Unravelled A Murder Plot By Fiance\u0301",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/news/india/ketan-agarwal-pune-trek-death-real-estate-firm-director-a-murder-plot-by-fianc-siya-goyal-chetan-success-group-1852281",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/06/24/b7e218f5fdef4a5178a88e4bcce29b921782274123299240_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
+            "url": "https://news.abplive.com/business/mutual-funds/stock-market-midday-update-sensex-nifty-it-private-banks-pharma-stocks-1852374",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/06/09/13abb90d8ac104ac1da828571457c76217809928454801379_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
             "source": "abplive"
         },
         {
-            "title": "Gold falls toward $4,000/oz as dollar rallies on Fed tightening bets",
+            "title": "Beloved magician found dead in bushland after frantic 11-day military search",
             "severity": "HIGH",
-            "url": "https://au.investing.com/news/commodities-news/gold-falls-toward-4000oz-as-dollar-rallies-on-fed-tightening-bets-4501705",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPED1M0ED_L.jpg",
-            "source": "investing_au"
+            "url": "https://www.dailystar.co.uk/showbiz/beloved-magician-found-dead-bushland-37339315",
+            "image": "https://i2-prod.dailystar.co.uk/showbiz/article37339313.ece/ALTERNATES/s615/0_Daniel-Hidden-sits-leaning-against-a-car-with-his-name-and-branding-on-the-side.jpg",
+            "source": "dailystar"
         },
         {
-            "title": "Employees duped of Rs 3.5 crore in 'zip file' scam by fraudsters posing as bosses",
+            "title": "Defense stocks plummet after Germany to scrap warship plans; Rheinmetall stock down 13%",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/mumbai/employees-duped-of-rs-3-5-crore-in-zip-file-scam-by-fraudsters-posing-as-bosses/articleshow/131954319.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131954551/131954551.jpg",
+            "url": "https://www.cnbc.com/2026/06/24/rheinmetall-stock-defense-germany-warship-scrap-plans.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108293745-1776659859642-gettyimages-154102900-Hkg7919593.jpeg?v=1776659877&w=1200&h=675",
+            "source": "cnbc"
+        },
+        {
+            "title": "Alibaba sues the US government for adding it to list of firms linked to Chinese military",
+            "severity": "HIGH",
+            "url": "https://www.engadget.com/2200406/alibaba-sues-us-government-chinese-military-blacklist/",
+            "image": "https://www.engadget.com/img/gallery/alibaba-sues-the-us-government-for-adding-it-to-list-of-firms-linked-to-chinese-military/l-intro-1782287440.jpg",
+            "source": "engadget"
+        },
+        {
+            "title": "Latest News | 1 \u0a35\u0a1c\u0a47 \u0a26\u0a40\u0a06\u0a02 \u0a35\u0a71\u0a21\u0a40\u0a06\u0a02 \u0a16\u0a3c\u0a2c\u0a30\u0a3e\u0a02 | Today Punjabi News | Vijay Sampla | Ravneet Bittu | SIR",
+            "severity": "HIGH",
+            "url": "https://punjab.news18.com/videos/punjab/latest-news-1-today-punjabi-news-vijay-sampla-ravneet-bittu-sir-981494.html",
+            "image": "https://images.news18.com/punjabi/uploads/2026/06/1782298747_6eae1d26-7e25-4372-9010-7ac44f881e67-1200x720.jpeg",
+            "source": "punjab_news18"
+        },
+        {
+            "title": "As the monsoon cools India, a wave of gut infections sweeps the country",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/health/as-the-monsoon-cools-india-a-wave-of-gut-infections-sweeps-the-country/articleshow/131959587.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131959709/131959709.jpg",
             "source": "toi"
         },
         {
-            "title": "Stokes urged to use curfew controversy as fuel to beat New Zealand",
+            "title": "Gulf oil tanker rates shatter records as Strait of Hormuz deal triggers a rush",
             "severity": "HIGH",
-            "url": "https://uk.sports.yahoo.com/news/stokes-urged-curfew-controversy-fuel-034627505.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/sICLtNZRw_tDT8oPtP7epQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE1MzY7aD0xMDI0O2NmPXdlYnA-/https://media.zenfs.com/en/afp.co.uk/18f0571c65f24c78a7c3ce3b016f9f98",
-            "source": "yahoo"
+            "url": "https://indianexpress.com/article/world/strait-hormuz-ships-united-states-iran-ceasefire-gulf-oil-tanker-rates-10754675/",
+            "image": "https://images.indianexpress.com/2026/06/ships-at-sea.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Tehran disputes Trump\u2019s description of deal over unfrozen Iranian funds as U.S. Senate votes to end war",
+            "title": "BBC expert Wednesday warning for thiazides, diuretics, doxycycline, Epipens, insulin as red alert heat hits",
             "severity": "HIGH",
-            "url": "https://nationalpost.com/news/world/israel-middle-east/donald-trump-iran-war-us-senate",
-            "image": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/06/Donald-Trump-3.jpg",
-            "source": "nationalpost"
+            "url": "https://www.mirror.co.uk/news/health/bbc-expert-wednesday-warning-thiazides-37339355",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37339374.ece/ALTERNATES/s615/0_ranjPNG.png",
+            "source": "mirroruk"
         },
         {
-            "title": "Adani AGM LIVE: Operation Sindoor, rights issue, Adani Power, capex, future roadmap - Top highlights, announcements from Gautam Adani speech",
+            "title": "Gold Silver Rate Today (June 24): Metals Fall, Check Latest Rates In Delhi, Mumbai, Chennai, More",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/business/personal-finance/gold-silver-price-today-24-june-2026-live-updates-india-city-wise-rates-gold-and-silver-rate-fall-1852368",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/06/24/425cedf798f0e97082c6445f881444201782286748436800_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "Your OTP isn\u2019t a One-Time-Password any more. And that carries a security cost",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/opinion/columns/your-otp-isnt-a-one-time-password-any-more-and-that-carries-a-security-cost-10754933/",
+            "image": "https://images.indianexpress.com/2026/05/Uber_20251126173416_20260314102914_20260430021410_20260516205632.png",
+            "source": "indianexpress"
+        },
+        {
+            "title": "'Ben Stokes and I are tight': Brendon McCullum clears the air on rumours ahead of 3rd test against New Zealand",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/sports/cricket/news/ben-stokes-and-i-are-tight-brendon-mccullum-clears-the-air-on-rumours-ahead-of-3rd-test-against-new-zealand/articleshow/131959199.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131959406/131959406.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Gulveer calls for pacing lights in India wins the 5000m but misses the Asian Games qualifying mark",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/gulveer-calls-for-pacing-lights-in-india-wins-the-5000m-but-misses-the-asian-games-qualifying-mark/articleshow/131957839.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131957839/131957839.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Asian stocks are mixed after Big Tech sell-off",
             "severity": "MEDIUM",
-            "url": "https://www.businesstoday.in/markets/story/adani-group-agm-live-2026-live-updates-announcements-stocks-watch-gautam-adani-speech-chairman-address-list-companies-share-price-538839-2026-06-24",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/breaking_news/202606/6a3b661d3d114-adani-group-agm-2026-live-updates--news--announcements-you-can-track-all-the-live-updates-from-annu-24073695-16x9.jpg?size=1280:720",
-            "source": "businesstoday"
+            "url": "https://www.beaumontenterprise.com/news/world/article/asian-stocks-are-mixed-after-big-tech-sell-off-22318273.php",
+            "image": "https://s.hdnux.com/photos/01/66/52/02/31105175/3/square_large.jpg",
+            "source": "beaumontenterprise"
         },
         {
-            "title": "Oil prices extend slide: Brent crude falls below $77 as Iran ceasefire holds, Strait of Hormuz fears ease",
+            "title": "Evening Wrap: ASX 200 sneaks gain as CSL drives healthcare rally, WTC is back from the dead, and lithium stocks track futures bounce - Market Index",
             "severity": "MEDIUM",
-            "url": "https://gulfnews.com/business/energy/oil-prices-extend-slide-brent-crude-falls-below-77-as-iran-ceasefire-holds-strait-of-hormuz-fears-ease-1.500584840",
-            "image": "https://media.assettype.com/gulfnews/2026-06-04/98mv8f9t/202606043813147.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVE9ReUVQTm9saksyWFVheEdKbHdRbi1jWGt0d2tqRjRXZW02SHk0TFBDNnRqbFpXYVdpMTlWVTl4TmVWYWZNMFFjMVlyc0RrVWo1eGU4ZTFwbV9lX3RhU2FzMERPT3JWVkRtQ1FQQ2wwYmU0Z3RodjRUbXNhb1JaV0RFTmNuU2pvMFJMWDl6VHhINWNraE0weS1DZ0QtUHI0SEVvREw1MzBuQQ?oc=5",
+            "image": "https://images.pexels.com/photos/15407743/pexels-photo-15407743.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Londoners Complain of \u2018Unbearable Heat\u2019 in City\u2019s Modern Housing",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/pmn/business-pmn/londoners-complain-of-unbearable-heat-in-citys-modern-housing",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/06/477161949.jpg",
-            "source": "financialpost"
-        },
-        {
-            "title": "USD/JPY, Nikkei 225 Outlook: Nikkei Washout Shifts Focus to BOJ Intervention",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/analysis/usdjpy-nikkei-225-outlook-nikkei-washout-shifts-focus-to-boj-intervention-200625894",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Fitness trainer reveals 11 hacks to lose 10 kg fat and change your body: Exact squats, pushups, eggs, daily water intake",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/lifestyle/health/fitness-trainer-reveals-11-hacks-to-lose-10-kg-fat-change-your-body-exact-squats-pushups-eggs-water-intake-sunil-shetty-101782273504776.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/24/1600x900/logo/Wider_stance_squats_1746609430687_1782273756235_797f1d41-c197-4ea5-a112-a43459a72d3a.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Indices drift higher in early trade; breadth strong",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/indices-drift-higher-in-early-trade-breadth-strong-126062400213_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "NLC India inks MoU with Indian Oil Corporation",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/nlc-india-inks-mou-with-indian-oil-corporation-126062400212_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Michigan has three players drafted in the lottery for first time in school history",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/michigan-three-players-drafted-lottery-042135528.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/34714d7526570d01409a45097357d3daf67c98a6e4007ab2894914e8477d69ca/lightyear_networkapi/resizefit_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fnbcsports.com%2F070e2b3e99ea929caa234f8eb7c5cfe5",
-            "source": "yahoo"
-        },
-        {
-            "title": "US eases restrictions on Iranian national football team allowing travel two days before next match",
-            "severity": "WATCH",
-            "url": "http://www.euronews.com/2026/06/24/us-eases-restrictions-on-iranian-national-football-team-allowing-travel-two-days-before-ne",
-            "image": "https://images.euronews.com/articles/stories/09/81/09/61/1440x810_cmsv2_c74ea4a6-9056-5c5d-88ae-92f3b8cd49b2-9810961.jpg",
-            "source": "euronews"
-        },
-        {
-            "title": "Xi Pressures Takaichi by Throttling Key Mineral Exports to Japan",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/pmn/business-pmn/xi-pressures-takaichi-by-throttling-key-mineral-exports-to-japan",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/06/tipping-the-scales-japan-relies-far-more-on-china-for-total.jpg",
-            "source": "financialpost"
-        },
-        {
-            "title": "Biocon secures multiple insulin contracts from Ministry of Health, Malaysia",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/biocon-secures-multiple-insulin-contracts-from-ministry-of-health-malaysia-126062400208_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "10-year bond yield eases, sliding Brent prices lift sentiment",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/markets/10-year-bond-yield-eases-sliding-brent-prices-lift-sentiment-13957327.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/08/20250806054114_reserve-bank-of-india-RBI-1.jpg",
+            "title": "'Bull***t numbers': Trump's spat with commerce secretary over India, China tariffs",
+            "severity": "MEDIUM",
+            "url": "https://www.moneycontrol.com/world/bullshit-numbers-trump-s-spat-with-commerce-secretary-over-india-china-tariffs-article-13957614.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260623113254_Trump-Iran-8.jpg",
             "source": "moneycontrol"
         },
         {
-            "title": "Noel Tata to retire as Trent chairman: A look at the retail empire created by Ratan Tata's half-brother",
+            "title": "Burnham\u2019s Route to Downing Street Clears as Rival Steps Aside",
             "severity": "WATCH",
-            "url": "https://www.businesstoday.in/latest/corporate/story/noel-tata-to-retire-as-trent-chairman-a-look-at-the-retail-empire-created-by-ratan-tatas-half-brother-538830-2026-06-24",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202606/6a3b5821aea3d-noel-tata-bids-adieu-to-trent-heres-a-look-at-his-journey-240755790-16x9.png?size=1280:720",
+            "url": "https://financialpost.com/pmn/business-pmn/burnhams-route-to-downing-street-clears-as-rival-steps-aside",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/06/776459147-1.jpg",
+            "source": "financialpost"
+        },
+        {
+            "title": "Asian refiners slow Middle East crude buying as Hormuz fears ease and supply swells",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/commodities/asian-refiners-slow-middle-east-crude-buying-as-hormuz-fears-ease-and-supply-swells-13957624.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260622135736_oiliran.png",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Investors alert: SEC declares Dangote Refinery share promotions illegal, demands refunds",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/business-economy/capital-market/1716026-sec-nigeria-bans-dangote-refinery-ipo-promotions-adverts-orders-24-hour-refund/",
+            "image": "https://cdn.legit.ng/images/1200x675/5c4f9dfb36251bfb.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Abu Dhabi breaks into global startup top 50 as ecosystem value hits $73b",
+            "severity": "WATCH",
+            "url": "https://www.khaleejtimes.com/business/abu-dhabi-breaks-into-global-startup-top-50-as-ecosystem-value-hits-73b",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-01-27/7ivzj3cn/AD-Image.jpg",
+            "source": "khaleejtimes"
+        },
+        {
+            "title": "Why is Land Securities stock rallying today?",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/why-is-land-securities-stock-rallying-today-93CH-4501899",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXNPEE9700P_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "'Blasphemy Against AI': SoftBank's Masayoshi Son Says The Revolution Has Just Begun",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/technology-science/blasphemy-against-ai-softbanks-masayoshi-son-says-the-revolution-has-just-begun-article-154742692",
+            "image": "https://images.pexels.com/photos/20068548/pexels-photo-20068548.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Sigenergy Showcases Full-Scenario Energy Innovations at Intersolar Europe 2026, Accelerating \"AI in All\" Strategy",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/06/24/3316610/0/en/Sigenergy-Showcases-Full-Scenario-Energy-Innovations-at-Intersolar-Europe-2026-Accelerating-AI-in-All-Strategy.html",
+            "image": "https://images.pexels.com/photos/5834243/pexels-photo-5834243.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "The best Prime Day deals on portable power stations \u2014 shop Jackery, Bluetti, DJI, and more",
+            "severity": "WATCH",
+            "url": "https://mashable.com/tech/best-prime-day-power-station-live-deals-2026",
+            "image": "https://images.pexels.com/photos/20188726/pexels-photo-20188726.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "mashable_us"
+        },
+        {
+            "title": "Not Middle East, Not Russia, China May Control Global Oil Market. Here's How",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/business-news/global-oil-market-iran-war-china-middle-east-hormuz-russia-us-india-fuel-energy-prices-11680111",
+            "image": "https://c.ndtvimg.com/2026-06/bjadeof8_china-oil-afp_625x300_14_June_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "Chathli, MacDonald-Gay star as England A draw level",
+            "severity": "WATCH",
+            "url": "https://www.cricinfo.com/ci/content/story/1542701.html",
+            "image": "http://p.imgci.com/db/PICTURES/CMS/403300/403311.jpg",
+            "source": "espncricinfo"
+        },
+        {
+            "title": "Jail for good work? UK lawyer sentenced to 2 years for cleaning river",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/latest/trends/story/jail-for-good-work-uk-lawyer-sentenced-to-2-years-for-cleaning-river-538896-2026-06-24",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202606/6a3b89f96699c-working-alongside-the-river-roding-trust--volunteers-removed-around-200-bags-of-litter--silt--weeds-244035311-16x9.png?size=1280:720",
             "source": "businesstoday"
         },
         {
-            "title": "Why the founder of David protein bars says controversy can be good for business",
+            "title": "Years later, Ahmedabad police probe ties missing wife to Rath Yatra murder",
             "severity": "WATCH",
-            "url": "https://www.fastcompany.com/91563907/why-the-founder-of-david-protein-bars-says-controversy-can-be-good-for-business",
-            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/06/p-1-91563907-why-the-founder-of-david-protein-bars-says-controversy-can-be-good-for-business_d1750d.jpg",
-            "source": "fastcompany"
+            "url": "https://indianexpress.com/article/cities/ahmedabad/ahmedabad-wife-murder-case-husband-arrested-after-9-years-10754893/",
+            "image": "https://images.indianexpress.com/2026/06/24Murder.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "June 24 gold update: Prices steady across major cities as silver tracks global cues",
+            "title": "Gold, Silver Trade Nearly 2 Pc Lower Amid Global Interest Rates Concerns",
             "severity": "WATCH",
-            "url": "https://english.mathrubhumi.com/news/money/india-gold-silver-prices-june-24-update-nnsldcdv",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1rzwikhutdd7f2onwqg/0/gold-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "url": "https://ommcomnews.com/business-news/gold-silver-trade-nearly-2-pc-lower-amid-global-interest-rates-concerns/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/06/New-Project-6-1.jpg",
+            "source": "ommcomnews"
+        },
+        {
+            "title": "Kerala Police officer\u2019s finger severed in barricade crush during SFI protest march",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/news/kerala/kerala-police-officers-finger-severed-in-barricade-crush-during-sfi-protest-march-os83t61u",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1s001ybbv2yzwlmhxy1/0/sfi-protest.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
             "source": "mathrubhumi"
         },
         {
-            "title": "Electricity, renewables slowly replace fossil fuels in NZ businesses",
+            "title": "Explained: Why did Delhi High Court quash charges against NewsClick?",
             "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/business/619120/electricity-renewables-slowly-replace-fossil-fuels-in-nz-businesses",
-            "image": "https://images.pexels.com/photos/18784617/pexels-photo-18784617.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
+            "url": "https://www.thehindu.com/news/national/explained-why-did-delhi-high-court-quash-charges-against-newsclick/article71132076.ece",
+            "image": "https://th-i.thgim.com/public/incoming/27yv65/article71140830.ece/alternates/FREE_1200/_JAI1529.JPG",
+            "source": "thehindu"
         },
         {
-            "title": "Trump heads to Capitol to speak with GOP senators who have grown increasingly frustrated with him",
+            "title": "UK primary teacher banned as secret meet-ups and Snapchat pics to students uncovered",
             "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/06/24/nation/trump-capitol-republican-senators-meeting/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/HSZTRIQ5QXW77RATBVV54PVNUM.jpg?auth=de8aa60e73ea4602d360a2e6c0032e20cca6ce79734ad768b7d6b7d83e0a1f85&smart=true&width=2324&height=1549",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "DR Congo's famous statue fan finally arrives at the World Cup... but it's heartbreak for the Leopards as Colombia snatch win to top Group K",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/sport/football/article-15924893/dr-congo-statue-fan-world-cup-colombia.html",
-            "image": "https://i.dailymail.com/1s/2026/06/24/05/109557589-0-image-a-9_1782274584662.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "New releases for your streaming pleasure: June 24-30",
-            "severity": "WATCH",
-            "url": "https://www.bangkokpost.com/life/arts-and-entertainment/3275849/new-releases-for-your-streaming-pleasure-june-2430",
-            "image": "https://static.bangkokpost.comhttps//static.bangkokpost.com/media/content/20260624/6132784.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "'Some people don't learn': Ian Botham lashes out at Ben Stokes, says all-rounder could lose England captaincy",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/people-dont-learn-ian-botham-041343636.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/eafe79bd3cf46d5c1fcb09518c7a624945f2c3ae2b007bf70c3cf39a71eed52b/lightyear_networkapi/resizefit_w760_h428;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cricket_news_articles_506%2F7506d721be19297a21de13c1694c5b2d",
-            "source": "yahoo"
-        },
-        {
-            "title": "Why Hull have seven days to avoid a Premier League points deduction",
-            "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7386027/2026/06/24/hull-premier-league-points-deduction/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/06/23085419/GettyImages-2277300614-scaled.jpg",
-            "source": "theathleticuk"
-        },
-        {
-            "title": "Sensex jumps over 250 pts, Nifty above 23,900; Trent shares surge 4%",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-jumps-over-250-pts-nifty-above-23900-trent-shares-surge-4/articleshow/131954345.cms",
-            "image": "https://img.etimg.com/thumb/msid-131954382,resizemode-4,width-1200,height-900,imgsize-23886,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "More Drug Arrests At Concord Coalition To End Homelessness Apartment Building: Concord Police Log",
-            "severity": "WATCH",
-            "url": "https://patch.com/new-hampshire/concord-nh/more-drug-arrests-concord-coalition-end-homelessness-apartment-building",
-            "image": "https://patch.com/img/cdn20/users/546351/20260623/111922/styles/patch_image/public/concord-police-cruiser-nno___23231858004.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "Conduct of MBIE officials referred to Parliament's Privileges Committee",
-            "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/political/618957/conduct-of-mbie-officials-referred-to-parliament-s-privileges-committee",
-            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "Trust betrayed by teachers, Rahul tried to fan anarchy: Pradhan",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/india/trust-betrayed-by-teachers-rahul-tried-to-fan-anarchy-pradhan/articleshow/131953191.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-131953240/131953240.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "HDFC Securities analyst flags key support levels for Nifty; 2 stocks to buy",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/news/hdfc-securities-analyst-flags-key-support-levels-for-nifty-2-stocks-to-buy-on-june-24-126062400107_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260624/thumb-126062400107.jpg",
-            "source": "business-standard"
+            "url": "https://www.dailystar.co.uk/news/latest-news/uk-primary-teacher-banned-secret-37339038",
+            "image": "https://i2-prod.dailystar.co.uk/news/latest-news/article37339037.ece/ALTERNATES/s615/0_Whinstone-Primary-School-in-Ingleby-Barwick-where-the-air-ambulance-landed-to-treat-a-teenager-havi.jpg",
+            "source": "dailystar"
         }
     ],
-    "Last_Updated": "2026-06-24T16:25:36.471421Z"
+    "Last_Updated": "2026-06-24T19:54:39.385461Z"
 }
