@@ -1,300 +1,309 @@
 {
-    "AGRI_Score": 60.1,
-    "Velocity": "-1.6",
-    "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AGRI_Score": 58.9,
+    "Velocity": "-1.2",
+    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
+    "AI_Brief": "The overall AGRI score of 58.9 reflects elevated strategic risk, primarily driven by heightened Geopolitical Conflict Intensity and persistent Cyber & Infrastructure Threats. Military action, as seen with \"US releases 37-second footage of strikes on Iran,\" combined with internal military issues in Ukraine, raises regional instability concerns. Concurrently, significant data breaches, such as \"Hackers steal confidential Apple data from Tata Electronics\" and a cybersecurity incident impacting the Health Ministry, underscore systemic vulnerabilities across critical sectors. While Climate & Resource Shock shows localized severity with \"Mumbai Lake Levels Hit Critical Lows,\" the broader risk environment remains precarious due to geopolitical tensions and digital insecurity.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 68.0,
-        "Energy & Maritime Disruption": 69.0,
-        "Trade & Supply Chain Stress": 67.7,
+        "Geopolitical Conflict Intensity": 76.1,
+        "Energy & Maritime Disruption": 52.2,
+        "Trade & Supply Chain Stress": 64.0,
         "Sovereign Financial Stress": 54.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 62.8,
-        "Cyber & Infrastructure Threats": 57.9,
+        "Sanctions & Regulatory Fragmentation": 60.0,
+        "Cyber & Infrastructure Threats": 63.6,
         "Climate & Resource Shock": 45
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar remains critically high due to direct military action and escalating tensions. The \"US releases 37-second footage of strikes on Iran, says 'violence will be met with violence'\" indicates an active military front, while \"Abuse, Torture, Training Camp Deaths Rock Ukraine's 'Skelia' Unit\" highlights internal military destabilization within an ongoing conflict zone.",
+        "Energy & Maritime Disruption": "While direct energy supply or maritime trade disruptions are not explicitly reported, the heightened \"Geopolitical Conflict Intensity\" due to \"US releases 37-second footage of strikes on Iran\" raises the underlying risk of future interference with critical shipping lanes and energy infrastructure. Current activity suggests a need for routine monitoring of geopolitical developments that could swiftly escalate into operational challenges.",
+        "Trade & Supply Chain Stress": "Supply chain integrity faces significant pressure from cyber threats impacting critical manufacturing. The report that \"Hackers steal confidential Apple data from Tata Electronics\" indicates a direct attack on a major global supply chain participant, raising concerns about intellectual property and operational continuity.",
+        "Sovereign Financial Stress": "Market uncertainty persists, reflected in \"The investments that soared and slumped in the first half of 2026,\" suggesting volatile investor sentiment. However, regulatory efforts like \"How RBI\u2019s 2026 TReDS directions advance the MSME financing reform\" aim to mitigate some financial vulnerabilities.",
+        "Currency & Liquidity Pressure": "This pillar indicates baseline activity, with no immediate signs of widespread currency or liquidity crises. While \"How RBI\u2019s 2026 TReDS directions advance the MSME financing reform\" aims to improve MSME financing, it doesn't indicate broader systemic liquidity pressure at this time.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory environments are becoming more complex and potentially restrictive. Concerns about \"How Labour is plotting an attack on free speech in which it decides what the public can read\" highlight potential shifts towards stricter domestic regulation that could impact economic freedoms and international business operations.",
+        "Cyber & Infrastructure Threats": "Cyber risks are acutely elevated, with multiple high-profile incidents reported. \"Hackers steal confidential Apple data from Tata Electronics\" and the \"Health Ministry probing cybersecurity incident involving official website\" demonstrate a persistent and sophisticated threat landscape targeting both corporate and government infrastructure.",
+        "Climate & Resource Shock": "While overall low, regional resource scarcity is a significant concern. \"Mumbai Lake Levels Hit Critical Lows; Water Crisis Deepens Despite Monsoon Onset\" underscores localized but severe water stress, indicating vulnerability to climate-related resource shocks and requiring localized mitigation efforts."
+    },
     "All_Alerts": [
         {
-            "title": "US Releases Footage Of 'Powerful' Strikes On Iran After Attack On Commercial Vessel: Video",
+            "title": "PM Anwar to launch LRT3 Shah Alam line tomorrow",
             "severity": "HIGH",
-            "url": "https://news.abplive.com/news/world/us-iran-strikes-us-releases-footage-of-powerful-attack-after-commercial-vessel-hit-hormuz-video-tehran-1852947",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/06/27/05b14bddb9847216991d323d0812b2391782530368086240_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "US strikes Iran after cargo ship attack in Strait of Hormuz",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/us-strikes-iran-cargo-ship-031655517.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/6a9b6d81b8485b3cea9b0c92015493d0b36deb01ff22ca487c76713dc66e2792/lightyear_networkapi/resizefill_w360_h202;quality_80;format_webp/https:%2F%2Fres.cloudinary.com%2Fvideoprod%2Fvideo%2Fupload%2Fac_none%2Cdu_4%2Cq_auto:eco%2Cso_0%2Cvc_h264%2Cw_360%2Fv1782530587%2Ff10ca875-cb42-3a5b-b8ef-9467de359625.mp4",
-            "source": "yahoo"
-        },
-        {
-            "title": "IRGC claims retaliatory strikes on US sites in Gulf, warns of 'broader response'",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/middle-east/us-iran-war-news-live-updates-trump-hezbollah-israel-ceasefire-peace-deal-strait-of-hormuz-oil-prices-crude-oil-price-talks-jd-vance-latest-updates/liveblog/132027855.cms",
-            "image": "https://static.toiimg.com/photo/msid-33550531/33550531.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Scouting Report: Canadiens Add Physicality With Pugachyov Pick",
-            "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/scouting-report-canadiens-add-physicality-030412497.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/h.u182ltkVQPVjm_M6x5WQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/sportsnaut_articles_397/287dbfb10c244a9b5ba8ddcd5a8219eb",
-            "source": "yahoo"
-        },
-        {
-            "title": "Fresh strikes, warnings: US-Iran ceasefire under threat as tensions in Strait of Hormuz flare",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/us-iran-fresh-strikes-warnings-ceasefire-peace-deal-under-threat-as-tensions-in-strait-of-hormuz-flare-101782526055894.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/27/1600x900/logo/iran_1782529346184_1782529346295_cad1924f-0cd8-4433-9669-299e5cddb754.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Iran Strikes US Military Positions in Response to American Attack \u2014 IRGC",
-            "severity": "HIGH",
-            "url": "https://sputniknews.in/20260627/11417590.html",
-            "image": "https://cdn1.img.sputniknews.in/images/sharing/article/eng/11417590.jpg?114175911782537249",
-            "source": "sputniknews"
-        },
-        {
-            "title": "US allows Anthropic to release Mythos AI to 'trusted' organisations",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/2011100/us-allows-anthropic-to-release-mythos-ai-to-trusted-organisations",
-            "image": "https://i.dawn.com/large/2026/06/27080846e2bf3b7.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "Apple asks Trump admin to approve Chinese RAM after product price increases",
-            "severity": "HIGH",
-            "url": "https://9to5mac.com/2026/06/26/apple-asks-trump-admin-to-approve-chinese-ram-after-product-price-increases/",
-            "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/04/tim-cook-dc.webp",
-            "source": "9to5mac"
-        },
-        {
-            "title": "Amid shortage of rabies vaccine in Delhi, 1.27L vials undelivered, government agency told",
-            "severity": "HIGH",
-            "url": "https://indianexpress.com/article/cities/delhi/delhi-rabies-vaccine-shortage-serum-institute-janakpuri-warehouse-cold-storage-10759730/",
-            "image": "https://images.indianexpress.com/2025/05/rabies.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Oil and gas prices drop in time for Fourth of July driving",
-            "severity": "HIGH",
-            "url": "https://www.washingtonexaminer.com/policy/energy-and-environment/4626796/oil-and-gas-prices-drop-ahead-of-the-fourth-of-july-holiday/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/06/AP26156453832541.jpg?w=696",
-            "source": "washingtonexaminer"
-        },
-        {
-            "title": "Iranians Weary of War Decompress on a Turkish Dance Floor",
-            "severity": "HIGH",
-            "url": "https://www.wsj.com/world/middle-east/iranians-weary-of-war-decompress-on-a-turkish-dance-floor-d6fbc09e",
-            "image": "https://images.pexels.com/photos/5014710/pexels-photo-5014710.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "wsj"
-        },
-        {
-            "title": "Video: US Releases Footage Of Strikes On Iran, Then A Warning By Tehran",
-            "severity": "HIGH",
-            "url": "https://www.ndtv.com/world-news/us-iran-war-trump-vance-video-us-releases-footage-of-strikes-on-iran-over-hormuz-ship-drone-attack-then-a-warning-by-tehran-11693680",
-            "image": "https://c.ndtvimg.com/2026-06/kho1u9fo_us-iran-footage_625x300_27_June_26.jpeg",
-            "source": "ndtv"
-        },
-        {
-            "title": "'Violence Will Be Met With Violence': Vance Warns Iran Of Fresh Action After Strikes On US Military Sites",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/world/voilence-will-be-met-by-violence-vance-warns-iran-of-fresh-action-after-strikes-on-us-military-sites-ws-l-10176302.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/06/jd-vance-1-2026-06-898e7bfdc497beb3631dd4ef663ab8ab-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "\u2018An inch or two?\u2019: Coach addresses rare AFL rule breach... with an \u2018excessive\u2019 penalty - Fox Sports",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxPbWQzR0JKTGhtd0p0ZV9wRE9NMUlzVktBVFNnaHl5NmN0aHFyclNvbGVma01uSUxHVkRJUHVfRzMzR2tNQkVCSlNYdGJrSmd0NjhjbXF4TThxT0tqMGlSRllGU2RlT1NRYUNfdDNsMlU1Qmg4S1c5T0xvUU1lR2dKTnprWFFTbVYzRlUtQXdCZEF5cmJPeXByOTlhVTJCREFXeEZ2SlFxczc4SmVrTWlNbnBnLU00OUlIOTdOWmdCNVpoRzU5R3h4bTlRTGsyVXBJVGJoYTVFRS1rbWlyQWZzVXNxdG1EVlNSck8wd1UzMk8xRHk2UGo5MHVBNjV3TzBwUW1DbGIxcUwzZWktdnFtOXhzY1ZHOEswdVc0bi0wdTRnU1NwcDFKNHh1dkpTZWZRTW5qTVk2M2hEOFpCd0lIM0hHVWptU2RDeHJVOG5DZGE1N04yekNDR0JjYjRhY0dvY29TMGZB?oc=5",
-            "image": "https://images.pexels.com/photos/15961091/pexels-photo-15961091.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Data centres to deepfakes: How AI is reshaping US politics at every level",
-            "severity": "MEDIUM",
-            "url": "https://www.business-standard.com/world-news/data-centres-to-deepfakes-how-ai-is-reshaping-us-politics-at-every-level-126062700110_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260627/thumb-126062700110.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "UPDATE: Rogers Sugar Announces Extention of Collective Agreement at Taber Refinery",
-            "severity": "MEDIUM",
-            "url": "https://www.globenewswire.com/news-release/2026/06/27/3318525/0/en/UPDATE-Rogers-Sugar-Announces-Extention-of-Collective-Agreement-at-Taber-Refinery.html",
-            "image": "https://images.pexels.com/photos/28767589/pexels-photo-28767589.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "Pakistani national apprehended near LoC in J&K's Poonch district",
-            "severity": "MEDIUM",
-            "url": "https://newsable.asianetnews.com/india/pakistani-national-apprehended-near-loc-in-jks-poonch-district-articleshow-gg9rrdf",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-a26025a4-eb2e-4c18-98ba-bb04a294d2ef.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Explained: Ben Stokes-Mitchell Santner Incident Raises Demerit Point Question",
-            "severity": "MEDIUM",
-            "url": "https://www.news18.com/cricket/explained-ben-stokes-mitchell-santner-incident-raises-demerit-point-question-ws-l-10176291.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/06/Untitled-design-9-2026-06-4edf2ee96f66790875f55e8348402eb6-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Sick Red Sox\u2019 Payton Tolle was \u2018a lazy bum in bed all day\u2019 before dominating Yankees",
-            "severity": "WATCH",
-            "url": "https://www.masslive.com/redsox/2026/06/sick-red-sox-payton-tolle-was-a-lazy-bum-in-bed-all-day-before-dominating-yankees.html",
-            "image": "https://www.masslive.com/resizer/v2/D5K6ZEB675HCDFFU5I7L527HBQ.jpg?auth=96974473a21d2b9b4ca2a29393a5b92e969cc0acf48a9b70419716172a1b4fbb&smart=true&height=1200",
-            "source": "masslive"
-        },
-        {
-            "title": "Govt opens anti-dumping probe into cheap steel imports from China, Japan, Russia",
-            "severity": "WATCH",
-            "url": "https://zeenews.india.com/economy/govt-opens-anti-dumping-probe-into-cheap-steel-imports-from-china-japan-russia-3057908.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/06/27/1959264-antidumping-ians.jpg",
-            "source": "zeenews"
-        },
-        {
-            "title": "Petrol, diesel prices today, June 27: Check latest prices in Delhi, Mumbai, Kolkata and other cities",
-            "severity": "WATCH",
-            "url": "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-june-27-check-latest-prices-in-delhi-mumbai-kolkata-and-other-cities-539497-2026-06-27",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202606/6a3f3cbca4848-a-combination-of-global--economic--and-domestic-factors-shapes-fuel-prices-at-the-pump-270004343-16x9.jpg?size=1280:720",
-            "source": "businesstoday"
-        },
-        {
-            "title": "Israel, Lebanon sign U.S.-brokered agreement to restore Lebanese sovereignty to southern part of country",
-            "severity": "WATCH",
-            "url": "https://nationalpost.com/news/world/israel-middle-east/israel-lebanon-sign-u-s-brokered-agreement-to-restore-lebanese-sovereignty-to-southern-part-of-country",
-            "image": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/06/Lebanon-1-1.jpg",
-            "source": "nationalpost"
-        },
-        {
-            "title": "Reacher Meets Jason Bourne & Batman In Upcoming Adaptation Of Bestselling Spy Thriller",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/reacher-bourne-batman-orphan-x-adaptation/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/06/e27f920f-317a-48fe-a5ac-7b19282c3c1a.jpeg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
-        },
-        {
-            "title": "Trump Panel Seeks Repeal Of Johnson Amendment",
-            "severity": "WATCH",
-            "url": "https://ommcomnews.com/world-news/trump-panel-seeks-repeal-of-johnson-amendment/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/06/3-3.jpg",
-            "source": "ommcomnews"
-        },
-        {
-            "title": "Germany could revive conscription by mid-2027, senior lawmaker says",
-            "severity": "WATCH",
-            "url": "https://www.japantimes.co.jp/news/2026/06/27/world/politics/germany-conscription-2027/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/06/27/548555.jpg",
-            "source": "japantimes"
-        },
-        {
-            "title": "In pictures: The desperate rush to find survivors of Venezuela's twin earthquakes",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-06-27/venezuela-earthquakes-photos/106848072",
-            "image": "https://live-production.wcms.abc-cdn.net.au/5727f19448f030f13da84586f1d84b98?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "India\u2019s New IB Chief Mahesh Dixit: Doctor-Turned Spymaster, Master Negotiator and Reformist Behind Post-Article 370 Outreach in J&K",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/india/indias-new-ib-chief-mahesh-dixit-doctor-turned-spymaster-master-negotiator-and-reformist-behind-post-article-370-outreach-in-jk-article-154773181",
-            "image": "https://images.timesnownews.com/thumb/msid-154773380,width-1280,height-720,resizemode-75/154773380.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "This play should have been spikily fun. Instead, it\u2019s a missed opportunity",
-            "severity": "WATCH",
-            "url": "https://www.smh.com.au/culture/live-reviews/this-play-should-have-been-spiky-fun-instead-it-s-a-missed-opportunity-20260625-p60a31.html",
-            "image": "https://static.ffx.io/images/$zoom_0.5295%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_40/t_crop_custom/q_86%2Cf_auto/b15c6d0a8bfb68aaf31644298f93fb6a2bc82b9e",
-            "source": "smh"
-        },
-        {
-            "title": "Steering wheel of change: Mumbai fire brigade gets 1st woman driver-operator",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/mumbai/steering-wheel-of-change-city-fire-brigade-gets-1st-woman-driver-operator/articleshow/132027991.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132028025/132028025.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Lawns will be greener and thicker in hot weather if you do 1 simple task",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/life-style/garden/2219410/Lawns-will-be-greener-and-thicker-in-hot-weather-if-you-do-simple-task",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/13/590x/2219410_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Tractor Supply: Decade-Low Valuation, Improving Outlook Support Upgrade To Buy",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4918190-tractor-supply-decade-low-valuation-improving-outlook-support",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/911356176/image_911356176.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Moneycontrol Pro Weekender | A week of second thoughts",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/economy/moneycontrol-pro-weekender-a-week-of-second-thoughts-13959695.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260603022129_oil_crude.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Jewish hero\u2019s inclusion in French Panthe\u0301on uncorks divisions over who wears mantle of resistance",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/diaspora/article-900634",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/727261",
-            "source": "jpost"
-        },
-        {
-            "title": "If You Think The Expanse Ended With Season 6, You Missed An Exciting Sequel",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/the-expanse-season-6-sequel-dragons-tooth/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/06/2329caa2-96ee-4ca1-8539-30ac4c44e7b9.jpeg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
-        },
-        {
-            "title": "New OTT Releases (June 26, 2026 \u2013 June 28, 2026): What To Watch This Week",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/photogallery/movies/web-series/new-ott-releases-june-26-2026-june-28-2026-what-to-watch-this-week-ws-l-10175850.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/06/OTT-Releases-June-26-2026-06-5e1967cdb61282a89458adf3367a1043-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Indian Confidence In US Hits 25-Year Low As Trump Ratings See Sharp Decline: Survey",
-            "severity": "WATCH",
-            "url": "https://news.abplive.com/news/world/india-confidence-in-us-hits-25-year-low-trump-ratings-see-sharp-decline-survey-obama-1852944",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/06/05/d9e6075937bd8ebb96e765b759a7a1c717806226483181368_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "Inspired by father's unfinished journey, Anushka Yadav smashes national hammer throw record",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/sports/more-sports/others/inspired-by-fathers-unfinished-journey-anushka-yadav-smashes-national-hammer-throw-record/articleshow/132027672.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132027692/132027692.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Chartist Talk: Reclaiming 24,500-24,600 may not be easy for Nifty 50; Sudeep Shah recommends two stocks for next week",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/markets/chartist-talk-reclaiming-24-500-24-600-may-not-be-easy-for-nifty-50-sudeep-shah-recommends-two-stocks-for-next-week-13959825.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/10/20251025213936_Sudeep_ShahSBI.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Soccer-Spain seal Group H, knock out Uruguay with 1-0 win",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/sport/football/2026/06/27/soccer-spain-seal-group-h-knock-out-uruguay-with-1-0-win",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/27/3980039.jpg",
+            "url": "https://www.thestar.com.my/news/nation/2026/06/27/pm-anwar-to-launch-lrt3-shah-alam-line-tomorrow",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/27/3980183.jpg",
             "source": "thestar_my"
         },
         {
-            "title": "I hand-picked four last minute Prime Day AR smart glasses that you don't want to miss",
+            "title": "Abuse, Torture, Training Camp Deaths Rock Ukraine's 'Skelia' Unit; Commander Suspended, Probe Issued",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/videos/international/abuse-torture-training-camp-deaths-rock-ukraines-skelia-unit-commander-suspended-probe-issued/videoshow/132028927.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-132028927/132028927.jpg?resizemode=4",
+            "source": "toi"
+        },
+        {
+            "title": "The investments that soared and slumped in the first half of 2026",
+            "severity": "HIGH",
+            "url": "https://uk.finance.yahoo.com/news/investments-soared-slumped-first-half-050131321.html",
+            "image": "https://media.zenfs.com/en/euronews_uk_articles_973/eb7ce567ebb3d22323d66dfbb6d4b680",
+            "source": "yahoo"
+        },
+        {
+            "title": "Mumbai Lake Levels Hit Critical Lows; Water Crisis Deepens Despite Monsoon Onset",
+            "severity": "HIGH",
+            "url": "https://www.ndtvprofit.com/india/mumbai-lake-levels-plummet-to-7-3-capacity-water-crisis-deepens-despite-monsoon-onset-11693976",
+            "image": "https://c.ndtvimg.com/2026-01/ab19582d_waterlevel.png?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+            "source": "ndtv"
+        },
+        {
+            "title": "Trump to visit India 'early next year', says US secretary of state Marco Rubio",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/india/donald-trump-to-visit-india-early-next-year-says-us-secretary-of-state-marco-rubio/articleshow/132028905.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132028931/132028931.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "How Labour is plotting an attack on free speech in which it decides what the public can read",
+            "severity": "HIGH",
+            "url": "https://www.scotsman.com/news/opinion/columnists/how-labour-is-plotting-an-attack-on-free-speech-in-which-it-decides-what-the-public-can-read-8762982",
+            "image": "https://www.scotsman.com/jpim-static/image/2026/06/26/8/14/GettyImages-2274617414.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+            "source": "scotsman"
+        },
+        {
+            "title": "People in Britain used to agree to disagree. Since Brexit, they no longer dare to talk about difficult things | Elif Shafak",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/commentisfree/2026/jun/27/people-britain-disagree-brexit-divided",
+            "image": "https://i.guim.co.uk/img/media/e1e3ad3c88c5cb8539c0e320e6906bd2c1bbb764/667_0_3745_2996/master/3745.jpg?width=140&quality=85&auto=format&fit=max&s=a25e477841cd08be528c51e79ea24e3b",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "Opinion: Two elections are shaping war and peace in the Middle East",
+            "severity": "HIGH",
+            "url": "https://www.irishtimes.com/opinion/2026/06/27/opinion-two-elections-are-shaping-war-and-peace-in-the-middle-east/",
+            "image": "https://www.irishtimes.com/resizer/v2/ENYYTALLMPFXWNON4LBQYQ7E6Y.jpg?auth=5e8b0817c3f9f39176b177dca02d3db9b36d443c07197c1f1f1334d54ca2133f&smart=true&width=630&height=350",
+            "source": "irishtimes"
+        },
+        {
+            "title": "Hackers steal confidential Apple data from Tata Electronics",
+            "severity": "HIGH",
+            "url": "https://www.bangkokpost.com/life/tech/3277384/hackers-steal-confidential-apple-data-from-tata-electronics",
+            "image": "https://static.bangkokpost.com/media/content/20260627/c1_3277384.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "Premier backs own MPs\u2019 call for tougher breach-of-bail laws",
+            "severity": "HIGH",
+            "url": "https://www.smh.com.au/national/queensland/premier-backs-own-mps-call-for-tougher-breach-of-bail-laws-20260627-p60akw.html",
+            "image": "https://static.ffx.io/images/$zoom_0.3415%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_99%2C$y_0/t_crop_custom/q_86%2Cf_auto/8153a30c93ffd8cd1c79181cf51a393ca8c44db37d601be141c40efbbf06251f",
+            "source": "smh"
+        },
+        {
+            "title": "Watch Video | US releases 37-second footage of strikes on Iran, says 'violence will be met with violence'",
+            "severity": "HIGH",
+            "url": "https://zeenews.india.com/world/watch-video-us-releases-37-second-footage-of-strikes-on-iran-says-violence-will-be-met-with-violence-3057914.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/06/27/1959270-mixcollage-27-jun-2026-09-32-am-7215.jpg",
+            "source": "zeenews"
+        },
+        {
+            "title": "Sprinters Unnathi, Amiya Mallick eye Asian Games after relay events",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/sports/sprinters-unnathi-amiya-mallick-eye-asian-games-after-relay-events-articleshow-6x1z4me",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-19b97248-543d-49f3-b725-e8482e9f0d75.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Health Ministry probing cybersecurity incident involving official website",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/news/nation/2026/06/27/health-ministry-probing-cybersecurity-incident-involving-official-website",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/27/3980084.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "PM Modi leaves for Seychelles after 11 years: What's on agenda during three day visit?",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/india/pm-modi-leaves-for-seychelles-after-11-years-whats-on-agenda-during-three-day-visit/articleshow/132028692.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132028793/132028793.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "How RBI\u2019s 2026 TReDS directions advance the MSME financing reform",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/small-biz/sme-sector/how-rbis-2026-treds-directions-advance-the-msme-financing-reform/articleshow/132029070.cms",
+            "image": "https://img.etimg.com/thumb/msid-132029105,resizemode-4,width-1200,height-900,imgsize-171080,overlay-etrise/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "\u2018I understand why some people think I\u2019m a bitch\u2019: world no 1 Aryna Sabalenka on screaming, stunt matches, and why she\u2019s much nicer off court",
+            "severity": "MEDIUM",
+            "url": "https://www.theguardian.com/sport/2026/jun/27/aryna-sabalenka-interview-tennis-world-no-1-women-not-quitting-french-open",
+            "image": "https://i.guim.co.uk/img/media/175395b6e334cc5d8455932d2bb7a49eb2ce3062/0_357_6292_5033/master/6292.jpg?width=140&quality=85&auto=format&fit=max&s=bb4b53c5eae8f0fefb5ffc111b6e70d1",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "Daylight Saving Time: When do clocks \u2018fall back\u2019 in 2026?",
             "severity": "WATCH",
-            "url": "https://www.tomsguide.com/computing/smart-glasses/i-hand-picked-four-last-minute-prime-day-ar-smart-glasses-that-you-dont-want-to-miss",
-            "image": "https://cdn.mos.cms.futurecdn.net/azjfNQjSgvYMS9jXkBdXmi-1280-80.jpg",
-            "source": "tomsguide"
+            "url": "https://www.mlive.com/news/2026/06/daylight-saving-time-when-do-clocks-fall-back-in-2026.html",
+            "image": "https://www.mlive.com/resizer/v2/74WCXZZDRFGKNMPT6VHLL5YCHM.jpg?auth=9e1b5b2fecc74e1ea7985d39d078a9b56f57e3be73f3c442ccfcdda9e6dbf4c6&smart=true&height=1200",
+            "source": "mlive"
+        },
+        {
+            "title": "Socceroos star's hilarious response after learning St Kilda Beach would be re-named after a teammate: 'Hopefully they clean it up'",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/sport/football/article-15934139/Socceroos-stars-hilarious-response-learning-St-Kilda-Beach-named-teammate-Hopefully-clean-up.html",
+            "image": "https://i.dailymail.com/1s/2026/06/27/06/109637103-0-image-a-5_1782537127198.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "India News LIVE Updates, 27 June 2026: PM Modi leaves for Seychelles, Venezuela death toll rises to 920",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/india/today-india-breaking-news-live-updates-27-june-2026-minister-cucumber-subsidy-venezuela-toll-hormuz-10759872/",
+            "image": "https://images.indianexpress.com/2026/06/earth-2.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Egypt secure round of 32 tie with Australia as Iran denied second place in Group G with late VAR call",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7389580/2026/06/27/egypt-iran-world-cup-takeaways/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/06/27012843/GettyImages-2283520374-scaled.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "Seychelles at 50: A new phase in a strategic Indian Ocean partnership",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/seychelles-at-50-a-new-phase-in-a-strategic-indian-ocean-partnership-101782537172991.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/06/27/1600x900/logo/PM-Modi-will-attend-Seychelles--National-Day-celeb_1782537166381.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Thoughts on India\u2019s grand strategy: Rise can\u2019t be achieved at a bargain, and it\u2019s time for a new modus vivendi with China",
+            "severity": "WATCH",
+            "url": "https://www.firstpost.com/opinion/thoughts-on-indias-grand-strategy-rise-cant-be-achieved-at-a-bargain-and-its-time-for-a-new-modus-vivendi-with-china-14026700.html",
+            "image": "https://images.firstpost.com/uploads/2026/05/trumpxi1-2026-05-d229b182635172c34fd86447c107531e.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Donald Trump may visit India early next year, hope to finalise trade deal soon, says Marco Rubio",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/india/donald-trump-may-visit-india-early-next-year-hope-to-finalise-trade-deal-soon-says-marco-rubio/articleshow/132028950.cms",
+            "image": "https://img.etimg.com/thumb/msid-132028954,resizemode-4,width-1200,height-900,imgsize-918908,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "The rare therapy used by NBA icon O'Neal to get Sciver-Brunt fit",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/rare-therapy-used-nba-icon-050925642.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/44f879b179f8ad7022626db87aab34dd4dcb6d54ccbf0bb3fe7e74a7b16f3828/lightyear_networkapi/resizefit_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2Ff6d272a5139fac225b93c48c51d5a704",
+            "source": "yahoo"
+        },
+        {
+            "title": "German far-right leader appears to make \u2018Hitler salute\u2019 in photo as party surges",
+            "severity": "WATCH",
+            "url": "https://www.timesofisrael.com/german-far-right-leader-appears-to-make-hitler-salute-in-photo-as-party-surges/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2026/06/AFP__20230728__33Q79EZ__v1__HighRes__GermanyPoliticsEuPartiesFarRightAfd.jpg",
+            "source": "timesofisrael"
+        },
+        {
+            "title": "Prabhas flashes three fingers, and the internet thinks \u2018Baahubali 3\u2019 is happening | WATCH",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/movies-music/news/prabhas-rana-daggubati-anushka-shetty-baahubali-3-hint---fm6oexu0",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1s2aay7bwpixwgxzuyg/0/baahubali-3-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Minnesota school board member under fire after saying dogs should urinate on \u2018White corpses\u2019 in cemeteries",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/06/27/us-news/minnesota-school-board-member-chauntyll-allen-calls-for-dogs-to-urinate-on-white-corpses/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F06%2FGettyImages-1586047370.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Venezuela earthquakes kill nearly 1,000",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/venezuela-earthquakes-kill-nearly-1000-tens-of-thousands-missing/articleshow/132028946.cms",
+            "image": "https://img.etimg.com/thumb/msid-132029074,resizemode-4,width-1200,height-900,imgsize-195052,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "US Announces Framework Agreement Between Lebanon and Israel",
+            "severity": "WATCH",
+            "url": "https://sputniknews.in/20260627/11417864.html",
+            "image": "https://cdn1.img.sputniknews.in/images/sharing/article/eng/11417864.jpg?109774951782537334",
+            "source": "sputniknews"
+        },
+        {
+            "title": "No farewell walk for reigning Miss Philippines Earth Joy Barcoma",
+            "severity": "WATCH",
+            "url": "https://entertainment.inquirer.net/675296/no-farewell-walk-for-reigning-miss-philippines-earth-joy-barcoma",
+            "image": "https://entertainment.inquirer.net/files/2026/06/7FDC833A-079B-4FF6-AB39-0FAFFFF0A1BD-700x476.jpeg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Gold Rate Today, June 27: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/india/gold-rate-today-june-27-check-18-22-and-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-and-other-cities-10759871/",
+            "image": "https://images.indianexpress.com/2026/06/gold-prices-.png",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Fama sets up 20 temporary collection centres for seasonal fruits in Perak",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/news/nation/2026/06/27/fama-sets-up-20-temporary-collection-centres-for-seasonal-fruits-in-perak",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/06/27/3980177.jpeg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "\u2018Buyers got a great deal\u2019: Upper north shore house sells for $2.5m",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/property/news/buyers-got-a-great-deal-upper-north-shore-house-sells-for-2-5m-20260626-p60ab2.html",
+            "image": "https://static.ffx.io/images/$zoom_0.1293%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/caf69250e3f328b34fcb30357eec5488d6f5660f",
+            "source": "smh"
+        },
+        {
+            "title": "CBSE Class 10 Second Board Result 2026 news: Class 10 marksheet awaited for 6.68 lakh students; how to check scores when announced",
+            "severity": "WATCH",
+            "url": "https://www.india.com/education/cbse-class-10-second-board-result-2026-news-class-10-marksheet-awaited-for-6-68-lakh-students-how-to-check-scores-when-announced-8458795/",
+            "image": "https://static.india.com/wp-content/uploads/2026/06/u-2026-06-27T103650.944.jpg",
+            "source": "india"
+        },
+        {
+            "title": "Belgium beat New Zealand to win World Cup group. Welcome to the party, Kevin De Bruyne",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7389581/2026/06/27/belgium-world-cup-advance-new-zealand-de-bruyne/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/06/27004938/2026-06-27T043443Z_32548832_UP1EM6R0CPT7Y_RTRMADP_3_SOCCER-WORLDCUP-NZL-BEL-scaled-e1782536271305.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "Who will win the World Cup Golden Boot?",
+            "severity": "WATCH",
+            "url": "https://usa.inquirer.net/201835/world-cup-golden-boot",
+            "image": "https://usa.inquirer.net/files/2026/06/pexels-vidalbalielojrfotografia-4005331-scaled.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Rachel Reeves confirms new 10p per mile change",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/life-style/cars/2220280/rachel-reeves-per-mile-petrol-diesel",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/24/590x/2220280_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Why it's time to ban takeaway delivery e-bikes from Edinburgh's cycle paths \u2013 Stephen Jardine",
+            "severity": "WATCH",
+            "url": "https://www.scotsman.com/news/opinion/columnists/why-its-time-to-ban-takeaway-delivery-e-bikes-from-edinburghs-cycle-paths-8759259",
+            "image": "https://www.scotsman.com/jpim-static/image/2026/06/25/11/44/IMG_1249.jpeg?width=1200&auto=webp&trim=0%2C0%2C168%2C0",
+            "source": "scotsman"
+        },
+        {
+            "title": "SNP has cowed civil service into utter submission and rule of law could be next",
+            "severity": "WATCH",
+            "url": "https://www.scotsman.com/news/opinion/columnists/snp-has-cowed-civil-service-into-utter-submission-and-rule-of-law-could-be-next-8763177",
+            "image": "https://www.scotsman.com/jpim-static/image/2026/06/26/9/26/PA-85070194.jpeg?width=1200&auto=webp&trim=25%2C0%2C26%2C0",
+            "source": "scotsman"
+        },
+        {
+            "title": "F&O Talk: Nifty to remain rangebound, says Sudeep Shah; picks 8 stocks for next week",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/fo-talk-nifty-to-remain-rangebound-says-sudeep-shah-picks-8-stocks-for-next-week/articleshow/132028803.cms",
+            "image": "https://img.etimg.com/thumb/msid-132028807,resizemode-4,width-1200,height-900,imgsize-229140,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         }
     ],
-    "Last_Updated": "2026-06-27T15:20:15.666411Z"
+    "Last_Updated": "2026-06-27T17:18:00.732945Z"
 }
