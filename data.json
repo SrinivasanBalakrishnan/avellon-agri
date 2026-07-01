@@ -1,258 +1,274 @@
 {
-    "AGRI_Score": 57.5,
-    "Velocity": "-1.8",
+    "AGRI_Score": 59.0,
+    "Velocity": "+1.5",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The AGRI score of 59.0 indicates a moderately high-risk environment, primarily driven by persistent geopolitical instability and its cascading effects on global energy and trade. \"Geopolitical Conflict Intensity\" at 82.6 remains a critical concern, fueled by ongoing regional conflicts such as the Gaza war and strategic shifts like a \"US pullback from NATO.\" These geopolitical undercurrents directly exacerbate \"Energy & Maritime Disruption,\" particularly with \"Russia, one of the world's biggest oil exporters, moves to import fuel as drone strikes squeeze supply,\" and contribute to broader \"Trade & Supply Chain Stress\" as nations adjust to new realities.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 71.2,
-        "Energy & Maritime Disruption": 55.7,
-        "Trade & Supply Chain Stress": 63.5,
+        "Geopolitical Conflict Intensity": 82.6,
+        "Energy & Maritime Disruption": 62.6,
+        "Trade & Supply Chain Stress": 63.2,
         "Sovereign Financial Stress": 53.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 59.3,
-        "Climate & Resource Shock": 45
+        "Sanctions & Regulatory Fragmentation": 56.5,
+        "Cyber & Infrastructure Threats": 55.3,
+        "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical tensions are significantly elevated, driven by persistent regional conflicts and shifting global power dynamics. The \"Gaza war could have ended a year earlier\" highlights the entrenched nature of current conflicts, while a \"US pullback from NATO echoes the set-up of an unsettling German wargame\" points to evolving alliance structures and potential strategic voids.",
+        "Energy & Maritime Disruption": "Global energy markets are experiencing direct disruption and supply vulnerabilities, particularly from major producers. \"Russia, one of the world's biggest oil exporters, moves to import fuel as drone strikes squeeze supply\" indicates a critical squeeze on a key global supplier, potentially impacting international availability.",
+        "Trade & Supply Chain Stress": "Trade routes and supply chains are under pressure from geopolitical events and evolving regulatory frameworks. The impact on energy supply from Russia's domestic fuel deficit could ripple through global logistics, while \"Industrial firms warn EU carbon overhaul could benefit polluters\" points to regulatory complexities affecting industrial competitiveness and trade flows.",
+        "Sovereign Financial Stress": "While major equity markets show resilience, underlying economic conditions and regulatory impacts warrant careful monitoring. The \"S&P 500 is up almost 10% this year, despite war, inflation and AI nerves,\" suggesting some market robustness amidst geopolitical uncertainties.",
+        "Currency & Liquidity Pressure": "With no immediate explicit triggers from the news feed, current conditions suggest a period of routine monitoring for currency and liquidity pressures. However, the broader geopolitical and economic environment implies ongoing vigilance is necessary against potential future shifts.",
+        "Sanctions & Regulatory Fragmentation": "The regulatory landscape is becoming increasingly fragmented, with new policies and enforcement actions creating complexities for international operations. \"Industrial firms warn EU carbon overhaul could benefit polluters\" indicates significant regulatory shifts impacting industries, while the \"Aston Villa hit with Champions League sanction\" demonstrates targeted regulatory enforcement.",
+        "Cyber & Infrastructure Threats": "Cyber threats to critical infrastructure, especially financial systems, remain a significant and active concern. \"Hackers stole over $2 million through ATMs, FG reveals how banks are being breached\" directly illustrates the ongoing and successful targeting of banking infrastructure, necessitating enhanced defensive measures.",
+        "Climate & Resource Shock": "While there are ongoing efforts to address climate change and move towards decarbonization, the current period shows baseline activity rather than acute resource shocks. \"INTEGRA strides along the path towards net zero\" reflects corporate sustainability initiatives, indicating a focus on long-term climate adaptation rather than immediate crisis response."
+    },
     "All_Alerts": [
         {
-            "title": "US is already deploying weapons in western Pacific to defend Taiwan from China",
+            "title": "Industrial firms warn EU carbon overhaul could benefit polluters",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/defence/international/us-is-already-deploying-weapons-in-western-pacific-to-defend-taiwan-from-china/articleshow/132105749.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132105793/132105793.jpg",
-            "source": "toi"
+            "url": "https://www.japantimes.co.jp/environment/2026/07/01/eu-carbon-overhaul-polluters/",
+            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/07/01/549343.JPG",
+            "source": "japantimes"
         },
         {
-            "title": "Is the golden spring about to snap?",
+            "title": "Europe IoT Market Set to Surge by 234%, Hitting USD 312.1 Billion by 2031",
             "severity": "HIGH",
-            "url": "https://investinglive.com/Education/is-the-golden-spring-about-to-snap-20260701/",
-            "image": "https://images.investinglive.com/images/Is%20the%20golden%20spring%20about%20to%20snap%3F_id_a89548ed-8738-4bf3-afd7-65d58920443e_size975.jpg",
-            "source": "forexlive"
-        },
-        {
-            "title": "Nayara Cuts Petrol, Diesel Prices From July 1: Check Fuel Rates In Your City",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/business/petrol-diesel-prices-price-cut-rs-5-nayara-energy-reduces-rates-from-july-1-check-fuel-rates-in-your-city-today-1853724",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/07/01/cb2d3139890dcabc81fdb03a58ee94401782878902702800_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "Lauren Boebert escapes Trump's wrath as she waltzes to Republican nomination after his blistering threat",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-15942297/Lauren-Boebert-Trumps-waltzes-Republican.html",
-            "image": "https://i.dailymail.com/1s/2026/06/30/19/109701771-0-image-a-14_1782845189089.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Congress seeks privilege proceedings against Rajnath Singh, alleges House was misled on Operation Sindoor deaths",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/politics/congress-seeks-privilege-proceedings-against-rajnath-singh-alleges-house-was-misled-on-operation-sindoor-deaths-13962934.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2025/01/20250130122812_Parliament-Budget-Session-2025.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Blue Badges cancelled in crackdown as users didn\u2019t follow this rule",
-            "severity": "HIGH",
-            "url": "https://www.express.co.uk/life-style/cars/2223560/blue-badges-cancelled-crackdown-users",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/24/590x/2223560_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Steenhuisen moved, three DA deputy ministers out as Ramaphosa approves Cabinet changes",
-            "severity": "MEDIUM",
-            "url": "https://www.iol.co.za/news/politics/three-da-deputy-ministers-out-as-ramaphosa-approves-cabinet-changes-67c56dd4-1f86-4194-b500-9c474ba8c65f",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/de8ddef8c88a02af81b853d78cd3114ffaf398d9/1120&operation=CROP&offset=0x35&resize=1120x630",
-            "source": "iol"
-        },
-        {
-            "title": "Rupee's RBI-defense line at risk as US yields rise, Asian peers weaken",
-            "severity": "MEDIUM",
-            "url": "https://sg.news.yahoo.com/rupees-rbi-defense-line-risk-042617727.html",
-            "image": "https://images.pexels.com/photos/16459372/pexels-photo-16459372.png?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo_sg"
-        },
-        {
-            "title": "Myanmar denies Asean request for Suu Kyi meeting",
-            "severity": "MEDIUM",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/01/myanmar-denies-asean-request-for-suu-kyi-meeting",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/01/3986128.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Iran and Qatar to hold talks today after US envoys met with mediators about Iran",
-            "severity": "MEDIUM",
-            "url": "https://www.cnn.com/2026/07/01/world/live-news/iran-war-trump",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-06-30t090328z-1007947585-rc254mab4lzf-rtrmadp-3-iran-crisis-20260630202134541.JPG?c=original/w_800",
-            "source": "cnn"
-        },
-        {
-            "title": "UPTET 2026: CM Yogi Orders Separate TET for In-Service Teachers",
-            "severity": "MEDIUM",
-            "url": "https://www.timesnownews.com/education/uptet-2026-cm-yogi-orders-separate-tet-for-in-service-teachers-article-154815935",
-            "image": "https://images.timesnownews.com/thumb/msid-154816159,thumbsize-34490,width-1280,height-720,resizemode-75/154816159.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Melat Kiros projected to defeat Diana DeGette in Colorado Congressional primary",
-            "severity": "WATCH",
-            "url": "https://www.cbsnews.com/news/melat-kiros-colorado-primary-election-first-congressional-district/",
-            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/07/01/cfebbd04-3960-4abf-9119-4056c51b8007/thumbnail/1200x630/ea1b86f279ff2dd0258d631a83611b50/melat-kiros.jpg",
-            "source": "cbsnews"
-        },
-        {
-            "title": "Momentum Stocks: RITES, Haleon Labs, Drone Destination gain up to 11% on sheer momentum",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/stocks/momentum-stocks-rites-haleon-labs-drone-destination-gain-up-to-11-on-sheer-momentum-13962873.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260606032632_stock1.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Mexico beat Ecuador 2-0 to reach World Cup last 16 and end knockout hoodoo",
-            "severity": "WATCH",
-            "url": "https://www.bangkokpost.com/sports/3279425/mexico-beat-ecuador-20-to-reach-world-cup-last-16-and-end-knockout-hoodoo",
-            "image": "https://static.bangkokpost.com/media/content/20260701/c1_3279425.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Morgan Stanley Lifts Price Target on Edison International (EIX). Here is Why",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/morgan-stanley-lifts-price-target-042257896.html",
-            "image": "https://media.zenfs.com/en/insidermonkey.com/26ad3d6597228d4df119c0a796f9dbc9",
-            "source": "yahoo"
-        },
-        {
-            "title": "Jet fuel price slashed by \u20b95 amid softening international oil rates",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/india-news/jet-fuel-aviation-turbine-fuel-atf-price-slashed-by-rs-5-amid-softening-international-oil-rates-iran-war-101782879461784.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/01/1600x900/atf_price_1782879693260_1782879693377_520278ba-6f36-4697-b68a-6a3114cf120e.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Relief For Domestic Airlines As Jet Fuel Prices Cut By Rs 5 Per Litre",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/india/relief-for-domestic-airlines-as-jet-fuel-prices-cut-by-rs-5-per-litre-10183414.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2021/07/1627642197_news18_breaking_news-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "It's time to move beyond captain Harmanpreet in T20 cricket: Diana Edulji",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/sports/cricket/icc-womens-t20-world-cup/its-time-to-move-beyond-captain-harmanpreet-in-t20-cricket-diana-edulji/articleshow/132105699.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132105699/132105699.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Vance pushes back on Vatican's criticism of Trump immigration policies, calls it 'troubling'",
-            "severity": "WATCH",
-            "url": "https://www.firstpost.com/world/vance-pushes-back-on-vaticans-criticism-of-trump-immigration-policies-calls-it-troubling-14027905.html",
-            "image": "https://images.firstpost.com/uploads/2026/07/blobhttpsweb.whatsapp.comb4bdd32e-b2c6-44aa-998b-ebdae9810f7e-2026-07-01T092006.768-2026-07-eaf47f0b08cd81d5fdfd1826dded7c92.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "The $2.2 Billion Presidency: How Crypto Powered Trump's Wealth Surge After White House Comeback",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/world/the-2-2-billion-presidency-how-crypto-powered-trumps-wealth-surge-after-white-house-comeback-ws-l-10183348.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/07/donald-trump-wealth-2026-07-4d6a533e5a4bf2fd0979a7c8bb6304bb-1200x800.png",
-            "source": "news18"
-        },
-        {
-            "title": "European markets ride oil tailwinds, but can they challenge Wall Street\u2019s tech supremacy?",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-markets-ride-oil-tailwinds-but-can-they-challenge-wall-streets-tech-supremacy/articleshow/132111584.cms",
-            "image": "https://img.etimg.com/thumb/msid-132111685,resizemode-4,width-1200,height-900,imgsize-17668,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Progressive Democrats score big wins in Colorado: 4 takeaways from Tuesday's primaries",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/progressive-democrats-score-big-wins-042114049.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/e823ee342d79004c6bff375a5e3006607f7781ae8ad0115346d6dc5012086bf7/lightyear_networkapi/resizefill_w800_h533;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F1aed4861e5570e765fe909a059fb86ff",
-            "source": "yahoo"
-        },
-        {
-            "title": "Water Level In Mumbai Lakes Record Slight Rise Amid Monsoon Surge; IMD Issues Orange Alert",
-            "severity": "WATCH",
-            "url": "https://www.ndtvprofit.com/india/mumbai-rains-water-level-in-city-lakes-see-slight-rise-as-monsoon-intensifies-imd-issues-orange-alert-11710623",
-            "image": "https://c.ndtvimg.com/2026-07/q9a967fs_mumbai_625x300_01_July_26.jpeg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
-            "source": "ndtv"
-        },
-        {
-            "title": "Mumbai rain havoc: Severe waterlogging, fallen trees, potholes bring maximum city to halt, will schools be closed today? \u2013 Check weather forecast",
-            "severity": "WATCH",
-            "url": "https://www.india.com/news/india/mumbai-rain-havoc-severe-waterlogging-fallen-trees-potholes-bring-maximum-city-halt-will-schools-closed-today-check-imd-weather-forecast-navi-mumbai-raigad-thane-8462313/",
-            "image": "https://static.india.com/wp-content/uploads/2026/07/mumbai-rain.jpg",
-            "source": "india"
-        },
-        {
-            "title": "'Ethanol experiment on 3.6 crore Indians': Priyank Kharge slams Centre over \u2018results by next year' remark",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/india/ethanol-experiment-on-3-6-crore-indians-priyank-kharge-slams-centre-over-results-by-next-year-remark/articleshow/132105698.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132105852/132105852.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Beetaloo closes in on Top End production with strong gas flows",
-            "severity": "WATCH",
-            "url": "https://www.smh.com.au/business/companies/beetaloo-closes-in-on-top-end-production-with-strong-gas-flows-20260701-p60bpl.html",
-            "image": "https://static.ffx.io/images/$zoom_0.7354%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_95/t_crop_custom/q_86%2Cf_auto/79bf4be8f2e10ae7f524216f14bfd86e64bcc8797da3908344a8e68804e09b5f",
-            "source": "smh"
-        },
-        {
-            "title": "Chevron (CVX) Price Target Lowered at Morgan Stanley. Here is Why",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/chevron-cvx-price-target-lowered-041744338.html",
-            "image": "https://media.zenfs.com/en/insidermonkey.com/9993985ff21c88fc97966aed5b1501d8",
-            "source": "yahoo"
-        },
-        {
-            "title": "NIO Inc. Provides June and Second Quarter 2026 Delivery Update",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/07/01/3320308/0/en/NIO-Inc-Provides-June-and-Second-Quarter-2026-Delivery-Update.html",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/07/01/3320374/28124/en/Europe-IoT-Market-Set-to-Surge-by-234-Hitting-USD-312-1-Billion-by-2031.html",
+            "image": "https://images.pexels.com/photos/4437145/pexels-photo-4437145.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "globenewswire_fr"
         },
         {
-            "title": "Choreographer Bosco Martis rushed to hospital after feeling discomfort in chest: Report",
-            "severity": "WATCH",
-            "url": "https://zeenews.india.com/people/choreographer-bosco-martis-rushed-to-hospital-after-feeling-discomfort-in-chest-report-3058634.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/07/01/1960403-bosco-martis.jpg",
-            "source": "zeenews"
+            "title": "A $3.6 billion China-backed dam returns to Myanmar, and so do old fears",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/world/a-3-6-billion-china-backed-dam-returns-to-myanmar-and-so-do-old-fears-article-13963263.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260615133215_dcfzddx.jpg",
+            "source": "moneycontrol"
         },
         {
-            "title": "Embattled California fruit farmer gives away more than 125,000 pounds of nectarines",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/06/30/us-news/central-valley-farmer-gives-away-thousands-of-free-nectarines-amid-legal-battle/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F06%2F000-pounds-nectarines-california-farmer-132870287.jpg?w%3D576",
-            "source": "nypost"
+            "title": "Global IoT Market to Reach USD 1.39 Trillion by 2031: Transformative Growth Driven by 5G and Edge Computing",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/07/01/3320373/28124/en/Global-IoT-Market-to-Reach-USD-1-39-Trillion-by-2031-Transformative-Growth-Driven-by-5G-and-Edge-Computing.html",
+            "image": "https://images.pexels.com/photos/30839695/pexels-photo-30839695.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
         },
         {
-            "title": "Choreographer Bosco Martis hospitalised in Mumbai after chest discomfort; remains under observation",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/entertainment/bollywood/choreographer-bosco-martis-hospitalised-in-mumbai-after-chest-discomfort-remains-under-observation-101782873566365.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/01/1600x900/logo/Bosco_1782873995650_1782873995842_cbf8241b-050e-4bbe-820c-4d86b6b3803a.jpg",
-            "source": "hindustantimes"
+            "title": "Hackers stole over $2 million through ATMs, FG reveals how banks are being breached",
+            "severity": "HIGH",
+            "url": "https://www.legit.ng/business-economy/money/1717066-fg-raises-alarm-rising-atm-cyberattacks-reported-2-million-uba-senegal-hack/",
+            "image": "https://cdn.legit.ng/images/1200x675/bb6c1a231927e304.jpeg?v=1",
+            "source": "legit"
         },
         {
-            "title": "Heather Graham, 56, shows off her INCREDIBLE physique in a skimpy bikini ahead of White Lotus debut",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/tvshowbiz/article-15943367/heather-graham-incredible-physique-skimpy-bikini-white-lotus-debut.html",
-            "image": "https://i.dailymail.com/1s/2026/07/01/04/109709415-0-image-a-37_1782874852431.jpg",
-            "source": "dailymailuk"
+            "title": "INTEGRA strides along the path towards net zero",
+            "severity": "HIGH",
+            "url": "https://www.news-medical.net/news/20260701/INTEGRA-strides-along-the-path-towards-net-zero.aspx",
+            "image": "https://www.news-medical.net/image-handler/picture/2019/4/By_Phonlamai_Photo_034cc2a48c3c4bd2a57e29e397b7210a-620x480.jpg",
+            "source": "news-medical"
         },
         {
-            "title": "Danny received a payout after his son took his own life... when he lost $70,000 to scammers, the bank refused to reimburse him",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15943105/Bendigo-Bank-Aussie-scam-70000-win.html",
-            "image": "https://i.dailymail.com/1s/2026/07/01/03/109709433-0-image-a-20_1782874256047.jpg",
-            "source": "dailymailuk"
+            "title": "Gaza war could have ended a year earlier, achieved more Hamas disarmament, ex-hostage chief says",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/israel-news/defense-news/article-901047",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/688075",
+            "source": "jpost"
         },
         {
-            "title": "Land parcel worth \u20b923 lakh, security agency in focus, \u20b980 lakh recovered: Inside Ram temple donation probe so far",
+            "title": "US pullback from NATO echoes the set-up of an unsettling German wargame",
+            "severity": "HIGH",
+            "url": "https://www.businessinsider.com/us-pullback-from-nato-wargame-ernstfall-podcast-2026-7",
+            "image": "https://i.insider.com/6a43e0b0e218c3b62535f402?width=1200&format=jpeg",
+            "source": "insider"
+        },
+        {
+            "title": "Andy Burnham is about to have a crash course in hardcore geopolitics | Rafael Behr",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/commentisfree/2026/jul/01/andy-burnham-crash-course-hardcore-geopolitics-foreign-policy",
+            "image": "https://i.guim.co.uk/img/media/23eaa0eda59020a218fdff1a8a7d9e069805a509/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=c901ce02071a4a3a69e5df4c7aa7dda0",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "The S&P 500 is up almost 10% this year, despite war, inflation and AI nerves",
+            "severity": "HIGH",
+            "url": "https://www.cnn.com/2026/07/01/business/stock-market-up-inflation-war",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2281276154.jpg?c=original/w_800",
+            "source": "cnn"
+        },
+        {
+            "title": "Russia, one of the world's biggest oil exporters, moves to import fuel as drone strikes squeeze supply",
+            "severity": "HIGH",
+            "url": "https://www.cbc.ca/news/world/russa-gas-crisis-9.7253849?cmp=rss",
+            "image": "https://i.cbc.ca/ais/2531c21f-9997-49f6-a129-35db1c07205d,1782841880919/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C390%2C7488%2C4212%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "On immigration, Trump administration has chalked up many more wins than setbacks",
+            "severity": "HIGH",
+            "url": "https://www.cbc.ca/news/world/trump-immigration-asylum-wins-9.7253615?cmp=rss",
+            "image": "https://i.cbc.ca/ais/f105e65c-bd00-4334-9459-eea25a0cf1f0,1782826997394/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C422%2C4056%2C2281%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "'Welcome to the Jungle' box office collection Day 6 [LIVE]: Akshay Kumar led film nears Rs 90 crore domestic net on first Wednesday",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/box-office/welcome-to-the-jungle-box-office-collection-day-6-live-akshay-kumar-led-multi-starrer-inches-closer-to-rs-90-crore-net-as-worldwide-gross-crosses-over-rs-120-crore-ahead-of-clash-with-alpha/articleshow/132109436.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132109536/132109536.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "iPhone 18 Pro Drop Test Video Leaks Online: Here's How It Looks",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/technology/gadgets/iphone-18-pro-drop-test-video-leaked-before-apple-september-launch-1853791",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/05/20/71afc6f66563153182595bb06a7576fe17792722781061297_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "Aston Villa hit with Champions League sanction as 'significant' statement made",
+            "severity": "HIGH",
+            "url": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-hit-champions-league-34215385",
+            "image": "https://i2-prod.football.london/incoming/article34214245.ece/ALTERNATES/s615/0_Chelsea-v-Barcelona-UEFA-Champions-League-League-Phase-Stamford-Bridge.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "India imported record crude volumes in June despite West Asia tensions",
+            "severity": "MEDIUM",
+            "url": "https://www.news18.com/agency-feeds/india-imported-record-crude-volumes-in-june-despite-west-asia-tensions-10183944.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/07/News18_Business_Section_Default_Image_1600x900-2025-07-454f4d093355309283e1b9f3be42698a-3x2.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "IT growth vectors \"clearly missing\"; EV capex pullback hits ER&D players: Mayuresh Joshi",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/it-growth-vectors-clearly-missing-ev-capex-pullback-hits-erd-players-mayuresh-joshi/articleshow/132109654.cms",
+            "image": "https://img.etimg.com/thumb/msid-132109671,resizemode-4,width-1200,height-900,imgsize-248292,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "USMNT vs. Bosnia World Cup mega-preview: Predictions, odds, must-reads and more",
+            "severity": "MEDIUM",
+            "url": "https://www.nytimes.com/athletic/7405287/2026/07/01/usmnt-bosnia-herzegovina-world-cup-last-32-preview-odds-lineup-predictions/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/06/30211458/USMNT-Bosnia-Mega-Preview-1.jpeg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "Hanoi tanker driver jailed 20 years for dragging teenage girl to her death",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/india-news/land-parcel-worth-23-lakh-security-agency-in-focus-80-lakh-recovered-inside-ram-temple-donation-probe-so-far-101782873385393.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/01/1600x900/logo/Ram_Temple_1719240794970_1782874087376_02cb8856-fb7b-41f0-93e3-3a380ea39354.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/01/hanoi-tanker-driver-jailed-20-years-for-dragging-teenage-girl-to-her-death",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/01/3986529.png",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Constellation Energy: The First Walmart Of Many, Or The Hyperscalers' Last",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/article/4919056-constellation-energy-the-first-walmart-of-many-or-the-hyperscalers-last",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2280410687/image_2280410687.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "The Cosmic Clock Is Ticking: What Happens in July 2026 May Affect the Rest of the Year - Must-Read to Plan the Rest of 2026",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/astrology/others/the-cosmic-clock-is-ticking-what-happens-in-july-2026-may-affect-the-rest-of-the-year/articleshow/132109495.cms",
+            "image": "https://img.etimg.com/thumb/msid-132109559,resizemode-4,width-1200,height-900,imgsize-337659,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Vedanta Oil & Gas, three other Vedanta stocks rise up to 20% after exiting the T2T segment",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/markets/vedanta-oil-gas-three-other-vedanta-stocks-rise-up-to-20-after-exiting-the-t2t-segment-13963242.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/12/20251210110258_vedantartr1.png",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Toxic Teaser OUT: Yash's Empire Faces a 'Ladies Special' Twist as Nayanthara and Kiara Advani Steal the Spotlight",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/entertainment/toxic-teaser-out-yashs-empire-faces-a-ladies-special-twist-as-nayanthara-and-kiara-advani-steal-the-spotlight-articleshow-6okqae5",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01kwe9wvq35p28thxa9vtjj615,imgname-rakky-trailer--1--1782891572963.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Today in History: July 1, British rule of Hong Kong ends",
+            "severity": "WATCH",
+            "url": "https://www.dailycamera.com/2026/07/01/today-in-history-july-1-british-rule-of-hong-kong-ends/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2026/06/AP19270235088180.jpg?w=1400px&strip=all",
+            "source": "dailycamera"
+        },
+        {
+            "title": "How a new super PAC formed to counter AIPAC is fueling democratic socialists\u2019 wins",
+            "severity": "WATCH",
+            "url": "https://www.cnn.com/2026/07/01/politics/american-priorities-aipac-democratic-socialists",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/20260701-chevalier-and-kiros.jpg?c=original/w_800",
+            "source": "cnn"
+        },
+        {
+            "title": "Maruti Suzuki, Mahindra record robust sales in June amid strong demand",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/business/maruti-suzuki-mahindra-record-robust-sales-in-june-amid-strong-demand-articleshow-eq81fto",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-a85699af-ceca-4f1e-8bd5-424360c0f08e.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Eurozone June final manufacturing PMI 51.4 vs 51.3 prelim",
+            "severity": "WATCH",
+            "url": "https://investinglive.com/news/eurozone-june-final-manufacturing-pmi-514-vs-513-prelim-20260701/",
+            "image": "https://images.investinglive.com/images/EU%20FLAG_id_77c3f863-00e9-43e6-a8b4-7ef39329abbc_size975.jpg",
+            "source": "forexlive"
+        },
+        {
+            "title": "Willis launches CyMax Facility, a primary and excess facility aimed at SMEs and middle market companies in the EMEA region",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/07/01/3320367/0/en/Willis-launches-CyMax-Facility-a-primary-and-excess-facility-aimed-at-SMEs-and-middle-market-companies-in-the-EMEA-region.html",
+            "image": "https://images.pexels.com/photos/6755087/pexels-photo-6755087.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Could cities recycle heat produced by data centres? This prof says yes",
+            "severity": "WATCH",
+            "url": "https://www.cbc.ca/news/canada/hamilton/data-centre-waste-heat-recovery-9.7254229?cmp=rss",
+            "image": "https://i.cbc.ca/ais/1.7094691,1734472598000/full/max/0/default.jpg?im=Crop%2Crect%3D%2881%2C50%2C5447%2C3063%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "Syngenta Group Appoints Hengde Qin as Chief Executive Officer",
+            "severity": "WATCH",
+            "url": "http://www.businesswire.com/news/home/20260701200777/en/Syngenta-Group-Appoints-Hengde-Qin-as-Chief-Executive-Officer/?feedref=JjAwJuNHiystnCoBq_hl-X2BgZ-vGn4dO0OtHrHlsBouWxj09bKgFPs8Ri9iZvJhWJT50v2g3Ei-19qH0fyPszGrim8IhAkVNXbaI1AGppOzkqEXpa07kut2m9xviGvGbQQtmzdfgYBqoK3SS-VE4Q%3D%3D",
+            "image": "https://mms.businesswire.com/media/20260701200777/en/2842349/22/High_res_image-Hengde_Qin.jpg",
+            "source": "businesswire"
+        },
+        {
+            "title": "Nurse who sued HSE over alleged delay in breast cancer diagnosis wins part of action",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/crime-law/courts/2026/07/01/nurse-who-sued-hse-over-alleged-delay-in-breast-cancer-diagnosis-wins-part-of-action/",
+            "image": "https://www.irishtimes.com/resizer/v2/D4YXB7ZUMRC5BLOSA6V26P2KYI.jpg?auth=727a543a1adb1298040426004b7677f0a9e63a8e37e6a5d2edc949a7c739906a&smart=true&width=630&height=350",
+            "source": "irishtimes"
+        },
+        {
+            "title": "Arvind Kejriwal leaves 'mysterious' information for tomorrow after questioning why didn't Amit Shah visit Ram temple",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/politics-and-nation/arvind-kejriwal-leaves-mysterious-information-for-tomorrow-after-questioning-why-didnt-amit-shah-visit-ram-temple/articleshow/132109460.cms",
+            "image": "https://img.etimg.com/thumb/msid-132109553,resizemode-4,width-1200,height-900,imgsize-339658,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "USA vs Bosnia-Herzegovina \u2013 Predicted lineup and team news",
+            "severity": "WATCH",
+            "url": "https://ca.sports.yahoo.com/news/usa-vs-bosnia-herzegovina-predicted-074500022.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/ebqbGHCpZxVI1NKwLOhzGg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_football_faithful_articles_458/da03569afae7bb3cffbeaea088e6967a",
+            "source": "yahoo"
+        },
+        {
+            "title": "Adobe patches seven max severity ColdFusion, Campaign flaws",
+            "severity": "WATCH",
+            "url": "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2026/07/01/Adobe.jpg",
+            "source": "bleepingcomputer"
+        },
+        {
+            "title": "Four years after allegations raised, ICAC begins its most Augean task",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/politics/nsw/four-years-after-allegations-raised-icac-begins-its-most-augean-task-20260701-p60bmf.html",
+            "image": "https://static.ffx.io/images/$zoom_1.0342%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_47/t_crop_custom/q_86%2Cf_auto/1958385b80912789a35c70cbb87745d947fc14f75789c518a670c2edf7edae30",
+            "source": "smh"
         }
     ],
-    "Last_Updated": "2026-07-01T16:29:45.731558Z"
+    "Last_Updated": "2026-07-01T20:03:57.533526Z"
 }
