@@ -1,218 +1,309 @@
 {
-    "AGRI_Score": 57.2,
-    "Velocity": "-0.3",
+    "AGRI_Score": 56.5,
+    "Velocity": "-0.7",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at 57.2/100, driven primarily by elevated Geopolitical Conflict Intensity and significant Trade & Supply Chain Stress. Ongoing conflicts, as evidenced by 'Palestinians across Gaza Strip reflect on pre-war lives' and 'Russian missiles and drones kill 8 and cause damage across Ukraine capital,' underscore persistent global instability. Simultaneously, 'Chinese and US risks mean EU chip sector faces a 'bleak future'' highlights deep structural vulnerabilities and fragmentation in critical trade networks.",
+    "AI_Brief": "The current AGRI score of 56.5 reflects a heightened risk environment primarily driven by escalating geopolitical tensions and the associated fragmentation of global regulatory frameworks. The \"Geopolitical Conflict Intensity\" pillar, at 80.3, is significantly elevated by reports such as the \"German defense minister says Ukraine conflict enters 'decisive phase'\" and \"Russia's Su-35 Boost For Iran: 30 Advanced Fighters By Year-End Amid Tensions With Israel & U.S.\". This intensified conflict risk is compounded by the high \"Sanctions & Regulatory Fragmentation\" score of 63.4, indicating ongoing challenges in enforcing international norms and the strategic circumvention of existing controls.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 79.1,
-        "Energy & Maritime Disruption": 60.1,
-        "Trade & Supply Chain Stress": 64.7,
-        "Sovereign Financial Stress": 55.0,
+        "Geopolitical Conflict Intensity": 80.3,
+        "Energy & Maritime Disruption": 55.4,
+        "Trade & Supply Chain Stress": 59.7,
+        "Sovereign Financial Stress": 54.4,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 58.6,
+        "Sanctions & Regulatory Fragmentation": 63.4,
+        "Cyber & Infrastructure Threats": 54.2,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to the persistent conflict in the Middle East, with 'Palestinians across Gaza Strip reflect on pre-war lives, marking 1,000 days of war,' indicating protracted suffering. Furthermore, direct aggression continues in Eastern Europe, as shown by 'Russian missiles and drones kill 8 and cause damage across Ukraine capital.'",
-        "Energy & Maritime Disruption": "Regulatory developments in critical energy sectors, such as the 'US nuclear power regulator proposes changing rule protecting people from radiation,' introduce uncertainty regarding future operational landscapes. Additionally, government intervention to 'shore up fertiliser supply with $160m plant loan' points to underlying vulnerabilities in resource-intensive industries, which are often tied to energy costs and availability.",
-        "Trade & Supply Chain Stress": "Global supply chains face significant pressure, particularly in critical sectors, with a report indicating that 'Chinese and US risks mean EU chip sector faces a 'bleak future'.' Regional tensions, including 'Taiwan condemns China's vessel deployments near its waters,' also present potential for maritime trade disruption in key strategic areas.",
-        "Sovereign Financial Stress": "While no immediate sovereign defaults are reported, localized fiscal challenges persist, exemplified by 'Kerala's low-alcohol tax row is far from over.' The broader global political landscape, where 'Trump embraces 'Great Equivocator' role sending mixed signals that vex markets and allies,' contributes to an environment of potential market volatility, requiring diligent oversight of national financial conditions.",
-        "Currency & Liquidity Pressure": "Global political uncertainty, exemplified by 'Trump embraces 'Great Equivocator' role' and its impact on markets, introduces potential volatility for capital flows and currency valuations. While no immediate crisis is evident, this environment necessitates routine monitoring of liquidity conditions and investor sentiment.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory changes in critical sectors are underway, with the 'US nuclear power regulator proposes changing rule protecting people from radiation' signaling significant shifts. Meanwhile, geopolitical competition between the US and China continues to foster a fragmented environment for global technology supply chains, impacting the 'EU chip sector.'",
-        "Cyber & Infrastructure Threats": "While no specific cyberattacks are detailed, the 'Russian missiles and drones kill 8 and cause damage across Ukraine capital' directly illustrates severe physical infrastructure damage from kinetic conflict. This ongoing destruction underscores a persistent high-level threat to critical national infrastructure.",
-        "Climate & Resource Shock": "Although several headlines point to severe heat waves, such as 'Punishing heat wave peaks as East Coast readies for sweltering July 4 weekend,' and calls for climate adaptation in Europe, the current news does not indicate widespread, immediate resource shocks or catastrophic climate events severely impacting global systems. The risk remains low, primarily reflecting localized weather events and discussions around resilience."
+        "Geopolitical Conflict Intensity": "This pillar remains critically high due to the intensification of existing conflicts and the emergence of new flashpoints. The \"German defense minister says Ukraine conflict enters 'decisive phase'\" highlights the ongoing, severe nature of the European conflict, while reports that \"A hornet's nest of drones is needed to save Taiwan from conflict, says US diplomat\" underscore the persistent and elevated risk of confrontation in the Indo-Pacific.",
+        "Energy & Maritime Disruption": "While moderate, this pillar shows signs of future structural shifts that could reduce import dependencies rather than immediate disruptions. The \"SBI Report\" projecting \"Rs 1 lakh crore on crude imports will be saved by 2030, as 35 lakh EVs will replace petrol vehicles\" indicates a long-term trend towards energy independence through EV adoption, suggesting current activity is under routine monitoring for supply chain issues.",
+        "Trade & Supply Chain Stress": "This pillar faces upward pressure from both illicit trade and the vulnerabilities exposed by cyber incidents within global supply networks. The \"illegal warehouse busted in UP's Bahraich\" seizing \"8,000 codeine cough syrup bottles\" points to challenges in controlling illicit trade flows, while the question \"How is Apple affected by a data breach at Tata Electronics?\" reveals the potential for significant disruption to legitimate supply chains from cyberattacks.",
+        "Sovereign Financial Stress": "Financial markets are exhibiting caution, especially in the technology sector, while consumer financial health is being closely watched. \"Asian stocks slide on chip sell-off as markets await US jobs data\" indicates market sensitivity to economic indicators and sector-specific downturns, while \"American Consumer Credit Counseling Reviews and Ratings\" reflects ongoing assessment of household debt and spending capacity.",
+        "Currency & Liquidity Pressure": "This pillar is currently at baseline activity, with no specific news items indicating acute currency devaluation or liquidity crunches. Market movements, such as the \"Asian stocks slide,\" are more broadly related to equity performance rather than direct currency or liquidity pressures.",
+        "Sanctions & Regulatory Fragmentation": "The global regulatory landscape continues to fragment, especially in sensitive sectors like defense and technology. \"Russia's Su-35 Boost For Iran: 30 Advanced Fighters By Year-End Amid Tensions With Israel & U.S.\" demonstrates how nations navigate or circumvent existing sanctions regimes through strategic alliances and arms deals, contributing to increased regulatory complexity.",
+        "Cyber & Infrastructure Threats": "Cyber threats remain a persistent concern, directly impacting critical supply chains and data integrity. The inquiry into \"How is Apple affected by a data breach at Tata Electronics?\" underscores the direct vulnerability of major corporations and their partners to cyber intrusions. The launch of \"Swaraj Cloud: India\u2019s AI-Autonomous Architect Cloud Platform\" also highlights the ongoing need for robust cyber defenses in evolving digital infrastructure.",
+        "Climate & Resource Shock": "This pillar indicates a relatively low immediate risk profile for widespread systemic shock, though specific extreme weather events are noted. A \"UAE weather alert\" for \"Hottest 40 days of summer\" pushing temperatures \"above 50\u00b0C\" highlights localized severe climate impacts, yet the overall systemic resource shock remains limited based on the provided feed."
     },
     "All_Alerts": [
         {
-            "title": "US nuclear power regulator proposes changing rule protecting people from radiation",
+            "title": "Adani Group Announces Massive USD 11.5 Billion Aluminium Project in Odisha; To Create over 53,000 Jobs",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/us-nuclear-power-regulator-proposes-changing-rule-protecting-people-from-radiation/articleshow/132128401.cms",
-            "image": "https://img.etimg.com/thumb/msid-132128549,resizemode-4,width-1200,height-900,imgsize-134156,overlay-economictimes/articleshow.jpg",
+            "url": "https://english.revoi.in/adani-group-announces-massive-usd-11-5-billion-aluminium-project-in-odisha-to-create-over-53000-jobs/",
+            "image": "https://english.revoi.in/wp-content/uploads/2026/07/WhatsApp-Image-2026-07-02-at-11.49.57-AM.jpeg",
+            "source": "revoi_in"
+        },
+        {
+            "title": "Rs 1 lakh crore on crude imports will be saved by 2030, as 35 lakh EVs will replace petrol vehicles: SBI Report",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/economy/finance/india-to-save-rs-1-lakh-crore-by-2030-with-35-lakh-electric-vehicles-replacing-petrol-cars-sbi-reports/articleshow/132132318.cms",
+            "image": "https://img.etimg.com/thumb/msid-132132402,resizemode-4,width-1200,height-900,imgsize-118924,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Chinese and US risks mean EU chip sector faces a 'bleak future,' report says",
+            "title": "UAE weather alert: Hottest 40 days of summer begin July 3 as 'Jamrat Al Qayth' pushes temperatures above 50\u00b0C",
             "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/chinese-us-risks-mean-eu-040335205.html",
-            "image": "https://media.zenfs.com/en/reuters-finance.com/db0fd74512ef4f6a82a1aede8ca33789",
-            "source": "yahoo"
-        },
-        {
-            "title": "Facing barbs and pressure from Trump, Europe's leaders close ranks",
-            "severity": "HIGH",
-            "url": "https://www.clickondetroit.com/news/world/2026/07/02/facing-barbs-and-pressure-from-trump-europes-leaders-close-ranks/",
-            "image": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/Z5O4VBKXX5EEXLKLDFHOKZT4IA.jpg",
-            "source": "clickondetroit"
-        },
-        {
-            "title": "Palestinians across Gaza Strip reflect on pre-war lives, marking 1,000 days of war",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/palestinians-across-gaza-strip-reflect-040532136.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/99ac556fc9452556a81038dbbd963797f7c9769156549f7081b29426b17af6e1/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fvideo.canadianpress.com%2F2c591fd3e7639adc29c76bd610b6eadb",
-            "source": "yahoo"
-        },
-        {
-            "title": "Analysis: Trump embraces 'Great Equivocator' role sending mixed signals that vex markets and allies",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/analysis-trump-embraces-great-equivocator-040334271.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/cce6c5f845709c04fc5419cf4329b82a118d89ddcc3d0e71a3f361919472a2d2/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcp_news_842%2Fa305d25e9c46527b6a1f05a4fc7062ef",
-            "source": "yahoo"
-        },
-        {
-            "title": "Russian missiles and drones kill 8 and cause damage across Ukraine capital",
-            "severity": "HIGH",
-            "url": "https://www.beaumontenterprise.com/news/world/article/russian-attack-on-ukraine-shakes-kyiv-for-hours-22329572.php",
-            "image": "https://s.hdnux.com/photos/01/66/56/77/31125471/3/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "\u2018Techno in a monastery \u2013 are you ready?\u2019 The Greek priest whose doom metal album is the year\u2019s hippest record",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/music/2026/jul/02/father-tabakis-greek-priest-doom-paradise-metal",
-            "image": "https://i.guim.co.uk/img/media/ceca503e5542b465621df44e314b38f817316c0c/1329_573_3451_2760/master/3451.jpg?width=140&quality=85&auto=format&fit=max&s=3fa34c1ed587d7eefea8cc14066526b6",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "Trading Plan: Will bulls extend gains to help the Nifty 50 reclaim 24,200 and Bank Nifty reach 58,700?",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/business/markets/trading-plan-will-bulls-extend-gains-to-help-the-nifty-50-reclaim-24-200-and-bank-nifty-reach-58-700-13963953.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260624035919_bse-nsee_nifty-Sensex.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Talking to The Age got a councillor suspended. Now there are warnings about democracy",
-            "severity": "HIGH",
-            "url": "https://www.smh.com.au/politics/victoria/talking-to-the-age-got-a-councillor-suspended-now-there-are-warnings-about-democracy-20260630-p60bf3.html",
-            "image": "https://static.ffx.io/images/$zoom_0.2115884115884116%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_81/t_crop_custom/q_86%2Cf_auto/b12c2f1b4261f7edfe2f06387f4a9904d649a17e",
-            "source": "smh"
-        },
-        {
-            "title": "Taiwan condemns China's vessel deployments near its waters",
-            "severity": "MEDIUM",
-            "url": "https://globalnation.inquirer.net/329528/taiwan-condemns-chinas-vessel-deployments-near-its-waters",
-            "image": "https://globalnation.inquirer.net/files/2026/07/Taiwan-condemns-Chinas-vessel-deployments-near-its-waters-620x465.jpeg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Peer plaudits power Critical Resources battery push",
-            "severity": "MEDIUM",
-            "url": "https://www.smh.com.au/business/companies/peer-plaudits-power-critical-resources-battery-push-20260702-p60c34.html",
-            "image": "https://static.ffx.io/images/$zoom_0.7354%2C$multiply_0.7025%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_40/t_crop_custom/q_86%2Cf_auto/a6dbb8af52d700fb8e42ea41d1e0dbe22ab7bea7932c24f4b238f179824fe437",
-            "source": "smh"
-        },
-        {
-            "title": "Japan PM Sanae Takaichi's India Agenda: Defence, Semiconductors, AI In Focus",
-            "severity": "MEDIUM",
-            "url": "https://www.timesnownews.com/india/japan-pm-sanae-takaichis-india-agenda-defence-semiconductors-ai-in-focus-article-154844730",
-            "image": "https://images.timesnownews.com/thumb/msid-154844685,thumbsize-1114056,width-1280,height-720,resizemode-75/154844685.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Finance Bill passed, Assembly adjourned, but Kerala's low-alcohol tax row is far from over",
-            "severity": "MEDIUM",
-            "url": "https://english.mathrubhumi.com/news/kerala/finance-bill-passed-assembly-adjourned-but-keralas-low-alcohol-tax-row-is-far-from-over-t3h43qjn",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1s64ko452x6g0er7vam/0/vd-satheesan-and-pinarayi-vijayan.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
-        },
-        {
-            "title": "Europe residents won't live in a flooded basement, so why endure dangerous heat without a heat pump?",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/europe-residents-wont-live-flooded-040700367.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/c28a06cc31a59f0e61a3a087af278bb803ca14765ab2ab5ae8a375c92be07c86/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cool_down_737%2F9264318434e59b482192c25285f5a19e",
-            "source": "yahoo"
-        },
-        {
-            "title": "Government moves to shore up fertiliser supply with $160m plant loan",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-07-02/phosphate-hill-fertiliser-plant-government-loan/106868344",
-            "image": "https://live-production.wcms.abc-cdn.net.au/5aa72f40f490a25e73b697dceb5f3a2e?impolicy=wcms_crop_resize&cropH=600&cropW=1067&xPos=0&yPos=0&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "Punishing heat wave peaks as East Coast readies for sweltering July 4 weekend",
-            "severity": "WATCH",
-            "url": "https://www.cnn.com/2026/07/02/weather/heat-wave-east-coast-july-fourth-climate-hnk",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2283679415.jpg?c=original/w_800",
-            "source": "cnn"
-        },
-        {
-            "title": "SportsCenter: AM Has the Best Comedy Team on Sports Television",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/sportscenter-am-best-comedy-team-040600257.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/42b987a28cde82f16e10b6d110a4b753b9dbc341db793de9c87aad7d69afa37f/lightyear_networkapi/resizefit_w400_h400;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbarrett_media_699%2F9c1c22469d869edcca61013082e3e461",
-            "source": "yahoo"
-        },
-        {
-            "title": "BT Opening Bell | Sensex, Nifty open higher; Infosys, HCL Tech, TCS, Tech Mahindra lead gains",
-            "severity": "WATCH",
-            "url": "https://www.businesstoday.in/markets/stocks/story/bt-opening-bell-sensex-nifty-open-higher-infosys-hcl-tech-tcs-tech-mahindra-lead-gains-540402-2026-07-02",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202607/6a45e34479cdf-among-sensex-constituents--infosys--hcl-tech--tcs--tech-mahindra-were-the-top-gainers-today--rising-020415144-16x9.png?size=1280:720",
-            "source": "businesstoday"
-        },
-        {
-            "title": "As Venezuelan morgues fill and the death toll slowly rises, questions remain about how many are truly gone",
-            "severity": "WATCH",
-            "url": "https://www.cnn.com/2026/07/02/americas/venezuela-earthquakes-morgue-death-toll-latam-intl",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-06-29t151206z-1731040281-rc2r3maoq4te-rtrmadp-3-venezuela-earthquake-aftermath.jpg?c=original/w_800",
-            "source": "cnn"
-        },
-        {
-            "title": "Medical Breakthrough! Scientists Build Cells That Can Grow and Replicate",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/health/medical-breakthrough-scientists-build-cells-that-can-grow-and-replicate-article-154845344",
-            "image": "https://images.timesnownews.com/thumb/msid-154845416,thumbsize-54488,width-1280,height-720,resizemode-75/154845416.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Hyderabad: Two held for supplying beef instead of mutton to hotels",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/hyderabad-police-nab-two-for-duping-hotels-with-beef-for-mutton-articleshow-arv1grg",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-289158b5-9a02-45fe-9b3b-99737d3ae406.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Out of the shadows, Rohit Yadav produces India's best 87. 05m throw this season, wins inter-state gold",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/out-of-the-shadows-rohit-yadav-produces-indias-best-87-05m-throw-this-season-wins-inter-state-gold/articleshow/132128431.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132128431/132128431.jpg",
+            "url": "https://timesofindia.indiatimes.com/world/middle-east/uae-weather-alert-hottest-40-days-of-summer-begin-july-3-as-jamrat-al-qayth-pushes-temperatures-above-50c/articleshow/132132246.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132132338/132132338.jpg",
             "source": "toi"
         },
         {
-            "title": "California Farmer Is Giving Away 125,000 Lbs. of Nectarines After Marketor Allegedly Blocked Him from Selling Them (Exclusive)",
+            "title": "Google-backed Apptronik opens 'Robot Park' to train humanoids for real-world jobs",
+            "severity": "HIGH",
+            "url": "https://www.firstpost.com/tech/google-backed-apptronik-opens-robot-park-to-train-humanoids-for-real-world-jobs-14028258.html",
+            "image": "https://images.firstpost.com/uploads/2026/07/Apollo-humaoid-2026-07-db147e0c6ad9481b48c30da73fe56a25-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "German defense minister says Ukraine conflict enters 'decisive phase'",
+            "severity": "HIGH",
+            "url": "https://tass.com/world/2154293",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
+        },
+        {
+            "title": "Illegal warehouse busted in UP's Bahraich, 8,000 codeine cough syrup bottles seized",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/india/uttar-pradesh/illegal-warehouse-busted-in-ups-bahraich-8000-codeine-cough-syrup-bottles-seized-4059524",
+            "image": "https://media.assettype.com/deccanherald/2026-07-02/hdj6tu6n/ChatGPT-Image-Jul-2-2026-010554-PM.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "A hornet's nest of drones is needed to save Taiwan from conflict, says US diplomat",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/international/article-901186",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/728011",
+            "source": "jpost"
+        },
+        {
+            "title": "Afternoon Update: human oversight of aged care tool could return; Neil the seal safety concerns; and a valuable painting left on the street",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/australia-news/2026/jul/02/afternoon-update-thursday-ntwnfb",
+            "image": "https://i.guim.co.uk/img/media/4b45294d73f67854868effe7dac360329654b498/362_41_2901_2321/master/2901.jpg?width=140&quality=85&auto=format&fit=max&s=4e34eaabaea2afb38adbdd7b1843a6a6",
+            "source": "theguardian"
+        },
+        {
+            "title": "The Dalai Lama at 91: What Compassion Now Requires",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/speaking-tree/daily-ecstasy/the-dalai-lama-at-91-what-compassion-now-requires/articleshow/132132299.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132132279/132132279.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Russia's Su-35 Boost For Iran: 30 Advanced Fighters By Year-End Amid Tensions With Israel & U.S.",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/videos/international/russias-su-35-boost-for-iran-30-advanced-fighters-by-year-end-amid-tensions-with-israel-u-s-/videoshow/132132076.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-132132076/132132076.jpg?resizemode=4",
+            "source": "toi"
+        },
+        {
+            "title": "How is Apple affected by a data breach at Tata Electronics? - The Hindu",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPazlpeWtsaGYzemZYRlJZcFdpQWxaS3VsanlFTDljWE1EZ2NxVndaZDduby05cy01bm80U2gwZzBOejU1UTdmNlg4Q0hRbFVYb001bG1mZUhBZ0p3dkVaQTJVcklQT1RWQkxjbEdVVzA0UE9SeDg2cW1oai04b1NwWk85SlVLMVJhWGVGd2FxalBKR1J6WWY5Nnk1ZjVtbGRRNFdZdE1oTEw0LXJrejFnaDFCakxMTDQxaGJYSkpOZ2XSAccBQVVfeXFMTWIxaDh3dG1MM3l1aEl0WVh0WUh2d3lmWkc1bG8yV245R2RaODlWaU9paDI2cVZBZ3I5dFg4UFcyRTVwbkxiNzlkcHcyX3pVTzN3ejJ6cGJSVDNYcTBjRVcwVEtObThLUE9xTUhpR212eEZwNENjUS1TRm14WXlkNzVrc3p6eHlzcHc2ZTl6NzJlbHNxT3RkOFJraDZ3Yk14R0lVeUhBMU5NZTJYWWhIOVlMTjJxQnFkMnNtLW9HSFVWNThsbXMwMA?oc=5",
+            "image": "https://images.pexels.com/photos/9830816/pexels-photo-9830816.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "ESDS Software Solution Launches Swaraj Cloud: India\u2019s AI-Autonomous Architect Cloud Platform",
+            "severity": "HIGH",
+            "url": "https://www.fmlive.in/esds-software-solution-launches-swaraj-cloud-indias-ai-autonomous-architect-cloud-platform/",
+            "image": "https://www.fmlive.in/wp-content/uploads/2026/07/Swaraj-PR-Image.png",
+            "source": "fmlive_in"
+        },
+        {
+            "title": "American Consumer Credit Counseling Reviews and Ratings",
+            "severity": "MEDIUM",
+            "url": "https://usa.inquirer.net/202305/american-consumer-credit-counseling-reviews",
+            "image": "https://usa.inquirer.net/files/2026/07/american-consumer-credit-counseling-logo.png",
+            "source": "inquirer"
+        },
+        {
+            "title": "\u2018Voicemails For Isabelle\u2019 movie review: Zoey Deutch and Nick Robinson charm their way through love and loss",
+            "severity": "MEDIUM",
+            "url": "https://www.thehindu.com/entertainment/voicemails-for-isabelle-movie-review-zoey-deutch-and-nick-robinson-charm-their-way-through-love-and-loss/article71169735.ece",
+            "image": "https://th-i.thgim.com/public/life-and-style/6ae9ga/article71169736.ece/alternates/FREE_1200/VFI_20250717_02855_R.jpg",
+            "source": "thehindu"
+        },
+        {
+            "title": "Asian stocks slide on chip sell-off as markets await US jobs data",
             "severity": "WATCH",
-            "url": "https://ca.style.yahoo.com/california-farmer-giving-away-125-034125239.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/IK76JytQGvZQ4Oc8Ik04tA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/people_218/5e1559cf50698d005745e82b0c554207",
+            "url": "https://uk.finance.yahoo.com/news/asian-stocks-slide-chip-sell-073936446.html",
+            "image": "https://media.zenfs.com/en/euronews_uk_articles_973/4938cb60b79df2e12537c45732ed9f58",
             "source": "yahoo"
         },
         {
-            "title": "Couple climbs Empire State Building, gets engaged, arrested by police",
+            "title": "Off the rails and back again: The story of Kolkata's trams that BJP's Bengal govt wants to revive",
             "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/world/couple-climbs-empire-state-building-gets-engaged-arrested-by-police-articleshow-fgpxf9q",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-e3fbdbed-f2cc-4b6e-a7a5-10734e1a86aa.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://www.hindustantimes.com/india-news/off-the-rails-and-back-again-the-story-of-kolkatas-trams-that-bjps-bengal-govt-wants-to-revive-101782811415779.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/02/1600x900/logo/Tram_3_1782974964974_1782974998184_dbb0d248-f68f-4d31-8c19-02bf420228da.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Stock Market LIVE Updates, Sensex Today: Markets Likely To Open In Green As Crude Oil Eases Further",
+            "title": "'Dangerous and unethical': Netizens on BAT-BMS app disabling e-rickshaws",
             "severity": "WATCH",
-            "url": "https://www.ndtv.com/business-news/stock-market-sensex-share-market-nifty-live-updates-today-2-july-us-iran-deal-oil-prices-11715636",
-            "image": "https://c.ndtvimg.com/2026-04/3tjoh4c_stock-market-closing-today_625x300_21_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
+            "url": "https://www.business-standard.com/india-news/bat-bms-app-e-rickshaw-disabling-ev-battery-security-126070200438_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260702/thumb-126070200438.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "How AI Helped Uncover Rs 2 Crore Salary Fraud' In Chhattisgarh Police",
+            "title": "IT selling nearing an end; banks and FMCG remain top bets: Neeraj Dewan",
             "severity": "WATCH",
-            "url": "https://www.ndtv.com/india-news/how-ai-helped-uncover-rs-2-crore-salary-fraud-in-chhattisgarh-police-11711623",
-            "image": "https://c.ndtvimg.com/2024-01/d4nq1h1o_chhattisgarh-police-generic_625x300_08_January_24.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/it-selling-nearing-an-end-banks-and-fmcg-remain-top-bets-neeraj-dewan/articleshow/132132457.cms",
+            "image": "https://img.etimg.com/thumb/msid-132132448,resizemode-4,width-1200,height-900,imgsize-28256,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "RM571.9mil NSM payment was contractual, not advance, says Defence Minister",
+            "title": "Ultimate Football Heroes: Ronaldo - 5 untold stories that shaped Cristiano Ronaldo's legendary journey",
             "severity": "WATCH",
-            "url": "https://www.thestar.com.my/news/nation/2026/07/02/rm5719mil-nsm-payment-was-contractual-not-advance-says-defence-minister",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/02/3987785.jpg",
+            "url": "https://www.moneycontrol.com/entertainment/ultimate-football-heroes-ronaldo-5-untold-stories-that-shaped-cristiano-ronaldo-s-legendary-journey-article-13964379.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260702073644_ronaldo-audile.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Diljit Dosanjh makes Vogue US debut, requests fans to \u2018bear with his English\u2019, reveals his favourite song 'Morni'",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/entertainment/diljit-dosanjh-makes-vogue-us-debut-requests-fans-to-bear-with-his-english-reveals-his-favourite-song-morni-article-13964375.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260702073514_doss.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Ed Davey tells worst football joke ever as everyone tells him 'never do it again'",
+            "severity": "WATCH",
+            "url": "https://www.dailystar.co.uk/news/latest-news/ed-davey-tells-worst-football-37375814",
+            "image": "https://i2-prod.dailystar.co.uk/incoming/article37375825.ece/ALTERNATES/s615/1_Screenshot-2026-07-02-083458.png",
+            "source": "dailystar"
+        },
+        {
+            "title": "FTSE 100 today: Stocks rise as dovish rate signals offset oil drop",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/stock-market-news/ftse-100-today-stocks-rise-as-dovish-rate-signals-offset-oil-drop-4754287",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEDBS0W6_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Scandal-hit KPMG Australia appoints new chair, faces fresh criticism",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/07/02/scandal-hit-kpmg-australia-appoints-new-chair-faces-fresh-criticism",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/02/3988274.jpg",
             "source": "thestar_my"
+        },
+        {
+            "title": "Knowledge Nugget | From Telegram Drug Networks to Nitazenes: What the NCB Annual Report 2025 reveals",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/knowledge-nugget-ncb-annual-report-2025-drug-key-highlights-upsc-10767755/",
+            "image": "https://images.indianexpress.com/2026/07/Knowledge-Nugget-Telegram-Drug-Networks-Myanmar-Route-and-Nitazenes-What-the-NCB-Annual-Report-2025-Reveals.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "OPINION | GST completes nine years with stronger revenues and compliance",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/opinion/gst-completes-nine-years-with-stronger-revenues-and-compliance-13964336.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/07/20250722130109_3-378x213.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "S&P 500: Strong Earnings Support The Market, But A Reset Still Looks Likely",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/article/4919395-s-p-500-strong-earnings-support-market-but-reset-still-looks-likely",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2269437328/image_2269437328.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "AboitizPower launches 60-MW Naga BESS project in Cebu",
+            "severity": "WATCH",
+            "url": "https://business.inquirer.net/598346/aboitizpower-launches-60-mw-naga-bess-in-cebu",
+            "image": "https://business.inquirer.net/files/2026/07/Naga-BESS-Groundbreaking-1-620x413.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Certain US priorities in G20 align with Russia\u2019s interests \u2014 Russian sherpa",
+            "severity": "WATCH",
+            "url": "https://tass.com/politics/2154291",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
+        },
+        {
+            "title": "Diesel prices record largest monthly fall in over 25 years",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/bulletin/news/uk-diesel-price-oil-iran-war-b3007308.html",
+            "image": "https://static.independent.co.uk/2026/06/05/16/05152208-a7b7224d-defc-4263-a469-aafcad935deb.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "How NASA, Microsoft and the EU use AI to speed up post-quake rescues in Venezuela",
+            "severity": "WATCH",
+            "url": "http://www.euronews.com/next/2026/07/02/how-nasa-microsoft-and-the-eu-use-ai-to-speed-up-post-quake-rescues-in-venezuela",
+            "image": "https://images.euronews.com/articles/stories/09/82/19/23/1440x810_cmsv2_fa4a7b3a-f2c9-5f70-b15c-ed7b1cf4aa42-9821923.jpg",
+            "source": "euronews"
+        },
+        {
+            "title": "\"Taylor Swift tax\" takes effect",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/business-and-innovation/banking-and-finance/article-901185",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/728007",
+            "source": "jpost"
+        },
+        {
+            "title": "Vivant Water boosts Metro Cebu supply with desalination plant",
+            "severity": "WATCH",
+            "url": "https://business.inquirer.net/598400/vivant-water-boosts-metro-cebu-supply-with-desalination-plant",
+            "image": "https://business.inquirer.net/files/2026/07/MCWD-x-IMCC-Ceremonial-Tapping-at-Injection-Point-620x413.jpeg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Quote of the Day by Charlie Munger: \"The big money is not in the buying and selling, but...\" - Meaning, investing lessons and why patience creates wealth",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/education/quote-of-the-day-by-charlie-munger-the-big-money-is-not-in-the-buying-and-selling-but-meaning-investing-lessons-and-why-patience-creates-wealth-article-13964373.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2023/11/MixCollage-29-Nov-2023-07-36-AM-6986.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Franklin Intermediate Government Bond SMA Q1 2026 Commentary",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/article/4919393-franklin-intermediate-government-bond-sma-q1-2026-commentary",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1282660847/image_1282660847.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Pick-up rast in Mo\u0308nchsprozession \u2013 acht Tote in Thailand",
+            "severity": "WATCH",
+            "url": "https://www.schwaebische.de/panorama/pick-up-rast-in-moenchsprozession-acht-tote-in-thailand-4689175",
+            "image": "https://cdn.schwaebische.de/2026/07/02/6474ad93-950b-4598-8d7d-86c488bed546.jpg",
+            "source": "schwaebische"
+        },
+        {
+            "title": "Kerala LoP asks how Adani dared sign deal without approval, alleges state govt favours liquor giants",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/news/kerala/kerala-lop-asks-how-adani-dared-sign-deal-without-approval-alleges-state-govt-favours-liquor-giants-yne47vm0",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1s69bmyq2n53v3n64e8/0/vd-satheesan-and-pinarayi-vijayan.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Bombay High Court clears way for redevelopment of Bandra Reclamation, Adarsh Nagar layouts",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/legal-news/bombay-high-court-redevelopment-bandra-reclamation-adarsh-nagar-layouts-10767694/",
+            "image": "https://images.indianexpress.com/2026/07/bombay-hc.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Ex-Sydney childcare worker jailed for 'disturbing and depraved' child abuse",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-07-02/nsw-david-william-james-sentenced-12-years-jail-child-abuse/106868564",
+            "image": "https://live-production.wcms.abc-cdn.net.au/d2adaafd89022e8bfe8fcaa8d6e6da8c?impolicy=wcms_crop_resize&cropH=254&cropW=451&xPos=269&yPos=101&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "US House Committee Says South Korea Discriminated Against Coupang",
+            "severity": "WATCH",
+            "url": "https://www.usnews.com/news/world/articles/2026-07-02/us-house-committee-says-south-korea-discriminated-against-coupang",
+            "image": "https://www.usnews.com/dims4/USNEWS/66aba30/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Fcb%2Fbae4ce5667170e095e587117aa230f%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM610B7%3A22026-07-02T065224Z_2_LYNXMPEM610B7_RTROPTP_3_COUPANG-RESULTS.JPG",
+            "source": "usnews"
+        },
+        {
+            "title": "UAE seeks views on rules for non-human organ, tissue transplants after law change",
+            "severity": "WATCH",
+            "url": "https://www.khaleejtimes.com/uae/uae-seeks-views-on-rules-for-non-human-organ-tissue-transplants-after-law-change",
+            "image": "https://images.pexels.com/photos/3866816/pexels-photo-3866816.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "khaleejtimes"
         }
     ],
-    "Last_Updated": "2026-07-02T16:07:35.932868Z"
+    "Last_Updated": "2026-07-02T19:41:02.527813Z"
 }
