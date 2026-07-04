@@ -1,302 +1,267 @@
 {
     "AGRI_Score": 56.3,
-    "Velocity": "-0.5",
+    "Velocity": "0.0",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The current AGRI score of 56.3 reflects a heightened risk environment primarily driven by escalating geopolitical tensions and associated energy and cyber threats. \"Saudi-led Coalition vows forceful response to Houthi escalation\" and \"US-Iran conflict: Massive turnout at Khamenei funeral\" highlight intense regional instability, which directly impacts maritime security. Simultaneously, \"US Heat Wave Pushes Power Demand To Record, Strains Grid\" indicates a confluence of climate and infrastructure vulnerabilities, contributing significantly to the overall risk posture.",
+    "AI_Brief": "The AGRI score of 56.3 is elevated, primarily driven by persistent Geopolitical Conflict Intensity, underscored by the \"Suicide Attack on Pakistan Coast Guard Camp in Balochistan; 30 Personnel Reportedly Killed.\" Significant contributions also come from ongoing Cyber & Infrastructure Threats, with a major \"Tata data leak that exposed Apple iPhone secrets\" and \"Massive Tragedy Averted Amid Mumbai Rains\" highlighting critical vulnerabilities. While \"tensions ease in Middle East\" provide some localized respite, persistent trade disputes like the \"Vizhinjam row\" maintain pressure on Trade & Supply Chain Stress.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 72.5,
-        "Energy & Maritime Disruption": 63.1,
-        "Trade & Supply Chain Stress": 60.3,
+        "Geopolitical Conflict Intensity": 73.7,
+        "Energy & Maritime Disruption": 55.8,
+        "Trade & Supply Chain Stress": 63.7,
         "Sovereign Financial Stress": 54.8,
         "Currency & Liquidity Pressure": 50.0,
         "Sanctions & Regulatory Fragmentation": 54.0,
-        "Cyber & Infrastructure Threats": 62.8,
+        "Cyber & Infrastructure Threats": 67.9,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar remains elevated due to significant regional flare-ups and strategic posturing. News reports confirm \"Saudi-led Coalition vows forceful response to Houthi escalation and regional threats\" and \"Taiwan Detects 8 Chinese Aircraft, 10 Naval Vessels Near Its Coast\", indicating multiple active flashpoints globally.",
-        "Energy & Maritime Disruption": "This pillar experiences considerable pressure from both conflict-related risks and domestic demand strains. The \"Saudi-led Coalition vows forceful response to Houthi escalation\" suggests potential threats to vital shipping lanes, while \"US Heat Wave Pushes Power Demand To Record, Strains Grid\" highlights immediate energy supply challenges.",
-        "Trade & Supply Chain Stress": "While not explicitly detailed as high, the ongoing geopolitical conflicts inherently pose a significant threat to global trade routes and supply chain stability. Underlying tensions, as hinted by \"Ceasefire On Paper, Tension Below: Fixed Income In An Uncertain Summer,\" create an environment ripe for unexpected disruptions affecting logistics and sourcing.",
-        "Sovereign Financial Stress": "This pillar exhibits moderate pressure, influenced by the broader atmosphere of uncertainty. The observation \"Ceasefire On Paper, Tension Below: Fixed Income In An Uncertain Summer\" implies underlying market anxieties that could impact sovereign debt and financial stability, requiring careful observation.",
-        "Currency & Liquidity Pressure": "This pillar indicates routine monitoring, though global economic uncertainty warrants continued attention. Despite no immediate headlines signaling extreme pressure, the general geopolitical unease could lead to capital flight or currency volatility in emerging markets.",
-        "Sanctions & Regulatory Fragmentation": "This pillar shows moderate activity, driven by continued international political maneuvering. \"Iran vows legal action against US, Israel over war, seeks global accountability\" suggests ongoing legal and punitive engagements, while evolving alliances, like \"Canada, Europe to vow major backing for Ukraine as Trump ends U.S. support,\" could lead to further fragmentation.",
-        "Cyber & Infrastructure Threats": "This pillar is significantly elevated, reflecting persistent and evolving digital and physical security concerns. The \"US Heat Wave Pushes Power Demand To Record, Strains Grid Ahead Of July 4\" directly points to infrastructure vulnerability, compounded by the general awareness of digital risks, as highlighted by \"62 Blog Posts To Learn About Social Engineering.\"",
-        "Climate & Resource Shock": "This pillar currently indicates baseline activity, though long-term concerns persist. While \"Indonesia develops drought-resistant forage to counter El Nino\" shows proactive measures, the \"US Heat Wave Pushes Power Demand To Record\" suggests climate-driven events are already impacting critical infrastructure and resource demand."
+        "Geopolitical Conflict Intensity": "The score for this pillar is significantly elevated due to a high-severity event, specifically the \"Suicide Attack on Pakistan Coast Guard Camp in Balochistan; 30 Personnel Reportedly Killed,\" indicating active security threats. Despite this, a broader de-escalation is observed in the Middle East, with \"tensions ease in Middle East\" leading to the \"Delhi govt withdraws 2-day weekly work-from-home order.\"",
+        "Energy & Maritime Disruption": "Significant potential for disruption exists with the \"Vizhinjam row: Adani reiterates no breach; Kerala govt treads cautiously,\" which could impact a critical maritime port operation. However, broader energy market pressures are showing signs of easing as \"oil prices drop as Iran tension eases,\" offering some relief.",
+        "Trade & Supply Chain Stress": "This pillar faces pressure from potential maritime disruption linked to the \"Vizhinjam row,\" which could impede port functionality and trade flows. Furthermore, \"Goyal urges states to identify imported goods for domestic manufacturing\" indicates strategic efforts to reduce import dependency, reflecting underlying supply chain vulnerabilities.",
+        "Sovereign Financial Stress": "Government financial strategies are under scrutiny, as \"Andy Burnham urged to honour Labour's windfall tax vow as oil prices drop,\" indicating public and political pressure on revenue policies. Local financial disputes, while not directly sovereign, hint at economic pressures that could, at scale, impact broader financial health.",
+        "Currency & Liquidity Pressure": "This pillar exhibits baseline activity with no direct news indicating significant fluctuations or liquidity challenges within the provided feed. The broader easing of \"tensions ease in Middle East\" could contribute to a calmer environment for global financial markets, indirectly supporting currency stability.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory compliance and governance oversight remain a concern, highlighted by the \"West Midlands Police officer keeps job after gross misconduct data breach,\" questioning the rigor of enforcement. Additionally, \"Mayor alleges BMC LOP of entering her office, photographing official documents\" points to issues of local governance transparency and regulatory adherence.",
+        "Cyber & Infrastructure Threats": "This pillar is at an elevated level due to critical vulnerabilities, exemplified by \"India investigating Tata data leak that exposed Apple iPhone secrets,\" representing a significant cyber incident. Furthermore, \"Massive Tragedy Averted Amid Mumbai Rains As Huge Tree Collapses\" highlights ongoing infrastructure risks exacerbated by environmental factors.",
+        "Climate & Resource Shock": "Despite the overall low score for this pillar, recent events such as \"A climate event cancelled due to heat\" vividly illustrate immediate climate impacts and extreme weather conditions. While these are high-severity incidents, the long-term assessment for this pillar currently remains at a level suggesting routine monitoring."
     },
     "All_Alerts": [
         {
-            "title": "Saudi-led Coalition vows forceful response to Houthi escalation and regional threats",
+            "title": "Iran begins dayslong funeral for the late Supreme Leader Ayatollah Ali Khamenei",
             "severity": "HIGH",
-            "url": "https://gulfnews.com/world/gulf/saudi/saudi-led-coalition-vows-forceful-response-to-houthi-escalation-and-regional-threats-1.500596409",
-            "image": "https://media.assettype.com/gulfnews/import/2019/05/23/Turkialmaliki_16ae4635b23_large.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "url": "https://www.npr.org/2026/07/04/nx-s1-5882083/iran-funeral-ayatollah-ali-khamenei",
+            "image": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3200x2135+0+0/resize/3200x2135!/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F86%2F6f%2Fb80d9d2b4e0b8d021a50c913368f%2Fap26185163937406.jpg",
+            "source": "npr"
         },
         {
-            "title": "Diplomatic relations, right decisions: PM Modi outlines how India weathered Iran war",
+            "title": "Vizhinjam row: Adani reiterates no breach; Kerala govt treads cautiously, Centre's stand crucial",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/india/diplomatic-relations-right-decisions-pm-modi-outlines-how-india-weathered-iran-war/articleshow/132177637.cms",
-            "image": "https://img.etimg.com/thumb/msid-132177745,resizemode-4,width-1200,height-900,imgsize-40960,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://english.mathrubhumi.com/news/kerala/vizhinjam-row-adani-reiterates-no-breach-kerala-govt-treads-cautiously-centres-stand-crucial-am6bh161",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1s7quewxgmxim132dri/0/vizhinjam-1-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
         },
         {
-            "title": "US-Iran conflict: Massive turnout at Khamenei funeral; Netanyahu\u2013Trump meeting planned",
+            "title": "Mark O'Connell: A climate event cancelled due to heat. Is there a more lurid symbol of the climate crisis?",
             "severity": "HIGH",
-            "url": "https://gulfnews.com/world/mena/us-iran-conflict-massive-turnout-at-khamenei-funeral-netanyahutrump-meeting-planned-1.500596406",
-            "image": "https://media.assettype.com/gulfnews/2026-07-03/7ob1ai29/ANI_20260703214923.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "url": "https://www.irishtimes.com/opinion/2026/07/04/mark-oconnell-a-climate-event-cancelled-due-to-heat-is-there-a-more-lurid-symbol-of-the-climate-crisis/",
+            "image": "https://www.irishtimes.com/resizer/v2/7WG3CGCKVBD3PL6KJAP63BV4VM.jpg?auth=5aba2e3c43647eb049fa50e976ff001815f88883bf1babb86a9df67a398a3682&smart=true&width=630&height=350",
+            "source": "irishtimes"
         },
         {
-            "title": "Davao del Norte marks 4th year as insurgency-free province",
+            "title": "Andy Burnham urged to honour Labour's windfall tax vow as oil prices drop as Iran tension eases",
             "severity": "HIGH",
-            "url": "https://newsinfo.inquirer.net/2257353/davao-del-norte-marks-4th-year-as-insurgency-free-province",
-            "image": "https://newsinfo.inquirer.net/files/2026/07/Alvin-Luzon-04July2026.jpg",
-            "source": "inquirer"
+            "url": "https://www.scotsman.com/news/politics/andy-burnham-north-sea-oil-and-gas-windfall-tax-8777366",
+            "image": "https://www.scotsman.com/jpim-static/image/2026/07/01/17/18/GettyImages-2272272594.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+            "source": "scotsman"
         },
         {
-            "title": "Taiwan Detects 8 Chinese Aircraft, 10 Naval Vessels Near Its Coast",
+            "title": "Massive Tragedy Averted Amid Mumbai Rains As Huge Tree Collapses In Dada",
             "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/world/taiwan-detects-8-chinese-aircraft-10-naval-vessels-near-its-coast-articleshow-oygp5mt",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-79d72124-9b53-429f-8112-0cee1c9e7e7e.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Indonesia develops drought-resistant forage to counter El Nino",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/04/indonesia-develops-drought-resistant-forage-to-counter-el-nino",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/04/3991876.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "UK in talks with Pakistan over deportation of Rochdale grooming gang leader: report",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/2012747/uk-in-talks-with-pakistan-over-deportation-of-rochdale-grooming-gang-leader-report",
-            "image": "https://i.dawn.com/large/2026/07/0400160560a53b5.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "62 Blog Posts To Learn About Social Engineering",
-            "severity": "HIGH",
-            "url": "https://hackernoon.com/62-blog-posts-to-learn-about-social-engineering",
-            "image": "https://hackernoon.imgix.net/images/github/social-engineering-12.png",
-            "source": "hackernoon"
-        },
-        {
-            "title": "Iran vows legal action against US, Israel over war, seeks global accountability",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/iran-vows-legal-action-against-us-israel-over-war-seeks-global-accountability-article-13965772.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260614235047_pezeshkianiran.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "'Recharged' Klopp says he is 'ready' for Germany job as he confirms talks",
-            "severity": "MEDIUM",
-            "url": "https://www.tntsports.co.uk/football/world-cup/2026/jurgen-klopp-germany-julian-nagelsmann_sto23316042/story.shtml",
-            "image": "https://i.eurosport.com/2026/07/04/image-5f6215ba-f560-4aae-af92-24e92d8d6143-85-2560-1440.jpeg",
-            "source": "eurosport_com"
-        },
-        {
-            "title": "US Heat Wave Pushes Power Demand To Record, Strains Grid Ahead Of July 4",
-            "severity": "MEDIUM",
-            "url": "https://www.ndtvprofit.com/world/us-heat-wave-pushes-power-demand-to-record-strains-grid-ahead-of-july-4-11724966",
-            "image": "https://c.ndtvimg.com/2026-07/ubonjep_mn_625x300_04_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+            "url": "https://www.ndtvprofit.com/india/mumbai-rains-huge-tree-uproots-and-damages-minatai-flower-market-roof-in-dadar-video-11725306",
+            "image": "https://c.ndtvimg.com/2026-07/tds3n0n4_tree_625x300_04_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
             "source": "ndtv"
         },
         {
-            "title": "Ceasefire On Paper, Tension Below: Fixed Income In An Uncertain Summer",
-            "severity": "MEDIUM",
-            "url": "https://seekingalpha.com/article/4919778-ceasefire-on-paper-tension-below-fixed-income-uncertain-summer",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1326484875/image_1326484875.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "title": "India investigating Tata data leak that exposed Apple iPhone secrets",
+            "severity": "HIGH",
+            "url": "https://www.thehindu.com/sci-tech/technology/india-investigating-tata-data-leak-that-exposed-apple-iphone-secrets/article71181699.ece",
+            "image": "https://th-i.thgim.com/public/incoming/2eahkb/article71181703.ece/alternates/FREE_1200/2026-07-03T091910Z_1338878682_RC2J3MAT0C06_RTRMADP_3_TATA-ELECTRONICS-CYBERATTACK-APPLE.JPG",
+            "source": "thehindu"
         },
         {
-            "title": "'Minions vs Monsters' movie review: A despicably missed opportunity",
-            "severity": "MEDIUM",
-            "url": "https://www.deccanherald.com/entertainment/minions-vs-monsters-movie-review-a-despicably-missed-opportunity-4061400",
-            "image": "https://media.assettype.com/deccanherald/2026-07-04/r81219tb/file86k185jwhwj1ayn2mi9p.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Ayodhya Ram Temple probe widens as SIT examines trust finances since 2020",
-            "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/india-news/ayodhya-ram-temple-probe-widens-as-sit-examines-trust-finances-since-2020-101783127717912.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/04/1600x900/logo/SIT-arrives-at-the-Ram-temple-complex-in-Ayodhya-o_1783127768210_1783127778497_a495dc38-fc5d-48ce-88ab-d3a5e9e43583.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Reframing copyright for the AI age",
-            "severity": "MEDIUM",
-            "url": "https://www.deccanherald.com/opinion/reframing-copyright-for-the-ai-age-4061487",
-            "image": "https://media.assettype.com/deccanherald/2026-07-03/6joxgqfe/db53cfd5-f240-46a3-b900-cac2adf191d5.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Farewell Cape Verde - the underdogs the World Cup will never forget",
-            "severity": "WATCH",
-            "url": "https://www.bbc.co.uk/sport/football/articles/cqj1pd8lqw9o",
-            "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/d7b4/live/b7fee070-774c-11f1-8e4e-2dc6898b0152.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Why England Players Have Been Allowed To Take 'Viagra' Before World Cup Match",
-            "severity": "WATCH",
-            "url": "https://sports.ndtv.com/fifa-world-cup-2026/fifa-world-cup-2026-why-england-players-have-been-allowed-to-take-viagra-before-mexico-match-11724989",
-            "image": "https://c.ndtvimg.com/2026-07/orvr6rrc_bellingham-kane-getty_625x300_04_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
-        },
-        {
-            "title": "Canada, Europe to vow major backing for Ukraine at NATO summit as Trump ends U.S. support",
-            "severity": "WATCH",
-            "url": "https://nationalpost.com/news/canada-europe-ukraine-support",
-            "image": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/07/Volodymyr-Zelenskyy-1.jpg",
-            "source": "nationalpost"
-        },
-        {
-            "title": "10 Obscure Sci-Fi Shows That Became Cult Classics",
-            "severity": "WATCH",
-            "url": "https://collider.com/obscure-sci-fi-shows-became-cult-classics/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/dark-angel-jessice-alba-motorbike-1.jpeg?w=1600&h=900&fit=crop",
-            "source": "collider"
-        },
-        {
-            "title": "Singapore wants to help Timor-Leste contribute to Asean, not just benefit from it: PM Wong",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/04/singapore-wants-to-help-timor-leste-contribute-to-asean-not-just-benefit-from-it-pm-wong",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/04/3991874.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Donald Trump Tries to Troll Taylor Swift on Her Wedding Night, But She Parties on",
-            "severity": "WATCH",
-            "url": "https://www.hollywoodreporter.com/news/politics-news/donald-trump-instagram-taylor-swift-wedding-msg-1236637425/",
-            "image": "https://www.hollywoodreporter.com/wp-content/uploads/2026/07/GettyImages-2284227312-e1783134366845.jpg",
-            "source": "hollywoodreporter"
-        },
-        {
-            "title": "Nintendo's Fantasy Masterpiece Is Coming To Remind You Why It's the GOAT",
-            "severity": "WATCH",
-            "url": "https://collider.com/legend-of-zelda-ocarina-of-time-remake-nintendo-switch-2-greatest-all-time/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/the-legend-of-zelda-ocarina-of-time-remake-1.jpg?w=1600&h=900&fit=crop",
-            "source": "collider"
-        },
-        {
-            "title": "WATCH LIVE: Trump delivers speech from Mount Rushmore",
-            "severity": "WATCH",
-            "url": "https://www.rt.com/news/642566-trump-independence-day-speech/",
-            "image": "https://mf.b37mrtl.ru/files/2026.07/article/6a4877d8203027128742d3b3.jpg",
-            "source": "rt"
-        },
-        {
-            "title": "Iran prepares to bury supreme leader killed in strike with week of mass mourning - Fri, 03 Jul 2026 PST",
-            "severity": "WATCH",
-            "url": "http://www.spokesman.com/stories/2026/jul/03/iran-prepares-to-bury-slain-supreme-leader-with-we/",
-            "image": "https://thumb.spokesman.com/ifgmq9PG5G-vwm2gXQykWT9Ixnk=/2500x1405/smart/media.spokesman.com/photos/2026/07/03/6a48789f8bb0f.hires.jpg",
-            "source": "spokesman"
-        },
-        {
-            "title": "Tata Power withdraws Karnataka power distribution licence application after opposition from ESCOMs, government",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/tata-power-withdraws-karnataka-power-distribution-licence-application-after-opposition-from-escoms-government-13965804.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2024/10/20241009053714_Tata-power.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Buying a Manila condo? Now may be the best time as developers roll out bargains",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/business/property/buying-a-manila-condo-now-may-be-the-best-time-as-developers-roll-out-bargains-1.500595527",
-            "image": "https://media.assettype.com/gulfnews/2026-07-03/kvto50zq/Screenshot-2026-07-03-at-3.42.13-PM.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "Delhi Power Cut Today: BRPL Announces Scheduled Outages on July 4, Check Timings and Affected Areas",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/delhi/delhi-power-cut-today-brpl-announces-scheduled-outages-on-july-4-check-timings-and-affected-areas-article-154925817",
-            "image": "https://images.timesnownews.com/thumb/msid-154925978,thumbsize-878589,width-1280,height-720,resizemode-75/154925978.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "America at 250: A Renewed Partnership for Peace, Prosperity, and Democratic Strength",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/opinion/world/america-250-us-india-partnership-future-trump-modi-opinion-article-154924943",
-            "image": "https://images.timesnownews.com/thumb/msid-154925921,thumbsize-28026,width-1280,height-720,resizemode-75/154925921.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Mumbai Weather LATEST Update: IMD Issues Red Alert as Maharashtra Sees Widespread Downpour",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/gallery/india/mumbai-weather-latest-update-imd-issues-red-alert-as-maharashtra-sees-widespread-downpour-x9k4xru",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01kwf76qbqrqjnz14p35zpw9pf,imgname-mumbai-weather--10--1782922304887.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Petrol, Diesel & CNG Fresh Prices Announced: Check City-Wise Rates For July 4",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/business/economy/petrol-diesel-cng-fresh-prices-announced-check-city-wise-rates-for-july-4-ws-l-10189628.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/05/1780037231_1779198912_1778942618_1775056003_1774944443_1774942556_Petrol-Pump-Scam-2026-01-5ea20dcf9e36d209c7fdb6772e768f83-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "South Korea's Lee heads to NATO summit, Mongolia",
-            "severity": "WATCH",
-            "url": "https://www.upi.com/Top_News/World-News/2026/07/03/president-lee-jae-myung-visit-turkiye-mongolia/1671783132221/",
-            "image": "https://cdnph.upi.com/ph/st/th/1671783132221/2026/upi_com/5bf8d22b0ad5d191e8ebacd4c9703231/v1.5/South-Koreas-Lee-heads-to-NATO-summit-Mongolia.jpg",
-            "source": "upi"
-        },
-        {
-            "title": "Final Fantasy 6\u2019s Long Awaited Return Is Officially A Hit With Gamers",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/final-fantasy-6s-long-awaited-return-is-officially-a-hit-with-gamers/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/01/kefka-art-from-magic-the-gathering-final-fantasy-set.jpg?w=1600&h=900&fit=crop",
-            "source": "screenrant"
-        },
-        {
-            "title": "Arsenal news: Mikel Arteta eyes \u00a3165m double deal as reason for hijacked transfer emerges",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/sport/football/news/arsenal-transfer-news-rogers-konsa-37383057",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37209150.ece/ALTERNATES/s615/2_GettyImages-2278074272.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "WATCH: Brandi Carlile performs 'America the Beautiful' at the Statue of Liberty",
-            "severity": "WATCH",
-            "url": "https://abcnews.com/video/134458067/",
-            "image": "https://i.abcnewsfe.com/a/86068609-87dc-4d17-9850-43731911717b/260703_abc_dca_amerca_brandi_carlile_hpMain_16x9.jpg?w=992",
-            "source": "abcnews"
-        },
-        {
-            "title": "'Justice has prevailed': DMK MLA Radhakrishnan granted bail by court",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/justice-has-prevailed-dmk-mla-radhakrishnan-granted-bail-by-court-articleshow-ptis1rg",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-fea0161e-015c-4c75-b742-eced2e91bef6.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Leak at Montreal-area school board raises questions on secure storing of sensitive information",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/leak-montreal-area-school-board-003038302.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/9ab517453cf24842b881f898202702742ad96fd8963a30d8a16d8082279aaf3a/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcbc.ca%2F5661d273342db2a382f34c23c28c1342",
-            "source": "yahoo"
-        },
-        {
-            "title": "US Independence Day: How the American Revolution led to the making of the United States",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/explained/explained-history/us-independence-day-origins-legacy-10770196/",
-            "image": "https://images.indianexpress.com/2026/07/US-independence.jpg",
+            "title": "Mayor alleges BMC LOP of entering her office, photographing official documents",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/cities/mumbai/mayor-bmc-lop-office-photograph-official-documents-10770768/",
+            "image": "https://images.indianexpress.com/2026/07/ritu-tawde-and-kishori-pednekar.jpg",
             "source": "indianexpress"
         },
         {
-            "title": "TMC accuses Ritabrata Banerjee-led rebel faction of trespassing into Kolkata party headquarters, threatens legal action",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/india/tmc-accuses-ritabrata-banerjee-led-rebel-faction-of-trespassing-into-kolkata-party-headquarters-threatens-legal-action-13965778.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260703232620_ANI.jpg",
-            "source": "moneycontrol"
+            "title": "West Midlands Police officer keeps job after gross misconduct data breach",
+            "severity": "HIGH",
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/west-midlands-police-officer-keeps-34209150",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article34209149.ece/ALTERNATES/s615/1_JS377580489.jpg",
+            "source": "birminghammail"
         },
         {
-            "title": "Heavy monsoon rain batters Gujarat, Maharashtra; normal life disrupted",
+            "title": "BIG BREAKING: Suicide Attack on Pakistan Coast Guard Camp in Balochistan; 30 Personnel Reportedly Killed",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/videos/news/world-big-breaking-suicide-attack-on-pakistan-coast-guard-camp-in-balochistan-30-personnel-reportedly-killed-1854391",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/07/04/ae2984cb0ee1d7e1119a5cdeb91efe931783139200428963_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
+        },
+        {
+            "title": "Delhi govt withdraws 2-day weekly work-from-home order as tensions ease in Middle East",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-govt-withdraws-2-day-weekly-work-from-home-order-as-tensions-ease-in-middle-east/articleshow/132175123.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132175196/132175196.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "'E20 safe for all vehicles, can solve energy, farm woes': Toyota's Vikram Gulati",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/industry/renewables/e20-safe-for-all-vehicles-can-solve-energy-farm-woes-toyotas-vikram-gulati/articleshow/132175041.cms",
+            "image": "https://img.etimg.com/thumb/msid-132175195,resizemode-4,width-1200,height-900,imgsize-61654,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "'Honoured To Welcome My Friend': Australia's Anthony Albanese Ahead Of PM Modi's Visit On July 8",
+            "severity": "MEDIUM",
+            "url": "https://www.news18.com/world/honoured-to-welcome-my-friend-australias-anthony-albanese-ahead-of-pm-modis-visit-on-july-8-ws-l-10189787.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/07/albanese-modi-2026-07-525abc0e0f69c5b7b5c8ac05e8f1d82f-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Goyal urges states to identify imported goods for domestic manufacturing",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/small-biz/trade/exports/insights/goyal-urges-states-to-identify-imported-goods-for-domestic-manufacturing/articleshow/132175102.cms",
+            "image": "https://img.etimg.com/thumb/msid-132175119,resizemode-4,width-1200,height-900,imgsize-1092286,overlay-etrise/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Disputes Tribunal orders amateur tradesman to pay $6688 over faulty sleepout build",
+            "severity": "MEDIUM",
+            "url": "https://www.nzherald.co.nz/nz/disputes-tribunal-orders-amateur-tradesman-to-pay-6688-over-faulty-sleepout-build/6EKFXPGZLFELXPUPF5PNUCOCKE/",
+            "image": "https://www.nzherald.co.nz/resizer/v2/N5LK4DB5H5EG3IN357CVPDFCZE.jpg?auth=796974ed5f229aa6dfd74e11d0397d0a2b8f70e0a9aec26f75844614cb1647e0&smart=true&width=300&height=300",
+            "source": "nzherald"
+        },
+        {
+            "title": "Top nutritionist reveals 6 everyday foods that have more fibre than your salad. Simple swaps to boost gut health naturally",
             "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/heavymonsoonrainbattersgujaratmaharashtranormallifedisrupted-articleshow-7g8zl7d",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-4e3628f6-7fc9-49d2-9c5d-ff3bb085791c.jpg",
+            "url": "https://economictimes.indiatimes.com/magazines/panache/top-nutritionist-reveals-6-everyday-foods-that-have-more-fibre-than-your-salad-simple-swaps-to-boost-gut-health-naturally/articleshow/132175162.cms",
+            "image": "https://img.etimg.com/thumb/msid-132175159,resizemode-4,width-1200,height-900,imgsize-163896,overlay-etpanache/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "How Investors May Respond To Trane Technologies (TT) Leadership Shift And Asia Pacific Data Center Push",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/investors-may-respond-trane-technologies-050700054.html",
+            "image": "https://media.zenfs.com/en/simply_wall_st__316/fb5f83edb89324ffda4c2d2bfcb697d1",
+            "source": "yahoo"
+        },
+        {
+            "title": "Turbines turning from wind to sustainable products",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/turbines-turning-wind-sustainable-products-050652674.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/6c0462b815905b5d3ee234ae75adb90d3889e53a964f5d179a73ca0bae80631c/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2F3dc5073c5d314facdb3bcacdabaf6c7a",
+            "source": "yahoo"
+        },
+        {
+            "title": "England v Mexico: Thomas Tuchel handed blueprint as sim predicts penalty drama",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/entertainment/gaming/2225105/england-mexico-world-cup-simulated",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/143/590x/2225105_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "The Irish ancestry that helped to shape US history",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/irish-ancestry-helped-shape-us-050916122.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/9f700d5728dfd194cbba7383c698c7a8832e580a5c00421e2a4d20c4d98d4456/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2F12476264d3b8aaafe85e04f0f4da5f35",
+            "source": "yahoo"
+        },
+        {
+            "title": "Rescued at Entebbe 50 years ago, former child hostage feels her experience resonating today",
+            "severity": "WATCH",
+            "url": "https://www.timesofisrael.com/rescued-at-entebbe-50-years-ago-former-child-hostage-feels-her-experience-resonating-today/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2026/07/WhatsApp-Image-2026-06-28-at-4.18.53-PM.jpeg",
+            "source": "timesofisrael"
+        },
+        {
+            "title": "Rachel Reeves introduces new \u00a31 car tax fee to impact 680,000 drivers",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/life-style/cars/2225046/rachel-reeves-car-tax-vehicle-excise-duty",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/24/590x/2225046_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Millions gather in Iran for funeral of assassinated supreme leader",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-07-04/iran-state-funeral-for-ayatollah-ali-khamenei-in-tehran/106879786",
+            "image": "https://live-production.wcms.abc-cdn.net.au/37143aadaae7c782b3fc3e2fddf06234?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=97&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Why London Pride still matters: 6 LGBTQ+ icons share their stories",
+            "severity": "WATCH",
+            "url": "https://www.standard.co.uk/lifestyle/london-life/london-pride-tributes-history-b1288463.html",
+            "image": "https://static.standard.co.uk/2023/06/30/09/2022-07-02T111838Z_631148089_RC2N3V9286S7_RTRMADP_3_GAY-PRIDE-BRITAIN.JPG?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
+        },
+        {
+            "title": "Gold Rate Today, July 4: Check 18, 22 and 24 carat gold prices in Chennai, Mumbai, Delhi, Kolkata and other cities",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/india/gold-rate-today-july-4-check-18-22-and-24-carat-gold-prices-in-chennai-mumbai-delhi-kolkata-and-other-cities-10770786/",
+            "image": "https://images.indianexpress.com/2026/07/gold-rates-today-.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Cameco (TSX:CCO) Pauses Cigar Lake Output While Lifting Joint Venture Stake",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/cameco-tsx-cco-pauses-cigar-050732769.html",
+            "image": "https://media.zenfs.com/en/simply_wall_st__316/2b9502c1e8b43b98c337acbeb8af0e8e",
+            "source": "yahoo"
+        },
+        {
+            "title": "'It's a huge own goal': How steel tax could be 'catastrophic' for NI firms",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/huge-own-goal-steel-tax-050322818.html",
+            "image": "https://media.zenfs.com/en/bbc_us_articles_995/482ed7fee0bf27253fb39135c3b8a09a",
+            "source": "yahoo"
+        },
+        {
+            "title": "UK households urged to avoid 1 fridge mistake from Sunday",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/uk/2224358/uk-households-avoid-fridge-mistake-from-sunday",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/590x/2224358_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "To the United States of America: Happy 250th birthday. May you always be great",
+            "severity": "WATCH",
+            "url": "https://www.scotsman.com/news/opinion/columnists/to-the-united-states-of-america-happy-250th-birthday-may-you-always-be-great-8777234",
+            "image": "https://www.scotsman.com/jpim-static/image/2026/07/03/15/32/GettyImages-577071682.jpeg?width=1200&auto=webp&trim=21%2C0%2C21%2C0",
+            "source": "scotsman"
+        },
+        {
+            "title": "Britain has so many stories. The reason we fund the arts together is so we can tell them | James Graham",
+            "severity": "WATCH",
+            "url": "https://www.theguardian.com/commentisfree/2026/jul/04/britain-stories-arts-funding-dear-england-sherwood",
+            "image": "https://i.guim.co.uk/img/media/372c92038b5b3c1e884a6ab98849fe4708a726b2/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=b96f804acc5ca75ccc8686ae9bfa6408",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "Can you go to jail for flying a flag during the World Cup?",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/jail-flying-flag-during-world-051032792.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/e10ae8a2f1963c6b6f4fe0d9a8d75ca8839f99e7c9f05375bcd800ead582c4b2/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2Fd8da5ed98ab6eb276e5f219c76c9dea6",
+            "source": "yahoo"
+        },
+        {
+            "title": "The big mistakes Andy Burnham must avoid in his first 20 days as Prime Minister \u2013 Brian Wilson",
+            "severity": "WATCH",
+            "url": "https://www.scotsman.com/news/opinion/columnists/the-big-mistakes-andy-burnham-must-avoid-in-his-first-20-days-as-prime-minister-8776687",
+            "image": "https://www.scotsman.com/jpim-static/image/2026/07/03/12/04/GettyImages-2275904217.jpeg?width=1200&auto=webp&trim=0%2C2%2C0%2C1",
+            "source": "scotsman"
+        },
+        {
+            "title": "I tried this viral $70 e-reader and it helped me replace endless scrolling one page at a time",
+            "severity": "WATCH",
+            "url": "https://www.tomsguide.com/computing/e-readers/i-tried-this-viral-usd70-e-reader-and-it-helped-me-replace-endless-scrolling-one-page-at-a-time",
+            "image": "https://cdn.mos.cms.futurecdn.net/JutPM5WzeQEjZkSkC2LNwV-1280-80.jpg",
+            "source": "tomsguide"
+        },
+        {
+            "title": "DMK MLA granted bail in defamation case over remarks against Tamil Nadu CM Vijay",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/dmk-mla-granted-bail-in-defamation-case-over-remarks-against-tamil-nadu-cm-vijay-101783135947038.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/04/1600x900/logo/Vijay_Anita_1783069852018_1783069866596_02ace4bf-78bb-44c4-91e1-9e073b5410dc_1783136836817_197cb0d1-a23c-45e0-b1f7-bf1f1c057d54.png",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "DMK MLA granted bail, claims TVK pressured him to defect from party",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/india/dmk-mla-granted-bail-claims-tvk-pressured-him-to-defect-from-party-articleshow-lvinlfd",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-26d4279e-5398-49ea-ac2f-5b740c7da544.jpg",
             "source": "newsable_asianetnews"
         }
     ],
-    "Last_Updated": "2026-07-04T15:11:33.949822Z"
+    "Last_Updated": "2026-07-04T17:13:31.369632Z"
 }
