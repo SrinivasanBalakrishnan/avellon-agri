@@ -1,243 +1,273 @@
 {
-    "AGRI_Score": 57.3,
-    "Velocity": "0.0",
+    "AGRI_Score": 58.9,
+    "Velocity": "+1.6",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 58.9/100 reflects a moderately elevated risk environment, primarily driven by persistent geopolitical conflict intensity and significant energy and maritime disruptions. Heightened tensions from the Ukraine conflict, including accusations of 'terrorism' following \"drone strikes on oil terminals,\" underscore the ongoing direct threats to critical energy infrastructure. Concurrently, a \"cargo ship reports being under attack in the Red Sea off the coast of Yemen,\" signalling continued threats to vital maritime trade routes and exacerbating global supply chain stress.",
     "Pillar_Scores": {
         "Geopolitical Conflict Intensity": 74.9,
-        "Energy & Maritime Disruption": 49.8,
-        "Trade & Supply Chain Stress": 68.1,
-        "Sovereign Financial Stress": 55.0,
+        "Energy & Maritime Disruption": 59.7,
+        "Trade & Supply Chain Stress": 63.3,
+        "Sovereign Financial Stress": 54.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 62.2,
+        "Sanctions & Regulatory Fragmentation": 61.6,
+        "Cyber & Infrastructure Threats": 65.7,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical tensions remain acutely high, evidenced by continued hostilities in Ukraine where \"Kremlin accuses Kyiv of 'terrorism' after drone strikes on oil terminals.\" The broader strategic landscape is also concerning as \"America\u2019s battlefield dominance is under serious threat,\" indicating shifts in military power dynamics.",
+        "Energy & Maritime Disruption": "Maritime routes face significant disruption, with reports of a \"cargo ship reports being under attack in the Red Sea off the coast of Yemen,\" directly impacting global shipping safety. Energy infrastructure is also under threat, as \"drone strikes on oil terminals\" in the Ukraine conflict highlight vulnerability to supply.",
+        "Trade & Supply Chain Stress": "Global trade routes are experiencing heightened stress, particularly due to ongoing maritime security incidents like the reported \"cargo ship reports being under attack in the Red Sea off the coast of Yemen.\" These disruptions, coupled with broader geopolitical instability, contribute to concerns about supply chain reliability and delivery timelines.",
+        "Sovereign Financial Stress": "Sovereign financial stress warrants monitoring, particularly in light of general market volatility indicated by \"Markets After the Oil Shock.\" While no immediate sovereign defaults are reported, the economic repercussions of ongoing geopolitical and energy disruptions could impact national fiscal health.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at baseline activity, though global market volatility, referenced by \"Markets After the Oil Shock,\" suggests a need for continued observation. Disruptions to energy markets have the potential to indirectly influence currency valuations and liquidity conditions in various economies.",
+        "Sanctions & Regulatory Fragmentation": "The environment for sanctions and regulatory fragmentation remains complex due to ongoing geopolitical conflicts, particularly those related to the Ukraine war where \"Trump offered to help 'find solutions'.\" This persistent geopolitical tension indicates that sanctions regimes are unlikely to ease and may continue to evolve, creating regulatory hurdles.",
+        "Cyber & Infrastructure Threats": "Threats to critical infrastructure are elevated, exemplified by \"drone strikes on oil terminals,\" indicating direct physical and potentially cyber-physical attack vectors. Global events also showcase significant investment in security, with \"The World Cup added $1 billion in security systems,\" reflecting a heightened awareness of cyber and physical protection needs.",
+        "Climate & Resource Shock": "Climate and resource shocks warrant routine monitoring, with localized issues such as \"Bengaluru swimming pools and car washes face fines for using drinking water\" highlighting regional water scarcity concerns. While the overall global impact is not systemically high in this feed, specific regional resource management challenges are evident."
+    },
     "All_Alerts": [
         {
-            "title": "Senior Iranian officials back in public eye at funeral of former leader Khamenei",
+            "title": "Trump offered to help 'find solutions' to end Ukraine war in 90-minute phone call with Putin - as Kremlin accuses Kyiv of 'terrorism' after drone strikes on oil terminals",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/senior-iranian-officials-back-public-071540517.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/b40cc1a666f7662e2e366ba56b5630b7d5bfb665cebbeb3a48c740a82c8543e5/lightyear_networkapi/resizefill_w640_h427;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fpa_viral_news_704%2Fdd8c1eb10a0964a2b9434d87971d58ed",
+            "url": "https://www.dailymail.com/news/article-15954001/Trump-offered-solutions-Ukraine-war-phone.html",
+            "image": "https://i.dailymail.com/1s/2026/07/05/09/109804593-0-image-m-12_1783240403083.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "America\u2019s battlefield dominance is under serious threat",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/defence/americas-battlefield-dominance-is-under-serious-threat/articleshow/132193035.cms",
+            "image": "https://img.etimg.com/thumb/msid-132193246,resizemode-4,width-1200,height-900,imgsize-173658,overlay-etdefence/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "British military says cargo ship reports being under attack in the Red Sea off the coast of Yemen",
+            "severity": "HIGH",
+            "url": "https://www.seattletimes.com/nation-world/british-military-says-cargo-ship-reports-being-under-attack-in-the-red-sea-off-the-coast-of-yemen/",
+            "image": "https://images.pexels.com/photos/972942/pexels-photo-972942.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "seattletimes"
+        },
+        {
+            "title": "Prince George issued crucial warning by his godfather ahead of Eton start date",
+            "severity": "HIGH",
+            "url": "https://www.hellomagazine.com/royalty/911024/prince-george-godfather-reveals-what-eton-really-like/",
+            "image": "https://images.hellomagazine.com/horizon/landscape/51f778fdc7a9-prince-george-trooping-the-colour.jpg",
+            "source": "hellomagazine"
+        },
+        {
+            "title": "Bengaluru swimming pools and car washes face fines for using drinking water",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/cities/bangalore/bengaluru-water-restrictions-bwssb-drinking-water-ban-swimming-pools-10772290/",
+            "image": "https://images.indianexpress.com/2021/07/reopening-2.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "9/11 Museum CEO reflects on lasting impact of terror attacks as America marks 250th birthday",
+            "severity": "HIGH",
+            "url": "https://www.foxnews.com/politics/9-11-museum-ceo-reflects-lasting-impact-terror-attacks-america-marks-250th-birthday",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/World-Trade-Center.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Shubenacadie residents 'pleased' to see cenotaph back in its original location",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/shubenacadie-residents-pleased-see-cenotaph-090000116.html",
+            "image": "https://media.zenfs.com/en/cbc.ca/e134be4c51953622b216681067ff1904",
             "source": "yahoo"
         },
         {
-            "title": "Drought tightens grip across Indonesia",
+            "title": "17 maritime job aspirants duped of Rs 41 lakh in Navi Mumbai; 2 fraudsters held",
             "severity": "HIGH",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/05/drought-tightens-grip-across-indonesia",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/05/3993295.jpg",
-            "source": "thestar_my"
+            "url": "https://www.deccanherald.com/india/maharashtra/17-maritime-job-aspirants-duped-of-rs-41-lakh-in-navi-mumbai-2-fraudsters-held-4062702",
+            "image": "https://media.assettype.com/deccanherald/2026-07-05/e5dgep6m/ChatGPT-Image-Jul-5-2026-021617-PM.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Why Crimea has become so important in the Ukraine conflict",
+            "title": "The World Cup added $1 billion in security systems. What happens after the games end?",
             "severity": "HIGH",
-            "url": "https://www.irishtimes.com/world/europe/2026/07/05/why-crimea-has-become-so-important-in-the-ukraine-conflict/",
-            "image": "https://www.irishtimes.com/resizer/v2/2QLCDMRNA2TQURIOSHJVMRGVFQ.jpg?auth=496a844eb41b5ce60644c103676d20d771fe76f14d2f33161a59de5b76ec745c&smart=true&width=630&height=350",
-            "source": "irishtimes"
+            "url": "https://www.fastcompany.com/91567578/world-cup-us-surveillance-security-systems",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-91567578-security-and-surveillance-at-the-world-cup.jpg",
+            "source": "fastcompany"
         },
         {
-            "title": "Iran-US war latest: Trump says just \u2018one shot\u2019 can take out all Iranian leaders as thousands gather at Ali Khamenei\u2019s funeral",
+            "title": "World Cup 2026: Mexico squad return watches gifted by content creator Stevewilldoit - BBC",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/world/middle-east/khamenei-funeral-iran-trump-one-shot-b3009130.html",
-            "image": "https://images.pexels.com/photos/14766055/pexels-photo-14766055.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "independentuk"
+            "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1dFhoXzBOTG15QjJMRi1Ba2ZCUW9HOUVBM1puM0ZQbnhRaUhxQ015YTV3cmRVLWxDVTMyb2F4QjlhcVpnS1lwUkdlRThXMDExeEdFY1h2LW5XbU5TdW9ObE9YMF82T3ZfNFE?oc=5",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
             "title": "Mexico Release Statement After Players Breach FIFA Rules Before England Game - GiveMeSport",
             "severity": "HIGH",
             "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS280b2I0V29kZUk4MFNEUlVHT2FhR0xRb21vQklGNEhycnFnUDNBa2k0RHhJTW5KWUdra0wxTUNYYVZlNGxtTUpXOU1XUFhDcUpPaFMweWlIbUpyV05tNE93b3dNOUxWUFFhNUg2TWtudFMwRTZlRmJpVkN5QlN1YVVVX2UyU2J3UTBvMmk0UTVxZw?oc=5",
-            "image": "https://images.pexels.com/photos/23913923/pexels-photo-23913923.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "image": "https://images.pexels.com/photos/16574945/pexels-photo-16574945.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "FIFA 2026: World Cup propels surveillance to new heights",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/sports/football/fifa-2026-world-cup-propels-surveillance-to-new-heights/articleshow/132191871.cms",
-            "image": "https://img.etimg.com/thumb/msid-132191915,resizemode-4,width-1200,height-900,imgsize-257508,overlay-economictimes/articleshow.jpg",
+            "title": "AADK tightens monitoring as synthetic drug abuse hits 83% nationwide",
+            "severity": "MEDIUM",
+            "url": "https://www.thestar.com.my/news/nation/2026/07/05/aadk-tightens-monitoring-as-synthetic-drug-abuse-hits-83-nationwide",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/05/3993462.png",
+            "source": "thestar_my"
+        },
+        {
+            "title": "India to host two-day BRICS anti-drug agencies meet in Guwahati from June 6",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/india/india-to-host-two-day-brics-anti-drug-agencies-meet-in-guwahati-from-june-6/articleshow/132193207.cms",
+            "image": "https://img.etimg.com/thumb/msid-132193211,resizemode-4,width-1200,height-900,imgsize-101354,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Jail for youths who breach bail under tough new laws",
-            "severity": "HIGH",
-            "url": "https://au.news.yahoo.com/jail-youths-breach-bail-under-055727377.html",
-            "image": "https://media.zenfs.com/en/aap.com.au/f6b39787c45a5345271c539c74b7b49b",
-            "source": "yahoo"
-        },
-        {
-            "title": "El Nino impact in sight even as top FMCG firms bet on rising India consumption",
+            "title": "New Jersey coastal city clashes over proposal to transform amusement park into luxury hotel",
             "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/el-nino-impact-in-sight-even-as-top-fmcg-firms-bet-on-rising-indian-consumption/articleshow/132192095.cms",
-            "image": "https://img.etimg.com/thumb/msid-132192333,resizemode-4,width-1200,height-900,imgsize-165644,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "'No Greeks were actually used in the making of this film': Fans troll \u2018The Odyssey\u2019 trailer",
-            "severity": "MEDIUM",
-            "url": "https://english.mathrubhumi.com/movies-music/news/christopher-nolan-the-odyssey-trailer-dislikes-fans-react-casting-helen-of-troy-dialogue-costumes-july-2026-release-qx5zdtoc",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1s8m3hdld29lgkm57xp/0/theodyssey-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
-        },
-        {
-            "title": "Monsoon rainfall deficit fears: Bengaluru bans use of drinking water for washing cars, watering gardens, filling pools",
-            "severity": "MEDIUM",
-            "url": "https://www.businesstoday.in/india/story/monsoon-rainfall-deficit-fears-bengaluru-bans-use-of-drinking-water-for-washing-cars-watering-gardens-filling-pools-541033-2026-07-05",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202607/6a4a03dbc3b6f-bengaluru-restricts-drinking-water-use-for-cars--gardens-and-swimming-pools-051222650-16x9.png?size=1280:720",
-            "source": "businesstoday"
-        },
-        {
-            "title": "E20 Ethanol Blending Programme Is A Well-Planned, Multi-Year Initiative Involving All Stakeholders: Former BPCL Official",
-            "severity": "WATCH",
-            "url": "https://ommcomnews.com/business-news/e20-ethanol-blending-programme-is-a-well-planned-multi-year-initiative-involving-all-stakeholders-former-bpcl-official/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/07/11-1.jpg",
-            "source": "ommcomnews"
-        },
-        {
-            "title": "Netherlands has a floating solar farm where scientists found hundreds of fish and thousands of aquatic creatures living beneath the panels",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/science/netherlands-has-a-floating-solar-farm-where-scientists-found-hundreds-of-fish-and-thousands-of-aquatic-creatures-living-beneath-the-panels/articleshow/132192317.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132192321/132192321.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Taylor Swift and Travis Kelce's wedding guests share heartfelt moments from the intimate Madison Square Garden celebration",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/entertainment/english/music/news/taylor-swift-and-travis-kelces-wedding-guests-share-heartfelt-moments-from-the-intimate-madison-square-garden-celebration/articleshow/132192197.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132192239/132192239.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Can Your Thyroid Be The Hidden Reason Behind Low Sex Drive?",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/lifestyle/health-and-fitness/can-your-thyroid-be-the-hidden-reason-behind-low-sex-drive-ws-e-10191296.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/07/image-2026-07-a6056b7f8502183c10fdf539207bf065-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Spain has an island where people speak entirely through whistles, full sentences travel across kilometres of mountain valleys, and every child still learns the language in school",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/rest-of-world/spain-has-an-island-where-people-speak-entirely-through-whistles-full-sentences-travel-across-kilometres-of-mountain-valleys-and-every-child-still-learns-the-language-in-school/articleshow/132192295.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132192300/132192300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Examining the challenges Belgium presents for USMNT",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/07/05/sports/examining-the-challenges-belgium-presents-for-usmnt/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2FTyler-Adams.jpg?w%3D1024",
+            "url": "https://nypost.com/2026/07/05/us-news/new-jersey-coastal-city-clashes-over-proposal-to-turn-gillians-wonderland-pier-into-luxury-hotel/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2024%2F10%2Fpeople-wait-line-board-rides-91568362.jpg?w%3D1024",
             "source": "nypost"
         },
         {
-            "title": "Germany\u2019s far-Right AfD makes \u2018remigration\u2019 sexy",
+            "title": "Tesla's $1.4 trillion valuation rests on what happens next in one city",
             "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/germany-far-afd-makes-remigration-071735542.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/f5a6a48276b3a4f20d7ce0059f36875c44e9a99444b68cb8052310620633b6a4/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2Fdef161da3c72bb30ca30920ff9c50027",
-            "source": "yahoo"
+            "url": "https://www.thestreet.com/automotive/teslas-1-4-trillion-valuation-rests-on-what-happens-next-in-one-city",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTAyNTQ4/billionaire-elon-musk-at-the-samson-international-smart-mobility-summit.jpg?profile=rss",
+            "source": "thestreet"
         },
         {
-            "title": "China, Russia navies to hold drills off China coast",
+            "title": "Man compares Chennai with Hyderabad, says city feels 'more grounded' than before",
             "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/china-russia-navies-hold-drills-071720986.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/298416819d4d02ea939c9b880856cb50c621326cc6ce431bb07f5ae1851c2c92/lightyear_networkapi/resizefill_w800_h490;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F0abf1d428a2cec664a0fdae10e2aaf6e",
-            "source": "yahoo"
-        },
-        {
-            "title": "Macy's Fourth of July fireworks: Stunning videos show skies light up as America celebrates 250th birthday | Watch",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/macys-fourth-of-july-fireworks-stunning-videos-show-skies-light-up-as-america-celebrates-250th-birthday-watch-101783235694733.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/05/1600x900/logo/US-CELEBRATION-TRADITION-INDEPENDENCE-FIREWORKS-23_1783236145803_1783236161446_77c7b187-4304-4f78-b982-dd6f2f1bf040.jpg",
+            "url": "https://www.hindustantimes.com/trending/man-compares-chennai-with-hyderabad-says-city-feels-more-grounded-than-before-101783238130757.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/05/1600x900/logo/Untitled_design_1783240731691_1783240735632_7a53311a-9bf8-46d0-a3bb-b2e16b242458.png",
             "source": "hindustantimes"
         },
         {
-            "title": "No Mojtaba at Ali Khamenei's funeral: Three other sons make appearance but new Supreme Leader not seen",
+            "title": "Markets After the Oil Shock - Robin J Brooks | Substack",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/world-news/no-mojtaba-at-ali-khameneis-funeral-three-other-sons-make-appearance-but-new-supreme-leader-not-seen-101783235657363.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/05/1600x900/logo/Iran-Khamenei-Funeral-107_1783236128310_1783236138464_9d0b2e0b-c60f-4a7c-afd7-8ade5dc29de8.jpg",
-            "source": "hindustantimes"
+            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ULXVxMDdJNmlDaXF1Tk91OTdPRkcxUzZzSk9abHlGTlRhQTVQVmdUQkNZcmdjYnhhdlBvZW9yOXlVdTlJb3hhMjY5SUlkd3pMYjZWbC1XbUNDOVNOM3hZTGg2SHJHVVBrSXhSOHpMYm0?oc=5",
+            "image": "https://images.pexels.com/photos/209743/pexels-photo-209743.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Ex-Indian foreign intel. chief: Russia, China, and India acting together would be a formidable bloc",
+            "title": "Debating Paraguay's tactics against France: Disgraceful or their best way to win?",
             "severity": "WATCH",
-            "url": "https://www.rt.com/podcast/642543-vikram-sood-india-russia-bloc/",
-            "image": "https://mf.b37mrtl.ru/files/2026.07/article/6a47b11585f54052797713dd.png",
-            "source": "rt"
+            "url": "https://www.nytimes.com/athletic/7422674/2026/07/05/paraguay-france-tactics-cheating-commitment-debate/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/07/05013120/GettyImages-2284678248-scaled-e1783229916145.jpg",
+            "source": "theathleticuk"
         },
         {
-            "title": "Trump \u2018offers to be peacemaker during 90-minute call with Putin\u2019",
+            "title": "Rath Yatra: Odisha's Energy Dept completes all preparations for annual Rath Yatra",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/bulletin/news/ukraine-russia-war-trump-putin-call-b3009135.html",
-            "image": "https://static.independent.co.uk/2026/05/13/04/2229628233.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "NATO chief faces challenge at summit as Trump demands \u2018loyalty\u2019 and not just burden-sharing",
-            "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/07/05/world/nato-chief-faces-challenge-at-summit-as-trump-demands-loyalty/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/5NQFAKDOJ7EEKY2DOBMUNXIZJA.jpg?auth=727fd0fab2178576425463e8946e290316c906ec590d4884c0ee0ef2ea3e4541&smart=true&width=5545&height=3697",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "On eve of impeachment, Sara prays for father's return from Hague",
-            "severity": "WATCH",
-            "url": "https://cebudailynews.inquirer.net/744349/on-eve-of-impeachment-sara-prays-for-fathers-return-from-hague",
-            "image": "https://cebudailynews.inquirer.net/files/2026/07/vp-2048x1536-1-620x465.jpeg",
-            "source": "inquirer"
-        },
-        {
-            "title": "'Why is Trump still alive?': Performer calls for US President's death at Khamenei funeral",
-            "severity": "WATCH",
-            "url": "https://www.firstpost.com/world/why-is-trump-still-alive-performer-calls-for-us-presidents-death-at-khamenei-funeral-14028995.html",
-            "image": "https://images.firstpost.com/uploads/2026/07/AP26185625874171-2026-07-b6389fb501a489b9ee81fffa5bd33ec1.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Agriculture activity picked up in Vizianagaram district with the incessant rains for the last three days",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/andhra-pradesh/agriculture-activity-picked-up-in-vizianagaram-district-with-the-incessant-rains-for-the-last-three-days/article71185099.ece",
-            "image": "https://th-i.thgim.com/public/incoming/gyzpzg/article71185311.ece/alternates/FREE_1200/iStock-1630729339%202.jpg",
-            "source": "thehindu"
-        },
-        {
-            "title": "Buy Lodha Developers, Aditya Birla Real Estate; organised players to benefit from housing market consolidation: Siddhartha Khemka",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/buy-lodha-developers-aditya-birla-real-estate-organised-players-to-benefit-from-housing-market-consolidation-siddhartha-khemka/articleshow/132192263.cms",
-            "image": "https://img.etimg.com/thumb/msid-132192255,resizemode-4,width-1200,height-900,imgsize-117036,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Red Alert In Mumbai Amid Heavy Rain, Civic Body Urges People To Stay Indoors",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/india-news/imd-weather-forecast-mumbai-rain-red-alert-in-mumbai-amid-heavy-rain-civic-body-urges-people-to-stay-indoors-11729178",
-            "image": "https://c.ndtvimg.com/2026-07/70rit8a8_mumbai-rain-pti_625x300_04_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
-        },
-        {
-            "title": "Ayatollah Khamenei's funeral: How India balanced strategic interests amid global pressure",
-            "severity": "WATCH",
-            "url": "https://www.firstpost.com/opinion/ayatollah-khameneis-funeral-how-india-balanced-strategic-interests-amid-global-pressure-14028998.html",
-            "image": "https://images.firstpost.com/uploads/2026/07/funeral3-2026-07-3611893de6431983120bfaf307245159.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "India enters new semiconductor era with CG SEMI's Gujarat plant start",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/business/indias-new-semiconductor-era-begins-with-gujarat-plant-production-articleshow-huf7vrb",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-4872f983-2c86-43fe-b6d2-2b7235df5565.jpg",
+            "url": "https://newsable.asianetnews.com/india/rathyatraodishasenergydeptcompletesallpreparationsforannualrathyatra-articleshow-glao47v",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-5fec6d98-fb7b-4035-8a52-795dca42a1d7.jpg",
             "source": "newsable_asianetnews"
         },
         {
-            "title": "Pakistani forces open fire on protest rally as massive anti-Islamabad uprising grips PoJK",
+            "title": "Paraguay's gameplan one for the neutrals - or not? Ranking every match at the 2026 World Cup",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/pakistani-forces-open-fire-on-protest-rally-as-massive-anti-islamabad-uprising-grips-pojk/articleshow/132195732.cms",
-            "image": "https://img.etimg.com/thumb/msid-132195782,resizemode-4,width-1200,height-900,imgsize-110656,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.nytimes.com/athletic/7370101/2026/07/05/world-cup-2026-matches-ranked/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/07/05053741/GettyImages-2284699512.jpg",
+            "source": "theathleticuk"
         },
         {
-            "title": "Middle East oil output to normalise in weeks as UAE hits record high",
+            "title": "12 essential Atlanta cocktail bars you need to try",
             "severity": "WATCH",
-            "url": "https://www.khaleejtimes.com/business/energy/middle-east-oil-output-to-normalise-in-weeks-as-uae-hits-record-high",
-            "image": "https://imgengine.khaleejtimes.com/khaleejtimes/import/images/c859965a-6330-4276-b10d-829cbfc48fcb-org.jpg",
-            "source": "khaleejtimes"
+            "url": "https://www.ajc.com/food-and-dining/2026/07/12-essential-atlanta-cocktail-bars-you-need-to-try/",
+            "image": "https://images.ajc.com/resizer/v2/KDEMADV5RFEM5OXVVWXVK6TZOA.jpeg?auth=bda6b667e80e0f9cb8046d1f6bcf5fdfc4314235027fb6027b3c91766bd50c28&smart=true&width=640&height=428",
+            "source": "ajc"
+        },
+        {
+            "title": "As AI data centres proliferate, municipalities are struggling to figure out where they fit. Here\u2019s why",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/toronto/article/as-ai-data-centres-proliferate-municipalities-are-struggling-to-figure-out-where-they-fit-heres-why/",
+            "image": "https://www.ctvnews.ca/resizer/v2/I5BADVMUBRG4ZC6UOXVBF3COYM.jpg?auth=f4116ea2e0e237bc5311cffa39482511771d5b11f18fbc0c4e9be573a492b566&smart=true&width=5241&height=3494",
+            "source": "ctvnews"
+        },
+        {
+            "title": "J.D. PicKell defends Texas A&M as fans complain about NIL spending",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/j-d-pickell-defends-texas-090700913.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/9CAkHi_ZwszS0WUQLC7bXg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNzg4O2NmPXdlYnA-/https://media.zenfs.com/en/aggies_wire_usa_today_articles_632/e8ee3efdcd00fc6ca5c2c4fef25e3266",
+            "source": "yahoo"
+        },
+        {
+            "title": "Our teens are using AI chatbots daily. It's our fault. | Opinion",
+            "severity": "WATCH",
+            "url": "https://ca.style.yahoo.com/teens-using-ai-chatbots-daily-090503421.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/m8znB40Ji_Sdd12jKRofDQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMjY2O2NmPXdlYnA-/https://media.zenfs.com/en/usa_today_opinion_532/fd842dd5c83fb6fb15c7d77d09b3e65c",
+            "source": "yahoo"
+        },
+        {
+            "title": "'I'm not in love with Israel, but give me another solution': Lebanon's Aoun defends peace framework",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/middle-east/article-901432",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/722573",
+            "source": "jpost"
+        },
+        {
+            "title": "UPSC Ethics Simplified | How to decode ethical quotes in Mains exam: An example",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-ethics-how-to-decode-philosophical-quotes-aristotle-10772200/",
+            "image": "https://images.indianexpress.com/2026/07/How-to-decode-ethical-quotes-in-UPSC-exam.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "The 20 highest-paying jobs in America? Doctors, doctors, more doctors.",
+            "severity": "WATCH",
+            "url": "https://www.usatoday.com/story/money/personalfinance/2026/07/05/highest-paying-jobs-doctors-salary/90753715007/",
+            "image": "https://www.usatoday.com/gcdn/presto/2022/06/05/NTEG/084632f2-8f8a-4425-8edb-643ce06dc0eb-LOC_Umass_grad_13.JPG?crop=6191,3483,x0,y314&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "usatoday"
+        },
+        {
+            "title": "Planting of Arabica seedlings to boost coffee production project",
+            "severity": "WATCH",
+            "url": "https://newsinfo.inquirer.net/2257884/planting-of-arabica-seedlings-to-boost-coffee-production-project",
+            "image": "https://newsinfo.inquirer.net/files/2026/07/Arabica-coffee-5July2026-scaled.png",
+            "source": "inquirer"
+        },
+        {
+            "title": "In 250 Years of U.S. Housing, We Are Now Living in Unprecedented Times",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/in-250-years-of-u-s-housing-we-are-now-living-in-unprecedented-times-12144555",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/07/Copy-of-32-circle-inset-right-3.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Who are best UCF football players of last 30 years? Here\u2019s our 105-man roster",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/best-ucf-football-players-last-090251160.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/fbxY_EdZkwMSXXz5z3smLA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwNDg7aD0xNjgwO2NmPXdlYnA-/https://media.zenfs.com/en/daytona-beach-news-journal/e6b5d2ab032dc3641110805faa9067c0",
+            "source": "yahoo"
+        },
+        {
+            "title": "America's 250th celebration in nation's capital boosted by iconic automaker's 2-week tribute to innovation",
+            "severity": "WATCH",
+            "url": "https://www.foxnews.com/politics/americas-250th-celebration-nations-capital-boosted-iconic-automakers-2-week-tribute-innovation",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/Ford-Union-Station-1.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Scandalous musical \u2018The Wild Party\u2019 is swan song for CT theater co-founder",
+            "severity": "WATCH",
+            "url": "https://www.courant.com/2026/07/05/scandalous-musical-the-wild-party-is-swan-song-for-ct-theater-co-founder/",
+            "image": "https://www.courant.com/wp-content/uploads/2026/07/THC-L-wild-party-playhouse-1.jpg?w=1400px&strip=all",
+            "source": "courant"
+        },
+        {
+            "title": "\u2018We have no stake in it\u2019: Pakistan refuses to take back grooming gang leader Shabir Ahmed as UK seeks deportation",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/world/uk/we-have-no-stake-in-it-pakistan-refuses-to-take-back-grooming-gang-leader-shabir-ahmed-as-uk-seeks-deportation/articleshow/132193218.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132193237/132193237.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "\u2018My neighbour turned their home into an Airbnb - and I\u2019m furious\u2019",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/news/uk-news/my-neighbour-turned-home-airbnb-37377911",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37378081.ece/ALTERNATES/s615/0_ChatGPT-Image-Jul-2-2026-01_03_37-PM.png",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Aston Villa Champions League player restriction clarified by UEFA after huge fine",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/sport/football/football-news/aston-villa-champions-league-player-34238882",
+            "image": "https://i2-prod.football.london/incoming/article34214245.ece/ALTERNATES/s615/0_Chelsea-v-Barcelona-UEFA-Champions-League-League-Phase-Stamford-Bridge.jpg",
+            "source": "birminghammail"
         },
         {
             "title": "Etihad Rail sets fines of up to Dh10,000 for various passenger violations: See the list",
@@ -252,28 +282,7 @@
             "url": "https://www.khaleejtimes.com/world/asia/india-meta-remove-instagram-ads-child-sex-abuse-content",
             "image": "https://imgengine.khaleejtimes.com/khaleejtimes/import/images/8ed35625-6b59-4d5b-842c-c89102839c32-org.jpg",
             "source": "khaleejtimes"
-        },
-        {
-            "title": "Advocate Calls For Inquiry After Alleged Question Repetition In UGC NET 2026 English Paper",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/education/advocate-calls-for-independent-inquiry-after-alleged-question-repetition-in-ugc-net-2026-english-paper-11729114",
-            "image": "https://c.ndtvimg.com/2026-07/li0n8ko_ugc-net_625x300_05_July_26.jpeg",
-            "source": "ndtv"
-        },
-        {
-            "title": "17 maritime job aspirants duped of Rs 41 lakh in Navi Mumbai; 2 fraudsters held",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/agency-feeds/17-maritime-job-aspirants-duped-of-rs-41-lakh-in-navi-mumbai-2-fraudsters-held-10191218.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "\u00a32m plans for 200 more places at Wolverhampton schools - including one \u2018popular\u2019 choice for parents",
-            "severity": "WATCH",
-            "url": "https://www.birminghammail.co.uk/black-country/2m-plans-200-more-places-34232866",
-            "image": "https://i2-prod.birminghammail.co.uk/incoming/article34232871.ece/ALTERNATES/s615/0_Screenshot-2026-07-03-144034.png",
-            "source": "birminghammail"
         }
     ],
-    "Last_Updated": "2026-07-05T19:26:20.860218Z"
+    "Last_Updated": "2026-07-05T21:08:34.679329Z"
 }
