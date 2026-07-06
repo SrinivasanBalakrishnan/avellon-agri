@@ -1,260 +1,309 @@
 {
-    "AGRI_Score": 59.1,
-    "Velocity": "+1.1",
+    "AGRI_Score": 58.3,
+    "Velocity": "-0.8",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.1/100 reflects an elevated risk environment predominantly driven by heightened geopolitical tensions and significant military buildup. The 'IDF plans massive NIS 130 billion buildup' indicates a substantial escalation in defense spending and potential for future regional instability. This core driver, combined with persistent 'Russian hackers steal government logins' impacting cyber security and anticipated shifts in global regulatory frameworks, maintains a cautious outlook. While 'Oil prices hover near pre-conflict levels as OPEC+ boosts output again' offers some mitigation in energy markets, the underlying geopolitical friction remains the primary concern for the overall index.",
+    "AI_Brief": "The current AGRI score of 58.3 reflects a moderately elevated risk environment, primarily driven by persistent geopolitical instability and related security threats. \"Geopolitical Conflict Intensity\" remains significantly high, fueled by the ongoing \"Mideast war\" and repeated aggression such as \"Russia has attacked the United Kingdom \u2013 again.\" This high-tension environment directly contributes to elevated \"Cyber & Infrastructure Threats\" and \"Sanctions & Regulatory Fragmentation,\" propagating risk across interconnected global systems.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 84.0,
-        "Energy & Maritime Disruption": 57.1,
-        "Trade & Supply Chain Stress": 66.9,
+        "Geopolitical Conflict Intensity": 75.2,
+        "Energy & Maritime Disruption": 52.1,
+        "Trade & Supply Chain Stress": 60.2,
         "Sovereign Financial Stress": 54.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 59.7,
-        "Cyber & Infrastructure Threats": 53.2,
-        "Climate & Resource Shock": 35
+        "Sanctions & Regulatory Fragmentation": 62.4,
+        "Cyber & Infrastructure Threats": 60.5,
+        "Climate & Resource Shock": 45
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is critically high due to significant military expansions and ongoing security incidents. The 'IDF plans massive NIS 130 billion buildup, including aircraft, munition factories' signals a substantial increase in military capabilities and regional readiness. Furthermore, the 'US Navy calls off search for missing sailor following helicopter crash in Arabian Sea' highlights persistent operational risks in contested maritime areas.",
-        "Energy & Maritime Disruption": "While 'Oil prices hover near pre-conflict levels as OPEC+ boosts output again' indicates a positive development in global oil supply, maritime operational risks persist. The 'US Navy calls off search for missing sailor following helicopter crash in Arabian Sea' underscores the continued potential for incidents in critical shipping lanes, maintaining a moderate level of disruption concern.",
-        "Trade & Supply Chain Stress": "The score reflects ongoing policy uncertainties that could impact global commerce and introduce new trade frictions. Trump's intent to 'ramp up war on regulations with 702 cuts in pipeline' suggests potential shifts in trade policy that could create new barriers or fragmentation. While 'Germany\u2019s second chance for growth begins' offers positive economic news, the overall environment remains sensitive to policy-induced trade dynamics.",
-        "Sovereign Financial Stress": "Concerns stem from significant national defense expenditures and persistent global monetary policy adjustments. The 'IDF plans massive NIS 130 billion buildup' will place considerable demands on national finances, while 'Rate hike readjustment' discussions indicate ongoing challenges in managing economic stability and debt servicing across sovereign entities.",
-        "Currency & Liquidity Pressure": "The ongoing financial market adjustments contribute to a baseline level of pressure on currency valuations and liquidity. 'Rate hike readjustment' deliberations reflect an environment where central banks continue to navigate inflation and growth, directly influencing capital flows and exchange rates.",
-        "Sanctions & Regulatory Fragmentation": "This pillar is influenced by anticipated policy shifts that could reshape the global regulatory landscape and existing sanctions regimes. 'Trump ramps up war on regulations with 702 cuts in pipeline' indicates a potential move towards deregulation that could lead to fragmentation. Additionally, the diplomatic shift where 'Hegseth goes quiet on Iran as Trump pursues diplomacy' hints at evolving sanctions considerations.",
-        "Cyber & Infrastructure Threats": "Persistent malicious cyber activities continue to pose a significant risk to government and critical infrastructure. The headline 'Russian hackers steal government logins' directly demonstrates an active and severe threat to national security and data integrity, demanding constant vigilance and robust defense mechanisms.",
-        "Climate & Resource Shock": "This pillar reflects routine monitoring due to the absence of immediate, severe climate-related events in the news feed, with some long-term mitigating factors. 'Rosatom remains world leader in small nuclear power plants \u2014 Likhachev' indicates ongoing development in alternative energy sources, which could contribute to future resource resilience."
+        "Geopolitical Conflict Intensity": "This pillar is the primary driver of the AGRI score's elevated level, reflecting intense global tensions. The \"Mideast war continues to constrain industry\" and \"Russia has attacked the United Kingdom \u2013 again\" highlight active and escalating military and state-sponsored aggression.",
+        "Energy & Maritime Disruption": "Risk is moderate, but significant concerns persist regarding supply and critical routes. Debates over energy policy, such as \"Ed Miliband slammed by energy watchdog over his ban on North Sea drilling,\" signal potential future supply constraints, while calls to \"stop\u2019 Iran from maintaining control of Strait of Hormuz\" underscore ongoing maritime security flashpoints.",
+        "Trade & Supply Chain Stress": "Elevated stress is largely a direct consequence of ongoing conflicts. The \"Mideast war continues to constrain industry,\" creating significant bottlenecks and uncertainties in global trade routes and manufacturing supply chains.",
+        "Sovereign Financial Stress": "This pillar remains at a moderate level, with no immediate widespread indicators of distress in the news feed. While \"Viatris (VTRS) Secures Loan\" indicates specific corporate financing, there is no evidence of systemic sovereign debt or fiscal crises.",
+        "Currency & Liquidity Pressure": "Risk is currently at a baseline activity level, with no immediate pressures reported. \"Oil Edges Lower on OPEC Increase, Dollar Steady: Markets Wrap\" indicates relative stability in major currency markets, particularly the US dollar.",
+        "Sanctions & Regulatory Fragmentation": "The regulatory environment remains fragmented due to ongoing geopolitical competition. High-level diplomatic engagements at the NATO summit, where \"Trump heads to NATO summit to meet Zelenskyy, face wary allies,\" underscore the ongoing political divisions that drive divergent regulatory and sanctions regimes.",
+        "Cyber & Infrastructure Threats": "This pillar registers a high level of threat, evidenced by direct state-sponsored attacks. The \"Hackers breach Foreign Office systems with stolen logins\" demonstrates active and severe cyber intrusions targeting critical government infrastructure.",
+        "Climate & Resource Shock": "This pillar shows lower risk, indicating routine monitoring rather than immediate shock events. \"Ed Miliband slammed by energy watchdog over his ban on North Sea drilling & Net Zero stubbornness\" reflects ongoing policy debates rather than an immediate resource or climate crisis impacting the global system."
     },
     "All_Alerts": [
         {
-            "title": "Oil prices hover near pre-conflict levels as OPEC+ boosts output again",
+            "title": "Ed Miliband slammed by energy watchdog over his ban on North Sea drilling & Net Zero stubbornness",
             "severity": "HIGH",
-            "url": "https://www.foxbusiness.com/energy/oil-prices-hover-near-pre-conflict-levels-opec-boosts-output-again",
-            "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/03/straight-of-hormuz-ships.jpg",
-            "source": "foxbusiness"
+            "url": "https://www.thesun.co.uk/news/39657362/ed-miliband-slammed-net-zero-stubbornness/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F07%2Fbritish-secretary-state-energy-security-1085528275.jpg?quality%3D90%26strip%3Dall",
+            "source": "thesun"
         },
         {
-            "title": "Swarm of Cyborg Remote Controlled Cockroaches Gains New Power",
+            "title": "Trump to meet Ukraine, Syria leaders at Nato summit \u2013 White House",
             "severity": "HIGH",
-            "url": "https://futurism.com/future-society/cyborg-remote-controlled-cockroaches-new-power",
-            "image": "https://futurism.com/wp-content/uploads/2026/07/cyborg-remote-controlled-cockroaches-new-power.jpg",
-            "source": "futurism"
+            "url": "https://globalnation.inquirer.net/329873/trump-to-meet-ukraine-syria-leaders-at-nato-summit-white-house",
+            "image": "https://globalnation.inquirer.net/files/2026/07/Donald-Trump-has-been-a-vocal-critic-of-NATO-throughout-his-presidency-Image-Evan-VucciAP-Photopicture-alliance-620x271.png",
+            "source": "inquirer"
         },
         {
-            "title": "Rate hike readjustment and AI hardware momentum: What to watch this week",
+            "title": "National Guard members on patrol in Memphis fatally shoot man during pursuit, police say",
             "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/rate-hike-readjustment-and-ai-hardware-momentum-what-to-watch-this-week-160059243.html",
-            "image": "https://images.pexels.com/photos/8964850/pexels-photo-8964850.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.latimes.com/world-nation/story/2026-07-05/national-guard-members-on-patrol-in-memphis-fatally-shoot-man-during-pursuit-police-say",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/342f312/2147483647/strip/false/crop/7513x5009+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F99%2Fc9%2F30b133124ecca06573a5a22c2fd0%2Fa88d5770a54c4531bfe8b9253e0cc151.jpg",
+            "source": "latimes"
+        },
+        {
+            "title": "Mideast war continues to constrain industry",
+            "severity": "HIGH",
+            "url": "https://www.bangkokpost.com/business/motoring/3281575/mideast-war-continues-to-constrain-industry",
+            "image": "https://static.bangkokpost.com/media/content/dcx/2026/07/06/6145010.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "Haaland double dumps Brazil out of World Cup",
+            "severity": "HIGH",
+            "url": "https://uk.sports.yahoo.com/news/haaland-double-dumps-brazil-world-224213530.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/A4qwVcTPZEcfhdcWlVerKA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_telegraph_818/35c41294d0b2fee753483aeba22acd1b",
             "source": "yahoo"
         },
         {
-            "title": "England fans descend on Mexico City ahead of the Three Lions' crunch match with the World Cup co-hosts",
+            "title": "Trump heads to NATO summit to meet Zelenskyy, face wary allies",
             "severity": "HIGH",
-            "url": "https://www.dailymail.com/sport/football/article-15954423/England-fans-Mexico-City.html",
-            "image": "https://i.dailymail.com/1s/2026/07/05/16/109808571-0-image-a-8_1783266956356.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.japantimes.co.jp/news/2026/07/06/world/trump-nato-summit-zelenskyy-allies/",
+            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/07/06/550015.jpg",
+            "source": "japantimes"
         },
         {
-            "title": "IDF plans massive NIS 130 billion buildup, including aircraft, munition factories",
+            "title": "Hackers breach Foreign Office systems with stolen logins",
             "severity": "HIGH",
-            "url": "https://www.jpost.com/israel-news/defense-news/article-901498",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/728423",
-            "source": "jpost"
+            "url": "https://www.thetimes.com/uk/technology-uk/article/hackers-breach-foreign-office-systems-logins-nhd0rgr3v",
+            "image": "https://images.pexels.com/photos/9830816/pexels-photo-9830816.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "thetimes"
         },
         {
-            "title": "US Navy calls off search for missing sailor following helicopter crash in Arabian Sea",
+            "title": "Retired general: U.S. has \u2018got to stop\u2019 Iran from maintaining control of Strait of Hormuz",
             "severity": "HIGH",
-            "url": "https://www.jpost.com/international/article-901502",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/728429",
-            "source": "jpost"
-        },
-        {
-            "title": "Hegseth goes quiet on Iran as Trump pursues diplomacy",
-            "severity": "HIGH",
-            "url": "https://thehill.com/policy/defense/5953404-hegseth-trump-iran-war-quiet/",
-            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://thehill.com/policy/defense/5954242-iran-strait-hormuz-negotiations-us-force/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/03/Gen.-Jack-Keane_GettyImages_2014.png?strip=1",
             "source": "thehill"
         },
         {
-            "title": "Rosatom remains world leader in small nuclear power plants \u2014 Likhachev",
+            "title": "Russia has attacked the United Kingdom \u2013 again - UK Defence Journal",
             "severity": "HIGH",
-            "url": "https://tass.com/economy/2155921",
-            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260705/1479735.jpg",
-            "source": "tass"
+            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQWw1a0otZ1V0N2kyc1NoZWFjVEsycjUyWmFxN3pGWTN6TlBKR0VIcDFRQ29yQkNQRGVJS2tHTktsSVF1Qld5Z2tGUzdiT3pad0RiQlVjY3BfR21zTVNkQVhXUW85UVJUczh3VnFNN0gzM3VXeGUzVkR2SEs0djk4cHhqcw?oc=5",
+            "image": "https://images.pexels.com/photos/586112/pexels-photo-586112.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Germany\u2019s second chance for growth begins",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/07/06/germanys-second-chance-for-growth-begins",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/06/3993929.jpg",
-            "source": "thestar_my"
+            "title": "Adam Sandler officiates Taylor Swift\u2019s wedding, fueling debate on singer\u2019s Israel stance",
+            "severity": "MEDIUM",
+            "url": "https://www.timesofisrael.com/adam-sandler-officiates-taylor-swifts-wedding-fueling-debate-on-singers-israel-stance/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2024/03/AP24052568712941.jpg",
+            "source": "timesofisrael"
         },
         {
-            "title": "Trump ramps up war on regulations with 702 cuts in pipeline",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/07/06/trump-ramps-up-war-on-regulations-with-702-cuts-in-pipeline",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/06/3994282.jpg",
-            "source": "thestar_my"
+            "title": "The Best Fantasy TV Show Ever Made Is a British Miniseries No One Talks About",
+            "severity": "MEDIUM",
+            "url": "https://collider.com/jonathan-strange-and-mr-norrell-fantasy-tv-show/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/01/jonathan-strange-and-mr-norrell.jpg?w=1200&h=675&fit=crop",
+            "source": "collider"
         },
         {
-            "title": "New Warhammer Game Saved from Cancellation",
-            "severity": "HIGH",
-            "url": "https://comicbook.com/gaming/news/warhammer-game-saved-cancellation/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/07/Warhammer-Blood-Bowl-3.jpg",
-            "source": "comicbook"
+            "title": "WHA's green dividend",
+            "severity": "WATCH",
+            "url": "https://www.bangkokpost.com/sustainability/3281585/whas-green-dividend",
+            "image": "https://static.bangkokpost.com/media/content/dcx/2026/07/06/6145015.png",
+            "source": "bangkokpost"
         },
         {
-            "title": "Military police launch urgent probe after sensitive documents from Britain's largest Army base are found dumped in council bins",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-15954079/Military-urgent-probe-sensitive-documents-Britain-Army-base.html",
-            "image": "https://i.dailymail.com/1s/2026/07/05/16/109808561-0-image-a-6_1783266737446.jpg",
+            "title": "Emotional Millie Mackintosh moves into her new home after admitting she 'didn't know if she'd be OK' following her split from Hugo Taylor",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/tvshowbiz/article-15954873/Emotional-Millie-Mackintosh-moves-new-home-admitting-didnt-know-shed-OK-following-split-Hugo-Taylor.html",
+            "image": "https://i.dailymail.com/1s/2026/07/05/23/109812809-0-image-a-73_1783290232448.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Russian hackers steal government logins",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/russian-hackers-steal-government-logins-154751087.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/0c54c0d467e82c261289ac3f6f7f37c06c6d07f2e9341d95ef57c27dcbeeda30/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F0c2c1abbcda12099afcaa06ff3f28c96",
+            "title": "Viatris (VTRS) Secures Loan Amid Positive Phase 3 Results",
+            "severity": "WATCH",
+            "url": "https://finance.yahoo.com/healthcare/articles/viatris-vtrs-secures-loan-amid-224832627.html",
+            "image": "https://media.zenfs.com/en/insidermonkey.com/74fb705bb9c3ce561b1e73c01a8c0ec6",
             "source": "yahoo"
         },
         {
-            "title": "Urban issues shape mood in Bankipur as byelection looms",
-            "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/city/patna/urban-issues-shape-mood-in-bankipur-as-byelection-looms/articleshow/132198292.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
+            "title": "New pipeline plans signal shift in Canada\u2019s crude oil customer base",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/pipeline-plans-signal-shift-canada-224805178.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/b325d1822d5e0dc2d40f25a81eb3c7a9182b3e4bdca85fb548884611c6955c00/lightyear_networkapi/resizefill_w620_h349;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcbc_videos_73%2F4f207e5a43fa39b9e949d760b1e45970",
+            "source": "yahoo"
+        },
+        {
+            "title": "Indonesia looks beyond UPI, eyes India's digital blueprint",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/india/indonesia-looks-beyond-upi-eyes-indias-digital-blueprint/articleshow/132204743.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132204742/132204742.jpg",
             "source": "toi"
         },
         {
-            "title": "\u2018Managing Trump\u2019: Carney to travel to Turkiye for NATO summit",
+            "title": "Oil Drops as Flows in Hormuz Persist and OPEC+ Flags More Supply",
             "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/canada/article/managing-trump-carney-to-travel-to-turkiye-for-nato-summit/",
-            "image": "https://www.ctvnews.ca/resizer/v2/YFZVUFEUWTR24JC2B5AJ2CMLJ4.jpg?auth=ddb04abcb9aca953fbd372483cd86ba6d26f9117fd0f67fc5aeac5433fe0bef5&smart=true&width=1400&height=939",
-            "source": "ctvnews"
+            "url": "https://financialpost.com/pmn/business-pmn/oil-drops-as-flows-in-hormuz-persist-and-opec-flags-more-supply",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/07/oil-edges-lower-as-hormuz-flows-persist-brent-timespreads-i.jpg",
+            "source": "financialpost"
         },
         {
-            "title": "Bam Margera Says He Has \u2018No Bad Blood\u2019 With the \u2018Jackass\u2019 Cast, But a Reunion Is \u201cNot Going to Happen\u201d",
+            "title": "Oil Edges Lower on OPEC Increase, Dollar Steady: Markets Wrap",
             "severity": "WATCH",
-            "url": "https://decider.com/2026/07/05/bam-margera-says-no-bad-blood-jackass-cast-reunion-not-going-to-happen/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2FGettyImages-2214159796.jpg?quality%3D90%26strip%3Dall",
-            "source": "nypost"
+            "url": "https://financialpost.com/pmn/business-pmn/oil-edges-lower-on-opec-increase-dollar-steady-markets-wrap",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/07/asia-pacific-stocks-gauge-clings-to-50-dma-support.jpg",
+            "source": "financialpost"
         },
         {
-            "title": "Hyderabad Positioned to Lead Global South in Sustainable AI Growth",
+            "title": "Pisces Horoscope Today, July 6, 2026: Delaying key decisions until the afternoon may bring better results",
             "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/hyderabad-positioned-to-lead-global-south-in-sustainable-ai-growth-articleshow-xy8iqga",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-bc1e0a6f-cc76-4a62-8843-0b7d9e9f977e.jpeg",
-            "source": "newsable_asianetnews"
+            "url": "https://www.hindustantimes.com/astrology/horoscope/pisces-horoscope-today-july-6-2026-delaying-key-decisions-until-the-afternoon-may-bring-better-results-101783178804869.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/04/1600x900/logo/fishes-2686842_1920_1662126403928_1783178878782_b9bd7e46-dd62-417d-a9b6-82725b34362d.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Is it unhealthy to suppress sweat?",
+            "title": "Aquarius Horoscope Today, July 6, 2026: An old workplace issue may resurface as a chance to move on",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/wellness/2026/jul/05/is-it-unhealthy-to-suppress-sweat",
-            "image": "https://i.guim.co.uk/img/media/4abc7477cbbb6ae6f530c810afca74ef755ab095/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=d4f35419c5f05370af0bbe101125bca0",
-            "source": "theguardiantheguardian"
+            "url": "https://www.hindustantimes.com/astrology/horoscope/aquarius-horoscope-today-july-6-2026-an-old-workplace-issue-may-resurface-as-a-chance-to-move-on-101783177784642.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/04/1600x900/logo/aquarius-2689948_1920_1661953347998_1783177837718_9a6adc08-e027-4d19-b00d-efaf43dca5a3.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Jaishankar, Qatar PM explore ways to deepen strategic partnership",
+            "title": "Venezuelan leader marks Independence Day with message of \u2018no social unrest\u2019",
             "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/world/jaishankar-qatar-pm-explore-ways-to-deepen-strategic-partnership-articleshow-g5qfr1l",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-a0419a3a-a87f-44a1-a696-643e4d81c447.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Naomi Watts shares 8 of her favorite menopausal and postmenopausal skin care products",
-            "severity": "WATCH",
-            "url": "https://www.cnn.com/cnn-underscored/beauty/naomi-watts-menopausal-skincare-essentials",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/naomi-watts-20260701140622198.jpg?c=original/w_800",
-            "source": "cnn"
-        },
-        {
-            "title": "Photo of abused Palestinian detainee causes anguish for two Gaza mothers",
-            "severity": "WATCH",
-            "url": "https://www.aljazeera.com/features/2026/7/5/photo-of-abused-palestinian-detainee-sparks-anguish-for-two-gaza-mothers",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-04T162504Z_125621958_RC247MA2SO40_RTRMADP_3_ISRAEL-PALESTINIANS-GAZA-ABUSE-1783251842.jpg?resize=1920%2C1440",
+            "url": "https://www.aljazeera.com/news/2026/7/5/venezuelan-leader-marks-independence-day-with-message-of-no-social-unrest",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/reuters_6a4ad2da-1783288538.jpg?resize=1200%2C675",
             "source": "aljazeera_us"
         },
         {
-            "title": "An Israeli-Lebanese framework agreement with many pitfalls - opinion",
+            "title": "Happy 250th Anniversary, America!",
             "severity": "WATCH",
-            "url": "https://www.jpost.com/opinion/article-901073",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/726820",
-            "source": "jpost"
+            "url": "https://www.washingtontimes.com/news/2026/jul/5/happy-250th-anniversary-america/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2026/07/05/US-RussianFlag-250-1200_s1200x699.jpg?b29d98ce1f9fedfbe59307b7e4e8391d5d8ccaf4",
+            "source": "washingtontimes"
         },
         {
-            "title": "China's dominance in rare earth industry has key structural weakness as US, Japan hold core patents: Study",
+            "title": "Golden flower cutting the cost of urea fertiliser for farmers",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/world/china-s-dominance-in-rare-earth-industry-has-key-structural-weakness-as-us-japan-hold-core-patents-study-article-13966509.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/02/20260220054231_rare-earth1.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Amit Shah to attend 5th Foundation Day of Ministry of Cooperation",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/amit-shah-to-attend-5th-foundation-day-of-ministry-of-cooperation-articleshow-khod4g0",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-4670f8b6-cb32-4018-8cbe-acac6175f3ae.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Oil\u2019s supply wave, tumbling prices rekindle fears of global glut",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/07/06/oils-supply-wave-tumbling-prices-rekindle-fears-of-global-glut",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/06/3993933.JPG",
-            "source": "thestar_my"
-        },
-        {
-            "title": "SK Telecom eyes 15GW DC capacity",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/07/06/sk-telecom-eyes-15gw-dc-capacity",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/06/3993949.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Is Chinese AI about to crush Silicon Valley?",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/listen/programs/abc-news-daily/is-chinese-ai-about-to-crush-silicon-valley/106875770",
-            "image": "https://live-production.wcms.abc-cdn.net.au/c7b8465a40ba29526892bfc64d80aa2b?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=656&width=862&height=485",
+            "url": "https://www.abc.net.au/news/rural/2026-07-06/farmers-use-sunn-hemp-to-help-cut-urea-fertiliser-costs/106874990",
+            "image": "https://live-production.wcms.abc-cdn.net.au/6384c0f14d5e04b0c04f642ab002cd57?impolicy=wcms_crop_resize&cropH=2241&cropW=3984&xPos=0&yPos=203&width=862&height=485",
             "source": "abc_net"
         },
         {
-            "title": "Lewis Hamilton\u2019s British GP Podium Under Threat After Yellow Flag Investigation",
+            "title": "USM's Grayden Harris 'Grateful' for Making USA Baseball Collegiate National Team Roster",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/lewis-hamilton-british-gp-podium-160253620.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/1e48e575c47a89eb19d5b0cb9ee98da88d85c19e8b1309ba15c1905dd3e088b7/lightyear_networkapi/resizefit_w768_h512;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotorbiscuit_articles_333%2F12b8ca886b243ff2a37f8e493825147d",
+            "url": "https://www.si.com/college/southernmiss/usm-s-grayden-harris-grateful-for-making-the-usa-baseball-collegiate-national-team",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1206,h_678,x_0,y_104/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/southern_miss_golden_eagles_on_si/01kwst4bja2fwwsvc6bw.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Karl Urban Hunts Down a 'Game of Thrones' Icon in the R-Rated Sci-Fi Hit Coming to Free Streaming",
+            "severity": "WATCH",
+            "url": "https://collider.com/karl-urban-dredd-free-streaming-fawesome-july-2026/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/05/karl-urban.jpg?w=1600&h=900&fit=crop",
+            "source": "collider"
+        },
+        {
+            "title": "$50 Polymarket Promo Code \u201cMASS\u201d Available for Round of 16 Matches, USA vs. Belgium",
+            "severity": "WATCH",
+            "url": "https://www.masslive.com/betting/2026/07/50-polymarket-promo-code-mass-available-for-round-of-16-matches-usa-vs-belgium.html",
+            "image": "https://www.masslive.com/resizer/v2/QNEODSAAGFBZHEJHCJ3RTZFQ7M.png?auth=aa2675a0fc52946a4838da564f1bd509a68d99925c574b48c5b903c4ccc87c9a&smart=true&height=1200",
+            "source": "masslive"
+        },
+        {
+            "title": "The Lesson From 250 Years Of Powering America",
+            "severity": "WATCH",
+            "url": "https://dailycaller.com/2026/07/05/opinion-america-250-power-donald-trump-jeremy-harrell/",
+            "image": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https%3A%2F%2Fcdn01.dailycaller.com%2Fwp-content%2Fuploads%2F2026%2F07%2FGettyImages-1230688909-scaled-e1783290471608.jpg",
+            "source": "dailycaller"
+        },
+        {
+            "title": "Record gold prices fuel surge in resale, easing import pressure",
+            "severity": "WATCH",
+            "url": "https://www.deccanherald.com/business/record-gold-prices-fuel-surge-in-resale-easing-import-pressure-4063142",
+            "image": "https://media.assettype.com/deccanherald/2026-07-05/vv28vz02/istockphoto-2259999389-612x612.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Bond Traders Watch for Treasury Auctions, June Fed Minutes",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-pmn/bond-traders-watch-for-treasury-auctions-june-fed-minutes",
+            "image": "https://images.pexels.com/photos/24244235/pexels-photo-24244235.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "15 of 20 fertiliser ships stuck at Hormuz set sail, relief for farmers",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/india/15-of-20-fertiliser-ships-stuck-at-hormuz-set-sail-relief-for-farmers/articleshow/132204713.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132204714/132204714.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Major payouts to health authority CEOs seem part of a trend, U of M business instructor says",
+            "severity": "WATCH",
+            "url": "https://www.cbc.ca/news/canada/manitoba/compensation-disclosure-manitoba-2025-health-ceos-9.7259342?cmp=rss",
+            "image": "https://i.cbc.ca/ais/d893c1bb-1028-475e-b417-a90919d7dc2a,1783287038400/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C260%2C4977%2C2799%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "Data centre success depends on power infrastructure",
+            "severity": "WATCH",
+            "url": "https://www.bangkokpost.com/business/general/3281615/data-centre-success-depends-on-power-infrastructure",
+            "image": "https://static.bangkokpost.com/media/content/20260706/c1_3281615_260706051630.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "Huge crowds expected at Iran leader\u2019s funeral procession",
+            "severity": "WATCH",
+            "url": "https://globalnation.inquirer.net/329853/huge-crowds-expected-at-iran-leaders-funeral-procession",
+            "image": "https://globalnation.inquirer.net/files/2026/07/AFP__20260705__B9BM6AF__v1__HighRes__IranUsIsraelWarFuneral-scaled.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Jewish revellers are abused at London Pride and told to 'go back to your Zionist homeland' - while police stand by",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-15954713/Jewish-revellers-abused-London-Pride.html",
+            "image": "https://i.dailymail.com/1s/2026/07/05/22/109812067-0-image-a-8_1783287918553.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "EasyJet agrees \u2018in principle\u2019 to \u00a35.2bn offer from US investor",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/news/uk/home-news/easyjet-takeover-bid-offer-castlelake-b3009372.html",
+            "image": "https://static.independent.co.uk/2026/06/25/08/25075802-c2f6b39a-1b90-4383-8a20-7009f3d2a011.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+            "source": "independentuk"
+        },
+        {
+            "title": "Nigel Farage faces new allegations about his finances. Here are the key details",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/world/uk/2026/07/05/nigel-farage-faces-new-allegations-about-his-finances-here-are-the-key-details/",
+            "image": "https://www.irishtimes.com/resizer/v2/R5T2MU42EV5CBL6ZZDHRN3WJYM.jpg?auth=b47dd9e50ccb5776cf5f1ab797a1410c2a55609291a38e8b9867a9532a7c339e&smart=true&width=630&height=350",
+            "source": "irishtimes"
+        },
+        {
+            "title": "Man From Concord Arrested On Arson Charges After Incidents On Broadway, Theatre Street: Concord Cop Log",
+            "severity": "WATCH",
+            "url": "https://patch.com/new-hampshire/concord-nh/man-concord-arrested-arson-charges-after-incidents-broadway-theatre-street",
+            "image": "https://patch.com/img/cdn20/users/546351/20260630/105601/styles/patch_image/public/concord-police-cruiser2-schinella___30105505416.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "Israeli government vows to ignore Supreme Court ruling",
+            "severity": "WATCH",
+            "url": "https://uk.news.yahoo.com/israeli-government-vows-ignore-supreme-213044076.html",
+            "image": "https://media.zenfs.com/en/the_telegraph_818/f48ae811eb8856dc97c29e4c97c60e6b",
             "source": "yahoo"
         },
         {
-            "title": "Tories offer Mahmood a solution to deport Rochdale ringleader",
+            "title": "Australia news live: Crisafulli promises harsher youth bail laws; auction clearances below 50% again",
             "severity": "WATCH",
-            "url": "https://uk.news.yahoo.com/tories-offer-starmer-solution-deport-160000010.html",
-            "image": "https://media.zenfs.com/en/the_telegraph_818/891b55b564bfc3ed8d2ecb794a496704",
-            "source": "yahoo"
+            "url": "https://www.theguardian.com/australia-news/live/2026/jul/06/australia-news-live-crisafulli-bail-laws-property-market-auction-clearance-tax-reform-prime-minister-albanese-fiji-treaty-royal-commission-meta-antisemitism-ntwnfb",
+            "image": "https://i.guim.co.uk/img/media/c45cea6b5babb201b424b065b116605ecc2f87a9/250_0_4178_3343/master/4178.jpg?width=140&quality=85&auto=format&fit=max&s=81b8c4bc3725ba35d488a4b6110c8a9f",
+            "source": "theguardian"
         },
         {
-            "title": "The Mario 64 Bounty That Took 30 Years to Settle",
+            "title": "How to watch Mexico vs. England online for free from anywhere",
             "severity": "WATCH",
-            "url": "https://nordic.ign.com/super-mario-64/109561/the-mario-64-bounty-that-took-30-years-to-settle",
-            "image": "https://sm.ign.com/ign_nordic/feature/t/the-mario-/the-mario-64-bounty-that-took-30-years-to-settle_sqy5.jpg",
-            "source": "ign_nordic"
-        },
-        {
-            "title": "Motor racing-Leclerc wins British GP behind the safety car",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/sport/motorsport/2026/07/05/motor-racing-leclerc-wins-british-gp-behind-the-safety-car",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/05/3993912.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Leclerc wins British GP as F1 leader Antonelli fails to score",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/sport/leclerc-wins-british-gp-f1-leader-antonelli-fails-score-6233261",
-            "image": "https://dam.mediacorp.sg/image/upload/s--vqLnq88q--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-07-05T162011Z_1_LYNXMPEM64091_RTROPTP_3_MOTOR-F1-BRITAIN.JPG?itok=U-xLGGhP",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "British Grand Prix: Ferrari back on top, Antonelli heartbreak, Verstappen crashes out",
-            "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7423175/2026/07/05/british-grand-prix-ferrari-charles-leclerc-wins-safety-car/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/07/05111027/GettyImages-2284200098-scaled.jpg",
-            "source": "theathleticuk"
+            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-mexico-vs-england-world-cup-2026",
+            "image": "https://i.insider.com/6a4ab4cc65e65d39ff1c9c3c?width=1200&format=jpeg",
+            "source": "insider"
         }
     ],
-    "Last_Updated": "2026-07-06T04:06:51.671961Z"
+    "Last_Updated": "2026-07-06T10:50:09.962501Z"
 }
