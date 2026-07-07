@@ -1,293 +1,281 @@
 {
-    "AGRI_Score": 58.9,
-    "Velocity": "+1.6",
+    "AGRI_Score": 59.4,
+    "Velocity": "+0.5",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.4 indicates a heightened risk environment, predominantly driven by severe geopolitical tensions and emerging supply chain vulnerabilities. The significant 'Geopolitical Conflict Intensity' pillar score of 79.5 is directly influenced by escalating warnings, such as 'Putin Panic Hits NATO? Mark Rutte Drops Big Russia Warning; 'EVERYONE BE READY...'.' Concurrently, the 'Trade & Supply Chain Stress' pillar, at 64.2, is acutely impacted by critical resource control, evidenced by 'Corporate Japan's rare-earth warnings get louder as China keeps the spigot closed.' These factors underscore a complex and increasingly volatile global landscape necessitating vigilant strategic assessment.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.1,
-        "Energy & Maritime Disruption": 50.9,
-        "Trade & Supply Chain Stress": 66.9,
+        "Geopolitical Conflict Intensity": 79.5,
+        "Energy & Maritime Disruption": 62.4,
+        "Trade & Supply Chain Stress": 64.2,
         "Sovereign Financial Stress": 54.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 61.3,
-        "Cyber & Infrastructure Threats": 61.6,
-        "Climate & Resource Shock": 45
+        "Sanctions & Regulatory Fragmentation": 63.0,
+        "Cyber & Infrastructure Threats": 56.3,
+        "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is exceptionally high due to explicit warnings of escalating tensions with Russia, as evidenced by 'Putin Panic Hits NATO? Mark Rutte Drops Big Russia Warning; 'EVERYONE BE READY...'.' The hardened stance of Iran's regime, cited in 'Iran\u2019s regime survived the war and is now savvier, ruthless and more hard-line', further contributes to global instability.",
+        "Energy & Maritime Disruption": "While no direct maritime disruption is reported, challenges to energy infrastructure development, such as calls to end nuclear plans in Saskatchewan, signal potential future supply constraints. The rising adoption of CNG and EV vehicles, making up a 'record 40% car sales in June', suggests a gradual shift in energy demand patterns that could influence long-term energy security.",
+        "Trade & Supply Chain Stress": "Significant stress in trade and supply chains is evident from 'Corporate Japan's rare-earth warnings get louder as China keeps the spigot closed,' indicating critical resource vulnerability. Although 'Thailand, EU free trade talks make more progress' suggests positive movement, the broader context of essential material control presents ongoing challenges.",
+        "Sovereign Financial Stress": "Sovereign financial stress reflects medium concern, highlighted by 'Andy Burnham's Chancellor faces huge student loan demand to stop graduate misery,' indicating potential fiscal pressures related to social programs. While not catastrophic, this points to underlying economic vulnerabilities requiring close attention.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are currently at baseline activity, with no direct reports of immediate market volatility or currency devaluation. The focus on SEC disclosure guidelines, as per 'Inside SEC Disclosure: What Every Equity Investor Must Understand Before Buying a Single Share,' suggests a regulatory environment focused on market transparency rather than crisis management.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation is a concern, as demonstrated by the ongoing 'Environmental advocates call for end to Sask. nuclear plans,' which could lead to divergent energy policies. While 'Thailand, EU free trade talks make more progress' signals some cooperation, the broader regulatory landscape continues to present complexities for international operations.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats remain a moderate concern, even without explicit news detailing specific attacks in this feed. Organizations should maintain routine monitoring of digital defenses and critical infrastructure security protocols.",
+        "Climate & Resource Shock": "Climate and resource shocks are at routine monitoring levels, despite localized environmental concerns like rising shark attacks mentioned in 'Why shark attacks in US waters are already nearing double figures even though summer just kicked off'. The discussions around nuclear and coal energy indicate an ongoing policy debate regarding resource management, not immediate crisis."
+    },
     "All_Alerts": [
         {
-            "title": "Israel fortifies border with Jordan as Iran seeks new terror path",
+            "title": "Iran\u2019s regime survived the war and is now savvier, ruthless and more hard-line",
             "severity": "HIGH",
-            "url": "https://www.foxnews.com/world/israel-fortifies-border-jordan-iran-seeks-new-terror-path",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/idf-jordan-valley-lookout.jpg?ve=1&tl=1",
-            "source": "foxnews"
+            "url": "https://www.adn.com/nation-world/2026/07/06/irans-regime-survived-the-war-and-is-now-savvier-ruthless-and-more-hard-line/",
+            "image": "https://www.adn.com/resizer/29vAxHMJ8bKqr8B6GK2oRF9m-yQ=/cloudfront-us-east-1.images.arcpublishing.com/adn/HO5O55Q4QBV2DTM66HGXQ2FQ6I.jpg",
+            "source": "adn"
         },
         {
-            "title": "Heart Attack Or Electrocution? Video Casts Shadow Over Official Claim In Nagpur Woman\u2019s Death",
+            "title": "Why shark attacks in US waters are already nearing double figures even though summer just kicked off",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/nagpur/heart-attack-or-electrocution-video-casts-shadow-over-official-claim-in-nagpur-womans-death/articleshow/132225277.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132225276/132225276.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "If Persona 3 Gave Me The Ick, What Does That Mean For Persona 6?",
-            "severity": "HIGH",
-            "url": "https://www.gamespot.com/articles/if-persona-3-gave-me-the-ick-what-does-that-mean-for-persona-6/",
-            "image": "https://www.gamespot.com/wp-content/uploads/original/1701/17013431/4638761-4638380-4253188-review_persona3reload_si.jpg?w=300",
-            "source": "gamespot"
-        },
-        {
-            "title": "Cuba hit with yet another island-wide power outage",
-            "severity": "HIGH",
-            "url": "https://www.cbc.ca/news/world/cuba-island-wide-power-outage-9.7260307?cmp=rss",
-            "image": "https://i.cbc.ca/ais/ff8f01d8-a0be-43f6-ade2-7eaf1825f0d0,1783365383951/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C625%2C6000%2C3375%29%3B",
-            "source": "cbc"
-        },
-        {
-            "title": "Iranians Mourn a Slain Leader, and Call for Vengeance",
-            "severity": "HIGH",
-            "url": "https://www.nytimes.com/2026/07/06/world/middleeast/iran-khamenei-funeral.html",
-            "image": "https://static01.nyt.com/images/2026/07/06/multimedia/06int-iran-funeral-print01-photo-ftpw/06int-iran-funeral-print01-photo-ftpw-mediumSquareAt3X.jpg",
-            "source": "nytimes"
-        },
-        {
-            "title": "Belgian Football Association Decries FIFA Decision to Let Balogun Play, Issues Warning: 'This Leaves All Further Actions Open'",
-            "severity": "HIGH",
-            "url": "https://www.breitbart.com/sports/2026/07/06/belgian-football-association-decries-fifa-decision-to-let-balogun-play-issues-warning-this-leaves-all-further-actions-open/",
-            "image": "https://media.breitbart.com/media/2026/07/Alex-Grimm_Getty-Images-1-640x335.jpg",
-            "source": "breitbart"
-        },
-        {
-            "title": "Panda Free Antivirus Review: Decent Features, Weak Overall Protection",
-            "severity": "HIGH",
-            "url": "https://www.pcmag.com/reviews/panda-free-antivirus",
-            "image": "https://i.pcmag.com/imagery/reviews/06KRj2q8KBICEBe21MsFOEa-39..v1783350569.png",
-            "source": "pcmag"
-        },
-        {
-            "title": "DHS Confirms Breach of Homeland Security Information Network",
-            "severity": "HIGH",
-            "url": "https://www.techrepublic.com/article/news-dhs-hsin-breach-2026/",
-            "image": "https://assets.techrepublic.com/uploads/2026/07/dhs.jpg?f=jpeg",
-            "source": "techrepublic"
-        },
-        {
-            "title": "Belgium sends warning to US after Folarin Balogun cleared to play at World Cup",
-            "severity": "HIGH",
-            "url": "https://nypost.com/2026/07/06/sports/belgium-sends-warning-to-us-after-folarin-balogun-cleared-to-play-at-world-cup/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2Fattends-training-session-ahead-world-133409038_0653d6.jpg?w%3D1024",
+            "url": "https://nypost.com/2026/07/06/us-news/why-shark-attacks-in-us-waters-are-already-nearing-double-figures-even-though-summer-just-kicked-off/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2F133510155.jpg?w%3D1024",
             "source": "nypost"
         },
         {
-            "title": "NDA Alleges Electoral Roll Lapses in Karnataka, Seeks Inquiry Into Revision Exercise",
+            "title": "Environmental advocates call for end to Sask. nuclear plans",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/saskatoon/article/environmental-advocates-call-for-end-to-sask-nuclear-plans/",
+            "image": "https://www.ctvnews.ca/resizer/v2/MNTRT3ZLBJDCTP5JE7AKPXCHME.jpg?auth=373ebc59991bbe763f511a3b491ae98b207a3753e17cd048ddd569bb10f8a4d4&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Trump says Walmart cut prices at his request, but Walmart statement omits administration\u2019s role",
+            "severity": "HIGH",
+            "url": "https://www.dailycamera.com/2026/07/06/trump-walmart-prices/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2026/07/Trump_93119.jpg?w=1400px&strip=all",
+            "source": "dailycamera"
+        },
+        {
+            "title": "Thailand, EU free trade talks make more progress",
+            "severity": "HIGH",
+            "url": "https://www.bangkokpost.com/thailand/general/3281964/thailand-eu-free-trade-talks-make-more-progress",
+            "image": "https://www.bangkokpost.com/v3/assets/images/img-default.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "Putin Panic Hits NATO? Mark Rutte Drops Big Russia Warning; 'EVERYONE BE READY...' | WATCH",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/videos/international/putin-panic-hits-nato-mark-rutte-drops-big-russia-warning-everyone-be-ready-watch/videoshow/132227783.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-132227783/132227783.jpg?resizemode=4",
+            "source": "toi"
+        },
+        {
+            "title": "Charlie Kirk Hearing: Assassin Tyler Robinson Escorted In Military Vehicle, Rooftop Agents Deployed",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/videos/international/charlie-kirk-hearing-assassin-tyler-robinson-escorted-in-military-vehicle-rooftop-agents-deployed/videoshow/132227780.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-132227780/132227780.jpg?resizemode=4",
+            "source": "toi"
+        },
+        {
+            "title": "Corporate Japan's rare-earth warnings get louder as China keeps the spigot closed",
+            "severity": "HIGH",
+            "url": "https://ca.finance.yahoo.com/news/corporate-japans-rare-earth-warnings-230746559.html",
+            "image": "https://media.zenfs.com/en/reuters.ca/57599fff702f89096ea72511fc1e26c6",
+            "source": "yahoo"
+        },
+        {
+            "title": "Andy Burnham's Chancellor faces huge student loan demand to stop graduate misery",
+            "severity": "HIGH",
+            "url": "https://www.mirror.co.uk/news/politics/burnham-student-loans-rachel-reeves-37393745",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37395239.ece/ALTERNATES/s615/0_Burnhams-business-rates-plan.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "PM Narendra Modi\u2019s three-nation tour: Defence, critical minerals on table at India-Indonesia meeting today",
             "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/india-news/nda-alleges-electoral-roll-lapses-in-karnataka-seeks-inquiry-into-revision-exercise-101783365643665.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2024/12/18/1600x900/India_2_1734523561438_1734523594722.jpg",
-            "source": "hindustantimes"
+            "url": "https://indianexpress.com/article/india/pm-narendra-modis-three-nation-tour-defence-critical-minerals-on-table-at-india-indonesia-meeting-today-10774654/",
+            "image": "https://images.indianexpress.com/2026/07/Prime-Minister-Narendra-Modi-with-Indonesia-President-Prabowo-Subianto-after-arriving-in-Jakarta-on-Monday.-ANI.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Strategic_gameplay_and_the_plinko_game_offer_captivating_odds_for_potential_winn",
-            "severity": "WATCH",
-            "url": "https://gaubharatbharati.com/strategic-gameplay-and-the-plinko-game-offer-captivating-odds/",
-            "image": "https://images.pexels.com/photos/29272604/pexels-photo-29272604.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "gaubharatbharati"
+            "title": "Inside SEC Disclosure: What Every Equity Investor Must Understand Before Buying a Single Share",
+            "severity": "MEDIUM",
+            "url": "https://equity-insider.com/inside-sec-disclosure-what-every-equity-investor-must-understand-before-buying-a-single-share/",
+            "image": "https://equity-insider.com/wp-content/uploads/2026/07/SEC-disclosure.jpg",
+            "source": "equity_insider"
         },
         {
-            "title": "Bharat Petroleum to expand retail offerings, EV charging network",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/industry/renewables/bharat-petroleum-to-expand-retail-offerings-ev-charging-network/articleshow/132225297.cms",
-            "image": "https://img.etimg.com/thumb/msid-132225270,resizemode-4,width-1200,height-900,imgsize-109600,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "title": "Anti-coal petition lead Corb Lund questions Elections Alberta's verification",
+            "severity": "MEDIUM",
+            "url": "https://www.ctvnews.ca/edmonton/alberta-legislature/article/anti-coal-petition-lead-corb-lund-questions-elections-albertas-verification/",
+            "image": "https://www.ctvnews.ca/resizer/v2/HY5LF2BQOVBZDG6RCRLHSXJKTA.jpg?auth=44442ce980b681e7f0a75441b5c6358cec19c31238ea08493a50a3d3cde3f230&smart=true&width=1400&height=933",
+            "source": "ctvnews"
         },
         {
-            "title": "A brief history of popcorn \u2013 and its cinema snack sidekicks",
+            "title": "CNG, EV make up record 40% car sales in June",
             "severity": "WATCH",
-            "url": "https://theconversation.com/a-brief-history-of-popcorn-and-its-cinema-snack-sidekicks-282237",
-            "image": "https://images.theconversation.com/files/736949/original/file-20260520-57-pjka5.jpg?ixlib=rb-4.1.0&rect=0%2C2100%2C2624%2C1312&q=45&auto=format&w=1356&h=668&fit=crop",
-            "source": "theconversation"
-        },
-        {
-            "title": "China missile test in South Pacific 'extremely unwelcome behaviour', Deputy Prime Minister David Seymour says",
-            "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/political/682446/china-missile-test-in-south-pacific-extremely-unwelcome-behaviour-deputy-prime-minister-david-seymour-says",
-            "image": "https://images.pexels.com/photos/8964850/pexels-photo-8964850.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "Fragmented and incomplete: why isn\u2019t anyone in charge of Australia\u2019s EV charger rollout?",
-            "severity": "WATCH",
-            "url": "https://theconversation.com/fragmented-and-incomplete-why-isnt-anyone-in-charge-of-australias-ev-charger-rollout-286356",
-            "image": "https://images.theconversation.com/files/746014/original/file-20260706-57-fz54lp.jpg?ixlib=rb-4.1.0&rect=0%2C90%2C2120%2C1060&q=45&auto=format&w=1356&h=668&fit=crop",
-            "source": "theconversation"
-        },
-        {
-            "title": "IIM-N Plans Integrated 5-Year BTech With IITs At Upcoming Pune Campus",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/nagpur/iim-n-plans-integrated-5-year-btech-with-iits-at-upcoming-pune-campus/articleshow/132225294.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132225289/132225289.jpg",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/cng-ev-make-up-record-40-car-sales-in-june/articleshow/132227778.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132227788/132227788.jpg",
             "source": "toi"
         },
         {
-            "title": "Less than 30% of Earth\u2019s ocean floor has been mapped while scientists still have clearer high-resolution data of Mars than most of the seabed covering our own planet",
+            "title": "Martinez announces his resignation as head coach of Portuguese national team",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/science/less-than-30-of-earths-ocean-floor-has-been-mapped-while-scientists-still-have-clearer-high-resolution-data-of-mars-than-most-of-the-seabed-covering-our-own-planet/articleshow/132225165.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132225195/132225195.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Third heatwave of year declared with days of hot weather forecast",
-            "severity": "WATCH",
-            "url": "https://www.standard.co.uk/news/environment/met-office-england-teddington-london-scotland-b1288996.html",
-            "image": "https://static.standard.co.uk/2026/07/06/20/48d8f89ebc1bf7c3b7808cf2980d64a9Y29udGVudHNlYXJjaGFwaSwxNzgzNDQ2OTA4-2.85087999.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
-        },
-        {
-            "title": "Power-hungry appliances that might be costing you",
-            "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/personal-finance/682509/power-hungry-appliances-that-might-be-costing-you",
-            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "Death toll from Venezuela quakes rises to 3,535 as thousands remain displaced",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/death-toll-venezuela-quakes-rises-194848616.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/582693fdd5edfc26586f3fdb7122be00fc782e56f7f874d1ac5e712df084adaf/lightyear_networkapi/resizefill_w800_h533;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F64602a1d190ca8f01da7ab224f377c2f",
-            "source": "yahoo"
-        },
-        {
-            "title": "Why Tucker Carlson and Marjorie Taylor Greene Are Suddenly Talking About a Third Party",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/why-tucker-carlson-marjorie-taylor-194843905.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/f2ea0099f61f4c6ad707eeac548a0ead89574375230c458f9d1739a52eeb7c2b/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fkatie_couric_media_articles_233%2F2010df05722bc1075bd5486c2403b744",
-            "source": "yahoo"
-        },
-        {
-            "title": "Buckingham Palace says Prince Harry will not stay there",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/buckingham-palace-says-prince-harry-194836974.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/0bd958e5a1c553b755b74a1900a99ed938ada36cb4b5ce4acc751ca7ed0b739e/lightyear_networkapi/resizefill_w900_h600;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Funited_press_international_articles_356%2Fc26ad5d702033778922527a7ba3896c1",
-            "source": "yahoo"
-        },
-        {
-            "title": "UN deems Israel\u2019s detention of Hamas doctor \u2018arbitrary\u2019 as health fears mount",
-            "severity": "WATCH",
-            "url": "https://www.timesofisrael.com/un-deems-israels-detention-of-hamas-doctor-arbitrary-as-health-fears-mount/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/02/DUAL-5.jpeg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Israel insists on Hamas disarmament, demilitarization of Gaza \u2014 foreign minister",
-            "severity": "WATCH",
-            "url": "https://tass.com/world/2156533",
+            "url": "https://tass.com/sports/2156559",
             "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
             "source": "tass"
         },
         {
-            "title": "Form 4 ProCap Financial Inc For: 6 July",
+            "title": "Walmart, Sam's Club slash prices on thousands of products as Trump says move came at his request",
             "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/form-4-procap-financial-inc-for-6-july-93CH-4519472",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB6U08A_M.jpg",
+            "url": "https://www.foxbusiness.com/retail/walmart-sams-club-slash-prices-thousands-products-trump-says-move-came-his-request",
+            "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2025/05/split-of-trump-and-walmart.jpg",
+            "source": "foxbusiness"
+        },
+        {
+            "title": "Egypt coach Hassan says Palestinian suffering \u2018a shame on the world\u2019",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/sports/article/egypt-coach-hassan-says-palestinian-suffering-a-shame-on-the-world/",
+            "image": "https://www.ctvnews.ca/resizer/v2/P64IPOYCUXMTSV5HQON2U3ZOC4.jpg?auth=151553ade867d6a9820f5b6b343c31f24e7923a76f8a5e69b40043f6ebb3ca21&smart=true&width=1400&height=933",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Hampton, N.H., shooting suspect was active-duty Navy sailor, officials say",
+            "severity": "WATCH",
+            "url": "https://www.bostonglobe.com/2026/07/06/metro/hampton-beach-new-hampshire-shooting-tyshawn-cooper/",
+            "image": "https://www.bostonglobe.com/pf/resources/images/logo-bg.jpg?d=672",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "Ben Carson to Newsmax: Normalizing Communism Is 'Treasonous'",
+            "severity": "WATCH",
+            "url": "https://www.newsmax.com/politics/ben-carson-communism-religion/2026/07/06/id/1261981",
+            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=B6D56320-682F-4FD8-ABA6-86BAA5002105",
+            "source": "newsmax"
+        },
+        {
+            "title": "Leading US Democrats withdraw support for Platner after assault allegations",
+            "severity": "WATCH",
+            "url": "https://www.aljazeera.com/news/2026/7/6/leading-us-democrats-withdraw-support-for-platner-after-assault-allegations",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/AP26161067852261-1783375452.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
+        },
+        {
+            "title": "Forget 'Fargo,' Billy Bob Thornton's Chilly Crime Movie Is the Best Late-Night Watch",
+            "severity": "WATCH",
+            "url": "https://collider.com/billy-bob-thornton-a-simple-plan-chilly-crime-movie-fargo-mgm-plus/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/a-simple-plan-1998.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "Business leader says he hopes Greater Victoria gets fair share of submarine money",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com/news/canada/business-leader-says-he-hopes-greater-victoria-gets-fair-share-of-submarine-money/article_f27ae85c-5390-55b4-9fe7-25ce5b0f4081.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/custom/image/f84403b8-7d76-11ee-9d02-a72a4951957f.png?resize=600%2C600",
+            "source": "thestar"
+        },
+        {
+            "title": "Micron Technology EVP April Arnzen sells $43.4m in stock",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/micron-technology-evp-april-arnzen-sells-434m-in-stock-93CH-4519953",
+            "image": "https://i-invdn-com.investing.com/news/Micron_800x533_L_1634733965.jpg",
             "source": "investing_au"
         },
         {
-            "title": "Australia\u2019s housing market is cooling. Perhaps our expectations should too",
+            "title": "Form 144 Lifeway Foods For: 6 July",
             "severity": "WATCH",
-            "url": "https://theconversation.com/australias-housing-market-is-cooling-perhaps-our-expectations-should-too-286549",
-            "image": "https://images.theconversation.com/files/745988/original/file-20260705-71-oo4pls.jpg?ixlib=rb-4.1.0&rect=0%2C431%2C4096%2C2048&q=45&auto=format&w=1356&h=668&fit=crop",
-            "source": "theconversation"
-        },
-        {
-            "title": "Form 4 Goodyear Tire & Rubber Co For: 6 July",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/form-4-goodyear-tire--rubber-co-for-6-july-93CH-4519470",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEA6T0M7_M.jpg",
+            "url": "https://au.investing.com/news/stock-market-news/form-144-lifeway-foods-for-6-july-93CH-4519952",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEB3R08Z_M.jpg",
             "source": "investing_au"
         },
         {
-            "title": "DRAM Prices Likely To Drop 80%-90% In 3 Years",
+            "title": "Form 4 Liquidity Services Inc For: 6 July",
             "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4920140-dram-prices-likely-to-drop-80-90-percent-in-3-years",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2203254689/image_2203254689.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "url": "https://au.investing.com/news/stock-market-news/form-4-liquidity-services-inc-for-6-july-93CH-4519947",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB5S0BT_M.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "As FIFA's riches grow, can it still protect the beautiful game?",
+            "title": "The ugly truth about outrageous housing costs? Democrats\u2019 immigration policies are to blame: report",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/fifas-riches-grow-still-protect-194028571.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/juRNKMAiN27XNdZmCjZd7w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE4MDA7aD0xMjA0O2NmPXdlYnA-/https://media.zenfs.com/en/united_press_international_articles_356/424098caebca0ae1248fe03770917878",
+            "url": "https://nypost.com/2026/07/06/opinion/democrats-immigration-policies-to-blame-for-housing-costs-report/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2FBLU_A128108756.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Walmart, Albertsons, other retailers accused of inflating gas prices",
+            "severity": "WATCH",
+            "url": "https://www.thestreet.com/retail/walmart-albertsons-other-retailers-gas-price-lawsuit-kalibrate-california-antitrust",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTA0MDE0/photo-3104014.jpg?profile=rss",
+            "source": "thestreet"
+        },
+        {
+            "title": "Emmerdale lines up dramatic showdown for Mack and Ross",
+            "severity": "WATCH",
+            "url": "https://uk.news.yahoo.com/emmerdale-lines-dramatic-showdown-mack-230100676.html",
+            "image": "https://media.zenfs.com/en/digital_spy_281/6ac883d533e04f717cac10e0ad2e1139",
             "source": "yahoo"
         },
         {
-            "title": "Zendaya radiates goddess vibes in Grecian toga dress at star-studded Odyssey world premiere",
+            "title": "Next chancellor must scrap student loans three-year threshold freeze, MPs say",
             "severity": "WATCH",
-            "url": "https://metro.co.uk/2026/07/06/zendaya-radiates-goddess-vibes-grecian-toga-dress-star-studded-odyssey-world-premiere-29068375/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/07/SEI_304287992-66c2.jpg?quality=90&strip=all",
-            "source": "metro"
+            "url": "https://www.independent.co.uk/news/uk/politics/student-loans-threshold-freeze-reeves-chancellor-treasury-b3009951.html",
+            "image": "https://static.independent.co.uk/2026/06/25/13/18/GettyImages-2203915310.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+            "source": "independentuk"
         },
         {
-            "title": "Graham Platner Hit With New Scandal: Who Is Jenny Racicot and What Are Her Allegations Against Maine Democrat?",
+            "title": "CNBC's The China Connection newsletter: What to watch for in the second half",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/us/us-news/graham-platner-hit-with-new-scandal-who-is-jenny-racicot-and-what-are-her-allegations-against-maine-democrat-article-154952611",
-            "image": "https://images.timesnownews.com/thumb/msid-154952611,thumbsize-985913,width-1280,height-720,resizemode-75/154952611.jpg",
-            "source": "timesnownews"
+            "url": "https://www.cnbc.com/2026/07/06/cnbcs-the-china-connection-newsletter-a-focus-on-ai-ipos-diplomacy.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108330578-1783301918334-gettyimages-2276638474-img_6080.jpeg?v=1783302841&w=1200&h=675",
+            "source": "cnbc"
         },
         {
-            "title": "The State Of Xbox\u2019s 25+ Game Studios And What They\u2019re Up To In 2026",
+            "title": "Which high-profile figures took legal action against the Mail publisher?",
             "severity": "WATCH",
-            "url": "https://kotaku.com/xbox-game-studios-full-list-next-games-halo-blizzard-call-of-duty-arkane-fallout-layoffs-2000712917",
-            "image": "https://kotaku.com/app/uploads/2026/07/xboxsstudiocleanupo-1280x720.jpg",
-            "source": "kotakugamerguide"
+            "url": "https://www.standard.co.uk/showbiz/celebrity-news/sadie-frost-daily-mail-elton-john-duke-of-sussex-doreen-lawrence-b1289012.html",
+            "image": "https://static.standard.co.uk/2026/07/07/00/01c91555de7066b8c0e4a168754c707bY29udGVudHNlYXJjaGFwaSwxNzgzMTY0NzM4-2.83162028.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
         },
         {
-            "title": "Inside Alex Ovechkin's Capitals return: An offseason whirlwind and the phone call that clinched it",
+            "title": "Shudder's Longest-Running Horror Franchise Adapting The Perfect Backrooms Replacement For Next Movie",
             "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7425903/2026/07/06/nhl-capitals-ovechkin-captain-return/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/07/06130708/GettyImages-2270586936-scaled.jpg",
-            "source": "theathleticuk"
+            "url": "https://screenrant.com/vhs-franchise-scp-first-movie-backrooms-replacement/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/11/the-shudder-logo-on-a-black-background.jpg",
+            "source": "screenrant"
         },
         {
-            "title": "D-FW Afghan man who died in ICE custody in March suffered an allergic reaction, death certificate shows",
+            "title": "Alberta anti-coal mining group looks into legal options after citizen petition fails",
             "severity": "WATCH",
-            "url": "https://www.dallasnews.com/news/immigration/article/afghan-soldier-ice-death-certificate-22334198.php",
-            "image": "https://s.hdnux.com/photos/01/66/34/40/31049774/3/rawImage.jpg",
-            "source": "dallasnews"
+            "url": "https://globalnews.ca/news/11955440/water-not-coal-corb-lund-frustrated-citizen-petition-fails/",
+            "image": "https://globalnews.ca/wp-content/uploads/2025/12/corb-lund-zoom_1-2.jpg?quality=65&strip=all",
+            "source": "globalnews"
         },
         {
-            "title": "SIT cites 70 instances of theft involving 6 accused over 40 days",
+            "title": "Bali rule every Aussie should know about as authorities crack down: 'It's illegal'",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/lucknow/sit-cites-70-instances-of-theft-involving-6-accused-over-40-days/articleshow/132225156.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
+            "url": "https://www.dailymail.com/news/article-15955327/indonesia-bali-tourist-visa-social-media-content-law.html",
+            "image": "https://i.dailymail.com/1s/2026/07/06/23/109839731-0-image-a-8_1783376496655.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "48 hours without power, 5-ft floods bring Vasai-Virar to a halt",
+            "title": "Cristiano Ronaldo\u2019s latest World Cup failure leaves one predictable regret",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/mumbai-news/48-hours-without-power-5-ft-floods-bring-vasai-virar-to-a-halt-101783366121885.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/06/1600x900/logo/-p-48-hours-without-power--5-ft-floods-bring-Vasai_1783366118269.jpeg",
-            "source": "hindustantimes"
+            "url": "https://uk.sports.yahoo.com/news/cristiano-ronaldo-latest-world-cup-222925434.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/uoHykEXe1E1kR5CrjVSTYg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_independent_577/79a8fc84d618ec414d4393f67fdb7680",
+            "source": "yahoo"
         },
         {
-            "title": "SIT flags \u2018supervisory failures\u2019 in Ram temple\u2019s donation counting room",
+            "title": "Man killed, another person injured in shooting near north Austin shopping center with history of crime, TABC violations",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/india-news/sit-flags-supervisory-failures-in-ram-temple-s-donation-counting-room-101783365238693.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2024/12/18/1600x900/India_2_1734523561438_1734523594722.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.kxan.com/news/local/austin/man-killed-another-person-injured-in-shooting-near-south-austin-shopping-center-with-history-of-crime-tabc-violations/",
+            "image": "https://www.kxan.com/wp-content/uploads/sites/40/2026/07/IMG_1496-1.jpg?w=900",
+            "source": "kxan"
         },
         {
-            "title": "Lawyer-police altercation spills into criminal case",
+            "title": "Bruno Fernandes and Diogo Dalot suffer World Cup heartbreak as Portugal bow out",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/rajkot/lawyer-police-altercation-spills-into-criminal-case/articleshow/132224957.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "NGT probes alleged commercial use of diverted Jaipur forest land",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/jaipur/ngt-probes-alleged-commercial-use-of-diverted-jaipur-forest-land/articleshow/132224832.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
+            "url": "https://sports.yahoo.com/articles/bruno-fernandes-diogo-dalot-suffer-221000343.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/1eb40774a2c1410df8f204d71960150643615e4ad9d0ab3496860e803c74d4ee/lightyear_networkapi/resizefit_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_peoples_person_articles_356%2Fe379fb0c45548b9f157b9cdbb0bd00b7",
+            "source": "yahoo"
         }
     ],
-    "Last_Updated": "2026-07-07T07:49:22.974505Z"
+    "Last_Updated": "2026-07-07T11:14:18.799649Z"
 }
