@@ -1,209 +1,309 @@
 {
-    "AGRI_Score": 57.6,
-    "Velocity": "+1.3",
+    "AGRI_Score": 61.2,
+    "Velocity": "+3.6",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The overall AGRI score of 61.2 reflects heightened global risk primarily driven by escalating geopolitical conflict in the Middle East and its immediate impact on energy markets. \"US vows 'heavy costs', strikes over 80 Iran targets\" and \"Iran warns of 'decisive action', calls US oil waiver revocation a 'clear violation'\" highlight a dangerous cycle of attacks and retaliations, directly fueling fears of broader conflict. This military escalation has led to significant \"Oil Price Today (July 8): Crude oil tops 5% in two days as \u2018powerful\u2019 US strikes on Iran revive supply fears,\" indicating substantial Energy & Maritime Disruption. This geopolitical tension is also threatening broader economic stability as \"Markets Likely To Open Lower Amid Renewed Conflict In Middle East.\"",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 73.5,
-        "Energy & Maritime Disruption": 55.4,
-        "Trade & Supply Chain Stress": 67.6,
+        "Geopolitical Conflict Intensity": 77.1,
+        "Energy & Maritime Disruption": 61.9,
+        "Trade & Supply Chain Stress": 66.1,
         "Sovereign Financial Stress": 54.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.9,
-        "Cyber & Infrastructure Threats": 59.8,
+        "Sanctions & Regulatory Fragmentation": 68.1,
+        "Cyber & Infrastructure Threats": 71.9,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar is critically elevated due to direct military confrontation between the US and Iran following the 'Hormuz attacks.' News headlines like 'US Hits Iran With 'Series Of Powerful Strikes' After Hormuz Ship Attacks; Tehran Retaliates' confirm active hostilities and a significant escalation of regional tensions.",
+        "Energy & Maritime Disruption": "The ongoing military actions in the Middle East have directly impacted global energy supplies, with 'Oil prices extend rally as US strikes on Iran revive geopolitical fears' pushing crude oil prices significantly higher. Furthermore, 'US airlines\u2019 spent over $6 billion on monthly fuel in May amid Iran war \u2014 up 84% from year ago' demonstrates the tangible economic burden of this disruption.",
+        "Trade & Supply Chain Stress": "Increased energy costs resulting from the Middle East conflict are imposing new pressures on global trade and supply chains. Rising fuel expenses, as evidenced by 'US airlines\u2019 spent over $6 billion on monthly fuel in May amid Iran war,' will inevitably translate into higher transportation costs and potential delays for goods worldwide.",
+        "Sovereign Financial Stress": "Global markets are reacting negatively to the geopolitical escalation, with 'Markets Likely To Open Lower Amid Renewed Conflict In Middle East' signaling investor apprehension. While not critically high, 'Asia stocks steady as AI chip shares rebound, but geopolitical risks cap gains' indicates that these risks are actively preventing broader market growth.",
+        "Currency & Liquidity Pressure": "The renewed conflict in the Middle East is creating a risk-off environment, which can lead to capital flight and pressure on emerging market currencies. Although direct currency impacts are not explicitly detailed in the feed, the general market unease as 'geopolitical risks cap gains' suggests potential for future liquidity tightening.",
+        "Sanctions & Regulatory Fragmentation": "The 'US revocation of oil sanctions waiver' against Iran is a significant driver of this pillar's high score, intensifying economic pressure and regulatory complexity. Iran's condemnation, stating it is a 'Clear violation of MoU,' signals a further breakdown in diplomatic and economic agreements.",
+        "Cyber & Infrastructure Threats": "The provided news feed does not contain specific headlines directly related to cyber or infrastructure attacks. However, heightened geopolitical conflict often increases the probability of state-sponsored cyber operations targeting critical infrastructure, suggesting an elevated threat environment despite the lack of immediate reports.",
+        "Climate & Resource Shock": "This pillar currently reflects routine monitoring, with the provided news feed containing no information regarding significant climate events or resource shocks. The score suggests that current global climate or resource disruptions are not a primary driver of overall risk at this time."
+    },
     "All_Alerts": [
         {
-            "title": "U.S. launches new strikes against Iran after three ships were hit in Strait of Hormuz",
+            "title": "You can still watch World Cup matches at these Seattle watch parties - The Seattle Times",
             "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/world/mideast-conflict/article/us-launches-new-strikes-against-iran-after-three-ships-were-hit-in-strait-of-hormuz/",
-            "image": "https://www.ctvnews.ca/resizer/v2/3JBPO3V3PLXQLCIDDDZT3WUG24.jpg?auth=76345c3974a87b0e6340e9a19f53d2ee13e655fc5f7a397de6398c7535e4f9e6&smart=true&width=1400&height=933",
-            "source": "ctvnews"
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTU5yRjd5OHZBVnVhZWdoU3JBTVlvZzA4WVdjT1dEVzRtbERMNm14TFo2V3RQR0QyYXV0dGI1QWhqSzBJWEdTRnI4TWcybXNnWldERHgtWmZaVGpFT1dUNFg0aXpvMUwtQXZSLUJSeFJzZkxoRm5uMkpZeUM5aWMyWWtwWktRRUNMdGZuTUMwQ1Mtb0N6REhDQjBaZjZvZ0VXS21DcGxBUVB1X08zUjVFS0tWWjRFaVFpNGVtWkJ2YjlydmtYdE8zZmhn?oc=5",
+            "image": "https://images.pexels.com/photos/30030072/pexels-photo-30030072.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "US launches 'powerful' strikes on Iran after Hormuz attacks",
+            "title": "Oil prices extend rally as US strikes on Iran revive geopolitical fears",
             "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/us-military-launches-strikes-against-iran-central-command-says-article-13968396.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260707213543_Strikes.jpg",
+            "url": "https://sg.finance.yahoo.com/news/oil-prices-extend-rally-us-022604932.html",
+            "image": "https://media.zenfs.com/en/afp.com.sg/dc3dc021fc107f80f481f14068e14dc5",
+            "source": "yahoo_sg"
+        },
+        {
+            "title": "Psychology says you might be jinxing your own goals by talking about them too soon, why announcing your plans can reduce motivation",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/canada/psychology-says-you-might-be-jinxing-your-own-goals-by-talking-about-them-too-soon-why-announcing-your-plans-can-reduce-motivation/articleshow/132255153.cms",
+            "image": "https://img.etimg.com/thumb/msid-132257196,resizemode-4,width-1200,height-900,imgsize-1915367,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "US vows 'heavy costs', strikes over 80 Iran targets in Qeshm, Bandar Abbas after Hormuz attacks | Watch",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/world/us-vows-heavy-costs-strikes-over-80-iran-targets-in-qeshm-bandar-abbas-after-hormuz-attacks-watch-article-13968446.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260708022319_bandar-abbas.png",
             "source": "moneycontrol"
         },
         {
-            "title": "Officials say contractors can begin stabilizing NYC high-rise after interior columns buckled",
+            "title": "Stock Market LIVE Updates, Sensex Today: Markets Likely To Open Lower Amid Renewed Conflict In Middle East",
             "severity": "HIGH",
-            "url": "https://www.nbcnews.com/video/officials-say-contractors-can-begin-stabilizing-nyc-high-rise-after-interior-columns-buckled-266334789713",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1783462907955_now_hallie_manhattan_building_unstable_260707_S3_1920x1080-gr6mn4.jpg",
-            "source": "nbcnews"
+            "url": "https://www.ndtv.com/business-news/stock-market-sensex-share-market-nifty-live-updates-today-8-july-us-iran-war-oil-prices-11741745",
+            "image": "https://c.ndtvimg.com/2026-07/6mmevo34_share-market-update-_625x300_03_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
         },
         {
-            "title": "South India transporters warn of flash strike on July 20",
+            "title": "US releases video of Iran strikes, says more than 80 targets hit",
             "severity": "HIGH",
-            "url": "https://www.deccanherald.com/india/karnataka/south-india-transporters-warn-of-flash-strike-on-july-20-4065750",
-            "image": "https://media.assettype.com/deccanherald/2026-07-07/dj5xiyl7/iStock-2271767354.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
+            "url": "https://gulfnews.com/world/mena/us-releases-video-of-iran-strikes-says-more-than-80-targets-hit-1.500600505",
+            "image": "https://media.assettype.com/gulfnews/2026-07-08/p061x66m/nn.PNG?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
         },
         {
-            "title": "Bumblebees collect up to 7 times more toxic metals than honeybees",
+            "title": "Oil Price Today (July 8): Crude oil tops 5% in two days as \u2018powerful\u2019 US strikes on Iran revive supply fears. What\u2019s unfolding?",
             "severity": "HIGH",
-            "url": "https://www.sciencedaily.com/releases/2026/07/260707025044.htm",
-            "image": "https://www.sciencedaily.com/images/1920/bumblebee-flower-macro.webp",
-            "source": "sciencedaily"
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-july-8-crude-oil-tops-5-in-two-days-as-powerful-us-strikes-on-iran-revive-supply-fears-whats-unfolding/articleshow/132251800.cms",
+            "image": "https://img.etimg.com/thumb/msid-132251792,resizemode-4,width-1200,height-900,imgsize-83072,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Oil Jumps on Iran Attack, Asian Stocks Set to Drop: Markets Wrap - Bloomberg.com",
+            "title": "America\u2019s WWII veterans are almost gone: How many World War II soldiers are still alive today?",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWVQtaEVKRHlPRXhIemJ0WElRcjIydmxfX1MzTm1MXzhBeGh5MXRYUFlmUlRxTWJ2eURZc3hDSmFId0VaVTIyZEJxRkp6MHZWUGpzcHpQN0xEbEFLWUlWUC1rbVM4LXUtNWtRUjN6cmtfVkNSdjYxLVpjVkgxbVRYcGktZVhRbjE2MWdmbmFzaUQ4TUVpMHItTHR3cFU3elRSTUp0a0VDV3BjRUtXN00yZGh3aw?oc=5",
-            "image": "https://images.pexels.com/photos/18784617/pexels-photo-18784617.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://economictimes.indiatimes.com/us/news/americas-wwii-veterans-are-almost-gone-how-many-world-war-ii-soldiers-are-still-alive-today/articleshow/132256935.cms",
+            "image": "https://img.etimg.com/thumb/msid-132257000,resizemode-4,width-1200,height-900,imgsize-79358,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Iranian President Masoud Pezeshkian leaves Iraq for Tehran after US strikes",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/iranian-president-masoud-pezeshkian-leaves-iraq-for-tehran-after-us-strikes/articleshow/132251550.cms",
+            "image": "https://img.etimg.com/thumb/msid-132251827,resizemode-4,width-1200,height-900,imgsize-89320,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "US airlines\u2019 spent over $6 billion on monthly fuel in May amid Iran war \u2014 up 84% from year ago",
+            "severity": "HIGH",
+            "url": "https://nypost.com/2026/07/07/business/us-airlines-spent-over-6-billion-on-monthly-fuel-in-may-up-84-from-year-ago/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2Famerican-eagle-plane-parked-gate-133674681.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Judge rules contracts can be partially unsealed in AEW-Ryan Nemeth arbitration case - F4W/WON",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ1FuR0RjSEhqOW55akhWSUtUYVZjMzBsVV9hYkVvSE1fWkFCbzRDT24yS1hqQ014cDJwcGQ4ek15Z0thZVdPNmdrcWt4RzR3MHVqdFR4anlwZTBkT0djZGpqYlc3TlJhdnZvVUVma0lhQXVpVFpxY1VSY2xjSDN1SllfT3kwTEtqVEFjU2VfaHJCTF9ScXFZaS1HaEtyMkd3QU5NczVjNVphRk8yRFhUdjRVYXpnbzNZbk1V?oc=5",
+            "image": "https://images.pexels.com/photos/16574945/pexels-photo-16574945.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "US Renews Strikes On Iran After Vessels Hit In Hormuz Strait",
+            "title": "US Hits Iran With 'Series Of Powerful Strikes' After Hormuz Ship Attacks; Tehran Retaliates",
             "severity": "HIGH",
-            "url": "https://www.rferl.org/a/us-renews-strikes-on-iran-vessels-hit-hormuz-strait/33798855.html",
-            "image": "https://gdb.rferl.org/99ec4564-4c5f-4276-8359-8d738f2fe4d1_w800_h450.jpg",
-            "source": "rferl"
+            "url": "https://www.news18.com/world/us-hits-iran-with-series-of-powerful-strikes-after-hormuz-ship-attacks-tehran-retaliates-ws-l-10196533.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/07/us-strikes-iran-2026-07-22c073710f222b2d33f97c9cb9322680-1200x800.png",
+            "source": "news18"
         },
         {
-            "title": "Accenture confirms breach after hacker offers stolen data for sale - BleepingComputer",
+            "title": "\u2018We don\u2019t fold\u2019: Iran targets US military sites after wave of attacks",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaHpHaloxUjdYU1Vqb013bk40LUMzUmc0REV2cC03NEF5TVRSTzRRajNvTjNXSEZEbDNOOUFCWTB5aU1TU3lJV2VQNG05aW1JSU9aMGliZm9KcE1rSzB4cnE4WS1pb21kcGZkM3pxWHAzLXlqSC15ek9ycVM2NTYwbktLR1dlQWVuUWhkNldjMFJSTEhWeThNUmVaTjJKSEdqVFlRMGpXalV2TkFuQTBFOHk5MDXSAboBQVVfeXFMUENGV25FcE9RYzhzc3F2ckpfMmdnOWVybUlISkEwVndXNGZRNWJVLWhFQ1BoX0M5d0tvcU9BWWNTd1AyOW1lOHI4cGpvdnFiT3drbFJISGYyZFlMTFZDa1J5ZUluUjdEbVdNWDRqMDVfLXMyQzR4eVFyRDVwSVFvZU95cmxjOEtWM3JOcGpaWll0TUUtQmZySWpkVzJCaDYxczRmcTNxcnJUWGtBQmtMbXN4X3lPRGtCYnBn?oc=5",
-            "image": "https://images.pexels.com/photos/11565603/pexels-photo-11565603.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.news24.com/world/we-dont-fold-iran-targets-us-military-sites-after-wave-of-attacks-20260708-0310",
+            "image": "https://news24cobalt.24.co.za/resources/02a7-210d76408ada-73cd57e6321f-1000/format/inline/iran8.jpeg",
+            "source": "news24"
         },
         {
-            "title": "US launches new strikes against Iranian targets",
+            "title": "Clear violation of MoU: Iran condemns US revocation of oil sanctions waiver",
             "severity": "HIGH",
-            "url": "https://www.wmur.com/article/us-new-strikes-iran-oman-hormuz/71858092",
-            "image": "https://kubrick.htvapps.com/htv-prod/images/8861e890-eda2-440b-931f-96de58c6a03e.jpg",
-            "source": "wmur"
+            "url": "https://www.business-standard.com/world-news/clear-violation-of-mou-iran-condemns-us-revocation-of-oil-sanctions-waiver-126070800106_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/23/full/1779555500-169.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "Middle East crisis live: US military launches strikes against Iran in retaliation over attacks on commercial vessels",
+            "title": "Iran warns of 'decisive action', calls US oil waiver revocation a 'clear violation'",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/world/live/2026/jul/07/us-military-strikes-iran-war-latest-news-updates",
-            "image": "https://i.guim.co.uk/img/media/83b5d0d96b74845309f6befc73cf50e1a81c581d/597_0_8736_6988/master/8736.jpg?width=140&quality=85&auto=format&fit=max&s=30d423d7b3d76efc6c3fe7c7152a8d6b",
-            "source": "theguardiantheguardian"
+            "url": "https://www.moneycontrol.com/world/iran-condemns-us-revocation-of-oil-sanctions-waiver-calls-it-clear-violation-of-islamabad-mou-article-13968442.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260623163936_oil.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Yoaz Hendel\u2019s Reservists teams up with ex-minister Chili Tropper ahead of election",
-            "severity": "MEDIUM",
-            "url": "https://www.timesofisrael.com/yoaz-hendels-reservists-teams-up-with-ex-minister-chili-tropper-ahead-of-election/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/07/F260707FFF0007.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Enerpac Tool Group Reports Third Quarter Fiscal 2026 Results*",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/07/07/3323753/0/en/Enerpac-Tool-Group-Reports-Third-Quarter-Fiscal-2026-Results.html",
-            "image": "https://images.pexels.com/photos/35102453/pexels-photo-35102453.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "'It's a big gap' \u2013 Tadej Pogac\u030car predicts it could be a long time before he wears the Tour de France yellow...",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/big-gap-tadej-poga-ar-222247162.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/73bc071067d875469e2050f86f761f8ba324e9bc9e3c45c867a5ef84619de52b/lightyear_networkapi/resizefit_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcycling_weekly_434%2Fa2457d04eb0b8c1eba7a168a81e61316",
-            "source": "yahoo"
-        },
-        {
-            "title": "Generac Holdings president Taffe sells $140,800 in stock",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/generac-holdings-president-taffe-sells-140800-in-stock-93CH-4522324",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEM4B0TB_1200_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Form 4 Amplitude Inc For: 7 July",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/form-4-amplitude-inc-for-7-july-93CH-4522327",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEM3810S_1200_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "6 Worst R-Rated 2000s Comedy Movies That Are Truly 0/10",
-            "severity": "WATCH",
-            "url": "https://collider.com/worst-r-rated-2000s-comedy-movies-ranked/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2024/04/freddy-got-fingered-still.jpg",
-            "source": "collider"
-        },
-        {
-            "title": "Insta360 X6 camera set to launch, FCC filing suggests",
-            "severity": "WATCH",
-            "url": "https://mashable.com/tech/insta360-x6-360-degree-camera-fcc-filings-launch-announcement-soon",
-            "image": "https://helios-i.mashable.com/imagery/articles/06Rp890jxRin28oUC9AL5ST/hero-image.fill.size_1200x675.v1783459286.jpg",
-            "source": "mashable_us"
-        },
-        {
-            "title": "Zoom to buy Seattle AI startup - Tue, 07 Jul 2026 PST",
-            "severity": "WATCH",
-            "url": "http://www.spokesman.com/stories/2026/jul/07/zoom-to-buy-seattle-ai-startup/",
-            "image": "https://thumb.spokesman.com/6lG-YhXaBYFg1GKrXJO03DGG4F8=/2500x1405/smart/media.spokesman.com/photos/2026/07/07/6a4d8a80e534a.hires.jpg",
-            "source": "spokesman"
-        },
-        {
-            "title": "Messi taps into his seemingly endless supply of brilliance in Argentina win - The Globe and Mail",
-            "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPS0xnaTRkN184Yk5sSHgyWHNlU0pKbXM1MmQ2SERGMnktSm94d2J2TW5kVnhZN2s1Mzc5UXBGa1YtbDZSdUlhX19wdVc4SVpfSldOLWFzamMyR3FPeTVDLUxTUW1jQ2hSQXVvLWxBVG40UGpKY0twczlLNDZkcnZReE1TZmIxRk1TV1V6RzNaWW5KVG5QWnBXQS1LandObzZudlEzM29HQ2sxUTg1RkNV?oc=5",
-            "image": "https://images.pexels.com/photos/12231821/pexels-photo-12231821.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Corner shops fight back against recycling scheme that is 'crippling' them as they lose money due to costs of providing service - while Re-Turn firm held over 60million euro in unclaimed deposits in one year alone",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15960701/Corner-shops-fight-against-recycling-scheme-crippling-lose-money-costs-providing-service-Turn-firm-held-60million-euro-unclaimed-deposits-one-year-alone.html",
-            "image": "https://i.dailymail.com/1s/2026/07/07/22/109865809-0-image-a-10_1783461337137.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Kratos\u2019 Oklahoma Drone Buildout Could Be A Game Changer For Kratos Defense & Security Solutions (KTOS)",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/kratos-oklahoma-drone-buildout-could-221008350.html",
-            "image": "https://media.zenfs.com/en/simply_wall_st__316/304a69d71df45e5e706d5a1c8bc92e3f",
-            "source": "yahoo"
-        },
-        {
-            "title": "Global dairy prices slump 4.9% in biggest fall in two years as supply surges",
-            "severity": "WATCH",
-            "url": "https://www.nzherald.co.nz/the-country/news/global-dairy-prices-slump-49-in-biggest-fall-in-two-years-as-supply-surges/TVERYHL76FEFPOJPV5KXZTN4PA/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/OLKCECI3FCS6XHLOKMX3PX5AAQ.jpg?auth=d1bf43a49cf6594595ca045f07d326dac07275940bdfda0c6d83eb996e035dc1&smart=true&width=300&height=300",
-            "source": "nzherald"
-        },
-        {
-            "title": "AI stocks sink and drag markets lower worldwide",
-            "severity": "WATCH",
-            "url": "https://www.adn.com/nation-world/2026/07/07/ai-stocks-sink-and-drag-markets-lower-worldwide/",
-            "image": "https://www.adn.com/resizer/2H1GMsyDq9McojlkUbQtmWqkJ10=/cloudfront-us-east-1.images.arcpublishing.com/adn/SC2KW2MRO3TKCJZMUJHVADFQIE.jpg",
-            "source": "adn"
-        },
-        {
-            "title": "The time changed for this pop-punk band\u2019s show at KC\u2019s FIFA Fan Fest. Here\u2019s when",
-            "severity": "WATCH",
-            "url": "https://www.kansascity.com/sports/fifa-world-cup/article316419828.html",
-            "image": "https://www.kansascity.com/public/latest-news/ck8hdd/picture316390829/alternates/FREE_1140/KCM_SVB_070426_Stars_And_Stripes_Picnic-37.JPG",
-            "source": "kansascity"
-        },
-        {
-            "title": "Commentary: World Cup credibility in question after FIFA U-turn following Trump call",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/commentary/world-cup-fifa-trump-folarin-balogun-belgium-us-6237751",
-            "image": "https://dam.mediacorp.sg/image/upload/s--amoXmCiZ--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-07-07T022921Z_1_LYNXMPEM6603R_RTROPTP_3_SOCCER-WORLDCUP-USA-BEL.JPG?itok=Nqy6WZ8X",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Toronto Police corruption case involving Barrie father and son fast-tracked",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/barrie/article/toronto-police-corruption-case-involving-barrie-father-and-son-fast-tracked/",
-            "image": "https://www.ctvnews.ca/resizer/v2/HOOYPDG27ZFR5OOCKJWTSIGGAY.png?auth=a3be8563091930162786c8b967058731fc499b4a3e7d064a8b0ee2ed41868620&smart=true&width=1920&height=1080",
+            "title": "U.S. strikes Iran as Trump meets with NATO leaders in Turkiye",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/world/article/us-strikes-iran-as-trump-meets-with-nato-leaders-in-turkiye/",
+            "image": "https://www.ctvnews.ca/resizer/v2/EMIZ4VUJDPWH77XME4GSK2FFZI.jpg?auth=a50d5a96c1a547e33ef2db9cfda4521275966a989eadd2efb118147c1485f063&smart=true&width=1400&height=933",
             "source": "ctvnews"
         },
         {
-            "title": "Lagos court grants Peller \u20a6500k bail after police clash at Lekki",
+            "title": "West Asia War LIVE: U.S. strikes Iran after Hormuz attacks",
+            "severity": "HIGH",
+            "url": "https://www.thehindu.com/news/international/us-iran-war-live-updates-after-iran-strikes-strait-of-hormuz-donald-trump-netanyahu-mojtaba-lebanon-hezboallah-peace-deal/article71196409.ece",
+            "image": "https://th-i.thgim.com/public/incoming/9qrmeu/article71196408.ece/alternates/FREE_1200/2026-07-01T093726Z_1153167832_RC254MAEYBTP_RTRMADP_3_IRAN-CRISIS-SHIPPING-FEES.JPG",
+            "source": "thehindu"
+        },
+        {
+            "title": "Watch: US unleashes massive 'punishment' strikes on Iran as Middle East tensions flare",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/world/middle-east/watch-us-unleashes-massive-punishment-strikes-on-iran-as-middle-east-tensions-flare/articleshow/132251652.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132251708/132251708.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Video: Elderly Woman's Intense Workout In At Bengaluru Park Sparks Safety Debate",
+            "severity": "MEDIUM",
+            "url": "https://www.ndtv.com/offbeat/video-elderly-womans-intense-workout-in-at-bengaluru-park-sparks-safety-debate-11741780",
+            "image": "https://c.ndtvimg.com/2026-07/ojb37n04_video-womans-intense-workout-in-at-bengaluru-park-sparks-safety-debate_625x300_08_July_26.jpeg",
+            "source": "ndtv"
+        },
+        {
+            "title": "Asia stocks steady as AI chip shares rebound, but geopolitical risks cap gains",
+            "severity": "MEDIUM",
+            "url": "https://au.investing.com/news/stock-market-news/asia-stocks-steady-as-ai-chip-shares-rebound-but-geopolitical-risks-cap-gains-4522468",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB940MS_M.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "El-Sayed, Stevens tangle in Michigan Democratic Senate debate: Key takeaways",
+            "severity": "MEDIUM",
+            "url": "https://thehill.com/homenews/campaign/5958082-el-sayed-stevens-michigan-democratic-senate-debate-takeaways/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/07/The-Hill-Graphics-2.png?w=900",
+            "source": "thehill"
+        },
+        {
+            "title": "Q1FY27 earnings preview: Oil & gas, aviation brace for crude impact",
+            "severity": "MEDIUM",
+            "url": "https://www.business-standard.com/markets/news/q1fy27-earnings-preview-oil-gas-aviation-brace-for-crude-impact-126070701114_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/07/full/1783432684-8883.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Nifty reverts from 200-DEMA; focus on key supports amid US strikes on Iran",
             "severity": "WATCH",
-            "url": "https://www.legit.ng/entertainment/celebrities/1718112-court-grants-tiktoker-peller-n500k-bail-arraignment-police-clash/",
-            "image": "https://cdn.legit.ng/images/1200x675/4e588b1e8b1cdd63.jpeg?v=1",
-            "source": "legit"
+            "url": "https://www.business-standard.com/markets/news/nifty-reverts-from-200-dema-focus-on-key-supports-amid-us-strikes-on-iran-126070800152_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-04/17/full/1776414298-5245.jpeg",
+            "source": "business-standard"
+        },
+        {
+            "title": "News Live: Indian Navy secures safe passage for crude oil tanker Omega Trader carrying 15 Indian crew",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/india/breaking-news-live-updates-pm-modi-australia-visit-delhi-bjp-congress-weather-mumbai-rains-july-8-liveblog-13968471.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/12/20251219170440_oil-tanker-49.png",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "After deadly Gabriel House fire, Fall River demo aims to show how recalled sprinkler heads failed",
+            "severity": "WATCH",
+            "url": "https://www.wcvb.com/article/after-deadly-gabriel-house-fire-fall-river-demo-aims-to-show-how-recalled-sprinkler-heads-failed/71858070",
+            "image": "https://kubrick.htvapps.com/htv-prod/images/0283fc63-b9d3-40d1-8a38-ac232ee2d2c6.jpg",
+            "source": "wcvb"
+        },
+        {
+            "title": "Massive kava haul seized by police after tip off",
+            "severity": "WATCH",
+            "url": "https://au.news.yahoo.com/massive-kava-haul-seized-police-022422507.html",
+            "image": "https://media.zenfs.com/en/aap.com.au/91917104d3e51f551b7027a01643ed85",
+            "source": "yahoo"
+        },
+        {
+            "title": "Benoit St. Denis breaks silence on UFC 329 fight scare",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/benoit-st-denis-breaks-silence-022638450.html",
+            "image": "https://s.yimg.com/cv/apiv2/sports/share/PD_010626-Social_Share_GENRIC_YAHOO_SPORTS-1200x630.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Alpha box office collection day 5: Alia Bhatt, Sharvari film sees surprising midweek jump, closes in on \u20b950 crore",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/alpha-box-office-collection-day-5-alia-bhatt-sharvari-film-sees-midweek-jump-closes-in-on-50-crore-yrf-spy-universe-101783477226132.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/08/1600x900/logo/alpha_1783268870713_1783268870870_09e55204-d5a2-4576-ba5e-86b4f68ac5e2_1783477414290_1d3fd524-7a93-4489-9e66-0c1b38bb0945.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Netflix Quietly Created the Most Bingeable True Crime Franchise on Streaming",
+            "severity": "WATCH",
+            "url": "https://collider.com/netflix-worst-neighbor-ever-jason-blum-true-crime-series/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/aaaaqx-gpoqs4mxuc_xyjgrrwugejh5pzktlb_dmwsbxf6bhiiqgf1ybrlftrhpc818ksr49g9ylk6us15akuixedyq6ap8u61yl7ryac68yudwsg4ypizqfzploovsdvvkelj0m2wt7-ojtlavn8lwxl7mopyk.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "Petrol, Diesel Prices Today July 8: Check Latest Fuel Rates in Delhi, Mumbai & More",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/india/petrol-diesel-prices-today-july-8-check-latest-fuel-rates-in-delhi-mumbai-and-more-articleshow-xptbtyd",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01kmprj2w7mtntgjf53at82e4x,imgname-india-cuts-excise-duty-on-petrol-diesel-amid-iran-war-crude-oil-price-surge-hormuz-crisis-fuel-price-impact-5--2--1774585449351.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Nearly RM600mil set aside to boost rice self-sufficiency ratio, Dewan Rakyat told",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/news/nation/2026/07/08/nearly-rm600mil-set-aside-to-boost-rice-self-sufficiency-ratio-dewan-rakyat-told",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/08/3998281.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Chennai Power Cut Today: Electricity Supply to Be Suspended in These Areas Till 2 PM on July 8",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/chennai/chennai-power-cut-today-electricity-supply-to-be-suspended-in-these-areas-till-2-pm-on-july-8-article-154975472",
+            "image": "https://images.timesnownews.com/thumb/msid-154975459,thumbsize-1937951,width-1280,height-720,resizemode-75/154975459.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Video: Thick Orange Smoke Billows Over Iran's Bandar Abbas After Fresh US Strikes",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/world/iran-bandar-abbas-us-airstrikes-oil-prices-tehran-trump-iran-hormuz-10196530.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/07/bandar-abbas-edtt-2026-07-c395d15ac338e35102d25691b4a70267-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Behind the Numbers: What Every Investor Should Know About an Earnings Catalyst",
+            "severity": "WATCH",
+            "url": "https://equity-insider.com/behind-the-numbers-what-every-investor-should-know-about-an-earnings-catalyst/",
+            "image": "https://equity-insider.com/wp-content/uploads/2026/07/earnings-catalyst-5.jpg",
+            "source": "equity_insider"
+        },
+        {
+            "title": "Pakistan's Indus entreaties to the West hold little water",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/opinion/pakistans-indus-entreaties-to-the-west-hold-little-water-101783437065000.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/07/1600x900/logo/Pakistan-s-water-resources-secretary-Syed-Ali-Murt_1749235994656_1783437611699_4b0e31d3-8e40-4c24-9502-3c06519714f1.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Orchid Pharma shares in focus on Russia licensing pact for Exblifep",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/markets/orchid-pharma-shares-in-focus-on-russia-licensing-pact-for-exblifep-13968259.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2022/10/pharma_injection.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "SpaceX shares slipped despite Nasdaq-100 inclusion",
+            "severity": "WATCH",
+            "url": "https://www.theglobeandmail.com/business/article-spacex-shares-slipped-despite-fast-entry-to-nasdaq-100/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/FXPT6WMLP5GRVOT7DLODCKPRXA.jpg?auth=85786f49e601d73d3636e5c4202c61cbd7642495a6de158fb9fecbd2ed5e3119&smart=true&width=5408&height=3605",
+            "source": "theglobeandmail"
+        },
+        {
+            "title": "Qld business fined $1,200 after sparking million-dollar fire ant scare",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-07-08/fire-ants-penalties-fines-biosecurity/106891226",
+            "image": "https://live-production.wcms.abc-cdn.net.au/50cb5020e4b9a9ccce316963a8be4c9c?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=469&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "AmaBhungane | Aviation couple milked millions from the National Skills Fund",
+            "severity": "WATCH",
+            "url": "https://www.news24.com/business/companies/amabhungane-aviation-couple-milked-millions-from-the-national-skills-fund-20260707-1082",
+            "image": "https://news24cobalt.24.co.za/resources/02a7-210c878dbcba-9a078bd68633-1000/format/inline/flyfofa-header.jpeg",
+            "source": "news24"
+        },
+        {
+            "title": "Income Tax Cash Rules 2026: 8 Limits You Must Know",
+            "severity": "WATCH",
+            "url": "https://www.ndtvprofit.com/personal-finance/income-tax-cash-rules-2026-from-rs-2-lakh-receipts-to-property-deals-8-limits-you-must-know-11738399",
+            "image": "https://c.ndtvimg.com/2026-06/u1eu7msc_rupee-pexels-_625x300_26_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1600,height=900",
+            "source": "ndtv"
         }
     ],
-    "Last_Updated": "2026-07-08T10:24:25.871927Z"
+    "Last_Updated": "2026-07-08T14:28:16.002676Z"
 }
