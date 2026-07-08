@@ -1,267 +1,209 @@
 {
-    "AGRI_Score": 56.3,
-    "Velocity": "-0.1",
+    "AGRI_Score": 57.6,
+    "Velocity": "+1.3",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 56.3/100 reflects an elevated risk environment, primarily driven by persistent Geopolitical Conflict Intensity and significant Cyber & Infrastructure Threats. Military posturing, evidenced by \"NATO unveils billions in arms deals to prove its firepower\" and the general readiness implied by \"Restored WWII fighter plane tests out .50 caliber machine guns,\" contributes to the high geopolitical score. Concurrently, the proliferation of \"Cyber Crime\" and reports of a \"$350,000 data breach settlement\" highlight severe digital vulnerabilities, while physical infrastructure concerns like a \"Midtown NYC building \u2018shifting\u2019 and in danger of \u2018localized collapse\u2019\" further compound risk.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 79.4,
-        "Energy & Maritime Disruption": 51.2,
-        "Trade & Supply Chain Stress": 66.7,
+        "Geopolitical Conflict Intensity": 73.5,
+        "Energy & Maritime Disruption": 55.4,
+        "Trade & Supply Chain Stress": 67.6,
         "Sovereign Financial Stress": 54.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 53.5,
-        "Cyber & Infrastructure Threats": 61.6,
-        "Climate & Resource Shock": 25
+        "Sanctions & Regulatory Fragmentation": 58.9,
+        "Cyber & Infrastructure Threats": 59.8,
+        "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is significantly elevated due to continued military developments and international posturing. News such as \"NATO unveils billions in arms deals to prove its firepower\" underscores an active environment of defense spending and readiness, while \"Restored WWII fighter plane tests out .50 caliber machine guns\" points to a broader military-industrial focus.",
-        "Energy & Maritime Disruption": "This pillar presents a moderate risk, with new energy infrastructure developments providing some long-term balancing against potential disruptions. The \"U.S. company plans $1.2 billion Argentina nuclear reactor\" indicates investment in energy supply, while \"Independence hits pause on future data centers\" suggests localized reassessments of energy demand and infrastructure planning.",
-        "Trade & Supply Chain Stress": "Elevated stress persists due to large-scale industrial projects and potential shifts in infrastructure development. The \"U.S. company plans $1.2 billion Argentina nuclear reactor\" represents a significant commitment of resources and complex logistical undertakings, alongside localized shifts like \"Independence hits pause on future data centers\" that could impact specialized component supply chains.",
-        "Sovereign Financial Stress": "Moderate financial stress is observed, influenced by evolving market expectations for monetary policy. The report that \"10-year yield seen slipping to 6.64% as Fed bets ease\" reflects ongoing adjustments in borrowing costs and investor sentiment.",
-        "Currency & Liquidity Pressure": "This pillar registers at a moderate level, influenced by financial market dynamics and central bank expectations. The easing \"Fed bets\" impacting the \"10-year yield seen slipping to 6.64%\" indicates shifts in global liquidity and currency attractiveness, albeit without extreme pressure points identified.",
-        "Sanctions & Regulatory Fragmentation": "This pillar reflects moderate activity, without specific news highlighting new fragmentation events but maintaining a baseline of compliance burdens. No direct news headlines explicitly addressed new sanctions or significant regulatory shifts, implying a continuation of existing, moderate pressures within this domain.",
-        "Cyber & Infrastructure Threats": "This pillar remains a high-risk area, driven by both cyber and physical infrastructure vulnerabilities. The general reference to \"Cyber Crime\" combined with specific impacts like the \"$350,000 data breach settlement\" highlights ongoing digital threats, while a \"Midtown NYC building \u2018shifting\u2019 and in danger of \u2018localized collapse\u2019\" points to critical physical infrastructure concerns.",
-        "Climate & Resource Shock": "This pillar is currently at a low risk level, primarily indicating routine monitoring for localized events. \"Heavy rain in Saurashtra: Gujarat govt chairs high-level meeting\" represents a typical regional weather event requiring standard governmental response, not a systemic shock."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "10-year yield seen slipping to 6.64% as Fed bets ease",
+            "title": "U.S. launches new strikes against Iran after three ships were hit in Strait of Hormuz",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/10-year-yield-seen-slipping-to-6-64-as-fed-bets-ease/articleshow/132251042.cms",
-            "image": "https://img.etimg.com/thumb/msid-132251039,resizemode-4,width-1200,height-900,imgsize-33632,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.ctvnews.ca/world/mideast-conflict/article/us-launches-new-strikes-against-iran-after-three-ships-were-hit-in-strait-of-hormuz/",
+            "image": "https://www.ctvnews.ca/resizer/v2/3JBPO3V3PLXQLCIDDDZT3WUG24.jpg?auth=76345c3974a87b0e6340e9a19f53d2ee13e655fc5f7a397de6398c7535e4f9e6&smart=true&width=1400&height=933",
+            "source": "ctvnews"
         },
         {
-            "title": "Restored WWII fighter plane tests out .50 caliber machine guns",
+            "title": "US launches 'powerful' strikes on Iran after Hormuz attacks",
             "severity": "HIGH",
-            "url": "https://www.popsci.com/technology/restored-p-40-warhawk-video/",
-            "image": "https://www.popsci.com/wp-content/uploads/2026/07/P40-Plane-Flight.png?quality=85",
-            "source": "popsci"
-        },
-        {
-            "title": "Karavali trailer: Raj B Shetty, Prajwal Devaraj shine in new flick",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/entertainment/karavali-trailer-raj-b-shetty-prajwal-devaraj-shine-in-new-flick-articleshow-azha8za",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-406d3c74-9a69-4ad7-9e7a-df871e3be73f.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Cyber Crime",
-            "severity": "HIGH",
-            "url": "https://www.geeksforgeeks.org/cyber-crime/",
-            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20260411191742616597/cyber_crimes_targeting_computer_networks_or_devices.webp",
-            "source": "geeksforgeeks"
-        },
-        {
-            "title": "12 Years Later, Magneto's Best Line Is Still The Greatest Quote In X-Men Movie History",
-            "severity": "HIGH",
-            "url": "https://screenrant.com/magneto-best-quote-x-men-movie-history/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/x-men-days-of-future-past_472d8b.jpg",
-            "source": "screenrant"
-        },
-        {
-            "title": "SAP Functionality and Features",
-            "severity": "HIGH",
-            "url": "https://www.geeksforgeeks.org/software-engineering/sap-functionality-and-features/",
-            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20260706170742015911/sap_erp.webp",
-            "source": "geeksforgeeks"
-        },
-        {
-            "title": "U.S. company plans $1.2 billion Argentina nuclear reactor",
-            "severity": "HIGH",
-            "url": "https://www.upi.com/Top_News/World-News/2026/07/07/latam-argentina-nuclear-reactor-project-meitner-energy/7371783446612/",
-            "image": "https://cdnph.upi.com/ph/st/th/7371783446612/2026/i/17834483672862/v1.5/US-company-plans-12-billion-Argentina-nuclear-reactor.jpg",
-            "source": "upi"
-        },
-        {
-            "title": "Americans have hours left to use crucial \u2018notice\u2019 and secure $2.5k checks from $350,000 data breach settlement",
-            "severity": "HIGH",
-            "url": "https://www.the-sun.com/money/16652129/oglethorpe-florida-class-action-data-breach-settlement/",
-            "image": "https://www.the-sun.com/wp-content%2Fuploads%2Fsites%2F6%2F2026%2F07%2Fnewspress-collage-lv3n5zty9-1783447293655.jpg?quality%3D90%26strip%3Dall%261783432931",
-            "source": "thesun"
-        },
-        {
-            "title": "Apex Legends x Cyberpunk Edgerunners collaboration: Release date, skins, and more",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/sports/esports/news/apex-legends-x-cyberpunk-edgerunners-collaboration-release-date-skins-and-more/articleshow/132245943.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132245950/132245950.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Midtown NYC building \u2018shifting\u2019 and in danger of \u2018localized collapse\u2019: officials",
-            "severity": "HIGH",
-            "url": "https://nypost.com/2026/07/07/us-news/midtown-nyc-building-shifting-and-in-danger-of-localized-collapse-officials/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2F235-e-42nd-st-building-133631924.jpg?w%3D588",
-            "source": "nypost"
-        },
-        {
-            "title": "War Department Launches Paid Cyber Apprenticeships",
-            "severity": "HIGH",
-            "url": "https://www.newsmax.com/newsfront/cyber-apprenticeship-war-dept-internship/2026/07/07/id/1262067",
-            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=E6975779-50E5-4DF3-9322-BE6603DBB333",
-            "source": "newsmax"
-        },
-        {
-            "title": "Heavy rain in Saurashtra: Gujarat govt chairs high-level meeting",
-            "severity": "MEDIUM",
-            "url": "https://newsable.asianetnews.com/india/heavy-rain-in-saurashtra-gujarat-govt-chairs-high-level-meeting-articleshow-siul0q9",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-b8235ba3-630a-4269-b912-bc3012cf5368.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Trump again demands Greenland as NATO unveils billions in arms deals to prove its firepower",
-            "severity": "MEDIUM",
-            "url": "https://www.reviewjournal.com/news/politics-and-government/trump-again-demands-greenland-as-nato-unveils-billions-in-arms-deals-to-prove-its-firepower-3847578/",
-            "image": "https://www.reviewjournal.com/wp-content/uploads/2026/07/21854881_web1_21854881-067ae1b63f3b44a0867cf63a3b586168.jpg?w=700",
-            "source": "reviewjournal"
-        },
-        {
-            "title": "Four Union Ministers Meet CEC, Highlight Alleged Irregularities In Karnataka SIR",
-            "severity": "MEDIUM",
-            "url": "https://ommcomnews.com/india-news/four-union-ministers-meet-cec-highlight-alleged-irregularities-in-karnataka-sir/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/07/20260706439f-2-scaled-e1783444987517.jpg",
-            "source": "ommcomnews"
-        },
-        {
-            "title": "Today in history, July 21",
-            "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/news/history/2026/07/07/today-in-history-july-21/89570701007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/04/13/PPHX/89596385007-today-in-history-1-x-1.png?crop=1007,567,x0,y220&width=1007&height=503&format=pjpg&auto=webp",
-            "source": "usatoday"
-        },
-        {
-            "title": "Stunning Badlands rammed-earth library harmonizes with topography",
-            "severity": "WATCH",
-            "url": "https://newatlas.com/architecture/theodore-roosevelt-presidential-library-snohetta/",
-            "image": "https://ic-cdn.flipboard.com/newatlas.com/ebdf09ed432be3b97038c69bf131e43d5b3692c5/_xlarge.jpeg",
-            "source": "newatlas"
-        },
-        {
-            "title": "After months of resident outcry, Independence hits pause on future data centers",
-            "severity": "WATCH",
-            "url": "https://www.kansascity.com/news/local/jackson-county/article316415739.html",
-            "image": "https://www.kansascity.com/public/latest-news/qn9j8y/picture315726230/alternates/FREE_1140/JT7_1476.jpg",
-            "source": "kansascity"
-        },
-        {
-            "title": "Pisces Horoscope Today, July 8, 2026: A Surprising Insight Could Shift Your Path",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/astrology/horoscope/pisces-horoscope-today-july-8-2026-article-154965065",
-            "image": "https://images.timesnownews.com/thumb/msid-154965064,thumbsize-868639,width-1280,height-720,resizemode-75/154965064.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Sagittarius Horoscope Today, July 8, 2026: A Bold Choice Could Change Everything",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/astrology/horoscope/sagittarius-horoscope-today-july-8-2026-article-154965054",
-            "image": "https://images.timesnownews.com/thumb/msid-154965053,thumbsize-844002,width-1280,height-720,resizemode-75/154965053.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Scorpio Horoscope Today, July 8, 2026: A Hidden Opportunity Awaits in Your Career",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/astrology/horoscope/scorpio-horoscope-today-july-8-2026-article-154965049",
-            "image": "https://images.timesnownews.com/thumb/msid-154965048,thumbsize-893203,width-1280,height-720,resizemode-75/154965048.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "U.S. airlines are redesigning travel around their highest-paying passengers",
-            "severity": "WATCH",
-            "url": "https://www.post-gazette.com/business/money/2026/07/07/us-airlines-highest-paying-passengers/stories/202607080004",
-            "image": "https://https//73f3e7d5672db1849e6c-6434aaf008a29447cc424990bc6a54a7.ssl.cf2.rackcdn.com/stories/202607080004/1140x_a10-7_cTC/Airlines-Premium-Push_1783433319.jpg",
-            "source": "postgazette"
-        },
-        {
-            "title": "'Extremely frustrated' Government struggles to find buyer for Napier flats sitting empty for year",
-            "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/political/684450/extremely-frustrated-government-struggles-to-find-buyer-for-napier-flats-sitting-empty-for-year",
-            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "Business Watch: Anthropic launches Claude Science; AstraZeneca links with CSPC again",
-            "severity": "WATCH",
-            "url": "https://cen.acs.org/business/business-watch-anthropic-claude-science-astrazeneca-cspc/104/web/2026/07?sc=230901_cenrssfeed_eng_latestnewsrss_cen",
-            "image": "https://images.pexels.com/photos/30547566/pexels-photo-30547566.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "cen_org"
-        },
-        {
-            "title": "Man tied to UFC White House plot faces federal threat charges",
-            "severity": "WATCH",
-            "url": "https://www.washingtontimes.com/news/2026/jul/7/man-tied-ufc-white-house-plot-faces-federal-threat-charges/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2017/12/13/12132017_beltway-gavel-18201_s1000x628.jpg?4d30cc50966e9ef37cf545478e0c5788e00c45a6",
-            "source": "washingtontimes"
-        },
-        {
-            "title": "Investment fraud: Suspended woman inspector arrested",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/chennai/investment-fraud-suspended-woman-inspector-arrested/articleshow/132245957.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132245956/132245956.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "India, Indonesia agree to deepen cooperation on critical minerals and rare earth",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/india/india-indonesia-agree-to-deepen-cooperation-on-critical-minerals-and-rare-earth-13968379.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260707101310_Modi-Indonesia-1.jpg",
+            "url": "https://www.moneycontrol.com/world/us-military-launches-strikes-against-iran-central-command-says-article-13968396.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260707213543_Strikes.jpg",
             "source": "moneycontrol"
         },
         {
-            "title": "Cody Garrett and Sean Mullaney: \u2018For Most Americans, You\u2019re Going to Pay Less Tax in Retirement\u2019",
-            "severity": "WATCH",
-            "url": "https://www.morningstar.com/podcasts/the-long-view/cody-garrett-sean-mullaney-most-americans-youre-going-pay-less-tax-retirement-2",
-            "image": "https://media.morningstar.com/resizer/v2/XG6RE2CJQNEAFJYTLSMHHMSKIY.png?auth=042b2f8b48111477283f40f318817fe5938da6aed7c4ff3538fdbae0d2f22756&smart=true&height=500",
-            "source": "morningstar_com"
+            "title": "Officials say contractors can begin stabilizing NYC high-rise after interior columns buckled",
+            "severity": "HIGH",
+            "url": "https://www.nbcnews.com/video/officials-say-contractors-can-begin-stabilizing-nyc-high-rise-after-interior-columns-buckled-266334789713",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1783462907955_now_hallie_manhattan_building_unstable_260707_S3_1920x1080-gr6mn4.jpg",
+            "source": "nbcnews"
         },
         {
-            "title": "LSU Tigers tight end Trey'Dez Green (14) celebrates a touchdown by tight end Bauer Sharp (10) against the Arkansas Razorbacks during the second half at Tiger Stadium.",
-            "severity": "WATCH",
-            "url": "https://www.si.com/college/lsu/football/lsu-may-have-an-overlooked-strength-that-could-define-its-season",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3026,h_1702,x_2135,y_79/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/lsu_country/01kwwe9n851nff2pf59c.jpg",
-            "source": "si"
+            "title": "South India transporters warn of flash strike on July 20",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/india/karnataka/south-india-transporters-warn-of-flash-strike-on-july-20-4065750",
+            "image": "https://media.assettype.com/deccanherald/2026-07-07/dj5xiyl7/iStock-2271767354.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "IOC eases restrictions for Russian athletes in 2028 Olympics",
-            "severity": "WATCH",
-            "url": "https://www.washingtonexaminer.com/sports/4638931/ioc-ease-restriction-russia-2028-olympics/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2024/07/Paris-Olympics_552.webp?w=696",
-            "source": "washingtonexaminer"
+            "title": "Bumblebees collect up to 7 times more toxic metals than honeybees",
+            "severity": "HIGH",
+            "url": "https://www.sciencedaily.com/releases/2026/07/260707025044.htm",
+            "image": "https://www.sciencedaily.com/images/1920/bumblebee-flower-macro.webp",
+            "source": "sciencedaily"
         },
         {
-            "title": "Cyberpunk Edgerunners' Lucy finds herself in yet another crossover, this time in an upcoming Apex Legends event",
-            "severity": "WATCH",
-            "url": "https://www.rockpapershotgun.com/cyberpunk-edgerunners-lucy-finds-herself-in-yet-another-crossover-this-time-in-an-upcoming-apex-legends-event",
-            "image": "https://assetsio.gnwcdn.com/apex-legends-cyberpunk-event.jpg?width=690&quality=85&format=jpg&auto=webp",
-            "source": "rockpapershotgun"
+            "title": "Oil Jumps on Iran Attack, Asian Stocks Set to Drop: Markets Wrap - Bloomberg.com",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWVQtaEVKRHlPRXhIemJ0WElRcjIydmxfX1MzTm1MXzhBeGh5MXRYUFlmUlRxTWJ2eURZc3hDSmFId0VaVTIyZEJxRkp6MHZWUGpzcHpQN0xEbEFLWUlWUC1rbVM4LXUtNWtRUjN6cmtfVkNSdjYxLVpjVkgxbVRYcGktZVhRbjE2MWdmbmFzaUQ4TUVpMHItTHR3cFU3elRSTUp0a0VDV3BjRUtXN00yZGh3aw?oc=5",
+            "image": "https://images.pexels.com/photos/18784617/pexels-photo-18784617.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "\u2018Avatar Aang: The Last Airbender\u2019 Drops Surprise New Trailer And Moves Up Release To July",
-            "severity": "WATCH",
-            "url": "https://www.forbes.com/sites/erikkain/2026/07/07/avatar-aang-the-last-airbender-new-trailer-july-25-release-date/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/6a4d34e557059aff690d0e8f/0x0.jpg?width=960&precrop=1360%2C764%2Cx0%2Cy0",
-            "source": "forbes"
+            "title": "US Renews Strikes On Iran After Vessels Hit In Hormuz Strait",
+            "severity": "HIGH",
+            "url": "https://www.rferl.org/a/us-renews-strikes-on-iran-vessels-hit-hormuz-strait/33798855.html",
+            "image": "https://gdb.rferl.org/99ec4564-4c5f-4276-8359-8d738f2fe4d1_w800_h450.jpg",
+            "source": "rferl"
         },
         {
-            "title": "Why the global memory bottleneck may signal early innings in the cyber stock comeback",
-            "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/07/07/why-the-global-memory-bottleneck-may-signal-early-innings-in-the-cyber-stock-comeback.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108316343-1780518921561-gettyimages-2243418927-NVIDIA_AI_KEYNOTE.jpeg?v=1780519019&w=1200&h=675",
-            "source": "cnbc"
+            "title": "Accenture confirms breach after hacker offers stolen data for sale - BleepingComputer",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaHpHaloxUjdYU1Vqb013bk40LUMzUmc0REV2cC03NEF5TVRSTzRRajNvTjNXSEZEbDNOOUFCWTB5aU1TU3lJV2VQNG05aW1JSU9aMGliZm9KcE1rSzB4cnE4WS1pb21kcGZkM3pxWHAzLXlqSC15ek9ycVM2NTYwbktLR1dlQWVuUWhkNldjMFJSTEhWeThNUmVaTjJKSEdqVFlRMGpXalV2TkFuQTBFOHk5MDXSAboBQVVfeXFMUENGV25FcE9RYzhzc3F2ckpfMmdnOWVybUlISkEwVndXNGZRNWJVLWhFQ1BoX0M5d0tvcU9BWWNTd1AyOW1lOHI4cGpvdnFiT3drbFJISGYyZFlMTFZDa1J5ZUluUjdEbVdNWDRqMDVfLXMyQzR4eVFyRDVwSVFvZU95cmxjOEtWM3JOcGpaWll0TUUtQmZySWpkVzJCaDYxczRmcTNxcnJUWGtBQmtMbXN4X3lPRGtCYnBn?oc=5",
+            "image": "https://images.pexels.com/photos/11565603/pexels-photo-11565603.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "IOC lifts Russian Olympic Committee ban, opening door for 2028 Games",
-            "severity": "WATCH",
-            "url": "https://www.upi.com/Sports_News/2026/07/07/IOC-lifts-ban-Russians-2028-Games/6151783441610/",
-            "image": "https://cdnph.upi.com/ph/st/th/6151783441610/2026/upi/97d40a7713a8738bfc0f8608e4c1d666/v1.5/IOC-lifts-Russian-Olympic-Committee-ban-opening-door-for-2028-Games.jpg",
-            "source": "upi"
+            "title": "US launches new strikes against Iranian targets",
+            "severity": "HIGH",
+            "url": "https://www.wmur.com/article/us-new-strikes-iran-oman-hormuz/71858092",
+            "image": "https://kubrick.htvapps.com/htv-prod/images/8861e890-eda2-440b-931f-96de58c6a03e.jpg",
+            "source": "wmur"
         },
         {
-            "title": "Weibo leaker says iPhone 18 Pro thickness will be \u2018surprising\u2019",
+            "title": "Middle East crisis live: US military launches strikes against Iran in retaliation over attacks on commercial vessels",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/world/live/2026/jul/07/us-military-strikes-iran-war-latest-news-updates",
+            "image": "https://i.guim.co.uk/img/media/83b5d0d96b74845309f6befc73cf50e1a81c581d/597_0_8736_6988/master/8736.jpg?width=140&quality=85&auto=format&fit=max&s=30d423d7b3d76efc6c3fe7c7152a8d6b",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "Yoaz Hendel\u2019s Reservists teams up with ex-minister Chili Tropper ahead of election",
+            "severity": "MEDIUM",
+            "url": "https://www.timesofisrael.com/yoaz-hendels-reservists-teams-up-with-ex-minister-chili-tropper-ahead-of-election/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2026/07/F260707FFF0007.jpg",
+            "source": "timesofisrael"
+        },
+        {
+            "title": "Enerpac Tool Group Reports Third Quarter Fiscal 2026 Results*",
             "severity": "WATCH",
-            "url": "https://9to5mac.com/2026/07/07/weibo-leaker-says-iphone-18-pro-thickness-will-be-surprising/",
-            "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/05/iphone-18-pro-colors.jpg?quality=82&strip=all",
-            "source": "9to5mac"
+            "url": "https://www.globenewswire.com/news-release/2026/07/07/3323753/0/en/Enerpac-Tool-Group-Reports-Third-Quarter-Fiscal-2026-Results.html",
+            "image": "https://images.pexels.com/photos/35102453/pexels-photo-35102453.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
+        },
+        {
+            "title": "'It's a big gap' \u2013 Tadej Pogac\u030car predicts it could be a long time before he wears the Tour de France yellow...",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/big-gap-tadej-poga-ar-222247162.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/73bc071067d875469e2050f86f761f8ba324e9bc9e3c45c867a5ef84619de52b/lightyear_networkapi/resizefit_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcycling_weekly_434%2Fa2457d04eb0b8c1eba7a168a81e61316",
+            "source": "yahoo"
+        },
+        {
+            "title": "Generac Holdings president Taffe sells $140,800 in stock",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/generac-holdings-president-taffe-sells-140800-in-stock-93CH-4522324",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEM4B0TB_1200_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Form 4 Amplitude Inc For: 7 July",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/form-4-amplitude-inc-for-7-july-93CH-4522327",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEM3810S_1200_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "6 Worst R-Rated 2000s Comedy Movies That Are Truly 0/10",
+            "severity": "WATCH",
+            "url": "https://collider.com/worst-r-rated-2000s-comedy-movies-ranked/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2024/04/freddy-got-fingered-still.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "Insta360 X6 camera set to launch, FCC filing suggests",
+            "severity": "WATCH",
+            "url": "https://mashable.com/tech/insta360-x6-360-degree-camera-fcc-filings-launch-announcement-soon",
+            "image": "https://helios-i.mashable.com/imagery/articles/06Rp890jxRin28oUC9AL5ST/hero-image.fill.size_1200x675.v1783459286.jpg",
+            "source": "mashable_us"
+        },
+        {
+            "title": "Zoom to buy Seattle AI startup - Tue, 07 Jul 2026 PST",
+            "severity": "WATCH",
+            "url": "http://www.spokesman.com/stories/2026/jul/07/zoom-to-buy-seattle-ai-startup/",
+            "image": "https://thumb.spokesman.com/6lG-YhXaBYFg1GKrXJO03DGG4F8=/2500x1405/smart/media.spokesman.com/photos/2026/07/07/6a4d8a80e534a.hires.jpg",
+            "source": "spokesman"
+        },
+        {
+            "title": "Messi taps into his seemingly endless supply of brilliance in Argentina win - The Globe and Mail",
+            "severity": "WATCH",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPS0xnaTRkN184Yk5sSHgyWHNlU0pKbXM1MmQ2SERGMnktSm94d2J2TW5kVnhZN2s1Mzc5UXBGa1YtbDZSdUlhX19wdVc4SVpfSldOLWFzamMyR3FPeTVDLUxTUW1jQ2hSQXVvLWxBVG40UGpKY0twczlLNDZkcnZReE1TZmIxRk1TV1V6RzNaWW5KVG5QWnBXQS1LandObzZudlEzM29HQ2sxUTg1RkNV?oc=5",
+            "image": "https://images.pexels.com/photos/12231821/pexels-photo-12231821.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Corner shops fight back against recycling scheme that is 'crippling' them as they lose money due to costs of providing service - while Re-Turn firm held over 60million euro in unclaimed deposits in one year alone",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-15960701/Corner-shops-fight-against-recycling-scheme-crippling-lose-money-costs-providing-service-Turn-firm-held-60million-euro-unclaimed-deposits-one-year-alone.html",
+            "image": "https://i.dailymail.com/1s/2026/07/07/22/109865809-0-image-a-10_1783461337137.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Kratos\u2019 Oklahoma Drone Buildout Could Be A Game Changer For Kratos Defense & Security Solutions (KTOS)",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/kratos-oklahoma-drone-buildout-could-221008350.html",
+            "image": "https://media.zenfs.com/en/simply_wall_st__316/304a69d71df45e5e706d5a1c8bc92e3f",
+            "source": "yahoo"
+        },
+        {
+            "title": "Global dairy prices slump 4.9% in biggest fall in two years as supply surges",
+            "severity": "WATCH",
+            "url": "https://www.nzherald.co.nz/the-country/news/global-dairy-prices-slump-49-in-biggest-fall-in-two-years-as-supply-surges/TVERYHL76FEFPOJPV5KXZTN4PA/",
+            "image": "https://www.nzherald.co.nz/resizer/v2/OLKCECI3FCS6XHLOKMX3PX5AAQ.jpg?auth=d1bf43a49cf6594595ca045f07d326dac07275940bdfda0c6d83eb996e035dc1&smart=true&width=300&height=300",
+            "source": "nzherald"
+        },
+        {
+            "title": "AI stocks sink and drag markets lower worldwide",
+            "severity": "WATCH",
+            "url": "https://www.adn.com/nation-world/2026/07/07/ai-stocks-sink-and-drag-markets-lower-worldwide/",
+            "image": "https://www.adn.com/resizer/2H1GMsyDq9McojlkUbQtmWqkJ10=/cloudfront-us-east-1.images.arcpublishing.com/adn/SC2KW2MRO3TKCJZMUJHVADFQIE.jpg",
+            "source": "adn"
+        },
+        {
+            "title": "The time changed for this pop-punk band\u2019s show at KC\u2019s FIFA Fan Fest. Here\u2019s when",
+            "severity": "WATCH",
+            "url": "https://www.kansascity.com/sports/fifa-world-cup/article316419828.html",
+            "image": "https://www.kansascity.com/public/latest-news/ck8hdd/picture316390829/alternates/FREE_1140/KCM_SVB_070426_Stars_And_Stripes_Picnic-37.JPG",
+            "source": "kansascity"
+        },
+        {
+            "title": "Commentary: World Cup credibility in question after FIFA U-turn following Trump call",
+            "severity": "WATCH",
+            "url": "https://www.channelnewsasia.com/commentary/world-cup-fifa-trump-folarin-balogun-belgium-us-6237751",
+            "image": "https://dam.mediacorp.sg/image/upload/s--amoXmCiZ--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-07-07T022921Z_1_LYNXMPEM6603R_RTROPTP_3_SOCCER-WORLDCUP-USA-BEL.JPG?itok=Nqy6WZ8X",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "Toronto Police corruption case involving Barrie father and son fast-tracked",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/barrie/article/toronto-police-corruption-case-involving-barrie-father-and-son-fast-tracked/",
+            "image": "https://www.ctvnews.ca/resizer/v2/HOOYPDG27ZFR5OOCKJWTSIGGAY.png?auth=a3be8563091930162786c8b967058731fc499b4a3e7d064a8b0ee2ed41868620&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Lagos court grants Peller \u20a6500k bail after police clash at Lekki",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/entertainment/celebrities/1718112-court-grants-tiktoker-peller-n500k-bail-arraignment-police-clash/",
+            "image": "https://cdn.legit.ng/images/1200x675/4e588b1e8b1cdd63.jpeg?v=1",
+            "source": "legit"
         }
     ],
-    "Last_Updated": "2026-07-08T06:33:27.749171Z"
+    "Last_Updated": "2026-07-08T10:24:25.871927Z"
 }
