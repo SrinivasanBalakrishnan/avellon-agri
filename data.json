@@ -1,260 +1,197 @@
 {
-    "AGRI_Score": 55.0,
-    "Velocity": "-2.3",
+    "AGRI_Score": 54.9,
+    "Velocity": "-0.1",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The current AGRI score of 55.0 reflects elevated geopolitical tensions and persistent cyber threats as primary drivers. Geopolitical risks are significantly amplified by inflammatory rhetoric concerning potential military action, as seen in \"Trump\u2019s instructions if Iran assassinate him: \u2018Literally bomb them at levels that they\u2019ve never seen before\u2019,\" alongside regional arms build-ups indicated by \"Serbia arms itself to be able to defend \u2014 President Vucic.\" Concurrently, sophisticated cyber threats and increasing regulatory pressures contribute to the overall risk landscape, with \"Ryuk ransomware member pleads guilty in the US\" highlighting ongoing digital vulnerabilities and \"Facebook and Instagram violate laws due to 'addictive' design, EU finds\" signaling increased regulatory fragmentation impacting tech and digital economies.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 54.9 reflects a moderate-to-high risk environment, primarily driven by heightened Geopolitical Conflict Intensity and significant Trade & Supply Chain Stress. Geopolitical tensions are evident in the severe impact of blockades, as highlighted by \"'Total Disconnection': Cuba Faces Second Nationwide Blackout As US Blockade Worsens Crisis.\" Concurrently, the \"Apple sues OpenAI and two former employees over alleged trade secret theft\" indicates a growing trend of corporate litigation that contributes to trade friction and supply chain uncertainty.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 70.7,
-        "Energy & Maritime Disruption": 50.3,
-        "Trade & Supply Chain Stress": 62.5,
+        "Geopolitical Conflict Intensity": 72.7,
+        "Energy & Maritime Disruption": 54.8,
+        "Trade & Supply Chain Stress": 62.1,
         "Sovereign Financial Stress": 55.4,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 61.2,
-        "Cyber & Infrastructure Threats": 61.8,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 57.8,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "High risk is driven by direct threats of military retaliation and regional arms races. \"Trump\u2019s instructions if Iran assassinates him: \u2018Literally bomb them at levels that they\u2019ve never seen before\u2019\" signals extreme escalation potential, while \"Serbia arms itself to be able to defend \u2014 President Vucic\" indicates a regional security build-up.",
-        "Energy & Maritime Disruption": "This pillar presents a moderate risk, with regulatory oversight being a key area of activity. \"ERC eyes tighter bidding rules for power supply deals\" suggests efforts to enhance energy market stability and supply security through policy adjustments.",
-        "Trade & Supply Chain Stress": "Elevated risk stems from issues within critical supply chains and governmental oversight impacting supplier relations. \"Centre Orders Probe Into NCERT Officials Over Failure To Defend Paper Supplier Blacklisting\" points to operational and governance challenges affecting procurement and potentially leading to disruptions.",
-        "Sovereign Financial Stress": "A moderate risk profile is influenced by policy implications that could strain public resources or create social discontent. The \"Amnesty bill leaves young out in the cold\" headline suggests policy decisions with potential societal and fiscal ramifications, which could indirectly impact financial stability.",
-        "Currency & Liquidity Pressure": "This pillar is currently under routine monitoring, with no explicit news indicating acute pressure on currency valuations or liquidity. There are no specific headlines in the provided feed directly detailing currency fluctuations, capital flight, or central bank interventions, suggesting baseline activity.",
-        "Sanctions & Regulatory Fragmentation": "Elevated risk is evident due to increased regulatory scrutiny and legal enforcement in major economic blocs. \"Facebook and Instagram violate laws due to 'addictive' design, EU finds\" illustrates significant regulatory divergence and the potential for substantial fines and operational restrictions on global businesses.",
-        "Cyber & Infrastructure Threats": "This pillar exhibits elevated risk from persistent cybercrime activities and emerging digital espionage campaigns. \"Ryuk ransomware member pleads pleads guilty in the US\" confirms ongoing threats from sophisticated ransomware groups, while \"Claude Code Espionage Campaign Exposes a New Enterprise AI Risk\" highlights evolving espionage vectors utilizing artificial intelligence.",
-        "Climate & Resource Shock": "This pillar reflects baseline activity, with no immediate news indicating significant climate-related disruptions or resource scarcity. The provided news feed does not contain any headlines related to extreme weather events, natural disasters, or critical resource shortages impacting global systems, indicating a period of routine monitoring."
+        "Geopolitical Conflict Intensity": "This pillar remains a primary concern, significantly elevated by ongoing international disputes and their humanitarian consequences. The \"'Total Disconnection': Cuba Faces Second Nationwide Blackout As US Blockade Worsens Crisis\" exemplifies severe geopolitical pressure, while the brief mention of \"Iran Threat Creeps Back\" suggests latent regional instability.",
+        "Energy & Maritime Disruption": "Energy costs are facing upward pressure, impacting consumer and business expenses across various sectors. The \"Diesel hike of up to P4/liter seen July 14\" indicates rising fuel prices, which could disrupt logistics and contribute to inflationary pressures.",
+        "Trade & Supply Chain Stress": "Commercial friction and intellectual property disputes are creating significant strain on global trade relationships and corporate operations. The news that \"Apple sues OpenAI and two former employees over alleged trade secret theft\" points to escalating corporate litigation impacting innovation and potentially broader tech supply chains.",
+        "Sovereign Financial Stress": "Economic pressures are manifesting through resource access and the potential for inflation, which can strain national budgets and consumer purchasing power. The \"Diesel hike of up to P4/liter seen July 14\" foreshadows inflationary pressures that could lead to increased fiscal challenges for sovereign entities.",
+        "Currency & Liquidity Pressure": "While no direct news indicates immediate currency crises, the economic impacts of energy price hikes could indirectly affect liquidity and capital flows. Rising diesel costs, as reported, could lead to increased operational expenses for businesses, tightening their available capital and potentially impacting foreign exchange demand.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory challenges are emerging through corporate legal battles and data breach implications, increasing compliance burdens and legal risks for businesses. The \"California Cannot Seek Damages From 23andMe Successor Over 2023 Data Breach\" highlights the complex legal landscape surrounding data security, while the Apple lawsuit indicates increasing regulatory scrutiny over corporate conduct and intellectual property.",
+        "Cyber & Infrastructure Threats": "Critical infrastructure vulnerabilities and intellectual property theft represent ongoing threats to economic and national security. Cuba's \"Second Nationwide Blackout\" underscores critical infrastructure fragility, while \"Apple sues OpenAI...stealing Apple\u2019s trade secrets\" highlights the severe economic impact of cyber-enabled intellectual property theft.",
+        "Climate & Resource Shock": "Policy changes are introducing new uncertainties regarding environmental protections and resource management. The news that \"Trump weakens key endangered species protection\" indicates a shift in environmental policy that could lead to long-term ecological and resource implications, impacting biodiversity and future resource availability."
     },
     "All_Alerts": [
         {
-            "title": "Lemony wild rice salad",
+            "title": "'Total Disconnection': Cuba Faces Second Nationwide Blackout As US Blockade Worsens Crisis",
             "severity": "HIGH",
-            "url": "https://www.mlive.com/nytcooking/2026/07/783613814-lemony-wild-rice-salad.html",
-            "image": "https://www.mlive.com/resizer/v2/UHQR52WHNJFKZHE2RRJ6N4LAX4.jpg?auth=f1b05e9278c914bfc6ffe653e80a6b5221b1b12cf922e87847fcb2a3c36ecb11&smart=true&height=1200",
-            "source": "mlive"
-        },
-        {
-            "title": "Serbia arms itself to be able to defend \u2014 President Vucic",
-            "severity": "HIGH",
-            "url": "https://tass.com/world/2158865",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Trump's bombshell UFO files expose creepy 8-point object that breached airspace",
-            "severity": "HIGH",
-            "url": "https://www.the-express.com/news/us-news/211528/ufo-files-trump-DOW-object",
-            "image": "https://cdn-images.the-express.com/img/dynamic/10/590x/211528_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "Trump\u2019s instructions if Iran assassinates him: \u2018Literally bomb them at levels that they\u2019ve never seen before\u2019",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iran-assassination-attempt-plans-b3012865.html",
-            "image": "https://images.pexels.com/photos/28767587/pexels-photo-28767587.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "independentuk"
-        },
-        {
-            "title": "Amnesty bill leaves young out in the cold",
-            "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/opinion/opinion/3284064/amnesty-bill-leaves-young-out-in-the-cold",
-            "image": "https://static.bangkokpost.com/media/content/dcx/2026/07/11/6150609.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Ben Stokes: ECB to face no action from ICC over all-rounder's retirement video - BBC",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sZFNRemdaQ0lOUllrMEJNQ2hHaWVTQzMyWHFqVkh1S1dRUXZ5NFNmcTBHUUV2V0dvOE8yZllILWhVeFJ0b09sM2llYXBKZHVJd0dSeHZ5LWdYQTdVanBuY0EyQTkydw?oc=5",
-            "image": "https://images.pexels.com/photos/29272604/pexels-photo-29272604.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Ryuk ransomware member pleads guilty in the US, faces 15 years in prison",
-            "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-pleads-guilty-in-the-us-faces-15-years-in-prison/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/07/10/ruyk.jpg",
-            "source": "bleepingcomputer"
-        },
-        {
-            "title": "Facebook and Instagram violate laws due to 'addictive' design, EU finds",
-            "severity": "HIGH",
-            "url": "https://sea.mashable.com/tech/52455/facebook-and-instagram-violate-laws-due-to-addictive-design-eu-finds",
-            "image": "https://sm.mashable.com/mashable_sea/article/f/facebook-a/facebook-and-instagram-violate-laws-due-to-addictive-design_zkx6.jpg",
-            "source": "mashable"
-        },
-        {
-            "title": "Mo Salah\u2019s salary demands risk scuppering dream reunion in Saudi Arabia as Liverpool icon seeks free transfer",
-            "severity": "MEDIUM",
-            "url": "https://www.thesun.co.uk/sport/39718425/salah-salary-demands-risk-saudi-reunion-free-transfer/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F07%2Fcrop-39719770.jpg?quality%3D90%26strip%3Dall%261783711076",
-            "source": "thesun"
-        },
-        {
-            "title": "Claude Code Espionage Campaign Exposes a New Enterprise AI Risk",
-            "severity": "MEDIUM",
-            "url": "https://www.techrepublic.com/article/news-anthropic-claude-code-ai-agent-governance-risk/",
-            "image": "https://assets.techrepublic.com/uploads/2026/07/coding-at-night-with-laptop-and-fingers-2026-01-09-11-08-36-utc-1.jpg?f=jpeg",
-            "source": "techrepublic"
-        },
-        {
-            "title": "ERC eyes tighter bidding rules for power supply deals",
-            "severity": "MEDIUM",
-            "url": "https://business.inquirer.net/599881/erc-eyes-tighter-bidding-rules-for-power-supply-deals",
-            "image": "https://business.inquirer.net/files/2022/10/ENERGY-REGULATORY-COMMISION-ERC-10032022-300x169.png",
-            "source": "inquirer"
-        },
-        {
-            "title": "Novo Nordisk\u2019s $50 Price Frames a Value Versus Value Trap Debate",
-            "severity": "MEDIUM",
-            "url": "https://au.investing.com/analysis/novo-nordisks-50-price-frames-a-value-versus-value-trap-debate-200615301",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Psychology says people who love getting wet in the rain aren't necessarily impulsive, they may find happiness in simpler things",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/psychology-says-people-who-love-getting-wet-in-the-rain-arent-necessarily-impulsive-they-may-find-happiness-in-simpler-things/articleshow/132318541.cms",
-            "image": "https://img.etimg.com/thumb/msid-132318767,resizemode-4,width-1200,height-900,imgsize-2276951,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "HPQ Silicon Announces Retirement of Director Noe\u0308lle Drapeau",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/globe-newswire/hpq-silicon-announces-retirement-of-director-noelle-drapeau",
-            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "financialpost"
-        },
-        {
-            "title": "PetroGreen bags P636-M RCBC loan",
-            "severity": "WATCH",
-            "url": "https://business.inquirer.net/599885/petrogreen-bags-p636-m-rcbc-loan",
-            "image": "https://business.inquirer.net/files/2025/03/PetroGreen-Energy-Corp-620x349.png",
-            "source": "inquirer"
-        },
-        {
-            "title": "Why English-speaking soccer fans across the US are choosing Spanish World Cup commentary",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/sport/football/world-cup/world-cup-2026-spanish-commentary-english-speakers-b3012879.html",
-            "image": "https://static.independent.co.uk/2026/07/10/19/2026-07-07T031329Z_2128828131_MT1USATODAY29343668_RTRMADP_3_MLB-ARIZONA-DIAMONDBACKS-AT-SAN-DIEGO-PA.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "Centre Orders Probe Into NCERT Officials Over Failure To Defend Paper Supplier Blacklisting",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/india/centre-orders-probe-into-ncert-officials-over-failure-to-defend-paper-supplier-blacklisting-ws-l-10204710.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/07/pradhan-2026-07-150844d3b5352837544a1c53dd09e09f-1200x800.jpg",
+            "url": "https://www.news18.com/world/total-disconnection-cuba-faces-second-nationwide-blackout-as-us-blockade-worsens-crisis-ws-l-10204783.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/07/cuba-2-2026-07-ff1737e0980db8db7dc532bfe808a56d-1200x800.jpg",
             "source": "news18"
         },
         {
-            "title": "NOW HIRING: 8 Valley companies ready to hire YOU! (7/12)",
-            "severity": "WATCH",
-            "url": "https://www.abc15.com/now-hiring/now-hiring-8-valley-companies-ready-to-hire-you-7-12",
-            "image": "https://ewscripps.brightspotcdn.com/dims4/default/9353e93/2147483647/strip/true/crop/7971x4185+0+485/resize/1200x630!/quality/90/?url=http%3A%2F%2Fewscripps-brightspot.s3.amazonaws.com%2F44%2Fa1%2F6cfa1a6b4ce8a1832fa5cb3f0f07%2Ffriendly-nurse-doctor-offering-patient-support-dur-2022-12-31-04-26-25-utc.jpg",
-            "source": "abc15"
-        },
-        {
-            "title": "Trump\u2019s AF1 Move Leaves Former Air Force Secretary Stunned",
-            "severity": "WATCH",
-            "url": "https://www.thedailybeast.com/trumps-af1-move-leaves-former-air-force-secretary-frank-kendall-stunned/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/4DQHHBFUN5CJ7MDQ7QMJMGKYZQ.JPG?auth=d04eef9897ef8940d5f4ad943db95eb84fd43606d086e26a52fb1bca6f8559ce&smart=true&width=3600&height=2025",
-            "source": "thedailybeast"
-        },
-        {
-            "title": "Did Tom Brady help Seahawks beat Patriots in Super Bowl? Why NFL fans believe so",
-            "severity": "WATCH",
-            "url": "https://www.oregonlive.com/sports/2026/07/did-tom-brady-help-seahawks-beat-patriots-in-super-bowl-why-nfl-fans-believe-so.html",
-            "image": "https://www.oregonlive.com/resizer/v2/G7JAC45ODNCK7FB54CZGDTKKOA.jpg?auth=1881bc0888afc933f542606dec489ce0e27a3065bbee6a1efbd582a9a50d96fd&smart=true&height=1200",
-            "source": "oregonlive"
-        },
-        {
-            "title": "IAF ranked world's third-most powerful air force, stays ahead of China for fifth straight year",
-            "severity": "WATCH",
-            "url": "https://www.firstpost.com/world/iaf-ranked-worlds-third-most-powerful-air-force-stays-ahead-of-china-for-fifth-straight-year-14030556.html",
-            "image": "https://images.firstpost.com/uploads/2026/02/Rafale-jets-2021-BLR-Reuters-2026-02-fb0021fd34d8fc13cba022f601976725.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Who will cheer for Palestine now?",
-            "severity": "WATCH",
-            "url": "https://www.politico.com/live-updates/2026/07/10/world-cup-2026/palestine-seeks-champion-morocco-flag-keffiyeh-00993205",
-            "image": "https://images.pexels.com/photos/28767587/pexels-photo-28767587.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "politico"
-        },
-        {
-            "title": "As Mamdani skewers America\u2019s \u2018dividers,\u2019 he paints a picture of . . . HIMSELF",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/07/10/opinion/as-zohran-mamdani-skewers-americas-dividers-he-paints-a-picture-of-himself/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2Fnew-york-mayor-zohran-mamdani-133139186_4c2d45.jpg?quality%3D90%26strip%3Dall",
-            "source": "nypost"
-        },
-        {
-            "title": "Dungeons and Dragons Confirms New Lineup of Season of Magic Products for Players and DMs",
-            "severity": "WATCH",
-            "url": "https://www.vice.com/en/article/dungeons-and-dragons-confirms-new-lineup-of-season-of-magic-products-for-players-and-dms/",
-            "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/07/dungeons-and-dragons-arcana-unleashed-beholder.jpg",
-            "source": "vice"
-        },
-        {
-            "title": "USA Man Seeks American-Style Diet, Says Jail\u2019s Food \u2018Spicy, Oily And Deep-Fried\u2019",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/delhi/usa-man-seeks-american-style-diet-says-jails-food-spicy-oily-and-deep-fried/articleshow/132318737.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132318736/132318736.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "This time from Africa? Economic lessons from the beautiful game, especially the African model",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/opinion/et-commentary/this-time-from-africa-economic-lessons-from-the-beautiful-game-especially-the-african-model/articleshow/132318685.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-112700,resizemode-75,msid-132318685/opinion/et-commentary/this-time-from-africa-economic-lessons-from-the-beautiful-game-especially-the-african-model.jpg",
+            "title": "Weekly Horoscope for \u264c LEO | July 11 - July 17, 2026: Will This Be Leo's Biggest Success Week of July?",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/astrology/horoscope/weekly-horoscope-for-leo-july-11-july-17-2026-will-this-be-leos-biggest-success-week-of-july/articleshow/132323891.cms",
+            "image": "https://img.etimg.com/thumb/msid-132323910,resizemode-4,width-1200,height-900,imgsize-299673,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "The Pentagon is spending big on lasers to shoot down hostile drones and cruise missiles",
+            "title": "Nsemba watches on as Wigan overturn 12-point deficit to thwart Warrington",
+            "severity": "HIGH",
+            "url": "https://uk.sports.yahoo.com/news/nsemba-watches-wigan-overturn-12-213411303.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/1SIr5jkvW4aS7jEWDWMt3A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xOTIwO2NmPXdlYnA-/https://media.zenfs.com/en/theguardian_763/a37a5ed3629f79d9758883f2f5ee6d22",
+            "source": "yahoo"
+        },
+        {
+            "title": "First time in its 50-year history, Apple sues a close partner; lawsuit says: At every level, OpenAI has been stealing Apple\u2019s trade secrets; hardware business of Sam Altman\u2019s company's is rotten to core by illegal ...",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/first-time-in-its-50-year-history-apple-sues-a-close-partner-lawsuit-says-at-every-level-openai-has-been-stealing-apples-trade-secrets-hardware-business-of-sam-altmans-companys-is-rotten-to-core-by-illegal-/articleshow/132320714.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132320571/132320571.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "California Cannot Seek Damages From 23andMe Successor Over 2023 Data Breach",
+            "severity": "HIGH",
+            "url": "https://www.usnews.com/news/top-news/articles/2026-07-10/california-cannot-seek-damages-from-23andme-successor-over-2023-data-breach",
+            "image": "https://www.usnews.com/dims4/USNEWS/3584a6b/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F36%2F67f1545cc547906b379e451831aa75%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM691BB%3A22026-07-10T221934Z_2_LYNXMPEM691BB_RTROPTP_3_23ANDME-CALIFORNIA-LAWSUIT.JPG",
+            "source": "usnews"
+        },
+        {
+            "title": "Diesel hike of up to P4/liter seen July 14",
+            "severity": "MEDIUM",
+            "url": "https://business.inquirer.net/600040/diesel-hike-of-up-to-p4-liter-seen-july-14",
+            "image": "https://business.inquirer.net/files/2026/04/Gasoline-fuel-oit-7April2026_3-620x413.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Dark energy flips its sign, but the Hubble tension refuses to budge",
+            "severity": "MEDIUM",
+            "url": "https://phys.org/news/2026-07-dark-energy-flips-hubble-tension.html",
+            "image": "https://images.pexels.com/photos/5561912/pexels-photo-5561912.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "phys"
+        },
+        {
+            "title": "Norwegian fans host a \u2018Viking Row\u2019 on Miami Beach ahead of match against England",
             "severity": "WATCH",
-            "url": "https://www.businessinsider.com/pentagon-spending-big-on-laser-weapons-shoot-down-drones-missiles-2026-7",
-            "image": "https://i.insider.com/6a511c13d9d92978fe6a5a40?width=1200&format=jpeg",
+            "url": "https://www.miamiherald.com/sports/fifa-world-cup/article316444288.html",
+            "image": "https://www.miamiherald.com/public/latest-news/j3oyzf/picture316464848/alternates/FREE_1140/MIA_2024-07-10AD0211NorwayRowing.JPG",
+            "source": "miamiherald"
+        },
+        {
+            "title": "Form 4 Maravai Lifesciences Holdings Inc For: 10 July",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/form-4-maravai-lifesciences-holdingsinc-for-10-july-93CH-4528533",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEB0508S_M.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Vernon Kay says 'I've got a massive issue' as he opens up on health condition",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/tv/tv-news/vernon-kay-says-ive-massive-37416976",
+            "image": "https://i2-prod.mirror.co.uk/3am/celebrity-news/article36246797.ece/ALTERNATES/s615/3_Screenshot-2025-06-06-at-210153.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Breitbart Business Digest: America\u2019s Millionaire Cashiers Beat Europe\u2019s Lumbering Zombie Elites",
+            "severity": "WATCH",
+            "url": "https://www.breitbart.com/economy/2026/07/10/breitbart-business-digest-americas-millionaire-cashiers-beat-europes-lumbering-zombie-elites/",
+            "image": "https://media.breitbart.com/media/2026/07/costco-worker-getty-640x335.png",
+            "source": "breitbart"
+        },
+        {
+            "title": "DOJ Charges White Supremacist After Threats to US Lawmaker, Muslims and Transgender People",
+            "severity": "WATCH",
+            "url": "https://www.usnews.com/news/world/articles/2026-07-10/doj-charges-white-supremacist-after-threats-to-us-lawmaker-muslims-and-transgender-people",
+            "image": "https://www.usnews.com/dims4/USNEWS/87857a1/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Fa6%2F382e82047fc76b0f45e1c2da7a0198%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM691AE%3A12026-07-10T213458Z_1_LYNXMPEM691AE_RTROPTP_3_USA-JUSTICE.JPG",
+            "source": "usnews"
+        },
+        {
+            "title": "Apple sues OpenAI and two former employees over alleged trade secret theft",
+            "severity": "WATCH",
+            "url": "https://www.nbcnews.com/video/apple-sues-openai-and-two-former-employees-over-alleged-trade-secret-theft-266518085539",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1783719560669_now_hallie_apple_openai_theft_260710_S3_1920x1080-wopscs.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "Trump weakens key endangered species protection",
+            "severity": "WATCH",
+            "url": "https://thehill.com/newsletters/energy-environment/5963432-trump-weakens-key-endangered-species-protection/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/07/AP26190188472439-e1783599539867.jpg?w=900",
+            "source": "thehill"
+        },
+        {
+            "title": "Here's How to Make Your Summer Vacation Departure Stress-Free",
+            "severity": "WATCH",
+            "url": "https://www.bluewin.ch/www.bluewin.ch/en/news/switzerland/here-s-how-to-make-your-summer-vacation-departure-stress-free-li.3524426",
+            "image": "https://bluewin-prod-sc-images.imgix.net/2026/07/03/5a447480-4740-4081-9d5f-bfc6d4a8631c.jpg?w=1024&auto=format&s=bec6f139c0b0f446bca7aeb58f950c2f",
+            "source": "bluewin"
+        },
+        {
+            "title": "Maine Senate candidate Graham Platner formally withdraws from race",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/american-politics/article-902140",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/729283",
+            "source": "jpost"
+        },
+        {
+            "title": "Quick decision urged for three-airport rail project",
+            "severity": "WATCH",
+            "url": "https://www.bangkokpost.com/business/general/3284209/quick-decision-urged-for-threeairport-rail-project",
+            "image": "https://static.bangkokpost.com/media/content/dcx/2026/07/11/6150714.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "Global oil demand is dropping, but US drivers keep buying more gas",
+            "severity": "WATCH",
+            "url": "https://abcnews.com/Business/wireStory/global-oil-demand-dropping-us-drivers-buying-gas-134663982",
+            "image": "https://i.abcnewsfe.com/a/81d37bda-e38b-404f-8ae8-bd1389beef83/wirestory_de45ede94f992da07d35a8b737fdeacf_16x9.jpg?w=1600",
+            "source": "abcnews"
+        },
+        {
+            "title": "AI Echoes the Dot-Com Market Split as Iran Threat Creeps Back",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-pmn/ai-echoes-the-dot-com-market-split-as-iran-threat-creeps-back",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/07/treasury-two-year-yield-approaches-2026-high-levels-climbed.jpg",
+            "source": "financialpost"
+        },
+        {
+            "title": "Form 4 Jacobs Engineering Group For: 10 July",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/form-4-jacobs-engineering-group--for-10-july-93CH-4528528",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB5S0BB_M.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Where to watch Love Island USA: Season 8 streams, cast, trailer",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-love-island-usa-season-8",
+            "image": "https://i.insider.com/6a1f32382e5a80cfe050283f?width=1200&format=jpeg",
             "source": "insider"
         },
         {
-            "title": "India-Australia Ties Enter New Phase With Uranium, Critical Mineral Exports",
+            "title": "DJ Chicken remanded in Kirikiri over threat against Seyi Tinubu as court sets bail terms",
             "severity": "WATCH",
-            "url": "https://www.ndtv.com/world-news/india-australia-ties-enter-new-phase-with-uranium-critical-mineral-exports-11755786",
-            "image": "https://c.ndtvimg.com/2026-07/fp5ne9fg_pm-modi-with-australian-pm-anthony-albanese_625x300_09_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
+            "url": "https://www.legit.ng/entertainment/celebrities/1718709-dj-chicken-remanded-kirikiri-threat-seyi-tinubu-court-sets-bail-terms/",
+            "image": "https://cdn.legit.ng/images/1200x675/39e86a7b92ced65b.jpeg?v=1",
+            "source": "legit"
         },
         {
-            "title": "Quote of the Day by Joan of Arc: \u201cOne life is all we have and we live it as... \u2013 Inspiring lessons on courage, conviction, authenticity, integrity and why you should stay true to yourself by the French heroine and saint known for her faith and extraordinary bravery and deep insights on purpose and resilience",
+            "title": "Gloucester woman accused of plotting to kill childhood friend using WD-40",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-joan-of-arc-one-life-is-all-we-have-and-we-live-it-as-inspiring-lessons-on-courage-conviction-authenticity-integrity-and-why-you-should-stay-true-to-yourself-by-the-french-heroine-and-saint-known-for-her-faith-and-extraordinary-bravery-and-deep-insights-on-purpose-and-resilience/articleshow/132315953.cms",
-            "image": "https://img.etimg.com/thumb/msid-132315953,resizemode-4,width-1200,height-900,imgsize-241210,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.boston.com/news/crime/2026/07/10/gloucester-woman-allegedly-attacked-friend-wd40-rag/",
+            "image": "https://www.boston.com/wp-content/themes/bdc-2020/assets/images/feed-placeholder.png",
+            "source": "boston"
         },
         {
-            "title": "Delta CEO Ed Bastian says airline fares will stay elevated even if jet fuel prices fall",
+            "title": "Apple accuses OpenAI of using stolen trade secrets to create its upcoming AI gadgets in new lawsuit",
             "severity": "WATCH",
-            "url": "https://www.foxbusiness.com/economy/delta-ceo-ed-bastian-says-airline-fares-stay-elevated-even-jet-fuel-prices-fall",
-            "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/07/delta-air-lines-passenger.jpg",
-            "source": "foxbusiness"
-        },
-        {
-            "title": "Case against city jeweller for duping man of over \u20b97cr",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/hyderabad/case-against-city-jeweller-for-duping-man-of-over-7cr/articleshow/132318627.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "25 things about money that most people don't learn until it's too late",
-            "severity": "WATCH",
-            "url": "https://qz.com/money-lessons-people-learn-too-late",
-            "image": "https://qz.com/cdn-cgi/image/width=300,height=300,fit=cover,quality=85,format=auto/https://assets.qz.com/media/pexels-karola-g-5900156.jpg",
-            "source": "quartz"
-        },
-        {
-            "title": "Now SNP U-turn over refunding cash to donors after shamed Peter Murrell's \u00a3400k embezzlement",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15968967/SNP-refunding-Peter-Murrells-embezzlement.html",
-            "image": "https://i.dailymail.com/1s/2026/07/10/18/109941941-0-image-a-31_1783705100628.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.cnn.com/2026/07/10/tech/apple-openai-devices-lawsuit",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/2025-05-23t152543z-288013851-rc2rneawplcq-rtrmadp-3-usa-trump-tariffs-apple.JPG?c=original/w_800",
+            "source": "cnn"
         }
     ],
-    "Last_Updated": "2026-07-11T06:19:27.659025Z"
+    "Last_Updated": "2026-07-11T09:43:06.031129Z"
 }
