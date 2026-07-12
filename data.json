@@ -1,281 +1,309 @@
 {
-    "AGRI_Score": 58.6,
-    "Velocity": "-0.2",
-    "Top_Risk_Driver": "Trade & Supply Chain Stress",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at 58.6, reflecting an elevated risk environment primarily driven by persistent geopolitical conflict intensity, trade disruptions, and significant cyber threats. This score is heavily influenced by events such as 'Russian attacks kill 6, injure 29 as Ukrainian forces target oil tankers,' which underscores ongoing kinetic conflict impacting critical infrastructure. Concurrently, 'China halts helium exports as renewed Middle East tensions threaten chip supplies' highlights growing vulnerabilities in strategic supply chains, while 'Australia warns of global campaign targeting vulnerable CMS platforms' signifies a pervasive and active cyber threat landscape.",
+    "AGRI_Score": 56.6,
+    "Velocity": "-2.0",
+    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at 56.6, indicating a moderately elevated risk environment primarily driven by escalating geopolitical tensions, particularly regarding energy and maritime security. Headlines such as \"Strait of Hormuz, military aggression: Why Iran wants to up the ante against US?\" and \"Iran Officials Admit To 'Mistake' After Attacks On Ships In Hormuz: Report\" underscore significant threats to critical trade routes. These developments, alongside domestic instability concerns and infrastructure vulnerabilities, contribute to the elevated score, requiring vigilant monitoring of potential escalations and their ripple effects on global markets and supply chains.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 71.9,
-        "Energy & Maritime Disruption": 57.1,
-        "Trade & Supply Chain Stress": 72.0,
+        "Geopolitical Conflict Intensity": 69.2,
+        "Energy & Maritime Disruption": 55.4,
+        "Trade & Supply Chain Stress": 65.4,
         "Sovereign Financial Stress": 55.4,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.9,
-        "Cyber & Infrastructure Threats": 63.6,
+        "Sanctions & Regulatory Fragmentation": 56.2,
+        "Cyber & Infrastructure Threats": 61.3,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to the direct escalation of hostilities and strategic targeting, as evidenced by 'Russian attacks kill 6, injure 29 as Ukrainian forces target oil tankers.' The continued conflict in critical regions keeps global geopolitical tensions at a heightened state. ",
-        "Energy & Maritime Disruption": "Risk in this area is elevated, directly influenced by geopolitical conflict targeting energy infrastructure and transport. The targeting of 'oil tankers' during 'Russian attacks' indicates direct threats to maritime energy routes, even as 'Fuel prices are slamming consumers' suggests persistent market pressures. ",
-        "Trade & Supply Chain Stress": "This pillar shows significant stress, primarily due to strategic resource control actions and regional tensions. 'China halts helium exports as renewed Middle East tensions threaten chip supplies' illustrates how geopolitical shifts are creating critical bottlenecks in industrial inputs. ",
-        "Sovereign Financial Stress": "This pillar experiences elevated pressure stemming from underlying economic fragility and consumer strain. The news of a 'Big fast-food burger chain franchisee files Chapter 11 bankruptcy' points to domestic economic vulnerabilities that can ripple into broader financial systems. ",
-        "Currency & Liquidity Pressure": "This pillar shows moderate activity, reflecting some underlying economic uncertainty without immediate acute pressure. Although 'Fuel prices are slamming consumers,' the provided feed does not present direct evidence of widespread currency devaluation or a significant liquidity crunch. ",
-        "Sanctions & Regulatory Fragmentation": "This pillar's elevated score is sustained by the complex global legal and political landscape, shaped by ongoing international disputes. The persistent 'Russian attacks' occur within a framework of existing sanctions, continually reinforcing a fragmented international regulatory environment. ",
-        "Cyber & Infrastructure Threats": "This pillar is significantly elevated due to pervasive digital and physical security concerns across critical sectors. 'Australia warns of global campaign targeting vulnerable CMS platforms' indicates a broad-reaching cyber threat, compounded by physical attacks on infrastructure in conflict zones. ",
-        "Climate & Resource Shock": "This pillar registers low risk, indicating routine monitoring despite discrete events of concern. While a 'Dangerous heat wave is building, will bring oppressive temperatures to much of the United States,' and 'China halts helium exports' represent specific challenges, they do not yet indicate a broad systemic shock. "
+        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to ongoing tensions in key strategic regions, notably highlighted by 'Iran Officials Admit To \"Mistake\" After Attacks On Ships In Hormuz: Report' and 'Strait of Hormuz, military aggression: Why Iran wants to up the ante against US?'. Furthermore, internal stability concerns are evident with 'Baloch Fury: Taking Cues From PoJK, Angry Citizens Confront Pakistan Army Grid In Quetta | Exclusive Details', signaling regional unrest.",
+        "Energy & Maritime Disruption": "Risk in this pillar is elevated by persistent threats to crucial shipping lanes, directly impacted by the 'Attacks On Ships In Hormuz' and the underlying 'Strait of Hormuz, military aggression' by Iran. Such incidents pose an immediate risk to global oil and gas transit, contributing to price uncertainty and potential supply shocks.",
+        "Trade & Supply Chain Stress": "The heightened tensions around the Strait of Hormuz inherently threaten global maritime trade, increasing transit costs and delivery times for goods passing through this vital chokepoint. Additionally, 'Trump Presses US Retailers, Gas Stations to Slash Prices' indicates direct political pressure on market pricing, adding a layer of regulatory and economic stress for retailers and their supply chains.",
+        "Sovereign Financial Stress": "While no direct financial crisis is reported, the elevated geopolitical instability and potential for energy price volatility introduce significant indirect pressure on sovereign balance sheets. Governments may face increased expenditure for security or subsidies, potentially impacting fiscal health amid broader market uncertainty.",
+        "Currency & Liquidity Pressure": "Current geopolitical uncertainties, particularly concerning the Strait of Hormuz, could lead to increased investor risk aversion, potentially affecting capital flows and sovereign bond yields. Although no specific currency headlines are present, the overall risk environment warrants routine monitoring for potential liquidity shifts.",
+        "Sanctions & Regulatory Fragmentation": "The 'military aggression' in the Strait of Hormuz and 'attacks on ships' by Iran significantly raise the prospect of new international sanctions or an intensification of existing ones, fragmenting global trade and financial landscapes. Additionally, 'Trump Presses US Retailers, Gas Stations to Slash Prices' illustrates direct governmental intervention, suggesting a more active regulatory environment affecting market operations.",
+        "Cyber & Infrastructure Threats": "This pillar reflects elevated concerns regarding critical infrastructure resilience, as evidenced by 'US underestimates peril if Los Alamos were to leak plutonium, study says,' highlighting severe safety and security risks at key facilities. Furthermore, 'Youth Akali Dal flays AAP govt over unplugged breaches along Ghaggar' points to vulnerabilities in civilian infrastructure and disaster preparedness.",
+        "Climate & Resource Shock": "While not a primary driver of the overall AGRI score, localized climate events and infrastructure issues are noted, with 'Youth Akali Dal flays AAP govt over unplugged breaches along Ghaggar' and 'Punjab minister Goyal reviews flood-prevention arrangements' indicating flood risks. Global climate impacts are also present, as seen with 'Tour de France Stage 9 shortened after 'red heatwave alert' issued', necessitating routine monitoring for regional resource management challenges."
     },
     "All_Alerts": [
         {
-            "title": "Russian attacks kill 6, injure 29 as Ukrainian forces target oil tankers",
+            "title": "Trump Presses US Retailers, Gas Stations to Slash Prices",
             "severity": "HIGH",
-            "url": "https://www.business-standard.com/world-news/russian-attacks-kill-6-injure-29-as-ukrainian-forces-target-oil-tankers-126071100885_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-06/18/full/1781769323-0645.JPG",
-            "source": "business-standard"
-        },
-        {
-            "title": "Dangerous heat wave is building, will bring oppressive temperatures to much of the United States",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/dangerous-heat-wave-building-bring-152114692.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/f9f0a6dd71922f52a83482cda300bc08bb10236c3784eb52510d9688ff873d92/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcp_news_842%2F92c2547b372d9c24c6e38ba79cbfa8f0",
-            "source": "yahoo"
-        },
-        {
-            "title": "Trump Goons Launch Sinister Legal Attack on AF1 Reporters",
-            "severity": "HIGH",
-            "url": "https://www.thedailybeast.com/trump-goons-launch-sinister-legal-attack-on-af1-reporters/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/KYHLBUAMMNBADFTWSZU2CTNSNA.jpg?auth=acb105fd97d5d1a5eec32c2b6ed984ab03bf1006526e0378e9f0a3b9cf84c2c1&smart=true&width=6499&height=3656",
-            "source": "thedailybeast"
-        },
-        {
-            "title": "Why young Indians are dying of heart attacks despite feeling perfectly healthy: Dr Devi Shetty says nearly half have no warning signs",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/health/why-young-indians-are-dying-of-heart-attacks-despite-feeling-perfectly-healthy-dr-devi-shetty-says-nearly-half-have-no-warning-signs/articleshow/132333182.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132333184/132333184.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Fuel prices are slamming consumers even as crude crisis fades",
-            "severity": "HIGH",
-            "url": "https://nationalpost.com/news/world/fuel-prices-are-slamming-consumers-even-as-crude-crisis-fades",
-            "image": "https://smartcdn.gprod.postmedia.digital/nationalpost/wp-content/uploads/2026/04/20260406DB011.EJ_.jpg",
-            "source": "nationalpost"
-        },
-        {
-            "title": "Release of abducted Oyo school victims: Atiku challenges presidency, \"You must be lazy\"",
-            "severity": "HIGH",
-            "url": "https://www.legit.ng/nigeria/1718793-release-abducted-oyo-school-victims-atiku-slams-tinubu/",
-            "image": "https://cdn.legit.ng/images/1200x675/7535cbfc29520aa0.jpeg?v=1",
-            "source": "legit"
-        },
-        {
-            "title": "India Vs England, 5th T20I: Jos Buttler become England\u2019s highest T20I scorer, overtakes MS Dhoni with THIS record",
-            "severity": "HIGH",
-            "url": "https://www.india.com/sports/india-vs-england-5th-t20i-jos-buttler-become-englands-highest-t20i-scorer-overtakes-ms-dhoni-with-this-record-8471402/",
-            "image": "https://static.india.com/wp-content/uploads/2026/07/sojsndsndwssddss.jpg",
-            "source": "india"
-        },
-        {
-            "title": "Drivers warned of \u00a35,000 fine for doing 1 thing during heatwave",
-            "severity": "HIGH",
-            "url": "https://www.express.co.uk/life-style/cars/2227288/drivers-warned-5000-fine-doing",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/24/590x/2227288_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Elon Musk responds to Apple accusing OpenAI of stealing trade secrets, says: Sam Altman literally loves scamming more than ...",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-responds-to-apple-accusing-openai-of-stealing-trade-secrets-says-sam-altman-literally-loves-scamming-more-than-/articleshow/132332549.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132332542/132332542.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
-            "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/05/07/Aus.jpg",
-            "source": "bleepingcomputer"
-        },
-        {
-            "title": "China halts helium exports as renewed Middle East tensions threaten chip supplies",
-            "severity": "MEDIUM",
-            "url": "https://uk.investing.com/news/stock-market-news/china-halts-helium-exports-as-renewed-middle-east-tensions-threaten-chip-supplies-4766686",
-            "image": "https://i-invdn-com.investing.com/news/China_800x533_L_1760611776.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Big fast-food burger chain franchisee files Chapter 11 bankruptcy",
-            "severity": "MEDIUM",
-            "url": "https://www.thestreet.com/restaurants/hardees-franchisee-files-chapter-11-bankruptcy",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyNzg1Mzgy/photo-2785382.jpg?profile=rss&x=50&y=50",
-            "source": "thestreet"
-        },
-        {
-            "title": "No sugar, no rice. John Abraham reveals how his vegetarian diet helps him have fabulous body at 53: 'I have 51...'",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/magazines/panache/no-sugar-no-rice-john-abraham-reveals-how-his-vegetarian-diet-helps-him-have-fabulous-body-at-53-i-have-51-/articleshow/132337603.cms",
-            "image": "https://img.etimg.com/thumb/msid-132337603,resizemode-4,width-1200,height-900,imgsize-83058,overlay-etpanache/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "England ratings: Fin Smith looking at home in No 10 shirt",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/england-ratings-fin-smith-looking-152705693.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/eCXDaY.gUV58s7_zCqMOrg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTAwO2NmPXdlYnA-/https://media.zenfs.com/en/the_telegraph_818/9bff6bc625f8efab9e104b55465ca32a",
-            "source": "yahoo"
-        },
-        {
-            "title": "This Week In Space podcast: Episode 218 \u2014 Which Way to the Moonbase?",
-            "severity": "WATCH",
-            "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-218-which-way-to-the-moonbase",
-            "image": "https://cdn.mos.cms.futurecdn.net/ZzhgAZbP3wwGFYSyWBfeFR-1280-80.jpg",
-            "source": "space"
-        },
-        {
-            "title": "Yankees Birthday of the Day: Harry Wolter",
-            "severity": "WATCH",
-            "url": "https://www.pinstripealley.com/yankees-history-trivia/196038/yankees-history-harry-wolter-birthday-july-11-new-york-highlanders",
-            "image": "https://platform.pinstripealley.com/wp-content/uploads/sites/124/2026/07/gettyimages-2159104509.jpg?quality=90&strip=all&crop=0,0,100,76.266039316988",
-            "source": "pinstripealley"
-        },
-        {
-            "title": "Algeria and Mali restore diplomatic ties following yearlong rift",
-            "severity": "WATCH",
-            "url": "https://www.aljazeera.com/news/2026/7/11/algeria-and-mali-restore-diplomatic-ties-following-yearlong-rift",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/ap_6a52589304c25-1783781523.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Prince Harry gets pelted with water bombs after reuniting with King Charles with Meghan",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/prince-harry-gets-pelted-water-152732636.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/c6782cf29b33e6b6e4548bb95e38be79796e2db649dd8d53585c7c087993eaae/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2F70e714510b9b7fc5e477845619edb5df",
-            "source": "yahoo"
-        },
-        {
-            "title": "Director Christopher Nolan Dismisses 'Irrelevant' Criticism of 'The Odyssey' Casting",
-            "severity": "WATCH",
-            "url": "https://www.breitbart.com/entertainment/2026/07/11/director-christopher-nolan-dismisses-irrelevant-criticism-of-the-odyssey-casting/",
-            "image": "https://media.breitbart.com/media/2026/07/GettyImages-2285260988-640x335.jpg",
-            "source": "breitbart"
-        },
-        {
-            "title": "Marvel Studios' Official Avengers: Doomsday Concept Art Unveils Best Look At Doctor Doom's Mask & Returning Heroes",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/avengers-doomsday-xmen-marvel-characters-design-concept-art/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/01/julian-mcmahon-s-doctor-doom-looks-at-his-mask-in-2005-s-fantastic-four.jpg",
-            "source": "screenrant"
-        },
-        {
-            "title": "Back when Google didn't exist yet and Roger Federer was a teenager",
-            "severity": "WATCH",
-            "url": "https://www.bluewin.ch/www.bluewin.ch/en/news/switzerland/back-when-google-didn-t-exist-yet-and-roger-federer-was-a-teenager-li.3525041",
-            "image": "https://images.pexels.com/photos/28767587/pexels-photo-28767587.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "bluewin"
-        },
-        {
-            "title": "Trump hints at public \u2018contribution\u2019 from US AI firms, sparking speculation",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/11/trump-hints-at-public-contribution-from-us-ai-firms-sparking-speculation",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/11/3998217.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Help not wanted: World Cup hiring boost has yet to materialize",
-            "severity": "WATCH",
-            "url": "https://fortune.com/2026/07/11/world-cup-hiring-leisure-hospitality-jobs-report-hotels-restaurants/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-2284812664-e1783782900974.jpg?w=2048",
-            "source": "fortune"
-        },
-        {
-            "title": "STF nabs ganja smuggler from Bengal",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/stf-nabs-ganja-smuggler-from-bengal/articleshow/132333606.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Tomato prices crash, farmers urge government to provide support price",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/karnataka/tomato-prices-crash-farmers-urge-government-to-provide-support-price/article71210551.ece",
-            "image": "https://th-i.thgim.com/public/incoming/8g1rzc/article71211154.ece/alternates/FREE_1200/Tomato%204.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Water supply hit following pipe burst at Pattoor",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/kerala/water-supply-hit-following-pipe-burst-at-pattoor/article71211036.ece",
-            "image": "https://th-i.thgim.com/public/news/national/kerala/q6l21f/article71211026.ece/alternates/FREE_1200/kwa.jpg",
-            "source": "thehindu"
-        },
-        {
-            "title": "Housing bill becomes law without Trump's signature",
-            "severity": "WATCH",
-            "url": "https://www.upi.com/Top_News/US/2026/07/11/housing-bill-becomes-law/5941783781570/",
-            "image": "https://cdnph.upi.com/ph/st/th/5941783781570/2026/upi/d7f2fedc30e20f927f5d0c4f0aa86fff/v1.5/Housing-bill-becomes-law-without-Trumps-signature.jpg",
-            "source": "upi"
-        },
-        {
-            "title": "1,119 villages across Karnataka identified as vulnerable to drinking water scarcity",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/cities/bangalore/1119-villages-across-karnataka-identified-as-vulnerable-to-drinking-water-scarcity/article71210443.ece",
-            "image": "https://th-i.thgim.com/public/incoming/3u11nn/article71210985.ece/alternates/FREE_1200/_DSC7316.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Tropical forests stop absorbing carbon dioxide during El Nin\u0303o events. This year could be the worst.",
-            "severity": "WATCH",
-            "url": "https://www.livescience.com/planet-earth/climate-change/tropical-forests-stop-absorbing-carbon-dioxide-during-el-nino-events-this-year-could-be-the-worst",
-            "image": "https://cdn.mos.cms.futurecdn.net/wJS7KsfdqKWTTVVbpmj35A-1280-80.jpg",
-            "source": "livescience"
-        },
-        {
-            "title": "Handheld gaming PCs are cooked",
-            "severity": "WATCH",
-            "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/handheld-gaming-pcs-are-cooked/",
-            "image": "https://cdn.mos.cms.futurecdn.net/XDGVG4pcGgw2e7RQtqLpo4-1280-80.jpg",
-            "source": "pcgamer"
-        },
-        {
-            "title": "Khanna Says Israeli Settlers Detained Him in West Bank",
-            "severity": "WATCH",
-            "url": "https://www.newsmax.com/newsfront/rokhanna-israel-westbank/2026/07/11/id/1262502",
-            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=19AF3930-980F-462B-9877-8CAFDBDF1255",
+            "url": "https://www.newsmax.com/newsfront/trump-economy-price/2026/07/11/id/1262514",
+            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=32FBBEBA-7EE9-46FE-8392-C1519976ED25",
             "source": "newsmax"
         },
         {
-            "title": "U.S. seeks Iranian pledge to free up Strait of Hormuz",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/world/article/us-seeks-iranian-pledge-to-free-up-strait-of-hormuz/",
-            "image": "https://www.ctvnews.ca/resizer/v2/3JBPO3V3PLXQLCIDDDZT3WUG24.jpg?auth=76345c3974a87b0e6340e9a19f53d2ee13e655fc5f7a397de6398c7535e4f9e6&smart=true&width=1400&height=933",
-            "source": "ctvnews"
+            "title": "Iran Officials Admit To \"Mistake\" After Attacks On Ships In Hormuz: Report",
+            "severity": "HIGH",
+            "url": "https://www.ndtv.com/world-news/iran-officials-admit-to-mistake-after-attacks-on-ships-in-hormuz-report-11759417",
+            "image": "https://c.ndtvimg.com/2026-04/qk73ssh4_trump-iran-pea_625x300_07_April_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
         },
         {
-            "title": "What makes the Sultanate of Oman the Gulf's geopolitical exception?",
-            "severity": "WATCH",
-            "url": "https://www.rfi.fr/en/international/20260711-what-makes-the-sultanate-of-oman-the-gulf-s-geopolitical-exception",
-            "image": "https://s.rfi.fr/media/display/8bda129e-73c3-11f1-9d8d-005056a97e36/w:1024/p:16x9/AP26180378011196.jpg",
-            "source": "rfi_fr"
+            "title": "Psychology says people who always wear a jacket are not trying to hide something, they simply want to feel the familiar warmth and comfort",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/us/psychology-says-people-who-always-wear-a-jacket-are-not-trying-to-hide-something-they-simply-want-to-feel-the-familiar-warmth-and-comfort/articleshow/132336639.cms",
+            "image": "https://img.etimg.com/thumb/msid-132336722,resizemode-4,width-1200,height-900,imgsize-2136356,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Bengal govt to remove century-old mosque inside Kolkata airport",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/india/bengal-govt-to-remove-century-old-mosque-inside-kolkata-airport-13971646.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260711150551_Kolkata-airport.jpg",
+            "title": "Baloch Fury: Taking Cues From PoJK, Angry Citizens Confront Pakistan Army Grid In Quetta | Exclusive Details",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/world/baloch-fury-taking-cues-from-pojk-angry-citizens-confront-pakistan-army-grid-in-quetta-exclusive-details-10206205.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/07/Balochistan-violence-1-2026-07-cbc67984ba3c0074ec7e10a837d81ecc-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Vance Would Make Call on Iran if Trump Killed",
+            "severity": "HIGH",
+            "url": "https://www.newsmax.com/newsfront/trump-iran-assassination/2026/07/11/id/1262513",
+            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=ED1C05ED-CCB8-455A-B694-B3F9E2C2FDB6",
+            "source": "newsmax"
+        },
+        {
+            "title": "Youth Akali Dal flays AAP govt over unplugged breaches along Ghaggar",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/youth-akali-dal-flays-aap-govt-over-unplugged-breaches-along-ghaggar/articleshow/132336751.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132336748/132336748.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Strait of Hormuz, military aggression: Why Iran wants to up the ante against US?",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/world/strait-of-hormuz-military-aggression-why-iran-wants-to-up-the-ante-against-us-article-13971608.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260711180516_Iran-Iran-Iran.jpg",
             "source": "moneycontrol"
         },
         {
-            "title": "Bank manager gets 5-yr RI for embezzlement",
+            "title": "US underestimates peril if Los Alamos were to leak plutonium, study says",
+            "severity": "HIGH",
+            "url": "https://www.bostonglobe.com/2026/07/11/nation/us-underestimates-peril-if-los-alamos-were-leak-plutonium-study-says/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/G6DJTR4KJE24B5VAFTVTVLGXXY.jpg?auth=bc3704c60775f86dc98a45860a76d54bcfb4e7e533bd40405eedad78f2bece0f&smart=true&width=6000&height=4002",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "Relief for Bhimrao Bada residents as Telangana high court orders 2BHK houses, ends 17-year dispute",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/city/hyderabad/relief-for-bhimrao-bada-residents-as-telangana-high-court-orders-2bhk-houses-ends-17-year-dispute/articleshow/132336710.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132336709/132336709.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Punjab minister Goyal reviews flood-prevention arrangements along Ghaggar",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/punjab-minister-goyal-reviews-flood-prevention-arrangements-along-ghaggar/articleshow/132336750.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132336747/132336747.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "World Cup live updates: Mick Jagger to attend Norway vs. England match in Miami",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/bank-manager-gets-5-yr-ri-for-embezzlement/articleshow/132332974.cms",
+            "url": "https://www.miamiherald.com/sports/fifa-world-cup/article316462115.html",
+            "image": "https://www.miamiherald.com/public/latest-news/7xw1be/picture316433058/alternates/FREE_1140/GettyImages-2284798791.jpg",
+            "source": "miamiherald"
+        },
+        {
+            "title": "Constellation Energy Is Helping Solve the AI Power Crunch. Here's Why You Shouldn't Hesitate to Buy It Right Now.",
+            "severity": "WATCH",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/constellation-energy-helping-solve-ai-183500396.html",
+            "image": "https://media.zenfs.com/en/motleyfool.com/53a9becc103a14a6fd77e0321d888b8e",
+            "source": "yahoo"
+        },
+        {
+            "title": "Weird Clothes & Accessories On Amazon That Are Pure Genius",
+            "severity": "WATCH",
+            "url": "https://www.bustle.com/shopping/weird-clothes-accessories-on-amazon-that-are-pure-genius",
+            "image": "https://imgix.bustle.com/uploads/image/2026/5/5/052596e4/7.webp?w=1200&h=675&fit=crop&crop=faces&fm=jpg",
+            "source": "bustle"
+        },
+        {
+            "title": "Nuggets Get Intriguing LeBron Update After Insider\u2019s \u2018Done Deal\u2019 Claim",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/nuggets-intriguing-lebron-insider-done-183216339.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/ceGlmHgWL0P1sfa1yN5Aag--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/heavy_214/b76c6d3ccd6b43bc9db690ded7e234d5",
+            "source": "yahoo"
+        },
+        {
+            "title": "Chief minister V D Satheesan seeks Centre\u2019s assistance for integrated airport-port development",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/thiruvananthapuram/chief-minister-v-d-satheesan-seeks-centres-assistance-for-integrated-airport-port-development/articleshow/132336711.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131709414/131709414.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "As Tigers' Kerry Carpenter grinds, his threat level to opponents stays true",
+            "severity": "WATCH",
+            "url": "https://www.detroitnews.com/story/sports/mlb/tigers/2026/07/11/tigers-kerry-carpenter-threat-level-stays-true/90886866007/",
+            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "detroitnews"
+        },
+        {
+            "title": "Pisces Horoscope Today, July 12, 2026: A Surprising Insight Could Shift Your Path",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/astrology/horoscope/pisces-horoscope-today-july-12-2026-article-155077668",
+            "image": "https://images.timesnownews.com/thumb/msid-155077667,thumbsize-779277,width-1280,height-720,resizemode-75/155077667.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Tour de France Stage 9 shortened after 'red heatwave alert' issued",
+            "severity": "WATCH",
+            "url": "https://www.tntsports.co.uk/cycling/tour-de-france/2026/shortened-after-red-heatwave-alert-issued_sto23318646/story.shtml",
+            "image": "https://i.eurosport.com/2026/07/11/image-fbde896d-aba9-40fc-bfa7-a5475002e6d9-68-310-310.jpeg",
+            "source": "eurosport_com"
+        },
+        {
+            "title": "Who is Clement Turpin, the referee for England vs Norway at the World Cup?",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7438903/2026/07/11/england-world-cup-referee-clement-turpin-who/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/07/11142805/GettyImages-2284666107-scaled.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "Not Tesco, Lidl, Asda - UK's cheapest supermarket announced",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/whats-on/shopping/not-tesco-lidl-asda-uks-34248947",
+            "image": "https://i2-prod.birminghammail.co.uk/whats-on/shopping/article34248948.ece/ALTERNATES/s615/0_supermarket.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "16 Years Later, One Piece's Most Chilling Quote Proves Who The Series' Best Villain Is",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/one-piece-doflamingo-best-villain-quote/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/luffy_00000.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "US citizen tests positive for Ebola in Congo",
+            "severity": "WATCH",
+            "url": "https://www.wmur.com/article/us-citizen-tests-positive-for-ebola-in-congo/71906530",
+            "image": "https://kubrick.htvapps.com/htv-prod/images/b8985286-798c-4688-bf61-3c871045c855.jpg",
+            "source": "wmur"
+        },
+        {
+            "title": "16 Dark And Heartbreaking Secrets Celebrities Revealed In Their Memoirs",
+            "severity": "WATCH",
+            "url": "https://www.buzzfeed.com/kristenharris1/dark-secrets-from-celebrity-memoirs",
+            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-07/09/19/thumb/WNuMV3luh.jpg?crop=1245:830;3,0&resize=1250:830&resize=1200:*",
+            "source": "buzzfeeduk"
+        },
+        {
+            "title": "Six-week pregnancy scan changed everything: Doctors explain the rare condition that threatened a young woman's life and fertility",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/health/six-week-pregnancy-scan-changed-everything-doctors-explain-the-rare-condition-that-threatened-a-young-womans-life-and-fertility/articleshow/132336428.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132336442/132336442.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "FedEx and UPS face a new pricing threat from an old rival",
+            "severity": "WATCH",
+            "url": "https://www.thestreet.com/latest-news/amazon-shipping-fedex-ups-pricing",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTA5NTc3/new-york-ny-usa.jpg?profile=rss",
+            "source": "thestreet"
+        },
+        {
+            "title": "World Cup: Argentina Scandal \u2018One of Biggest FIFA Has Covered Up\u2019",
+            "severity": "WATCH",
+            "url": "https://www.givemesport.com/argentina-scandal-fifa-world-cup-report-football-soccer/",
+            "image": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/07/mixcollage-09-jul-2026-05-59-pm-6157.jpg",
+            "source": "givemesport"
+        },
+        {
+            "title": "Alberta premier offers reassurances on massive Meta data centre during radio show",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/edmonton/article/alberta-premier-offers-reassurances-on-massive-meta-data-centre-during-radio-show/",
+            "image": "https://www.ctvnews.ca/resizer/v2/LNV4262FO5NJHA4HKBHV32UNKU.jpg?auth=be94d6439d82aca3ef2f434965a51981bdaa1f55499a0a895aafd98c7be87386&smart=true&width=1400&height=787",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Global logistics firm Rock-It sets up Middle East headquarters in Abu Dhabi",
+            "severity": "WATCH",
+            "url": "https://www.khaleejtimes.com/uae/rock-it-company-middle-east-headquarters-abu-dhabi",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-07-11/sa8fpvvt/hb305cx61ka1m6ipo.jpg",
+            "source": "khaleejtimes"
+        },
+        {
+            "title": "Create First Spring MVC Application",
+            "severity": "WATCH",
+            "url": "https://www.geeksforgeeks.org/springboot/create-and-run-your-first-spring-mvc-controller-in-eclipse-spring-tool-suite/",
+            "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220219235405/dispatcher-servelet-31.png",
+            "source": "geeksforgeeks"
+        },
+        {
+            "title": "Introduction to Spring Boot",
+            "severity": "WATCH",
+            "url": "https://www.geeksforgeeks.org/springboot/introduction-to-spring-boot/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20250828113913303626/introduction-to-Spring-Boot.webp",
+            "source": "geeksforgeeks"
+        },
+        {
+            "title": "Nicole Zedeck: Making aliyah from Colorado to Israel's front lines",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/aliyah/article-901984",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/729122",
+            "source": "jpost"
+        },
+        {
+            "title": "How WWI helped shape what you call this deli meat",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-07-12/devon-polony-fritz-sausage-food-names/106717502",
+            "image": "https://live-production.wcms.abc-cdn.net.au/638b388d6e186eb9886d4eb066f5fcfa?impolicy=wcms_crop_resize&cropH=810&cropW=1440&xPos=38&yPos=178&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Prime Video\u2019s Best 3-Part Fantasy Adaptation Made a Major Change From the Books",
+            "severity": "WATCH",
+            "url": "https://collider.com/the-wheel-of-time-prime-video-fantasy-book-change-taveren/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/03/wheel-of-time-egwene-wise-ones.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "Iran\u2019s Supreme Leader Mojtaba Khamenei pledges to avenge his father\u2019s \u2018innocent blood\u2019",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/world/irans-supreme-leader-mojtaba-khamenei-pledges-to-avenge-his-fathers-innocent-blood-article-13971557.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260711115341_Ali-Mojtaba.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Tolly technicians call off protest march after meet with state officials",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/kolkata/tolly-technicians-call-off-protest-march-after-meet-with-state-officials/articleshow/132336342.cms",
             "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
             "source": "toi"
         },
         {
-            "title": "A man was partly sucked out of a broken window on a Ryanair plane shortly after takeoff, but fellow passengers pulled him back",
+            "title": "How to watch Norway vs. England online for free from anywhere",
             "severity": "WATCH",
-            "url": "https://fortune.com/2026/07/11/man-sucked-broken-window-ryanair-flight-greece-takeoff/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/07/AP26191625349298-e1783779210368.jpg?w=2048",
-            "source": "fortune"
+            "url": "https://www.businessinsider.com/guides/streaming/how-to-watch-norway-vs-england-world-cup-2026",
+            "image": "https://i.insider.com/6a512fb3d9d92978fe6a5aff?width=1200&format=jpeg",
+            "source": "insider"
+        },
+        {
+            "title": "The day every affair will be exposed: Even infidelities from decades ago will be outed... experts reveal what cheaters must do immediately",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/sciencetech/article-15957511/affair-exposed-technology.html",
+            "image": "https://i.dailymail.com/1s/2026/07/06/21/109838065-0-image-a-25_1783370065888.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Heavy rain floods four Bijnor villages as Malan River overflows",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/meerut/heavy-rain-floods-four-bijnor-villages-as-malan-river-overflows/articleshow/132335813.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132335812/132335812.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Prince Harry Was Rushed By A Reporter Asking For A Hug, And The Reaction Online Is Totally Split",
+            "severity": "WATCH",
+            "url": "https://www.buzzfeed.com/jadagomez/alison-hammond-hugs-prince-harry-reactions",
+            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-07/11/16/thumb/SZx2yof9G.jpg?crop=1245:830;3,0&resize=1250:830&resize=1200:*",
+            "source": "buzzfeeduk"
+        },
+        {
+            "title": "Woman Says Boyfriend Accidentally Revealed Dating Apps While Screen Sharing: \u201cTell Me Why Hinge Was There\u201d",
+            "severity": "WATCH",
+            "url": "https://dailydot.com/woman-says-boyfriend-accidentally-revealed-dating-apps-while-screen-sharing-tell-me-why-hinge-was-there/",
+            "image": "https://lede-admin.dailydot.com/wp-content/uploads/sites/69/2026/07/texting.png?w=564",
+            "source": "dailydot"
         }
     ],
-    "Last_Updated": "2026-07-12T03:30:28.764804Z"
+    "Last_Updated": "2026-07-12T06:39:32.147128Z"
 }
