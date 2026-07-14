@@ -1,279 +1,253 @@
 {
-    "AGRI_Score": 62.8,
-    "Velocity": "+1.8",
+    "AGRI_Score": 60.5,
+    "Velocity": "-2.3",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 60.5 is significantly elevated, primarily driven by a sharp escalation in geopolitical tensions surrounding critical maritime trade routes. The proposed 'reinstating' of an Iran blockade and new U.S. strikes in the Strait of Hormuz, as indicated by headlines such as 'U.S. begins new Iran strikes after Trump says ships will be charged to use the Strait of Hormuz - PBS', directly fuels the high scores in Geopolitical Conflict Intensity and Energy & Maritime Disruption. This situation portends increased trade costs and supply chain vulnerabilities, while persistent cyber threats and global health crises further contribute to the overall risk landscape.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 80.0,
-        "Energy & Maritime Disruption": 65.3,
-        "Trade & Supply Chain Stress": 70.3,
+        "Geopolitical Conflict Intensity": 78.4,
+        "Energy & Maritime Disruption": 61.0,
+        "Trade & Supply Chain Stress": 66.1,
         "Sovereign Financial Stress": 55.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 64.8,
-        "Cyber & Infrastructure Threats": 62.1,
+        "Sanctions & Regulatory Fragmentation": 56.2,
+        "Cyber & Infrastructure Threats": 61.9,
         "Climate & Resource Shock": 45
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "The geopolitical environment is severely strained by 'U.S. begins new Iran strikes after Trump says ships will be charged to use the Strait of Hormuz'. This development signals a direct confrontation and increased risk of military escalation in a vital global chokepoint, further intensified by 'Trump 'reinstating' blockade in Strait of Hormuz - and will charge ships for safe passage'.",
+        "Energy & Maritime Disruption": "The threat of a 'reinstated blockade' and associated charges for passage through the Strait of Hormuz directly threatens global energy supplies and maritime trade efficiency. 'Trump: Iran blockade reinstated, US to charge 20% on Strait of Hormuz cargo' highlights a severe impending disruption to shipping operations and potentially higher energy costs worldwide.",
+        "Trade & Supply Chain Stress": "The announcement that the 'US to charge 20% on Strait of Hormuz cargo' is poised to introduce significant new costs and logistical hurdles for international trade, straining supply chains. Additionally, the 'TNAU forecasts maize farm-gate price at Rs 2,200-2,400 per quintal' suggests potential commodity price volatility that could further impact agricultural supply chains.",
+        "Sovereign Financial Stress": "The imposition of a 20% charge on Strait of Hormuz cargo, as indicated by Trump's statement, could translate into increased import costs for many nations, potentially exacerbating sovereign financial burdens. While regulatory actions like 'SC upholds SEBI action against Kotak AMC over Essel-linked FMPs' point to financial oversight, the core stress driver here is geopolitical.",
+        "Currency & Liquidity Pressure": "The significant hike in shipping costs, including the proposed '20% on Strait of Hormuz cargo', is likely to inflate import prices, potentially leading to increased inflationary pressures and weakening currencies in import-reliant economies. This geopolitical friction introduces considerable uncertainty that could impact capital flows and liquidity.",
+        "Sanctions & Regulatory Fragmentation": "The declaration to 'charge 20% on Strait of Hormuz cargo' by the US represents a unilateral regulatory imposition on international shipping, creating new layers of fragmentation in maritime law. Separately, 'Meta Faces EU Breach Finding Over Addictive Facebook, Instagram Design' underscores increasing regulatory scrutiny and fragmentation in the digital sphere.",
+        "Cyber & Infrastructure Threats": "The disclosure of 'Lidl discloses online shop breach after service provider hack' highlights ongoing vulnerabilities in digital infrastructure and the supply chains of IT services. The persistent threat environment is further evidenced by 'Breach at the Beach: Play the Ultimate Entra ID CTF,' emphasizing the continuous need for robust cybersecurity measures.",
+        "Climate & Resource Shock": "The 'Ebola outbreak in the Democratic Republic of the Congo', noted by Tom Fletcher, signals a critical health crisis that can strain resource management and humanitarian efforts, potentially exacerbated by climate-related factors. The forecast of 'maize farm-gate price at Rs 2,200-2,400 per quintal' also indicates potential pressures on food resources, although not explicitly tied to a direct climate shock in this reporting period."
+    },
     "All_Alerts": [
         {
-            "title": "2,000 litres of unsafe milk, ice cream caught in Maharashtra raids",
+            "title": "U.S. begins new Iran strikes after Trump says ships will be charged to use the Strait of Hormuz - PBS",
             "severity": "HIGH",
-            "url": "https://indianexpress.com/article/cities/mumbai/fda-crackdown-2000-litres-adulterated-milk-320-kg-basundi-ice-cream-destroyed-10784405/",
-            "image": "https://images.indianexpress.com/2026/07/adulterated-milk-2.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Iran's missiles are hitting America's closest Arab allies: Why Qatar, UAE, Bahrain, Kuwait, Oman and Jordan are in the crosshairs",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/iran-s-missiles-are-hitting-america-s-closest-arab-allies-why-qatar-uae-bahrain-kuwait-oman-and-jordan-are-in-the-crosshairs-article-13972674.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260713105610_Iran-Middle-East.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "'New Delhi's position is right': Poland backs India's stance on West Asia conflict",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/new-delhis-position-is-right-poland-backs-indias-stance-on-west-asia-conflict-us-iran-war-news-101783937975032.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/13/1600x900/logo/Image_1783938620789_1783938636906_5f036769-0c8c-4e9f-b8b4-9a7114162719.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "India's inflation accelerates to 4.38% in June, exceeding forecasts",
-            "severity": "HIGH",
-            "url": "https://www.cnbc.com/2026/07/13/india-june-inflation-oil-food-iran-war.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108333828-1783917122862-gettyimages-2284979378-20260709_dli-rkr-mn_rain_gazipur_sabzi_mandi-14.jpeg?v=1783917136&w=1200&h=675",
-            "source": "cnbc"
-        },
-        {
-            "title": "West Hartford Jewish Giving Circle Awards Grants To Hartford Program, Israeli Children's Trauma Initiative",
-            "severity": "HIGH",
-            "url": "https://patch.com/connecticut/westhartford/west-hartford-jewish-giving-circle-awards-grants-hartford-program-israeli",
-            "image": "https://patch.com/img/cdn20/users/25990360/20260713/065804/styles/patch_image/public/west-hartford-lilliaon-fund-grant-award___13065704629.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "CDF Munir arrives in Turkiye on 2-day official visit: state media",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/2015119/cdf-munir-arrives-in-turkiye-on-2-day-official-visit-state-media",
-            "image": "https://i.dawn.com/large/2026/07/131550082364755.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "Zelenskyy will discuss Ukraine support and air defences with European leaders in Paris",
-            "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/world/russia-ukraine-war/article/zelenskyy-will-discuss-ukraine-support-and-air-defences-with-european-leaders-in-paris/",
-            "image": "https://www.ctvnews.ca/resizer/v2/AB3TVEQVKOTZTNN4J47QOMWYJA.jpg?auth=6924bb701ad45eb4a1b7551c78516ce93eed5ee5f9edad02388051e4a899e416&smart=true&width=1400&height=933",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Oil Prices Jump, World Shares Mixed as US-Iran Conflict Escalates",
-            "severity": "HIGH",
-            "url": "https://www.newsmax.com/newsfront/oil-iran-markets/2026/07/13/id/1262611",
-            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=6E1F4D73-DBEC-40D8-8A20-D42BB82CC4FC",
-            "source": "newsmax"
-        },
-        {
-            "title": "India Packaged Rice Market Report Just Released, Profiles Adani Wilmar Ltd., KRBL Limited, and 12 Other Key Players",
-            "severity": "HIGH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/07/13/3326053/28124/en/India-Packaged-Rice-Market-Report-Just-Released-Profiles-Adani-Wilmar-Ltd-KRBL-Limited-and-12-Other-Key-Players.html",
-            "image": "https://images.pexels.com/photos/7629244/pexels-photo-7629244.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "'Customer demand will remain higher than our supply capacity even beyond 2030': SK hynix CEO predicts memory supply crisis may run even longer than we feared",
-            "severity": "HIGH",
-            "url": "https://www.pcgamer.com/hardware/memory/customer-demand-will-remain-higher-than-our-supply-capacity-even-beyond-2030-sk-hynix-ceo-predicts-memory-supply-crisis-may-run-even-longer-than-we-feared/",
-            "image": "https://cdn.mos.cms.futurecdn.net/La7ckjBjht5hVQ7UdF7Ui4-1280-80.jpg",
-            "source": "pcgamer"
-        },
-        {
-            "title": "Middle East on the brink as US and Iran unleash fresh strikes",
-            "severity": "HIGH",
-            "url": "https://www.iol.co.za/news/world/middle-east-on-the-brink-as-us-and-iran-unleash-fresh-strikes-9b3e1401-d875-4fdf-9cfe-a1e0646402b0",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/fc5fa83db966206f9aba97bc3c4f2e669fdc79c9/1200&operation=CROP&offset=0x63&resize=1200x675",
-            "source": "iol"
-        },
-        {
-            "title": "Transformers\u2019 Most Criminally Overlooked Movie is Getting an Unexpected Follow-Up",
-            "severity": "HIGH",
-            "url": "https://comicbook.com/tv-shows/news/transformers-most-criminally-overlooked-movie-is-getting-an-unexpected-follow-up/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2025/12/transformers-one.jpg",
-            "source": "comicbook"
-        },
-        {
-            "title": "Brussels is beating a retreat from net zero orthodoxy - The Telegraph",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWXZvUTNZX1l6OXB2TzVTaEJIcEZVM0lHeEhzTHJnQ0FOb19uRnJ4TmRiU1RldFBSbEREQ0VOYVY4OGN4cmxiOU9hOTd4UV9acGM4SlB1ai11S3JLQ1FCbThjM1JzTllZNkFpdkV5Ykp4LTVWdldHTk1vZjY3UExXR20xVTRiOERBVGM5RmhlejZsOGZmNkE?oc=5",
-            "image": "https://images.pexels.com/photos/28767587/pexels-photo-28767587.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYUpEQjRaMUpCT0JkVUllY3BuSVgtcElFei1nUHQ1Y1hhQkQ1cGF0YWJZbWVaSDBtRGEzQXpwUlczMlF3bDBwMWh4OXJ5NHBucXF3cVktemh4X0ZoUWdXRTZ4RUpDWElIdklmSVFIbVozTU1sYnJyTVE3aEZaWnE4a3J1YmNOc2ExSlA5UnBuUHBoaVUwRzFtSXVqZ2FmQ0NORW5qRjhDcktuWmNmZ0tJVnlaeUl1OXFHTFhnTkZtR2ZzRFZaQ1B0TDZ5V3HSAdIBQVVfeXFMT3RDU05La0tEckwtdjc5Nk9fcjVHXzZRR2JuVlA5R0tKSjgtLVZVaW5jX1VzREJqMG9EenZaTmgzbkg4TjZ1VFdIaDQ1ZTFFd2NUZWJwazR3SDJlQkVVdXRmalNUTjhBQUdLdk5HaTZKT0RybWNPckdKZFNGUFYyNl9UUlA1UUIyQzNhUXRtS2hOQjFXZmZUUFZpLVBuT2M1Ry1VeUJfc1dOeTcxLWl6VkQ4UzJja0ZpYVJRVHJRc3lGQ2JWUmhmaE0zS3kwU0ZMWXBR?oc=5",
+            "image": "https://images.pexels.com/photos/972942/pexels-photo-972942.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Benoit Saint-Denis breaks his silence after being choked out cold in 52 seconds by Paddy Pimblett at UFC 329",
+            "title": "Trump 'reinstating' blockade in Strait of Hormuz - and will charge ships for safe passage",
             "severity": "HIGH",
-            "url": "https://bloodyelbow.com/2026/07/13/benoit-saint-denis-breaks-his-silence-after-being-choked-out-cold-in-52-seconds-by-paddy-pimblett-at-ufc-329/",
-            "image": "https://bloodyelbow.com/wp-content/uploads/1/2026/07/GettyImages-2285713731-scaled.jpg",
-            "source": "bloodyelbow"
-        },
-        {
-            "title": "IND vs ENG, 1st ODI Preview: Rohit, Virat and Bumrah return as India seek redemption after T20I disaster",
-            "severity": "HIGH",
-            "url": "https://zeenews.india.com/cricket/ind-vs-eng-1st-odi-preview-rohit-sharma-virat-kohli-and-jasprit-bumrah-return-as-india-seek-redemption-after-t20i-disaster-3060770.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/07/13/1963363-rohit-sharma-virat-kohli-and-jasprit-bumrah.jpg",
-            "source": "zeenews"
-        },
-        {
-            "title": "Jay-Z\u2019s Yankee Stadium Concert Delayed For Hours After Alleged Security Breach And Lockdown",
-            "severity": "HIGH",
-            "url": "https://www.forbes.com/sites/siladityaray/2026/07/13/jay-zs-yankee-stadium-concert-delayed-for-hours-after-alleged-security-breach-and-lockdown/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/6a54c127f0a05eee3e2e2df4/0x0.jpg?width=960",
-            "source": "forbes"
-        },
-        {
-            "title": "Taking Stock: Sensex, Nifty end flat after smart recovery; IT, media stocks rally",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/business/markets/taking-stock-sensex-nifty-end-flat-after-smart-recovery-it-media-stocks-rally-13972511.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260704033415_Nifty_sensex_marketup.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "\u2018One-sided\u2019 World Cup referees \u2018giving Argentina everything\u2019 as England get chilling warning",
-            "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/sport/football/news/world-cup-referees-argentina-england-37423507",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37423528.ece/ALTERNATES/s615/0_Argentina-v-Switzerland-Quarter-Final-FIFA-World-Cup-2026.jpg",
+            "url": "https://www.mirror.co.uk/news/world-news/iran-strait-of-hormuz-trump-37425128",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37425228.ece/ALTERNATES/s615/0_IRAN-US-ISRAEL-WAR.jpg",
             "source": "mirroruk"
         },
         {
-            "title": "Morning Call Sheet: Markets brace for earnings, inflation and oil risks",
+            "title": "Trump: Iran blockade reinstated, US to charge 20% on Strait of Hormuz cargo",
+            "severity": "HIGH",
+            "url": "https://ca.finance.yahoo.com/news/trump-iran-blockade-reinstated-us-145253052.html",
+            "image": "https://media.zenfs.com/en/reuters.ca/50336b9ed60258e78eeeb82fe941ad80",
+            "source": "yahoo"
+        },
+        {
+            "title": "Statement on the Ebola outbreak in the Democratic Republic of the Congo by Tom Fletcher, Under-Secretary-General for Humanitarian Affairs and Emergency Relief Coordinator, 9 July 2026",
+            "severity": "HIGH",
+            "url": "https://reliefweb.int/report/democratic-republic-congo/statement-ebola-outbreak-democratic-republic-congo-tom-fletcher-under-secretary-general-humanitarian-affairs-and-emergency-relief-coordinator-9-july-2026",
+            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/c6/3a/c63ab674-6406-4577-8597-cf11dac4008e.png",
+            "source": "reliefweb"
+        },
+        {
+            "title": "Support for Israel isn't a high priority for younger Jewish Americans, an AP-NORC poll finds",
+            "severity": "HIGH",
+            "url": "https://www.latimes.com/world-nation/story/2026-07-13/support-for-israel-isnt-high-priority-for-younger-jewish-americans-ap-norc-poll-finds",
+            "image": "https://images.pexels.com/photos/35102453/pexels-photo-35102453.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "latimes"
+        },
+        {
+            "title": "AI Model Wars: Anthropic Extends Fable Access Again After OpenAI\u2019s Sol Release",
+            "severity": "HIGH",
+            "url": "https://www.forbes.com/sites/tylerroush/2026/07/13/ai-model-wars-anthropic-extends-fable-access-again-after-openais-sol-release/",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/6a54fa9798cd3cb29f80f10b/0x0.jpg?width=960",
+            "source": "forbes"
+        },
+        {
+            "title": "TNAU forecasts maize farm-gate price at Rs 2,200-2,400 per quintal",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/coimbatore/tnau-forecasts-maize-farm-gate-price-at-rs-2200-2400-per-quintal/articleshow/132369790.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Lidl discloses online shop breach after service provider hack",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2026/07/13/LIDL_headpic.jpg",
+            "source": "bleepingcomputer"
+        },
+        {
+            "title": "Phoenix Mercury vs. Minnesota Lynx Live Stream: Watch WNBA Season 2026 on Peacock",
+            "severity": "HIGH",
+            "url": "https://basketball.realgm.com/wiretap/286685/Phoenix-Mercury-vs-Minnesota-Lynx-Live-Stream-Watch-WNBA-Season-2026-on-Peacock",
+            "image": "https://images.pexels.com/photos/15961091/pexels-photo-15961091.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "realgm"
+        },
+        {
+            "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
+            "image": "https://www.bleepstatic.com/content/posts/2026/07/09/breach-at-the-beach.jpg",
+            "source": "bleepingcomputer"
+        },
+        {
+            "title": "Meta Faces EU Breach Finding Over Addictive Facebook, Instagram Design",
+            "severity": "HIGH",
+            "url": "https://www.techrepublic.com/article/news-meta-eu-addictive-design-emea/",
+            "image": "https://assets.techrepublic.com/uploads/2026/07/Gemini_Generated_Image_wktok6wktok6wkto.jpg?f=jpeg",
+            "source": "techrepublic"
+        },
+        {
+            "title": "Jay-Z responds to backlash after three-hour delay at Yankee Stadium concert - The Independent",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLXY3dGJvNWs4MzNEbmdNaFViajZoTEFWVEtvcThxSUxvek9sZlV0OVZUZC1DNUZUV0UxazBLOW9SZmZjaFFtVmpteXhpVFNkOHdUaWhQcTRZaDBENzJkZVprTFhxUmFqeDRQVGpIaUVfQ2FTWUlVcHRIdThZU090eUxCcHB6NlFCZldhR1g3X3NsMHp5TXlhajRrUkZtcENDcTB6R0h0MXNFRXJ0?oc=5",
+            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Former DEVGRU operator Matt Bissonnette sheds new light on how the bin Laden raid actually unfolded",
             "severity": "MEDIUM",
-            "url": "https://www.cnbc.com/video/2026/07/13/morning-call-sheet-markets-brace-for-earnings-inflation-and-oil-risks.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108333915-2ED1-MC-071326-Call.jpg?v=1783940243",
-            "source": "cnbc"
+            "url": "https://www.foxnews.com/outkick-culture/former-devgru-operator-matt-bissonnette-sheds-new-light-bin-laden-raid-unfolded",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/Osama_bin_Laden.jpg?ve=1&tl=1",
+            "source": "foxnews"
         },
         {
-            "title": "Oil pangs resurface for rupee, options market gauge signals bearish bias",
+            "title": "SC upholds SEBI action against Kotak AMC over Essel-linked FMPs, says regulatory violations cannot be justified by investor gains",
             "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/oil-pangs-resurface-for-rupee-options-market-gauge-signals-bearish-bias/articleshow/132364812.cms",
-            "image": "https://img.etimg.com/thumb/msid-132364812,resizemode-4,width-1200,height-900,imgsize-44388,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Iran: Rising regional power or too weak to make peace?",
-            "severity": "MEDIUM",
-            "url": "https://www.france24.com/en/tv-shows/press-review/20260713-iran-rising-regional-power-or-too-weak-to-make-peace",
-            "image": "https://s.france24.com/media/display/d4615fb0-7e7f-11f1-93b2-005056bfb2b6/w:1024/p:16x9/Anglais-2026-07-13T05-20-23-278Z.jpg",
-            "source": "france24"
-        },
-        {
-            "title": "Europe left with under 30 days of jet fuel reserves as Hormuz tensions resurface",
-            "severity": "MEDIUM",
-            "url": "https://en.protothema.gr/2026/07/13/europe-left-with-under-30-days-of-jet-fuel-reserves-as-hormuz-tensions-resurface/",
-            "image": "https://en.protothema.gr/wp-content/uploads/2026/07/aircraft-oil-jet-fuel-1.jpg-1.jpg",
-            "source": "protothema"
-        },
-        {
-            "title": "The hidden cybersecurity risk sitting in every SMB office",
-            "severity": "MEDIUM",
-            "url": "https://www.techradar.com/pro/the-hidden-cybersecurity-risk-sitting-in-every-smb-office",
-            "image": "https://cdn.mos.cms.futurecdn.net/5RYCUPY3MrRkUECQECzDC-1280-80.jpg",
-            "source": "techradar_au"
-        },
-        {
-            "title": "Neodymium Iron Boron Magnet Market Size to Surpass USD 37.34 Billion by 2035 on EV and Renewable Energy Demand | SNS Insider",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/07/13/3326051/0/en/Neodymium-Iron-Boron-Magnet-Market-Size-to-Surpass-USD-37-34-Billion-by-2035-on-EV-and-Renewable-Energy-Demand-SNS-Insider.html",
-            "image": "https://images.pexels.com/photos/29267507/pexels-photo-29267507.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "\u2018Our 16-month-old son died in his sleep after going to bed with a runny nose\u2019",
-            "severity": "WATCH",
-            "url": "https://www.the-independent.com/life-style/health-and-families/strep-a-symptoms-sudc-uk-b3013777.html",
-            "image": "https://static.independent.co.uk/2026/07/10/06/09111603-8e68082b-f19c-403a-8d5e-927bbd09f9e1.jpg?width=1200&auto=webp&trim=664%2C0%2C1336%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "'Good riddance': Liberals celebrate Lindsey Graham's death",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/galleries/article-15973405/Good-riddance-Liberals-celebrate-Lindsey-Grahams-death.html",
-            "image": "https://i.dailymail.com/1s/2026/07/13/11/109967347-0-image-a-4_1783939595836.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Puducherry Pollution Control Committee mandates registration of bulk waste generators",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/cities/puducherry/puducherry-pollution-control-committee-mandates-registration-of-bulk-waste-generators/article71216862.ece",
-            "image": "https://th-i.thgim.com/public/incoming/4k1pbc/article71216995.ece/alternates/FREE_1200/2786_2_5_2024_17_27_24_3_05PY02JIPMERWASTE8.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Brent crude jumps over 3% to $78.5 as fresh US-Iran strikes fuel supply concerns",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/commodities/brent-crude-jumps-over-3-to-78-5-as-fresh-us-iran-strikes-fuel-supply-concerns-13972690.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2020/04/brent-crude.jpg",
+            "url": "https://www.moneycontrol.com/news/business/markets/sc-upholds-sebi-action-against-kotak-amc-over-essel-linked-fmps-says-regulatory-violations-cannot-be-justified-by-investor-gains-13972814.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/08/20250808055537_Supreme-Court.jpg",
             "source": "moneycontrol"
         },
         {
-            "title": "House of the Dragon\u2019s Ryan Condal Explains Helaena\u2019s Revelation, Daemon\u2019s Deception, and the Greens\u2019 New Addition",
+            "title": "New Chelsea boss Xabi Alonso demands team show \u2018hunger\u2019 for success",
             "severity": "WATCH",
-            "url": "https://sea.ign.com/game-of-thrones-house-of-the-dragon/245364/house-of-the-dragons-ryan-condal-explains-helaenas-revelation-daemons-deception-and-the-greens-new-a",
-            "image": "https://sm.ign.com/ign_ap/feature/h/house-of-t/house-of-the-dragons-ryan-condal-explains-helaenas-revelatio_x74s.jpg",
-            "source": "ign"
-        },
-        {
-            "title": "Capitol agenda: Graham\u2019s death makes a hard month harder",
-            "severity": "WATCH",
-            "url": "https://www.politico.com/live-updates/2026/07/13/congress/graham-death-hard-month-00994370",
-            "image": "https://static.politico.com/38/26/27b052414528afc6867f1e5de4b6/2025-0605-congress-francis-28-1.jpg",
-            "source": "politico"
-        },
-        {
-            "title": "As Trump Brands Them \u2018Godless Communists,\u2019 Democrats Divided on How to Respond",
-            "severity": "WATCH",
-            "url": "https://time.com/article/2026/07/13/as-trump-brands-them-godless-communists-democrats-divided-on-how-to-respond/",
-            "image": "https://static.time.com/v3/assets/bltea6093859af6183b/blt0d3d402860819113/6a51133ba2341979a3d47ca3/GettyImages-2284156821.jpg?branch=production",
-            "source": "time"
-        },
-        {
-            "title": "Fourth generation taking over longstanding Prince Albert clothing store",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/saskatchewan/prince-albert-sask-menswear-fred-matheson-ownership-9.7263102?cmp=rss",
-            "image": "https://i.cbc.ca/ais/7218d906-8cab-4c2f-a57e-d2262c1c1858,1783710002521/full/max/0/default.jpg?im=Crop%2Crect%3D%28487%2C209%2C5223%2C2937%29%3B",
-            "source": "cbc"
-        },
-        {
-            "title": "7 Reasons Why SmackDown Is Suddenly Looking Like WWE's Best Over Raw",
-            "severity": "WATCH",
-            "url": "https://bleacherreport.com/articles/25454359-7-reasons-why-smackdown-suddenly-looking-wwes-best-over-raw",
-            "image": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/getty_images/2026-07/2285580951_large_cropped.jpg",
-            "source": "bleacherreport"
-        },
-        {
-            "title": "10 Biggest Controversies That Rocked The FIFA World Cup 2026",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/sports/football/10-biggest-controversies-that-plagued-fifa-world-cup-2026-usa-vs-iran-egypt-argentina-somali-referee-mbappe-racism-balogun-ws-cl-10208067.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/07/mo-salah-egypt-vs-argentina-2026-07-e61519c2da7e7c50a093f73bcc0801a6-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "First Hawaiian, Inc. to Acquire TriCo Bancshares and Provide Preliminary 2026 Second Quarter Results",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/07/13/3326072/0/en/First-Hawaiian-Inc-to-Acquire-TriCo-Bancshares-and-Provide-Preliminary-2026-Second-Quarter-Results.html",
-            "image": "https://images.pexels.com/photos/7821470/pexels-photo-7821470.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "'Show us letter': Women farmers beat Bidadi survey team with brooms, demand DC's written order",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/india/karnataka/bengaluru/show-us-letter-women-farmers-beat-bidadi-survey-team-with-brooms-demand-dcs-written-order-4071968",
-            "image": "https://media.assettype.com/deccanherald/2026-07-13/kczbpbv3/WhatsApp-Image-2026-07-13-at-3.34.38-PM.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Carmakers win bulk of first UK High Court diesel emissions ruling",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/economy/policy/articles/carmakers-win-bulk-first-uk-104244944.html",
-            "image": "https://media.zenfs.com/en/just_auto_187/7d084bf60ec705bac89b4434f9a63092",
+            "url": "https://ca.sports.yahoo.com/news/chelsea-boss-xabi-alonso-demands-145400613.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/w38WKKAQGaN7VwIi6r1dZg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xMzUwO2NmPXdlYnA-/https://media.zenfs.com/en/pa-sport.com/f91402cb238f985c130685896b157144",
             "source": "yahoo"
+        },
+        {
+            "title": "JD Vance and the Terrible, Horrible, No Good, Very Bad Week",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/world-news/us-news/jd-vance-and-the-terrible-horrible-no-good-very-bad-week-101783936338282.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/13/1600x900/logo/im-03083517_1783936342123_1783936361534_cb00ba0f-fe26-4e99-8f5a-db135cf20f07.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Police seize 1.25 liters of hash oil, arrest three peddlers and two consumers in Jubilee Hills",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/news/national/telangana/police-seize-125-liters-of-hash-oil-arrest-three-peddlers-and-two-consumers-in-jubilee-hills/article71217282.ece",
+            "image": "https://www.thehindu.com/theme/images/og-image.png",
+            "source": "thehindu"
+        },
+        {
+            "title": "Bihar surpasses PM Surya Ghar target with 4 lakh consumers: CS",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/patna/bihar-surpasses-pm-surya-ghar-target-with-4-lakh-consumers-cs/articleshow/132369834.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Why the US-China Moon race could turn into a lunar land grab",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/why-us-china-moon-race-145224770.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/8c136b426701eecb619e8e05662ecf62e803a3b96fff117d6360bfad29b9072c/lightyear_networkapi/resizefill_w1050_h700;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_conversation_464%2Fc5d14f24111a20b4bbbba4829909dc34",
+            "source": "yahoo"
+        },
+        {
+            "title": "Oxford\u2019s new Ebola vaccine enters first human trial: Serum Institute making over 6,20,000 doses",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/health-wellness/oxford-ebola-vaccine-bundibugyo-strain-human-trials-serum-institute-10784830/",
+            "image": "https://images.indianexpress.com/2026/07/Ebola-quarantine_20260713145105.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Rise and fall of \u2018The Westies,\u2019 New York\u2019s last Irish gang, as new series charts their murders and shakedowns",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/07/13/us-news/rise-and-fall-of-the-westies-new-yorks-last-irish-gang-as-new-series-charts-their-murders-and-shakedowns/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2F2016-file-photo-shows-exterior-134000873.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Intel\u2019s five billion-euro investment not an \u2018outlier\u2019, says Taoiseach",
+            "severity": "WATCH",
+            "url": "https://www.standard.co.uk/news/tech/intel-micheal-martin-ireland-co-kildare-government-b1289833.html",
+            "image": "https://static.standard.co.uk/2026/07/13/15/c4e2b9a67742793c54c051c8ba40e788Y29udGVudHNlYXJjaGFwaSwxNzg0MDM4OTU4-2.85291141.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
+        },
+        {
+            "title": "SK Hynix US-listed shares slip nearly 8% as Nasdaq debut euphoria cools",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/sk-hynix-us-listed-shares-slip-nearly-8-as-nasdaq-debut-euphoria-cools/articleshow/132369738.cms",
+            "image": "https://img.etimg.com/thumb/msid-132369738,resizemode-4,width-1200,height-900,imgsize-96806,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "UK agrees deal to make travel to major European nation easier",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/bulletin/news/uk-swiss-services-deal-e-gates-b3013968.html",
+            "image": "https://static.independent.co.uk/2026/07/08/08/49057f5f5af16c379f474b19ec66ba3dY29udGVudHNlYXJjaGFwaSwxNzgzNTgwMzY1-2.8058616.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "Misguided criticism of Camarillo council about ICE | Your Turn",
+            "severity": "WATCH",
+            "url": "https://www.yahoo.com/news/politics/articles/misguided-criticism-camarillo-council-ice-144523032.html",
+            "image": "https://media.zenfs.com/en/vc-star-ventura-county-star/a015bd3019f22bc99fa91b01fcd73119",
+            "source": "yahoo"
+        },
+        {
+            "title": "When Every Employee Manages 200 AI Agents",
+            "severity": "WATCH",
+            "url": "https://www.forbes.com/councils/forbestechcouncil/2026/07/13/when-every-employee-manages-200-ai-agents/",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/685ac060489dae072c0c63d8/0x0.jpg?width=960",
+            "source": "forbes"
+        },
+        {
+            "title": "England\u2019s World Cup recovery plan: slushies, carbs and ice troughs",
+            "severity": "WATCH",
+            "url": "https://ca.sports.yahoo.com/news/england-world-cup-recovery-plan-145107192.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/cUT6uXX91VHc134csZ6NEg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNDk4O2NmPXdlYnA-/https://media.zenfs.com/en/the_telegraph_818/884ec9e151b1834c07c4b01ca658dbf4",
+            "source": "yahoo"
+        },
+        {
+            "title": "Where gas is cheapest, most expensive this week in Michigan",
+            "severity": "WATCH",
+            "url": "https://www.mlive.com/public-interest/2026/07/where-gas-is-cheapest-most-expensive-this-week-in-michigan.html",
+            "image": "https://www.mlive.com/resizer/v2/U3NKI2HTABBETGMQF7J7GURAYA.JPG?auth=0a703dce5a93a05e7aca42d6e60c488b1de9b1e4a6fa37f2887695f5c251fb04&smart=true&height=1200",
+            "source": "mlive"
+        },
+        {
+            "title": "From Alexander Litvinenko to Sergei Skripal: the long road to reforming UK security",
+            "severity": "WATCH",
+            "url": "https://theconversation.com/from-alexander-litvinenko-to-sergei-skripal-the-long-road-to-reforming-uk-security-285103",
+            "image": "https://images.theconversation.com/files/742113/original/file-20260616-69-71t3pa.jpg?ixlib=rb-4.1.0&rect=0%2C1004%2C6016%2C3008&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
+        },
+        {
+            "title": "Explainer-Why has the Iran-US ceasefire memorandum frayed?",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/world-news/explainerwhy-has-the-iranus-ceasefire-memorandum-frayed-4530389",
+            "image": "https://i-invdn-com.investing.com/trkd-images/LYNXMPEM6C0T5_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Wealthy planning to emigrate if Miliband becomes chancellor",
+            "severity": "WATCH",
+            "url": "https://uk.news.yahoo.com/wealthy-planning-emigrate-miliband-becomes-143000276.html",
+            "image": "https://media.zenfs.com/en/the_telegraph_818/cc4755e3d8e96a716a2803656f702c58",
+            "source": "yahoo"
+        },
+        {
+            "title": "The myth of the big happy Indian family",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/editorials/the-myth-of-the-big-happy-indian-family-101783951935652.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/13/1600x900/logo/The-Bombay-High-Court-recently-established-that-pa_1783951933384.jpg",
+            "source": "hindustantimes"
         }
     ],
-    "Last_Updated": "2026-07-13T23:00:05.503213Z"
+    "Last_Updated": "2026-07-14T02:54:59.137078Z"
 }
