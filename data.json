@@ -1,258 +1,295 @@
 {
-    "AGRI_Score": 57.5,
-    "Velocity": "-2.3",
+    "AGRI_Score": 57.2,
+    "Velocity": "-0.3",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 57.2 reflects a significantly elevated risk environment, primarily driven by persistent geopolitical tensions. The \"Geopolitical Conflict Intensity\" pillar, at 79.5, is the dominant factor, fueled by ongoing developments in the Ukraine conflict. Contributing to this elevated risk are emerging \"Energy & Maritime Disruption\" concerns, particularly regarding critical chokepoints, and increased \"Trade & Supply Chain Stress\" from rising component costs and market volatility.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.1,
-        "Energy & Maritime Disruption": 58.4,
-        "Trade & Supply Chain Stress": 62.7,
+        "Geopolitical Conflict Intensity": 79.5,
+        "Energy & Maritime Disruption": 56.0,
+        "Trade & Supply Chain Stress": 60.2,
         "Sovereign Financial Stress": 56.2,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.7,
-        "Cyber & Infrastructure Threats": 54.2,
+        "Sanctions & Regulatory Fragmentation": 55.3,
+        "Cyber & Infrastructure Threats": 54.0,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "The high intensity is directly linked to the enduring conflict in Eastern Europe, as evidenced by \"Can US Senator Lindsey Graham's Ukraine initiatives survive without him?\" highlighting critical political support for Kyiv. Ukraine's continued efforts to bolster air defenses against Russian attacks, noted in \"Ukraine downs 5 Russian ballistic missiles as Kyiv looks to boost its air defenses,\" underscores the sustained combat environment.",
+        "Energy & Maritime Disruption": "Risk in this pillar is influenced by potential disruptions to critical shipping lanes, with concerns highlighted by \"Why Iran shut the Strait of Hormuz after decades of holding back.\" Regulatory shifts are also a factor, as \"EU Plans Guidelines Next Week to Delay Methane Rules Penalties\" indicates ongoing policy adjustments that could impact energy markets.",
+        "Trade & Supply Chain Stress": "Pressures are building due to increased input costs for key technologies, with \"Ericsson to raise telecom equipment prices as AI boom drives up component costs\" indicating an upward trend in expenses. Broader market performance, such as \"IBM shares plummet as preliminary second quarter results miss expectations,\" suggests potential for wider economic impact on supply chains.",
+        "Sovereign Financial Stress": "While no explicit sovereign default threats are present, market volatility contributes to financial uncertainty, as seen with \"IBM shares plummet as preliminary second quarter results miss expectations.\" This market performance, alongside general economic indicators, necessitates careful monitoring of national financial health.",
+        "Currency & Liquidity Pressure": "This pillar currently indicates baseline activity, with no specific news items directly pointing to imminent currency or liquidity crises. However, the broader market volatility affecting major corporations could indirectly influence investor sentiment towards various currencies.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory environments are evolving, with \"EU Plans Guidelines Next Week to Delay Methane Rules Penalties\" illustrating ongoing policy adjustments that can create complexity for businesses. The global fragmentation of regulatory frameworks continues to present a challenge, demanding continuous monitoring of compliance landscapes.",
+        "Cyber & Infrastructure Threats": "This pillar requires routine monitoring, as the provided news feed does not contain specific high-severity cyber attack or critical infrastructure failure reports. However, the pervasive reliance on digital infrastructure across industries means this remains a persistent underlying concern.",
+        "Climate & Resource Shock": "This pillar currently shows a relatively low-risk profile but requires attention to emerging humanitarian and environmental concerns. The \"Angola: Southern Africa: Humanitarian Snapshot (as of July 2026)\" points to ongoing regional vulnerabilities, while water security concerns are highlighted by \"Hyderabad water board readies emergency plan as Singur, Manjira inflows remain uncertain.\""
+    },
     "All_Alerts": [
         {
-            "title": "India's rising inflation hits 18-month high, corporate profits to suffer",
+            "title": "Can US Senator Lindsey Graham's Ukraine initiatives survive without him?",
             "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/business/indias-rising-inflation-hits-18-month-high-corporate-profits-to-suffer-articleshow-6h7a0t9",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-bd25fe5f-b136-4525-ab14-cf6b29ae69eb.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://www.dawn.com/news/2015401/can-us-senator-lindsey-grahams-ukraine-initiatives-survive-without-him",
+            "image": "https://i.dawn.com/large/2026/07/14170433a733729.webp",
+            "source": "dawn"
         },
         {
-            "title": "Jordan Says Downs Iranian Ballistic Missiles Targeting US Base",
+            "title": "Angola: Southern Africa: Humanitarian Snapshot (as of July 2026)",
             "severity": "HIGH",
-            "url": "https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html",
-            "image": "https://gdb.rferl.org/4e214de9-a20f-4d55-b409-1d43d6a313f2_w800_h450.jpg",
-            "source": "rferl"
+            "url": "https://reliefweb.int/report/angola/southern-africa-humanitarian-snapshot-july-2026",
+            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/38/16/3816abde-9ec0-4353-826d-618dae8ceb59.png",
+            "source": "reliefweb"
         },
         {
-            "title": "Oil prices surge as US-Iran peace deal frays, strikes renewed",
+            "title": "WINNER Song Mino\u2019s Appearance In Court Catches Attention - Koreaboo",
             "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/business/oil-prices-surge-as-us-iran-peace-deal-frays-strikes-renewed-articleshow-702bhsi",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-839cd522-aa7f-4d2f-a2ed-1a6a2b87d451.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX3FQSWJSc0NEaHBocFdFeGdtcDAzdnBGSlJMekM0RUVuMzJVWER1bXpGaTk5T0xodk9LXy05NmhpR1hNQ1Bib1FFb0ZCUVlPcmZsdjg0V2RTbmVRLXNlQnRsRjNMV2UwNDhvVGFDalE1YnEyV2pfdkZTVGRkTHkxd1MxeVpQOG1QRGtoUmRn?oc=5",
+            "image": "https://images.pexels.com/photos/6077325/pexels-photo-6077325.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Lebanon, Israel hold talks in Rome on implementing framework deal",
+            "title": "Why David Beckham could face biggest EVER England vs Argentina World Cup clash \u2013 and may need to pretend to be neutral",
             "severity": "HIGH",
-            "url": "https://www.aljazeera.com/news/2026/7/14/lebanon-israel-hold-talks-in-rome-on-implementing-framework-deal",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a560aaf5ede-1784023727.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
+            "url": "https://www.the-sun.com/sport/16689541/david-beckham-england-argentina-world-cup-lionel-messi/",
+            "image": "https://www.the-sun.com/wp-content%2Fuploads%2Fsites%2F6%2F2026%2F07%2Fcrop-39755752.jpg?quality%3D90%26strip%3Dall",
+            "source": "thesun"
         },
         {
-            "title": "Slain NJ mother 911 call made by her husband has forensic expert warning one mistake could derail focus",
-            "severity": "HIGH",
-            "url": "https://www.foxnews.com/us/slain-nj-mother-911-call-made-husband-forensic-expert-warning-one-mistake-could-derail-focus",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/Brooke_Hanlon_was_found_murdered_in_her_Chester_New_Jersey_home_in_June_of_2026.jpg?ve=1&tl=1",
-            "source": "foxnews"
-        },
-        {
-            "title": "\u2018True Patriots\u2019: a traveling play honors enslaved Africans\u2019 role in the American revolution",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/news/2026/jul/14/da-gullah-american-revolution-show",
-            "image": "https://i.guim.co.uk/img/media/fe163f31e0ed0be9de2286027d3e69ba08910444/641_0_6406_5125/master/6406.jpg?width=140&quality=85&auto=format&fit=max&s=2a98dd85969ab736bd1bec1136619881",
-            "source": "theguardian"
-        },
-        {
-            "title": "Jay-Z Yankee Stadium concert security breach that caused huge delay caught on video",
-            "severity": "HIGH",
-            "url": "https://www.nme.com/news/music/jay-z-yankee-stadium-concert-security-breach-that-caused-huge-delay-caught-on-video-3956862",
-            "image": "https://www.nme.com/wp-content/uploads/2026/07/Jay-Z.-CREDIT_-Jose-Breton_Pics-Action_NurPhoto-via-Getty-Images.jpg",
-            "source": "nme"
-        },
-        {
-            "title": "PI Mike Bolhuis cuts ties with Mel Viljoen after R400k BackaBuddy campaign fiasco",
-            "severity": "HIGH",
-            "url": "https://www.iol.co.za/news/crime-and-courts/pi-mike-bolhuis-cuts-ties-with-mel-viljoen-after-r400k-backabuddy-campaign-fiasco-c4a67634-6491-457b-bd7d-02d3120d58fa",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/25aa888a7620e7de94d3b2bdfeb8e5e976ca8d5a/841&operation=CROP&offset=0x374&resize=841x473",
-            "source": "iol"
-        },
-        {
-            "title": "RBI to maintain status quo on interest rates amid inflation pressures",
+            "title": "Irish troops take part in huge Bastille Day parade as Macron showcases Europe\u2019s \u2018awakening\u2019",
             "severity": "MEDIUM",
-            "url": "https://newsable.asianetnews.com/business/rbi-to-maintain-status-quo-on-interest-rates-amid-inflation-pressures-articleshow-32krno8",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-76127a0e-cfed-4fb4-ae85-4bb2404b8fbd.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://www.irishtimes.com/world/europe/2026/07/14/irish-troops-take-part-in-huge-bastille-day-parade-as-macron-showcases-europes-awakening/",
+            "image": "https://www.irishtimes.com/resizer/v2/BIGXR4UYJBP7IZNINACXML7XOE.jpg?auth=238ce11a7935a367f4ea423d560b538e9c121846867234c6f3fb6e9f0bda6752&smart=true&width=630&height=350",
+            "source": "irishtimes"
         },
         {
-            "title": "Barclays raises First Solar stock price target to $279 on tariffs",
-            "severity": "MEDIUM",
-            "url": "https://uk.investing.com/news/stock-market-news/barclays-raises-first-solar-stock-price-target-to-279-on-tariffs-93CH-4769442",
-            "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Members of Pessamit Innu community celebrate the refusal of an agreement with Quebec",
-            "severity": "MEDIUM",
-            "url": "https://www.ctvnews.ca/montreal/article/members-of-pessamit-innu-community-celebrate-the-refusal-of-an-agreement-with-quebec/",
-            "image": "https://www.ctvnews.ca/resizer/v2/3HQT2PINMRQDDMCZFREJQ6XGWQ.jpg?auth=5366aa7370cb87f6213c43ca14fd4b61c5e3ec80cd111689d86216a9d628d27f&smart=true&width=1400&height=790",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Walked for 47% of the World Cup - the evolution of Messi",
+            "title": "James Cook: There's \"a new energy in the building\" with Joe Brady as head coach",
             "severity": "WATCH",
-            "url": "https://www.bbc.co.uk/sport/football/articles/cy4e943j1j1o",
-            "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/b1b2/live/46dc4fc0-7f0a-11f1-b84f-df00e7069bf1.jpg",
-            "source": "bbc"
+            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/james-cook-theres-a-new-energy-in-the-building-with-joe-brady-as-head-coach",
+            "image": "https://nbcsports.brightspotcdn.com/dims4/default/5ddc870/2147483647/strip/false/crop/3920x2614+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa2%2F66%2F4d723c7a46d5924e2e990304c798%2Fhttps-api-imagn.com%2Frest%2Fdownload%2FimageID%3D29160582",
+            "source": "nbcsports"
         },
         {
-            "title": "A conversation with Pete Crow-Armstrong as Cubs All-Star puts together MVP-level season",
+            "title": "Ukraine downs 5 Russian ballistic missiles as Kyiv looks to boost its air defenses",
             "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7443579/2026/07/14/pete-crow-armstrong-conversation-cubs-all-star/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/07/13220557/GettyImages-2283193359-scaled-e1783996135540.jpg",
-            "source": "theathleticuk"
+            "url": "https://www.latimes.com/world-nation/story/2026-07-14/ukraine-downs-5-russian-ballistic-missiles-as-kyiv-looks-to-boost-its-air-defenses",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/613bcbe/2147483647/strip/false/crop/6000x4000+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F02%2F81%2Fa2cd68934950b6b7bf8d0926bc17%2Fbf7e8d1c4fd146d8bc719fb03ea9a2e7.jpg",
+            "source": "latimes"
         },
         {
-            "title": "Chevron Entered The AI Power Business. The Oil Patch Won't Be The Same.",
+            "title": "After K Rustom, FDA suspends licences of Mumbai\u2019s iconic Shalimar, Noor Mohammadi over alleged hygiene lapses",
             "severity": "WATCH",
-            "url": "https://www.investors.com/research/industry-snapshot/chevron-entered-ai-power-business-microsoft-data-centers/",
-            "image": "https://images.pexels.com/photos/255552/pexels-photo-255552.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "investors"
+            "url": "https://indianexpress.com/article/cities/mumbai/shalimar-noor-mohammadi-mumbai-fda-licence-suspended-hygiene-lapses-10786401/",
+            "image": "https://images.indianexpress.com/2024/12/Indian-Express-13.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "New York to Impose the Country's First Statewide Moratorium on Data Centers",
+            "title": "Why is Strategy stock climbing today?",
             "severity": "WATCH",
-            "url": "https://www.newsmax.com/newsfront/new-york-data-centers-moratorium/2026/07/14/id/1262738",
-            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=ECF34DD9-675F-47F9-B59A-6E790C5F2927",
-            "source": "newsmax"
+            "url": "https://au.investing.com/news/stock-market-news/why-is-strategy-stock-climbing-today-93CH-4532711",
+            "image": "https://i-invdn-com.investing.com/news/MicroStrategy_800x533_L_1659517189.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "Can humans hibernate their way to Mars?",
+            "title": "Why Iran shut the Strait of Hormuz after decades of holding back",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/science/ng-interactive/2026/jul/14/human-hibernation-space-mars",
-            "image": "https://i.guim.co.uk/img/media/7c70e6c9ebd345c6e772d2f6c715a16aa8078450/0_937_3245_2596/master/3245.jpg?width=140&quality=85&auto=format&fit=max&s=6adf2bd269751a18ae17c50363165990",
-            "source": "theguardiantheguardian"
+            "url": "https://theconversation.com/why-iran-shut-the-strait-of-hormuz-after-decades-of-holding-back-287326",
+            "image": "https://images.theconversation.com/files/747718/original/file-20260714-71-osg2t6.jpg?ixlib=rb-4.1.0&rect=0%2C138%2C5669%2C2834&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
         },
         {
-            "title": "Holiday Mathis horoscopes for July 14, 2026",
+            "title": "Lakes that \u2018breathe\u2019 ancient carbon: a surprising find in the Congo Basin",
             "severity": "WATCH",
-            "url": "https://www.mlive.com/advice/2026/07/daily-horoscopes-for-july-14-2026.html",
-            "image": "https://www.mlive.com/resizer/v2/UWAF5BJHNJDALCXJLFCHCXO6LY.jpg?auth=101a6a133868713ada2ddd659ff57ad18d19d028db402157d4123b6116de8bfe&smart=true&height=1200",
-            "source": "mlive"
+            "url": "https://theconversation.com/lakes-that-breathe-ancient-carbon-a-surprising-find-in-the-congo-basin-281762",
+            "image": "https://images.theconversation.com/files/742401/original/file-20260617-57-pt41or.jpg?ixlib=rb-4.1.0&rect=0%2C0%2C7994%2C3997&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
         },
         {
-            "title": "Kyle Juszczyk impressed by Mike Evans, 49ers rookies ahead of training camp",
+            "title": "Hyderabad water board readies emergency plan as Singur, Manjira inflows remain uncertain",
             "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7443445/2026/07/14/kyle-juszczyk-mike-evans-rookie-49ers-training-camp/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/07/13201941/GettyImages-2284943990-scaled-e1783988625704.jpg",
-            "source": "theathleticuk"
+            "url": "https://www.thehindu.com/news/cities/Hyderabad/hyderabad-water-board-readies-emergency-plan-as-singur-manjira-inflows-remain-uncertain/article71221546.ece",
+            "image": "https://th-i.thgim.com/public/incoming/3l8m83/article71222113.ece/alternates/FREE_1200/17072025_Hyderabad%20Metropolitan%20Water%20Supply%20%20Sewerage%20Board%2004.jpg",
+            "source": "thehindu"
         },
         {
-            "title": "Prateeksha Srivastava Says Female POV Vanished From Bollywood Music: \u2018I Kept Craving For It\u2019 | Exclusive",
+            "title": "EU Plans Guidelines Next Week to Delay Methane Rules Penalties",
             "severity": "WATCH",
-            "url": "https://www.news18.com/movies/bollywood/prateeksha-srivastava-says-female-pov-vanished-from-bollywood-music-i-kept-craving-for-it-exclusive-ws-kl-10210827.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/07/Prateeksha-Srivastava-Sajna-Ve-Exclusive-2026-07-9b4aba0ec28756e86a60f9d2a901ef60-1200x800.jpg",
-            "source": "news18"
+            "url": "https://financialpost.com/pmn/business-pmn/eu-plans-guidelines-next-week-to-delay-methane-rules-penalties",
+            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
         },
         {
-            "title": "Navy veteran who beat CNN in court says CIA wants him to delete, burn book manuscript: \u2018That's censorship\u2019",
+            "title": "Rare, enhanced severe thunderstorm threat issued for Northern New England as heat and humidity ramp up",
             "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/us/articles/navy-veteran-beat-cnn-court-110028391.html",
-            "image": "https://media.zenfs.com/en/fox_news_text_979/e141874c1780c23dd358f280a80f0bd2",
+            "url": "https://www.bostonglobe.com/2026/07/14/metro/severe-thunderstorms-tuesday-new-england/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/R3IM5FCWCJBLRKE5X5VVJASBMY.gif?auth=9d660d05c6f459d6cefaa9576cdaf4484dd2364e84b58fe3f18cb86d13f96d4b&smart=true&width=800&height=450",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "Isle Royale closes another campground after wolf tears through tent",
+            "severity": "WATCH",
+            "url": "https://www.detroitnews.com/story/news/local/michigan/2026/07/14/isle-royale-wolves-campgrounds-how-to-store-food-camping-wolf-backpacking/90912874007/",
+            "image": "https://www.detroitnews.com/gcdn/presto/2020/09/15/PDTN/8cade0b7-0df9-470d-9874-d1cec41f5696-Gray-Wolves-Isle-Royale.JPG?crop=2999,1687,x1,y246&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "detroitnews"
+        },
+        {
+            "title": "'Spectacular' new crime drama leaves viewers demanding more",
+            "severity": "WATCH",
+            "url": "https://www.hellomagazine.com/film/912818/viewers-hooked-on-crime-drama-the-westies/",
+            "image": "https://images.hellomagazine.com/horizon/landscape/0e66d830b2c1-wstss1ut103250821palbro07028r3000.jpg",
+            "source": "hellomagazine"
+        },
+        {
+            "title": "Exclusive - Splitsvilla and Bigg Boss fame Kashish Kapoor all set to enter \u2018Alliance\u2019 as the new wildcard",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/tv/news/hindi/exclusive-splitsvilla-and-bigg-boss-fame-kashish-kapoor-all-set-to-enter-alliance-as-the-new-wildcard/articleshow/132394588.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132394665/132394665.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Ex-MP arrested after cops find 439 guns and an antique cannon",
+            "severity": "WATCH",
+            "url": "https://www.dailystar.co.uk/news/latest-news/ex-mp-arrested-after-cops-37430144",
+            "image": "https://i2-prod.dailystar.co.uk/incoming/article37430052.ece/ALTERNATES/s615/0_Inky-Mark.jpg",
+            "source": "dailystar"
+        },
+        {
+            "title": "Ericsson to raise telecom equipment prices as AI boom drives up component costs",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/industry/telecom/telecom-news/ericsson-to-raise-telecom-equipment-prices-as-ai-boom-drives-up-component-costs/articleshow/132394608.cms",
+            "image": "https://img.etimg.com/thumb/msid-132394608,resizemode-4,width-1200,height-900,imgsize-84256,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "IBM shares plummet as preliminary second quarter results miss expectations",
+            "severity": "WATCH",
+            "url": "https://uk.finance.yahoo.com/news/ibm-shares-plummet-preliminary-second-145100563.html",
+            "image": "https://media.zenfs.com/en/proactive_uk_164/ac37f25f42c0893a37cb13dfe4acb698",
             "source": "yahoo"
         },
         {
-            "title": "Johnson government wasted \u2018vast\u2019 sums on PPE, Covid inquiry finds",
+            "title": "DMK, AIADMK councillors fight over property tax scam in Madurai",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/uk-news/2026/jul/14/boris-johnson-government-wasted-vast-sums-on-ppe-covid-inquiry-finds",
-            "image": "https://i.guim.co.uk/img/media/fb99d6a5f67006b4d0b765f78019d250900623b7/857_913_3659_2927/master/3659.jpg?width=140&quality=85&auto=format&fit=max&s=3938fe1071799332257079ef70980a42",
-            "source": "theguardiantheguardian"
+            "url": "https://www.thehindu.com/news/cities/Madurai/dmk-aiadmk-councillors-fight-over-property-tax-scam-in-madurai/article71221434.ece",
+            "image": "https://th-i.thgim.com/public/incoming/ejxnre/article71222099.ece/alternates/FREE_1200/demonstration%20.jpg",
+            "source": "thehindu"
         },
         {
-            "title": "TD Cowen raises UnitedHealth stock price target to $430 on MA trends",
+            "title": "Chennai home prices surge in Perambur, Perumbakkam, Mogappair",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/td-cowen-raises-unitedhealth-stock-price-target-to-430-on-ma-trends-93CH-4769443",
-            "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-            "source": "investing_uk"
+            "url": "https://timesofindia.indiatimes.com/city/chennai/chennai-home-prices-surge-in-perambur-perumbakkam-mogappair/articleshow/132394685.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132394684/132394684.jpg",
+            "source": "toi"
         },
         {
-            "title": "Lululemon stock rating held at Neutral by BTIG amid brand concerns",
+            "title": "Jim Cramer's cryptic comments on key AI supplier turn heads",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/lululemon-stock-rating-held-at-neutral-by-btig-amid-brand-concerns-93CH-4769440",
-            "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-            "source": "investing_uk"
+            "url": "https://www.thestreet.com/investing/stocks/skhy-sk-hynix-jim-cramers-cryptic-comments-turn-heads-on-wall-street",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTExOTM4/photo-3111938.jpg?profile=rss",
+            "source": "thestreet"
         },
         {
-            "title": "Evercore ISI cuts Salesforce stock price target on Tableau headwinds",
+            "title": "U.S. headline consumer inflation posts biggest one-month decrease since April 2020",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/evercore-isi-cuts-salesforce-stock-price-target-on-tableau-headwinds-93CH-4769441",
-            "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-            "source": "investing_uk"
+            "url": "https://au.investing.com/news/economy-news/us-headline-consumer-inflation-posts-biggest-onemonth-decrease-since-april-2020-4532329",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXNPEL1J0NY_L.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "Jefferies raises NextEra Energy stock price target on data center growth",
+            "title": "How to get Ancient Bone in Palworld",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/jefferies-raises-nextera-energy-stock-price-target-on-data-center-growth-93CH-4769444",
-            "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
-            "source": "investing_uk"
+            "url": "https://www.pcgamer.com/games/survival-crafting/palworld-ancient-bone-location/",
+            "image": "https://cdn.mos.cms.futurecdn.net/QkD6yVgSZ7z2uGFnXtUasT-1280-80.jpg",
+            "source": "pcgamer"
         },
         {
-            "title": "New York Times Subpoenas Could Complicate Jay Clayton\u2019s Confirmation",
+            "title": "Herald endorsement: Florida\u2019s U.S. Senate Democratic primary | Opinion",
             "severity": "WATCH",
-            "url": "https://www.huffpost.com/entry/jay-clayton-confirmation-senate-subpoenas_n_6a556ebae4b09843d52d1c94",
-            "image": "https://img.huffingtonpost.com/asset/6a556f4e1a0000eae8a79e18.jpeg?cache=sFxapasgCQ&ops=1778_1000",
-            "source": "huffpost"
+            "url": "https://www.miamiherald.com/opinion/election-recommendations/article316237148.html",
+            "image": "https://www.miamiherald.com/public/latest-news/ioyzfw/picture316238679/alternates/FREE_1140/Senate%20Democrats.png",
+            "source": "miamiherald"
         },
         {
-            "title": "So Far, 2026 Is A Solid Year For Cybersecurity Startup Funding",
+            "title": "What to know about Trump plan for Strait of Hormuz toll",
             "severity": "WATCH",
-            "url": "https://news.crunchbase.com/cybersecurity/solid-startup-venture-funding-growth-h1-2026/",
-            "image": "https://news.crunchbase.com/wp-content/uploads/Money_Rocket.jpg",
-            "source": "crunchbase"
+            "url": "https://thehill.com/homenews/administration/5967204-trump-proposes-strait-hormuz-toll/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/03/trump_donald_03202026_GettyImages-2267084588-1.jpg?w=900",
+            "source": "thehill"
         },
         {
-            "title": "Man Utd 'breaking transfer rule' to sign Youri Tielemans as medical takes place",
+            "title": "I reckon Assassin's Creed Unity is one of the series' best, and a former Ubisoft director agrees it's 'One of the most underestimated games in the series'",
             "severity": "WATCH",
-            "url": "https://www.express.co.uk/sport/football/2228945/Man-Utd-transfer-Youri-Tielemans",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/67/590x/2228945_1.jpg",
-            "source": "expresscouk"
+            "url": "https://www.pcgamer.com/games/assassins-creed/i-reckon-assassins-creed-unity-is-one-of-the-series-best-and-a-former-ubisoft-director-agrees-its-one-of-the-most-underestimated-games-in-the-series/",
+            "image": "https://cdn.mos.cms.futurecdn.net/C8yDV7oRzwcQ8Yj27Rs9s6-1280-80.png",
+            "source": "pcgamer"
         },
         {
-            "title": "Google AI meant it took me 9 seconds to find Ann Widdecombe\u2019s full address and directions to her house",
+            "title": "Consumer inflation rate falls for the first time since 2020",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/uk/crime/ann-widdecombe-murder-investigation-google-ai-b3014239.html",
-            "image": "https://images.pexels.com/photos/8024762/pexels-photo-8024762.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "independentuk"
+            "url": "https://www.latimes.com/business/story/2026-07-14/consumer-inflation-rate-falls-for-first-time-since-2020",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/e55cb60/2147483647/strip/false/crop/2000x1333+0+0/resize/1486x990!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F23%2Fe8%2F6f24573d96c44a346dcd4dc3315a%2F1x-1.jpg",
+            "source": "latimes"
         },
         {
-            "title": "H-1B visa revoked despite no \u2018serious\u2019 violation of laws: Here's what went wrong",
+            "title": "WATCH: Biggest moments from the Home Run Derby",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/nri-news/h1b-visa-revoked-despite-no-serious-violation-of-laws-heres-what-went-wrong-101784024498098.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/14/1600x900/iStock-468512796-1_1627610588034_1784026067173_9bffd6e3-56f9-4cc5-8d5a-8ea05ec75393.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Rapist ex-mayor to be deported after losing appeal",
-            "severity": "WATCH",
-            "url": "https://www.bbc.co.uk/news/articles/cy9r9dzxql2o",
-            "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4b51/live/d16aeb40-7f5c-11f1-a97a-9b1029617ccb.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Two-Day Virtual U.S. GAAP Conference to Deliver Critical Accounting Standards and Financial Reporting Updates",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/07/14/3326686/28124/en/Two-Day-Virtual-U-S-GAAP-Conference-to-Deliver-Critical-Accounting-Standards-and-Financial-Reporting-Updates.html",
-            "image": "https://images.pexels.com/photos/7629244/pexels-photo-7629244.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "WATCH: Boat rescue plays out as reporter records story",
-            "severity": "WATCH",
-            "url": "https://abcnews.com/video/134738262/",
-            "image": "https://i.abcnewsfe.com/a/3b42c2fa-d79b-4342-9165-88907f5ce7a7/260714_gmafl_raft_rescue_hpMain_16x9.jpg?w=992",
+            "url": "https://abcnews.com/video/134739887/",
+            "image": "https://i.abcnewsfe.com/a/ff7756d3-3ed2-4202-bebf-915fd8e41058/260714_gma_champion_derby4_717_hpMain_16x9.jpg?w=992",
             "source": "abcnews"
         },
         {
-            "title": "Rosmah Mansor sues comedian Harith Iskander over stand-up routine, alleges body-shaming",
+            "title": "Citizens take legal action over planned giant Chinese embassy in London amid fears of espionage and targeting of dissidents",
             "severity": "WATCH",
-            "url": "https://www.stomp.sg/trending-now/rosmah-mansor-sues-comedian-harith-iskander-over-stand-routine-alleges-body-shaming",
-            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "stomp"
+            "url": "https://en.protothema.gr/2026/07/14/citizens-take-legal-action-over-planned-giant-chinese-embassy-in-london-amid-fears-of-espionage-and-targeting-of-dissidents/",
+            "image": "https://en.protothema.gr/wp-content/uploads/2026/07/royalmint2-xrm-1.jpg-1.jpg",
+            "source": "protothema"
+        },
+        {
+            "title": "Legal challenge over fatal 1994 RAF Chinook crash thrown out by High Court judge",
+            "severity": "WATCH",
+            "url": "https://news.sky.com/story/legal-challenge-over-fatal-1994-raf-chinook-crash-thrown-out-by-high-court-judge-13563422",
+            "image": "https://e3.365dm.com/25/06/1920x1080/skynews-chinook-crash_6952289.jpg?20260714154337",
+            "source": "skynews"
+        },
+        {
+            "title": "Chinook campaigners' MoD legal action should continue, High Court is told",
+            "severity": "WATCH",
+            "url": "https://www.scotsman.com/news/politics/chinook-campaigners-mod-legal-action-should-continue-high-court-is-told-8798371",
+            "image": "https://www.scotsman.com/webimg/b25lY21zOmMyOWE4MjcwLWNhZjMtNGZhNy04Mjg0LWQwNTQ4NDZjMDRjOTpmMGQ4ZjY1MS05ZWEzLTQ0ZWYtYmY2OC1kZmYzMjJiYTNiZjk=.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "scotsman"
+        },
+        {
+            "title": "Chinook campaigners 'extremely disappointed' as court blocks their legal action against MoD",
+            "severity": "WATCH",
+            "url": "https://www.scotsman.com/news/politics/chinook-campaigners-extremely-disappointed-as-court-blocks-their-legal-action-against-mod-8798371",
+            "image": "https://www.scotsman.com/webimg/b25lY21zOmMyOWE4MjcwLWNhZjMtNGZhNy04Mjg0LWQwNTQ4NDZjMDRjOTpmMGQ4ZjY1MS05ZWEzLTQ0ZWYtYmY2OC1kZmYzMjJiYTNiZjk=.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "scotsman"
+        },
+        {
+            "title": "Israel's border with Jordan vulnerable to terror infiltration, weapons smuggling, locals fear",
+            "severity": "WATCH",
+            "url": "https://www.yahoo.com/news/world/articles/israels-border-jordan-vulnerable-terror-143515112.html",
+            "image": "https://media.zenfs.com/en/jerusalem_post_articles_818/7ced9894c140dc04b1c6e55ae4ca0cf9",
+            "source": "yahoo"
+        },
+        {
+            "title": "M&S worker sacked after wife secretly shared staff discount with family and friends",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/news/uk/home-news/marks-spencer-staff-discount-mark-brennan-dismissal-b3014384.html",
+            "image": "https://images.pexels.com/photos/29272604/pexels-photo-29272604.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "independentuk"
+        },
+        {
+            "title": "Florida judge hands brutal prison sentence to evil teen who helped murder stranger, 49, with tire iron for FUN, as killer's dad moans that son is misunderstood",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-15976271/Florida-judge-brutal-prison-sentence-evil-teen-tire-iron-murder.html",
+            "image": "https://i.dailymail.com/1s/2026/07/14/15/110008287-0-image-a-17_1784037855077.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Zack Polanski accused of 'squatting' in houseboat as housing arrangements under fire",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/politics/2229061/zack-polanski-accused-squatting-houseboat",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/139/590x/2229061_1.jpg",
+            "source": "expresscouk"
         }
     ],
-    "Last_Updated": "2026-07-14T23:01:16.114241Z"
+    "Last_Updated": "2026-07-15T02:53:25.853560Z"
 }
