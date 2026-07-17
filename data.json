@@ -1,288 +1,279 @@
 {
     "AGRI_Score": 59.4,
-    "Velocity": "+0.1",
+    "Velocity": "0.0",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 59.4/100 indicates an elevated global risk environment, primarily driven by heightened geopolitical tensions and significant trade and supply chain pressures. Escalating rhetoric concerning Iran, as highlighted by \"3 islands help control access to the Strait of Hormuz. They\u2019re in the crosshairs of the Iran war,\" coupled with a potential US-Iran confrontation under a future administration, fuels significant uncertainty. Concurrently, ongoing conflicts, such as Russia's advanced drone warfare, continue to strain global trade and energy security. The combined impact of these factors suggests an environment requiring careful monitoring across multiple strategic fronts.",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 72.7,
+        "Geopolitical Conflict Intensity": 78.9,
         "Energy & Maritime Disruption": 59.9,
-        "Trade & Supply Chain Stress": 69.8,
-        "Sovereign Financial Stress": 55.5,
+        "Trade & Supply Chain Stress": 67.9,
+        "Sovereign Financial Stress": 55.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 64.1,
-        "Cyber & Infrastructure Threats": 63.4,
+        "Sanctions & Regulatory Fragmentation": 61.2,
+        "Cyber & Infrastructure Threats": 57.8,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains high due to the immediate threat of escalation in the Persian Gulf, with \"3 islands help control access to the Strait of Hormuz. They\u2019re in the crosshairs of the Iran war,\" and belligerent rhetoric from former US officials regarding Iran. Continued conflict in Ukraine, evidenced by \"Zelenskyy defends sacking Ukraine\u2019s defence minister Mykhailo Fedorov\" and Russia's advanced drone warfare, further contributes to global instability.",
-        "Energy & Maritime Disruption": "Energy and maritime disruption risk is elevated, directly tied to the geopolitical flashpoint in the Strait of Hormuz, a critical oil transit chokepoint, as indicated by \"3 islands help control access to the Strait of Hormuz. They\u2019re in the crosshairs of the Iran war.\" Reports of \"power crisis in State\" in India highlight localized energy supply vulnerabilities, although the US LNG cargo to China suggests some market fluidity.",
-        "Trade & Supply Chain Stress": "Trade and supply chain stress remains high due to the potential for significant disruption in critical maritime routes, particularly the Strait of Hormuz, as suggested by the headline \"3 islands help control access to the Strait of Hormuz. They\u2019re in the crosshairs of the Iran war.\" While a \"First direct US LNG cargo since tariff dispute reaches China\" indicates some trade normalization, the broader geopolitical environment creates significant uncertainty for global logistics.",
-        "Sovereign Financial Stress": "Sovereign financial stress reflects ongoing political uncertainties that could impact future policy decisions and investor confidence, with \"Americans think Trump won\u2019t get a better Iran deal than Obama did, poll shows\" hinting at potential shifts in international relations and economic pacts. The focus on political events and elections, such as \"Trump brings his election obsession to primetime,\" contributes to a cautious outlook in financial markets.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at a moderate level, influenced by the broader geopolitical climate which introduces uncertainty into global economic forecasts. The potential for future shifts in international agreements, hinted at by \"Americans think Trump won\u2019t get a better Iran deal than Obama did,\" could introduce volatility in major currency pairs.",
-        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation risks are elevated, driven by the prospect of future aggressive policy shifts, such as \"Trump open to wiping out Iran's Revolutionary Guard like ISIS,\" which could lead to expanded sanctions regimes. Public sentiment suggesting \"Americans think Trump won\u2019t get a better Iran deal than Obama did\" underscores potential for renewed international disputes that could further fragment global regulatory environments.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are significantly elevated, evidenced by a \"UK cyber breach\" leading to a \"hacker, 17, arrested at Walsall home\" and a \"TRICARE cyberattack\" resulting in \"thousands of US military beneficiaries have data breached.\" The use of \"Russia\u2019s Drone Swarm\" in modern warfare also highlights advanced threats to critical infrastructure, extending beyond traditional cyber methods.",
-        "Climate & Resource Shock": "While localized \"Irregular water supply\" and \"power crisis in State\" reports indicate specific regional resource challenges, the overall global climate and resource shock pillar registers lower intensity. These incidents appear to be isolated infrastructure and governance issues rather than widespread climate-driven systemic shocks."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Americans think Trump won\u2019t get a better Iran deal than Obama did, poll shows",
+            "title": "'Our Red Line': Pakistan Fears Houthi Attacks On Saudi Could Pull Islamabad Into Iran War",
             "severity": "HIGH",
-            "url": "https://www.cnn.com/2026/07/16/politics/trump-iran-deal-poll-obama",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/ap26196784634173.jpg?c=original/w_800",
-            "source": "cnn"
+            "url": "https://www.news18.com/world/our-red-line-pakistan-fears-houthi-attacks-on-saudi-could-pull-islamabad-into-iran-war-ws-l-10216834.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/07/pak-1-2026-07-53f0c6554f64e5c729040129b43bbd97-1200x800.jpg",
+            "source": "news18"
         },
         {
-            "title": "3 islands help control access to the Strait of Hormuz. They\u2019re in the crosshairs of the Iran war",
+            "title": "Dark ships and Oman transfers indicate Hormuz transits continue",
             "severity": "HIGH",
-            "url": "https://www.bostonherald.com/2026/07/16/3-islands-strait-of-hormuz-iran-war/",
-            "image": "https://www.bostonherald.com/wp-content/uploads/2026/07/Iran_War_Strait_of_Hormuz_49499_3f5f2a.jpg?w=1400px&strip=all",
-            "source": "bostonherald"
-        },
-        {
-            "title": "Zelenskyy defends sacking Ukraine\u2019s defence minister Mykhailo Fedorov",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/world/2026/jul/16/zelenskyy-defends-sacking-ukraine-defence-minister-mykhailo-federov",
-            "image": "https://i.guim.co.uk/img/media/6d0974ebea2dea671f0c77ac5f212bd3e1d9412b/230_162_2111_1690/master/2111.jpg?width=140&quality=85&auto=format&fit=max&s=45b2e9ef0e8716d847291d2623e91871",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "Irregular water supply, dim streetlights dominate Tiruchi Council meeting",
-            "severity": "HIGH",
-            "url": "https://www.thehindu.com/news/cities/Tiruchirapalli/irregular-water-supply-dim-streetlights-dominate-tiruchi-council-meeting/article71230182.ece",
-            "image": "https://th-i.thgim.com/public/incoming/am45s5/article71230789.ece/alternates/FREE_1200/DSC_6279.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Harish Rao alleges power crisis in State",
-            "severity": "HIGH",
-            "url": "https://www.thehindu.com/news/national/telangana/harish-rao-alleges-power-crisis-in-state/article71230130.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
-        },
-        {
-            "title": "Trump open to wiping out Iran's Revolutionary Guard like ISIS",
-            "severity": "HIGH",
-            "url": "https://www.washingtonexaminer.com/policy/defense/4651211/trump-iran-islamic-revolutionary-guard-corps-wipe-out-like-isis/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/07/Trump-PA.jpg?w=696",
-            "source": "washingtonexaminer"
-        },
-        {
-            "title": "UK urges FIFA to investigate Argentina over World Cup Falklands banner",
-            "severity": "HIGH",
-            "url": "https://www.aljazeera.com/sports/2026/7/16/uk-urges-fifa-to-investigate-argentina-over-world-cup-falklands-banner",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a58f2896f4d-1784214153.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Why Russia\u2019s Drone Swarm Is Built for Modern War",
-            "severity": "HIGH",
-            "url": "https://interestingengineering.com/videos/why-russias-drone-swarm-is-built-for-modern-war",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/07/Web_930dd1.jpg",
-            "source": "interestingengineering"
-        },
-        {
-            "title": "Moment hacker, 17, arrested at Walsall home over UK cyber breach",
-            "severity": "HIGH",
-            "url": "https://www.birminghammail.co.uk/black-country/moment-hacker-17-arrested-walsall-34302980",
-            "image": "https://i2-prod.birminghammail.co.uk/incoming/article34303112.ece/ALTERNATES/s615/0_Owen-Flowers-arrest.png",
-            "source": "birminghammail"
-        },
-        {
-            "title": "Thousands of US military beneficiaries have data breached following TRICARE cyberattack \u2014 DoD Benefits Numbers and some Social Security numbers leaked",
-            "severity": "HIGH",
-            "url": "https://www.techradar.com/pro/security/thousands-of-us-military-beneficiaries-have-data-breached-following-tricare-cyberattack-dod-benefits-numbers-and-some-social-security-numbers-leaked",
-            "image": "https://cdn.mos.cms.futurecdn.net/nKQTr6znQKVirervbiEDkL-1280-80.jpg",
-            "source": "techradar_au"
-        },
-        {
-            "title": "Iran says US military strikes near children\u2019s cancer hospital, forcing chaotic emergency evacuation of 211 patients",
-            "severity": "HIGH",
-            "url": "https://indianexpress.com/article/world/middle-east-us-strike-iran-ahvaz-childrens-cancer-hospital-evacuation-strait-of-hormuz-escalation-10789833/",
-            "image": "https://images.indianexpress.com/2026/07/Iran-hospital.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "New data reveals AI governance gap between policy and practice, creating ESG risks",
-            "severity": "MEDIUM",
-            "url": "https://www.thomsonreuters.com/en-us/posts/sustainability/ai-governance-gap-esg-risks/",
-            "image": "https://www.thomsonreuters.com/en-us/posts/wp-content/uploads/sites/20/2026/02/AdobeStock_292604650_resize.jpg",
-            "source": "thomsonreuters"
-        },
-        {
-            "title": "After 6 years, Trump brings his election obsession to primetime at the White House",
-            "severity": "MEDIUM",
-            "url": "https://www.bostonherald.com/2026/07/16/trump-address-national-election-claims-fraud-investigation/",
-            "image": "https://www.bostonherald.com/wp-content/uploads/2026/07/Trump_29243-1.jpg?w=1400px&strip=all",
-            "source": "bostonherald"
-        },
-        {
-            "title": "First direct US LNG cargo since tariff dispute reaches China, may be re-exported",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/first-direct-us-lng-cargo-since-tariff-dispute-reaches-china-may-be-re-exported/articleshow/132442571.cms",
-            "image": "https://img.etimg.com/thumb/msid-132442603,resizemode-4,width-1200,height-900,imgsize-147668,overlay-economictimes/articleshow.jpg",
+            "url": "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/dark-ships-and-oman-transfers-indicate-hormuz-transits-continue/articleshow/132446222.cms",
+            "image": "https://img.etimg.com/thumb/msid-132446212,resizemode-4,width-1200,height-900,imgsize-90922,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Improving corporate governance requires managing AI\u2019s footprint",
-            "severity": "WATCH",
-            "url": "https://www.thomsonreuters.com/en-us/posts/sustainability/corporate-governance-ai-footprint/",
-            "image": "https://www.thomsonreuters.com/en-us/posts/wp-content/uploads/sites/20/2025/05/AdobeStock_392288998_resize.jpg",
-            "source": "thomsonreuters"
+            "title": "A House vote makes it clear: Israel\u2019s support among Democrats is starting to buckle",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/us-news/2026/jul/16/democrats-israel-support",
+            "image": "https://i.guim.co.uk/img/media/a890d716ebe7f6dfbe66ece1fa08c88615b0efe6/441_0_3334_2667/master/3334.jpg?width=140&quality=85&auto=format&fit=max&s=ba955c3e4dcba1ad84e4e16edbe23e54",
+            "source": "theguardian"
         },
         {
-            "title": "How companies can manage AI use through materiality, measurement & reporting",
-            "severity": "WATCH",
-            "url": "https://www.thomsonreuters.com/en-us/posts/sustainability/reporting-ai-materiality/",
-            "image": "https://www.thomsonreuters.com/en-us/posts/wp-content/uploads/sites/20/2026/01/AdobeStock_285979347_resize.jpg",
-            "source": "thomsonreuters"
+            "title": "21-year-old man killed after crane collapses from 11th floor, falls inside housing complex",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/cities/mumbai/21-year-old-man-killed-after-crane-collapses-from-11th-floor-falls-inside-housing-complex-10790052/",
+            "image": "https://images.indianexpress.com/2026/07/WhatsApp-Image-2026-07-16-at-23.24.43.jpeg",
+            "source": "indianexpress"
         },
         {
-            "title": "Sadiq Khan given peerage by Keir Starmer as Prime Minister prepares to step down",
-            "severity": "WATCH",
-            "url": "https://www.standard.co.uk/news/politics/sadiq-khan-peerage-keir-starmer-lord-b1290256.html",
-            "image": "https://images.pexels.com/photos/28767587/pexels-photo-28767587.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "standarduk"
-        },
-        {
-            "title": "How to get a Fishing Rod in Palworld",
-            "severity": "WATCH",
-            "url": "https://www.eurogamer.net/how-to-get-fishing-rod-palworld",
-            "image": "https://assetsio.gnwcdn.com/palworld-fishing-in-ocean-at-night.jpg?width=690&quality=85&format=jpg&auto=webp",
-            "source": "eurogamer"
-        },
-        {
-            "title": "Trump officials want to make testosterone drugs easier to prescribe. Is that a good idea?",
-            "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/07/16/nation/testosterone-trump-rfk-jr-fda/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/QHNKYAASVLEDQ3P3IH276RQDIA.jpg?auth=9e54f49749adacad2261a739549d60d01c8793cf36552e056599da157c87dcfd&smart=true&width=4502&height=3000",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "Today in History: August 4, massive explosion rocks Beirut",
-            "severity": "WATCH",
-            "url": "https://www.beaumontenterprise.com/news/article/today-in-history-august-4-massive-explosion-22347795.php",
-            "image": "https://s.hdnux.com/photos/01/34/02/56/24128414/3/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "UK intelligence watchdog raps MI5 for lying to courts about a neo-Nazi informer",
-            "severity": "WATCH",
-            "url": "https://www.beaumontenterprise.com/news/world/article/uk-intelligence-watchdog-raps-mi5-for-lying-to-22347797.php",
-            "image": "https://s.hdnux.com/photos/01/66/66/34/31155983/3/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "New CRPF SOPs: CoBRA Commandos In Manipur To Move Only in Bulletproof Vehicles",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/india/new-crpf-sops-cobra-commandos-in-manipur-to-move-only-in-bulletproof-vehicles-article-155111358",
-            "image": "https://images.timesnownews.com/thumb/msid-155112432,thumbsize-58374,width-1280,height-720,resizemode-75/155112432.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "What does Argentina\u2019s \u2018Las Malvinas son Argentinas\u2019 banner mean?",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/sport/39781075/what-does-las-malvinas-son-argentinas-mean/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F07%2Fargentina-players-hold-banner-words-1095710026.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "28 Unique Gifts for Women in Their 30s, Starting at $12",
-            "severity": "WATCH",
-            "url": "https://www.popsugar.com/shopping/Gifts-Women-30s-25946384",
-            "image": "https://media1.popsugar-assets.com/files/thumbor/Tlxk3vjReSV605r_t6YbIpSnHig/fit-in/2048xorig/filters%3Aformat_auto-%21%21-%3Astrip_icc-%21%21-/2026/05/01/520/n/49352476/a6f731fb9fcc1ca4_slooow-teddy-5/i/Smalls-Slooowserve-12Cat-moms-rejoice.png",
-            "source": "popsugar"
-        },
-        {
-            "title": "Food adulteration, cyber fraud and drugs under focus in Hyderabad: Sajjanar",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/telangana/food-adulteration-cyber-fraud-and-drugs-under-focus-in-hyderabad-sajjanar/article71113955.ece",
-            "image": "https://th-i.thgim.com/public/incoming/krdgfd/article70112713.ece/alternates/FREE_1200/30092025_V%20C%20Sajjanar%20%2004.jpg",
-            "source": "thehindu"
-        },
-        {
-            "title": "No town water or rain for weeks: Australian off-grid homesteader shows how she stores every drop to survive, and netizens ask if it\u2019s legal!",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/life-style/home-garden/no-town-water-or-rain-for-weeks-australian-off-grid-homesteader-shows-how-she-stores-every-drop-to-survive-and-netizens-ask-if-its-legal/articleshow/132442307.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132442450/132442450.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "If the AI Boom Is So Strong, Why Are Memory Stocks Crashing?",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/ai-boom-strong-why-memory-151417835.html",
-            "image": "https://media.zenfs.com/en/24_7_wall_st__718/1014bc9de829be24cdd1484b58d795ae",
-            "source": "yahoo"
-        },
-        {
-            "title": "Nitazenes prove that the problem of synthetic drug use can always worsen",
-            "severity": "WATCH",
-            "url": "https://www.washingtonexaminer.com/restoring-america/community-family/4651275/nitazenes-prove-drug-abuse-always-worsen/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/05/AP26132739528694.jpg?w=696",
+            "title": "Republicans beg Trump to focus on 2026 in primetime address",
+            "severity": "HIGH",
+            "url": "https://www.washingtonexaminer.com/news/white-house/4649542/gop-trump-speech-focus-2026-elections/",
+            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/05/AP26147587555265.jpg?w=696",
             "source": "washingtonexaminer"
         },
         {
-            "title": "50k devotees pull 72-ft chariot in Keonjhar car fest",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/50k-devotees-pull-72-ft-chariot-in-keonjhar-car-fest/articleshow/132442314.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132442309/132442309.jpg",
+            "title": "SA analyst upgrades/downgrades: SNDK, AAPL, PYPL, NOW",
+            "severity": "HIGH",
+            "url": "https://seekingalpha.com/news/4614635-sa-analyst-upgrades-downgrades-sndk-aapl-pypl-now?feed_item_type=news",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1340690121/image_1340690121.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Oil industry prompts government to discourage hoarding as petrol stocks decline to 14-day cover",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/2015959/oil-industry-prompts-government-to-discourage-hoarding-as-petrol-stocks-decline-to-14-day-cover",
+            "image": "https://i.dawn.com/large/2026/07/162010066a9d62c.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "NSA Ajit Doval Calls For Stronger BIMSTEC Cooperation To Counter Emerging Security Threats | News18",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/videos/india/nsa-ajit-doval-calls-for-stronger-bimstec-cooperation-to-counter-emerging-security-threats-news18-10216852.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/07/1784225763_7a2c3711-7c3e-4f18-af13-b31acea8c7e2-1200x720.jpeg",
+            "source": "news18"
+        },
+        {
+            "title": "Supply to 3 fair price shops suspended after probe in Rewari",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/supply-to-3-fair-price-shops-suspended-after-probe-in-rewari/articleshow/132445995.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132445986/132445986.jpg",
             "source": "toi"
         },
         {
-            "title": "Argentina players in danger of World Cup final ban as UK government responds to Falklands protests",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/sports/football/fifa-world-cup-2026/argentina-players-in-danger-of-world-cup-final-ban-as-uk-government-responds-to-falklands-protests-article-13975998.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260715230200_Argentina-Falklands-reuters.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "The 2022 World Cup final was iconic.",
-            "severity": "WATCH",
-            "url": "https://www.si.com/soccer/ranking-greatest-world-cup-matches-all-time",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3147,h_1770,x_582,y_40/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01kxn1p766nbvcrb5n3b.jpg",
-            "source": "si"
-        },
-        {
-            "title": "Motherwell's Watt gets four-game ban for 'worst VAR decision in history' comment",
-            "severity": "WATCH",
-            "url": "https://www.bbc.co.uk/sport/football/articles/cdrvleyd8xvo",
-            "image": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/0591/live/632203f0-8126-11f1-b976-0b9c15b0ccfc.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Non-passholders crowding near chariots scuppered police plans",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/non-passholders-crowding-near-chariots-scuppered-police-plans/articleshow/132442615.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132442613/132442613.jpg",
+            "title": "CM Vijay warns against corruption, reels in schools",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/chennai/cm-vijay-warns-against-corruption-reels-in-schools/articleshow/132446143.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132446142/132446142.jpg",
             "source": "toi"
         },
         {
-            "title": "30 Lakh Investors Cheated Of Rs 10,000 Crore. Then A Key Arrest",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/india-news/30-lakh-investors-cheated-of-rs-10-000-crore-then-a-key-arrest-11780373",
-            "image": "https://c.ndtvimg.com/2022-07/6lbrp2s_enforcement-directorate-new_625x300_27_July_22.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "title": "How rivalry with a top general brought down Ukraine\u2019s popular defence minister Fedorov",
+            "severity": "HIGH",
+            "url": "https://www.france24.com/en/europe/20260716-how-rivalry-with-top-general-syrsky-brought-down-ukraine-popular-defence-minister-fedorov",
+            "image": "https://s.france24.com/media/display/572e73f2-8131-11f1-901b-005056bf30b7/w:1024/p:16x9/000-C2CD4KE.jpg",
+            "source": "france24"
+        },
+        {
+            "title": "\u2018Disorderly\u2019 intruder removed from NBC\u2019s Today show after security breach - The Guardian",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUU5YNFBSRjAzTlU4cXBmTkpGUVVGSW1vQ0xweXJwY0tPQzBPMG83ZE9SQ09NcTlPR1dOLV9ONEZOMmhIYllkS21yalhlMnhySlNmSFFpajVweTRZNm1MaGxzUENiaUZUZmUtMGxVSUQ5U1VZTkFDamZtdlZFY3owM0JGandnQWtYSEFxNmE3enpVbUxvclM0?oc=5",
+            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Trade Setup: Nifty Support Slips Tad Below 24,000 As Market Trades Sideways",
+            "severity": "HIGH",
+            "url": "https://www.ndtvprofit.com/markets/trade-setup-for-july-17-nifty-support-slips-tad-below-24-000-as-market-trades-sideways-check-key-levels-11781672",
+            "image": "https://c.ndtvimg.com/2026-07/cos7jjjc_f_625x300_16_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
             "source": "ndtv"
         },
         {
-            "title": "Virat Kohli, Rohit Sharma Achieve Huge Partnership Milestone During India-England Second ODI",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/sports/cricket/virat-kohli-rohit-sharma-achieve-huge-partnership-milestone-during-india-england-second-odi-article-155112129",
-            "image": "https://images.timesnownews.com/thumb/msid-155112161,thumbsize-69308,width-1280,height-720,resizemode-75/155112161.jpg",
-            "source": "timesnownews"
+            "title": "The Latest: Trump is expected to make election conspiracies a focus of his national address",
+            "severity": "MEDIUM",
+            "url": "https://ca.news.yahoo.com/latest-trump-expected-election-conspiracies-123115937.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/ae23b7d9cdacf14791477e83d329a49f30a20f626e18995ac1550f2b2133d32c/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcp_news_842%2Ffc00493caf71b2dd519f37d710e1d727",
+            "source": "yahoo"
         },
         {
-            "title": "Bali wife's visa tip-off against her Aussie husband is revealed - after their toxic lovesplit took a deadly twist when he killed himself in a cell amid fears he might never see his son again",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15981347/australian-cameron-hughes-bali-detention-suicide-tip-ex-wife.html",
-            "image": "https://i.dailymail.com/1s/2026/07/16/07/110053415-0-image-a-3_1784184323268.jpg",
-            "source": "dailymailuk"
+            "title": "Ben & Jerry\u2019s Foundation says it will shut down amid legal dispute with parent company",
+            "severity": "MEDIUM",
+            "url": "https://www.bostonglobe.com/2026/07/16/business/ben-jerrys-foundation-shut-down-legal-dispute/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/XYSRNHTOAJHL56GIXIUUX7YKGQ.jpg?auth=404b3b49ea4a0db84ce1bf88c2dd7c3b066933b6c1f864d98f7060f173dc399c&smart=true&width=6413&height=4480",
+            "source": "bostonglobe"
         },
         {
-            "title": "Argentina Fans Burn England Flags After Dramatic World Cup Semi-Final Win | WATCH",
+            "title": "Trump to deliver prime-time speech on election security",
+            "severity": "MEDIUM",
+            "url": "https://www.detroitnews.com/story/news/politics/2026/07/16/trump-to-focus-on-election-security-in-prime-time-speech/90945549007/",
+            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/07/16/PDTN/90945728007-20260708-t-100113-z-786244989-rc-2-g-7-maedb-2-u-rtrmadp-3-usaelectiontrumpcommunism.JPG?auto=webp&crop=1858,1045,x0,y45&format=pjpg&width=1200",
+            "source": "detroitnews"
+        },
+        {
+            "title": "We're trimming our hedge on lower rates, which may take longer to materialize",
             "severity": "WATCH",
-            "url": "https://www.news18.com/sports/football/argentina-fans-burn-england-flags-after-dramatic-world-cup-semi-final-win-watch-ws-l-10216461.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/07/FotoJet-2026-07-16T201342.881-2026-07-c2e4a437fab4fa1a271604267ada0fa8-1200x800.jpg",
-            "source": "news18"
+            "url": "https://www.cnbc.com/2026/07/16/were-trimming-our-hedge-on-lower-rates-which-may-take-longer-to-materialize.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108188210-1755631806310-gettyimages-2230998652-l1020379_copy_b9bfqd2q.jpeg?v=1755631877&w=1200&h=675",
+            "source": "cnbc"
+        },
+        {
+            "title": "Alberta's police watchdog releases new details following man's death during arrest in Calgary",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/albertas-police-watchdog-releases-details-182011949.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/0123b4ed33a38b97d57ddd555e8d819e3fceed56ef3917c3b2967176ff0497d8/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcbc.ca%2F6681c98f40376f7133ebfbbeb4e63e8d",
+            "source": "yahoo"
+        },
+        {
+            "title": "ClearBridge Small Cap Strategy Q2 2026 Commentary",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/article/4922735-clearbridge-small-cap-strategy-q2-2026-commentary",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2228534020/image_2228534020.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Carolina Panthers linebacker Christian Rozeboom (56) sacks Tampa Bay Buccaneers quarterback Baker Mayfield (6)",
+            "severity": "WATCH",
+            "url": "https://www.si.com/nfl/buccaneers/onsi/buccaneers-mailbag-baker-mayfield-s-contract-and-a-new-look-linebacker-room-2026",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4139,h_2328,x_0,y_59/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/bucs_gameday/01kxp24k13qhgfqc893s.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Heat happy to add Bobby Portis, and Portis happy to join Heat: \u2018I was born to be a Heatle\u2019",
+            "severity": "WATCH",
+            "url": "https://www.miamiherald.com/sports/nba/miami-heat/article316525251.html",
+            "image": "https://www.miamiherald.com/public/latest-news/j2ogsm/picture316537197/alternates/FREE_1140/MIA_AntetokounmpoandPortispresserAGS051.JPG",
+            "source": "miamiherald"
+        },
+        {
+            "title": "Nov 22, 2025; Tucson, Arizona, USA; Baylor Bears safety Micah Gifford (24) against the Arizona Wildcats at Casino Del Sol Stadium. Mandatory Credit: Mark J. Rebilas-Imagn Images",
+            "severity": "WATCH",
+            "url": "https://www.si.com/college/baylor/football/baylor-top-25-most-important-players-in-2026-micah-gifford",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_5664,h_3186,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/inside_the_bears/01kxnyar3s38fe8mvmh8.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Russia to launch Rassvet Starlink rival within days with 318-strong satellite constellation expected by 2028",
+            "severity": "WATCH",
+            "url": "https://www.techradar.com/pro/russia-to-launch-rassvet-starlink-rival-within-days-with-318-strong-satellite-constellation-expected-by-2028",
+            "image": "https://cdn.mos.cms.futurecdn.net/9Km7ky9AU7NcrTGcdP5ZTe-1280-80.jpg",
+            "source": "techradar_uk"
+        },
+        {
+            "title": "Valo hybrid-electric aircraft gains autonomous flight for 1,000-mile defense missions",
+            "severity": "WATCH",
+            "url": "https://interestingengineering.com/transportation/valo-hybrid-electric-aircraft-autonomy",
+            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/07/Untitled-design-2026-07-16T225905.292.jpg",
+            "source": "interestingengineering"
+        },
+        {
+            "title": "Lying Sturgeon destroyed Salmond to save her own skin, says David Davis",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/lying-sturgeon-destroyed-salmond-save-181855936.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/1e3f9bdb4529ec6c52bfa6ad3a866d8a009106c2e351e498f1c699b9ea27a34a/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F54cdfe52e3d344581921a716c720ab1f",
+            "source": "yahoo"
+        },
+        {
+            "title": "A.P. Food Commission finds lapses at anganwadi centres and welfare hostels",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/news/national/andhra-pradesh/ap-food-commission-finds-lapses-at-anganwadi-centres-and-welfare-hostels/article71230489.ece",
+            "image": "https://th-i.thgim.com/public/incoming/1dl7j2/article71230828.ece/alternates/FREE_1200/10745_16_7_2026_20_45_2_1_IMG_20260716_WA0095.JPG",
+            "source": "thehindu"
+        },
+        {
+            "title": "UK weather maps go volcanic red as new heatwave roasts nation with 7 counties above 35C",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/weather/2230006/uk-weather-maps-go-volcanic",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/153/590x/2230006_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "British support for Ukraine \u2018will not waver\u2019 with new PM, vows Starmer",
+            "severity": "WATCH",
+            "url": "https://www.standard.co.uk/news/politics/keir-starmer-ukraine-kyiv-volodymyr-zelensky-prime-minister-b1290279.html",
+            "image": "https://static.standard.co.uk/2026/07/16/19/a5d107c521823eaf59c6f96b09818aa7Y29udGVudHNlYXJjaGFwaSwxNzg0MzExNDkz-2.85322170.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
+        },
+        {
+            "title": "Intel, Micron among market cap stock movers on Thursday",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/intel-micron-among-market-cap-stock-movers-on-thursday-93CH-4537489",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEE630F5_M.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "How Orocan disrupted the premium cooler market segment",
+            "severity": "WATCH",
+            "url": "https://business.inquirer.net/600757/how-orocan-disrupted-the-premium-cooler-market-segment",
+            "image": "https://business.inquirer.net/files/2026/07/Marketing-Pulse1258398-620x620.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Is Putin era ending in Russia? What do global reports say?",
+            "severity": "WATCH",
+            "url": "https://www.india.com/news/world/is-putin-era-ending-in-russia-what-do-global-reports-say-8476109/",
+            "image": "https://static.india.com/wp-content/uploads/2026/06/putin-3.png",
+            "source": "india"
+        },
+        {
+            "title": "Watt banned for four games, McInnes can expect at least the same",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/watt-banned-four-games-mcinnes-180500306.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/umzEvkkOuGgb2VsndKCkFw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIzOTg7aD0xNzY0O2NmPXdlYnA-/https://media.zenfs.com/en/the_celtic_star_articles_180/2cab4e770b307c2305fbb3f2edcbb6af",
+            "source": "yahoo"
+        },
+        {
+            "title": "Media Insider: Breakfast radio host\u2019s abrupt departure; Peter Williams on Paul Henry; Medical Journal\u2019s uncertain future; Lorde on Lume",
+            "severity": "WATCH",
+            "url": "https://www.nzherald.co.nz/business/media-insider/media-insider-breakfast-radio-hosts-abrupt-departure-peter-williams-on-paul-henry-medical-journals-uncertain-future-lorde-on-lume/premium/JHPPJWNNJVHVXEVGYRYLFQZLJU/",
+            "image": "https://www.nzherald.co.nz/resizer/v2/52KX3ZHKOZFTZLWO5DH7GUI46M.gif?auth=78aa3a199d494809e039e526abb2eb0230d50fd6bd1150c97c4cb93250343697&smart=true&width=300&height=300",
+            "source": "nzherald"
+        },
+        {
+            "title": "Exclusive: Lawyer goes public with sexual misconduct claims against ICC court chief. He denies the allegations",
+            "severity": "WATCH",
+            "url": "https://www.cnn.com/2026/07/16/europe/icc-prosecutor-allegations-interview-un-investigation-amanpour-intl",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/amanpour1-20260716121735457.png?c=original/w_800",
+            "source": "cnn"
+        },
+        {
+            "title": "Falklands protests to FIFA about players' flashing banner claiming Argentina owns islands",
+            "severity": "WATCH",
+            "url": "https://www.dailystar.co.uk/falklands-protests-fifa-players-flashing-37441564",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37441560.ece/ALTERNATES/s615/2_GettyImages-2286282276.jpg",
+            "source": "dailystar"
+        },
+        {
+            "title": "Veteran Dem breaks party line as Jack Smith spying scandal grips Capitol Hill",
+            "severity": "WATCH",
+            "url": "https://www.foxnews.com/politics/veteran-dem-breaks-party-line-jack-smith-spying-scandal-grips-capitol-hill",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2022/01/931/523/AP22017775031905-e1642525368504.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Texas pastor died from E. Coli after hospital bungled lab test, widow claims in lawsuit",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/news/world/americas/e-coli-hospital-misdiagnosis-texas-malpractice-lawsuit-b3016400.html",
+            "image": "https://static.independent.co.uk/2026/07/16/17/23/MixCollage-16-Jul-2026-01-09-PM-5919.jpeg?width=1200&auto=webp&trim=0%2C0%2C141%2C0",
+            "source": "independentuk"
         }
     ],
-    "Last_Updated": "2026-07-17T03:17:53.832487Z"
+    "Last_Updated": "2026-07-17T06:22:07.091209Z"
 }
