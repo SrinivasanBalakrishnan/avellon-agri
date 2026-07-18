@@ -1,309 +1,232 @@
 {
-    "AGRI_Score": 60.3,
-    "Velocity": "-0.1",
+    "AGRI_Score": 59.3,
+    "Velocity": "-1.0",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently registers at an elevated 60.3, primarily driven by persistent geopolitical tensions and a heightened threat landscape in cyber and infrastructure security. Ongoing military support, as evidenced by the 'US tells Israel it will send dozens more refueling planes amid Ben-Gurion crowding crisis - report', signals continued regional instability. Concurrently, a surge in cyber threats, including 'A cyberattack has disrupted one of America\u2019s biggest milk brands' and the 'HollowByte DDoS flaw bloats OpenSSL server memory', underscores the pervasive digital risks affecting critical sectors.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.3 reflects elevated global risk, primarily driven by intensified geopolitical conflict and significant cyber and infrastructure threats. The 'Geopolitical Conflict Intensity' pillar, at 71.7, is a major contributor, as evidenced by ongoing 'US strikes Iran for sixth straight day' and 'Waves of US strikes on Iran hit week mark,' targeting critical assets like the 'IRGC surveillance tower at Iran's Chabahar port.' These kinetic actions, coupled with notable 'Cyber & Infrastructure Threats' such as the 'West Loop's Fairlife pauses U.S. production after cyberattack' and the 23andMe data breach, indicate a highly volatile operating environment where state-sponsored aggression and digital vulnerabilities create cascading effects across supply chains and energy security.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.1,
+        "Geopolitical Conflict Intensity": 71.7,
         "Energy & Maritime Disruption": 59.9,
-        "Trade & Supply Chain Stress": 66.6,
+        "Trade & Supply Chain Stress": 61.0,
         "Sovereign Financial Stress": 55.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 63.0,
+        "Sanctions & Regulatory Fragmentation": 59.7,
+        "Cyber & Infrastructure Threats": 66.0,
         "Climate & Resource Shock": 45
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar remains at an elevated 76.1 due to continued military support in active conflict zones, exemplified by the 'US tells Israel it will send dozens more refueling planes amid Ben-Gurion crowding crisis - report'. Furthermore, the 'Macron and Merz agree to deepen defence ties and push for tougher stance on China' indicates growing strategic alignment and potential for intensified geopolitical competition.",
-        "Energy & Maritime Disruption": "The score of 59.9 indicates moderate activity, with a shift in global energy supply dynamics noted as 'Saudi Arabia begins regaining share in India's crude imports'. Domestically, challenges in renewable energy expansion are apparent, with the 'Centre allocates 3 lakh rooftop solar systems to Raj, developers lukewarm'.",
-        "Trade & Supply Chain Stress": "At 66.6, this pillar reflects ongoing specific localized quality control issues, such as 'Unsafe cooking oil, substandard cashew found at Chokhi Dhani'. While 'FAA allows Boeing to resume issuing airplane certificates' offers some relief for industrial supply, it does not fully offset other regional stresses.",
-        "Sovereign Financial Stress": "With a score of 55.7, financial systems are experiencing some reallocations, with 'Spreadefi Sees Surge in Liquidity Pool Deposits as Investors Pivot Amid Crypto Market Downturn'. Significant liabilities from past data breaches, like the 'Fidelity data breach: Deadline looms for up to $5,000 per customer settlement payouts', represent substantial financial outlays for affected entities.",
-        "Currency & Liquidity Pressure": "This pillar reflects baseline activity at 50.0; while there's 'Spreadefi Sees Surge in Liquidity Pool Deposits as Investors Pivot Amid Crypto Market Downturn', this points to investor movement within specific asset classes rather than broad systemic currency or liquidity pressures.",
-        "Sanctions & Regulatory Fragmentation": "The 58.2 score suggests a moderate level of regulatory evolution, highlighted by 'Macron and Merz agree to deepen defence ties and push for tougher stance on China', signaling potential for new geopolitical alignment and trade restrictions. Internal enforcement efforts, such as 'Haryana launches 45-day drive to recover Rs 56 crore in power theft', demonstrate continued regulatory focus on economic integrity.",
-        "Cyber & Infrastructure Threats": "This pillar stands at an elevated 63.0, reflecting significant and active threats to critical systems, including the 'HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload' and 'A cyberattack has disrupted one of America\u2019s biggest milk brands'. The 'Fidelity data breach' further underscores the pervasive nature of data security incidents and their impact.",
-        "Climate & Resource Shock": "At 45, this pillar is under routine monitoring, with no immediate acute shocks reported. However, the 'Centre allocates 3 lakh rooftop solar systems to Raj, developers lukewarm' indicates ongoing challenges in scaling renewable energy infrastructure, which has long-term implications for resource management."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict is exceptionally high due to sustained military engagements, with 'US strikes Iran' occurring for a 'sixth straight day' and 'waves' reaching the 'week mark.' Furthermore, incidents like the 'IDF detains Israeli civilians who crossed into Syria' highlight regional border tensions and unauthorized incursions.",
+        "Energy & Maritime Disruption": "Maritime security is severely compromised following a 'Second tanker in three months hijacked off Yemen by suspected Somali pirates,' directly threatening key shipping lanes. Energy infrastructure is also under stress, as 'Iran issues harrowing order to residents after US strikes cripple power grid,' demonstrating a direct impact on national power supply.",
+        "Trade & Supply Chain Stress": "Supply chains face acute stress from both maritime insecurity and infrastructure damage, with the 'Second tanker in three months hijacked off Yemen' posing a direct threat to trade routes. Additionally, the 'West Loop's Fairlife pauses U.S. production after cyberattack' illustrates how digital threats can immediately disrupt manufacturing and product availability.",
+        "Sovereign Financial Stress": "Sovereign financial stability is impacted by the significant costs of ongoing conflicts and recovery efforts, with the 'cripple[d] power grid' in Iran likely requiring substantial state investment for repair. Geopolitical tensions are also leading to new energy deals, such as 'US firms sign energy and other deals with Iraq,' which can shift regional economic dynamics and fiscal priorities.",
+        "Currency & Liquidity Pressure": "While no direct currency or liquidity events are reported, the ongoing 'US strikes on Iran' and associated economic fallout create an environment ripe for capital flight and foreign exchange volatility. The broader regional instability fostered by these conflicts may lead to increased hedging and reduced foreign direct investment.",
+        "Sanctions & Regulatory Fragmentation": "The environment remains complex due to heightened geopolitical tensions, suggesting potential for further 'US strikes' and associated punitive measures against state actors. Regulatory enforcement is actively demonstrated by '23andMe Agrees to $18M Settlement With 43 States Over 2023 Data Breach,' underscoring significant financial penalties for non-compliance.",
+        "Cyber & Infrastructure Threats": "Cyber threats are highly active, exemplified by 'West Loop's Fairlife pauses U.S. production after cyberattack,' causing immediate operational shutdowns. Infrastructure itself is also a direct target, as seen with 'US destroys IRGC surveillance tower at Iran's Chabahar port: CENTCOM' and the 'US strikes cripple power grid' in Iran.",
+        "Climate & Resource Shock": "There are no immediate climate shocks reported, but resource management is a focus, with 'New oil rules to elevate output, energy security' indicating strategic energy policy adjustments. Local initiatives, such as 'West Springfield officials look to regulate battery storage facilities,' highlight proactive measures for future resource infrastructure development."
     },
     "All_Alerts": [
         {
-            "title": "Centre allocates 3 lakh rooftop solar systems to Raj, developers lukewarm",
+            "title": "US strikes Iran for sixth straight day",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/jaipur/centre-allocates-3-lakh-rooftop-solar-systems-to-raj-developers-lukewarm/articleshow/132467589.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
+            "url": "https://globalnation.inquirer.net/331248/us-strikes-iran-for-sixth-straight-day",
+            "image": "https://globalnation.inquirer.net/files/2026/07/US-strikes-Iran-620x413.jpg",
+            "source": "inquirer"
         },
         {
-            "title": "Howard Jones, back on tour, reflects on hippie ideals: \u2018There was a lot of good about it.\u2019",
+            "title": "Second tanker in three months hijacked off Yemen by suspected Somali pirates",
             "severity": "HIGH",
-            "url": "https://www.bostonherald.com/2026/07/17/howard-jones-back-on-tour-reflects-on-hippie-ideals-there-was-a-lot-of-good-about-it/",
-            "image": "https://www.bostonherald.com/wp-content/uploads/2026/07/sut-l-music-howardjones-0717-01_6ec049.jpg?w=1400px&strip=all",
-            "source": "bostonherald"
+            "url": "https://www.yahoo.com/news/world/articles/second-tanker-three-months-hijacked-170345817.html",
+            "image": "https://media.zenfs.com/en/bbc_us_articles_995/497e27d3db6b509e995a937048f09b00",
+            "source": "yahoo"
         },
         {
-            "title": "US tells Israel it will send dozens more refueling planes amid Ben-Gurion crowding crisis - report",
+            "title": "Waves of US strikes on Iran hit week mark",
             "severity": "HIGH",
-            "url": "https://www.jpost.com/israel-news/article-902850",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/711289",
+            "url": "https://thehill.com/newsletters/defense-national-security/5975523-us-strikes-iran-military-capabilities/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/07/Iran_Timotija_Getty_MortezaAkhoundi.jpg?w=900",
+            "source": "thehill"
+        },
+        {
+            "title": "23andMe Agrees to $18M Settlement With 43 States Over 2023 Data Breach",
+            "severity": "HIGH",
+            "url": "https://www.techrepublic.com/article/news-23andme-18-million-settlement-2023-genetic-data-breach/",
+            "image": "https://assets.techrepublic.com/uploads/2026/07/23andme.jpg?f=jpeg",
+            "source": "techrepublic"
+        },
+        {
+            "title": "US destroys IRGC surveillance tower at Iran's Chabahar port: CENTCOM",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/world/us-destroys-irgc-surveillance-tower-at-irans-chabahar-port-centcom-articleshow-itmz5bq",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-d04dde03-064e-4945-8dbc-81fbcd0ef840.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Golf-Rahm given warning after throwing club",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/sport/golf/2026/07/18/golf-rahm-given-warning-after-throwing-club",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/18/4016460.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "IDF detains Israeli civilians who crossed into Syria, others who attempted to breach border",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/israel-news/defense-news/article-902858",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/729766",
             "source": "jpost"
         },
         {
-            "title": "The Taco Bell Outbreak Is a Worst-Case Scenario. Here\u2019s the Crisis Playbook Every Brand Should Follow",
+            "title": "Ryan Gold suspended: NFL bans Cardinals executive indefinitely over gambling rules breach",
             "severity": "HIGH",
-            "url": "https://www.inc.com/michael-tasner/the-taco-bell-outbreak-is-a-worst-case-scenario-heres-the-crisis-playbook-every-brand-should-follow/91376056",
-            "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/07/taco-bell-outbreak-right-move-inc.jpg",
-            "source": "inc"
+            "url": "https://www.hindustantimes.com/sports/us-sports/ryan-gold-suspended-nfl-bans-cardinals-executive-indefinitely-over-gambling-rules-breach-101784323225401.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/17/1600x900/logo/arizona_cardinals_1784323895144_1784323900566_24ef5cc0-5af1-4a9b-967c-df26ca16f860.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Life after amputation: Gaza women find recovery through football",
+            "title": "U.S., Iranian Forces Target Civilian Infrastructure",
             "severity": "HIGH",
-            "url": "https://www.aljazeera.com/features/2026/7/17/life-after-amputation-gaza-women-find-recovery-through-football",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/IMG-20260709-WA0150-1784306274.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Why the winners in AI won't be the AI companies",
-            "severity": "HIGH",
-            "url": "https://investinglive.com/education/why-the-winners-in-ai-won-t-be-the-ai-companies/",
-            "image": "https://investinglive.com/cms/OrchardCore.Admin/logo.png",
-            "source": "forexlive"
-        },
-        {
-            "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
-            "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/07/17/openssl-hollowbyte-headpic.jpg",
-            "source": "bleepingcomputer"
-        },
-        {
-            "title": "A cyberattack has disrupted one of America\u2019s biggest milk brands. Should shoppers be worried?",
-            "severity": "HIGH",
-            "url": "https://www.fastcompany.com/91575688/a-cyberattack-has-disrupted-one-of-americas-biggest-milk-brands-should-shoppers-be-worried?partner=rss",
-            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-2-91575688-cyberattack-milk-brand-fairlife.jpg",
-            "source": "fastcompany"
-        },
-        {
-            "title": "Fidelity data breach: Deadline looms for up to $5,000 per customer settlement payouts",
-            "severity": "HIGH",
-            "url": "https://finance.yahoo.com/personal-finance/banking/article/fidelity-data-breach-deadline-looms-for-up-to-5000-per-customer-settlement-payouts-174013618.html",
-            "image": "https://s.yimg.com/uu/api/res/1.2/wzPp08MlGwebiQcN5K34xA--~B/aD00MTYxO3c9NjI0MjthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-07/b395d179-f3f2-4330-85f4-449d1b36eff2",
-            "source": "yahoo"
-        },
-        {
-            "title": "Spreadefi Sees Surge in Liquidity Pool Deposits as Investors Pivot Amid Crypto Market Downturn",
-            "severity": "MEDIUM",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/07/17/3329245/0/en/Spreadefi-Sees-Surge-in-Liquidity-Pool-Deposits-as-Investors-Pivot-Amid-Crypto-Market-Downturn.html",
-            "image": "https://images.pexels.com/photos/37950564/pexels-photo-37950564.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Leaked Police Drone Videos Highlight Need For Independent Review of the Technology\u2019s Usefulness",
-            "severity": "MEDIUM",
-            "url": "https://www.aclu.org/news/privacy-technology/leaked-drone-video-takeaways",
-            "image": "https://assets.aclu.org/live/uploads/2026/07/SFPD-leaded-drone-vids.jpg",
-            "source": "aclu"
-        },
-        {
-            "title": "York water COO Matthew Scarpato buys $3,250 in company stock",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/york-water-coo-matthew-scarpato-buys-3250-in-company-stock-93CH-4776667",
-            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB6U08A_M.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Saudi Arabia begins regaining share in India's crude imports",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/saudi-arabia-begins-regaining-share-in-indias-crude-imports/articleshow/132467577.cms",
-            "image": "https://img.etimg.com/thumb/msid-132467612,resizemode-4,width-1200,height-900,imgsize-46270,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Unsafe cooking oil, substandard cashew found at Chokhi Dhani",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/jaipur/unsafe-cooking-oil-substandard-cashew-found-at-chokhi-dhani/articleshow/132467602.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Obscured by clouds",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/opinion/speaking-tree/obscured-by-clouds/articleshow/132467582.cms",
-            "image": "https://images.pexels.com/photos/695730/pexels-photo-695730.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Max Verstappen explains Spa radio message and delivers early verdict on Red Bull's pace",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/max-verstappen-explains-spa-radio-180618080.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/6mZFAf66rRwhLLIMG4igwQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTk4O2NmPXdlYnA-/https://media.zenfs.com/en/motorsport_articles_445/b97441ac0c97386c20f476553a7b12f8",
-            "source": "yahoo"
-        },
-        {
-            "title": "FAA allows Boeing to resume issuing airplane certificates",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/faa-allows-boeing-to-resume-issuing-airplane-certificates-93CH-4776666",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEB5E0JP_M.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Haryana launches 45-day drive to recover Rs 56 crore in power theft",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/chandigarh/haryana-launches-45-day-drive-to-recover-rs-56-crore-in-power-theft/articleshow/132467599.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132467597/132467597.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Do you need to spend $250 on a kettle? I tested the Dualit Classic Kettle to find out",
-            "severity": "WATCH",
-            "url": "https://www.tomsguide.com/home/home-appliances/dualit-classic-kettle-review",
-            "image": "https://cdn.mos.cms.futurecdn.net/bvCgm2Mx2E5unWdqwXZYuA-1280-80.jpg",
-            "source": "tomsguide"
-        },
-        {
-            "title": "Macron and Merz agree to deepen defence ties and push for tougher stance on China",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/macron-merz-agree-deepen-defence-180830075.html",
-            "image": "https://media.zenfs.com/en/euronews_ca_articles_409/caf68cdd8ef2a11cf5fc90581c1edb41",
-            "source": "yahoo"
-        },
-        {
-            "title": "Govt directive on service camp applications contradicts HC stay",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/jaipur/govt-directive-on-service-camp-applications-contradicts-hc-stay/articleshow/132467613.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Tucker Carlson unloads on Trump: \u2018He cheated on the United States\u2019",
-            "severity": "WATCH",
-            "url": "https://www.oregonlive.com/nation/2026/07/tucker-carlson-unloads-on-trump-he-cheated-on-the-united-states.html",
-            "image": "https://www.oregonlive.com/resizer/v2/IBZXM3Q72JAW3C3T623CGFFVIM.jpg?auth=6c06648bdeef1e4f2919a8f27bb3a0a733c71873da6fcc9e68c76dbcc021e080&smart=true&height=1200",
-            "source": "oregonlive"
-        },
-        {
-            "title": "New Fallout 3 Prequel Announced Ahead of Upcoming Remaster",
-            "severity": "WATCH",
-            "url": "https://comicbook.com/gaming/news/fallout-3-prequel-remaster-fo76/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/07/Fallout-3.jpg",
-            "source": "comicbook"
-        },
-        {
-            "title": "Jerusalem highlights: July 17-23",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/israel-news/culture/article-902764",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/712515",
-            "source": "jpost"
-        },
-        {
-            "title": "Japanese Proverb of the Day: \u201cForgiving the unrepentant is like... \u2014 Life lessons on accountability, remorse, boundaries, trust and why you must forgive but don\u2019t forget",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/japanese-proverb-of-the-day-forgiving-the-unrepentant-is-like-life-lessons-on-accountability-remorse-boundaries-trust-and-why-you-must-forgive-but-dont-forget/articleshow/132465431.cms",
-            "image": "https://img.etimg.com/thumb/msid-132465431,resizemode-4,width-1200,height-900,imgsize-2320361,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "FedEx\u2019s CEO landed his first job by taking a roommate\u2019s abandoned interview. Now he\u2019s running a $75 billion shipping giant",
-            "severity": "WATCH",
-            "url": "https://fortune.com/2026/07/17/fedex-ceo-raj-subramaniam-landed-first-job-career-advice/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/07/RajFedExCEO-e1784304229877.jpeg?w=2048",
-            "source": "fortune"
-        },
-        {
-            "title": "Too few caribou, too many bears: Bristol Bay subsistence hunters favor state bear cull to protect food",
-            "severity": "WATCH",
-            "url": "https://www.adn.com/alaska-news/wildlife/2026/07/17/too-few-caribou-too-many-bears-bristol-bay-subsistence-hunters-favor-state-bear-cull-to-protect-food/",
-            "image": "https://www.adn.com/resizer/tfveRDusAu5D37n7WLGKo5M2DXA=/cloudfront-us-east-1.images.arcpublishing.com/adn/YW7AS7K6VZC3JOFS5PU2ZJAAKM.JPG",
-            "source": "adn"
-        },
-        {
-            "title": "Why is India`s first Hydrogen train being called the future of rail travel?",
-            "severity": "WATCH",
-            "url": "https://zeenews.india.com/india/why-is-indias-first-hydrogen-train-being-called-the-future-of-rail-travel-3061583.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/07/17/1964998-mixcollage-02-dec-2025-11-29-pm-1209.jpg",
-            "source": "zeenews"
-        },
-        {
-            "title": "Police file 102 FIRs over display of weapons on social media; 130 held",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/patna/police-file-102-firs-over-display-of-weapons-on-social-media-130-held/articleshow/132467531.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Tech sell-off takes toll on Asian equities",
-            "severity": "WATCH",
-            "url": "https://www.bangkokpost.com/business/general/3287645/tech-selloff-takes-toll-on-asian-equities",
-            "image": "https://static.bangkokpost.comhttps//static.bangkokpost.com/media/content/20260718/6158627.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Going to see 'The Boss' led to sack... Woman loses tribunal after leaving work early for Bruce Springsteen concert",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15985993/Going-Boss-led-sack-Woman-loses-tribunal-leaving-work-early-Bruce-Springsteen-concert.html",
-            "image": "https://i.dailymail.com/1s/2026/07/17/18/110091015-0-image-a-16_1784310643662.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Outbreak of diarrhea-causing parasite infection traced to shredded lettuce at Taco Bell in five states",
-            "severity": "WATCH",
-            "url": "https://www.post-gazette.com/news/health/2026/07/17/taco-bell-cyclospora/stories/202607170045",
-            "image": "https://https//73f3e7d5672db1849e6c-6434aaf008a29447cc424990bc6a54a7.ssl.cf2.rackcdn.com/stories/202607170045/1140x_a10-7_cTC/tacobell-bg_1784308050.jpg",
-            "source": "postgazette"
-        },
-        {
-            "title": "House GOP's 'reconciliation 3.0' runs into Senate roadblocks",
-            "severity": "WATCH",
-            "url": "https://www.washingtontimes.com/news/2026/jul/17/house-gops-reconciliation-30-runs-senate-roadblocks/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/07/14/Lindsey_Graham_Dies_56859_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
-            "source": "washingtontimes"
-        },
-        {
-            "title": "Inside the Race to Protect Ukrainian",
-            "severity": "WATCH",
-            "url": "https://foreignpolicy.com/2026/07/17/ukrainian-language-preservation-russia-invasion/",
-            "image": "https://foreignpolicy.com/wp-content/uploads/2026/07/1-book-in-rubble-in-ukraine-after-russian-strike-GettyImages-2201327472.jpg",
+            "url": "https://foreignpolicy.com/2026/07/17/us-iran-strikes-civilian-infrastructure-bridges-kuwait-desalination-syria/",
+            "image": "https://foreignpolicy.com/wp-content/uploads/2026/07/IranBridges-GettyImages-1127386500.jpg",
             "source": "foreignpolicy"
         },
         {
-            "title": "Mid-Year Scorecard: Assessing Our Solving For 2026 Calls",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4923096-mid-year-scorecard-assessing-solving-2026-calls",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2220378542/image_2220378542.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "title": "West Loop's Fairlife pauses U.S. production after cyberattack",
+            "severity": "HIGH",
+            "url": "https://chicago.suntimes.com/technology/2026/07/17/west-loop-fairlife-coca-cola-pauses-us-production-cyberattack",
+            "image": "https://cst.brightspotcdn.com/dims4/default/645b857/2147483647/strip/false/crop/3000x2000+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fchorus-production-cst-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fdc%2Fc1%2F91a58c104208a41aad0a695f7cf1%2Ffairlife-cyberattack-coca-cola.jpg",
+            "source": "chicago_suntimes"
         },
         {
-            "title": "Michigan's el Sayed tells supporters to stop making fun of rival Haley Stevens: 'Focus on the issues'",
-            "severity": "WATCH",
-            "url": "https://www.washingtonexaminer.com/news/campaigns/congressional/4653346/el-sayed-stop-making-fun-haley-stevens/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/07/AP26189067784672_bed0b3.jpg?w=696",
-            "source": "washingtonexaminer"
+            "title": "Trump administration targets NJ in election integrity effort",
+            "severity": "MEDIUM",
+            "url": "https://nj1015.com/homeland-security-election-integrity-effort/",
+            "image": "https://townsquare.media/site/385/files/2026/07/attachment-gettyimages-2286525695.jpg",
+            "source": "nj1015"
         },
         {
-            "title": "Apple hit with lawsuit claiming iCloud+ privacy tool could expose users\u2019 real emails to websites",
-            "severity": "WATCH",
-            "url": "https://www.foxbusiness.com/technology/apple-hit-class-action-claiming-icloud-privacy-tool-exposed-users-real-emails-websites",
-            "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/07/apple-store.png",
-            "source": "foxbusiness"
+            "title": "Review: The Girl from Fergana by Jonathan Gil Harris",
+            "severity": "MEDIUM",
+            "url": "https://www.hindustantimes.com/books/review-the-girl-from-fergana-by-jonathan-gil-harris-101784310710509.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/17/1600x900/logo/A-woman-preparing-kurut--dried-yogurt-balls---a-tr_1784310691830.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "220 Million 'Stolen' Voter Files: The Problem With Trump's China Claim",
+            "title": "New oil rules to elevate output, energy security",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/us/us-news/220-million-stolen-voter-files-the-problem-with-donald-trump-china-claim-article-155118638",
-            "image": "https://images.timesnownews.com/thumb/msid-155118859,thumbsize-858604,width-1280,height-720,resizemode-75/155118859.jpg",
-            "source": "timesnownews"
+            "url": "https://www.bangkokpost.com/business/general/3287640/new-oil-rules-to-elevate-output-energy-security",
+            "image": "https://static.bangkokpost.com/media/content/dcx/2026/07/18/6158145.jpg",
+            "source": "bangkokpost"
         },
         {
-            "title": "Intruder Nabbed Just Feet Away from 'Today' Show While On the Air",
+            "title": "Android Circuit: Galaxy Z Fold8 Update, Pixel 11\u2019s Glow-Up, OnePlus Leaves The Stage",
             "severity": "WATCH",
-            "url": "https://www.breitbart.com/crime/2026/07/17/intruder-nabbed-just-feet-away-from-today-show-while-on-the-air/",
-            "image": "https://media.breitbart.com/media/2026/07/GettyImages2235740951-640x335.jpg",
-            "source": "breitbart"
+            "url": "https://www.forbes.com/sites/ewanspence/2026/07/17/android-news-headlines-galaxy-z-fold8-pixel-11-redmii-note-17-oneplus-oppo/",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/6915f77b956d3ab56de40362/0x0.jpg",
+            "source": "forbes"
         },
         {
-            "title": "Fruit trader held for cheating advocate",
+            "title": "Iran issues harrowing order to residents after US strikes cripple power grid",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/trichy/fruit-trader-held-for-cheating-advocate/articleshow/132467056.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
+            "url": "https://www.the-express.com/news/world-news/212092/iran-issues-harrowing-order-residents-strikes-power-grid",
+            "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/212092_1.jpg",
+            "source": "express"
+        },
+        {
+            "title": "US firms sign energy and other deals with Iraq after Trump touts its oil",
+            "severity": "WATCH",
+            "url": "https://thehill.com/policy/energy-environment/5975475-iraq-oil-deals/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/07/AP26195578840379-e1784045240922.jpg?w=900",
+            "source": "thehill"
+        },
+        {
+            "title": "West Springfield officials look to regulate battery storage facilities before projects advance",
+            "severity": "WATCH",
+            "url": "https://www.masslive.com/westernmass/2026/07/west-springfield-officials-look-to-regulate-battery-storage-facilities-before-projects-advance.html",
+            "image": "https://www.masslive.com/resizer/v2/R7FPNLY7DVAX3NDWN5O6AP46IQ.jpg?auth=1dcc1029aae4a62af0eab1dc07b7b2176c74b32a535857044d92fe18f05e2431&smart=true&height=1200",
+            "source": "masslive"
+        },
+        {
+            "title": "White House BACKS Argentina players in row over Falklands banner after World Cup semi-final win over England",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/sport/football/article-15986283/Donald-Trumps-World-Cup-chief-backs-Argentina.html",
+            "image": "https://i.dailymail.com/1s/2026/07/17/22/110094523-0-image-a-71_1784322662011.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Op-Ed: The cost of politics is showing up on your electric bill",
+            "severity": "WATCH",
+            "url": "https://nj1015.com/pennsylvania-energy-costs-families-impact/",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "nj1015"
+        },
+        {
+            "title": "Settler activists illegally cross into Syria, stay for full day before being nabbed by IDF",
+            "severity": "WATCH",
+            "url": "https://www.timesofisrael.com/settler-activists-illegally-cross-into-syria-stay-for-full-day-before-being-nabbed-by-idf/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2026/07/F260411MG013-e1784320355898.jpg",
+            "source": "timesofisrael"
+        },
+        {
+            "title": "The Meaning Behind The Odyssey \u2019s Unexpected Final Scene",
+            "severity": "WATCH",
+            "url": "https://www.elle.com/culture/movies-tv/a73172763/the-odyssey-ending-finale-explained/",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/0472bb6c-a97d-45ac-a2ab-8a4199937a9b.jpg",
+            "source": "elle_uk"
+        },
+        {
+            "title": "Relatives say ICE officer in fatal Maine shooting had history of violence",
+            "severity": "WATCH",
+            "url": "https://www.al.com/news/2026/07/familys-claims-raise-new-questions-after-fatal-ice-shooting.html",
+            "image": "https://www.al.com/resizer/v2/TWHFL2MBPNC75J6OEYCXGJJXNI.jpg?auth=8701eeae4b048d8ed102b1370480084d8e5b6800b60a4562bc883063da6f50aa&smart=true&height=1200",
+            "source": "al"
+        },
+        {
+            "title": "10 Best Spy Video Games of All Time",
+            "severity": "WATCH",
+            "url": "https://collider.com/best-spy-video-games-all-time-ranked/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/metal-gear-solid-v-snake-helicopter-1.avif",
+            "source": "collider"
+        },
+        {
+            "title": "Taylor Farms pulls lettuce after cyclospora outbreak",
+            "severity": "WATCH",
+            "url": "https://www.al.com/news/2026/07/taylor-farms-pulls-lettuce-after-tie-to-cyclospora-outbreak-releases-statement.html",
+            "image": "https://www.al.com/resizer/v2/J364SMDRRFBERALTRCULHRU6JI.jpg?auth=8dec1b779e2de6f8c47f069f574e7c2567fdf3658cd1d30d5ae2f9ea56e18a13&smart=true&height=1200",
+            "source": "al"
+        },
+        {
+            "title": "Almonty to Voluntarily Delist From TSX",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/almonty-to-voluntarily-delist-from-tsx",
+            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "Netflix\u2019s 8-Part Magical Realist Masterpiece Gets Even Better Ahead Of Season 2",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/netflixs-8-part-magical-realist-masterpiece-gets-even-better-ahead-of-season-2/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/tcdonhu_zx009.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "Every Christopher Nolan Movie, Ranked From Worst To Best",
+            "severity": "WATCH",
+            "url": "https://kotaku.com/christopher-nolan-best-worst-movies-films-odyssey-batman-2000717254",
+            "image": "https://kotaku.com/app/uploads/2026/07/top-ranked-nolan-1280x720.jpg",
+            "source": "kotakugamerguide"
+        },
+        {
+            "title": "Not Today, Explosive Diarrhea. Not Today.",
+            "severity": "WATCH",
+            "url": "https://slate.com/news-and-politics/2026/07/how-can-i-avoid-cyclospora.html?via=rss",
+            "image": "https://compote.slate.com/images/548dd269-e6db-43af-a36f-50a814524d5b.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+            "source": "slate_usa"
+        },
+        {
+            "title": "Brandel Chamblee insists Bryson DeChambeau deserved his penalty as Paul McGinley criticises his behavior at The Open",
+            "severity": "WATCH",
+            "url": "https://www.hitc.com/brandel-chamblee-insists-bryson-dechambeau-deserved-his-penalty-as-paul-mcginley-criticises-his-behavior-at-the-open/",
+            "image": "https://cdn3.hitc.com/uploads/1/2026/07/GettyImages-2286549438-scaled.jpg",
+            "source": "hitc"
         }
     ],
-    "Last_Updated": "2026-07-18T06:10:01.094983Z"
+    "Last_Updated": "2026-07-18T09:38:36.564048Z"
 }
