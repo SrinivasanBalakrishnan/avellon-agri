@@ -1,260 +1,295 @@
 {
-    "AGRI_Score": 59.3,
-    "Velocity": "0.0",
+    "AGRI_Score": 59.0,
+    "Velocity": "-0.3",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.3/100 reflects a significantly elevated risk environment, primarily driven by escalating geopolitical tensions between the US and Iran. Direct military engagements and maritime disruptions are pushing the 'Geopolitical Conflict Intensity' and 'Energy & Maritime Disruption' pillars to critical levels. This instability is also driving a rise in 'Trade & Supply Chain Stress' and contributing to 'Sovereign Financial Stress' as gas prices climb.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.0 reflects an elevated risk environment driven primarily by intensified geopolitical conflict and lingering trade/supply chain vulnerabilities. Persistent \"US strikes hit Iran for seventh consecutive night\" directly contribute to high geopolitical tensions, while \"Trump fumes over Canadian wildfire smoke and issues tariff threat\" points to potential trade disruptions. Additionally, significant cyber incidents like the \"Tata Electronics cyberattack\" highlight ongoing vulnerabilities across critical infrastructure, sustaining overall risk at a heightened level.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.2,
-        "Energy & Maritime Disruption": 61.4,
-        "Trade & Supply Chain Stress": 64.3,
+        "Geopolitical Conflict Intensity": 70.3,
+        "Energy & Maritime Disruption": 59.9,
+        "Trade & Supply Chain Stress": 62.7,
         "Sovereign Financial Stress": 55.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 63.3,
-        "Cyber & Infrastructure Threats": 49.5,
+        "Sanctions & Regulatory Fragmentation": 62.4,
+        "Cyber & Infrastructure Threats": 60.6,
         "Climate & Resource Shock": 45
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is at a critical 75.2 due to direct military escalation between the US and Iran, evidenced by reports of 'New US Attacks On Roads, Bridges Reported As Iran Hits Back At Gulf States' and 'IRGC claims strikes on US drone depot and AI hub in Bahrain'. The ongoing tit-for-tat actions indicate a volatile and unpredictable conflict landscape in the Gulf region.",
-        "Energy & Maritime Disruption": "Risk in this pillar is high at 61.4, directly linked to aggressive actions impacting critical shipping lanes and energy markets. News that 'Iran stops four vessels attempting to pass through Strait of Hormuz \u2014 IRGC' highlights a severe threat to maritime trade, while 'Gas prices rise as U.S. and Iran escalate attacks' demonstrates immediate market impacts.",
-        "Trade & Supply Chain Stress": "The score of 64.3 indicates considerable stress on global trade routes and supply chains, largely an ancillary effect of heightened geopolitical and maritime risks. The impedance of vessel transit in the 'Strait of Hormuz' by Iran directly threatens a vital global shipping chokepoint, disrupting the flow of goods and increasing logistical uncertainties.",
-        "Sovereign Financial Stress": "At 55.7, sovereign financial stress is elevated, influenced by rising energy costs and potential economic fallout from ongoing geopolitical conflicts. The reported 'Gas prices rise as U.S. and Iran escalate attacks' could fuel inflation and increase fiscal burdens on nations reliant on energy imports, while domestic regulatory challenges, as seen with the 'Federal judge bars Trump administration from using obscure clause to make huge funding cuts,' add to internal pressures.",
-        "Currency & Liquidity Pressure": "This pillar sits at an elevated 50.0, primarily reflecting market uncertainty stemming from the US-Iran escalation and its economic implications. Rising 'Gas prices' contribute to inflationary pressures that can weaken currency purchasing power and lead to capital flight in vulnerable economies.",
-        "Sanctions & Regulatory Fragmentation": "The 63.3 score for this pillar reflects an environment where new sanctions or regulatory responses are highly probable given the current conflict dynamics. The sustained attacks between the US and Iran suggest a heightened potential for further punitive measures and fragmented international regulatory adherence.",
-        "Cyber & Infrastructure Threats": "Risk for this pillar is elevated at 49.5, underscored by the direct targeting of military and potentially critical infrastructure in conflict zones. The 'IRGC claims strikes on US drone depot and AI hub in Bahrain' highlights offensive capabilities against strategic assets, increasing the likelihood of retaliatory cyber or physical attacks on critical systems.",
-        "Climate & Resource Shock": "This pillar registers a baseline activity score of 45, as no immediate, high-severity climate events or resource shocks were reported in the feed. While discussions around future resource exploitation like 'The US plans to auction off sections of water around American Samoa in a push for deep-sea mining' are noted, they do not represent current acute shocks."
+        "Geopolitical Conflict Intensity": "The pillar's high score is driven by sustained military engagements, as evidenced by \"US strikes hit Iran for seventh consecutive night\" and Iran's claims that \"US strikes killed 38, over injured 400 by hitting civilian infrastructure.\" These events underscore a continued escalation of regional hostilities, maintaining a high level of conflict intensity.",
+        "Energy & Maritime Disruption": "Concerns over potential disruptions are illustrated by \"Australia expands its fuel buffer against Gulf turmoil,\" indicating proactive measures against supply chain shocks. Rising local costs, such as \"Delmarva summer power bills are up $28 a month,\" also highlight demand pressures exacerbated by factors like AI growth.",
+        "Trade & Supply Chain Stress": "Trade relations face immediate stress with \"Trump fumes over Canadian wildfire smoke and issues tariff threat,\" signaling potential for new protectionist measures. The broader vulnerability of critical resources is also evident as Australia strengthens its \"fuel buffer against Gulf turmoil,\" anticipating external supply chain shocks.",
+        "Sovereign Financial Stress": "Government financial commitments to mitigate environmental risks, like the \"Feds will pay up to $65 million to keep Colorado River water in Lake Mead as Hoover Dam risk grows,\" indicate significant fiscal outlays. Such large-scale expenditures to maintain vital infrastructure can place pressure on sovereign balance sheets.",
+        "Currency & Liquidity Pressure": "No immediate news items directly suggest acute currency depreciation or liquidity crunches at this time. The situation in this pillar indicates routine monitoring of global capital flows and financial market conditions.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory shifts, such as the \"US scraps automatic protections for threatened species as critics warn of extinction risk,\" signify potential for new environmental and trade disputes. Furthermore, President Trump's \"tariff threat\" against Canada highlights the ongoing risk of political fragmentation impacting international commerce.",
+        "Cyber & Infrastructure Threats": "The \"Tata Electronics cyberattack\" underscores a persistent and significant threat to corporate digital infrastructure, necessitating Mandiant's recommendations for future breach prevention. Physical security concerns are also heightened by incidents like the \"intruder breach at NBC,\" revealing vulnerabilities in securing prominent facilities.",
+        "Climate & Resource Shock": "While long-term climate predictions like \"Will 2026 be the warmest year yet?\" indicate future risks, immediate responses are largely mitigatory. Efforts such as the \"Feds will pay up to $65 million to keep Colorado River water in Lake Mead\" are focused on managing existing resource scarcity rather than reacting to sudden, widespread shocks."
     },
     "All_Alerts": [
         {
-            "title": "New US Attacks On Roads, Bridges Reported As Iran Hits Back At Gulf States",
+            "title": "B.C. First Nations explore if nuclear power could meet province\u2019s electricity needs",
             "severity": "HIGH",
-            "url": "https://www.rferl.org/a/iran-attacks-hormuz-infrastructure-centcom-jets/33806044.html",
-            "image": "https://gdb.rferl.org/c511b4d6-030f-4082-4275-08decacf94d0_w800_h450.jpg",
-            "source": "rferl"
+            "url": "https://globalnews.ca/news/11970664/bc-first-nations-explore-nuclear-power/",
+            "image": "https://globalnews.ca/wp-content/uploads/2025/04/1ef9615d69322691ca5293d64fcc83921bc9000e6ea47416b38267faaece22f2.jpg?quality=65&strip=all",
+            "source": "globalnews"
         },
         {
-            "title": "Iran stops four vessels attempting to pass through Strait of Hormuz \u2014 IRGC",
+            "title": "Trump\u2019s Truth Social to sell early access to \u2018market-moving\u2019 posts",
             "severity": "HIGH",
-            "url": "https://tass.com/world/2161873",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Day 20 of hunger strike: Sonam Wangchuk vows to \u2018stay alive\u2019, march to Parliament on Monday",
-            "severity": "HIGH",
-            "url": "https://indianexpress.com/article/cities/delhi/day-20-of-hunger-strike-sonam-wangchuk-vows-to-stay-alive-march-to-parliament-on-monday-10791808/",
-            "image": "https://images.indianexpress.com/2026/07/P1-wangchu-new-3col.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Gas prices rise as U.S. and Iran escalate attacks",
-            "severity": "HIGH",
-            "url": "https://www.nbcnews.com/nightly-news/video/gas-prices-rise-as-u-s-and-iran-escalate-attacks-266868293836",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1784329403259_nn_ksi_iran_strikes_260717_S3_1920x1080-sgcl3c.jpg",
-            "source": "nbcnews"
-        },
-        {
-            "title": "Federal judge bars Trump administration from using obscure clause to make huge funding cuts - AP News",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQVREcjZLbkZKZy1kSF9aLXhDYjY2NkQwdl9GSEJnWUIzbWpiMC1hLUFVZjJwZFEtM2JXbnFaNjd4eXFNRHQ0NUVQaGxvSVNXTVJxYjBCc0JveFVEd0dwblh2djZMeGo0eEN6Ym5qU0h4OTM5MFVydjRESHotSnhVNXQ1SFpjVU1mWXFWak9YNzBxLWI2MXR0Y1E2X0VBTFVNbE1VVg?oc=5",
-            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Revealed - the 'quiet and shy' former lift company employee being questioned over Ann Widdecombe's 'politically motivated' murder",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-15985321/former-lift-employee-questioned-Ann-Widdecombes-murder.html",
-            "image": "https://i.dailymail.com/1s/2026/07/18/00/110095949-0-image-a-16_1784329300834.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "World-class nuclear fuel facility that can power next-gen reactors to be built with new funding",
-            "severity": "HIGH",
-            "url": "https://interestingengineering.com/energy/triso-x-advanced-nuclear-fuel-manufacturing",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/07/nuclear-fuel-new.jpg",
-            "source": "interestingengineering"
-        },
-        {
-            "title": "IRGC claims strikes on US drone depot and AI hub in Bahrain",
-            "severity": "HIGH",
-            "url": "https://www.rt.com/news/643193-iran-us-drone-ai-bahrain/",
-            "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a5ab2db203027252c72de19.png",
+            "url": "https://www.rt.com/news/643166-trump-truth-social-access-posts/",
+            "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a5a20022030270f70482809.jpg",
             "source": "rt"
         },
         {
-            "title": "Argentina vs Spain World Cup final becomes a proxy for the Israel-Palestinian conflict",
+            "title": "Australia expands its fuel buffer against Gulf turmoil",
             "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/argentina-and-spains-world-cup-final-becomes-a-proxy-for-the-israel-palestinian-conflict/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/07/AFP__20260717__C2DB2ZQ__v1__HighRes__ComboFblWc2026Match104EspArgFinal-e1784327450986.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Olivia Dean\u2019s First U.S. Arena Tour Is Off to a Smashing Start, With L.A. Shows Proving She\u2019s No One-Grammy Wonder: Concert Review",
-            "severity": "MEDIUM",
-            "url": "https://variety.com/2026/music/concert-reviews/olivia-dean-concert-review-crypto-arena-tour-1236815197/",
-            "image": "https://variety.com/wp-content/uploads/2026/07/LA-LM-20_4c95bc-e1784234278939.jpg",
-            "source": "variety"
-        },
-        {
-            "title": "Best betting sites UK 2026 & top new online bookmakers reviewed",
-            "severity": "MEDIUM",
-            "url": "https://www.independent.co.uk/sport/uk-betting-sites-b2807403.html",
-            "image": "https://static.independent.co.uk/2026/03/09/16/24/Top-20-Betting-Sites-for-Cheltenham-Day-1-copy.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "Fast Takes: DSA pins hopes on Michigan, Maine Dems distrust their voters and more",
-            "severity": "MEDIUM",
-            "url": "https://nypost.com/2026/07/17/opinion/fast-takes-dsa-pins-hopes-on-michigan-maine-dems-distrust-their-voters-and-more/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2F2026-rally-comes-one-day-133202794.jpg?quality%3D90%26strip%3Dall",
-            "source": "nypost"
-        },
-        {
-            "title": "Maya Jama 'in talks to replace Emma Willis as the host of The Voice UK as she courts offers from ITV and US channel bosses'",
-            "severity": "MEDIUM",
-            "url": "https://www.dailymail.com/tvshowbiz/article-15986483/Maya-Jama-talks-replace-Emma-Willis-host-Voice-UK.html",
-            "image": "https://i.dailymail.com/1s/2026/07/17/23/110095821-0-image-a-15_1784328563027.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Mexico\u2019s New US Ambassador Sees USMCA Deal Coming Together This Year",
-            "severity": "MEDIUM",
-            "url": "https://financialpost.com/pmn/business-pmn/mexicos-new-us-ambassador-sees-usmca-deal-coming-together-this-year",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/07/776456960.jpg",
-            "source": "financialpost"
-        },
-        {
-            "title": "Tarot Horoscope Today, July 17, 2026: Don't force conversations or decisions",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/astrology/horoscope/tarot-horoscope-today-july-17-2026-dont-force-conversations-or-decisions-101784192369154.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/16/1600x900/logo/1000001374_1778419980245_1778419987925_1784192604870_9a5d2c67-1321-4181-aa1e-7a962f9b5817.png",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Love Horoscope Today, July 18, 2026: Your next great romantic chapter can only begin if you take the first step",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/astrology/horoscope/love-horoscope-today-july-18-2026-your-next-great-romantic-chapter-can-only-begin-if-you-take-the-first-step-101784215838562.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/16/1600x900/logo/1000001825_1781525276291_1781525281166_a16c92c8-edf9-4760-9c70-b81d9f8bcc66_1784215873730_0fd860a8-b969-4ce9-a321-56921c61b196.png",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Game 98: Twins at Cubs",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/game-98-twins-cubs-230500810.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/xpthwGkJOCfrRw0YEAdfGQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNTc0O2NmPXdlYnA-/https://media.zenfs.com/en/sb_nation_articles_115/de2e7702e6faad5eccc96ca48cd26753",
+            "url": "https://au.news.yahoo.com/australia-expands-fuel-buffer-against-004217659.html",
+            "image": "https://media.zenfs.com/en/aap.com.au/af89e8961a523da0ddaa75cabb9e558c",
             "source": "yahoo"
         },
         {
-            "title": "The US plans to auction off sections of water around American Samoa in a push for deep-sea mining",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/us-plans-auction-off-sections-173618587.html",
-            "image": "https://media.zenfs.com/en/cp_finance_889/691898cf328988471f40bf1c833fad1b",
-            "source": "yahoo"
+            "title": "US scraps automatic protections for threatened species as critics warn of extinction risk",
+            "severity": "HIGH",
+            "url": "https://english.mathrubhumi.com/news/world/us-scraps-automatic-protections-for-threatened-animals-as-critics-warn-of-extinction-risk-lxrixbbh",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1siku0umjojja9ztdki/1/trump-endangered-species.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
         },
         {
-            "title": "Septerna president & COO Elizabeth Bhatt sells $135,974 in stock",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/septerna-president--coo-elizabeth-bhatt-sells-135974-in-stock-93CH-4777024",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEA601YK_M.jpg",
-            "source": "investing_uk"
+            "title": "Most Americans Doubt Trump Can Outdo Obama's Iran Deal, Poll Reveals",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/world/us/us-news/most-americans-doubt-trump-can-outdo-obamas-iran-deal-poll-reveals-article-155123743",
+            "image": "https://images.timesnownews.com/thumb/msid-155124463,thumbsize-13592,width-1280,height-720,resizemode-75/155124463.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "These are the best affordable destinations for family holidays in 2026",
-            "severity": "WATCH",
-            "url": "https://www.cntraveller.com/article/best-affordable-destinations-for-family-holidays-post-office-2026",
-            "image": "https://media.cntraveller.com/photos/6876335df4d6cdc19eb7837c/16:9/w_4288,h_2412,c_limit/Marmaris_Turkey_150725_GettyImages-665935988.jpg",
-            "source": "cntraveller"
-        },
-        {
-            "title": "Israel's loneliness is impossible to ignore: Lessons from University of Haifa conference - opinion",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/opinion/article-902674",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/729037",
+            "title": "Israeli movies balance excitement, sorrow, and war at Jerusalem Film Festival",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/israel-news/culture/article-902773",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/730240",
             "source": "jpost"
         },
         {
-            "title": "Why wellbeing is more important than wallpaper. Michelle Ogundehin has designs on your home",
-            "severity": "WATCH",
-            "url": "https://www.scotsman.com/news/interior-design-guru-michelle-ogundehin-wants-to-make-scottish-homes-healthier-and-happier-8799764",
-            "image": "https://www.scotsman.com/jpim-static/image/2026/07/15/9/54/a-Michelle-2-onecms_7eec9472-8afe-46ec-9d46-114b73e18cad.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "scotsman"
+            "title": "Weather Bee: Will 2026 be the warmest year yet?",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/india-news/weather-bee-will-2026-be-the-warmest-year-yet-101784300456817.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/17/1600x900/logo/Climate-India-Hottest-Town-0_1784301711149_1784301744533_4db2541d-b446-41b2-8562-6eca8d3b618b.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Taco Bell: \u2018Affected\u2019 Lettuce Now Removed\u2014Customers Can Order \u2018Safely\u2019",
-            "severity": "WATCH",
-            "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/07/17/taco-bell-affected-lettuce-now-removed-customers-can-order-safely/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/6a5ab460588f14d848911e9f/0x0.jpg?width=960",
-            "source": "forbes"
+            "title": "Tata Electronics cyberattack: Mandiant recommendations implemented to prevent future breaches",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/tech/technology/tata-electronics-cyberattack-mandiant-recommendations-implemented-to-prevent-future-breaches/articleshow/132468750.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-24542,resizemode-75,msid-132468750/tech/technology/tata-electronics-cyberattack-mandiant-recommendations-implemented-to-prevent-future-breaches.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Why the betPARX Casino promo code NJCOM stands out among online casino bonuses",
-            "severity": "WATCH",
-            "url": "https://www.nj.com/online-casinos/2026/07/why-the-betparx-casino-promo-code-njcom-stands-out-among-online-casino-bonuses.html",
-            "image": "https://www.nj.com/resizer/v2/G3S7GQ66X5FDRHSY3WTTXKRPV4.jpg?auth=33fbac6e79a15615dd76bf1723f12ec8a553f037ac81f0b9fa2c301289f00150&smart=true&height=1200",
-            "source": "nj"
+            "title": "Savannah Guthrie FLEES New York undercover amid Today show meltdown: After intruder breach at NBC, insiders reveal chaotic new drama with staff totally 'freaking out'... and all asking the same hideous question",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.com/media/article-15986141/savannah-guthrie-intruder-NBC-Today.html",
+            "image": "https://i.dailymail.com/1s/2026/07/18/00/110094857-0-image-a-57_1784331096931.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Taco Bell supplier pulls lettuce after parasite outbreak",
-            "severity": "WATCH",
-            "url": "https://www.thestreet.com/restaurants/taco-bell-taylor-farms-pulls-lettuce-cyclospora-parasite-diarrhea-outbreak",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTE3NjM4/taco-bell-being-investigated-as-possible-link-to-cyclosporiasis-outbreak.jpg?profile=rss",
-            "source": "thestreet"
+            "title": "Trump fumes over Canadian wildfire smoke and issues tariff threat",
+            "severity": "MEDIUM",
+            "url": "https://www.nbcnews.com/politics/donald-trump/trump-fumes-canadian-wildfire-smoke-issues-tariff-threat-rcna588122",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260717-washington-wildfire-smoke-mn-0835-e0dde7.jpg",
+            "source": "nbcnews"
         },
         {
-            "title": "Joyson Electronics Unveils Embodied AI Core Component Portfolio, Including Dexterous Robotic Hand and Solid-Liquid Hybrid Battery, at WAIC 2026",
-            "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/joyson-electronics-unveils-embodied-ai-core-component-portfolio-including-dexterous-robotic-hand-and-solid-liquid-hybrid-battery-at-waic-2026-302828890.html",
-            "image": "https://images.pexels.com/photos/32237794/pexels-photo-32237794.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "prnewswire_apac"
+            "title": "Negri polls: All eight nomination centres open at 9am",
+            "severity": "MEDIUM",
+            "url": "https://www.thestar.com.my/news/nation/2026/07/18/negri-polls-all-eight-nomination-centres-open-at-9am",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/18/4016534.JPG",
+            "source": "thestar_my"
         },
         {
-            "title": "Fears that low levels in Colorado\u2019s Lake Powell could threaten power supply for up to 6 million people",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/world/americas/colorado-lake-powell-power-supply-electricity-b3017190.html",
-            "image": "https://static.independent.co.uk/2026/07/17/20/46/GettyImages-2223867407.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
+            "title": "Feds will pay up to $65 million to keep Colorado River water in Lake Mead as Hoover Dam risk grows",
+            "severity": "MEDIUM",
+            "url": "https://ca.news.yahoo.com/feds-pay-65-million-keep-010200499.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/e59313d61c5c56ed05f68da9d811d339f74f791a1ba63f4eca4f853c2554e9fd/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cool_down_737%2F00bbf9a896fb03d792d2a3e05c5888d3",
+            "source": "yahoo"
         },
         {
-            "title": "Kiwi cricketer Will Hamilton \u2018very lucky\u2019 to walk after horror pool accident in Spain",
-            "severity": "WATCH",
-            "url": "https://www.nzherald.co.nz/nz/kiwi-cricketer-will-hamilton-very-lucky-to-walk-after-horror-pool-accident-in-spain/M4GUK3ABXVCR7ACYDSFKYO6WH4/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/T7URBI5D6ZHTFPN6OPCI7C4H24.jpg?auth=fe97d18e264e4cc5256cf179c16fe9e928a0dfae162fe80fe0bdbcf619e81c24&smart=true&width=300&height=300",
-            "source": "nzherald"
-        },
-        {
-            "title": "AAP corrupt, internal turmoil in Congress and SAD: PM Modi in Punjab",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/cities/chandigarh/aap-corrupt-internal-turmoil-in-congress-and-sad-pm-modi-in-punjab-10791801/",
-            "image": "https://images.indianexpress.com/2026/07/P1-Modi-4col.jpg",
+            "title": "Delhi Confidential: Opp\u2019s Dilemma",
+            "severity": "MEDIUM",
+            "url": "https://indianexpress.com/article/delhi-confidential/delhi-confidential-opps-dilemma-10791841/",
+            "image": "https://images.indianexpress.com/2026/07/IE-Image-82_20260418200456_20260525230430_20260629223617_20260718000916.jpg",
             "source": "indianexpress"
         },
         {
-            "title": "Fox\u2019s John Strong: \u2018Fun, unique thing\u2019 for Trump to appear at World Cup final; \u2018my job is to play it down the middle\u2019",
+            "title": "Delmarva summer power bills are up $28 a month, and AI growth is helping push them higher",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/fox-john-strong-fun-unique-225245343.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/a6604a9610313593f276387389b7103f6459001bc833684c2b8511ba01549b0f/lightyear_networkapi/resizefit_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fawful_announcing_173%2F5fc2ce83088af18d75a8109c252f08e4",
+            "url": "https://ca.news.yahoo.com/delmarva-summer-power-bills-28-012700703.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/d333e258f6ed6cbc5c6fa1ba8db811666b1509e70636315c68c4e3182f73b43d/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cool_down_737%2F083144bd1ae02cd88cc84dcdae257cf2",
             "source": "yahoo"
         },
         {
-            "title": "AFN calls on Ottawa, provinces to protect treaty rights in wake of Alberta separatism",
+            "title": "US strikes killed 38, over injured 400 by hitting civilian infrastructure, claims Iran",
             "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/afn-calls-ottawa-provinces-protect-230657984.html",
-            "image": "https://media.zenfs.com/en/cbc.ca/33c7e01291c25af02f00092213d9424b",
-            "source": "yahoo"
+            "url": "https://www.india.com/news/world/us-strikes-killed-38-over-injured-400-by-hitting-civilian-infrastructure-claims-iran-8477046/",
+            "image": "https://static.india.com/wp-content/uploads/2026/07/us-strikes.png",
+            "source": "india"
         },
         {
-            "title": "The monster in our midst: GUY ADAMS on Shabir Ahmed, the paedophile Rochdale grooming gang leader recently freed to a hostel just 15 miles from his old hunting ground",
+            "title": "Angela Rayner tipped for political comeback as Andy Burnham's Health secretary after tax scandal",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-15986267/The-monster-midst-GUY-ADAMS-Shabir-Ahmed-paedophile-Rochdale-grooming-gang-leader-recently-freed-hostel-just-15-miles-old-hunting-ground.html",
-            "image": "https://i.dailymail.com/1s/2026/07/17/23/110095881-0-image-a-6_1784328895863.jpg",
+            "url": "https://www.dailymail.com/news/article-15986593/Angela-Rayner-tipped-political-comeback-Andy-Burnham-Health-secretary-tax-scandal.html",
+            "image": "https://i.dailymail.com/1s/2026/07/18/01/110096953-0-image-a-2_1784335162386.jpg",
             "source": "dailymailuk"
+        },
+        {
+            "title": "American Fusion Inc. (OTC: AMFN) Receives Texas Certificate for Industrial Radiation Machines Supporting Next Phase of TexatronTM Fusion EngineTM Research and Development Program",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/news-release/2026/07/18/3329338/0/en/American-Fusion-Inc-OTC-AMFN-Receives-Texas-Certificate-for-Industrial-Radiation-Machines-Supporting-Next-Phase-of-Texatron-Fusion-Engine-Research-and-Development-Program.html",
+            "image": "https://images.pexels.com/photos/37601423/pexels-photo-37601423.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
+        },
+        {
+            "title": "From plantation to power: How FGV is expanding the possibilities of palm oil",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/starpicks/2026/07/18/from-plantation-to-power-how-fgv-is-expanding-the-possibilities-of-palm-oil",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/18/4016531.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "US strikes hit Iran for seventh consecutive night",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/us-strikes-hit-iran-seventh-011616127.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/9603fc94fda426e4d87c2ffc9a76ba475917936f619645c72f5f8f82308b7396/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2Fab65bb126526238bc7c6ec16c910c51b",
+            "source": "yahoo"
+        },
+        {
+            "title": "Trump urges Darline Graham to run for full Senate term as funeral scheduled for Lindsey Graham",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/darline-graham-weighs-running-full-160318812.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/f1108667dbedf751b6f488c20df2de4357f65a9a8da8a8e1d0defb3853a017e9/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcp_news_842%2Fb2963e5576d5c9e396bd2bd457453d81",
+            "source": "yahoo"
+        },
+        {
+            "title": "Spain, Argentina see each other, respective stars as worthy World Cup final foes",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/athletic/7453545/2026/07/17/spain-argentina-world-cup-final-rodri-messi-lamine-yamal/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/07/17211138/GettyImages-2285913060-scaled.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "The Odyssey box office collection day 1: Christopher Nolan's epic movie earns Rs 20 crore in India. Biggest opening for Matt Damon as a lead actor",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/magazines/panache/the-odyssey-box-office-collection-day-1-christopher-nolans-epic-movie-earns-rs-20-crore-in-india-biggest-opening-for-matt-damon-as-a-lead-actor/articleshow/132472286.cms",
+            "image": "https://img.etimg.com/thumb/msid-132472331,resizemode-4,width-1200,height-900,imgsize-42682,overlay-etpanache/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Varun Dhawan 'Blown Away' By The Odyssey, Says Christopher Nolan's Film 'Makes A Large Difference To The World'",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/entertainment-news/bollywood/varun-dhawan-blown-away-by-the-odyssey-says-christopher-nolan-film-makes-a-large-difference-to-the-world-article-155124853",
+            "image": "https://images.timesnownews.com/thumb/msid-155125027,thumbsize-71954,width-1280,height-720,resizemode-75/155125027.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "\u2018The Odyssey\u2019 Cast Guide: Who\u2019s Playing Who in Christopher Nolan\u2019s Epic",
+            "severity": "WATCH",
+            "url": "https://www.hollywoodreporter.com/lists/the-odyssey-cast-characters-christopher-nolan/",
+            "image": "https://www.hollywoodreporter.com/wp-content/uploads/2026/07/The-Odyssey-Cast-List-MAIN-Publicity-SPLASH-2026.jpg",
+            "source": "hollywoodreporter"
+        },
+        {
+            "title": "A semiconductor vision beyond the factory floor",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/opinion/editorials/a-semiconductor-vision-beyond-the-factory-floor-10791750/",
+            "image": "https://images.indianexpress.com/2026/07/Express-view-Copy-13_20260717182120_20260717182140_20260717182244.jpeg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Taylor Farms Pulls Iceberg Lettuce Linked to Cyclosporiasis Outbreak",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/taylor-farms-pulls-iceberg-lettuce-011253857.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/f7bf038abd15c740e6b7f30a9523beb18e51b8419317c3f10224b6f8487f33b1/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fpeople_218%2F326b667cf0fe1d591a0125b91473a38f",
+            "source": "yahoo"
+        },
+        {
+            "title": "Stryker (SYK) Launches Mako RPS As Its Valuation Story Comes Into Focus",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/stryker-syk-launches-mako-rps-010834894.html",
+            "image": "https://media.zenfs.com/en/simply_wall_st__316/567bd189c9c6de0c5ea3619fcc78ab56",
+            "source": "yahoo"
+        },
+        {
+            "title": "What do we know about the new cholesterol pill, Lipfendra? Merck's new once-a-day drug gets FDA nod",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/world-news/us-news/what-do-we-know-about-the-new-cholesterol-pill-lipfendra-mercks-new-once-a-day-drug-gets-fda-nod-101784334916920.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/18/1600x900/logo/photo-1584308666744-24d5c474f2ae_1784335022037_1784335037538_a9a92026-d669-4812-a187-a321f78508a1.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Pampa Approves $2.7 Billion Argentina Urea Plant Amid Shale Boom",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-pmn/pampa-approves-2-7-billion-argentina-urea-plant-amid-shale-boom",
+            "image": "https://images.pexels.com/photos/6003969/pexels-photo-6003969.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "Vireo Growth completes $20m PhytoNatural acquisition",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/vireo-growth-completes-20m-phytonatural-acquisition-93CH-4539906",
+            "image": "https://i-invdn-com.investing.com/news/LYNXNPEB6U08A_M.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "3 Years Later, Paramount's 10/10 Fantasy Movie Is a Free Streaming Hit3 Years Later, Paramount's 10/10 Fantasy Movie Is a Free Streaming Hit",
+            "severity": "WATCH",
+            "url": "https://collider.com/paramount-fantasy-movie-dungeons-and-dragons-honor-among-thieves-free-streaming-success-pluto-tv-july-2026/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/img_0901.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "SPOILER: Major WWE duo set for massive return on SmackDown - REPORT",
+            "severity": "WATCH",
+            "url": "https://www.sportskeeda.com/wwe/rumor-spoiler-major-wwe-duo-set-massive-return-smackdown-report",
+            "image": "https://staticg.sportskeeda.com/editor/2026/07/5efec-17843261387716-1920.jpg",
+            "source": "sportskeeda"
+        },
+        {
+            "title": "Aymeric Laporte reveals why Spain did not celebrate inside dressing room like Argentina after winning FIFA World Cup semi-final",
+            "severity": "WATCH",
+            "url": "https://www.sportskeeda.com/football/news-aymeric-laporte-reveals-spain-celebrate-inside-dressing-room-like-argentina-winning-fifa-world-cup-semi-final",
+            "image": "https://staticg.sportskeeda.com/editor/2026/07/5d2b4-17843321708713-1920.jpg",
+            "source": "sportskeeda"
+        },
+        {
+            "title": "Only 1 Video Game Is Perfect for an \u2018Arcane\u2019-Style Adaptation",
+            "severity": "WATCH",
+            "url": "https://collider.com/overwatch-video-game-arcane-style-adaptation/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2024/11/arcane-vi-jinx.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "India's Education Is Failing On Learning, Accountability | The Reason Why",
+            "severity": "WATCH",
+            "url": "https://www.ndtvprofit.com/india/opinion-india-education-is-failing-on-learning-accountability-the-reason-why-11786172",
+            "image": "https://c.ndtvimg.com/2026-07/63p55648_unsplash_625x300_17_July_26.jpg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+            "source": "ndtv"
         },
         {
             "title": "Men sue hospital after DNA tests showed they were switched at birth 38 years ago",
             "severity": "WATCH",
-            "url": "https://abcnews.com/Health/wireStory/men-sue-hospital-after-dna-tests-showed-switched-134863553",
-            "image": "https://i.abcnewsfe.com/a/097199e8-3f52-4f61-9772-e3248f133d93/wirestory_41e56f62fd6b8bb0afce8afc479ce7a8_16x9.jpg?w=1600",
-            "source": "abcnews"
+            "url": "https://www.ctvnews.ca/lifestyle/article/men-sue-hospital-after-dna-tests-showed-they-were-switched-at-birth-38-years-ago/",
+            "image": "https://www.ctvnews.ca/resizer/v2/DXF37R647GVISB3Z3L6K767TRI.jpg?auth=c08c1a26f9f7bc34c22d507300fdad45aa9fb64ba48d5e36ffb6520bd5fc1c05&smart=true&width=1400&height=896",
+            "source": "ctvnews"
+        },
+        {
+            "title": "11 counts of mischief: Suspect allegedly hit vehicles with hammer in Victoria parkade",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/vancouver/article/11-counts-of-mischief-suspect-allegedly-hit-vehicles-with-hammer-in-victoria-parkade/",
+            "image": "https://www.ctvnews.ca/resizer/v2/2X7ZFAYNNRAQPAPMQ44DC6UUXA.jpg?auth=685342e1ddb336eeca6f6c2db886fdc86212311220aa0cd32410d36f1012d9fe&smart=true&width=1622&height=907",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Math teacher arrested over alleged sexual offenses against student",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/israel-news/crime-in-israel/article-902861",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/252376",
+            "source": "jpost"
         }
     ],
-    "Last_Updated": "2026-07-18T11:08:36.607542Z"
+    "Last_Updated": "2026-07-18T13:27:19.014257Z"
 }
