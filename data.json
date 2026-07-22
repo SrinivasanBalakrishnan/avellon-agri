@@ -1,237 +1,295 @@
 {
-    "AGRI_Score": 58.7,
-    "Velocity": "+1.1",
+    "AGRI_Score": 57.7,
+    "Velocity": "-1.0",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The current AGRI score of 57.7 is primarily driven by an exceptionally high \"Geopolitical Conflict Intensity\" (78.4) and its direct impact on \"Energy & Maritime Disruption\" (59.9). Warnings like \"BASF warns about Iran War\" alongside reports that \"Trump eyes expanded Iran campaign as Israeli officials warn Tehran may strike Israel\" underscore broadening regional conflict risks. This instability directly manifests in the maritime sector with \"Houthi threats force Saudi crude tankers to reverse course in Red Sea\" and \"India Pulls Back From Iraqi Oil as Hormuz Turns Too Dangerous,\" indicating significant disruption to global energy and trade flows.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 80.8,
+        "Geopolitical Conflict Intensity": 78.4,
         "Energy & Maritime Disruption": 59.9,
-        "Trade & Supply Chain Stress": 61.5,
+        "Trade & Supply Chain Stress": 61.2,
         "Sovereign Financial Stress": 56.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 60.9,
-        "Cyber & Infrastructure Threats": 67.8,
+        "Sanctions & Regulatory Fragmentation": 58.4,
+        "Cyber & Infrastructure Threats": 64.5,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical risk remains exceptionally high, primarily due to the escalating tensions surrounding Iran and Israel, with concerns of broadening regional conflict. \"Trump eyes expanded Iran campaign as Israeli officials warn Tehran may strike Israel\" and \"BASF warns about Iran War\" highlight the immediate threat of military expansion.",
+        "Energy & Maritime Disruption": "Significant disruptions in critical shipping lanes are impacting global energy flows and trade, driving this pillar's elevated score. \"India Pulls Back From Iraqi Oil as Hormuz Turns Too Dangerous\" and \"Houthi threats force Saudi crude tankers to reverse course in Red Sea\" demonstrate active threats to maritime security and energy supply.",
+        "Trade & Supply Chain Stress": "The ongoing geopolitical conflicts and maritime disruptions are directly causing stress within trade routes and supply chains. Companies like BASF are issuing warnings, indicating a tangible impact on international business operations due to regional instability.",
+        "Sovereign Financial Stress": "While not directly linked to specific sovereign defaults, humanitarian support efforts in conflict zones suggest underlying financial strains for aid providers and affected regions. The \"oPt: Concern expands humanitarian support in Gaza to include cash transfers\" indicates financial resource allocation towards crisis relief, which can strain budgets.",
+        "Currency & Liquidity Pressure": "There is no direct mention of currency or liquidity issues in the provided feed to indicate specific immediate pressure. This pillar shows baseline activity, with no specific news items suggesting significant shifts in currency valuations or market liquidity.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory frameworks are facing scrutiny regarding the timeliness and effectiveness of legal processes, potentially leading to inconsistencies. \"Delay in sanction can't be used to curtail liberty of accused in graft cases: Supreme Court\" suggests ongoing debates around legal and regulatory application.",
+        "Cyber & Infrastructure Threats": "Concerns about national security preparedness against cyber threats are high, indicating significant vulnerabilities within critical infrastructure. A former Trump WH official's warning that \"US counterintelligence \u2018way behind,\u2019 post-9/11 record \u2018extraordinarily negligent\u2019\" underscores these ongoing risks.",
+        "Climate & Resource Shock": "This pillar shows routine monitoring, with no severe events reported that would significantly elevate risk in this period. While \"Haryana CM Saini stresses water conservation, reuse of treated water\" mentions resource management, it does not indicate an immediate shock."
+    },
     "All_Alerts": [
         {
-            "title": "A tech innovator and an old guard general are the focus of Ukraine's political crisis",
+            "title": "Business Watch: BASF warns about Iran War; Kira merges with struggling Jasper",
             "severity": "HIGH",
-            "url": "https://www.thestar.com/news/world/europe/two-very-different-men-are-at-the-heart-of-ukraines-political-crisis/article_dca886fe-b1dd-5122-a76f-96cf8a8b1d67.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/8/4c/84c50400-ca5f-5ccb-a754-ebadb9e1aea2/6a5f8e2251685.image.jpg?resize=300%2C200",
-            "source": "thestar"
+            "url": "https://cen.acs.org/business/business-watch-basf-warns-about-iran-war-kira-merges-jasper/104/web/2026/07?sc=230901_cenrssfeed_eng_latestnewsrss_cen",
+            "image": "https://images.pexels.com/photos/16459372/pexels-photo-16459372.png?auto=compress&cs=tinysrgb&h=350",
+            "source": "cen_org"
         },
         {
-            "title": "Oil prices rise over 2% on fresh strikes by US & Iran, Houthi blockade fear",
+            "title": "India Pulls Back From Iraqi Oil as Hormuz Turns Too Dangerous - Crude Oil Prices Today | OilPrice.com",
             "severity": "HIGH",
-            "url": "https://www.business-standard.com/world-news/oil-prices-rise-over-2-on-fresh-strikes-by-us-iran-houthi-blockade-fear-126072101246_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260721/thumb-126072101246.jpg",
+            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQLUVYcFgtZGtmcjU0a0ZCR2FMbTB5dXhzemt6OVBCSEctWFpuMm5KOVlyZk1GSGQwMWNFV0ZYSXRKQTh0V25NbkpxMHdGNDRyV3pZTHBtVkJEYUlxTkFRaHphRzBwMWtCcXJ1SVBzeTh5M0dDYTF3ZWtiVnZIeEdnY3YzeHlyM18zeF9GeUcxS0tOMF9FREQwVTVlYU9UV09HVGRqUjFhbmVaTUNmVWxzLVNSVXlQUGpy0gG-AUFVX3lxTE1NU2x0Z3Bud3lycnRkZDh3QXZhbDJyd1Z1ZHhRcWpVQk9jcG0wS0pYUW1PVlFHWV81bGZaeTVJb1k4Z3d5b1lwZXZHUjViZHJvQVVadXJxNE51dDBfeUVwZjBRY0p0Y2lVakN3Vk9ycDJ3cWhEaElYUUVrM19UV3pVZHl6a3ZRQU14Q3dHbEp5UnZFVmpqcFI5QUJuV0NRLXJjR2NBRFltaXk3Ulk5ZjR6RjRwVDNDV0FYbHN2cXc?oc=5",
+            "image": "https://images.pexels.com/photos/29267507/pexels-photo-29267507.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Trump eyes expanded Iran campaign as Israeli officials warn Tehran may strike Israel",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/middle-east/article-903231",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/730716",
+            "source": "jpost"
+        },
+        {
+            "title": "oPt: Concern expands humanitarian support in Gaza to include cash transfers",
+            "severity": "HIGH",
+            "url": "https://reliefweb.int/report/occupied-palestinian-territory/concern-expands-humanitarian-support-gaza-include-cash-transfers",
+            "image": "https://reliefweb.int/modules/custom/reliefweb_meta/images/icons/OPT_PSE.png",
+            "source": "reliefweb"
+        },
+        {
+            "title": "US counterintelligence \u2018way behind,\u2019 post-9/11 record \u2018extraordinarily negligent\u2019, fmr Trump WH official warns",
+            "severity": "HIGH",
+            "url": "https://www.foxnews.com/politics/us-counterintelligence-way-behind-post-9-11-record-extraordinarily-negligent-fmr-trump-wh-official-warns",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/h-r-mcmaster-testifying-house-select-committee.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Houthi threats force Saudi crude tankers to reverse course in Red Sea",
+            "severity": "HIGH",
+            "url": "https://www.business-standard.com/world-news/houthi-threats-force-saudi-crude-tankers-to-reverse-course-in-red-sea-126072101650_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/07/full/1783391535-797.jpg",
             "source": "business-standard"
         },
         {
-            "title": "Two very different men are at the heart of Ukraine's political crisis",
+            "title": "Trump Pushes Chinese Election Threat, but Files Show Russia\u2019s Heavy Hand - The New York Times",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/ukraine-russia-kyiv-soviet-protesters-b3018936.html",
-            "image": "https://static.independent.co.uk/2026/07/21/16/Russia_Ukraine_War_23875.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ24zNUxEczA2Y0tDTWZ6czIxN1IwRUEtS0t5OWVfNFpWOXRBdnZTQmdJN2xzbHdsc21pSUx2VDFRNFdKOGdPbXhlUWdrNEdaSzNxdlZVMS1mMDM4OTdOaHRwME5NRzdUV0NOdGxhdmViUXRnQV9MRzlPcDZBc0JKLW5lRGtTQQ?oc=5",
+            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Desperate Putin officials proposing to recruit women and seniors to fight in Ukraine",
+            "title": "Sluggish initial response led to Monday\u2019s mayhem?",
             "severity": "HIGH",
-            "url": "https://www.the-express.com/news/world-news/212351/desperate-putin-officials-proposing-recruit-women-seniors-ukraine-war",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/590x/212351_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "State Department warns of \u2018potential for unforeseen escalation\u2019 in Middle East",
-            "severity": "HIGH",
-            "url": "https://thehill.com/policy/international/5980622-us-iran-conflict-travel-warning/",
-            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/04/AP26084275351471-e1775590552833.jpg?w=900",
-            "source": "thehill"
-        },
-        {
-            "title": "UN reports jump in Ukraine civilian toll driven by drone attacks",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com.my/news/world/2026/07/21/un-reports-jump-in-ukraine-civilian-toll-driven-by-drone-attacks",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/21/4021794.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Donald Trump considers his war options as he 'loses patience with Iran'",
-            "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/news/world-news/donald-trump-iran-war-options-37459320",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37459809.ece/ALTERNATES/s615/1_Trump-Speech-26198051876294.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Joe Scarborough says rush exit from Iran war \u2018another terrible mistake\u2019 due to midterm elections",
-            "severity": "HIGH",
-            "url": "https://nypost.com/2026/07/21/media/dont-rush-exit-from-iran-war-because-of-midterms-says-ms-nows-joe-scarborough/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2Ftrump-u-s-iran-exchange-135082501.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Delhi Court directs compliance with injunction in entrepreneur Ankiti Bose defamation suit, seeks affidavit from defendant",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/india/delhi-court-directs-compliance-with-injunction-in-entrepreneur-ankiti-bose-defamation-suit-seeks-affidavit-from-defendant/articleshow/132540148.cms",
-            "image": "https://img.etimg.com/thumb/msid-132540158,resizemode-4,width-1200,height-900,imgsize-247528,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Hugging Face Breach Signals A New Era Of AI-Powered Cyberattacks",
-            "severity": "HIGH",
-            "url": "https://www.forbes.com/sites/timkeary/2026/07/21/hugging-face-breach-ai-powered-cyberattacks/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/6a5ed6bce67ebf9dfaf16ace/0x0.jpg?width=960",
-            "source": "forbes"
-        },
-        {
-            "title": "Hugging Face CEO Warns Attackers Are Already Using AI Agents",
-            "severity": "HIGH",
-            "url": "https://www.forbes.com/sites/timkeary/2026/07/21/hugging-face-ceo-warns-attackers-are-already-using-ai-agents/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/6a5ed6bce67ebf9dfaf16ace/0x0.jpg?width=960",
-            "source": "forbes"
-        },
-        {
-            "title": "Kuwait says Iran hit power and water plants, as Tehran steps up attacks across region",
-            "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/kuwait-says-iran-hit-power-and-water-plants-as-tehran-steps-up-attacks-across-region/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/07/2026-07-21T135520Z_950614241_RC2DIMA49QH1_RTRMADP_3_IRAN-CRISIS-KUWAIT.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Craneware Confirms Data Theft After Cyberattack, Investigations Underway",
-            "severity": "HIGH",
-            "url": "https://www.techrepublic.com/article/news-craneware-cyberattack-data-theft-2026/",
-            "image": "https://assets.techrepublic.com/uploads/2026/07/hospital-hack.jpg?f=jpeg",
-            "source": "techrepublic"
-        },
-        {
-            "title": "AI music generator Suno breach affects 55M users, per Have I Been Pwned",
-            "severity": "HIGH",
-            "url": "https://techcrunch.com/2026/07/21/ai-music-generator-suno-breach-affects-55m-users-per-have-i-been-pwned/",
-            "image": "https://techcrunch.com/wp-content/uploads/2026/07/mikey-shulman-2159558534.jpg",
-            "source": "techcrunch"
-        },
-        {
-            "title": "Kobe Bryant\u2019s controversial place on NBA\u2019s greatest defenders list will ignite Lakers fans",
-            "severity": "MEDIUM",
-            "url": "https://www.sportingnews.com/us/nba/los-angeles-lakers/news/kobe-bryants-controversial-place-nbas-greatest-defenders-list-will-ignite-lakers-fans/216cd04d40d39b44cc53e916",
-            "image": "https://ng-sportingnews.com/s3/files/styles/crop_style_16_9_1200_webp/s3/2026-02/Kobe%20Bryant%20Christmas%20IMAGN%20020925_0.jpg.webp?itok=bqqEuP3x",
-            "source": "sportingnews"
-        },
-        {
-            "title": "Viper Energy: A Good, But Not Great Option",
-            "severity": "MEDIUM",
-            "url": "https://seekingalpha.com/article/4923791-viper-energy-stock-good-but-not-great-option",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2226780791/image_2226780791.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Centre Steps Up Efforts To Help Farmers In Rain-Deficient Districts",
-            "severity": "MEDIUM",
-            "url": "https://ommcomnews.com/india-news/centre-steps-up-efforts-to-help-farmers-in-rain-deficient-districts/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/07/202607213873388-1.jpg",
-            "source": "ommcomnews"
-        },
-        {
-            "title": "From Viral To Volatile? What Cockroach Janta Party Protest Reveals About Downsides Of Digital Mobilisation",
-            "severity": "MEDIUM",
-            "url": "https://www.news18.com/india/from-viral-to-volatile-what-cockroach-janta-party-protest-reveals-about-downsides-of-digital-mobilisation-10225959.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/07/e8a44bb5d6cbee70e20a1ee6e9c3a2ab_1_1784646178383-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Lyme Planning And Zoning Delays Decision On Proposed Eightmile River Residential Dock",
-            "severity": "WATCH",
-            "url": "https://patch.com/connecticut/thelymes/lyme-planning-zoning-delays-decision-proposed-eightmile-river-residential-dock",
-            "image": "https://patch.com/img/cdn20/shutterstock/22994611/20260721/111744/styles/patch_image/public/shutterstock-467413895___21111703368.jpg",
-            "source": "patch"
-        },
-        {
-            "title": "TSX Gains by Noon",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/tsx-gains-noon-151700104.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
-            "source": "yahoo"
-        },
-        {
-            "title": "Josh Duhamel\u2019s Hit Netflix Western Returns in Less Than 48 Hours",
-            "severity": "WATCH",
-            "url": "https://collider.com/ransom-canyon-season-2-netflix-josh-duhamel-return/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/josh-duhamel-ransom-canyon-1.jpg",
-            "source": "collider"
-        },
-        {
-            "title": "Auburn Tigers head coach Alex Golesh says the offensive line is coming together ahead of 2026.",
-            "severity": "WATCH",
-            "url": "https://www.si.com/college/auburn/football/alex-golesh-prayers-have-been-answered-auburn-football-offensive-line-",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2500,h_1406,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/auburn_daily/01ky2m02tjcm3fpfhg5q.jpg",
-            "source": "si"
-        },
-        {
-            "title": "Mexico Says There Is No Evidence Its Lettuce Caused US Outbreak",
-            "severity": "WATCH",
-            "url": "https://www.usnews.com/news/world/articles/2026-07-21/mexico-says-there-is-no-evidence-its-lettuce-caused-us-outbreak",
-            "image": "https://www.usnews.com/dims4/USNEWS/6e35616/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Fe7%2Fb71bad50e2321b697986d9e1c6f9f1%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM6K1IL%3A22026-07-21T182936Z_2_LYNXMPEM6K1IL_RTROPTP_3_HEALTH-USA-CYCLOPORIASIS-MEXICO.JPG",
-            "source": "usnews"
-        },
-        {
-            "title": "Nvidia hits the gas: Next-gen \"Vera Rubin\" AI chips enter full production",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/nvidia-hits-the-gas-nextgen-vera-rubin-ai-chips-enter-full-production-4780870",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEH7Q068_L.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "India's fertiliser exports rise 52% in three years from FY24 to FY26",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/industry/agriculture/india-s-fertiliser-exports-rise-52-in-three-years-from-fy24-to-fy26-126072101412_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260721/thumb-126072101412.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "CCI junks complaint against Jindal Stainless, over exclusive supply allegations",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/agency-feeds/cci-junks-complaint-against-jindal-stainless-over-exclusive-supply-allegations-10225985.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/07/News18_Business_Section_Default_Image_1600x900-2025-07-454f4d093355309283e1b9f3be42698a-3x2.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Accenture appoints Prabhala as India market unit head",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/bengaluru/accenture-appoints-prabhala-as-india-market-unit-head/articleshow/132540095.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132540093/132540093.jpg",
+            "url": "https://timesofindia.indiatimes.com/city/delhi/sluggish-initial-response-led-to-mondays-mayhem/articleshow/132544959.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
             "source": "toi"
         },
         {
-            "title": "Inflation set to have cooled in June ahead of household energy squeeze",
-            "severity": "WATCH",
-            "url": "https://www.standard.co.uk/business/business-news/inflation-prime-minister-andy-burnham-iran-middle-east-b1290816.html",
-            "image": "https://static.standard.co.uk/2026/07/21/16/ca2f55cf0385053a90241cc1fe2ccd4dY29udGVudHNlYXJjaGFwaSwxNzg0NzMxOTA4-2.83744124.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
+            "title": "10-Foot Great White Shark Spotted Near Young Swimmers In Terrifying Video",
+            "severity": "HIGH",
+            "url": "https://www.tmz.com/2026/07/21/great-white-shark-swims-near-kids/",
+            "image": "https://imagez.tmz.com/image/1c/4by3/2026/07/21/1cc7e8dd95744a2ba2066a0be0de11bb_xl.jpg",
+            "source": "tmz"
         },
         {
-            "title": "US Farm Dominance Wanes as China Pivots to Brazil",
-            "severity": "WATCH",
-            "url": "https://www.newsmax.com/finance/streettalk/u-s-farm-soybean-corn/2026/07/21/id/1263551",
-            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=B23667AE-3C1E-4E7C-82F2-6F3BA0B67C2E",
-            "source": "newsmax"
+            "title": "Delay in sanction can't be used to curtail liberty of accused in graft cases: Supreme Court",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/elections/india/delay-in-sanction-cant-be-used-to-curtail-liberty-of-accused-in-graft-cases-supreme-court-4082339",
+            "image": "https://media.assettype.com/deccanherald/2026-05-26/4b8u5b8a/supreme%20court%20pti.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Spain moves to ban smoking on terraces and beaches under new anti-tobacco law",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/spain-moves-ban-smoking-terraces-145914996.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/985bed6e28ea32a252bb29e3ae9f1be0ebf6339f86be220c44218fb7448b412b/lightyear_networkapi/resizefill_w1024_h576;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Feuronews_ca_articles_409%2F2caf59cebcef7c79b4af60c6884cfa34",
-            "source": "yahoo"
+            "title": "Manchester United supporters groups in uproar over suspension of season tickets",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/football/2026/jul/21/manchester-united-supporters-groups-suspension-of-season-tickets",
+            "image": "https://i.guim.co.uk/img/media/0ed5eedaf5bda0133a51f64c762b044b60423cd9/391_0_4761_3808/master/4761.jpg?width=140&quality=85&auto=format&fit=max&s=742aca8892c919310927bef142c3abf1",
+            "source": "theguardiantheguardian"
         },
         {
-            "title": "2 Arrested After Southington 'Rideout' Ends In Assault/Robbery/Stabbing: Police",
+            "title": "Leo Season 2026 to bring good fortune and unexpected opportunities for these 5 zodiac signs, here\u2019s what you can expect",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/international/us/leo-season-2026-to-bring-good-fortune-and-unexpected-opportunities-for-these-5-zodiac-signs-heres-what-you-can-expect/articleshow/132544690.cms",
+            "image": "https://img.etimg.com/thumb/msid-132545451,resizemode-4,width-1200,height-900,imgsize-2438857,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Trump vows to help Lebanon oust Hezbollah, confirms Israeli pullout",
+            "severity": "MEDIUM",
+            "url": "https://newsable.asianetnews.com/world/trump-vows-to-help-lebanon-oust-hezbollah-confirms-israeli-pullout-articleshow-yrnewsu",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-284852cf-e5e9-448b-87f4-ab1d0fc02c7a.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Birds' V Formation Saves Energy, Study Finds - Mirage News",
             "severity": "WATCH",
-            "url": "https://patch.com/connecticut/southington/2-arrested-after-southington-rideout-ends-assault-robbery-stabbing-police",
-            "image": "https://patch.com/img/cdn20/users/25990360/20260721/104906/styles/patch_image/public/southington-kevin-manuel-rodriguez-suspect-july-2026___21104129947.png",
-            "source": "patch"
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLW53Zk5jYkpmMktjX3RlZl8tWkZyVGIxekVZamw3ZDAtZDJ0Njh2TDZsc1daeXNsYk96aURSRnJ6TU5yRUJYdjNlV0lvbVR5Y1BJeG1CejQwYXRGQk9YVjFab1hqVXlyVFZrTWxTdkNyUERlcDVTekp0V1ljbHFLa2daOHM?oc=5",
+            "image": "https://images.pexels.com/photos/33218944/pexels-photo-33218944.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Back on track? Texas employment growth will return to long-term norm this year, Dallas Fed projects",
+            "severity": "WATCH",
+            "url": "https://www.dallasnews.com/business/economy/article/texas-job-growth-speeds-up-lifting-2026-forecast-22352424.php",
+            "image": "https://s.hdnux.com/photos/01/66/70/64/31165753/5/rawImage.jpg",
+            "source": "dallasnews"
+        },
+        {
+            "title": "Cheech & Chong\u2019s Mini Blazers Are the Rare Kief-Coated Pre-Rolls That Don\u2019t Smoke Like a Mess",
+            "severity": "WATCH",
+            "url": "https://www.vice.com/en/via/cheech-chong-mini-blazers-preroll-review/",
+            "image": "https://www.vice.com/wp-content/uploads/sites/2/2026/07/IMG_7847-edited.jpeg",
+            "source": "vice"
+        },
+        {
+            "title": "Haryana CM Saini stresses water conservation, reuse of treated water",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/india/haryana-cm-saini-stresses-water-conservation-reuse-of-treated-water-articleshow-s3r8rc0",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-fb816083-e421-4c66-86e9-f4055cd65c9a.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Applications of Eigenvalues and Eigenvectors",
+            "severity": "WATCH",
+            "url": "https://www.geeksforgeeks.org/engineering-mathematics/applications-of-eigenvalues-and-eigenvectors/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20251203151840364893/input_augmented_matrix_6.webp",
+            "source": "geeksforgeeks"
+        },
+        {
+            "title": "Ryan Gosling's 'La La Land' poster wish granted for 10th anniversary",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/entertainment/ryan-goslings-la-la-land-poster-wish-granted-for-10th-anniversary-articleshow-wt1zw9h",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-2ffdd2c1-04f4-404a-ac6d-16e794fec59e.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "We Asked AI Where Data Centers Should Go\u2014The Answers May Surprise You",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/data-centers-ai-prompt-locations-response-12223903",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/07/GettyImages-2286058283.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Likely Maine Democratic Senate nominee says he won\u2019t back Schumer for leader",
+            "severity": "WATCH",
+            "url": "https://thehill.com/homenews/campaign/5981383-maine-democratic-senate-schumer-troy-jackson/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/07/jackson_troy_11172022_AP26190554865454-1.jpg?w=900",
+            "source": "thehill"
+        },
+        {
+            "title": "Agentic AI Interview Questions and Answers",
+            "severity": "WATCH",
+            "url": "https://www.geeksforgeeks.org/artificial-intelligence/top-agentic-ai-interview-questions-and-answers/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/gfg_200X200-100x100.png",
+            "source": "geeksforgeeks"
+        },
+        {
+            "title": "Opinion: Opinion: Battle For Legacy Over July 21 Remembrance In Bengal",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/opinion/opinion-battle-for-legacy-over-july-21-remembrance-in-bengal-11803209",
+            "image": "https://c.ndtvimg.com/2026-07/e1rtt404_abhishek-banerjee-mamata-banerjee_625x300_19_July_26.jpeg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "Democracy unites India, North Macedonia: President Droupadi Murmu",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/world/democracy-unites-india-north-macedonia-says-president-droupadi-murmu-articleshow-igv4x0n",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-7fedef47-b87a-4d20-99ab-10a93f94e963.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "When Will Cyclospora Outbreak End? It Could Be Weeks",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/cyclospora-parasite-outbreak-end-originate-explainer-12224697",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/07/GettyImages-2279935209-3.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Long Island salad eateries pivot amid cyclospora outbreak",
+            "severity": "WATCH",
+            "url": "https://www.newsday.com/lifestyle/restaurants/long-island-restaurants-cyclospora-outbreak-v3i7qn47",
+            "image": "https://images.pexels.com/photos/28767587/pexels-photo-28767587.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "newsday"
+        },
+        {
+            "title": "Vazhipadu materials to be procured and issued exclusively by Central Store, TDB tells Kerala HC",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/news/national/kerala/vazhipadu-materials-to-be-procured-and-issued-exclusively-by-central-store-tdb-tells-kerala-hc/article71250660.ece",
+            "image": "https://www.thehindu.com/theme/images/og-image.png",
+            "source": "thehindu"
+        },
+        {
+            "title": "Mexico says there is no evidence its lettuce caused US outbreak",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/world-news/us-news/mexico-says-there-is-no-evidence-its-lettuce-caused-us-outbreak-101784658662401.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2025/12/30/1600x900/logo/US_News_1767090888271_1767090921295.png",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Can the GOP trifecta meet their \u2018mandate\u2019 moment?",
+            "severity": "WATCH",
+            "url": "https://rollcall.com/2026/07/21/gop-trifecta-mandate-moment/",
+            "image": "https://rollcall.com/app/uploads/2026/07/johnson_thune_085_100325.jpg",
+            "source": "rollcall"
+        },
+        {
+            "title": "The Odyssey\u2019s Most Controversial Decision Was Also Made By Stanley Kubrick 66 Years Ago",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/the-odyssey-american-accents-stanley-kubrick-spartacus/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/mcdodys_uv011.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "Dodgers vs. Phillies prediction: MLB odds, picks, best bets Tuesday",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/07/21/betting/dodgers-vs-phillies-prediction-mlb-odds-picks-best-bets-tuesday/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2Fnewspress-collage-ckfzma01w-1784649750644.jpg?quality%3D90%26strip%3Dall%261784635417",
+            "source": "nypost"
+        },
+        {
+            "title": "Smithsonian history museum chief rejects White House criticism of its leaders as radical activists",
+            "severity": "WATCH",
+            "url": "https://www.adn.com/nation-world/2026/07/21/smithsonian-history-museum-chief-rejects-white-house-criticism-of-its-leaders-as-radical-activists/",
+            "image": "https://www.adn.com/resizer/zWkhdYVcJoPEZaksWcxOUGwMvPk=/cloudfront-us-east-1.images.arcpublishing.com/adn/ADOWLJ3AMJB7LYV6MIZBPIGYZQ.jpg",
+            "source": "adn"
+        },
+        {
+            "title": "Gold Gains Support as Foreign Central Banks Hold More Bullion Than US Treasuries",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/analysis/gold-gains-support-as-foreign-central-banks-hold-more-bullion-than-us-treasuries-200626596",
+            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "DJ Chicken speaks after release from KiriKiri, shares prison experience",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/entertainment/celebrities/1720651-freedom-dj-chicken-breaks-silence-release-kirikiri-shares-prison-experience/",
+            "image": "https://cdn.legit.ng/images/1200x675/ee5fedb4771ed64d.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "DJ Chicken breaks silence after 12 days in detention, shares what happened inside",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/entertainment/celebrities/1720650-dj-chicken-speaks-regaining-freedom-shares-what-12-days-detention-like/",
+            "image": "https://cdn.legit.ng/images/1200x675/e86b118666fdda01.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Ludh carcass plant faces fresh wrath at new site",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/ludhiana/ludh-carcass-plant-faces-fresh-wrath-at-new-site/articleshow/132545026.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132545025/132545025.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "As Allegations Of \u2018Brute Force\u2019 Fly, Police Claim It\u2019s False Info",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/delhi/as-allegations-of-brute-force-fly-police-claim-its-false-info/articleshow/132544755.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Trump\u2019s head of AI safety agency just resigned, but he was only on the job for three months",
+            "severity": "WATCH",
+            "url": "https://www.techradar.com/pro/trumps-head-of-ai-safety-agency-just-resigned-but-he-was-only-on-the-job-for-three-months",
+            "image": "https://cdn.mos.cms.futurecdn.net/FJj3jcL9naSzA2fBMGdQJm-1280-80.jpg",
+            "source": "techradar_au"
         }
     ],
-    "Last_Updated": "2026-07-22T03:19:11.319894Z"
+    "Last_Updated": "2026-07-22T06:34:47.322186Z"
 }
