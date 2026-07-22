@@ -1,218 +1,295 @@
 {
-    "AGRI_Score": 55.5,
-    "Velocity": "-2.2",
+    "AGRI_Score": 58.2,
+    "Velocity": "+2.7",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at 55.5, indicating a significant elevation in global risk largely driven by mounting geopolitical tensions. This score is primarily propelled by the \"Geopolitical Conflict Intensity\" pillar, specifically the renewed US-Iran strikes and the opening of a new front by Houthis, raising severe concerns about a major regional war with an estimated $37.5 billion cost. Consequently, \"Energy & Maritime Disruption\" is heavily impacted as tankers are turning back from Saudi crude ports, causing oil prices to edge higher, further contributing to \"Trade & Supply Chain Stress\" as critical shipping lanes face unprecedented threats.",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 58.2 reflects a significantly elevated global risk environment, primarily driven by intensified geopolitical conflict and its ripple effects across energy markets and trade. Escalating tensions in the Middle East, with headlines such as \"Trump says US 'not finished' as 11th night of Iran strikes escalates Gulf conflict\" and \"US hits Iran after Trump warns: \u2018We\u2019re not finished at all\u2019,\" directly contribute to this heightened score. These conflicts are also influencing energy market anxieties and raising concerns about global supply chain stability and the potential for broader sanctions, maintaining a volatile risk landscape.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 74.0,
-        "Energy & Maritime Disruption": 61.3,
-        "Trade & Supply Chain Stress": 60.0,
+        "Geopolitical Conflict Intensity": 76.4,
+        "Energy & Maritime Disruption": 61.1,
+        "Trade & Supply Chain Stress": 68.0,
         "Sovereign Financial Stress": 56.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 52.7,
+        "Sanctions & Regulatory Fragmentation": 62.5,
+        "Cyber & Infrastructure Threats": 59.0,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is highly elevated due to the explicit threat of a major conflict, as seen in headlines like \"Renewed US-Iran strikes: Is a major war looming?\" and \"Hegseth says Iran war will cost $37.5 billion.\" The ongoing 'shakeup' to Ukraine\u2019s military command also indicates persistent, high-level conflict activity in Eastern Europe.",
-        "Energy & Maritime Disruption": "Maritime routes are directly disrupted as \"Tankers with Saudi crude turn back as Houthis open new front in U.S.-Iran war,\" severely impacting global energy supply. Concurrently, domestic pressures are evident as the \"Oil ministry working on plan to offset [Rs 75,000 cr] OMC loss,\" highlighting a need for financial support within the energy sector.",
-        "Trade & Supply Chain Stress": "The turning back of Saudi crude tankers due to Houthi actions creates immediate bottlenecks and risk for maritime trade flows, directly escalating supply chain stress for oil. Additionally, the 'ITC Patent Probe Over Memory Imports' facing Supermicro signals potential regulatory challenges and disruptions in critical technology component supply chains.",
-        "Sovereign Financial Stress": "The projected \"Hegseth says Iran war will cost $37.5 billion\" indicates a substantial potential fiscal burden that could strain national treasuries. Domestically, the reported \"Rs 75,000 cr OMC loss\" requiring government financial support presents an immediate demand on sovereign finances, potentially exacerbating budget pressures.",
-        "Currency & Liquidity Pressure": "While no direct currency crisis is reported, the prospect of a costly regional war could trigger capital flight and put downward pressure on regional currencies. The significant financial losses experienced by Oil Marketing Companies may eventually require government intervention, which could impact national liquidity if not managed carefully.",
-        "Sanctions & Regulatory Fragmentation": "The statement \"Trump Cools Prospects for Talks With Iran\" suggests a hardened stance that could lead to maintaining or expanding sanctions regimes against Iran. Separately, the 'ITC Patent Probe Over Memory Imports' against Supermicro illustrates regulatory friction that can fragment global trade and impose compliance burdens.",
-        "Cyber & Infrastructure Threats": "Although no specific cyberattack headlines are present, the heightened geopolitical tensions, particularly regarding a potential US-Iran conflict, inherently increase the risk of state-sponsored cyber operations against critical infrastructure. The physical disruption of maritime routes by Houthi actions underscores the vulnerability of essential transportation infrastructure to various threats.",
-        "Climate & Resource Shock": "This pillar currently exhibits routine monitoring with no significant events indicating widespread climate or resource-related shocks. The 'Tokyo urges men to wear shorts to work' headline is a localized comfort measure, not indicative of a substantial resource constraint or climate crisis."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is exceptionally high, dominated by the escalating situation in the Middle East as evidenced by \"Trump says US 'not finished' as 11th night of Iran strikes escalates Gulf conflict.\" The reported involvement of \"Mojtaba Khamenei Takes Iran War Control? Pezeshkian's Big Reveal\" suggests a deep and entrenched conflict with high potential for further escalation.",
+        "Energy & Maritime Disruption": "Energy disruption risk is significantly elevated, directly tied to the Middle East conflict's potential to impact global oil supplies, as highlighted by \"The real oil shock from the Iran war might be just beginning.\" Furthermore, the approval of \"Trump approves 30-year US-Saudi nuclear deal with enrichment option\" introduces new complexities to regional energy security and geopolitical dynamics.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress remains elevated due to the ongoing geopolitical instability and the potential for wider conflict to disrupt critical logistics and manufacturing. \"Jaishankar flags supply chain risks, calls for deeper India-ASEAN cooperation\" indicates a proactive recognition of these threats and a push for regional resilience.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, influenced by the broader economic uncertainty stemming from geopolitical events and the direct costs of military engagement. The reported \"US Puts Iran War Cost At $37.5 Billion\" underscores significant financial outlays that could impact national budgets and investor confidence.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at a moderate level, with global market sentiment reacting to persistent geopolitical tensions and economic forecasts. The fact that \"Gold nears two-week high as Fed outlook, Middle East conflict stay in focus\" indicates investors are seeking safe-haven assets amidst perceived risks.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation remain high, with businesses directly experiencing the impact of restrictive measures on their operations. \"Spanish hotel chain Melia\u0301 leaving Cuba over legal, financial hurdles from sanctions\" illustrates the tangible commercial consequences of these regulatory complexities.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are a continued concern, as advanced AI models have demonstrated vulnerabilities in critical systems. \"OpenAI says AI models went rogue during testing, triggering \u2018unprecedented\u2019 breach at startup\" highlights the evolving nature of sophisticated cyber risks and the need for robust defenses.",
+        "Climate & Resource Shock": "Climate and resource shock currently presents a low immediate risk, with no major severe weather events or resource scarcity issues featured in the real-time news feed. This pillar is under routine monitoring for any emerging indicators of disruption or significant climate-related developments."
     },
     "All_Alerts": [
         {
-            "title": "Hegseth says Iran war will cost $37.5 billion",
+            "title": "Trump wants $1.5 trillion for the military; top US general says America has 'no time'",
             "severity": "HIGH",
-            "url": "https://www.nbcnews.com/video/hegseth-says-iran-war-will-cost-37-5-billion-267049541930",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1784672941275_now_hallie_iran_war_cost_260721_S3_1920x1080-qifqgo.jpg",
-            "source": "nbcnews"
+            "url": "https://zeenews.india.com/world/trump-wants-1-5-trillion-for-the-military-top-us-general-says-america-has-no-time-3062346.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/07/22/1965947-us-defence-budget.jpg",
+            "source": "zeenews"
         },
         {
-            "title": "Renewed US-Iran strikes: Is a major war looming?",
+            "title": "Trump approves Saudi nuclear agreement, opens door to uranium enrichment",
             "severity": "HIGH",
-            "url": "https://www.rt.com/news/643312-us-iran-strikes-major-war/",
-            "image": "https://mf.b37mrtl.ru/files/2026.07/thumbnail/6a5fea8d85f5403487779206.jpg",
-            "source": "rt"
+            "url": "https://timesofindia.indiatimes.com/world/us/trump-clears-saudi-arabia-nuclear-agreement-opens-door-to-uranium-enrichment/articleshow/132549543.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132549568/132549568.jpg",
+            "source": "toi"
         },
         {
-            "title": "Tankers with Saudi crude turn back as Houthis open new front in U.S.-Iran war",
+            "title": "US Puts Iran War Cost At $37.5 Billion",
             "severity": "HIGH",
-            "url": "https://www.japantimes.co.jp/news/2026/07/22/world/tankers-saudi-houthis-red-sea-iran/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/07/22/552874.jpg",
-            "source": "japantimes"
+            "url": "https://ommcomnews.com/world-news/us-puts-iran-war-cost-at-37-5-billion/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/07/New-Project-2026-07-22T073410.464.jpg",
+            "source": "ommcomnews"
         },
         {
-            "title": "Forget weight loss! Fat jabs curb binge drinking and slash hospital admissions by more than a quarter",
+            "title": "Trump says US 'not finished' as 11th night of Iran strikes escalates Gulf conflict",
             "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/health/39826785/fat-jabs-curb-binge-drinking-slash-hospital-admissions/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F01%2Fcrop-37860460_0f9469.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
+            "url": "https://english.mathrubhumi.com/news/world/trump-says-us-not-finished-as-11th-night-of-iran-strikes-escalates-gulf-conflict-jt0ylo75",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1slqljbpt4s0prvj8ga/0/topshot-iran-us-israel-war.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
         },
         {
-            "title": "Exit \u2018The Butcher': Zelenskyy Makes Another Shakeup To Ukraine\u2019s Military Command",
+            "title": "New York City has no authority to arrest Netanyahu, Mayor Zohran Mamdani says",
             "severity": "HIGH",
-            "url": "https://www.rferl.org/a/ukraine-military-syrskiy-drapatiy-zelenzkyy-war-russia/33809328.html",
-            "image": "https://gdb.rferl.org/d03c5785-701e-4b9a-7fbb-08decad17715_w800_h450.jpg",
-            "source": "rferl"
+            "url": "https://www.newsday.com/news/new-york/israeli-prime-minister-benjamin-netanyahu-arrest-mayor-zohran-mamdani-xf1yshaj",
+            "image": "https://images.pexels.com/photos/695730/pexels-photo-695730.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "newsday"
         },
         {
-            "title": "Rs 75,000 cr OMC loss: Oil ministry working on plan to offset losses. Companies seek financial support; Finance Ministry nod needed before proposal goes to Cabinet",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/industry/energy/oil-gas/rs-75000-cr-omc-loss-oil-ministry-working-on-plan-to-offset-losses-companies-seek-financial-support-finance-ministry-nod-needed-before-proposal-goes-to-cabinet/articleshow/132545327.cms",
-            "image": "https://img.etimg.com/thumb/msid-132545374,resizemode-4,width-1200,height-900,imgsize-34688,overlay-economictimes/articleshow.jpg",
+            "title": "Trump approves 30-year US-Saudi nuclear deal with enrichment option",
+            "severity": "HIGH",
+            "url": "https://investinglive.com/news/trump-approves-30-year-us-saudi-nuclear-deal-with-enrichment-option/",
+            "image": "https://investinglive.com/cms/OrchardCore.Admin/logo.png",
+            "source": "forexlive"
+        },
+        {
+            "title": "Gold nears two-week high as Fed outlook, Middle East conflict stay in focus",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-nears-two-week-high-as-fed-outlook-middle-east-conflict-stay-in-focus/articleshow/132549523.cms",
+            "image": "https://img.etimg.com/thumb/msid-132549569,resizemode-4,width-1200,height-900,imgsize-34167,overlay-etmarkets/articleshow.jpg",
             "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Air Products to Expand Integrated Gas Supply Network for Semiconductor Manufacturer in Taiwan",
+            "severity": "HIGH",
+            "url": "https://www.prnewswire.com/apac/news-releases/air-products-to-expand-integrated-gas-supply-network-for-semiconductor-manufacturer-in-taiwan-302831489.html",
+            "image": "https://mma.prnewswire.com/media/3007150/1_Taiwan_Photo__Nanke.jpg?p=original",
+            "source": "prnewswire_apac"
+        },
+        {
+            "title": "Spanish hotel chain Melia\u0301 leaving Cuba over legal, financial hurdles from sanctions",
+            "severity": "HIGH",
+            "url": "https://abcnews.com/Business/wireStory/spanish-hotel-chain-meli-leaving-cuba-legal-financial-134968660",
+            "image": "https://i.abcnewsfe.com/a/cd16a7c3-fdc4-4e30-be00-9ec90a3ee018/wirestory_fe0cdf086c405a53d95b8bd771355368_16x9.jpg?w=1600",
+            "source": "abcnews"
+        },
+        {
+            "title": "The real oil shock from the Iran war might be just beginning - The Age",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQnRZUHRBS1lpUnFzN1N4R0JCWUJHbXA2enpfaXFjeFVITzNfTjZyNnRtQzNBRmhEbEVtV1p0U2V0ZHdXZ2owUWdwTnNoSFF0Zm1lWko4TTJ1YnVfSkdBMjlGSWdWSm1IX0o0bm1LUjdNc0ZkXzNUcUhrSVVBNVFTcEhIUm5KQzVoaTY4akpOdmQ0QXhnUW9Felg2aW9yam8weEc3bU5jT25meUVqR0lSMWJEd3ZtV2RsZHE1b2pTY1c5Zw?oc=5",
+            "image": "https://images.pexels.com/photos/8441790/pexels-photo-8441790.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "US hits Iran after Trump warns: \u2018We\u2019re not finished at all\u2019",
+            "severity": "HIGH",
+            "url": "https://www.news24.com/world/us-hits-iran-after-trump-warns-were-not-finished-at-all-20260722-0280",
+            "image": "https://news24cobalt.24.co.za/resources/02a7-21299c8291ef-4902429c8e2f-1000/format/inline/iran_war15.jpeg",
+            "source": "news24"
+        },
+        {
+            "title": "Mojtaba Khamenei Takes Iran War Control? Pezeshkian's Big Reveal; 'SUPREME LEADER ORDERED TO...;",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/videos/international/mojtaba-khamenei-takes-iran-war-control-pezeshkians-big-reveal-supreme-leader-ordered-to-/videoshow/132549166.cms",
+            "image": "https://timesofindia.indiatimes.com/photo/msid-132549166/132549166.jpg?resizemode=4",
+            "source": "toi"
+        },
+        {
+            "title": "Delhi Court directs compliance with injunction in entrepreneur`s defamation suit",
+            "severity": "HIGH",
+            "url": "https://zeenews.india.com/india/delhi-court-directs-compliance-with-injunction-in-entrepreneur-ankiti-boses-defamation-suit-3062344.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/07/22/1965945-justice-representative.jpg",
+            "source": "zeenews"
+        },
+        {
+            "title": "AI models breached Hugging Face's system during capability test: OpenAI",
+            "severity": "HIGH",
+            "url": "https://www.business-standard.com/technology/artificial-intelligence/ai-models-breached-hugging-face-s-system-during-capability-test-openai-126072200093_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/22/full/1784685643-8256.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Trading Plan: Will Nifty 50 defend 24,100 and Bank Nifty hold 57,600 amid likely minor pressure?",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/business/markets/trading-plan-will-nifty-50-defend-24-100-and-bank-nifty-hold-57-600-amid-likely-minor-pressure-13979984.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260718025238_sensex_stocks_nifty.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "OpenAI admits it was the source of the agent swarm that attacked Hugging Face - The Register",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQWmFXMXF1SGdtUG55a21CMm1wSDRxVEx5V0wyTEVhTTA3TW9QWXN1b1lKR0VYRGZPZFJhUnFOc1BMYkoyMkJibnFvTGNudDFsSWFVT1ZTWkV2TXhzeU1KWk44T1ZZbVV2TGdLcGxxOUlRY0w0cURvM2gtaHRHZ2llTVN0Y2xRQ0xzbVROR0dYZ0Y0UjhJNFBwUGtmYUxXSi1nVU9QSjlsbkVtdXh1S0c2NFNTdnB0Y19kaTlkbHc1N3JFZV81SDA0MFl2VW41RHM?oc=5",
+            "image": "https://images.pexels.com/photos/20258/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "OpenAI says AI models went rogue during testing, triggering \u2018unprecedented\u2019 breach at startup",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/business/article/openai-says-ai-models-went-rogue-during-testing-triggering-unprecedented-breach-at-startup/",
+            "image": "https://www.ctvnews.ca/resizer/v2/HQS5RSNJ7VFNTK6EDBSLWNDBJ4.jpg?auth=8ae3625d2de825feae6579074c05efd719378cc691da399fd7611067ec1637b8&smart=true&width=7864&height=5243",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Moderate coffee intake may support heart health, AHA says",
+            "severity": "MEDIUM",
+            "url": "https://www.news-medical.net/news/20260721/Moderate-coffee-intake-may-support-heart-health-AHA-says.aspx",
+            "image": "https://www.news-medical.net/images/news/ImageForNews_843043_17846857530166137.jpg",
+            "source": "news-medical"
+        },
+        {
+            "title": "Jaishankar flags supply chain risks, calls for deeper India-ASEAN cooperation",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/newsblogs/india-asean-s-jaishankar-asean-meeting-manila-philippines-supply-chains-global-disruptions-partnership-post-ministerial-conference-foreign-policy-indo-pacific-trade-cooperation/liveblog/132549547.cms",
+            "image": "https://economictimes.indiatimes.com/thumb/msid-132549547,width-1200,height-900,resizemode-4,imgsize-64712/india-asean-s-jaishankar-asean-meeting-manila-philippines-supply-chains-global-disruptions-partnership-post-ministerial-conference-foreign-policy-indo-pacific-trade-cooperation.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "US says more than 1,400 infected by parasitic Cyclospora illness outbreak",
+            "severity": "MEDIUM",
+            "url": "https://ca.news.yahoo.com/us-says-more-1-400-020128737.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/fd2d00af911c732f7e42417b0d36ee987ef36c5e44db9d0f89a5afda3fe4d231/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fal_jazeera_289%2Fb4dd7502357e67752e99a46c4af06f2f",
+            "source": "yahoo"
         },
         {
             "title": "President Donald Trump to travel to Michigan ahead of swing state's primary election",
             "severity": "MEDIUM",
-            "url": "https://www.newsday.com/long-island/politics/trump-michigan-republican-primary-k22547",
-            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "newsday"
+            "url": "https://abcnews.com/Politics/wireStory/president-donald-trump-travel-michigan-ahead-swing-states-134966299",
+            "image": "https://i.abcnewsfe.com/a/afa1190b-1ffc-4898-9ece-2b89fa9d0959/wirestory_84b99a8225e8844b361deef5d2e771b4_16x9.jpg?w=1600",
+            "source": "abcnews"
         },
         {
-            "title": "Oil Edges Higher as Trump Cools Prospects for Talks With Iran",
+            "title": "Springfield faces looming deadline as thousands of Haitians risk losing TPS",
             "severity": "MEDIUM",
-            "url": "https://uk.finance.yahoo.com/news/oil-edges-higher-trump-cools-221141046.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "url": "https://www.yahoo.com/news/politics/articles/springfield-faces-looming-deadline-thousands-020013840.html",
+            "image": "https://media.zenfs.com/en/whio_cox_articles_828/a578c15601f685a4bc237189f76dfa62",
             "source": "yahoo"
         },
         {
-            "title": "Trump Eyes Lebanon for Abraham Accords: 'Many Countries' to Join 'Very Soon'",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/trump-eyes-lebanon-for-abraham-accords-many-countries-to-join-very-soon-article-155147510",
-            "image": "https://images.timesnownews.com/thumb/msid-155147762,thumbsize-1343422,width-1280,height-720,resizemode-75/155147762.jpg",
-            "source": "timesnownews"
+            "title": "Congress, allies take NEET protest to PM\u2019s doorstep; Rahul Gandhi detained: 'Modi won't be able to escape'",
+            "severity": "MEDIUM",
+            "url": "https://www.hindustantimes.com/india-news/congress-allies-take-neet-protest-to-pm-s-doorstep-rahul-gandhi-detained-modi-wont-be-able-to-escape-101784682388708.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/22/1600x900/logo/PTI07-21-2026-000635A-0_1784682936615_1784682956905_2e7cf725-b24f-4822-854e-df108ca51590.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "The 7 Best Airbnbs in South Africa for Going Off the Grid",
+            "title": "Karnataka: 48,000 tribal families deprived of nutritional food kits for four months",
             "severity": "WATCH",
-            "url": "https://www.vogue.com/article/best-airbnbs-in-south-africa",
-            "image": "https://assets.vogue.com/photos/6a5ff0784bd64967a51adcef/16:9/w_2560,h_1440,c_limit/20ecb0d2-3909-45f1-aa65-8c57926b713d.jpg",
-            "source": "vogue"
+            "url": "https://www.deccanherald.com/india/karnataka/karnataka-48000-tribal-families-deprived-of-nutritional-food-kits-for-four-months-4082309",
+            "image": "https://media.assettype.com/deccanherald/2026-07-22/kgfveuel/istockphoto-1137764161-612x612.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "From FIFA To The UN: Trump Wants Gianni Infantino To Become Next UN Secretary-General",
+            "title": "Halliburton Tops Estimates as International Demand Strengthens",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/us/us-news/from-fifa-to-the-un-trump-wants-gianni-infantino-to-become-next-un-secretary-general-article-155147911",
-            "image": "https://images.timesnownews.com/thumb/msid-155147913,thumbsize-1209923,width-1280,height-720,resizemode-75/155147913.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Tokyo urges men to wear shorts to work, but women say it's 'leg hair harassment'",
-            "severity": "WATCH",
-            "url": "https://www.bbc.co.uk/news/articles/cvgwp513jpvo",
-            "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/fd1c/live/66a05f50-84d6-11f1-8a1f-271692b35cb6.jpg",
-            "source": "bbc"
-        },
-        {
-            "title": "Terri Sewell joins national effort for a data center moratorium. What would bill do?",
-            "severity": "WATCH",
-            "url": "https://www.al.com/news/2026/07/terri-sewell-joins-effort-for-a-data-center-moratorium-in-congress.html",
-            "image": "https://www.al.com/resizer/v2/23REOGGWYFCZDKLOFD2J2XAMR4.JPG?auth=cc6cd27993b59e0c40d891a4f803303b15c311efce2da6d168af9216eca9d60d&smart=true&height=1200",
-            "source": "al"
-        },
-        {
-            "title": "The mystery around Sadie Sink\u2019s \u2018Spider-Man: Brand New Day\u2019 character: \u2018There\u2019s a very real reason not to tell people\u2019",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/the-mystery-around-sadie-sinks-spider-man-brand-new-day-character-theres-a-very-real-reason-not-to-tell-people-222304748.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/e9a3ecddfa94f7982e7a0c21f9010283f70f67d20f826c3ef8106c030a242441/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fthumb-sadie-sink_4077.jpg",
+            "url": "https://ca.finance.yahoo.com/news/halliburton-tops-estimates-international-demand-020547328.html",
+            "image": "https://media.zenfs.com/en/oilprice.com/134bc08fa3572ece6520d4b354d32116",
             "source": "yahoo"
         },
         {
-            "title": "Leaving Apple, Intel, and Nvidia in the dust? Huawei could join Samsung as the only tech firms producing its own CPUs, SSDs, and DRAM",
+            "title": "Chris, Joe & The Morning Show Are Looking For a New Co-Host to Join Us & It Could Be You!",
             "severity": "WATCH",
-            "url": "https://www.techradar.com/pro/leaving-apple-intel-and-nvidia-in-the-dust-huawei-could-join-samsung-as-the-only-tech-firms-producing-its-own-cpus-ssds-and-dram",
-            "image": "https://cdn.mos.cms.futurecdn.net/fVvA9tr87QfPys6VEUqGJS-1280-80.jpg",
-            "source": "techradar_uk"
+            "url": "https://nj1015.com/ixp/942/p/morning-host-job/",
+            "image": "https://townsquare.media/site/942/files/2026/07/attachment-jersey-hired-morning-photo.jpg",
+            "source": "nj1015"
         },
         {
-            "title": "How Legionnaires\u2019 Disease Can Turn Deadly as Bacteria Multiply Inside Immune Cells",
+            "title": "Turntide to Expand High-Voltage Rail Battery Production at Its Sunderland Site",
             "severity": "WATCH",
-            "url": "https://www.discovermagazine.com/how-legionnaires-disease-can-turn-deadly-as-bacteria-multiply-inside-immune-cells-49427",
-            "image": "https://cdn.discovermagazine.com/assets/image/59964/legionnaires-disease-t.jpg",
-            "source": "discovermagazine"
+            "url": "https://financialpost.com/globe-newswire/turntide-to-expand-high-voltage-rail-battery-production-at-its-sunderland-site",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/07/the-turntide-facility-in-sunderland-u-k.jpeg",
+            "source": "financialpost"
         },
         {
-            "title": "What Are The Pros And Cons Of Buying A Discontinued Car Model?",
+            "title": "Maduro, US prosecutors propose June 2027 start for drug trafficking trial",
             "severity": "WATCH",
-            "url": "https://www.jalopnik.com/2219627/what-are-pros-and-cons-buying-discontinued-car/",
-            "image": "https://www.jalopnik.com/img/gallery/what-are-the-pros-and-cons-of-buying-a-discontinued-car-model/l-intro-1784643751.jpg",
-            "source": "jalopnik"
+            "url": "https://www.jpost.com/international/article-903249",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/701178",
+            "source": "jpost"
         },
         {
-            "title": "Stock futures are little changed as investors gear up for more earnings: Live updates",
+            "title": "Watch: Hyun Bin And Jung Woo Sung Face Off Once Again In \u201cMade In Korea 2\u201d Teaser",
             "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/07/21/stock-market-today-live-updates.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108337968-1784647816150-gettyimages-2287059605-anotherday241789564_dlr68bu0.jpeg?v=1784647890",
-            "source": "cnbc"
+            "url": "https://www.soompi.com/article/1856665wpp/watch-hyun-bin-and-jung-woo-sung-face-off-once-again-in-made-in-korea-2-teaser",
+            "image": "https://0.soompi.io/wp-content/uploads/2026/07/21185757/made-in-korea-2-teaser.jpg",
+            "source": "soompi"
         },
         {
-            "title": "CVS Vs Walgreens - Which Has The Best Groceries?",
+            "title": "Tejas rejected it, but Kaveri 2.0 could power AMCA; is GE\u2019s dominance under threat?",
             "severity": "WATCH",
-            "url": "https://www.thedailymeal.com/2217738/cvs-vs-walgreens-best-groceries/",
-            "image": "https://www.thedailymeal.com/img/gallery/cvs-vs-walgreens-best-groceries/l-intro-1784313210.jpg",
-            "source": "thedailymeal"
+            "url": "https://zeenews.india.com/india/tejas-rejected-it-but-kaveri-2-0-could-power-amca-is-ge-s-dominance-under-threat-3062343.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/07/22/1965944-photo-collage.png-99.jpg",
+            "source": "zeenews"
         },
         {
-            "title": "Supermicro (SMCI) Faces ITC Patent Probe Over Memory Imports",
+            "title": "Alleged bomb expert, wife nabbed in Maguindanao del Sur",
             "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/supermicro-smci-faces-itc-patent-221358344.html",
-            "image": "https://media.zenfs.com/en/simply_wall_st__316/c17f08fd7fd0658fa77b3f75f9bb0134",
-            "source": "yahoo"
+            "url": "https://newsinfo.inquirer.net/2268111/alleged-bomb-expert-wife-nabbed-in-maguindanao-del-sur",
+            "image": "https://newsinfo.inquirer.net/files/2026/07/amilil.jpeg",
+            "source": "inquirer"
         },
         {
-            "title": "AAR Q4 FY26 slides: 26% sales growth, margins expand despite acquisitions",
+            "title": "Concord Biotech: A bad year or a bigger opportunity?",
             "severity": "WATCH",
-            "url": "https://au.investing.com/news/company-news/aar-q4-fy26-slides-26-sales-growth-margins-expand-despite-acquisitions-93CH-4544731",
-            "image": "https://csv-storage.forexpros.com/slides/f9e2b6725bf6bb05a026b228c7b5e07aa1e6a28d3fb9675cdc5e35872f13e09d.png",
-            "source": "investing_au"
+            "url": "https://indianexpress.com/article/smart-stocks/concord-biotech-a-bad-year-or-a-bigger-opportunity-10797143/",
+            "image": "https://images.indianexpress.com/2026/07/smart-stocks-file-photo-1.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "The Giorgi Companies and U.S. Mushroom Leaders Welcome Preliminary U.S. Antidumping Ruling on Canadian Imports",
+            "title": "SIU refers Kokstad procurement probe suspects to NPA",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/07/21/3331021/0/en/The-Giorgi-Companies-and-U-S-Mushroom-Leaders-Welcome-Preliminary-U-S-Antidumping-Ruling-on-Canadian-Imports.html",
-            "image": "https://images.pexels.com/photos/31019067/pexels-photo-31019067.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "url": "https://www.news24.com/politics/siu-refers-kokstad-procurement-probe-suspects-to-npa-20260722-0634",
+            "image": "https://news24cobalt.24.co.za/resources/02a7-212a1586a24f-8f8dbc390a8c-1000/format/inline/kokstad.jpeg",
+            "source": "news24"
         },
         {
-            "title": "WEKA Unveils WEKApod 3: The World's Densest AI Storage and Memory System for Agentic Workloads",
+            "title": "Brent crude passes $92 a barrel, highest price since June",
             "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/weka-unveils-wekapod-3-the-worlds-densest-ai-storage-and-memory-system-for-agentic-workloads-302828423.html",
-            "image": "https://mmx.prnewswire.com/media/MS1884656/WEKA-WEKApod.jpg?id=OA2768573&p=original",
-            "source": "prnewswire_apac"
+            "url": "https://www.moneycontrol.com/news/business/brent-crude-passes-92-a-barrel-highest-price-since-june-13980009.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/11/20251127193107_brentcrudertr.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Nottingham Forest funding from Evangelos Marinakis exceeded \u00a3100m for first time in 2025-26",
+            "title": "OpenAI\u2019s latest AI agent escaped security controls and hacked a tech company",
             "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7462016/2026/07/21/nottingham-forest-evangelos-marinakis-finances/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/05/25111522/GettyImages-2244461253-scaled-e1779722165702.jpg",
-            "source": "theathleticuk"
+            "url": "https://www.nzherald.co.nz/business/openais-latest-ai-agent-escaped-security-controls-and-hacked-a-tech-company/MY2U5YR5N5GGTHOGFKCASJ3USE/",
+            "image": "https://www.nzherald.co.nz/resizer/v2/V672L2ONKZBAXDWDMGHKXGCHPE.jpg?auth=774f02791dc2d75eaea4324a1ed324c47bb35c9e9b6794d4096f8c4e0d87d88b&smart=true&width=300&height=300",
+            "source": "nzherald"
         },
         {
-            "title": "Amazon Prime Settlement: Deadline to Claim $2.5B This Week",
+            "title": "OpenAI AI models autonomously hacked Hugging Face in 'unprecedented' cyber incident",
             "severity": "WATCH",
-            "url": "https://www.newsweek.com/amazon-prime-settlement-deadline-claim-billions-this-week-12225781",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2025/12/AP21266834065841_026790.jpg?w=1600&h=900&q=88",
-            "source": "newsweek"
+            "url": "https://www.moneycontrol.com/news/business/openai-ai-models-autonomously-hacked-hugging-face-in-unprecedented-cyber-incident-13979999.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260611110717_openai.jpg",
+            "source": "moneycontrol"
         },
         {
-            "title": "OpenAI says AI models went rogue during testing and hacked another startup",
+            "title": "Lionel Scaloni addresses Argentina's Falklands banner row as FIFA steps in with official investigation",
             "severity": "WATCH",
-            "url": "https://www.theglobeandmail.com/business/technology/article-openai-ai-models-hack-hugging-face-startup-rogue/",
-            "image": "https://www.theglobeandmail.com/resizer/v2/ZWKOSJELHRFQBDZBZD7MT3JBMQ.jpg?auth=469d622a3f82357339d2c57452cb2fe98c8b3306ef9fd177276534c1050c4561&smart=true&width=8256&height=5504",
-            "source": "theglobeandmail"
+            "url": "https://www.hindustantimes.com/sports/football/lionel-scaloni-addresses-argentinas-falklands-banner-row-as-fifa-steps-in-with-official-investigation-101784682490043.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/22/1600x900/logo/TOPSHOT-FBL-WC-2026-MATCH104-ESP-ARG-FINAL-TROPHY-_1784682614871_1784682614982_7fa789e5-65c7-4ffa-b41e-5843fcc532ef.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Willie Colo\u0301n Collaborator Sues Over \u2018Tras La Tormenta\u2019 Songwriting Royalties",
+            "title": "Denial of legal assistance: Why Supreme Court set aside death sentence in 1996 Dausa blast case",
             "severity": "WATCH",
-            "url": "https://www.billboard.com/pro/willie-colon-songwriter-lawsuit-tras-la-tormenta/",
-            "image": "https://www.billboard.com/wp-content/uploads/2026/07/98659775-e1784668531114.jpg",
-            "source": "billboard"
+            "url": "https://indianexpress.com/article/legal-news/denial-of-legal-assistance-why-supreme-court-set-aside-death-sentence-in-1996-dausa-blast-case-10797416/",
+            "image": "https://images.indianexpress.com/2026/07/Nodal-Samleti-blast-accused-4col.jpg",
+            "source": "indianexpress"
         }
     ],
-    "Last_Updated": "2026-07-22T10:30:31.334534Z"
+    "Last_Updated": "2026-07-22T14:08:39.091684Z"
 }
