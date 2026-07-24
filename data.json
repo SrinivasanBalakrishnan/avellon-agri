@@ -1,218 +1,309 @@
 {
-    "AGRI_Score": 59.8,
-    "Velocity": "-0.3",
+    "AGRI_Score": 59.6,
+    "Velocity": "-0.2",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.8 is primarily driven by heightened geopolitical tensions and significant disruptions within the energy and cyber sectors. Escalating rhetoric, such as \"Iran Threatens Consequences If US Bombers Attack From British Bases,\" directly fuels the 'Geopolitical Conflict Intensity' score. Concurrently, rising \"Oil prices amid Middle East worries\" contribute to the 'Energy & Maritime Disruption', with a pervasive 'Cyber & Infrastructure Threats' environment marked by \"Scammers are targeting banks with AI, deepfakes and phishing.\"",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 59.6 reflects a significantly elevated risk environment, primarily driven by escalating geopolitical tensions and their direct impact on energy and maritime security. Geopolitical Conflict Intensity is high, with \"US air deployments rise in Middle East as Trump warns Iran of 'massive' attack\" and \"Iran flew commanders, missile gear to Houthi rebels\" contributing to increased regional instability. This directly fuels severe Energy & Maritime Disruption, as evidenced by \"Strikes against Saudi tankers send oil past $100 a barrel\" and \"13 tanker ships have been hit by Iran and Houthis.\" Furthermore, new protectionist trade policies, such as \"Trump imposes new set of tariffs on 60 countries,\" are significantly increasing Trade & Supply Chain Stress.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.6,
+        "Geopolitical Conflict Intensity": 70.7,
         "Energy & Maritime Disruption": 68.0,
-        "Trade & Supply Chain Stress": 64.2,
+        "Trade & Supply Chain Stress": 68.9,
         "Sovereign Financial Stress": 56.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 63.0,
+        "Sanctions & Regulatory Fragmentation": 59.7,
+        "Cyber & Infrastructure Threats": 60.5,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical risk remains elevated due to direct threats from Iran regarding potential military action, indicating a volatile regional environment. The explicit mention of 'US Bombers Attack From British Bases' suggests a broader, international dimension to these tensions, increasing the likelihood of proxy or direct conflict.",
-        "Energy & Maritime Disruption": "The sector is experiencing significant pressure, with 'Oil prices rise amid Middle East worries' signaling concerns over supply stability and geopolitical events impacting critical routes. This is directly translating to increased costs for consumers, as 'Gas, groceries and back-to-school items are where shoppers might see higher oil prices surface.'",
-        "Trade & Supply Chain Stress": "While new cross-border collaborations like 'Ford to partner with Chinese automaker Geely in Spain' indicate ongoing market integration, the broader impact of rising oil prices poses a threat to supply chain costs across various industries. Defense-related supply chains also show activity, with 'StandardAero selected by GE to support engines for U.K. military helicopter fleet.'",
-        "Sovereign Financial Stress": "Financial markets are experiencing notable stress, as evidenced by 'Dow down 600 points, S&P 500 and Nasdaq fall sharply as Big Tech stocks slump.' This market downturn, coupled with climbing 'Treasury yields,' reflects investor apprehension and potential economic vulnerabilities that could impact sovereign debt management.",
-        "Currency & Liquidity Pressure": "The widespread market sell-off and rising Treasury yields, as reported by 'MarketWatch', indicate a shift towards risk aversion among investors. While direct currency impacts are not explicitly detailed, such conditions typically lead to tighter liquidity and potential pressure on exchange rates.",
-        "Sanctions & Regulatory Fragmentation": "The rise of sophisticated threats like 'Scammers are targeting banks with AI, deepfakes and phishing' will inevitably drive new regulatory frameworks and enforcement to protect financial infrastructure. Furthermore, increasing cross-border business ventures may face enhanced scrutiny, potentially leading to fragmented regulatory environments.",
-        "Cyber & Infrastructure Threats": "This pillar reflects significant and evolving risks, highlighted by 'Scammers are targeting banks with AI, deepfakes and phishing' and 'Security Experts Respond After OpenAI\u2019s Hugging Face Incident.' Furthermore, an internal 'Vance Secret Service Agent Under Investigation Over Alleged Security Breach' underscores the pervasive nature of security vulnerabilities across critical institutions.",
-        "Climate & Resource Shock": "The current news feed provides no specific reports indicating significant climate events or resource shortages. Therefore, this pillar is currently at a baseline activity level, requiring routine monitoring for future developments."
+        "Geopolitical Conflict Intensity": "This pillar is at a critical level due to intensifying conflict dynamics in key regions. News indicating \"US air deployments rise in Middle East as Trump warns Iran of 'massive' attack\" and \"Iran flew commanders, missile gear to Houthi rebels in Yemen\" highlight a serious escalation of military posturing and proxy support, increasing the probability of broader engagement.",
+        "Energy & Maritime Disruption": "Risk in this pillar is extremely high, directly impacted by targeted attacks on critical infrastructure and shipping. The reports of \"Strikes against Saudi tankers send oil past $100 a barrel\" and \"13 tanker ships have been hit by Iran and Houthis since cease-fire breakdown\" demonstrate ongoing and severe threats to global energy supplies and maritime trade routes.",
+        "Trade & Supply Chain Stress": "This pillar reflects significant stress due to the implementation of new, broad-sweeping protectionist measures. \"Trump imposes new set of tariffs on 60 countries, citing forced labor\" indicates a widespread disruption to international trade agreements and supply chain predictability across multiple partners.",
+        "Sovereign Financial Stress": "Sovereign financial stress remains at a moderate level, with some regional market volatility observed. While not indicative of systemic sovereign default risk, \"South Korean shares fall over 5% on AI spending concerns and oil spike\" suggests sensitivity to sector-specific concerns and rising commodity prices.",
+        "Currency & Liquidity Pressure": "This pillar is currently at a routine monitoring level, with no immediate headlines pointing to widespread currency crises or liquidity shortages. Although market movements like the South Korean shares fall indicate some financial market unease, it does not translate directly into systemic currency or liquidity pressure at this time.",
+        "Sanctions & Regulatory Fragmentation": "This pillar is elevated due to significant unilateral tariff actions creating new regulatory barriers and international trade friction. \"Trump administration hits 60 countries with new wave of tariffs\" represents a substantial increase in regulatory fragmentation and a shift towards punitive trade policies.",
+        "Cyber & Infrastructure Threats": "Risk in this pillar is elevated, driven by advanced cyber threats and reported data breaches. \"New Dolphin X malware uses AI to rank high-value targets\" signals evolving sophistication in cyber-attacks, while a \"\u2018Hacker\u2019 strikes \u2018deal\u2019 with Origin to halt leak\" indicates vulnerabilities in corporate infrastructure.",
+        "Climate & Resource Shock": "This pillar is currently at a low level, with localized weather events being monitored. \"Officials urge caution as heat warning extends across southern Alberta\" represents a regional climate impact rather than a systemic global resource shock affecting broader economic stability."
     },
     "All_Alerts": [
         {
-            "title": "StandardAero selected by GE to support engines for U.K. military helicopter fleet",
+            "title": "US air deployments rise in Middle East as Trump warns Iran of 'massive' attack: 'Bigger than ever'",
             "severity": "HIGH",
-            "url": "https://seekingalpha.com/news/4617575-standardaero-selected-by-ge-to-support-engines-for-u-k-military-helicopter-fleet?feed_item_type=news",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2286442912/image_2286442912.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "url": "https://www.hindustantimes.com/world-news/us-news/us-air-deployments-rise-in-middle-east-as-trump-warns-iran-of-massive-attack-bigger-than-ever-101784844709307.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/23/1600x900/logo/Trump-59_1784844808134_1784844817316_2b7363df-e73a-4d78-a0c1-08734b6bc15a.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Iran Threatens Consequences If US Bombers Attack From British Bases",
+            "title": "Officials urge caution as heat warning extends across southern Alberta",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/iran-threatens-consequences-if-us-bombers-attack-from-british-bases/videoshow/132590238.cms",
-            "image": "https://timesofindia.indiatimes.com/photo/msid-132590238/132590238.jpg?resizemode=4",
-            "source": "toi"
+            "url": "https://www.ctvnews.ca/calgary/article/officials-urge-caution-as-heat-warning-extends-across-southern-alberta/",
+            "image": "https://www.ctvnews.ca/resizer/v2/CK7KKU6QZJDGDPIEA54DUIQZCY.jpeg?auth=16904780be063fa4e3a7f51740656a18083581897c053fdd6c3ebe95ff51f461&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
         },
         {
-            "title": "Adolescence creator swaps therapy for chains in new movie",
+            "title": "Rabid Bat At Restaurant | Man's 50-Mile Police Cruiser Joyride | Disneyland Sticker Shock: Patch PM",
             "severity": "HIGH",
-            "url": "https://www.abc.net.au/news/2026-07-24/what-to-watch-in-cinemas-in-july/106940720",
-            "image": "https://live-production.wcms.abc-cdn.net.au/7692e2a998b40a55d14397cb22533baa?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=11&width=862&height=485",
-            "source": "abc_net"
+            "url": "https://patch.com/california/san-diego/rabid-bat-restaurant-man-steals-police-cruiser-house-mouse-sticker-shock-patch",
+            "image": "https://patch.com/img/cdn20/users/54855/20260723/062207/styles/patch_image/public/super-tiny-superhero-release-photo-1___23180257347.jpg",
+            "source": "patch"
         },
         {
-            "title": "DILG honors 10 provinces as champions of WPS",
+            "title": "Iran flew commanders, missile gear to Houthi rebels in Yemen: report",
             "severity": "HIGH",
-            "url": "https://www.inquirer.net/482041/dilg-honors-10-provinces-as-champions-of-wps/",
-            "image": "https://www.inquirer.net/wp-content/uploads/2025/04/DILG-office-04262025-620x349.png",
-            "source": "inquirer"
+            "url": "https://nypost.com/2026/07/23/world-news/iran-flew-commanders-missile-gear-to-houthi-rebels-in-yemen-report/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2Farmed-yemeni-supporters-iran-backed-134710412.jpg?w%3D1024",
+            "source": "nypost"
         },
         {
-            "title": "Vance Secret Service Agent Under Investigation Over Alleged Security Breach",
+            "title": "13 tanker ships have been hit by Iran and Houthis since cease-fire breakdown",
             "severity": "HIGH",
-            "url": "https://dailycaller.com/2026/07/23/vance-secret-service-agent-under-investigation-over-alleged-security-breach",
-            "image": "https://cdn01.dailycaller.com/wp-content/uploads/2026/07/GettyImages-2284664991%202.jpg",
-            "source": "dailycaller"
+            "url": "https://nypost.com/2026/07/23/world-news/iran-houthis-attack-13-ships-in-arabian-peninsula-since-cease-fire-breakdown/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2Fhouthi-supporters-rally-saudi-led-135279672.jpg?w%3D1024",
+            "source": "nypost"
         },
         {
-            "title": "Scammers are targeting banks with AI, deepfakes and phishing: Indian government report",
+            "title": "How the Greenland standoff pushed Europe to prep for war with the U.S.",
             "severity": "HIGH",
-            "url": "https://www.news18.com/tech/scammers-are-targeting-banks-with-ai-deepfakes-and-phishing-indian-government-report-ws-l-10230447.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/03/image-2026-03-a010d6ec4e331426457fb09f09e76a6c-1200x800.jpg",
-            "source": "news18"
+            "url": "https://www.washingtonpost.com/opinions/2026/07/23/trumps-greenland-threats-pushed-europe-prepare-war-with-us/",
+            "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VU6E4EKFZUMCBFEZOFMME34ZMY_size-normalized.jpg&w=1600&h=900",
+            "source": "washingtonpost"
         },
         {
-            "title": "Security Experts Respond After OpenAI\u2019s Hugging Face Incident",
+            "title": "Red Cat Holdings (RCAT) Could Be 68% Undervalued After CRO Exit And Legal Complaint",
             "severity": "HIGH",
-            "url": "https://www.techopedia.com/security-community-response-openai-hugging-face-breach",
-            "image": "https://www.techopedia.com/wp-content/uploads/2026/07/Researcher-Reacts-Hugging-Face-Security-Incident.jpg",
-            "source": "techopedia"
-        },
-        {
-            "title": "No Cap With Megha Prasad | An Examination Can Be Held Again. A Student's Lost Year Cannot",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/news/india/no-cap-with-megha-prasad-an-examination-can-be-held-again-a-student-s-lost-year-cannot-1858238",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/07/23/2b4f3858a52af567b911050a3c6ff46317848297752561316_original.jpg?impolicy=abp_cdn&imwidth=1200&height=675",
-            "source": "abplive"
-        },
-        {
-            "title": "Horoscope Today: Daily astrological predictions for July 24, 2026",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/astrology/horoscope/horoscope-today-daily-astrological-predictions-for-july-24-2026/articleshow/132586894.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132586853/132586853.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Auburn Tigers safety Champ Anthony (1) has the blessing of head coach Alex Golesh to have a strong 2026 season.",
-            "severity": "WATCH",
-            "url": "https://www.si.com/college/auburn/football/alex-golesh-teases-comeback-year-for-key-auburn-defender-champ-anthony",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2500,h_1406,x_0,y_194/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/auburn_daily/01ky81kfk21g53sjcx86.jpg",
-            "source": "si"
-        },
-        {
-            "title": "AAI 2026: AMD Delivers Full-Stack Compute for the Agentic AI Era",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/07/23/3332491/0/en/AAI-2026-AMD-Delivers-Full-Stack-Compute-for-the-Agentic-AI-Era.html",
-            "image": "https://images.pexels.com/photos/586112/pexels-photo-586112.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "Stock Market Today: Dow down 600 points, S&P 500 and Nasdaq fall sharply as Big Tech stocks slump after earnings disappoint; Oil prices rise amid Middle East worries while Treasury yields climb - MarketWatch",
-            "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbklMN0l2Q3E1RmdRQ21LMGluN1VrUVE2djN6RW53Um5RNFJGc1FiQXNCX3Fhb1V4STJIcDRwTmtzaTVHdmdSUWROQzZEVUNXeEFzNUxCaWc3c0VQZWh5Vnl3ODY0TmZJZEtQRTFfMVpwZGF1ZHN4WXA1ZXBoTmk4VExQQkNtYmVmcU9YT0pmQmtKdWxRTldfSHJHWm1qc3FrNTRtUGdHZGU2V0RaTUJxRG5aenBTRXM3YjBHVmh3?oc=5",
-            "image": "https://images.pexels.com/photos/29267507/pexels-photo-29267507.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "AMD calls CUDA a 'non-event', says companies are programming at levels where the Nvidia tech doesn't really matter",
-            "severity": "WATCH",
-            "url": "https://www.pcgamer.com/hardware/amd-calls-cuda-a-non-event-says-companies-are-programming-at-levels-where-the-nvidia-tech-doesnt-really-matter/",
-            "image": "https://cdn.mos.cms.futurecdn.net/hYpyAaA3sEs774SXS6x5mW-1280-80.jpg",
-            "source": "pcgamer"
-        },
-        {
-            "title": "35 Years Later, These Are the Best Albums of 1991",
-            "severity": "WATCH",
-            "url": "https://collider.com/best-albums-1991/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/blood-sugar-sex-magik.jpg",
-            "source": "collider"
-        },
-        {
-            "title": "Ford to partner with Chinese automaker Geely in Spain in new joint venture",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com/news/world/ford-to-partner-with-chinese-automaker-geely-in-spain-in-new-joint-venture/article_8d127251-ae87-596f-ae40-867112378913.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/2/fd/2fdeea98-58e7-5c93-b427-30f5dc57fdb9/6a2028d726ab7.image.jpg?resize=300%2C201",
-            "source": "thestar"
-        },
-        {
-            "title": "Here's how World Cup fans felt about the tournament being played in America",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/heres-world-cup-fans-felt-182808356.html",
-            "image": "https://s.yimg.com/ny/api/res/1.2/TCpE_PTuQ_xrCEQzawEGVA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/reddit_908/a475aa660fa0cb6d5b8d21ee4a8fedb3",
+            "url": "https://ca.finance.yahoo.com/news/red-cat-holdings-rcat-could-221157551.html",
+            "image": "https://media.zenfs.com/en/simply_wall_st__316/871d0ee8cebcf0b321db833523dc8b60",
             "source": "yahoo"
         },
         {
-            "title": "Gas, groceries and back-to-school items are where shoppers might see higher oil prices surface",
-            "severity": "WATCH",
-            "url": "https://www.bostonherald.com/2026/07/23/gas-groceries-and-back-to-school-items-are-where-shoppers-might-see-higher-oil-prices-surface/",
-            "image": "https://www.bostonherald.com/wp-content/uploads/2026/07/Consumer_Confidence_23955-1.jpg?w=1400px&strip=all",
-            "source": "bostonherald"
+            "title": "\u2018Hacker\u2019 strikes \u2018deal\u2019 with Origin to halt leak - The Australian",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQWkI3bmgtbkpQa1JCV2U1MTVsTUMtdm9mVG9QOFNYSUNxM000dWhYTkdMVGhjdk10WXpiSHJGem94aXRsRVpvNmtnZkFxbU1GNmVMZngtbmRSQXRBcUdyS3lydUxJbmFVUFpIbmRJRkVyZzhQZXBqUUxfY3BBTDVlLVRFZ0J1UzdrT3dhaUxvcV93NVp1WUwyY1JJOHVqcGw0dGh2RnY4b182UFM2NzRMVmhwQjM3Y2JUdm1tM1pUNGRKS1pFT3Q2OTQ0b0RvR2hvOXBoNHhJYTVOU1ZiN2V0Si1acVdCT1hPcmNWMElSSXkzMnhZSjlyeG5hZFJUVno1cGk0Sk1ZNk52bHQ2ckE?oc=5",
+            "image": "https://images.pexels.com/photos/16459372/pexels-photo-16459372.png?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Xbox Live Is Officially Down",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/xbox-live-outage-july-2026-servers/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/01/xbox-game-pass-free-death-stranding-january-2026.jpg",
-            "source": "screenrant"
+            "title": "New Dolphin X malware uses AI to rank high-value targets",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2026/07/23/cyber-dolphin.jpg",
+            "source": "bleepingcomputer"
         },
         {
-            "title": "Woman who almost died in Auckland swimming pool returns to thank her saviours",
-            "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/community/781432/woman-who-almost-died-in-auckland-swimming-pool-returns-to-thank-her-saviours",
-            "image": "https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
+            "title": "Trump imposes new set of tariffs on 60 countries, citing forced labor",
+            "severity": "MEDIUM",
+            "url": "https://www.oregonlive.com/nation/2026/07/trump-imposes-new-set-of-tariffs-on-60-countries-citing-forced-labor.html",
+            "image": "https://www.oregonlive.com/resizer/v2/ZE77ZF45UNEMPAJB5OERK4SUZI.jpg?auth=8a6a55c62e83c6156d76854e7b3ae40b91ed33dd61352d26ac356c32ef374c9a&smart=true&height=1200",
+            "source": "oregonlive"
         },
         {
-            "title": "AARP Poll: Ossoff Up Big in Georgia Senate Race",
-            "severity": "WATCH",
-            "url": "https://www.newsmax.com/newsfront/jon-ossoff-mike-collins-georgia/2026/07/23/id/1263835",
-            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=2D56C61B-D9E5-48DD-95FF-D0248A34FF49",
-            "source": "newsmax"
+            "title": "Trump administration hits 60 countries with new wave of tariffs",
+            "severity": "MEDIUM",
+            "url": "https://ca.news.yahoo.com/trump-administration-hits-60-countries-221624587.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/614a2b5721d895f308d766cd3f496d94a99dcbf0ee7a2afe5d5ac6451732c315/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2F4d45f84b0c9fbc2760f5ee1d79d925fe",
+            "source": "yahoo"
         },
         {
-            "title": "Piers Morgan has perfect response to Jameela Jamil's 'anti-Brit' comments",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/celebrity-news/2232392/piers-morgan-has-perfect-response",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/79/590x/2232392_1.jpg",
-            "source": "expresscouk"
+            "title": "Trump to impose new double-digit tariffs on imports from 60 countries",
+            "severity": "MEDIUM",
+            "url": "https://fox5sandiego.com/hill-politics/trump-to-impose-new-double-digit-tariffs-on-imports-from-60-countries/",
+            "image": "https://fox5sandiego.com/wp-content/uploads/sites/15/2026/07/AP26203505756090-e1784731144451_c22c24.jpg?w=900",
+            "source": "fox5sandiego"
         },
         {
-            "title": "While PC gamers fight for 16GB of VRAM, AMD just unveiled a rack with 31,000 Gigabytes",
-            "severity": "WATCH",
-            "url": "https://www.tomsguide.com/computing/while-pc-gamers-fight-for-16gb-of-vram-amd-just-unveiled-a-rack-with-31-000-gigabytes",
-            "image": "https://cdn.mos.cms.futurecdn.net/Q2aQikzLRuy3KY7ig3o93J-1280-80.png",
-            "source": "tomsguide"
+            "title": "C.H. Robinson Worldwide (CHRW) Nears Earnings With Its Valuation Case Still Up For Debate",
+            "severity": "MEDIUM",
+            "url": "https://ca.finance.yahoo.com/news/c-h-robinson-worldwide-chrw-221041232.html",
+            "image": "https://media.zenfs.com/en/simply_wall_st__316/ae8872ebc1c143362ada976ee9b011cc",
+            "source": "yahoo"
         },
         {
-            "title": "AI labs have a trust problem, and the Hugging Face hack just proved it",
-            "severity": "WATCH",
-            "url": "https://fortune.com/2026/07/23/ai-labs-have-a-trust-problem-and-the-hugging-face-hack-just-proved-it/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-2281437321-e1784819792237.jpg?w=2048",
-            "source": "fortune"
+            "title": "Trump set to impose sweeping tariffs on 60 trade partners",
+            "severity": "MEDIUM",
+            "url": "https://abcnews.com/Business/trump-set-impose-sweeping-tariffs-60-trade-partners/story?id=135020049",
+            "image": "https://i.abcnewsfe.com/a/07cfa305-b6c8-4e80-8839-4aa8ac7e6906/donald-trump-28-gty-gmh-260722_1784753432967_hpMain_16x9.jpg?w=1600",
+            "source": "abcnews"
         },
         {
-            "title": "SFI stages protests across Kerala over NEET irregularities",
+            "title": "Strikes against Saudi tankers send oil past $100 a barrel",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/thiruvananthapuram/sfi-stages-protests-across-kerala-over-neet-irregularities/articleshow/132590111.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132590109/132590109.jpg",
+            "url": "https://www.bostonglobe.com/2026/07/23/world/strikes-against-saudi-tankers-send-oil-past-100-barrel/",
+            "image": "https://www.bostonglobe.com/pf/resources/images/logo-bg.jpg?d=679",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "South Korean shares fall over 5% on AI spending concerns and oil spike",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korean-shares-fall-over-5-on-ai-spending-concerns-and-oil-spike/articleshow/132595719.cms",
+            "image": "https://img.etimg.com/thumb/msid-132595754,resizemode-4,width-1200,height-900,imgsize-160578,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "New York Gov. Kathy Hochul explains why she signed the first statewide moratorium on data centers",
+            "severity": "WATCH",
+            "url": "https://www.nbcnews.com/politics/politics-news/new-york-gov-kathy-hochul-explains-signed-first-statewide-moratorium-d-rcna588832",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-07/260722-Hochul-aa-956-6d64be.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "New plug-and-play subsystem repairs laser weapons in minutes without fiber splicing",
+            "severity": "WATCH",
+            "url": "https://interestingengineering.com/military/attalon-laser-weapon-amplifier-swap",
+            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/07/Untitled-design-2026-07-24T030227.484.jpg",
+            "source": "interestingengineering"
+        },
+        {
+            "title": "Jimothy the raccoon survived against the odds, a testament to sophisticated brains and devoted mothers",
+            "severity": "WATCH",
+            "url": "https://theconversation.com/jimothy-the-raccoon-survived-against-the-odds-a-testament-to-sophisticated-brains-and-devoted-mothers-288179",
+            "image": "https://images.theconversation.com/files/749884/original/file-20260723-63-7td9ok.jpg?ixlib=rb-4.1.1&rect=0%2C159%2C1024%2C512&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
+        },
+        {
+            "title": "American Lyles still hungry in off year",
+            "severity": "WATCH",
+            "url": "https://www.channelnewsasia.com/sport/american-lyles-still-hungry-in-year-6274781",
+            "image": "https://dam.mediacorp.sg/image/upload/s--1a1PNnT0--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-07-23T222209Z_2_LYNXMPEM6M24W_RTROPTP_3_ATHLETICS.JPG?itok=cFfztKWu",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "Elon Musk Melts Down Over Perfectly Normal Questions in Wild New Interview",
+            "severity": "WATCH",
+            "url": "https://gizmodo.com/elon-musk-economist-interview-2000790016",
+            "image": "https://gizmodo.com/app/uploads/2026/07/elon-musk-the-economist-1280x853.jpg",
+            "source": "gizmodotech"
+        },
+        {
+            "title": "\u201cTom was in absolute shock\": Tom Brady reportedly left in disbelief after Gisele Bu\u0308ndchen's post-divorce journey took an unexpected turn",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/sports/nfl/news/tom-was-in-absolute-shock-tom-brady-reportedly-left-in-disbelief-after-gisele-bndchens-post-divorce-journey-took-an-unexpected-turn/articleshow/132579937.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132579937/132579937.jpg",
             "source": "toi"
         },
         {
-            "title": "HC agrees to hear PIL seeking FIR, NIA probe",
+            "title": "This week on \"Sunday Morning\" (July 26)",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/delhi/hc-agrees-to-hear-pil-seeking-fir-nia-probe/articleshow/132589834.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
+            "url": "https://www.cbsnews.com/news/this-week-on-sunday-morning-july-26-2026/",
+            "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/07/23/798bedcb-2de4-4f37-8381-ec6a708a5360/thumbnail/1200x630/bf2ace62f72612ba8efee80171fff3e5/burbank-chuck-lorre-sun.jpg",
+            "source": "cbsnews"
         },
         {
-            "title": "ARGAN: Merger project of WDP-ARGAN",
+            "title": "In Big Win, Appeals Court Affirms Release of Georgetown Peace Scholar Detained by ICE for His Speech",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/07/23/3332487/0/en/ARGAN-Merger-project-of-WDP-ARGAN.html",
-            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
+            "url": "https://www.aclu.org/press-releases/in-big-win-appeals-court-affirms-release-of-georgetown-peace-scholar-detained-by-ice-for-his-speech",
+            "image": "https://www.aclu.org/wp-content/themes/aclu-wp/img/content-types/fallback-press-release.jpg",
+            "source": "aclu"
         },
         {
-            "title": "Manitoba teacher loses certification after sending explicit messages online",
+            "title": "Is it better to build a new home or remodel yours?",
             "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/winnipeg/article/manitoba-teacher-loses-certification-after-sending-explicit-messages-online/",
-            "image": "https://www.ctvnews.ca/resizer/v2/MNQ56U46JJJKNMAZ3SEVLHOBZU.jpg?auth=e0770f37f7cc538f9cc992ac4e299445196ad8bba2c8e5ddd1d1a3bfb0e9f903&smart=true&width=1020&height=573",
-            "source": "ctvnews"
+            "url": "https://www.detroitnews.com/story/life/home-garden/2026/07/23/should-you-build-a-new-home-or-remodel-your-house/90993303007/",
+            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/07/21/PDTN/91001961007-getty-images-178551693.jpg?auto=webp&crop=2126,1197,x0,y140&format=pjpg&width=1200",
+            "source": "detroitnews"
+        },
+        {
+            "title": "\u2018Percy Jackson\u2019 EP Confirms Annabeth\u2019s Expanded Role In Season 3",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/percy-jackson-ep-confirms-annabeth-221926086.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/3b9a8960e312457796226bc839141720495c0e996167a98edb501e543c638174/lightyear_networkapi/resizefill_w960_h640;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fforbes_contributor_845%2Fe4bf7a3f4c1b7a03a7fdc3da40628d9b",
+            "source": "yahoo"
+        },
+        {
+            "title": "WPTV partners with Boys and Girls Club & Office Depot for back-to-school supply drive",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/wptv-partners-boys-girls-club-221308031.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/94870828e35491ef6c8e1fea3ef4a1bfeb8d467bb0d9c9a54efdf42600f31733/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fvideo.wptv.scripps.com%2F49c44dc28efa02369e53b8b6f098d2c0",
+            "source": "yahoo"
+        },
+        {
+            "title": "Trump's Base Is Turning Against Him on the Economy: Poll",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/trumps-base-is-turning-against-him-on-the-economy-poll-12237165",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/07/GettyImages-2287240092.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "SFS Group AG (SFSLF) Q2 2026 Earnings Call Transcript",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/article/4924913-sfs-group-ag-sfslf-q2-2026-earnings-call-transcript",
+            "image": "https://seekingalpha.com/samw/static/images/DefaultArticleImage.3b7f26873.png",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Earnings call transcript: Comstock posts strong Q2 2026 progress as shares slip",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-comstock-posts-strong-q2-2026-progress-as-shares-slip-93CH-4786493",
+            "image": "https://i-invdn-com.investing.com/news/world_news_2_108x81.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Plant diversity boosts natural pest control in farms, while forests and grasslands follow different rules",
+            "severity": "WATCH",
+            "url": "https://phys.org/news/2026-07-diversity-boosts-natural-pest-farms.html",
+            "image": "https://scx2.b-cdn.net/gfx/news/2026/global-study-unravels.jpg",
+            "source": "phys"
+        },
+        {
+            "title": "Trump fetes Dodgers at the White House again, saying the team is 'one of the great brands'",
+            "severity": "WATCH",
+            "url": "https://www.newsday.com/sports/trump-dodgers-white-house-visit-o28167",
+            "image": "https://images.pexels.com/photos/586112/pexels-photo-586112.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "newsday"
+        },
+        {
+            "title": "Weakened cat is pulled from Venezuela quake rubble in what rescuer calls a 'ray of hope'",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/weakened-cat-pulled-venezuela-quake-221600492.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/b6c3d751a65731424f89271221e2745bcdf6b5196702076e0d5e1a1408232f1f/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cool_down_737%2F8c883965335dc2788d725575ecb704b0",
+            "source": "yahoo"
+        },
+        {
+            "title": "Full list of powerful politicians facing N394bn fraud allegations",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/nigeria/1720733-full-list-6-powerful-public-officer-holders-n394bn-fraud/",
+            "image": "https://cdn.legit.ng/images/1200x675/2116fd55fb6bfaca.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Is Cuba Trump\u2019s Next Target?",
+            "severity": "WATCH",
+            "url": "https://foreignpolicy.com/2026/07/23/cuba-trump-venezuela-iran-ukraine/",
+            "image": "https://foreignpolicy.com/wp-content/uploads/2026/07/Cuba_ae5fb5.jpg",
+            "source": "foreignpolicy"
+        },
+        {
+            "title": "King Charles opens slimmed down Commonwealth Games in Glasgow",
+            "severity": "WATCH",
+            "url": "https://uk.sports.yahoo.com/news/king-charles-opens-slimmed-down-214204373.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/y07Dy87tB94uzVn78JRCgQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTE1MzY7aD0xMDI0O2NmPXdlYnA-/https://media.zenfs.com/en/afp.co.uk/954ffdf16bfaddf0f80e60ad6b18c190",
+            "source": "yahoo"
+        },
+        {
+            "title": "Wallingford Police Blotter: June 24 Through July 4, 2026",
+            "severity": "WATCH",
+            "url": "https://patch.com/connecticut/wallingford/wallingford-police-blotter-june-24-through-july-4-2026",
+            "image": "https://patch.com/img/cdn20/users/26251933/20260723/051748/styles/patch_image/public/new-police-lights-shutterstock-20216638___23171707039.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "'Traumatic experience' - Kiwi sailing superstar sets sights on successful comeback in Portsmouth",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/sport/other-sports/traumatic-experience-kiwi-sailing-superstar-37468816",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37468818.ece/ALTERNATES/s615/0_JL201341.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Read the list: 44 lawmakers swept into Jack Smith text sweep as his legal reckoning grows",
+            "severity": "WATCH",
+            "url": "https://www.foxnews.com/politics/read-list-44-lawmakers-swept-jack-smith-text-sweep-his-legal-reckoning-grows",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/b06a8012-jack-smith.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Today execs make major change to NYC set rules after intruder arrested for \u2018lunging at Craig Melvin\u2019",
+            "severity": "WATCH",
+            "url": "https://www.the-sun.com/tv/16737837/today-set-rule-changes-intruder-arrested-craig-melvin/",
+            "image": "https://www.the-sun.com/wp-content%2Fuploads%2Fsites%2F6%2F2026%2F07%2Fch-craig-today-execs-off-platform.jpg?quality%3D90%26strip%3Dall",
+            "source": "thesun"
         }
     ],
-    "Last_Updated": "2026-07-24T06:30:55.160438Z"
+    "Last_Updated": "2026-07-24T10:24:34.793071Z"
 }
