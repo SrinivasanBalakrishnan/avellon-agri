@@ -1,260 +1,239 @@
 {
-    "AGRI_Score": 59.6,
-    "Velocity": "+1.3",
+    "AGRI_Score": 63.1,
+    "Velocity": "+3.5",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.6 indicates an elevated risk environment, primarily driven by persistent geopolitical conflict and significant energy market disruption. While a temporary de-escalation, noted by \"U.S.-Iran war appears to pause as Trump gives 'diplomacy a chance'\" and subsequent \"crude oil prices drop 5%,\" offered brief respite, the sector remains highly volatile. The \"Massive Fire Erupts At World's Largest Oil Processing Plant In Saudi Arabia After Drone Attack\" immediately reintroduces severe disruption, reinforcing the fragility of global energy supplies and underscoring the interconnectedness of conflict and economic stability.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.1 is primarily driven by elevated geopolitical conflict intensity, significant energy and maritime disruption, and persistent cyber and infrastructure threats. Geopolitical concerns are highlighted by President Macron's assertion that 'Wildfires are biggest challenge since Second World War,' pointing to severe non-military stressors. The energy sector faces acute pressure, as evidenced by 'Our electric grid wasn\u2019t built for this kind of demand' and '17 states under emergency power order after extreme heat raises blackout fears,' indicating immediate vulnerabilities. Simultaneously, ongoing vigilance is required for cyber threats, with discussions around 'OWASP Top 10 Vulnerabilities' and advanced security concepts underscoring the dynamic threat landscape.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 78.2,
+        "Geopolitical Conflict Intensity": 78.3,
         "Energy & Maritime Disruption": 68.0,
-        "Trade & Supply Chain Stress": 68.9,
+        "Trade & Supply Chain Stress": 64.8,
         "Sovereign Financial Stress": 56.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.5,
-        "Cyber & Infrastructure Threats": 60.8,
-        "Climate & Resource Shock": 25
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 65.6,
+        "Climate & Resource Shock": 55
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to ongoing regional hostilities and persistent threats despite some de-escalation efforts. Reports like \"Saudi Arabia says groups in Iraq targeted territory, Houthis claim drone attacks\" and \"Ukraine continues war of terror with strike on recreational infrastructure\" highlight active conflicts, while \"Pakistani drones sighted in J&K\u2019s Rajouri district\" points to lingering border tensions.",
-        "Energy & Maritime Disruption": "Risk in this pillar is significantly high due to direct infrastructure attacks and supply concerns. The headline \"Massive Fire Erupts At World's Largest Oil Processing Plant In Saudi Arabia After Drone Attack\" indicates a major physical disruption, further compounded by warnings that \"Europe facing imminent energy crisis with gas stocks at historical lows as a result of Iran war.\"",
-        "Trade & Supply Chain Stress": "This pillar is at an elevated level, reflecting countries' efforts to mitigate external economic pressures. \"Thailand steps up trade risk measures after US tariffs\" illustrates how nations are actively responding to protectionist policies, which can fragment global trade networks.",
-        "Sovereign Financial Stress": "This pillar reflects moderate stress, with market sensitivity to geopolitical events being a key factor. \"Stocks waver on Wall Street and crude oil prices drop 5% as Mideast tensions cool\" demonstrates the direct impact of global events on financial markets, although no immediate sovereign financial crises are reported.",
-        "Currency & Liquidity Pressure": "This pillar registers a routine monitoring level, as the provided news does not explicitly detail direct currency devaluations or liquidity crises. However, the general market volatility, as seen in \"Energy stocks drop as oil prices fall on Iran tensions pause,\" could implicitly influence investor confidence and capital flows.",
-        "Sanctions & Regulatory Fragmentation": "This pillar is at a moderately elevated level, indicating ongoing complexity in the global regulatory environment. The enduring implications of the \"U.S.-Iran war appears to pause\" context imply continued adherence to existing sanctions, while actions like \"Thailand steps up trade risk measures after US tariffs\" suggest increased regulatory divergence.",
-        "Cyber & Infrastructure Threats": "Risk in this pillar is elevated due to confirmed breaches and direct attacks on critical facilities. \"Origin Energy Data Breach Exposes Customer and Partial Card Details\" confirms a significant cyber security incident, while the \"Massive Fire Erupts At World's Largest Oil Processing Plant In Saudi Arabia After Drone Attack\" highlights severe threats to physical infrastructure, which can often have cyber components.",
-        "Climate & Resource Shock": "This pillar shows baseline activity, with no specific news items indicating immediate global or regional climate-related disasters or significant resource scarcity issues. The current news feed does not contain any events directly impacting this domain."
+        "Geopolitical Conflict Intensity": "This pillar reflects a high level of stress, reinforced by President Macron's statement that 'Wildfires are biggest challenge since Second World War,' indicating significant national challenges that strain resources and societal resilience. While not conventional military conflict, such widespread crises can indirectly escalate internal tensions and regional instability.",
+        "Energy & Maritime Disruption": "Risk in this pillar is significant due to critical infrastructure strains and extreme demand, with headlines stating 'Our electric grid wasn\u2019t built for this kind of demand.' This pressure has led to '17 states under emergency power order after extreme heat raises blackout fears,' indicating a clear and present threat to energy supply and grid reliability.",
+        "Trade & Supply Chain Stress": "This area shows moderate stress, despite new infrastructure developments like the 'US-Canada bridge opens in Detroit,' as 'trade disputes test the neighbors' ties.' This suggests that while physical bottlenecks may be addressed, underlying policy disagreements continue to create friction in cross-border commerce.",
+        "Sovereign Financial Stress": "This pillar indicates moderate concern, with no immediate headlines pointing to sovereign defaults or severe liquidity crises, rather focusing on market dynamics where 'Energy Stocks, AI Spending, and Earnings Separate Winners From Losers.' This implies ongoing differentiation in market performance rather than systemic sovereign distress, requiring continued monitoring.",
+        "Currency & Liquidity Pressure": "This pillar reflects baseline activity; the news feed does not indicate any specific events causing heightened currency devaluation or liquidity shortages. The current score suggests an environment requiring routine monitoring rather than immediate intervention.",
+        "Sanctions & Regulatory Fragmentation": "This area maintains a moderate risk profile, with no new specific sanctions or regulatory fragmentation initiatives highlighted in the provided news. The score suggests that while fragmentation remains a background concern for international operations, there isn't an immediate escalation of restrictive measures.",
+        "Cyber & Infrastructure Threats": "This pillar faces elevated risk, underscored by the continuous discussion of security measures and vulnerabilities such as 'OWASP Top 10 Vulnerabilities' and 'Intrusion Prevention System (IPS).' The proliferation of cybersecurity topics indicates an active and complex threat landscape requiring robust defensive strategies.",
+        "Climate & Resource Shock": "This pillar exhibits moderate concern, significantly driven by extreme weather events and their widespread impact, as highlighted by 'Macron: Wildfires are biggest challenge since Second World War.' Such events, coupled with the strain on critical infrastructure like 'Our electric grid wasn\u2019t built for this kind of demand,' demonstrate ongoing resource pressures and climate-related vulnerabilities."
     },
     "All_Alerts": [
         {
-            "title": "Stocks waver on Wall Street and crude oil prices drop 5% as Mideast tensions cool",
+            "title": "Our electric grid wasn\u2019t built for this kind of demand",
             "severity": "HIGH",
-            "url": "https://www.washingtontimes.com/news/2026/jul/27/stocks-waver-wall-street-crude-oil-prices-fall-5-mideast-tensions/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/07/27/Financial_Markets_49_29_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
-            "source": "washingtontimes"
+            "url": "https://www.fastcompany.com/91578818/our-electric-grid-wasnt-built-for-this-kind-of-demand",
+            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/INC-Masters-Fast-Company-publishing-2026-07-23T123031.699.png",
+            "source": "fastcompany"
         },
         {
-            "title": "Sydney Sweeney Launched A Lingerie Line And It Is Very Clear Who It Is Actually For",
+            "title": "Normandy's D-Day beaches become UNESCO heritage site",
             "severity": "HIGH",
-            "url": "https://www.boredpanda.com/sydney-sweeney-syrn-lingerie-line-who-its-for/",
-            "image": "https://static.boredpanda.com/blog/wp-content/uploads/2026/07/sydney-sweeney-syrn-lingerie-line-who-its-for-fb.jpg",
-            "source": "boredpanda"
+            "url": "https://dailyprogress.com/life-entertainment/nation-world/travel/article_f470e001-33ae-57ca-8d59-b213e59405a9.html",
+            "image": "https://bloximages.newyork1.vip.townnews.com/dailyprogress.com/content/tncms/assets/v3/editorial/2/36/236445f5-9306-50a5-a3e8-e1ad2175d2b4/6a676cc180f13.image.jpg?resize=300%2C239",
+            "source": "dailyprogress"
         },
         {
-            "title": "U.S.-Iran war appears to pause as Trump gives \"diplomacy a chance\"",
+            "title": "The CIA spent millions trying to turn cats into Cold War spies; the bizarre secret experiment ended in the strangest possible way",
             "severity": "HIGH",
-            "url": "https://www.aol.com/articles/u-iran-war-appears-pause-105508000.html",
-            "image": "https://hermes.media.static.aol.com/media/2026/07/27/a63e9805-171c-3c52-a39b-2213d0796952/04a77245-6a0a-495d-98ab-f60803650525.jpg",
-            "source": "aol"
+            "url": "https://economictimes.indiatimes.com/magazines/panache/the-cia-spent-millions-trying-to-turn-cats-into-cold-war-spies-the-bizarre-secret-experiment-ended-in-the-strangest-possible-way/articleshow/132668667.cms",
+            "image": "https://img.etimg.com/thumb/msid-132669243,resizemode-4,width-1200,height-900,imgsize-166420,overlay-etpanache/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Saudi Arabia says groups in Iraq targeted territory, Houthis claim drone attacks",
+            "title": "Continuous Testing in Software Testing",
             "severity": "HIGH",
-            "url": "https://www.khaleejtimes.com/world/mena/saudi-arabia-iran-iraq-houthis-claim-drone-attacks-july-27",
-            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-05-16/hqxv9n27/saudi-arabia-reuters.jpg",
-            "source": "khaleejtimes"
+            "url": "https://www.geeksforgeeks.org/software-testing/continuous-testing-in-software-testing/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20250430123227010482/Continuous-Testing.webp",
+            "source": "geeksforgeeks"
         },
         {
-            "title": "Questions mount after deadly Berlin Pride attack. Here's what to know",
+            "title": "Security Information and Event Management (SIEM)",
             "severity": "HIGH",
-            "url": "https://www.washingtontimes.com/news/2026/jul/27/questions-mount-deadly-berlin-pride-attack-know/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/07/27/Germany_Pride_775_8_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
-            "source": "washingtontimes"
+            "url": "https://www.geeksforgeeks.org/understanding-security-event-management/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20260529155727401143/working_of_siem.webp",
+            "source": "geeksforgeeks"
         },
         {
-            "title": "Tunisia bars family, lawyers from seeing Ghannouchi after prison collapse",
+            "title": "Intrusion Prevention System (IPS)",
             "severity": "HIGH",
-            "url": "https://www.aljazeera.com/news/2026/7/27/tunisia-bars-family-lawyers-from-seeing-ghannouchi-after-prison-collapse",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/ap_6a67533516cb8-1785156405.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
+            "url": "https://www.geeksforgeeks.org/ethical-hacking/intrusion-prevention-system-ips/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20250804113208741988/intrusion_prevention_system.webp",
+            "source": "geeksforgeeks"
         },
         {
-            "title": "\u2018I would be ashamed to have written any part of this\u2019: Odyssey translator Emily Wilson attacks Nolan blockbuster",
+            "title": "Intrusion Detection Systems (IDS) vs Intrusion Prevention Systems (IPS)",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/film/2026/jul/27/odyssey-translator-emily-wilson-attacks-nolan-blockbuster",
-            "image": "https://i.guim.co.uk/img/media/3bac83d5fb0209d05b35c9ecc9db534b25da9e7b/832_0_3591_2873/master/3591.jpg?width=140&quality=85&auto=format&fit=max&s=868cfe7f41aa3eae20ad7763b5ff09f3",
-            "source": "theguardian"
+            "url": "https://www.geeksforgeeks.org/ethical-hacking/intrusion-detection-systems-ids-vs-intrusion-prevention-systems-ips/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/gfg_200X200-100x100.png",
+            "source": "geeksforgeeks"
         },
         {
-            "title": "Clear Fracture\u2019s BelvedereTM Assessed \u201cAwardable\u201d for Department of War Work in the CDAO\u2019s Tradewinds Solutions Marketplace",
+            "title": "Static Malware Analysis",
             "severity": "HIGH",
-            "url": "http://www.businesswire.com/news/home/20260727332529/en/Clear-Fracture%E2%80%99s-Belvedere%E2%84%A2-Assessed-%E2%80%9CAwardable%E2%80%9D-for-Department-of-War-Work-in-the-CDAO%E2%80%99s-Tradewinds-Solutions-Marketplace/?feedref=JjAwJuNHiystnCoBq_hl-d9cWptq3LFKqvWRRM6VXqVcgiwDl5F89IquLVWUqfRVgLxDkSKfgoruKb9yWl5as-PbWreMWuYBefATrZ0EPTXUYDHrCfzvcc7PfEC8QrAfBSvR87oUDgbHejiywQBpbg%3D%3D",
-            "image": "https://mms.businesswire.com/media/20260727332529/en/2860381/21/Original_Logo.jpg",
-            "source": "businesswire"
+            "url": "https://www.geeksforgeeks.org/ethical-hacking/static-malware-analysis/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20251202124738274448/static_malware_analysis.webp",
+            "source": "geeksforgeeks"
         },
         {
-            "title": "Europe facing imminent energy crisis with gas stocks at historical lows as a result of Iran war",
+            "title": "Post Exploitation",
             "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-16008263/Europe-facing-imminent-energy-crisis-gas-stocks-historical-lows-result-Iran-war.html",
-            "image": "https://i.dailymail.com/1s/2026/07/27/15/110271857-0-image-a-9_1785162841964.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.geeksforgeeks.org/ethical-hacking/post-exploitation/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20250823114310501698/privilege_escalation.webp",
+            "source": "geeksforgeeks"
         },
         {
-            "title": "Massive Fire Erupts At World's Largest Oil Processing Plant In Saudi Arabia After Drone Attack | Video",
+            "title": "Derbyshire police officer sacked for kissing colleague and telling them to 'send nudes'",
             "severity": "HIGH",
-            "url": "https://www.news18.com/world/massive-fire-erupts-at-worlds-largest-oil-processing-plant-at-saudis-aramcos-abqaiq-after-iranian-drone-attack-video-10236547.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/07/saudi-aramco-fire-edtt-2026-07-8dfbde014470fe8491378bc0d899b867-1200x800.jpg",
-            "source": "news18"
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/derbyshire-police-officer-sacked-kissing-34361552",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article34361551.ece/ALTERNATES/s615/0_pojpjpojPNG.jpg",
+            "source": "birminghammail"
         },
         {
-            "title": "Ukraine continues war of terror with strike on recreational infrastructure \u2014 diplomat",
+            "title": "Macron: Wildfires are biggest challenge since Second World War",
             "severity": "HIGH",
-            "url": "https://tass.com/politics/2166045",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Search operations launched near LoC as Pakistani drones sighted in J&K\u2019s Rajouri district",
-            "severity": "HIGH",
-            "url": "https://www.india.com/news/india/search-operations-launched-near-loc-as-pakistani-drones-sighted-in-jks-rajouri-district-8485780/",
-            "image": "https://static.india.com/wp-content/uploads/2026/07/Pakistani-drones-sighted-in-JKs-Rajouri-district-Representational-image.png",
-            "source": "india"
-        },
-        {
-            "title": "CJP launches website, legal aid fund to protect protestors from cases",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/india/cjp-launches-website-legal-aid-fund-to-protect-protestors-from-cases-articleshow-33vtsrm",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-0d7d0f3b-a9c6-4461-989d-287733b2b0ad.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Origin Energy Data Breach Exposes Customer and Partial Card Details",
-            "severity": "HIGH",
-            "url": "https://www.techrepublic.com/article/news-origin-energy-customer-data-breach/",
-            "image": "https://assets.techrepublic.com/uploads/2026/07/tr-07272026-origin-energy-customer-data-breach.jpg?f=jpeg",
-            "source": "techrepublic"
-        },
-        {
-            "title": "CJP Threatens to Resume Protest if Police Cases against Agitators Not Withdrawn",
-            "severity": "HIGH",
-            "url": "https://english.revoi.in/cjp-threatens-to-resume-protest-if-police-cases-against-agitators-not-withdrawn/",
-            "image": "https://english.revoi.in/wp-content/uploads/2026/07/69-CJP.png",
-            "source": "revoi_in"
-        },
-        {
-            "title": "Energy stocks drop as oil prices fall on Iran tensions pause",
-            "severity": "MEDIUM",
-            "url": "https://au.investing.com/news/stock-market-news/energy-stocks-drop-as-oil-prices-fall-on-iran-tensions-pause-93CH-4554676",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPECB60NB_M.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Thailand steps up trade risk measures after US tariffs",
-            "severity": "MEDIUM",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/27/thailand-steps-up-trade-risk-measures-after-us-tariffs",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/27/4030682.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Oil prices sink over 8% as US-Iran pause fighting, global stocks rally",
-            "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/world-news/us-news/oil-prices-sink-over-8-as-us-iran-pause-fighting-global-stocks-rally-101785162031909.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/27/1600x900/logo/pexels-photo-15981221_1785163415161_1785163425310_b50a70bc-b27e-4c73-9251-c57b72c791c5.jpeg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Marcos calls Asean is the Philippines' 'safe harbour' in an uncertain world",
-            "severity": "MEDIUM",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/27/marcos-calls-asean-is-the-philippines039-039safe-harbour039-in-an-uncertain-world",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/27/4030681.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Brian May and Roger Taylor announce \u2018colossal\u2019 Freddie Mercury Queen news",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/entertainment/films/2233419/Freddie-Mercury-Queen-Budapest",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/36/590x/2233419_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Billionaire Scots energy tycoon and philanthropist Sir Ian Wood dies aged 84",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-16007799/Billionaire-Scots-energy-tycoon-philanthropist-Sir-Ian-Wood-dies-aged-84.html",
-            "image": "https://i.dailymail.com/1s/2026/07/27/15/110276157-0-image-a-8_1785163616760.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "The only way some travelers can afford summer trips: raiding cherished loyalty points stashes",
-            "severity": "WATCH",
-            "url": "https://travel.yahoo.com/points-rewards/articles/only-way-travelers-afford-summer-145205955.html",
-            "image": "https://media.zenfs.com/en/cnn_articles_875/b853c8796137029737efb52149a26655",
+            "url": "https://ca.news.yahoo.com/macron-wildfires-biggest-challenge-since-182511853.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/eaa11c135c2641701f1b48a28fddf9def40617c2e04b5f5992e3dc3451f6a72b/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F2ebab9e701d9c8ac51532d83592d1cf2",
             "source": "yahoo"
         },
         {
-            "title": "Your Garage Could Hold Even More Stuff If You Have This Massive Overhead Storage Rack",
-            "severity": "WATCH",
-            "url": "https://www.vice.com/en/via/fleximounts-overhead-garage-rack-deal/",
-            "image": "https://www.vice.com/www.vice.com/wp-content/uploads/sites/2/2026/07/Fleximounts-4x8-Overhead-Garage-Storage-Rack.jpg?w=600",
-            "source": "vice"
+            "title": "OpenAI CEO Sam Altman claims AI singularity has arrived - ABC News - Breaking News, Latest News and Videos",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPelU4cDRWSmdDVFdIYXJXSjItVkZtcTRjLXhmSDB5YlI3LVM2cTUtLWtETG9VV3ZiYkJMR2M3VEZid0NZY1lSUFBDS3M1YkJZYjJkYi1uR2NuT0JJZHB4R2I0OXpEQmtsOEFMZFpBSE1OaHBlTFFwR0F6c2tGb2dNN0syQjFyUFdsNGpBR19TTkdWc1pxWFRHVG4wdGJfQXFy0gGmAUFVX3lxTE1DMTlTbUJYTUhfeUZLVlVTLTYyeDltS2IzQ1d2dVNjN2JGdnFHYTZWaUdOOXNNUzloMEhZdXFBNnpIS3dWcXlaLTNaa1VONHg0TDJNR1djTng3LWd6T2hSbnB6aEluX2d6YnhKd3BZRHlpTk03WDdaSnEtM3lraUdzS1RZaDh5dTc3VXpOeVZTN2QyMFdEMmRGaHFKdXRaWndLdWZyZHc?oc=5",
+            "image": "https://images.pexels.com/photos/34207359/pexels-photo-34207359.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Russia Conducts Daylong Strikes on Ukrainian Port Infrastructure and Cargo Ships: MoD",
-            "severity": "WATCH",
-            "url": "https://sputniknews.in/20260727/11798925.html",
-            "image": "https://cdn1.img.sputniknews.in/img/07e7/09/1c/4497432_0:160:3073:1888_600x0_80_0_0_69763fa511dcb613f086cef2b975ceca.jpg.webp",
-            "source": "sputniknews"
+            "title": "OWASP Top 10 Vulnerabilities",
+            "severity": "MEDIUM",
+            "url": "https://www.geeksforgeeks.org/ethical-hacking/owasp-top-10-vulnerabilities-and-preventions/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20250805143533428909/broken_access_control.webp",
+            "source": "geeksforgeeks"
         },
         {
-            "title": "Intel's Stock Fell 35% - Then It Posted Its Best Quarter In 15 Years",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4925881-intel-stock-fell-35-percent-then-it-posted-its-best-quarter-in-15-years",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2160010090/image_2160010090.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "title": "US-Canada bridge opens in Detroit even as trade disputes test the neighbors' ties",
+            "severity": "MEDIUM",
+            "url": "https://ca.sports.yahoo.com/news/traffic-start-flowing-monday-across-041155249.html",
+            "image": "https://s.yimg.com/ny/api/res/1.2/7rV2TJKh_gjg978uXmwVlw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTI0MDA7aD0xNjAwO2NmPXdlYnA-/https://media.zenfs.com/en/cp_sports_913/2e414762e8f740115d4f70f317212bec",
+            "source": "yahoo"
         },
         {
-            "title": "Vivos Inc. (OTCQB: RDGL) Reports Second Quarter 2026 Progress and Corporate Update - Correction",
+            "title": "Kriti Sanon's birthday: Sister Nupur shares adorable throwback video",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/07/27/3333695/0/en/Vivos-Inc-OTCQB-RDGL-Reports-Second-Quarter-2026-Progress-and-Corporate-Update-Correction.html",
-            "image": "https://images.pexels.com/photos/13478691/pexels-photo-13478691.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "url": "https://newsable.asianetnews.com/entertainment/kriti-sanon-s-birthday-sister-nupur-shares-adorable-throwback-video-articleshow-qcena1m",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-2a6b80e2-cdf4-4e9d-bf99-f58e30360ef2.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "Earnings call transcript: Baker Hughes tops Q2 2026 estimates, shares jump 6.9%",
+            "title": "Genco rejects Diana Shipping tender offer, cites undervaluation",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-baker-hughes-tops-q2-2026-estimates-shares-jump-69-93CH-4790372",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEM431A2_1200_L.jpg",
+            "url": "https://uk.investing.com/news/stock-market-news/genco-rejects-diana-shipping-tender-offer-cites-undervaluation-93CH-4790605",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEM3D1C7_1200_L.jpg",
             "source": "investing_uk"
         },
         {
-            "title": "Why Jensen Huang Is Uniting The World's Biggest Tech Companies",
+            "title": "SpaceX at $100 could mean investors see zero value in its AI",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/technology-science/why-jensen-huang-is-uniting-the-worlds-biggest-tech-companies-article-155188284",
-            "image": "https://images.timesnownews.com/thumb/msid-155188283,thumbsize-55164,width-1280,height-720,resizemode-75/155188283.jpg",
-            "source": "timesnownews"
+            "url": "https://www.latimes.com/business/story/2026-07-27/spacex-at-100-could-mean-investors-see-zero-value-in-its-ai",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/0bde599/2147483647/strip/false/crop/2000x1333+0+0/resize/1486x990!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2d%2Fb9%2Fe007937b1df6be5cb7d677f5ccb7%2F1x-1.jpg",
+            "source": "latimes"
         },
         {
-            "title": "John Swinney condemns protest in Glasgow as \u2018demonstration of far-right hatred\u2019",
+            "title": "Energy Stocks, AI Spending, and Earnings Separate Winners From Losers",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/bulletin/news/glasgow-far-right-protest-john-swinney-b3022356.html",
-            "image": "https://static.independent.co.uk/2026/07/27/15/f282ddba788479161a0d352a71aff51bY29udGVudHNlYXJjaGFwaSwxNzg1MjQ1MDA3-2.85409557.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
+            "url": "https://uk.investing.com/analysis/energy-stocks-ai-spending-and-earnings-separate-winners-from-losers-200626730",
+            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "Report: Michael Lombardi's paid administrative leave resulted from complaint filed by former employee",
+            "title": "17 states under emergency power order after extreme heat raises blackout fears",
             "severity": "WATCH",
-            "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-michael-lombardis-paid-administrative-leave-resulted-from-complaint-filed-by-former-employee",
-            "image": "https://nbcsports.brightspotcdn.com/dims4/default/d2c3169/2147483647/strip/false/crop/1550x1990+0+0/resize/1157x1486!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F2b%2F1d%2F9efeebb14ead885bc69d0c534235%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F1998800807",
-            "source": "nbcsports"
+            "url": "https://www.nj.com/news/2026/07/17-states-under-emergency-power-order-after-extreme-heat-raises-blackout-fears.html",
+            "image": "https://www.nj.com/resizer/v2/TUDOCXN77BEY3LM4EPV4UQH3D4.jpg?auth=c168028353be3c985ea6f9909c16ea1375e816f6e7f50b1df4a601c3b23094b8&smart=true&height=1200",
+            "source": "nj"
         },
         {
-            "title": "Pawan Dhall: \u201cWe have to fight discrimination within queer communities\u201d",
+            "title": "Lucky alive person in a circle | Code Solution to sword puzzle",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/books/pawan-dhall-we-have-to-fight-discrimination-within-queer-communities-101785162225875.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/27/1600x900/logo/Author-Pawan-Dhall--Courtesy-the-subject-s-X-accou_1785162218889.jpeg",
-            "source": "hindustantimes"
+            "url": "https://www.geeksforgeeks.org/dsa/lucky-alive-person-circle/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/gfg_200X200-100x100.png",
+            "source": "geeksforgeeks"
         },
         {
-            "title": "Bank of Baroda data leak: Bank says core banking systems remain secure after employee email compromise",
+            "title": "How Trump\u2019s Canada-bashing is influencing other Republicans\u2019 views",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/technology/bank-of-baroda-data-leak-bank-says-core-banking-systems-remain-secure-after-employee-email-compromise-article-13984933.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2023/02/Bank-of-Baroda.png",
-            "source": "moneycontrol"
+            "url": "https://globalnews.ca/news/11995486/trump-canada-bashing-republicans/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/07/Trump-Canada-bashing.jpg?quality=65&strip=all",
+            "source": "globalnews"
         },
         {
-            "title": "Communities fear Flock cameras' safety promise is Trojan horse for mass surveillance",
+            "title": "Woman Claims She Was \u201cBrainwashed\u201d Into Hating Charlie Kirk: \u2018I Fell for All the Propaganda\u2019",
             "severity": "WATCH",
-            "url": "https://www.washingtonexaminer.com/in_focus/4662831/communities-fear-flock-cameras-safety-promise-trojan-horse-mass-surveillance/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/07/AP26064713365173.jpg?w=696",
-            "source": "washingtonexaminer"
+            "url": "https://dailydot.com/woman-claims-she-was-brainwashed-into-hating-charlie-kirk/",
+            "image": "https://lede-admin.dailydot.com/wp-content/uploads/sites/69/2026/07/woman-claims-she-was-brainwashed-into-hating-charlie-kirk.jpg?w=564",
+            "source": "dailydot"
+        },
+        {
+            "title": "Victor Orlando puts emphasis on housing policy in NH-02 | CloseUp",
+            "severity": "WATCH",
+            "url": "https://www.wmur.com/article/victor-orlando-puts-emphasis-on-housing-policy-in-nh-02-closeup/73275717",
+            "image": "https://kubrick.htvapps.com/vidthumb/3bd46158-ae5f-41c0-beaf-4482e8186e99/893887d5-d38d-4dc0-a208-7dc847c72bf6.jpg",
+            "source": "wmur"
+        },
+        {
+            "title": "Blade Runner Officially Reveals What Happened After Blade Runner 2049",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/blade-runner-what-happened-after-2049-reveal-2099/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/ana-de-armas-in-blade-runner-2049.jpeg",
+            "source": "screenrant"
+        },
+        {
+            "title": "Corn and soybeans fall on U.S. weather, pause in U.S.-Iran Strikes",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/commodities/agriculture/corn-soybeans-fall-on-weather",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/07/0728-mg-corn.jpg",
+            "source": "financialpost"
+        },
+        {
+            "title": "CXMT\u2019s \u201cbudget\u201d DDR5 RAM is now pricier than Samsung\u2019s as AI demand keeps memory prices climbing",
+            "severity": "WATCH",
+            "url": "https://www.notebookcheck.net/CXMT-s-budget-DDR5-RAM-is-now-pricier-than-Samsung-s-as-AI-demand-keeps-memory-prices-climbing.1353077.0.html",
+            "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/King-Bank-Memory-Modules-using-CXMT-Memory-Chips-Image-Source-rpcmasterrace.jpg.jpeg",
+            "source": "notebookcheck"
+        },
+        {
+            "title": "Benefits of Blockchain Technology",
+            "severity": "WATCH",
+            "url": "https://www.geeksforgeeks.org/ethical-hacking/benefits-of-blockchain-technology/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/gfg_200X200-100x100.png",
+            "source": "geeksforgeeks"
+        },
+        {
+            "title": "Ninja heavily reduces Woodfire BBQ that's 'better than coal' and costs just 41p to use",
+            "severity": "WATCH",
+            "url": "https://www.manchestereveningnews.co.uk/news/money-saving/ninja-heavily-reduces-woodfire-bbq-34356700",
+            "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34356800.ece/ALTERNATES/s615/1_Screenshot-2026-07-27-100304.png",
+            "source": "manchestereveningnews"
+        },
+        {
+            "title": "China-linked AI \u2018nudify\u2019 ads flooded Facebook and Instagram, watchdog says",
+            "severity": "WATCH",
+            "url": "https://www.latimes.com/business/story/2026-07-27/china-linked-ai-nudify-ads-flooded-facebook-instagram-watchdog-says",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/68708cf/2147483647/strip/false/crop/2200x1467+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fbf%2Fad%2F2283afdaa9b5fd820c076fe1e862%2F1x-1.jpg",
+            "source": "latimes"
+        },
+        {
+            "title": "Shared a Claude conversation? Google may have seen it.",
+            "severity": "WATCH",
+            "url": "https://sea.mashable.com/tech/53055/shared-a-claude-conversation-google-may-have-seen-it",
+            "image": "https://sm.mashable.com/mashable_sea/article/s/shared-a-c/shared-a-claude-conversation-google-may-have-seen-it_gvwu.jpg",
+            "source": "mashable"
         }
     ],
-    "Last_Updated": "2026-07-28T02:56:40.948635Z"
+    "Last_Updated": "2026-07-28T06:31:56.372959Z"
 }
