@@ -1,281 +1,232 @@
 {
-    "AGRI_Score": 60.7,
-    "Velocity": "-3.0",
+    "AGRI_Score": 57.4,
+    "Velocity": "-3.3",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 60.7 reflects elevated strategic risk, primarily driven by intensified geopolitical conflict and expanding sanctions regimes. This high score is significantly influenced by 'Geopolitical Conflict Intensity' (80.1), highlighted by the 'US Senators reach agreement on bill to sanction Russia, Iran,' alongside persistent 'Energy & Maritime Disruption' (68.0) and 'Trade & Supply Chain Stress' (64.0) stemming from tech export controls. Furthermore, 'Cyber & Infrastructure Threats' (63.8) contribute to the overall risk profile, evidenced by critical software vulnerabilities and emerging AI security concerns.",
+    "AI_Brief": "The current AGRI score of 57.4 reflects a heightened risk environment primarily propelled by escalating geopolitical conflict and persistent cyber vulnerabilities. Direct military action, highlighted by \"Iran launches \u2018surprise attack\u2019 on US bases \u2013 CENTCOM\" and \"Iran 'launches missiles' at US military bases as Middle East tensions explode,\" has driven a substantial increase in the Geopolitical Conflict Intensity pillar. This conflict also contributes to elevated risks in the Energy & Maritime Disruption sector, as \"Oil Rebounds After Three-Day Slump as Mideast Tensions Persist\" indicates. Simultaneously, multiple high-severity cyber incidents, such as \"OpenAI's rogue agent also compromised account at AI firm Modal Labs,\" maintain significant pressure on the Cyber & Infrastructure Threats pillar, preventing an overall reduction in the risk profile.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 80.1,
+        "Geopolitical Conflict Intensity": 73.9,
         "Energy & Maritime Disruption": 68.0,
-        "Trade & Supply Chain Stress": 64.0,
+        "Trade & Supply Chain Stress": 59.9,
         "Sovereign Financial Stress": 56.5,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.9,
-        "Cyber & Infrastructure Threats": 63.8,
-        "Climate & Resource Shock": 35
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 61.5,
+        "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to escalating international tensions and new legislative actions targeting adversarial nations. 'US Senators reach agreement on bill to sanction Russia, Iran' and 'Ukraine FM warns Iranian counterpart Araghchi against escalation' underscore the ongoing global flashpoints.",
-        "Energy & Maritime Disruption": "Risk in this pillar remains high, despite some positive signals regarding critical transit routes. While 'Middle East diplomats: Progress made on temporary Strait of Hormuz shipping deal' indicates a potential de-escalation, the overall geopolitical climate suggests continued vulnerability for energy supplies and maritime trade.",
-        "Trade & Supply Chain Stress": "This pillar experiences high stress driven by increasing technological protectionism and export controls. The 'Nvidia CEO Jensen Huang Reportedly Meets Commerce Secretary Howard Lutnick Amid China Export Probe' and the 'Exclusive-Trump administration to ban new Chinese robots and inverters' headlines point to continued friction in critical tech supply chains.",
-        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, influenced by the ripple effects of expanding sanctions and the potential for market volatility. New punitive measures against Russia and Iran could introduce economic instability, though direct signs of a widespread sovereign financial crisis are not yet evident in the feed.",
-        "Currency & Liquidity Pressure": "This pillar is currently at a moderate pressure level, with no immediate severe indicators of broad currency or liquidity crises reported. While geopolitical tensions and new sanctions could indirectly impact specific currencies, the news feed does not highlight an imminent systemic liquidity crunch.",
-        "Sanctions & Regulatory Fragmentation": "This pillar shows elevated and increasing risk, directly fueled by significant legislative efforts to impose new punitive measures. The headlines 'US senators have agreed on bill for new anti-Russia sanctions' and 'US Senators reach agreement on bill to sanction Russia, Iran' indicate a clear trend towards further regulatory fragmentation and geopolitical pressure.",
-        "Cyber & Infrastructure Threats": "Risk remains elevated due to the persistence of critical software vulnerabilities and the emergence of advanced threats, particularly in AI. 'vBulletin fixes critical pre-auth RCE flaw with public exploit' highlights traditional security weaknesses, while 'Tech giants have announced a new AI safety initiative following rogue AI hack' points to novel, rapidly evolving risks.",
-        "Climate & Resource Shock": "This pillar reflects a low level of immediate acute risk, requiring routine monitoring rather than immediate intervention. The provided news feed does not contain specific indicators of immediate severe climate events or critical resource shortages impacting global stability, with only general references such as 'Facts About Biogas'."
+        "Geopolitical Conflict Intensity": "This pillar is under severe stress due to explicit military engagements in the Middle East, with \"Iran launches \u2018surprise attack\u2019 on US bases \u2013 CENTCOM\" marking a direct escalation. The continued \"fighting with Iran further draws down key US air defense stockpiles,\" indicating a sustained and high-intensity operational environment.",
+        "Energy & Maritime Disruption": "Risk in this area remains high, primarily influenced by persistent geopolitical tensions in critical regions. \"Oil Rebounds After Three-Day Slump as Mideast Tensions Persist\" directly illustrates how these conflicts impact global energy markets and supply reliability.",
+        "Trade & Supply Chain Stress": "This pillar faces moderate elevation from regulatory actions impacting specific trade flows and broader inflationary pressures. The \"FCC blocks new foreign-made power inverters and advanced robots over national security risks\" demonstrates targeted restrictions affecting supply chains for advanced technologies.",
+        "Sovereign Financial Stress": "Sovereign financial risk remains under routine monitoring, with no immediate acute distress reported. However, long-term fiscal pressures, like the \"Cost of Net Zero will hit \u00a340BILLION by the end of the decade,\" present future considerations for national budgets.",
+        "Currency & Liquidity Pressure": "This area shows baseline activity, indicating no significant immediate pressures on global currency markets or liquidity. Continuous vigilance is maintained for any emerging macroeconomic shifts that could impact exchange rates or capital flows.",
+        "Sanctions & Regulatory Fragmentation": "Risk is at a moderate level, driven by national security-focused regulatory interventions that create specific trade barriers. The \"FCC blocks new foreign-made power inverters and advanced robots over national security risks\" exemplifies a trend of increasing national oversight impacting international commerce.",
+        "Cyber & Infrastructure Threats": "The risk in this domain is elevated due to multiple high-severity incidents impacting critical digital assets and advanced technology firms. Reports like \"OpenAI's rogue agent also compromised account at AI firm Modal Labs\" and \"CubePilot drone software dev hit by DNS hijacking\" highlight ongoing and sophisticated cyber-attacks.",
+        "Climate & Resource Shock": "Despite a recent severe seismic event, the overall risk posture for long-term climate and resource shocks remains at a lower level. While the \"Powerful earthquake in Japan causes widespread damage\" represents an acute regional natural disaster, the broader systemic pressures from long-term climate changes and resource scarcity are not currently at an elevated state."
     },
     "All_Alerts": [
         {
-            "title": "US senators have agreed on bill for new anti-Russia sanctions \u2014 Bloomberg",
+            "title": "Iran launches \u2018surprise attack\u2019 on US bases \u2013 CENTCOM",
             "severity": "HIGH",
-            "url": "https://tass.com/world/2166565",
-            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260728/1481991.jpg",
-            "source": "tass"
+            "url": "https://www.rt.com/news/643592-iran-us-jordan-surprise-attack/",
+            "image": "https://mf.b37mrtl.ru/files/static.en/thumbnail/breaking.jpg",
+            "source": "rt"
         },
         {
-            "title": "Middle East diplomats: Progress made on temporary Strait of Hormuz shipping deal",
+            "title": "Oil Rebounds After Three-Day Slump as Mideast Tensions Persist",
             "severity": "HIGH",
-            "url": "https://www.jpost.com/middle-east/article-903946",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/731133",
-            "source": "jpost"
+            "url": "https://financialpost.com/pmn/business-pmn/oil-rebounds-after-three-day-slump-as-mideast-tensions-persist",
+            "image": "https://images.pexels.com/photos/255552/pexels-photo-255552.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
         },
         {
-            "title": "US Senators reach agreement on bill to sanction Russia, Iran",
+            "title": "Powerful earthquake in Japan causes widespread damage",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/us-senators-reach-agreement-on-bill-to-sanction-russia-iran-101785263460127.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2025/12/30/1600x900/logo/US_News_1767090888271_1767090921295.png",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Saudi Arabia: New Executions of Ethiopian Migrants",
-            "severity": "HIGH",
-            "url": "https://www.hrw.org/news/2026/07/28/saudi-arabia-new-executions-of-ethiopian-migrants",
-            "image": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/04/202604mena_afr_yemen_ethiopian_migrants.jpg?h=c9ecf812&itok=zO3Cz9sG",
-            "source": "hrw"
-        },
-        {
-            "title": "Ukraine FM warns Iranian counterpart Araghchi against escalation, urges end to support for Russia",
-            "severity": "HIGH",
-            "url": "https://www.deccanherald.com/world/ukraine-fm-warns-iranian-counterpart-araghchi-against-escalation-urges-end-to-support-for-russia-4090960",
-            "image": "https://media.assettype.com/deccanherald/2026-07-28/s292omwo/BeFunky-collage-1.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Trump has launched a new \u2018Red Scare\u2019 in the US \u2013 a favorite tactic of the right",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-red-scare-communism-zohran-mamdani-b3023290.html",
-            "image": "https://static.independent.co.uk/2026/07/28/18/22/GettyImages-2284569026.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "Mediators see progress in Iran war ceasefire restoration push",
-            "severity": "HIGH",
-            "url": "https://thehill.com/homenews/5994769-us-iran-ceasefire-negotiations-progress/",
-            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/07/MilitaryStrikes_Timotija_Getty_-MortezaNikoubazl.jpg?w=900",
-            "source": "thehill"
-        },
-        {
-            "title": "Nvidia CEO Jensen Huang Reportedly Meets Commerce Secretary Howard Lutnick Amid China Export Probe",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/markets/nvidia-ceo-jensen-huang-reportedly-meets-commerce-secretary-howard-lutnick-amid-china-export-probe-articleshow-s01tso5",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-d50fc322-7d46-4c66-b0fc-310bc6d0d630.webp",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "\u2018No freedom at all\u2019: Israeli closures leave West Bank patients trapped",
-            "severity": "HIGH",
-            "url": "https://www.aljazeera.com/news/2026/7/28/no-freedom-at-all-israeli-closures-leave-west-bank-patients-trapped",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2025/02/AFP__20250209__36XD7RT__v1__Preview__PalestinianIsraelConflict-1739102666.jpg?resize=1200%2C630",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "CWG 2026: Vishal storms into 400m semis on a day of mixed results",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/sports/cwg-2026-vishal-storms-into-400m-semis-on-a-day-of-mixed-results-articleshow-m6qcm6n",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-328e5b6b-722d-4bb5-a48a-0643b46a8523.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
-            "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/07/28/vbulletin.jpg",
-            "source": "bleepingcomputer"
-        },
-        {
-            "title": "Tech giants have announced a new AI safety initiative following rogue AI hack",
-            "severity": "HIGH",
-            "url": "https://www.abc15.com/science-and-tech/artificial-intelligence/tech-giants-have-announced-a-new-ai-safety-initiative-following-rogue-ai-hack",
-            "image": "https://ewscripps.brightspotcdn.com/dims4/default/ad5774a/2147483647/strip/true/crop/1920x1008+0+36/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F71%2F0f%2F06bc885e496f9e36b76d1f70fef4%2Fall-brightspot-resize-template-1920x1080.jpg",
-            "source": "abc15"
-        },
-        {
-            "title": "AMKR Stock Falls Below 200-DMA For First Time In Nearly A Year \u2013 B. Riley Says AI Sentiment Pressure Remains A Risk",
-            "severity": "MEDIUM",
-            "url": "https://newsable.asianetnews.com/markets/amkr-stock-falls-below-200-dma-for-first-time-in-nearly-a-year-b-riley-says-ai-sentiment-pressure-remains-a-risk-articleshow-ab7l6oy",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-c83ed787-c8c1-4226-9207-4917ecb61cb0.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Enoch Burke brings fresh challenge against displinary panel over rejection of his appeal",
-            "severity": "MEDIUM",
-            "url": "https://www.irishtimes.com/crime-law/courts/2026/07/28/enoch-burke-brings-fresh-challenge-against-displinary-panel-over-rejection-of-his-appeal/",
-            "image": "https://www.irishtimes.com/resizer/v2/5S6IXRPJXRE3N27M3OENM25KIQ.jpg?auth=6c8e6fc904247804a8cfa03b43fef5814d1130b5e18092741f0d31722aa6601c&smart=true&width=630&height=350",
-            "source": "irishtimes"
-        },
-        {
-            "title": "Ferrari Tests Mercedes\u2019 Clever 2026 MGU-K Loophole, But the Risk is Disqualification",
-            "severity": "MEDIUM",
-            "url": "https://sports.yahoo.com/articles/ferrari-tests-mercedes-clever-2026-180949987.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/8d54c684aa18a7bf9190835155f3cb9aa0a397763f9407cf344d4fb38c3f6668/lightyear_networkapi/resizefit_w1024_h681;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmotorbiscuit_articles_333%2Fee7c3a028fa0b08590b6b231a9ef828c",
-            "source": "yahoo"
-        },
-        {
-            "title": "Exclusive-Trump administration to ban new Chinese robots and inverters, protecting US AI buildout",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/business/exclusive-trump-administration-ban-new-chinese-robots-and-inverters-protecting-us-ai-buildout-6284051",
-            "image": "https://dam.mediacorp.sg/image/upload/s--v93rjbCl--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-07-28T190528Z_4_LYNXMPEM6R1N6_RTROPTP_3_USA-CHINA-ROBOTS.JPG?itok=p646FM-P",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Meghalaya nod to electric vehicles policy",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/guwahati/meghalaya-nod-to-electric-vehicles-policy/articleshow/132693057.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "CIDG nabs 3 in Cavite for alleged electric meter \u2018tampering services\u2019",
-            "severity": "WATCH",
-            "url": "https://newsinfo.inquirer.net/2273108/cidg-nabs-3-in-cavite-for-alleged-electric-meter-tampering-services",
-            "image": "https://newsinfo.inquirer.net/files/2024/08/Cavite-map-filephoto-091122-1200px.png",
-            "source": "inquirer"
-        },
-        {
-            "title": "Facts About Biogas",
-            "severity": "WATCH",
-            "url": "https://www.geeksforgeeks.org/biology/facts-about-biogas/",
-            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240410121623/Biogas-Plant.png",
-            "source": "geeksforgeeks"
-        },
-        {
-            "title": "Reducing vs Nonreducing Sugar",
-            "severity": "WATCH",
-            "url": "https://www.geeksforgeeks.org/biology/reducing-vs-non-reducing-sugar/",
-            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240206123020/Reducing-and-non-reducing-sugar.png",
-            "source": "geeksforgeeks"
-        },
-        {
-            "title": "Business Watch: BioBTX moves on renewable aromatics; Scribe\u2019s IPO is a hit",
-            "severity": "WATCH",
-            "url": "https://cen.acs.org/business/business-watch-biobtx-renewable-aromatics-scribe-ipo/104/web/2026/07?sc=230901_cenrssfeed_eng_latestnewsrss_cen",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "cen_org"
-        },
-        {
-            "title": "Trump honors 'beloved friend' and 'respected statesman' Sen. Lindsey Graham",
-            "severity": "WATCH",
-            "url": "https://www.nbcnews.com/video/trump-honors-beloved-friend-and-respected-statesman-sen-lindsey-graham-267399749753",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1785263742524_nbc_spec_trump_graham_open_260728_S3_1920x1080-pc88va.jpg",
+            "url": "https://www.nbcnews.com/nightly-news/video/powerful-earthquake-in-japan-causes-widespread-damage-267413573878",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1785278439249_nn_mbr_japan_deadly_earthquake_260728_S3_1920x1080-k3smfm.jpg",
             "source": "nbcnews"
         },
         {
-            "title": "IDF officers tell Trump: 'Settler violence' claims are distorted, ignore terrorism - exclusive",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/israel-news/article-903945",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/728273",
-            "source": "jpost"
+            "title": "Iran 'launches missiles' at US military bases as Middle East tensions explode",
+            "severity": "HIGH",
+            "url": "https://www.express.co.uk/news/world/2233909/iran-launches-missiles-us-military-bases-jordan",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2233909_1.jpg",
+            "source": "expresscouk"
         },
         {
-            "title": "PostgreSQL Upsert",
-            "severity": "WATCH",
-            "url": "https://www.geeksforgeeks.org/postgresql/postgresql-upsert/",
-            "image": "https://media.geeksforgeeks.org/wp-content/uploads/gfg_200X200-100x100.png",
-            "source": "geeksforgeeks"
+            "title": "Recent fighting with Iran further draws down key US air defense stockpiles, analysis says",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com/news/world/united-states/recent-fighting-with-iran-further-draws-down-key-us-air-defense-stockpiles-analysis-says/article_752beb4a-0d6b-5d2b-8890-c0be5389dec5.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/4/dc/4dc739dc-3684-51ad-b347-0402b0d157c0/6a6930ed0256b.image.jpg?resize=300%2C225",
+            "source": "thestar"
         },
         {
-            "title": "Check whether a given graph is Bipartite or not",
-            "severity": "WATCH",
-            "url": "https://www.geeksforgeeks.org/dsa/bipartite-graph/",
-            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20250415173137692519/Detect-cycle-in-an-undirected-graph-1.webp",
-            "source": "geeksforgeeks"
+            "title": "OpenAI's rogue agent also compromised account at AI firm Modal Labs, according to Reuters",
+            "severity": "HIGH",
+            "url": "https://www.cnbc.com/video/2026/07/28/openais-rogue-agent-also-compromised-account-at-ai-firm-modal-labs-according-to-reuters.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108341414-17852751341785275132-47444017733-1080pnbcnews.jpg?v=1785275133",
+            "source": "cnbc"
         },
         {
-            "title": "How actor Morgan Freeman turned his 124-acre ranch in Mississippi into a safe haven for bees",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/new-updates/how-actor-morgan-freeman-turned-his-124-acre-ranch-in-mississippi-into-a-safe-haven-for-bees/articleshow/132692934.cms",
-            "image": "https://img.etimg.com/thumb/msid-132693064,resizemode-4,width-1200,height-900,imgsize-44116,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "title": "Nvidia Alliance Backs Open Source AI After Hugging Face Breach",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/nvidia-alliance-backs-open-source-212210554.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/f7caffc4f49d92987b27e80c35047063dc655acbedd289067dd205f814256bd4/lightyear_networkapi/resizefill_w958_h539;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fforbes_contributor_845%2F5f862d68c1b174f2422acaf579e3a48d",
+            "source": "yahoo"
         },
         {
-            "title": "India's factory output grows 7.3% in June, fastest pace in nearly two years",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-factory-output-grows-7-3-in-june-fastest-pace-in-nearly-two-years/articleshow/132693048.cms",
-            "image": "https://img.etimg.com/thumb/msid-132693337,resizemode-4,width-1200,height-900,imgsize-135288,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2026/07/28/cubepilot.jpg",
+            "source": "bleepingcomputer"
         },
         {
-            "title": "Ryan Frederick: Why Your Home May Matter More Than Your Portfolio Later in Life",
-            "severity": "WATCH",
-            "url": "https://www.morningstar.com/podcasts/the-long-view/ryan-frederick-why-your-home-may-matter-more-than-your-portfolio-later-life",
-            "image": "https://media.morningstar.com/resizer/v2/XG6RE2CJQNEAFJYTLSMHHMSKIY.png?auth=042b2f8b48111477283f40f318817fe5938da6aed7c4ff3538fdbae0d2f22756&smart=true&height=500",
-            "source": "morningstar_com"
+            "title": "FCC blocks new foreign-made power inverters and advanced robots over national security risks",
+            "severity": "MEDIUM",
+            "url": "https://www.foxbusiness.com/technology/fcc-blocks-new-foreign-made-power-inverters-advanced-robots-over-national-security-risks",
+            "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/07/foreign-produced-power-inverters-solar-farm.jpg",
+            "source": "foxbusiness"
         },
         {
-            "title": "Tractor Supply Co. to close 74 Petsense locations. See where",
+            "title": "Gasohol E20 gets another lease on life",
             "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/money/shopping/2026/07/28/tractor-supply-co-petsense-closures-list/91077583007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/28/USAT/91077920007-hdp-62222-petsenseby-tsc-3701.jpg?crop=5055,2844,x0,y1538&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "usatoday"
+            "url": "https://www.bangkokpost.com/business/general/3293327/gasohol-e20-gets-another-lease-on-life",
+            "image": "https://static.bangkokpost.com/media/content/dcx/2026/07/29/6170437.jpg",
+            "source": "bangkokpost"
         },
         {
-            "title": "Apple Fixes 194 Security Flaws Across iPhone, Mac and Other Devices",
+            "title": "Earnings call transcript: CoStar Group tops EPS in Q2 2026, shares sink after hours",
             "severity": "WATCH",
-            "url": "https://www.techrepublic.com/article/news-apple-security-updates-194-vulnerabilities/",
-            "image": "https://assets.techrepublic.com/uploads/2026/07/miguel-hernandez-E6453uc53VE-unsplash-1.jpg?f=jpeg",
-            "source": "techrepublic"
+            "url": "https://au.investing.com/news/transcripts/earnings-call-transcript-costar-group-tops-eps-in-q2-2026-shares-sink-after-hours-93CH-4558123",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEM3T1AG_1200_L.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "The future of the UK\u2019s renowned Lovell radio telescope is in question after a funding cut",
+            "title": "F Stock Jumps 8% After-Hours On Q2 Earnings Beat \u2014 Ford Also Raises 2026 Profit Outlook",
             "severity": "WATCH",
-            "url": "https://www.dailycamera.com/2026/07/28/lovell-radio-telescope-funding/",
-            "image": "https://www.dailycamera.com/wp-content/uploads/2026/07/Britain_Jodrell_Bank__7274-1.jpg?w=1400px&strip=all",
-            "source": "dailycamera"
+            "url": "https://newsable.asianetnews.com/markets/f-stock-jumps-8-after-hours-on-q2-earnings-beat-ford-also-raises-2026-profit-outlook-articleshow-ugx0sos",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-6944f0f2-fb06-4c9b-b564-a58269e89bec.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "Despite Frustration Over High Prices, Federal Reserve Is Expected to Keep Rates Unchanged -- for Now",
+            "title": "Cost of Net Zero will hit \u00a340BILLION by the end of the decade, report reveals",
             "severity": "WATCH",
-            "url": "https://www.usnews.com/news/us/articles/2026-07-29/despite-frustration-over-high-prices-federal-reserve-is-expected-to-keep-rates-unchanged-for-now",
-            "image": "https://www.usnews.com/dims4/USNEWS/0931ff4/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Fe2%2F06326ba55ab9cb1d89e18b1406553a%2F09a13206a22e419ead7f7b30629a7baeSenate_Federal_Reserve_63755.jpg",
-            "source": "usnews"
-        },
-        {
-            "title": "Mysterious object in NASA Mars photo ignites theories of extraterrestrial life on the Red Planet",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/sciencetech/article-16011455/nasa-mars-mysterious-object-curiosity.html",
-            "image": "https://i.dailymail.com/1s/2026/07/28/19/110303233-0-image-a-10_1785261958602.jpg",
+            "url": "https://www.dailymail.com/news/article-16012001/cost-Net-Zero-40billion-end-decade-report.html",
+            "image": "https://i.dailymail.com/1s/2026/07/28/23/110307445-0-image-a-35_1785278128712.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Catering bizman held for abusing customers",
+            "title": "Company releases video of moth-killing drone aimed at curbing mosquito population",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/hyderabad/catering-bizman-held-for-abusing-customers/articleshow/132693104.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132693103/132693103.jpg",
-            "source": "toi"
+            "url": "https://www.nbcnews.com/video/could-a-mini-drone-offer-new-a-solution-to-control-mosquito-population-267415109523",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1785278266735_now_hallie_mfr_mosquito_drone_260728_S3_1920x1080-ouxq56.jpg",
+            "source": "nbcnews"
         },
         {
-            "title": "CBI Files Chargesheet In NEET UG Exam Paper Leak",
+            "title": "Olympic canoeist's lawyers accuse DOJ of misleading grand jury in Reflecting Pool case",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/india/cbi-files-chargesheet-in-neet-ug-article-155193755",
-            "image": "https://images.timesnownews.com/thumb/msid-155193755,thumbsize-309908,width-1280,height-720,resizemode-75/155193755.jpg",
-            "source": "timesnownews"
+            "url": "https://www.nbcnews.com/video/olympic-canoeist-s-lawyers-accuse-doj-of-misleading-grand-jury-in-reflecting-pool-case-267415621527",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1785278568354_now_hallie_rre_reflecting_pool_260728_S3_1920x1080-jv2ub8.jpg",
+            "source": "nbcnews"
         },
         {
-            "title": "HC shields 3 suspended SCERT officers from arrest",
+            "title": "Era of cheap smartphones may be ending \u2014 why prices are surging",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/hc-shields-3-suspended-scert-officers-from-arrest/articleshow/132691841.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-131909306/131909306.jpg",
-            "source": "toi"
+            "url": "https://gulfnews.com/technology/era-of-cheap-smartphones-may-be-ending-why-prices-are-surging-1.500622769",
+            "image": "https://media.assettype.com/gulfnews/2026-05-05/638am9rr/202605053776795.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "HBO Is Getting Down In The Slop With Everyone Else",
+            "severity": "WATCH",
+            "url": "https://kotaku.com/hbo-is-getting-down-in-the-slop-with-everyone-else-2000719950",
+            "image": "https://kotaku.com/app/uploads/2026/07/sopranos-1280x720.jpg",
+            "source": "kotakugamerguide"
+        },
+        {
+            "title": "Michigan collected millions in 'abandoned' property. Some of it was never lost. | Opinion",
+            "severity": "WATCH",
+            "url": "https://www.detroitnews.com/story/opinion/2026/07/28/its-time-to-fix-michigans-unclaimed-property-system-lewyn/91084376007/",
+            "image": "https://images.pexels.com/photos/4427505/pexels-photo-4427505.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "detroitnews"
+        },
+        {
+            "title": "China adds Canadian 800V electric drive program with new 250kW two-speed EV system",
+            "severity": "WATCH",
+            "url": "https://interestingengineering.com/transportation/china-magna-canadian-800v-electric-drive",
+            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/07/Untitled-design-2026-07-29T033000.682.jpg",
+            "source": "interestingengineering"
+        },
+        {
+            "title": "BE Stock Soars 10% After-Hours On Beating Q2 Expectations, Raised 2026 Revenue Outlook \u2014 CEO Says Order Backlog Outpacing Revenue",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/markets/be-stock-soars-10-after-hours-on-beating-q2-expectations-raised-2026-revenue-outlook-ceo-says-order-backlog-outpacing-revenue-articleshow-uund90e",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-ddc349ac-2b50-4641-9356-54960286f1d0.webp",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Durham hunger center opens as food insecurity rises, SNAP benefits lost across NC",
+            "severity": "WATCH",
+            "url": "https://www.yahoo.com/news/us/articles/durham-hunger-center-opens-food-170850545.html",
+            "image": "https://media.zenfs.com/en/wtvd_articles_701/0917d13693e52f2f50f371b8f218eb14",
+            "source": "yahoo"
+        },
+        {
+            "title": "Top scientists at OpenAI and Anthropic ask U.S. for tools to pace AI development",
+            "severity": "WATCH",
+            "url": "https://www.nbcnews.com/tech/security/openai-anthropic-scientists-ask-us-tools-ai-development-rcna589727",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2023-11/231102-data-center-stock-mn-1420-c79938.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "B.O.S. Better Online Solutions Ltd. (BOSC) Discusses Strategy, Execution and Financial Discipline Across Key Markets Transcript",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/article/4926501-b-o-s-better-online-solutions-ltd-bosc-discusses-strategy-execution-and-financial-discipline",
+            "image": "https://seekingalpha.com/samw/static/images/DefaultArticleImage.3b7f26873.png",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Arsenal found in suburban drug house",
+            "severity": "WATCH",
+            "url": "https://au.news.yahoo.com/arsenal-found-suburban-drug-house-222951299.html",
+            "image": "https://media.zenfs.com/en/nca_newswire_424/b0a101d2ac8ff0a109201cbd5d56d017",
+            "source": "yahoo"
+        },
+        {
+            "title": "LaMelo Ball sued for allegedly being nightmare tenant weeks after shock trade to Timberwolves",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/07/28/sports/lamelo-ball-sued-weeks-after-shocking-trade-to-timberwolves/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2Fcharlotte-hornets-guard-lamelo-ball-135798897.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "'No money lost' following TSD portal leak",
+            "severity": "WATCH",
+            "url": "https://www.bangkokpost.com/thailand/general/3293202/no-money-lost-following-tsd-portal-leak",
+            "image": "https://static.bangkokpost.com/media/content/20260729/c1_3293202_260729052516.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
+            "severity": "WATCH",
+            "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
+            "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg",
+            "source": "arstechnica"
+        },
+        {
+            "title": "Monster 13-ft beast found off California coast in Shark Week\u2019s hunt for the world\u2019s biggest",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/07/28/us-news/monster-13-ft-beast-found-off-california-coast-in-shark-weeks-hunt-for-the-worlds-biggest/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2F135787375.jpg?quality%3D90%26strip%3Dall",
+            "source": "nypost"
+        },
+        {
+            "title": "CBI files charge sheet against 13 accused in NEET-UG 2026 paper leak case",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/news/national/cbi-files-charge-sheet-against-13-accused-in-neet-ug-2026-paper-leak-case/article71278505.ece",
+            "image": "https://th-i.thgim.com/public/incoming/18cayk/article71278696.ece/alternates/FREE_1200/2026-07-25T105348Z_1227780787_RC2WKMAIZDWB_RTRMADP_3_INDIA-POLITICS.JPG",
+            "source": "thehindu"
         }
     ],
-    "Last_Updated": "2026-07-29T06:36:32.521839Z"
+    "Last_Updated": "2026-07-29T10:44:57.842997Z"
 }
