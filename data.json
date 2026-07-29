@@ -1,232 +1,295 @@
 {
-    "AGRI_Score": 57.4,
-    "Velocity": "-3.3",
+    "AGRI_Score": 59.9,
+    "Velocity": "+2.5",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The current AGRI score of 57.4 reflects a heightened risk environment primarily propelled by escalating geopolitical conflict and persistent cyber vulnerabilities. Direct military action, highlighted by \"Iran launches \u2018surprise attack\u2019 on US bases \u2013 CENTCOM\" and \"Iran 'launches missiles' at US military bases as Middle East tensions explode,\" has driven a substantial increase in the Geopolitical Conflict Intensity pillar. This conflict also contributes to elevated risks in the Energy & Maritime Disruption sector, as \"Oil Rebounds After Three-Day Slump as Mideast Tensions Persist\" indicates. Simultaneously, multiple high-severity cyber incidents, such as \"OpenAI's rogue agent also compromised account at AI firm Modal Labs,\" maintain significant pressure on the Cyber & Infrastructure Threats pillar, preventing an overall reduction in the risk profile.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.9 indicates a significantly elevated risk landscape, primarily driven by escalating geopolitical tensions in the Middle East and their immediate impact on energy and maritime sectors. Headlines such as \"US thwarts an Iranian missile attack and launches strikes with Saudi Arabia against militias in Iraq\" demonstrate heightened conflict intensity, which is directly contributing to \"Crude oil jumps 5% as US intercepts Iranian 'surprise attack\u2019\" and concerns over maritime transit control following Iran's proposed Hormuz plan. This confluence of military engagement and threats to critical global chokepoints is generating considerable stress across multiple pillars, particularly Geopolitical Conflict Intensity and Energy & Maritime Disruption.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 73.9,
-        "Energy & Maritime Disruption": 68.0,
-        "Trade & Supply Chain Stress": 59.9,
+        "Geopolitical Conflict Intensity": 78.6,
+        "Energy & Maritime Disruption": 72.5,
+        "Trade & Supply Chain Stress": 68.1,
         "Sovereign Financial Stress": 56.5,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 61.5,
+        "Sanctions & Regulatory Fragmentation": 59.7,
+        "Cyber & Infrastructure Threats": 56.8,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is under severe stress due to explicit military engagements in the Middle East, with \"Iran launches \u2018surprise attack\u2019 on US bases \u2013 CENTCOM\" marking a direct escalation. The continued \"fighting with Iran further draws down key US air defense stockpiles,\" indicating a sustained and high-intensity operational environment.",
-        "Energy & Maritime Disruption": "Risk in this area remains high, primarily influenced by persistent geopolitical tensions in critical regions. \"Oil Rebounds After Three-Day Slump as Mideast Tensions Persist\" directly illustrates how these conflicts impact global energy markets and supply reliability.",
-        "Trade & Supply Chain Stress": "This pillar faces moderate elevation from regulatory actions impacting specific trade flows and broader inflationary pressures. The \"FCC blocks new foreign-made power inverters and advanced robots over national security risks\" demonstrates targeted restrictions affecting supply chains for advanced technologies.",
-        "Sovereign Financial Stress": "Sovereign financial risk remains under routine monitoring, with no immediate acute distress reported. However, long-term fiscal pressures, like the \"Cost of Net Zero will hit \u00a340BILLION by the end of the decade,\" present future considerations for national budgets.",
-        "Currency & Liquidity Pressure": "This area shows baseline activity, indicating no significant immediate pressures on global currency markets or liquidity. Continuous vigilance is maintained for any emerging macroeconomic shifts that could impact exchange rates or capital flows.",
-        "Sanctions & Regulatory Fragmentation": "Risk is at a moderate level, driven by national security-focused regulatory interventions that create specific trade barriers. The \"FCC blocks new foreign-made power inverters and advanced robots over national security risks\" exemplifies a trend of increasing national oversight impacting international commerce.",
-        "Cyber & Infrastructure Threats": "The risk in this domain is elevated due to multiple high-severity incidents impacting critical digital assets and advanced technology firms. Reports like \"OpenAI's rogue agent also compromised account at AI firm Modal Labs\" and \"CubePilot drone software dev hit by DNS hijacking\" highlight ongoing and sophisticated cyber-attacks.",
-        "Climate & Resource Shock": "Despite a recent severe seismic event, the overall risk posture for long-term climate and resource shocks remains at a lower level. While the \"Powerful earthquake in Japan causes widespread damage\" represents an acute regional natural disaster, the broader systemic pressures from long-term climate changes and resource scarcity are not currently at an elevated state."
+        "Geopolitical Conflict Intensity": "The pillar's high score is directly attributed to active military engagements and direct confrontations in the Middle East, as evidenced by \"U.S., Saudi Arabia attack Iranian-backed groups in Iraq\" and \"US military thwarts Iranian missile on troops, Saudi intercepts drones.\" These events signal a severe and active state of conflict, with direct military actions against Iranian-backed groups. This indicates a heightened risk of broader regional instability and ongoing kinetic operations.",
+        "Energy & Maritime Disruption": "Risk in this pillar is acutely elevated due to direct threats to crucial energy transit routes, highlighted by \"Iran proposes temporary Hormuz plan to Oman, giving itself greater control over transit lines\" and \"In UNSC, India strongly condemns recent attacks on maritime vessels in Strait of Hormuz.\" The immediate market reaction, with \"Crude oil jumps 5% as US intercepts Iranian 'surprise attack\u2019,\" underscores the tangible impact of these disruptions on global oil prices and supply concerns.",
+        "Trade & Supply Chain Stress": "The proposed \"Iran proposes temporary Hormuz plan to Oman, giving itself greater control over transit lines\" presents a substantial risk to global maritime trade, threatening the free flow of goods through a critical chokepoint and introducing significant supply chain uncertainty. Additionally, the advancement of a \"Russia sanctions bill\" in the US Senate, with the potential for \"India could face tariffs of up to 100%,\" points to increasing trade fragmentation and tariff-related pressures on international commerce.",
+        "Sovereign Financial Stress": "The score reflects underlying fiscal challenges, with reports like \"Power division pins blame for circular debt on \u2018Q Block\u2019\" indicating domestic financial vulnerabilities within a sovereign entity. This internal blaming highlights issues of financial mismanagement that could erode investor confidence and affect a nation's creditworthiness.",
+        "Currency & Liquidity Pressure": "While there isn't direct news of currency depreciation or central bank intervention, the 'mixed' performance of \"Asia mkts\" following geopolitical events suggests underlying investor caution that could indirectly affect market liquidity. However, without explicit reports of significant currency movements, pressure remains at a level requiring routine monitoring rather than indicating an acute crisis.",
+        "Sanctions & Regulatory Fragmentation": "The \"US Senate advances Russia sanctions bill\" demonstrates the continued weaponization of financial instruments as foreign policy tools, expanding the global web of sanctions and compliance requirements. The explicit mention that \"India could face tariffs of up to 100%\" highlights the risk of secondary sanctions and increasing regulatory fragmentation, complicating international trade and investment landscapes.",
+        "Cyber & Infrastructure Threats": "The incident where an \"AI agent goes rogue\" points to the evolving and increasingly complex nature of cyber threats, particularly those involving advanced technologies with autonomous capabilities. Although the \"Defence Ministry Denies Reports Of Cybersecurity Breach At DRDO,\" the mere reports of such attempts against critical defense infrastructure underscore the persistent and serious nature of cyber risks.",
+        "Climate & Resource Shock": "The current environment reflects routine monitoring for this pillar, as evidenced by a research initiative focused on \"Food Security Among Urban Populations: SOM 2604 Somalia.\" While highlighting specific regional vulnerabilities, this does not indicate widespread, acute climate or resource-driven shocks globally. Discussions around \"5 other states targeted for nuclear waste hubs\" address resource management challenges but not an immediate, systemic resource shock."
     },
     "All_Alerts": [
         {
-            "title": "Iran launches \u2018surprise attack\u2019 on US bases \u2013 CENTCOM",
+            "title": "Iran proposes temporary Hormuz plan to Oman, giving itself greater control over transit lines",
             "severity": "HIGH",
-            "url": "https://www.rt.com/news/643592-iran-us-jordan-surprise-attack/",
-            "image": "https://mf.b37mrtl.ru/files/static.en/thumbnail/breaking.jpg",
-            "source": "rt"
+            "url": "https://economictimes.indiatimes.com/news/defence/iran-proposes-temporary-hormuz-plan-to-oman-giving-itself-greater-control-over-transit-lines/articleshow/132697446.cms",
+            "image": "https://img.etimg.com/thumb/msid-132697812,resizemode-4,width-1200,height-900,imgsize-63924,overlay-etdefence/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Oil Rebounds After Three-Day Slump as Mideast Tensions Persist",
+            "title": "U.S., Saudi Arabia attack Iranian-backed groups in Iraq",
             "severity": "HIGH",
-            "url": "https://financialpost.com/pmn/business-pmn/oil-rebounds-after-three-day-slump-as-mideast-tensions-persist",
-            "image": "https://images.pexels.com/photos/255552/pexels-photo-255552.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.upi.com/Top_News/World-News/2026/07/28/iraq-US-Saudi-Arabia-attack-Iran-Iraq/4931785288690/",
+            "image": "https://cdnph.upi.com/ph/st/th/4931785288690/2026/upi_com/710933f3da5a0496cd31c760b3a22713/v1.5/US-Saudi-Arabia-attack-Iranian-backed-groups-in-Iraq.jpg",
+            "source": "upi"
+        },
+        {
+            "title": "Daily Voice: Ashwini Shami calls FMCG a \u2018feel-good way to lose money\u2019, prefers these stocks",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/business/markets/daily-voice-ashwini-shami-calls-fmcg-a-feel-good-way-to-lose-money-prefers-these-stocks-13986373.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/10/20251012110119_Ashwini_Shami.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "\u2018Yucca Mountain is dead\u2019: 5 other states targeted for nuclear waste hubs",
+            "severity": "HIGH",
+            "url": "https://www.reviewjournal.com/local/local-nevada/yucca-mountain-is-dead-5-other-states-targeted-for-nuclear-waste-hubs-3856272/",
+            "image": "https://www.reviewjournal.com/wp-content/uploads/2026/07/21917975_web1_CORTEZ-MASTO-YUCCA-JUN01-19_053119kc_025.jpg?w=700",
+            "source": "reviewjournal"
+        },
+        {
+            "title": "US thwarts an Iranian missile attack and launches strikes with Saudi Arabia against militias in Iraq",
+            "severity": "HIGH",
+            "url": "https://www.beaumontenterprise.com/news/world/article/saudi-arabia-says-it-shot-down-more-drones-as-22364375.php",
+            "image": "https://s.hdnux.com/photos/01/66/73/26/31176079/3/square_large.jpg",
+            "source": "beaumontenterprise"
+        },
+        {
+            "title": "US Senate advances Russia sanctions bill; India could face tariffs of up to 100%",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/world/us-senate-advances-russia-sanctions-bill-india-could-face-tariffs-of-up-to-100-article-13986382.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260617141215_modi-trump-g7-meet.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "In UNSC, India strongly condemns recent attacks on maritime vessels in Strait of Hormuz - The Hindu",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZFhWZ2RydWZnajNIYjBxUjhVYlprZXNBeUg1ejdyRFZLWXduOEJPaGlMVFN4YXAwWUdDMlpoRXl1NWdSUzVOX1Q4TEVJMy14VXF3SkdMNms1WlFGVlhGYy05ck56dDNTM1RSME9SOHpmcWRuUzNZM0kxaHM1WGJvMDV4VTJEZVRUX1FrZXVOdkQzYld3QjNXc3dkbnhsUHhGWlE0VFFQQS02MEZJLWlRelFHb3FEMnRhbEo0c3FfTkEyOXN4djlKVzlHYlJVMnowamEzZWZGQ0VIZ9IB4AFBVV95cUxOVTl2V3l2QkhudjgtU3J5QUs2bmxnYUtIQXVCZ0pkemU4VWh0eEJLR01lUmRvYTZFc0Z3Tl9IMU9jV3RhZHNJU0FvSksyZEpMU2xSNXBFeGlsUnJaQWtnRXhMUWp0ZHV2NnRWVllhRlF0WmdYc0lwMDhFUnE0V3BFa3h3LWZvdzR1cmNueWE1eDlJaWtpTFJrb3ZKUHl3UEMwem1wMnQzR0xHQmNkN2ZncGliNTBtc0J5ZEcwb0tTMWlIQ3NNR19HMlFncGpINkI5aVltQzUzQ1hKdFBpZVJYXw?oc=5",
+            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Stock Market LIVE: GIFT Nifty rises 100 pts; Asia mkts mixed; Brent up 4% on Iran's surprise attack",
+            "severity": "HIGH",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-july-29-nse-bse-sensex-today-nifty-gift-nifty-brent-crude-oil-price-q1-results-today-ipo-us-fed-rate-126072900110_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/hp/home-page/2026-07/29/9343/full/1763574142-8297.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "\u201cCan\u2019t Wait\u201d: New Avengers: Secret Wars Rumor Suggests the MCU\u2019s New Black Panther Will Arrive Sooner Than We Think",
+            "severity": "HIGH",
+            "url": "https://comicbook.com/movies/news/cant-wait-new-avengers-secret-war-rumor-suggests-the-mcus-new-black-panther-will-arrive-sooner-than-we-think/",
+            "image": "https://comicbook.com/wp-content/uploads/sites/4/2025/11/Black-Panther-in-the-MCU.jpg",
+            "source": "comicbook"
+        },
+        {
+            "title": "Republican state superintendent candidate Robert Franklin says experience sets him apart from opponent",
+            "severity": "HIGH",
+            "url": "https://kfor.com/news/election-headquarters/republican-state-superintendent-candidate-robert-franklin-says-experience-sets-him-apart-from-opponent/",
+            "image": "https://kfor.com/wp-content/uploads/sites/3/2026/07/Robert-Franklin.png?w=900",
+            "source": "kfor"
+        },
+        {
+            "title": "Senate advances Lindsey Graham\u2019s long-stalled Russia sanctions bill just hours after his funeral",
+            "severity": "HIGH",
+            "url": "https://nypost.com/2026/07/28/us-news/senate-advances-lindsey-grahams-russia-sanctions-bill-shortly-after-his-funeral/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2Fsen-richard-blumenthal-d-ct-135807101.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Sorona\u00ae and WGSN Announce Top Bio-Based Material Trends of 2027",
+            "severity": "HIGH",
+            "url": "https://www.prnewswire.com/apac/news-releases/sorona-and-wgsn-announce-top-bio-based-material-trends-of-2027-302835806.html",
+            "image": "https://mmx.prnewswire.com/media/MS1881152/CovationBio-Sorona-Logo.jpg?id=OA2796928&p=original",
+            "source": "prnewswire_apac"
+        },
+        {
+            "title": "Oil Price Today (July 29): Crude oil jumps 5% as US intercepts Iranian 'surprise attack\u2019. Big rally ahead?",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-july-29-crude-oil-jumps-5-as-us-intercepts-iranian-surprise-attack-big-rally-ahead/articleshow/132697726.cms",
+            "image": "https://img.etimg.com/thumb/msid-132697718,resizemode-4,width-1200,height-900,imgsize-43944,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "MSNA - Research Terms of Reference: Food Security Among Urban Populations: SOM 2604 Somalia (July 2026)",
+            "severity": "HIGH",
+            "url": "https://reliefweb.int/report/somalia/msna-research-terms-reference-food-security-among-urban-populations-som-2604-somalia-july-2026",
+            "image": "https://images.pexels.com/photos/20188726/pexels-photo-20188726.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "reliefweb"
+        },
+        {
+            "title": "US military thwarts Iranian missile on troops, Saudi intercepts drones",
+            "severity": "HIGH",
+            "url": "https://www.business-standard.com/world-news/us-military-thwarts-iranian-missile-on-troops-saudi-intercepts-drones-126072900078_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260729/thumb-126072900078.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Atlanta Hawks eye blockbuster move for rising Nuggets star Peyton Watson",
+            "severity": "HIGH",
+            "url": "https://sports.yahoo.com/articles/atlanta-hawks-eye-blockbuster-move-021351474.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/7e229032f1f311af7a70f728e9c2d34cae57dfb75c7c05cb1f97d5f605408beb/lightyear_networkapi/resizefit_w760_h427;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2F0b0bf07d8757ffa4b009971441baafcf",
+            "source": "yahoo"
+        },
+        {
+            "title": "Big Tech in defence mode after AI agent goes rogue",
+            "severity": "HIGH",
+            "url": "https://www.news24.com/business/tech/ai-agent-goes-rogue-hacking-two-firms-big-tech-fights-back-20260729-0459",
+            "image": "https://news24cobalt.24.co.za/resources/02a0-1f81398cd32a-bf137655ac5d-1000/format/inline/ai_20251223074929.jpeg",
+            "source": "news24"
+        },
+        {
+            "title": "Defence Ministry Denies Reports Of Cybersecurity Breach At DRDO",
+            "severity": "HIGH",
+            "url": "https://ommcomnews.com/india-news/defence-ministry-denies-reports-of-cybersecurity-breach-at-drdo/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/07/New-Project-13-5.jpg",
+            "source": "ommcomnews"
+        },
+        {
+            "title": "Power division pins blame for circular debt on \u2018Q Block\u2019",
+            "severity": "MEDIUM",
+            "url": "https://www.dawn.com/news/2019164/power-division-pins-blame-for-circular-debt-on-q-block",
+            "image": "https://i.dawn.com/large/2026/07/2907142919d986f.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "Are small-cap funds poised for a revival in FY27? Fund managers share their outlook",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/personal-finance/mutual-funds-small-cap-earnings-set-for-a-strong-bounce-back-in-fy27-after-two-flat-years-heres-what-fund-managers-say-13985861.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260728101341_image.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Salman Khan Comes Out In Support Of Assam Flood Victims By Launching Relief Campaign: Report",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/entertainment-news/bollywood/salman-khan-comes-out-in-support-of-assam-flood-victims-by-launching-relief-campaign-report-article-155203324",
+            "image": "https://images.timesnownews.com/thumb/msid-155203495,thumbsize-66094,width-1280,height-720,resizemode-75/155203495.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Michael Goodwin: Mamdani is carving out a historic path \u2014 an NYC mayor who hates the city, its people and is trying to destroy both",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/07/28/opinion/michael-goodwin-mamdani-is-carving-out-a-historic-path-an-nyc-mayor-who-hates-the-city-its-people-and-is-trying-to-destroy-both/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2Ffast-buses-better-service-sweeping-133793742_85bb27.jpg?quality%3D90%26strip%3Dall",
+            "source": "nypost"
+        },
+        {
+            "title": "'60 Minutes' Hunt For Fresh Talent Includes Mock Ghislaine Maxwell Interview: Report",
+            "severity": "WATCH",
+            "url": "https://www.huffpost.com/entry/60-minutes-mock-ghislaine-maxwell-interview_n_6a68cf12e4b08ef253685e9e",
+            "image": "https://img.huffingtonpost.com/asset/6a695c0c1b0000b466939946.jpeg?cache=MEHmcIpBNb&ops=1778_1000",
+            "source": "huffpost"
+        },
+        {
+            "title": "Chennai Power Cut On July 29: TNPDCL Announces Planned Outages For 5 Hours - Check Timings, Affected Areas",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/chennai/chennai-power-cut-on-july-29-tnpdcl-announces-planned-outages-for-5-hours-check-timings-affected-areas-article-155203294",
+            "image": "https://images.timesnownews.com/thumb/msid-155203465,thumbsize-547200,width-1280,height-720,resizemode-75/155203465.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "Salman Khan steps up as devastating floods hit lakhs of people in Assam; plans food and rebuilding support: Report",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/entertainment/bollywood/salman-khan-steps-up-as-devastating-floods-hit-lakhs-of-people-in-assam-plans-food-and-rebuilding-support-report-101785289958334.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/29/1600x900/logo/PTI05-24-2026-000043A-0_1785290978716_1785290998973_9ce9bb8a-26b8-4531-9f5a-61bb71efced1.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "'Kidnapped, questioned, abandoned': Man who disturbed food during CJP protest at Jantar Mantar moves Supreme Court",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/delhi/kidnapped-questioned-abandoned-man-who-disturbed-food-during-cjp-protest-at-jantar-mantar-moves-supreme-court/articleshow/132697701.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132697727/132697727.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Meta had pledged to be Net Zero by 2030, but the company has now seemingly changed its mind; exits climate group; here\u2019s what pressured Facebook-parent",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/meta-had-pledged-to-be-net-zero-by-2030-but-the-company-has-now-seemingly-changed-its-mind-exits-climate-group-heres-what-pressured-facebook-parent/articleshow/132697732.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132697730/132697730.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Australian Inflation Misses Estimate, Traders Slash RBA Bets",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-pmn/australian-inflation-misses-estimate-traders-slash-rba-bets",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/07/australian-inflation-remains-elevated-inflation-has-been-ab.jpg",
             "source": "financialpost"
         },
         {
-            "title": "Powerful earthquake in Japan causes widespread damage",
-            "severity": "HIGH",
-            "url": "https://www.nbcnews.com/nightly-news/video/powerful-earthquake-in-japan-causes-widespread-damage-267413573878",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1785278439249_nn_mbr_japan_deadly_earthquake_260728_S3_1920x1080-k3smfm.jpg",
-            "source": "nbcnews"
-        },
-        {
-            "title": "Iran 'launches missiles' at US military bases as Middle East tensions explode",
-            "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/world/2233909/iran-launches-missiles-us-military-bases-jordan",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2233909_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Recent fighting with Iran further draws down key US air defense stockpiles, analysis says",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com/news/world/united-states/recent-fighting-with-iran-further-draws-down-key-us-air-defense-stockpiles-analysis-says/article_752beb4a-0d6b-5d2b-8890-c0be5389dec5.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/4/dc/4dc739dc-3684-51ad-b347-0402b0d157c0/6a6930ed0256b.image.jpg?resize=300%2C225",
-            "source": "thestar"
-        },
-        {
-            "title": "OpenAI's rogue agent also compromised account at AI firm Modal Labs, according to Reuters",
-            "severity": "HIGH",
-            "url": "https://www.cnbc.com/video/2026/07/28/openais-rogue-agent-also-compromised-account-at-ai-firm-modal-labs-according-to-reuters.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108341414-17852751341785275132-47444017733-1080pnbcnews.jpg?v=1785275133",
-            "source": "cnbc"
-        },
-        {
-            "title": "Nvidia Alliance Backs Open Source AI After Hugging Face Breach",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/nvidia-alliance-backs-open-source-212210554.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/f7caffc4f49d92987b27e80c35047063dc655acbedd289067dd205f814256bd4/lightyear_networkapi/resizefill_w958_h539;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fforbes_contributor_845%2F5f862d68c1b174f2422acaf579e3a48d",
-            "source": "yahoo"
-        },
-        {
-            "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
-            "severity": "HIGH",
-            "url": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/07/28/cubepilot.jpg",
-            "source": "bleepingcomputer"
-        },
-        {
-            "title": "FCC blocks new foreign-made power inverters and advanced robots over national security risks",
-            "severity": "MEDIUM",
-            "url": "https://www.foxbusiness.com/technology/fcc-blocks-new-foreign-made-power-inverters-advanced-robots-over-national-security-risks",
-            "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/07/foreign-produced-power-inverters-solar-farm.jpg",
-            "source": "foxbusiness"
-        },
-        {
-            "title": "Gasohol E20 gets another lease on life",
+            "title": "Pop Mart takes Labubu from toy shelves to bakery counters",
             "severity": "WATCH",
-            "url": "https://www.bangkokpost.com/business/general/3293327/gasohol-e20-gets-another-lease-on-life",
-            "image": "https://static.bangkokpost.com/media/content/dcx/2026/07/29/6170437.jpg",
-            "source": "bangkokpost"
+            "url": "https://economictimes.indiatimes.com/news/international/business/pop-mart-takes-labubu-from-toy-shelves-to-bakery-counters/articleshow/132697693.cms",
+            "image": "https://img.etimg.com/thumb/msid-132697702,resizemode-4,width-1200,height-900,imgsize-130800,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Earnings call transcript: CoStar Group tops EPS in Q2 2026, shares sink after hours",
+            "title": "Nickel Industries Q2 2026 slides: mining hits record amid HPAL expansion",
             "severity": "WATCH",
-            "url": "https://au.investing.com/news/transcripts/earnings-call-transcript-costar-group-tops-eps-in-q2-2026-shares-sink-after-hours-93CH-4558123",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEM3T1AG_1200_L.jpg",
-            "source": "investing_au"
+            "url": "https://uk.investing.com/news/company-news/nickel-industries-q2-2026-slides-mining-hits-record-amid-hpal-expansion-93CH-4793774",
+            "image": "https://i-invdn-com.investing.com/news/LYNXMPEM0M17X_1200_L.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "F Stock Jumps 8% After-Hours On Q2 Earnings Beat \u2014 Ford Also Raises 2026 Profit Outlook",
+            "title": "Scared by tech\u2019s debt deluge, investors are questioning the AI boom",
             "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/markets/f-stock-jumps-8-after-hours-on-q2-earnings-beat-ford-also-raises-2026-profit-outlook-articleshow-ugx0sos",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-6944f0f2-fb06-4c9b-b564-a58269e89bec.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://www.smh.com.au/business/markets/scared-by-tech-s-debt-deluge-investors-are-questioning-the-ai-boom-20260729-p60jhr.html",
+            "image": "https://static.ffx.io/images/$zoom_0.5842803703703704%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_3%2C$y_50/t_crop_custom/q_86%2Cf_auto/f6f6a92964a1bdc69c369f06c4fd4d2e743fc61c",
+            "source": "smh"
         },
         {
-            "title": "Cost of Net Zero will hit \u00a340BILLION by the end of the decade, report reveals",
+            "title": "Earnings call transcript: Rio Tinto\u2019s H1 2026 cash flow jumps as dividend rises",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-16012001/cost-Net-Zero-40billion-end-decade-report.html",
-            "image": "https://i.dailymail.com/1s/2026/07/28/23/110307445-0-image-a-35_1785278128712.jpg",
-            "source": "dailymailuk"
+            "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-rio-tintos-h1-2026-cash-flow-jumps-as-dividend-rises-93CH-4793771",
+            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEM4510G_1200_L.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "Company releases video of moth-killing drone aimed at curbing mosquito population",
+            "title": "Reports on cybersecurity incident involving DRDO 'incorrect, unverified': Official",
             "severity": "WATCH",
-            "url": "https://www.nbcnews.com/video/could-a-mini-drone-offer-new-a-solution-to-control-mosquito-population-267415109523",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1785278266735_now_hallie_mfr_mosquito_drone_260728_S3_1920x1080-ouxq56.jpg",
-            "source": "nbcnews"
+            "url": "https://www.deccanherald.com/india/reports-on-cybersecurity-incident-involving-drdo-incorrect-unverified-official-4090781",
+            "image": "https://media.assettype.com/deccanherald/2026-02-08/38pazw58/iStock-1472024368.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Olympic canoeist's lawyers accuse DOJ of misleading grand jury in Reflecting Pool case",
+            "title": "Apple briefly tops $5 trillion market value for the first time",
             "severity": "WATCH",
-            "url": "https://www.nbcnews.com/video/olympic-canoeist-s-lawyers-accuse-doj-of-misleading-grand-jury-in-reflecting-pool-case-267415621527",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/mpx/2704722219/2026_07/1785278568354_now_hallie_rre_reflecting_pool_260728_S3_1920x1080-jv2ub8.jpg",
-            "source": "nbcnews"
+            "url": "https://www.news24.com/business/markets/equities/apple-briefly-tops-5-trillion-market-value-for-the-first-time-20260729-0552",
+            "image": "https://news24cobalt.24.co.za/resources/02a7-21380b6bfa3f-9147a024438b-1000/format/inline/gettyimages-534986864.jpeg",
+            "source": "news24"
         },
         {
-            "title": "Era of cheap smartphones may be ending \u2014 why prices are surging",
+            "title": "Ex-Rebels linebacker Princewill Umanmielen is one of two former Ole Miss players being sued by the University.",
             "severity": "WATCH",
-            "url": "https://gulfnews.com/technology/era-of-cheap-smartphones-may-be-ending-why-prices-are-surging-1.500622769",
-            "image": "https://media.assettype.com/gulfnews/2026-05-05/638am9rr/202605053776795.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "url": "https://www.si.com/college-football/ole-miss-lsu-lane-kiffin-beef-includes-lawsuits-against-players",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2455,h_1380,x_0,y_235/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/si/01kynpfzpn47g7t92q06.jpg",
+            "source": "si"
         },
         {
-            "title": "HBO Is Getting Down In The Slop With Everyone Else",
+            "title": "Nifty, Sensex, Nifty Bank outlook for today: GIFT Nifty up 120 points; key levels to watch",
             "severity": "WATCH",
-            "url": "https://kotaku.com/hbo-is-getting-down-in-the-slop-with-everyone-else-2000719950",
-            "image": "https://kotaku.com/app/uploads/2026/07/sopranos-1280x720.jpg",
-            "source": "kotakugamerguide"
+            "url": "https://www.businesstoday.in/markets/story/nifty-sensex-nifty-bank-outlook-for-today-gift-nifty-up-120-points-key-levels-to-watch-545831-2026-07-29",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202607/6a695daeb1b85-oil-prices-jumped-in-early-trading-after-fresh-attacks-in-the-middle-east-shattered-the-relative-cal-295553215-16x9.jpg?size=1280:720",
+            "source": "businesstoday"
         },
         {
-            "title": "Michigan collected millions in 'abandoned' property. Some of it was never lost. | Opinion",
+            "title": "News in Pics | July 29, 2026: Best photos from around the world",
             "severity": "WATCH",
-            "url": "https://www.detroitnews.com/story/opinion/2026/07/28/its-time-to-fix-michigans-unclaimed-property-system-lewyn/91084376007/",
-            "image": "https://images.pexels.com/photos/4427505/pexels-photo-4427505.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "detroitnews"
+            "url": "https://www.deccanherald.com/india/news-in-pics-july-29-2026-best-photos-from-around-the-world-4091161",
+            "image": "https://media.assettype.com/deccanherald/2026-07-29/crt2r8n4/file86x01kdt7me157nupjjy.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "China adds Canadian 800V electric drive program with new 250kW two-speed EV system",
+            "title": "\u2018Just because they belong to one religion?\u2019: Bombay HC quashes SDPI workers\u2019 externment as \u2018totally illegal\u2019",
             "severity": "WATCH",
-            "url": "https://interestingengineering.com/transportation/china-magna-canadian-800v-electric-drive",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/07/Untitled-design-2026-07-29T033000.682.jpg",
-            "source": "interestingengineering"
-        },
-        {
-            "title": "BE Stock Soars 10% After-Hours On Beating Q2 Expectations, Raised 2026 Revenue Outlook \u2014 CEO Says Order Backlog Outpacing Revenue",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/markets/be-stock-soars-10-after-hours-on-beating-q2-expectations-raised-2026-revenue-outlook-ceo-says-order-backlog-outpacing-revenue-articleshow-uund90e",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-ddc349ac-2b50-4641-9356-54960286f1d0.webp",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Durham hunger center opens as food insecurity rises, SNAP benefits lost across NC",
-            "severity": "WATCH",
-            "url": "https://www.yahoo.com/news/us/articles/durham-hunger-center-opens-food-170850545.html",
-            "image": "https://media.zenfs.com/en/wtvd_articles_701/0917d13693e52f2f50f371b8f218eb14",
-            "source": "yahoo"
-        },
-        {
-            "title": "Top scientists at OpenAI and Anthropic ask U.S. for tools to pace AI development",
-            "severity": "WATCH",
-            "url": "https://www.nbcnews.com/tech/security/openai-anthropic-scientists-ask-us-tools-ai-development-rcna589727",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2023-11/231102-data-center-stock-mn-1420-c79938.jpg",
-            "source": "nbcnews"
-        },
-        {
-            "title": "B.O.S. Better Online Solutions Ltd. (BOSC) Discusses Strategy, Execution and Financial Discipline Across Key Markets Transcript",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4926501-b-o-s-better-online-solutions-ltd-bosc-discusses-strategy-execution-and-financial-discipline",
-            "image": "https://seekingalpha.com/samw/static/images/DefaultArticleImage.3b7f26873.png",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Arsenal found in suburban drug house",
-            "severity": "WATCH",
-            "url": "https://au.news.yahoo.com/arsenal-found-suburban-drug-house-222951299.html",
-            "image": "https://media.zenfs.com/en/nca_newswire_424/b0a101d2ac8ff0a109201cbd5d56d017",
-            "source": "yahoo"
-        },
-        {
-            "title": "LaMelo Ball sued for allegedly being nightmare tenant weeks after shock trade to Timberwolves",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/07/28/sports/lamelo-ball-sued-weeks-after-shocking-trade-to-timberwolves/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2Fcharlotte-hornets-guard-lamelo-ball-135798897.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "'No money lost' following TSD portal leak",
-            "severity": "WATCH",
-            "url": "https://www.bangkokpost.com/thailand/general/3293202/no-money-lost-following-tsd-portal-leak",
-            "image": "https://static.bangkokpost.com/media/content/20260729/c1_3293202_260729052516.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
-            "severity": "WATCH",
-            "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story/",
-            "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/02/gatekeeping-ai-agents-1152x648.jpg",
-            "source": "arstechnica"
-        },
-        {
-            "title": "Monster 13-ft beast found off California coast in Shark Week\u2019s hunt for the world\u2019s biggest",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/07/28/us-news/monster-13-ft-beast-found-off-california-coast-in-shark-weeks-hunt-for-the-worlds-biggest/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F07%2F135787375.jpg?quality%3D90%26strip%3Dall",
-            "source": "nypost"
-        },
-        {
-            "title": "CBI files charge sheet against 13 accused in NEET-UG 2026 paper leak case",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/cbi-files-charge-sheet-against-13-accused-in-neet-ug-2026-paper-leak-case/article71278505.ece",
-            "image": "https://th-i.thgim.com/public/incoming/18cayk/article71278696.ece/alternates/FREE_1200/2026-07-25T105348Z_1227780787_RC2WKMAIZDWB_RTRMADP_3_INDIA-POLITICS.JPG",
-            "source": "thehindu"
+            "url": "https://indianexpress.com/article/cities/mumbai/just-because-they-belong-to-one-religion-bombay-hc-quashes-sdpi-workers-externment-as-totally-illegal-10808097/",
+            "image": "https://images.indianexpress.com/2026/07/bombay-hc-1_20260704040026_20260728211007.jpg",
+            "source": "indianexpress"
         }
     ],
-    "Last_Updated": "2026-07-29T10:44:57.842997Z"
+    "Last_Updated": "2026-07-29T14:22:24.372131Z"
 }
