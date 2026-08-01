@@ -1,83 +1,118 @@
 {
-    "AGRI_Score": 60.6,
-    "Velocity": "+1.0",
+    "AGRI_Score": 60.8,
+    "Velocity": "+0.2",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 60.6/100 reflects a significantly elevated risk environment, primarily driven by severe Geopolitical Conflict Intensity and substantial Energy & Maritime Disruption. Ongoing global and regional conflicts, such as those highlighted by \"US pursues own interests in Ukraine settlement \u2014 Russian diplomat\" and \"PoK Siege: Massive Protests Erupt Across Pakistani Cities Over Rawalakot Killings,\" continue to fuel instability. Concurrently, critical maritime chokepoint vulnerabilities, exemplified by \"Two VLCCs exit Strait of Hormuz, where traffic remains thin,\" along with emerging challenges in energy production, are contributing to widespread strategic uncertainty.",
+    "AI_Brief": "The overall AGRI score of 60.8 reflects significantly elevated geopolitical tensions and ongoing energy market disruption. This is primarily driven by the headline \"Trump considers targeting Iran's energy facilities, Israel may join military action: Axios,\" which signals a potential for severe escalation in the Middle East and a direct threat to global energy supplies. Concurrently, \"Russian Missiles Kill 9 in Kyiv, Hours After Trump Backs Off Air Defense Pledge\" highlights the continued intensity of active conflicts, further contributing to a complex and high-risk global environment.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 82.3,
+        "Geopolitical Conflict Intensity": 78.4,
         "Energy & Maritime Disruption": 75.2,
-        "Trade & Supply Chain Stress": 66.5,
+        "Trade & Supply Chain Stress": 66.4,
         "Sovereign Financial Stress": 56.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.4,
-        "Cyber & Infrastructure Threats": 56.9,
+        "Sanctions & Regulatory Fragmentation": 59.2,
+        "Cyber & Infrastructure Threats": 64.2,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to persistent global hotspots, with \"US pursues own interests in Ukraine settlement \u2014 Russian diplomat\" underscoring ongoing international disagreements over major conflicts. Regional instability is also a significant factor, as shown by \"PoK Siege: Massive Protests Erupt Across Pakistani Cities Over Rawalakot Killings.\"",
-        "Energy & Maritime Disruption": "Risk in this pillar is high, evidenced by thin traffic in critical shipping lanes with \"Two VLCCs exit Strait of Hormuz, where traffic remains thin,\" indicating ongoing maritime security concerns. Furthermore, the struggling North Sea industry, as BP looks to sell up, suggests potential shifts and vulnerabilities in traditional energy production.",
-        "Trade & Supply Chain Stress": "This pillar indicates rising pressure as \"Indian companies are about to raise prices,\" signaling inflationary trends impacting consumer and business costs. Long-term supply security is also a concern, with \"Critical mineral demand to surge through 2040, supply gaps to persist: IEA\" highlighting future resource bottlenecks.",
-        "Sovereign Financial Stress": "Governments face increasing economic challenges, with \"Indian companies are about to raise prices\" threatening to dampen economic activity and consumer spending. Additionally, the need for government intervention, such as preventing petrol prices from hitting Rs 125/litre in Delhi, highlights underlying fiscal pressures.",
-        "Currency & Liquidity Pressure": "Inflationary pressures, indicated by \"Indian companies are about to raise prices,\" could lead to tightening monetary policies impacting liquidity. Government efforts to stabilize essential commodity prices, like petrol, can exert indirect pressure on fiscal health and, by extension, currency stability.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory uncertainty is highlighted by questions regarding the consistent application of rules, as seen in \"If Chelsea 'deliberately flouted' rules and received no sporting sanctions, will it be same for Man City?\". The continued pursuit of national interests in geopolitical settlements also suggests an environment ripe for evolving and fragmented sanctions regimes.",
-        "Cyber & Infrastructure Threats": "Reliance on critical digital infrastructure, like Starlink in conflict zones, remains a significant vulnerability, as seen in \"Zelensky Asks Trump To Help Win Musk's Nod For Starlink-Assisted Russia Strikes.\" Concerns around essential infrastructure modernization, such as Germany's slow adoption of smart meters, highlight potential for systemic weaknesses.",
-        "Climate & Resource Shock": "Localized, severe environmental contamination poses a direct health and resource risk, exemplified by \"Arsenic 133 times above legal level found in Aughinish Alumina groundwater.\" Furthermore, the projected long-term supply gaps for critical minerals, noted by the IEA, indicate growing resource stress and potential future shocks."
+        "Geopolitical Conflict Intensity": "The intensity of geopolitical conflict is severely elevated, evidenced by the report that \"Trump considers targeting Iran's energy facilities, Israel may join military action: Axios,\" signaling a substantial risk of regional escalation. Ongoing hostilities are also underscored by \"Russian Missiles Kill 9 in Kyiv,\" demonstrating active and deadly conflict in Eastern Europe.",
+        "Energy & Maritime Disruption": "Risk of disruption in energy and maritime sectors is high due to the potential for direct military action against \"Iran's energy facilities,\" as reported by Axios. Such an event would undoubtedly lead to significant volatility in global oil markets and could severely impact critical shipping routes.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress remains elevated, primarily due to critical component shortages impacting key industries. The news that \"Micron (MU) Faces An AI Memory Squeeze As Samsung Sees Shortages Lasting Longer\" indicates persistent bottlenecks in the high-tech sector.",
+        "Sovereign Financial Stress": "While no immediate sovereign defaults are reported, this pillar remains at a moderate risk level due to the potential for widespread economic ripple effects from escalating geopolitical conflicts. Sustained high-intensity conflicts, such as those potentially involving Iran, could strain national budgets and financial stability across regions.",
+        "Currency & Liquidity Pressure": "This pillar is currently at a moderate level, with no immediate reports of significant currency depreciation or liquidity crunches in major markets. However, potential escalation of \"Geopolitical Conflict Intensity\" could rapidly introduce volatility into global financial flows and currency valuations.",
+        "Sanctions & Regulatory Fragmentation": "The environment for sanctions and regulatory fragmentation is heightened by discussions around potential military actions against Iran, which would likely trigger new or expanded international economic measures. The ongoing geopolitical climate, including issues like Gaza, suggests a complex and evolving regulatory landscape for international commerce.",
+        "Cyber & Infrastructure Threats": "Threats to critical infrastructure remain elevated, evidenced by \"Russian Missiles Kill 9 in Kyiv\" impacting urban areas and vital systems. Furthermore, warnings from \"Palantir CEO Alex Karp Issues Fresh Warning Over AI's Growing Threat\" highlight the evolving and sophisticated nature of potential cyber risks.",
+        "Climate & Resource Shock": "This pillar currently reflects routine monitoring, with no widespread acute climate or resource shocks reported globally. While a localized \"Arsenic 133 times above legal level found in Aughinish Alumina groundwater\" indicates specific environmental concerns, it does not represent a systemic resource shock at this time."
     },
     "All_Alerts": [
         {
-            "title": "Indian companies are about to raise prices",
+            "title": "Tesla hits 10 million vehicles: The EV maker that forced the auto industry to change",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/economy/indicators/indian-companies-are-about-to-raise-prices-putting-rbis-inflation-outlook-to-test/articleshow/132781493.cms",
-            "image": "https://img.etimg.com/thumb/msid-132781654,resizemode-4,width-1200,height-900,imgsize-69192,overlay-economictimes/articleshow.jpg",
+            "url": "https://gulfnews.com/auto/news/tesla-hits-10-million-vehicles-the-ev-maker-that-forced-the-auto-industry-to-change-1.500627443",
+            "image": "https://media.assettype.com/gulfnews/2024-11-18/8i7ltnsn/Auto_Covid_19_car_brands_closed__1712fcef084_original_ratio.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Swiss proverb of the day: \u2018Sometimes you have to be silent in order to be heard. It is easier to...\u2019 A life lesson on restraint and understanding from the traditional saying",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/magazines/panache/swiss-proverb-of-the-day-sometimes-you-have-to-be-silent-in-order-to-be-heard-it-is-easier-to-a-life-lesson-on-restraint-and-understanding-from-the-traditional-saying/articleshow/132784353.cms",
+            "image": "https://img.etimg.com/thumb/msid-132784370,resizemode-4,width-1200,height-900,imgsize-129987,overlay-etpanache/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Two VLCCs exit Strait of Hormuz, where traffic remains thin",
+            "title": "Trump considers targeting Iran's energy facilities, Israel may join military action: Axios",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/small-biz/trade/exports/insights/two-vlccs-exit-strait-of-hormuz-where-traffic-remains-thin/articleshow/132781716.cms",
-            "image": "https://img.etimg.com/thumb/msid-132781738,resizemode-4,width-1200,height-900,imgsize-230350,overlay-etrise/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://english.mathrubhumi.com/news/world/trump-weighs-strikes-on-irans-energy-infrastructure-israel-could-join-gzc9x02a",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1stq3xcenbedf7qd52z/0/91a8b649-e2b9-4ed0-9758-acaa0c59d497-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
         },
         {
-            "title": "As BP looks to sell up, Labour must face reality and help struggling North Sea industry",
+            "title": "Mario\u2019s creator explains: This is why the console power war is over",
             "severity": "HIGH",
-            "url": "https://www.scotsman.com/news/opinion/columnists/as-bp-looks-to-sell-up-labour-must-face-reality-and-help-struggling-north-sea-industry-8833764",
-            "image": "https://www.scotsman.com/jpim-static/image/2026/07/31/16/14/GettyImages-469684655.jpeg?width=1200&auto=webp&trim=0%2C0%2C657%2C0",
-            "source": "scotsman"
+            "url": "https://www.notebookcheck.net/Mario-s-creator-explains-This-is-why-the-console-power-war-is-over.1357676.0.html",
+            "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Shigeru-Miyamoto-sagt-Rennen-und-Konsolenleistung-ist-vorbei.jpg",
+            "source": "notebookcheck"
         },
         {
-            "title": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
+            "title": "Akhilesh Yadav vs BJP: Akhilesh Yadav Targets BJP, Says Public Will Never Forgive Broken Promises",
             "severity": "HIGH",
-            "url": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o",
-            "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/678b/live/ea29f390-8c56-11f1-b8ee-9b3c26ad07bb.jpg",
-            "source": "bbc"
+            "url": "https://news.abplive.com/videos/news/india-akhilesh-yadav-vs-bjp-akhilesh-yadav-targets-bjp-says-public-will-never-forgive-broken-promises-1859819",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/08/01/260d58b9070ffb629be7586effbea2741785568515971963_original.png?impolicy=abp_cdn&imwidth=1200&height=675",
+            "source": "abplive"
         },
         {
-            "title": "US pursues own interests in Ukraine settlement \u2014 Russian diplomat",
+            "title": "Seema Sajdeh: Sohail and I are better as friends than we ever were as a couple",
             "severity": "HIGH",
-            "url": "https://tass.com/politics/2167911",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/seema-sajdeh-sohail-and-i-are-better-as-friends-than-we-ever-were-as-a-couple/articleshow/132783666.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132784091/132784091.jpg",
+            "source": "toi"
         },
         {
-            "title": "PoK Siege: Massive Protests Erupt Across Pakistani Cities Over Rawalakot Killings | Exclusive",
+            "title": "Russian Missiles Kill 9 in Kyiv, Hours After Trump Backs Off Air Defense Pledge",
             "severity": "HIGH",
-            "url": "https://www.news18.com/world/pok-siege-massive-protests-erupt-across-pakistani-cities-over-rawalakot-killings-exclusive-ws-l-10246161.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/08/PoK-protest-Pakistan-2026-08-2b446d01e9c32a974f222149f6dbaa69-1200x800.jpg",
-            "source": "news18"
+            "url": "https://www.nytimes.com/2026/08/01/world/europe/ukraine-russia-attack-missiles-patriot.html",
+            "image": "https://static01.nyt.com/images/2026/08/01/multimedia/01int-ukraine-attack-ljbp/01int-ukraine-attack-ljbp-mediumSquareAt3X.jpg",
+            "source": "nytimes"
+        },
+        {
+            "title": "Micron (MU) Faces An AI Memory Squeeze As Samsung Sees Shortages Lasting Longer",
+            "severity": "HIGH",
+            "url": "https://ca.finance.yahoo.com/news/micron-mu-faces-ai-memory-071029288.html",
+            "image": "https://media.zenfs.com/en/simply_wall_st__316/498254faea6d3a26e3e02992d0384657",
+            "source": "yahoo"
+        },
+        {
+            "title": "Have you ever switched allegiance as a football fan? You are not alone | Luke McLaughlin",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/football/2026/aug/01/switch-allegiance-football-fan",
+            "image": "https://i.guim.co.uk/img/media/396252955b16e28adc3b7fe4233787039f799ca3/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=3f0140af053595a546ed5a6377c5c899",
+            "source": "theguardian"
+        },
+        {
+            "title": "EU relations, climate crisis and Gaza: why Ed Miliband is fired up by Foreign Office challenges",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/politics/2026/aug/01/eu-relations-climate-crisis-gaza-ed-miliband-foreign-office-challenges",
+            "image": "https://i.guim.co.uk/img/media/272009bfcd22578175053f0dfd6ead5bac0b7ce3/1779_216_3287_2631/master/3287.jpg?width=140&quality=85&auto=format&fit=max&s=806f3e125632a25d95c6bb749c083623",
+            "source": "theguardian"
+        },
+        {
+            "title": "How Ceuta\u2019s current migration crisis compares to 2021. Is it the largest EU has seen?",
+            "severity": "HIGH",
+            "url": "https://www.firstpost.com/explainers/how-ceuta-current-migration-crisis-compares-to-2021-is-it-the-largest-eu-has-seen-14035284.html",
+            "image": "https://images.firstpost.com/uploads/2026/08/Ceuta-Spain-migration-crisis-July-31-2026-Reuters-2026-08-7917a8c00e091ea75ffbde13f2080db6-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Palantir CEO Alex Karp Issues Fresh Warning Over AI's Growing Threat",
+            "severity": "HIGH",
+            "url": "https://www.timesnownews.com/technology-science/palantir-ceo-alex-karp-issues-fresh-warning-over-ais-growing-threat-article-155226523",
+            "image": "https://images.timesnownews.com/thumb/msid-155226525,thumbsize-96516,width-1280,height-720,resizemode-75/155226525.jpg",
+            "source": "timesnownews"
         },
         {
             "title": "The final hit: Is Glasgow\u2019s 25-year gruesome gangland feud finally over?",
             "severity": "HIGH",
             "url": "https://www.theguardian.com/news/ng-interactive/2026/aug/01/glasgow-25-year-gruesome-gangland-feud-finally-over",
             "image": "https://i.guim.co.uk/img/media/ade742cafddc80620969ffaa074940d8ac247b3f/0_1064_4000_3198/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=e39e35bed3aacd29661ed37e08329173",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "\u2018I felt sick that he was near my mum\u2019: a top amputation surgeon had his own legs removed due to a fetish. Were his patients safe?",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/uk-news/2026/aug/01/neil-hopper-surgeon-amputated-legs-fetish-extreme-mutilation-patients-questions",
-            "image": "https://i.guim.co.uk/img/media/3d991a316f8e63a9b86c38c01498bb180948c1a8/200_0_1255_1004/master/1255.jpg?width=140&quality=85&auto=format&fit=max&s=a358949fda492f73243f96951d189742",
             "source": "theguardiantheguardian"
         },
         {
@@ -88,137 +123,165 @@
             "source": "irishtimes"
         },
         {
-            "title": "If Chelsea 'deliberately flouted' rules and received no sporting sanctions, will it be same for Man City?",
-            "severity": "HIGH",
-            "url": "https://www.nytimes.com/athletic/7479913/2026/08/01/chelsea-fa-charges-man-city-premier-league/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/08/31154256/GettyImages-686826640-scaled-e1785530162129.jpg",
-            "source": "theathleticuk"
-        },
-        {
-            "title": "The Gen Z protests have opened the door, just a crack, for the Opposition",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/opinion/columns/the-gen-z-protests-have-opened-the-door-just-a-crack-for-the-opposition-126073101818_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/24/full/1784876492-1925.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "From Ish to Jared Leto: Hollywood\u2019s Dark Secret \u2013 the week in rave reviews",
+            "title": "The Odyssey's Tom Holland shares favourite classic 60s dish - 1 ingredient could slash heart disease risk",
             "severity": "MEDIUM",
-            "url": "https://www.theguardian.com/culture/2026/aug/01/from-ish-to-jared-leto-hollywoods-dark-secret-the-week-in-rave-reviews",
-            "image": "https://i.guim.co.uk/img/media/a5729ce5712aba7462af83f839a425307d849b68/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=8519b7dbbf47cdb64fc2172be60f0078",
-            "source": "theguardiantheguardian"
+            "url": "https://www.mirror.co.uk/lifestyle/food-drink/odysseys-tom-holland-shares-favourite-37489240",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37489757.ece/ALTERNATES/s615/0_GettyImages-2286124671.jpg",
+            "source": "mirroruk"
         },
         {
-            "title": "Critical mineral demand to surge through 2040, supply gaps to persist: IEA",
+            "title": "\u2018Nonsensical violence\u2019 - Charlize Theron faces backlash over apartheid-era childhood comments",
             "severity": "MEDIUM",
-            "url": "http://www.chinanationalnews.com/news/279218332/critical-mineral-demand-to-surge-through-2040-supply-gaps-to-persist-iea",
-            "image": "https://image.chitra.live/api/v1/wps/60aedcc/c977ba48-bfc2-4394-b7a5-c3d5fa622a21/0/ANI-20260801034429-600x315.jpg",
-            "source": "chinanationalnews"
+            "url": "https://www.iol.co.za/news/nonsensical-violence-charlize-theron-faces-backlash-over-apartheid-era-childhood-comments-527c2303-56dc-431a-acaf-4c15fb90c7d8",
+            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/22067ad7ac7ef1de11fe7a411ac24843584c5ed6/5868&operation=CROP&offset=0x276&resize=5868x3301",
+            "source": "iol"
         },
         {
-            "title": "Zelensky Asks Trump To Help Win Musk's Nod For Starlink-Assisted Russia Strikes",
+            "title": "Doctor explains why dengue hits harder if you have diabetes or heart disease",
             "severity": "MEDIUM",
-            "url": "https://www.ndtv.com/world-news/russia-ukraine-war-ukrainian-president-volodymyr-zelensky-asks-donald-trump-to-help-win-elon-musks-nod-for-starlink-assisted-strikes-in-russia-11851361",
-            "image": "https://c.ndtvimg.com/2026-08/m2fcadas_trump-zelensky_625x300_01_August_26.jpeg",
-            "source": "ndtv"
-        },
-        {
-            "title": "YSRCP hits out at AP govt, alleges police misuse and harassment",
-            "severity": "MEDIUM",
-            "url": "https://newsable.asianetnews.com/india/ysrcp-hits-out-at-ap-govt-alleges-police-misuse-and-harassment-articleshow-7bla9hw",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-8ded3df0-b49b-47ff-85ec-406a7f7937f1.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Petrol would've hit Rs 125/litre in Delhi without ethanol blend, says govt",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/delhi/petrol-wouldve-hit-rs-125/litre-in-delhi-without-ethanol-blend-says-govt/articleshow/132781712.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-132781709/132781709.jpg",
+            "url": "https://timesofindia.indiatimes.com/health/doctor-explains-why-dengue-hits-harder-if-you-have-diabetes-or-heart-disease/articleshow/132784085.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132784145/132784145.jpg",
             "source": "toi"
         },
         {
-            "title": "\u2018Not in my basement\u2019: Why has Germany been so slow to adopt smart meters and what\u2019s it costing?",
+            "title": "Marriage has brought a new sense of balance: Akhil Akkineni",
             "severity": "WATCH",
-            "url": "https://uk.news.yahoo.com/not-basement-why-germany-slow-050135765.html",
-            "image": "https://media.zenfs.com/en/euronews_uk_articles_973/e943ec152dbc84156a5103a6e4637d68",
+            "url": "https://timesofindia.indiatimes.com/entertainment/telugu/movies/news/marriage-has-brought-a-new-sense-of-balance-akhil-akkineni/articleshow/132784195.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132784354/132784354.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "This Chinese school machine is turning lunch leftovers into fuel",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/etimes/trending/this-chinese-school-machine-is-turning-lunch-leftovers-into-fuel/articleshow/132784277.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132784293/132784293.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "9,000 kmph: SpaceX junk is about to punch a hole in the Moon. Why scientists are happy",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/new-updates/spacex-junk-is-about-to-punch-a-hole-in-the-moon-at-nearly-9000-kmph-why-scientists-are-happy/articleshow/132783992.cms",
+            "image": "https://img.etimg.com/thumb/msid-132784180,resizemode-4,width-1200,height-900,imgsize-246248,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Rs 15 Crore annual revenue, 1,000 daily orders: R Madhavan hails Bihar mother-son duo\u2019s Rs 75 Crore Thekua brand",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/entertainment/rs-15-crore-annual-revenue-1-000-daily-orders-r-madhavan-hails-bihar-mother-son-duo-s-rs-75-crore-thekua-brand-article-13990794.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/08/20260801071156_mdd.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "A scientist buried himself in wet concrete to answer one question: Why is it so difficult to sink into?",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/science/a-scientist-buried-himself-in-wet-concrete-to-answer-one-question-why-is-it-so-difficult-to-sink-into/articleshow/132784173.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132784263/132784263.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Energy Transfer (ET) Lifts Quarterly Cash Distribution To US$0.34 Per Unit",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/energy-transfer-et-lifts-quarterly-071205784.html",
+            "image": "https://media.zenfs.com/en/simply_wall_st__316/3930f1d71a178a94d0d3169359bc8e66",
             "source": "yahoo"
         },
         {
-            "title": "What is Iran's Pickaxe Mountain and why does Trump say he wants to bomb it?",
+            "title": "Surprising Twist That Entire Families Are Now Opting To Use AI For Their Mental Health Guidance",
             "severity": "WATCH",
-            "url": "https://www.bbc.co.uk/news/articles/c9w0ygrwrn5o",
-            "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/53b8/live/bedaaee0-8ce8-11f1-b2ab-0dd01740f9f6.png",
-            "source": "bbc"
+            "url": "https://www.forbes.com/sites/lanceeliot/2026/08/01/surprising-twist-that-entire-families-are-now-opting-to-use-ai-for-their-mental-health-guidance/",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/6a597e4d866143042d72ca0f/0x0.jpg",
+            "source": "forbes"
         },
         {
-            "title": "Whole Foods vs The Market: Who will win the battle for Queensway?",
+            "title": "Does Stronger Earnings And A Higher Dividend Shift UMB Financial\u2019s (UMBF) Capital Return Priorities?",
             "severity": "WATCH",
-            "url": "https://www.standard.co.uk/news/london/queensway-market-whole-foods-gentrification-b1291841.html",
-            "image": "https://static.standard.co.uk/2026/07/30/12/37/Queensway-Market.jpeg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
+            "url": "https://ca.finance.yahoo.com/news/does-stronger-earnings-higher-dividend-071156548.html",
+            "image": "https://media.zenfs.com/en/simply_wall_st__316/279c6c1ddc03abffc924d09a1af0cade",
+            "source": "yahoo"
         },
         {
-            "title": "Meera Sodha\u2019s vegetarian recipe for oyster mushroom burgers with five-spice cabbage | Meera Sodha recipes",
+            "title": "'I Love You Baba': Salman Khan's Touching Post For \"Bada Bhai\" Sanjay Dutt",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/food/2026/aug/01/vegetarian-burgers-recipe-oyster-mushrooms-five-spice-cabbage-slaw-meera-sodha",
-            "image": "https://i.guim.co.uk/img/media/750f9994ea89205bab7ada350459b999d8a6711d/249_1564_5035_4029/master/5035.jpg?width=140&quality=85&auto=format&fit=max&s=95fa92d43c700f5925ae58cd7ce4fc6a",
+            "url": "https://www.ndtv.com/entertainment/salman-khans-touching-tribute-to-bada-bhai-sanjay-dutt-will-melt-your-heart-11851588",
+            "image": "https://c.ndtvimg.com/2026-08/sdi2b6fo_salman-khan_625x300_01_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "SHOO Q2 Deep Dive: Brand Momentum and Margin Expansion Drive Outperformance",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/shoo-q2-deep-dive-brand-070757726.html",
+            "image": "https://media.zenfs.com/en/stockstory_922/74072d2d3205d712e06f80badcb36562",
+            "source": "yahoo"
+        },
+        {
+            "title": "Commercial LPG prices cut by up to \u20b9209, second straight monthly relief for businesses",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/news/money/commercial-lpg-price-reduction-august-1-ugh3dszn",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1stq3wryv0qytuw50et/0/lpg-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "'Bath with a friend' and no beer - why the 1976 drought was never forgotten",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/news/uk-news/drought-heatwave-water-restrictions-1976-37496512",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37500395.ece/ALTERNATES/s615/1_2STAR-MAIN-2-BLOCK-TEMPLATE.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "No apologies, no freebies: the man who makes Andy Burnham\u2019s jackets on how to weather a storm",
+            "severity": "WATCH",
+            "url": "https://www.theguardian.com/fashion/2026/aug/01/andy-burnham-jackets-private-white-vc-james-eden",
+            "image": "https://i.guim.co.uk/img/media/95446f30b48ab814f1e69bab82947730fdd3fcc5/0_0_4706_3763/master/4706.jpg?width=140&quality=85&auto=format&fit=max&s=17b29b7c3cd906e4e3a4fef5fbcef783",
             "source": "theguardiantheguardian"
         },
         {
-            "title": "Iraq veteran and wheelchair-bound wife to be made homeless by MoD cuts",
+            "title": "India's record renewable generation in July cuts coal's share in power mix to 1-year low",
             "severity": "WATCH",
-            "url": "https://www.scotsman.com/news/politics/iraq-veteran-and-wheelchair-bound-wife-to-be-made-homeless-by-mod-cuts-8833461",
-            "image": "https://www.scotsman.com/jpim-static/image/2026/07/31/15/53/WhatsApp-Image-2026-07-31-at-14-51-42.jpeg?width=1200&auto=webp&trim=85%2C0%2C85%2C0",
-            "source": "scotsman"
+            "url": "https://economictimes.indiatimes.com/industry/renewables/indias-record-renewable-generation-in-july-cuts-coals-share-in-power-mix-to-1-year-low/articleshow/132783990.cms",
+            "image": "https://img.etimg.com/thumb/msid-132784092,resizemode-4,width-1200,height-900,imgsize-146172,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "The idealism of the Esperanto movement, a plague of flies and a clinic in a deep salt mine",
+            "title": "Rep. Haley Stevens' Michigan accent went viral, but will it help her?",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/news/2026/aug/01/the-idealism-of-the-esperanto-movement-a-plague-of-flies-and-a-clinic-in-a-deep-salt-mine",
-            "image": "https://i.guim.co.uk/img/media/7727d09c9f88ceb52b70c0c4cc1bc0a099e6df0a/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=33a87dbcd98641c1a1495d904d470fb2",
-            "source": "theguardiantheguardian"
+            "url": "https://ca.news.yahoo.com/rep-haley-stevens-michigan-accent-070102449.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/c15b9ac3f43bc4d34f63ae5aad38baf5445c70978f8a15f4e32def989c46b195/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fusa_today_news_641%2F071e5ad4e2cb1b15697b0ea228a60188",
+            "source": "yahoo"
         },
         {
-            "title": "Building for 131\u00b0F: Europe races to protect its infrastructure from a \u2018quiet catastrophe\u2019",
+            "title": "Answer in 10 seconds or lose your fleet: The e-bike row dividing Yarra",
             "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/08/01/europe-extreme-heat-climate-change-55c.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108340213-1785093979339-gettyimages-2286666732-AFP_C2YU9CT.jpeg?v=1785409532&w=1200&h=675",
-            "source": "cnbc"
+            "url": "https://www.smh.com.au/national/victoria/answer-in-10-seconds-or-lose-your-fleet-the-e-bike-row-dividing-yarra-20260730-p60k3i.html",
+            "image": "https://static.ffx.io/images/$zoom_0.5458%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_2101%2C$y_207/t_crop_custom/q_86%2Cf_auto/f1e8b37bc6e2bd23b5b9978c9a352dc0052d5b7a",
+            "source": "smh"
         },
         {
-            "title": "David McWilliams: The first victim of AI is the economy. Welcome to the 2030s",
+            "title": "What \u2018Pacing the Frontier\u2019 reveals about the U.S. AI industry | Explained",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/opinion/2026/08/01/david-mcwilliams-the-first-victim-of-ai-is-the-economy-welcome-to-the-2030s/",
-            "image": "https://www.irishtimes.com/resizer/v2/K2APABF4MJBOREPQO2RKIKLKHU.jpg?auth=7522f406fbc04f17f76d30f4608255ef78f400b709eff5f2435d10cf0e0d92d2&smart=true&width=630&height=350",
-            "source": "irishtimes"
+            "url": "https://www.thehindu.com/sci-tech/technology/what-pacing-the-frontier-reveals-about-the-us-ai-industry-explained/article71293538.ece",
+            "image": "https://th-i.thgim.com/public/incoming/7nxtps/article71293527.ece/alternates/FREE_1200/2026-07-21T170614Z_155316110_RC2UNLAOEYBN_RTRMADP_3_USA-MARKETS-TECH.JPG",
+            "source": "thehindu"
         },
         {
-            "title": "Like Prince George, I started boarding school at 13 \u2013 here's why there'll be good times and bad",
+            "title": "Who is Yashvir Singh? Javelin star who trained with bamboo sticks, now shares podium with Neeraj Chopra",
             "severity": "WATCH",
-            "url": "https://www.hellomagazine.com/royalty/915529/like-prince-george-i-started-boarding-school-at-13-therell-be-good-times-and-bad-times/",
-            "image": "https://images.hellomagazine.com/horizon/landscape/514bd812f223-gettyimages-2215020013.jpg",
-            "source": "hellomagazine"
+            "url": "https://www.moneycontrol.com/sports/who-is-yashvir-singh-javelin-star-who-trained-with-bamboo-sticks-now-shares-podium-with-neeraj-chopra-article-13990773.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/08/20260801063818_yashvir.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Noma restaurant prepares to reopen under new leadership after abuse allegations",
+            "title": "31 Days After Brendan Sorsby Saga, Joey McGuire Reveals Crucial Advice From 10x Big 12 Champ",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/world/2026/aug/01/noma-restaurant-reopens-new-leadership-abuse-allegations",
-            "image": "https://i.guim.co.uk/img/media/141e8fbf6f4edd508cf237493de7575b80b98816/208_0_4220_3376/master/4220.jpg?width=140&quality=85&auto=format&fit=max&s=4aaf868ecc6fc380f06ff73780f82728",
-            "source": "theguardiantheguardian"
+            "url": "https://sports.yahoo.com/articles/31-days-brendan-sorsby-saga-055434103.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/7ffdc5f3d9988d76ff95ebd7d3a89a71ead52dd2ea8cd864ad5823b85e62b683/lightyear_networkapi/resizefit_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fcollege_football_network_979%2Fedb5e30fdab5f7fed873ef2812f20c4e",
+            "source": "yahoo"
         },
         {
-            "title": "Danube dries in heat: skeleton of giant mammoth uncovered in Bulgaria",
+            "title": "EU to begin enforcing AI Act from Sunday with hefty fines for rule breakers",
             "severity": "WATCH",
-            "url": "http://www.euronews.com/2026/08/01/danube-dries-in-heat-skeleton-of-giant-mammoth-uncovered-in-bulgaria",
-            "image": "https://images.euronews.com/articles/stories/09/85/81/18/1440x810_cmsv2_96afd02a-b8a7-51b2-8f38-bfaa8c232f63-9858118.jpg",
-            "source": "euronews"
-        },
-        {
-            "title": "How Andy Burnham has exposed the SNP as enemies of true devolution \u2013 Brian Wilson",
-            "severity": "WATCH",
-            "url": "https://www.scotsman.com/news/opinion/columnists/how-andy-burnham-has-exposed-the-snp-as-enemies-of-true-devolution-8833038",
-            "image": "https://www.scotsman.com/jpim-static/image/2026/07/31/13/08/GettyImages-1344401969-(1).jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "scotsman"
+            "url": "https://www.firstpost.com/world/eu-to-begin-enforcing-ai-act-from-sunday-with-hefty-fines-for-rule-breakers-ws-e-14035286.html",
+            "image": "https://images.firstpost.com/uploads/2026/08/image-2026-08-d9a113f3109a4d9feecc0076543fb2a4-1200x675.jpg",
+            "source": "firstpost"
         },
         {
             "title": "\u2018A ticking environmental time bomb\u2019: What lies beneath Aughinish Alumina in Co Limerick",
@@ -226,28 +289,7 @@
             "url": "https://www.irishtimes.com/environment/2026/08/01/a-ticking-environmental-time-bomb-what-lies-beneath-aughinish-alumina-in-co-limerick/",
             "image": "https://www.irishtimes.com/resizer/v2/JVZPBA4KGZFOTAQWSAP5ZGBSZQ.jpg?auth=f811790390357b859742dd4be80d612186814142d922482474166a24c5917fa0&smart=true&width=630&height=350",
             "source": "irishtimes"
-        },
-        {
-            "title": "Paper leaks: Why did Cockroach Janata Party stop short of prevention?",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/blogs/lawtics/paper-leaks-why-did-the-cockroach-janata-party-stop-short-of-prevention/",
-            "image": "https://static.toiimg.com/imagenext/toiblogs/thumb/blogs/wp-content/uploads/2026/03/VNSPic-HighResolution_Mar20261-1.jpg?resizemode=4&width=1280&height=720",
-            "source": "toi"
-        },
-        {
-            "title": "Rumesh Tharanga Pathirage: Meet Sri Lankan fast bowler turned javelin thrower who beat Neeraj Chopra to CWG gold",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/sports/rumesh-tharanga-pathirage-meet-sri-lankan-fast-bowler-turned-javelin-thrower-who-beat-neeraj-chopra-to-cwg-gold-article-13990717.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260604193113_Rumesh-Pathirage-XWanda-Diamond-League.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "CWG 2026: Former Sri Lanka fast bowler Rumesh Pathirage stuns IND-PAK duo Neeraj Chopra and Arshad Nadeem to win javelin gold",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/cwg-2026-former-sri-lanka-035517120.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/55dd7082d300f2189e8a6731397774111ec7c2d12b1cbc4968c6c9f44d3dcfba/lightyear_networkapi/resizefit_w760_h428;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cricket_news_articles_506%2F0d9e163138d3eb0af1c505421f6ca1b9",
-            "source": "yahoo"
         }
     ],
-    "Last_Updated": "2026-08-01T17:06:29.077307Z"
+    "Last_Updated": "2026-08-01T19:17:36.134261Z"
 }
