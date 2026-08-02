@@ -1,84 +1,91 @@
 {
-    "AGRI_Score": 60.6,
-    "Velocity": "+0.1",
+    "AGRI_Score": 60.0,
+    "Velocity": "-0.6",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 60.6 reflects an elevated risk environment, predominantly driven by escalating geopolitical tensions and their direct impact on energy markets. The situation in the Middle East, exemplified by \"Iran warns US against fresh strikes, vows 'proportionate response' amid rising regional tensions,\" is severely pushing Geopolitical Conflict Intensity. This directly contributes to higher Energy & Maritime Disruption, as indicated by concerns that \"High fuel prices likely to linger with or without continued Iran war, Exxon and Chevron say,\" thus maintaining overall market volatility.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 60.0 reflects a heightened risk environment primarily driven by escalating geopolitical tensions and significant cyber threats to critical infrastructure. The immediate threat of military conflict in the Strait of Hormuz, as indicated by 'Trump Says US Agrees To Hold Off Iran Attack As Deal Takes Shape, Cites Hormuz Reopening,' underscores the ongoing volatility in a key energy transit region. Concurrently, the 'Hackers target Michigan water systems' and 'Massachusetts officials say they're monitoring potential cyberattacks on water systems' headlines highlight a clear and present danger to essential public services, pushing the overall risk profile upwards.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.3,
+        "Geopolitical Conflict Intensity": 76.9,
         "Energy & Maritime Disruption": 75.2,
-        "Trade & Supply Chain Stress": 64.7,
+        "Trade & Supply Chain Stress": 67.3,
         "Sovereign Financial Stress": 56.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 63.1,
-        "Cyber & Infrastructure Threats": 64.2,
+        "Sanctions & Regulatory Fragmentation": 54.5,
+        "Cyber & Infrastructure Threats": 62.5,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This score is critically high due to the rapidly escalating conflict in the Middle East. News such as \"Iran warns US against fresh strikes, vows 'proportionate response' amid rising regional tensions\" and \"US embassies urge citizens to consider departing Middle East\" directly indicate a severe increase in regional instability and potential for broader conflict.",
-        "Energy & Maritime Disruption": "This pillar reflects significant ongoing disruptions and future uncertainty in global energy markets. \"High fuel prices likely to linger with or without continued Iran war, Exxon and Chevron say\" highlights the persistent upward pressure on energy costs, exacerbated by a \"Volatile week ahead for commodities as Iran strikes and US jobs data loom.\"",
-        "Trade & Supply Chain Stress": "Elevated stress persists due to indirect impacts of geopolitical events and potential travel disruptions. The \"US Issues Fresh Middle East Travel Advisory Amid Iran Conflict\" warns of potential flight cancellations, which can cascade into broader logistical challenges for cargo and personnel movement.",
-        "Sovereign Financial Stress": "This pillar indicates moderate concerns, likely influenced by commodity market volatility and underlying economic pressures. A \"Volatile week ahead for commodities as Iran strikes and US jobs data loom\" suggests potential for market swings that could impact national finances, though no direct sovereign debt crises are reported.",
-        "Currency & Liquidity Pressure": "This pillar shows baseline activity, with no immediate extreme pressures, but remains sensitive to broader market dynamics. The \"Volatile week ahead for commodities as Iran strikes and US jobs data loom\" could introduce currency fluctuations, but specific severe liquidity crises are not reported.",
-        "Sanctions & Regulatory Fragmentation": "This pillar is elevated by the ongoing geopolitical tensions, which could lead to further restrictive measures. While no new sanctions are explicitly announced, the heightened conflict signaled by \"Iran warns US against fresh strikes\" increases the probability of new or expanded international regulatory fragmentation.",
-        "Cyber & Infrastructure Threats": "Risk in this pillar is significant due to demonstrated vulnerabilities in critical digital systems. The report that \"OpenAI, Anthropic hacking models breached companies after escaping tests\" points to a growing sophistication of cyber threats, posing a direct risk to infrastructure and corporate security.",
-        "Climate & Resource Shock": "This pillar reflects lower immediate risk, though regional climate events are noted. A \"Heat wave brings record-breaking temps, heightened wildfire risk to parts of Western US\" highlights localized climate impacts, but these do not currently pose a systemic global shock."
+        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to ongoing conflicts and the immediate threat of military action in critical regions. Despite 'Trump calls off planned Iran strikes,' the underlying tensions, coupled with active 'drone attacks' in Crimea and the 'Hamas disarmament' debate, indicate a highly volatile global landscape.",
+        "Energy & Maritime Disruption": "Risk in this pillar is significant, primarily due to the potential for disruption in a major energy transit choke point. The report that 'Trump Says US Agrees To Hold Off Iran Attack As Deal Takes Shape, Cites Hormuz Reopening' confirms the very recent threat of military engagement in the Strait, which would have had immediate and severe global implications for energy supply and maritime trade.",
+        "Trade & Supply Chain Stress": "This pillar reflects elevated stress influenced by regional conflicts impacting economic activity and potential broader disruptions. The 'Crimea's tourism industry collapsing because of drone attacks' signifies localized economic downturns that can ripple into trade flows and supply chains, while broader geopolitical uncertainties increase general apprehension.",
+        "Sovereign Financial Stress": "This pillar shows moderate activity, with no direct headlines indicating immediate sovereign debt crises or large-scale financial instability. While some regional economic strain is suggested by conflict impacts, there is no explicit evidence of widespread sovereign financial distress at this moment.",
+        "Currency & Liquidity Pressure": "This pillar is at baseline activity, as the news feed does not contain any direct indicators of significant global or systemic currency fluctuations or liquidity squeezes. Personal finance advice to 'Avoid impulsive spending' does not reflect broader market pressures.",
+        "Sanctions & Regulatory Fragmentation": "This pillar indicates moderate pressure, as ongoing geopolitical friction has the potential to introduce new punitive measures, though none were explicitly announced in the feed. The 'Infantino faces crisis as UEFA, CONCACAF declare lost confidence over scrapped FIFA World Cup deal' points to significant regulatory fragmentation within international sports bodies, a non-economic sector.",
+        "Cyber & Infrastructure Threats": "This pillar is experiencing elevated risk with direct and immediate threats to critical public services. News of 'Hackers target Michigan water systems' and 'Massachusetts officials say they're monitoring potential cyberattacks on water systems' indicates active and widespread malicious cyber activity against vital infrastructure, alongside 'OpenAI, Anthropic hacking models breached companies' showing broader digital vulnerabilities.",
+        "Climate & Resource Shock": "This pillar is currently experiencing routine monitoring, with a low impact score and no relevant news items indicating immediate climate events, natural disasters, or resource scarcity issues. The available information does not point to any current or impending shocks in this domain."
     },
     "All_Alerts": [
         {
-            "title": "Iran warns US against fresh strikes, vows 'proportionate response' amid rising regional tensions",
+            "title": "Trump Says US Agrees To Hold Off Iran Attack As Deal Takes Shape, Cites Hormuz Reopening",
             "severity": "HIGH",
-            "url": "https://english.mathrubhumi.com/news/world/iran-warns-us-fresh-strikes-proportionate-response-xv3wpdq0",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1subu9xr0kuo21kbhnj/1/seyed-abbas-araghchi-jpg.webp?$p=f162f31&f=16:9&w=1080&q=0.8",
-            "source": "mathrubhumi"
+            "url": "https://ommcomnews.com/world-news/trump-says-us-agrees-to-hold-off-iran-attack-as-deal-takes-shape-cites-hormuz-reopening/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/08/New-Project-2026-08-02T083422.629.jpg",
+            "source": "ommcomnews"
         },
         {
-            "title": "Arkansas Razorbacks guard Jeremiah Wilkinson talks with guard JJ Andrews during warmups.",
+            "title": "Trump calls off planned Iran strikes, says 'move could pave way for peace'",
             "severity": "HIGH",
-            "url": "https://www.si.com/college/arkansas/men-s-basketball/i-don-t-have-to-be-a-superhero-wilkinson-thriving-in-new-role-with-razorbacks",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2728,h_1534,x_0,y_189/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/all_hogs/01kz00zec8jpr1n5zr6t.jpg",
-            "source": "si"
+            "url": "https://zeenews.india.com/world/trump-calls-off-planned-iran-strikes-says-move-could-pave-way-for-peace-3064306.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/08/02/1969616-mixcollage-22-jul-2026-09-00-pm-6376.jpg",
+            "source": "zeenews"
         },
         {
-            "title": "'Be Prepared For Flight Cancellations': US Issues Fresh Middle East Travel Advisory Amid Iran Conflict",
+            "title": "Hackers target Michigan water systems",
             "severity": "HIGH",
-            "url": "https://www.news18.com/world/us-middle-east-travel-advisory-us-iran-war-donald-trump-security-warning-middle-east-conflict-ws-l-10247326.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/08/MixCollage-02-Aug-2026-06-53-AM-6338-2026-08-6dd174e89f420a01e6e3b1333a2a7a29-1200x800.jpg",
+            "url": "https://www.detroitnews.com/story/news/local/michigan/2026/08/01/michigan-water-systems-targeted-in-cyberattacks/91138694007/",
+            "image": "https://www.gannett-cdn.com/-mm-/1a25f1cf8b4df745458a2f69430851d430c017db/c=12-0-7251-4072/local/-/media/2017/11/21/DetroitNews/B99601472Z.1_20171121204024_000_G7D1OH0D9.1-0.jpg?auto=webp&format=pjpg&width=1200",
+            "source": "detroitnews"
+        },
+        {
+            "title": "Crimea's tourism industry collapsing because of drone attacks",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/lifestyle/travel/2026/08/02/crimea039s-tourism-industry-collapsing-because-of-drone-attacks",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/07/31/4036792.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Hamas disarmament cannot wait for the IDF's withdrawal from Gaza - editorial",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/opinion/article-904275",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/713579",
+            "source": "jpost"
+        },
+        {
+            "title": "'Don't Forget Me': Iran Executes 20-Year-Old Protester Convicted Of 'Waging War Against God'",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/world/dont-forget-me-iran-executes-20-year-old-protester-convicted-of-waging-war-against-god-ws-l-10247413.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/08/NW18-2026-08-02T082939.099-2026-08-f1c13d8c2ad660f416c147b4335ac748-1200x800.png",
             "source": "news18"
         },
         {
-            "title": "Filmmaker sues Netflix for USD 105 million over losing Nicolas Cage film copy",
+            "title": "Massachusetts officials say they're monitoring potential cyberattacks on water systems",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/business/filmmaker-sues-netflix-for-usd-105-million-over-losing-nicolas-cage-film-copy/articleshow/132798960.cms",
-            "image": "https://img.etimg.com/thumb/msid-132799043,resizemode-4,width-1200,height-900,imgsize-15326,overlay-economictimes/articleshow.jpg",
+            "url": "https://www.wcvb.com/article/massachusetts-monitoring-concerns-over-cyberattacks-on-water-systems/73325256",
+            "image": "https://kubrick.htvapps.com/vidthumb/images/cyberattack-cybersecurity-generic-1646086552.jpg",
+            "source": "wcvb"
+        },
+        {
+            "title": "After making inroads into healthcare, private equity players are targeting India's schools",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/industry/services/education/after-making-inroads-into-healthcare-private-equity-players-are-targeting-indias-schools/articleshow/132799117.cms",
+            "image": "https://img.etimg.com/thumb/msid-132799166,resizemode-4,width-1200,height-900,imgsize-355992,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Bhiwandi building collapse: Dead mason probed as contractor survivors left homeless",
+            "title": "OpenAI, Anthropic hacking models breached companies after escaping tests",
             "severity": "HIGH",
-            "url": "https://indianexpress.com/article/cities/mumbai/bhiwandi-building-collapse-dead-mason-probed-as-contractor-survivors-left-homeless-10813949/",
-            "image": "https://images.indianexpress.com/2026/08/Untitled-design-14-1_20260801192149.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "High fuel prices likely to linger with or without continued Iran war, Exxon and Chevron say",
-            "severity": "HIGH",
-            "url": "https://seekingalpha.com/news/4623120-high-fuel-prices-likely-to-linger-with-or-without-continued-iran-war-exxon-and-chevron-say?feed_item_type=news",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1280385662/image_1280385662.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "US embassies urge citizens to consider departing Middle East",
-            "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/world/3295065/us-embassies-urge-citizens-to-consider-departing-middle-east",
-            "image": "https://static.bangkokpost.com/media/content/20260801/c1_6174910.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Randy Orton finally returns and attacks his real-life best friend at WWE SummerSlam 2026",
-            "severity": "HIGH",
-            "url": "https://www.sportskeeda.com/wwe/news-randy-orton-finally-returns-attacks-real-life-best-friend-wwe-summerslam-2026",
-            "image": "https://staticg.sportskeeda.com/editor/2026/08/10d5e-17856306777131-1920.jpg",
-            "source": "sportskeeda"
+            "url": "https://ca.news.yahoo.com/openai-anthropic-hacking-models-breached-015100301.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/150afeec82b96c8edfb05d7e98a23e7e5f1e6917dc328e2c1a7c8ecc4d4736fe/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fs.yimg.com%2Fcv%2Fapiv2%2Fsocial%2Fimages%2Fyahoo_default_logo-1200x1200.png",
+            "source": "yahoo"
         },
         {
             "title": "Infantino faces crisis as UEFA, CONCACAF declare lost confidence over scrapped FIFA World Cup deal",
@@ -86,13 +93,6 @@
             "url": "https://economictimes.indiatimes.com/news/sports/football/infantino-faces-crisis-as-uefa-concacaf-declare-lost-confidence-over-scrapped-fifa-world-cup-deal/articleshow/132798965.cms",
             "image": "https://img.etimg.com/thumb/msid-132799027,resizemode-4,width-1200,height-900,imgsize-41154,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "OpenAI, Anthropic hacking models breached companies after escaping tests",
-            "severity": "HIGH",
-            "url": "https://au.investing.com/news/economy-news/openai-anthropic-hacking-models-breached-companies-after-escaping-tests-4568841",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEM54006_L.jpg",
-            "source": "investing_au"
         },
         {
             "title": "Man From Andover Arrested On Domestic Violence, Simple Assault Charges: Concord Police Log",
@@ -109,165 +109,165 @@
             "source": "sbs"
         },
         {
-            "title": "Petro urges Trump to hold talks, calls for averting US invasion of Cuba",
+            "title": "Personal trainer Helena, 28, was hopeful when doctors said she was 'too young' for a mammogram. Then they glanced at the ultrasound and the room fell silent",
             "severity": "MEDIUM",
-            "url": "https://globalnation.inquirer.net/333337/petro-urges-trump-to-hold-talks-calls-for-averting-us-invasion-of-cuba",
-            "image": "https://globalnation.inquirer.net/files/2026/08/Petro-urges-Trump-to-hold-talks-calls-for-averting-US-invasion-of-Cuba-scaled.jpg",
-            "source": "inquirer"
+            "url": "https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15995745/Breast-cancer-symptoms-Australia-mammogram-age-women.html",
+            "image": "https://i.dailymail.com/1s/2026/07/27/05/110268387-0-image-a-12_1785125918750.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Setbacks on land reform path",
+            "title": "'You'll Go Bankrupt Soon': Woman's Message To Swiggy After Buying 8 Samosas Goes Viral, Internet Reacts",
             "severity": "MEDIUM",
-            "url": "https://www.bangkokpost.com/opinion/opinion/3295289/setbacks-on-land-reform-path",
-            "image": "https://static.bangkokpost.com/media/content/20260802/c1_3295289.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Heat wave brings record-breaking temps, heightened wildfire risk to parts of Western US",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/heat-wave-brings-record-breaking-temps-heightened-wildfire-risk-to-parts-of-western-us/articleshow/132798956.cms",
-            "image": "https://img.etimg.com/thumb/msid-132798995,resizemode-4,width-1200,height-900,imgsize-93110,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Volatile week ahead for commodities as Iran strikes and US jobs data loom",
-            "severity": "MEDIUM",
-            "url": "https://www.moneycontrol.com/news/opinion/volatile-week-ahead-for-commodities-as-iran-strikes-and-us-jobs-data-loom-13991063.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2021/06/Commodities-378x213.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "WWE SummerSlam 2026 Night 1 Results & Highlights: Brock Lesnar calls Oba Femi the future, Randy Orton returns, shocking betrayal and more",
-            "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/sports/wwe/top-stories/wwe-summerslam-2026-night-1-results-highlights-brock-lesnar-calls-oba-femi-the-future-randy-orton-returns-shocking-betrayal-and-more/articleshow/132797132.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132798973/132798973.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Pax Silica project 'voracious,' may affect energy security \u2013 Tinio",
-            "severity": "WATCH",
-            "url": "https://cebudailynews.inquirer.net/752774/pax-silica-project-voracious-may-affect-energy-security-tinio",
-            "image": "https://cebudailynews.inquirer.net/files/2026/07/proposed-1620-hectare-Pax-Silica-site-at-New-Clark-City-26Juky2026_5-1200x675.jpg-1-620x349.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Day after 'forgive' remark, PM Modi praises youth for powering India's growth",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/india-news/day-after-forgive-remark-pm-modi-praises-youth-for-powering-indias-growth-101785634028660.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/02/1600x900/logo/PTI08-01-2026-RPT454B-0_1785634199952_1785634213742_010fbe29-911c-473a-95be-917b8dcd0b26.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Trying To Lose Weight? 5 Vegetarian Breakfasts You Can Make In Just 15 Minutes",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/lifestyle/food/trying-to-lose-weight-5-vegetarian-breakfasts-you-can-make-in-just-15-minutes-ws-l-10246994.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/08/1-2026-08-12e0710545c06ff4b7675e9e5684f24a-1200x800.png",
+            "url": "https://www.news18.com/viral/youll-go-bankrupt-soon-womans-message-to-swiggy-after-buying-8-samosas-goes-viral-internet-reacts-ws-l-10247415.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/08/Untitled-design-2-2026-08-a1537d7dbfa2ea5f39748707dd088778-1200x800.png",
             "source": "news18"
         },
         {
-            "title": "Top 5 Zodiac Signs Blessed With Good Fortune on August 2, 2026",
+            "title": "Mum with bad sleep 'for 10 years' says it's 'so much better' with 55p-a-day drops",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/astrology/top-5-zodiac-signs-blessed-with-good-fortune-on-august-2-2026-article-155223869",
-            "image": "https://images.timesnownews.com/thumb/msid-155223868,thumbsize-2206600,width-1280,height-720,resizemode-75/155223868.jpg",
+            "url": "https://www.mirror.co.uk/money/shopping-deals/mum-bad-sleep-for-10-37495461",
+            "image": "https://i2-prod.mirror.co.uk/money/shopping-deals/article37495475.ece/ALTERNATES/s615/1_GettyImages-561093049.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Weekly Career & Finance Horoscope, August 3 to August 10, 2026: Avoid impulsive spending",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/astrology/horoscope/weekly-career-finance-horoscope-august-3-to-august-10-2026-avoid-impulsive-spending-101785500331369.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/07/31/1600x900/logo/career_ht_1751794011700_1751794019492_1785500508187_34e91d62-b0d5-43c7-aa06-dee7351d46d3.png",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Let\u2019s get spicy: 5 bold predictions for Utah football in 2026",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/let-spicy-5-bold-predictions-030001895.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/dddebf4a7e03aa1c43c4ed83e1e999ebd3cfeb93be301642fb91667d2789fa0b/lightyear_networkapi/resizefit_w800_h452;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fdeseret_news_992%2F8aebfc90e05716de8da04bae2f599a66",
+            "source": "yahoo"
+        },
+        {
+            "title": "What does the week have in store? Your tarot horoscope reading for August 3 to August 9",
+            "severity": "WATCH",
+            "url": "https://metro.co.uk/2026/08/02/weekly-tarot-horoscope-reading-august-3-august-9-2026-29268454/",
+            "image": "https://metro.co.uk/wp-content/uploads/2024/08/SEI204411455-0911.jpg?quality=90&strip=all",
+            "source": "metro"
+        },
+        {
+            "title": "Mysterious Milky Way object accelerates protons beyond one quadrillion electron volts",
+            "severity": "WATCH",
+            "url": "https://www.sciencedaily.com/releases/2026/07/260731034150.htm",
+            "image": "https://www.sciencedaily.com/images/1920/nasa-fermi-gamma-ray-space-telescope-high-energy-particles.webp",
+            "source": "sciencedaily"
+        },
+        {
+            "title": "Action Man Gets Movie From X-Men \u201997 Writer & Former Marvel Producer",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/action-man-movie-x-men-97-writer-marvel-producer-join/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/03/hasbro-logo.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "Say Goodbye To Russell Crowe's Haunting 115-Minute Drama As It Exits Netflix",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/russell-crowe-boy-erased-movie-leaving-netflix/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/04/untitled-47.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "Silk Route Returns: India-China Trade Resumes Via Shipki La, Nathu La After 6-Year Hiatus",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/india/silk-route-returns-india-china-trade-resumes-via-shipki-la-nathu-la-after-6-year-hiatus-article-155230261",
+            "image": "https://images.timesnownews.com/thumb/msid-155230264,thumbsize-76226,width-1280,height-720,resizemode-75/155230264.jpg",
             "source": "timesnownews"
         },
         {
-            "title": "Shaquille O'Neal admits he understands why some Lakers fans dislike him and LeBron James",
+            "title": "Braves acquire Lane Thomas, Bailey Falter from Royals: MLB Trade Grades",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/shaquille-oneal-admits-understands-why-012911902.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/a7fba1ba311229ed12430505b726b7703b2a2ee926f14bde03b32962fa4e07cd/lightyear_networkapi/resizefit_w760_h428;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2F291e3e1797ee308cb2143ac13c46701c",
+            "url": "https://www.nytimes.com/athletic/7485986/2026/08/01/lane-thomas-royals-braves-mlb-trade-grades/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/08/01223316/GettyImages-2269132682-scaled.jpg",
+            "source": "theathleticuk"
+        },
+        {
+            "title": "Andy Burnham passes his first test",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/world-news/andy-burnham-passes-his-first-test-101785596239346.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/01/1600x900/logo/Britain-Politics-3_1785596299098_1785596313846_27686d07-0e88-4d0b-84d1-ea4f99544f5a.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Sally Beauty (SBH) Reports Earnings Tomorrow: What To Expect",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/sally-beauty-sbh-reports-earnings-030057982.html",
+            "image": "https://media.zenfs.com/en/stockstory_922/a5a26cccd4a376adb3c4555284e9f6e6",
             "source": "yahoo"
         },
         {
-            "title": "Redeem codes for Metal Slug: Awakening (August 2026)",
+            "title": "Breaking News Live Updates: Heavy rains leave 102 roads blocked and disrupt power, water supply in Himachal Pradesh",
             "severity": "WATCH",
-            "url": "https://www.pocketgamer.com/metal-slug-awakening/redeem-codes/",
-            "image": "https://media.pocketgamer.com/artwork/ra-96788-1707413687/metal-slug-awakening-codes.jpg",
-            "source": "pocketgamer"
+            "url": "https://economictimes.indiatimes.com/news/newsblogs/breaking-news-live-pm-modi-politics-bjp-congress-rahul-gandhi-parliament-delhi-rain-today-weather-us-iran-war-latest-updates-donald-trump-peace-deal-ceasefire-agreement-cjp-protest-jantar-mantar-case-2-august-2026-sunday/liveblog/132799525.cms",
+            "image": "https://economictimes.indiatimes.com/thumb/msid-132799525,width-1200,height-900,resizemode-4,imgsize-196506/breaking-news-live-pm-modi-politics-bjp-congress-rahul-gandhi-parliament-delhi-rain-today-weather-us-iran-war-latest-updates-donald-trump-peace-deal-ceasefire-agreement-cjp-protest-jantar-mantar-case-2-august-2026-sunday.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Bomb carried by woman explodes outside Moscow restaurant, killing three and injuring 21",
+            "title": "Israel kills five in Gaza despite Trump\u2019s Hamas disarmament plan",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/world/bomb-carried-by-woman-explodes-outside-moscow-restaurant-killing-three-and-injuring-21-article-13991077.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/08/20260802005823_moscow-blast.png",
-            "source": "moneycontrol"
+            "url": "https://www.aljazeera.com/news/2026/8/2/israel-kills-five-in-gaza-despite-trumps-hamas-disarmament-plan",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a6e537350cf-1785615219.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
         },
         {
-            "title": "Santiago to Shopian and Delhi \u2014 pellet guns in crowd control",
+            "title": "Petrol, Diesel Prices On August 2: Check New Fuel Rates In Mumbai, Bengaluru, Delhi",
             "severity": "WATCH",
-            "url": "https://indianexpress.com/article/opinion/columns/pellet-guns-santiago-shopian-delhi-jantar-mantar-crowd-control-10813983/",
-            "image": "https://images.indianexpress.com/2026/08/newsline-protestGY1-5col.jpg",
+            "url": "https://www.ndtvprofit.com/india/petrol-diesel-prices-on-august-2-check-latest-fuel-rates-in-mumbai-bengaluru-chennai-kolkata-and-more-11854573",
+            "image": "https://c.ndtvimg.com/2026-07/8ao7otoo_petrol-diesel-price-today_625x300_27_July_26.png?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+            "source": "ndtv"
+        },
+        {
+            "title": "No bail for alleged kingpin in Chhota Shakeel-linked kidnapping case",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/no-bail-for-alleged-kingpin-in-chhota-shakeel-linked-kidnapping-case-101785608959513.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/01/1600x900/logo/-p-No-bail-for-alleged-kingpin-in-Chhota-Shakeel-l_1785608957041.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Interview: Russia's Leningrad region seeks deeper cooperation with Chinese partners, governor says",
+            "severity": "WATCH",
+            "url": "http://www.chinanationalnews.com/news/279219038/interview-russia-leningrad-region-seeks-deeper-cooperation-with-chinese-partners-governor-says",
+            "image": "https://image.chitra.live/api/v1/wps/72ad52c/72f06345-b683-464f-826b-647033439eee/0/XxjidwE000008-20260802-CBMFN0A001-600x315.jpg",
+            "source": "chinanationalnews"
+        },
+        {
+            "title": "From snake venom to wigs: India\u2019s weirdest exports hiding inside trade data",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/latest/photo/from-snake-venom-to-wigs-indias-weirdest-exports-hiding-inside-trade-data-546525-2026-08-02",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/photo_gallery/202607/6a6c82a9d02e5-export-311028513-16x9.jpeg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "Should you buy an EV or hybrid in India? What The EV Evolution reveals",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/books-and-literature/anil-sasi-ev-or-hybrid-india-the-ev-evolution-review-china-norway-10814144/",
+            "image": "https://images.indianexpress.com/2026/08/The-EV-Evolution.jpg",
             "source": "indianexpress"
         },
         {
-            "title": "5 Things To Know About Kosuke Takagi Ahead Of ONE SAMURAI 2",
+            "title": "Be catalysts for change against drugs: Haryana governor to youth",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/5-things-know-kosuke-takagi-013816690.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/2df8a84d0676996ad96598032f097aed26dea029ea4b1379ebca33998a9dd203/lightyear_networkapi/resizefit_w1163_h660;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fone_championship_articles_385%2Fbfe205884c742c4b44e30b003e836ad4",
-            "source": "yahoo"
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/be-catalysts-for-change-against-drugs-haryana-governor-to-youth-101785610459982.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/01/1600x900/logo/Haryana-governor-Ashim-Kumar-Ghosh-with-his-Punjab_1785610457394.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Breaking down Yankees\u2019 options to improve lineup before trade deadline with few quick fixes available",
+            "title": "Noida: 5 held for theft, resale of e-commerce site\u2019s \u20b975-lakh goods",
             "severity": "WATCH",
-            "url": "https://nypost.com/2026/08/01/sports/breaking-down-yankees-options-to-improve-lineup-before-trade-deadline/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2Fzach-neto-9-los-angeles-135431911.jpg?quality%3D90%26strip%3Dall",
-            "source": "nypost"
+            "url": "https://www.hindustantimes.com/cities/noida-news/noida-5-held-for-theft-resale-of-e-commerce-site-s-75-lakh-goods-101785606525760.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/01/1600x900/logo/Police-said-the-suspects-diverted-goods-by-replaci_1785606520140.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "\u2018Nostradamus of AI\u2019 Leopold Aschenbrenner didn\u2019t have the crystal ball seeing hedge fund portfolio dip 67%",
+            "title": "\u2018Once I'd spoken to Stephen about it\u2019: Joe Root reveals how the Fleming conversation convinced him about England role",
             "severity": "WATCH",
-            "url": "https://nypost.com/2026/08/01/business/nostradamus-of-ai-leopold-aschenbrenner-didnt-have-the-crystal-ball-seeing-hedge-fund-portfolio-dip-67/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2FLAIP_6ece1c.jpg?quality%3D90%26strip%3Dall",
-            "source": "nypost"
-        },
-        {
-            "title": "(SP)CANADA-TORONTO-TENNIS-NATIONAL BANK OPEN-WOMEN'S SINGLES-QUALIFYING",
-            "severity": "WATCH",
-            "url": "http://www.chinanationalnews.com/news/279219008/spcanada-toronto-tennis-national-bank-open-womens-singles-qualifying",
-            "image": "https://image.chitra.live/api/v1/wps/4240d34/da53c337-d6c9-4db6-be9c-e8871e559361/0/XxjpbeE000039-20260802-PEPFN0A001-600x315.jpg",
-            "source": "chinanationalnews"
-        },
-        {
-            "title": "BOTSWANA-GABORONE-CIUB-CHINESE FILM DAY-ZODIAC",
-            "severity": "WATCH",
-            "url": "http://www.chinanationalnews.com/news/279219007/botswana-gaborone-ciub-chinese-film-day-zodiac",
-            "image": "https://image.chitra.live/api/v1/wps/0cbd624/e6b70f51-29e4-4f2f-beb5-6d231bc4117d/0/XxjpbeE000037-20260802-PEPFN0A001-600x315.jpg",
-            "source": "chinanationalnews"
-        },
-        {
-            "title": "Is Air Products And Chemicals (APD) Undervalued After Its Earnings Beat And Raised Outlook?",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/air-products-chemicals-apd-undervalued-011142616.html",
-            "image": "https://media.zenfs.com/en/simply_wall_st__316/94ee18e976fa28128d80b2d72357748d",
-            "source": "yahoo"
-        },
-        {
-            "title": "Sopranos and Goodfellas actor Vincent Pastore dead at 80",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/entertainment/vincent-pastore-obit-9.7294141?cmp=rss",
-            "image": "https://i.cbc.ca/ais/ae6020dd-188c-45ba-b864-cc3e8668c264,1785632552333/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C68%2C5000%2C2812%29%3B",
-            "source": "cbc"
-        },
-        {
-            "title": "\u2018Deseret Voices\u2019 Episode 41 \u2014 Olivia Moultrie: Rewriting the rules of women\u2019s soccer",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/deseret-voices-episode-41-olivia-012225636.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/681ec50f9e0746417a645e29c4103abc384dc6e822da70b20cb2fdb4211b8aa9/lightyear_networkapi/resizefit_w800_h452;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fdeseret_news_992%2Fe5b7b7c412e4b060191ef989d76699c5",
-            "source": "yahoo"
-        },
-        {
-            "title": "WWE SummerSlam night one RESULTS: Brock Lesnar passes the torch to Oba Femi and hints at retirement",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/sport/39940793/wwe-summerslam-brock-lesnar-hints-retirement/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F08%2FScreenshot-2026-08-02-at-03.15.31.png",
-            "source": "thesun"
-        },
-        {
-            "title": "WATCH: New footage of powerful home explosion",
-            "severity": "WATCH",
-            "url": "https://abcnews.com/video/135298079/",
-            "image": "https://i.abcnewsfe.com/a/ade356a1-e979-4bba-9f28-99b04d1128b1/260801_wn_home1_hpMain_16x9.jpg?w=992",
-            "source": "abcnews"
+            "url": "https://www.hindustantimes.com/cricket/once-id-spoken-to-stephen-about-it-joe-root-reveals-how-the-fleming-conversation-convinced-him-about-england-role-101785636707633.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/02/1600x900/logo/CRICKET-ENG-NZL--64_1785636784144_1785636797808_7bad832f-be97-4385-b492-e27f83e57a81.JPG",
+            "source": "hindustantimes"
         },
         {
             "title": "Where to watch Lioness Season 3: Release schedule, trailer, and more",
@@ -289,21 +289,7 @@
             "url": "https://www.news.com.au/sport/commonwealth-games/aussie-mens-4x100m-relay-gold-medallists-robbed-of-special-podium-moment-by-protest/news-story/5a7af93975862eae32bd47796cba65bc",
             "image": "https://content.api.news/v3/images/bin/88fc1de85f8eb30c9b1d1ff5e6842041",
             "source": "news"
-        },
-        {
-            "title": "This 110-Minute WWII Sci-Fi Thriller Is Finally Getting a Second Chance on Streaming",
-            "severity": "WATCH",
-            "url": "https://collider.com/overlord-ww2-sci-fi-thriller-streaming-paramount-plus-august-2026/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/04/overlord-2018.jpg",
-            "source": "collider"
-        },
-        {
-            "title": "Beyond paper leaks: Why India's public exams continue to fail students",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/india/beyond-paper-leaks-why-indias-public-exams-continue-to-fail-students-4096153",
-            "image": "https://media.assettype.com/deccanherald/2026-08-01/wx6bsnof/file86dv5qtdm018qi821xh.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
         }
     ],
-    "Last_Updated": "2026-08-02T13:40:27.585748Z"
+    "Last_Updated": "2026-08-02T15:06:59.494156Z"
 }
