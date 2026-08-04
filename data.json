@@ -1,253 +1,309 @@
 {
-    "AGRI_Score": 59.7,
-    "Velocity": "-1.0",
+    "AGRI_Score": 60.8,
+    "Velocity": "+1.1",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.7 is significantly elevated, primarily driven by intense geopolitical conflict and its cascading economic effects. The ongoing \"Iran war grinds on,\" coupled with Russia's aggressive posture as \"Putin stages war games with nuclear-capable missiles as Ukraine gains upper hand,\" fuels a high-risk environment. These widespread conflicts are directly contributing to \"factories faced weaker demand, higher costs\" and broader economic uncertainty, signifying a volatile global landscape.",
+    "AI_Brief": "The overall AGRI score of 60.8 reflects heightened global risk, predominantly driven by elevated geopolitical tensions, significant cyber threats, and persistent energy and supply chain disruptions. \"Confrontations between ENDF and TPLF in Tigray\" and \"Beiersdorf says Middle East conflict disrupts Gulf deliveries\" highlight ongoing conflicts and their tangible impact on trade. Simultaneously, a wave of major data breaches, exemplified by \"ExfilSquad hackers leak info of over 100,000 UK police officers, staff\" and \"MBK-owned Lotte Card faces business suspension after data breach,\" underscores a severe and widespread cyber threat landscape. While some indicators like falling oil prices offer slight relief, the convergence of these high-severity risks maintains an elevated threat profile.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 80.8,
+        "Geopolitical Conflict Intensity": 75.4,
         "Energy & Maritime Disruption": 75.2,
-        "Trade & Supply Chain Stress": 59.0,
+        "Trade & Supply Chain Stress": 70.4,
         "Sovereign Financial Stress": 57.5,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 58.2,
+        "Sanctions & Regulatory Fragmentation": 55.2,
+        "Cyber & Infrastructure Threats": 67.8,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is exceptionally high due to the persistence and escalation of major global conflicts. News reports such as \"Pentagon\u2019s Plea for Help With Trump\u2019s War Crisis Is Leaked\" and \"The Caspian Sea reckoning: Ukraine is bringing the war to the Islamic Republic\u2019s doorstep\" highlight a dangerously unstable international security environment.",
-        "Energy & Maritime Disruption": "This pillar remains very high, reflecting the direct impact of geopolitical tensions on global energy and shipping. The phrase \"factories faced weaker demand, higher costs in July as Iran war grinds on\" underscores ongoing supply and cost pressures, further influenced by broader market conditions affecting \"Official August fuel prices.\"",
-        "Trade & Supply Chain Stress": "Elevated stress is evident as global conflicts continue to impact economic activity and resource availability. \"Factories faced weaker demand, higher costs in July as Iran war grinds on\" clearly indicates disruptions to manufacturing and supply chains, while efforts by a \"Startup born in a Boston backyard lab now refines rare earths for missiles and jets to thwart China\" highlight strategic shifts in critical material sourcing.",
-        "Sovereign Financial Stress": "This pillar reflects growing concerns over national finances amidst a challenging global economic and geopolitical landscape. The reported \"factories faced weaker demand, higher costs in July as Iran war grinds on\" suggests potential revenue shortfalls and increased public spending, while volatile \"Official August fuel prices\" can exacerbate inflationary pressures on national economies.",
-        "Currency & Liquidity Pressure": "This pillar indicates a moderate but present level of concern regarding currency stability and market liquidity. The observation that \"USD/JPY: The Yen Is No Longer a 1-Way Bet\" points to shifting dynamics and potential volatility in key currency pairs, reflecting broader market uncertainty stemming from global events.",
-        "Sanctions & Regulatory Fragmentation": "This pillar is elevated by the ongoing geopolitical 'Trump\u2019s War Crisis Is Leaked' and the implied need for international responses. While no new sanctions were explicitly announced, the environment suggests continued vigilance against potential regulatory shifts and the persistent impact of existing restrictions in a fragmented global order.",
-        "Cyber & Infrastructure Threats": "While no direct cyberattacks were reported, the emphasis on \"Military-civil integration key to robust defence ecosystem to tackle emerging challenges\" signals a proactive and heightened awareness of potential threats to critical digital and physical infrastructure. This reflects an underlying concern for national security systems in an increasingly hostile global environment.",
-        "Climate & Resource Shock": "This pillar shows baseline activity, indicating no immediate, severe shocks from climate or direct resource-related events beyond the indirect energy cost implications from geopolitical conflicts. The current news feed does not contain headlines suggesting significant climate disasters or new, acute resource scarcity issues within this reporting period."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains acutely high due to ongoing hostilities and border security challenges. \"Confrontations between ENDF and TPLF in Tigray\" signals active conflict, while \"Fears Islamic extremists sneaked into Europe amid Ceuta invasion\" highlights increasing security threats from illicit border crossings.",
+        "Energy & Maritime Disruption": "Persistent regional conflicts continue to pose a high risk to energy transit and maritime routes, despite some positive market indicators. The report that \"Beiersdorf says Middle East conflict disrupts Gulf deliveries\" directly illustrates how geopolitical instability impedes safe passage and logistics in critical economic zones.",
+        "Trade & Supply Chain Stress": "Global supply chains face substantial pressure from both geopolitical events and environmental factors. \"Beiersdorf says Middle East conflict disrupts Gulf deliveries\" highlights direct disruption from conflict, while \"British food items at risk due to extreme drought\" indicates climate-induced vulnerabilities affecting commodity availability.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, with some recent market movements indicating potential easing. \"Falling oil prices help calm worries about inflation, and Wall Street rallies\" suggests a positive macroeconomic factor, though underlying fiscal pressures may warrant continued attention.",
+        "Currency & Liquidity Pressure": "This category reflects baseline activity with specific digital asset volatility rather than broad systemic liquidity concerns. \"Bitcoin Drops on Double Whammy From $89M Security Breach and Strategy Sale\" points to specific digital currency instability, but overall fiat currency liquidity appears to be under routine monitoring.",
+        "Sanctions & Regulatory Fragmentation": "The regulatory environment is seeing increased activity focusing on accountability and compliance across jurisdictions. \"Robust Guidelines for EU Companies Vital to Accountability Law\" indicates an increasing emphasis on stricter corporate governance and legal frameworks for businesses.",
+        "Cyber & Infrastructure Threats": "The cyber threat landscape is acutely elevated, marked by frequent and impactful data breaches targeting critical sectors and sensitive personal data. \"ExfilSquad hackers leak info of over 100,000 UK police officers, staff\" and \"MBK-owned Lotte Card faces business suspension after data breach\" demonstrate widespread and severe compromise of sensitive information and business operations.",
+        "Climate & Resource Shock": "While the overall score for this pillar is low, specific regional climate events are causing acute resource scarcity. \"British food items at risk due to extreme drought\" directly illustrates severe environmental impacts on agricultural output and food security in affected areas."
     },
     "All_Alerts": [
         {
-            "title": "Factories faced weaker demand, higher costs in July as Iran war grinds on",
+            "title": "EEPA reports on Confrontations between ENDF and TPLF in Tigray",
             "severity": "HIGH",
-            "url": "https://finance.yahoo.com/economy/articles/factories-faced-weaker-demand-higher-110721936.html",
-            "image": "https://media.zenfs.com/en/reuters.com/c1a76fde4a0e7975c3d3c01820896de9",
-            "source": "yahoo"
-        },
-        {
-            "title": "Pentagon\u2019s Plea for Help With Trump\u2019s War Crisis Is Leaked",
-            "severity": "HIGH",
-            "url": "https://www.thedailybeast.com/pentagon-pleads-for-help-with-trumps-iran-war-crisis-by-asking-troops-for-input-on-decision-making/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/FAK7PJAIZZCBZHBYKBLDSKB6R4.JPG?auth=db74a83aeeaad1f0026b50541df22a1f9ab26789f03d5ba412c4061745721fbc&smart=true&width=4800&height=2700",
-            "source": "thedailybeast"
-        },
-        {
-            "title": "Military-civil integration key to robust defence ecosystem to tackle emerging challenges: Rajnath Singh",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/defence/military-civil-integration-key-to-robust-defence-ecosystem-to-tackle-emerging-challenges-rajnath-singh/articleshow/132829415.cms",
-            "image": "https://images.pexels.com/photos/586104/pexels-photo-586104.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Putin stages war games with nuclear-capable missiles as Ukraine gains upper hand against Russia",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-16024555/Putin-war-games-nuclear-missiles.html",
-            "image": "https://i.dailymail.com/1s/2026/08/03/11/110408611-0-image-a-3_1785753562103.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Trump says talks on Iran war will begin on Monday after he holds off on 'massive' strikes",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/trump-says-talks-on-iran-war-will-begin-on-monday-after-he-holds-off-on-massive-strikes-101785752108128.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/03/1600x900/logo/AP08-03-2026-000050B-0_1785754962253_1785754974335_e2eee7fa-e5e8-45fa-be4f-7f9bfc667f0a.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "The Caspian Sea reckoning: Ukraine is bringing the war to the Islamic Republic\u2019s doorstep - opinion",
-            "severity": "HIGH",
-            "url": "https://www.jpost.com/opinion/article-904321",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/731459",
-            "source": "jpost"
-        },
-        {
-            "title": "Startup born in a Boston backyard lab now refines rare earths for missiles and jets to thwart China",
-            "severity": "HIGH",
-            "url": "https://apnews.com/video/startup-born-in-a-boston-backyard-lab-now-refines-rare-earths-for-missiles-and-jets-to-thwart-china-4e93a0a8adce4114b31ec97d42fc9057",
-            "image": "https://dims.apnews.com/dims4/default/59672b1/2147483647/strip/false/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc1%2F0a%2Fda7363f117b99d547280ffb69ed3%2Fus-nh-defense-critical-minerals-20260803cr-1920x1080.jpg",
-            "source": "apnews"
-        },
-        {
-            "title": "USA cricketer Akhilesh Reddy handed 8-year ban by ICC for corruption offences",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/sports/cricket/news/usa-cricketer-akhilesh-reddy-handed-8-year-ban-by-icc-for-corruption-offences/articleshow/132827968.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132828226/132828226.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Dominik Mysterio's Controversial Tweet After Losing at WWE SummerSlam 2026",
-            "severity": "MEDIUM",
-            "url": "https://www.givemesport.com/dominik-mysterio-tweet-bashing-wwe-after-summerslam-danhausen/",
-            "image": "https://static0.givemesportimages.com/wordpress/wp-content/uploads/2026/08/mixcollage-03-aug-2026-12-30-pm-7953.jpg",
-            "source": "givemesport"
-        },
-        {
-            "title": "Skechers' Neon City boots bring LA-inspired style to players of all ages",
-            "severity": "WATCH",
-            "url": "https://www.dailycomet.com/story/shopping/style/shoes/2026/08/03/skechers-soccer-neon-city-pack/91149367007/",
-            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/08/03/USAT/91151408007-skechersneonhero.png?auto=webp&crop=1999,1124,x0,y0&format=pjpg&width=1200",
-            "source": "dailycomet"
-        },
-        {
-            "title": "USD/JPY: The Yen Is No Longer a 1-Way Bet",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/analysis/usdjpy-the-yen-is-no-longer-a-1way-bet-200615810",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Official August fuel prices: Here\u2019s what you\u2019ll pay for petrol and diesel from Wednesday",
-            "severity": "WATCH",
-            "url": "https://www.iol.co.za/motoring/industry-news/official-august-fuel-prices-heres-what-youll-pay-for-petrol-and-diesel-from-wednesday-47d8e93c-be12-4d57-aafb-a72244e67e0d",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/69af88f685c09c7674d38fd56bbeff884b8a435e/1536&operation=CROP&offset=0x80&resize=1536x864",
-            "source": "iol"
-        },
-        {
-            "title": "GP told 'fit and healthy' dad pain in his arm was likely muscle strain - he died of heart disease weeks later",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/news/uk-news/heart-disease-arm-pain-symptoms-37507459",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37507648.ece/ALTERNATES/s615/1_A-dad-of-one-who-was-told-pain-in-his-arm-was-likely-caused-by-muscle-strain-died-just-weeks-later-f.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Sawan 2026: 7 Powerful Vedic Astrology Remedies to Strengthen Your Moon and Receive Lord Shiva's Blessings",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/astrology/others/sawan-2026-vedic-astrology-moon-remedies/articleshow/132829160.cms",
-            "image": "https://img.etimg.com/thumb/msid-132829365,resizemode-4,width-1200,height-900,imgsize-2335346,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Avista Corp. Reports Q2 2026 Financial Results, Confirms 2026 Utility Earnings Guidance",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/08/03/3337380/0/en/Avista-Corp-Reports-Q2-2026-Financial-Results-Confirms-2026-Utility-Earnings-Guidance.html",
+            "url": "https://indepthnews.net/eepa-reports-on-confrontations-between-endf-and-tplf-in-tigray/",
             "image": "https://images.pexels.com/photos/31019067/pexels-photo-31019067.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
+            "source": "indepthnews_net"
         },
         {
-            "title": "Russian Army Secures Two Settlements in Kharkov Region: MoD",
-            "severity": "WATCH",
-            "url": "https://sputniknews.in/20260803/russian-army-secures-two-settlements-in-kharkov-region-mod-11854337.html",
-            "image": "https://cdn1.img.sputniknews.in/img/07e9/0c/13/10245137_0:153:3096:1895_600x0_80_0_0_c198fea6e8ab68089127f8fdd9d5444d.jpg.webp",
-            "source": "sputniknews"
+            "title": "Iran pushes back on Trump claim about new talks - The Hill",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYzA5bkZ5ZlBIWVh4NC13ZDJjRnh4Y2h4bDJsbEJZZkhxUXliVGRJckdVdjNpQmNDWXRmTzRhVHptTXkyMkpMOGUzcjNiYjcxdEF6dnJCRklvaURzR0oydDZIWi1XMXRyNVZ6REhwT3B2WElHN1VzYk1ObE9rSjZNWTFidmxhanlWSWVEcGFnemRhQkNPclNR0gGcAUFVX3lxTE05ZnNXWG1tb3NwRHphamVYR0Q2R19NNzJQdnhHVlNXRDdHUVMxaEJGUXNQSDVDbTlUZlJsU0pBRmhRV0xKLXR4MmJ6cFJ2MVFhTXJObGZZc3JDOHg0V0Q2RXdyZzNheUhhOGpmRjhHa0FCb2EtbFNpdlVMWGFoQUg3OHdJTGJQcVRoMUZlaTRnbW5rSEpUc1l3MlB4Sw?oc=5",
+            "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "source": "google"
         },
         {
-            "title": "\u2018Irresistible\u2019 WW2 BBC series with twisty plot perfect for Downton Abbey fans",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/tv/tv-news/irresistible-ww2-bbc-series-twisty-37506967",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37507480.ece/ALTERNATES/s615/0_Screenshot-2026-08-03-at-111219JPG.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Fury as Donald Trump posts AI-generated image of himself as Elvis Presley",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/news/world/2235503/donald-trump-posts-elvis-presley-image",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/78/590x/2235503_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Mrs. Samiksha Choudhary Crowned Mrs. World International 2026 (Charming)",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/connect/mrs-samiksha-choudhary-crowned-mrs-world-international-2026-charming-4097447",
-            "image": "https://media.assettype.com/deccanherald/2026-08-03/o6umeytv/Picture1.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "India is Still Clutching Hard: 72% of Used Car Buyers Pick Manual, but the Under 35 Buyers are Switching",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/content/press-releases-ani/india-is-still-clutching-hard-72-of-used-car-buyers-pick-manual-but-the-under-35-buyers-are-switching-126080300837_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/03/full/20260803160146.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Goldman Sachs-backed Aragen Life Sciences eyes up to Rs 3,500-crore IPO; to file DRHP soon",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/ipo/goldman-backed-aragen-life-sciences-eyes-up-to-rs-3-500-crore-ipo-to-file-drhp-soon-13992047.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260730011816_IPO-Moneycontrol.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Epoch scales polymer biorecycling with Domo factory",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/technology/articles/epoch-scales-polymer-biorecycling-domo-110454999.html",
-            "image": "https://media.zenfs.com/en/just_style_482/f870e5445ee789a747483994f91baa57",
-            "source": "yahoo"
-        },
-        {
-            "title": "Tractor Supply: Low Valuation, Self-Help Initiatives, And Temporary Headwinds Create An Opportunity",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4929439-tractor-supply-low-valuation-self-help-initiatives-temporary-headwinds-creates-opportunity",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2214499989/image_2214499989.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "UK Shipbroker Clarkson Sees Result Boost from Hormuz Disruption",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/pmn/business-pmn/uk-shipbroker-clarkson-sees-result-boost-from-hormuz-disruption",
-            "image": "https://images.pexels.com/photos/7629244/pexels-photo-7629244.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "financialpost"
-        },
-        {
-            "title": "Annual bridge diving competition returns to Kosovo",
-            "severity": "WATCH",
-            "url": "http://www.euronews.com/video/2026/08/03/annual-bridge-diving-competition-returns-to-kosovo",
-            "image": "https://images.euronews.com/articles/stories/09/86/02/15/1200x675_cmsv2_c3c09e3d-8152-5afe-8a53-9c8ea86bc6e9-9860215.jpg",
-            "source": "euronews"
-        },
-        {
-            "title": "States can close or withdraw FIRs against student protesters, says SC",
-            "severity": "WATCH",
-            "url": "https://zeenews.india.com/india/states-can-close-or-withdraw-firs-against-student-protesters-says-sc-3064544.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/08/03/1969925-supreme-court-on-police-crackdown-on-the-cjp-protestors-on-july20.png",
-            "source": "zeenews"
-        },
-        {
-            "title": "Explained: Why ICC Banned Indian-Origin USA Cricketer Bodugum Akhilesh Reddy for Eight Years",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/sports/cricket/explained-why-icc-banned-indian-origin-usa-cricketer-bodugum-akhilesh-reddy-for-eight-years-article-155236761",
-            "image": "https://images.timesnownews.com/thumb/msid-155236786,thumbsize-23644,width-1280,height-720,resizemode-75/155236786.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Auditeo sued by ASIC over alleged First Guardian audit failures",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/auditeo-sued-asic-over-alleged-105308049.html",
-            "image": "https://media.zenfs.com/en/international_accounting_bulletin_542/4cfdc318446205091c27f8199b46a592",
-            "source": "yahoo"
-        },
-        {
-            "title": "Argentina refuse to let England feud die as brazen fans display stolen flags",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/sport/football/2235488/argentina-england-flag-world-cup",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/67/590x/2235488_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "UTZ Investigation Notice: Utz Brands Hit with Investigation over $14.25 per Share Merger \u2013 Shareholders Urged to Contact BFA Law",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/08/03/3337339/0/en/UTZ-Investigation-Notice-Utz-Brands-Hit-with-Investigation-over-14-25-per-Share-Merger-Shareholders-Urged-to-Contact-BFA-Law.html",
-            "image": "https://images.pexels.com/photos/9973155/pexels-photo-9973155.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "title": "Palmer's Debuts New Lemon Sorbet Collection, Meeting Consumer Demand for Fragrance-Forward Body Care with Proven Skincare Benefits",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/08/03/3337727/0/en/Palmer-s-Debuts-New-Lemon-Sorbet-Collection-Meeting-Consumer-Demand-for-Fragrance-Forward-Body-Care-with-Proven-Skincare-Benefits.html",
+            "image": "https://images.pexels.com/photos/972942/pexels-photo-972942.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "globenewswire_fr"
         },
         {
-            "title": "Couple who lost 14-year battle with neighbours over six inches of land and 'sentimental' ornamental squirrel have court bill increased to \u00a3150,000 after failing with appeal",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-16024547/Couple-lost-14-year-battle-neighbours-six-inches-land-sentimental-ornamental-squirrel-court-bill-increased-150-000-failing-appeal.html",
-            "image": "https://i.dailymail.com/1s/2026/08/03/11/110408395-0-image-a-9_1785752918833.jpg",
+            "title": "Beiersdorf says Middle East conflict disrupts Gulf deliveries",
+            "severity": "HIGH",
+            "url": "https://uk.investing.com/news/stock-market-news/beiersdorf-says-middle-east-conflict-disrupts-gulf-deliveries-93CH-4805996",
+            "image": "https://i-invdn-com.investing.com/news/OilwellinColorado_800x533_L_1645345712.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Talks with Ukraine on production of Patriot systems progressing \u2014 US envoy to NATO",
+            "severity": "HIGH",
+            "url": "https://tass.com/world/2168537",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
+        },
+        {
+            "title": "British food items at risk due to extreme drought - and what shortages could mean for you",
+            "severity": "HIGH",
+            "url": "https://www.mirror.co.uk/news/uk-news/food-shortage-uk-drought-heatwave-37508311",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37509018.ece/ALTERNATES/s615/1_UK-Inflation-rate-falls-to-26-perccent-in-June-London-United-Kingdom-22-Jul-2026.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Robust Guidelines for EU Companies Vital to Accountability Law",
+            "severity": "HIGH",
+            "url": "https://www.hrw.org/news/2026/08/03/robust-guidelines-for-eu-companies-vital-to-accountability-law",
+            "image": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2025/03/202503asia_bangladesh_rana_rally.jpg?h=94bc8005&itok=Phl6CNnc",
+            "source": "hrw"
+        },
+        {
+            "title": "JRK PROPERTY HOLDINGS DATA BREACH: Edelson Lechtzin LLP Launches Class Action Investigation into Exposure of Tenant and Applicant Personal Information",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/08/03/3337725/0/en/JRK-PROPERTY-HOLDINGS-DATA-BREACH-Edelson-Lechtzin-LLP-Launches-Class-Action-Investigation-into-Exposure-of-Tenant-and-Applicant-Personal-Information.html",
+            "image": "https://images.pexels.com/photos/5380589/pexels-photo-5380589.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "ExfilSquad hackers leak info of over 100,000 UK police officers, staff",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/exfilsquad-hackers-leak-info-of-over-100-000-uk-police-officers-staff/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2023/09/14/uk-police.jpg",
+            "source": "bleepingcomputer"
+        },
+        {
+            "title": "Report \u2013 The main reason behind Yan Diomande\u2019s delayed transfer to Real Madrid - Madrid Universal",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZm1lWmp2ZkExaUlFYVFYYjllNExPNThyckUxb1h2YXhuQmtSUWgyeWRsRjBfdk5HNS1oQ1JEdG5iM2xaeW8wN3M5OWJHQjJxb0cyU3VkR2FYVXg2RTFaQ1NRZmtVQjNTWURwYUJWVTJKb1B0T04wWU40VnBRTklXTkNEQTgtRjVKRkM4Sm9aQzR5U3hzODY0VnB6RUIxN0U3SnJjSmZoQQ?oc=5",
+            "image": "https://images.pexels.com/photos/7629244/pexels-photo-7629244.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "MBK-owned Lotte Card faces business suspension after data breach",
+            "severity": "HIGH",
+            "url": "https://www.upi.com/Top_News/World-News/2026/08/03/lotte-card-data-breach/3901785767191/",
+            "image": "https://cdnph.upi.com/ph/st/th/3901785767191/2026/i/17857677425209/v1.5/MBK-owned-Lotte-Card-faces-business-suspension-after-data-breach.jpg",
+            "source": "upi"
+        },
+        {
+            "title": "Fears Islamic extremists sneaked into Europe amid Ceuta invasion as violent criminals boast they have crossed border",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.com/news/article-16024527/Islamic-extremists-Europe-Ceuta.html",
+            "image": "https://i.dailymail.com/1s/2026/08/03/15/110412085-0-image-a-50_1785767362378.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Ugreen DXP2800 GT vs DXP4800 GT: How much NAS do you really need when replacing your costly cloud storage?",
+            "title": "Bitcoin Drops on Double Whammy From $89M Security Breach and Strategy Sale",
+            "severity": "HIGH",
+            "url": "https://www.barrons.com/articles/bitcoin-price-security-breach-strategy-stock-75dcdf54",
+            "image": "https://images.pexels.com/photos/6003969/pexels-photo-6003969.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "barrons"
+        },
+        {
+            "title": "Missing Mitch\u2019s Governor Speaks Out on Crucial Deadline",
+            "severity": "MEDIUM",
+            "url": "https://www.thedailybeast.com/missing-mitchs-governor-speaks-out-on-crucial-deadline/",
+            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/WHJL5YFDOFFNXCYGQQELJYSZG4.JPG?auth=ed43aaae68dc8f58887fc353c8f69d787c52a131be02ea6bc5a99a42e2698d51&smart=true&width=2768&height=1557",
+            "source": "thedailybeast"
+        },
+        {
+            "title": "Does Amazon Owe You Money From Its $600 Million Tariff Refund?",
+            "severity": "MEDIUM",
+            "url": "https://www.pcmag.com/news/does-amazon-owe-you-money-from-its-600-million-tariff-refund",
+            "image": "https://i.pcmag.com/imagery/articles/02mwmRWFn1ZYzSZfGAC4nvn-1..v1785769263.jpg",
+            "source": "pcmag"
+        },
+        {
+            "title": "US factory activity accelerates, uncertainty remains high: survey",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/international/business/us-manufacturing-activity-surges-to-four-year-high-amid-economic-uncertainty/articleshow/132835071.cms",
+            "image": "https://img.etimg.com/thumb/msid-132835343,resizemode-4,width-1200,height-900,imgsize-292554,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Pappu Yadav\u2019s \u2018seer\u2019 skit puts SP in a bind; party leader terms it \u2018incorrect act\u2019",
+            "severity": "MEDIUM",
+            "url": "https://www.thehindu.com/news/national/pappu-yadavs-seer-skit-puts-sp-in-a-bind-party-leader-terms-it-incorrect-act/article71301340.ece",
+            "image": "https://th-i.thgim.com/public/incoming/tzl8s6/article71302160.ece/alternates/FREE_1200/PTI08_02_2026_000383B.jpg",
+            "source": "thehindu"
+        },
+        {
+            "title": "Falling oil prices help calm worries about inflation, and Wall Street rallies",
             "severity": "WATCH",
-            "url": "https://www.tomsguide.com/computing/ugreen-dxp2800gt-vs-ugreen-dxp4800gt",
-            "image": "https://cdn.mos.cms.futurecdn.net/2qxQzzDZkEzXq97p5epYs7-1280-80.jpg",
-            "source": "tomsguide"
+            "url": "https://kfor.com/news/ap-asian-stocks-are-mixed-as-yen-jumps-against-the-dollar-while-oil-prices/",
+            "image": "https://kfor.com/wp-content/uploads/sites/3/2026/08/6a709aa6cfb668.03511737.jpeg?w=900",
+            "source": "kfor"
+        },
+        {
+            "title": "My husband said the mini fridge in his gaming room was for gym stuff \u2013 Then I opened it",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/people/confessions/1722870-my-husband-mini-fridge-gaming-room-gym-stuff-i-opened-it/",
+            "image": "https://cdn.legit.ng/images/1200x675/5a73e714dc3ba65d.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "UCLA football has juice again and coach Bob Chesney built it in months",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/ucla-football-juice-again-coach-151121958.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/dd542653190c51ff526a12c6581927bed0a26130c26519984a958e6fa88fc459/lightyear_networkapi/resizefit_w1200;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fon3_recruiting_articles_521%2F45c3488155094aab235e7618b42e1246",
+            "source": "yahoo"
+        },
+        {
+            "title": "IREDA Q1 Results: Net Profit Climbs 37% As Total Income Rises",
+            "severity": "WATCH",
+            "url": "https://www.ndtvprofit.com/markets/ireda-q1-results-net-profit-climbs-37-as-total-income-rises-11860716",
+            "image": "https://c.ndtvimg.com/2026-01/2c47bf06_Untitled-design.jpeg?im=FeatureCrop,algorithm=dnn,width=1600,height=900",
+            "source": "ndtv"
+        },
+        {
+            "title": "DiaMedica Therapeutics (DMAC): BioTech with Breakthrough Potential",
+            "severity": "WATCH",
+            "url": "https://finance.yahoo.com/healthcare/articles/diamedica-therapeutics-dmac-biotech-breakthrough-150916024.html",
+            "image": "https://media.zenfs.com/en/insidermonkey.com/7832865e18d33ea16629afe59e4f284b",
+            "source": "yahoo"
+        },
+        {
+            "title": "Why Affiliated Managers Group (AMG) Could Be a Hidden Winner in Alternatives",
+            "severity": "WATCH",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/why-affiliated-managers-group-amg-150836713.html",
+            "image": "https://media.zenfs.com/en/insidermonkey.com/43b99dcec9f41bd1741b56e39fd99da2",
+            "source": "yahoo"
+        },
+        {
+            "title": "A Color Only Seven People Have Seen",
+            "severity": "WATCH",
+            "url": "https://www.newyorker.com/newsletter/the-daily/a-color-only-seven-people-have-seen",
+            "image": "https://media.newyorker.com/photos/66bbc14a3a338ff378df3b0c/16:9/w_1184,h_666,c_limit/newsletter-flagship-daily-header2.png",
+            "source": "newyorker"
+        },
+        {
+            "title": "McLaren victory leaves 2026 F1 title race \"far from over\", says Martin Brundle",
+            "severity": "WATCH",
+            "url": "https://www.motorsport.com/f1/news/mclaren-victory-leaves-2026-f1-title-race-far-from-over-says-martin-brundle/10843926/",
+            "image": "https://cdn-2.motorsport.com/images/amp/2jEAbr90/s6/oscar-piastri-mclaren-andrea-s.jpg",
+            "source": "motorsport_en"
+        },
+        {
+            "title": "Prince Philip's true personality unearthed in historic school report",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/news/royals/prince-philip-school-report-gordonstoun-37508940",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article27587005.ece/ALTERNATES/s615/3_Royal-Couple-At-Balmoral.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Zach Cregger, Jonathan Goldstein, and John Francis Daley Tease 'Resident Evil', 'Star Trek', and 'Mayday'",
+            "severity": "WATCH",
+            "url": "https://collider.com/zach-cregger-jonathan-goldstein-john-francis-daley-director-panel-sdcc-resident-evil-star-trek/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/directors-on-directing-panel-sdcc-feature.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "Trump overhaul could gut Head Start preschool standards, leaving states to set the rules",
+            "severity": "WATCH",
+            "url": "https://www.bostonherald.com/2026/08/03/trump-education-head-start/",
+            "image": "https://www.bostonherald.com/wp-content/uploads/2026/08/Education_Head_Start_2_586-1.jpg?w=1400px&strip=all",
+            "source": "bostonherald"
+        },
+        {
+            "title": "Matt Baker plans to rival Alison Hammond with 'incredible' new BBC2 show",
+            "severity": "WATCH",
+            "url": "https://www.standard.co.uk/showbiz/matt-baker-rival-alison-hammond-bbc2-show-b1292204.html",
+            "image": "https://static.standard.co.uk/2026/04/06/12/00/Matt-Baker.png?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
+        },
+        {
+            "title": "UAE authority takes legal action against 2 for offensive content during live broadcast",
+            "severity": "WATCH",
+            "url": "https://www.khaleejtimes.com/uae/uae-authority-takes-legal-action-against-2-for-offensive-content-during-live-broadcast",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-08-03/umdgta1s/uae-court.avif",
+            "source": "khaleejtimes"
+        },
+        {
+            "title": "Grooming gang found guilty of exploiting teenage girls for sex",
+            "severity": "WATCH",
+            "url": "https://www.bbc.co.uk/news/articles/cg7md77yzndo",
+            "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/eeee/live/72da8b00-8f40-11f1-8c3d-6f698d2b4d1e.png",
+            "source": "bbc"
+        },
+        {
+            "title": "Lower rents, rising demand: Chennai office vacancy falls below 10% as GCC demand outpaces supply",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/real-estate/news/lower-rents-rising-demand-chennai-office-vacancy-falls-below-10-as-gcc-demand-outpaces-supply/articleshow/132835196.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-132835360/132835360.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Univar Solutions Acquires H.M. Royal, Expanding Reach in Rubber, Plastics, and Adhesive Additives in the United States",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/globe-newswire/univar-solutions-acquires-h-m-royal-expanding-reach-in-rubber-plastics-and-adhesive-additives-in-the-united-states",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/08/ingredients-specialties-from-univar-solutions.jpeg",
+            "source": "financialpost"
+        },
+        {
+            "title": "Bhumana questions relaxed TTD tender norms for hospital supplies",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/news/national/andhra-pradesh/bhumana-questions-relaxed-ttd-tender-norms-for-hospital-supplies/article71301657.ece",
+            "image": "https://th-i.thgim.com/public/incoming/34aq4p/article71302108.ece/alternates/FREE_1200/10215_3_8_2026_19_38_23_1_WHATSAPPIMAGE2026_08_03AT72957PM.JPEG",
+            "source": "thehindu"
+        },
+        {
+            "title": "Israel conveys \u2018concerns\u2019 to US on Gaza plan, keeps up strikes",
+            "severity": "WATCH",
+            "url": "https://www.news.com.au/breaking-news/israel-conveys-concerns-to-us-on-gaza-plan-and-keeps-striking/news-story/595d5d47d9cd4549150c06ad95513b1e",
+            "image": "https://content.api.news/v3/images/bin/efbf0eca19a000dd38a7c0afc3f22ce6",
+            "source": "news"
+        },
+        {
+            "title": "'Spider-Man: Brand New Day' beats 'Avengers: Endgame' box office record",
+            "severity": "WATCH",
+            "url": "https://www.newsday.com/entertainment/spiderman-record-box-office-p16435",
+            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "newsday"
+        },
+        {
+            "title": "Trump insists his real approval numbers are the best they\u2019ve ever been",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/bulletin/news/trump-real-poll-approval-numbers-b3026622.html",
+            "image": "https://static.independent.co.uk/2026/08/01/22/2026-07-31T213315Z_673629182_RC28PMAKCZ2O_RTRMADP_3_USA-TRUMP.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+            "source": "independentuk"
+        },
+        {
+            "title": "Google Earth Pulls 'Nano Banana' After Users Create Offensive Images",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/google-earth-pulls-nano-banana-after-users-create-offensive-images-12276889",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/08/twin-img-35.png?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Yan Diomande is facing a wait.",
+            "severity": "WATCH",
+            "url": "https://www.si.com/soccer/long-running-dispute-delaying-yan-diomande-real-madrid-transfer-explained",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_861,h_484,x_77,y_219/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01kz3wfej3tr6qqdybq1.jpg",
+            "source": "si"
+        },
+        {
+            "title": "The Scoop: Hank Green comes under fire for \u2018not healthy\u2019 AI use",
+            "severity": "WATCH",
+            "url": "https://www.prdaily.com/the-scoop-hank-green-comes-under-fire-for-not-healthy-ai-use/",
+            "image": "https://www.prdaily.com/wp-content/uploads/2026/08/iStock-2258807282.jpg",
+            "source": "prdaily"
         }
     ],
-    "Last_Updated": "2026-08-03T23:08:22.616593Z"
+    "Last_Updated": "2026-08-04T03:15:14.353952Z"
 }
