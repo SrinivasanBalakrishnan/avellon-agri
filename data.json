@@ -1,91 +1,119 @@
 {
-    "AGRI_Score": 60.4,
-    "Velocity": "-1.0",
+    "AGRI_Score": 60.0,
+    "Velocity": "-0.4",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The current AGRI score of 60.4/100 reflects a significantly heightened global risk environment, primarily driven by escalating geopolitical tensions and direct cyber threats. Military mobilizations in the Middle East, as seen with Israel's cancellation of military leaves, and ongoing conflict impacting energy infrastructure, such as Russian strikes on Chernomorsk port, elevate conflict intensity. This is compounded by a high-severity cyberattack crippling essential services in a California city, underscoring systemic vulnerabilities. Trade reconfigurations, including India's potential 'de-risking from US' and the Pentagon's push for increased weapons production, further contribute to a complex strategic landscape.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 60.0 reflects significantly elevated geopolitical conflict and energy market disruption, primarily stemming from heightened Middle East tensions. Houthi attacks on Saudi Aramco facilities and Iran's continued stance on the Strait of Hormuz are driving severe stress in Energy & Maritime Disruption and Geopolitical Conflict Intensity. These factors contribute to a challenging global landscape, with potential downstream effects on trade and sovereign stability.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.2,
+        "Geopolitical Conflict Intensity": 78.6,
         "Energy & Maritime Disruption": 70.9,
-        "Trade & Supply Chain Stress": 71.0,
+        "Trade & Supply Chain Stress": 67.7,
         "Sovereign Financial Stress": 56.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.0,
-        "Cyber & Infrastructure Threats": 65.4,
+        "Sanctions & Regulatory Fragmentation": 57.7,
+        "Cyber & Infrastructure Threats": 62.9,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains elevated, driven by immediate military actions and regional posturing. The cancellation of Israeli military leaves and Russian forces striking fuel and military equipment depots at Chernomorsk port signal ongoing conflict and potential escalations in critical regions.",
-        "Energy & Maritime Disruption": "Energy and maritime disruption is high, with direct attacks on critical infrastructure. Russian forces striking fuel and military equipment depots at Chernomorsk port indicate persistent threats to energy supply chains and maritime logistics.",
-        "Trade & Supply Chain Stress": "Trade and supply chain stress remains significant, influenced by increasing calls for economic de-risking and domestic industry protection. India's consideration to 'de-risk from US' following a proposed tariff bill, alongside the Pentagon's push for increased weapons production, highlights efforts to reconfigure global trade flows.",
-        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, reflecting underlying fiscal concerns amidst global uncertainties. While no specific headlines directly indicate new sovereign defaults, the persistent geopolitical tensions may indirectly contribute to elevated risk perceptions for national economies.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressure is currently at a moderate level, with no immediate shocks reported. This pillar requires routine monitoring, as broader geopolitical and trade shifts could impact market confidence and capital flows.",
-        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation show moderate activity, driven by nationalistic economic policies and potential shifts in global alliances. India's consideration to 'de-risk from US' following a proposed tariff bill indicates a push for independent regulatory approaches and trade frameworks.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are significantly high, evidenced by a critical real-world incident. The declaration of a state of emergency in a California city after hackers crippled its 911 system highlights the severe impact of such attacks on essential public services.",
-        "Climate & Resource Shock": "Climate and resource shock currently presents a low-level risk, with no major natural disasters or widespread resource scarcity reported in the immediate news. Activity in this pillar mainly involves localized environmental concerns, such as waste accumulation at the Singhola dump site."
+        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to ongoing regional hostilities, evidenced by \"Yemen\u2019s Houthis claim attack on Aramco oil facility in Saudi Arabia\" and \"Russia hits Ukrainian military logistics in Odessa \u2013 MOD.\" Further geopolitical friction is highlighted by Iran's position that \"Talks With US Won't Happen While Interim Deal Is Breached.\"",
+        "Energy & Maritime Disruption": "Severe disruption persists in this pillar, directly impacted by Middle East unrest as \"Yemen's Houthis Claim Drone Strike On Saudi Aramco Refinery In Jizan, 2nd Attack In A Month.\" Concurrently, maritime routes face challenges as \"Iran Keeps Strait of Hormuz Blocked,\" impacting global energy flows and trade.",
+        "Trade & Supply Chain Stress": "This pillar experiences significant stress due to geopolitical and energy-related blockages, with \"Iran Keeps Strait of Hormuz Blocked\" forcing nations like China to explore alternatives such as \"Xi's Plan B For Global Trade? China Looks to Arctic.\" Potential new sanctions also pose a risk, as a \"US Russia sanctions bill could tighten oil markets, put India\u2019s energy security at risk.\"",
+        "Sovereign Financial Stress": "While no direct sovereign defaults are reported, this pillar indicates moderate underlying pressure influenced by commodity market volatility. The potential for a \"US Russia sanctions bill could tighten oil markets, put India\u2019s energy security at risk\" suggests rising energy costs could strain national budgets and economic stability for some importers.",
+        "Currency & Liquidity Pressure": "This pillar registers baseline activity with no explicit news indicating significant currency depreciations or liquidity crises at present. The current score reflects a general level of market vigilance without specific immediate drivers from the provided feed.",
+        "Sanctions & Regulatory Fragmentation": "This pillar is moderately elevated due to potential new restrictions that could fragment global markets and supply chains. A looming \"US Russia sanctions bill could tighten oil markets, put India\u2019s energy security at risk\" signals an increase in regulatory complexity and potential economic isolation for targeted entities.",
+        "Cyber & Infrastructure Threats": "This pillar registers a high level of concern following direct threats to critical infrastructure within the US. The headline \"Hackers are targeting US water systems. Here\u2019s what that means.\" underscores a severe and immediate risk to public services and national security.",
+        "Climate & Resource Shock": "This pillar indicates routine monitoring, as the provided news feed contains no evidence of widespread or systemic climate-related disruptions or significant resource shocks. While a social media video of a \"Little Girl Carrying 3 Water Cans Goes Viral\" touches on resource access, it does not represent a broad shock to global systems."
     },
     "All_Alerts": [
         {
-            "title": "\u2018Saudi-Pak-Turkey Mecca Alliance Was In Making For 3 Years\u2019: Egypt Too May Join, Says Turkish FM | Exclusive",
+            "title": "Yemen\u2019s Houthis claim attack on Aramco oil facility in Saudi Arabia, and other Middle East news",
             "severity": "HIGH",
-            "url": "https://www.news18.com/world/saudi-pak-turkey-mecca-alliance-was-in-making-for-3-years-egypt-too-may-join-says-turkish-fm-exclusive-ws-kl-10261889.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/08/Turkey-Saudi-Arabia-Pakistan-2026-08-7897b934f413b8cd4e8fc0ce74981df8-1200x800.jpg",
-            "source": "news18"
+            "url": "https://abcnews.com/International/wireStory/yemens-houthis-claim-attack-aramco-oil-facility-saudi-135496001",
+            "image": "https://s.abcnews.com/images/International/wirestory_6c5aa0c5debcca3fa36316a8b0b67400_4x3_384.jpg",
+            "source": "abcnews"
         },
         {
-            "title": "Japan's Nagasaki marks 81st anniversary of US atomic bombing",
+            "title": "GB News interrupted by breaking news after awkward blow for Andy Burnham",
             "severity": "HIGH",
-            "url": "https://apnews.com/video/japans-nagasaki-marks-81st-anniversary-of-us-atomic-bombing-d62e5ad83d6c4a8b88d9dc30bc02d5e5",
-            "image": "https://dims.apnews.com/dims4/default/763a290/2147483647/strip/false/crop/1920x1080+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc5%2Ffc%2F9ebdfe779e35ca7e39dca79631e0%2Fjpn-nagasaki-anniversary-20260809cr-1920x1080.jpg",
-            "source": "apnews"
+            "url": "https://www.dailystar.co.uk/tv/gb-news-interrupted-breaking-news-37529794",
+            "image": "https://i2-prod.dailystar.co.uk/showbiz/article37529792.ece/ALTERNATES/s615/0_Prime-Minister-Andy-Burnham-Meets-Emergency-Workers-In-South-East-England.jpg",
+            "source": "dailystar"
         },
         {
-            "title": "Aluminium foil hack to clean chimney filters: How it works, benefits and steps to remove stubborn grease",
+            "title": "Talks With US Won't Happen While Interim Deal Is Breached, Iranian Minister Says",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/new-updates/aluminium-foil-hack-to-clean-chimney-filters-how-it-works-benefits-and-steps-to-remove-stubborn-grease/articleshow/133063263.cms",
-            "image": "https://img.etimg.com/thumb/msid-133063384,resizemode-4,width-1200,height-900,imgsize-298946,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.usnews.com/news/world/articles/2026-08-09/talks-with-us-wont-happen-while-interim-deal-is-breached-iranian-minister-says",
+            "image": "https://www.usnews.com/dims4/USNEWS/2f309f8/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F69%2Fb1009df196b4add6592878b1d66492%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM78043%3A12026-08-09T083536Z_1_LYNXMPEM78043_RTROPTP_3_IRAN-CRISIS.JPG",
+            "source": "usnews"
         },
         {
-            "title": "Pentagon pushes defence companies to boost weapons production after concerns of depleted stocks",
+            "title": "Mecca pact: Turkey reassures Iran as Houthis warn Erdogan against Yemen war?",
             "severity": "HIGH",
-            "url": "https://www.thehindu.com/news/international/pentagon-pushes-defence-companies-to-boost-weapons-production-after-concerns-of-depleted-stocks/article71324197.ece",
-            "image": "https://th-i.thgim.com/public/incoming/aukc1t/article71324232.ece/alternates/FREE_1200/iStock-2278741415.jpg",
-            "source": "thehindu"
+            "url": "https://www.hindustantimes.com/videos/mecca-pact-turkey-reassures-iran-as-houthis-warn-erdogan-against-yemen-war-101786264380504.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/09/1600x900/logo/THUMB_FINAL_20262_1786264505616_1786264509197_20166c3d-5786-4377-8e5f-e0734e274d6a.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Russian forces strike fuel, military equipment depots at Chernomorsk port",
+            "title": "Xi's Plan B For Global Trade? China Looks to Arctic as Iran Keeps Strait of Hormuz Blocked",
             "severity": "HIGH",
-            "url": "https://tass.com/defense/2170639",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
+            "url": "https://timesofindia.indiatimes.com/videos/international/xis-plan-b-for-global-trade-china-looks-to-arctic-as-iran-keeps-strait-of-hormuz-blocked/videoshow/133064479.cms",
+            "image": "https://static.toiimg.com/photo/imgsize-365065,msid-133064479/133064479.jpg",
+            "source": "toi"
         },
         {
-            "title": "Foreign investment must complement, not displace local firms, warns Johari",
+            "title": "As the world rediscovers 'The Odyssey,' disabled actors in Greece explore the pain of war",
             "severity": "HIGH",
-            "url": "https://www.thestar.com.my/news/nation/2026/08/09/foreign-investment-must-complement-not-displace-local-firms-warns-johari",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/09/4050892.jpg",
-            "source": "thestar_my"
+            "url": "https://abcnews.com/International/wireStory/world-rediscovers-odyssey-disabled-actors-greece-explore-pain-135495244",
+            "image": "https://s.abcnews.com/images/International/wirestory_353553292cf006c6e734978dfe9e931c_4x3_384.jpg",
+            "source": "abcnews"
         },
         {
-            "title": "Bengaluru warehouse leasing jumps 78% to 3.1 MSF in H1 2026, fastest growth among major markets",
+            "title": "Yemen's Houthis Claim Drone Strike On Saudi Aramco Refinery In Jizan, 2nd Attack In A Month",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/bengaluru-warehouse-leasing-jumps-78-to-3-1-msf-in-h1-2026-fastest-growth-among-major-markets/articleshow/133063385.cms",
-            "image": "https://img.etimg.com/thumb/msid-133063389,resizemode-4,width-1200,height-900,imgsize-97794,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.timesnownews.com/world/middle-east/yemens-houthis-claim-drone-strike-on-saudi-aramco-refinery-in-jizan-2nd-attack-in-a-month-article-155394786",
+            "image": "https://images.timesnownews.com/thumb/msid-155395106,thumbsize-1934941,width-1280,height-720,resizemode-75/155395106.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "Bengaluru's warehouse leasing surges 78%, remains key logistics hub",
+            "title": "Brother of wounded soldier alleges severe mistreatment at Rambam hospital after Lebanon attack",
             "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/business/bengaluru-s-warehouse-leasing-surges-78-remains-key-logistics-hub-articleshow-8ci7zvs",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-914b7cfa-6c4a-412e-8957-b899ebe7a2f6.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://www.jpost.com/israel-news/article-904953",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/729576",
+            "source": "jpost"
         },
         {
-            "title": "Israel Cancels All Military Leaves: Is Netanyahu Preparing A Fresh Strike On Iran Amid Talks With US?",
+            "title": "US Russia sanctions bill could tighten oil markets, put India\u2019s energy security at risk, says Kpler: Report",
             "severity": "HIGH",
-            "url": "https://www.news18.com/world/israel-cancels-all-military-leaves-is-netanyahu-preparing-a-fresh-strike-on-iran-amid-talks-with-us-10261894.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/06/trump-netanyahu-2026-06-570a849ed51ff542adcf99f9f9da4e7a-1200x800.jpg",
-            "source": "news18"
+            "url": "https://www.hindustantimes.com/india-news/us-russia-sanctions-bill-could-tighten-oil-markets-put-indias-energy-security-at-risk-says-kpler-report-101786261168022.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/09/1600x900/logo/modi_trump_1786262319325_1786262329128_07c4aff5-70e9-494c-be52-28aef7d099c0.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Russia hits Ukrainian military logistics in Odessa \u2013 MOD",
+            "severity": "HIGH",
+            "url": "https://www.rt.com/russia/644029-russia-hits-ukrainian-military-logistics/",
+            "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a7837a085f54033244e7670.jpg",
+            "source": "rt"
+        },
+        {
+            "title": "Hackers are targeting US water systems. Here\u2019s what that means.",
+            "severity": "HIGH",
+            "url": "https://www.businessinsider.com/hackers-target-us-water-utilities-cyberattacks-explained-2026-8",
+            "image": "https://i.insider.com/6a768ac58fcc2e955f7deac8?format=jpeg",
+            "source": "insider"
+        },
+        {
+            "title": "Ukraine Buys U.S. Artillery Rockets in Turkey",
+            "severity": "HIGH",
+            "url": "https://www.bluewin.ch/www.bluewin.ch/en/news/ukraine-buys-u.s.-artillery-rockets-in-turkey-li.3557105",
+            "image": "https://bluewin-prod-sc-images.imgix.net/2026/08/09/47bd7970-24f9-45f0-a21c-9313e9ebdeb5.jpg?w=1024&auto=format&s=8807eced34fdf0e5f9fa86669f8cef46",
+            "source": "bluewin"
+        },
+        {
+            "title": "War, terror, diplomacy: What if Israel takes Al-Aqsa Mosque?",
+            "severity": "HIGH",
+            "url": "https://globalnation.inquirer.net/334158/war-terror-diplomacy-what-if-israel-takes-al-aqsa-mosque",
+            "image": "https://globalnation.inquirer.net/files/2026/08/A-2025-visit-to-the-Al-Aqsa-compound-by-Israels-far-right-national-security-minister-Itamar-Ben-Gvir-was-described-as-provocative-Image-Mostafa-AlkharoufAnadolupicture-alliance.png",
+            "source": "inquirer"
         },
         {
             "title": "Find out more as X changes monetisation rules, announces new ways creators can earn money",
@@ -102,137 +130,144 @@
             "source": "theguardian"
         },
         {
-            "title": "Chaos as California city declares state of emergency after hackers cripple 911 system",
-            "severity": "HIGH",
-            "url": "https://nypost.com/2026/08/08/us-news/cyberattack-knocks-out-california-citys-911-system/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2F136877893.jpg?quality%3D90%26strip%3Dall",
-            "source": "nypost"
-        },
-        {
-            "title": "'As with China, India must now de-risk from US': Sushant Sareen after Senate clears 100% tariff bill",
-            "severity": "HIGH",
-            "url": "https://www.businesstoday.in/latest/story/as-with-china-india-must-now-de-risk-from-us-sushant-sareen-after-senate-clears-100-tariff-bill-548155-2026-08-09",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202608/6a77ea9de1a9a-i-think-india-needs-to-get-over-that-sense-that-this-is-a-temporary-phenomenon--says-sushant-sareen-09485679-16x9.jpg?size=1280:720",
-            "source": "businesstoday"
-        },
-        {
-            "title": "Andy Burnham handed blueprint to reverse Brexit with UK joining 'European Confederation'",
+            "title": "Wait for Hormuz deal stretches on as Iran says terms must be met",
             "severity": "MEDIUM",
-            "url": "https://www.express.co.uk/news/politics/2237386/andy-burnham-reverse-brexit-uk",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/139/237x141/2237386_1.jpg",
-            "source": "expresscouk"
+            "url": "https://www.moneycontrol.com/world/wait-for-hormuz-deal-stretches-on-as-iran-says-terms-must-be-met-article-13998979.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/08/20260804072835_ships-Hormuz.jpg",
+            "source": "moneycontrol"
         },
         {
-            "title": "14,000 UFO sightings in Germany: reporting centre in Hesse investigates",
+            "title": "'Pahadi Kids Are Built Different': Little Girl Carrying 3 Water Cans Goes Viral, Video Sparks Debate",
             "severity": "MEDIUM",
-            "url": "https://ca.news.yahoo.com/14-000-ufo-sightings-germany-064605045.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/867b30edbdc444c9cb3de192b292ad9dccdf87a8f866a0735fb3b4ad45fcf023/lightyear_networkapi/resizefill_w1024_h576%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Feuronews_ca_articles_409%2Fd05828498646d240841411f9610cf207",
+            "url": "https://newsable.asianetnews.com/india/uttarakhand-girl-carries-3-water-cans-viral-video-sparks-debate-on-access-to-tapped-water-articleshow-kxgz3mk",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01kzjs34q4qd0mbdr084n22h0n,imgname-uttarakhand-girl-carries-3-water-cans-viral-video-sparks-debate-on-access-to-tapped-water-1786262950628.png",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "1 of my favourite passive income stocks just got cheaper! Time to buy more?",
+            "severity": "WATCH",
+            "url": "https://uk.finance.yahoo.com/news/1-favourite-passive-income-stocks-083700331.html",
+            "image": "https://media.zenfs.com/en/fool.co.uk/8ebd44045c5ccdc77f3f93753dcab149",
             "source": "yahoo"
         },
         {
-            "title": "New Bajaj Pulsar 150 Design Leaked Ahead Of Upcoming Launch - What's New?",
+            "title": "Elon Musk rocked by unpaid bills claims",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/auto/bike-news/new-bajaj-pulsar-150-design-leaked-ahead-of-upcoming-launch-whats-new-article-155389137",
-            "image": "https://images.timesnownews.com/thumb/msid-155389355,thumbsize-53562,width-1280,height-720,resizemode-75/155389355.jpg",
-            "source": "timesnownews"
+            "url": "https://www.news.com.au/technology/innovation/extrillionaire-elon-musk-faces-mounting-claims-over-unpaid-bills/news-story/994a2c366585021daf7c079d00f066ba",
+            "image": "https://content.api.news/v3/images/bin/ea454f3fce3ce2653e08759ec0ca67d9",
+            "source": "news"
         },
         {
-            "title": "Springboks scared, Henry Pollock deal 'impossible' and statement issued on death",
+            "title": "Weekly Love Forecast: Horoscope shares guidance for relationships; Aries seeks clarity",
             "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/springboks-scared-henry-pollock-deal-064729566.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/14c224e313748bcfddb8798eafdaf061d51441c5d4e5f2b4a7d3c3555ae02f9c/lightyear_networkapi/resizefit_w810_h540%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fwales_online_892%2F165bb1603f317812ccf2aa02e0c1a872",
-            "source": "yahoo"
-        },
-        {
-            "title": "Earnings beats ease concerns over record U.S. stock rally - WSJ",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/earnings-beats-ease-concerns-over-record-us-stock-rally-4587025",
-            "image": "https://i-invdn-com.investing.com/news/LYNXMPEBBR0PM_M.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "\u2018Their Courage Will Always Inspire\u2019: PM Modi Remembers Quit India Movement Heroes On 84th Anniversary",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/india/their-courage-will-always-inspire-pm-modi-remembers-quit-india-movement-heroes-on-84th-anniversary-ws-l-10261914.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/03/jewar-airport-inauguration-pm-modi-2026-03-3b00f57d224bb6cc2c6938265e18d6fa-1200x800.png",
-            "source": "news18"
-        },
-        {
-            "title": "NGT seeks fresh disclosure on waste accumulation at Singhola dump site in city",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/delhi-news/ngt-seeks-fresh-disclosure-on-waste-accumulation-at-singhola-dump-site-in-city-101786257676624.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/01/27/1600x900/logo/ht-generic_cities2_1769511880449_1769511907099.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Myanmar's Min Aung Hlaing seeks legitimacy in Thailand",
-            "severity": "WATCH",
-            "url": "https://globalnation.inquirer.net/334142/myanmars-min-aung-hlaing-seeks-legitimacy-in-thailand",
-            "image": "https://globalnation.inquirer.net/files/2026/08/Myanmar-ex-junta-chief-set-for-first-Thailand-visit-as-civilian-leader-620x413.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Ukraine seeking air defense systems from South Korea",
-            "severity": "WATCH",
-            "url": "https://www.japantimes.co.jp/news/2026/08/09/asia-pacific/ukraine-zelenskyy-south-korea-air-defense/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/08/09/556339.jpg",
-            "source": "japantimes"
-        },
-        {
-            "title": "Russian forces strike fuel storage tanks near Odessa",
-            "severity": "WATCH",
-            "url": "https://tass.com/defense/2170637",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Wedding at Funchal cathedral, but not Cristiano and Georgina's, to the disappointment of hundreds",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/wedding-funchal-cathedral-not-cristiano-174530190.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/cda3ad24c8be8ec955f930656da35cb6932f45e7d287f41224191b856ec60a2f/lightyear_networkapi/resizefill_w1024_h576%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Feuronews_ca_articles_409%2F55b758e24b60a73a49b9dbc32fbaa713",
-            "source": "yahoo"
-        },
-        {
-            "title": "NIA arrests main conspirator in Kerala illegal explosives seizure case; tenth arrest so far",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/india/nia-arrests-main-conspirator-in-kerala-illegal-explosives-seizure-case-tenth-arrest-so-far/articleshow/133063260.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133063375/133063375.jpg",
+            "url": "https://timesofindia.indiatimes.com/astrology/horoscope/weekly-love-horoscope-predictions-august-09-to-august-15-2026-your-zodiac-love-forecast-for-this-week/articleshow/133064459.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133064464/133064464.jpg",
             "source": "toi"
         },
         {
-            "title": "Pentagon gives defense executives 21 days to present plan for rapid weapon development - report",
+            "title": "Andhra CM calls for mass movement to make every citizen partner in nation building",
             "severity": "WATCH",
-            "url": "https://www.jpost.com/international/article-904936",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/733171",
+            "url": "https://www.hindustantimes.com/india-news/andhra-cm-calls-for-mass-movement-to-make-every-citizen-partner-in-nation-building-101786264480307.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/logo/ht-generic_india3_1751287297962_1751287304722.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "IRGC commander demands US 'correct its behavior' before Strait of Hormuz can be reopened",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/middle-east/iran-news/article-904945",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/729301",
             "source": "jpost"
         },
         {
-            "title": "Money problems, spooked sponsors and broken dreams",
+            "title": "Iran unlikely to ever willingly surrender control over Strait of Hormuz, INSS expert claims",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/money-problems-spooked-sponsors-broken-062810524.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/ebca8ed1dc717ed706d583ad739201b21ce4ffadabfcea2703a0d12dcb7d1f95/lightyear_networkapi/resizefit_w819_h461%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2Ff2dbab1606cf6b2be03fc4e0cd3bf0b7",
+            "url": "https://www.jpost.com/middle-east/iran-news/article-904950",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/730327",
+            "source": "jpost"
+        },
+        {
+            "title": "Cancer, Leo, Virgo Horoscope Today for August 10, 2026: Salary Hikes, Career Success, Financial Growth & Love Predictions Await",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/astrology/horoscope/cancer-leo-virgo-horoscope-today-for-august-10-2026-salary-hikes-career-success-financial-growth-love-predictions-await/articleshow/133069007.cms",
+            "image": "https://img.etimg.com/thumb/msid-133069035,resizemode-4,width-1200,height-900,imgsize-222726,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Why has Pakistan introduced new guidelines for state oversight of foreign media? - analysis",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/international/article-904952",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/730350",
+            "source": "jpost"
+        },
+        {
+            "title": "Robins will flock to your garden if you make 1 bird feeder change in August",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/life-style/garden/2236576/robins-will-flock-your-garden",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/13/237x141/2236576_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Cyprus minister hails moves to connect island, Israel to European electricity grid",
+            "severity": "WATCH",
+            "url": "https://www.timesofisrael.com/cyprus-minister-hails-moves-to-connect-island-israel-to-european-electricity-grid/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2026/08/AP110712120242.jpg",
+            "source": "timesofisrael"
+        },
+        {
+            "title": "The Ball in OpenAI's court",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/dean-ball-openai-court-trump-regulation-2026-8",
+            "image": "https://i.insider.com/6a760c480c6c5a263f3a793b?format=jpeg",
+            "source": "insider"
+        },
+        {
+            "title": "Who all are allegedly involved in Delhi's \u2018rice scam\u2019? AAP leader Saurabh Bharadwaj's big charge",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/who-all-are-allegedly-involved-in-delhis-rice-scam-aap-leader-saurabh-bharadwajs-big-charge-101786261851783.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/09/1600x900/logo/AAP--21_1786262731802_1786262765144_13f5e4a5-7dc5-4a42-a517-6b948162d3cb.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "European laggards are rebounding - how far can they go?",
+            "severity": "WATCH",
+            "url": "https://uk.finance.yahoo.com/news/european-laggards-rebounding-far-083210605.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
             "source": "yahoo"
         },
         {
-            "title": "Money problems and broken dreams - why is it so hard to run a cycling team?",
+            "title": "Book on Andaman history brings out aspects left out by conventional history: Kannada varsity professor",
             "severity": "WATCH",
-            "url": "https://www.bbc.co.uk/sport/cycling/articles/c20d8redpyxo",
-            "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc7a/live/2b4f6820-91d2-11f1-abbf-613e9d231927.jpg",
-            "source": "bbc"
+            "url": "https://www.thehindu.com/news/cities/Mangalore/book-on-andaman-history-brings-out-aspects-left-out-by-conventional-history-kannada-varsity-professor/article71324244.ece",
+            "image": "https://th-i.thgim.com/public/news/cities/Mangalore/q7wa2w/article71324254.ece/alternates/FREE_1200/1681286.jpg",
+            "source": "thehindu"
         },
         {
-            "title": "PGA Tour boss issues decisive verdict on LIV Golf merger",
+            "title": "Block card, inform bank, reset passwords: What to do after financial fraud",
             "severity": "WATCH",
-            "url": "https://www.the-express.com/sport/golf/213594/pga-tour-liv-saudi-funding",
-            "image": "https://cdn-images.the-express.com/img/dynamic/53/237x141/213594_1.jpg",
-            "source": "express"
+            "url": "https://www.business-standard.com/finance/personal-finance/block-card-inform-bank-reset-passwords-what-to-do-after-financial-fraud-126080701338_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2014-11/20/full/1416499238-626.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "Israel's secret test on its Arrow air-defense system shows it's taking Iran seriously - analysis",
+            "title": "NFL Star Trent Williams Sued By Car Dealer For Allegedly Not Paying Porsche Lease",
             "severity": "WATCH",
-            "url": "https://www.jpost.com/israel-news/defense-news/article-904939",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/561320",
-            "source": "jpost"
+            "url": "https://www.tmz.com/2026/08/09/trent-williams-sued-by-auto-group-for-allegedly-not-paying-car-lease/",
+            "image": "https://imagez.tmz.com/image/a5/4by3/2026/08/07/a5d2897818534bb1842a0dddf561fc6f_xl.jpg",
+            "source": "tmz"
+        },
+        {
+            "title": "Saudi Arabia says fire extinguished at Aramco facility in Jizan",
+            "severity": "WATCH",
+            "url": "https://www.aljazeera.com/news/2026/8/9/saudi-arabia-says-fire-extinguished-at-aramco-facility-in-jizan",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-03-02T224333Z_453085712_RC2MWJAA0SDW_RTRMADP_3_IRAN-CRISIS-SAUDI-ARAMCO-1786255197.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
+        },
+        {
+            "title": "Chartist Talk: Is market ready for an upside breakout next week as volatility contracts?",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/markets/chartist-talk-is-market-ready-for-an-upside-breakout-next-week-as-volatility-contracts-13998878.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/10/20251025213936_Sudeep_ShahSBI.jpg",
+            "source": "moneycontrol"
         },
         {
             "title": "Met Police officer caught doing wheel spins and weaving across road in BMW",
@@ -254,28 +289,7 @@
             "url": "https://www.ndtv.com/feature/uk-theatres-clubs-ban-meta-smart-glasses-due-to-privacy-concerns-11885310",
             "image": "https://i.gadgets360cdn.com/large/meta_glasses_1782271322696.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
             "source": "ndtv"
-        },
-        {
-            "title": "Mohali: Travel agent couple booked for duping Zirakpur man of \u20b970 lakh",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/chandigarh-news/mohali-travel-agent-couple-booked-for-duping-zirakpur-man-of-70-lakh-101786215948703.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/08/1600x900/logo/Following-an-investigation--the-police-registered-_1786215946591.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Panchkula: 91-year-old retired colonel loses \u20b92 lakh to cyber crooks posing as gas company officials",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/chandigarh-news/91yearold-retired-colonel-loses-2-lakh-to-cyber-crooks-posing-as-gas-company-officials-101786215348344.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/08/1600x900/logo/A-case-has-been-registered-under-Sections-318--4--_1786215406444.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Fugitive Mehul Choksi's extradition to India stalled as Belgian govt says case \u2018still under examination\u2019",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/business/fugitive-mehul-choksis-extradition-to-india-stalled-by-belgian-authorities-case-under-review-101786240212668.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/09/1600x900/logo/Mehul_Choksi_9_1786240272947_1786240273126_47e1c027-8158-40f4-84e1-4d08d0b1b98a.jpg",
-            "source": "hindustantimes"
         }
     ],
-    "Last_Updated": "2026-08-09T18:49:46.115916Z"
+    "Last_Updated": "2026-08-09T20:39:08.839763Z"
 }
