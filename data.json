@@ -1,210 +1,273 @@
 {
-    "AGRI_Score": 61.1,
-    "Velocity": "-0.5",
+    "AGRI_Score": 61.6,
+    "Velocity": "+0.5",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 61.1 reflects a heightened global risk environment, primarily driven by severe Geopolitical Conflict Intensity, Energy & Maritime Disruption, and Trade & Supply Chain Stress. Escalations in the Ukraine conflict, with reports of \"North Korea sending 50,000 troops to Russia,\" amplify global instability and nuclear fears. Concurrently, persistent threats to the Strait of Hormuz, as Iran's Guards state they \"won't reopen Hormuz without US meeting Tehran's demands,\" coupled with Houthi attacks, continue to stoke significant oil supply risks and maritime disruption, directly impacting global trade and supply chain integrity.",
+    "AI_Brief": "The current AGRI score of 61.6/100 reflects a high-risk environment primarily driven by persistent Geopolitical Conflict Intensity and significant Energy & Maritime Disruption. Ongoing regional conflicts, exemplified by \"Israel Rejects Trump's 15-Point Gaza Plan,\" sustain a high level of global tension. This geopolitical friction directly impacts energy markets, with \"Oil Price Today (August 10): Crude oil rises to $85 amid Hormuz worries as attacks continue,\" pushing commodity prices upward and signaling broader economic vulnerabilities.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.6,
+        "Geopolitical Conflict Intensity": 78.1,
         "Energy & Maritime Disruption": 70.9,
-        "Trade & Supply Chain Stress": 72.3,
+        "Trade & Supply Chain Stress": 71.8,
         "Sovereign Financial Stress": 56.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.5,
-        "Cyber & Infrastructure Threats": 59.5,
+        "Sanctions & Regulatory Fragmentation": 59.5,
+        "Cyber & Infrastructure Threats": 59.8,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is significantly elevated due to the reported escalation in Ukraine, with 'North Korea sending 50,000 troops to Russia,' alongside rising 'nuclear war fears' as Nagasaki marks the 81st anniversary of the atomic bomb. Further tension is introduced by Iran's appointment of former Revolutionary Guards chief Mohsen Rezaei, wanted by Interpol, as a top national security official, signaling a hardline stance in ongoing US-Iran deadlock over Hormuz.",
-        "Energy & Maritime Disruption": "The sector faces considerable disruption as 'Oil gains as Hormuz reopening remains elusive, Houthi attacks stoke supply risks,' keeping prices volatile. Iran's firm stance that it 'won't reopen Hormuz without US meeting Tehran's demands' further underscores the high potential for prolonged maritime transit issues and global energy supply uncertainties.",
-        "Trade & Supply Chain Stress": "This pillar is under pressure due to the critical 'uncertainty over reopening of Hormuz' and ongoing Houthi attacks, which directly threaten vital shipping lanes and elevate logistics costs. Additionally, the 'FAO Food Price Index edges up amid weather, energy and geopolitical concerns,' indicating broader global supply chain vulnerabilities affecting essential commodities.",
-        "Sovereign Financial Stress": "While there are no direct reports of sovereign defaults, market unease is evident as 'Washington and Tehran both play it cool \u2014 but markets can't,' signaling underlying investor apprehension. The current geopolitical and energy volatilities warrant close monitoring for potential ripple effects on national debt sustainability and financial stability.",
-        "Currency & Liquidity Pressure": "There are no explicit indicators of significant currency devaluation or liquidity crises impacting major global markets at this juncture. However, the overarching geopolitical tensions and commodity price volatility could create future pressures that necessitate routine monitoring of capital flows and exchange rate fluctuations.",
-        "Sanctions & Regulatory Fragmentation": "The appointment of 'Iran names new security chief who\u2019s wanted by Interpol' directly increases the potential for intensified international diplomatic friction and new targeted sanctions. This development signals a likely increase in regulatory complexity and fragmentation, particularly concerning dealings with Iranian entities and officials.",
-        "Cyber & Infrastructure Threats": "Concerns are heightened by incidents such as 'British Navy Drone Cameras Sent Signals to China' and unidentified 'Drones breach military airspace in Australia,' exposing vulnerabilities in national security and infrastructure. The continued emphasis on understanding 'Where Cyber Attacks Actually Start' underscores the pervasive and evolving nature of digital threats to critical systems.",
-        "Climate & Resource Shock": "While the 'FAO Food Price Index edges up amid weather, energy and geopolitical concerns,' suggesting some climate-related influence on resources, there are no immediate reports of severe, widespread climate-induced disruptions or resource shortages. The current state reflects baseline activity, with ongoing attention to climate impacts on agricultural yields and food security."
+        "Geopolitical Conflict Intensity": "This pillar remains exceptionally high due to ongoing regional conflicts and heightened international tensions. The news \"Israel Rejects Trump's 15-Point Gaza Plan: What Does It Mean For The Conflict?\" underscores a lack of immediate resolution in critical flashpoints, while \"Iran holds firm on Strait on Hormuz\" indicates continued strategic posturing with global implications.",
+        "Energy & Maritime Disruption": "Risk in this pillar is significant, primarily due to rising oil prices and geopolitical threats to key shipping lanes. \"Oil Price Today (August 10): Crude oil rises to $85 amid Hormuz worries as attacks continue\" directly attributes price hikes to ongoing hostilities, and \"Iran holds firm on Strait on Hormuz\" reiterates the vulnerability of critical maritime chokepoints.",
+        "Trade & Supply Chain Stress": "This pillar indicates considerable stress, influenced by geopolitical tensions that could disrupt trade routes and broader logistical challenges. The implication of \"Iran holds firm on Strait on Hormuz\" extends beyond energy to general maritime trade, threatening broader supply chain flows, while \"The Pacific - Logistics Emergency Preparedness & Environmental Sustainability: Lessons Learned\" suggests existing vulnerabilities in global logistics.",
+        "Sovereign Financial Stress": "While not the highest, this pillar shows moderate concern, potentially influenced by regional instability and its economic ripple effects. The editorial \"Saudi Arabia's new agreement with Turkey, Pakistan puts stability on dangerous hedge\" hints at evolving geopolitical alignments that could impact regional financial health.",
+        "Currency & Liquidity Pressure": "This pillar indicates routine monitoring, though global tensions can always introduce volatility into financial markets. There are no direct headlines explicitly indicating widespread currency or liquidity crises, but the overall geopolitical climate suggests ongoing vigilance is warranted.",
+        "Sanctions & Regulatory Fragmentation": "This pillar reflects elevated regulatory complexity and the potential for new or expanded sanctions regimes stemming from international disputes. \"Germany seeking scapegoat over Nord Stream attack \u2014 Russian envoy\" suggests ongoing geopolitical friction that often precedes or intensifies sanctions discussions.",
+        "Cyber & Infrastructure Threats": "This pillar remains a notable concern, driven by state-sponsored espionage and infrastructure vulnerabilities. The reports that \"Royal Navy's \u00a312m drones 'secretly sent data to China' in huge security breach\" and \"UK military drones fitted with Chinese cameras found sending data to Beijing\" highlight significant cyber-espionage risks targeting critical infrastructure and military assets.",
+        "Climate & Resource Shock": "This pillar indicates a relatively low level of immediate risk based on the provided feed, suggesting baseline activity. There are no specific headlines in the current feed that directly point to acute climate disasters or resource shocks impacting global risk at this moment."
     },
     "All_Alerts": [
         {
-            "title": "Ukraine war briefing: North Korea sending 50,000 troops to Russia \u2013 Zelenskyy",
+            "title": "Germany seeking scapegoat over Nord Stream attack \u2014 Russian envoy",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/world/2026/aug/10/ukraine-war-briefing-north-korea-sending-50000-troops-to-russia-zelenskyy",
-            "image": "https://i.guim.co.uk/img/media/91e1ed98e78bd3f471b2db26f49ea7a000e406af/1573_1303_5199_4161/master/5199.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d3ef7af329102c7292d6e0cbdfe6f418",
-            "source": "theguardian"
+            "url": "https://tass.com/politics/2170771",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
         },
         {
-            "title": "Trump says US 'low-keying' talks with Iran amid deadlock on Hormuz: 'Will work out, it's like chess game'",
+            "title": "Former Netanyahu chief of staff Horowitz reveals tensions with PM's family",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/us-low-keying-talks-with-iran-trump-tehran-conditions-hormuz-deal-chess-game-west-asia-war-101786323870254.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/10/1600x900/logo/Donald_Trump_1786324103978_1786324104129_d1377ded-936f-4e39-8552-9016c67744f1.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.jpost.com/israel-news/benjamin-netanyahu/article-905030",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/733275",
+            "source": "jpost"
         },
         {
-            "title": "Will Trump order more strikes on Iran? US President says taking \u2018low-key\u2019 approach, rules out fresh military offensive",
+            "title": "3rd phase of AJK polls: Voting begins in Poonch Division's Bagh and Haveli districts",
             "severity": "HIGH",
-            "url": "https://www.india.com/news/world/will-trump-order-more-strikes-on-iran-us-president-says-taking-low-key-approach-towards-iran-rules-out-fresh-military-offensive-its-like-chess-game-always-work-out-strait-of-hormuz-war-8497476/",
-            "image": "https://static.india.com/wp-content/uploads/2026/08/u-2026-08-10T062817.142.jpg",
-            "source": "india"
+            "url": "https://www.dawn.com/news/2021864/3rd-phase-of-ajk-polls-voting-begins-in-poonch-divisions-bagh-and-haveli-districts",
+            "image": "https://i.dawn.com/large/2026/08/100734445574f34.webp",
+            "source": "dawn"
         },
         {
-            "title": "Nagasaki marks 81st anniversary of atomic bomb as nuclear war fears rise",
+            "title": "Bhiwandi collapse: Wrong civic classification delayed action on 'dangerous' building",
             "severity": "HIGH",
-            "url": "https://www.the-express.com/news/world-news/213624/nagasaki-marks-anniversary-atomic-bomb",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/237x141/213624_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "British Navy Drone Cameras Sent Signals to China",
-            "severity": "HIGH",
-            "url": "https://www.newsmax.com/newsfront/uk-royal-navy-drone-cameras/2026/08/09/id/1265556",
-            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=A74D97F5-B38D-4136-851C-72DAC63AA255",
-            "source": "newsmax"
-        },
-        {
-            "title": "Iran names new security chief who\u2019s wanted by Interpol in connection with deadly AMIA bombing",
-            "severity": "HIGH",
-            "url": "https://www.timesofisrael.com/iran-names-new-security-chief-whos-wanted-by-interpol-in-connection-with-deadly-amia-bombing/",
-            "image": "https://static-cdn.toi-media.com/www/uploads/2026/06/AP24061244599538-e1780676630892.jpg",
-            "source": "timesofisrael"
-        },
-        {
-            "title": "Saudi-Turkey-Pak defence pact is not an \u201cIslamic NATO\u201d, but India can\u2019t ignore the fallout",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/opinion/saudi-turkey-pak-defence-pact-is-not-an-islamic-nato-but-india-can-t-ignore-the-fallout-13999130.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/08/20260809143113_defece-pact-AI-378x213.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Oil gains as Hormuz reopening remains elusive, Houthi attacks stoke supply risks",
-            "severity": "HIGH",
-            "url": "https://au.investing.com/news/commodities-news/oil-gains-as-hormuz-reopening-remains-elusive-houthi-attacks-stoke-supply-risks-4587109",
-            "image": "https://i-invdn-com.investing.com/news/moved_LYNXMPEM6Q18J_1200_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Iran appoints former Revolutionary Guards chief Mohsen Rezaei as top national security official",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/defence/iran-appoints-former-revolutionary-guards-chief-mohsen-rezaei-as-top-national-security-official/articleshow/133077086.cms",
-            "image": "https://img.etimg.com/thumb/msid-133077113,resizemode-4,width-1200,height-900,imgsize-60286,overlay-etdefence/articleshow.jpg",
+            "url": "https://economictimes.indiatimes.com/news/india/bhiwandi-collapse-wrong-civic-classification-delayed-action-on-dangerous-building/articleshow/133078875.cms",
+            "image": "https://img.etimg.com/thumb/msid-133078910,resizemode-4,width-1200,height-900,imgsize-191884,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Prevention 101: Where Cyber Attacks Actually Start - Blog | Menlo Security",
+            "title": "World: The Pacific - Logistics Emergency Preparedness & Environmental Sustainability: Lessons Learned",
             "severity": "HIGH",
-            "url": "https://www.menlosecurity.com/blog/prevention-101-where-cyber-attacks-actually-start",
-            "image": "https://cdn.prod.website-files.com/67aa7b098755a04e340359e9/6a74d9dd463a2f7d25aa8e1b_Prevention%20101-%20Where%20Cyber%20Attacks%20Actually%20Start_blog.jpg",
-            "source": "menlosecurity"
-        },
-        {
-            "title": "Drones breach military airspace in Australia - and defence bosses have no idea who is behind it",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-16040563/Drones-breach-military-airspace-williamtown.html",
-            "image": "https://i.dailymail.com/1s/2026/08/10/00/110531451-0-image-a-12_1786319624808.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Iran Guards say won't reopen Hormuz without US meeting Tehran's demands",
-            "severity": "MEDIUM",
-            "url": "https://gulfnews.com/world/mena/iran-guards-say-wont-reopen-hormuz-without-us-meeting-tehrans-demands-1.500635270",
-            "image": "https://media.assettype.com/gulfnews/2026-06-11/zez58i63/302.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "World: FAO Food Price Index edges up amid weather, energy and geopolitical concerns",
-            "severity": "MEDIUM",
-            "url": "https://reliefweb.int/report/world/fao-food-price-index-edges-amid-weather-energy-and-geopolitical-concerns",
-            "image": "https://reliefweb.int/modules/custom/reliefweb_meta/images/default.png",
+            "url": "https://reliefweb.int/report/world/pacific-logistics-emergency-preparedness-environmental-sustainability-lessons-learned",
+            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/f0/e6/f0e6e160-b91b-4254-b295-e4f4c49abc69.png",
             "source": "reliefweb"
         },
         {
-            "title": "Oil rises on uncertainty over reopening of Hormuz",
-            "severity": "MEDIUM",
-            "url": "https://ca.finance.yahoo.com/news/oil-rises-uncertainty-over-reopening-005834548.html",
-            "image": "https://media.zenfs.com/en/reuters.ca/189de254fa8da577a1acf3ac5cd1c032",
-            "source": "yahoo"
-        },
-        {
-            "title": "CNBC Daily Open: Washington and Tehran both play it cool \u2014 but markets can't",
-            "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/08/10/trump-iran-deal-hormuz-netanyahu-gaza-berkshire-hathaway-meta-china-.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108345911-1786018522566-2026-07-27T110057Z_1158583684_RC22MMA6CYBZ_RTRMADP_3_IRAN-CRISIS.JPG?v=1786018535&w=1200&h=675",
-            "source": "cnbc"
-        },
-        {
-            "title": "Weekly Horoscope, August 10\u2013August 16, 2026: Astrological Predictions For All Signs",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/astrology/horoscope/weekly-horoscope-august-10-2026-to-august-16-2026-astrological-prediction-by-chirag-daruwalla-ws-e-10262354.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/08/image-2026-08-99c3dd7a9203289181118798d2825e85-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Teletrac Navman Names Pankaj Sharma Vice President of Product Management",
-            "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/teletrac-navman-names-pankaj-sharma-vice-president-of-product-management-302846772.html",
-            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "prnewswire_apac"
-        },
-        {
-            "title": "Scientists give copper a twist to suppress hydrogen during CO2 reduction",
-            "severity": "WATCH",
-            "url": "https://interestingengineering.com/science/scientists-give-copper-twist-suppress-hydrogen",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/08/co2-reduction.jpg",
-            "source": "interestingengineering"
-        },
-        {
-            "title": "Scorpio Horoscope Today, August 10, 2026",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/astrology/horoscope/scorpio-daily-horoscope-today-vrishchika-rashifal-astrological-predictions-on-august-10-2026-ws-e-10262295.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/08/image-2026-08-9585ff1a9202527fab1338db09f02777-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Tour Confidential: LIV's lifeline, Bryson's big request, playoffs!",
-            "severity": "WATCH",
-            "url": "https://golf.com/news/tour-confidential-livs-lifeline-bryson-request-playoffs/",
-            "image": "https://golf.com/wp-content/uploads/2026/08/gettyimages-2289506760.jpg",
-            "source": "golf"
-        },
-        {
-            "title": "How India brought the lion back from the brink: In Union minister Bhupender Yadav's words",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/opinion/how-india-brought-the-lion-back-from-the-brink-in-union-minister-for-environment-bhupender-yadav-writes-world-lion-day-101786284125987.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/09/1600x900/logo/lion_1786284196689_1786284202103_46b08493-0ab1-4ccf-8e6e-952744330fe5.jpg",
+            "title": "Bhiwandi building collapse: Misclassification let residents stay in \u2018dangerous\u2019 structure",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/bhiwandi-building-collapse-misclassification-let-residents-stay-in-dangerous-structure-101786330702526.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/01/27/1600x900/logo/ht-generic_cities2_1769511880449_1769511907099.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "Maxxine Dupri's real-life husband gets destroyed on social media by John Cena-approved 29-year-old star",
-            "severity": "WATCH",
-            "url": "https://www.sportskeeda.com/wwe/news-maxxine-dupri-s-real-life-husband-gets-destroyed-social-media-john-cena-approved-29-year-old-star",
-            "image": "https://staticg.sportskeeda.com/editor/2026/08/8d82e-17863194580632-1920.jpg",
-            "source": "sportskeeda"
+            "title": "Seeking a sensible auto policy",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/2021783/seeking-a-sensible-auto-policy",
+            "image": "https://i.dawn.com/large/2026/08/10071653fc3d1e9.webp",
+            "source": "dawn"
         },
         {
-            "title": "Tom Hardy's R-Rated Gangster Series Officially Returns With New Episodes Next Month",
+            "title": "Israel Rejects Trump's 15-Point Gaza Plan: What Does It Mean For The Conflict?",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/explainers/israel-rejects-trumps-15-point-gaza-plan-what-does-it-mean-for-the-conflict-ws-l-10262783.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/08/Benjamin-Netanyahu-Donald-Trump-REUTERS-2026-08-9d8b59834e0aa56b75f2cb47cb301408-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Iran holds firm on Strait on Hormuz, pushes Trump back to June deal",
+            "severity": "HIGH",
+            "url": "https://www.business-standard.com/world-news/iran-holds-firm-on-strait-on-hormuz-pushes-trump-back-to-june-deal-126081000053_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/23/full/1779555500-169.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Royal Navy's \u00a312m drones 'secretly sent data to China' in huge security breach",
+            "severity": "HIGH",
+            "url": "https://www.mirror.co.uk/news/uk-news/royal-navy-china-data-leak-37531546",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37456717.ece/ALTERNATES/s615/1_Krasnodar-in-the-English-Channel.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Oil Price Today (August 10): Crude oil rises to $85 amid Hormuz worries as attacks continue. What are experts saying?",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-price-today-august-10-crude-oil-rises-to-85-amid-hormuz-worries-as-attacks-continue-what-are-experts-saying/articleshow/133077558.cms",
+            "image": "https://img.etimg.com/thumb/msid-133077578,resizemode-4,width-1200,height-900,imgsize-9256,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "UK military drones fitted with Chinese cameras found sending data to Beijing: Report",
+            "severity": "HIGH",
+            "url": "https://www.firstpost.com/world/uk-military-drones-fitted-with-chinese-cameras-found-sending-data-to-beijing-report-14037075.html",
+            "image": "https://images.firstpost.com/uploads/2026/08/The-battle-for-Kyiv-5-2026-08-4bf45ccd01ae3ba3c0fe5ea55a80a8bd-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Israel confirms death of Palestinian detainee, nearly two years late",
+            "severity": "MEDIUM",
+            "url": "https://www.aljazeera.com/news/2026/8/10/israel-confirms-death-of-palestinian-detainee-nearly-two-years-late",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a79372151-1786328865.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
+        },
+        {
+            "title": "Shein Valued at $22 Billion to $25 Billion Ahead of IPO, Bloomberg Intelligence Says",
+            "severity": "MEDIUM",
+            "url": "https://www.ndtvprofit.com/markets/shein-valued-at-22-billion-to-25-billion-ahead-of-ipo-bloomberg-intelligence-says-11887975",
+            "image": "https://c.ndtvimg.com/2026-08/n7tb0k5_shein-bbg_625x300_10_August_26.jpeg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "Petrol, diesel prices today, August 10 : Check latest rates in Delhi, Mumbai, Chennai, Kolkata & more",
             "severity": "WATCH",
-            "url": "https://screenrant.com/mobland-return-season-2-september-2026/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/9f8df57d-cc00-4592-b4c8-72b1b31f8f20.jpeg",
+            "url": "https://www.businesstoday.in/india/story/petrol-diesel-prices-today-august-10-check-latest-rates-in-delhi-mumbai-chennai-kolkata-more-548210-2026-08-10",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202608/6a793e2e427a0-a-combination-of-global--economic--and-domestic-factors-shapes-fuel-prices-at-the-pump-105744689-16x9.png?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "'I look 10 years younger' with Victoria Beckham-loved cream hailed \u2018holy grail\u2019",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/money/shopping-deals/augustinus-bader-victoria-beckham-cream-37523947",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37523927.ece/ALTERNATES/s615/0_best-of-2023-2026-08-07T083454378.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Brent oil climbs to $84 | Wallstreet Continues Winning Streak | Titan, Hitachi Energy results",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/videos/business/markets/brent-oil-climbs-to-84-wallstreet-continues-winning-streak-titan-hitachi-energy-results-13999209.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/08/20260810023519_Opening-Bell_-TT-10th-Aug-378x213.jpeg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Saudi Arabia's new agreement with Turkey, Pakistan puts stability on dangerous hedge - editorial",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/opinion/article-905018",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/733260",
+            "source": "jpost"
+        },
+        {
+            "title": "Top stocks to buy: Stock recommendations for August 10, 2026 week - check list",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-august-10-2026-week-happy-forgings-siemens-energy-stocks-to-buy-today/articleshow/133078646.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133078831/133078831.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Recipe: Toss kale leaves tenderized with olive oil with a Caesar dressing and crunchy homemade croutons",
+            "severity": "WATCH",
+            "url": "https://www.bostonglobe.com/2026/08/09/lifestyle/kale-caesar/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/KJPFJ6WZAJF7PPWTM7PAEEY2LE.jpeg?auth=c0bf038a6a4fac27e082cb5a95971c7c9f1d92e6df396535c075adb9d90bada4&smart=true&width=2127&height=2971",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "'We Go Through Several Bags A Week' \u2014 Customers Love This Walmart Pasta",
+            "severity": "WATCH",
+            "url": "https://www.thetakeout.com/2230283/walmart-bettergoods-pasta-customers-love/",
+            "image": "https://www.thetakeout.com/img/gallery/we-go-through-several-bags-a-week-customers-love-this-walmart-pasta/l-intro-1785867945.jpg",
+            "source": "thetakeout"
+        },
+        {
+            "title": "2026 Global Health Summit Opens in Hong Kong -- Global Healthcare Leaders Convene: Bringing Breakthroughs to Patients",
+            "severity": "WATCH",
+            "url": "https://www.prnewswire.com/apac/news-releases/2026-global-health-summit-opens-in-hong-kong--global-healthcare-leaders-convene-bringing-breakthroughs-to-patients-302846819.html",
+            "image": "https://mmx.prnewswire.com/media/MS1966525/20260809052017EDT_image_1.jpg?id=OA2847172&p=original",
+            "source": "prnewswire_apac"
+        },
+        {
+            "title": "D'Angelo Russell points out how Davion Mitchell could break out for the Heat",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/dangelo-russell-points-davion-mitchell-025931079.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/1eb50759306715f82f2314bc76fc3119bf3c3d8d7e4a82aae2bbf9e8c28cb882/lightyear_networkapi/resizefit_w760_h428%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2F35b7967d780d7cd469ca3d3328fef80a",
+            "source": "yahoo"
+        },
+        {
+            "title": "He wanted to invest Rs 5L, she wanted to renovate the house: Bengaluru CA had her first \u2018money fight\u2019 with husband which led to a 3-hour solution",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/magazines/panache/he-wanted-to-invest-rs-5l-she-wanted-to-renovate-the-house-bengaluru-ca-had-her-first-money-fight-with-husband-which-led-to-a-3-hour-solution/articleshow/133077993.cms",
+            "image": "https://img.etimg.com/thumb/msid-133078971,resizemode-4,width-1200,height-900,imgsize-131822,overlay-etpanache/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "63-Episode 'Twilight Meets Queen Charlotte' Fantasy Series Is Perfect From Start To Finish",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/fruits-basket-perfect-start-to-finish/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/queen-charlotte-and-king-george-in-queen-charlotte-a-bridgerton-story.jpg",
             "source": "screenrant"
         },
         {
-            "title": "Delhi-Dhaka need reset, must let go of political baggage",
+            "title": "Babylon 5 Was As Good As The Biggest '90s Space Opera But Had A Fraction Of Its Success",
             "severity": "WATCH",
-            "url": "https://indianexpress.com/article/opinion/columns/delhi-dhaka-need-reset-must-let-go-of-political-baggage-10825438/",
-            "image": "https://images.indianexpress.com/2026/08/india-bangladesh_20260809192207.jpg",
-            "source": "indianexpress"
+            "url": "https://screenrant.com/babylon-5-deserve-star-trek-success/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2025/10/untitled-design-367.jpg",
+            "source": "screenrant"
         },
         {
-            "title": "US delays Tejas Mk1A engines, DRDO hits back with Kaveri 2.0: IAF\u2019s big wish may finally come true",
+            "title": "Inside the strategy that turned Ty Gibbs into a legit NASCAR title threat",
             "severity": "WATCH",
-            "url": "https://zeenews.india.com/india/us-delays-tejas-mk1a-engines-drdo-hits-back-with-kaveri-2-0-iaf-s-big-wish-may-finally-come-true-3065658.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/08/10/1971837-kaveri-2.0-tejas-landscape.jpg",
-            "source": "zeenews"
+            "url": "https://sports.yahoo.com/articles/inside-strategy-turned-ty-gibbs-030008352.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/b3fd9541bbea7f09194c969421676f3f66bdad07e5f6da2d175f4e5a3d89c90b/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmotorsport_articles_445%2F92c328bcdb7dc190530f0fd13a241127",
+            "source": "yahoo"
         },
         {
-            "title": "Iran demands new U.S. concessions to reopen Strait of Hormuz",
+            "title": "AAP alleges subsidised rice for poor sold to firms in Rs 22,000 cr scam",
             "severity": "WATCH",
-            "url": "https://www.kcra.com/article/iran-demands-new-us-concessions-to-reopen-strait-of-hormuz/73385083",
-            "image": "https://kubrick.htvapps.com/vidthumb/cc9a7f1f-d923-47d2-8e91-7c1164b8d272/thumb_1920x1080.0000001.jpg",
-            "source": "kcra"
+            "url": "https://newsable.asianetnews.com/india/aap-alleges-subsidised-rice-for-poor-sold-to-firms-in-rs-22-000-cr-scam-articleshow-hpr6rk3",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-53e93c61-3055-450e-824b-fc11478b1513.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Fernando Tatis Jr. and newcomer Austin Hays power Padres to 7-2 victory over Astros",
+            "severity": "WATCH",
+            "url": "https://www.newsday.com/sports/baseball/astros-padres-score-tatis-hays-w75981",
+            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "newsday"
+        },
+        {
+            "title": "LEAP India IPO Day 2: Check GMP, subscription status, issue details; Should you subscribe?",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/leap-india-ipo-day-2-check-gmp-subscription-status-issue-details-should-you-subscribe/articleshow/133078722.cms",
+            "image": "https://img.etimg.com/thumb/msid-133078798,resizemode-4,width-1200,height-900,imgsize-25220,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Assam floods: Death toll reaches 100 as over 1.37 lakh people affected",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/india/assam-floods-death-toll-reaches-100-as-over-1-37-lakh-people-affected-13999315.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260729015906_Screenshot-2026-07-25-131936.png",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "PSG Increases Zion Suzuki Offer to \u20ac35m, Could Loan Him to Juventus",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/psg-increases-zion-suzuki-offer-025725610.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/3c880cd0bef4000dc528926aef82528e754c6e6cc1e72effae9a560ae4467da3/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fpsg_world_articles_934%2F96e4b8bf196edf73b5ffba0ab2b33f69",
+            "source": "yahoo"
+        },
+        {
+            "title": "The Pierin Vincenz Case Explained Simply: These Are the Key Allegations",
+            "severity": "WATCH",
+            "url": "https://www.bluewin.ch/www.bluewin.ch/en/news/the-pierin-vincenz-case-explained-simply-these-are-the-key-allegations-li.3557679",
+            "image": "https://bluewin-prod-sc-images.imgix.net/2025/02/27/0a89ce42-8639-4e48-afb2-a18b72b20cab.jpeg?w=1024&auto=format&s=0868a4ea999bc7c6e5429fb856307698",
+            "source": "bluewin"
+        },
+        {
+            "title": "The Long Downfall of Pierin Vincenz in 10 Chapters",
+            "severity": "WATCH",
+            "url": "https://www.bluewin.ch/www.bluewin.ch/en/news/the-long-downfall-of-pierin-vincenz-in-10-chapters-li.3557677",
+            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "bluewin"
+        },
+        {
+            "title": "Kerala name change, expanding NCDC financing powers: Amit Shah likely to table 2 bills today",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/kerala-name-change-expanding-ncdc-financing-powers-amit-shah-scheduled-to-table-2-bills-today-lok-sabha-101786323703017.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/10/1600x900/logo/P_1786324370289_1786324370415_09cd17c7-34c9-455b-b51e-8d9488a9faf7.jpg",
+            "source": "hindustantimes"
         },
         {
             "title": "\"That really hurt the Leafs\" - NHL analyst points out Brad Treliving's mistake which John Chayka is correcting",
@@ -226,42 +289,7 @@
             "url": "https://www.prnewswire.com/apac/news-releases/quocirca-again-names-ricoh-a-print-security-leader-for-its-device-agnostic-managed-security-services-302845650.html",
             "image": "https://mmx.prnewswire.com/media/MS1965243/20260806062149EDT_image_1.jpg?id=OA2832067&p=original",
             "source": "prnewswire_apac"
-        },
-        {
-            "title": "Witness unsure if Jho Low was 'number one', but confirms Najib received 1MDB funds",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/news/nation/2026/08/10/witness-unsure-if-jho-low-was-039number-one039-but-confirms-najib-received-1mdb-funds",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/10/4052846.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "\ud83d\udea8 Total split: UEFA, AFC and CONCACAF issue statement against Infantino",
-            "severity": "WATCH",
-            "url": "https://onefootball.com/en/news/total-split-uefa-afc-and-concacaf-issue-statement-against-infantino-43254231",
-            "image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43254231%3Fdate=2026-08-10",
-            "source": "onefootball"
-        },
-        {
-            "title": "UEFA, CONCACAF and the AFC release joint statement criticising FIFA president Infantino",
-            "severity": "WATCH",
-            "url": "https://onefootball.com/en/news/uefa-concacaf-and-the-afc-release-joint-statement-criticising-fifa-president-infantino-43254668",
-            "image": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Fen%2F43254668%3Fdate=2026-08-10",
-            "source": "onefootball"
-        },
-        {
-            "title": "Star Trek\u2019s 2 Captain Pike Actors Finally Cross Over In Real Life",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/star-trek-anson-mount-bruce-greenwood-captain-pike-meet/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/captain-pike-smiling-on-the-bridge.jpg",
-            "source": "screenrant"
-        },
-        {
-            "title": "Top stories of the week: Trailers towed from carpool lot, bank card fraud in Kitchener, and beloved bowling alley reopens",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/kitchener/article/top-stories-of-the-week-trailers-towed-from-carpool-lot-bank-card-fraud-in-kitchener-and-beloved-bowling-alley-reopens/",
-            "image": "https://www.ctvnews.ca/resizer/v2/RS4LU4RYVRHRRJRMEHEK336M7M.jpeg?auth=c06e3f4d6a3cec667a382055c53c42165bf4d2d49e67435c916b85ad652260fb&smart=true&width=1920&height=1080",
-            "source": "ctvnews"
         }
     ],
-    "Last_Updated": "2026-08-10T13:20:52.952016Z"
+    "Last_Updated": "2026-08-10T15:04:16.454914Z"
 }
