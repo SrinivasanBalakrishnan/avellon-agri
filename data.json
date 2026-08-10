@@ -1,260 +1,232 @@
 {
-    "AGRI_Score": 60.9,
-    "Velocity": "+0.8",
+    "AGRI_Score": 58.4,
+    "Velocity": "-2.5",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 60.9 is significantly elevated, primarily driven by intensifying geopolitical conflict concerning Iran and widespread cyber and infrastructure threats. The United States is actively enforcing a naval blockade 'choking Iran\u2019s economy,' leading to heightened tensions and risk of broader conflict, as detailed in reports like 'Iran War Timeline: Key Moments and Attacks In U.S. and Israel\u2019s Campaign'. Concurrently, a surge in cyberattacks, evidenced by 'Suisun City declares state of emergency after IT systems breach,' demonstrates severe vulnerabilities across critical digital infrastructure. These factors create a complex risk landscape, particularly across the Geopolitical Conflict Intensity, Energy & Maritime Disruption, and Cyber & Infrastructure Threats pillars.",
+    "AI_Brief": "The AGRI score of 58.4 is significantly elevated, primarily driven by severe geopolitical tensions and acute energy/maritime disruptions. \"Geopolitical Conflict Intensity\" (75.4) is heightened by the report that \"Iran missiles have hit a tanker off Oman in Hormuz southern corridor\" and the continued expansion of the \"Ukraine war spills beyond the battlefield.\" Concurrently, \"Energy & Maritime Disruption\" (70.9) is critically impacted by this incident in a key shipping lane, underscoring immediate risks to global trade and energy transit. These core drivers indicate a volatile international environment demanding close monitoring of flashpoints and supply routes.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 83.5,
+        "Geopolitical Conflict Intensity": 75.4,
         "Energy & Maritime Disruption": 70.9,
-        "Trade & Supply Chain Stress": 64.9,
+        "Trade & Supply Chain Stress": 64.1,
         "Sovereign Financial Stress": 56.9,
         "Currency & Liquidity Pressure": 50.0,
         "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 68.4,
+        "Cyber & Infrastructure Threats": 59.3,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is at an extremely high level due to escalating tensions surrounding Iran, as 'No Breakthrough in Iran Diplomacy: Trump Remains Unfazed' indicates a lack of de-escalation efforts. Furthermore, internal repression in Iran, with reports of the regime executing protesters, alongside ongoing Israeli military actions in Palestinian areas, suggests a volatile regional environment.",
-        "Energy & Maritime Disruption": "The 'U.S. naval blockade choking Iran\u2019s economy' is a primary driver, directly impacting maritime trade and the global energy market through reduced oil flows. Locally, a 'canal breach' highlights vulnerabilities in physical maritime infrastructure, adding to the overall disruption.",
-        "Trade & Supply Chain Stress": "The ongoing 'U.S. naval blockade choking Iran\u2019s economy' presents significant stress on trade routes and oil supply chains, with potential ripple effects for global markets. While other news is localized, this high-severity geopolitical action is a major source of trade disruption.",
-        "Sovereign Financial Stress": "Iran faces severe sovereign financial stress as the 'U.S. naval blockade choking Iran\u2019s economy' directly impacts its revenue and economic stability. This targeted economic pressure poses a substantial challenge to the Iranian regime's financial health.",
-        "Currency & Liquidity Pressure": "The economic pressure exerted by the 'U.S. naval blockade choking Iran\u2019s economy' will invariably lead to significant currency devaluation and liquidity challenges within Iran. While not explicitly mentioned for other nations, the focus is on the direct impact on Iran's financial system.",
-        "Sanctions & Regulatory Fragmentation": "The activation of a 'U.S. naval blockade choking Iran\u2019s economy' serves as a clear example of aggressive sanction enforcement and contributes to regulatory fragmentation. This demonstrates an ongoing willingness to use economic tools to exert geopolitical pressure.",
-        "Cyber & Infrastructure Threats": "This pillar reflects a high threat level, as 'California city declares a 'state of emergency' after cyberattack on computer systems' and 'Framework Discloses Customer Data Breach After Metabase Zero-Day Attack' indicate pervasive digital vulnerabilities and active attacks. The 'Boats trail as town bids to bounce back from canal breach' also points to physical infrastructure vulnerabilities.",
-        "Climate & Resource Shock": "There is no immediate news indicating an active climate event or resource shock, leading to a low score for this pillar. It is currently experiencing routine monitoring with no significant actionable threats observed in the news feed."
+        "Geopolitical Conflict Intensity": "This pillar is at a high level due to direct military actions and expanding conflict zones. The report that \"Iran missiles have hit a tanker off Oman in Hormuz southern corridor\" signals a severe escalation in a critical maritime chokepoint, while \"Moscow, Kyiv assassins hunt weapons bosses as Ukraine war spills beyond the battlefield\" indicates broadening and intensified covert operations.",
+        "Energy & Maritime Disruption": "The sector faces acute risks following recent hostilities in vital shipping lanes. The incident where \"Iran missiles have hit a tanker off Oman in Hormuz southern corridor\" poses a direct threat to global energy supplies and maritime trade flow, demanding immediate security assessments.",
+        "Trade & Supply Chain Stress": "Challenges in global production and distribution networks persist, exemplified by shifts in manufacturing strategies. \"Shein finds there's no place like China after Vietnam warehouse experiment disappoints\" highlights the difficulties businesses encounter in diversifying supply chains, potentially leading to continued reliance on concentrated production hubs.",
+        "Sovereign Financial Stress": "Domestic economic pressures are prompting significant government responses to public welfare. The UK government's focus on \"ending 'subscription traps' amid cost-of-living crisis\" indicates ongoing consumer hardship and the need for regulatory intervention, which can strain national budgets.",
+        "Currency & Liquidity Pressure": "Significant movements in foreign exchange markets signal potential volatility and re-evaluation of economic fundamentals. The \"Aussie-Yen Is Set to Approach Three-Decade High, Analysts Say\" suggests considerable shifts in investor sentiment and cross-border capital flows.",
+        "Sanctions & Regulatory Fragmentation": "Regulatory environments are undergoing shifts both domestically and internationally, impacting market access and operational consistency. The Labour party's stated aim for a \"deeper relationship with EU under Burnham\" could signal future shifts in trade and regulatory alignment, while domestic initiatives like ending \"subscription traps\" introduce new consumer protection standards.",
+        "Cyber & Infrastructure Threats": "Digital and physical infrastructure remain vulnerable to breaches and deliberate disruption. The \"15-Million-Record Breach: MMG Fusion and HIPAA's Weakest Link\" demonstrates persistent cyber vulnerabilities leading to significant data compromises and regulatory fines, alongside concerns about critical technology compromises as seen with \"Royal Navy boats ... fitted with drones that 'secretly sent data to Beijing'\".",
+        "Climate & Resource Shock": "While no widespread systemic shocks are observed, localized environmental incidents require attention. A \"Massive landfill fire sparks huge smoke plume as locals told to stay indoors\" indicates localized pollution and public health concerns stemming from environmental hazards, though not signaling a broader resource scarcity or climate-induced systemic risk."
     },
     "All_Alerts": [
         {
-            "title": "No Breakthrough in Iran Diplomacy: Trump Remains Unfazed",
+            "title": "There are reports that Iran missiles have hit a tanker off Oman in Hormuz southern corridor",
             "severity": "HIGH",
-            "url": "https://www.bluewin.ch/www.bluewin.ch/en/news/no-breakthrough-in-iran-diplomacy-trump-remains-unfazed-li.3557567",
-            "image": "https://bluewin-prod-sc-images.imgix.net/2026/08/09/d1dcf148-b842-4677-8af8-1a3fac607125.jpg?w=1024&auto=format&s=6d670a311252ac40d506251219026072",
-            "source": "bluewin"
+            "url": "https://investinglive.com/commodities/there-are-reports-that-iran-missiles-have-hit-a-tanker-off-oman-in-hormuz-southern-corridor/",
+            "image": "https://images.investinglive.com/fl-static/il-logo-colorful-dark.svg",
+            "source": "forexlive"
         },
         {
-            "title": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel\u2019s Campaign",
+            "title": "UK PM Burnham vows to end 'subscription traps' amid cost-of-living crisis",
             "severity": "HIGH",
-            "url": "https://www.nytimes.com/article/iran-war-trump-us-oil-hormuz-key-dates-events.html",
-            "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24israel-iran-timeline-HFO-03-ghcb/24israel-iran-timeline-HFO-03-ghcb-mediumSquareAt3X.jpg",
-            "source": "nytimes"
+            "url": "https://www.hindustantimes.com/world-news/us-news/uk-pm-burnham-vows-to-end-subscription-traps-amid-cost-of-living-crisis-101786311263449.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2025/12/30/1600x900/logo/US_News_1767090888271_1767090921295.png",
+            "source": "hindustantimes"
         },
         {
-            "title": "Trump is betting that the U.S. naval blockade choking Iran\u2019s economy can achieve what bombs and missiles couldn\u2019t as more oil sneaks out of the Gulf",
+            "title": "Aussie-Yen Is Set to Approach Three-Decade High, Analysts Say",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/trump-betting-u-naval-blockade-194107816.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/27858327938f3397495c805b250e119a54a602692856758bd38d62c886586a51/lightyear_networkapi/resizefill_w960_h640%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ffortune_175%2F87593b650bc835944831d16484cb2e3b",
-            "source": "yahoo"
+            "url": "https://financialpost.com/pmn/business-pmn/aussie-yen-is-set-to-approach-three-decade-high-analysts-say",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/08/aussie-dollar-bounces-off-200-dma-versus-yen.jpg",
+            "source": "financialpost"
         },
         {
-            "title": "Israel Military Closes Palestinian Christian Village Taybeh to Halt Settler Attacks",
+            "title": "Labour seeking \u2018deeper relationship\u2019 with EU under Burnham, new minister says - The Guardian",
             "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-08-09/israel-military-closes-palestinian-christian-village-taybeh-to-halt-settler-attacks",
-            "image": "https://www.usnews.com/object/image/0000019e-fa7d-d5fd-a7ff-fa7f8ed10000/weekly1.jpg?update-time=1782319138451&size=responsiveSquare150",
-            "source": "usnews"
-        },
-        {
-            "title": "Iran executes protesters in public as regime expands postwar repression: Reports",
-            "severity": "HIGH",
-            "url": "https://abcnews.com/International/iran-executes-protesters-public-regime-expands-postwar-repression/story?id=135416756",
-            "image": "https://s.abcnews.com/images/International/tehran-main_1786257511191_hpMain_4x3t_384.jpg",
-            "source": "abcnews"
-        },
-        {
-            "title": "Israel's new $634M German-built 'doomsday' sub gives major boost to Iran deterrence",
-            "severity": "HIGH",
-            "url": "https://www.foxnews.com/world/israel-receives-634-million-submarine-germany-major-boost-naval-deterrence",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/israeli-submarine.jpg?ve=1&tl=1",
-            "source": "foxnews"
-        },
-        {
-            "title": "Suisun City declares state of emergency after IT systems breach",
-            "severity": "HIGH",
-            "url": "https://www.kcra.com/article/suisun-city-state-of-emergency-cybersecurity/73385977",
-            "image": "https://kubrick.htvapps.com/htv-prod/images/84e5ee86-9a8f-4560-bcbe-d7f691fb653d.jpg",
-            "source": "kcra"
-        },
-        {
-            "title": "California city declares a \u2018state of emergency\u2019 after cyberattack on computer systems - Los Angeles Times",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZnluQnpZdnpWUF9HNU0wQUg3XzFZTkp5MlFlVXkyUmFtd1NOTGZHS3hib1BXSzh0NE9kR2hhdmV6OHV0VFdyTmtkc2t4d251MHFQSEpKbmo4RUU2Z0tvZVp5RjdBVVZJTEx2SVVoeXlfaUhUM1VUSzRzTklBYmJRR2ZVS2xFTlRGNXlyQVhUU2RNVDhNWmFxQ3NwRWNFb01NT1RMQWxWblpSUEtHS1diQTIwWQ?oc=5",
-            "image": "https://images.pexels.com/photos/9830816/pexels-photo-9830816.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSGJTTXRmQlkzRTJ6RnpnTnN1MG1xMFl4TVpHeXVwOF9KbWR6d184TWxkMjllUTlGWjY5SHlfRms5OGNVLVpMUHBSdDNQVnNZRm9uaGR1bnp0Tk9oZ0NqTmJaaFpDT1NVMkFzTVB1RnVIQ1BCd0hONkwzVjJGRGNiVlAtZUpjTDE5YjZ1WHNweXlVS0pwYkZjTFJPbEZrUQ?oc=5",
+            "image": "https://images.pexels.com/photos/37601423/pexels-photo-37601423.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Boats trail as town bids to bounce back from canal breach",
+            "title": "Shein finds there's no place like China after Vietnam warehouse experiment disappoints",
             "severity": "HIGH",
-            "url": "https://ca.style.yahoo.com/boats-trail-town-bids-bounce-190941033.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/b76b59af39e1f4a942988e7be6f1a90003af9cfd813530c87c08e37ce1c1c6db/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2Fddacdc12c1c6020c162b71ffaf6c2718",
-            "source": "yahoo"
+            "url": "https://economictimes.indiatimes.com/tech/technology/shein-finds-theres-no-place-like-china-after-vietnam-warehouse-experiment-disappoints/articleshow/133078977.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-110618,resizemode-75,msid-133078977/tech/technology/shein-finds-theres-no-place-like-china-after-vietnam-warehouse-experiment-disappoints.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Framework Discloses Customer Data Breach After Metabase Zero-Day Attack - finance.biggo.com",
+            "title": "Andy Burnham declares war on 'fake' sales that rip off shoppers",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAzZGQyOVJmYW01bThoeUk5d09XM2xWRFNMNlRrTkdvODhTMHpLZU5yZnJJM2xXb1JGLVFkTW5BbWdqcXNOZktrcE1PZi1zRWxBaUZ3SjRxNzZOMGd1ellfS3VJYTRrek9nSlhMU3BVdE1hRFBVMWc?oc=5",
-            "image": "https://images.pexels.com/photos/37730212/pexels-photo-37730212.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.express.co.uk/news/politics/2237449/andy-burnham-declares-war-fake",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/139/237x141/2237449_1.jpg",
+            "source": "expresscouk"
         },
         {
-            "title": "Mount Royal University ordered to warn of future anti-abortion protests on campus",
+            "title": "Moscow, Kyiv assassins hunt weapons bosses as Ukraine war spills beyond the battlefield",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/mount-royal-university-ordered-warn-180319551.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/d46f07e89f3401e983f6f19104ffa0c1f472e72c91334c027ba227ed7e0c7cbe/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcalgary_herald_articles_312%2Fa45776be607aaecb7daaf8231abc3324",
+            "url": "https://www.yahoo.com/news/world/articles/moscow-kyiv-assassins-hunt-weapons-212947519.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/0ab9ac535bffb9fb544dbc021fea5d0e048162b326b4ea5cdce5512452c9abae/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ffox_news_text_979%2F43ed65281ed24f87b64c031dfe55682d",
             "source": "yahoo"
         },
         {
-            "title": "A slip of tongue in 2022 and NEET protests",
-            "severity": "MEDIUM",
-            "url": "https://www.deccanherald.com/opinion/a-slip-of-tongue-in-2022-and-neet-protests-4105152",
-            "image": "https://media.assettype.com/deccanherald/2026-08-09/cg937w06/file8735e5w14kz4d5m8ce1.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
+            "title": "Fighter jets escort planes from no-fly zone near Trump\u2019s N.J. golf club",
+            "severity": "HIGH",
+            "url": "https://www.nj.com/news/2026/08/fighter-jets-escort-planes-from-no-fly-zone-near-trumps-nj-golf-club.html",
+            "image": "https://www.nj.com/resizer/v2/V4WZTXGDLFHBFA5UPCUYWEOM2Y.jpg?auth=a47d9c91ba098bd0f9ba52f87590a2c7cb7c4dd1f636964feb3d099ce11d6609&smart=true&height=1200",
+            "source": "nj"
         },
         {
-            "title": "Unregulated rise in number of roadside eateries raises concerns among residents",
-            "severity": "MEDIUM",
-            "url": "https://www.thehindu.com/news/cities/puducherry/unregulated-rise-in-number-of-roadside-eateries-raises-concerns-among-residents/article71324653.ece",
-            "image": "https://th-i.thgim.com/public/incoming/h4os07/article71325025.ece/alternates/FREE_1200/2786_9_8_2026_17_22_58_2_08PY09ROADSIDEEATERIES7.JPG",
-            "source": "thehindu"
+            "title": "The $10,000 Fine Behind a 15-Million-Record Breach: MMG Fusion and HIPAA's Weakest Link",
+            "severity": "HIGH",
+            "url": "https://hackernoon.com/the-$10000-fine-behind-a-15-million-record-breach-mmg-fusion-and-hipaas-weakest-link",
+            "image": "https://cdn.hackernoon.com/images/rymeSO93fMg9m2SRdMsCXRtvbhG2-81a3bdm.png",
+            "source": "hackernoon"
         },
         {
-            "title": "'Will pure petrol come from your father's house?': BJP MP Janardan Mishra defends ethanol policy",
-            "severity": "MEDIUM",
-            "url": "https://www.deccanherald.com/india/madhya-pradesh/will-pure-petrol-come-from-your-fathers-house-bjp-mp-janardan-mishra-defends-ethanol-policy-4105199",
-            "image": "https://media.assettype.com/deccanherald/2026-08-09/00uj3016/7626242691002729912814790988625470325113394n.jfif?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Kelly Clarkson flashes more than intended during Las Vegas show as lacy bra makes surprise appearance",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/tvshowbiz/article-16040085/kelly-clarkson-wardrobe-malfunction-las-vegas.html",
-            "image": "https://i.dailymail.com/1s/2026/08/09/20/110528415-0-image-a-58_1786302439224.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Diamondbacks vs. Dodgers. Martinez, Gurriel updates",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/diamondbacks-vs-dodgers-martinez-gurriel-194743184.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/d0bf0f40ba17d88676ebc00e8e2895a86e3a389fb9c6d53a1d70d19fd14e3aa6/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fazcentral-the-arizona-republic%2Ff78636b279293a21f76cec405dd4f303",
-            "source": "yahoo"
-        },
-        {
-            "title": "Readers\u2019 letters: Energy transition will require painful sacrifices",
-            "severity": "WATCH",
-            "url": "https://www.scotsman.com/news/opinion/letters/readers-letters-energy-transition-will-require-painful-sacrifices-8847665",
-            "image": "https://www.scotsman.com/webimg/b25lY21zOjg2ODY0NzFjLTgzODUtNDJhNS1iZmU5LTUyYzYyNzU0MDE3ZDphN2M4NDYwMy04ODE3LTQyOWMtODI0MS02ZTA5ZTI5ZDczOGE=.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "scotsman"
-        },
-        {
-            "title": "Missing boat with six aboard found by NZ Air Force plane",
-            "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/pacific/949812/missing-boat-with-six-aboard-found-by-nz-air-force-plane",
-            "image": "https://images.pexels.com/photos/36594160/pexels-photo-36594160.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "Major NBA Champion Identified To Boost Houston Rockets Next Season",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/major-nba-champion-identified-boost-194345348.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/18cb389bdff13f0b8071dd2868cc40cdd78bbee9d5bcd1d64a32894d94414a70/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fheavy_214%2Face7ee0ec8242cc6e83ca17b98055f56",
-            "source": "yahoo"
-        },
-        {
-            "title": "Behind Francesca Hong\u2019s flighty campaign is a hateful movement \u2014 and it\u2019s landing on the right ears",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/08/09/opinion/behind-francesca-hongs-flighty-campaign-is-a-hateful-movement-and-its-landing-on-the-right-ears/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2Fdemocratic-gubernatorial-candidate-francesca-135470101_1fae7b.jpg?quality%3D90%26strip%3Dall",
-            "source": "nypost"
-        },
-        {
-            "title": "DiJonai Carrington's feud with Sophie Cunningham explodes: Unearthed footage of foul-mouthed rant... as details of turbulent past are revealed",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/sport/wnba/article-16039845/dijonai-carrington-sophie-cunningham-wnba.html",
-            "image": "https://i.dailymail.com/1s/2026/08/09/19/110527377-0-image-a-33_1786300823676.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "All Unique shields in Path of Exile (3.29)",
-            "severity": "WATCH",
-            "url": "https://www.sportskeeda.com/mmo/all-unique-shields-path-exile-3-29",
-            "image": "https://staticg.sportskeeda.com/editor/2026/08/e99c2-17862910304031-1920.jpg",
-            "source": "sportskeeda"
-        },
-        {
-            "title": "Tesla\u2019s 'Insane' mode at center of $10M lawsuit: What is it?",
-            "severity": "WATCH",
-            "url": "https://www.abc4.com/news/national/teslas-insane-mode-at-center-of-10m-lawsuit/",
-            "image": "https://www.abc4.com/wp-content/uploads/sites/4/2026/08/tesla-dealership-sign-GettyImages-2278014898-e1786033064184.jpg?w=900",
-            "source": "abc4"
-        },
-        {
-            "title": "GCCI seeks joint state action on Anmod ghat bottlenecks",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/goa/gcci-seeks-joint-state-action-on-anmod-ghat-bottlenecks/articleshow/133074808.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133074807/133074807.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "The Husband ending explained and season 2 possibilities: Why was Kang Tae-ju the target? Did Tae-ju and Ko Se-yun get their happily ever after?",
-            "severity": "WATCH",
-            "url": "https://www.sportskeeda.com/us/k-pop/news-the-husband-ending-explained-season-2-possibilities-why-kang-tae-ju-target-did-tae-ju-ko-se-yun-get-happily-ever-after",
-            "image": "https://staticg.sportskeeda.com/editor/2026/08/ec9d3-17862979901733-1920.jpg",
-            "source": "sportskeeda"
-        },
-        {
-            "title": "Gokul raises buffalo milk price by Rs 2/litre, boosts procurement rates for farmers",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/kolhapur/gokul-raises-buffalo-milk-price-by-rs-2/litre-boosts-procurement-rates-for-farmers/articleshow/133074788.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133074787/133074787.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "This Dividend Stock's Moat Is as Wide as It Gets. 3 Reasons to Buy and Hold Forever.",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/dividend-stocks-moat-wide-gets-193500866.html",
-            "image": "https://media.zenfs.com/en/motleyfool.com/2cdadea722d0a99b605e6708a36bb100",
-            "source": "yahoo"
-        },
-        {
-            "title": "French firm completes consumer survey of over 1 lakh households in Kochi",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/kerala/french-firm-completes-consumer-survey-of-over-1-lakh-households-in-kochi/article71321939.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
-        },
-        {
-            "title": "Comcast (CMCSA) Pushes Private Wireless Into The Office Market",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/technology/articles/comcast-cmcsa-pushes-private-wireless-193207686.html",
-            "image": "https://media.zenfs.com/en/insidermonkey.com/e71f32ad81504e3cf8acb57b2383f4a3",
-            "source": "yahoo"
-        },
-        {
-            "title": "NORAD intercepts planes violating airspace near Trump\u2019s golf club in Bedminster",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/08/09/us-news/norad-intercepts-planes-violating-airspace-near-trumps-golf-club-in-bedminster/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2FGettyImages-2152622601.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Paedo who got girl, 15, pregnant is jailed after cops found teen hiding in cupboard as sicko blames \u2018stupid immaturity\u2019",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/news/40011102/paedo-jailed-girl-pregnant-cupboard/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F08%2F2001-judge-perry-wacker-trial-678233788.jpg?quality%3D90%26strip%3Dall",
+            "title": "F-16 fighter jets scrambled over Trump\u2019s golf course to intercept two planes flying close to where president was staying",
+            "severity": "HIGH",
+            "url": "https://www.thesun.co.uk/news/40011786/fighter-jets-scrambled-trump-golf-course/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F08%2Fcrop-40011799.jpg?quality%3D90%26strip%3Dall%261786311685%261786311685",
             "source": "thesun"
         },
         {
-            "title": "A hundred years ago | The Cauvery floods",
+            "title": "Massive landfill fire sparks huge smoke plume as locals told to stay indoors",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/archives/from-the-hindu-archives-august-10-1926-the-cauvery-floods/article71325385.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
+            "url": "https://www.express.co.uk/news/uk/2237545/massive-landfill-fire-huge-smoke-plume-locals-indoors",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/237x141/2237545_1.jpg",
+            "source": "expresscouk"
         },
         {
-            "title": "Four days left: Parliament braces for key Bills amid Opposition protests",
+            "title": "85 Off-The-Wall Things Skyrocketing In Popularity On Amazon Now",
             "severity": "WATCH",
-            "url": "https://www.business-standard.com/politics/four-days-left-parliament-braces-for-key-bills-amid-opposition-protests-126080900458_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/09/full/1786299350-7215.jpg",
-            "source": "business-standard"
+            "url": "https://www.inverse.com/shopping/off-the-wall-things-skyrocketing-in-popularity-on-amazon-now",
+            "image": "https://imgix.bustle.com/uploads/image/2026/8/7/307b53de/9-2.png?w=1200&fit=max",
+            "source": "inverse"
+        },
+        {
+            "title": "Andoni Iraola offers brutal Liverpool assessment as Reds 'cannot sustain their level'",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/sport/football/news/andoni-iraola-liverpool-preseason-loss-37531396",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37531400.ece/ALTERNATES/s615/0_GettyImages-2289144023.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Burnham to promise \u2018everyday fixes\u2019 for bills at start of cost-of-living tour",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/money/andy-burnham-government-prime-minister-b3030082.html",
+            "image": "https://static.independent.co.uk/2026/08/09/22/48be55374e2d8ed375489990ae6d6fc5Y29udGVudHNlYXJjaGFwaSwxNzg2MzU0Mjc2-2.85459734.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "Darline Graham Tests Value Of A Famous Name Vs. Lack Of Experience In S.C. Primary",
+            "severity": "WATCH",
+            "url": "https://www.huffpost.com/entry/darline-graham-primary-senate-south-carolina_n_6a78ec60e4b0a81f52ff1084",
+            "image": "https://img.huffingtonpost.com/asset/6a78ec6215000010f0e8bb04.jpeg?cache=4SgOEXOHwK&ops=1778_1000",
+            "source": "huffpost"
+        },
+        {
+            "title": "Netflix's 4-Part Sci-Fi Series Is So Good, There's Nothing Else Like It In Hollywood",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/love-death-and-robots-unique-sci-fi-show-netflix/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/love-death-and-robots-screenshot.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "58 Years Later, Iron Man\u2019s Classic Suit Makes The Perfect Return",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/iron-man-marvel-tokon-fighting-souls-design/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/iron-man-2-mcu.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "Royal Navy boats used by SBS fitted with drones that 'secretly sent data to Beijing'",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/world/2237543/navy-drones-chinese-cameras-royal-navy",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/78/237x141/2237543_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Crazed naked swimmer 'beat security guard to death with water bottle' at Hawaiian resort'",
+            "severity": "WATCH",
+            "url": "https://www.the-express.com/news/us-news/213618/crazed-naked-swimmer-beat-security-guard-to-death-with-water-bottle",
+            "image": "https://cdn-images.the-express.com/img/dynamic/10/237x141/213618_1.jpg",
+            "source": "express"
+        },
+        {
+            "title": "Pictured: convicted Islamic terrorist sentenced to death for plotting to kill an Egyptian Prime Minister in the 1990s who is running a honey business from a north London lock-up",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-16020061/Pictured-convicted-Islamic-terrorist-sentenced-death-plotting-kill-Egyptian-Prime-Minister-1990s-running-honey-business-north-London-lock-up.html",
+            "image": "https://i.dailymail.com/1s/2026/07/31/16/110370953-0-image-a-30_1785512725186.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Durian exports pass 2025 total despite rising costs",
+            "severity": "WATCH",
+            "url": "https://www.bangkokpost.com/thailand/general/3299037/durian-exports-pass-2025-total-despite-rising-costs",
+            "image": "https://static.bangkokpost.com/media/content/20260810/c1_3299037_260810041807.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "AirBoss of America Q2 Earnings Call Highlights",
+            "severity": "WATCH",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/airboss-america-q2-earnings-call-210351742.html",
+            "image": "https://media.zenfs.com/en/marketbeat_955/75abce994a95adb9326838a8bc26e940",
+            "source": "yahoo"
+        },
+        {
+            "title": "Hot weather and World Cup spending boost drives UK business recovery",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/news/business/government-bdo-prime-minister-press-association-b3030075.html",
+            "image": "https://static.independent.co.uk/2026/08/09/22/99eff3ff057cd8dfdc297905f2a84628Y29udGVudHNlYXJjaGFwaSwxNzg2MjAyNjI5-2.85444697.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "PENNSYLVANIA PUBLIC UTILITY C...",
+            "severity": "WATCH",
+            "url": "https://marketplace.inquirer.com/pa/legal/pennsylvania-public-utility-c/AC1E04DE13c1e3828C0Fng73A604",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "inquirer"
+        },
+        {
+            "title": "The OpenAI-Hugging Face Incident Was an Identity Failure Before It Was an AI Failure",
+            "severity": "WATCH",
+            "url": "https://hackernoon.com/the-openai-hugging-face-incident-was-an-identity-failure-before-it-was-an-ai-failure",
+            "image": "https://cdn.hackernoon.com/images/X2I2lSfggIM4YDRD2Qtv8z81jhx2-rt83abo.png",
+            "source": "hackernoon"
+        },
+        {
+            "title": "Former Alabama police officer allegedly misused law enforcement database to look up ex-wife",
+            "severity": "WATCH",
+            "url": "https://www.al.com/crime/2026/08/former-alabama-police-officer-allegedly-misused-law-enforcement-database-to-look-up-ex-wife.html",
+            "image": "https://www.al.com/resizer/v2/W6FYNISVNVFX3O64RCVIE2F2VI.jpg?auth=431d1c42faf17e282476c3c1896620ce509402595c64438b3c43c827bd80075e&smart=true&height=1200",
+            "source": "al"
+        },
+        {
+            "title": "Lioness Recap: Counterstrike",
+            "severity": "WATCH",
+            "url": "http://www.vulture.com/article/lioness-recap-season-3-episode-2-paramount-plus.html",
+            "image": "https://pyxis.nymag.com/v1/imgs/2cd/659/0ba457bfee8b4415a280fc17ad5a5e0294-Lioness.1x.rsocial.w1200.jpg",
+            "source": "vulture"
+        },
+        {
+            "title": "Spy cameras on Navy drones secretly sent data to China",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/spy-cameras-navy-drones-secretly-201601369.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/51ca9b9e84673954f88874c973cd626952d7b30fce14a9c950a9ab1a7c95855d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F1b6eee7b020dc48fc3cb83d6570cc128",
+            "source": "yahoo"
+        },
+        {
+            "title": "Trent Williams is sued for not making payments on a 2021 Porsche lease",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/trent-williams-sued-not-making-201059849.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/50983a6a6316ea664f046dd00fe1f42fd93d6840d4b07b43686742d88ade24f7/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fprofootballtalk.nbcsports.com%2F3f2a486c092e24da0054c6c6064ba318",
+            "source": "yahoo"
         }
     ],
-    "Last_Updated": "2026-08-10T07:51:28.201925Z"
+    "Last_Updated": "2026-08-10T09:38:47.835153Z"
 }
