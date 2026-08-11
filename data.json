@@ -1,281 +1,225 @@
 {
-    "AGRI_Score": 62.6,
-    "Velocity": "+1.6",
-    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The current AGRI score of 62.6 reflects a heightened risk environment primarily driven by escalating geopolitical tensions and associated energy infrastructure vulnerabilities. Direct attacks on energy facilities, as evidenced by the \"Ukrainian drone attack on an oil hub deep inside Russia kills 13,\" contribute significantly to the \"Energy & Maritime Disruption\" pillar. The ongoing conflict, supported by reports of \"More than 130 UAV crews trained at Moscow Military District last month,\" maintains extreme pressure on the \"Geopolitical Conflict Intensity\" pillar. These core drivers are amplified by persistent \"Sanctions & Regulatory Fragmentation\" and emerging \"Cyber & Infrastructure Threats.\"",
+    "AGRI_Score": 58.5,
+    "Velocity": "-4.1",
+    "Top_Risk_Driver": "Energy & Maritime Disruption",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) currently stands at 58.5/100, driven primarily by elevated geopolitical tensions and critical energy supply concerns. High scores in 'Geopolitical Conflict Intensity' (70.2) reflect escalating rhetoric with Iran, while 'Energy & Maritime Disruption' (70.9) is critically impacted by the significant depletion of the U.S. emergency oil reserve. These factors combine with emerging infrastructure threats to indicate a complex and challenging risk environment, necessitating continuous monitoring.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 85.8,
+        "Geopolitical Conflict Intensity": 70.2,
         "Energy & Maritime Disruption": 70.9,
-        "Trade & Supply Chain Stress": 65.9,
+        "Trade & Supply Chain Stress": 61.0,
         "Sovereign Financial Stress": 56.5,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 62.9,
-        "Cyber & Infrastructure Threats": 59.9,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 60.3,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical tensions remain extremely elevated due to ongoing military actions and rhetoric surrounding the conflict. The report of \"More than 130 UAV crews trained at Moscow Military District last month\" signals continued militarization, while \"Russia says world bodies\u2019 silence on Kiev attacks on its cities to be seen as complicity\" underscores heightened diplomatic friction and accusation.",
-        "Energy & Maritime Disruption": "Direct strikes on critical energy infrastructure pose an immediate and significant disruption risk. The \"Ukrainian drone attack on an oil hub deep inside Russia kills 13\" clearly demonstrates active targeting of energy assets, directly impacting supply capabilities and increasing market volatility.",
-        "Trade & Supply Chain Stress": "Supply chains face ongoing pressure from geopolitical instability and isolated corporate distress. The Glencore consortium offering a \"rival bid for troubled Canadian miner Sherritt\" indicates specific challenges in the raw materials sector, while broader trade routes remain subject to conflict-related diversions.",
-        "Sovereign Financial Stress": "Sovereign financial health is experiencing moderate pressure, with some nations facing specific economic headwinds. While no direct sovereign defaults are reported, the ongoing costs of geopolitical conflict and market uncertainties contribute to underlying fiscal strain.",
-        "Currency & Liquidity Pressure": "Currency markets are experiencing routine monitoring conditions, with no widespread or acute liquidity crises. Geopolitical events and economic shifts are creating localized pressures, but broader systemic issues are not currently evident.",
-        "Sanctions & Regulatory Fragmentation": "The global regulatory landscape remains fragmented, with ongoing scrutiny of past and present administrative actions. \"Democrats Probe Trump Administration After 50 Military Members, Families Faced Deportation\" highlights continuing political and legal investigations that can impact regulatory certainty.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure vulnerabilities represent a significant and evolving threat vector, with critical data and systems at risk. Valve's admission that \"Steam Hardware Owners' Personal Data Likely Stolen\" after advising 'Expect Fake Messages' illustrates the persistent danger of data breaches and cyber-attacks.",
-        "Climate & Resource Shock": "Climate and resource shocks are at baseline activity levels, though localized events and long-term adaptation efforts persist. The \"powerful magnitude 7.4 earthquake strikes Colombia\" represents an acute natural disaster, while the Duke of Westminster's farm \"taking on the climate crisis\" signifies ongoing adaptation challenges without widespread immediate systemic shock."
+        "Geopolitical Conflict Intensity": "Direct confrontational rhetoric between the US and Iran is notably escalating, with 'Trump rebuking Iran's demand for war damages' and the display of a 'Trump 'bullseye' graphic in Iran' indicating heightened animosity. Broader geopolitical tensions are also reflected in calls for Asian allies to 'invest more in defense to deter aggression' and an 'US General in Europe abruptly removed from command', signaling a dynamic and uncertain global security landscape.",
+        "Energy & Maritime Disruption": "Energy security is significantly compromised, as the 'U.S. emergency oil reserve is below 300 million barrels for the first time since 1983', indicating a critical depletion of strategic reserves. This depletion, coupled with warnings that 'Millions of households could face threat of emergency blackouts', points to a heightened risk of supply instability and potential widespread power disruptions.",
+        "Trade & Supply Chain Stress": "While a positive development like 'DA Davidson raises Jerash Holdings stock price target on trade deal' indicates specific trade optimism, broader 'Market Headwinds' noted in financial analysis suggest underlying vulnerabilities persist. The overall environment signals moderate stress, influenced by global economic shifts and potential for further disruptions impacting supply chains.",
+        "Sovereign Financial Stress": "The current news feed does not provide direct evidence of acute sovereign financial distress, though mentions of 'Market Headwinds' indicate a need for a watchful approach to economic indicators. While individual stock trades are noted, they do not point to systemic national financial vulnerabilities, keeping sovereign financial stress at a moderate level requiring continued vigilance.",
+        "Currency & Liquidity Pressure": "The provided news feed contains no specific headlines regarding currency fluctuations or liquidity crunches, indicating a period of routine monitoring in these areas. While general market conditions are always observed, there are no immediate signals of elevated pressure on national currencies or financial system liquidity.",
+        "Sanctions & Regulatory Fragmentation": "The potential for new regulatory actions is highlighted by 'RFK Jr. targeting a decades-old loophole allowing chemicals in food supply', suggesting forthcoming shifts in national standards. Furthermore, 'Fresh scrutiny on Rohingya, Bangladeshi \u2018settlements\u2019 as Centre reviews J&K demography' indicates a focus on population policies that could lead to new regional regulations or restrictions.",
+        "Cyber & Infrastructure Threats": "Critical infrastructure faces notable threats, as evidenced by warnings that 'Millions of households could face threat of emergency blackouts', signaling potential vulnerabilities in power grids. These concerns highlight the ongoing need for robust cyber defenses and physical infrastructure resilience planning to avert widespread disruptions.",
+        "Climate & Resource Shock": "Despite localized challenges like 'Alternate-day water supply in parts of Mangaluru till Aug 31', which points to regional resource scarcity, the overall pillar score remains low. This indicates that while specific areas face acute resource management issues, the broader global impact of climate-related shocks is not currently at a critical level according to the provided data."
     },
     "All_Alerts": [
         {
-            "title": "Glencore consortium offers rival bid for troubled Canadian miner Sherritt",
+            "title": "Trump rebukes Iran's demand for war damages, says Tehran should compensate its victims",
             "severity": "HIGH",
-            "url": "https://financialpost.com/commodities/mining/glencore-consortium-offers-bid-canadian-miner-sherritt",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/08/0811-mg-sherritt-cuba.jpg",
-            "source": "financialpost"
-        },
-        {
-            "title": "At least 21 dead after powerful magnitude 7.4 earthquake strikes Colombia",
-            "severity": "HIGH",
-            "url": "https://www.kansascity.com/news/nation-world/world/article316825722.html",
-            "image": "https://www.miamiherald.com/public/latest-news/9lw82z/picture316827315/alternates/FREE_1140/rubble%20more.jpg",
-            "source": "kansascity"
-        },
-        {
-            "title": "Democrats Probe Trump Administration After 50 Military Members, Families Faced Deportation",
-            "severity": "HIGH",
-            "url": "https://www.military.com/democrats-probe-trump-administration-after-50-military-members-and-families-faced-deportation",
-            "image": "https://static0.mltimages.com/wordpresshttps://static0.mltimages.com/wordpress/wp-content/uploads/2026/08/ap26218834570885.jpg",
-            "source": "military"
-        },
-        {
-            "title": "More than 130 UAV crews trained at Moscow Military District last month",
-            "severity": "HIGH",
-            "url": "https://tass.com/defense/2171001",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Russia says world bodies\u2019 silence on Kiev attacks on its cities to be seen as complicity",
-            "severity": "HIGH",
-            "url": "https://tass.com/politics/2170999",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Ukrainian drone attack on an oil hub deep inside Russia kills 13, officials say",
-            "severity": "HIGH",
-            "url": "https://www.bostonherald.com/2026/08/10/ukrainian-drone-attack-russian-oil-hub/",
-            "image": "https://www.bostonherald.com/wp-content/uploads/2026/08/APTOPIX_Russia_Ukraine_War_98_93-1.jpg?w=1400px&strip=all",
-            "source": "bostonherald"
-        },
-        {
-            "title": "Nigeria: Traditional leaders strengthen community trust in polio vaccination",
-            "severity": "HIGH",
-            "url": "https://reliefweb.int/report/nigeria/traditional-leaders-strengthen-community-trust-polio-vaccination",
-            "image": "https://reliefweb.int/modules/custom/reliefweb_meta/images/icons/Nigeria_NGA.png",
-            "source": "reliefweb"
-        },
-        {
-            "title": "UNHCR Romania Ukraine Refugee Situation Weekly Update #208 - 10 August 2026",
-            "severity": "HIGH",
-            "url": "https://reliefweb.int/report/romania/unhcr-romania-ukraine-refugee-situation-weekly-update-208-10-august-2026",
-            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/d7/b6/d7b6520d-74f3-5f4e-b7e6-e9d5b99744a4.png",
-            "source": "reliefweb"
-        },
-        {
-            "title": "Microsoft plans Maia 300 chip reveal in September - Information",
-            "severity": "HIGH",
-            "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-plans-maia-300-chip-140432692.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
-            "source": "yahoo_sg"
-        },
-        {
-            "title": "Royal Jordanian Airlines selects Ramco's next-gen aviation software",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/royal-jordanian-airlines-selects-ramco-s-next-gen-aviation-software-126081001562_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "\u2018It\u2019s very challenging\u2019: how the Duke of Westminster\u2019s farm is taking on the climate crisis",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/environment/2026/aug/10/duke-of-westminster-farm-climate-crisis",
-            "image": "https://i.guim.co.uk/img/media/051eaff3f585cb2bdb68b52b15f050a8b7c4b88e/1419_0_7066_5656/master/7066.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=edf1a6cb45b15aaf80a79f4f05f6372e",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "The media is infatuated with Gadi Eisenkot, the \u2018anti-Netanyahu\u2019. Why? | Mehdi Hasan",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/commentisfree/2026/aug/10/media-gadi-eisenkot-anti-netanyahu",
-            "image": "https://i.guim.co.uk/img/media/9fa9a60aaee0a236e00126314c3dede132a515f7/458_0_4583_3668/master/4583.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=42f78db67a189758986ced61dc2d67c5",
-            "source": "theguardian"
-        },
-        {
-            "title": "Johnson turns Democrats\u2019 socialist civil war into new weapon for midterms - Fox News",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNclJWaGxGTXNjSUNUTHVuNnFIY093eEVyVXl3Q0UwRS12d2ZuaFVJZjFRSERJSDF3STU2cjNTdWxsVmhNNXROTGdqTGNJNnFsX1RrUHJKMzlIcjl3azNzZEVBbmhpUWFQRmN0Y3kycXZGNVVmM3VVYTVVNzJxWk9rYVBJSGV2WDBJbU9iNGhsV0tPZ25CMVVkOHZwLTTSAaIBQVVfeXFMT2pEVXN4U0ptXzN3YXNzbkdmUDFrSTJhNm1tV1JHYkFHVEFtUFIxa1lYQmdod3huRWtCT1Y2UVFKWWo0bUtWSFBxLTRUMmpFVDQtd25sQmdySW5DM1JqVnNzNDdTdVRKazQ3cXZJLU5QUUs1My1zUzVSeWJDbHRncnRWdGNlbjExLUU1ejk2QkRIdzhpZlB0TUY0Ym5iTW5zZHNn?oc=5",
-            "image": "https://images.pexels.com/photos/5014710/pexels-photo-5014710.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "China is the elephant in the room as Trump and Hegseth rage over munitions",
-            "severity": "HIGH",
-            "url": "https://www.washingtonexaminer.com/in_focus/4677940/trump-hegseth-munitions-pushback-china-military/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/08/China-military.jpg?w=696",
-            "source": "washingtonexaminer"
-        },
-        {
-            "title": "The revolt against FIFA chief Infantino continues with an open letter from soccer\u2019s regional governing bodies",
-            "severity": "HIGH",
-            "url": "https://www.fastcompany.com/91587674/revolt-against-fifa-chief-infantino-continues-open-letter-soccers-regional-governing-bodies",
-            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91587674-uefa-concacaf-afc-fifa-deception-breach-of-trust-world-cup.jpg",
-            "source": "fastcompany"
-        },
-        {
-            "title": "'Expect Fake Messages': Valve Admits Steam Hardware Owners' Personal Data Likely Stolen - IGN",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZmFNaVVwZkl2bVRqWk05NGUteDc3c09hMUxtSXhqVW4wcEZRRnBsWGRDZ2dIMlNTT0VWMlRMT1ZqNW1QeWVFMm9xTWROcUU2aTA2Y05TLTNpMkNoMzQ2bzZ5VU5hSUVkZ0NXQ2NnTjhRUV9PNHlYQW1DcEc4aHA0bVgyMV9UVUQtaUlFQk1JQ3RxcjJKSnNSMU90MVFHVUNKUGVQSDNHaHRYTDNVVS1DZzVR?oc=5",
-            "image": "https://images.pexels.com/photos/31334739/pexels-photo-31334739.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "UEFA, CONCACAF, AFC accuse FIFA of 'breach of trust' over WC plans",
-            "severity": "HIGH",
-            "url": "https://www.business-standard.com/sports/football-news/uefa-concacaf-afc-accuse-fifa-of-breach-of-trust-over-wc-plans-126081001082_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/10/full/1786369599-9128.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "'No one wants to work with you': Turmoil at top defence contractor Ventia as exec on $400k a year claims she was pushed out via performance review after being named in damning ACCC lawsuit",
-            "severity": "MEDIUM",
-            "url": "https://www.dailymail.com/news/article-16040615/ventia-lena-parker-accc-cartel-performance-review-redundancy-defence-contractor-lawsuit.html",
-            "image": "https://i.dailymail.com/1s/2026/08/10/06/110533859-0-image-a-3_1786340318475.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "The World's 46 Best Tourist Attractions",
-            "severity": "WATCH",
-            "url": "https://travel.usnews.com/gallery/the-worlds-best-tourist-attractions",
-            "image": "https://www.usnews.com/dims4/USNEWS/e703b23/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F77%2Fb2%2F0883842c4bf2802c7c4312dec807%2Fnew-main-image-machu-picchu-credit-getty-images.jpg",
-            "source": "usnews"
-        },
-        {
-            "title": "34,000 gallon tank spills acid onto I-5 near Hayden Island - KOIN.com",
-            "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02X1gyLUdSZ1JxYjZwQWROS2dTeVA2VHktTkJDcldlSTFNNElvaXk5NVprQnBBT05VWm5YQ2g3ellFT01VR1dVSjFqMERKcGdDbUs1ejdUYi1YUkVZcmNtY1FralJaLTg1eE1vTk5zWlRQdVY5NlpDSNIBfkFVX3lxTE1COVVwZ1c3ZWxicHAxamt1eWZfRVlRQ2lrTDhxeUdybVlDd2I1bGpiM0lic1ZDSE5sLUZMWll6S3VZYlJQakF3ZEgzZGFKc2pNY0syNFVCblNZOGJnTW5iMFdXdm13ZXd5MXVKeGRDRTFvMEZTQWlsbjBJUENmQQ?oc=5",
-            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Lauryn Hill & Wyclef Jean perform 'The Score' as Diaspora Calling! UK",
-            "severity": "WATCH",
-            "url": "https://apnews.com/video/lauryn-hill-wyclef-jean-perform-the-score-as-diaspora-calling-uk-de05b8678b1744cfaa40bb42a6b6873e",
-            "image": "https://dims.apnews.com/dims4/default/1e0ea8c/2147483647/strip/false/crop/405x720+0+0/resize/405x720!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fbf%2F5c%2F2ae0d0b89cee14494910a14df7be%2F8250787280.jpg",
-            "source": "apnews"
-        },
-        {
-            "title": "Ceva Q2 Earnings Call Highlights",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/ceva-q2-earnings-call-highlights-140429361.html",
-            "image": "https://media.zenfs.com/en/marketbeat_955/7a83478d238101e97966525efe77b3dd",
-            "source": "yahoo"
-        },
-        {
-            "title": "Minnesota\u2019s Democratic Senate Primary Pits Angie Craig Against Peggy Flanagan",
-            "severity": "WATCH",
-            "url": "https://www.nytimes.com/2026/08/10/us/politics/minnesota-senate-primary-flanagan-craig.html",
-            "image": "https://static01.nyt.com/images/2026/08/10/multimedia/10pol-minnesota-senate-02-pfqg/10pol-minnesota-senate-02-pfqg-mediumSquareAt3X.jpg",
-            "source": "nytimes"
-        },
-        {
-            "title": "Animated Horror-Comedy Series \u2018Doomsweepers\u2019 In Works From \u2018Monkie Kid\u2019 Director Sarah Harper, Flying Bark & Lightfold",
-            "severity": "WATCH",
-            "url": "https://deadline.com/2026/08/doomsweepers-animated-horror-comedy-revealed-1237029995/",
-            "image": "https://deadline.com/wp-content/uploads/2026/08/Doomsweepers.png",
-            "source": "deadline"
-        },
-        {
-            "title": "Magnitude 7.4 earthquake strikes western Colombia, damages buildings in major cities",
-            "severity": "WATCH",
-            "url": "https://www.miamiherald.com/news/nation-world/world/americas/colombia/article316825722.html",
-            "image": "https://www.elnuevoherald.com/public/ultimas-noticias/qywai7/picture316825672/alternates/FREE_1140/2289264987-GI.JPG",
-            "source": "miamiherald"
-        },
-        {
-            "title": "Hezbollah\u2019s civil branches still operating in Lebanese Army pilot zone, researchers say",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/middle-east/article-905091",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/731493",
-            "source": "jpost"
-        },
-        {
-            "title": "More than 120 firefighters still tackling \u2018devastating\u2019 New Forest blaze",
-            "severity": "WATCH",
-            "url": "https://www.standard.co.uk/news/uk/new-forest-forestry-andrew-matthews-hampshire-hgv-b1292938.html",
-            "image": "https://static.standard.co.uk/2026/08/10/15/e260fee263f47cbb19f8c84134dc8395Y29udGVudHNlYXJjaGFwaSwxNzg2NDU2NzU2-2.85531970.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
-        },
-        {
-            "title": "An OLED Screen Could Make the iMac Relevant Again",
-            "severity": "WATCH",
-            "url": "https://gizmodo.com/an-oled-screen-could-make-the-imac-relevant-again-2000796443",
-            "image": "https://gizmodo.com/app/uploads/2024/11/Apple-iMac-2024-4-2-1024x683.jpg",
-            "source": "gizmodotech"
-        },
-        {
-            "title": "Truist cuts Oklo stock price target to $51 on cost clarity concerns",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/truist-cuts-oklo-stock-price-target-to-51-on-cost-clarity-concerns-93CH-4589107",
-            "image": "https://content-media.investing.com/news/moved_LYNXMPEM4519D_1200_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Grocery giant rethinks supply chain plans as store closures mount",
-            "severity": "WATCH",
-            "url": "https://www.thestreet.com/retail/ahold-delhaize-usa-cuts-expansion-plans-store-closures",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTQwODU1/ahold-delhaize-closures_ft_08092026.jpg?profile=rss",
-            "source": "thestreet"
-        },
-        {
-            "title": "Beijing\u2019s billion-barrel weapon: Why India must prepare for China-driven oil prices",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/beijings-billion-barrel-weapon-why-india-must-prepare-for-china-driven-oil-prices/articleshow/133101573.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133103620/133103620.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Tripura exports mustard honey to Dubai, opening global market for local farmers",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/agency-feeds/tripura-exports-mustard-honey-to-dubai-opening-global-market-for-local-farmers-10264524.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "President Trump to attend high school Patriot Games in Ohio",
-            "severity": "WATCH",
-            "url": "https://www.washingtontimes.com/news/2026/aug/10/president-trump-attend-high-school-patriot-games-ohio/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/08/09/Trump_76_86_s1440x962.jpg?3508889e403e1da44972d8b607e807d3c73ebd80",
+            "url": "https://www.washingtontimes.com/news/2026/aug/10/trump-rebukes-irans-demand-war-damages-says-tehran-compensate-victims/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2026/08/06/Trump_425_2_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
             "source": "washingtontimes"
         },
         {
-            "title": "\u200bAI Won't Fix Your Flat Tire",
-            "severity": "WATCH",
-            "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/10/ai-wont-fix-your-flat-tire/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/6a7634175d8e161346af8431/0x0.jpg?width=960",
-            "source": "forbes"
+            "title": "The U.S. emergency oil reserve is below 300 million barrels for the first time since 1983",
+            "severity": "HIGH",
+            "url": "https://qz.com/us-strategic-petroleum-reserve-below-300-million-barrels-081026",
+            "image": "https://qz.com/cdn-cgi/image/width=600,quality=85,format=auto/https://assets.qz.com/media/5bd2203cad64393ac7843c74efcb8454.jpg",
+            "source": "quartz"
         },
         {
-            "title": "Engineer harnesses gravity to launch a 4-gram projectile at supersonic speeds",
-            "severity": "WATCH",
-            "url": "https://interestingengineering.com/innovation/uk-engineer-4-gram-projectile-hypersonic-gravity",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/08/T.jpg",
-            "source": "interestingengineering"
+            "title": "Alternate-day water supply in parts of Mangaluru till Aug 31",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/bengaluru/alternate-day-water-supply-in-parts-of-mangaluru-till-aug-31/articleshow/133123506.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
+            "source": "toi"
         },
         {
-            "title": "Five years of Taliban rule: has the world given up on Afghanistan?",
+            "title": "Man arrested for breaching bail, running from police: WPS",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/windsor/article/man-arrested-for-breaching-bail-running-from-police-wps/",
+            "image": "https://www.ctvnews.ca/resizer/v2/64JYEGNMONGEPEE63YHF7QJAT4.jpg?auth=f3666ce0e10e92b1cc956397ac99ebfcbcc4ed74d861c4de64fce352f5b33675&smart=true&width=900&height=506",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Violent Clashes Erupt in Ranchi as Student Protests Demand CBI Inquiry into JPSC Exam Paper Leak",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/videos/brass-tacks/violent-clashes-erupt-in-ranchi-as-student-protests-demand-cbi-inquiry-into-jpsc-exam-paper-leak-10264818.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/08/1786381322_85c300c8-1a36-45ad-9055-e3088e27b017-1200x720.jpeg",
+            "source": "news18"
+        },
+        {
+            "title": "Fresh scrutiny on Rohingya, Bangladeshi \u2018settlements\u2019 as Centre reviews J&K demography",
+            "severity": "MEDIUM",
+            "url": "https://indianexpress.com/article/india/jammu-kashmir-demographic-change-committee-justice-navlekar-rohingya-bangladeshi-10826955/",
+            "image": "https://images.indianexpress.com/2026/08/jammu-and-kashmir-1.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Trump says Iran must pay compensation for those it has killed and wounded",
             "severity": "WATCH",
-            "url": "https://theweek.com/world-news/five-years-of-taliban-rule-has-the-world-given-up-on-afghanistan",
-            "image": "https://cdn.mos.cms.futurecdn.net/6Cp3Jn778XsBn9ZgyVabnK-1280-80.jpg",
-            "source": "theweek"
+            "url": "https://ca.news.yahoo.com/trump-says-iran-must-pay-171325635.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/2c3d163c6b3e82474ea5340ae945e6a31e7d3224b94e301aad6aaa04f4189b50/lightyear_networkapi/resizefill_w800_h534%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F7b32fc8184974eee56b8322d2f7816bc",
+            "source": "yahoo"
+        },
+        {
+            "title": "Oct 16, 2022; Kansas City, Missouri, USA; Kansas City Chiefs offensive coordinator Eric Bieniemy leaves the field against the Buffalo Bills prior to the game at GEHA Field at Arrowhead Stadium. Mandatory Credit: Denny Medley-USA TODAY Sports",
+            "severity": "WATCH",
+            "url": "https://www.si.com/nfl/chiefs/onsi/andy-reid-chiefs-welcoming-eric-bieniemy-back-everybody-was-glad-to-see-him",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3243,h_1824,x_0,y_136/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/arrowhead_report/01kzp874hgtbkk3n7z3h.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Trump 'bullseye' graphic on display in Iran",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/vertical-galleries/article-16042427/Trump-bullseye-graphic-display-Iran.html",
+            "image": "https://i.dailymail.com/1s/2026/08/10/16/110544073-0-image-a-15_1786376493462.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Millions of households could face threat of emergency blackouts",
+            "severity": "WATCH",
+            "url": "https://uk.finance.yahoo.com/news/millions-households-could-face-threat-171038169.html",
+            "image": "https://media.zenfs.com/en/the_telegraph_818/d38198635f68ba7fbc5eaa8ae5e8bd0a",
+            "source": "yahoo"
+        },
+        {
+            "title": "Maria Elvira Salazar trades in Berkshire Hathaway and Chubb Limited stocks",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/stock-market-news/maria-elvira-salazar-trades-in-berkshire-hathaway-and-chubb-limited-stocks-93CH-4822869",
+            "image": "https://content-media.investing.com/news/moved_LYNXMPEM6K1WH_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "UBS Favors This Stock for Indirect U.S. Long Steel Exposure Amid Market Headwinds",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/stock-market-news/ubs-favors-this-stock-for-indirect-us-long-steel-exposure-amid-market-headwinds-93CH-4822868",
+            "image": "https://content-media.investing.com/news/LYNXNPEB7Q0U9_M.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "DA Davidson raises Jerash Holdings stock price target on trade deal",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/stock-market-news/da-davidson-raises-jerash-holdings-stock-price-target-on-trade-deal-93CH-4822867",
+            "image": "https://content-media.investing.com/news/moved_LYNXMPEM3Q0V4_1200_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Still obsessing over House of the Dragon? Here are 9 essential merch picks to take you back to Westeros",
+            "severity": "WATCH",
+            "url": "https://www.tomsguide.com/entertainment/hbo-max/still-obsessing-over-house-of-the-dragon-here-are-9-essential-merch-picks-to-take-you-back-to-westeros",
+            "image": "https://cdn.mos.cms.futurecdn.net/diBaoirytnPxF2aMjoNsj6-1280-80.jpg",
+            "source": "tomsguide"
+        },
+        {
+            "title": "Meet the wealthy parents who say \u2018struggle is good\u2019 \u2014 while their adult children fight to make a life",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/08/10/lifestyle/why-more-wealthy-parents-are-cutting-off-their-struggling-adult-kids/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2F8-5-26-lifestyle-bliss-136665712_6daf15.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "The 10 Most Underrated '90s Fantasy Movies, Ranked",
+            "severity": "WATCH",
+            "url": "https://collider.com/most-underrated-90s-fantasy-movies/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/07/death-becomes-her-meryl-streep.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "Pentagon official asks Asian allies to invest more in defense to deter aggression",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com/news/world/asia/pentagon-official-asks-asian-allies-to-invest-more-in-defense-to-deter-aggression/article_12e69156-033c-546c-b14d-d9f9376f782f.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/custom/image/f84403b8-7d76-11ee-9d02-a72a4951957f.png?resize=600%2C600",
+            "source": "thestar"
+        },
+        {
+            "title": "Brewers to meet Padres, including deadline additions and Luis Rengifo",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/brewers-meet-padres-including-deadline-171140776.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/c4098099810df2a3c916a1f16f848fb6ad41f9dc34234408f85d86dcafbaa295/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmilwaukee-journal-sentinel%2F1932965c3353df73aa4a35797d698dbe",
+            "source": "yahoo"
+        },
+        {
+            "title": "US General in Europe abruptly removed from command 2 months ahead of schedule",
+            "severity": "WATCH",
+            "url": "https://www.the-express.com/news/us-news/213676/us-general-eurpoe-abruptly-removed",
+            "image": "https://cdn-images.the-express.com/img/dynamic/10/237x141/213676_1.jpg",
+            "source": "express"
+        },
+        {
+            "title": "RFK Jr. is targeting a decades-old loophole allowing chemicals in food supply",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/rfk-jr-is-targeting-a-decades-old-loophole-allowing-chemicals-in-food-supply-150000907.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/6578e154e88f39d22436a3181946914650ec2f04f3df751741ec9572c8e36f23/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2025-06%2F22979a30-552f-11f0-bf37-f4a8d9e2f3c0",
+            "source": "yahoo"
+        },
+        {
+            "title": "Quebec premier open to allowing U.S. wines on store shelves, with conditions",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/quebec-premier-open-allowing-u-171326316.html",
+            "image": "https://media.zenfs.com/en/cp_finance_889/317eee1692ff1dd94ab0d2de9df2f896",
+            "source": "yahoo"
+        },
+        {
+            "title": "30% of UK Manufacturers Report Cyber Incidents in Their Business or Supply Chain",
+            "severity": "WATCH",
+            "url": "https://www.techrepublic.com/article/news-emea-uk-manufacturing-cyber-supply-chain-risk/",
+            "image": "https://assets.techrepublic.com/uploads/2026/08/ChatGPT-Image-Aug-11-2026-01_04_54-AM-1-1024x576.png?f=jpeg",
+            "source": "techrepublic"
+        },
+        {
+            "title": "An Indian encore, for chips: Meity's semiconductor plan is just beginning",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/industry/news/an-indian-encore-for-chips-meity-s-semiconductor-plan-is-just-beginning-126081001879_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/10/thumb/1786381642-7023.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "The Trump Immunity Deal Is Neither a Deal Nor Provides Immunity",
+            "severity": "WATCH",
+            "url": "https://slate.com/news-and-politics/2026/08/trump-immunity-deal-todd-blanche-fraud.html?via=rss",
+            "image": "https://compote.slate.com/images/9849b820-bccf-4ff3-b40b-d8517f97471d.jpeg?crop=1560%2C1040%2Cx0%2Cy0",
+            "source": "slate_usa"
+        },
+        {
+            "title": "N.S. correctional officer sentenced to 3 years for bringing cannabis into facility",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/atlantic/nova-scotia/article/ns-correctional-officer-sentenced-to-3-years-for-bringing-cannabis-into-facility/",
+            "image": "https://www.ctvnews.ca/resizer/v2/ZYIPFLOVQBEVVCMEO2ZGL2U6H4.jpeg?auth=36ca2c163754c284014bfc02e851d0c429374720fe3e92fe83d4ea25e347dba5&smart=true&width=3520&height=1980",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Nottingham Forest owner Evangelos Marinakis sues Crystal Palace over shocking fan banner depicting him with gun",
+            "severity": "WATCH",
+            "url": "https://uk.sports.yahoo.com/news/nottingham-forest-owner-evangelos-marinakis-170810278.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/f799130d775662f0fc20b09ef7b60a1feff34dbdb08618a2f6fa8461f73bf63e/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgoal_uk_815%2Fd993ae8cc2bf48365c0de23adaf2c92d",
+            "source": "yahoo"
+        },
+        {
+            "title": "Nvidia and Wall Street giants plan $500B AI funding deal, FT reports",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/stock-market-news/nvidia-and-wall-street-giants-plan-500b-ai-funding-deal-ft-reports-4822848",
+            "image": "https://content-media.investing.com/news/moved_LYNXNPEK1L01K_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "13 foods that were recalled in the U.S. in the last two months",
+            "severity": "WATCH",
+            "url": "https://qz.com/foods-recalled-us-last-two-months",
+            "image": "https://qz.com/cdn-cgi/image/width=600,quality=85,format=auto/https://assets.qz.com/media/franki-chamaki-ivfp_yxZuYQ-unsplash-1.jpg",
+            "source": "quartz"
         }
     ],
-    "Last_Updated": "2026-08-11T02:06:42.630601Z"
+    "Last_Updated": "2026-08-11T05:14:30.784603Z"
 }
