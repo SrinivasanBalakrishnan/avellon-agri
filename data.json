@@ -1,295 +1,267 @@
 {
-    "AGRI_Score": 61.7,
-    "Velocity": "-0.6",
+    "AGRI_Score": 58.4,
+    "Velocity": "-3.3",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 61.7 reflects elevated risk, predominantly driven by significant activity in Geopolitical Conflict Intensity, Energy & Maritime Disruption, and Cyber & Infrastructure Threats. The score is notably influenced by emerging cybersecurity breaches, such as the \"Terabytes of credentials leaked in massive supply-chain attack,\" alongside continued geopolitical frictions exemplified by an \"unacceptable drone act.\" While energy markets show mixed signals with both record production forecasts and calls for well closures, the combined effect of these high-scoring pillars maintains a heightened overall risk profile.",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) currently stands at 58.4, primarily driven by heightened tensions in Geopolitical Conflict Intensity (72.5) and significant Energy & Maritime Disruption (77.4). The ongoing 'Iran blockade' of the Strait of Hormuz, with the US Navy redirecting ships, directly contributes to both pillars by escalating confrontation and choking an 'oil lifeline'. Furthermore, an 'oil spill from grounded tanker' reaching Oman's coastline exacerbates maritime disruption, indicating a volatile operational environment for global trade and energy transit.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.1,
+        "Geopolitical Conflict Intensity": 72.5,
         "Energy & Maritime Disruption": 77.4,
-        "Trade & Supply Chain Stress": 63.7,
+        "Trade & Supply Chain Stress": 58.3,
         "Sovereign Financial Stress": 57.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.7,
-        "Cyber & Infrastructure Threats": 66.1,
-        "Climate & Resource Shock": 35
+        "Sanctions & Regulatory Fragmentation": 57.7,
+        "Cyber & Infrastructure Threats": 58.7,
+        "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The high score reflects active security concerns, as seen with the \"unacceptable drone act,\" indicating ongoing localized tensions or security breaches. Domestic social friction over migration, as highlighted by \"Residents of tiny village soon to be outnumbered by 1,250 male migrants,\" also contributes to a complex and elevated risk environment.",
-        "Energy & Maritime Disruption": "Despite projections for \"record natural gas production\" in the US, the sector faces significant transitional pressures, notably with \"North Sea oil producers told to speed up well closures.\" This indicates a complex energy landscape with concurrent growth in some areas and managed decline or restructuring in others, leading to potential regional disruptions.",
-        "Trade & Supply Chain Stress": "The supply chain faces significant integrity challenges following the \"Terabytes of credentials leaked in massive supply-chain attack,\" which poses a direct threat to operational security and trust. This incident underscores an elevated risk of disruption as businesses grapple with the aftermath of compromised digital infrastructure.",
-        "Sovereign Financial Stress": "Concerns about future fiscal stability are emerging, with reports stating Labour is \"building up a 'mountain' of debt to hand to the next generation.\" This commentary suggests growing apprehension about long-term national financial health, warranting close observation for signs of stress.",
-        "Currency & Liquidity Pressure": "This pillar currently shows baseline activity, with no specific news indicating immediate currency volatility or liquidity shortages impacting global markets. Monitoring continues for any emergent macroeconomic shifts or policy changes that could alter this routine environment.",
-        "Sanctions & Regulatory Fragmentation": "This pillar reflects routine monitoring, as there are no immediate headlines indicating new sanctions regimes or significant fragmentation in international regulatory frameworks. While discussions around AI content and payment models (Apple) may foreshadow future regulatory considerations, direct impacts are not yet apparent.",
-        "Cyber & Infrastructure Threats": "Cyber threats are significantly elevated, evidenced by the \"Terabytes of credentials leaked in massive supply-chain attack\" and widespread warnings about \"dangerous new card fraud.\" These incidents highlight critical vulnerabilities in both digital infrastructure and financial systems, demanding urgent security enhancements.",
-        "Climate & Resource Shock": "While the overall score for this pillar remains comparatively low, there are clear indicators of escalating climate impacts, such as \"Nurses fainting in \u2018inhumane\u2019 conditions due to extreme heat.\" Furthermore, refined \"models of glacial collapse in Antarctica\" highlight the long-term, accelerating risks of sea-level rise, underscoring future systemic pressures."
+        "Geopolitical Conflict Intensity": "This pillar is elevated due to significant naval confrontations and strategic posturing, particularly concerning the Strait of Hormuz. The 'US Navy redirects 4 more ships near Hormuz' while 'Iran hits back at Trump\u2019s \u2018total US control\u2019 claim,' indicating a volatile standoff with potential for escalation.",
+        "Energy & Maritime Disruption": "Risk in this area is critically high, stemming from the 'Iran blockade' which directly impacts global oil transit and creates significant maritime instability. The situation is further complicated by 'Oman says oil spill from grounded tanker has reached its coastline,' posing an immediate environmental and operational hazard to maritime activities.",
+        "Trade & Supply Chain Stress": "This pillar reflects ongoing adjustments to global supply chains, exemplified by 'Staar surgical plans to end 2026 with well over $200M in cash while shifting 100% of China supply to Switzerland.' Such strategic re-shoring indicates a continued effort to mitigate geopolitical and logistical vulnerabilities in key manufacturing hubs.",
+        "Sovereign Financial Stress": "While no immediate sovereign defaults are reported, underlying pressures persist, as suggested by 'Goldman says Japan's $1 trillion of reserves leaves 'plenty of capacity' for further yen interventions.' This indicates that major economies are actively managing currency-related challenges that could impact fiscal stability.",
+        "Currency & Liquidity Pressure": "This pillar remains a focus area due to the continued necessity for potential interventions in major currencies. 'Goldman says Japan's $1 trillion of reserves leaves 'plenty of capacity' for further yen interventions' highlights the ongoing efforts to manage currency valuations amidst global economic shifts.",
+        "Sanctions & Regulatory Fragmentation": "The 'Iran blockade' and Iran's defiant stance that the 'Strait of Hormuz remains blocked' represents a significant form of economic coercion and regulatory challenge, impacting international shipping and trade routes. This situation underscores the fragmented nature of global maritime governance under geopolitical strain.",
+        "Cyber & Infrastructure Threats": "While no specific cyberattack reports are present, the 'Oman says oil spill from grounded tanker has reached its coastline' highlights a critical incident concerning physical infrastructure safety and operational integrity. Ongoing vigilance is required for both digital and physical infrastructure resilience, especially in key logistical arteries.",
+        "Climate & Resource Shock": "Despite a lower overall score, environmental incidents are still evident, with 'Oman says oil spill from grounded tanker has reached its coastline' demonstrating a direct environmental impact. Additionally, ecological interactions such as 'Off-leash dogs can increase chance of human-bear conflicts' underscore localized resource management challenges."
     },
     "All_Alerts": [
         {
-            "title": "Nurses fainting in \u2018inhumane\u2019 conditions due to extreme heat, union warns",
+            "title": "Iran blockade: US Navy redirects 4 more ships near Hormuz as Tehran's oil lifeline chokes",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/society/2026/aug/13/nurses-fainting-inhumane-conditions-due-to-extreme-heat-uk-union-warns",
-            "image": "https://i.guim.co.uk/img/media/aad7a7e5a21e03ffcf00b103acd00c8e00ee5f72/0_0_6142_4912/master/6142.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=b3ac17b903fcf86e218164609afb2d3e",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "'F*** off back to Worcester!' Moment disgruntled neighbour scales wall and starts shouting abuse at Civil War reenactors in front of the Town Mayor and families",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-16047453/Worcester-neighbour-abuse-Civil-War-reenactors.html",
-            "image": "https://i.dailymail.com/1s/2026/08/12/16/110593345-0-image-a-39_1786547871457.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "CNN Star Fires Back at Trump Goons for Calling Her \u2018Hot Mess\u2019",
-            "severity": "HIGH",
-            "url": "https://www.thedailybeast.com/obsessed/cnn-star-fires-back-at-trump-goons-for-calling-her-hot-mess/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/STOZVNC2VFE3DN5SESVDLJRO2E.JPG?auth=9f0244bbcef72d1888c39150c3bde5db38d6722ccc094681e38f805a7724e7f7&smart=true&width=3726&height=2096",
-            "source": "thedailybeast"
-        },
-        {
-            "title": "Models of glacial collapse in Antarctica improve predictions of sea-level rise",
-            "severity": "HIGH",
-            "url": "https://phys.org/news/2026-08-glacial-collapse-antarctica-sea.html",
-            "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/models-of-glacial-coll.jpg",
-            "source": "phys"
-        },
-        {
-            "title": "Apple in talks to pay publishers for content to power AI Siri, WSJ says",
-            "severity": "HIGH",
-            "url": "https://investinglive.com/stocks/apple-in-talks-to-pay-publishers-for-content-to-power-ai-siri-wsj-says/",
-            "image": "https://images.investinglive.com/fl-static/il-logo-colorful-dark.svg",
-            "source": "forexlive"
-        },
-        {
-            "title": "Why the Field of Dreams got a real stadium in the Iowa cornfields",
-            "severity": "HIGH",
-            "url": "https://www.usatoday.com/story/sports/mlb/mlb/2026/08/12/new-field-of-dreams-stadium-2026-cost-who-paid-for-it/91278085007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/12/USAT/91278856007-20260810-t-230323-z-1522669058-mt-1-usatoday-29555465-rtrmadp-3-yoanmoncadaofthechicagowhitesoxtriesanearofcorn.JPG?crop=5133,2888,x0,y421&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "usatoday"
-        },
-        {
-            "title": "Millions warned over \u2018dangerous\u2019 new card fraud \u2013 and why your bank might not pay you back",
-            "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/money/40038824/millions-warned-dangerous-bank-card-fraud/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F08%2Fmiddle-aged-woman-making-online-1037561926.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "Victims of \u2018dangerous\u2019 card payment fraud may struggle to claim money back, Which? warns",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/money/fraud-which-authorised-push-payment-b3031973.html",
-            "image": "https://static.independent.co.uk/2026/04/16/12/16085149-87d587f6-4e11-4b2e-9918-a59c98e13f5b.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "\u2018Unacceptable\u2019: Drone act lashed",
-            "severity": "HIGH",
-            "url": "https://www.news.com.au/technology/innovation/military/albanese-government-criticises-unauthorised-drone-activity-after-breach-at-raaf-base/news-story/231a52641cf5c153ce210198e49f762b",
-            "image": "https://content.api.news/v3/images/bin/d797db0a628539330345720bf97f7430",
-            "source": "news"
-        },
-        {
-            "title": "Terabytes of credentials leaked in massive supply-chain attack",
-            "severity": "HIGH",
-            "url": "https://arstechnica.com/security/2026/08/terabytes-of-credentials-leaked-in-massive-supply-chain-attack/",
-            "image": "https://cdn.arstechnica.net/wp-content/uploads/2021/07/data-breach.jpeg",
-            "source": "arstechnica"
-        },
-        {
-            "title": "Judge orders Kennedy Center to pay musician Chuck Redd $252,000 in fees",
-            "severity": "HIGH",
-            "url": "https://www.washingtontimes.com/news/2026/aug/12/judge-orders-kennedy-center-pay-musician-chuck-redd-252000-fees/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/07/08/Mark_Twain_Prize_42916_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
-            "source": "washingtontimes"
-        },
-        {
-            "title": "'The system is broken': Residents of tiny village soon to be outnumbered by 1,250 male migrants hit out at Andy Burnham's plans to make middle-class areas house asylum seekers",
-            "severity": "MEDIUM",
-            "url": "https://www.dailymail.com/news/article-16047427/The-broken-Residents-tiny-village-soon-outnumbered-1-250-male-migrants-hit-Andy-Burnhams-plans-make-middle-class-areas-house-asylum-seekers.html",
-            "image": "https://i.dailymail.com/1s/2026/08/12/16/110593585-0-image-a-5_1786547198311.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Exam process 'riddled with risks'",
-            "severity": "MEDIUM",
-            "url": "https://www.bangkokpost.com/thailand/general/3300782/exam-process-riddled-with-risks",
-            "image": "https://static.bangkokpost.com/media/content/20260813/c1_3300782_260813051903.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Nigel Farage slopes off to battle with a bin in Clacton by-election farce as stunt backfires",
-            "severity": "MEDIUM",
-            "url": "https://www.mirror.co.uk/news/politics/farage-clacton-byelection-count-binface-37544551",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37545692.ece/ALTERNATES/s615/2_Screenshot-2026-08-12-203558.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Meren Energy Inc (MRNFF) (Q2 2026) Earnings Call Highlights: Strong H1 Performance and Raised ...",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/meren-energy-inc-mrnff-q2-230236134.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
-            "source": "yahoo"
-        },
-        {
-            "title": "Now even Andy Burnham's favourite think tank says Labour is building up a 'mountain' of debt to hand to the next generation",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-16048001/Andy-Burnham-think-tank-Labour-mountain-debt.html",
-            "image": "https://i.dailymail.com/1s/2026/08/12/18/110587471-0-image-a-10_1786555795800.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "US on track for record natural gas production in 2026: EIA",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/world/americas/us-on-track-for-record-natural-gas-production-in-2026-eia-1.500639127",
-            "image": "https://media.assettype.com/gulfnews/import/2019/01/24/A_Unit_Drilling_Co_16a31076318._rig_stands_in_the_Bakken_Formation_resources1_16a31076318_large.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "url": "https://gulfnews.com/world/mena/iran-blockade-us-navy-redirects-4-more-ships-near-hormuz-as-tehrans-oil-lifeline-chokes-1.500639205",
+            "image": "https://media.assettype.com/gulfnews/2026-08-12/zeg45re5/ANI_20260812205043.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
             "source": "gulfnews"
         },
         {
-            "title": "WEC Energy Group director Ulice Payne Jr. sells $103,468 in stock",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/wec-energy-group-director-ulice-payne-jr-sells-103468-in-stock-93CH-4596117",
-            "image": "https://content-media.investing.com/news/moved_LYNXMPEM4510G_1200_L.jpg",
+            "title": "Oman says oil spill from grounded tanker has reached its coastline",
+            "severity": "HIGH",
+            "url": "https://globalnation.inquirer.net/334611/oman-says-oil-spill-from-grounded-tanker-has-reached-its-coastline",
+            "image": "https://globalnation.inquirer.net/files/2026/08/Oman-says-the-oil-spill-from-a-grounded-tanker-has-reached-its-coastline-620x368.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "Off-leash dogs can increase chance of human-bear conflicts, study says",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/calgary/article/off-leash-dogs-can-increase-chance-of-human-bear-conflicts-study-says/",
+            "image": "https://www.ctvnews.ca/resizer/v2/EAMDAWRVHFDCFAXGJW4HDZVJM4.jpg?auth=2eb159f6dc68c107f4d6d13145e1aca6a37a6466fcd4c0cc805653f567e4b98a&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
+        },
+        {
+            "title": "'India showing interest in Northern Sea Route cooperation,' says Putin as he warns of 'artificial tensions' in Arctic",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/india/india-showing-interest-in-northern-sea-route-cooperation-says-putin-as-he-warns-of-artificial-tensions-in-arctic/articleshow/133195567.cms",
+            "image": "https://img.etimg.com/thumb/msid-133195588,resizemode-4,width-1200,height-900,imgsize-33785,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "David McBride leaves prison on parole after being jailed for leaking Afghanistan war documents",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/australia-news/2026/aug/13/david-mcbride-released-jail-prison-parole",
+            "image": "https://i.guim.co.uk/img/media/edac2151ac9b6647828642b8e2874ee405bd3d8f/507_317_2705_2164/master/2705.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ef1b75a439f1a5d8f244b2faa55e0646",
+            "source": "theguardian"
+        },
+        {
+            "title": "Whistleblower David McBride is granted parole after leaking military documents",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.com/news/article-16048739/Whistleblower-David-McBride-granted-parole-leaking-military-documents.html",
+            "image": "https://i.dailymail.com/1s/2026/08/13/01/84828123-0-image-a-11_1786579477146.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Oil drops on lower demand forecasts despite deadlock in US-Iran talks",
+            "severity": "MEDIUM",
+            "url": "https://au.investing.com/news/commodities-news/oil-drops-on-lower-demand-forecasts-despite-deadlock-in-usiran-talks-4596192",
+            "image": "https://content-media.investing.com/trkd-images/LYNXMPEM7C01U_L.jpg",
             "source": "investing_au"
         },
         {
-            "title": "Timelapse video shows total solar eclipse in Spain",
-            "severity": "WATCH",
-            "url": "https://www.nbcnews.com/video/timelapse-video-shows-total-solar-eclipse-in-spain-268217925921",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_08/f_mo_lon_spainlapse_260812.Still001-r7l8ac.jpg",
-            "source": "nbcnews"
+            "title": "Staar surgical plans to end 2026 with well over $200M in cash while shifting 100% of China supply to Switzerland",
+            "severity": "MEDIUM",
+            "url": "https://seekingalpha.com/news/4632040-staar-surgical-plans-to-end-2026-with-well-over-200m-in-cash-while-shifting-100-percent-of",
+            "image": "https://static.seekingalpha.com/assets/og_image_1200-29b2bfe1a595477db6826bd2126c63ac2091efb7ec76347a8e7f81ba17e3de6c.png",
+            "source": "seekingalpha"
         },
         {
-            "title": "North Sea oil producers told to speed up well closures",
+            "title": "Mouser Electronics New Product Insider: Over 5,000 New Parts Added in Second Quarter of 2026",
             "severity": "WATCH",
-            "url": "https://www.ft.com/content/673027dc-ab4a-49ea-96d4-55e4dde8c0c2?syn-25a6b1a6=1",
-            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "financialtimes"
+            "url": "https://www.prnewswire.com/apac/news-releases/mouser-electronics-new-product-insider-over-5-000-new-parts-added-in-second-quarter-of-2026--302850285.html",
+            "image": "https://mmx.prnewswire.com/media/MS1967596/new-product-insider-2400x1260.jpg?id=OA2855605&p=original",
+            "source": "prnewswire_apac"
         },
         {
-            "title": "Horoscope today, August 13, 2026: Daily star sign guide from Mystic Meg with Maggie Hyde",
+            "title": "Origin Energy FY26 slides: cash flow surges 72% amid profit decline",
             "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/fabulous/40032853/horoscope-daily-star-sign-mystic-meg-august-13/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F07%2FDD-horoscope-daily-thursday.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
+            "url": "https://uk.investing.com/news/company-news/origin-energy-fy26-slides-cash-flow-surges-72-amid-profit-decline-93CH-4828967",
+            "image": "https://content-media.investing.com/news/OilwellinColorado_800x533_L_1645345712.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "Bank Leumi Le-Israel BM (BLMIF) (Q2 2026) Earnings Call Highlights: Record Net Income and ...",
+            "title": "Five Stocks To Buy Today: IDFC First Bank, Bank of Maharashtra, Pfizer Among Others",
             "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/bank-leumi-le-israel-bm-230118819.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
-            "source": "yahoo"
+            "url": "https://www.ndtvprofit.com/markets/five-stocks-to-buy-on-august-13-idfc-first-bank-bank-of-maharashtra-pfizer-among-others-11902707",
+            "image": "https://c.ndtvimg.com/2026-08/pqnvsqog_d_625x300_13_August_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
         },
         {
-            "title": "Karoline Leavitt\u2019s Most Memorable Moments as White House Press Secretary",
+            "title": "Ariana Grande\u2019s post confirms rekindling romance with Ricky Alvarez",
             "severity": "WATCH",
-            "url": "https://time.com/article/2026/08/12/karoline-leavitt-white-house-press-secretary-memorable-moments/",
-            "image": "https://static.time.com/v3/assets/bltea6093859af6183b/bltc05321b432f6b74e/6a7cf85e3c19f03eaa2391dd/Leavitt-Moments-2.jpg?branch=production",
-            "source": "time"
-        },
-        {
-            "title": "Hyliion Holdings Corp (HYLN) (Q2 2026) Earnings Call Highlights: Navy Contract Win and 50% ...",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/hyliion-holdings-corp-hyln-q2-230030946.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
-            "source": "yahoo"
-        },
-        {
-            "title": "30 Anime Series with the Greatest Animation",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/anime-series-best-animation/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/mononoke-and-land-of-the-lustrous-anime-featured-image.png",
-            "source": "screenrant"
-        },
-        {
-            "title": "9 Vintage Photos of Sharon Tate That Capture the Glamour of the 1960s",
-            "severity": "WATCH",
-            "url": "https://www.mentalfloss.com/entertainment/vintage-photos-sharon-tate-capture-glamour-1960s",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3600,h_2025,x_0,y_59/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/mentalfloss/01kzrvgzn7qp3s0mk6zr.jpg",
-            "source": "mentalfloss"
-        },
-        {
-            "title": "Northland Power Reports Second Quarter 2026 Results and Construction Progress Updates",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/globe-newswire/northland-power-reports-second-quarter-2026-results-and-construction-progress-updates",
-            "image": "https://images.pexels.com/photos/35102453/pexels-photo-35102453.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "financialpost"
-        },
-        {
-            "title": "Kalshi Referral Code MASSLIVE1: New $500 MLB bonus for Red Sox vs. Blue Jays live odds",
-            "severity": "WATCH",
-            "url": "https://www.masslive.com/betting/2026/08/kalshi-referral-code-masslive1-new-500-mlb-bonus-for-red-sox-vs-blue-jays-live-odds.html",
-            "image": "https://www.masslive.com/resizer/v2/UO5LUXHQGZGR3KPH7G35A2IHQQ.png?auth=63415e46abb8c5b96ca88384130d29e77b83bc1855ff211c05d23b1e7797a0b5&smart=true&height=1200",
-            "source": "masslive"
-        },
-        {
-            "title": "Ukraine claims it found over 5,000 foreign-made components in over 200 Russian weapon systems, with missiles, drones, and armored vehicles particularly concerning",
-            "severity": "WATCH",
-            "url": "https://www.techradar.com/pro/ukraine-claims-it-found-over-5-000-foreign-made-components-in-over-200-russian-weapon-systems-with-missiles-drones-and-armored-vehicles-particularly-concerning",
-            "image": "https://cdn.mos.cms.futurecdn.net/WD7kktJizF8iLZCvSPCrJT-1280-80.png",
-            "source": "techradar_au"
-        },
-        {
-            "title": "Earnings call transcript: AutoCanada posts q2 2026 revenue beat as margins slip",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/transcripts/earnings-call-transcript-autocanada-posts-q2-2026-revenue-beat-as-margins-slip-93CH-4596103",
-            "image": "https://content-media.investing.com/news/LYNXNPEB660A4_M.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "\u2018Claims don\u2019t change reality\u2019: Why Iran rejected Trump\u2019s \u2018total control\u2019 claim on Strait of Hormuz",
-            "severity": "WATCH",
-            "url": "https://zeenews.india.com/world/claims-don-t-change-reality-why-iran-rejected-trump-s-total-control-claim-on-strait-of-hormuz-3066176.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/08/13/1972679-strait-of-hormuz-trump-1.jpg",
-            "source": "zeenews"
-        },
-        {
-            "title": "Opinion: Why Karoline Leavitt\u2019s Real Legacy Is a Dangerous Empire of Lies",
-            "severity": "WATCH",
-            "url": "https://www.thedailybeast.com/why-karoline-leavitts-real-legacy-is-a-dangerous-empire-of-lies/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/N4XQJBIK3NCMNDWHDVWP7IRLFM.jpg?auth=c7d5092bd4fd52da303d13a66c87797b4b849914e6b3d645229e30842fac8c39&smart=true&width=1920&height=1081",
-            "source": "thedailybeast"
-        },
-        {
-            "title": "US sailors trying to jump overboard amid extended Middle East deployment: Report",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/middle-east/us-sailors-trying-to-jump-overboard-amid-extended-middle-east-deployment-report/articleshow/133195134.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133195142/133195142.jpg",
+            "url": "https://timesofindia.indiatimes.com/entertainment/english/music/news/ariana-grandes-post-confirms-rekindling-romance-with-ricky-alvarez-new-pic-shows-the-couple-in-matching-fits/articleshow/133195605.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133195627/133195627.jpg",
             "source": "toi"
         },
         {
-            "title": "\u2018Imposing ignorance\u2019: U.S. climate science under siege",
+            "title": "Live: GIFT Nifty Hints At Weak Open For Sensex, Nifty; Kospi Zooms 4%; Brent At $88",
             "severity": "WATCH",
-            "url": "https://www.japantimes.co.jp/environment/2026/08/13/climate-change/us-climate-science-ignorance/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/08/13/557060.jpg",
-            "source": "japantimes"
+            "url": "https://www.ndtvprofit.com/markets/stock-market-live-updates-august-13-gift-nifty-sensex-today-nifty-kospi-nikkei-brent-crude-us-iran-war-fii-dii-q1-results-tmpv-11902704",
+            "image": "https://c.ndtvimg.com/2026-08/h6up2tsk_stock-market-live-blog_625x300_13_August_26.png?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
         },
         {
-            "title": "Tom Pagliarulo takes up men\u2019s mental health platform after UFC contract win at DWCS 87",
+            "title": "The 5 Most Interesting Analyst Questions From Bruker\u2019s Q2 Earnings Call",
             "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/news/tom-pagliarulo-takes-men-mental-225023406.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/d3747c58f8234b3323cba9d6668f3a632638baf67bfff088514c7fa3f691df20/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmma_junkie_usa_today_articles_344%2F21257e84e643bb49bc45848e5abe4077.jpg",
+            "url": "https://ca.finance.yahoo.com/news/5-most-interesting-analyst-questions-011700314.html",
+            "image": "https://media.zenfs.com/en/stockstory_922/6cee819fa1916b67603e477410fa6bda.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Is having a romantic AI companion cheating? Some people think so",
+            "title": "Rare solar eclipse is a celestial spectacle for millions",
             "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-08-13/is-having-a-romantic-ai-companion-considered-cheating-/106990246",
-            "image": "https://live-production.wcms.abc-cdn.net.au/8962236c11867b97d39ed30ab906f7f1?impolicy=wcms_crop_resize&cropH=2520&cropW=4480&xPos=0&yPos=233&width=862&height=485",
+            "url": "https://apnews.com/video/rare-solar-eclipse-is-a-celestial-spectacle-for-millions-cfe5a4abfcf04d37909edcdadf9473fe",
+            "image": "https://dims.apnews.com/dims4/default/3ebe8ef/2147483647/strip/false/crop/1080x1920+0+0/resize/551x980!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4a%2F16%2F7c5446d761d87dbd6b9b25aaa5b3%2F9895036962.jpg",
+            "source": "apnews"
+        },
+        {
+            "title": "Trump's fiercest defender? Five moments defining Karoline Leavitt's time as press secretary",
+            "severity": "WATCH",
+            "url": "https://www.sbs.com.au/news/article/karoline-leavitt-leaving-white-house-press-secretary-defining-moments/sx5garnlu",
+            "image": "https://assets.sbs.com.au/dims4/default/c52fc74/2147483647/strip/false/crop/5127x2356+0+531/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fc7%2Fb6%2F3ced87d44809a7fdcbeabb24b8e5%2Fgettyimages-2287333827.jpg",
+            "source": "sbs"
+        },
+        {
+            "title": "'Automatically ineligible': New Eurovision rule changes who can host the contest",
+            "severity": "WATCH",
+            "url": "https://www.sbs.com.au/news/article/new-eurovision-rule-countries-war-hosting-ban/erfr7vutl",
+            "image": "https://assets.sbs.com.au/dims4/default/c29650b/2147483647/strip/false/crop/6000x2757+0+622/resize/1234x567!/format/jpeg/quality/90/?url=https%3A%2F%2Fsbs-au-brightspot.s3.ap-southeast-2.amazonaws.com%2Fe5%2Fc2%2Fda4bb97c42938a2fed10fed89e6c%2Fgettyimages-2275861000.jpg",
+            "source": "sbs"
+        },
+        {
+            "title": "Migration's economics and politics in US, Europe and China | Number Theory",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/editors-pick/migrations-economics-and-politics-in-us-europe-and-china-number-theory-101786583271177.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/13/1600x900/logo/SPAIN-MOROCCO-MIGRATION-CEUTA-0_1785567429205_1786583322869_5d1ec9f7-134d-42bb-b549-a79a34106233.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Iran hits back at Trump\u2019s \u2018total US control\u2019 claim, says Strait of Hormuz remains blocked; will not reopen until conditions are accepted",
+            "severity": "WATCH",
+            "url": "https://www.india.com/news/world/iran-hits-back-at-trumps-total-us-control-claim-says-strait-of-hormuz-remains-blocked-will-not-reopen-until-conditions-are-accepted-us-iran-war-8500193/",
+            "image": "https://static.india.com/wp-content/uploads/2026/08/u-2026-08-13T064306.228.jpg",
+            "source": "india"
+        },
+        {
+            "title": "Goldman says Japan's $1 trillion of reserves leaves 'plenty of capacity' for further yen interventions",
+            "severity": "WATCH",
+            "url": "https://www.cnbc.com/2026/08/13/us-japan-dollar-yen-intervention-goldman.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108344420-1785844531566-gettyimages-2285558697-JAPAN_YEN.jpeg?v=1785844665&w=1200&h=675",
+            "source": "cnbc"
+        },
+        {
+            "title": "Extra homes in Sydney's east as city looks to squeeze in 1.3m more people",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-08-13/nsw-sydney-housing-blueprint-more-homes-in-east-/107032114",
+            "image": "https://live-production.wcms.abc-cdn.net.au/a8ef18ef8f50632fdf498abe467f709f?impolicy=wcms_crop_resize&cropH=2250&cropW=4000&xPos=0&yPos=0&width=862&height=485",
             "source": "abc_net"
         },
         {
-            "title": "Juneau officials urge residents in glacial flood-prone areas to evacuate ahead of river\u2019s crest",
+            "title": "NSW government reveals blueprint to fit an extra 1.3m people into Sydney",
             "severity": "WATCH",
-            "url": "https://www.adn.com/alaska-news/2026/08/12/juneau-officials-urge-residents-in-glacial-flood-prone-areas-to-evacuate-ahead-of-rivers-crest/",
-            "image": "https://www.adn.com/resizer/mAYIIrrzsf4JUoLUFpTOqKC28ys=/cloudfront-us-east-1.images.arcpublishing.com/adn/H5KKECTU25B23LK3LM7YPMOALM.JPG",
-            "source": "adn"
+            "url": "https://www.abc.net.au/news/2026-08-13/nsw-sydney-housing-blueprint-more-homes-in-east/107032114",
+            "image": "https://live-production.wcms.abc-cdn.net.au/a8ef18ef8f50632fdf498abe467f709f?impolicy=wcms_crop_resize&cropH=2250&cropW=4000&xPos=0&yPos=0&width=862&height=485",
+            "source": "abc_net"
         },
         {
-            "title": "Senteon Named Finalist for the Coveted Top 25 Most Innovative Cybersecurity Companies in the World 2026",
+            "title": "\u201cWe start our gas fleet less:\u201d Batteries cut costs and emissions, and Origin says renewables st... - Renew Economy",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/08/12/3344139/0/en/senteon-named-finalist-for-the-coveted-top-25-most-innovative-cybersecurity-companies-in-the-world-2026.html",
-            "image": "https://images.pexels.com/photos/7103185/pexels-photo-7103185.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSzV1U1E4WG9TYnFibjFIaFNSOWNCRHRQNUMzTGc5UFZObk1EbmViU29vdllFMDRXV1Myb2ZwY3I2c3pMVkpnS0p5TElHUG1xb09kdTJYR3pFZTRCSi1YbWdBVW95R0lhVTMxS2VkdUJIbUtNNmRmdzY5a0JRVHZsU3U4MEtXQTYyUzZsRzNiT3Z1TzlRbEdSU1E2Wk9VTDJqRVpKSjU1dW9vaV9xcG9nbjRoQ1RPTUNaWkIwdFpPUzhjVjVsOVBrZ1ZvN2VEcDFBWm1xdERB0gHbAUFVX3lxTE1wNm41VE1MYkNYaTl2aTBSZ1BEZW80d2l3Sm9GeVU0R1FTOXVYTk1qcnVFQ2NiS1VzNU80ejdObGdEaGZCVXotMEo4MHBJTmY1T19CejlOWWtWVWJ1T25SM2Nfc2tuaG5hS1FkWFBrUkZSTGplWk95c3djbFNPMm5TeEhZVHRXbjV3ekpscmhUMnNDcDVDc3ZCSkNGUDJGTF9JN1pQTjk0dHRCSmx4QjgzNF95bjFwbTQxSzhaSjhNUjFJYmpLMGZ4RGtUX0FteFYwR0VoeVVtV241QQ?oc=5",
+            "image": "https://images.pexels.com/photos/255552/pexels-photo-255552.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Red, yellow alerts raised again over Visayas, Mindanao",
+            "severity": "WATCH",
+            "url": "https://business.inquirer.net/605571/red-yellow-alerts-raised-again-over-visayas-mindanao",
+            "image": "https://business.inquirer.net/files/2022/09/NGCP-09122022-02-300x169.png",
+            "source": "inquirer"
+        },
+        {
+            "title": "Cerebras Systems Inc. (CBRS) Q2 2026 Earnings Call Transcript",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/article/4935689-cerebras-systems-inc-cbrs-q2-2026-earnings-call-transcript",
+            "image": "https://seekingalpha.com/samw/static/images/DefaultArticleImage.3b7f26873.png",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Siri AI could get a boost from news content with new publisher deal",
+            "severity": "WATCH",
+            "url": "https://appleinsider.com/articles/26/08/13/siri-ai-could-get-a-boost-from-news-content-with-new-publisher-deal",
+            "image": "https://media.appleinsider.com/gallery/68567-144467-iOS-27-Siri-animation-Home-Screen-xl.jpg",
+            "source": "appleinsider"
+        },
+        {
+            "title": "Regional and rural Australians \u2018left behind\u2019 by telco services \u2013 new report",
+            "severity": "WATCH",
+            "url": "https://theconversation.com/regional-and-rural-australians-left-behind-by-telco-services-new-report-289611",
+            "image": "https://images.theconversation.com/files/753762/original/file-20260813-60-w1b2pp.jpg?ixlib=rb-4.1.1&rect=0%2C94%2C3600%2C1800&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
+        },
+        {
+            "title": "Viyash Scientific Ltd (BOM:512529) (Q1 2027) Earnings Call Highlights: Profit Doubles as EBITDA ...",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/viyash-scientific-ltd-bom-512529-011155455.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Diddy Countersues Sexual Assault Accuser Over Netflix Documentary Footage",
+            "severity": "WATCH",
+            "url": "https://www.usmagazine.com/celebrity-news/news/diddy-countersues-sexual-assault-accuser-over-netflix-doc/",
+            "image": "https://www.usmagazine.com/wp-content/uploads/2026/08/GettyImages-1405338091-Diddy-Countersues-Sexual-Assault-Accuser-Over-Netflix-Documentary-Footage-e1786580892661.jpg?crop=0px%2C33px%2C1287px%2C727px&resize=800%2C450&quality=86&strip=all",
+            "source": "usmagazine"
+        },
+        {
+            "title": "Yellowknife man sentenced to 12 months jail for posting intimate videos online without consent",
+            "severity": "WATCH",
+            "url": "https://www.cbc.ca/news/canada/north/yellowknife-man-sentenced-for-posting-non-consensual-videos-9.7305350?cmp=rss",
+            "image": "https://i.cbc.ca/ais/1.4252140,1680045213000/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C119%2C2400%2C1350%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "Independent Police Conduct Authority finds high-speed fatal pursuit, reaching speeds close to 200km/h, was not justified",
+            "severity": "WATCH",
+            "url": "https://www.nzherald.co.nz/nz/independent-police-conduct-authority-finds-high-speed-fatal-pursuit-reaching-speeds-close-to-200kmh-was-not-justified/IGSK55JE4FAHFKO5E2AKRHX5XA/",
+            "image": "https://www.nzherald.co.nz/resizer/v2/JFKT7MATPZBH3N5UOX6KAIOCWY.jpg?auth=1e2b2b1fbaa0ae557a24520d4dbbfe6d55f744ba492590f041c04fde36db5886&smart=true&width=300&height=300",
+            "source": "nzherald"
+        },
+        {
+            "title": "\u2018Inherit the nightmare\u2019: Man\u2019s brutal listing",
+            "severity": "WATCH",
+            "url": "https://www.news.com.au/finance/real-estate/sydney-man-lists-4-million-waterfront-home-for-under-1-million-after-strata-nightmare/news-story/2554f3e751c8a7025b4a5dc750121143",
+            "image": "https://content.api.news/v3/images/bin/1f9051aa67d917504235be9b3c28472e",
+            "source": "news"
+        },
+        {
+            "title": "Excruciating moment squirming Alex Cooper is quizzed over Dave Portnoy's sensational sexual harassment plot allegation against Call Her Daddy host",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/sport/othersports/article-16048637/alex-cooper-dave-portnoy-sexual-harassment-allegation.html",
+            "image": "https://i.dailymail.com/1s/2026/08/13/00/110603637-0-image-a-2_1786577204015.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Orca Energy Group Inc. Announces Completion of Q2 2026 Interim Filings",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/globe-newswire/orca-energy-group-inc-announces-completion-of-q2-2026-interim-filings",
+            "image": "https://images.pexels.com/photos/38782891/pexels-photo-38782891.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
         }
     ],
-    "Last_Updated": "2026-08-13T11:03:27.914422Z"
+    "Last_Updated": "2026-08-13T13:23:55.212633Z"
 }
