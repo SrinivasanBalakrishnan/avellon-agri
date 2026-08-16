@@ -1,124 +1,189 @@
 {
-    "AGRI_Score": 59.9,
-    "Velocity": "-4.1",
+    "AGRI_Score": 59.8,
+    "Velocity": "-0.1",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.8 reflects a significantly elevated risk environment, primarily driven by acute geopolitical conflict intensity and the associated potential for energy and maritime disruption. The high-severity headline, \"Iran Fires Back! Tehran Blames US-Israel for Hormuz Crisis & Demands Sanctions Relief,\" directly points to escalating tensions in a critical energy transit choke point. This is compounded by the ongoing and intense conflict in Ukraine, highlighted by \"Kyiv faces missile barrage after Zelenskyy targets Russian satellite network,\" ensuring sustained global instability and impacting trade routes and market confidence.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 74.2,
+        "Geopolitical Conflict Intensity": 72.2,
         "Energy & Maritime Disruption": 77.4,
-        "Trade & Supply Chain Stress": 64.2,
+        "Trade & Supply Chain Stress": 64.9,
         "Sovereign Financial Stress": 56.3,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.6,
-        "Cyber & Infrastructure Threats": 53.9,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 56.3,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is markedly high, underscored by direct accusations and heightened tensions concerning the Strait of Hormuz, as reported in \"Iran Fires Back! Tehran Blames US-Israel for Hormuz Crisis & Demands Sanctions Relief.\" The ongoing high-severity conflict in Ukraine further contributes to global instability, with \"Kyiv faces missile barrage\" indicating sustained military aggression.",
+        "Energy & Maritime Disruption": "Energy and maritime disruption risk is significantly elevated, primarily due to Iran's response to the Hormuz crisis, a critical global oil chokepoint, as highlighted by \"Iran Fires Back! Tehran Blames US-Israel for Hormuz Crisis & Demands Sanctions Relief.\" Additionally, \"Govt opts for high-level talks as strike strains ports\" indicates immediate and tangible threats to maritime logistics and the efficient flow of goods globally.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress remains elevated due to ongoing labor disputes, exemplified by \"Govt opts for high-level talks as strike strains ports,\" which directly impacts port operations and cargo movement. Furthermore, the increasing geopolitical polarization, with the \"US asks countries to pick sides in AI race with China,\" signals potential future fragmentation of global trade networks and supply resilience.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, with no immediate indicators of widespread national debt crises or defaults within the news feed. However, broader market re-evaluation, where \"Fundamental Analysis Is Reclaiming Its Edge as Market Narratives Start to Crack,\" suggests a more cautious investment environment that could indirectly impact sovereign financing conditions.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are currently at a moderate level, with no explicit headlines indicating immediate widespread currency volatility or liquidity crunches. While \"Fundamental Analysis Is Reclaiming Its Edge as Market Narratives Start to Crack\" suggests a re-evaluation of market fundamentals, its direct impact on currency or liquidity is not yet evident.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation remain a concern, as evidenced by \"Iran Fires Back! Tehran Blames US-Israel for Hormuz Crisis & Demands Sanctions Relief,\" where sanctions relief is a key demand in a high-tension scenario. Furthermore, the \"US asks countries to pick sides in AI race with China\" indicates a growing push towards technology-specific regulatory blocs and potential future sanctions regimes.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are at a moderate level, primarily driven by the ongoing conflict in Ukraine where \"Kyiv faces missile barrage after Zelenskyy targets Russian satellite network\" highlights direct attacks on critical communication infrastructure. While no specific cyberattack headlines are present, the context of geopolitical tension elevates the background risk for such disruptions.",
+        "Climate & Resource Shock": "Climate and resource shock currently presents a low immediate risk based on the provided news feed, with no significant headlines detailing environmental disasters or widespread resource scarcity. The feed lacks information on major climate events or resource disruptions that would directly impact global economic stability."
+    },
     "All_Alerts": [
         {
-            "title": "Qatar dismisses Iranian claims on missing pilots",
+            "title": "Iran Fires Back! Tehran Blames US-Israel for Hormuz Crisis & Demands Sanctions Relief | News18",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/iran-says-qatar-holding-3-missing-pilots-doha-dismisses-claims/articleshow/133268628.cms",
-            "image": "https://img.etimg.com/thumb/msid-133268638,resizemode-4,width-1200,height-900,imgsize-373940,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.news18.com/videos/breaking-news/iran-fires-back-tehran-blames-us-israel-for-hormuz-crisis-demands-sanctions-relief-news18-10275727.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/08/1786847522_e8907930-46c2-401a-a748-ea8a427f4af0-1200x720.jpeg",
+            "source": "news18"
         },
         {
-            "title": "Iran war commander visits USS Abraham Lincoln as carrier prepares to return home",
+            "title": "Ukraine war briefing: Kyiv faces missile barrage after Zelenskyy targets Russian satellite network",
             "severity": "HIGH",
-            "url": "https://ca.finance.yahoo.com/news/iran-war-commander-visits-uss-003610453.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "url": "https://uk.news.yahoo.com/ukraine-war-briefing-kyiv-faces-022246106.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/a4d1eeb9ca707ef0a92d7012b77b411c9f68510c186956c6c96bc33e5956bfe0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftheguardian_763%2F0cf9eb816c250de2b4b9d3eec3710d65.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Iran to Trump: Strait of Hormuz 'will remain Iranian'",
+            "title": "Fundamental Analysis Is Reclaiming Its Edge as Market Narratives Start to Crack",
             "severity": "HIGH",
-            "url": "https://globalnation.inquirer.net/334916/iran-to-trump-strait-of-hormuz-will-remain-iranian",
-            "image": "https://globalnation.inquirer.net/files/2026/08/Iran-fires-back-at-Trump-threat-to-declare-Strait-of-Hormuz-US-territory-620x419.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Turkish President signals expansion of Mecca Defence Pact, says Egypt could join",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/world/turkish-president-signals-expansion-of-mecca-defence-pact-says-egypt-could-join-14038490.html",
-            "image": "https://images.firstpost.com/uploads/2026/08/Pak-Turkey-Saudi-defence-pact-Reuters-2026-08-278ea307c28383393a13b57ee0768a76-1200x675.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Russian forces on the offensive on a 10 km-wide front near Olkhovatka \u2014 military expert",
-            "severity": "HIGH",
-            "url": "https://tass.com/defense/2173785",
-            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260816/1483661.jpg",
-            "source": "tass"
-        },
-        {
-            "title": "Wedbush Pushes Back on SanDisk\u2019s \u2018This Cycle Is Different\u2019 Case",
-            "severity": "HIGH",
-            "url": "https://equity-insider.com/wedbush-pushes-back-sandisk-cycle-different-case/",
-            "image": "https://images.pexels.com/photos/695730/pexels-photo-695730.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://equity-insider.com/fundamental-analysis-is-reclaiming-its-edge-as-market-narratives-start-to-crack/",
+            "image": "https://images.pexels.com/photos/38655502/pexels-photo-38655502.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "equity_insider"
+        },
+        {
+            "title": "Al Jazeera journalist opens beach cafe in the Gaza she loves",
+            "severity": "HIGH",
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/8/16/al-jazeera-journalist-opens-beach-cafe-in-the-gaza-she-loves",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/image-1786847155.jpg?resize=1920%2C1080&quality=80",
+            "source": "aljazeera_us"
         },
         {
             "title": "Navy looking into warship redesigns as part of Trump requests",
             "severity": "HIGH",
-            "url": "https://www.wivb.com/news/national/navy-looking-into-warship-redesigns-as-part-of-trump-requests/",
-            "image": "https://www.wivb.com/wp-content/uploads/sites/97/2026/08/698f727807ff82.60583973-e1780139676229_fc7284-e1786838344398.jpeg?w=900",
-            "source": "wivb"
+            "url": "https://www.kxan.com/news/navy-looking-into-warship-redesigns-as-part-of-trump-requests/",
+            "image": "https://www.kxan.com/wp-content/uploads/sites/40/2026/08/698f727807ff82.60583973-e1780139676229_fc7284-e1786838344398.jpeg?w=900",
+            "source": "kxan"
         },
         {
-            "title": "Healey on war footing in effort to prevent Budget leaks",
+            "title": "US asks countries to pick sides in AI race with China, warns of consequences for joining rival bloc",
             "severity": "HIGH",
-            "url": "https://www.telegraph.co.uk/politics/2026/08/15/healey-war-footing-effort-prevent-budget-leaks/",
-            "image": "https://www.telegraph.co.uk/content/dam/briefs/2026/08/14/TELEMMGLPICT000496021634_17867161186290_trans_NvBQzQNjv4BqqVzuuqpFlyLIwiB6NTmJwSX5rhseiWKOo9p9OQ-ymek.jpeg",
-            "source": "telegraph"
+            "url": "https://www.firstpost.com/world/us-asks-countries-to-pick-sides-in-ai-race-with-china-warns-of-consequences-for-joining-rival-bloc-14038499.html",
+            "image": "https://images.firstpost.com/uploads/2026/08/blobhttpsweb.whatsapp.comb4bdd32e-b2c6-44aa-998b-ebdae9810f7e-2026-08-16T071444.742-2026-08-cd983b4c77d5094a1a07f6896bbbf6b5.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "Colombia leader asks Trump to suspend tariffs over earthquake",
+            "title": "Why India\u2019s 3\u20131 victory over Wales comes with a hidden warning sign for Craig Fulton",
+            "severity": "HIGH",
+            "url": "https://english.mathrubhumi.com/sports/other-sports/india-vs-wales-3-1-win-2026-fih-hockey-world-cup-opener-j2qjw69w",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1t5avqooof8ay7ookaz/0/hockey-india-jpg.webp?$p=f162f31&f=16:9&w=1200&q=1",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Govt opts for high-level talks as strike strains ports",
             "severity": "MEDIUM",
-            "url": "https://globalnation.inquirer.net/334919/colombia-leader-asks-trump-to-suspend-tariffs-over-earthquake",
-            "image": "https://globalnation.inquirer.net/files/2026/08/Colombia-leader-asks-Trump-to-suspend-tariffs-over-earthquake-620x465.jpg",
-            "source": "inquirer"
+            "url": "https://www.dawn.com/news/2023175/govt-opts-for-high-level-talks-as-strike-strains-ports",
+            "image": "https://i.dawn.com/large/2026/08/160724552eafd27.webp",
+            "source": "dawn"
         },
         {
-            "title": "Govt backs new maritime talks chair",
+            "title": "Nvidia eyes investing $3 billion in SB Energy under OpenAI data centre deal",
             "severity": "MEDIUM",
-            "url": "https://www.bangkokpost.com/thailand/general/3302390/govt-backs-new-maritime-talks-chair",
-            "image": "https://static.bangkokpost.comhttps//static.bangkokpost.com/media/content/dcx/2026/08/16/6190070.jpg",
-            "source": "bangkokpost"
+            "url": "https://www.business-standard.com/technology/tech-news/nvidia-eyes-investing-3-billion-in-sb-energy-under-openai-data-centre-deal-126081600049_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/08/full/1778225186-63.JPG",
+            "source": "business-standard"
         },
         {
-            "title": "Hamas leader heads to Cairo for Gaza talks ahead of Kushner visit",
-            "severity": "MEDIUM",
-            "url": "https://www.aljazeera.com/news/2026/8/16/hamas-leader-heads-to-cairo-for-gaza-talks-ahead-of-kushner-visit",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/AP25255402817354-1784547871.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "'Our Partisan Kingdom' and 'Written in a Barn': Holocaust survival up close and personal - review",
-            "severity": "MEDIUM",
-            "url": "https://www.jpost.com/history/article-905413",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/733778",
-            "source": "jpost"
-        },
-        {
-            "title": "'Children of Abraham': Over a millennium of Jewish-Muslim relations - review",
-            "severity": "MEDIUM",
-            "url": "https://www.jpost.com/history/article-905415",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/733781",
-            "source": "jpost"
-        },
-        {
-            "title": "Rams\u2019 Emerging Offensive Lineman Injured In Preseason Opener vs. Chiefs",
+            "title": "Bloody legacy of Thailand's \"Death Railway\" carries hard-learned peace lesson",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/rams-emerging-offensive-lineman-injured-004714405.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/f38b0a8b2c51032d93e71073262f3d2752b5b1987c6a824ccfec2333ea53e22f/lightyear_networkapi/resizefit_w1024_h683%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fla_sports_report_articles_451%2F7630197c16224d9a57a41b6c284977ab",
+            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/16/bloody-legacy-of-thailand039s-death-railway-carries-hard-learned-peace-lesson",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/16/4061852.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Start your morning with a simple drink for better digestion. Tamannaah Bhatia, Kapil Sharma's trainer shares tip to improve your gut health. How to make it at home?",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/magazines/panache/start-your-morning-with-a-simple-drink-for-better-digestion-tamannaah-bhatia-kapil-sharmas-trainer-shares-tip-to-improve-your-gut-health-how-to-make-it-at-home/articleshow/133271336.cms",
+            "image": "https://img.etimg.com/thumb/msid-133271760,resizemode-4,width-1200,height-900,imgsize-120149,overlay-etpanache/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Elon Musk and the return of the American industrialist",
+            "severity": "WATCH",
+            "url": "https://tech.yahoo.com/science/articles/elon-musk-return-american-industrialist-022400715.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/0becebf9b780ff5f93e85de2ead152289293dda42c8d5d4bfd897fd0fbdae6e6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdeseret_news_992%2Fca93b787270e66c9eac2d483739431d4.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Parsi New Year 2026: 50+ Wishes, Images, Messages And WhatsApp Status",
+            "title": "What Bessent's Economic Isolation Of Iran Could Look Like",
             "severity": "WATCH",
-            "url": "https://www.news18.com/lifestyle/events/parsi-new-year-2026-navroz-wishes-images-messages-whatsapp-status-history-significance-faq-ws-e-10275177.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/08/Happy-Parsi-New-Year-2026-wishes-images-2026-08-e3c590e0fab682f5dc95308ab0bf1f11-1200x800.jpg",
-            "source": "news18"
+            "url": "https://www.ndtvprofit.com/world/what-bessents-economic-isolation-of-iran-could-look-like-11915916",
+            "image": "https://c.ndtvimg.com/2026-08/leg8a4s_c_625x300_16_August_26.jpeg",
+            "source": "ndtv"
+        },
+        {
+            "title": "Five graphs show Ebola outbreak on track to be worst in history",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-08-16/drc-ebola-outbreak-2026-five-graphs-case-numbers/107032286",
+            "image": "https://live-production.wcms.abc-cdn.net.au/1c059b656d7da583357a0f3a55646921?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=521&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "UFC 330: Esteban Ribovics full post-fight interview",
+            "severity": "WATCH",
+            "url": "https://ca.sports.yahoo.com/video/ufc-330-esteban-ribovics-full-022439525.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/9057b96bba3173af45b56beedffe7a17650f7a713b70b64c6d44a11be9a72428/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fvt%2F16460220-d821-3bab-a5e4-0cfcb8e27245%2Fac_none_du_4_q_auto_eco_so_0_vc_h264_w_1280_large.mp4",
+            "source": "yahoo"
+        },
+        {
+            "title": "\u2018That\u2019s garbage\u2019: After 24 weeks of positivity, Maguire shows his fury",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/sport/nrl/that-s-garbage-after-24-weeks-of-positivity-maguire-shows-his-fury-20260815-p60oog.html",
+            "image": "https://static.ffx.io/images/$zoom_0.23657666709883746%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_98/t_crop_custom/q_86%2Cf_auto/0ba30d194377ee3a7b2fcd9a2b3cd4736d210df0",
+            "source": "smh"
+        },
+        {
+            "title": "Bond traders agonise over $70 bn of shadow credit backstops for AI firms",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/world-news/bond-traders-agonise-over-70-bn-of-shadow-credit-backstops-for-ai-firms-126081600051_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/16/full/1786846965-4966.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Usiminas (BOVESPA:USIM5) Stock Fair Value Moves Lower As Analysts Split On Steel Outlook",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/usiminas-bovespa-usim5-stock-fair-020915048.html",
+            "image": "https://media.zenfs.com/en/simply_wall_st__316/b819b781ce48d28af085fd8b4b8129c4.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Is Under Armour (UAA) Undervalued Following Its Guidance Cut?",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/under-armour-uaa-undervalued-following-020840940.html",
+            "image": "https://media.zenfs.com/en/simply_wall_st__316/2594517f15a7edbda797b155b104e188.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Silo Season 3 Has Quietly Teased The Truth About Silo 1",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/silo-1-season-3-tease/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/4a31c231-d328-41a4-ad5e-2ea4659e2f5c.jpeg",
+            "source": "screenrant"
+        },
+        {
+            "title": "Chinese car sales are booming almost everywhere \u2013 just not at home",
+            "severity": "WATCH",
+            "url": "https://www.news24.com/business/economy/chinese-car-sales-are-booming-almost-everywhere-just-not-at-home-20260816-0749",
+            "image": "https://news24cobalt.24.co.za/resources/02a5-208c0e84d1da-cff82bf71b1d-1000/format/inline/dwe5274.jpeg",
+            "source": "news24"
+        },
+        {
+            "title": "Costco brings back cult-favorite sweet treat discontinued in 2024, exciting shoppers",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/08/15/us-news/costco-brings-back-sweet-treat-discontinued-2024/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2FGettyImages-2268696110.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Go chemical-free to tap global agri market, says PM Modi",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/india/go-chemical-free-to-tap-global-agri-market-says-pm-modi/articleshow/133268855.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133268858/133268858.jpg",
+            "source": "toi"
         },
         {
             "title": "Navy rebuilds Gaza coastal defense into 'Iron Wall' after October 7 failures",
@@ -126,48 +191,6 @@
             "url": "https://www.jpost.com/israel-news/defense-news/article-905603",
             "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734010",
             "source": "jpost"
-        },
-        {
-            "title": "The 10 Best Crime TV Shows Where Every Episode Gets Darker",
-            "severity": "WATCH",
-            "url": "https://collider.com/best-crime-shows-darker-every-episode/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2023/11/ozark-feature-image.jpg",
-            "source": "collider"
-        },
-        {
-            "title": "10 international book series that transport readers without leaving home - Sat, 15 Aug 2026 PST",
-            "severity": "WATCH",
-            "url": "http://www.spokesman.com/stories/2026/aug/15/10-international-book-series-that-transport-reader/",
-            "image": "https://thumb.spokesman.com/fhLi2jdIqTa08rUQUbPzdYOMLnM=/2500x1405/smart/media.spokesman.com/photos/2026/08/13/6a7e64e0173ec.hires.jpg",
-            "source": "spokesman"
-        },
-        {
-            "title": "Filly Luster earns emphatic victory in $1-million King's Plate thoroughbred race",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/toronto/sports/article/filly-luster-earns-emphatic-victory-in-1-million-kings-plate-thoroughbred-race/",
-            "image": "https://www.ctvnews.ca/resizer/v2/WI4RKF4A6AG4QHHEU77HLXV57E.jpg?auth=940f1171de32b80e7f8ae5ccb74c574ef61377e349c63fe28b548298889b879f&smart=true&width=1400&height=932",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Province\u2019s oldest general store evolves to maintain community hub status with Beer Fest",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/edmonton/article/provinces-oldest-general-store-evolves-to-maintain-community-hub-status-with-beer-fest/",
-            "image": "https://www.ctvnews.ca/resizer/v2/7NG7NT5NL5FXDINXQKJ4LYNPJU.jpeg?auth=2ba5885804ce4c2daef6959555f046bc3421bdd43f67ab0134f6e8eb928e14d0&smart=true&width=1920&height=1080",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Iran And Oman Strike Landmark Deal To Secure Strait Of Hormuz\u2014But Full Reopening Still Hinges On US Actions",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/world/iran-and-oman-strike-landmark-deal-to-secure-strait-of-hormuz-but-full-reopening-still-hinges-on-us-actions-10275676.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/05/Hormuz-Crisis-PTI-Traffic-Ship-2026-05-807fa8bd6b8c4a7d7513bbd6bd490669-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "THE ECONOMIST: Making stuff",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/economy/articles/economist-making-stuff-000100422.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
-            "source": "yahoo"
         },
         {
             "title": "Powerful Father-Son Duo Jeffrey and Andrew Kessler Helped Shape NFL",
@@ -205,5 +228,5 @@
             "source": "rollingstone"
         }
     ],
-    "Last_Updated": "2026-08-16T12:50:52.032971Z"
+    "Last_Updated": "2026-08-16T14:28:21.581728Z"
 }
