@@ -1,68 +1,112 @@
 {
-    "AGRI_Score": 62.0,
-    "Velocity": "+0.9",
+    "AGRI_Score": 60.3,
+    "Velocity": "-1.7",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 60.3 reflects a moderately elevated risk environment, primarily driven by intensified Geopolitical Conflict and significant Energy & Maritime Disruption. Escalating tensions in the Middle East, evidenced by an 'Iran war' being discussed and 'Strait of Hormuz shipping slows sharply after tanker attacks,' are causing direct economic impact. While some global trade indicators remain strong, ongoing supply chain adjustments and cyber threats contribute to the overall cautious outlook. The combination of active regional conflicts and critical infrastructure vulnerabilities necessitates careful monitoring.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 84.3,
+        "Geopolitical Conflict Intensity": 77.7,
         "Energy & Maritime Disruption": 77.4,
-        "Trade & Supply Chain Stress": 65.0,
+        "Trade & Supply Chain Stress": 65.2,
         "Sovereign Financial Stress": 56.3,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.7,
-        "Cyber & Infrastructure Threats": 67.9,
+        "Sanctions & Regulatory Fragmentation": 58.2,
+        "Cyber & Infrastructure Threats": 61.0,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains critically high, primarily fueled by the 'Iran war' being discussed and the potential for new alliances forming in the Middle East, as noted by 'Trump cheers defense pact between Saudis, Turkey and Pakistan.' Furthermore, the 'Ukraine war briefing' highlighting Kyiv's potential domestic ballistic missile capabilities suggests a persistent risk of escalation in Eastern Europe.",
+        "Energy & Maritime Disruption": "Energy and maritime disruption is acutely elevated, directly linked to the 'Strait of Hormuz shipping slows sharply after tanker attacks' and the stalling of 'US-Iran peace talks.' This critical chokepoint's instability poses immediate threats to global oil supply and shipping routes.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress is notably impacted by the 'Strait of Hormuz shipping slows sharply after tanker attacks,' affecting key global arteries. While 'Singapore NODX growth holds above 20%' indicates regional resilience, sector-specific challenges like 'China trouble' in the chemical sector suggest ongoing re-calibration efforts are necessary.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, with some markets showing resilience, such as the 'Nikkei Rises Despite Japan GDP Growth Miss.' However, central bank policy expectations continue to influence markets, as seen with the 'Yen edges up as traders push back Fed rate hike bets.'",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are exhibiting baseline activity, primarily influenced by shifts in global monetary policy expectations. The 'Yen edges up as traders push back Fed rate hike bets,' indicating market sensitivity to anticipated central bank actions.",
+        "Sanctions & Regulatory Fragmentation": "The risk of sanctions and regulatory fragmentation remains elevated due to the ongoing 'Iran war' discussion and the stall in 'US-Iran peace talks.' This creates an environment ripe for the introduction of new restrictions or the re-evaluation of existing trade frameworks.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are a significant concern, directly evidenced by the 'SafePal data breach impacts 39,798 customers, stolen info for sale.' Such incidents highlight persistent vulnerabilities and the economic impact of data compromise.",
+        "Climate & Resource Shock": "This pillar is currently under routine monitoring, with no significant events identified in the recent intelligence feed to suggest immediate shock. Resource stability and climate factors remain at a baseline activity level for this period."
+    },
     "All_Alerts": [
         {
-            "title": "White Sox at Cubs \u2014 the Crosstown Come-Up \u2014 takes the stage Monday, a series this city deserves",
+            "title": "Trump cheers defense pact between Saudis, Turkey and Pakistan: \u2018The Mideast is coming together\u2019",
             "severity": "HIGH",
-            "url": "https://chicago.suntimes.com/cubs/2026/08/16/white-sox-cubs-crosstown-rivalry-wrigley-field-chicago",
-            "image": "https://cst.brightspotcdn.com/dims4/default/5bfdf7f/2147483647/strip/false/crop/4667x3112+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fchorus-production-cst-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2F46%2Fe1%2Fe6f81b834d68bda967496bb2acdd%2F2276760312.jpg",
-            "source": "chicago_suntimes"
+            "url": "https://www.timesofisrael.com/liveblog-august-17-2026/",
+            "image": "https://static-cdn.toi-media.com/www/uploads/2026/08/AP26228770476921-e1786925861931.jpg",
+            "source": "timesofisrael"
         },
         {
-            "title": "'US discussing nuclear weapons against Iran': Marjorie Taylor Greene's new claim as tensions rise",
+            "title": "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/us-news/us-discussing-nuclear-weapons-against-iran-marjorie-taylor-greenes-new-claim-as-tensions-rise-101786915855028.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/16/1600x900/logo/US-POLITICS-TRUMP-22_1786917623246_1786917641358_7a2e2bd5-4166-4afa-bca5-8e3744557704.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.thestar.com.my/business/business-news/2026/08/17/oil-treads-water-as-us-iran-peace-talks-stall-hormuz-shipping-slows",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/17/4063176.png",
+            "source": "thestar_my"
         },
         {
-            "title": "Strikes kill 19 in Russia and Ukraine",
+            "title": "Trump says US scaling back military drills with South Korea",
             "severity": "HIGH",
-            "url": "https://gulfnews.com/world/europe/strikes-kill-19-in-russia-and-ukraine-1.500642350",
-            "image": "https://media.assettype.com/gulfnews/2024-11-27/y28xdz2q/Russia_attacks_Ukraine_17f2ba9c897_original_ratio.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "url": "https://globalnation.inquirer.net/335006/trump-says-us-scaling-back-military-drills-with-south-korea",
+            "image": "https://globalnation.inquirer.net/files/2026/08/Trump-says-US-scaling-back-military-drills-with-South-Korea-620x414.jpg",
+            "source": "inquirer"
         },
         {
-            "title": "Bears\u2019 Breakthrough Rookie Jordan Van Den Berg Issues Warning to NFL",
+            "title": "Ukraine war briefing: Kyiv could hit Russia with domestic ballistic missiles in months, former defence minister says",
             "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/bears-breakthrough-rookie-jordan-van-222719305.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/d4476423da819413ae0183682a8238c94c3217d78d213f00a63a71c3b97eb28a/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fheavy_214%2F7ba7ef0ce038e2da5bcf7af9928e2259.jpg",
+            "url": "https://uk.news.yahoo.com/ukraine-war-briefing-kyiv-could-005123634.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/3606339046e29da1e785ca255761718f14206d1ff1b5f2e621b263952b3239cd/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftheguardian_763%2F7cfed6a3cbac5f38cb3afbca788976a8.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Covert Mideast oil flows are keeping global prices in check",
+            "title": "Seoul says joint military drills with US have started",
             "severity": "HIGH",
-            "url": "https://www.japantimes.co.jp/business/2026/08/17/markets/mideast-oil-global-prices/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/08/17/557687.JPG",
-            "source": "japantimes"
+            "url": "https://globalnation.inquirer.net/335009/seoul-says-joint-military-drills-with-us-have-started",
+            "image": "https://globalnation.inquirer.net/files/2026/08/Seoul-says-joint-military-drills-with-US-have-started-620x412.jpg",
+            "source": "inquirer"
         },
         {
-            "title": "Anthony Edwards Reveals Where Timberwolves Stand Among NBA\u2019s Best",
+            "title": "Donald Trump calls for US-South Korea drills to be substantially reduced",
             "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/anthony-edwards-reveals-where-timberwolves-222615854.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/58683923ee861da4e7577cd86844e577eb3b397d060f46485b5fddc951c33cfa/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_minnesota_timberwolves_383%2Fd76a00954a1c7e3d7b2b814d97d512e6.jpg",
-            "source": "yahoo"
+            "url": "https://economictimes.indiatimes.com/news/defence/donald-trump-calls-for-us-south-korea-drills-to-be-substantially-reduced/articleshow/133284260.cms",
+            "image": "https://img.etimg.com/thumb/msid-133284264,resizemode-4,width-1200,height-900,imgsize-43108,overlay-etdefence/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Ukrainian Day in the Park returns to the Confluence as community calls for continued support amid war",
+            "title": "Singapore NODX growth holds above 20% for fourth straight month in July",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/ukrainian-day-park-returns-confluence-223547790.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/798c6798f7f929511b2b3c6b80162a37a7bc9a0cf108681c4b6e7080438f45e7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcalgary_herald_articles_312%2F2a5e5750099a6210c5d93f311ec0cc4d.jpg",
-            "source": "yahoo"
+            "url": "https://investinglive.com/news/singapore-nodx-growth-holds-above-20-for-fourth-straight-month-in-july/",
+            "image": "https://images.investinglive.com/fl-static/il-logo-colorful-dark.svg",
+            "source": "forexlive"
+        },
+        {
+            "title": "Chemical sector: Although long, there is a way around China trouble; combine 20 stocks to get your portfolio\u2019s chemistry right",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/chemical-sector-although-long-there-is-a-way-around-china-trouble-combine-20-stocks-to-get-your-portfolios-chemistry-right/articleshow/133284241.cms",
+            "image": "https://img.etimg.com/thumb/msid-133284247,width-1200,height-900,imgsize-133634,overlay-etmarkets/premium-articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Iran war thrusts Diego Garcia into spotlight as official calls US military base \u2018integral\u2019",
+            "severity": "HIGH",
+            "url": "https://www.foxnews.com/world/iran-war-thrusts-diego-garcia-spotlight-official-calls-us-military-base-integral",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/01/931/523/chagos-islands.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Strait of Hormuz shipping slows sharply after tanker attacks",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/industry/transportation/shipping-/-transport/strait-of-hormuz-shipping-slows-sharply-after-tanker-attacks/articleshow/133284237.cms",
+            "image": "https://img.etimg.com/thumb/msid-133284239,resizemode-4,width-1200,height-900,imgsize-143878,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "\u2018Nothing is true\u2019: MasterChef judges set record straight on Meghan appearance - news24.com.au",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxPalpMUHh3Y2xZOG1jek9qcmtuckdZRm5MdUlFN2NUQjAyc2cwbk5heC1hMFBKX0gyNmozNVA2WnI5eGJuNEt2QWxDdW5YZnpGYm4zVDZZcnM3TkdzT0E3dXJaRkc0NlFtcU05SjlWb2xwNnZjT0pGWVIxUEdQS3VMUnNrQTN4TjVYbGFNd3RGV2p0aXZLV00tV0dGQWNzWDYwQVhUb1RzTzB4bkM1bGFGSlFjY2NBYi1XeDVWZGJHMlVwNkZDS1JJcFVkRDA1OFNoeFdPSWZXV3F0WkFMcURILTNGR3QwelZaaWdmbjI2cEZ0MlFPRThCajVHMFlfU01FRGtwNk44NlhPT2s3OXZWT3JHZFdObDlkcXcxbXp5bkxsZ0RNbUV0S29YNUFrT01SdXB3UzJEemx1eS01VUhWZmFhcy1iLUtvUW5RYlZBUEZBQ1V2Qmc?oc=5",
+            "image": "https://images.pexels.com/photos/34207359/pexels-photo-34207359.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2026/08/16/safepal-header.jpg",
+            "source": "bleepingcomputer"
         },
         {
             "title": "Another IAF officer arrested after placing Polymarket bets on attacks in Iran, Yemen",
@@ -72,194 +116,138 @@
             "source": "jpost"
         },
         {
-            "title": "Russia: Overnight Ukrainian drone attack was biggest so far",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/russia-overnight-ukrainian-drone-attack-223312497.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/c2e662ef7ccb36b62b459685af26fa8ab5507c30ca87ed91a4e759b5b2d7dc31/lightyear_networkapi/resizefill_w900_h601%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Funited_press_international_articles_356%2Ffa4159d36f33b4316b922098a867f1c1.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Kiwi bellwether stock posts strong result but warns of fuel price impact",
-            "severity": "HIGH",
-            "url": "https://www.rnz.co.nz/news/business/1024887/kiwi-bellwether-stock-posts-strong-result-but-warns-of-fuel-price-impact",
-            "image": "https://images.pexels.com/photos/5014710/pexels-photo-5014710.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "Aries Horoscope Today, August 17, 2026: Thoughtful choices may help you make the most of a cooperative day",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/astrology/horoscope/aries-horoscope-today-august-17-2026-thoughtful-choices-may-help-you-make-the-most-of-a-cooperative-day-101786722386763.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/14/1600x900/logo/a_1782911995834_1782912000755_e6a90a7a-fa18-4b1b-ba82-d8b80df08b39_1786722853044_1631c416-0316-4546-ad84-2617ec422c97.jpeg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
-            "severity": "HIGH",
-            "url": "https://abcnews.com/US/wireStory/trump-orders-pentagon-scale-back-joint-exercises-south-135694217",
-            "image": "https://s.abcnews.com/images/US/wirestory_ae21e0af5ea16f0a74e9a176b3cc2136_4x3_384.jpg",
-            "source": "abcnews"
-        },
-        {
-            "title": "'Cowardly' Reform UK blasted over welfare plot 'that would spark new Brexit clash'",
-            "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/news/politics/farage-jenrick-migrants-welfare-reform-37558189",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37534461.ece/ALTERNATES/s615/2_Reform-UK-press-conference-London.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Director faces investigations following Mundella collapse",
-            "severity": "HIGH",
-            "url": "https://www.abc.net.au/news/2026-08-17/mundella-dairy-collapse-liquidation-investigation/105507238",
-            "image": "https://live-production.wcms.abc-cdn.net.au/76e992f7ba2c04032fcfc098b6af034f?impolicy=wcms_crop_resize&cropH=2214&cropW=3936&xPos=0&yPos=127&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "Aussies facing $44,000 fine over rule breach during Test loss to Bangladesh - Yahoo News Australia",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd0FlRWdVN0tQbFBYZl9Zb1dEc3IwZzRfRjktNFVmaHVhdmxkYVNkc2RXN0V4X2lOaGoycTlwRHdOVnJLbUQ1ODZleVRnVXZiQzJ4VlZrZGswSThxaU40VEs5TVRkcUJvUllYS0Q2V1dKNHdZNjd4RUlDMFg4SDNOdlB2OHoyY0hsNW1wbHdCcXhQSU5NQkNKdXBkLUo3YVpuR1IzVDh0QUllNXJVSGd6ZklYQnh3c25uVkxlZ2lwRTRWYm5jY3VmUWtFZUN2QQ?oc=5",
-            "image": "https://images.pexels.com/photos/20068548/pexels-photo-20068548.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Breach at Crypto Wallet Company Called \u2018SafePal\u2019 Exposes 39,798 Customers",
-            "severity": "HIGH",
-            "url": "https://gizmodo.com/breach-at-crypto-wallet-company-called-safepal-exposes-39798-customers-2000799138",
-            "image": "https://gizmodo.com/app/uploads/2026/05/cryptocurrencies-1280x853.jpg",
-            "source": "gizmodotech"
-        },
-        {
-            "title": "Ten-man Lens beat PSG to the Super Cup as Nuno Mendes sees a red card for misconduct",
-            "severity": "HIGH",
-            "url": "https://uk.sports.yahoo.com/news/ten-man-lens-secure-hard-190430078.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/810a5c1cae7c27ca1ed0cee8c8521976f996af638fe78da3f302f71823caac9e/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgoal_uk_815%2Fed8d09e32308764afe88cb28089191e1.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Taxation as a Protocol Layer: Why Elon Musk\u2019s UBI Model Fails Without Automated Transaction Math",
+            "title": "Nikkei Rises Despite Japan GDP Growth Miss",
             "severity": "MEDIUM",
-            "url": "https://hackernoon.com/taxation-as-a-protocol-layer-why-elon-musks-ubi-model-fails-without-automated-transaction-math",
-            "image": "https://cdn.hackernoon.com/images/uT08PbfcleSM2MmOksNFN70Poy22-5t839hv.webp",
-            "source": "hackernoon"
+            "url": "https://www.ndtvprofit.com/markets/asian-stock-markets-today-nikkei-rises-despite-japan-gdp-growth-miss-south-korea-closed-11918906",
+            "image": "https://c.ndtvimg.com/2026-07/2eg6fjck_asian-markets_625x300_29_July_26.png",
+            "source": "ndtv"
         },
         {
-            "title": "Groundwater that glows yellow-green in U.P.",
+            "title": "Morning Digest: NTA orders re-test for 3 UGC-NET papers over question errors; Jharkhand Govt invites protesters for talks today, and more",
             "severity": "MEDIUM",
-            "url": "https://www.thehindu.com/news/national/uttar-pradesh/contaminated-groundwater-in-uttar-pradesh-poses-health-risks/article71322801.ece",
-            "image": "https://th-i.thgim.com/public/incoming/tzoerq/article71322823.ece/alternates/FREE_1200/SPOTLIGHT%20Kanpur%20Severe%20Groundwater%20Pollution%2017.JPG",
+            "url": "https://www.thehindu.com/news/morning-digest-august-17-2026/article71354078.ece",
+            "image": "https://th-i.thgim.com/public/incoming/54miib/article71354683.ece/alternates/FREE_1200/PTI08_16_2026_000482B.jpg",
             "source": "thehindu"
         },
         {
-            "title": "Broken zips, sleeve sewn shut: Union raises SA firefighter safety concerns",
-            "severity": "MEDIUM",
-            "url": "https://www.abc.net.au/news/2026-08-17/union-raises-sa-firefighter-safety-concerns/107027622",
-            "image": "https://live-production.wcms.abc-cdn.net.au/09fc1b8a0cc8b41aacbdaeeec95e1eb0?impolicy=wcms_crop_resize&cropH=900&cropW=1600&xPos=0&yPos=150&width=862&height=485",
-            "source": "abc_net"
+            "title": "Sun Transit In Leo On August 17, 2026: Surya Gochar In Simha Rashi Effects On All Zodiac Signs",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/astrology/horoscope/sun-transit-in-leo-2026-surya-gochar-simha-rashi-august-17-effects-on-zodiac-signs-ws-e-10275760.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/08/image-2026-08-4f4556220c04a8c834d6bd3d38b23d9f-1200x800.jpg",
+            "source": "news18"
         },
         {
-            "title": "Gemini Horoscope Today, August 17, 2026: A peaceful start may lead to greater enjoyment and connection later today",
+            "title": "Earnings call transcript: Audinate jumps 13% after FY 2026 return to growth",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/astrology/horoscope/gemini-horoscope-today-august-17-2026-a-peaceful-start-may-lead-to-greater-enjoyment-and-connection-later-today-101786723754775.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/14/1600x900/logo/g_1782916781272_1782916786903_a159b26a-47d8-49df-b152-fee5c731ca1f_1786723830152_9c15da04-743d-47b7-9793-9c73957b0a94.jpeg",
-            "source": "hindustantimes"
+            "url": "https://au.investing.com/news/transcripts/earnings-call-transcript-audinate-jumps-13-after-fy-2026-return-to-growth-93CH-4601827",
+            "image": "https://content-media.investing.com/news/LYNXNPEB6U08A_M.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "This tiny Mass. town is fighting a proposed battery park, saying it could harm Boston\u2019s drinking water. Some officials disagree.",
+            "title": "Best of BS Opinion: Quick fixes cannot substitute for structural reform",
             "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/08/16/science/this-tiny-mass-town-is-fighting-proposed-battery-park-saying-it-could-harm-bostons-drinking-water-some-officials-disagree/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/NIBV3YA24SGTW5SCUFDPKRNWKI.jpg?auth=5e340504b4af996dd468fcc141bc8c2d9bfcc273b75f33ef5a7883fbe1d809ee&smart=true&width=3000&height=2000",
-            "source": "bostonglobe"
+            "url": "https://www.business-standard.com/opinion/specials/best-of-bs-opinion-quick-fixes-cannot-substitute-for-structural-reform-126081700010_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/16/full/1786899281-9499.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "Simon Fraser University Pipe Band wins World Pipe Band Championships in Scotland",
+            "title": "Weekly Horoscope, 17-August to 23-August-2026: Explore our weekly horoscope and navigate the week ahead with confidence",
             "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/british-columbia/sfu-pipe-band-wins-world-pipe-band-championships-9.7309182?cmp=rss",
-            "image": "https://i.cbc.ca/ais/9f3aa2f2-9de0-4555-a73e-c088c627c15b,1786915050481/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C138%2C6000%2C3375%29%3B",
-            "source": "cbc"
+            "url": "https://indianexpress.com/article/horoscope/weekly-horoscope-17-august-to-23-august-2026-astrology-predictions-for-all-zodiac-signs-10836371/",
+            "image": "https://images.indianexpress.com/2024/05/Horoscope-3.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Trump Orders Major Cut To US-South Korea Drills, Cites 'Very Good Relationship' With Kim Jong-un",
+            "title": "Yen edges up as traders push back Fed rate hike bets",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/us/us-news/trump-us-south-korea-drills-cutback-kim-jong-un-north-korea-relationship-article-155707809",
-            "image": "https://images.timesnownews.com/thumb/msid-155707811,thumbsize-24468,width-1280,height-720,resizemode-75/155707811.jpg",
-            "source": "timesnownews"
+            "url": "https://au.investing.com/news/economy-news/yen-edges-up-as-traders-push-back-fed-rate-hike-bets-4601822",
+            "image": "https://content-media.investing.com/trkd-images/LYNXMPEM7G010_L.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "Patanjali Foods shares in focus after Q1 profit jumps 86% YoY, revenue rises to Rs 11,337 crore",
+            "title": "A2 Milk's net profit down 44 percent on one-offs",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/patanjali-foods-shares-in-focus-after-q1-profit-jumps-86-yoy-revenue-rises-to-rs-11337-crore/articleshow/133286043.cms",
-            "image": "https://img.etimg.com/thumb/msid-133286062,resizemode-4,width-1200,height-900,imgsize-86451,overlay-etmarkets/articleshow.jpg",
+            "url": "https://www.rnz.co.nz/news/business/1024106/a2-milk-s-net-profit-down-44-percent-on-one-offs",
+            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "Binance gave Moscow client details used to charge Russian over Ukraine donations, documents show",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/tech/technology/binance-gave-moscow-client-details-used-to-charge-russian-over-ukraine-donations-documents-show/articleshow/133288648.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-240922,resizemode-75,msid-133288648/tech/technology/binance-gave-moscow-client-details-used-to-charge-russian-over-ukraine-donations-documents-show.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Research Tools & Consumables Stocks Q2 Highlights: Danaher (NYSE:DHR)",
+            "title": "India\u2019s sweet revolution depends on this: Safeguard the bee, and sustainability is key",
             "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/research-tools-consumables-stocks-q2-221300365.html",
-            "image": "https://media.zenfs.com/en/stockstory_922/f7c48f94496cc685707bb82fa48852a9.jpg",
+            "url": "https://indianexpress.com/article/opinion/columns/indias-sweet-revolution-depends-on-this-safeguard-the-bee-and-sustainability-is-key-10836281/",
+            "image": "https://images.indianexpress.com/2026/08/Bees-Help-Produce-Much-of-the-Worlds-Food_20260816224739.png",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Quote of the day by James Cameron, 'Inspiration can hit you in the head at any time in any context. It could happen in a conversation. Talking to someone at a party, you can get an idea. But you've got to remember those inspirations' offers timeless wisdom on learning, creativity, knowledge, curiosity, teaches purpose, focus which can bring success in work, career",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-james-cameron-inspiration-can-hit-you-in-the-head-at-any-time-in-any-context-it-could-happen-in-a-conversation-talking-to-someone-at-a-party-you-can-get-an-idea-but-youve-got-to-remember-those-inspirations-offers-timeless-wisdom-on-learning-creativity-knowledge-curiosity-teaches-purpose-focus-which-can-bring-success-in-work-career/articleshow/133284223.cms",
+            "image": "https://img.etimg.com/thumb/msid-133284231,resizemode-4,width-1200,height-900,imgsize-94036,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "iPhone 18 Pro Pricing: Can Apple Protect Its Profit Margins?",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/iphone-18-pro-pricing-apple-100042542.html",
+            "image": "https://media.zenfs.com/en/forbes_contributor_845/cc2212a2bdacc308fff0444eb436bb52.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Q2 Earnings Outperformers: WESCO (NYSE:WCC) And The Rest Of The Maintenance and Repair Distributors Stocks",
+            "title": "Report: Ukraine Missiles Could Hit Russia in Months",
             "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/q2-earnings-outperformers-wesco-nyse-220500417.html",
-            "image": "https://media.zenfs.com/en/stockstory_922/be35dff2ee4f1f198894b844e1ab0efd.jpg",
+            "url": "https://www.yahoo.com/news/world/articles/report-ukraine-missiles-could-hit-004351364.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/020d1c199becd46a338f34f036715c0dbdda42e0fe4faa7aff9b7c386f738f47/lightyear_networkapi/resizefill_w600_h500%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnewsmax_809%2F8f944aa91ab87bcea09a92f1afa1e996.jpg",
             "source": "yahoo"
         },
         {
-            "title": "B.C. farmer who fled wildfire teams up with chef on sauces to support other producers",
+            "title": "Test stars face $4k fines each for horror show",
             "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/b-c-farmer-fled-wildfire-215721855.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/44e6f597c449fd926b03b3c99ae19a73e8655e609e966cc3415239594147a231/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcbc.ca%2Ffc49abe11e7c020e379b61594cc40146.jpg",
-            "source": "yahoo"
+            "url": "https://www.news.com.au/sport/cricket/australian-test-stars-face-4k-fines-each-for-bangladesh-horror-show/news-story/10eabfb7a889598023f06f21f61ee846",
+            "image": "https://content.api.news/v3/images/bin/6cb45dacf890cedb71e27edd0f9293c0",
+            "source": "news"
         },
         {
-            "title": "Donald Trump accuses the BBC of harassing his children in defamation battle",
+            "title": "Never accepted Nalsar invitation, so no question of going: CJI",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-16057033/Donald-Trump-accuses-BBC-harassing-children-defamation-battle.html",
-            "image": "https://i.dailymail.com/1s/2026/08/16/23/110673165-0-image-a-7_1786919237689.jpg",
+            "url": "https://timesofindia.indiatimes.com/india/never-accepted-nalsar-invitation-so-no-question-of-going-cji/articleshow/133284013.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133284025/133284025.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Paedophile fireman used loophole to keep changing his identity: Calls to change law as the Daily Mail exposes shocking case of pervert with 20 aliases",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-16057039/Paedophile-fireman-used-loophole-changing-identity.html",
+            "image": "https://i.dailymail.com/1s/2026/08/16/23/110673103-0-image-a-5_1786918753371.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Salman attends David Dhawan's 75th b'day bash - PICS",
+            "title": "I discovered the man who love bombed me was on trial for rape under a name I've never heard... and that was just the beginning",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/salman-khan-attends-david-dhawans-75th-birthday-bash-poses-for-pics-with-varun-dhawan-sajid-nadiadwala/articleshow/133282223.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133283890/133283890.jpg",
-            "source": "toi"
+            "url": "https://www.dailymail.com/news/article-16057003/I-discovered-man-love-bombed-trial-rape.html",
+            "image": "https://i.dailymail.com/1s/2026/08/16/23/110673453-0-image-a-5_1786920135172.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Original Xbox Remake Now on Xbox Series X and Free for Some",
+            "title": "Rapper \u2018The Shadow\u2019 removed as police volunteer amid investigation",
             "severity": "WATCH",
-            "url": "https://comicbook.com/gaming/news/xbox-series-x-free-game-remake/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2025/10/xbox-logo.jpg",
-            "source": "comicbook"
+            "url": "https://www.jpost.com/israel-news/culture/article-905718",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734159",
+            "source": "jpost"
         },
         {
-            "title": "India twice lead China but settle for 2-2 draw in World Cup opener",
+            "title": "California farmer who sparked frenzied crowds with free nectarine stunt ordered to destroy fruit trees",
             "severity": "WATCH",
-            "url": "https://www.deccanherald.com/sports/india-twice-lead-china-but-settle-for-2-2-draw-in-world-cup-opener-4113461",
-            "image": "https://media.assettype.com/deccanherald/2026-08-16/ycq7coqu/file876no22xeeb2haobdc6.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "Quebec man must pay $1K over using fake AI-generated legal cases, court rules",
-            "severity": "WATCH",
-            "url": "https://globalnews.ca/news/12023486/quebec-man-payment-fake-ai-generated-court-cases/",
-            "image": "https://globalnews.ca/wp-content/uploads/2021/10/gavel.jpeg?quality=65&strip=all",
-            "source": "globalnews"
-        },
-        {
-            "title": "Cops use tear gas & water cannons to stop Qaumi Insaaf Morcha activists at Chandigarh-Mohali border",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/chandigarh/cops-use-tear-gas-water-cannons-to-stop-qaumi-insaaf-morcha-activists-at-chandigarh-mohali-border/articleshow/133281568.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133281566/133281566.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Lioness Recap: Sorry for the Inconvenience",
-            "severity": "WATCH",
-            "url": "http://www.vulture.com/article/lioness-recap-season-3-episode-3-paramount-plus.html",
-            "image": "https://pyxis.nymag.com/v1/imgs/44e/331/dcf460681629675d16bce56a1ec8e8c30a-lioness-ep3.1x.rsocial.w1200.jpg",
-            "source": "vulture"
+            "url": "https://nypost.com/2026/08/16/us-news/california-farmer-loses-court-battle-against-fruit-giant-giumarra/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2F000-pounds-nectarines-amid-legal-137653523.jpg?w%3D1024",
+            "source": "nypost"
         }
     ],
-    "Last_Updated": "2026-08-17T10:37:02.117459Z"
+    "Last_Updated": "2026-08-17T12:54:27.013881Z"
 }
