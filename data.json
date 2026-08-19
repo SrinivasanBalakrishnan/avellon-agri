@@ -1,274 +1,309 @@
 {
-    "AGRI_Score": 62.0,
-    "Velocity": "-2.4",
+    "AGRI_Score": 60.7,
+    "Velocity": "-1.3",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) stands at 62.0, primarily driven by elevated scores in Geopolitical Conflict Intensity and Energy & Maritime Disruption. Ongoing military activities, as evidenced by 'In Ukraine, drone crews prepare to strike again', and regional tensions like 'Pakistan extends airspace ban for Indian aircraft till September 24', significantly contribute to the conflict intensity. Concurrently, 'Surging UK energy prices push inflation to highest level since March' and 'oil prices jump' underscore persistent energy market pressures and their broader economic impact.",
+    "AI_Brief": "The AGRI score of 60.7 reflects elevated global risk, primarily driven by intensified geopolitical tensions and significant energy market disruption. The surge in \"Crude Near $92\" coupled with \"Iran Tensions\" directly contributes to high scores in both Energy & Maritime Disruption and Geopolitical Conflict Intensity. Furthermore, internal political shifts in major conflict zones, such as \"Ex-Defence Minister Fedorov Calls For Elections As Zelensky Names His Successor,\" underscore ongoing instability that contributes to the overall risk posture.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.3,
+        "Geopolitical Conflict Intensity": 74.7,
         "Energy & Maritime Disruption": 77.4,
-        "Trade & Supply Chain Stress": 64.2,
+        "Trade & Supply Chain Stress": 64.7,
         "Sovereign Financial Stress": 57.2,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 60.2,
-        "Cyber & Infrastructure Threats": 66.7,
+        "Sanctions & Regulatory Fragmentation": 56.0,
+        "Cyber & Infrastructure Threats": 58.6,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is highly active due to sustained regional tensions and active combat zones, with reports indicating 'In Ukraine, drone crews prepare to strike again'. Furthermore, 'Southern African mothers plead for sons lured to Russia\u2019s war' highlights the expanding human impact and recruitment efforts associated with ongoing global conflicts.",
-        "Energy & Maritime Disruption": "Risk remains high in this area, directly linked to inflationary pressures as 'Surging UK energy prices push inflation to highest level since March' demonstrates. The broader market is reacting to these developments, with 'oil prices jump' exacerbating the cost environment for consumers and businesses.",
-        "Trade & Supply Chain Stress": "Regional airspace restrictions, such as 'Pakistan extends airspace ban for Indian aircraft till September 24', introduce significant disruptions to global air travel and cargo routes. General market unease is also evident, with 'Shares fall in Asia, with Kospi down 5.7%' reflecting broader concerns about economic stability and trade flows.",
-        "Sovereign Financial Stress": "National economies are grappling with the ripple effects of energy costs, as the 'Jump in energy bills drives inflation to 2.9% - the highest rate for four months' puts pressure on public finances. This inflationary environment can lead to fiscal challenges for governments and impact market confidence, as seen in falling Asian shares.",
-        "Currency & Liquidity Pressure": "The strength of the US Dollar, observed as 'Gold, Silver Stall as US Dollar Refuses to Buckle', continues to exert pressure on other currencies and commodity markets. Meanwhile, 'Bitcoin steady at $64k as markets parse U.S. regulations, Iran tensions' reflects the sensitive nature of digital assets to geopolitical events and regulatory shifts.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory environments are becoming more stringent and divergent, exemplified by 'US Green Card Rules Tighten From September 18'. Additionally, corporate investigations, such as 'Australia executes search warrant on WiseTech for documents', underscore the increasing scrutiny and compliance burdens faced by international businesses.",
-        "Cyber & Infrastructure Threats": "Physical infrastructure faces acute risks, as indicated by 'A warehouse burns near Moscow', even if the specific cause is not yet known. The ongoing conflict in Ukraine, where 'drone crews prepare to strike again', implies a continuous threat to critical national infrastructure and operational continuity.",
-        "Climate & Resource Shock": "Despite being the lowest-scoring pillar, there is clear momentum for adaptation strategies, with 'As Europe bakes, momentum grows for climate-resilient farming'. Simultaneously, nations are proactively addressing energy transition, as 'Kenya triples its power target, aiming to expand use of nuclear and geothermal energy' shows efforts to diversify energy sources."
+        "Geopolitical Conflict Intensity": "Escalation in regional power dynamics is evident as \"Iran warns Gulf states against facilitating US military presence.\" Concurrently, calls for \"elections as Zelensky Names His Successor\" within Ukraine indicate significant internal political shifts in a major conflict zone.",
+        "Energy & Maritime Disruption": "Elevated risk stems from \"Crude Near $92\" amid \"Iran Tensions and Global Sell-Off,\" directly impacting global energy supply and pricing. Efforts to diversify energy, such as the \"Philippines: 5 provinces shortlisted as candidates for nuclear power plants,\" also highlight the urgent demand for alternative power sources.",
+        "Trade & Supply Chain Stress": "Ongoing trade policy impacts are evident, with \"Foreign Tariffs Made U.S. Whiskey Cheaper (Depending On Where You Live)\" illustrating market distortions and varying trade conditions. Regional initiatives, like the \"cluster-based strategy can boost West Bengal's industry,\" point to localized efforts to improve trade resilience and efficiency.",
+        "Sovereign Financial Stress": "Global market volatility, highlighted by \"Sensex, Nifty Are Falling Today: Crude Near $92, Iran Tensions and Global Sell-Off,\" creates an environment of fiscal pressure on sovereign entities. The arrest of a \"Former Takenaka manager arrested for breach of trust over Osaka Expo project\" underscores concerns about governance and potential financial mismanagment in large national projects.",
+        "Currency & Liquidity Pressure": "The \"Global Sell-Off\" noted in conjunction with falling Sensex and Nifty indices suggests potential for capital flight and pressure on emerging market currencies. Heightened geopolitical events and energy price spikes tend to reduce global liquidity as investors seek safer assets.",
+        "Sanctions & Regulatory Fragmentation": "\"Iran warns Gulf states against facilitating US military presence,\" raising the specter of expanded geopolitical friction and potential new sanction regimes. Domestically, the \"Supreme Court Demands Fresh Affidavit On NTA Reforms\" signals ongoing regulatory oversight and reform efforts within India.",
+        "Cyber & Infrastructure Threats": "While no direct cyber threats are reported, physical infrastructure remains vulnerable, as demonstrated by a \"Bird strike blamed after Ryanair passenger sucked through window at 20,000ft.\" The \"Radiant sends portable nuclear reactor on a 1,000-mile road trip\" also introduces new logistical and security considerations for critical infrastructure transport.",
+        "Climate & Resource Shock": "Activity in this pillar is currently at a baseline level, with \"California buried an abandoned airfield under 5.8 million cubic yards of harbor mud, then opened 998 acres to the tides\" reflecting long-term environmental adaptation and land management. \"Laos identifies two new rare earth target areas\" focuses on resource exploration and future supply chain considerations rather than immediate shock."
     },
     "All_Alerts": [
         {
-            "title": "A warehouse burns near Moscow. In Ukraine, drone crews prepare to strike again",
+            "title": "US: Radiant sends portable nuclear reactor on a 1,000-mile road trip to prove readiness",
             "severity": "HIGH",
-            "url": "https://abcnews.com/Technology/wireStory/warehouse-burns-moscow-ukraine-drone-crews-prepare-strike-135760981",
-            "image": "https://s.abcnews.com/images/International/wirestory_8d9eb77fc5fc29c4771503b75f98b1f4_4x3_384.jpg",
-            "source": "abcnews"
+            "url": "https://interestingengineering.com/energy/kaleidos-nuclear-reactor-begins-road-trip",
+            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/08/radiant-truck.jpg",
+            "source": "interestingengineering"
         },
         {
-            "title": "Pakistan extends airspace ban for Indian aircraft till September 24",
+            "title": "Young Indians More Prone To Heart Attacks Due To Genetic Risk: Dr Prathap Reddy",
             "severity": "HIGH",
-            "url": "https://www.business-standard.com/world-news/pakistan-extends-airspace-ban-for-indian-aircraft-till-september-24-126081900404_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260819/thumb-126081900404.jpg",
-            "source": "business-standard"
+            "url": "https://www.timesnownews.com/health/young-indians-more-prone-to-heart-attacks-due-to-genetic-risk-dr-prathap-reddy-article-155776726",
+            "image": "https://images.timesnownews.com/thumb/msid-155776720,thumbsize-442152,width-1280,height-720,resizemode-75/155776720.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "Australia executes search warrant on WiseTech for documents, shares skid nearly 9%",
+            "title": "\u2018RESTORE TRUST\u2019: Ex-Defence Minister Fedorov Calls For Elections As Zelensky Names His Successor",
             "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/australia-executes-search-warrant-wisetech-063733427.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/150afeec82b96c8edfb05d7e98a23e7e5f1e6917dc328e2c1a7c8ecc4d4736fe/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fcv%2Fapiv2%2Fsocial%2Fimages%2Fyahoo_default_logo-1200x1200.png",
-            "source": "yahoo"
-        },
-        {
-            "title": "Kenya triples its power target, aiming to expand use of nuclear and geothermal energy",
-            "severity": "HIGH",
-            "url": "https://abcnews.com/Business/wireStory/kenya-triples-power-target-aiming-expand-nuclear-geothermal-135762970",
-            "image": "https://s.abcnews.com/images/International/wirestory_e9a7bfa17c05bf6d752c52ff508917fb_4x3_384.jpg",
-            "source": "abcnews"
-        },
-        {
-            "title": "As Europe bakes, momentum grows for climate-resilient farming",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/as-europe-bakes-momentum-grows-for-climate-resilient-farming/articleshow/133339379.cms",
-            "image": "https://img.etimg.com/thumb/msid-133339728,resizemode-4,width-1200,height-900,imgsize-314818,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Surging UK energy prices push inflation to highest level since March",
-            "severity": "HIGH",
-            "url": "https://finance.yahoo.com/economy/articles/surging-uk-energy-prices-push-063331471.html",
-            "image": "https://media.zenfs.com/en/dpa_international_526/d6defe5d8f2a94467c0e78e6d0108cc0.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Southern African mothers plead for sons lured to Russia\u2019s war",
-            "severity": "HIGH",
-            "url": "https://globalnation.inquirer.net/335236/southern-african-mothers-plead-for-sons-lured-to-russias-war",
-            "image": "https://globalnation.inquirer.net/files/2026/08/Southern-African-mothers-plead-for-sons-lured-to-Russias-war-scaled.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Swans ban five players over breach of standards amid police probe",
-            "severity": "HIGH",
-            "url": "https://www.smh.com.au/national/swans-ban-five-players-over-breach-of-standards-amid-police-probe-20260819-p60ptx.html",
-            "image": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/af52579eca7675dc1d8eef273c1ed0fdad9f7561",
-            "source": "smh"
-        },
-        {
-            "title": "\u2018NEET exam system foolproof, difficult to breach\u2019: Centre to SC after paper leak",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/india-news/neet-exam-has-a-system-that-is-foolproof-difficult-to-breach-centre-to-supreme-court-101787121322144.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/19/1600x900/NEET_EXAM_CANCELLED_2026_1778571699343_1778571699519_1787121472764_0f6a5345-82ed-4b97-ad95-5807bfe1b1ad.JPG",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Major improvements at mental health hospital after watchdog found 'multiple breaches'",
-            "severity": "HIGH",
-            "url": "https://www.manchestereveningnews.co.uk/news/greater-manchester-news/major-improvements-mental-health-hospital-34479838",
-            "image": "https://i2-prod.manchestereveningnews.co.uk/incoming/article34479851.ece/ALTERNATES/s615/0_060923priory2.jpg",
-            "source": "manchestereveningnews"
-        },
-        {
-            "title": "Minister under fire over snub to war vets",
-            "severity": "HIGH",
-            "url": "https://au.news.yahoo.com/minister-under-fire-over-snub-055011859.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/22a1d044b9a0e5024d12e2b186dcedbe8d471fd4f57acb250b1d46bb9176622d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnca_newswire_424%2Fd799ff6f19f0aef2f13325557bc6f292.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Bitcoin steady at $64k as markets parse U.S. regulations, Iran tensions",
-            "severity": "MEDIUM",
-            "url": "https://uk.investing.com/news/cryptocurrency-news/bitcoin-steady-at-64k-as-markets-parse-us-regulations-iran-tensions-4838174",
-            "image": "https://content-media.investing.com/news/LYNXMPEE060BB_M.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "US Green Card Rules Tighten From September 18. What Applicants Need To Know",
-            "severity": "MEDIUM",
-            "url": "https://www.news18.com/world/new-green-card-public-charge-rules-take-effect-from-september-18-2026-ws-l-10281360.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/08/MixCollage-19-Aug-2026-11-49-AM-5008-2026-08-b5ffb50bf3ccac6b3e06fc35e74e3120-1200x800.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "In 1917, Einstein called it his 'greatest blunder', but the idea he discarded returned decades later to become central to modern cosmology",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/new-updates/in-1917-einstein-called-it-his-greatest-blunder-but-the-idea-he-discarded-returned-decades-later-to-become-central-to-modern-cosmology/articleshow/133339309.cms",
-            "image": "https://img.etimg.com/thumb/msid-133339534,resizemode-4,width-1200,height-900,imgsize-49832,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Shares fall in Asia, with Kospi down 5.7%, while oil prices jump",
-            "severity": "WATCH",
-            "url": "https://abcnews.com/Business/wireStory/shares-fall-asia-kospi-57-oil-prices-jump-135759997",
-            "image": "https://s.abcnews.com/images/US/wirestory_9e355be634e4a21059fc1d1f20a1239e_4x3_384.jpg",
-            "source": "abcnews"
-        },
-        {
-            "title": "AI Could Make Big Oil Even Bigger",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/analysis/ai-could-make-big-oil-even-bigger-200616223",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Silver Tests Critical $61\u2013$63 VC PMI Buy Zone as 360-Day Cycle Approaches",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/analysis/silver-tests-critical-6163-vc-pmi-buy-zone-as-360day-cycle-approaches-200627330",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Jump in energy bills drives inflation to 2.9% - the highest rate for four months - BBC",
-            "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJYzVCY0NYV0dDd0FXai01WlZQQ3dvUi1OUWlDeUpPUWNuR0o2czdpREFXRmRoQnRfRGU4LUJBQVM1T2pwOGdkdlNhOHUzRWhWN29ZN3hn?oc=5",
-            "image": "https://images.pexels.com/photos/11849157/pexels-photo-11849157.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Gold, Silver Stall as US Dollar Refuses to Buckle",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/analysis/gold-silver-stall-as-us-dollar-refuses-to-buckle-200627329",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Jr NTR mourns the loss of his pet dog Bagheera",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/jr-ntr-mourns-the-loss-of-his-pet-dog-bagheera-shares-emotional-tribute-with-unseen-pictures/articleshow/133339839.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133339861/133339861.jpg",
+            "url": "https://timesofindia.indiatimes.com/videos/international/restore-trust-ex-defence-minister-fedorov-calls-for-elections-as-zelensky-names-his-successor/videoshow/133342441.cms",
+            "image": "https://static.toiimg.com/photo/imgsize-413445,msid-133342441/133342441.jpg",
             "source": "toi"
         },
         {
-            "title": "New US green card rule may hit Indians",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/world/asia/india/new-us-green-card-rule-may-hit-indians-1.500645368",
-            "image": "https://media.assettype.com/gulfnews/2026-08-19/ka0way53/202608193909870.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "title": "Iran warns Gulf states against facilitating US military presence",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/world/iran-warns-gulf-states-against-facilitating-us-military-presence-articleshow-1q8pcmi",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-0fb65264-7ee5-4763-9431-d3bd7915a887.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Foreign Tariffs Made U.S. Whiskey Cheaper (Depending On Where You Live)",
+            "severity": "HIGH",
+            "url": "https://news.ncsu.edu/2026/08/foreign-tariffs-and-us-whiskey/",
+            "image": "https://news.ncsu.edu/wp-content/uploads/2026/08/Burd-whiskey-2026-HEADER.jpg",
+            "source": "news_ncsu"
+        },
+        {
+            "title": "Philippines: 5 provinces shortlisted as candidates for nuclear power plants",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/world/asia/philippines/philippines-five-provinces-shortlisted-as-candidates-for-first-commercial-nuclear-power-plants-1.500645455",
+            "image": "https://media.assettype.com/gulfnews/2026-03-26/jtb7jgom/SoutheastAsia-DataCenters-NuclearPower02978-b2313-Read-Only.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
             "source": "gulfnews"
         },
         {
-            "title": "Jr NTR gets emotional over death of his pet dog, places plant on its grave: \u2018Your absence leaves a silence too large\u2019",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/entertainment/telugu-cinema/jr-ntr-gets-emotional-over-death-of-his-pet-dog-places-plant-on-its-grave-bagheera-dragon-actor-101787120178514.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/19/1600x900/logo/Jr_NTR_pet_1787120470020_1787120492658_5a87ba9d-08d3-4fc3-84e8-e7bfc5573db0.jpg",
-            "source": "hindustantimes"
+            "title": "Why Sensex, Nifty Are Falling Today: Crude Near $92, Iran Tensions and Global Sell-Off",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/business/mutual-funds/why-sensex-nifty-are-falling-today-crude-oil-iran-tensions-share-market-1862845",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/08/11/c07140ccff43b8ada64bcdd15bfc230a1786420116059800_original.jpeg",
+            "source": "abplive"
         },
         {
-            "title": "Phyllida Law, mother of actress Emma Thompson, passes away at 94",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/entertainment/english/hollywood/news/phyllida-law-mother-of-actress-emma-thompson-passes-away-at-94/articleshow/133338864.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133339843/133339843.jpg",
+            "title": "Kiara Advani shares BTS glimpse from Yash's \u2018Toxic: A Fairy Tale for Grown-ups', talks about stepping outside her comfort zone: 'Every crazy challenge teaches you something you didn\u2019t know you were capable of'",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/entertainment/kannada/kiara-advani-shares-bts-glimpse-from-yashs-toxic-a-fairy-tale-for-grown-ups-talks-about-stepping-outside-her-comfort-zone-every-crazy-challenge-teaches-you-something-you-didnt-know-you-were-capable-of/articleshow/133342251.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133342271/133342271.jpg",
             "source": "toi"
         },
         {
-            "title": "Park Eun Bin's Extraordinary Attorney Woo K-drama to get Japanese remake with Ashida Mana and Takahashi Fumiya as leads",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/entertainment/web-series/park-eun-bin-extraordinary-attorney-woo-kdrama-to-get-japanese-remake-with-ashida-mana-and-takahashi-fumiya-as-leads-101787119320905.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/19/1600x900/logo/Ashida_1787121153798_1787121158679_8ced538e-44c8-4fc7-bb7c-ccd7b0edd66a.jpg",
-            "source": "hindustantimes"
+            "title": "Former Takenaka manager arrested for breach of trust over Osaka Expo project",
+            "severity": "HIGH",
+            "url": "https://www.japantimes.co.jp/news/2026/08/19/japan/crime-legal/takenaka-manager-arrest-osaka-expo-grand-ring/",
+            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/08/19/558366.jpg",
+            "source": "japantimes"
         },
         {
-            "title": "Trump aide Natalie Harp\u2019s brother reacts to report she climbed into SUV trunk to accompany President; recalls her letter to George Bush",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/trump-aide-natalie-harps-brother-reacts-to-report-she-climbed-into-suv-trunk-to-accompany-president-recalls-her-letter-to-george-bush/articleshow/133339275.cms",
-            "image": "https://img.etimg.com/thumb/msid-133339818,resizemode-4,width-1200,height-900,imgsize-91212,overlay-economictimes/articleshow.jpg",
+            "title": "Lagos govt fires Ola of Lagos, others following controversial video",
+            "severity": "HIGH",
+            "url": "https://www.legit.ng/entertainment/celebrities/1725991-car-spotting-lagos-govt-fires-ola-lagos-controversial-video/",
+            "image": "https://cdn.legit.ng/images/1200x675/bd342d225316b7bb.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "In 2014, California buried an abandoned airfield under 5.8 million cubic yards of harbor mud, then opened 998 acres to the tides",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/us/in-2014-california-buried-an-abandoned-airfield-under-5-8-million-cubic-yards-of-harbor-mud-then-opened-998-acres-to-the-tides/articleshow/133321207.cms",
+            "image": "https://img.etimg.com/thumb/msid-133321270,resizemode-4,width-1200,height-900,imgsize-1939397,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Was record producer Terry Melcher Charles Manson's intended target? Their connection in focus as new Netflix doc streams",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/entertainment/web-series/was-record-producer-terry-melcher-charles-mansons-intended-target-their-connection-in-focus-as-new-netflix-doc-streams-101787120722127.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/19/1600x900/logo/Screenshot_2026-08-19_120254_1787121196790_1787121201557_1e7d49a4-767c-4984-918f-3e6129eaf060.png",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Former deputy labour minister faces trial over alleged bribery scheme",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/19/former-deputy-labour-minister-faces-trial-over-alleged-bribery-scheme",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/19/4067207.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "K'taka FDA seizes spurious drugs worth \u20b94.91 crore",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/bengaluru-news/ktaka-fda-seizes-spurious-drugs-worth-rs-4-91-crore-101787121394068.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/01/27/1600x900/logo/ht-generic_cities1_1769511807303_1769511865290.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Where are Portugal's priciest homes? Cascais leads with prices of \u20ac4.35 million",
-            "severity": "WATCH",
-            "url": "http://www.euronews.com/business/2026/08/19/where-are-portugals-priciest-homes-cascais-leads-with-prices-of-435-million",
-            "image": "https://images.euronews.com/articles/stories/09/87/81/20/1440x810_cmsv2_ce05a83d-7c35-57e3-aba6-06eb657f8234-9878120.jpg",
-            "source": "euronews"
-        },
-        {
-            "title": "Inflation rises to 2.9% as gas prices soar in fresh headache for Andy Burnham",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-16063101/Inflation-rises-gas-prices-soar-Andy-Burnham.html",
-            "image": "https://i.dailymail.com/1s/2026/08/19/07/110721685-0-image-m-11_1787119462304.jpg",
+            "title": "Bird strike blamed after Ryanair passenger sucked through window at 20,000ft - but just how dangerous are they to flights? Experts reveal the risks",
+            "severity": "MEDIUM",
+            "url": "https://www.dailymail.com/travel/article-16060433/bird-strikes-dangerous-flights-planes-ryanair-window.html",
+            "image": "https://i.dailymail.com/1s/2026/08/18/12/110702623-0-image-a-5_1787051986625.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Green energy powers China's \"summer retreat\" amid inbound tourism boom",
-            "severity": "WATCH",
-            "url": "https://en.people.cn/n3/2026/0819/c90000-20490035.html",
-            "image": "https://images.pexels.com/photos/5833772/pexels-photo-5833772.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "en_people_cn"
+            "title": "Sen. Sullivan, former US Rep Peltola begin Alaska US Senate campaign after advancing from primary",
+            "severity": "MEDIUM",
+            "url": "https://www.beaumontenterprise.com/news/politics/article/sen-sullivan-former-us-rep-peltola-begin-alaska-22394281.php",
+            "image": "https://s.hdnux.com/photos/01/67/07/34/31225632/3/square_large.jpg",
+            "source": "beaumontenterprise"
         },
         {
-            "title": "Erin Patterson appeals 3 murder convictions in Australia over death cap mushroom lunch",
-            "severity": "WATCH",
-            "url": "https://abcnews.com/International/wireStory/erin-patterson-appeals-3-murder-convictions-australia-death-135760199",
-            "image": "https://s.abcnews.com/images/International/wirestory_3caa5f3f9aaca357b045e4f8462c5a2b_4x3_384.jpg",
-            "source": "abcnews"
+            "title": "Raaka Director Atlee Reviews Christopher Nolan's The Odyssey - Urges Fans To Watch, 'Let Film Take Over You'",
+            "severity": "MEDIUM",
+            "url": "https://www.timesnownews.com/entertainment-news/south/raaka-director-atlee-reviews-christopher-nolan-the-odyssey-urges-fans-to-watch-let-film-take-over-you-article-155776079",
+            "image": "https://images.timesnownews.com/thumb/msid-155777060,thumbsize-58946,width-1280,height-720,resizemode-75/155777060.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "Half-Yearly Financial Report for the six months to 30 June 2026",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/08/19/3347409/0/en/half-yearly-financial-report-for-the-six-months-to-30-june-2026.html",
-            "image": "https://images.pexels.com/photos/18959222/pexels-photo-18959222.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "title": "Supreme Court Demands Fresh Affidavit On NTA Reforms, Foolproof Exam, Radhakrishnan Proposals",
+            "severity": "MEDIUM",
+            "url": "https://www.ndtv.com/education/supreme-court-demands-fresh-affidavit-on-nta-reforms-foolproof-exam-radhakrishnan-recommendations-11929965",
+            "image": "https://c.ndtvimg.com/2022-10/tthv9vd8_supreme-court-india-generic-pti_625x300_10_October_22.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
         },
         {
-            "title": "Australian mushroom murderer Erin Patterson begins appeal against sentence",
+            "title": "Mary Peltola's Chances of Beating Dan Sullivan to Flip Alaska Senate Seat",
             "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/australian-mushroom-murderer-erin-patterson-003718075.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/150afeec82b96c8edfb05d7e98a23e7e5f1e6917dc328e2c1a7c8ecc4d4736fe/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fcv%2Fapiv2%2Fsocial%2Fimages%2Fyahoo_default_logo-1200x1200.png",
+            "url": "https://www.newsweek.com/mary-peltola-chances-beating-dan-sullivan-flip-alaska-senate-seat-12337111",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/08/Copy-of-32-Split-Screen-61.png?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Laos identifies two new rare earth target areas across four provinces",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/19/laos-identifies-two-new-rare-earth-target-areas-across-four-provinces",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/19/4067478.png",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Rahul Gandhi backs tribal Satyagraha against Ken-Betwa River Link",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/india/rahul-gandhi-backs-tribal-satyagraha-against-ken-betwa-river-link-articleshow-i1u1860",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-4dc83654-1d98-4b03-9efb-e1484981929c.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Cluster-based strategy can boost West Bengal's industry: PHDCCI",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/business/cluster-based-strategy-can-boost-west-bengal-s-industry-phdcci-articleshow-n7v1lp6",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-57356345-0713-463d-94b7-95d2a619e4b7.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Union Health Minister JP Nadda discharged from AIIMS after angioplasty",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/india/union-health-minister-jp-nadda-discharged-from-aiims-after-angioplasty-articleshow-hnmy1g8",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-e673f565-5c96-45e9-aec5-212b1bcb8ba1.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Indonesia shares lower at close of trade; Jakarta Stock Exchange Composite down 0.66%",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/stock-market-news/indonesia-shares-lower-at-close-of-trade-jakarta-stock-exchange-composite-down-066-4838348",
+            "image": "https://content-media.investing.com/news/LYNXNPEE850IL_M.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Treasury yields pull back from multi-decade highs ahead of FOMC minutes",
+            "severity": "WATCH",
+            "url": "https://www.cnbc.com/2026/08/19/treasury-yields-multi-decade-highs-bonds-inflation.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/100684995-20130419-0375-121.jpg?v=1367252484&w=1200&h=675",
+            "source": "cnbc"
+        },
+        {
+            "title": "DEA opens global summit in Argentina with calls for greater cooperation against drug trafficking",
+            "severity": "WATCH",
+            "url": "https://english.elpais.com/international/2026-08-19/dea-opens-its-global-summit-in-argentina-with-calls-for-greater-cooperation-against-drug-trafficking.html",
+            "image": "https://images.english.elpais.com/resizer/v2/UOCDIUR3TRGPHERGYCW72X3RV4.jpeg?auth=ba563726f18cbac1e01ac1bcc9eabe1bab03eb19a2513c867a2eae3919b97015",
+            "source": "elpais"
+        },
+        {
+            "title": "Stuck between antisemitism and anti-Zionism, sense wins out in Florida primaries - comment",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/opinion/article-905975",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734534",
+            "source": "jpost"
+        },
+        {
+            "title": "Girls' flag football: Tuesday's scores",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/girls-flag-football-tuesdays-scores-083209620.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/512d40a7bcb0c295dfc900f1114d9d0ace665506f12d079bc8428763a511aaa5/lightyear_networkapi/resizefit_w840_h560%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fla_times_articles_853%2F3f354c58f0a9cd90dce47f88d7ff0aec.jpg",
             "source": "yahoo"
         },
         {
-            "title": "'He would get corruption done': Maliwal targets Kejriwal after Satyendar Jain's arrest",
+            "title": "Byron Donalds may win FL governor. It's a bigger win for GOP. | Opinion",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/india/he-would-get-corruption-done-swati-maliwal-targets-kejriwal-after-satyendar-jains-arrest/articleshow/133338584.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133338672/133338672.jpg",
-            "source": "toi"
+            "url": "https://www.usatoday.com/story/opinion/columnist/2026/08/19/florida-primary-byron-donalds-republican-governor/91337680007/",
+            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/19/USAT/91363025007-20260814-t-203715-z-74744476-rc-2-kymajgu-5-a-rtrmadp-3-spaceexpo.JPG?crop=6402,3604,x0,y0&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "usatoday"
+        },
+        {
+            "title": "China's railways handle 2.35 bln tonnes of cargo in Jan.-July",
+            "severity": "WATCH",
+            "url": "https://en.people.cn/n3/2026/0819/c90000-20490219.html",
+            "image": "https://images.pexels.com/photos/586112/pexels-photo-586112.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "en_people_cn"
+        },
+        {
+            "title": "Wishtree Technologies joins Anthropic\u2019s Claude Partner Network to advance enterprise AI delivery",
+            "severity": "WATCH",
+            "url": "https://salestechstar.com/partner-management-channel-enablement/wishtree-technologies-joins-anthropics-claude-partner-network-to-advance-enterprise-ai-delivery/",
+            "image": "https://salestechstar.com/wp-content/uploads/2026/08/SalesTech-Series-6-6.jpg",
+            "source": "salestechstar"
+        },
+        {
+            "title": "Skills remain key as Asia hiring outlook cools in third quarter",
+            "severity": "WATCH",
+            "url": "https://www.bangkokpost.com/business/general/3304424/skills-remain-key-as-asia-hiring-outlook-cools-in-third-quarter",
+            "image": "https://static.bangkokpost.com/media/content/20260819/c1_3304424_260819152552.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "EPMB opens new Tanjong Malim facility to produce Proton components",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/08/19/epmb-opens-new-tanjong-malim-facility-to-produce-proton-components",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/19/4067434.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "US, Japan, Germany Bond Yields Hit Multi-Year Highs: Here's Why It Matters for Indian Investors",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/business/markets/us-japan-germany-bond-yields-hit-multi-year-highs-heres-why-it-matters-for-indian-investors-ws-l-10281523.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/05/us-bond-yield-2026-05-a9569de971a82df2c5d73f5e5ff79498-1200x800.png",
+            "source": "news18"
+        },
+        {
+            "title": "Asking Eric: My friend\u2019s son is almost 40, but he\u2019s too anxious to get a job",
+            "severity": "WATCH",
+            "url": "https://www.adn.com/alaska-life/advice/2026/08/19/asking-eric-my-friends-son-is-almost-40-but-hes-too-anxious-to-get-a-job/",
+            "image": "https://www.adn.com/resizer/FZa8e37AGKK3ccfK-gzeP1zmI2k=/cloudfront-us-east-1.images.arcpublishing.com/adn/6CKS7ITAGFBOZDKAODQRBN2LJM.jpg",
+            "source": "adn"
+        },
+        {
+            "title": "Earnings call transcript: FACC lifts 2026 outlook on stronger H1 results",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-facc-lifts-2026-outlook-on-stronger-h1-results-93CH-4838336",
+            "image": "https://content-media.investing.com/news/LYNXNPEB6208D_M.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "The Catalog Of 2026 Bulldog Narratives",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/catalog-2026-bulldog-narratives-083000239.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/0c2df9cae5a4fba867181d930bf5621165a20a2f96599dd1bf8eff8e2e9444e2/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F6a6033200c164e4ee0d45c146f015dc8.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "15 Years Ago, A Remake Featuring a Fan-Favorite DC Star Bombed at the Box Office",
+            "severity": "WATCH",
+            "url": "https://comicbook.com/movies/feature/15-years-ago-a-remake-featuring-a-fan-favorite-dc-star-bombed-at-the-box-office/",
+            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/08/Jason-Momoa-in-the-poster-of-Conan-the-Barbarian-2011.jpg",
+            "source": "comicbook"
+        },
+        {
+            "title": "India vs Sri Lanka: Manav Suthar stars as India takes 1-0 lead with 165-run win",
+            "severity": "WATCH",
+            "url": "https://sportstar.thehindu.com/cricket/india-vs-sri-lanka-1st-test-manav-suthar-six-wickets-india-win-galle/article71364024.ece",
+            "image": "https://ss-i.thgim.com/public/incoming/lvq8qr/article71364030.ece/alternates/LANDSCAPE_1200/AFP_C4YV66J.jpg",
+            "source": "sportstar"
+        },
+        {
+            "title": "Delhi HC to hear on Sep 2 India Kanoon's pleas against single judge's 'right to be forgotten' order",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/delhi-hc-to-hear-on-sep-2-india-kanoon-s-pleas-against-single-judge-s-right-to-be-forgotten-order-101787128244030.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2025/08/06/1600x900/logo/Untitled_design_1754465014585_1754465103581.png",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Your old phone number still opens your accounts",
+            "severity": "WATCH",
+            "url": "https://www.notebookcheck.net/Your-old-phone-number-still-opens-your-accounts.1371059.0.html",
+            "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/alte-handynummer-sim-karte-teaser.jpg",
+            "source": "notebookcheck"
+        },
+        {
+            "title": "Australia mushroom killer Erin Patterson appeals 3 murder convictions after poisoning elderly relatives",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/08/19/world-news/australia-mushroom-killer-erin-patterson-appeals-3-murder-convictions-after-poisoning-elderly-relatives/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2Fconvicted-triple-murderer-erin-patterson-137855408.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "NEET-UG paper leak: Supreme Court asks NTA about taken on inquiry committees\u2019 recommendations",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/news/national/neet-ug-paper-leak-supreme-court-asks-nta-about-taken-on-inquiry-committees-recommendations/article71363878.ece",
+            "image": "https://th-i.thgim.com/public/incoming/s3nu0r/article71363905.ece/alternates/FREE_1200/Nearby_Shape-wiGR7FV5KAC.3.jpg.jpg",
+            "source": "thehindu"
         }
     ],
-    "Last_Updated": "2026-08-19T18:41:57.428103Z"
+    "Last_Updated": "2026-08-19T20:34:22.993090Z"
 }
