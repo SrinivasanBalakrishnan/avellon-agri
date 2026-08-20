@@ -1,56 +1,126 @@
 {
-    "AGRI_Score": 63.0,
-    "Velocity": "-0.4",
-    "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.0 signifies a moderately high-risk environment, propelled by severe geopolitical conflict and pronounced energy market vulnerabilities. The ongoing \"Russia-Ukraine war: Russian missile strikes kill 9 in Kyiv\" exemplifies persistent global instability, while an \"'Unusual Airlift': China, Tu\u0308rkiye's 60-Hour Military Surge In Pakistan\" signals rising regional tensions. Further exacerbating this is the direct threat to energy flows, as indicated by \"Malaysia affected by Strait of Hormuz issue,\" contributing to an overall elevated risk profile.",
+    "AGRI_Score": 64.9,
+    "Velocity": "+1.9",
+    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) remains significantly elevated at 64.9, primarily driven by intense geopolitical conflict and severe energy market disruptions. Escalating military actions, evidenced by \"North Korea fires a suspected missile toward the sea\" and \"Russian Strikes On Kyiv Kill At Least 12,\" underscore a highly volatile security landscape. Concurrently, the \"fuel crisis worsens\" in Russia, where petrol is unavailable at seven in 10 stations, coupled with \"Oil prices rise as Trump sharpens Iran rhetoric,\" highlights acute energy supply challenges and price sensitivity to global tensions. These interconnected factors are the main contributors to the current high-risk assessment.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 73.3,
+        "Geopolitical Conflict Intensity": 81.8,
         "Energy & Maritime Disruption": 80.4,
-        "Trade & Supply Chain Stress": 63.2,
+        "Trade & Supply Chain Stress": 72.4,
         "Sovereign Financial Stress": 57.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 62.0,
-        "Cyber & Infrastructure Threats": 62.5,
+        "Sanctions & Regulatory Fragmentation": 58.5,
+        "Cyber & Infrastructure Threats": 58.8,
         "Climate & Resource Shock": 45
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to active conflicts and escalating regional tensions across multiple theaters. \"Russia-Ukraine war: Russian missile strikes kill 9 in Kyiv, dozens wounded\" demonstrates persistent direct hostilities, while \"oPt: West Bank: Israel-Backed Settler Violence Drives Displacement\" highlights ongoing strife in the Middle East.",
-        "Energy & Maritime Disruption": "This pillar reflects significant stress, driven by critical maritime chokepoint vulnerabilities and market tightness. \"Malaysia affected by Strait of Hormuz issue\" underscores potential disruptions to vital energy shipping lanes, and \"$100 Diesel Cracks Signal a Much Tighter Oil Market Than Brent Suggests\" indicates underlying supply-demand imbalances.",
-        "Trade & Supply Chain Stress": "This pillar indicates moderate concerns, influenced by potential disruptions to global shipping and inflationary pressures impacting consumer purchasing power. While the \"Strait of Hormuz issue\" primarily affects energy, it poses broader maritime trade risks, and \"Retail inflation may briefly cross 6% in October-November\" suggests economic conditions that can strain supply chains.",
-        "Sovereign Financial Stress": "This pillar reflects a moderate level of concern, with rising inflation posing a significant challenge to national economic stability and planning. \"Retail inflation may briefly cross 6% in October-November\" indicates sustained inflationary pressures that can impact sovereign debt servicing and public finances.",
-        "Currency & Liquidity Pressure": "This pillar registers a relatively lower level of immediate concern, yet underlying economic trends warrant continued observation. While direct headlines on currency crises are absent, persistent \"Retail inflation may briefly cross 6%\" could indirectly influence future monetary policy and currency valuations.",
-        "Sanctions & Regulatory Fragmentation": "This pillar exhibits moderate risk, primarily due to the prospect of new economic restrictions and evolving international trade regulations. Discussions surrounding \"Trump\u2019s \u2018Economic D-Day\u2019 against Iran\" highlight the potential for significant new sanctions that could reshape global economic interactions.",
-        "Cyber & Infrastructure Threats": "This pillar reflects a growing and persistent threat landscape, particularly with the increasing sophistication of cyber-attacks in the age of AI. \"Hexaware Introduces Zero Vulnerability as AI Raises the Pressure on Enterprise Remediation\" underscores the escalating challenge of protecting enterprise systems.",
-        "Climate & Resource Shock": "This pillar maintains a lower level of immediate shock, though historical and ongoing resource degradation issues remain a concern. The 2006 event where \"Oregon treated 2,824-acre Diamond Lake with rotenone after invasive tui chub caused its trout fishery to collapse\" serves as a reminder of specific environmental and resource shocks."
+        "Geopolitical Conflict Intensity": "Active conflict and military posturing continue to drive extreme risk, with \"Russian Strikes On Kyiv Kill At Least 12\" and repeated missile launches by North Korea, as reported by \"North Korea fires a suspected missile toward the sea, Japan says\" and \"South Korea says North Korea fires about 10 short-range ballistic missiles.\" Elevated regional tensions and military buildups, including discussions around \"India's warship stealth tech\" and \"Iran War Is Forcing America To Build 1,000 Tomahawks A Year?\", indicate a deeply unstable security environment.",
+        "Energy & Maritime Disruption": "Significant energy supply disruptions are evident, with \"Russia runs out of petrol at seven in 10 stations as fuel crisis worsens\" pointing to a severe internal fuel crisis in a major energy producer. Global oil markets remain sensitive to geopolitical rhetoric, as shown by \"Oil prices rise as Trump sharpens Iran rhetoric amid talks impasse,\" further complicating energy security outlooks.",
+        "Trade & Supply Chain Stress": "Supply chain integrity is under considerable scrutiny, particularly with warnings that \"Chinese-made drones used by troops pose severe information security risks,\" highlighting vulnerabilities in critical technological components. The report of \"Karnataka Health Minister Appeals Public To Help Expose Fake Medicine Networks\" also points to fundamental issues in supply chain transparency and regulatory oversight for essential goods.",
+        "Sovereign Financial Stress": "Inflationary pressures remain a key concern for sovereign financial stability, with forecasts indicating \"Retail inflation may briefly cross 6% in October-November\" which can strain government budgets and necessitate policy responses. Geopolitical developments, such as \"Iran's Defeat by Trump in 3 Devastating Charts,\" suggest continued external economic pressure on certain states, impacting their financial resilience.",
+        "Currency & Liquidity Pressure": "Rising \"Retail inflation may briefly cross 6% in October-November\" poses a significant threat to currency purchasing power and could prompt central bank interventions impacting liquidity conditions. Geopolitical tensions, particularly those affecting key commodities like oil as seen with \"Oil prices rise as Trump sharpens Iran rhetoric,\" have the potential to directly influence trade balances and currency valuations.",
+        "Sanctions & Regulatory Fragmentation": "The enduring impact of past geopolitical strategies, described in \"Iran's Defeat by Trump in 3 Devastating Charts,\" illustrates the long-term effects of sanctions on national economies and international relations. Furthermore, diplomatic exchanges like \"China says U.S. transshipment report disregards facts\" indicate ongoing disagreements over trade policies and regulatory interpretations, contributing to fragmentation.",
+        "Cyber & Infrastructure Threats": "Critical infrastructure and information systems face persistent threats, exemplified by warnings that \"Chinese-made drones used by troops pose severe information security risks\" due to potential data exploitation. Physical infrastructure remains highly vulnerable in conflict zones, with \"Russian Strikes On Kyiv Kill At Least 12\" demonstrating the direct and devastating impact on urban centers and utilities.",
+        "Climate & Resource Shock": "While not reflecting immediate shocks, ongoing environmental challenges are highlighted by \"Burnham announces plans to clean up illegal waste dumps,\" indicating existing pollution and resource management issues that require attention. Risk monitoring for future climate-related events and resource scarcity remains a routine monitoring activity."
     },
     "All_Alerts": [
         {
-            "title": "Rising UK consumer confidence gives Andy Burnham \u2018golden opportunity,\u2019 survey says \u2013 business live",
+            "title": "Burnham announces plans to clean up illegal waste dumps \u2013 UK politics live",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/business/live/2026/aug/20/rising-uk-consumer-confidence-economy-andy-burnham-latest-news-updates",
-            "image": "https://i.guim.co.uk/img/media/4774e078bfdbb0a6ae5ebe8ca8b483903c7295b3/126_0_3780_3024/master/3780.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=59cf427befdf7471251aa9748c477001",
+            "url": "https://www.theguardian.com/politics/live/2026/aug/20/andy-burnham-illegal-waste-dumps-labour-reform-conservatives-latest-news-updates",
+            "image": "https://i.guim.co.uk/img/media/ad499d47c68c875b5490489b1a95bb31e9e8db89/572_0_2869_2295/master/2869.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=1140ebdeedbc3932d6901c6d59ac6946",
             "source": "theguardian"
         },
         {
-            "title": "Malaysia affected by Strait of Hormuz issue, but not as severely as countries without oil & gasm, says Johari",
+            "title": "Explained: Why Japan's Defence Minister is in Delhi & what it means for India's warship stealth tech",
             "severity": "HIGH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/08/20/malaysia-affected-by-strait-of-hormuz-issue-but-not-as-severely-as-countries-without-oil--gasm-says-johari",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/20/4069156.jpg",
-            "source": "thestar_my"
+            "url": "https://zeenews.india.com/world/india-japan-defence-koizumi-unicorn-warship-stealth-technology-3067446.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/08/20/1974545-explainer.jpg.jpeg",
+            "source": "zeenews"
         },
         {
-            "title": "Trump\u2019s \u2018Economic D-Day\u2019 against Iran: What is his sanctions plan and will it work?",
+            "title": "Chinese-made drones used by troops pose severe information security risks, IDF officals warn",
             "severity": "HIGH",
-            "url": "https://www.firstpost.com/explainers/trumps-economic-d-day-against-iran-what-is-his-sanctions-plan-will-it-work-14039448.html",
-            "image": "https://images.firstpost.com/uploads/2026/08/Tehran-Aug-13-2026-WANA-2026-08-d8942e4b43e65fa1b9ffcc2354b6337e-1200x675.jpg",
+            "url": "https://www.jpost.com/israel-news/defense-news/article-906077",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734621",
+            "source": "jpost"
+        },
+        {
+            "title": "North Korea fires a suspected missile toward the sea, Japan says",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com/news/world/asia/north-korea-fires-an-unidentified-projectile-off-its-east-coast-south-korea-says/article_7bd1d372-aa69-5f5b-a82a-e248e55dcf51.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/6/b7/6b7851d5-1a16-5c8a-8664-3718b33f4ce1/6a86bc360dcbe.image.jpg?resize=300%2C200",
+            "source": "thestar"
+        },
+        {
+            "title": "Russian Strikes On Kyiv Kill At Least 12, Injure More Than 30",
+            "severity": "HIGH",
+            "url": "https://news.abplive.com/news/world/russia-ukraine-war-russian-strikes-on-kyiv-kill-at-least-12-injure-more-than-30-1863021",
+            "image": "https://feeds.abplive.com/images/dw/78438019_607.jpg",
+            "source": "abplive"
+        },
+        {
+            "title": "South Korea says North Korea fires about 10 short-range ballistic missiles toward the sea",
+            "severity": "HIGH",
+            "url": "https://www.clickondetroit.com/news/world/2026/08/20/north-korea-fires-a-suspected-missile-toward-the-sea-japan-says/",
+            "image": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/SJOJWQACIVFFVB7OOQNXMF36ZA.jpg",
+            "source": "clickondetroit"
+        },
+        {
+            "title": "From AI strategy to enterprise execution: The leaders shaping India\u2019s AI transformation",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/industry/services/education/from-ai-strategy-to-enterprise-execution-the-leaders-shaping-indias-ai-transformation/articleshow/133370822.cms",
+            "image": "https://img.etimg.com/thumb/msid-133371026,resizemode-4,width-1200,height-900,imgsize-164230,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Federal cabinet approves drafts of two bills related to military command structure",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/2024107/federal-cabinet-approves-drafts-of-two-bills-related-to-military-command-structure",
+            "image": "https://i.dawn.com/large/2026/08/201328215d13c6f.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "Karnataka Health Minister Appeals Public To Help Expose Fake Medicine Networks",
+            "severity": "HIGH",
+            "url": "https://www.ndtv.com/health/ktaka-govt-urges-public-to-report-fake-medicine-networks-announces-reward-for-leads-11934794",
+            "image": "https://c.ndtvimg.com/2026-08/cchbihjs_ktaka-health-minister_625x300_20_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "Iran's Defeat by Trump in 3 Devastating Charts\u2014and What Happens Next",
+            "severity": "HIGH",
+            "url": "https://www.newsweek.com/iran-trump-war-economy-charts-rial-usd-oil-12341288",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/08/AP26223799560151.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Russia runs out of petrol at seven in 10 stations as fuel crisis worsens",
+            "severity": "HIGH",
+            "url": "http://www.euronews.com/2026/08/20/russia-runs-out-of-petrol-at-seven-in-10-stations-as-fuel-crisis-worsens",
+            "image": "https://images.euronews.com/articles/stories/09/88/07/39/1440x810_cmsv2_828a9d1d-cc10-5005-b156-f3f466e5ed20-9880739.jpg",
+            "source": "euronews"
+        },
+        {
+            "title": "Iran War Is Forcing America To Build 1,000 Tomahawks A Year?",
+            "severity": "HIGH",
+            "url": "https://interestingengineering.com/videos/iran-war-is-forcing-america-to-build-1000-tomahawks-a-year",
+            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/08/1-2_97ecda.png",
+            "source": "interestingengineering"
+        },
+        {
+            "title": "As world adopts drones, US Army scraps top drone & robot warfare unit",
+            "severity": "HIGH",
+            "url": "https://www.firstpost.com/world/as-world-adopts-drones-us-army-scraps-top-drone-robot-warfare-unit-14039515.html",
+            "image": "https://images.firstpost.com/uploads/2026/08/Firstpost-2026-08-14T120504.339-2026-08-05b8d4a08b11990af54ffe22cfbdc5f4.jpg",
             "source": "firstpost"
         },
         {
-            "title": "'Unusual Airlift': China, Tu\u0308rkiye's 60-Hour Military Surge In Pakistan Puts India On Alert | Exclusive",
+            "title": "RTB awards \u20ac6,500 in damages to tenant after \u2018traumatic\u2019 incident",
             "severity": "HIGH",
-            "url": "https://www.news18.com/world/unusual-airlift-china-turkiyes-60-hour-military-surge-in-pakistan-puts-india-on-alert-exclusive-ws-l-10283581.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/08/pct-2026-08-9bbfc767a1b4542ac99fd13125527357-1200x800.jpg",
-            "source": "news18"
+            "url": "https://www.irishtimes.com/ireland/housing-planning/2026/08/20/rtb-awards-6500-in-damages-to-tenant-after-traumatic-incident/",
+            "image": "https://www.irishtimes.com/resizer/v2/O5HLTKSZKVH43GBQKL2D3NCRKI.JPG?auth=78f044cb72ee3ac493573c4aa2805df49fdbc3c09db7552d9c2f30e5775f62cd&smart=true&width=630&height=350",
+            "source": "irishtimes"
         },
         {
             "title": "Retail inflation may briefly cross 6% in October-November before easing in Q4 FY27",
@@ -60,179 +130,172 @@
             "source": "firstpost"
         },
         {
-            "title": "In 2006, Oregon treated 2,824-acre Diamond Lake with rotenone after invasive tui chub caused its trout fishery to collapse",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/science/in-2006-oregon-poured-rotenone-into-2824-acre-diamond-lake-an-estimated-90-million-invasive-fish-disappeared-and-its-collapsed-trout-fishery-reopened/articleshow/133347476.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133347715/133347715.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "\u2018Operation Safed Sagar\u2019 makers reveal why late comedian Raju Srivastav gets special credit in Jimmy Shergill and Siddharth-starrer war series",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/web-series/news/hindi/operation-safed-sagar-makers-reveal-why-late-comedian-raju-srivastav-gets-special-credit-in-jimmy-shergill-and-siddharth-starrer-war-series/articleshow/133366649.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133366670/133366670.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "North Korea\u2019s Kim Jong-Un has 80-120 nuclear weapons, says South Korea",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/world/north-korea-kim-jong-un-has-80-120-nuclear-weapons-says-south-korea-14039477.html",
-            "image": "https://images.firstpost.com/uploads/2026/08/Firstpost-2026-08-20T120437.117-2026-08-9c6a1d520fcdd0e39e2cb282992f308c.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Russia-Ukraine war: Russian missile strikes kill 9 in Kyiv, dozens wounded",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/world/russia-ukraine-war-russian-missile-strikes-kill-9-in-kyiv-dozens-wounded-14039468.html",
-            "image": "https://images.firstpost.com/uploads/2026/08/2026-08-20T045132Z_1_LYNXMPEM7J087_RTROPTP_4_UKRAINE-CRISIS-ATTACK-KYIV-2026-08-4c16a70456f8169fd9cf7e92e13db664-1200x675.jpg",
-            "source": "firstpost"
-        },
-        {
             "title": "oPt: West Bank: Israel-Backed Settler Violence Drives Displacement [EN/AR]",
             "severity": "HIGH",
             "url": "https://reliefweb.int/report/occupied-palestinian-territory/west-bank-israel-backed-settler-violence-drives-displacement-enar",
-            "image": "https://images.pexels.com/photos/3866816/pexels-photo-3866816.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "image": "https://images.pexels.com/photos/6077325/pexels-photo-6077325.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "reliefweb"
         },
         {
-            "title": "Hexaware Introduces Zero Vulnerability as AI Raises the Pressure on Enterprise Remediation",
-            "severity": "HIGH",
-            "url": "https://www.fmlive.in/hexaware-introduces-zero-vulnerability-as-ai-raises-the-pressure-on-enterprise-remediation/",
-            "image": "https://www.fmlive.in/wp-content/uploads/2026/08/Hexaware-Blue-Logo.jpg",
-            "source": "fmlive_in"
-        },
-        {
-            "title": "'Time traveller' from 2118 explains horrors coming for humanity in future",
-            "severity": "HIGH",
-            "url": "https://www.dailystar.co.uk/news/weird-news/time-traveller-2118-explains-horrors-37563685",
-            "image": "https://i2-prod.dailystar.co.uk/news/weird-news/article37563683.ece/ALTERNATES/s615/0_Time-traveller-claim-Alexander-Smith-on-Apex-TV.jpg",
-            "source": "dailystar"
-        },
-        {
-            "title": "\u2018We\u2019ve industrialised finding flaws, but fixing them remains cottage industry\u2019: Tech leader on cybersecurity in AI age",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/tech/we-have-industrialised-finding-flaws-but-fixing-them-remains-cottage-industry-aionos-cto-arjun-nagulapally-on-cybersecurity-in-ai-age-14039341.html",
-            "image": "https://images.firstpost.com/uploads/2026/08/Firstpost-2026-08-20T104738.751-2026-08-58609944fe2a2d2f24fd761e98760533.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Kashmir remarks by US envoy to India anger Pakistan",
+            "title": "Oil prices rise as Trump sharpens Iran rhetoric amid talks impasse",
             "severity": "MEDIUM",
-            "url": "https://www.bangkokpost.com/world/3305027/kashmir-remarks-by-us-envoy-to-india-anger-pakistan",
-            "image": "https://static.bangkokpost.com/media/content/20260820/c1_6195842.jpg",
-            "source": "bangkokpost"
+            "url": "https://www.cnbc.com/2026/08/20/oil-prices-brent-wti-hormuz-trump.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108347821-1786452090144-gettyimages-2289259661-img_8455.jpeg?v=1786452116&w=1200&h=675",
+            "source": "cnbc"
         },
         {
-            "title": "US India ambassador's Kashmir remarks rile Pakistan; envoy summoned",
+            "title": "China says U.S. transshipment report disregards facts",
             "severity": "MEDIUM",
-            "url": "https://www.bangkokpost.com/world/3305027/us-india-ambassadors-kashmir-remarks-rile-pakistan-envoy-summoned",
-            "image": "https://static.bangkokpost.com/media/content/20260820/c1_6195842.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Bangladesh holds presidential election in first contested vote in 35 years",
-            "severity": "MEDIUM",
-            "url": "https://www.aljazeera.com/news/2026/8/20/bangladesh-holds-presidential-election-in-first-contested-vote-in-35-years",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/GettyImages-2261588649-1787206520.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Australia agrees to sell uranium to India, ending a long stalemate",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/world/asia/india/australia-agrees-to-sell-uranium-to-india-ending-a-long-stalemate-1.500602010",
-            "image": "https://media.assettype.com/gulfnews/2026-07-09/rc6sh6hs/preview.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "Mom Insults Her Abandoned Son, Then Has The Nerve To Try And Dig Her Claws Into His Inheritance",
-            "severity": "WATCH",
-            "url": "https://www.boredpanda.com/entitled-mom-demands-sons-inheritance/",
-            "image": "https://static.boredpanda.com/blog/wp-content/uploads/2026/08/entitled-mom-demands-sons-inheritance-fb.jpg",
-            "source": "boredpanda"
-        },
-        {
-            "title": "$100 Diesel Cracks Signal a Much Tighter Oil Market Than Brent Suggests",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/analysis/100-diesel-cracks-signal-a-much-tighter-oil-market-than-brent-suggests-200616267",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Vedanta Shares Surge After Company\u2019s Net-Zero Investments Cross $1 Billion",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/business-economy/markets/vedanta-shares-surge-after-companys-net-zero-investments-cross-1-billion-article-155805886",
-            "image": "https://images.timesnownews.com/thumb/msid-155805842,thumbsize-36566,width-1280,height-720,resizemode-75/155805842.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Earnings call transcript: Mayr-Melnhof lifts profit target in H1 2026",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-mayrmelnhof-lifts-profit-target-in-h1-2026-93CH-4840280",
-            "image": "https://content-media.investing.com/news/LYNXMPEB230DM_M.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "'Fake' Ram Mandir prasad on Amazon, fined",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/new-updates/ladoos-pedas-sold-as-ayodhya-ram-mandir-prasad-found-fake-consumer-body-fines-amazon-for-misleading-ads-says-devotees-religious-sentiments-exploited/articleshow/133366587.cms",
-            "image": "https://img.etimg.com/thumb/msid-133367122,resizemode-4,width-1200,height-900,imgsize-126369,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "NATO 3.0 rebrand is 'lipstick on a pig', says former US ambassador",
-            "severity": "WATCH",
-            "url": "http://www.euronews.com/my-europe/2026/08/20/nato-30-rebrand-is-lipstick-on-a-pig-says-former-us-ambassador",
-            "image": "https://images.euronews.com/articles/stories/09/85/73/82/1440x810_cmsv2_e41e6021-630c-52b0-9cf0-712f4171b00f-9857382.jpg",
-            "source": "euronews"
-        },
-        {
-            "title": "Japan seeks to integrate into NATO, Chinese ambassador to Russia says",
-            "severity": "WATCH",
-            "url": "https://tass.com/world/2175455",
-            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260820/1484105.jpg",
-            "source": "tass"
-        },
-        {
-            "title": "Astronomers discover fastest known star orbiting our galaxy\u2019s black hole",
-            "severity": "WATCH",
-            "url": "https://interestingengineering.com/space/s301-fastest-star-milky-way-sagittarius-a",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2025/12/Interesting-Enginnering.jpg",
-            "source": "interestingengineering"
-        },
-        {
-            "title": "'Does It Even Fix The Problem': Acko Founder On Top Court's Insurance Order",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/business-news/acko-founder-varun-dua-slam-supreme-court-order-third-party-insurance-tenure-11934354",
-            "image": "https://c.ndtvimg.com/2026-08/l9qm1ih4_acko-founder-varun-dua_625x300_20_August_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
-        },
-        {
-            "title": "Supreme Court upholds definition of \u2018industry\u2019 as per Industrial Relations Code, 2020",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/supreme-court-upholds-definition-of-industry-as-per-industrial-relations-code-2020/article71367986.ece",
-            "image": "https://th-i.thgim.com/public/incoming/exrfit/article71368007.ece/alternates/FREE_1200/12_UNNAO_RAPE_CASE_HEARING_SUPREME_COURT_29_12_DELHI.jpg",
+            "url": "https://www.thehindu.com/news/international/china-says-us-transshipment-report-disregards-facts/article71368273.ece",
+            "image": "https://th-i.thgim.com/public/incoming/cs0bck/article71368321.ece/alternates/FREE_1200/iStock-919701318.jpg",
             "source": "thehindu"
         },
         {
-            "title": "Norse Atlantic Q2 2026 slides: unit revenue hits record as fuel costs bite",
+            "title": "DPIIT inks MoU with PhonePe, Shell India to support startups",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/company-news/norse-atlantic-q2-2026-slides-unit-revenue-hits-record-as-fuel-costs-bite-93CH-4840275",
-            "image": "https://content-media.investing.com/news/LYNXMPEM380VB_1200_L.jpg",
+            "url": "https://economictimes.indiatimes.com/tech/technology/dpiit-inks-mou-with-phonepe-shell-india-to-support-startups/articleshow/133379989.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-149686,resizemode-75,msid-133379989/tech/technology/dpiit-inks-mou-with-phonepe-shell-india-to-support-startups.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Watch Yungblud crowdsurf in a wheelchair after breaking his leg",
+            "severity": "WATCH",
+            "url": "https://www.nme.com/news/music/watch-yungblud-crowdsurf-in-a-wheelchair-after-breaking-his-leg-3963757",
+            "image": "https://www.nme.com/wp-content/uploads/2026/08/yungblud-live@2000x1270.jpg",
+            "source": "nme"
+        },
+        {
+            "title": "Earnings call transcript: Ascelia Pharma rises 8.2% after FDA setback in Q2 2027",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-ascelia-pharma-rises-82-after-fda-setback-in-q2-2027-93CH-4840436",
+            "image": "https://content-media.investing.com/news/LYNXNPEB660A4_M.jpg",
             "source": "investing_uk"
         },
         {
-            "title": "How Much Is AI Contributing to US Economic Growth?",
+            "title": "Hatzivasiliou: Turkish maritime parks are illegal; it is not easy to strike a target inside Greece",
             "severity": "WATCH",
-            "url": "https://au.investing.com/analysis/how-much-is-ai-contributing-to-us-economic-growth-200616264",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
+            "url": "https://en.protothema.gr/2026/08/20/hatzivasiliou-turkish-maritime-parks-are-illegal-it-is-not-easy-to-strike-a-target-inside-greece/",
+            "image": "https://en.protothema.gr/wp-content/uploads/2026/08/xatzivasileiou-4.jpg-4.jpg",
+            "source": "protothema"
+        },
+        {
+            "title": "Coal India plans Singapore trading hub in hunt for critical minerals assets",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/companies/news/coal-india-plans-singapore-trading-hub-in-hunt-for-critical-minerals-assets-126082000553_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-07/23/full/1721673981-8128.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Here's how you can get a 15% power rebate \u2014 once the Churchill Falls deal is finalized - CBC",
+            "severity": "WATCH",
+            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYm43S2M0QTBGYS1rWGpxeDBacDI5WWI3QkxpNXpSRDhQeGE2WEh6MEtIVmhjd1J1Tmwzam0zTFJuQmR5ZEhVbVJKTXFqb3NWZW02RHZxeXJVRy1fVmh3c1JlTC1UanB5aTNGV2ZodDJLbUtGTUFvYWt2RWVCTDJrWkRtSmhISTg0NDdtLVcyQ3VlMjB2MlE?oc=5",
+            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Vande Bharat Food To Be Checked: Karnataka's Crackdown Moves From Hotels To Trains And Flights",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/india/vande-bharat-food-to-be-checked-karnatakas-crackdown-moves-from-hotels-to-trains-and-flights-ws-l-10283806.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/07/vande-bharat-train-food-white-ceramic-crockery-available-5-2026-07-a059acaf55cdbdb9115acde148fb0e66-1200x800.png",
+            "source": "news18"
+        },
+        {
+            "title": "North Korea fires an unidentified projectile off its east coast, South Korea says",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/news/north-korea-south-korea-seoul-kim-jong-un-donald-trump-b3036183.html",
+            "image": "https://static.independent.co.uk/2026/08/20/09/Koreas_US_78439.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "independentuk"
+        },
+        {
+            "title": "10 most impactful ACC transfers for 2026: Miami's new QB headlines class",
+            "severity": "WATCH",
+            "url": "https://www.usatoday.com/story/sports/ncaaf/acc/2026/08/20/acc-football-transfers-2026-most-impactful-newcomers-darian-mensah/91262356007/",
+            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/19/USAT/91369334007-20260715-t-153027-z-15935219-mt-1-usatoday-29388729-rtrmadp-3-ncaafootballacckickoff.JPG?crop=3935,2214,x0,y0&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "usatoday"
+        },
+        {
+            "title": "Find out how children can bowl two games per day for free in Hopewell",
+            "severity": "WATCH",
+            "url": "https://www.progress-index.com/story/lifestyle/family/2026/08/20/kids-bowl-free-hopewell-virginia-bowling-center/91359414007/",
+            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/08/18/NPRI/91359756007-img-0298.jpeg?auto=webp&crop=3092,1739,x0,y0&format=pjpg&width=1200",
+            "source": "progress_index"
+        },
+        {
+            "title": "Ex-Celtic man makes \u2018uncomfortable\u2019 admission as he hails transfer strategy and lands Rangers dig",
+            "severity": "WATCH",
+            "url": "https://www.scotsman.com/sport/football/celtic/latest-celtic-news/ex-celtic-man-makes-uncomfortable-admission-as-he-hails-transfer-strategy-and-lands-rangers-dig-8931084",
+            "image": "https://www.scotsman.com/jpim-static/image/2026/08/20/8/06/21766701.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+            "source": "scotsman"
+        },
+        {
+            "title": "Government must get tough to protect our future prosperity",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/national/nsw/government-must-get-tough-to-protect-our-future-prosperity-20260820-p60pzy.html",
+            "image": "https://static.ffx.io/images/$zoom_0.1949%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_38%2C$y_0/t_crop_custom/q_86%2Cf_auto/dc4f87cee248c8586b92b75c9981f83dc9277612e6a56fbaa7d4b5299b648990",
+            "source": "smh"
+        },
+        {
+            "title": "Pharmeasy-parent\u2019s loss narrows in Q1, revenue up 10%",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/tech/technology/pharmeasy-parents-loss-narrows-in-q1-revenue-up-10/articleshow/133379798.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-20406,resizemode-75,msid-133379798/tech/technology/pharmeasy-parents-loss-narrows-in-q1-revenue-up-10.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Barclays reiterates Marvell stock rating on Google partnership",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/stock-market-news/barclays-reiterates-marvell-stock-rating-on-google-partnership-93CH-4840430",
+            "image": "https://content-media.investing.com/news/google_2_M_1440049078.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "'Industry must utilise FTAs, focus on value addition, and diversify mkts'",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/economy/news/industry-must-utilise-ftas-focus-on-value-addition-and-diversify-mkts-126082000514_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-03/05/full/1772733965-4764.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Angie Nixon\u2019s victory puts the Democrats\u2019 progressive wave to the test in Florida",
+            "severity": "WATCH",
+            "url": "https://english.elpais.com/usa/2026-08-20/angie-nixons-victory-puts-the-democrats-progressive-wave-to-the-test-in-florida.html",
+            "image": "https://images.english.elpais.com/resizer/v2/G2DQ54W75BAOLKAY7IGBFWI7FE.jpg?auth=b0a8d6b855947ec3a0fe3547a3f5558e95ee866633d0506657ae653c646071b7",
+            "source": "elpais"
+        },
+        {
+            "title": "One Nation MP reveals party\u2019s blind spot",
+            "severity": "WATCH",
+            "url": "https://au.news.yahoo.com/one-nation-mp-reveals-party-074453214.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/18c825d6903bd8bad96f1bbcaa0fe9f6535be2f942821531bd7ed6b4e42e0d29/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnca_newswire_424%2Fd00f083883a6993877d0defa9da843af.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Earnings call transcript: Cyviz posts weaker q2 2026 revenue, sees ARR rise",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/transcripts/earnings-call-transcript-cyviz-posts-weaker-q2-2026-revenue-sees-arr-rise-93CH-4609010",
+            "image": "https://content-media.investing.com/news/moved_LYNXMPEM3S10Z_1200_L.jpg",
             "source": "investing_au"
         },
         {
-            "title": "Longtime publisher of Stars and Stripes to retire, citing differences with Pentagon leadership",
+            "title": "UK rebukes Israel for \u2018unacceptable\u2019 West Bank settlement tender offer",
             "severity": "WATCH",
-            "url": "https://abcnews.com/Business/wireStory/longtime-publisher-stars-stripes-retire-citing-differences-pentagon-135787110",
-            "image": "https://s.abcnews.com/images/US/wirestory_ae5277e248f51d10dfcb49d7796e7d2f_4x3_384.jpg",
-            "source": "abcnews"
+            "url": "https://www.yahoo.com/news/world/articles/uk-rebukes-israel-unacceptable-west-070341251.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/d5ca5e664e0d4a4f8aea0f465da712520236fbacc019be2f8ca27b29b531eafe/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdpa_international_526%2F1e9d894035041178ef8d5a7ca685038e.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Women\u2019s Super League finances: club-by-club breakdown and verdict",
+            "severity": "WATCH",
+            "url": "https://www.theguardian.com/football/2026/aug/20/womens-super-league-finances-club-by-club-breakdown-verdict",
+            "image": "https://i.guim.co.uk/img/media/4726c2b765e6a99e11d2cee9539dbe3400f50892/342_0_3423_2739/master/3423.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7cab8e2beb6b8ed89c1ba6974335c55f",
+            "source": "theguardian"
+        },
+        {
+            "title": "Odisha floods: ASHA worker carries elderly woman to safety on back",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/odisha-floods-asha-worker-carries-elderly-woman-to-safety-on-back-101787208822716.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/logo/ht-generic_india3_1751287297962_1751287304722.jpg",
+            "source": "hindustantimes"
         },
         {
             "title": "Pune Police sets 30 strict rules for Rahul Gandhi's student rally",
@@ -240,35 +303,7 @@
             "url": "https://newsable.asianetnews.com/india/pune-police-sets-30-strict-rules-for-rahul-gandhi-s-student-rally-articleshow-n2s3b4z",
             "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-057e6bef-edce-437b-8067-3495f038c085.jpg",
             "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Royal commission witness in tense exchange over 'legitimate state' claims",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-08-20/bondi-royal-commission-antisemitism-rita-jabri-markwell-/107059294",
-            "image": "https://live-production.wcms.abc-cdn.net.au/4a9230084d1c282d98de70246223f839?impolicy=wcms_crop_resize&cropH=835&cropW=1485&xPos=208&yPos=99&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "Surrogate who refused to abort baby in fresh battle with biological parents over child's NAME",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-16065659/surrogate-mom-parents-lawsuit-baby-name.html",
-            "image": "https://i.dailymail.com/1s/2026/08/20/04/110743443-0-image-a-76_1787197103336.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Top academic slams 'woke' Sydney Swans leadership for banning five players over alleged sex assault scandal: 'A needless over-reaction'",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/sport/afl/article-16065409/Top-academic-slams-woke-Sydney-Swans-leadership-banning-five-players-alleged-sex-assault-scandal-needless-reaction.html",
-            "image": "https://i.dailymail.com/1s/2026/08/20/06/110744667-0-image-a-3_1787204012685.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Gold, silver price prediction: Where are gold, silver headed? Check outlook on August 20, 2026",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-price-prediction-today-what-is-the-gold-rate-outlook-for-august-20-2026-should-you-buy-or-sell-mcx-gold-mcx-silver/articleshow/133364965.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133365051/133365051.jpg",
-            "source": "toi"
         }
     ],
-    "Last_Updated": "2026-08-20T18:47:59.644606Z"
+    "Last_Updated": "2026-08-20T20:34:34.180595Z"
 }
