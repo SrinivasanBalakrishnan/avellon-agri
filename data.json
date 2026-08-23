@@ -1,91 +1,119 @@
 {
-    "AGRI_Score": 61.7,
-    "Velocity": "-4.0",
+    "AGRI_Score": 63.4,
+    "Velocity": "+1.7",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 61.7 is elevated, primarily driven by heightened geopolitical conflict intensity and significant energy and maritime disruptions. Escalating trade tensions, particularly the \"trade war between Canada and the US,\" are also substantially contributing to the overall stress. The 'West's war on Russia' rhetoric from Lavrov and Iran's condemnation of new US sanctions plans underscore a volatile international landscape, signaling continued high risk across multiple domains.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.4 reflects a high-moderate risk environment, predominantly driven by escalating geopolitical conflicts, significant energy and maritime disruptions, and intensifying trade tensions. Increased kinetic activity in Ukraine, 'Zelensky vows revenge for devastating Russian strikes,' coupled with the 'Somali pirates hijack oil tanker off Yemen' incident, directly elevate the Geopolitical Conflict Intensity and Energy & Maritime Disruption pillars. Furthermore, an 'A Trade War Between Canada And The U.S. Further Ruptures A Once-Close And Durable Alliance' signals considerable stress across global trade networks, contributing significantly to the overall risk profile.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.5,
+        "Geopolitical Conflict Intensity": 79.9,
         "Energy & Maritime Disruption": 80.4,
-        "Trade & Supply Chain Stress": 66.2,
+        "Trade & Supply Chain Stress": 74.2,
         "Sovereign Financial Stress": 56.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.5,
-        "Cyber & Infrastructure Threats": 57.5,
+        "Sanctions & Regulatory Fragmentation": 57.7,
+        "Cyber & Infrastructure Threats": 59.5,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The declaration of a 'West's war on Russia' through Lavrov's remarks significantly elevates global confrontational rhetoric. Further, the news that 'Israel did not warn U.S. ahead of Syrian airstrike' indicates a lack of coordinated action in a critical region, increasing the potential for miscalculation and broader escalation.",
-        "Energy & Maritime Disruption": "The 'Floating 10 MW nuclear reactor proposed for California' indicates an ongoing, urgent need to diversify and secure energy sources, pointing to underlying pressures in energy provision. Additionally, maritime incidents such as a 'migrant boat sinks in the Mediterranean,' causing a 'Celebrity Cruises ship diverted,' highlight potential disruptions to sea lanes and humanitarian concerns.",
-        "Trade & Supply Chain Stress": "The deepening 'trade war between Canada and the US' with 'new tariffs as talks collapse' directly imposes severe stress on critical supply chains and bilateral economic relations. This is further evidenced by 'Ottawa Answers 50% U.S. Tariffs on $20 Billion of Exports,' ensuring tangible economic disruption and uncertainty.",
-        "Sovereign Financial Stress": "There is no immediate news within the provided feed indicating a sharp rise in sovereign financial stress, with the current score reflecting an environment requiring ongoing vigilance rather than acute crisis. This pillar is currently under routine monitoring for any emerging fiscal or debt-related pressures not explicitly detailed here.",
-        "Currency & Liquidity Pressure": "The current news stream does not contain specific events or announcements that would directly trigger significant pressure on currency valuations or global liquidity. This pillar remains at a baseline activity level, indicating an absence of overt signs of widespread currency or liquidity distress.",
-        "Sanctions & Regulatory Fragmentation": "The report that 'Iran condemns US plans to announce new sanctions' directly indicates an escalation in economic restrictions, contributing to increased fragmentation of global financial and trade regulations. Moreover, 'What are the U.S.\u2019s latest allegations against India?' suggests potential for new trade disputes that could further complicate the international regulatory landscape.",
-        "Cyber & Infrastructure Threats": "The provided news feed does not contain any high-severity reports related to active cyberattacks or direct threats to critical infrastructure. This pillar is under routine monitoring, reflecting an absence of immediate, explicit threats in the current intelligence stream.",
-        "Climate & Resource Shock": "While a 'Floating 10 MW nuclear reactor proposed for California' addresses long-term resource and energy needs, the feed does not describe an immediate, severe climate-related shock or widespread resource scarcity event. This pillar currently experiences baseline activity, as there are no reported sudden or catastrophic climate disruptions."
+        "Geopolitical Conflict Intensity": "This pillar is at an exceptionally high level, fueled by the ongoing, severe conflict in Ukraine, exemplified by 'Zelensky's drone blitzkrieg on the 'Russian Amazon'' and retaliatory strikes. Tensions in the Middle East are also contributing, with 'Iran security chief threatens neighbours against economic measures' suggesting potential for broader regional instability.",
+        "Energy & Maritime Disruption": "Risk in this pillar is extremely elevated due to direct threats to vital shipping lanes and energy infrastructure. The 'Somali pirates hijack oil tanker off Yemen' highlights a critical increase in maritime insecurity, posing significant risks to global energy supply chains.",
+        "Trade & Supply Chain Stress": "This pillar is experiencing significant stress, primarily due to the escalating 'A Trade War Between Canada And The U.S. Further Ruptures A Once-Close And Durable Alliance.' The imposition of tariffs and subsequent 'Canada retaliates as trade war with U.S. escalates' directly impacts international trade flows and business viability for sectors like the 'Manitoba honey farm.'",
+        "Sovereign Financial Stress": "While not at an extreme, this pillar warrants close monitoring as 'US debt hits danger zone: Ray Dalio explains why a \u2018Big Debt Cycle\u2019 could trigger a crisis.' This signals underlying systemic vulnerabilities that could materialize into a broader financial crisis if unaddressed.",
+        "Currency & Liquidity Pressure": "This pillar currently indicates baseline activity, with no direct news reflecting widespread currency devaluations or severe liquidity shortages. However, the reported 'MVP week' for bitcoin and gold after a slump suggests market sensitivities and shifts in investor sentiment that could affect traditional currencies.",
+        "Sanctions & Regulatory Fragmentation": "This pillar reflects ongoing concerns due to geopolitical tensions and the potential for new economic measures, as indicated by 'Iran security chief threatens neighbours against economic measures.' The current environment suggests a complex and potentially fragmenting regulatory landscape where existing trade alliances are being tested.",
+        "Cyber & Infrastructure Threats": "This pillar shows elevated risk following severe and impactful cyber-attacks, as evidenced by 'Iranian hackers carry out unprecedented attack on UK\u2019s power network.' The alleged 'Iran-linked hackers \u2018shut down UK power plant\u2019 for FOUR days' demonstrates a heightened capability and willingness to target critical national infrastructure.",
+        "Climate & Resource Shock": "This pillar is currently at routine monitoring levels, with no immediate large-scale climate events or systemic resource shocks impacting global systems. Localized resource conflicts, such as 'The women fighting a company\u2019s land claim on Indonesia\u2019s Pari Island,' indicate ongoing but contained environmental and social pressures."
     },
     "All_Alerts": [
         {
-            "title": "Floating 10 MW nuclear reactor proposed for California: barge-mounted SMR aims to power 15,000 homes",
+            "title": "Somali pirates hijack oil tanker off Yemen in latest attack",
             "severity": "HIGH",
-            "url": "https://www.techradar.com/pro/floating-10-mw-nuclear-reactor-proposed-for-california-barge-mounted-smr-aims-to-power-15-000-homes",
-            "image": "https://cdn.mos.cms.futurecdn.net/LBTaMajp8LNwTKKrsyxMrM-1280-80.png",
-            "source": "techradar_au"
-        },
-        {
-            "title": "Iran condemns US plans to announce new sanctions",
-            "severity": "HIGH",
-            "url": "https://www.channelnewsasia.com/world/iran-condemns-us-plans-announce-new-sanctions-6335291",
-            "image": "https://dam.mediacorp.sg/image/upload/s--Jcg6LVFY--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-08-22T012145Z_1_LYNXMPEM7L00L_RTROPTP_3_IRAN-CRISIS.JPG?itok=BVbtMA72",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Roberto De Zerbi warns big-spending Tottenham need time and must improve 'physical condition' and 'organisation' - as boss apologises after crushing loss to Brentford",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/sport/football/article-16072663/Roberto-Zerbi-Tottenham-need-time-apologises-crushing-loss-Brentford.html",
-            "image": "https://i.dailymail.com/1s/2026/08/22/21/110795191-0-image-a-5_1787430355378.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "West's war on Russia, Russian flag as symbol of justice \u2014 Lavrov\u2019s remarks",
-            "severity": "HIGH",
-            "url": "https://tass.com/politics/2176537",
-            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260822/1484355.jpg",
-            "source": "tass"
-        },
-        {
-            "title": "David Boreanaz's New Netflix Action Thriller Is His Biggest Role Since Bones",
-            "severity": "HIGH",
-            "url": "https://screenrant.com/seal-team-netflix-david-boreanaz-biggest-role-bones/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/tcdsete_i8026.jpg",
-            "source": "screenrant"
-        },
-        {
-            "title": "A trade war between Canada and the US further ruptures a once-close and durable alliance",
-            "severity": "HIGH",
-            "url": "https://www.kron4.com/news/national/a-trade-war-between-canada-and-the-us-further-ruptures-a-once-close-and-durable-alliance/",
-            "image": "https://www.kron4.com/wp-content/uploads/sites/11/2026/08/AP26229818447651.jpg?w=900",
-            "source": "kron4"
-        },
-        {
-            "title": "Israel did not warn U.S. ahead of Syrian airstrike, American envoy says",
-            "severity": "HIGH",
-            "url": "https://www.latimes.com/world-nation/story/2026-08-22/israel-did-not-warn-u-s-ahead-of-syrian-airstrike-american-envoy-says",
-            "image": "https://ca-times.brightspotcdn.com/dims4/default/12d46fc/2147483647/strip/false/crop/4789x3193+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F8a%2F09%2F28a5fe3247d5bffce89749b4eb93%2Fd8bcc7c9f973427c85b8e515a2e1162f.jpg",
+            "url": "https://www.latimes.com/world-nation/story/2026-08-22/somali-pirates-hijack-oil-tanker-off-yemen-in-latest-attack",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/4488b5d/2147483647/strip/false/crop/1978x1363+0+0/resize/1486x1024!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2c%2F5c%2F0ea614274b2c8a60fdb094fcae4f%2Fap081205017874.jpg",
             "source": "latimes"
         },
         {
-            "title": "US, Canada fall deeper into trade war with new tariffs as talks collapse",
+            "title": "Iran security chief threatens neighbours against economic measures, and other Mideast developments",
             "severity": "HIGH",
-            "url": "https://www.news18.com/agency-feeds/us-canada-fall-deeper-into-trade-war-with-new-tariffs-as-talks-collapse-10288344.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/07/News18_World_Section_Default_Image_1600x900-2025-07-4401653589b9d10b46b8abb07f758342-3x2.jpg",
-            "source": "news18"
+            "url": "https://www.ctvnews.ca/world/mideast-conflict/article/iran-security-chief-threatens-neighbours-against-economic-measures-and-other-mideast-developments/",
+            "image": "https://www.ctvnews.ca/resizer/v2/SRZ6ZVHNFBAXRMBQFLA6Z3H2IY.jpg?auth=e010da444c457746fc60b3e686753a650450da592f141ffbc8cc5f43be031bed&smart=true&width=2777&height=1851",
+            "source": "ctvnews"
         },
         {
-            "title": "Tommy Pham gets into social media spat with Reds' Dane Myers over defensive metrics",
+            "title": "Revealed: Zelensky's drone blitzkrieg on the 'Russian Amazon' is turning shellshocked public against Putin's war",
             "severity": "HIGH",
-            "url": "https://www.nytimes.com/athletic/7531606/2026/08/22/tommy-pham-dane-myers-social-media-argument-reds/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/08/22150643/2026-08-16T000751Z_2052836384_MT1USATODAY29594010_RTRMADP_3_MLB-MIAMI-MARLINS-AT-CINCINNATI-REDS-scaled.jpg?width=1200&height=675&fit=cover",
-            "source": "theathleticuk"
+            "url": "https://www.dailymail.com/news/article-16072611/Zelenskys-drone-blitzkrieg-Russian-Amazon-turning-shellshocked-Putins-war.html",
+            "image": "https://i.dailymail.com/1s/2026/08/22/20/110794861-0-image-a-7_1787427752792.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Zelensky vows revenge for devastating Russian strikes that killed 16 in shopping center: \u2018Animals\u2019",
+            "severity": "HIGH",
+            "url": "https://nypost.com/2026/08/22/world-news/zelensky-vows-revenge-for-devastating-russian-bombing-that-killed-16-in-shopping-center/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2F13998ea4-74ff-46fe-927f-93d6823a569d-copy.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Iranian hackers carry out unprecedented attack on UK\u2019s power network",
+            "severity": "HIGH",
+            "url": "https://www.independent.co.uk/news/uk/home-news/iran-hackers-uk-power-network-b3037635.html",
+            "image": "https://images.pexels.com/photos/11565603/pexels-photo-11565603.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "independentuk"
+        },
+        {
+            "title": "A timeline of Trump\u2019s trade war with Canada",
+            "severity": "HIGH",
+            "url": "https://www.theglobeandmail.com/canada/article-a-timeline-of-trumps-trade-war-with-canada/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/QUY5DFCVBVFDNBQD3G4ERAQNBE.jpg?auth=ba8e842e3c350426f33819e941b17be9e039bd2679a67f7bbf2b12f26c15bc6b&smart=true&width=3000&height=2000",
+            "source": "theglobeandmail"
+        },
+        {
+            "title": "Slain Ayatollah Khamenei wanted to end conflict with US through peace talks, Iranian president claims",
+            "severity": "HIGH",
+            "url": "https://nypost.com/2026/08/22/world-news/slain-ayatollah-wanted-peace-talks-with-us-iranian-president-says/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2Firanian-leader-press-office-handout-138227492.jpg?w%3D695",
+            "source": "nypost"
+        },
+        {
+            "title": "Chiefs players reportedly turn on Travis Kelce in private chats as controversial decisions spark locker-room drama",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/sports/nfl/news/chiefs-players-reportedly-turn-on-travis-kelce-in-private-chats-as-controversial-decisions-spark-locker-room-drama/articleshow/133422983.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133423001/133423001.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Mark Ruffalo fires back at Paramount over 'appalling' antisemitism accusation tied to Ellison merger criticism",
+            "severity": "HIGH",
+            "url": "https://www.foxnews.com/media/mark-ruffalo-fires-back-paramount-appalling-antisemitism-accusation-ellison-merger-criticism",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/mark-ruffalo-holding-up-fist.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "US debt hits danger zone: Ray Dalio explains why a \u2018Big Debt Cycle\u2019 could trigger a crisis",
+            "severity": "HIGH",
+            "url": "https://www.businesstoday.in/world/story/us-debt-hits-danger-zone-ray-dalio-explains-why-a-big-debt-cycle-could-trigger-a-crisis-550775-2026-08-23",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202608/6a89bfbcee99c-he-estimates-us-government-revenue-at-around-55-trillion-against-expenses-of-approximately-75-tr-222647838-16x9.jpg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "A Trade War Between Canada And The U.S. Further Ruptures A Once-Close And Durable Alliance",
+            "severity": "HIGH",
+            "url": "https://www.huffpost.com/entry/canada-us-trade-rupture_n_6a8a16aae4b0313bf9e5facb",
+            "image": "https://img.huffingtonpost.com/asset/6a8a16c8170000deafd4355d.jpeg?cache=6v8e8t4KBr&ops=1778_1000",
+            "source": "huffpost"
+        },
+        {
+            "title": "Canada retaliates as trade war with U.S. escalates",
+            "severity": "HIGH",
+            "url": "https://www.thehindu.com/news/international/canada-retaliates-as-trade-war-with-us-escalates/article71379056.ece",
+            "image": "https://th-i.thgim.com/public/incoming/w75w72/article71379058.ece/alternates/FREE_1200/2026-08-22T170244Z_675973054_RC2R3NALRP00_RTRMADP_3_USA-TRUMP-TARIFFS-CANADA.JPG",
+            "source": "thehindu"
+        },
+        {
+            "title": "Iran-linked hackers \u2018shut down UK power plant\u2019 for FOUR days in major cyber attack \u2013 after series of hits on US targets",
+            "severity": "HIGH",
+            "url": "https://www.thesun.co.uk/news/40142141/iran-hackers-shut-uk-power-plant/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F08%2F2023-drax-coal-fired-power-883287699.jpg?quality%3D90%26strip%3Dall",
+            "source": "thesun"
         },
         {
             "title": "Some sperm donor dads are fathering at least 40 children in breach of ten-family limit, shock figures show",
@@ -95,122 +123,108 @@
             "source": "thesun"
         },
         {
-            "title": "Pierre Poilievre talks trade in Woodstock during southwestern Ontario tour",
+            "title": "'Effectively, we're out of business': U.S. tariffs cut Manitoba honey farm off from vast majority of customers",
             "severity": "MEDIUM",
-            "url": "https://www.ctvnews.ca/london/article/pierre-poilievre-talks-trade-in-woodstock-during-southwestern-ontario-tour/",
-            "image": "https://www.ctvnews.ca/resizer/v2/VH7KC3KMNNHQ5ARSDQI7QRXIWI.jpg?auth=0d085749dd24d62e18c355f84d512d831490a9f32d30452a96393fcd29368e62&smart=true&width=1920&height=1080",
-            "source": "ctvnews"
+            "url": "https://www.cbc.ca/news/canada/manitoba/canada-us-tariff-manitoba-reaction-9.7316905?cmp=rss",
+            "image": "https://i.cbc.ca/ais/19d14054-b156-4e8b-a8b7-e2b53ae71de5,1787426145628/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C141%2C1714%2C964%29%3B",
+            "source": "cbc"
         },
         {
-            "title": "U.S. nearly encroached on Canadian sovereignty during tariff talks: Quebec premier",
+            "title": "\u2018This is our home\u2019: The women fighting a company\u2019s land claim on Indonesia\u2019s Pari Island",
             "severity": "MEDIUM",
-            "url": "https://ca.news.yahoo.com/u-nearly-encroached-canadian-sovereignty-202522981.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/855db91d1d60d06a8de9c4c7f3e0b44a8e9f8a43ad0936e8d79c3d442968c19c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcbc.ca%2F033af956e132d01a82aac10eb111f3d5.jpg",
-            "source": "yahoo"
+            "url": "https://www.channelnewsasia.com/asia/indonesia-pari-island-women-jakarta-environment-advocacy-6332926",
+            "image": "https://dam.mediacorp.sg/image/upload/s--Ri33nBJ2--/c_crop,h_1125,w_2000,x_0,y_238/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/08/21/indonesia_pari_island_story_25.jpg?itok=N_FPEtA2",
+            "source": "channelnewsasia"
         },
         {
-            "title": "Ottawa Answers 50% U.S. Tariffs on $20 Billion of Exports",
-            "severity": "MEDIUM",
-            "url": "https://equity-insider.com/ottawa-answers-50-percent-us-tariffs-20-billion-exports/",
-            "image": "https://equity-insider.com/wp-content/uploads/2026/08/ottawa-answers-50-percent-us-tariffs-20-billion-exports.jpg",
-            "source": "equity_insider"
-        },
-        {
-            "title": "What are the U.S.\u2019s latest allegations against India? | Explained",
-            "severity": "MEDIUM",
-            "url": "https://www.thehindu.com/business/what-are-the-uss-latest-allegations-against-india-explained/article71378950.ece",
-            "image": "https://th-i.thgim.com/public/incoming/qvwno/article71378949.ece/alternates/FREE_1200/Trump_China_83239.jpg",
-            "source": "thehindu"
-        },
-        {
-            "title": "\u2018Pay attention to New York, not Israel\u2019: Gov. Kathy Hochul advises NYC Mayor Mamdani in rift",
+            "title": "'Vanished from tracking system': How Panama-flagged cargo ship with 24 on board sank off Odisha coast",
             "severity": "WATCH",
-            "url": "https://www.jpost.com/diaspora/antisemitism/article-906267",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/699709",
+            "url": "https://timesofindia.indiatimes.com/india/vanished-from-tracking-system-how-panama-flagged-cargo-ship-with-24-on-board-sank-off-odisha-coast/articleshow/133432951.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133432953/133432953.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "How bitcoin and gold went from a slump to an MVP week in just a few days",
+            "severity": "WATCH",
+            "url": "https://www.latimes.com/world-nation/story/2026-08-22/how-bitcoin-gold-went-from-slump-to-mvp-week-in-just-few-days",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/69eab0c/2147483647/strip/false/crop/8640x5760+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F48%2F03%2F725f0ce94b54b234618b4eed9fb9%2F31ff263d42c84ae8b238acb5bd661c75.jpg",
+            "source": "latimes"
+        },
+        {
+            "title": "Trump\u2019s Push To Cut Korea Drills Exposes Deeper Rift With Seoul",
+            "severity": "WATCH",
+            "url": "https://dailycaller.com/2026/08/22/south-korea-donald-trump-deeper-rift",
+            "image": "https://cdn01.dailycaller.com/wp-content/uploads/2026/08/GettyImages-2175229431%20(1).jpg",
+            "source": "dailycaller"
+        },
+        {
+            "title": "Thailand eyes NZ trade hub role",
+            "severity": "WATCH",
+            "url": "https://www.bangkokpost.com/thailand/general/3306224/thailand-eyes-nz-trade-hub-role",
+            "image": "https://static.bangkokpost.com/media/content/20260823/c1_3306224_260823051315.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "Data centres are already humming away in the ACT and there could be more coming",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-08-23/act-data-centre-policy-already-aligned-with-national-ai-standard/106936530",
+            "image": "https://live-production.wcms.abc-cdn.net.au/450418ef3eb37eef466f99183b600bdd?impolicy=wcms_crop_resize&cropH=2166&cropW=3850&xPos=0&yPos=0&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Chinese bots are faster than Usain Bolt \u2014 and more from the World Humanoid Robot Games",
+            "severity": "WATCH",
+            "url": "https://www.latimes.com/world-nation/story/2026-08-22/chinese-humanoid-robots-break-human-records-including-usain-bolts",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/e8c1843/2147483647/strip/false/crop/5404x3603+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F93%2Fcf%2Fd8cc56cc4b2b9952574b7725543f%2F08c5e467f79f4f4682b04c2164c20ada.jpg",
+            "source": "latimes"
+        },
+        {
+            "title": "Temiskaming cobalt refinery expansion beginning to 'take shape' - SooToday.com",
+            "severity": "WATCH",
+            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPX3d5akd5SE5nZ1huTVZWRkZQejFkVTBLMlRYNkNQckw2YnpJbWFPN0ZTZnZ3enRmT3pPeExFTG0wWG5SdFNtb3lxNzFTMTV0NVBIR1l2a3FaS3h1Y0ZhZDZkZl8yaEUybHJFZTh5WnRoMnVLY29ncm9jcVk4d1Zxa1BBcmxyZWJMazJYS1poWnJuU2xRVEJCRzdqb3BULWZGYU94N2VhUWhHUQ?oc=5",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Ben Gurion union chief rejects blame as Netanyahu moves against his Likud membership",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/israel-news/article-906269",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734663",
             "source": "jpost"
         },
         {
-            "title": "105 Bougie Things For Your Home With Over 4.5 Stars on Amazon That Are Cheap as Hell",
+            "title": "Marcos EO puts focus on PH critical minerals",
             "severity": "WATCH",
-            "url": "https://www.inverse.com/shopping/bougie-things-for-your-home-with-over-4-stars-on-amazon-that-are-cheap-as-hell",
-            "image": "https://imgix.bustle.com/uploads/image/2026/1/23/b1172dc9/1.webp?w=1200&fit=max",
-            "source": "inverse"
+            "url": "https://newsinfo.inquirer.net/2289994/marcos-eo-puts-focus-on-ph-critical-minerals",
+            "image": "https://newsinfo.inquirer.net/files/2026/08/News1280485-scaled.jpg",
+            "source": "inquirer"
         },
         {
-            "title": "10 Video Games With the Greatest Power Systems",
+            "title": "68 Memes So Unhinged, They Might Be The Only Thing You Need To Change Your Mood",
             "severity": "WATCH",
-            "url": "https://collider.com/video-games-best-power-systems/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/08/bioshock-big-daddy-little-sister.jpg",
+            "url": "https://www.boredpanda.com/funny-memes-modern-culture/",
+            "image": "https://static.boredpanda.com/blog/wp-content/uploads/2026/08/funny-memes-modern-culture-fb14.png",
+            "source": "boredpanda"
+        },
+        {
+            "title": "Commentary: Trump\u2019s South Korea defence flip reminds Japan it has no Plan B",
+            "severity": "WATCH",
+            "url": "https://www.channelnewsasia.com/commentary/trump-south-korea-japan-military-defence-6333256",
+            "image": "https://dam.mediacorp.sg/image/upload/s--0w8btFnY--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/Japan_Military_Explainer_04201.jpg?itok=gNojri-W",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "The 6 Best Movie Trilogies Released Since 2000, Ranked",
+            "severity": "WATCH",
+            "url": "https://collider.com/best-movie-trilogies-since-2000-ranked/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/02/copy-of-collider-template-3.jpg",
             "source": "collider"
         },
         {
-            "title": "Celebrity Cruises ship diverted as migrant boat sinks in the Mediterranean",
+            "title": "Slow Horses' 13 Slough House Agents Explained",
             "severity": "WATCH",
-            "url": "https://www.the-express.com/news/world-news/214447/celebrity-cruises-saves-migrants-in-distress",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/237x141/214447_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "Delek Logistics CFO Buys 1,500 Shares for $75,000. Here's a Closer Look at the Transaction.",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/delek-logistics-cfo-buys-1-202142466.html",
-            "image": "https://media.zenfs.com/en/motleyfool.com/412a815baaa0a5f0e7e30a2f98b11715.png",
-            "source": "finance_yahoo"
-        },
-        {
-            "title": "Glenn Hoddle claims Roberto De Zerbi \u2018dug out\u2019 Spurs star after Brentford defeat",
-            "severity": "WATCH",
-            "url": "https://metro.co.uk/2026/08/22/glenn-hoddle-claims-roberto-de-zerbi-dug-out-spurs-star-brentford-defeat-29439492/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/08/Glenn-Hoddle-68ea.jpg?quality=90&strip=all",
-            "source": "metro"
-        },
-        {
-            "title": "DWP sets out new bank eligibility verification rules for benefit claimants",
-            "severity": "WATCH",
-            "url": "https://www.birminghammail.co.uk/news/uk-news/dwp-sets-out-new-bank-34502940",
-            "image": "https://i2-prod.birminghammail.co.uk/news/uk-news/article34502939.ece/ALTERNATES/s615/0_Withdrawing-cash.jpg",
-            "source": "birminghammail"
-        },
-        {
-            "title": "Gundam\u2019s Next Big Movie Is Coming To America",
-            "severity": "WATCH",
-            "url": "https://comicbook.com/uncategorized/news/gundams-next-big-movie-is-coming-to-america/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/08/Gundam-Seed.jpg",
-            "source": "comicbook"
-        },
-        {
-            "title": "Quote of the day by Scarlett Johansson: 'There is no magic wand to wave over oneself to look good. Eating healthy and getting fit is about...' - Fitness advice on why there are no quick fixes to looking good by the Avengers star",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/magazines/panache/quote-of-the-day-by-scarlett-johansson-there-is-no-magic-wand-to-wave-over-oneself-to-look-good-eating-healthy-and-getting-fit-is-about-fitness-advice-on-why-there-are-no-quick-fixes-to-looking-good-by-the-avengers-star/articleshow/133430741.cms",
-            "image": "https://img.etimg.com/thumb/msid-133430975,resizemode-4,width-1200,height-900,imgsize-189296,overlay-etpanache/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Nvidia customers notified about AI-related price hikes above 15%",
-            "severity": "WATCH",
-            "url": "https://fortune.com/2026/08/22/nvidia-customers-ai-related-price-hikes-15-percent-vera-rubin-grace-blackwell-chips/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/08/GettyImages-2285783561-e1787430174196.jpg?w=2048",
-            "source": "fortune"
-        },
-        {
-            "title": "Sports Wagering Sites That Don\u2019t Demand ID: Your own Handbook to Private Betting",
-            "severity": "WATCH",
-            "url": "https://sanjhisoch.com/sports-wagering-sites-that-don-t-demand-id-your-own-handbook-to-private/",
-            "image": "https://i.ibb.co/0yLyXfc6/mainphoto2.jpg",
-            "source": "sanjhisoch"
-        },
-        {
-            "title": "Top analyst sees trouble looming for SpaceX stock",
-            "severity": "WATCH",
-            "url": "https://www.thestreet.com/investing/stocks/dz-bank-spacex-spcx-stock-sell-rating-valuation",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTUzNjEy/spacexrocket_pl_220826.jpg?profile=rss",
-            "source": "thestreet"
-        },
-        {
-            "title": "Now Is The Perfect Time To Watch Alan Ritchson's $865 Million Dystopian Sci-Fi On Netflix",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/netflix-the-hunger-games-catching-fire-sci-fi-movie-watch-now/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/alan-ritchson.jpg",
+            "url": "https://screenrant.com/slow-horses-every-slough-house-agent-explained-backstory/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/slow-horses.jpg",
             "source": "screenrant"
         },
         {
@@ -254,14 +268,7 @@
             "url": "https://www.abc.net.au/news/2026-08-23/dog-rabbit-fox-fur-found-in-toys-and-key-rings-sold-in-australia/107059142",
             "image": "https://live-production.wcms.abc-cdn.net.au/57a72802ccdc2df6631c3bf93245ff9f?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=156&width=862&height=485",
             "source": "abc_net"
-        },
-        {
-            "title": "4 CAs among 9 booked for \u20b9804cr remittance fraud",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/rajkot/4-cas-among-9-booked-for-804cr-remittance-fraud/articleshow/133430363.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
         }
     ],
-    "Last_Updated": "2026-08-23T08:36:42.391800Z"
+    "Last_Updated": "2026-08-23T10:29:33.050413Z"
 }
