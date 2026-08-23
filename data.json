@@ -1,224 +1,280 @@
 {
-    "AGRI_Score": 64.6,
-    "Velocity": "+1.6",
+    "AGRI_Score": 65.7,
+    "Velocity": "+1.1",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.6/100 is significantly elevated, primarily driven by severe geopolitical conflict and widening international trade disputes. Conflict intensity is underscored by \"10 killed in Russian and Ukrainian attacks\" and \"Over 700 US troops killed, wounded as Iran war nears seventh month,\" indicating direct and proxy military engagements across multiple regions. Simultaneously, escalating tariffs, as highlighted by \"Canada Announces New Tariffs on U.S. as Trade War Widens,\" are causing significant stress on global trade relations and supply chains. While Energy and Maritime Disruption also remains high, the core drivers are kinetic conflict and economic protectionism.",
+    "AI_Brief": "The current AGRI score of 65.7 is primarily driven by escalating Trade & Supply Chain Stress and persistent Geopolitical Conflict Intensity. The collapse of trade talks between the US and Canada, leading to new tariffs and retaliatory measures, is a critical factor, as evidenced by \"US and Canada fall deeper into a trade war with new tariffs as talks collapse\" and \"Canada-US rift deepens as Carney vows retaliatory tariffs.\" This trade conflict, coupled with calls for dialogue amid existing tensions, elevates global risk, pushing the overall AGRI score into a heightened concern range.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 82.8,
+        "Geopolitical Conflict Intensity": 85.6,
         "Energy & Maritime Disruption": 80.4,
-        "Trade & Supply Chain Stress": 68.8,
+        "Trade & Supply Chain Stress": 68.4,
         "Sovereign Financial Stress": 56.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.0,
-        "Cyber & Infrastructure Threats": 59.8,
+        "Sanctions & Regulatory Fragmentation": 62.6,
+        "Cyber & Infrastructure Threats": 61.2,
         "Climate & Resource Shock": 45
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is extremely high, directly reflecting the ongoing violence and military engagements across multiple fronts. Headlines such as \"10 killed in Russian and Ukrainian attacks\" and \"Horror as 14 elderly people killed in double military strike on monastery\" directly confirm a high level of kinetic conflict and civilian casualties.",
-        "Energy & Maritime Disruption": "The score remains elevated due to heightened regional tensions that directly impact strategic movements and infrastructure. The departure of \"Two US tanker aircraft leave Bulgaria a month after deployment upset Iran\" signals potential for maritime contention, while \"Zelenskyy announces strikes on Russian infrastructure\" suggests continued vulnerability of key energy-related assets.",
-        "Trade & Supply Chain Stress": "This pillar is significantly elevated, intensified by a deepening trade war between major economies. Headlines like \"U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse\" confirm that new retaliatory tariffs are being imposed, creating friction and uncertainty across supply networks.",
-        "Sovereign Financial Stress": "This pillar is currently experiencing baseline activity as the news feed does not contain direct indicators of national debt crises or sovereign default risks. While the report about 'Islamic NATO' humiliates Pakistan... Over 20,000 citizens kicked out' could imply future economic strain, it doesn't directly speak to immediate sovereign financial stress.",
-        "Currency & Liquidity Pressure": "This pillar remains under routine monitoring with no specific news items detailing currency volatility or significant liquidity issues in global markets. The provided headlines do not offer direct evidence of immediate currency or liquidity distress.",
-        "Sanctions & Regulatory Fragmentation": "This pillar is influenced by growing protectionist measures, specifically the escalation of trade tariffs. The \"Canada to impose retaliatory tariffs on US goods from Sept 8\" exemplifies regulatory fragmentation that complicates international commerce and market access.",
-        "Cyber & Infrastructure Threats": "This pillar reflects moderate activity, with kinetic attacks on infrastructure being a primary concern in conflict zones. \"Zelenskyy announces strikes on Russian infrastructure\" points to physical infrastructure vulnerabilities, while broader cyber threats are not explicitly detailed in the provided news beyond a company-specific security mention.",
-        "Climate & Resource Shock": "This pillar is assessed as low, with the current news feed lacking any reporting on significant climate events or critical resource scarcity. This pillar indicates routine monitoring without immediate shocks from environmental factors."
+        "Geopolitical Conflict Intensity": "This pillar remains very high due to an underlying environment of conflict, despite calls for diplomatic solutions. Pope Leo's call for \"dialogue over conflict, says young Catholics are a sign of hope\" suggests existing tensions require ongoing diplomatic intervention rather than an abatement of underlying issues.",
+        "Energy & Maritime Disruption": "While no direct energy supply shocks are explicitly mentioned, maritime safety remains a concern, indicating potential for disruption if incidents escalate. The \"ICG deploys ships for search-and-rescue operation after Panama-flagged vessel sinks\" highlights ongoing maritime operational risks that could impact trade routes or energy transport.",
+        "Trade & Supply Chain Stress": "This pillar is significantly elevated due to the explicit trade war unfolding between major economies. \"US and Canada fall deeper into a trade war with new tariffs as talks collapse\" directly indicates severe stress on trade relationships, with \"Canada-US rift deepens as Carney vows retaliatory tariffs after trade talks fail\" confirming retaliatory actions.",
+        "Sovereign Financial Stress": "There are clear indications of fiscal challenges facing major economies, suggesting upcoming policy adjustments and potential financial strain. \"After decades of free spending, Washington is facing some unpalatable choices\" points to growing concerns about sovereign debt and the need for significant fiscal reforms.",
+        "Currency & Liquidity Pressure": "While not explicitly high, trade disputes often lead to currency volatility and reduced liquidity as businesses hedge against tariff impacts. The \"Canada-US rift deepens as Carney vows retaliatory tariffs\" creates an environment where currency movements could become more pronounced, though the news does not detail immediate currency crises.",
+        "Sanctions & Regulatory Fragmentation": "The imposition of new tariffs by both the US and Canada represents a significant increase in regulatory fragmentation and trade barriers. \"New tariffs\" from both sides, as reported in \"US and Canada fall deeper into a trade war,\" directly contribute to this fragmentation, complicating international commerce and investment.",
+        "Cyber & Infrastructure Threats": "The provided news feed does not contain direct headlines regarding new cyber or infrastructure threats, suggesting the current score reflects an ongoing baseline of vigilance rather than immediate escalating events. However, global economic disputes and trade wars can indirectly increase the risk landscape for state-sponsored cyber activities targeting critical infrastructure.",
+        "Climate & Resource Shock": "This pillar shows a low level of immediate concern, indicating routine monitoring rather than acute shock events in the current reporting period. Investment in water resources, such as \"Google announces $10M Ohio water investment,\" suggests a proactive approach to resource management rather than a reactive response to a crisis."
     },
     "All_Alerts": [
         {
-            "title": "10 killed in Russian and Ukrainian attacks a day after fatal shopping mall drone strike",
+            "title": "Multitasking is dead, long live monotasking: Doing one thing well may be the real superpower in 2026",
             "severity": "HIGH",
-            "url": "https://nypost.com/2026/08/22/world-news/10-killed-in-russian-and-ukrainian-attacks-a-day-after-fatal-shopping-mall-drone-strike/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2F2026-amid-russian-invasion-ukraine-138166474.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Over 700 US troops killed, wounded as Iran war nears seventh month",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/us/over-700-us-troops-killed-wounded-as-iran-war-nears-seventh-month/articleshow/133427446.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133427446/133427446.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran",
-            "severity": "HIGH",
-            "url": "https://www.jpost.com/international/article-906259",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/730944",
-            "source": "jpost"
-        },
-        {
-            "title": "Canada Announces New Tariffs on U.S. as Trade War Widens",
-            "severity": "HIGH",
-            "url": "https://www.wsj.com/economy/trade/canada-announces-new-post-labor-day-tariffs-ef1de8e1?mod=rss_worldnews",
-            "image": "https://images.pexels.com/photos/972942/pexels-photo-972942.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "wsj"
-        },
-        {
-            "title": "Horror as 14 elderly people killed in double military strike on monastery",
-            "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/world/2241561/horror-14-elderly-people-killed",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/78/237x141/2241561_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "U.S. and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread",
-            "severity": "HIGH",
-            "url": "https://www.washingtontimes.com/news/2026/aug/22/us-canada-fall-deeper-trade-war-new-tariffs-talks-collapse-blame/",
-            "image": "https://twt-thumbs.washtimes.com/media/image/2026/08/22/Canada_US_Trade_17_36_c0-343-8192-5121_s1200x700.jpg?d24f66eb00a58ec30219eb4e7abe3cd64bd82b17",
-            "source": "washingtontimes"
-        },
-        {
-            "title": "'Islamic NATO' humiliates Pakistan like never before; Over 20,000 citizens kicked out of Middle East?",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/videos/islamic-nato-humiliates-pakistan-like-never-before-over-20-000-citizens-kicked-out-of-middle-east-101787416447676.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/22/1600x900/logo/1_1787416536254_1787416539990_d255d31a-f3b6-4e32-89ac-456c07437886.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Canada to impose retaliatory tariffs on US goods from Sept 8 as trade talks collapse",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/canada-to-impose-retaliatory-tariffs-on-us-goods-from-sept-8-as-trade-talks-collapse-101787414796007.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/22/1600x900/logo/Canada-US-Trade-3_1787414923999_1787415620023_b079ad9d-c227-4b2b-bfe8-ab05e89fb7a7.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Zelenskyy announces strikes on Russian infrastructure; holds high-level talks with allies on air defence",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/defence/zelenskyy-announces-strikes-on-russian-infrastructure-holds-high-level-talks-with-allies-on-air-defence/articleshow/133427465.cms",
-            "image": "https://img.etimg.com/thumb/msid-133427464,resizemode-4,width-1200,height-900,imgsize-51534,overlay-etdefence/articleshow.jpg",
+            "url": "https://economictimes.indiatimes.com/opinion/et-commentary/multitasking-is-dead-long-live-monotasking-doing-one-thing-well-may-be-the-real-superpower-in-2026/articleshow/133430137.cms",
+            "image": "https://images.pexels.com/photos/29859663/pexels-photo-29859663.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Mark Ruffalo links Paramount-Warner Bros. merger to Oracle\u2019s technology work with Israel",
+            "title": "Balanced attack leads 'Burg past Portsmouth, 63-0",
             "severity": "HIGH",
-            "url": "https://www.jpost.com/diaspora/antisemitism/article-906257",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/734842",
-            "source": "jpost"
-        },
-        {
-            "title": "Casino Spinfin \u2013 Account Security and Personal Data Protection",
-            "severity": "HIGH",
-            "url": "https://gaubharatbharati.com/casino-spinfin-account-security-and-personal-data-protection/",
-            "image": "https://images.pexels.com/photos/11565603/pexels-photo-11565603.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "gaubharatbharati"
-        },
-        {
-            "title": "Israeli drone strike on \u2018civilian vehicle\u2019 injures several in Syria",
-            "severity": "HIGH",
-            "url": "https://www.aljazeera.com/news/2026/8/22/israeli-drone-strike-on-civilian-vehicle-causes-injuries-in-syria",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/Syria-1787403295.webp?resize=1200%2C675",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Putin tells party congress Russia will keep holding elections 'even in most difficult conditions'",
-            "severity": "MEDIUM",
-            "url": "https://apnews.com/video/putin-tells-party-congress-russia-will-keep-holding-elections-even-in-most-difficult-conditions-347422b9982c4928aa128ff17611550d",
-            "image": "https://dims.apnews.com/dims4/default/f79750a/2147483647/strip/false/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F12%2Fec%2F38b13ddf49fe74fca0047ec05663%2Frus-putin-party-congress-20260822cr-1920x1080.jpg",
-            "source": "apnews"
-        },
-        {
-            "title": "Tallgrass Announces Open Season for the Pony Express Pipeline",
-            "severity": "MEDIUM",
-            "url": "http://www.businesswire.com/news/home/20260822074459/en/Tallgrass-Announces-Open-Season-for-the-Pony-Express-Pipeline/",
-            "image": "https://mms.businesswire.com/media/20260822074459/en/1999169/21/Tallgrass_Logo_2024.jpg",
-            "source": "businesswire"
-        },
-        {
-            "title": "Gujarat launches massive crackdown on sale of counterfeit medicines",
-            "severity": "MEDIUM",
-            "url": "https://newsable.asianetnews.com/india/gujarat-launches-massive-crackdown-on-sale-of-counterfeit-medicines-articleshow-qq4758n",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-9c539ff2-aa7e-4771-b6b9-494c8186a8a0.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Skirmish at photocopy centre creates tense situation in Puttur",
-            "severity": "MEDIUM",
-            "url": "https://www.thehindu.com/news/cities/Mangalore/skirmish-at-photocopy-centre-creates-tense-situation-in-puttur/article71377875.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
-        },
-        {
-            "title": "Lewis Hamilton upbeat despite qualifying only fifth at Dutch GP: \u2018I feel optimistic\u2019",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/lewis-hamilton-upbeat-despite-qualifying-163750344.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/897f2deea7fb9d69cdbbbdc01789fb3574a8acd5e50d26b71a3b252f165fd527/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_us_sports_articles_270%2F7a37e2d5b203a3c1212a951c2a36e4c1.jpg",
+            "url": "https://sports.yahoo.com/articles/balanced-attack-leads-burg-past-184800030.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/5f83ac44f2814f3f4e1e2b11df1ef23eb32fcac4edbad49836ef3fc6e2ecc69f/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fcv%2Fapiv2%2Fsocial%2Fimages%2Fyahoo_default_logo-1200x1200.png",
             "source": "yahoo"
         },
         {
-            "title": "Trumpiana: Friends or foes, the Don doesn\u2019t let old grouses go under grass",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/us/trumpiana-friends-or-foes-the-don-doesnt-let-old-grouses-go-under-grass/articleshow/133427532.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133427610/133427610.jpg",
-            "source": "toi"
+            "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
+            "severity": "HIGH",
+            "url": "https://www.bostonglobe.com/2026/08/22/world/pope-leo-calls-dialogue-over-conflict-says-young-catholics-are-sign-hope/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/3DA5L4RI4VA3RHOULIO2SFK3A4.jpg?auth=ece6e9c94a74f6454395cb4187d6e918525e65fbcfe468f1f450ec3430fb187b&smart=true&width=8256&height=5504",
+            "source": "bostonglobe"
         },
         {
-            "title": "Egypt speaks with Iran after Tehran claims victory, and other Middle East developments",
-            "severity": "WATCH",
-            "url": "https://www.post-gazette.com/news/world/2026/08/22/middle-east-latest-today-august-22-2026/stories/202608220042",
-            "image": "https://https//73f3e7d5672db1849e6c-6434aaf008a29447cc424990bc6a54a7.ssl.cf2.rackcdn.com/stories/202608220042/1140x_a10-7_cTC/Iraq-Egypt_1787416406.jpg",
-            "source": "postgazette"
+            "title": "How artist Khaled Sabsabi remains optimistic after weathering recent storms",
+            "severity": "HIGH",
+            "url": "https://www.abc.net.au/news/2026-08-23/khaled-sabsabi-coffee-between-suns/107054854",
+            "image": "https://live-production.wcms.abc-cdn.net.au/d89a20e4a14c6cc8b369c33fc24233da?impolicy=wcms_crop_resize&cropH=999&cropW=1776&xPos=0&yPos=26&width=862&height=485",
+            "source": "abc_net"
         },
         {
-            "title": "Celebrity Deaths of 2026: Sugar Hill's Michael Wright, More",
-            "severity": "WATCH",
-            "url": "https://www.usmagazine.com/celebrity-news/pictures/celebrity-deaths-of-2026-grateful-deads-bob-weir-and-more-stars-we-lost/",
-            "image": "https://www.usmagazine.com/wp-content/uploads/2026/08/Michael-Wright-Dead-Update-MSDFIHE_FE012.jpg?w=800&h=450&crop=1&quality=86&strip=all",
-            "source": "usmagazine"
+            "title": "US and Canada fall deeper into a trade war with new tariffs as talks collapse and blame is spread",
+            "severity": "HIGH",
+            "url": "https://ktla.com/news/nationworld/ap-us-is-set-to-impose-50-tariffs-on-20-billion-worth-of-canadian-products/",
+            "image": "https://ktla.com/wp-content/uploads/sites/4/2026/08/6a89ee5e214c60.19089882.jpeg?w=900",
+            "source": "ktla"
         },
         {
-            "title": "'Shambolic': Ben Stokes backs Joe Root in slamming ECB for not hosting any Ashes 2027 Test at Headlingley",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/shambolic-ben-stokes-backs-joe-163935721.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/3bcae77a2e15d73ffef64053ddeceb8e2034ffb77697b63a6904cc823a111e48/lightyear_networkapi/resizefit_w760_h427%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cricket_news_articles_506%2F22d8a67d5f0bebd456812d1e671811e3.jpg",
+            "title": "\ud83d\ude21 Corinthians fans stage third protest in four days; watch videos",
+            "severity": "HIGH",
+            "url": "https://ca.sports.yahoo.com/news/corinthians-fans-stage-third-protest-184000283.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/da0325022e4e8c43f74ff79b5a572a4336e14f38d3e6467c9588e840fe70ac17/lightyear_networkapi/resizefit_w1024_h683%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fonefootball_articles_802%2Feaa6c45e94ea2225803a6f6880b21209.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Chinese humanoid robots smash human records in 100m sprint and high jump at Beijing robot games",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/technology/chinese-humanoid-robots-smash-human-records-in-100m-sprint-and-high-jump-at-beijing-robot-games-1.500649144",
-            "image": "https://media.assettype.com/gulfnews/2026-08-22/ujjauvzy/preview.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "title": "Donald Trump's war on Canada will fail \u2014 just like last time",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com/opinion/star-columnists/donald-trumps-war-on-canada-will-fail--just-like-last-time/article_bb26192b-e011-4ee8-b932-04e44cb3beff.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/3/af/3aff40b2-8b42-5ba9-a59d-7b2628d3fb4a/6a89e9badc6c4.image.jpg?resize=300%2C214",
+            "source": "thestar"
         },
         {
-            "title": "Kerala\u2019s fisheries plan: How new rules could reshape fishing and seafood exports",
-            "severity": "WATCH",
-            "url": "https://english.mathrubhumi.com/news/kerala/keralas-fisheries-plan-how-new-rules-could-reshape-fishing-and-seafood-exports-u1d9u9ue",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1tagq084zr6uiu5kh4b/0/seafood-jpg.webp?$p=f162f31&f=16:9&w=1200&q=1",
-            "source": "mathrubhumi"
+            "title": "Canada-US rift deepens as Carney vows retaliatory tariffs after trade talks fail",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/2024597/canada-us-rift-deepens-as-carney-vows-retaliatory-tariffs-after-trade-talks-fail",
+            "image": "https://i.dawn.com/large/2026/08/222323165d68390.webp",
+            "source": "dawn"
         },
         {
-            "title": "Zelenskyy says Ukraine hit Russian refinery 1000km from frontline",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/world/zelenskyy-says-ukraine-hit-russian-refinery-1000km-from-frontline-articleshow-keb767a",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-f5834006-f112-4abe-ae0a-e808c3431136.jpg",
-            "source": "newsable_asianetnews"
+            "title": "Five Things: PM Carney explains why Canada left the U.S. negotiating table",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/five-things-pm-carney-explains-184257793.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/075935e86e3242d500d76f9ac959fe9ad6262ab07682f8d64efff5dc5e3bc842/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcp_news_842%2F2cd94563d44bb711615f0d7ab5d980e2.jpg",
+            "source": "yahoo"
         },
         {
-            "title": "U.S. Official: Trade Deal's Failure Is a 'Missed Opportunity for Canada'",
-            "severity": "WATCH",
-            "url": "https://www.breitbart.com/politics/2026/08/22/u-s-official-trade-deals-failure-is-a-missed-opportunity-for-canada/",
-            "image": "https://media.breitbart.com/media/2026/08/AP26101576315836-640x335.png",
-            "source": "breitbart"
+            "title": "Trump\u2019s foreign beef push to cut grocery costs sparks GOP revolt from ranching country",
+            "severity": "HIGH",
+            "url": "https://www.foxbusiness.com/politics/trumps-foreign-beef-push-cut-grocery-costs-sparks-gop-revolt-from-ranching-country",
+            "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/08/split-trump-cattle.png",
+            "source": "foxbusiness"
         },
         {
-            "title": "Andhra approves \u20b931,387-crore green AI data centre project in Visakhapatnam",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/technology/artificial-intelligence/andhra-approves-31-387-crore-green-ai-data-centre-project-in-visakhapatnam-126082200884_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-01/18/full/1768756573-0794.jpg",
-            "source": "business-standard"
+            "title": "After decades of free spending, Washington is facing some unpalatable choices - Sat, 22 Aug 2026 PST",
+            "severity": "HIGH",
+            "url": "http://www.spokesman.com/stories/2026/aug/22/after-decades-of-free-spending-washington-is-facin/",
+            "image": "https://thumb.spokesman.com/v0vacI--CLh4qHeVBRRkQ1DVsIQ=/2500x1405/smart/media.spokesman.com/photos/2026/08/22/6a8a2f6ba6eab.hires.jpg",
+            "source": "spokesman"
         },
         {
-            "title": "Ensure fertiliser supply, 100% crop insurance benefits: Atchannaidu",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/vijayawada/ensure-fertiliser-supply-100-crop-insurance-benefits-atchannaidu/articleshow/133427670.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133427622/133427622.jpg",
+            "title": "U.S. trade demands aimed to reduce Canada to '51st state,' B.C. premier says",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/b-c-premier-responds-u-184955897.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/a3fbc8a5a6317cbe5e2cf6117010a73bfb4b74057399607c6cd427defa441902/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcbc.ca%2F9b3b1c607ecec60297a00d986b5a5dce.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "B.C. premier responds to new U.S. tariffs",
+            "severity": "HIGH",
+            "url": "https://www.cbc.ca/news/canada/british-columbia/bc-trump-tariffs-reaction-business-9.7316920?cmp=rss",
+            "image": "https://i.cbc.ca/ais/5cc7441d-e3f7-4ba8-95de-2f55904fcf08,1787424206071/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C312%2C3000%2C1687%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "Ahmedabad: Mother-son duo accused of cheating businessman of Rs 5L",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/ahmedabad-mother-son-duo-accused-of-cheating-businessman-of-rs-5l/articleshow/133430154.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133074176/133074176.jpg",
             "source": "toi"
         },
         {
-            "title": "'Weather resistant' outdoor storage box with wheels 'holds a lot of cushions'",
+            "title": "Canada warns international students about working more than 24 hours per week",
+            "severity": "HIGH",
+            "url": "https://www.legit.ng/world/us/1726704-canada-warns-international-students-working-24-hours-week/",
+            "image": "https://cdn.legit.ng/images/1200x675/baeda8919223da57.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Save Ohio Parks endorses 15 candidates, including Acton, Pepper for governor, Lt. governor",
             "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/money/shopping-deals/weather-resistant-outdoor-storage-box-37559465",
-            "image": "https://i2-prod.mirror.co.uk/money/shopping-deals/article37559541.ece/ALTERNATES/s615/1_91ufUrCO-zL_AC_SL1500_.jpg",
+            "url": "https://www.yahoo.com/news/politics/articles/save-ohio-parks-endorses-15-184900990.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/150afeec82b96c8edfb05d7e98a23e7e5f1e6917dc328e2c1a7c8ecc4d4736fe/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fcv%2Fapiv2%2Fsocial%2Fimages%2Fyahoo_default_logo-1200x1200.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Google announces $10M Ohio water investment, including $3M for agriculture program",
+            "severity": "WATCH",
+            "url": "https://finance.yahoo.com/technology/articles/google-announces-10m-ohio-water-184900468.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Virgo Season is exposing what hasn\u2019t been working for 4 Zodiac Signs, here\u2019s what changes next",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/international/us/virgo-season-is-exposing-what-hasnt-been-working-for-4-zodiac-signs-heres-what-changes-next/articleshow/133429925.cms",
+            "image": "https://img.etimg.com/thumb/msid-133430263,resizemode-4,width-1200,height-900,imgsize-227988,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Donald Trump's wild week as BBC lawsuit descends into farce and he faces ridicule over 'close aid'",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/news/politics/trump-roundup-natalie-harp-bbc-37582562",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37582563.ece/ALTERNATES/s615/0_President-Trump-Holds-Campaign-Rally-With-Darline-Graham-In-Myrtle-Beach.jpg",
             "source": "mirroruk"
+        },
+        {
+            "title": "ICG deploys ships for search-and-rescue operation after Panama-flagged vessel sinks",
+            "severity": "WATCH",
+            "url": "https://news.abplive.com/news/india/icg-deploys-ships-for-search-and-rescue-operation-after-panama-flagged-vessel-sinks-1863365",
+            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/03/23/1bba76ffed462cbd0c3d36a2c3ecda0a1774257201784992_original.png",
+            "source": "abplive"
+        },
+        {
+            "title": "The hidden economy beneath our feet: Plants share energy through fungal networks - Digital Journal",
+            "severity": "WATCH",
+            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeGVRdDkxdzVxY3BLNGlvem55aHVUVG5remliMV90eEpPM3YxOTFpTUhBZFZBZXNsSTZNZzFUUFdVa1JnUExkNTczYWxmWDhjeXYyVVRFZ3lMZzFRd0t0YWVtRHJfWGFuMUZJQjR6NDNvSnpxU0N0MnJLdHkyMDMzYkw0R01iMXFGSV9WS0k5N2hsc2kwZTZaSDUzZzNsMFBGc0R6U1dIeXQtV2ROMU8xbjdJS0NOM3cxQVlV?oc=5",
+            "image": "https://images.pexels.com/photos/6950135/pexels-photo-6950135.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "110 Bougie Things for Men on Amazon That Are Actually Bargains",
+            "severity": "WATCH",
+            "url": "https://www.inverse.com/shopping/bougie-things-for-men-on-amazon-that-are-actually-bargains",
+            "image": "https://imgix.bustle.com/uploads/image/2026/2/13/d91e2012/8.webp?w=1200&fit=max",
+            "source": "inverse"
+        },
+        {
+            "title": "Candy crushed: Sugar at Rs 60/kg, Gujarat sweetmakers shocked",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/candy-crushed-sugar-at-rs-60/kg-gujarat-sweetmakers-shocked/articleshow/133430232.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133430231/133430231.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "I already loved True's Antigravity golf shoe. Now the new ones are my go-to",
+            "severity": "WATCH",
+            "url": "https://golf.com/gear/shoes/trues-antigravity-pro-golf-shoe-review/",
+            "image": "https://golf.com/wp-content/uploads/2026/08/TrueLinksAntiGravityPro.jpg",
+            "source": "golf"
+        },
+        {
+            "title": "ICE arrested the \u2018worst of the worst.\u2019 Washington made sure he walked free",
+            "severity": "WATCH",
+            "url": "https://www.rt.com/news/644476-ice-arrested-worst-of-worst/",
+            "image": "https://mf.b37mrtl.ru/files/2026.08/thumbnail/6a8989a785f5407582143a3c.jpg",
+            "source": "rt"
+        },
+        {
+            "title": "Agatha Christie Meets Succession In New Twisty Mystery With 4 Stars On Goodreads",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/the-anniversary-alex-finlay-new-twisty-family-mystery-like-succession/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/succession_h35kjt.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "Colvale jail drug racket: Inmate in police custody, guard gets bail",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/goa/colvale-jail-drug-racket-inmate-in-police-custody-guard-gets-bail/articleshow/133430260.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133430259/133430259.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Coin change problem with limited coins",
+            "severity": "WATCH",
+            "url": "https://www.geeksforgeeks.org/dsa/coin-change-problem-with-limited-coins/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/20260520162109640218/s.webp",
+            "source": "geeksforgeeks"
+        },
+        {
+            "title": "I turned on IPv6 to future-proof my network, and it quietly wrecked my latency",
+            "severity": "WATCH",
+            "url": "https://www.xda-developers.com/i-turned-on-ipv6-to-future-proof-my-network-and-it-quietly-wrecked-my-latency/",
+            "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/08/img_6038.jpg",
+            "source": "xda_developers"
+        },
+        {
+            "title": "The good and the bad of the second Texas scrimmage",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/good-bad-second-texas-scrimmage-184953411.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/951b39361a826dc62eb8e38d9451a288f69ff3342921233658d43cf7bc76bd63/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F2465339a3c83c58bb3b9d7b1a89ba3a7.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "South Africa: Two undocumented foreign nationals get over six years in jail",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/world/africa/1726712-south-africa-jails-2-undocumented-foreigners-arrests-17-fresh-crackdown/",
+            "image": "https://cdn.legit.ng/images/1200x675/cd0ad84bafa4e723.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Ahmedabad: Businesswoman files Rs 1.3cr cheating case against couple",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/ahmedabad-businesswoman-files-rs-1-3cr-cheating-case-against-couple/articleshow/133430197.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133430195/133430195.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Endoscopic cam used to copy paper in sealed packet in Chhattisgarh university",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/raipur/endoscopic-cam-used-to-leak-bsc-paper-at-cg-agri-varsity-cops/articleshow/133430098.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133425549/133425549.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "New High School Rankings | Indictments | Sexual Assault And DWI Arrests | More: Nearby News NH",
+            "severity": "WATCH",
+            "url": "https://patch.com/new-hampshire/concord-nh/new-high-school-rankings-indictments-sexual-assault-dwi-arrests-more-nearby",
+            "image": "https://patch.com/img/cdn20/users/546351/20260822/023105/styles/patch_image/public/nearby-news-082226-collage___22143029478.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "Avinash Sable Surprise Inclusion In India's Asian Games Athletics Team, Injured Tejas Shirse Also Named",
+            "severity": "WATCH",
+            "url": "https://sports.ndtv.com/othersports/avinash-sable-surprise-inclusion-in-indias-asian-games-athletics-team-injured-tejas-shirse-also-named-11945866",
+            "image": "https://c.ndtvimg.com/2025-07/e29cghns_avinash-sable-_625x300_12_July_25.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "Dallas jury orders Fiberwave, subcontractor to pay AT&T $8 million",
+            "severity": "WATCH",
+            "url": "https://www.dallasnews.com/business/local-companies/article/at-t-wins-8-million-verdict-fiberwave-22399372.php",
+            "image": "https://s.hdnux.com/photos/01/67/11/37/31234030/3/rawImage.jpg",
+            "source": "dallasnews"
         },
         {
             "title": "Woman hospitalized TWICE after eating Wendy\u2019s cheeseburger \u2018tainted with deadly bacteria\u2019",
@@ -226,42 +282,7 @@
             "url": "https://www.the-sun.com/news/16881099/woman-hospitalized-wendys-burger-deadly-bacteria-lawsuit/",
             "image": "https://www.the-sun.com/wp-content%2Fuploads%2Fsites%2F6%2F2026%2F08%2Fnewspress-collage-ak49oajq6-1787414546362.jpg?quality%3D90%26strip%3Dall%261787400188%261787400188",
             "source": "thesun"
-        },
-        {
-            "title": "Govt under fire over Imran\u2019s care",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/23/govt-under-fire-over-imrans-care",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/23/4073306.JPG",
-            "source": "thestar_my"
-        },
-        {
-            "title": "F1 2026 qualifying head-to-head: Dutch GP",
-            "severity": "WATCH",
-            "url": "https://www.motorsport.com/f1/news/f1-2026-qualifying-head-to-head-dutch-gp/10848127/",
-            "image": "https://cdn-9.motorsport.com/images/amp/0Zq8Rq86/s6/valtteri-bottas-cadillac-3.jpg",
-            "source": "motorsport_en"
-        },
-        {
-            "title": "Professor held in Chhattisgarh paper leak case; police personnel say he inserted endoscopic camera in sealed envelope",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/chhattisgarh/professor-held-in-chhattisgarh-paper-leak-case-police-personnel-say-he-inserted-endoscopic-camera-in-sealed-envelope/article71378237.ece",
-            "image": "https://th-i.thgim.com/public/news/hzlfgc/article71370526.ece/alternates/FREE_1200/638192891510989930%201.jpg",
-            "source": "thehindu"
-        },
-        {
-            "title": "IGKV Question Paper Leak: Professor, Five Students Arrested in Chhattisgarh",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/education/igkv-question-paper-leak-professor-five-students-arrested-in-chhattisgarh-article-155954244",
-            "image": "https://images.timesnownews.com/thumb/msid-155954408,thumbsize-1069702,width-1280,height-720,resizemode-75/155954408.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Comcast adds new service to internet plans as customers leave",
-            "severity": "WATCH",
-            "url": "https://www.thestreet.com/retail/comcast-launches-xfinity-shield-as-internet-customers-leave",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTUyMzY5/comcast-cable-xfinity-service-parked-on-the-side-of-a-street.jpg?profile=rss",
-            "source": "thestreet"
         }
     ],
-    "Last_Updated": "2026-08-23T04:42:45.901624Z"
+    "Last_Updated": "2026-08-23T06:50:10.833329Z"
 }
