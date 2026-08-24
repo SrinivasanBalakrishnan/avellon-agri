@@ -1,117 +1,140 @@
 {
-    "AGRI_Score": 64.4,
-    "Velocity": "0.0",
-    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AGRI_Score": 64.0,
+    "Velocity": "-0.4",
+    "Top_Risk_Driver": "Energy & Maritime Disruption",
+    "AI_Brief": "The AGRI score of 64.0 reflects a high-risk environment, predominantly driven by acute geopolitical tensions and substantial energy market disruption. Iran's explicit threats to impose 'fines, detention, confiscation' for vessels in the Strait of Hormuz and its intent to 'halt all oil exports' are critical drivers, provoking a US vow of 'economic D-Day'. Concurrently, the escalating conflict in Ukraine, where 'air defense runs low' for backers, further compounds global instability and resource concerns.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 86.0,
+        "Geopolitical Conflict Intensity": 79.2,
         "Energy & Maritime Disruption": 80.4,
-        "Trade & Supply Chain Stress": 66.0,
+        "Trade & Supply Chain Stress": 68.1,
         "Sovereign Financial Stress": 56.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 60.2,
-        "Cyber & Infrastructure Threats": 65.7,
+        "Sanctions & Regulatory Fragmentation": 67.5,
+        "Cyber & Infrastructure Threats": 64.2,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar remains at a critical level due to the direct threats emerging from the Middle East and ongoing conflict in Eastern Europe. Iran's declaration of 'fines, detention, confiscation' for vessels violating protocols in the Strait of Hormuz, alongside its threat to 'halt all oil exports,' significantly elevates regional and global tensions. Concurrently, the 'war escalates' in Ukraine, with backers noting 'air defense runs low,' signaling persistent and intensified military engagement.",
+        "Energy & Maritime Disruption": "The risk here is extremely high, directly impacted by Iran's aggressive stance regarding maritime passage and energy supply. Threats of 'fines, detention, confiscation' for vessels in the Strait of Hormuz, combined with Iran's explicit threat to 'halt all oil exports,' pose an imminent threat to global energy flows and maritime security. This situation is further complicated by the 'Tehran\u2019s Hormuz threats expose regime panic amid rial collapse, fuel smuggling,' indicating domestic pressures that could escalate external actions.",
+        "Trade & Supply Chain Stress": "This pillar shows elevated stress, influenced by regional instability and market shifts. The threat to 'halt all oil exports' from Iran, if realized, would create significant disruptions across global supply chains reliant on energy. On a different note, 'India gold imports double in July as WGC flags demand recovery' indicates shifts in commodity demand, potentially signaling inflationary pressures or hedging behaviors.",
+        "Sovereign Financial Stress": "Financial pressures are present, linked to internal vulnerabilities and market events. 'CORPORATE WINDOW: The crossroads of collapse' points to potential systemic issues within corporate sectors, which could spill over into sovereign financial health. Furthermore, 'Perth nurse who lost $130,000 in super collapse lashes out at Labor's reforms' highlights public dissatisfaction with financial system vulnerabilities and government oversight, hinting at broader economic strains.",
+        "Currency & Liquidity Pressure": "This pillar indicates a moderate but notable level of pressure, particularly within specific economies. 'Tehran\u2019s Hormuz threats expose regime panic amid rial collapse' directly highlights severe currency depreciation and liquidity issues within Iran, which could have regional ripple effects. The doubling of 'India gold imports in July' might also reflect a move towards safe-haven assets amidst perceived economic uncertainties.",
+        "Sanctions & Regulatory Fragmentation": "This pillar experiences significant upward pressure due to geopolitical tensions and retaliatory measures. The 'U.S. vows \u2018economic D-Day\u2019 as Iran threatens to halt all oil exports' signals an impending escalation of economic warfare and sanctions. Such actions would inevitably lead to increased fragmentation of global trade and financial regulations, impacting international business operations.",
+        "Cyber & Infrastructure Threats": "This pillar reflects notable concern, evidenced by specific incidents impacting corporate data security. The 'Apollo Global Management Data Breach: Edelson Lechtzin LLP Launches Investigation Into Exposure of Personal Information' indicates ongoing and serious cyber vulnerabilities within critical financial infrastructure. Such breaches can lead to significant financial losses and erode trust in digital systems.",
+        "Climate & Resource Shock": "This pillar currently exhibits baseline activity, with no immediate, severe, systemic climate or resource shocks indicated in the provided feed. While 'Greepiece: Dog-wildlife conflicts need urgent attention' addresses an environmental concern, it does not point to widespread climate-driven resource scarcity or extreme weather events impacting global systems at this time."
+    },
     "All_Alerts": [
         {
-            "title": "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran",
+            "title": "'Vessels violating Iranian protocols for Strait of Hormuz' shall face fines, detention, confiscation: Iran",
             "severity": "HIGH",
-            "url": "https://www.cnbc.com/2026/08/24/oil-price-today-wti-brent-us-sanctions-iran.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108330706-17833366882026-07-03t131929z_1683992226_rc2tvkas79wg_rtrmadp_0_iran-crisis-oil-exports.jpeg?v=1783336748&w=1200&h=675",
-            "source": "cnbc"
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/vessels-violating-iranian-protocols-for-strait-of-hormuz-shall-face-fines-detention-confiscation-iran/articleshow/133449750.cms",
+            "image": "https://img.etimg.com/thumb/msid-133449749,resizemode-4,width-1200,height-900,imgsize-85974,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Heavy rain causes deadly landslide at landfill in capital of Guinea",
+            "title": "ICYMI - India gold imports double in July as WGC flags demand recovery",
             "severity": "HIGH",
-            "url": "https://apnews.com/video/heavy-rain-causes-deadly-landslide-at-landfill-in-capital-of-guinea-d55e5866343249f58e0b524189ed8a43",
-            "image": "https://dims.apnews.com/dims4/default/04c6e57/2147483647/strip/false/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F05%2F74%2Ff9277613d6a389630e238514b389%2Fgui-landslide-20260824cr-1920x1080.jpg",
-            "source": "apnews"
-        },
-        {
-            "title": "Globe at a glance: From Macron hosting Saudi Crown Prince in Paris to Trump\u2019s upcoming Ireland visit",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/world/globe-at-a-glance-from-macron-hosting-saudi-crown-prince-in-paris-to-trumps-upcoming-ireland-visit-14040259.html",
-            "image": "https://images.firstpost.com/uploads/2026/08/AFP__20260823__C6C93GG__v3__MidRes__FranceSaudiArabiaPoliticsDiplomacyEsports-2026-08-d568c44fd7de93bc8882c1881ca6f858-1200x675.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Climate change activists want to make California insurance crisis even worse",
-            "severity": "HIGH",
-            "url": "https://nypost.com/2026/08/23/opinion/climate-change-activists-want-to-make-insurance-crisis-worse/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2F2288280357.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Akshaye Khanna as Shukracharya in Mahakali: Why the Asura Guru is pure cinema lore - India Today",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNM3gyOFczMHh2UUx6cWEyUW8waF81c0J4MmNqTXd5VmhYamdLcWN1c1ZzdnZwc3VrVHdUNVIxUHpLbVI3UlBTNVNGYVFMdklLNVNnVTk5X2VWM1VyUmdUSEJUVndZenVwTUF2aEw1ZjVqTl9VTjcyRUp5YVFxNEFQei11U0thVlZBWGhVMTQ4NklxT0xrbkNEMTcxR0FwS2o3OWxDbGI1dHQxSUVjcC1Yd3YtOUVLUXlXMHJJQk1IZXFjZ1pubmRNMXlLb3A1ell2aHRrc3pmc1EweGhOUGFoZi1EUDh6SGVjUjg40gHwAUFVX3lxTE41WEpuVk4yTG5WSGstSVd5UjRhcl9fLVdEZnV4MFYtRXhXWUc0Z0F2WFJFb05JX1BCVEE1Y2VsZFhfRUxBSXJkSHlkVVZsSEJMaWdWS2dmcHlMa3d0Wm1PRnM2T19IYldfZXhzeTRDSXlkdmp0RGlmNUY0eHZkendkRzdSUjI0dmt2YzNLRmFSVlJ4TjBjVmZPSVVycmgtYU1hamJCaFE1bjdYX1FYeUxpQl9MT2hQTzJNVjVaMVEtWEdzb29vNnJJSnNtdE1CNmFJbmtjbjRjWC1SVVdBampJQ2RkYW1DOUViMzA5NXlyeA?oc=5",
-            "image": "https://images.pexels.com/photos/28767587/pexels-photo-28767587.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Zelenskyy rejects wartime elections, cites \"huge risk\"",
-            "severity": "HIGH",
-            "url": "https://www.aol.com/articles/zelenskyy-rejects-wartime-elections-cites-005930000.html",
-            "image": "https://hermes.media.static.aol.com/media/2026/08/24/8bee0889-528b-3236-88c7-49ab8b7614bc/99500590-e693-46fb-b55b-7e0928e40cdb.jpg",
-            "source": "aol"
-        },
-        {
-            "title": "Canada sees long trade war with U.S. that may last beyond midterms",
-            "severity": "HIGH",
-            "url": "https://www.japantimes.co.jp/business/2026/08/24/economy/canada-long-trade-war-us-midterms/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/08/24/558979.jpg",
-            "source": "japantimes"
-        },
-        {
-            "title": "The ultimate test: Can the IDF Chief resist Netanyahu's election-year war push?",
-            "severity": "HIGH",
-            "url": "https://www.haaretz.com/opinion/2026-08-24/ty-article-opinion/.premium/the-ultimate-test-can-the-idf-chief-resist-netanyahus-election-year-war-push/000001a0-2f7c-d7ba-aff3-bffed7c20000",
-            "image": "https://img.haarets.co.il/bs/000001a0-3022-d7ba-aff3-b2a6e7270000/1d/96/22af424645d394367a88c888ad04/129238.jpg?width=108&height=81",
-            "source": "haaretz_is"
-        },
-        {
-            "title": "Ukraine gains momentum against Russia but faces political challenge at home",
-            "severity": "HIGH",
-            "url": "https://www.cbsnews.com/video/ukraine-gains-momentum-against-russia-political-challenge-home/",
-            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/08/24/dbc5c278-5991-4302-988c-f1f8b116830a/thumbnail/1200x630/6dd194a4742c0bc48ed477a38b3b165f/cbsn-fusion-ukraine-gains-momentum-against-russia-political-challenge-home-thumbnail.jpg",
-            "source": "cbsnews"
-        },
-        {
-            "title": "NZ main opposition party pledges to restore RBNZ dual mandate on employment if elected",
-            "severity": "HIGH",
-            "url": "https://investinglive.com/central-banks/nz-main-opposition-party-pledges-to-restore-rbnz-dual-mandate-on-employment-if-elected/",
-            "image": "https://investinglive.com/cms/media/Processed/Categories/featured/25bp%20cash%20rate%20hike%20rbnz%20September%202%20expected-featured-1787532206.jpg",
+            "url": "https://investinglive.com/commodities/icymi-india-gold-imports-double-in-july-as-wgc-flags-demand-recovery/",
+            "image": "https://investinglive.com/cms/media/Processed/Categories/featured/gold%20imports%2024%20August%202026-featured-1787539466.jpg",
             "source": "forexlive"
         },
         {
-            "title": "Afghanistan: Weekly Market Report: Issue 308: Week 3 - August 2026",
+            "title": "CORPORATE WINDOW: The crossroads of collapse",
             "severity": "HIGH",
-            "url": "https://reliefweb.int/report/afghanistan/afghanistan-weekly-market-report-issue-308-week-3-august-2026",
-            "image": "https://images.pexels.com/photos/7629244/pexels-photo-7629244.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "reliefweb"
+            "url": "https://www.dawn.com/news/2024844/corporate-window-the-crossroads-of-collapse",
+            "image": "https://i.dawn.com/large/2026/08/24073504b8e545b.webp",
+            "source": "dawn"
         },
         {
-            "title": "Oil prices drop nearly 1% as U.S. prepares more Iran sanctions",
+            "title": "Fazl blames lack of joint opposition for unchecked legislation",
             "severity": "HIGH",
-            "url": "https://uk.investing.com/news/commodities-news/oil-prices-drop-nearly-1-as-us-prepares-more-iran-sanctions-4843663",
-            "image": "https://content-media.investing.com/news/LYNXMPEA5T0D5_M.jpg",
-            "source": "investing_uk"
+            "url": "https://www.dawn.com/news/2024826/fazl-blames-lack-of-joint-opposition-for-unchecked-legislation",
+            "image": "https://i.dawn.com/large/2026/08/24043741c7e8524.webp",
+            "source": "dawn"
         },
         {
-            "title": "Bessent flags \u2018economic D-Day\u2019 for Iran as Tehran warns of more oil pain",
+            "title": "Greepiece: Dog-wildlife conflicts need urgent attention",
             "severity": "HIGH",
-            "url": "https://uk.investing.com/news/economy-news/bessent-flags-economic-dday-for-iran-as-tehran-warns-of-more-oil-pain-4843676",
-            "image": "https://content-media.investing.com/news/moved_LYNXMPEL6E0YS_L.jpg",
-            "source": "investing_uk"
+            "url": "https://www.hindustantimes.com/india-news/greepiecedogwildlife-conflicts-need-urgent-attention-101787510787763.html",
+            "image": "https://images.hindustantimes.com/default/1600x900.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Big winner in Aus fuel crisis revealed - News.com.au",
+            "title": "Turkish military planes made 3-day Pakistan dash: What was being carried?",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOc1RrczlDUDdmUXcySEp1eXJ0MjJaQWw0SlJidXZ2QXlLTVN0a2tRdm1fLUZWNjJuX0szX3JHTTJsbFo0MWlYbFc4dDRuV0ZnVGhqWHgzcnFaeTFndWhBVkt4cWxaVWg4QllQeWM1eGRxbHVwTEhZbUt2UWZDeTFJTVdPbHduNnVHNFRieGNfNXlwNUhUUUJOSmJwZU5VVTBNLUhQeXlGRmVvV3RSTUV3b08xeDZDQldIVFhBUG9VNm9WekVHOTY4LWtSRC05dkI2Q2V0czZMdF92ckxZUFFlR0VnemNOY0tlZVgtbG5JNA?oc=5",
-            "image": "https://images.pexels.com/photos/9417514/pexels-photo-9417514.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://english.mathrubhumi.com/news/world/turkish-c130-flights-pakistan-drones-air-defense-ok4590ar",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1tbkmehj5tgd6omkrhw/0/c-130-jpg.webp?$p=f162f31&f=16:9&w=1200&q=1",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "Tehran\u2019s Hormuz threats expose regime panic amid rial collapse, fuel smuggling and fears of uprising",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/world/mena/tehrans-hormuz-threats-expose-regime-panic-amid-rial-collapse-fuel-smuggling-and-fears-of-uprising-1.500650076",
+            "image": "https://media.assettype.com/gulfnews/2026-08-10/02rgs8i2/newsml_afp_com_20260810T140556Z_doc_c4bt7nq.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "\u2018Harassed from 1st month\u2019: Family alleges dowry torture after pregnant defence ministry official\u2019s death in Delhi",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/delhi/harassed-assaulted-from-1st-month-family-alleges-dowry-torture-after-pregnant-defence-ministry-officials-death-in-delhi/articleshow/133449290.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133449744/133449744.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "\u2018Pregnant\u2019 govt officer dies by suicide in Delhi; in-laws booked",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/cities/delhi-news/pregnant-govt-officer-dies-by-suicide-in-delhi-in-laws-booked-101787508716078.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/24/1600x900/logo/IRS-14_1777521720602_1777521750634_1787538168950_45c1df2a-e0d2-4249-a964-2ac965b08624.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Nordic and Baltic leaders pledge continued support for Ukraine during Kyiv visit",
+            "severity": "HIGH",
+            "url": "https://apnews.com/video/nordic-and-baltic-leaders-pledge-continued-support-for-ukraine-during-kyiv-visit-d897622829e04c719679e39995bfacd2",
+            "image": "https://dims.apnews.com/dims4/default/af1855d/2147483647/strip/false/crop/1280x720+0+0/resize/980x551!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe8%2Feb%2F4ea74008c642052f053f52bef227%2Fukr-war-nordic-baltic-eight-wrap-20260824cr-1920x1080.jpg",
+            "source": "apnews"
+        },
+        {
+            "title": "\u2018Making trouble\u2019: Murdoch family\u2019s bitter feud exposed in court documents - SMH.com.au",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNOGZTLURkWFZGaV9NQ2xOZWtscl9YTGJrNEpBeEtoSHVpQU0tVkl0c0I0X05KbWE3emZhQlRCVDlodWRqRng2dHJQc1gtc0x1d2ltNElaSmZnV3l2MlU2U0Rxd3gtYV9NejQ4TlhxZUFSOGZscEgyalliOGZ0WGpOWGJXZ3FBUmdjZzJBNW1PbE5zSXdQbHphWVVZckZhUXlkQm4tZkxsT09mM0pKcU5YRU95aEIwSTlMOTFVdWVLdGxuMTl6OG83SEJBNlVVQQ?oc=5",
+            "image": "https://images.pexels.com/photos/18597927/pexels-photo-18597927.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
+        },
+        {
+            "title": "Ukraine backers gather as war escalates, air defense runs low",
+            "severity": "HIGH",
+            "url": "https://globalnation.inquirer.net/335699/ukraine-backers-gather-as-war-escalates-air-defense-runs-low",
+            "image": "https://globalnation.inquirer.net/files/2026/08/Ukraine-backers-gather-as-war-escalates-air-defense-runs-low.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "U.S. vows \u2018economic D-Day\u2019 as Iran threatens to halt all oil exports",
+            "severity": "HIGH",
+            "url": "https://www.japantimes.co.jp/news/2026/08/24/world/us-economic-d-day-iran-oil-exports/",
+            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/08/24/558999.JPG",
+            "source": "japantimes"
+        },
+        {
+            "title": "Travellers who already booked Fiji holidays could pay more, travel groups warn",
+            "severity": "HIGH",
+            "url": "https://www.rnz.co.nz/news/pacific/1102307/travellers-who-already-booked-fiji-holidays-could-pay-more-travel-groups-warn",
+            "image": "https://images.pexels.com/photos/8964850/pexels-photo-8964850.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
+        },
+        {
+            "title": "Trump\u2019s war on the world is exposing him",
+            "severity": "HIGH",
+            "url": "https://www.smh.com.au/business/the-economy/trump-s-war-on-the-world-is-exposing-him-20260824-p60quu.html",
+            "image": "https://static.ffx.io/images/$zoom_0.38215518518518515%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_87%2C$y_122/t_crop_custom/q_86%2Cf_auto/9f32ee616031ffc12c0e89c1c8ab06d19a7287ec",
+            "source": "smh"
+        },
+        {
+            "title": "Apollo Global Management Data Breach: Edelson Lechtzin LLP Launches Investigation Into Exposure of Personal Information",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/08/24/3349433/0/en/apollo-global-management-data-breach-edelson-lechtzin-llp-launches-investigation-into-exposure-of-personal-information.html",
+            "image": "https://images.pexels.com/photos/30226728/pexels-photo-30226728.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
         },
         {
             "title": "Perth nurse who lost $130,000 in super collapse lashes out at Labor's reforms - as thousands wait for compensation",
@@ -121,145 +144,166 @@
             "source": "dailymailuk"
         },
         {
-            "title": "Flipkart introduces penalties for sellers over despatch delays, cancellations",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/tech/technology/flipkart-introduces-penalties-for-sellers-over-despatch-delays-cancellations/articleshow/133445654.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-50988,resizemode-75,msid-133445654/tech/technology/flipkart-introduces-penalties-for-sellers-over-despatch-delays-cancellations.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Anthropic makes quiet move Nvidia investors must consider",
-            "severity": "HIGH",
-            "url": "https://www.thestreet.com/technology/anthropic-silicon-team-amir-salek-hire",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTU0MDU1/inside-anthropic-headquarters-as-its-testing-a-different-version-of-leadership.jpg?profile=rss",
-            "source": "thestreet"
-        },
-        {
-            "title": "Twitch And Amazon Hit With Lawsuit for Training AI With Streamers' Content",
-            "severity": "HIGH",
-            "url": "https://yro.slashdot.org/story/26/08/23/2127238/twitch-and-amazon-hit-with-lawsuit-for-training-ai-with-streamers-content",
-            "image": "https://images.pexels.com/photos/20068548/pexels-photo-20068548.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "slashdot_org"
-        },
-        {
-            "title": "AI Platform Hugging Face Exploring Sale, Business Insider Says - Bloomberg.com",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNDlnSThEUnVDbmcwak9kYmgtSGRxQ2RlWG9ROURwZk9Xa2dnVi1SVHgzUWY3U2J6SFBLYjBvT2J1Y0JQNjNOYnB2bUw3dmFfVlhyN0JOOTM0UVhteWU1dzJybFVrUFpHV09rb01PUC1HLTJ5NkkzRTVlYk1vS1licm5SWEVFdFlJVWdGdk5yMlNkX1dRc080YzQ2b0JGd3JxOWRtZnFQVURLTktZXzcxTVNucTBvcG1FTGphbnd3?oc=5",
-            "image": "https://images.pexels.com/photos/586112/pexels-photo-586112.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Stocks in news: Reliance Industries, Bank of Baroda, Power Grid, NATCO Pharma and JSW Infra",
+            "title": "The high price of plagiarism",
             "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-in-news-reliance-industries-bank-of-baroda-power-grid-natco-pharma-and-jsw-infra/articleshow/133444199.cms",
-            "image": "https://img.etimg.com/thumb/msid-133444588,resizemode-4,width-1200,height-900,imgsize-247258,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.hindustantimes.com/cities/mumbai-news/the-high-price-of-plagiarism-101787511684014.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/23/1600x900/logo/-p-The-high-price-of-plagiarism--p-_1787511681727.jpeg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Venus Transit on 25 Aug: Chitra nakshatra said to boost romance; guidance for key birth numbers",
+            "title": "Indian pharma firms have little reason to fear Trump's tariff threat",
+            "severity": "MEDIUM",
+            "url": "https://www.business-standard.com/industry/news/indian-pharma-firms-have-little-reason-to-fear-trump-s-tariff-threat-126082400069_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260824/thumb-126082400069.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Former KU golfer Gary Woodland ties for 4th at BMW, qualifies for Tour Championship",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/astrology/planets-transits/venus-meets-mars-nakshatra-unexpected-romantic-sparks-for-these-birth-numbers-face-intense-irresistible-attraction/articleshow/133440452.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133440452/133440452.jpg",
+            "url": "https://www.kansascity.com/sports/college/big-12/university-of-kansas/article316985727.html",
+            "image": "https://www.kansascity.com/public/latest-news/2qgdvf/picture316971520/alternates/FREE_1140/2026-08-21T224836Z_1011409830_MT1USATODAY29637945_RTRMADP_3_PGA-BMW-CHAMPIONSHIP-SECOND-ROUND.JPG",
+            "source": "kansascity"
+        },
+        {
+            "title": "Two rescued after MV Ocean Winner sends distress alert near Andaman Islands",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/agency-feeds/two-rescued-after-mv-ocean-winner-sends-distress-alert-near-andaman-islands-10289540.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "August 24 Birthday Forecast: Numerology outlines next 12 months; career, love, travel guide",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/astrology/numerology-tarot/august-24-2026-birthday-forecast-discover-what-the-next-12-months-hold-for-you/articleshow/133437297.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133437305/133437305.jpg",
             "source": "toi"
         },
         {
-            "title": "FX Futures Positioning: USD Falls, CAD Strengthens, JPY Shorts Return | COT Report - Forex Factory",
+            "title": "Fissures emerge between Left and TVK over Tamil Nadu\u2019s anti-protest circular",
             "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSjgtZk1FeW9iZC1paGplWFp2U1VlZ2huVjFpWHpZZUgwSmRta2Z0Qjh1TWpGZkd2TkR0TWpGa1YwLS0yVHRVZm9Mem9hUE5kRUliNmlXQWJjLUViVVlhQk42WUZuR012YTM4elIzY3ZDR3YySlRCM3NGSW5aYllIdTRqRVByMEJaeVNIY1o0clREbXBSOWdCUXN30gGfAUFVX3lxTE9jcXR6ZGpGYWV0dUNjY2hBbWhqcDFUMW91Vmo5ZXRKTVgtdmJkYmhWNHJOQ3FwblQ3Yk1qY2xuTkQ5SUFPSDloRVlneGFJRkdBMTB3RjVBZmJkQ2hWMUZqUjBNaFg0dHlTSmhleVQ1d185NmhRUFdhcFk0d3R3YlRmREhpYUQyNWN0SFJsTjMwdGJ0QmgxbUVzYWE2T1FxQQ?oc=5",
-            "image": "https://images.pexels.com/photos/23913923/pexels-photo-23913923.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.hindustantimes.com/india-news/fissures-emerge-between-left-and-tvk-over-tamil-nadu-s-anti-protest-circular-101787510907624.html",
+            "image": "https://images.hindustantimes.com/default/1600x900.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Earnings call transcript: South32 lifts H1 2026 EBITDA, shares rise 4.5%",
+            "title": "Matcha, with a twist of Assam: India enters the global matcha production line",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/transcripts/earnings-call-transcript-south32-lifts-h1-2026-ebitda-shares-rise-45-93CH-4843678",
-            "image": "https://content-media.investing.com/news/LYNXMPEB3R08Z_M.jpg",
-            "source": "investing_uk"
+            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/24/matcha-with-a-twist-of-assam-india-enters-the-global-matcha-production-line",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/24/4074835.png",
+            "source": "thestar_my"
         },
         {
-            "title": "US billionaires are piling millions into Argentina's Shale boom, here\u2019s what is driving it",
+            "title": "Indian food safety officer shakes up Mumbai, one viral raid at a time",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-billionaires-are-piling-millions-into-argentinas-shale-boom-heres-what-is-driving-it/articleshow/133453584.cms",
-            "image": "https://img.etimg.com/thumb/msid-133453633,resizemode-4,width-1200,height-900,imgsize-366396,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.thestar.com.my/news/world/2026/08/24/indian-food-safety-officer-shakes-up-mumbai-one-viral-raid-at-a-time",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/24/4074833.jpg",
+            "source": "thestar_my"
         },
         {
-            "title": "Gold hits a 3 month above $4640 ... then get slammed $50 lower under $4600",
+            "title": "Daily Tarot Horoscope For August 24, 2026: What The Cards Reveal About Love, Money And Career",
             "severity": "WATCH",
-            "url": "https://investinglive.com/commodities/gold-hits-a-3-month-above-4640-then-get-slammed-50-lower-under-4600/",
-            "image": "https://investinglive.com/cms/media/Processed/Categories/featured/volatil%20gold%203%20month%20high%2024%20August%202026-featured-1787532862.jpg",
-            "source": "forexlive"
+            "url": "https://www.timesnownews.com/astrology/tarot-card-reading-for-all-zodiac-signs-with-vastu-tip-of-the-day-august-24-2026-article-155974276",
+            "image": "https://images.timesnownews.com/thumb/msid-155974278,thumbsize-188446,width-1280,height-720,resizemode-75/155974278.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "The Actual Type Of Eggs McDonald's Uses In 2026",
+            "title": "Over 1,400 militants surrender in Central African Republic over past year",
             "severity": "WATCH",
-            "url": "https://www.thetakeout.com/2241225/what-eggs-does-mcdonalds-use-2026/",
-            "image": "https://www.thetakeout.com/img/gallery/the-actual-type-of-eggs-mcdonalds-uses-in-2026/l-intro-1787258808.jpg",
-            "source": "thetakeout"
+            "url": "https://tass.com/defense/2176767",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
         },
         {
-            "title": "Dell added to Evercore Tactical Outperform List ahead of earnings",
+            "title": "After Operation Sindoor visa freeze, 150 Pakistani brides make it to India for weddings",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/dell-added-to-evercore-tactical-outperform-list-ahead-of-earnings-4843672",
-            "image": "https://content-media.investing.com/news/LYNXNPEBA90UC_M.jpg",
-            "source": "investing_uk"
+            "url": "https://www.firstpost.com/world/after-operation-sindoor-visa-freeze-150-pakistani-brides-make-it-to-india-for-weddings-14040274.html",
+            "image": "https://images.firstpost.com/uploads/2026/08/The-battle-for-Kyiv-22-2026-08-c22329df1858afc57c88094d56c99303-1200x675.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "Pilbara Minerals FY26 slides: record EBITDA, 152% revenue surge",
+            "title": "Rs 92 Crore Spent On Union Ministers' Delhi Homes Repair In 2025-26: RTI",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/company-news/pilbara-minerals-fy26-slides-record-ebitda-152-revenue-surge-93CH-4843671",
-            "image": "https://content-media.investing.com/news/LYNXMPEM5L113_1200_L.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "To build Delhi\u2019s future, learn from past missteps",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/opinion/editorials/delhi-master-plan-2041-urban-challenges-10846502/",
-            "image": "https://images.indianexpress.com/2026/08/Express-view-Copy-3-13.jpeg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Stock Market Today: All You Need To Know Going Into Trade On August 24",
-            "severity": "WATCH",
-            "url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-august-24-11944457",
-            "image": "https://c.ndtvimg.com/2026-01/rt0r41ig_all-you-need-to-know_625x300_22_January_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "url": "https://www.ndtv.com/delhi-news/rs-92-crore-spent-on-union-ministers-delhi-homes-repair-in-2025-26-rti-11947108",
+            "image": "https://c.ndtvimg.com/2026-02/qcmukkig_magic-brick_625x300_11_February_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
             "source": "ndtv"
         },
         {
-            "title": "Trump shrugs off assassination attempts, remarking 'only consequential presidents get shot'",
+            "title": "Delhi Traffic Police issues 7,298 challans against e-rickshaws",
             "severity": "WATCH",
-            "url": "https://www.foxnews.com/media/trump-shrugs-off-assassination-attempts-remarking-only-consequential-presidents-get-shot",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/07/931/523/Trump-Assassination-Attempt-in-Photos_03.jpg?ve=1&tl=1",
-            "source": "foxnews"
+            "url": "https://www.hindustantimes.com/cities/delhi-news/delhi-traffic-police-issues-7-298-challans-against-erickshaws-101787508739095.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/23/1600x900/logo/Additionally--7-675-challans-were-issued-for-wrong_1787508736859.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Licence to passport, VFS Global will soon introduce citizen services: CEO Zubin Karkaria",
+            "title": "Chinese durian lovers rejoice as new rail routes bring supply surge and lower prices",
             "severity": "WATCH",
-            "url": "https://indianexpress.com/article/business/companies/licence-to-passport-vfs-global-will-soon-introduce-citizen-services-ceo-zubin-karkaria-10846533/",
-            "image": "https://images.indianexpress.com/2026/08/CEO-of-VFS-Global-Zubin-Karkaria.jpg",
-            "source": "indianexpress"
+            "url": "https://www.bangkokpost.com/business/general/3306985/chinese-durian-lovers-rejoice-as-new-rail-routes-bring-supply-surge-and-lower-prices",
+            "image": "https://static.bangkokpost.com/media/content/20260824/c1_3306985.jpg",
+            "source": "bangkokpost"
         },
         {
-            "title": "Randi Weingarten pushes Target boycott over ICE and sparks fresh fury",
+            "title": "Weekly Stock Buys: Motilal Oswal Wealth backs Crompton Greaves, ICICI Prudential AMC; upside up to 35%",
             "severity": "WATCH",
-            "url": "https://nypost.com/2026/08/23/us-news/american-federation-of-teachers-launches-boycott-against-target-claims-retailer-remained-silent-on-ice/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2F000-starbucks-workers-gone-strike-138323951.jpg?w%3D1024",
-            "source": "nypost"
+            "url": "https://timesofindia.indiatimes.com/business/india-business/top-stock-recommendations-for-august-24-2026-week-crompton-greaves-icici-prudential-amc-stocks-to-buy-today/articleshow/133449670.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133449687/133449687.jpg",
+            "source": "toi"
         },
         {
-            "title": "The INFURIATING reason why M9 crash driver was in stolen BMW on tragic night - despite having been arrested in a stolen car just TWO WEEKS before crash that left innocent sisters and little boy fighting for life",
+            "title": "IDB Group and Japan Mark 50 Years of Partnership with International Business Forum and Historic Cooperation Package",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-16072719/The-INFURIATING-reason-M9-crash-driver-stolen-BMW-tragic-night-despite-having-arrested-stolen-car-just-TWO-WEEKS-crash-left-innocent-sisters-little-boy-fighting-life.html",
-            "image": "https://i.dailymail.com/1s/2026/08/22/21/110795273-0-image-a-33_1787430926079.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.globenewswire.com/fr/news-release/2026/08/24/3349439/0/en/idb-group-and-japan-mark-50-years-of-partnership-with-international-business-forum-and-historic-cooperation-package.html",
+            "image": "https://images.pexels.com/photos/31019067/pexels-photo-31019067.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
         },
         {
-            "title": "Why was England cricketer Brydon Carse handcuffed outside a nightclub?",
+            "title": "Stocks to watch: ZEEL, Vodafone Idea, Jubilant Pharmova, Power Grid, BoB",
             "severity": "WATCH",
-            "url": "https://gulfnews.com/sport/cricket/why-was-england-cricketer-brydon-carse-handcuffed-outside-a-nightclub-1.500649994",
-            "image": "https://media.assettype.com/gulfnews/2026-01-08/96xum0vp/newsml_afp_com_20260108T011049Z_doc_89ye9ap.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "url": "https://www.business-standard.com/markets/news/stocks-to-watch-today-zeel-vodafone-idea-jubilant-pharmova-power-grid-126082400067_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260824/thumb-126082400067.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "\u2018Terrifying\u2019: Mayor on synagogue firebombing",
+            "severity": "WATCH",
+            "url": "https://www.news.com.au/national/politics/melbourne-lord-mayor-calls-for-federal-funds-to-protect-religious-events/news-story/5a95f6f2b2689095eaba902739d20aaa",
+            "image": "https://content.api.news/v3/images/bin/086cadf682e5d454bce4d168ebe14985",
+            "source": "news"
+        },
+        {
+            "title": "Meet the Augustinian saints celebrated by the Church in August",
+            "severity": "WATCH",
+            "url": "https://usa.inquirer.net/207238/meet-the-augustinian-saints-celebrated-by-the-church-in-august",
+            "image": "https://usa.inquirer.net/files/2026/08/Augustinian-saints.png",
+            "source": "inquirer"
+        },
+        {
+            "title": "Maggie Is Finally Getting A New Lover In The Walking Dead",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/the-walking-dead-maggie-new-lover-explained/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/maggie-giving-negan-an-annoyed-look-in-the-walking-dead-dead-city.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "North Korea preparing further Russia troop deployments, no sign move imminent, Seoul says",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/north-korea-preparing-further-russia-022723958.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/150afeec82b96c8edfb05d7e98a23e7e5f1e6917dc328e2c1a7c8ecc4d4736fe/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fs.yimg.com%2Fcv%2Fapiv2%2Fsocial%2Fimages%2Fyahoo_default_logo-1200x1200.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Ram temple donation \u2018theft\u2019: Second SIT\u2019s probe halfway through, likely to be completed in a month",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/lucknow-news/ram-temple-donation-theft-second-sit-s-probe-halfway-through-likely-to-be-completed-in-a-month-101787509703369.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/23/1600x900/logo/The-second-SIT-has-so-far-recorded-statements-of-a_1787509701304.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Chandan Nagar police book two builders for cheating homebuyers",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/pune-news/chandan-nagar-police-book-two-builders-for-cheating-homebuyers-101787506823289.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/23/1600x900/logo/The-developers-have-been-accused-of-failing-to-pro_1787506820658.jpg",
+            "source": "hindustantimes"
         }
     ],
-    "Last_Updated": "2026-08-24T13:00:26.117297Z"
+    "Last_Updated": "2026-08-24T14:48:39.935963Z"
 }
