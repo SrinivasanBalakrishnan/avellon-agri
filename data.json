@@ -1,267 +1,253 @@
 {
-    "AGRI_Score": 63.4,
-    "Velocity": "+0.8",
-    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The current AGRI score of 63.4/100 reflects a significantly elevated risk environment, primarily driven by intense geopolitical conflict and severe energy market disruptions. Specifically, the \"Geopolitical Conflict Intensity\" (82.3) is high due to events like the \"Gang raid kills 30 in Haiti,\" while \"Energy & Maritime Disruption\" (80.4) is significantly impacted by increasing fuel prices, as highlighted by \"Diesel fuel prices expected to continue increasing: analyst.\" These factors, coupled with escalating trade tensions, as seen with \"Trump, Doug Ford Trade Barbs as Canada-US Tariff Fight Escalates,\" and persistent cyber threats, are critical contributors to the overall high-risk posture.",
+    "AGRI_Score": 62.4,
+    "Velocity": "-1.0",
+    "Top_Risk_Driver": "Energy & Maritime Disruption",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.4/100 reflects heightened global tensions, primarily driven by significant disruptions in Energy & Maritime, Geopolitical Conflict, and Trade & Supply Chain pillars. Escalating trade disputes, notably with headlines like \"Trump tells Canada to \u2018fall in line\u2019\" and \"Mark Carney Says Canada \u2018at War\u2019 After Failed U.S. Trade Talks,\" are creating substantial economic and political uncertainty. Furthermore, the \"Morgan Stanley lifts Brent forecast to $100 as oil market tightens\" headline points to an tightening energy market, significantly contributing to the elevated risk profile.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 82.3,
+        "Geopolitical Conflict Intensity": 73.9,
         "Energy & Maritime Disruption": 80.4,
-        "Trade & Supply Chain Stress": 66.3,
+        "Trade & Supply Chain Stress": 71.6,
         "Sovereign Financial Stress": 57.4,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.4,
-        "Cyber & Infrastructure Threats": 64.3,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 65.4,
         "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The high score of 82.3 is directly influenced by severe internal security events, such as the \"Gang raid kills 30 in Haiti,\" indicating significant unrest and state fragility. While diplomatic efforts are noted with \"EAM Jaishankar after meeting Putin in Moscow,\" ongoing violence contributes to regional instability.",
-        "Energy & Maritime Disruption": "The extreme score of 80.4 reflects significant upward pressure on fuel costs globally, with \"Diesel fuel prices expected to continue increasing: analyst\" and \"Govt increases petrol price by Rs0.39, high-speed diesel by Rs2.40.\" These price hikes signal substantial economic and logistical challenges for businesses and consumers.",
-        "Trade & Supply Chain Stress": "This elevated pillar score (66.3) is largely a result of renewed protectionist policies and escalating international tariff disputes. \"Trump\u2019s renewed trade war with Canada gives yet another policy for Republicans to face on the campaign trail\" explicitly indicates a deteriorating trade environment.",
-        "Sovereign Financial Stress": "The moderate score of 57.4 suggests underlying economic pressures that could strain national budgets, exacerbated by global commodity price increases. The necessity for the \"Govt increases petrol price by Rs0.39, high-speed diesel by Rs2.40\" points to governments grappling with fiscal challenges related to energy costs.",
-        "Currency & Liquidity Pressure": "With a score of 50.0, this pillar is experiencing baseline activity, though global market shifts warrant continued observation. The mention of \"Equities bleed, commodities lead in BofA\u2019s top 10 September trends\" indicates broader market rebalancing that could indirectly influence liquidity conditions.",
-        "Sanctions & Regulatory Fragmentation": "This pillar's score of 57.4 is significantly driven by new and expanded punitive measures against state actors. The \"Trump Admin Launches 'Economic D-Day' Sanctions on Iran: Key Actions\" demonstrates a clear intensification of restrictive policies.",
-        "Cyber & Infrastructure Threats": "The high score of 64.3 is directly attributable to successful attacks on critical infrastructure and significant data breaches. Reports that \"Iran-linked hackers took U.K. power plant offline for first time\" and the \"Baylor Genetics Data Breach Sparks Warning to IVF Patients\" highlight severe digital vulnerabilities.",
-        "Climate & Resource Shock": "This pillar shows a low-risk profile at 35, indicating routine monitoring for potential long-term trends rather than immediate shocks. While innovations like \"Heat-defying purple fabric reflects 88% sunlight\" address climate adaptation, no immediate resource or climate-induced disruptions are apparent."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict is high, evidenced by \"Ambush in South Sudan kills peacekeeping troops\" highlighting ongoing violence in vulnerable regions. The combative rhetoric surrounding trade talks, such as \"Mark Carney Says Canada \u2018at War\u2019 After Failed U.S. Trade Talks,\" also underscores a rise in political hostility between major economies.",
+        "Energy & Maritime Disruption": "This pillar is under severe pressure, with \"Morgan Stanley lifts Brent forecast to $100 as oil market tightens\" signaling significant price volatility and potential supply-side issues. The threat of US retaliation for financial ties to Iran, per \"Bessent warns the world to cut financial ties to Iran or face US retaliation,\" could further complicate global energy flows and maritime activity.",
+        "Trade & Supply Chain Stress": "Trade and supply chains are experiencing considerable stress due to aggressive protectionist measures and retaliatory threats. The news of \"Fentanyl, a Reagan ad and a near deal: Trump's trade war with Canada\" illustrates the contentious nature of bilateral negotiations and their impact on cross-border commerce.",
+        "Sovereign Financial Stress": "While no direct sovereign default warnings are present, global financial markets are showing sensitivity, as indicated by \"Wall Street drifts at the start of a week that could swing stocks and bonds.\" The overarching climate of trade disputes and geopolitical threats implicitly raises the risk of future financial strain for nations heavily reliant on international trade or vulnerable to sanctions.",
+        "Currency & Liquidity Pressure": "Currency markets are experiencing direct pressure from geopolitical and trade tensions. The \"Canadian dollar slips as trade tensions weigh on loonie\" headline directly links political friction to currency depreciation.",
+        "Sanctions & Regulatory Fragmentation": "This pillar reflects growing fragmentation due to explicit threats of secondary sanctions and regulatory enforcement. The warning that \"Bessent warns the world to cut financial ties to Iran or face US retaliation\" indicates an expansion of extraterritorial sanctions, compelling entities to navigate an increasingly complex global regulatory landscape.",
+        "Cyber & Infrastructure Threats": "Concerns over critical infrastructure are evident, with \"Michigan seeks tighter oversight of century-old Belleville Lake dam\" highlighting the need for vigilance regarding physical assets. Public concerns about \"data centers cut 'across party lines\u2019\u201d also suggest a broader societal awareness and potential vulnerabilities within digital infrastructure.",
+        "Climate & Resource Shock": "This pillar currently reflects baseline activity with no immediate, severe climate-related shocks reported in the news feed. While dam oversight is noted, it pertains more to infrastructure management than an acute climate or resource crisis."
     },
     "All_Alerts": [
         {
-            "title": "Trump Admin Launches 'Economic D-Day' Sanctions on Iran: Key Actions",
+            "title": "Wall Street drifts at the start of a week that could swing stocks and bonds",
             "severity": "HIGH",
-            "url": "https://www.newsweek.com/trump-economic-d-day-iran-sanctions-oil-shipping-12359297",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/08/AP26236618254014.jpg?w=1600&h=900&q=88",
-            "source": "newsweek"
+            "url": "https://www.latimes.com/business/story/2026-08-24/wall-street-drifts-at-start-of-week-that-could-swing-stocks-bonds",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/c16fcf2/2147483647/strip/false/crop/7558x5039+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F35%2Fff%2F8e8798324db493bf3aa6078cf37b%2Fbf651addc29a450281687167947382c3.jpg",
+            "source": "latimes"
         },
         {
-            "title": "Diesel fuel prices expected to continue increasing: analyst - The Western Producer",
+            "title": "Trump tells Canada to \u2018fall in line\u2019 as Carney rejects \u2018subordination\u2019",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdkZBWGZNakpObFQzUzlRRE1fTUo2azNMcTB5Z2lrRXFGZ1d4MFhYR09kRTdQdW81UDJEakRWMWh1cEhwZVZJWHFvSDJ0LURMTGtIU1JwbzhYWFBuOENiY3ZQeEVRQVBEdE5oVEMwZktHWlRLYTU5azNCZXhzbU9qSmw2X2tndw?oc=5",
-            "image": "https://images.pexels.com/photos/35442480/pexels-photo-35442480.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Gang raid kills 30 in Haiti",
-            "severity": "HIGH",
-            "url": "https://www.yahoo.com/news/world/articles/gang-raid-kills-30-haiti-185554318.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/cfdab3ff789139738c1699805c2699bcafffd754b95660b39b93501827f30bb0/lightyear_networkapi/resizefill_w900_h600%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnewsnation_articles_600%2F6eae91fc7c336c0a49c4a64d34b24580.jpg",
+            "url": "https://ca.news.yahoo.com/trump-tells-canada-fall-line-204731941.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/7f2e4fc7a098b62c3a67a6ba58250d3bfd6fff01f2887066942030726768c116/lightyear_networkapi/resizefill_w640_h427%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fpa_viral_news_704%2F60368b90cb57556d915174fc59dea305.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Trump\u2019s renewed trade war with Canada gives yet another policy for Republicans to face on the campaign trail",
+            "title": "Fentanyl, a Reagan ad and a near deal: Trump's trade war with Canada",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-tariffs-republican-midterms-b3038307.html",
-            "image": "https://static.independent.co.uk/2026/08/24/14/17/GettyImages-2290822103.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+            "url": "https://ca.finance.yahoo.com/news/fentanyl-reagan-ad-near-deal-204258138.html",
+            "image": "https://media.zenfs.com/en/reuters.com/5288003ccbaa85d392197ed3d58122a6.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Ambush in South Sudan kills peacekeeping troops",
+            "severity": "HIGH",
+            "url": "https://www.aljazeera.com/news/2026/8/24/ambush-in-south-sudan-kills-peacekeeping-troops",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a8c941bcc3a1-1787597851.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
+        },
+        {
+            "title": "Mark Carney Says Canada \u2018at War\u2019 After Failed U.S. Trade Talks",
+            "severity": "HIGH",
+            "url": "https://www.breitbart.com/economy/2026/08/24/mark-carney-says-canada-war-after-failed-u-s-trade-talks/",
+            "image": "https://media.breitbart.com/media/2026/08/Mark-Carney-640x335.jpg",
+            "source": "breitbart"
+        },
+        {
+            "title": "The Latest: Bessent warns the world to cut financial ties to Iran or face US retaliation",
+            "severity": "HIGH",
+            "url": "https://www.independent.co.uk/news/world/americas/donald-trump-jd-vance-iran-scott-bessent-susan-collins-b3038503.html",
+            "image": "https://static.independent.co.uk/2026/08/24/21/Treasury_Bessent_86692.jpg?width=1200&auto=webp&crop=3%3A2",
             "source": "independentuk"
         },
         {
-            "title": "Bleach Might Retcon Its Finale\u2019s Most Divisive Scene With Time Travel Twist",
+            "title": "ICYMI - Morgan Stanley lifts Brent forecast to $100 as oil market tightens",
             "severity": "HIGH",
-            "url": "https://comicbook.com/anime/feature/bleach-might-retcon-its-finales-most-divisive-scene-with-time-travel-twist/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/08/Bleach-TYBW-Blood-Chains-Ichigo-Shocked.jpg",
-            "source": "comicbook"
+            "url": "https://investinglive.com/commodities/icymi-morgan-stanley-lifts-brent-forecast-to-100-as-oil-market-tightens/",
+            "image": "https://investinglive.com/cms/media/Processed/Categories/featured/Morgan%20Stanley%20brent%20forecast%2025%20August%202026-featured-1787602937.jpg",
+            "source": "forexlive"
         },
         {
-            "title": "Govt increases petrol price by Rs0.39, high-speed diesel by Rs2.40",
+            "title": "Sudanese woman is allowed to stay in UK with her refugee cousin because they are married... after couple had 'customary Islamic' wedding in their home country",
             "severity": "HIGH",
-            "url": "https://www.dawn.com/news/2025039/govt-increases-petrol-price-by-rs039-high-speed-diesel-by-rs240",
-            "image": "https://i.dawn.com/large/2026/08/24232052507faf0.webp",
-            "source": "dawn"
+            "url": "https://www.dailymail.com/news/article-16076239/dudanese-woman-stay-UK-refugee-cousin-married.html",
+            "image": "https://i.dailymail.com/1s/2026/08/24/21/110826717-0-image-a-11_1787603418702.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Trump, Doug Ford Trade Barbs as Canada-US Tariff Fight Escalates",
+            "title": "Queensland breach of bail laws gain green light",
             "severity": "HIGH",
-            "url": "https://www.newsmax.com/newsfront/Trump-Ford-Trade-Personal-Barbs-as-Canada-US-Tariff-Fight-Escalates/2026/08/24/id/1267144",
-            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=88CF476B-C21A-4F4F-9105-A6D53AF3130A",
+            "url": "https://www.smh.com.au/national/queensland-breach-of-bail-laws-gain-green-light-20260825-p60r6o.html",
+            "image": "https://static.ffx.io/images/$width_800%2C$height_450/t_crop_fill/q_86%2Cf_jpg/495fe0967ea53cb5f278d3d83df36a86b1a66371",
+            "source": "smh"
+        },
+        {
+            "title": "NJ Gov. Mikie Sherrill Attacks Republicans, Doesn't Answer for 6,600 Noncitizen Voter Registrations",
+            "severity": "HIGH",
+            "url": "https://www.breitbart.com/politics/2026/08/24/nj-gov-mikie-sherrill-attacks-republicans-dodges-questions-on-6600-noncitizen-voter-registrations/",
+            "image": "https://media.breitbart.com/media/2026/08/GettyImages-2265318786-640x335.png",
+            "source": "breitbart"
+        },
+        {
+            "title": "Park Eun-Bin Talks \u2018Spooky In Love,\u2019 KCON And How She Chooses Her Roles",
+            "severity": "MEDIUM",
+            "url": "https://ca.news.yahoo.com/park-eun-bin-talks-spooky-204859387.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/d54ba96d37f45cac327e74d3635b8e0bb41ae7a35d18b26bb1d06a959ed84f56/lightyear_networkapi/resizefill_w960_h640%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fforbes_contributor_845%2F4bd0166842d1f7171d84d46350b30e5b.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Michigan seeks tighter oversight of century-old Belleville Lake dam",
+            "severity": "MEDIUM",
+            "url": "https://www.mlive.com/environment/2026/08/michigan-seeks-tighter-oversight-of-century-old-belleville-lake-dam.html",
+            "image": "https://www.mlive.com/resizer/v2/AM3WMVFEKRAFFMRBIQVMGXJECQ.jpg?auth=2066a44bf55af13de4dcce7a4a16ee37347baaed983457cb714925616abd625a&smart=true&height=1200",
+            "source": "mlive"
+        },
+        {
+            "title": "Voter concerns about data centers cut 'across party lines\u2019 ahead of midterms",
+            "severity": "MEDIUM",
+            "url": "https://www.nbcnews.com/meet-the-press/video/voter-concerns-about-data-centers-cuts-across-party-lines-ahead-of-midterms-268787269887",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_08/1787604455986_now_mtp_clip_datacenter_260824_S3_1920x1080-z6sapq.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "FlyEdge Opens Public Preview of Aviation-Focused Blockchain for Tokenized Airline Loyalty",
+            "severity": "MEDIUM",
+            "url": "https://hackernoon.com/flyedge-opens-public-preview-of-aviation-focused-blockchain-for-tokenized-airline-loyalty",
+            "image": "https://cdn.hackernoon.com/images/jEm0Gsq7mQUHLJ0ZGe4cAf9jPvU2-5n83gyn.jpeg",
+            "source": "hackernoon"
+        },
+        {
+            "title": "Canadian dollar slips as trade tensions weigh on loonie",
+            "severity": "MEDIUM",
+            "url": "https://au.investing.com/news/forex-news/canadian-dollar-slips-as-trade-tensions-weigh-on-loonie-4614319",
+            "image": "https://content-media.investing.com/news/LYNXNPEB960NS_M.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Eddie Hearn",
+            "severity": "MEDIUM",
+            "url": "https://www.si.com/fannation/boxing/eddie-hearn-insists-fury-joshua-megafight-will-happen-claims-contract-breaches",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4651,h_2616,x_0,y_390/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/boxing/01jrnnz1b6mabhmxrn6g.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Deftones play their biggest UK headline gig with epic London All Points East headline show",
+            "severity": "WATCH",
+            "url": "https://www.nme.com/news/music/deftones-all-points-east-outbreak-2026-london-photos-footage-setlist-idles-interpol-3964448",
+            "image": "https://www.nme.com/wp-content/uploads/2026/08/deftones_all_points_east_1.jpg",
+            "source": "nme"
+        },
+        {
+            "title": "Holly Willoughby hits \u2018new low\u2019 in bid for YouTube viewers \u2013 as X-rated porn chat follows puerile sausage gags & F-bombs",
+            "severity": "WATCH",
+            "url": "https://www.thesun.co.uk/tv/40158733/holly-willoughby-youtube-show-new-low-lily-phillips/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F08%2Fnewspress-collage-egdkcspdc-1787598293752.jpg?quality%3D90%26strip%3Dall%261787601906%261787601906",
+            "source": "thesun"
+        },
+        {
+            "title": "Zillow and Redfin resolve litigation over deal FTC claims suppresses rental listings competition",
+            "severity": "WATCH",
+            "url": "https://www.dailycamera.com/2026/08/24/ftc-zillow-redfin-rental-listings/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2026/08/AP26236744090401.jpg?w=1400px&strip=all",
+            "source": "dailycamera"
+        },
+        {
+            "title": "Logan Paul\u2019s infamous ex-psychedelic retreat hits the market for $3 million \u2014 and it comes with a wild hippie backstory",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/08/24/real-estate/logan-pauls-infamous-ex-psychedelic-retreat-hits-the-market-for-3-million/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2Flogan-paul-s-lsd-ranch-138395767.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Van Hollen: Trump Has 'Committed Impeachable Offenses'",
+            "severity": "WATCH",
+            "url": "https://www.breitbart.com/clips/2026/08/24/van-hollen-trump-has-committed-impeachable-offenses/",
+            "image": "https://media.breitbart.com/media/2025/04/van-640x335.jpg",
+            "source": "breitbart"
+        },
+        {
+            "title": "Austin Hill will be the full-time replacement for Kyle Busch at RCR in 2027",
+            "severity": "WATCH",
+            "url": "https://www.usatoday.com/story/sports/nascar/2026/08/24/austin-hill-nascar-2027-rcr-kyle-busch-cup-series/91447795007/",
+            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/08/07/USAT/91209475007-tmn-4640.JPG?crop=4622,2601,x0,y230&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "usatoday"
+        },
+        {
+            "title": "Alpha Metallurgical director Kenneth Courtis buys $3.16m in shares",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/alpha-metallurgical-director-kenneth-courtis-buys-316m-in-shares-93CH-4614363",
+            "image": "https://content-media.investing.com/news/moved_LYNXNPEC3D09Y_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Top oceanographer brings phytoplankton and climate change research to UVic",
+            "severity": "WATCH",
+            "url": "https://news.uvic.ca/2026/top-oceanographer-brings-phytoplankton-and-climate-change-research-to-uvic/",
+            "image": "https://news.uvic.ca/wp-content/uploads/2026/08/Marchetti_HeroImage.webp",
+            "source": "uvic_ca"
+        },
+        {
+            "title": "Nevada sues to block federal Colorado River cuts. Is Arizona next?",
+            "severity": "WATCH",
+            "url": "https://www.azcentral.com/story/news/local/arizona-environment/2026/08/24/nevada-sues-colorado-river-water-plan/91444706007/",
+            "image": "https://www.azcentral.com/gcdn/authoring/authoring-images/2026/06/26/PPHX/90707147007-lake-powell-028.jpg?crop=3899,2193,x0,y203&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "azcentral"
+        },
+        {
+            "title": "Ritchie Bros. Launches Redesigned Mobile App to Deepen Buyer Engagement and Drive Marketplace Participation",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ritchie-bros-launches-redesigned-mobile-app-to-deepen-buyer-engagement-and-drive-marketplace-participation",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/08/bw20260824700093_mkt-1226_-_rb_-_mobile_app_launch_-_trade_r.jpeg",
+            "source": "financialpost"
+        },
+        {
+            "title": "OpenAI Has to Answer to Alabama on Hugging Face Hack",
+            "severity": "WATCH",
+            "url": "https://gizmodo.com/openai-has-to-answer-to-alabama-on-hugging-face-hack-2000802426",
+            "image": "https://gizmodo.com/app/uploads/2026/07/OpenAI-1280x853.jpg",
+            "source": "gizmodotech"
+        },
+        {
+            "title": "Former UJ senior director ordered to repay R18.18 million over fraudulent student housing scheme",
+            "severity": "WATCH",
+            "url": "https://www.iol.co.za/news/crime-and-courts/former-uj-senior-director-ordered-to-repay-r1818-million-over-fraudulent-student-housing-scheme-aba5854e-072c-49c8-bb95-94980c905e20",
+            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/b4996f153b0f36102ae21ea3aefd06018f79ff18/1536&operation=CROP&offset=0x0&resize=1536x864",
+            "source": "iol"
+        },
+        {
+            "title": "Alabama AG Subpoenas OpenAI Over Rogue AI Agent Hack",
+            "severity": "WATCH",
+            "url": "https://www.newsmax.com/newsfront/alabama-steve-marshall-openai/2026/08/24/id/1267156",
+            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=D726CC5C-E94A-42B7-9C3B-3879743370D4",
             "source": "newsmax"
         },
         {
-            "title": "Alabama attorney general subpoenas OpenAI over Hugging Face incident",
-            "severity": "HIGH",
-            "url": "https://thehill.com/policy/technology/6047157-alabama-openai-hugging-face-hack/",
-            "image": "https://thehill.com/wp-content/uploads/sites/2/2024/08/AP24207667101231-e1724458519210.jpg?w=900",
-            "source": "thehill"
+            "title": "\"The landslide could not have been prevented, but the loss of life could have been.\"",
+            "severity": "WATCH",
+            "url": "https://www.bluewin.ch/www.bluewin.ch/en/news/switzerland/the-landslide-could-not-have-been-prevented-but-the-loss-of-life-could-have-been.-li.3574247",
+            "image": "https://images.pexels.com/photos/695730/pexels-photo-695730.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "bluewin"
         },
         {
-            "title": "Iran-linked hackers took U.K. power plant offline for first time, reports say",
-            "severity": "HIGH",
-            "url": "https://www.aol.com/articles/iran-linked-hackers-took-u-173035000.html",
-            "image": "https://hermes.media.static.aol.com/media/2026/08/24/34dd209e-3c25-3262-b695-61ef1cc6caf9/f19b7007-5750-440a-9a1f-a3a624b79041.jpg",
-            "source": "aol"
+            "title": "Discord Says It Hasn\u2019t Been Served With A Subpoena Over GTA 6 Leaks Yet: \u2018We\u2019ll Evaluate The Validity And Scope Before Responding\u2019",
+            "severity": "WATCH",
+            "url": "https://kotaku.com/discord-says-it-hasnt-been-served-with-a-subpoena-over-gta-6-leaks-yet-well-evaluate-the-validity-and-scope-before-responding-2000727642",
+            "image": "https://kotaku.com/app/uploads/2025/05/960aa64ef4d3f3dfd780ffd98d89d28d-1280x720.jpg",
+            "source": "kotakugamerguide"
         },
         {
-            "title": "Baylor Genetics Data Breach Sparks Warning to IVF Patients",
-            "severity": "HIGH",
-            "url": "https://www.newsweek.com/baylor-genetics-data-breach-warning-ivf-patients-12360398",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/08/GettyImages-2174784427.jpg?w=1600&h=900&q=88",
-            "source": "newsweek"
-        },
-        {
-            "title": "Handed over \u2018personal message\u2019 from PM Modi, says EAM Jaishankar after meeting Putin in Moscow",
-            "severity": "MEDIUM",
-            "url": "https://www.indusage.com.au/?p=99061",
-            "image": "https://images.pexels.com/photos/38655502/pexels-photo-38655502.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "indusage_au"
-        },
-        {
-            "title": "Risks using AI in classrooms 'go beyond cheating', education expert says",
-            "severity": "MEDIUM",
-            "url": "https://www.abc.net.au/news/2026-08-25/how-education-departments-across-country-are-cracking-down-on-ai/107026976",
-            "image": "https://live-production.wcms.abc-cdn.net.au/c08f5036ddf2cdca4c1e2995c94ea163?impolicy=wcms_crop_resize&cropH=900&cropW=1600&xPos=0&yPos=150&width=862&height=485",
+            "title": "England drop fast bowler Carse after nightclub incident",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-08-25/england-drop-fast-bowler-brydon-carse/107073970",
+            "image": "https://live-production.wcms.abc-cdn.net.au/92b08b9315d6fffd8de5467b458be8ad?impolicy=wcms_crop_resize&cropH=2709&cropW=4816&xPos=0&yPos=245&width=862&height=485",
             "source": "abc_net"
-        },
-        {
-            "title": "FCC Review Could End School Internet Program. Advocates Plan \u2018Very Loud\u2019 Protest",
-            "severity": "MEDIUM",
-            "url": "https://www.beaumontenterprise.com/business/article/fcc-review-could-end-school-internet-program-22401329.php",
-            "image": "https://s.hdnux.com/photos/01/34/02/56/24128414/3/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "BRICS forum focuses on sustainability, global devpt challenges",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/lucknow/brics-forum-focuses-on-sustainability-global-devpt-challenges/articleshow/133477333.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "300-TPD biogas plant proposed at Samgauli",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/chandigarh/300-tpd-biogas-plant-proposed-at-samgauli/articleshow/133477331.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Best 2026-27 Future Bets for the Carolina Hurricanes",
-            "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/video/best-2026-27-future-bets-185449624.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/2d0c8bd70ea9221fdbac76a342fa1918674292083379b983a9657ab8b73979d5/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_hockey_news_betting_videos_646%2F1f134eb687360a70dc23c0e565798109.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Heat-defying purple fabric reflects 88% sunlight, keeps skin 14\u00b0F cooler, repels water",
-            "severity": "WATCH",
-            "url": "https://interestingengineering.com/science/purple-fabric-reflects-sunlight-stays-cooler",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/08/Z1_cf1b05.jpg",
-            "source": "interestingengineering"
-        },
-        {
-            "title": "The road to Super Bowl LXI starts with this epic Disney and NFL collection",
-            "severity": "WATCH",
-            "url": "https://abc7.com/post/nfl-disney-collab-shop-new-limited-edition-character-fan-gear-get-ready-super-bowl-61/19719647/",
-            "image": "https://cdn.abcotvs.com/dip/images/19720036_disneynfl.jpg",
-            "source": "abc7news"
-        },
-        {
-            "title": "Unlocking the Physics of Turbulence with AI",
-            "severity": "WATCH",
-            "url": "https://viterbischool.usc.edu/news/2026/08/unlocking-the-physics-of-turbulence-with-ai/",
-            "image": "https://viterbischool.usc.edu/wp-content/uploads/2026/08/turbulences.png",
-            "source": "usc"
-        },
-        {
-            "title": "Equities bleed, commodities lead in BofA\u2019s top 10 September trends",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/news/4636346-equities-bleed-commodities-lead-in-bofas-top-10-september-trends?feed_item_type=news",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1213574690/image_1213574690.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Artisan International Small-Mid Fund Q2 2026 Commentary",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4939724-artisan-international-small-mid-fund-q2-2026-commentary",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/659188376/image_659188376.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Geoff Russ: Fine, don't trust Carney, but why believe anything Trump says?",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/geoff-russ-fine-dont-trust-185432252.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/55b6e440d64f55dd95e0fe57d389fe9deb3573567d8b48835541e9ea31fa87ba/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnational_post_articles_198%2F39f521e93920bc980da2225eb1ee874a.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "\u2018125 km away\u2019: Russia claims Su-35 hit US-made Patriot system in Ukraine",
-            "severity": "WATCH",
-            "url": "https://www.firstpost.com/world/125-km-away-russia-claims-su-35-hit-us-made-patriot-system-in-ukraine-14040487.html",
-            "image": "https://images.firstpost.com/uploads/2026/06/2-2026-06-5fb333bc9a4c6bbdac48c7c56a35dd58.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "The top cities in America where renting beats buying by $1,000",
-            "severity": "WATCH",
-            "url": "https://www.foxbusiness.com/lifestyle/housing-affordability-gap-widens-seven-major-metro-areas-favor-renters-over-buyers-wide-margins",
-            "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2025/12/home-sale-sacramento-california-getty.jpg",
-            "source": "foxbusiness"
-        },
-        {
-            "title": "UP rolls out stricter drug-licence checks to curb spurious medicine trade",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/lucknow/up-rolls-out-stricter-drug-licence-checks-to-curb-spurious-medicine-trade/articleshow/133477320.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "T.N. govt. unveils 107-cr. project for rabies control",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/tamil-nadu/tn-govt-unveils-107-cr-project-for-rabies-control/article71385542.ece",
-            "image": "https://th-i.thgim.com/public/incoming/bsq358/article71386133.ece/alternates/FREE_1200/Street_dogs.jpg",
-            "source": "thehindu"
-        },
-        {
-            "title": "Declining ore grades pressure Chile's copper production",
-            "severity": "WATCH",
-            "url": "https://www.upi.com/Top_News/World-News/2026/08/24/latam-chile-escondida-copper-mine-reduce-production/7281787596957/",
-            "image": "https://cdnph.upi.com/ph/st/th/7281787596957/2026/i/17875974255619/v1.5/Declining-ore-grades-pressure-Chiles-copper-production.jpg",
-            "source": "upi"
-        },
-        {
-            "title": "Trans-Hindon residents plan to move court over flooded roads, MLA admits \u2018I\u2019m facing problems too\u2019",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/noida/trans-hindon-residents-plan-to-move-court-over-flooded-roads-mla-admits-im-facing-problems-too/articleshow/133477267.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133477247/133477247.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Vogue\u2019s Guide to Monte Carlo, From the Casino to the Co\u0302te d\u2019Azur",
-            "severity": "WATCH",
-            "url": "https://www.vogue.com/article/monte-carlo-monaco-guide",
-            "image": "https://assets.vogue.com/photos/6a8c92c6cc1c94b63956db46/master/pass/GettyImages-538866378.jpg",
-            "source": "vogue"
-        },
-        {
-            "title": "Emmerdale Joe Tate's fate 'confirmed' as soap boss teases huge 2027 plot",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/tv/tv-news/emmerdale-joe-tate-leaving-ned-37585964",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37579616.ece/ALTERNATES/s615/2_EMB-0000-WED-Emmerdale-Joe-and-Graham-preview-lk5NbXAK.jpg",
-            "source": "mirroruk"
-        },
-        {
-            "title": "Israel's Netanyahu says Iran tried to kill one of his sons",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/israels-netanyahu-says-iran-tried-185156851.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/2e5ffa3d21e8907a781389519e19ec4236581b39142d5d3bd388c49c9b6dcd37/lightyear_networkapi/resizefill_w800_h533%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F331fb3b163c78ecc55f66ec65c0137a7.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Journalist reporting Ram temple donation theft moves SC, says fears arrest",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/noida/journalist-reporting-ram-temple-donation-theft-moves-sc-says-fears-arrest/articleshow/133477108.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133477103/133477103.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Nvidia senior manager caught up in alleged AI chip smuggling to China \u2014 faces up to 5 years in prison",
-            "severity": "WATCH",
-            "url": "https://www.notebookcheck.net/Nvidia-senior-manager-caught-up-in-alleged-AI-chip-smuggling-to-China-faces-up-to-5-years-in-prison.1377269.0.html",
-            "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Nvidia-gb300-servers.jpg",
-            "source": "notebookcheck"
-        },
-        {
-            "title": "KP plans AI Task Force to tackle cybercrimes",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/kolkata/kp-plans-ai-task-force-to-tackle-cybercrimes/articleshow/133476297.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133191011/133191011.jpg",
-            "source": "toi"
         }
     ],
-    "Last_Updated": "2026-08-25T06:56:37.588940Z"
+    "Last_Updated": "2026-08-25T08:50:04.115503Z"
 }
