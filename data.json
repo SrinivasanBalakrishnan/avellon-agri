@@ -1,77 +1,117 @@
 {
-    "AGRI_Score": 61.8,
-    "Velocity": "+1.0",
-    "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The AGRI score of 61.8/100 reflects a high-moderate risk environment, predominantly driven by escalating geopolitical tensions and significant disruptions in the energy and maritime sectors. \"Geopolitical Conflict Intensity\" (79.1) is critically high due to military actions, such as the \"US military says it struck vessel in the Caribbean, killing four,\" and regional instability, including the ongoing conflict in Sudan where the \"battlefield [is] shaping the terms of its next political phase.\" Simultaneously, \"Energy & Maritime Disruption\" (80.4) remains exceptionally high, evidenced by concerns around the vital \"Iran-Oman Hormuz route\" highlighted in the \"Globe at a glance\" report, and potential investment risks in the energy sector as detailed in \"Expand Energy (EXE) is Building a Natural Gas Powerhouse. But is the Growth Story at Risk?\". These primary drivers cascade into heightened \"Trade & Supply Chain Stress\" (67.4) and \"Cyber & Infrastructure Threats\" (67.3), maintaining an elevated overall risk profile.",
+    "AGRI_Score": 62.1,
+    "Velocity": "+0.3",
+    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 79.1,
+        "Geopolitical Conflict Intensity": 82.3,
         "Energy & Maritime Disruption": 80.4,
-        "Trade & Supply Chain Stress": 67.4,
+        "Trade & Supply Chain Stress": 59.6,
         "Sovereign Financial Stress": 57.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.7,
-        "Cyber & Infrastructure Threats": 67.3,
+        "Sanctions & Regulatory Fragmentation": 62.9,
+        "Cyber & Infrastructure Threats": 66.7,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar reflects extremely high risk, with direct military engagements and escalating diplomatic tensions contributing significantly. The report that the \"US military says it struck vessel in the Caribbean, killing four\" indicates active conflict, while \"China's new ambassador delivers a warning to Australia amid ongoing tensions\" signifies heightened diplomatic friction with potential for broader implications.",
-        "Energy & Maritime Disruption": "Risk in this sector remains critically high due to ongoing threats to vital shipping lanes and infrastructure. The mention of the \"Iran-Oman Hormuz route\" in 'Globe at a glance' highlights persistent vulnerabilities for global energy transit, and maritime security concerns are underscored by the \"US military says it struck vessel in the Caribbean, killing four.\"",
-        "Trade & Supply Chain Stress": "Elevated geopolitical tensions and conflict-related issues contribute to significant supply chain stress. The warning from \"China's new ambassador delivers a warning to Australia amid ongoing tensions\" suggests potential trade disruptions, while the \"UN Security Council open debate on conflict-related food insecurity\" points to humanitarian impacts on global food supply chains.",
-        "Sovereign Financial Stress": "This pillar indicates a moderate level of stress, influenced by global economic uncertainties and sector-specific investment risks. The question of whether \"Expand Energy (EXE)\"'s growth story \"is at Risk\" highlights potential volatility in critical industrial sectors that could impact broader economic stability and sovereign financial health.",
-        "Currency & Liquidity Pressure": "This pillar shows a moderate, baseline level of pressure, with no immediate extreme indicators for this reporting period directly from the news feed. The underlying geopolitical and trade tensions, however, suggest a cautious approach as these factors could indirectly influence currency stability and liquidity conditions over time, warranting routine monitoring.",
-        "Sanctions & Regulatory Fragmentation": "This pillar registers moderate risk, although the current news feed does not detail new specific sanctions. The \"Aussie industry in firing line as tensions boil\" due to heightened geopolitical friction with China indicates an environment ripe for potential new regulatory actions or sanctions, which would exacerbate fragmentation.",
-        "Cyber & Infrastructure Threats": "This pillar indicates a high risk environment, likely stemming from the broader geopolitical context where critical infrastructure is increasingly a target. Although no specific cyber attack headlines are provided, the statement that \"Aussie industry [is] in firing line as tensions boil\" implies an elevated threat landscape for both digital and physical infrastructure across key sectors.",
-        "Climate & Resource Shock": "This pillar shows a low level of immediate, direct shock from the current news feed, indicating baseline activity. While \"conflict-related food insecurity\" was a subject of a \"UN Security Council open debate,\" the primary driver cited was conflict rather than explicit climate-induced events within this specific context."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Aussie industry in firing line as tensions boil",
+            "title": "Trade War: Tariffs May Be Just The Start. How Canada Could Hit The US Where It Hurts",
             "severity": "HIGH",
-            "url": "https://www.news.com.au/finance/economy/world-economy/economists-bleak-warning-about-new-uschina-trade-war-on-australia/news-story/2a5edc2dbffdb9cb3fdee7b12299e77d",
-            "image": "https://content.api.news/v3/images/bin/8eaae5d8b37be685bfecfd224a1fc2e8",
-            "source": "news"
+            "url": "https://www.news18.com/explainers/trade-war-tariffs-may-be-just-the-start-how-canada-could-hit-the-us-where-it-hurts-10293493.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/08/Carney-Trump-US-Canada-2026-08-7cd9bd67b8703d4b78b33c7b6f8748a4-1200x800.jpg",
+            "source": "news18"
         },
         {
-            "title": "US military says it struck vessel in the Caribbean, killing four",
+            "title": "India urges global cooperation to safeguard sea lanes for food, fuel at UNSC",
             "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/world-news/us-military-says-it-struck-vessel-in-the-caribbean-killing-four-101787705657593.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/26/1600x900/logo/MEXICO-TOURISM-POLLUTION-SARGASSUM-32_1787705913946_1787705930423_7c0acd78-de03-4d3b-a63e-7a536ac89837.jpg",
-            "source": "hindustantimes"
+            "url": "https://economictimes.indiatimes.com/news/india/india-urges-un-to-safeguard-sea-lanes-for-food-fuel/articleshow/133527872.cms",
+            "image": "https://img.etimg.com/thumb/msid-133527900,resizemode-4,width-1200,height-900,imgsize-126886,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Globe at a glance: From Iran-Oman Hormuz route to Mamdani opposing Bhagwat event",
+            "title": "UNSC Should Act Immediately To Mitigate Humanitarian Fallout Of Conflicts: India",
             "severity": "HIGH",
-            "url": "https://www.firstpost.com/world/globe-at-a-glance-from-iran-oman-hormuz-route-to-mamdani-opposing-bhagwat-event-14040773.html",
-            "image": "https://images.firstpost.com/uploads/2026/08/Representational-image-2026-08-09T194355.205-2026-08-f1ecc9824e2c271ce3cd4e8d26ca28e9-1200x675.jpg",
-            "source": "firstpost"
+            "url": "https://ommcomnews.com/world-news/unsc-should-act-immediately-to-mitigate-humanitarian-fallout-of-conflicts-india/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/08/New-Project-2026-08-26T081132.281.jpg",
+            "source": "ommcomnews"
         },
         {
-            "title": "China's new ambassador delivers a warning to Australia amid ongoing tensions",
+            "title": "\u2018Rebel wants one of those\u2019: Court documents suggest Wilson ordered websites attacking producer",
             "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-16079777/china-australia-ambassador-albanese-liu-jinsong.html",
-            "image": "https://i.dailymail.com/1s/2026/08/26/00/110851999-0-image-a-6_1787699390494.jpg",
+            "url": "https://www.smh.com.au/culture/movies/rebel-wants-one-of-those-court-documents-suggest-wilson-ordered-websites-attacking-producer-20260826-p60ro1.html",
+            "image": "https://static.ffx.io/images/$zoom_0.3383%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/4c0538a4b12b4693fdbecb0404dbb4d4b9fdac3b",
+            "source": "smh"
+        },
+        {
+            "title": "France permanently closes consulate in Karachi",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/2025290/france-permanently-closes-consulate-in-karachi",
+            "image": "https://i.dawn.com/large/2026/08/26014546609a1ea.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "B.C.'s Eby urges Carney to look beyond tariff response in U.S.-Canada trade war",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/vancouver/article/bcs-eby-urges-carney-to-look-beyond-tariff-response-in-us-canada-trade-war/",
+            "image": "https://www.ctvnews.ca/resizer/v2/TVXDZ634WNEC47QAPK6IRSD6IM.jpg?auth=ab8b488f2eba62c2d0077991bf280697ff7b1fb50629279a5a265fec1357d1f6&smart=true&width=1400&height=933",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Jane Fonda Slams Paramount For Calling Mark Ruffalo\u2019s Comments \u2018Antisemitic\u2019: \u2018A Smear to Delegitimize Criticism of the Merger\u2019",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/jane-fonda-slams-paramount-calling-024202704.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/789f8398638759eeff9799094370ac46ee69cccd1d39b36f0bc811388eeb9617/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fvariety.com%2Fa9d915f547cae55f268a00d2069f98f4.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Trump's new economic squeeze on Iran has a big challenge: China",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/chinas-critical-role-in-trumps-economic-squeeze-on-iran-can-the-us-balance-pressure-and-diplomacy/articleshow/133527816.cms",
+            "image": "https://img.etimg.com/thumb/msid-133527831,resizemode-4,width-1200,height-900,imgsize-63882,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Russia's 8 scenarios for how Ukraine war will end after CIA director visits Moscow",
+            "severity": "HIGH",
+            "url": "https://www.express.co.uk/news/world/2242492/russias-8-scenarios-how-ukraine",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/78/237x141/2242492_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Van Hollen: 'Trump Completely Disrespects the Men and Women of Our Military'",
+            "severity": "HIGH",
+            "url": "https://www.breitbart.com/clips/2026/08/25/van-hollen-trump-completely-disrespects-the-men-and-women-of-our-military/",
+            "image": "https://media.breitbart.com/media/2025/06/VanHollen692025-640x335.jpg",
+            "source": "breitbart"
+        },
+        {
+            "title": "Court rules tropical island owner can be stripped of lease",
+            "severity": "HIGH",
+            "url": "https://www.abc.net.au/news/2026-08-26/brampton-island-developer-fights-plan-to-cancel-tourism-lease/107078658",
+            "image": "https://live-production.wcms.abc-cdn.net.au/f36a601cc9360986c8b0e47fe58f4fcc?impolicy=wcms_crop_resize&cropH=864&cropW=1536&xPos=0&yPos=196&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Labor MP Luke Gosling stands down as Albanese's special envoy after alleged bail breach linked to assault charges",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.com/news/article-16080225/luke-gosling-soloman-assault-bail-charge-resignation-labor.html",
+            "image": "https://i.dailymail.com/1s/2026/08/26/03/110854439-0-image-a-21_1787710384683.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Is Sudan\u2019s battlefield shaping the terms of its next political phase?",
+            "title": "Luke Gosling stands aside as special envoy for defence and veterans' affairs",
             "severity": "HIGH",
-            "url": "https://www.aljazeera.com/news/2026/8/26/is-sudans-battlefield-shaping-the-terms-of-its-next-political-phase",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/AFP__20260819__C4ZL2G4__v3__HighRes__TopshotSudanConflictRsf-1787215024.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
+            "url": "https://www.abc.net.au/news/2026-08-26/luke-gosling-stands-aside-as-special-envoy-defence-veterans/107079660",
+            "image": "https://live-production.wcms.abc-cdn.net.au/a888967c5c84c9b1b0a7238857f45d22?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=32&width=862&height=485",
+            "source": "abc_net"
         },
         {
-            "title": "Advocate worries crisis is being forgotten as B.C. toxic drug deaths tick up in June",
+            "title": "Federal MP charged with breaching bail after alleged assault - NT News",
             "severity": "HIGH",
-            "url": "https://www.cbc.ca/news/canada/british-columbia/bc-coroners-service-toxic-drugs-june-9.7320440?cmp=rss",
-            "image": "https://i.cbc.ca/ais/7ba8d17d-aa5b-4b28-9568-e58bf377b519,1787699499385/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C296%2C5000%2C2812%29%3B",
-            "source": "cbc"
-        },
-        {
-            "title": "World: Statement delivered by Elyse Mosquini, Permanent Observer and Head of Delegation, UN Security Council open debate on conflict-related food insecurity, 25 August 2026, New York",
-            "severity": "HIGH",
-            "url": "https://reliefweb.int/report/world/statement-delivered-elyse-mosquini-permanent-observer-and-head-delegation-un-security-council-open-debate-conflict-related-food-insecurity-25-august-2026-new-york",
-            "image": "https://reliefweb.int/modules/custom/reliefweb_meta/images/default.png",
-            "source": "reliefweb"
+            "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOUVNhNkxKOS1JcXpxRUg0MW9Gdl9aMVp0OEpobVZCN3VfRUNYMmhxUk1QTFYyOXRlcWI5b1ZISEo2eVFTMzl4M29sR3d0SVptVm5ncW02YzUwUVhzcWR4Z3hNc0M5dktPRThnUzlLc21rTWZBV1Y5Q3FWeFpEXzJjSGVqYlZmZHBhUW5DY250Y2VycUdCRjJsRXZpNFdoRGgtMGtCMFAtQmtxT0VQbDRrdkZFT3NueTdxZ21BZm5XQXVmTnlZczhlVDdwdHZMZzl0bUdiMzhJZGxXVHo4MEFscmhfWWRnZ0dJcDVGR0l2YUVkbEhPQm04c0lHbDhWaFpJX1I5ak1ieGxrdjQ?oc=5",
+            "image": "https://images.pexels.com/photos/586112/pexels-photo-586112.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
             "title": "ACT politician's alleged 'threatening' behaviour towards former leader dismissed",
@@ -81,180 +121,103 @@
             "source": "abc_net"
         },
         {
-            "title": "Judge says sale of Titanic artifacts cannot go forward for now",
-            "severity": "HIGH",
-            "url": "https://www.bostonglobe.com/2026/08/25/arts/judge-titanic-artifacts-sale/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/OP5CGR6IPCP2TWZCYFEZI76ZJ4.jpg?auth=bb2791b8531fc13b152935d6b6417ade92dc687b82d2ca16c5e87b037f331157&smart=true&width=4523&height=3259",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "\u2018Religious influencer\u2019 pleads not guilty to CBT charges amounting to over RM13.8mil",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com.my/news/nation/2026/08/26/religious-influencer-pleads-not-guilty-to-cbt-charges-amounting-to-over-rm138mil",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/26/4078533.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Lebanon: What Happens after UNIFIL?",
-            "severity": "HIGH",
-            "url": "https://reliefweb.int/report/lebanon/what-happens-after-unifil",
-            "image": "https://reliefweb.int/modules/custom/reliefweb_meta/images/default.png",
-            "source": "reliefweb"
-        },
-        {
-            "title": "Before the real \u2018Five Nights at Freddy\u2019s\u2019 pizzeria opens in N.J., catch up on these games first",
-            "severity": "HIGH",
-            "url": "https://www.nj.com/shopping-deals/2026/08/before-the-real-five-nights-at-freddys-pizzeria-opens-in-nj-catch-up-on-these-games-first.html",
-            "image": "https://www.nj.com/resizer/v2/W4R2BDQYYJHQ7OSY5HF3VK7KJM.png?auth=8cda702f73f271874e1c891f448c659a0aa4714d41aaa2b79d08fefb7af5d398&smart=true&height=1200",
-            "source": "nj"
-        },
-        {
-            "title": "3 Strongest Dinosaurs In The End Of Oak Street, Ranked By Threat Level",
+            "title": "Indepe\u00adndent power producers found overcharging users through costly coal procurement",
             "severity": "MEDIUM",
-            "url": "https://screenrant.com/the-end-of-oak-street-movie-most-powerful-dinosaurs-ranked/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/anne-hathaway-as-denise-running-away-from-a-dinosaur-on-a-suburban-street-in-the-end-of-oak-street.jpg",
-            "source": "screenrant"
+            "url": "https://www.dawn.com/news/2025342/independent-power-producers-found-overcharging-users-through-costly-coal-procurement",
+            "image": "https://i.dawn.com/large/2026/08/260746391fa2ba8.webp",
+            "source": "dawn"
         },
         {
-            "title": "Expand Energy (EXE) is Building a Natural Gas Powerhouse. But is the Growth Story at Risk?",
+            "title": "Punjab has ample sugar stocks, govt keeping vigil, says Mann",
             "severity": "MEDIUM",
-            "url": "https://ca.finance.yahoo.com/news/expand-energy-exe-building-natural-004051280.html",
-            "image": "https://media.zenfs.com/en/insidermonkey.com/266da5880c0e679d3611df6c50fcd082.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Trump threatens to demolish Kennedy Center if $250m renovation not done",
-            "severity": "MEDIUM",
-            "url": "https://ca.news.yahoo.com/trump-threatens-demolish-kennedy-center-211051755.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/63cad60107dd9f3a5715c94b52f070e9b7abf7ed053e6b5c3f4f88b77e530f7e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftheguardian_763%2F9e44757c9d322ffa8fe83440b1318155.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Police vow to examine allegations of illegal 'family voting' at local elections after dossier shows staff recorded concerns at 50 polling stations across Birmingham",
-            "severity": "MEDIUM",
-            "url": "https://www.dailymail.com/news/article-16079203/Police-vow-examine-allegations-illegal-family-voting-local-elections-dossier-shows-staff-recorded-concerns-50-polling-stations-Birmingham.html",
-            "image": "https://i.dailymail.com/1s/2026/08/25/17/110845587-0-image-a-6_1787677121288.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Finland, Saudi Arabia guest countries of honor at 26th China int'l investment, trade fair",
-            "severity": "WATCH",
-            "url": "https://en.people.cn/n3/2026/0826/c90000-20492433.html",
-            "image": "https://en.people.cn/NMediaFile/2026/0826/FOREIGN17877051245460PAYB94H77.jpg",
-            "source": "en_people_cn"
-        },
-        {
-            "title": "Democratic newcomer scores runoff upset in Oklahoma, vows to impeach Trump if elected",
-            "severity": "WATCH",
-            "url": "https://www.foxnews.com/politics/democratic-newcomer-scores-runoff-upset-oklahoma-vows-impeach-trump-elected",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/08/931/523/jasmine-thomas-wins-ok-senate-dem.jpg?ve=1&tl=1",
-            "source": "foxnews"
-        },
-        {
-            "title": "India not a \u2018dharamshala\u2019, says Amit Shah; cites threats from infiltrators",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/india-news/amit-shah-dharamshala-home-ministry-internal-security-refugees-immigration-border-safety-intelligence-101787704020561.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/26/1600x900/logo/ANI-20260820478-0_1787704447405_1787704461507_ac9ac53b-0fb4-4c27-815e-fb3481dbe982.jpg",
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/punjab-has-ample-sugar-stocks-govt-keeping-vigil-says-mann-101787683409949.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/25/1600x900/logo/Mann-directed-officers-to-ensure-physical-verifica_1787683408218.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "Numerology Horoscope Today: Predictions for August 26, 2026",
+            "title": "Earnings call transcript: FWD Group posts record H1 2026 profit as shares rise 6.6%",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/astrology/horoscope/numerology-horoscope-today-predictions-for-august-26-2026-101787578837057.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/24/1600x900/logo/WhatsApp_Image_numerology_today_1787579737884_1787579738067_3d564752-4da4-4373-a4cc-1c06bf735ddf.jpeg",
-            "source": "hindustantimes"
+            "url": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-fwd-group-posts-record-h1-2026-profit-as-shares-rise-66-93CH-4616444",
+            "image": "https://content-media.investing.com/news/LYNXNPED840OH_M.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "32 Newer Products For Cozy People You Probably Haven\u2019t Seen Yet",
+            "title": "Astros Outslug Yankees in 9-7 Victory",
             "severity": "WATCH",
-            "url": "https://www.buzzfeed.com/emmalord9/newer-products-for-cozy-people",
-            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2026-08/18/19/thumb/23q2_w8zl.jpg?crop=1245%3A830%3B3%2C0",
-            "source": "buzzfeeduk"
-        },
-        {
-            "title": "Agoda and NTT DATA Advance Renewable Energy and Data Center Efficiency in Singapore",
-            "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/agoda-and-ntt-data-advance-renewable-energy-and-data-center-efficiency-in-singapore-302859332.html",
-            "image": "https://mmx.prnewswire.com/media/MS1975093/20260825025509EDT_image_1.jpg?id=OA2909482&p=original",
-            "source": "prnewswire_apac"
-        },
-        {
-            "title": "Darline Graham Secures Victory In Runoff Race To Replace Late Brother On Ballot",
-            "severity": "WATCH",
-            "url": "https://dailycaller.com/2026/08/25/darline-graham-ralph-norman-south-carolina-runoff",
-            "image": "https://cdn01.dailycaller.com/wp-content/uploads/2026/08/GettyImages-2291477064.jpg",
-            "source": "dailycaller"
-        },
-        {
-            "title": "Kiren Rijiju slams Pawan Khera's 'indecent' remarks on swimming video",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/kiren-rijiju-slams-pawan-khera-s-indecent-remarks-on-swimming-video-articleshow-1ryaxbp",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-4e0ac859-9841-4fa7-8ac6-a3d475233f72.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "All 700+ Cats Survive as Hurricane Rips Through Hawaiian Sanctuary",
-            "severity": "WATCH",
-            "url": "https://www.yahoo.com/lifestyle/articles/700-cats-survive-hurricane-rips-005400261.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/ee8451612d45709c1518ca3ac44e79789e0d74bc4bd3092b0d650900a6b9ebd0/lightyear_networkapi/resizefill_w720_h500%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fpet_guide_418%2Fa584e47b1135f4763060599c0be8df29.jpg",
+            "url": "https://sports.yahoo.com/articles/astros-outslug-yankees-9-7-024340124.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/79b37378d833e185dc089eaa3ef56133d40b5783b295beab6905aecb77a9e447/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Ff6b537b1c64ba9d8a934be43e21040ec.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Repairing ties with Nepal: A strategy of two hands, 10 fingers",
+            "title": "Earnings call transcript: Duratec posts higher profit in H2 2026 on record backlog",
             "severity": "WATCH",
-            "url": "https://indianexpress.com/article/opinion/columns/repairing-ties-with-nepal-a-strategy-of-two-hands-10-fingers-10849647/",
-            "image": "https://images.indianexpress.com/2026/08/nepal-india.jpg",
-            "source": "indianexpress"
+            "url": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-duratec-posts-higher-profit-in-h2-2026-on-record-backlog-93CH-4616442",
+            "image": "https://content-media.investing.com/news/LYNXMPEB59082_M.jpg",
+            "source": "investing_au"
         },
         {
-            "title": "CRML Jumps, USAR And MP Advance As Rare-Earth Stocks Catch Government Tailwinds",
+            "title": "Mumbai's Ayub's among 4 eateries to lose licence in FDA's latest food safety crackdown",
             "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/markets/crml-jumps-usar-and-mp-advance-as-rare-earth-stocks-catch-government-tailwinds-articleshow-eoi35x6",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-500ee553-7413-4d11-ad67-330f9611e514.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://timesofindia.indiatimes.com/city/mumbai/mumbais-ayubs-among-4-eateries-to-lose-licence-in-fdas-latest-food-safety-crackdown/articleshow/133527757.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133527789/133527789.jpg",
+            "source": "toi"
         },
         {
-            "title": "Earnings call transcript: Netwealth posts record FY 2026 but shares fall 4.7% on guidance",
+            "title": "Matthew Liberatore Hit Hard as Orioles Humiliate Cardinals Tuesday Night",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-netwealth-posts-record-fy-2026-but-shares-fall-47-on-guidance-93CH-4846884",
-            "image": "https://content-media.investing.com/news/LYNXMPEB2N09U_M.jpg",
-            "source": "investing_uk"
+            "url": "https://sports.yahoo.com/articles/matthew-liberatore-hit-hard-orioles-024130617.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/7701c0cb368b3003648aecd12c0ed7406471c85dea0d916fc1fd53dc0e93d9ce/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F48679d87b54e3f102078a48c85630c26.jpg",
+            "source": "yahoo"
         },
         {
-            "title": "The X-Men Are Officially Taking Over Disney+ Ahead of \u2018Doomsday\u2019 Return",
+            "title": "Ontario moves rail line to speed Highway 69 widening",
             "severity": "WATCH",
-            "url": "https://collider.com/marvel-x-men-streaming-success-disney-plus-august-2026/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/08/x-men.jpg",
-            "source": "collider"
+            "url": "https://www.ctvnews.ca/northern-ontario/article/ontario-moves-rail-line-to-speed-highway-69-widening/",
+            "image": "https://www.ctvnews.ca/resizer/v2/EBE7LRLWR5ANVMP6GYHP7UPGCQ.jpg?auth=441df12ace97b364d5de8be3a694e33de57068c22c65fa929be57fcd20c8973c&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
         },
         {
-            "title": "Tilda Swinton\u2500\u2500A Radical Life",
+            "title": "State OKs hold on environmental water releases from Lake Corpus Christi",
             "severity": "WATCH",
-            "url": "https://www.vogue.co.jp/article/2026-october-cover-story-tilda-swinton-english",
-            "image": "https://media.vogue.co.jp/photos/6a87bbff660cd398968546cb/master/pass/VJ326_Cover%20Story_WEB_1200-1628-13.jpg",
-            "source": "vogue"
+            "url": "https://www.yahoo.com/news/science/articles/state-oks-hold-environmental-water-024624130.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/01ca7bac9aaf3c3f428ca283fff98d3b4d2b41cb842db69c2be6616657c9f1db/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcorpus-christi-caller-times%2F303328f88d2f0801a01d2962350814fa.jpg",
+            "source": "yahoo"
         },
         {
-            "title": "Private schools ban Meta glasses 'over bullying fears'",
+            "title": "\u20b911,427cr water overhaul: Govt plans underground reservoirs, new pipelines",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-16079979/Private-schools-ban-Meta-glasses-bullying-fears.html",
-            "image": "https://i.dailymail.com/1s/2026/08/26/01/110853051-0-image-a-36_1787704001887.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.hindustantimes.com/cities/delhi-news/11427cr-water-overhaul-govt-plans-underground-reservoirs-new-pipelines-101787683520812.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/25/1600x900/logo/Chief-minister-Rekha-Gupta-and-cabinet-minister-Pa_1787683518546.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "New house was full of sellers' rubbish ... can we charge them for cost of clearing it out? Consumer lawyer DEAN DUNHAM KC, replies",
+            "title": "Fact-checking the White House statement of facts about Canada",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/money/bills/article-16080059/New-house-sellers-rubbish-charge-cost-clearing-Consumer-lawyer-DEAN-DUNHAM-KC-replies.html",
-            "image": "https://i.dailymail.com/1s/2026/08/26/00/110852677-0-image-a-3_1787701721119.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.cbc.ca/news/world/fact-check-white-house-trade-tariffs-9.7320445?cmp=rss",
+            "image": "https://i.cbc.ca/ais/139fc7e4-f3ef-4e2a-b480-f671a860d6d6,1787698222856/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C136%2C2613%2C1469%29%3B",
+            "source": "cbc"
         },
         {
-            "title": "WhatsApp Adds Security Measures to Help Prevent Accounts From Being Hacked",
+            "title": "Hungary files a criminal complaint over $965M COVID-19 ventilator deal, citing possible fraud",
             "severity": "WATCH",
-            "url": "https://www.cnet.com/tech/services-and-software/whatsapp-adds-security-measures-to-help-prevent-accounts-from-being-hacked/",
-            "image": "https://www.cnet.com/wp-content/uploads/sites/2/2b48af90-69d5-478f-a5ab-52d888bddf2e.jpg",
-            "source": "cnet"
+            "url": "https://abcnews.com/Business/wireStory/hungary-files-criminal-complaint-965m-covid-19-ventilator-135957535",
+            "image": "https://s.abcnews.com/images/International/wirestory_db5dae40f252e4ba325c9505913c1ef2_4x3_384.jpg",
+            "source": "abcnews"
+        },
+        {
+            "title": "Perth council blocks CEO return as investigation continues",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/national/western-australia/perth-council-blocks-ceo-return-as-investigation-continues-20260826-p60rpa.html",
+            "image": "https://static.ffx.io/images/$zoom_1.2667%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_99/t_crop_custom/q_86%2Ce_sharpen:60%2Cf_auto/46fcb24c401821bf1c0127e873f853875910e132",
+            "source": "smh"
+        },
+        {
+            "title": "\u2018Stand aside\u2019: Embattled MP\u2019s shock move",
+            "severity": "WATCH",
+            "url": "https://www.news.com.au/national/politics/federal-labor-mp-luke-gosling-stands-aside-from-special-envoy-role-amid-legal-row/news-story/74ea2b6cb8d9d1b438e4be3c4b564450",
+            "image": "https://content.api.news/v3/images/bin/88a1906ad92bf59dde0a9dc3e458d72d",
+            "source": "news"
         }
     ],
-    "Last_Updated": "2026-08-26T13:02:48.373776Z"
+    "Last_Updated": "2026-08-26T14:50:00.533537Z"
 }
