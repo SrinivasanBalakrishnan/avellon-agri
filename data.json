@@ -1,272 +1,288 @@
 {
-    "AGRI_Score": 59.2,
-    "Velocity": "-0.2",
+    "AGRI_Score": 58.4,
+    "Velocity": "-0.8",
     "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The AGRI score of 58.4 indicates a heightened risk environment, predominantly driven by escalating geopolitical tensions and their direct impact on energy security and trade flows. The \"Iran war flares up on two fronts as Trump issues fresh threat\" and \"Russia's jet-powered drones bring empty Kyiv supermarket shelves\" headlines underscore the severe and direct consequences of ongoing conflicts. These conflicts not only increase immediate security concerns but also ripple through global supply chains and energy markets, demanding close monitoring of potential widespread disruption.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.6,
+        "Geopolitical Conflict Intensity": 77.1,
         "Energy & Maritime Disruption": 69.9,
-        "Trade & Supply Chain Stress": 65.4,
+        "Trade & Supply Chain Stress": 63.3,
         "Sovereign Financial Stress": 57.3,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 61.5,
-        "Cyber & Infrastructure Threats": 60.3,
+        "Sanctions & Regulatory Fragmentation": 58.2,
+        "Cyber & Infrastructure Threats": 55.0,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar is at a very high level due to the \"Iran war flares up on two fronts as Trump issues fresh threat\" and \"Donald Trump vows to hit Iran hard after first exchanges of fire in a month,\" indicating a significant escalation of Middle Eastern conflict. Further, the ongoing conflict in Ukraine, highlighted by \"Russia's jet-powered drones bring empty Kyiv supermarket shelves,\" continues to demonstrate active high-intensity warfare.",
+        "Energy & Maritime Disruption": "The elevated risk in this pillar is directly linked to the \"Iran war flares up on two fronts,\" which poses a serious threat to critical maritime routes and global oil supplies. Discussions like \"PM Modi And Putin Discuss Maritime Trade, Safety And Security Of Indian Seafarers\" indicate proactive concerns about the security of shipping, further emphasizing the risk perception.",
+        "Trade & Supply Chain Stress": "This pillar remains under pressure due to the direct impact of conflicts, as evidenced by \"Russia's jet-powered drones bring empty Kyiv supermarket shelves\" which signifies disruption to goods distribution. Additionally, the re-emergence of trade protectionism, like the potential for \"Trump\u2019s Canada tariffs\" affecting \"Toyota and Honda,\" creates uncertainty and potential cost increases across international supply chains.",
+        "Sovereign Financial Stress": "Concerns about national debt and economic stability persist, with the \"G20 host US pushes growth agenda to allay debt market concerns\" reflecting global efforts to manage financial vulnerabilities. While not directly catastrophic, the potential for trade wars, as suggested by tariffs affecting major auto manufacturers, could indirectly strain national budgets through reduced economic activity and tax revenues.",
+        "Currency & Liquidity Pressure": "This pillar reflects moderate pressure, with global economic discussions like the G20's focus on a \"growth agenda to allay debt market concerns\" influencing market sentiment and investor confidence. While no direct currency crisis is reported, the underlying sovereign financial stress suggests a need for routine monitoring of liquidity conditions and exchange rate movements.",
+        "Sanctions & Regulatory Fragmentation": "The risk environment is shaped by the precedent set by past unilateral actions, such as \"How the Trump Administration\u2019s ICC sanctions reveal the power of international law,\" highlighting the potential for fragmented international legal frameworks. New threats from Donald Trump to \"hit Iran hard\" could easily translate into renewed or expanded sanctions, increasing regulatory complexity for global businesses.",
+        "Cyber & Infrastructure Threats": "The direct impact of conflict on civilian infrastructure is evident with \"Russia's jet-powered drones bring empty Kyiv supermarket shelves,\" which implies disruption beyond just goods. Furthermore, \"Climate change raises flood risks for Nepal\u2019s hydropower\" points to significant physical infrastructure vulnerabilities, emphasizing the diverse nature of threats to critical systems.",
+        "Climate & Resource Shock": "This pillar registers low at present, though localized climate impacts are noted, such as \"Climate change raises flood risks for Nepal\u2019s hydropower.\" While specific resource shortages are not currently driving the overall AGRI score, the potential for climate-related events to impact critical infrastructure highlights an area for routine monitoring."
+    },
     "All_Alerts": [
         {
-            "title": "Live Updates: U.S. strikes Iran for first time in weeks as six-month war reignites over Strait of Hormuz - CBS News",
+            "title": "Donald Trump vows to hit Iran hard after first exchanges of fire in a month",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3VPTi0xVlBhMThyb19kVkpfWmJ5Q054dGxfeEFUMFFlN1NGZ2pwYU82ei03S28yNHJSc1lsampHMnFJYXpQbjJSR1hGNWpNT3pUTC05V1dhT1BfTTVQVkd1eF9BSU45bU1udS01QXRhdHdaY0pfUS1NZ0tac2JoeTlvSW9nVkNHdjRrbUZpN1o?oc=5",
-            "image": "https://images.pexels.com/photos/17140509/pexels-photo-17140509.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Desperate rescue attempts continue in Nepal to reach people thought to be trapped | First Thing",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/us-news/2026/aug/31/first-thing-rescue-nepal-missing-people-trapped",
-            "image": "https://i.guim.co.uk/img/media/f655fb5033146e13f2e405520febdeb1849b9e90/28_0_1075_860/master/1075.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=7d927309424cdc160e040346e6256198",
-            "source": "theguardian"
-        },
-        {
-            "title": "India\u2019s Q1 GDP growth quickens to 7.8% as consumption, capex offset US-Iran war shock",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/economy/indicators/indias-q1-gdp-growth-quickens-to-7-8-as-consumption-capex-offset-us-iran-war-shock/articleshow/133647714.cms",
-            "image": "https://img.etimg.com/thumb/msid-133648604,resizemode-4,width-1200,height-900,imgsize-257200,overlay-economictimes/articleshow.jpg",
+            "url": "https://economictimes.indiatimes.com/news/defence/donald-trump-vows-to-hit-iran-hard-after-first-exchanges-of-fire-in-a-month/articleshow/133658065.cms",
+            "image": "https://img.etimg.com/thumb/msid-133658198,resizemode-4,width-1200,height-900,imgsize-71540,overlay-etdefence/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Ukraine: Empowering Frontline Households: Direct Cash Assistance in Kharkivksa Oblast",
+            "title": "Xi and Putin Emphasize Their Cooperation Despite Headwinds",
             "severity": "HIGH",
-            "url": "https://reliefweb.int/report/ukraine/empowering-frontline-households-direct-cash-assistance-kharkivksa-oblast",
-            "image": "https://reliefweb.int/modules/custom/reliefweb_meta/images/icons/Ukraine_UKR.png",
-            "source": "reliefweb"
+            "url": "https://www.bluewin.ch/www.bluewin.ch/en/news/xi-and-putin-emphasize-their-cooperation-despite-headwinds-li.3582570",
+            "image": "https://images.pexels.com/photos/6366444/pexels-photo-6366444.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "bluewin"
         },
         {
-            "title": "Oil and Bond Yields Higher Following First US Attack on Iran in Weeks",
+            "title": "Iran war flares up on two fronts as Trump issues fresh threat",
             "severity": "HIGH",
-            "url": "https://uk.investing.com/analysis/oil-and-bond-yields-higher-following-first-us-attack-on-iran-in-weeks-200627657",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_uk"
+            "url": "https://thehill.com/newsletters/1230-report/6061321-iran-war-resumes-donald-trump-threats/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2026/08/1230-Report-Trump-Iran.png?w=900",
+            "source": "thehill"
         },
         {
-            "title": "U.S. Treasury Yields Fall - WSJ",
+            "title": "Climate change raises flood risks for Nepal\u2019s hydropower",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZjJ0dVZ0ZzNyQXlWNXFBOHlSQjdhdEVEbnFmdTMwZVRlR3hwWkdzUVZESEF5VjZfMU1MZ25hYmFoNHNlVnNTazZZTW5tN1A4c3ZYZlRESHNvUzdGbkhyWVZRMW9FSi1sbC1NZlRTcVBFbGM2d3JNTEt6Z0xHQ0dXeTRuYmtDcndnN2w3cElBakc?oc=5",
-            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://apnews.com/article/nepal-floods-hydro-dams-climate-change-021880ee5a7ac49ac376c6b3378ff97e",
+            "image": "https://dims.apnews.com/dims4/default/b5420e9/2147483647/strip/false/crop/1600x1066+0+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F9b%2F85%2F7c1736752313ba0aa8d049513e52%2Fe42871fc512942708988bf7af073a7b0",
+            "source": "apnews"
         },
         {
-            "title": "Situation Report II - Nepal Flash Flood",
+            "title": "Nkubi enjoys horse ride with wife at beach, fans focus on how he was lifted",
             "severity": "HIGH",
-            "url": "https://reliefweb.int/report/nepal/situation-report-ii-nepal-flash-flood",
-            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/5f/d4/5fd45088-50de-4543-be64-90d53602ccac.png",
-            "source": "reliefweb"
+            "url": "https://www.legit.ng/entertainment/celebrities/1728213-nkubi-wife-horse-riding-beach-fans-react-how-lifted-carry-toddler/",
+            "image": "https://cdn.legit.ng/images/1200x675/e5eeea82a6f743f2.jpeg?v=1",
+            "source": "legit"
         },
         {
-            "title": "Morocco not to blame for Ceuta border breach, says Spanish PM",
+            "title": "USS Cole retired commander rips slow-walk to justice for 9/11 kin",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/world/2026/aug/31/morocco-ceuta-border-breach-spanish-pm-migration-pedro-sanchez",
-            "image": "https://i.guim.co.uk/img/media/c0dd2ae7e5932bb0877575ffd8448d3b061d544f/965_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3ab453c66b508f397495fe8ec0b5a80d",
-            "source": "theguardian"
+            "url": "https://www.dailycamera.com/2026/08/31/uss-cole-retired-commander-rips-slow-walk-to-justice/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2026/08/0105-NWS-BHR-L-Lippold1.jpg?w=1400px&strip=all",
+            "source": "dailycamera"
         },
         {
-            "title": "Jeff Klingelhofer: This Fed will have a different reaction function",
+            "title": "How the Trump Administration\u2019s ICC sanctions reveal the power of international law",
+            "severity": "HIGH",
+            "url": "https://theconversation.com/how-the-trump-administrations-icc-sanctions-reveal-the-power-of-international-law-290452",
+            "image": "https://images.theconversation.com/files/755933/original/file-20260803-50-17evoj.jpg?ixlib=rb-4.1.1&rect=0%2C346%2C4252%2C2126&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
+        },
+        {
+            "title": "Bessent taunts Canada amid trade war: \u2018What are they going to do, take their two submarines and sic them on us?\u2019",
+            "severity": "HIGH",
+            "url": "https://nypost.com/2026/08/31/us-news/scott-bessent-taunts-canada-amid-trade-war-what-are-they-going-to-do-take-their-two-submarines-and-sic-them-on-us/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F08%2F2026-finance-leaders-group-20-139081758.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Russia's jet-powered drones bring empty Kyiv supermarket shelves and rattle Ukrainians",
+            "severity": "HIGH",
+            "url": "https://www.latimes.com/world-nation/story/2026-08-31/russias-jet-powered-drones-bring-empty-kyiv-supermarket-shelves-rattle-ukrainians",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/e8e42ec/2147483647/strip/false/crop/2000x1334+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F00%2F19%2F9fa1b2c742f984863f1c0668cf9c%2Ff8f9c33e57b64c45b2709a724fb92f87.jpg",
+            "source": "latimes"
+        },
+        {
+            "title": "Doubts seep into deep-red country as MAGA voters stress over Trump: 'Too much corruption'",
+            "severity": "HIGH",
+            "url": "https://www.rawstory.com/trump-supporter-doubts/",
+            "image": "https://www.rawstory.com/media-library/a-woman-wearing-a-maga-hat-raises-her-hand-on-the-day-of-u-s-president-donald-trump-s-speech-at-the-general-motors-proving-gro.jpg?id=67676131&width=980",
+            "source": "rawstory"
+        },
+        {
+            "title": "Belagavi IT Park proposal gets fresh push, Kanabargi emerges as new site",
             "severity": "MEDIUM",
-            "url": "https://www.cnbc.com/video/2026/08/31/jeff-klingelhofer-this-fed-will-have-a-different-reaction-function.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108356272-2ED1-MC-083126-Jeff.jpg?v=1788172495",
-            "source": "cnbc"
+            "url": "https://timesofindia.indiatimes.com/city/hubballi/belagavi-it-park-proposal-gets-fresh-push-kanabargi-emerges-as-new-site/articleshow/133658202.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133658178/133658178.jpg",
+            "source": "toi"
         },
         {
-            "title": "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+            "title": "Toyota and Honda may get stuck with the bill for Trump\u2019s Canada tariffs: Reuters analysis",
             "severity": "MEDIUM",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/08/31/us-carrier-visit-to-thailand039s-pattaya-lifts-hope-and-sex-tourism-risk",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/08/31/4086693.jpg",
+            "url": "https://www.ctvnews.ca/business/autos/article/toyota-and-honda-may-get-stuck-with-the-bill-for-trumps-canada-tariffs-reuters-analysis/",
+            "image": "https://www.ctvnews.ca/resizer/v2/ZQGXOFTZXEDTTXGBE7ZR32L2ZY.jpg?auth=3db033c0b928a62a729dd512531b273473985095d79434efba2ec5a5943445b3&smart=true&width=1400&height=934",
+            "source": "ctvnews"
+        },
+        {
+            "title": "NATO Rebuffs Russia's Claims Arctic Mission Is Direct Threat",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/nato-rebuffs-russian-claims-arctic-mission-direct-threat-12386316",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/08/GettyImages-2265572670-1-1.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Bishkek: PM Modi And Putin Discuss Maritime Trade, Safety And Security Of Indian Seafarers",
+            "severity": "WATCH",
+            "url": "https://ommcomnews.com/world-news/bishkek-pm-modi-and-putin-discuss-maritime-trade-safety-and-security-of-indian-seafarers/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/08/20260831506-e1788193983254.jpg",
+            "source": "ommcomnews"
+        },
+        {
+            "title": "Eni expands presence in Uruguay with new block, first operatorship",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/news/4638345-eni-expands-presence-in-uruguay-with-new-block-first-operatorship?feed_item_type=news",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1322554003/image_1322554003.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "G20 host US pushes growth agenda to allay debt market concerns",
+            "severity": "WATCH",
+            "url": "https://sg.finance.yahoo.com/news/g20-host-us-pushes-growth-162252261.html",
+            "image": "https://media.zenfs.com/en/reuters.com/e78aa8a245780dea3d916a149a0315e7.jpg",
+            "source": "yahoo_sg"
+        },
+        {
+            "title": "Serbia signs framework deal with China's Reliance Energy for battery plant",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/news/world/2026/09/01/serbia-signs-framework-deal-with-china039s-reliance-energy-for-battery-plant",
+            "image": "https://cdn.thestar.com.my/Themes/img/tsol-default-image2023.png",
             "source": "thestar_my"
         },
         {
-            "title": "Coupang dispute fuels new U.S. tariff pressure on South Korea",
-            "severity": "MEDIUM",
-            "url": "https://www.cnbc.com/2026/08/31/coupang-south-korea-us-tariffs.html",
-            "image": "https://images.pexels.com/photos/18784617/pexels-photo-18784617.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "cnbc"
-        },
-        {
-            "title": "India rupee hits near four-week high on equity-related flows, RBI support; logs monthly rise",
+            "title": "Turkey pushes for a new grain deal between Russia and Ukraine",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/india-rupee-hits-near-four-week-high-on-equity-related-flows-rbi-support-logs-monthly-rise/articleshow/133650226.cms",
-            "image": "https://img.etimg.com/thumb/msid-133650251,resizemode-4,width-1200,height-900,imgsize-34722,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Why NASA's new telescope could revolutionise our understanding of the universe",
-            "severity": "WATCH",
-            "url": "https://www.france24.com/en/why-nasa-s-new-telescope-could-revolutionise-our-understanding-of-the-universe",
-            "image": "https://s.france24.com/media/display/90c4e40a-a523-11f1-9fb5-005056a97e36/w:1024/p:16x9/EN-20260831-110740-110929-CS.jpg",
-            "source": "france24"
-        },
-        {
-            "title": "This is the best time of day to take iron, vitamin D and B12 supplements",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/life-style/supplements-iron-best-time-vitamin-d-b12-b3042082.html",
-            "image": "https://static.independent.co.uk/2026/08/20/15/28/iStock-1333518399.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "Return of Trump's boat strike campaign reignites questions of legality, usefulness",
-            "severity": "WATCH",
-            "url": "https://abcnews.com/US/return-trumps-boat-strike-campaign-reignites-questions-legality/story?id=135951404",
-            "image": "https://s.abcnews.com/images/US/chad-1-ht-er-260828_1787944642383_hpMain_4x3t_384.jpg",
-            "source": "abcnews"
-        },
-        {
-            "title": "Ranger Energy to acquire STEP\u2019s U.S. coiled tubing assets",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/ranger-energy-to-acquire-steps-us-coiled-tubing-assets-93CH-4622725",
-            "image": "https://content-media.investing.com/news/LYNXMPEM451H2_1200_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Putting ice cubes in washing machine: Why are people doing it & how this hack can help remove wrinkles from clothes",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/new-updates/putting-ice-cubes-in-washing-machine-why-are-people-doing-it-how-this-hack-can-help-remove-wrinkles-from-clothes/articleshow/133649906.cms",
-            "image": "https://img.etimg.com/thumb/msid-133650051,resizemode-4,width-1200,height-900,imgsize-1857871,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Zaporozhye NPP power units\u2019 safe operation maintained despite lack of external power",
-            "severity": "WATCH",
-            "url": "https://tass.com/world/2179801",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "India GDP grows 7.8% in Q1 FY27, beats estimates despite global headwinds",
-            "severity": "WATCH",
-            "url": "https://www.firstpost.com/business/india-gdp-growth-q1-fy27-7-8-per-cent-india-economy-14042143.html",
-            "image": "https://images.firstpost.com/uploads/2026/08/2024-12-06T072500Z_1301059413_RC2IJBAL2O5D_RTRMADP_3_INDIA-ECONOMY-RATES_cropped-2026-08-b264325dec49fb1cf6a9b130e0cb83d0-1200x675.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Pakistan Army gets a conditional \u2018yes\u2019 in Bannu: Why local peace committee is backing the forces and what it wants in return",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/world/pakistan-army-gets-a-conditional-yes-in-bannu-why-local-peace-committee-is-backing-the-forces-and-what-it-wants-in-return-article-14019020.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/08/20260831103821_Pak-Army-New-2.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Sonali Kulkarni on being cast as Salman Khan's mother despite being 9 years younger: 'I can't be playing this role'",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/entertainment/bollywood/sonali-kulkarni-on-being-cast-as-salman-khans-mother-despite-being-9-years-younger-i-cant-be-playing-this-role-1.500658069",
-            "image": "https://media.assettype.com/gulfnews/2026-08-31/afma48wa/Salman178816928496517881692851311b6d6121-17c6-4255-80a4-6d98e48f9c88.jpg.webp?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "Chuck Schumer's many compromises to maintain political power",
-            "severity": "WATCH",
-            "url": "https://www.washingtonexaminer.com/premium/4701880/chuck-schumers-many-compromises-to-maintain-political-power/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/08/Fea.Schumer.090226.jpg?w=696",
-            "source": "washingtonexaminer"
-        },
-        {
-            "title": "\u2018I love the inflation!\u2019: Trump shrugs off rising prices \u2014 here\u2019s what you can do before inflation eats into your savings",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/economy/articles/love-inflation-trump-shrugs-off-103500495.html",
-            "image": "https://media.zenfs.com/en/moneywise_ecomm_711/2a198d3c4cf9529b4bdd64c8c60cfd10.jpg",
+            "url": "https://www.yahoo.com/news/world/articles/turkey-pushes-grain-deal-between-163349678.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/ddc3f69d61482cb339321b8f13e17c20f864452b05adab8fecf5047ad8e1f287/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdpa_international_526%2Fbcbfeeaa6da968ab384e01ce45772d30.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Nifty settles below 24,100 level; media shares tumble",
+            "title": "Quote of the day by Nikola Tesla: 'A new idea must not be judged by...' Life lessons from inspiring quote on true innovations, real value, patience, persistence, and long-term vision",
             "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/nifty-settles-below-24-100-level-media-shares-tumble-126083100746_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
-            "source": "business-standard"
+            "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-nikola-tesla-a-new-idea-must-not-be-judged-by-life-lessons-from-inspiring-quote-on-true-innovations-real-value-patience-persistence-and-long-term-vision/articleshow/133656913.cms",
+            "image": "https://img.etimg.com/thumb/msid-133657072,resizemode-4,width-1200,height-900,imgsize-106426,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "\"Now I'm Selling Eggs\": Laid Off From Amazon, Woman Shares How She Built Poultry Business From Six Chicks",
+            "title": "After Bilateral Meet, PM Modi Carpools With Putin For Nomad Games",
             "severity": "WATCH",
-            "url": "https://www.ndtv.com/offbeat/now-im-selling-eggs-laid-off-from-amazon-woman-shares-how-she-built-poultry-business-from-six-chicks-11981713",
-            "image": "https://c.ndtvimg.com/2026-08/vrebgpp_chicken-farm_625x300_31_August_26.jpeg",
+            "url": "https://www.ndtv.com/india-news/after-bilateral-meet-pm-modi-carpools-with-putin-for-nomad-games-11983584",
+            "image": "https://c.ndtvimg.com/2026-08/tj228m3_modi-putin-car_625x300_31_August_26.jpeg",
             "source": "ndtv"
         },
         {
-            "title": "LUBM expands GCC footprint and future-ready degrees to match evolving workforce needs",
+            "title": "California Legislature approves Safe Worship Zone Act, now awaiting Newsom\u2019s stamp",
             "severity": "WATCH",
-            "url": "https://gulfnews.com/gn-focus/lubm-expands-gcc-footprint-and-future-ready-degrees-to-match-evolving-workforce-needs-1.500658073",
-            "image": "https://media.assettype.com/gulfnews/2026-08-31/to17v0i0/Lincoln-University.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
+            "url": "https://www.jpost.com/diaspora/antisemitism/article-907160",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/735986",
+            "source": "jpost"
         },
         {
-            "title": "Deere has been on fire in 2026. Baird sees even more returns ahead",
+            "title": "Pro-Palestinian protesters disrupt the Ashkenaz Jewish music and culture festival in Toronto",
             "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/08/31/deere-has-been-on-fire-in-2026-baird-sees-even-more-returns-ahead.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108284396-1774647943276-gettyimages-2268143685-deere_03-27-26_005.jpeg?v=1774647983&w=1200&h=675",
-            "source": "cnbc"
+            "url": "https://www.jpost.com/diaspora/antisemitism/article-907164",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/735990",
+            "source": "jpost"
         },
         {
-            "title": "Paid for protein powder online but \u2018got nothing\u2019, Himachal man wins Rs 58,000",
+            "title": "EY Puts $100 Million Into Bonuses for 'Human' Skills",
             "severity": "WATCH",
-            "url": "https://indianexpress.com/article/legal-news/paid-protein-powder-online-got-nothing-himachal-man-wins-rs-58000-10857062/",
-            "image": "https://images.indianexpress.com/2026/08/Protein-powder-case.jpg",
-            "source": "indianexpress"
+            "url": "https://equity-insider.com/ey-100-million-bonuses-human-skills/",
+            "image": "https://equity-insider.com/wp-content/uploads/creator/2026/08/ey-100-million-bonuses-human-skills.jpg",
+            "source": "equity_insider"
         },
         {
-            "title": "Rhine water levels rise after rain but shipping problems continue for Germany",
+            "title": "Beating the odds",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/world/europe/rhite-water-levels-germany-heatwave-b3042079.html",
-            "image": "https://static.independent.co.uk/2026/08/31/11/2026-08-28T104231Z_1605422522_RC2LVMAFLYES_RTRMADP_3_SHIPPING-RHINE-GERMANY.JPG?width=1200&auto=webp&trim=0%2C6%2C0%2C6",
-            "source": "independentuk"
+            "url": "https://www.business-standard.com/opinion/editorial/beating-the-odds-126083101459_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/31/full/1780250344-4546.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "Bessent heads to the G20 to rally allies to help U.S. isolate Iran",
+            "title": "Canada eTA rules explained: Who needs an eTA, visa or other travel documents?",
             "severity": "WATCH",
-            "url": "https://www.theglobeandmail.com/business/article-bessent-g20-meeting-allies-iran-tariffs/",
-            "image": "https://www.theglobeandmail.com/resizer/v2/422RUNSFLJGKFFEKH5DW25M3OA.jpg?auth=885ca4425158c28c81e153eb831b52b225ed7dae04e1a6d04e5689b6e13fd2f7&smart=true&width=6155&height=4103",
-            "source": "theglobeandmail"
+            "url": "https://www.hindustantimes.com/nri/canada-eta-rules-explained-who-needs-an-eta-visa-or-other-travel-documents-101788192015403.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/31/1600x900/logo/photo-1565535941810-e9892acd7704_1762781065635_1762781078484_1788192422313_97995f29-5e6b-444d-80f7-3f72859b53ca.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "AnaptysBio stock rating maintained at Outperform by Wolfe Research",
+            "title": "Trump's foreign beef deal draws skepticism from farmers and cattle ranchers nationwide",
             "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/anaptysbio-stock-rating-maintained-at-outperform-by-wolfe-research-93CH-4622691",
-            "image": "https://content-media.investing.com/news/moved_LYNXMPEM3Q0WG_1200_L.jpg",
-            "source": "investing_au"
+            "url": "https://www.tmj4.com/us-news/trumps-foreign-beef-deal-draws-skepticism-from-farmers-and-cattle-ranchers-nationwide",
+            "image": "https://ewscripps.brightspotcdn.com/dims4/default/506ef65/2147483647/strip/true/crop/1024x538+0+72/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F05%2F9e%2Faa51789f4059907bf738f33c9b31%2Fap26231008934592.jpg",
+            "source": "tmj4"
         },
         {
-            "title": "ConCourt dismisses Zuma, Mbeki bid to remove Khampepe from TRC inquiry",
+            "title": "We\u2019re living in the \u2018G-shaped economy\u2019\u2014where boomers control $90 trillion, and everyone else waits",
             "severity": "WATCH",
-            "url": "https://www.iol.co.za/news/crime-and-courts/concourt-dismisses-zuma-mbeki-bid-to-remove-khampepe-from-trc-inquiry-db10d31c-2ba8-4c9a-a1d1-96fd89228bba",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/71a3cbfef243554a2df3871b0c9f857b32beb772/1453&operation=CROP&offset=0x96&resize=1453x817",
-            "source": "iol"
+            "url": "https://fortune.com/2026/08/31/baby-boomer-economy-generational-net-worth-gen-z-millennials-stock-real-estate-wealth/",
+            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/08/GettyImages-2290499331-e1788184009584.jpg?w=2048",
+            "source": "fortune"
         },
         {
-            "title": "UTZ Investment Losses: BFA Law Reminds Investors of the Pending Investigation into the Utz Brands $14.25 per share Transaction",
+            "title": "Mohammad Rizwan, Imam-ul-Haq sent back to Pakistan from England, Mike Hesson replaces Sarfaraz as PCB puts hammer down",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/08/31/3353130/0/en/utz-investment-losses-bfa-law-reminds-investors-of-the-pending-investigation-into-the-utz-brands-14-25-per-share-transaction.html",
-            "image": "https://images.pexels.com/photos/20068548/pexels-photo-20068548.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "url": "https://www.hindustantimes.com/cricket/mohammad-rizwan-imam-ul-haq-sent-back-to-pakistan-from-england-mike-hesson-replaces-sarfaraz-as-pcb-puts-hammer-down-101788192760787.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/31/1600x900/logo/AP08-30-2026-000459B-0_1788192873599_1788192880191_55a4c446-a0db-4760-bd7f-aabef8b28a85.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "Muttil tree-felling case in Keralam: Charges to be framed against Augustine brothers on September 7",
+            "title": "Externment order can\u2019t be passed routinely, impinges on fundamental rights: Supreme Court",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/kerala/muttil-tree-felling-case-in-keralam-charges-to-be-framed-against-augustine-brothers-on-september-7/article71410087.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
+            "url": "https://www.deccanherald.com/india/externment-order-cant-be-passed-routinely-impinges-on-fundamental-rights-supreme-court-4130492",
+            "image": "https://media.assettype.com/deccanherald/2026-08-31/kq03wl93/sc.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Shadow AI is a security problem, but the EU AI Act makes it a legal one",
+            "title": "Inside Will Levis' rocky road in NFL: humiliating draft slide, on-field ridicule, Gia Duddy split and mom's 'intimate tape' admission",
             "severity": "WATCH",
-            "url": "https://www.techradar.com/pro/shadow-ai-is-a-security-problem-but-the-eu-ai-act-makes-it-a-legal-one",
-            "image": "https://cdn.mos.cms.futurecdn.net/mfPaYGQmks2VALWFFBnSej-1280-80.jpg",
-            "source": "techradar_sg"
+            "url": "https://www.dailymail.com/sport/nfl/article-16092923/will-levis-tennessee-titans-waived.html",
+            "image": "https://i.dailymail.com/1s/2026/08/31/17/110956193-0-image-a-11_1788192211114.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Valve suffers massive 12TB leak, revealing a decade of Steam game files",
+            "title": "Former Ontario lawyer charged, accused of defrauding victims of $4.3M",
             "severity": "WATCH",
-            "url": "https://sea.mashable.com/games/54299/valve-suffers-massive-12tb-leak-revealing-a-decade-of-steam-game-files",
-            "image": "https://sm.mashable.com/mashable_sea/article/v/valve-suff/valve-suffers-massive-12tb-leak-revealing-a-decade-of-steam_fvnx.jpg",
-            "source": "mashable"
+            "url": "https://globalnews.ca/news/12041601/brampton-lawyer-mortgage-fraud-millions/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/04/ff6ad29386b4528b402647c9b1bba053e5b30faaf04a796bcaa319c6cb7a49f4.jpg?quality=65&strip=all",
+            "source": "globalnews"
+        },
+        {
+            "title": "Tribunal says India cannot withdraw from water treaty with Pakistan",
+            "severity": "WATCH",
+            "url": "https://www.bangkokpost.com/world/3311338/tribunal-says-india-cannot-withdraw-from-water-treaty-with-pakistan",
+            "image": "https://static.bangkokpost.com/media/content/20260831/c1_6209523.jpg",
+            "source": "bangkokpost"
+        },
+        {
+            "title": "Former lawyer charged in alleged mortgage, cheque fraud schemes",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com/news/ontario/former-lawyer-charged-in-alleged-mortgage-cheque-fraud-schemes/article_fb7a8755-6311-5f5e-a635-056e3ce67ee6.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/7/b6/7b6b985a-e307-5831-b220-60cfacecfbc0/68dd7917d6559.image.jpg?resize=300%2C200",
+            "source": "thestar"
+        },
+        {
+            "title": "The Unit Economics Of AI: Why Datanomics Will Outweigh Tokenomics",
+            "severity": "WATCH",
+            "url": "https://www.forbes.com/councils/forbestechcouncil/2026/08/31/the-unit-economics-of-ai-why-datanomics-will-outweigh-tokenomics/",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/65b4049b51ba742ef1c637d9/0x0.jpg?width=960",
+            "source": "forbes"
+        },
+        {
+            "title": "India Rejects Court of Arbitration\u2019s Order to Honour IWT with Pakistan",
+            "severity": "WATCH",
+            "url": "https://english.revoi.in/india-rejects-court-of-arbitrations-order-to-honour-iwt-with-pakistan/",
+            "image": "https://english.revoi.in/wp-content/uploads/2026/08/72-court.png",
+            "source": "revoi_in"
+        },
+        {
+            "title": "Yogi calls for dialogue with youth, hits out at Opposition",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/lucknow-news/yogi-calls-for-dialogue-with-youth-hits-out-at-opposition-101788189875854.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/08/31/1600x900/logo/Chief-minister-Yogi-Adityanath-and-other-BJP-leade_1788189873555.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Three youth charged in assault involving a weapon in Midland",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/barrie/article/three-youth-charged-in-assault-involving-a-weapon-in-midland/",
+            "image": "https://www.ctvnews.ca/resizer/v2/HEFH6YGBSRG3TLT4R7EXGW2S6A.jpeg?auth=3eb65b4459f08001c37efb9410cf2aea60d49cc87d408ce4b2506b85bda7dfa7&smart=true&width=1920&height=1080",
+            "source": "ctvnews"
         }
     ],
-    "Last_Updated": "2026-08-31T22:41:55.924596Z"
+    "Last_Updated": "2026-09-01T04:34:18.781494Z"
 }
