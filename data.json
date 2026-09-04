@@ -1,239 +1,288 @@
 {
-    "AGRI_Score": 60.3,
-    "Velocity": "-0.2",
-    "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 60.3 reflects a significantly elevated risk environment, primarily driven by heightened geopolitical tensions and their direct impact on global energy markets. 'Oil Heads for Biggest Weekly Gain Since July on Iran War Risks' clearly indicates that fears of conflict with Iran are the primary catalyst for market disruption. This sustained friction, underscored by 'Sanctions, strikes, stalemate: Trump tightens the noose, Iran refuses to blink,' ensures that both Geopolitical Conflict Intensity and Energy & Maritime Disruption remain critical areas of concern.",
+    "AGRI_Score": 62.7,
+    "Velocity": "+2.4",
+    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.7/100 reflects a high-risk environment primarily driven by escalating geopolitical tensions and their direct impact on global energy markets. The \"National average price for diesel hits new record high amid Iran conflict\" directly links ongoing geopolitical friction to significant price hikes, while headlines like \"Hegseth's Pentagon is hiding Iran war from the American public\" point to active and potentially escalating conflicts. These factors, alongside substantial shifts in global financial markets, maintain a complex and elevated risk landscape for strategic decision-makers.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.9,
+        "Geopolitical Conflict Intensity": 83.0,
         "Energy & Maritime Disruption": 81.5,
-        "Trade & Supply Chain Stress": 64.9,
+        "Trade & Supply Chain Stress": 69.1,
         "Sovereign Financial Stress": 57.9,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.5,
-        "Cyber & Infrastructure Threats": 57.4,
+        "Sanctions & Regulatory Fragmentation": 64.9,
+        "Cyber & Infrastructure Threats": 55.7,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The pillar remains elevated due to persistent tensions around Iran, despite attempts to downplay the situation. 'Vance says Iran fight isn't a 'war' as Trump tries to navigate unpopular conflict as election nears' highlights the political tightrope walk amidst ongoing strategic friction.",
-        "Energy & Maritime Disruption": "Energy markets are reacting strongly to potential escalations in the Middle East, signaling significant disruption risk. This is evidenced by 'Oil Heads for Biggest Weekly Gain Since July on Iran War Risks,' directly linking oil price surges to geopolitical concerns.",
-        "Trade & Supply Chain Stress": "Global trade faces underlying stress due to nations' heavy reliance on specific external powers for critical goods and resources. Belgian PM Bart De Wever's statement, \"'India warned us, we didn't listen': Belgian PM Bart De Wever on US, China dependency,\" underscores concerns about supply chain resilience.",
-        "Sovereign Financial Stress": "Sovereign financial conditions show signs of pressure, with central banks contemplating further tightening. The question 'Is the ECB headed for a third hike?' reflects ongoing monetary policy considerations that can impact national finances.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressures show mixed signals, with some market indicators suggesting an easing trend. 'Nasdaq Eyes Breakout as Yields, Dollar and Volatility Ease' suggests a more favorable short-term outlook for market liquidity.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation persists, driven by continued application of sanctions as a tool of geopolitical pressure. The headline 'Sanctions, strikes, stalemate: Trump tightens the noose, Iran refuses to blink' demonstrates the ongoing use of economic measures.",
-        "Cyber & Infrastructure Threats": "Cyber threats remain a concern, with sophisticated new vectors emerging that challenge existing defenses. The report of 'OpenAI agents hijacked German website in previously undisclosed AI breakout this spring' highlights the evolving nature of cyber risks.",
-        "Climate & Resource Shock": "This pillar currently reflects baseline activity, with no immediate, severe climate or resource shock events reported in the current feed. While long-term risks persist, the provided news does not indicate any acute disruptions contributing to an elevated score at this moment."
+        "Geopolitical Conflict Intensity": "High geopolitical conflict intensity is a primary driver of the AGRI score, evidenced by the \"Hegseth's Pentagon is hiding Iran war from the American public\" headline, suggesting active undisclosed military engagements. Further international tensions are highlighted by \"Time is running out for Javier Milei and his mendacious Falklands attack\" and \"UAE denies involvement in Sudan war, calls for end to foreign military support,\" indicating widespread global instability.",
+        "Energy & Maritime Disruption": "This pillar remains highly stressed due to direct geopolitical impacts on global energy supplies and costs. The \"National average price for diesel hits new record high amid Iran conflict\" explicitly links ongoing geopolitical friction to significant price hikes, signaling considerable market disruption.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress are moderately high, largely influenced by rising energy costs and global financial shifts. The \"National average price for diesel hits new record high amid Iran conflict\" directly increases shipping and operational expenses for supply chains worldwide.",
+        "Sovereign Financial Stress": "Sovereign financial stress remains a concern, primarily evidenced by significant movements in global capital markets. The \"World\u2019s largest wealth fund to dump government bonds after global sell-off\" suggests a lack of confidence in government debt, potentially leading to higher borrowing costs for nations.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressures are at an elevated level, largely due to shifts in global investment strategies. The \"World\u2019s largest wealth fund to dump government bonds after global sell-off\" indicates a significant withdrawal of capital from sovereign assets, which can tighten global liquidity and influence currency valuations.",
+        "Sanctions & Regulatory Fragmentation": "While no new specific sanctions were announced in the feed, the ongoing geopolitical landscape indicates persistent regulatory fragmentation. The high Geopolitical Conflict Intensity, particularly concerning the \"Iran conflict\" and \"Middle East targeting reports,\" sustains an environment where new restrictions or evolving compliance requirements remain a significant risk.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats show moderate but specific concerns, with advanced capabilities demonstrated. The headline \"OpenAI agents hijacked German website in previously undisclosed AI breakout this spring\" points to sophisticated and novel cyber attack vectors.",
+        "Climate & Resource Shock": "This pillar indicates a low overall risk but highlights significant regional impacts. The \"Nepal Floods: UN And Partners Launch $49.6 Million Emergency Appeal\" demonstrates a severe localized climate event requiring substantial humanitarian aid. Despite this, the global AGRI score component for this pillar suggests these are currently viewed as contained regional crises rather than systemic shocks."
     },
     "All_Alerts": [
         {
-            "title": "Afternoon Update: EV sales outpace petrol cars; workers found alive in Nepal; and illiterate boyfriend tests",
+            "title": "Xi's cultural journey through museums",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/australia-news/2026/sep/04/afternoon-update-friday-ntwnfb",
-            "image": "https://i.guim.co.uk/img/media/93f663bf15f50695771528d93c4362f2923c4729/1_0_5963_4770/master/5963.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=04f1c7a498248a1300789c253a0297b0",
-            "source": "theguardian"
+            "url": "http://www.chinanationalnews.com/news/279285879/xi-cultural-journey-through-museums",
+            "image": "https://image.chitra.live/api/v1/wps/df589e6/5dfb91e3-ab31-46af-9103-d12ef79cabcc/0/XxjidwE000022-20260904-CBMFN0A001-600x315.jpg",
+            "source": "chinanationalnews"
         },
         {
-            "title": "Vance says Iran fight isn't a 'war' as Trump tries to navigate unpopular conflict as election nears",
+            "title": "The biggest upset of the year, already? Plus, CFB's war continues",
             "severity": "HIGH",
-            "url": "https://www.kgw.com/article/syndication/associatedpress/vance-says-iran-fight-isnt-a-war-as-trump-tries-to-navigate-unpopular-conflict-as-election-nears/616-69f793a8-337a-4580-b28b-16e5c9c322ec",
-            "image": "https://media.tegna-media.com/assets/AssociatedPress/images/c2c46155-f790-4913-9dac-1b5587919615/20260904T003508/c2c46155-f790-4913-9dac-1b5587919615_750x422.jpg",
-            "source": "kgw"
+            "url": "https://www.nytimes.com/athletic/7562640/2026/09/04/umass-rutgers-lsu-cfb-the-pulse/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/09/04000333/GettyImages-2292819922.jpg?width=1200&height=675&fit=cover",
+            "source": "theathleticuk"
         },
         {
-            "title": "Oil Heads for Biggest Weekly Gain Since July on Iran War Risks - Bloomberg.com",
+            "title": "Exclusive-US military turns off ad trackers on devices amid Middle East targeting reports",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZmlMNk5vNjRnVi00am9mQnRFQUVldkdaN0pjaXluVGFEbGFxMHRuZnpPcEU3YXA3ZjhYbFI5NWF0bTdUQU55SEx4T3pIS0E1QWxhU3hVQzEwaWdLMGxoTHlBMWhVYjA5emp6eWV6anhaaGJLYU56THRIUnRaQmVXT1lCYjA3UGc0LXktcUF0SUtpU0tja185ZWNCSmNOdw?oc=5",
-            "image": "https://images.pexels.com/photos/16459372/pexels-photo-16459372.png?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "'India warned us, we didn't listen': Belgian PM Bart De Wever on US, China dependency",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/politics-and-nation/india-warned-us-we-didnt-listen-belgian-pm-bart-de-wever-on-us-china-dependency/videoshow/133754709.cms",
-            "image": "https://img.etimg.com/thumb/msid-133754709,width-1200,height-900,overlay-economictimes/news/politics-and-nation/india-warned-us-we-didnt-listen-belgian-pm-bart-de-wever-on-us-china-dependency.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Sanctions, strikes, stalemate: Trump tightens the noose, Iran refuses to blink",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/opinion/sanctions-strikes-stalemate-trump-tightens-the-noose-iran-refuses-to-blink-14043156.html",
-            "image": "https://images.firstpost.com/uploads/2026/09/AP26236624614536-2026-09-a2cc76394b6306475c81d85936fa1b7f-1200x675.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Friday OTT releases: 'Dhamaal 4' and more to stream from Sep 4",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/friday-ott-releases-dhamaal-4-mayday-unmadham-and-more-to-stream-from-september-4/articleshow/133753812.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133754141/133754141.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Security Scare In Vijay's Convoy: Parents Of Custodial Death Victim Breach Police Cordon, Detained | Video",
-            "severity": "HIGH",
-            "url": "https://www.news18.com/india/security-scare-in-vijays-convoy-parents-of-custodial-death-victim-breach-police-cordon-detained-video-ws-l-10309830.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/09/Untitled-design-4-2026-09-c367638a160e643bedc27ba3fb728026-1200x800.png",
-            "source": "news18"
-        },
-        {
-            "title": "Trump names Adam Telle as acting Army secretary following the departure of Driscoll",
-            "severity": "MEDIUM",
-            "url": "https://abcnews.com/US/wireStory/trump-names-adam-telle-acting-army-secretary-departure-136189534",
-            "image": "https://s.abcnews.com/images/US/wirestory_ab235fbfd006506d4e6d52311f0e7002_4x3_384.jpg",
-            "source": "abcnews"
-        },
-        {
-            "title": "Mirzapur The Movie X Review: Pankaj Tripathi, Ali Fazal, Divyendu Deliver 'Mass Entertainment'; Ravi Kishan Shines",
-            "severity": "MEDIUM",
-            "url": "https://www.timesnownews.com/entertainment-news/bollywood/mirzapur-the-movie-x-review-pankaj-tripathi-ali-fazal-divyendu-deliver-mass-entertainment-ravi-kishan-shines-article-156040654",
-            "image": "https://images.timesnownews.com/thumb/msid-156040714,thumbsize-694852,width-1280,height-720,resizemode-75/156040714.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout this spring",
-            "severity": "MEDIUM",
-            "url": "https://economictimes.indiatimes.com/ai/ai-insights/openai-agents-hijacked-german-website-in-previously-undisclosed-ai-breakout-this-spring/articleshow/133762633.cms",
-            "image": "https://img.etimg.com/thumb/msid-133762652,resizemode-4,width-1200,height-900,imgsize-57266,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Tension as ICPC officer sacked over El-Rufai's detention",
-            "severity": "MEDIUM",
-            "url": "https://www.legit.ng/politics/1728902-el-rufai-icpc-officer-sacked-granting-access-govs-wife/",
-            "image": "https://cdn.legit.ng/images/1200x675/ac34a775318413d5.jpeg?v=1",
-            "source": "legit"
-        },
-        {
-            "title": "Roast potatoes will be extra crispy and flavourful when roasted in 1 surprise ingredient",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/life-style/food/2245302/how-to-make-roast-potatoes-tastier",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/14/237x141/2245302_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Weekly Horoscope for \u264f SCORPIO | September 5 - September 11, 2026: Career Breakthroughs, Money Gains & Powerful Decisions Could Change Your Week",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/astrology/horoscope/weekly-horoscope-for-scorpio-september-5-september-11-2026-career-breakthroughs-money-gains-powerful-decisions-could-change-your-week/articleshow/133762617.cms",
-            "image": "https://img.etimg.com/thumb/msid-133762696,resizemode-4,width-1200,height-900,imgsize-132266,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Nayanthara Fitness Routine: 5 Simple Habits That Help This Lady Superstar Stay Fit And Glowing At 41",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/gallery/lifestyle/nayanthara-fitness-secrets-how-the-lady-superstar-stays-fit-and-glowing-at-41-nr0ml7a",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m0z1g34fxzxq98tnaxzwbdm3,imgname-vj-1787748158607.png",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "5 F&B Outlets to Explore at World St., Aerocity",
-            "severity": "WATCH",
-            "url": "https://www.fmlive.in/5-fb-outlets-to-explore-at-world-st-aerocity/",
-            "image": "https://www.fmlive.in/wp-content/uploads/2021/10/DA-Portfolio-1024x1024-1.png",
-            "source": "fmlive_in"
-        },
-        {
-            "title": "Is the ECB headed for a third hike?",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/economy-news/is-the-ecb-headed-for-a-third-hike-4858233",
-            "image": "https://content-media.investing.com/news/moved_LYNXNPEL2Q148_L.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "UK car sales hit eight-year high in August; Volkswagen approves another 50,000 job cuts \u2013 business live",
-            "severity": "WATCH",
-            "url": "https://www.theguardian.com/business/live/2026/sep/04/uk-car-sales-rise-food-prices-bank-of-england-us-jobs-repost-latest-news-updates",
-            "image": "https://i.guim.co.uk/img/media/10339f88b3248f083dc523c9e4a61da63a75f7a2/1_0_3743_2994/master/3743.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=abb82c0edcf6ba4bf09f78fc72835019",
-            "source": "theguardian"
-        },
-        {
-            "title": "Quote of the day by Julianne Moore: 'I don\u2019t really care if people like a character or not; I think in life we don\u2019t always like everybody. But you have to be able to...' Life lessons from inspiring quote on empathy, human behavior, reality, understanding, approval, flaws, relationships, perfection and emotional maturity",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-julianne-moore-i-dont-really-care-if-people-like-a-character-or-not-i-think-in-life-we-dont-always-like-everybody-but-you-have-to-be-able-to-life-lessons-from-inspiring-quote-on-empathy-human-behavior-reality-understanding-approval-flaws-relationships-perfection-and-emotional-maturity/articleshow/133761834.cms",
-            "image": "https://img.etimg.com/thumb/msid-133762659,resizemode-4,width-1200,height-900,imgsize-67292,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Two US sailors sent back to USS Abraham Lincoln after 'drunken brawl' in Pattaya",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/world/two-us-sailors-sent-back-to-uss-abraham-lincoln-after-drunken-brawl-in-pattaya-article-14022666.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260901152458_Pattaya-2.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Nasdaq Eyes Breakout as Yields, Dollar and Volatility Ease",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/analysis/nasdaq-eyes-breakout-as-yields-dollar-and-volatility-ease-200627789",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Critics slam White House over new online arcade games pushing President Trump\u2019s border policies",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/bulletin/news/white-house-trump-arcade-games-agenda-b3044572.html",
-            "image": "https://images.pexels.com/photos/586104/pexels-photo-586104.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "independentuk"
-        },
-        {
-            "title": "Oil Maintains Gains Amid Persian Gulf Escalation",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/analysis/oil-maintains-gains-amid-persian-gulf-escalation-200616670",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
+            "url": "https://au.investing.com/news/world-news/exclusiveus-military-turns-off-ad-trackers-on-devices-amid-middle-east-targeting-reports-4629939",
+            "image": "https://content-media.investing.com/trkd-images/LYNXMPEM830RL_L.jpg",
             "source": "investing_au"
         },
         {
-            "title": "Andhra Pradesh Cabinet sub-committee steps in on onion, tur dal, palm oil prices; onions at \u20b935 a kg",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-cabinet-sub-committee-steps-in-on-onion-tur-dal-palm-oil-prices-onions-at-35-a-kg/article71426792.ece",
-            "image": "https://th-i.thgim.com/public/incoming/wt4xcm/article70035270.ece/alternates/FREE_1200/10745_8_10_2024_19_47_26_2_IMG_20241008_WA0052.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Two professors of NIT-K arrested for swindling \u20b913 lakh citing NCC work",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/cities/Mangalore/two-professors-of-nit-k-national-institute-of-technology-surathkal-arrested-for-swindling-13-lakh-citing-ncc-work/article71427286.ece",
-            "image": "https://th-i.thgim.com/public/incoming/juqpg3/article71427326.ece/alternates/FREE_1200/NIT-K-emerges-oGTUGA0RHF.3.jpg.jpg",
-            "source": "thehindu"
-        },
-        {
-            "title": "Land claim lodged on Sydney icon",
-            "severity": "WATCH",
-            "url": "https://au.news.yahoo.com/land-claim-lodged-sydney-icon-064501875.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/d54ce30f82e20cdd1f906b19d7e86109ee7e2fe3d86dbd616468955e632c81a3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnca_newswire_424%2F02979067e04a251edf879f954c3211d8.jpg",
+            "title": "Time is running out for Javier Milei and his mendacious Falklands attack",
+            "severity": "HIGH",
+            "url": "https://uk.news.yahoo.com/time-running-javier-milei-mendacious-101128207.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/391412c8fe38201d3f30fa5ccc324bc20075536a98804cc6ac61570404a8beee/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F9a7f7d484d4fdfe11d20bac6b7c114b9.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Use of drugs serious concern, act on it quickly, AAIB to DGCA on AI Phuket-Delhi flight interim report",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/india/use-of-drugs-serious-concern-act-on-it-quickly-aaib-to-dgca-on-ai-phuket-delhi-flight-interim-report/articleshow/133754232.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133754516/133754516.jpg",
+            "title": "Afghanistan: Afghan Authorities\u2019 Policies and Plans for Durable Solutions: Approaches to Return and Reintegration (June 2026)",
+            "severity": "HIGH",
+            "url": "https://reliefweb.int/report/afghanistan/afghan-authorities-policies-and-plans-durable-solutions-approaches-return-and-reintegration-june-2026",
+            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/2c/43/2c4388e1-d751-47b7-a58c-c5eb64716edf.png",
+            "source": "reliefweb"
+        },
+        {
+            "title": "Scientists studied cockroach milk and won an Ig Nobel Prize for it; crystals inside contain a dense store of nutrients",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/science/scientists-studied-cockroach-milk-and-won-an-ig-nobel-prize-for-it-crystals-inside-contain-a-dense-store-of-nutrients/articleshow/133758837.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133759298/133759298.jpg",
             "source": "toi"
         },
         {
-            "title": "Are all police stations in Tamil Nadu retaining CCTV footage for 18 months? Madras High Court asks DGP",
-            "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/tamil-nadu/are-all-police-stations-in-tamil-nadu-retaining-cctv-footage-for-18-months-madras-high-court-asks-dgp/article71427090.ece",
-            "image": "https://th-i.thgim.com/public/incoming/lwgx45/article71427303.ece/alternates/FREE_1200/CCTV_AND_POLICE_STATION_02.jpg",
-            "source": "thehindu"
+            "title": "National average price for diesel hits new record high amid Iran conflict",
+            "severity": "HIGH",
+            "url": "https://www.foxbusiness.com/economy/national-average-price-diesel-hits-new-record-high-amid-iran-conflict",
+            "image": "https://static.foxbusiness.com/foxbusiness.com/content/uploads/2026/09/diesel-pump-photo.jpg",
+            "source": "foxbusiness"
         },
         {
-            "title": "HC raps Cuttack collector for crossing 'Laxman Rekha' of propriety",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/hc-raps-cuttack-collector-for-crossing-laxman-rekha-of-propriety/articleshow/133754312.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
-            "source": "toi"
+            "title": "Nepal Floods: UN And Partners Launch $49.6 Million Emergency Appeal",
+            "severity": "HIGH",
+            "url": "https://reliefweb.int/report/nepal/nepal-floods-un-and-partners-launch-496-million-emergency-appeal",
+            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/15/a6/15a64b0f-1c3e-4e8a-abaf-d6266b4c1ad1.png",
+            "source": "reliefweb"
         },
         {
-            "title": "Bulletin AM briefing: Falklands row heats up and men pulled from Nepal tunnel after nine days",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/bulletin/news/bulletin-am-briefing-friday-september-4-b3044549.html",
-            "image": "https://static.independent.co.uk/2026/09/04/07/2026-09-04T054719Z_1672259496_RC24CNAKJ827_RTRMADP_3_NEPAL-FLOODS.JPG?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
-            "source": "independentuk"
+            "title": "UAE denies involvement in Sudan war, calls for end to foreign military support",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/uae/government/uae-denies-involvement-in-sudan-war-calls-for-end-to-foreign-military-support-1.500663175",
+            "image": "https://images.pexels.com/photos/31754249/pexels-photo-31754249.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "gulfnews"
         },
         {
-            "title": "Reform UK Reported To Police Over Claims Party Broke Funding Rules In Undercover Sting",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/reform-uk-reported-police-over-054653075.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/d1007ee2be397ecc8b36533284d0e98e750d306ea443b60a735299427b1d9c4a/lightyear_networkapi/resizefill_w630_h420%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fhuffpost_uk_744%2F63825b9ee4ff1b7ff49280854c15c417.jpg",
+            "title": "World\u2019s largest wealth fund to dump government bonds after global sell-off",
+            "severity": "HIGH",
+            "url": "https://uk.finance.yahoo.com/news/world-largest-wealth-fund-dump-100753764.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
             "source": "yahoo"
+        },
+        {
+            "title": "Hegseth's Pentagon is hiding Iran war from the American public | Opinion",
+            "severity": "HIGH",
+            "url": "https://www.usatoday.com/story/opinion/2026/09/04/pete-hegseth-pentagon-management-military-iran/91579633007/",
+            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/31/USAT/91124156007-trump-cabinet-camp-david-09.jpg?crop=5499,3094,x0,y286&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "usatoday"
+        },
+        {
+            "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout this spring",
+            "severity": "HIGH",
+            "url": "https://www.firstpost.com/tech/openai-agents-hijacked-german-website-in-previously-undisclosed-ai-breakout-this-spring-14043263.html",
+            "image": "https://images.firstpost.com/uploads/2026/08/ChatGPT-2026-08-4e4ab2bf38ffe77b61ede10c1bffc35e-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Ceuta's illegal migrants raise dolphin calf like a trophy in front of horrified locals after it was 'hit with a stick' as thousands of North Africans still remain in the enclave",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.com/news/article-16104703/Ceutas-illegal-migrants-raise-dolphin-calf-like-trophy-beat-death-stick.html",
+            "image": "https://i.dailymail.com/1s/2026/09/04/09/111047543-0-image-m-12_1788509680488.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Mirzapur: The Movie X Reviews: Fans Say Film Is Darker Than Series",
+            "severity": "MEDIUM",
+            "url": "https://www.ndtvprofit.com/lifestyle/mirzapur-the-movie-x-reviews-fans-say-film-is-darker-and-more-intense-than-series-praise-pankaj-tripathi-divyenndu-ravi-kishan-12000823",
+            "image": "https://c.ndtvimg.com/2026-09/h8rom0ps_mirzapur-photo-pankaj-tripathi-instagram_625x300_04_September_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "Penetration Testing Only Works When It's Scoped To Business Risk",
+            "severity": "MEDIUM",
+            "url": "https://www.forbes.com/councils/forbestechcouncil/2026/09/04/penetration-testing-only-works-when-its-scoped-to-business-risk/",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/696516af7dddf624a740d823/0x0.jpg?width=960",
+            "source": "forbes"
+        },
+        {
+            "title": "US weighs Japan, South Korea, Turkey frigates for rapid naval fleet expansion",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/defence/international/us-weighs-japan-south-korea-turkey-frigates-for-rapid-naval-fleet-expansion/articleshow/133758884.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133758884/133758884.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "It\u2019s time for Mark Zuckerberg to resign from Meta | Joan Donovan",
+            "severity": "MEDIUM",
+            "url": "https://www.theguardian.com/technology/commentisfree/2026/sep/04/mark-zuckerberg-resign-meta",
+            "image": "https://i.guim.co.uk/img/media/fd5fa9a78999d3250a7e1856f17c9109c8df79e5/487_0_3333_2666/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=1653343b5e25c4b1c20f89820c42e578",
+            "source": "theguardian"
+        },
+        {
+            "title": "Country with world's best beaches is less than 3 hours from UK \u2014 not France or Greece",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/travel/europe/2245468/best-beaches-less-than-3-hours-from-uk-sardinia",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/200/237x141/2245468_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Oklahoma State football 'definitely took notice' to one thing Tulsa coach said months ago",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/oklahoma-state-football-definitely-took-101525691.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/23a1f09c653337e193ebf8e9ee3368d31808f5693cd480201f6a4592c2c89534/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe-oklahoman%2F7b78749147cba2a31dec5445ddf85514.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "The 3/4 sleeve top is the elevated basic everyone is wearing for autumn \u2013 M&S\u2019 \u00a312 cotton style nails the look",
+            "severity": "WATCH",
+            "url": "https://www.cosmopolitan.com/uk/fashion/style/a71011949/three-quarter-sleeve-top-spring-trend/",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/marks-and-spencer-6978a1698b6c2.png?crop=0.655xw:1.00xh;0.188xw,0&resize=1200:*",
+            "source": "cosmopolitan"
+        },
+        {
+            "title": "The workout recovery techniques backed by science \u2013 and the ones that are just hype",
+            "severity": "WATCH",
+            "url": "https://theconversation.com/the-workout-recovery-techniques-backed-by-science-and-the-ones-that-are-just-hype-290266",
+            "image": "https://images.theconversation.com/files/757986/original/file-20260904-50-ofkr5p.jpg?ixlib=rb-4.1.1&rect=0%2C1046%2C7008%2C3504&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
+        },
+        {
+            "title": "Trying to steal crude oil, 37 die in Nigeria after inhaling toxic fumes: Environmental group",
+            "severity": "WATCH",
+            "url": "https://www.firstpost.com/world/trying-to-steal-crude-oil-37-die-in-nigeria-after-inhaling-toxic-fumes-environmental-group-14043261.html",
+            "image": "https://images.firstpost.com/uploads/2026/02/Untitled-design-35-2026-02-27408b4951bdb566f432e0bf61407be8-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Tanker captain arrested over cargo ship sinking off Istanbul, prosecutors say",
+            "severity": "WATCH",
+            "url": "http://www.euronews.com/my-europe/2026/09/04/tanker-captain-arrested-over-cargo-ship-sinking-off-istanbul-prosecutors-say",
+            "image": "https://images.euronews.com/articles/stories/09/90/14/17/1440x810_cmsv2_9f7c5042-2221-5cc2-84e3-a1e11022d52d-9901417.jpg",
+            "source": "euronews"
+        },
+        {
+            "title": "Javier Milei threat to Falklands oil sends Rockhopper shares down",
+            "severity": "WATCH",
+            "url": "https://www.thetimes.com/business/companies-markets/article/rockhopper-javier-milei-falklands-oil-mx7s93q8g",
+            "image": "https://images.pexels.com/photos/5561912/pexels-photo-5561912.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "thetimes"
+        },
+        {
+            "title": "Conor Coady lands shock new England job after having Wrexham contract ripped up",
+            "severity": "WATCH",
+            "url": "https://www.thesun.co.uk/sport/40267559/conor-coady-lands-shock-england-job-wrexham-contract-ripped/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F09%2Fcrop-40268155.jpg?quality%3D90%26strip%3Dall",
+            "source": "thesun"
+        },
+        {
+            "title": "I skipped university to sell jewellery on TikTok Shop with my mum \u2013 we make \u00a320k-a-MONTH but made one huge mistake",
+            "severity": "WATCH",
+            "url": "https://www.thesun.co.uk/money/40203179/skipped-university-make-20k-selling-jewellery-tiktok/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F09%2Fnewspress-collage-suh3ryrd8-1788439821625.jpg?quality%3D90%26strip%3Dall%261788443440%261788443440",
+            "source": "thesun"
+        },
+        {
+            "title": "From 'Mandalorian and Grogu' to 'Scary Movie,' 10 movies to stream now",
+            "severity": "WATCH",
+            "url": "https://www.usatoday.com/story/entertainment/movies/2026/09/04/new-movies-streaming-netflix-hulu-hbo-max-prime-video-disney/91541188007/",
+            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/05/21/USAT/90199937007-thndff-000470.jpg?crop=4092,2300,x0,y0&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "usatoday"
+        },
+        {
+            "title": "Elderly outnumber young children for first time in history \u2013 census",
+            "severity": "WATCH",
+            "url": "https://www.rt.com/news/645120-elderly-outnumber-children-report/",
+            "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6a9a99ce85f5400c156dce08.jpg",
+            "source": "rt"
+        },
+        {
+            "title": "Greens councillor wins court battle over Gaza newsletter penalty",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/national/queensland/greens-councillor-wins-court-battle-over-gaza-newsletter-penalty-20260828-p60shb.html",
+            "image": "https://static.ffx.io/images/$zoom_0.51708984375%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_39/t_crop_custom/q_86%2Cf_auto/bf887f1c0cba7542cad0123c1e2531851cba0c48eab3637c8ca54788650356ae",
+            "source": "smh"
+        },
+        {
+            "title": "Amal Clooney wears \u00a31,190 mesh Stella McCartney dress as she holds hands with husband George as they head to Venice Film Festival event",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/tvshowbiz/article-16104969/Amal-Clooney-Stella-McCartney-dress-George.html",
+            "image": "https://i.dailymail.com/1s/2026/09/04/10/111048849-0-image-m-115_1788515989250.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Boeing\u2019s safety troubles deepen as $3.1 million FAA fine exposes cracks in quality system",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/news/world/boeing-safety-troubles-faa-fine-quality-violations-fgwudl21",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1tkeul7f3mnh6nmfism/0/boeing-hit-with-3-1-million-faa-fine-jpeg.webp?$p=f162f31&f=16:9&w=1200&q=1",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "KEC International: At 52-week low, Geojit expects more downside in infra stock",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/markets/stocks/story/kec-international-geojit-sell-call-weak-q1fy27-and-earnings-cut-553363-2026-09-04",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202609/6a9a995ade82a-the-infra-stock-fell-to-a-52-week-low-of-rs-39995-on-september-3-this-year-it-closed-at-rs-410-in-041133260-16x9.jpg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "In 2009, Illinois used 38,881 tons of fly ash in highway construction; IDOT reported spending $1.75 million while reducing landfill use and cement demand",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/international/us/in-2009-illinois-used-38881-tons-of-fly-ash-in-highway-construction-idot-reported-spending-1-75-million-while-reducing-landfill-use-and-cement-demand/articleshow/133732758.cms",
+            "image": "https://img.etimg.com/thumb/msid-133732800,resizemode-4,width-1200,height-900,imgsize-2177923,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Exclusive-Trump's bid to shield chip supply chain could backfire in Tennessee",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/exclusive-trumps-bid-shield-chip-100612016.html",
+            "image": "https://media.zenfs.com/en/reuters.ca/c5b4fdfe8abe92db68bc23f7151889a2.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Man jailed for recruiting underage girls for sex",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-09-04/man-sentenced-for-rape-assault-recruitment-of-underage-girls/107117638",
+            "image": "https://live-production.wcms.abc-cdn.net.au/ea27f034217fcbb099ba71e9020c978e?impolicy=wcms_crop_resize&cropH=4644&cropW=8256&xPos=0&yPos=430&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Ugreen launches indoor and outdoor smart cameras powered by local AI hubs",
+            "severity": "WATCH",
+            "url": "https://www.notebookcheck.net/Ugreen-launches-indoor-and-outdoor-smart-cameras-powered-by-local-AI-hubs.1388590.0.html",
+            "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Ugreen-launches-new-smart-cameras-and-local-AI-hubs-for-its-AIoT-ecosystem.jpg",
+            "source": "notebookcheck"
+        },
+        {
+            "title": "Asiad 2026: Can India better its Hangzhou medal tally in Aichi-Nagoya?",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/sports/asian-games/asiad-2026-can-india-better-its-hangzhou-medal-tally-in-aichi-nagoya-126090400753_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260904/thumb-126090400753.jpg",
+            "source": "business-standard"
         }
     ],
-    "Last_Updated": "2026-09-04T18:55:25.798063Z"
+    "Last_Updated": "2026-09-04T22:16:24.917509Z"
 }
