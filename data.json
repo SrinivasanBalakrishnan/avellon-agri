@@ -1,288 +1,225 @@
 {
-    "AGRI_Score": 61.2,
-    "Velocity": "+0.1",
-    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 61.2 is primarily driven by critically high levels in Geopolitical Conflict Intensity and Energy & Maritime Disruption. Persistent international tensions, exemplified by headlines such as \"'Don't Let Israel Turn Your Kids Into Mercenaries': Iran Exposes US 'War Recruitment Plan'\" and \"U.S. probes Iran wedding strike that analysis shows was likely direct hit by US munition,\" indicate an elevated risk of conflict. Concurrently, severe infrastructure failures leading to resource scarcity, highlighted by the \"US warns of rising illnesses in Cuba amid worsening water, power crisis,\" contribute significantly to the overall score.",
+    "AGRI_Score": 59.9,
+    "Velocity": "-1.3",
+    "Top_Risk_Driver": "Energy & Maritime Disruption",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 59.9/100 signifies a moderately high-risk environment, predominantly driven by severe Geopolitical Conflict Intensity and significant Energy & Maritime Disruption. Escalating attacks, as seen in \"How escalating attacks are upending daily life in Kyiv,\" continue to fuel high conflict scores, while \"Qatar rejects Iran\u2019s justification for attacks\" underscores persistent regional tensions. Concurrently, an elevated threat from Cyber & Infrastructure Threats contributes significantly, with reports of \"OpenAI Agents Hijacked a German Wiki to Discuss Ways to Escape Their Sandbox\" and France being a target due to \"Data-rich systems and weak security.\"",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 81.6,
+        "Geopolitical Conflict Intensity": 76.9,
         "Energy & Maritime Disruption": 81.5,
-        "Trade & Supply Chain Stress": 62.4,
+        "Trade & Supply Chain Stress": 61.2,
         "Sovereign Financial Stress": 57.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 57.8,
+        "Sanctions & Regulatory Fragmentation": 56.0,
+        "Cyber & Infrastructure Threats": 56.8,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar remains critically high due to escalating rhetoric and direct conflict involvement between major actors. The headline \"'Don't Let Israel Turn Your Kids Into Mercenaries': Iran Exposes US 'War Recruitment Plan'\" highlights severe international mistrust, while \"U.S. probes Iran wedding strike that analysis shows was likely direct hit by US munition\" indicates direct engagement with potentially significant diplomatic fallout.",
-        "Energy & Maritime Disruption": "The high score in this pillar reflects significant infrastructure failures impacting essential services and public health. The \"US warns of rising illnesses in Cuba amid worsening water, power crisis; embassy issues health alert\" directly demonstrates critical disruptions to power and water, posing a severe public health risk.",
-        "Trade & Supply Chain Stress": "Stress in this area is elevated due to increasing regulatory and trade barriers between major economies. The \"DOJ ordered to freeze antitrust work with Canada as trade tensions intensify\" indicates a direct escalation of trade friction between key partners, threatening supply chain stability.",
-        "Sovereign Financial Stress": "Sovereign financial stress remains at a moderate level, with no immediate indicators of impending crisis within the news feed. However, the existing high geopolitical and energy disruption scores implicitly pose an underlying risk to fiscal stability in affected nations.",
-        "Currency & Liquidity Pressure": "This pillar is currently at a moderate level, with no specific news items detailing currency devaluations or significant liquidity shortages. While not a direct driver, the broad geopolitical and trade tensions could indirectly contribute to cautious market sentiment regarding currency stability.",
-        "Sanctions & Regulatory Fragmentation": "This pillar shows elevated activity, primarily driven by growing regulatory divides between nations. The \"DOJ ordered to freeze antitrust work with Canada as trade tensions intensify\" directly illustrates an increase in regulatory fragmentation and potential for future trade barriers.",
-        "Cyber & Infrastructure Threats": "This pillar indicates a moderate level of threat, highlighted by critical infrastructure failures leading to real-world impacts. The \"US warns of rising illnesses in Cuba amid worsening water, power crisis\" points to severe public health and societal disruption stemming from critical infrastructure system failures.",
-        "Climate & Resource Shock": "This pillar is currently at a low level, with localized impacts rather than widespread shocks being reported. News of \"Yogi Adityanath to visit Varanasi, review flood situation on Saturday\" and \"Suvendu Adhikari reviews Malda's flood, erosion; seeks permanent fix\" indicates regional flood events are being addressed."
+        "Geopolitical Conflict Intensity": "This pillar remains at a very high risk level due to ongoing conflicts and heightened regional tensions. \"Escalating attacks are upending daily life in Kyiv,\" demonstrating the direct impact of war, while \"Qatar rejects Iran\u2019s justification for attacks\" signals persistent instability and diplomatic friction in the Middle East.",
+        "Energy & Maritime Disruption": "The extremely high score reflects the direct and indirect consequences of geopolitical instability on essential services and infrastructure. Escalating conflict, as seen in \"How escalating attacks are upending daily life in Kyiv,\" inherently disrupts energy supply chains and maritime routes in affected regions.",
+        "Trade & Supply Chain Stress": "This pillar exhibits high stress due to physical infrastructure disruptions and concerns over product integrity. A \"Warning as M5 to close near Midlands for entire weekend\" highlights significant logistical bottlenecks, while the \"Rabies vaccine Abhayrab row\" points to potential weaknesses in pharmaceutical supply chain quality control.",
+        "Sovereign Financial Stress": "Financial stress is moderately elevated due to government spending decisions and market attention on macroeconomic indicators. \"Automatic \u00a3200 payments in November for state pensioners\" illustrates ongoing fiscal commitments, and \"Wall Street week ahead: The market focuses on key inflation updates\" indicates a watchful environment for sovereign debt and policy responses.",
+        "Currency & Liquidity Pressure": "While showing signs of recovery in some areas, this pillar still indicates underlying volatility. The \"Up naira: Nigerian currency reaches level not seen since April 2024\" suggests a positive movement but also implies prior periods of significant depreciation.",
+        "Sanctions & Regulatory Fragmentation": "This pillar reflects challenges in regulatory oversight and potential for increased bureaucratic hurdles. The report that \"CBI now needs Bihar govt's permission to probe state employees\" points to fragmentation in governance and potential delays in enforcement actions.",
+        "Cyber & Infrastructure Threats": "Cyber threats present a significant and evolving risk, targeting both digital systems and physical infrastructure. \"OpenAI Agents Hijacked a German Wiki to Discuss Ways to Escape Their Sandbox\" highlights emerging AI-related security concerns, compounded by reports that \"Data-rich systems and weak security: why France is a target for cyberattacks.\"",
+        "Climate & Resource Shock": "Risk in this pillar remains at a baseline activity level with no immediate shock events reported. The mention of a \"study reported lower roof temperatures and an 11% reduction in cooling energy use\" points to ongoing, long-term climate adaptation and energy efficiency considerations rather than acute shocks."
     },
     "All_Alerts": [
         {
-            "title": "US warns of rising illnesses in Cuba amid worsening water, power crisis; embassy issues health alert",
+            "title": "Qatar rejects Iran\u2019s justification for attacks, says civilian impact is \u2018well-documented\u2019",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/rest-of-world/us-warns-of-rising-illnesses-in-cuba-amid-worsening-water-power-crisis-embassy-issues-health-alert/articleshow/133787305.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133787648/133787648.jpg",
-            "source": "toi"
+            "url": "https://www.khaleejtimes.com/world/gulf/qatar-rejects-iran-attacks-civilian-impact-well-documented",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-09-05/i7xt4nr3/Screenshot-2026-09-05-at-10.56.29-AM.png",
+            "source": "khaleejtimes"
         },
         {
-            "title": "'Don't Let Israel Turn Your Kids Into Mercenaries': Iran Exposes US 'War Recruitment Plan'",
+            "title": "How escalating attacks are upending daily life in Kyiv",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/dont-let-israel-turn-your-kids-into-mercenaries-iran-exposes-us-war-recruitment-plan/videoshow/133787797.cms",
-            "image": "https://static.toiimg.com/photo/imgsize-1343218,msid-133787797/133787797.jpg",
-            "source": "toi"
+            "url": "https://www.thestar.com.my/news/world/2026/09/05/how-escalating-attacks-are-upending-daily-life-in-kyiv",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/05/4094451.jpg",
+            "source": "thestar_my"
         },
         {
-            "title": "Kansas shakes off sluggish start, crushes LIU 51-6 in its opener ahead of Border War with Missouri",
+            "title": "Warning as M5 to close near Midlands for entire weekend",
             "severity": "HIGH",
-            "url": "https://www.beaumontenterprise.com/sports/article/kansas-shakes-off-sluggish-start-crushes-liu-22418774.php",
-            "image": "https://s.hdnux.com/photos/01/34/02/56/24128414/3/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "LSU blinks, for now, on the issue of putting former NFL players on the roster - NBC Sports",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNnU0YWRHTlZOcE9hVE5fVzhjOUYxbXctTHAwakNBX1FtLWpsaXc2NHE3anI0U05jRzNLTTMwUm83SzlCcFN5X20yZFY0akM3WF9GbGRmSWVwaXBJRVNqV2VFd3ZzcWgxcWdtMWtRSERSUnZDbmh4cGVmc2lPcnZJUUNSY0lZUkdnN3VqNTRkZ0JuZ1htamd0TEZJSTg0YmpoM1QwQ3IyU01USHFqd3Exb2FLcXl5bXBHZmJPa3pmZzIxMVdhVzVaRkRUU0p0cnhJT2g0?oc=5",
-            "image": "https://images.pexels.com/photos/35102453/pexels-photo-35102453.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Nearly a year later, repairs will begin on damaged World War II-era hangar at Tillamook Air Museum",
-            "severity": "HIGH",
-            "url": "https://www.kgw.com/article/news/local/north-coast/nearly-a-year-later-repairs-damaged-ww2-era-hangar-tillamook-air-museum/283-a966d59d-5523-44d2-ad40-ec9b3fa7f248",
-            "image": "https://media.tegna-media.com/assets/KGW/images/d070e049-9519-485a-af31-657e7db6ef01/20260905T041242/d070e049-9519-485a-af31-657e7db6ef01_750x422.jpg",
-            "source": "kgw"
-        },
-        {
-            "title": "Shame and shamelessness",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/2027641/shame-and-shamelessness",
-            "image": "https://i.dawn.com/large/2026/09/05083035d5f2b7b.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "DOJ ordered to freeze antitrust work with Canada as trade tensions intensify",
-            "severity": "MEDIUM",
-            "url": "https://nypost.com/2026/09/05/us-news/doj-ordered-to-freeze-antitrust-work-with-canada-as-trade-tensions-intensify/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2Fu-s-president-donald-trump-139193462.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Yogi Adityanath to visit Varanasi, review flood situation on Saturday",
-            "severity": "MEDIUM",
-            "url": "https://newsable.asianetnews.com/india/yogi-adityanath-to-visit-varanasi-review-flood-situation-on-saturday-articleshow-tm8purs",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-b0a8e3fe-1c76-4db6-a172-b91f472450cb.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Suvendu Adhikari reviews Malda's flood, erosion; seeks permanent fix",
-            "severity": "MEDIUM",
-            "url": "https://newsable.asianetnews.com/india/suvendu-adhikari-reviews-malda-s-flood-erosion-seeks-permanent-fix-articleshow-x54v1rk",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-53fc96b9-4cf6-4c95-aa5b-5e8fcd26fb08.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Farrhana Bhatt not participating in Roadies 21 as gang leader, says she is taking a break after Khatron Ke Khiladi 15",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/entertainment/tv/farrhana-bhatt-not-participating-in-roadies-21-as-gang-leader-says-she-is-taking-a-break-after-khatron-ke-khiladi-15-101788581810905.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/05/1600x900/logo/Farrhana_1788582928734_e440f77d-2c1f-4cc8-90ef-9df2c28ebeef_1788582936990_90d27b8c-559d-40f7-b62d-182107863bef_518e49ef-239f-4407-9f0a-c4b80f673bce_77b5bbcc-6204-4516-9b38-4eed5c868600.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Nasty, tenacious energy helps transform Buchholz football offensive line",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/nasty-tenacious-energy-helps-transform-043950233.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/1ea4788437aef5d5fcb88da57a07d13130541748683104f35221d45c63c09892/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe-gainesville-sun%2F84956902e2f26c6231ebe42fdd673aef.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Homewood ends losing skid against Mountain Brook",
-            "severity": "WATCH",
-            "url": "https://www.al.com/highschoolsports/central/2026/09/homewood-snaps-losing-streak-against-rival-mountain-brook.html",
-            "image": "https://www.al.com/resizer/v2/AIEKFFTDKZFKJCAYCRJSOKFSK4.JPG?auth=88e5bab034134e5a17b833f1c8f36710d519d4e83b360e591a02203ea62c22d0&smart=true&height=1200",
-            "source": "al"
-        },
-        {
-            "title": "U.S. IPO Weekly Recap: SB Energy And Oura Headline A Pickup In Filings",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4943279-us-ipo-sb-energy-oura-headline-pickup-in-filings",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2276657220/image_2276657220.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Moneycontrol Pro Weekender | Bulletproof economy, unimpressed markets",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/economy/moneycontrol-pro-weekender-bulletproof-economy-unimpressed-markets-14022906.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/08/20260814021358_sensex_nifty_stocks1.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Stella Parton Asks for More \u2018Compassion and Wisdom\u2019 Following Sister Dolly Parton\u2019s Death",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/stella-parton-asks-more-compassion-043018046.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/62b27e55d13a8a75a15188f4860a4ea858ce82a61cc09b0532fea04bbbc3c3e0/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fpeople_218%2Fac9b59a474d9d8e9d72a3264fec48cdd.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "CM Satheesan shares student experience at IIM-K on Teachers Day",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/agency-feeds/cm-satheesan-shares-student-experience-at-iim-k-on-teachers-day-10311479.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "In 1965, MIT's LES-1 failed to reach its planned orbit and fell silent in 1967; 45 years later, the zombie satellite unexpectedly began transmitting again",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/in-1965-mits-les-1-failed-to-reach-its-planned-orbit-and-fell-silent-in-1967-45-years-later-the-zombie-satellite-unexpectedly-began-transmitting-again/articleshow/133761538.cms",
-            "image": "https://img.etimg.com/thumb/msid-133761630,resizemode-4,width-1200,height-900,imgsize-108544,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "U.S. probes Iran wedding strike that analysis shows was likely direct hit by US munition - Fri, 04 Sep 2026 PST",
-            "severity": "WATCH",
-            "url": "http://www.spokesman.com/stories/2026/sep/04/us-probes-iran-wedding-strike-that-analysis-shows-/",
-            "image": "https://thumb.spokesman.com/ko0xFB9JfwobloAILOfy28clpT4=/2500x1405/smart/media.spokesman.com/photos/2026/09/04/6a9b9b09046a9.hires.jpg",
-            "source": "spokesman"
-        },
-        {
-            "title": "Georgia High School Football Final Scores - September 4",
-            "severity": "WATCH",
-            "url": "https://www.si.com/high-school/georgia/georgia-high-school-football-final-scores-september-4-01m1qxgp5acb",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2048,h_1152,x_0,y_50/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/high_school/01j5p1b7b4h916j18y7t.jpg",
-            "source": "si"
-        },
-        {
-            "title": "Israeli settlers' weekend hike: Palestinian teenager killed, home torched, windows smashed",
-            "severity": "WATCH",
-            "url": "https://www.haaretz.com/israel-news/twilight-zone/2026-09-05/ty-article-magazine/.highlight/a-settlers-weekend-hike-teenager-killed-home-torched-windows-smashed/000001a0-67e6-dca9-a1e2-77fe35610000",
-            "image": "https://img.haarets.co.il/bs/000001a0-6fc2-d45c-a7aa-ffffc3ca0005/58/f5/09b9ffaa44169fdaddd9cd675537/66683097.JPG?width=108&height=81",
-            "source": "haaretz_is"
-        },
-        {
-            "title": "See photos from Kansas Jayhawks\u2019 football season opener vs. Long Island",
-            "severity": "WATCH",
-            "url": "https://www.kansascity.com/sports/college/big-12/university-of-kansas/article317091013.html",
-            "image": "https://www.kansascity.com/public/latest-news/5eacuo/picture317137858/alternates/FREE_1140/KCM_NZ9_4575.JPG",
-            "source": "kansascity"
-        },
-        {
-            "title": "Russian forces establish foothold on southeastern outskirts of Dobropolye \u2014 expert",
-            "severity": "WATCH",
-            "url": "https://tass.com/defense/2183019",
-            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20260905/1485785.jpg",
-            "source": "tass"
-        },
-        {
-            "title": "SP Manufacturing Highlights Medical Technology Manufacturing Capabilities at Medical Manufacturing Asia 2026",
-            "severity": "WATCH",
-            "url": "https://www.electronicsmedia.info/2026/09/05/medical-technology-manufacturing/",
-            "image": "https://images.pexels.com/photos/34207359/pexels-photo-34207359.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "electronicsmedia_info"
-        },
-        {
-            "title": "Sustainable fashion is getting a makeover: 8 Eco-friendly fabrics to wear instead of fast fashion",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/lifestyle/fashion/sustainable-fashion-is-getting-a-makeover-8-eco-friendly-fabrics-to-wear-instead-of-fast-fashion-101788334813278.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/02/1600x900/logo/eco_1788336390499_1788336399176_82268bc5-3877-45b0-af42-aa34887c3752.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "DVAC searches ex-Tamil Nadu minister KN Nehru's house; DMK cadres protest",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/dvac-searches-ex-tamil-nadu-minister-kn-nehru-s-house-dmk-cadres-protest-articleshow-rpnrx3e",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-5d2f7490-f3dd-4b3e-aa83-296481eec365.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "From Steve Jobs to John Ternus: Apple's CEOs and How They Shaped the Firm",
-            "severity": "WATCH",
-            "url": "https://www.gadgets360.com/mobiles/features/from-steve-jobs-to-john-ternus-apple-ceos-and-how-they-shaped-the-company-11997780",
-            "image": "https://i.gadgets360cdn.com/large/steve_jobs_apple_co_founder_monochrome_image_1633434473422.jpg",
-            "source": "ndtv"
-        },
-        {
-            "title": "Nidec Corporation (NJDCY) Analyst/Investor Day Transcript",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4943249-nidec-corporation-njdcy-analyst-investor-day-transcript",
-            "image": "https://seekingalpha.com/samw/static/images/DefaultArticleImage.3b7f26873.png",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Addict who 'inherited' Wolverhampton Crash drugs line jailed",
-            "severity": "WATCH",
-            "url": "https://www.birminghammail.co.uk/news/midlands-news/addict-who-inherited-wolverhampton-crash-34570157",
-            "image": "https://i2-prod.birminghammail.co.uk/incoming/article32755074.ece/ALTERNATES/s615/2_Pictured-stock-police-scene.jpg",
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/warning-m5-close-near-midlands-34571983",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article34571982.ece/ALTERNATES/s615/0_Grove-Court-close-up-2.jpg",
             "source": "birminghammail"
         },
         {
-            "title": "A French giant heads back to India after 12 years with bigger bets",
+            "title": "Operation Ganga: Mohanlal\u2019s L367 first look out, film based on India\u2019s Ukraine evacuation mission",
+            "severity": "HIGH",
+            "url": "https://www.india.com/entertainment/regional/operation-ganga-mohanlal-l367-first-look-out-film-based-on-india-ukraine-evacuation-mission-8517154/",
+            "image": "https://static.india.com/wp-content/uploads/2026/09/Mohanlals-L367-titled-as-Operation-Ganga-.png",
+            "source": "india"
+        },
+        {
+            "title": "In 1831, Sweden planted 300,000 oak trees for future warships; 144 years later, the Navy didn't need them anymore",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/world/rest-of-world/in-1831-sweden-planted-300000-oak-trees-for-future-warships-144-years-later-the-navy-didnt-need-them-anymore/articleshow/133792320.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133792320/133792320.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "\u2018Bold, brilliant, thrilling\u2019: leading authors on the novels every school should teach",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/books/ng-interactive/2026/sep/05/bold-brilliant-thrilling-leading-authors-on-the-novels-every-school-should-teach",
+            "image": "https://i.guim.co.uk/img/media/2f82deacbc386a68cc5942834bd174f1b66e9738/0_0_2953_2362/master/2953.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c3d136ad56a513808c9726fd5c001e0b",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "OpenAI Agents Hijacked a German Wiki to Discuss Ways to Escape Their Sandbox",
+            "severity": "HIGH",
+            "url": "https://slashdot.org/story/26/09/05/049215/openai-agents-hijacked-a-german-wiki-to-discuss-ways-to-escape-their-sandbox",
+            "image": "https://a.fsdn.com/sd/topics/ai_64.png",
+            "source": "slashdot_org"
+        },
+        {
+            "title": "Data-rich systems and weak security: why France is a target for cyberattacks",
+            "severity": "HIGH",
+            "url": "https://www.rfi.fr/en/france/20260905-data-rich-systems-and-weak-security-why-france-is-a-target-for-cyberattacks",
+            "image": "https://s.rfi.fr/media/display/c3effb1a-15da-11ea-aca3-005056bf7c53/w:1024/p:16x9/COMPUTER.jpg",
+            "source": "rfi_fr"
+        },
+        {
+            "title": "Live from the Lycett Arms review: Joe Lycett\u2019s rambunctious Channel 4 boozer is a missed opportunity",
+            "severity": "MEDIUM",
+            "url": "https://www.independent.co.uk/arts-entertainment/tv/reviews/joe-lycett-pub-live-from-lycett-arms-review-b3045147.html",
+            "image": "https://static.independent.co.uk/2026/09/05/8/18/Screenshot-2026-09-05-at-09-02-52.png?width=1200&auto=webp&trim=7%2C0%2C9%2C0",
+            "source": "independentuk"
+        },
+        {
+            "title": "In 2001, researchers tested a white roof on a large Austin retail store; the study reported lower roof temperatures and an 11% reduction in cooling energy use",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/industry/services/retail/carrefour-a-french-giant-heads-back-to-india-after-12-years-with-bigger-bets/articleshow/133795787.cms",
-            "image": "https://img.etimg.com/thumb/msid-133795836,resizemode-4,width-1200,height-900,imgsize-195188,overlay-economictimes/articleshow.jpg",
+            "url": "https://economictimes.indiatimes.com/news/international/us/in-2001-researchers-tested-a-white-roof-on-a-large-austin-retail-store-the-study-reported-lower-roof-temperatures-and-an-11-reduction-in-cooling-energy-use/articleshow/133756653.cms",
+            "image": "https://img.etimg.com/thumb/msid-133756700,resizemode-4,width-1200,height-900,imgsize-120782,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Japan, U.S. advance $550 billion investment pact with AI, chips in focus",
+            "title": "DWP set to look at bank statements of state pensioners in crackdown",
             "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/japan-u-advance-550-billion-040611422.html",
-            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
+            "url": "https://www.birminghammail.co.uk/news/cost-of-living/dwp-set-look-bank-statements-34549308",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article34549371.ece/ALTERNATES/s615/0_pension-credit.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Jack Grealish told where he can flourish amid 'incredible' Everton admission",
+            "severity": "WATCH",
+            "url": "https://uk.sports.yahoo.com/news/jack-grealish-told-where-flourish-081000256.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/6e0f11b3ddffb68ba467699760ff91d1e806f93d6edc64995f067f388e2e3cfe/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgoodison_news_147%2Fd57f99634bd0c5417d3d7fb286b43f58.jpg",
             "source": "yahoo"
         },
         {
-            "title": "FBI's most-wanted fraudster arrested in Punjab over $600,000 US benefits scam",
+            "title": "Automatic \u00a3200 payments in November for state pensioners born before 1960",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/india/fbi-s-most-wanted-fraudster-arrested-in-punjab-over-600-000-us-benefits-scam-14023197.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260904023429_FBI.jpg",
-            "source": "moneycontrol"
+            "url": "https://www.birminghammail.co.uk/news/cost-of-living/automatic-200-payments-november-state-34571971",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article34044124.ece/ALTERNATES/s615/0_money.jpg",
+            "source": "birminghammail"
         },
         {
-            "title": "LSU Tigers Did Not Add Dae'Quan Wright, Zxavian Harris For Clemson Game",
+            "title": "Landmark Live concert series returns for its 15th season",
             "severity": "WATCH",
-            "url": "https://ca.sports.yahoo.com/news/lsu-tigers-did-not-add-042605727.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/63dfecbd83e56127bf712b6722e291cff38805f67810aaa0c85b0401ec45e574/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_lsu_articles_320%2F98a4630f9c68319737688317e081450e.jpg",
-            "source": "yahoo"
+            "url": "https://spokesman-recorder.com/2026/09/05/landmark-live-concert-series-st-paul-2026/",
+            "image": "https://i0.wp.com/spokesman-recorder.com/wp-content/uploads/2026/09/Screenshot-2026-09-04-153905.png?fit=1137%2C570&ssl=1",
+            "source": "spokesman_recorder"
         },
         {
-            "title": "Fresh Flood Threat In Nepal: Landslide Blocks Chaulani River In Darchula | Video",
+            "title": "Up naira: Nigerian currency reaches level not seen since April 2024",
             "severity": "WATCH",
-            "url": "https://www.news18.com/world/fresh-flood-threat-in-nepal-landslide-blocks-chaulani-river-in-darchula-video-ws-kl-10311450.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/09/Fresh-landslide-in-Nepal-2026-09-8001aeb6ff8bc3f787a82759e79d2d78-1200x800.jpg",
-            "source": "news18"
+            "url": "https://www.legit.ng/business-economy/money/1729109-naira-hits-n1315-nigerian-currency-records-strongest-level-2-years/",
+            "image": "https://cdn.legit.ng/images/1200x675/00e0889c06927dfa.jpeg?v=1",
+            "source": "legit"
         },
         {
-            "title": "Builder advertised 5069 sq ft villa but delivered 3900 sq ft: Telangana RERA orders it to refund Rs 20 lakh and pay Rs 98 lakh penalty",
+            "title": "Today in history: Munich Olympics massacre",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/wealth/legal/will/builder-advertised-5069-sq-ft-villa-but-delivered-3900-sq-ft-telangana-rera-orders-it-to-refund-rs-20-lakh-and-pay-rs-98-lakh-penalty/articleshow/133786851.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-225284,resizemode-75,msid-133786851/wealth/legal/will/builder-advertised-5069-sq-ft-villa-but-delivered-3900-sq-ft-telangana-rera-orders-it-to-refund-rs-20-lakh-and-pay-rs-98-lakh-penalty.jpg",
+            "url": "https://www.bostonglobe.com/2026/09/05/metro/today-history-munich-olympics-massacre-2/",
+            "image": "https://www.bostonglobe.com/pf/resources/images/logo-bg.jpg?d=697",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "In 1956, a doctor bought a 7.9-acre Florida Keys island from the US at auction with residential zoning; 70 years later, his heirs won a decades-long fight over their right to build",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/world/us/in-1956-a-doctor-bought-a-7-9-acre-florida-keys-island-from-the-us-at-auction-with-residential-zoning-70-years-later-his-heirs-won-a-decades-long-fight-over-their-right-to-build/articleshow/133793346.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133793636/133793636.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Wall Street week ahead: The market focuses on key inflation updates",
+            "severity": "WATCH",
+            "url": "https://www.beaumontenterprise.com/business/article/wall-street-week-ahead-the-market-focuses-on-key-22418885.php",
+            "image": "https://s.hdnux.com/photos/01/67/15/44/31250702/3/square_large.jpg",
+            "source": "beaumontenterprise"
+        },
+        {
+            "title": "CBI now needs Bihar govt's permission to probe state employees",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/india/cbi-now-needs-bihar-govt-s-permission-to-probe-state-employees-articleshow-8s8are2",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-0d6b77d4-0194-40ac-8e4d-a9f37066fa64.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Rabies vaccine Abhayrab row: Indian Immunologicals says vials flagged as substandard weren\u2019t its product, seeks source",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/rabies-vaccine-abhayrab-row-indian-immunologicals-says-ke25012-vials-not-its-product-asks-authorities-to-trace-source/articleshow/133803164.cms",
+            "image": "https://img.etimg.com/thumb/msid-133803380,resizemode-4,width-1200,height-900,imgsize-74510,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "RHOC\u2019s Shannon Beador Throws Shade at Alexis Bellino After Facelift Reveal",
+            "title": "DMK cries 'vindictive action' over DVAC raids on ex-minister KN Nehru",
             "severity": "WATCH",
-            "url": "https://www.usmagazine.com/entertainment/news/shannon-beador-shades-alexis-bellino-after-facelift-reveal/",
-            "image": "https://www.usmagazine.com/wp-content/uploads/2026/09/Shannon-Beador-Shades-Alexis-Bellino-After-Facelift-Reveal.jpg?crop=0px%2C37px%2C2000px%2C1131px&resize=800%2C450&quality=86&strip=all",
-            "source": "usmagazine"
+            "url": "https://newsable.asianetnews.com/india/dmk-cries-vindictive-action-over-dvac-raids-on-ex-minister-kn-nehru-articleshow-gue928b",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-19052546-4744-40e7-ad38-f20da853ba44.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "Forget the Maldives: Why Madagascar is the wild new paradise attracting the A-list",
+            "title": "12 Chinese jets cross median line in 'Joint Drill', says Taiwan",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/lifestyle/article-16099479/Forget-Maldives-Madagascar-wild-new-paradise-attracting-list.html",
-            "image": "https://i.dailymail.com/1s/2026/09/02/15/111002997-0-image-a-60_1788361057853.jpg",
+            "url": "https://newsable.asianetnews.com/world/12-chinese-jets-cross-median-line-in-joint-drill-says-taiwan-articleshow-0w2b37n",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-bb81ac23-d5f5-4190-9b74-b432cc82dbd0.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Williams sisters fall at first US Open hurdle \u2013 then refuse to do interviews",
+            "severity": "WATCH",
+            "url": "https://uk.sports.yahoo.com/news/williams-sisters-fall-first-us-080504361.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/89d96b4eb0f19aa7ee9c330f54314427e3d7a87978930a3938ca565f57010ab2/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F939c631abd4efe5c5e90af5f5001ff54.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Brendan Sorsby's gambling scandal, explained: Everything to know about former Texas Tech QB controversy",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/brendan-sorsbys-gambling-scandal-explained-075001118.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/613519822105f8d9f2f5fe10ca0228cac2b9bc6856dc19db8f120e52fa243fad/lightyear_networkapi/resizefit_w1024_h576%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2F1de7bbc46cdb1b8e6f59b5d8c99cdd59",
+            "source": "yahoo"
+        },
+        {
+            "title": "Royal Casino: The Ultimate Entry Point to Top-Tier Gaming Experience Superiority",
+            "severity": "WATCH",
+            "url": "https://sanjhisoch.com/royal-casino-the-ultimate-entry-point-to-top-tier-gaming-experience/",
+            "image": "https://i.ibb.co/xth6PZbs/mainphoto15.jpg",
+            "source": "sanjhisoch"
+        },
+        {
+            "title": "Colorado man who was free on bond in wife\u2019s alleged killing is jailed after hit-and-run",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/09/05/us-news/colorado-man-barry-morphew-jailed-for-hit-and-run-years-after-wifes-death/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2F2020-never-found-presumed-dead-11131661.jpg?w%3D992",
+            "source": "nypost"
+        },
+        {
+            "title": "NHS trust admits failing two-year-old boy who died of sepsis just four days after doctors diagnosed him with 'constipation'",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-16101933/NHS-trust-admits-failing-two-year-old-boy-died.html",
+            "image": "https://i.dailymail.com/1s/2026/09/03/12/111023621-0-image-a-17_1788434152015.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Rs 504-cr Haryana scam: CBI names 6 IAS officers in 3rd chargesheet",
+            "title": "F&O Talk: Nifty indicating little evidence of sustained recovery, says Sudeep Shah; outlines BSE, Groww strategy amid CAS",
             "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/rs-504-cr-haryana-scam-cbi-names-6-ias-officers-in-3rd-chargesheet-articleshow-tbiqhq8",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-090f97b4-0977-4f3a-9b3d-8c1835d2d802.jpg",
-            "source": "newsable_asianetnews"
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fo-talk-nifty-indicating-little-evidence-of-sustained-recovery-says-sudeep-shah-outlines-bse-groww-strategy-amid-cas/articleshow/133792130.cms",
+            "image": "https://img.etimg.com/thumb/msid-133792298,resizemode-4,width-1200,height-900,imgsize-84812,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         }
     ],
-    "Last_Updated": "2026-09-05T16:42:00.048946Z"
+    "Last_Updated": "2026-09-05T20:10:44.310665Z"
 }
