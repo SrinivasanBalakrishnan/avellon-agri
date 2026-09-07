@@ -1,265 +1,295 @@
 {
-    "AGRI_Score": 61.6,
-    "Velocity": "+0.5",
-    "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AGRI_Score": 62.0,
+    "Velocity": "+0.4",
+    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 62.0 reflects a heightened global risk environment, primarily driven by intensified geopolitical conflicts and significant energy and maritime disruptions. Ongoing military engagements, particularly the \"IDF targets Hezbollah in southern Lebanon following Hezbollah drone launches - report,\" and Iran's declaration of a \"prohibited zone\" near the Strait of Hormuz, are escalating regional tensions. These geopolitical flashpoints directly threaten critical maritime passages and global energy supply lines, contributing significantly to the elevated risk landscape.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 80.1,
+        "Geopolitical Conflict Intensity": 83.5,
         "Energy & Maritime Disruption": 81.5,
-        "Trade & Supply Chain Stress": 66.2,
+        "Trade & Supply Chain Stress": 65.6,
         "Sovereign Financial Stress": 57.7,
         "Currency & Liquidity Pressure": 50.0,
         "Sanctions & Regulatory Fragmentation": 57.2,
-        "Cyber & Infrastructure Threats": 61.2,
+        "Cyber & Infrastructure Threats": 59.4,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar remains severely elevated due to active military engagements and escalating regional disputes. \"IDF targets Hezbollah in southern Lebanon following Hezbollah drone launches - report\" confirms ongoing kinetic conflict, while \"Iran Draws New Red Line Near Strait of Hormuz\" marks a significant escalation in a critical maritime chokepoint.",
+        "Energy & Maritime Disruption": "Risks in this area are significantly high, primarily stemming from geopolitical tensions impacting crucial shipping lanes. Iran's declaration of a \"Prohibited Zone\" near the Strait of Hormuz, cited in \"Iran Draws New Red Line...\", threatens free passage and could lead to major oil supply interruptions. A local \"Diesel fuel spill forces closure of northbound I-5\" also highlights vulnerability in energy transportation infrastructure.",
+        "Trade & Supply Chain Stress": "This pillar shows moderate stress, with specific industries experiencing challenges. The news of a \"U.S. defense contractor files Chapter 11 bankruptcy - thestreet.com\" indicates potential vulnerabilities within specialized supply chains. Broader global trade disruption remains a concern as geopolitical tensions persist.",
+        "Sovereign Financial Stress": "Signs of sovereign financial stress are present, although not at critical levels. Political discussions like \"Live: One Nation reveals plan to divert superannuation to boost pay\" suggest governmental efforts to address economic pressures. Furthermore, a \"Payout farce exposes NCLT\u2019s flawed process\" indicates systemic issues within financial oversight.",
+        "Currency & Liquidity Pressure": "This pillar shows moderate pressure, reflecting shifts in financial markets. \"Live: Wall Street slips as bond yields rise, ASX treading water\" indicates market caution and rising bond yields, which can impact liquidity. These movements suggest investors are re-evaluating risk in the current economic climate.",
+        "Sanctions & Regulatory Fragmentation": "This pillar exhibits notable pressure due to assertive state actions and potential blockades. The headline \"Iran Draws New Red Line Near Strait of Hormuz: 'Prohibited Zone' Announced as US Blockade Tightens\" directly points to the imposition of restrictive measures and the enforcement of international pressure. This signals a trend toward more fragmented and assertive regulatory environments.",
+        "Cyber & Infrastructure Threats": "This area requires routine monitoring, with some conceptual and localized infrastructure concerns. While \"When A.I. Starts Scheming\" highlights a general high-severity risk for future cyber threats, the \"Diesel fuel spill forces closure of northbound I-5\" points to immediate physical infrastructure disruption, albeit localized.",
+        "Climate & Resource Shock": "This pillar indicates baseline activity and low immediate risk based on current reporting. There are no immediate headlines indicating widespread climate events, extreme weather, or significant resource scarcity issues. Monitoring remains routine for long-term environmental shifts."
+    },
     "All_Alerts": [
         {
-            "title": "Police warned Dover protest could be 'tip of the iceberg' as force slammed for 'slow' response",
+            "title": "Trump official trips over own message on contradictory media tour",
             "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/news/uk-news/dover-protest-uk-police-kent-37632951",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37633049.ece/ALTERNATES/s615/3_Screenshot-2026-09-06-at-140708.jpg",
-            "source": "mirroruk"
+            "url": "https://www.rawstory.com/trump-2677825524/",
+            "image": "https://www.rawstory.com/media-library/u-s-secretary-of-energy-chris-wright-and-u-s-secretary-of-the-interior-doug-burgum-speak-with-members-of-the-media-outside-of.jpg?id=58413330&width=980",
+            "source": "rawstory"
         },
         {
-            "title": "Lavrov: We are at \u2018start of real war\u2019 with West",
+            "title": "Wild opening salvo against Chelsea hints at exciting times for Arsenal fans",
             "severity": "HIGH",
-            "url": "https://uk.news.yahoo.com/lavrov-start-real-war-west-155827260.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/225fba62256212c4ea29f3527f75eaeeebac325036ee29deaf254922c198378e/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2Fab8bac7845d4fe0d19931cd07368c733.jpg",
+            "url": "https://uk.sports.yahoo.com/news/wild-opening-salvo-against-chelsea-210819692.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/fd9776891a65f38bc2b0d652a389c8a631700c3bb90b7223bcf9a68cd891a3af/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftheguardian_763%2F31488af400460ec18e0a31c37c9c7ed6.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Canada\u2019s exchange rate with U.S. is \u2018unacceptable\u2019: Trump - CTV News",
+            "title": "Iran Draws New Red Line Near Strait of Hormuz: 'Prohibited Zone' Announced as US Blockade Tightens",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSkJoNklvY25zR0FEQWpLdkE4WVpyaFAzZWpCaG5kdUd1VU1Uem10UXI1R09rYVhYVXJ4bHJNSkJCZ25nbHFMWDNXeVplX0lHZUF5TzJuSklDTmdBa1NtbG11eWFOUlZBc1NWMVV6bEZCbDZ5X1pWYWNQVWtmM3FrWFVxUVZMdnM5NzFTNzczdG9XNGtRd2V3NkxvaXBRN2VrelpFWjZGYw?oc=5",
-            "image": "https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Delhi building collapse LIVE: 3 killed in Satya Niketan hostel collapse, PM Modi condoles deaths",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/india/delhi-building-collapse-live-3-killed-in-satya-niketan-hostel-collapse-pm-modi-condoles-deaths-liveblog-14043642.html",
-            "image": "https://images.firstpost.com/uploads/2026/09/Screenshot-41-2026-09-528d192182ed423be6f2b13c480a9f98-1200x675.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "Prevention Should Be At Heart Of Juvenile Justice: Orissa HC Chief Justice",
-            "severity": "HIGH",
-            "url": "https://ommcomnews.com/odisha-news/prevention-should-be-at-heart-of-juvenile-justice-orissa-hc-chief-justice/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/09/New-Project-48.jpg",
-            "source": "ommcomnews"
-        },
-        {
-            "title": "Attorney, firefighter face off for Las Vegas City Council Ward 2 seat",
-            "severity": "HIGH",
-            "url": "https://www.reviewjournal.com/news/politics-and-government/las-vegas/attorney-firefighter-face-off-for-las-vegas-city-council-ward-2-seat-3883039/",
-            "image": "https://www.reviewjournal.com/wp-content/uploads/2026/09/22049706_web1_LV-WARD-2-01-SEP06-26.jpg?w=700",
-            "source": "reviewjournal"
-        },
-        {
-            "title": "The 227 medicines in shortest supply with waitlists lasting 5 YEARS including key ADHD drug \u2013 is yours on the list?",
-            "severity": "HIGH",
-            "url": "https://www.the-sun.com/health/16956583/medicines-shortest-supply-drug-shortage-list/",
-            "image": "https://www.the-sun.com/wp-content%2Fuploads%2Fsites%2F6%2F2026%2F09%2Fnewspress-collage-4fx1m19hh-1788708471745.jpg?quality%3D90%26strip%3Dall%261788694088%261788694088",
-            "source": "thesun"
-        },
-        {
-            "title": "Gurugram lines up \u20b91L cr luxe home launches",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/gurugram-luxury-housing-lines-up-rs-1-lakh-crore-festive-launch-pipeline/articleshow/133842698.cms",
-            "image": "https://img.etimg.com/thumb/msid-133842789,resizemode-4,width-1200,height-900,imgsize-85432,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Ukraine war 'single biggest factor' driving record diesel prices, Wright says",
-            "severity": "HIGH",
-            "url": "https://www.washingtonexaminer.com/policy/energy/4715391/ukraine-war-biden-record-diesel-prices-wright/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2026/09/AP26245715296897.jpg?w=696",
-            "source": "washingtonexaminer"
-        },
-        {
-            "title": "Falklands crisis fears erupt as UK warned it wouldn\u2019t win another war",
-            "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/uk/2246031/falklands-crisis-uk-war-argentina",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/1/237x141/2246031_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "OpenAI accepts thousands of AI agents hacked a German website, says \u2018wiki incident\u2019 calls for need for more transparency",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-accepts-thousands-of-ai-agents-hacked-a-german-website-says-wiki-incident-calls-for-need-for-more-transparency/articleshow/133842061.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133842137/133842137.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Ex-Aston Villa and West Brom prospect wanted by police after sex register breach",
-            "severity": "HIGH",
-            "url": "https://www.birminghammail.co.uk/news/midlands-news/ex-aston-villa-west-brom-34576229",
-            "image": "https://i2-prod.birminghammail.co.uk/incoming/article34576236.ece/ALTERNATES/s615/0_Leroy.jpg",
-            "source": "birminghammail"
-        },
-        {
-            "title": "FBI probes potential data breach of millions of drivers' licenses",
-            "severity": "HIGH",
-            "url": "https://www.usatoday.com/story/news/nation/2026/09/06/drivers-license-data-breach-fbi/91642409007/",
-            "image": "https://www.usatoday.com/gcdn/-mm-/56a2fce84d1cb1e8e735e955eeb0184928f2dd21/c=0-223-3495-2198/local/-/media/2017/05/10/USATODAY/USATODAY/636300244296849442-AFP-553732692-83135842.JPG?width=1600&height=800&fit=crop&format=pjpg&auto=webp",
-            "source": "usatoday"
-        },
-        {
-            "title": "Misogynistic greyhound racing figures to undergo sexism training after Victorian MP Georgie Purcell abused online",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/australia-news/2026/sep/07/greyhound-racing-sexism-training-victorian-mp-georgie-purcell-abused-online-ntwnfb",
-            "image": "https://i.guim.co.uk/img/media/362dd8a393746d10a47ce0a07953721f2c532993/153_0_1838_1470/master/1838.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae0e947ae86c4a0e626acc4a5038c919",
-            "source": "theguardian"
-        },
-        {
-            "title": "Over 20 Ceuta migrants arrested for \u2018attacking soldiers with rocks\u2019 as Trump blasts Spain for \u2018zero control\u2019 over crisis",
-            "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/news/40288794/ceuta-migrants-arrested-attacking-soldiers-trump-blasts-spain/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F09%2Fcrop-40289023.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
-        },
-        {
-            "title": "FIFA Confirms Gianni Infantino To Seek Re-Election Amid Growing Opposition",
-            "severity": "MEDIUM",
-            "url": "https://www.ndtvprofit.com/sports/fifa-confirms-gianni-infantino-to-seek-re-election-amid-growing-opposition-12009780",
-            "image": "https://c.ndtvimg.com/2026-09/2e8glgcs_infantino_625x300_06_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
-        },
-        {
-            "title": "The US Dollar Has Lost 97% of Its Value Since 1913: Is Bitcoin the Way Out?",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/crypto/articles/us-dollar-lost-97-value-155758790.html",
-            "image": "https://media.zenfs.com/en/beincrypto_us_662/41f8e44ec490f6e89d2a25c4bc333fe1.jpg",
-            "source": "finance_yahoo"
-        },
-        {
-            "title": "John Fetterman calls scathing profile of himself a \u2018hit piece\u2019 from \u2018disgruntled former staffers\u2019",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/world/americas/us-politics/john-fetterman-hit-piece-wsj-b3045514.html",
-            "image": "https://static.independent.co.uk/2026/09/06/14/08/GettyImages-2275699438.jpeg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "Trump\u2019s ambassador to Israel accuses Ed Miliband of \u2018Jew hate\u2019 over Gaza",
-            "severity": "WATCH",
-            "url": "https://ca.news.yahoo.com/trump-ambassador-israel-accuses-ed-130019374.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/f69095720c05fdb9f941f2d993b1d81c81c36c1df2ad63559d2d7e1628b525aa/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2F245d8efd0963e2f62a8756297c8d30d1.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Bigg Boss 20 Contestants List 2026: Meet All Confirmed Housemates Of Salman Khan Reality Show",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/entertainment-news/tv/bigg-boss-20-contestants-list-2026-meet-all-confirmed-housemates-of-salman-khan-reality-show-article-156098283",
-            "image": "https://images.timesnownews.com/thumb/msid-156098278,thumbsize-216162,width-1280,height-720,resizemode-75/156098278.jpg",
+            "url": "https://www.timesnownews.com/world/middle-east/iran-strait-of-hormuz-prohibited-zone-us-blockade-mohsen-rezaei-war-latest-updates-article-156100175",
+            "image": "https://images.timesnownews.com/thumb/msid-156100189,thumbsize-122571,width-1280,height-720,resizemode-75/156100189.jpg",
             "source": "timesnownews"
         },
         {
-            "title": "Blue Bombers head to Saskatchewan for Labour Day Classic as West Division heats up",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/manitoba/winnipeg-blue-bombers-saskatchewan-roughriders-9.7334285?cmp=rss",
-            "image": "https://i.cbc.ca/ais/e81f3c5e-8eef-4d7c-a8a7-513d958035d0,1788708724241/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C70%2C3930%2C2210%29%3B",
-            "source": "cbc"
+            "title": "\u2018La Bola Negra\u2019 Fever Hits Telluride: \u201cLet\u2019s Make the Gayest War Movie Ever\u201d - The Hollywood Reporter",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYklmQmpUZVVjSldyYUV6aUhEODk1X0ZFaHI2dV91S2pXeHQyMDhZanBsXy1NSkFrY09MbGxXZWpYSmpZS3BmTTI2ZW0xdVJGOXFwSE51NzZLUUhMR2VfZ2kxdjY5Mk5Qd3Y1U1N0ZmVUamxrNFRQcXBncTdHLXQzVm1jX1V4aVA4RUNJRGtOTWNHOFBvNTFYUw?oc=5",
+            "image": "https://images.pexels.com/photos/9808743/pexels-photo-9808743.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "U.S. Navy escorts keep Hormuz oil flowing, energy chief says",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/news/4640518-u-s-navy-escorts-keep-hormuz-oil-flowing-energy-chief-says?feed_item_type=news",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2293241836/image_2293241836.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "title": "IDF targets Hezbollah in southern Lebanon following Hezbollah drone launches - report",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/israel-news/defense-news/article-907757",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/736593",
+            "source": "jpost"
         },
         {
-            "title": "Ravens have $41.5 million cap problem that Lamar Jackson can easily resolve",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/ravens-41-5-million-cap-155445486.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/c90dade270787d1611a2625cc4b4996423844e090ef744396dc81a887bf1a6fc/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2F5acb11d11481bcba2c78a10ce091fdfa",
+            "title": "Lacson to Cayetano: Flood control probe can\u2019t be hasty",
+            "severity": "HIGH",
+            "url": "https://newsinfo.inquirer.net/2300170/lacson-to-cayetano-flood-control-probe-cant-be-hasty",
+            "image": "https://newsinfo.inquirer.net/files/2026/07/Panfilo-Lacson-Cayetano-24July2026.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "In Ukraine, fraud and waste are rewarded with more weapons contracts",
+            "severity": "HIGH",
+            "url": "https://www.bostonglobe.com/2026/09/06/world/ukraine-fraud-waste-are-rewarded-with-more-weapons-contracts/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/OQUS7WS3VD2FQSH5WIXWP5OZ6M.jpg?auth=9e8eebe2497208816bcfe1f27c36f08490e98010a39a0a5ecf68d5be8569dd45&smart=true&width=3744&height=2496",
+            "source": "bostonglobe"
+        },
+        {
+            "title": "Kushner, Witkoff \u2018really feel good\u2019 about Ukraine-Russia peace push after Zelensky huddle",
+            "severity": "HIGH",
+            "url": "https://nypost.com/2026/09/06/us-news/kushner-witkoff-really-feel-good-about-ukraine-russia-peace-push-after-zelensky-huddle/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2Fukraines-president-volodymyr-zelenskyy-right-139903959.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "F1 team lodges appeal as Italian Grand Prix result could be overturned due to rule breach - Yahoo News Australia",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNanNIbTlXNElZaXZFRERxRWNaMG9WYkt0Rmp5UUJYUVFXZHFhWFZ2RjZmUjV2SThBN3dKT2VoaWF2Tm1CZGNFbDBHclhqWHhyZUhfYnhEU0NtWmhYd0NGR0NJb0M0Wmc3S2hSbzlYOUVtQUtkVVZNUE1EOW90U3hvSkJfT19XUkc5cFI5c1RmeDRBOWlPbVBFSmhXS2hSM1RrUmllTGFvc3daM0lzS21yYUVlS3VJVFVGRzdLXzkwbl96UmZQenc3RWpR?oc=5",
+            "image": "https://images.pexels.com/photos/28767587/pexels-photo-28767587.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "When A.I. Starts Scheming",
+            "severity": "HIGH",
+            "url": "https://www.nytimes.com/2026/09/06/world/ai-hugging-face-afd-germany-election.html",
+            "image": "https://static01.nyt.com/images/2026/09/05/business/07int-theworld-roose-hugging-face/00roose-hugging-face-mediumSquareAt3X.jpg",
+            "source": "nytimes"
+        },
+        {
+            "title": "AfD's Siegmund raises prospect of new election in Saxony-Anhalt",
+            "severity": "MEDIUM",
+            "url": "https://www.yahoo.com/news/world/articles/afds-siegmund-raises-prospect-election-210327980.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/d62f4987fbe2d9c271c3a16e206411b1b95717905469a3d29f832d42838a917b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdpa_international_526%2Fe5300b190d3ce58c228ab2b60e36e206.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Sep 5, 2026; Atlanta, Georgia, USA; Auburn Tigers quarterback Byrum Brown (17) scrambles past Baylor Bears safety Daniel Cobbs (14) in the fourth quarter at Mercedes-Benz Stadium. Mandatory Credit: Brett Davis-Imagn Images",
+            "title": "U.S. defense contractor files Chapter 11 bankruptcy - thestreet.com",
+            "severity": "MEDIUM",
+            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQNTlUaHVZbUV6NVFjRy0yM2l1bTlJaUpKY2ZYbXFpM2g1cnQwdF8xUFpFc0ozSGZTOUszVUk5UHMyZWJiRTB4dEdvaWlVZzE1aHNZa24yaDN5SXliUEZhNm1vRmN2WTJOTVdYMV9GNlFBa05OdnhwSlVoUzZZWlFIa01WNFVPVjNERzBlZHQzdw?oc=5",
+            "image": "https://images.pexels.com/photos/39158260/pexels-photo-39158260.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Live: One Nation reveals plan to divert superannuation to boost pay",
+            "severity": "MEDIUM",
+            "url": "https://www.abc.net.au/news/2026-09-07/federal-politics-live-blog-sept-7/107122668",
+            "image": "https://live-production.wcms.abc-cdn.net.au/e933fb409404229898b11502f34bb954?impolicy=wcms_crop_resize&cropH=3121&cropW=5549&xPos=0&yPos=1&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Payout farce exposes NCLT\u2019s flawed process",
+            "severity": "MEDIUM",
+            "url": "https://www.deccanherald.com/opinion/editorial/payout-farce-exposes-nclts-flawed-process-4137315",
+            "image": "https://media.assettype.com/deccanherald/2026-09-01/zcl1xcsp/Shivani-12.png?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Diesel fuel spill forces closure of northbound I-5 near Six Flags Magic Mountain",
             "severity": "WATCH",
-            "url": "https://www.si.com/college/auburn/football/three-takeaways-from-auburn-s-gritty-win-over-baylor",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3384,h_1903,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/auburn_daily/01m1vpt91dh1cw3ba18d.jpg",
+            "url": "https://www.yahoo.com/news/us/articles/diesel-fuel-spill-forces-closure-211248696.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/67308d2319a18ea96f048788a3f8319c17ec4fcdf38d1127e4ad479a501613d8/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsfgate_hearst_151%2F2adcf4ea64f3b2aff9aa6be64fb54d49.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Former Capcom Employee Says Western Studios Spend Too Much Time On Jira",
+            "severity": "WATCH",
+            "url": "https://kotaku.com/former-capcom-employee-says-western-studios-spend-too-much-time-on-jira-2000731698",
+            "image": "https://kotaku.com/app/uploads/2026/09/megamandrlight.jpg",
+            "source": "kotakugamerguide"
+        },
+        {
+            "title": "Hundreds of protesters descend on Portsmouth after small boat arrival",
+            "severity": "WATCH",
+            "url": "https://www.standard.co.uk/news/uk/portsmouth-hampshire-nigel-farage-robert-jenrick-tommy-robinson-b1295974.html",
+            "image": "https://static.standard.co.uk/2026/09/06/22/c009a81567764042747dda5842e82dfcY29udGVudHNlYXJjaGFwaSwxNzg4ODE0NTMz-2.85766975.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
+        },
+        {
+            "title": "Live: Wall Street slips as bond yields rise, ASX treading water",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-09-07/asx-markets-business-live-news/107122080",
+            "image": "https://live-production.wcms.abc-cdn.net.au/2bcc5de27112144035164dd51dacf77e?impolicy=wcms_crop_resize&cropH=530&cropW=942&xPos=0&yPos=14&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Aug 28, 2026; Jacksonville, Florida, USA; Tampa Bay Buccaneers head coach Todd Bowles looks on before a preseason game against the Jacksonville Jaguars at EverBank Stadium. Mandatory Credit: Nathan Ray Seebeck-Imagn Images",
+            "severity": "WATCH",
+            "url": "https://www.si.com/nfl/buccaneers/onsi/3-things-we-already-know-about-the-2026-buccaneers",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4000,h_2250,x_0,y_310/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/bucs_gameday/01m1vqj11w6xtmc1wtrf.jpg",
             "source": "si"
         },
         {
-            "title": "SpaceX Falcon 9 rocket launches 27 Starlink satellites, lands on ship at sea (video)",
+            "title": "Lioness Recap: Right to Compassion",
             "severity": "WATCH",
-            "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink/group-15-24-launch-ocisly",
-            "image": "https://cdn.mos.cms.futurecdn.net/imDS9PFBXeyCh9pHYKrrsD-1280-80.jpg",
-            "source": "space"
+            "url": "http://www.vulture.com/article/lioness-recap-season-3-episode-6-paramount-plus.html",
+            "image": "https://pyxis.nymag.com/v1/imgs/db8/c53/304dbd1e13dfc0659e0d9d2e0e04cf4ad7-lioness-ep6.1x.rsocial.w1200.jpg",
+            "source": "vulture"
         },
         {
-            "title": "England\u2019s hidden 7,500-acre wilderness could become the \u2018Yellowstone of Britain\u2019 \u2014 a \u00a38.5 million rewilding project aims to bring back rare wildlife over the next 20 years",
+            "title": "At least 10 killed in central Mexico fireworks blast during festival",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/global-trends/englands-hidden-7500-acre-wilderness-could-become-the-yellowstone-of-britain-a-8-5-million-rewilding-project-aims-to-bring-back-rare-wildlife-over-the-next-20-years/articleshow/133843086.cms",
-            "image": "https://img.etimg.com/thumb/msid-133843270,resizemode-4,width-1200,height-900,imgsize-338652,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.aljazeera.com/news/2026/9/6/at-least-10-killed-in-central-mexico-fireworks-blast-during-festival",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6a9dcd61-1788726625.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
         },
         {
-            "title": "Greatest internet casino no se denne siden deposit extra requirements 2026",
+            "title": "Hasan Piker brushes off Dems who see him as a liability, names his '28 choice",
             "severity": "WATCH",
-            "url": "https://www.foodprocessingbazaar.com/uncategorized/greatest-internet-casino-no-se-denne-siden-deposit-extra-requirements-2026/",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "foodprocessingbazaar"
+            "url": "https://www.foxnews.com/politics/hasan-piker-brushes-dems-liability-names-28-choice",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/04/931/523/hasan-piker-feb-3-2026.jpg?ve=1&tl=1",
+            "source": "foxnews"
         },
         {
-            "title": "After being rejected from 500 jobs, I've finally found a great role at 60. This is how I did it - as well as the experts' top tricks to land that dream job whatever your age",
+            "title": "\"Don't get so greedy\": Stephen Curry $300 million fortune sparks outrage as he complains that NBA players are \"underpaid\"",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/money/article-16109395/dream-job-age-rejection-tricks-experts.html",
-            "image": "https://i.dailymail.com/1s/2026/09/06/14/111081035-0-image-a-63_1788701239540.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "TRL Krosaki, Raghav Productivity to set up silica ramming mass JV in Odisha",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/companies/news/trl-krosaki-raghav-productivity-to-set-up-silica-ramming-mass-jv-in-odisha-126090600686_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-09/06/full/1788709778-9513.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Rajasthan: 78% promises fulfilled in 2.5 years, says CM Bhajan Lal",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/india/rajasthan-78-promises-fulfilled-in-2-5-years-says-cm-bhajan-lal-articleshow-swl43xe",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-0931e68d-45b5-44da-a82d-984468a11f8b.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Mohamed El-Erian says an influx of hyperscaler bonds is competing with U.S. Treasuries \u2014 and pushing rates higher",
-            "severity": "WATCH",
-            "url": "https://ca.finance.yahoo.com/news/mohamed-el-erian-says-influx-153000281.html",
-            "image": "https://media.zenfs.com/en/moneywise_327/410dcf71c1090fd024acba8b94f91a49.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Prince Harry makes decision about public engagements: 'He will do whatever they want'",
-            "severity": "WATCH",
-            "url": "https://ca.style.yahoo.com/prince-harry-makes-decision-public-155253719.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/e209275af54d54aad9b1d26271c5123eba63d4e92d7a877c0e3868f3c77d1d33/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fca.hellomagazine.com%2Fe1bba9ef79089dde5b309f7805cf5d28.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "A Grip on Sports: After a 'meh' Saturday that could have been exceptional, the new-look Pac-12 has one more chance to make an impact. Today's Apple Cup. - Sun, 06 Sep 2026 PST",
-            "severity": "WATCH",
-            "url": "http://www.spokesman.com/stories/2026/sep/06/a-grip-on-sports-after-a-meh-saturday-that-could-h/",
-            "image": "https://thumb.spokesman.com/DLvrmkVKnP7b32PxeJ9avccN7WY=/fit-in/300x200/smart/media.spokesman.com/photos/2024/05/01/web_sig_grippi.png",
-            "source": "spokesman"
-        },
-        {
-            "title": "Homebuyer promised 5,069 sq ft villa by builder, but only 3,900 sq ft delivered: Telangana RERA orders Rs 20 lakh refund and Rs 98 lakh penalty",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/homebuyer-promised-5069-sq-ft-villa-by-builder-but-only-3900-sq-ft-delivered-telangana-rera-orders-rs-20-lakh-refund-and-rs-98-lakh-penalty/articleshow/133842980.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133843037/133843037.jpg",
+            "url": "https://timesofindia.indiatimes.com/sports/nba/top-stories/dont-get-so-greedy-stephen-curry-300-million-fortune-sparks-outrage-as-he-complains-that-nba-players-are-underpaid/articleshow/133848468.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133848548/133848548.jpg",
             "source": "toi"
         },
         {
-            "title": "OpenAl's new model is so capable, the company had to lock parts down",
+            "title": "OrcSDR: Why folks no longer need a $650 SDR",
             "severity": "WATCH",
-            "url": "https://www.thestreet.com/technology/openals-new-model-is-so-capable-the-company-had-to-lock-parts-down",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTY4MDc5/tech-leaders-join-g20-innovation-ministerial-meeting-in-chapel-hill.jpg?profile=rss",
-            "source": "thestreet"
+            "url": "https://www.notebookcheck.net/OrcSDR-Why-folks-no-longer-need-a-650-SDR.1390941.0.html",
+            "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Screenshot-2026-09-06-17073424.png",
+            "source": "notebookcheck"
+        },
+        {
+            "title": "China secretly supplied Russia with components for killer drones",
+            "severity": "WATCH",
+            "url": "https://uk.news.yahoo.com/china-secretly-supplied-russia-components-210000782.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/f7e6b2e766411c36aac1f60d64948d2d45c6da3d90d00e21f3af781ed8bbf147/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F03396a7b996e1d82442a33d9321a3a93.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Festive carts to get heavier; Pixxel\u2019s $100 million fresh fuel",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/tech/newsletters/morning-dispatch/festive-carts-to-get-heavier-pixxels-100-million-fresh-fuel/articleshow/133859272.cms",
+            "image": "https://img.etimg.com/thumb/msid-133859272,width-1200,height-900,imgsize-2443933,overlay-ettech/editionshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Protesters clash with police after mega-dinghy arrives in Portsmouth",
+            "severity": "WATCH",
+            "url": "https://uk.news.yahoo.com/hundreds-stage-protest-portsmouth-migrant-203238935.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/1e24a95468cc4dfb34bd925eb56057b06aaee252262f4c0ca952e82bc0d0e85b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F769c49b0449287aa7732c46b3bef5075.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "How BlackRock (BLK) is Quietly Turning Bitcoin Whales Into Wall Street Clients",
+            "severity": "WATCH",
+            "url": "https://finance.yahoo.com/markets/crypto/articles/blackrock-blk-quietly-turning-bitcoin-203223849.html",
+            "image": "https://media.zenfs.com/en/insidermonkey.com/5c392e5eac3809bf6dec0dc40e35ff41.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "The Top Tech Trends at IFA Berlin 2026",
+            "severity": "WATCH",
+            "url": "https://www.cnet.com/tech/tech-industry/the-top-tech-trends-at-ifa-berlin-2026/",
+            "image": "https://www.cnet.com/wp-content/uploads/sites/2/IFA-Intro-Image-Messe-Center.jpeg",
+            "source": "cnet"
+        },
+        {
+            "title": "Sydney CBD solar farm to cut carbon emissions by 2,000 tonnes a year",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-09-07/sydney-to-get-largest-cbd-solar-farm-in-southern-hemisphere/107111286",
+            "image": "https://live-production.wcms.abc-cdn.net.au/343c136f5643c48223edd09ea8ac0bc7?impolicy=wcms_crop_resize&cropH=2109&cropW=3750&xPos=0&yPos=1606&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Disney's Canceled Reboot Of Iconic '90s Fantasy Franchise Could've Been One Of Its Best",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/gargoyles-canceled-disney-reboot-best-series/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/untitled-design-2026-09-06t130336-627.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "Iran says plans to announce new 'exclusion zone' near Strait of Hormuz",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/agency-feeds/iran-says-plans-to-announce-new-exclusion-zone-near-strait-of-hormuz-10313436.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/07/News18_World_Section_Default_Image_1600x900-2025-07-4401653589b9d10b46b8abb07f758342-3x2.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "How ABNs are increasingly being used as a tool for exploitation",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-09-07/reports-abns-used-to-exploit-migrant-workers/107084530",
+            "image": "https://live-production.wcms.abc-cdn.net.au/44959e824c7d367a4671ffbdea39939e?impolicy=wcms_crop_resize&cropH=863&cropW=1535&xPos=0&yPos=0&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Crystal Palace Women could have points deducted as WSL investigate major rule break",
+            "severity": "WATCH",
+            "url": "https://talksport.com/football/4562476/crystal-palace-women-points-deduction-wsl-investigate-rule-break/",
+            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "talksport"
+        },
+        {
+            "title": "\"Serious violation\": Oba strips praise singers' leader of title, suspends group",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/nigeria/1729309-oba-benin-suspends-isikhuan-royal-praise-singers-strips-leader-title/",
+            "image": "https://cdn.legit.ng/images/1200x675/4c4b511f0d67cb53.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "5,500 sheep were stolen from a remote farm. But most farm crime remains hidden",
+            "severity": "WATCH",
+            "url": "https://theconversation.com/5-500-sheep-were-stolen-from-a-remote-farm-but-most-farm-crime-remains-hidden-291161",
+            "image": "https://images.theconversation.com/files/757933/original/file-20260904-50-fkwamm.jpg?ixlib=rb-4.1.1&rect=0%2C421%2C5400%2C2700&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
+        },
+        {
+            "title": "DCP city\u2019s official X handle hacked",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/allahabad/dcp-citys-official-x-handle-hacked/articleshow/133850841.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133850838/133850838.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Three talking points from the Premier League weekend",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/sports/football/three-talking-points-from-the-premier-league-weekend-101788721729385.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2025/06/30/1600x900/logo/football1_1751286824364_1751286839537.jpg",
+            "source": "hindustantimes"
         }
     ],
-    "Last_Updated": "2026-09-07T04:00:24.674564Z"
+    "Last_Updated": "2026-09-07T09:15:56.110529Z"
 }
