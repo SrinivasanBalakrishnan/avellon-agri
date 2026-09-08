@@ -1,300 +1,267 @@
 {
-    "AGRI_Score": 60.9,
-    "Velocity": "+0.4",
-    "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AGRI_Score": 62.6,
+    "Velocity": "+1.7",
+    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 62.6/100 reflects a significantly elevated global risk environment, primarily driven by intense geopolitical conflict and severe energy and maritime disruptions. Ongoing hostilities, evidenced by \"Ukrainian strikes kill 46 civilians, injure 266 in Russia over past week \u2014 diplomat,\" are compounded by escalating threats of space militarization, as indicated by \"Putin planning space nuclear blast? Russia move simulation makes 'defenceless' US military panic?\". Furthermore, critical energy pathways face immediate threats, with \"Iran to announce 'restricted zone' near Strait of Hormuz as tensions simmer,\" directly contributing to record-high energy prices that exacerbate global economic anxieties.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.1,
+        "Geopolitical Conflict Intensity": 85.2,
         "Energy & Maritime Disruption": 81.5,
-        "Trade & Supply Chain Stress": 59.8,
-        "Sovereign Financial Stress": 57.7,
+        "Trade & Supply Chain Stress": 64.9,
+        "Sovereign Financial Stress": 57.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 64.6,
-        "Cyber & Infrastructure Threats": 62.1,
+        "Sanctions & Regulatory Fragmentation": 59.7,
+        "Cyber & Infrastructure Threats": 60.8,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar remains at a critically high level due to the escalation of conventional warfare, evidenced by \"Ukrainian strikes kill 46 civilians, injure 266 in Russia over past week \u2014 diplomat.\" Furthermore, strategic competition is extending into new domains, highlighted by concerns over \"Putin planning space nuclear blast? Russia move simulation makes 'defenceless' US military panic?\".",
+        "Energy & Maritime Disruption": "Risk in this pillar is severely heightened by direct threats to crucial maritime choke points, as \"Iran to announce 'restricted zone' near Strait of Hormuz as tensions simmer\" signals potential trade interference. These tensions, combined with existing market pressures, are causing significant economic strain, with \"Gas prices are surging to an all-time Labor Day record, topping $4 a gallon.\"",
+        "Trade & Supply Chain Stress": "The \"permitting logjam puts America's future at risk\" warns of significant domestic obstacles to infrastructure and resource development. This ongoing administrative inefficiency has the potential to impede critical projects, creating bottlenecks that could exacerbate existing supply chain vulnerabilities.",
+        "Sovereign Financial Stress": "Elevated energy costs pose a substantial inflationary threat, with \"Gas prices hit record high for Labor Day weekend 2026,\" impacting national budgets and consumer purchasing power. Governments may face increasing pressure to address rising living costs, potentially straining fiscal resources and increasing borrowing needs.",
+        "Currency & Liquidity Pressure": "The surge in energy prices, as detailed by \"Gas prices are surging to an all-time Labor Day record,\" puts upward pressure on inflation and can lead to capital outflow from economies heavily reliant on energy imports. Central banks may respond with monetary tightening, potentially impacting global liquidity conditions and currency valuations.",
+        "Sanctions & Regulatory Fragmentation": "While no new sanctions were directly announced in the feed, the existing high levels of geopolitical conflict, as seen in \"Ukrainian strikes kill 46 civilians, injure 266 in Russia over past week \u2014 diplomat,\" maintain an environment conducive to further regulatory actions. The ongoing international tensions between major powers imply continued fragmentation as states use economic tools to exert influence.",
+        "Cyber & Infrastructure Threats": "This pillar faces significant challenges from state-sponsored activities, with \"China, Russia satellite threats expose U.S. engineer shortage, Rand study finds\" indicating a widening gap in defensive capabilities. Moreover, the report questioning \"Is China Really a Cyber Threat to Taiwan?\" underscores persistent concerns over critical infrastructure security in key regions.",
+        "Climate & Resource Shock": "This pillar currently shows baseline activity with no immediate reports of climate-induced disasters or acute resource shortages impacting global strategic risk. While long-term climate concerns persist, the immediate news feed does not indicate a sudden shock pushing this score higher."
+    },
     "All_Alerts": [
         {
-            "title": "Iran\u2019s upgraded ballistic missiles as Tehran issues fresh warning to US warships",
+            "title": "Ukrainian strikes kill 46 civilians, injure 266 in Russia over past week \u2014 diplomat",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/world/middle-east/iran-war-us-missiles-tehran-b3046391.html",
-            "image": "https://static.independent.co.uk/2026/09/08/05/Iran_War_Strait_of_Hormuz_7_788.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "url": "https://tass.com/politics/2184193",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
         },
         {
-            "title": "Israeli ministers want Britain to be sanctioned for \u2018occupying\u2019 the Falklands",
+            "title": "Huddersfield barrister jailed for plotting violent revenge attack with gangster client - 5Pillars",
             "severity": "HIGH",
-            "url": "https://metro.co.uk/2026/09/08/israeli-ministers-want-britain-sanctioned-occupying-falklands-29560256/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/08/SEI_307514005-73a5.jpg?quality=90&strip=all",
-            "source": "metro"
-        },
-        {
-            "title": "Air Marshal Jeetendra Mishra (retd) takes charge as Ram Temple Trust CEO",
-            "severity": "HIGH",
-            "url": "https://www.prokerala.com/news/articles/a1809813.html",
-            "image": "https://images.pexels.com/photos/34207359/pexels-photo-34207359.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "prokerala"
-        },
-        {
-            "title": "Iran\u2019s Proxy Strategy Is Never Coming Back",
-            "severity": "HIGH",
-            "url": "https://foreignpolicy.com/2026/09/08/irans-proxy-strategy-hezbollah-lebanon-iraq/",
-            "image": "https://foreignpolicy.com/wp-content/uploads/2026/09/GettyImages-460189284.jpg",
-            "source": "foreignpolicy"
-        },
-        {
-            "title": "Mohamed bin Zayed\u2019s Germany visit: A partnership moving towards a multi-dimensional strategic alliance",
-            "severity": "HIGH",
-            "url": "https://gulfnews.com/uae/government/mohamed-bin-zayeds-germany-visit-a-partnership-moving-towards-a-multi-dimensional-strategic-alliance-1.500666934",
-            "image": "https://media.assettype.com/gulfnews/2026-09-08/isoe12gi/50.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "$127 billion deposits raise new rupee risk as banks face future FX interest bills - The Economic Times",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPRE5nTGNDMEFQMW9jZklaYXZ4Y2h1d01GbEV6TVNHWkNUemhvU3FfckI5QV82TlJKRDlXMFdjVGNvcHNNUGVibzBMNHAteFFsVGtvUUhmV2RVMmp5YjF4QlloUUd1dF9oZmtfQjdyMTcwbmNCWmxscTJXQnhJS0hCWjRUaVpGRElFLUhOM3A1TUh0akI1VkdlNDFJb0tXcUlROXlOOFFlMVRFZ2o2OW8tcUNwTGxjXzZYRXBVWmc1b2JCQ0V3enNTVkIycTMyTWhKM1NkZV82dUtwZ2tlQWF1SndZMVd1MDZKWWNmZkx6cGnSAfYBQVVfeXFMTm9LRmxtRUp3TVctYTdrejNFWlMySVJrNUh0dV8xUFNQTU12Y2RKY3NDUGxMNk94WkZIZ2V6cFpUZU41Zk1sYlA5ZjVJVFJZV1o4RnVzQ3RoSkNtLTBnMlZ3bkI5NUh2bTZWd1hMa1BuejhpM1BRM2ktNE56S3l6di1RdEowdFRsbFBjeXZpbjdWdzVQa0w0Sjg4QTZKZTlKbVI3akg2T19nOFRFQkVEVWVBZDNQd2lVeVpjbkVtTEY4V1ZKcHNqU3UxODlUdjlKYm1PblRVT2JIMTN2YmtlMDA3SUFLbkRLR0thSGtBdGc1YVB0Z3dB?oc=5",
-            "image": "https://images.pexels.com/photos/18597927/pexels-photo-18597927.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNTRWR2xhTlA0dzVGd21lQVpBZDMyZXhhYTBDYS1PQmdfdmFRVFZ5YTFlSFY2WnllMEV6QWFUUVEtd1dZOUtwdGt2dDhOMjBKNEltQ0ktbU1KNU9ySXFtdzRtQWFNUWtrbU5hTW9ERzlFX2MyMmZVSEV3ako2Q2hYRUZlZ3JOU01LM3NrVnh3enViR09VUTQ1bGsxdnlnUU03X0dKOUNmX2g2RjVaZjVVMmFCcmtYSFB0aWFtWEdR?oc=5",
+            "image": "https://images.pexels.com/photos/586031/pexels-photo-586031.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Prince George Starts at Eton College: What to Expect",
+            "title": "China, Russia satellite threats expose U.S. engineer shortage, Rand study finds",
             "severity": "HIGH",
-            "url": "https://www.newsweek.com/prince-george-eton-college-first-day-prince-william-12413928",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/09/Copy-of-32-image-52.jpg?w=1600&h=900&q=88",
-            "source": "newsweek"
+            "url": "https://www.washingtontimes.com/news/2026/sep/8/china-russia-satellite-threats-expose-us-engineer-shortage-rand-study/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2022/11/10/weather_satellite_46601_s775x929.jpg?93cc105f5de6ad5b2655ff38dc881190e182647f",
+            "source": "washingtontimes"
         },
         {
-            "title": "'People are furious': RBA Deputy Governor says more needs to be done on inflation",
+            "title": "US Plans To Shrink Middle East Military Footprint After Iran War: Report",
             "severity": "HIGH",
-            "url": "https://www.abc.net.au/news/2026-09-08/rba-deputy-governor-admits-public-furious-on-inflation/107129474",
-            "image": "https://live-production.wcms.abc-cdn.net.au/a71801eae55bc6fc54b9ad4adc1b7e13?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "Log4Shell Is Almost Five Years Old. Most Teams Still Can't Answer \"What's In Our Software?\"",
-            "severity": "HIGH",
-            "url": "https://hackernoon.com/log4shell-is-almost-five-years-old-most-teams-still-cant-answer-whats-in-our-software",
-            "image": "https://cdn.hackernoon.com/images/uBhjbZIm34du43FkQ7OopJQf37Y2-nm83c0j.jpeg",
-            "source": "hackernoon"
-        },
-        {
-            "title": "Lessons For India In Nepal Flood Disaster: Monitor, Forecast, Communicate",
-            "severity": "HIGH",
-            "url": "https://www.ndtv.com/india-news/lessons-for-india-in-nepal-flood-disaster-monitor-forecast-communicate-12017024",
-            "image": "https://c.ndtvimg.com/2026-09/lqi1atkk_nepal-floods_625x300_02_September_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "url": "https://www.ndtv.com/world-news/us-plans-to-shrink-middle-east-military-footprint-after-iran-war-report-12017759",
+            "image": "https://c.ndtvimg.com/2021-10/v1hibej4_us-military-exercise-joint-base-elmendorf-richardson-alaska-website_625x300_14_October_21.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
             "source": "ndtv"
         },
         {
-            "title": "FBI probes breach of drivers' licenses",
+            "title": "Rotary Laser Exterior Leveling Tool Market by Slope Type, Range, Function, Form, Distribution Channel - Global Forecast to 2032",
             "severity": "HIGH",
-            "url": "https://buffalonews.com/article_36db4caf-a4cc-560f-a66f-83f32ebc0cd5.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/buffalonews.com/content/tncms/custom/image/661b9d20-c537-11ea-a16f-1fed0e01c517.jpg?resize=600%2C315",
-            "source": "buffalonews"
+            "url": "https://www.globenewswire.com/fr/news-release/2026/09/08/3357548/28124/en/rotary-laser-exterior-leveling-tool-market-by-slope-type-range-function-form-distribution-channel-global-forecast-to-2032.html",
+            "image": "https://images.pexels.com/photos/42091/pexels-photo-42091.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
         },
         {
-            "title": "Why Avi Lewis's NDP is eyeing Toronto for its rebuild",
+            "title": "Sen. Alan Armstrong warns that permitting logjam puts America's future at risk",
             "severity": "HIGH",
-            "url": "https://www.cbc.ca/news/politics/federal-ndp-rebuild-toronto-avi-lewis-seat-9.7331367?cmp=rss",
-            "image": "https://i.cbc.ca/ais/afe25939-d0b9-4881-ae4b-9e5ba08f2817,1788460004945/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C324%2C4148%2C2333%29%3B",
+            "url": "https://www.washingtontimes.com/news/2026/sep/8/sen-alan-armstrong-warns-permitting-logjam-puts-americas-future-risk/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2026/03/24/Oklahoma_Governor_Senate_Appointee_76450_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
+            "source": "washingtontimes"
+        },
+        {
+            "title": "Putin planning space nuclear blast? Russia move simulation makes 'defenceless' US military panic?",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/videos/world-news/putin-planning-space-nuclear-blast-russia-move-simulation-makes-defenceless-us-military-panic-101788868339118.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/08/1600x900/logo/maxresdefault_1788868333375_6d697632-8824-4a4c-b279-e6ae52035aa0_1788868429918_c483529a-93de-4f80-92dc-7c3e864475f9_6c848e0f-b378-45f4-bf29-2527f00c867c_4bf28d86-bdab-4e45-903b-c3b080a3def9.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "14 Canadian books longlisted for $100K Giller Prize, including title by Ottawa author",
+            "severity": "HIGH",
+            "url": "https://www.cbc.ca/books/giller-prize-longlist-9.7326750?cmp=rss",
+            "image": "https://i.cbc.ca/ais/109b6ed1-f13b-43aa-acdf-142f1d52f02c,1788868308342/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C930%2C523%29%3B",
             "source": "cbc"
         },
         {
-            "title": "We have a \"Rega Special\" turntable, a new Dolby Atmos soundbar and TCL's flagship Super QLED in for testing this month",
+            "title": "\u2018I\u2019d rather die than be called coward\u2019: UP judge who gave 22 death sentences adds 1 more",
+            "severity": "HIGH",
+            "url": "https://indianexpress.com/article/legal-news/rather-die-than-be-called-coward-up-judge-22-death-sentences-another-10868616/",
+            "image": "https://images.indianexpress.com/2026/09/Judge-Ravi-Kumar-Diawakar-Muzaffarnagar.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "Security breach case: NIA files chargesheet against Van Dyke, other foreigners; does not invoke UAPA",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/india/security-breach-case-nia-files-chargesheet-against-van-dyke-other-foreigners-does-not-invoke-uapa-4139089",
+            "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "source": "deccanherald"
+        },
+        {
+            "title": "High Court cancels Second Authority appointments over Netanyahu conflict of interest",
+            "severity": "HIGH",
+            "url": "https://www.jpost.com/israel-news/article-907958",
+            "image": "https://images.pexels.com/photos/5014710/pexels-photo-5014710.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "jpost"
+        },
+        {
+            "title": "Prison warder booked hotel for sex romp with female inmate after her release",
+            "severity": "HIGH",
+            "url": "https://www.express.co.uk/news/uk/2246564/prison-warder-booked-hotel-sex",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/237x141/2246564_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Iran to announce 'restricted zone' near Strait of Hormuz as tensions simmer",
             "severity": "MEDIUM",
-            "url": "https://www.whathifi.com/av/we-have-a-rega-special-turntable-a-new-dolby-atmos-soundbar-and-tcls-flagship-super-qled-in-for-testing-this-month",
-            "image": "https://cdn.mos.cms.futurecdn.net/9JsLwKGtLbQPzKQPknDxuG-1280-80.png",
-            "source": "whathifi"
+            "url": "https://www.kxan.com/news/national-news/iran-to-announce-restricted-zone-near-strait-of-hormuz-as-tensions-simmer/",
+            "image": "https://www.kxan.com/wp-content/uploads/sites/40/2026/09/AP26245387768630-e1788352786529_86d127.jpg?w=900",
+            "source": "kxan"
         },
         {
-            "title": "Hackers Hit Bitcoin Network Used by Exchanges, Steal $320 Million in Crypto",
-            "severity": "MEDIUM",
-            "url": "https://www.timesnownews.com/business-economy/markets/hackers-hit-bitcoin-network-used-by-exchanges-steal-320-million-in-crypto-article-156118371",
-            "image": "https://images.timesnownews.com/thumb/msid-156118377,thumbsize-51886,width-1280,height-720,resizemode-75/156118377.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Aries, Taurus, Gemini Horoscope Today, September 9, 2026: Career Conversations Open Doors, Money Needs Careful Planning & a Bold Idea Gains Momentum",
+            "title": "Is China Really a Cyber Threat to Taiwan?",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/astrology/horoscope/aries-taurus-gemini-horoscope-today-september-9-2026-career-conversations-open-doors-money-needs-careful-planning-a-bold-idea-gains-momentum/articleshow/133928607.cms",
-            "image": "https://img.etimg.com/thumb/msid-133928707,resizemode-4,width-1200,height-900,imgsize-149334,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://thediplomat.com/2026/09/is-china-really-a-cyber-threat-to-taiwan/",
+            "image": "https://images.thediplomat.com/v1/td-list-l-2/2021/07/thediplomat-2021-07-02-8.jpg",
+            "source": "thediplomat"
         },
         {
-            "title": "India's fuel demand fell 2.8% in August despite higher petrol, diesel sales",
+            "title": "Father cobbler, mother labourer but son built Rs 350-crore company: How Ashok Khade went from poverty to Padma Shri",
             "severity": "WATCH",
-            "url": "https://www.business-standard.com/economy/news/india-s-fuel-demand-fell-2-8-in-august-despite-higher-petrol-diesel-sales-126090800671_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/12/full/1786506997-0539.jpg",
-            "source": "business-standard"
+            "url": "https://www.moneycontrol.com/news/business/markets/father-cobbler-mother-labourer-but-son-built-rs-350-crore-company-how-ashok-khade-went-from-poverty-to-padma-shri-14025336.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260908115554_DAS-Offshore-founder-Ashok-Khade.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Earnings call transcript: Libstar H1 2026 profit slips as shares rise 5.9%",
+            "title": "Some of the best Labor Day sales are still live. Save on leaf blowers, AirPods and more",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-libstar-h1-2026-profit-slips-as-shares-rise-59-93CH-4860033",
-            "image": "https://content-media.investing.com/news/LYNXMPEB230DM_M.jpg",
-            "source": "investing_uk"
+            "url": "https://www.cnn.com/cnn-underscored/deals/best-labor-day-sales-2026-09-08",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/best-leaf-blowers-group-on-tarp-1-inline-cnnu.jpg?c=original/w_800",
+            "source": "cnn"
         },
         {
-            "title": "Spain sells \u20ac2.4bn in Treasury bills at higher yields",
+            "title": "Tamarack Valley to Merge With Headwater Exploration in Over $7.24 Billion Deal - WSJ",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/spain-sells-24bn-in-treasury-bills-at-higher-yields-93CH-4860031",
-            "image": "https://content-media.investing.com/news/LYNXNPEB6U08A_M.jpg",
-            "source": "investing_uk"
+            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWnhoR2hGdWRFVzNSZnU5Q0RTZGN4Q3dfdUFoNVhILUZFVGZMcTJaZHpMUGszZ3hCTFVpYUZoM2pleHZmUjYwalByV0NOZXpmLTZoR3hSR2pUc0NOZTUzMmhQOENkZm5LUFhwUkVNOVlhbHR4R3VXd2dvRVRPQllLN0xqR0NDdDRvNlhLc3FFcWxkTkExSXRqZzBTNjY3bkJjcDF4ZWNwVnotQTBoNkhkRVNuOEo1eV9fUXE4Wmp5RjBBMVUy?oc=5",
+            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "BYD PURE GAMES 2026: The Ultimate Fitness Challenge Meets a Weekend of Wellness",
+            "title": "Gas prices hit record high for Labor Day weekend 2026",
             "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/byd-pure-games-2026-the-ultimate-fitness-challenge-meets-a-weekend-of-wellness-302872082.html",
-            "image": "https://mmx.prnewswire.com/media/MS1983286/20260908040451EDT_image_1.jpg?id=OA2934801&p=original",
-            "source": "prnewswire_apac"
-        },
-        {
-            "title": "Lycra-clad Ivanka Trump shows off sculpted abs with Baywatch-worthy pictures",
-            "severity": "WATCH",
-            "url": "https://www.hellomagazine.com/us/922166/lycra-clad-ivanka-trump-shows-off-sculpted-abs/",
-            "image": "https://images.hellomagazine.com/horizon/landscape/6a5d830b0539-gettyimages-2162034309.jpg",
-            "source": "hellomagazine"
-        },
-        {
-            "title": "Quote of the day by Stephen Hawking: 'What I have learned from life is to make the most of what you have got.' Life lessons from inspirational quote on resilience, limits, acceptance, complaints, obstacles, strengths and resources",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/quote-of-the-day-by-stephen-hawking-what-i-have-learned-from-life-is-to-make-the-most-of-what-you-have-got-life-lessons-from-inspirational-quote-on-resilience-limits-acceptance-complaints-obstacles-strengths-and-resources/articleshow/133928374.cms",
-            "image": "https://img.etimg.com/thumb/msid-133929498,resizemode-4,width-1200,height-900,imgsize-61928,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "A specific group of travelers in New Zealand is now caught in Middle East travel chaos",
-            "severity": "WATCH",
-            "url": "https://www.legit.ng/people/1729570-new-zealand-issues-urgent-update-names-category-people-facing-travel-disruptions/",
-            "image": "https://cdn.legit.ng/images/1200x675/d9245f8e54f6bfe5.jpeg?v=1",
-            "source": "legit"
-        },
-        {
-            "title": "Harry and Meghan \u2018surprised\u2019 by King ruling out the couple returning as working royals",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/uk/home-news/prince-harry-meghan-king-charles-letter-royals-b3046406.html",
-            "image": "https://static.independent.co.uk/2026/09/07/15/64fc9fd7332c8cd6f2cd056a7dcf645dY29udGVudHNlYXJjaGFwaSwxNzg4ODc4OTUx-2.83640582.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Ukraine chief prosecutor resigns over safe stuffed with $100 bills",
-            "severity": "WATCH",
-            "url": "https://uk.news.yahoo.com/ukraine-chief-prosecutor-resigns-over-085417079.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/8bb9ed553c48caf41a4eb0dda4dc190076e36847ba1ef3ada98163dcba8793c4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F24c83efc175043ba3077722b20008706.jpg",
+            "url": "https://finance.yahoo.com/energy/articles/gas-prices-hit-record-high-115525974.html",
+            "image": "https://media.zenfs.com/en/quartz_855/a8438ca8f42f480ce4ca648cbe0468d3.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Bodrum: Ancient Stones, Modern Appetites",
+            "title": "Gas prices are surging to an all-time Labor Day record, topping $4 a gallon",
             "severity": "WATCH",
-            "url": "https://www.standard.co.uk/lifestyle/travel/bodrum-ancient-stones-modern-appetites-b1296128.html",
-            "image": "https://static.standard.co.uk/2026/09/08/7/58/Susona-Bodrum-LXR-Hotels-and-Resorts.jpeg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
+            "url": "https://qz.com/gas-prices-record-high-labor-day-weekend-090826",
+            "image": "https://qz.com/cdn-cgi/image/width=600,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2275118571.jpg",
+            "source": "quartz"
         },
         {
-            "title": "Iranian twin sisters, 20, have hair ripped out and bones broken in torture ordeal before one is sentenced to death for joining anti-regime protest",
+            "title": "Trip Names Kendall Jenner Global Ambassador and Equity Shareholder",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-16113585/Iranian-twin-sisters-20-hair-ripped-bones-broken-torture-ordeal-one-sentenced-death-joining-anti-regime-protest.html",
-            "image": "https://i.dailymail.com/1s/2026/09/08/09/111112449-0-image-a-7_1788856959732.jpg",
-            "source": "dailymailuk"
+            "url": "https://wwd.com/beauty-industry-news/wellness/trip-kendall-jenner-global-ambassador-equity-shareholder-1239198237/",
+            "image": "https://wwd.com/wp-content/uploads/2026/09/02_KJ_BigCan_Press_Images_Landscape_1920x1080.jpg?w=150",
+            "source": "wwd"
         },
         {
-            "title": "Vodafone promo codes for September 2026",
+            "title": "Meet the eight South Africans competing in Tropika Island of Treasure Season 12",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/deals/vodafone-promo-discount-codes-b2709539.html",
-            "image": "https://static.independent.co.uk/2025/03/05/16/01/vodafone-voucher-codes.png?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "url": "https://www.iol.co.za/news/south-africa/meet-the-eight-south-africans-competing-in-tropika-island-of-treasure-season-12-bc518c1b-540c-469b-b5ab-46481bfdbdc8",
+            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/14b99e8b46307b8377f077777d94c5b0034afb3c/4000&operation=CROP&offset=0x0&resize=4000x2250",
+            "source": "iol"
         },
         {
-            "title": "Computacenter profits nearly double on surging demand for AI infrastructure",
+            "title": "Opinion: Opinion | India Faces A BRICS Challenge. Can It Find A Way Through?",
             "severity": "WATCH",
-            "url": "https://www.standard.co.uk/news/uk/north-america-amazon-meta-germany-b1296131.html",
-            "image": "https://static.standard.co.uk/2026/09/08/09/30135616-17797119-eada-406a-bb9f-cf6f06cfbafe.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
+            "url": "https://www.ndtv.com/opinion/the-worlds-biggest-emerging-bloc-is-divided-can-india-fix-it-12018108",
+            "image": "https://c.ndtvimg.com/i9avq23g_brics-2018-reuters-650_625x300_26_July_18.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
         },
         {
-            "title": "\u2018Wow... My Vadodara\u2019: PM Modi Praises City\u2019s Cleanliness Drive Ahead Of Festive Season",
+            "title": "After Manipur Musician Killed In Delhi, Kiren Rijiju vs Rahul Gandhi",
             "severity": "WATCH",
-            "url": "https://ommcomnews.com/india-news/wow-my-vadodara-pm-modi-praises-citys-cleanliness-drive-ahead-of-festive-season/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/09/New-Project-2026-09-08T142342.493.jpg",
+            "url": "https://www.ndtv.com/india-news/after-manipur-musician-chongtham-vikram-singh-killed-in-delhi-kiren-rijiju-vs-rahul-gandhi-12018148",
+            "image": "https://c.ndtvimg.com/2026-09/2kevh0js_rijiju_625x300_08_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "Oasis: Don\u2019t Look Back in Anger \u2013 Tears, tantrums and Gallagher kids getting spangled every night",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/culture/film/review/2026/09/08/oasis-dont-look-back-in-anger-tears-tantrums-and-gallagher-kids-getting-spangled-every-night/",
+            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "irishtimes"
+        },
+        {
+            "title": "Color Masterbatch Market Report Now Available; Forecasts Market Growth from $4.94B (2026) to $6.68B by 2031, Profiling Avient, Ampacet, LyondellBasell, Tosaf, and 21 Other Key Players",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/09/08/3357549/28124/en/color-masterbatch-market-report-now-available-forecasts-market-growth-from-4-94b-2026-to-6-68b-by-2031-profiling-avient-ampacet-lyondellbasell-tosaf-and-21-other-key-players.html",
+            "image": "https://images.pexels.com/photos/35102453/pexels-photo-35102453.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Trump is threatening to ban Bombardier jet sales unless it builds planes in the U.S.",
+            "severity": "WATCH",
+            "url": "https://qz.com/trump-bombardier-ban-jet-sales-us-manufacturing-090826",
+            "image": "https://qz.com/cdn-cgi/image/width=600,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2292818482.jpg",
+            "source": "quartz"
+        },
+        {
+            "title": "3 E Network Outlines Full-Stack AI Storage Strategy Across Memory, SSDs and All-Flash Servers",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/09/08/3357542/0/en/3-e-network-outlines-full-stack-ai-storage-strategy-across-memory-ssds-and-all-flash-servers.html",
+            "image": "https://images.pexels.com/photos/20457113/pexels-photo-20457113.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "AGM Group and HashBeaver Jointly Develop Desktop DePIN Node for Bitcoin Mining",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/09/08/3357543/0/en/agm-group-and-hashbeaver-jointly-develop-desktop-depin-node-for-bitcoin-mining.html",
+            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "With elderly population set to double by 2050, govt looks to step up healthcare, caregiving services",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/news/india/with-elderly-population-set-to-double-by-2050-govt-looks-to-step-up-healthcare-caregiving-services/articleshow/133923590.cms",
+            "image": "https://img.etimg.com/thumb/msid-133923740,resizemode-4,width-1200,height-900,imgsize-209540,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Jail Mobile Phone Case: Prajwal Revanna Sent To Two-Day Police Custody",
+            "severity": "WATCH",
+            "url": "https://ommcomnews.com/india-news/jail-mobile-phone-case-prajwal-revanna-sent-to-two-day-police-custody/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/09/20240531105-1-scaled-e1788868243468.jpg",
             "source": "ommcomnews"
         },
         {
-            "title": "MIDA: East Coast poised to become food security hub, green economy leader",
+            "title": "'Digital duty of care' laws will force tech platforms to look after users",
             "severity": "WATCH",
-            "url": "https://www.thestar.com.my/business/business-news/2026/09/08/mida-east-coast-poised-to-become-food-security-hub-green-economy-leader",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4099545.jpg",
-            "source": "thestar_my"
+            "url": "https://phys.org/news/2026-09-digital-duty-laws-tech-platforms.html",
+            "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/social-media-platforms-1.jpg",
+            "source": "phys"
         },
         {
-            "title": "PM Modi Unveils Rs 35,000 Cr Projects In Vadodara; Marks Completion Of Western Dedicated Freight Corridor",
+            "title": "MSTR, COIN, CRCL Stocks Dip: Crypto Equities Pull Back After Bitcoin's $82K Rejection",
             "severity": "WATCH",
-            "url": "https://ommcomnews.com/india-news/pm-modi-unveils-rs-35000-cr-projects-in-vadodara-marks-completion-of-western-dedicated-freight-corridor/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/09/New-Project-2026-09-08T142206.277.jpg",
-            "source": "ommcomnews"
+            "url": "https://newsable.asianetnews.com/markets/mstr-coin-crcl-stocks-dip-crypto-equities-pull-back-after-bitcoin-s-82k-rejection-articleshow-g1zxnb2",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-dc666d14-8bae-43c0-8af0-77e639550ff4.webp",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "iPhone Ultra leaks as Apple to reveal dramatic redesign \u2013 but there\u2019s a catch",
+            "title": "Hungary expels 10 Russian diplomats for 'unacceptable activities'",
             "severity": "WATCH",
-            "url": "https://www.independent.co.uk/tech/iphone-ultra-apple-leaks-rumours-b3046400.html",
-            "image": "https://static.independent.co.uk/2026/09/08/09/2026-09-03T220006Z_1482800952_RC21VGA4OETK_RTRMADP_3_APPLE-BASF-LAWSUIT.JPG?width=1200&auto=webp&trim=1%2C0%2C1%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "Mathew VanDyke, Ukrainian co-accused to also be charged under Foreigners Act: Report",
-            "severity": "WATCH",
-            "url": "https://www.firstpost.com/india/mathew-vandyke-ukrainian-co-accused-to-also-be-charged-under-foreigners-act-report-14044101.html",
-            "image": "https://images.firstpost.com/uploads/2026/09/Firstpost-1920x1080-27-2026-09-82ddbec34aa2f74b8bc20e898adcb63f-1200x675.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "London\u2019s approach to knife crime is working",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/world-news/londons-approach-to-knife-crime-is-working-101788857291416.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/08/1600x900/logo/photo-1588597575483-f4e43e191c94_1788857406626_6aaef990-2dbc-45ad-8e48-178d456e2d81_1788857417341_975e7fec-5e00-4ed5-96d0-30d507b6b8d9_e419d746-a476-4793-ab51-5f5b342690bc_e701017e-ddb9-48a7-9443-ca27c3aeb817.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Donald Trump\u2019s Latest Promise Is Savaged By Critics, Including A Former MAGA Ally",
-            "severity": "WATCH",
-            "url": "https://www.huffpost.com/entry/donald-trump-iran-post-reaction_n_6a9f905ce4b06fa65f9ba9f8",
-            "image": "https://img.huffingtonpost.com/asset/6a9fc6c43c000047274e680c.jpeg?cache=nFCGKxQYVU&ops=1778_1000",
-            "source": "huffpost"
-        },
-        {
-            "title": "UK commits \u20ac116m for Ukraine's winter air defence, including Patriot missiles",
-            "severity": "WATCH",
-            "url": "http://www.euronews.com/my-europe/2026/09/08/uk-commits-116m-for-ukraines-winter-air-defence-including-patriot-missiles",
-            "image": "https://images.euronews.com/articles/stories/09/90/52/75/1440x810_cmsv2_12a69c09-4ff6-5984-83d5-1d0af9b60b01-9905275.jpg",
+            "url": "http://www.euronews.com/my-europe/2026/09/08/hungary-expels-10-russian-diplomats-for-unacceptable-activities",
+            "image": "https://images.euronews.com/articles/stories/09/90/54/37/1440x810_cmsv2_e1ebd172-4b3a-5e6b-9e18-b009e7e56086-9905437.jpg",
             "source": "euronews"
         },
         {
-            "title": "Noida DM Under Fire Again: CJP Questions Rs 5 Lakh Student Notice",
+            "title": "UP STF nabs two brothers wanted in Rs 500-crore investment fraud",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/city/noida/noida-gautam-buddha-nagar-dm-university-student-rs-5-lakh-notice-cjp-saurav-das-article-156118439",
-            "image": "https://images.timesnownews.com/thumb/msid-156118718,thumbsize-85053,width-1280,height-720,resizemode-75/156118718.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Jackie O claims investors misled on fallout",
-            "severity": "WATCH",
-            "url": "https://au.news.yahoo.com/jackie-o-claims-investors-misled-084402396.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/0d7c25d2448223e803b4b597ec505f5f65f7f76cb14c27d48789cbfee149446d/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnca_newswire_424%2Fa55ad91b9ee3c6f734790a9e0d7991c9.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Noida student gets notice for participating in Jantar Mantar protest, revoked later",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/noida-news/noida-student-gets-notice-for-participating-in-jantar-mantar-protest-revoked-later-101788856875616.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/01/27/1600x900/logo/ht-generic_cities2_1769511880449_1769511907099.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Inside the crazy party life of alleged crypto scammers who went on spending spree after $240 million bitcoin theft",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/world/americas/malone-lam-bitcoin-court-case-b3046371.html",
-            "image": "https://static.independent.co.uk/2026/09/07/12/Crypto_Scam_57749.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "url": "https://www.news18.com/agency-feeds/up-stf-nabs-two-brothers-wanted-in-rs-500-crore-investment-fraud-10316786.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
+            "source": "news18"
         }
     ],
-    "Last_Updated": "2026-09-08T20:59:45.557581Z"
+    "Last_Updated": "2026-09-08T23:57:58.206953Z"
 }
