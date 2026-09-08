@@ -1,265 +1,309 @@
 {
-    "AGRI_Score": 61.3,
-    "Velocity": "-0.5",
+    "AGRI_Score": 59.5,
+    "Velocity": "-1.8",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 59.5/100 indicates a notably elevated risk environment, primarily driven by severe disruptions in global energy markets and persistent geopolitical tensions. The looming \"Shortage of fuel oil looms large in 3Q\" significantly elevates the \"Energy & Maritime Disruption\" pillar, acting as a key driver for the overall score. Concurrently, ongoing diplomatic friction, evidenced by \"Trump envoys confronted over Putin talks during Kyiv visit,\" maintains high \"Geopolitical Conflict Intensity.\" Furthermore, emerging and concealed cyber threats contribute to the complex and interconnected risk landscape.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 79.0,
+        "Geopolitical Conflict Intensity": 70.2,
         "Energy & Maritime Disruption": 81.5,
-        "Trade & Supply Chain Stress": 62.7,
+        "Trade & Supply Chain Stress": 65.0,
         "Sovereign Financial Stress": 57.7,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 63.0,
+        "Sanctions & Regulatory Fragmentation": 60.4,
+        "Cyber & Infrastructure Threats": 55.8,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar remains elevated due to persistent international diplomatic friction surrounding major conflicts. \"Trump envoys confronted over Putin talks during Kyiv visit\" highlights ongoing disagreements and the sensitive nature of international relations.  ",
+        "Energy & Maritime Disruption": "This pillar is significantly high, driven by impending supply concerns in critical energy markets. The warning of a \"Shortage of fuel oil looms large in 3Q\" indicates a critical bottleneck for energy supplies in the near future. ",
+        "Trade & Supply Chain Stress": "The score for this pillar reflects moderate stress, likely exacerbated by the downstream effects of energy disruptions. While no direct high-severity supply chain headlines are present, the impending \"Shortage of fuel oil\" could cascade into broader logistical challenges. ",
+        "Sovereign Financial Stress": "This pillar indicates a moderate level of stress, with no immediate high-severity financial market shocks reported. Financial systems appear to be under routine monitoring without new significant sovereign pressures. ",
+        "Currency & Liquidity Pressure": "This pillar suggests baseline activity, indicating that currency and liquidity markets are not experiencing significant new pressures. No specific news points to notable shifts in foreign exchange rates or liquidity conditions. ",
+        "Sanctions & Regulatory Fragmentation": "This pillar maintains a higher risk profile, reflective of an environment with ongoing geopolitical tensions that often lead to complex regulatory landscapes. While no new sanctions are detailed, the existing fragmentation continues to pose compliance challenges. ",
+        "Cyber & Infrastructure Threats": "This pillar is under notable pressure due to high-severity revelations regarding AI system vulnerabilities and potential misuse. The news that \"OpenAI hid AI agent hijacking of German wiki forum for weeks\" underscores the persistent and evolving nature of digital threats. ",
+        "Climate & Resource Shock": "Despite a lower score, emerging environmental patterns indicate a potential for future increase in resource-related risks. The \"El Nino\u2019s impact more evident\" headline suggests growing pressures on climate-sensitive sectors and resources, alongside localized events like \"The Nepal flash flood.\" "
+    },
     "All_Alerts": [
         {
-            "title": "Germany\u2019s \u2018Right Turn\u2019: 4 Takeaways From AfD\u2019s Strongest Win Since World War II",
+            "title": "El Nino\u2019s impact more evident",
             "severity": "HIGH",
-            "url": "https://www.news18.com/world/germanys-right-turn-4-takeaways-from-afds-strongest-win-since-world-war-ii-ws-kl-10314359.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/09/a25b3fcee50c8e396273469567e72cd4_2_1788772232442-1200x800.jpg",
+            "url": "https://www.thestar.com.my/business/business-news/2026/09/08/el-ninos-impact-more-evident",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4098674.JPG",
+            "source": "thestar_my"
+        },
+        {
+            "title": "The 9 most beautiful places to visit in Albania, ranked",
+            "severity": "HIGH",
+            "url": "https://qz.com/most-beautiful-places-visit-albania",
+            "image": "https://qz.com/cdn-cgi/image/width=600,quality=85,format=auto/https://assets.qz.com/media/adventure-albania-Kqr2Mt_jIus-unsplash.jpg",
+            "source": "quartz"
+        },
+        {
+            "title": "Shortage of fuel oil looms large in 3Q",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/09/08/shortage-of-fuel-oil-looms-large-in-3q",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4098323.JPG",
+            "source": "thestar_my"
+        },
+        {
+            "title": "OpenAI hid AI agent hijacking of German wiki forum for weeks \u2014 because its model did the exact same thing in the Hugging Face attack",
+            "severity": "HIGH",
+            "url": "https://www.techradar.com/pro/security/openai-hid-ai-agent-hijacking-of-german-wiki-forum-for-weeks-because-its-model-did-the-exact-same-thing-in-the-hugging-face-attack",
+            "image": "https://cdn.mos.cms.futurecdn.net/bqTLGsRATg4oc47RW3PJbi-1280-80.jpg",
+            "source": "techradar_au"
+        },
+        {
+            "title": "Trump envoys confronted over Putin talks during Kyiv visit: \u2018Don\u2019t you find it disgusting?\u2019",
+            "severity": "MEDIUM",
+            "url": "https://www.independent.co.uk/news/world/europe/trump-envoys-putin-kushner-witkoff-kyiv-moscow-confront-b3046094.html",
+            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "independentuk"
+        },
+        {
+            "title": "How at 46 I got my wobbly mum tum to look like this: These 11 simple steps meant I lost 30kg fast - from my breakfast secret to precisely how much water to drink and the no-effort regime that really works, by RACHAEL SACERDOTI",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/lifestyle/fitness-wellbeing/article-15549581/49-wobbly-mum-tum-look-like-lost-30kg-simple-steps-RACHAEL-SACERDOTI.html",
+            "image": "https://i.dailymail.com/1s/2026/02/11/12/106293141-0-image-m-21_1770813313767.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "NALCO signs tech deal with Emirates Global Aluminium for Odisha smelter",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/business/nalco-signs-tech-deal-with-emirates-global-aluminium-for-odisha-smelter-articleshow-akz2wzz",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-1fbd054d-f54e-458d-a824-30a059281818.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Finland shares higher at close of trade; OMX Helsinki 25 up 0.63%",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/stock-market-news/finland-shares-higher-at-close-of-trade-omx-helsinki-25-up-063-4859787",
+            "image": "https://content-media.investing.com/news/moved_LYNXNPEL901ZY_L.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Bought Fake Spices? Try These FSSAI-Recommended Tests For Black Pepper, Cloves And Cinnamon",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/lifestyle/home-garden/bought-fake-spices-try-these-fssai-recommended-tests-for-black-pepper-cloves-and-cinnamon-ws-l-10314596.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/09/Spices-2026-09-a140b81e9676322079a58ddcc68d8c83-1200x800.png",
             "source": "news18"
         },
         {
-            "title": "How Iranian Money Is Still Moving Through US Banks Despite Sanctions",
-            "severity": "HIGH",
-            "url": "https://www.ndtv.com/world-news/us-iran-war-how-iranian-money-is-still-moving-through-us-banks-despite-sanctions-12012740",
-            "image": "https://c.ndtvimg.com/2026-09/5tk0pv44_iran_625x300_01_September_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
-        },
-        {
-            "title": "7 Career lessons nobody teaches you in college, but every professional learns the hard way",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/industry/services/education/7-career-lessons-nobody-teaches-you-in-college-but-every-professional-learns-the-hard-way/articleshow/133876362.cms",
-            "image": "https://img.etimg.com/thumb/msid-133876919,resizemode-4,width-1200,height-900,imgsize-177642,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Ukraine brings back Cold War-era R-60: Why Kyiv is using 1970s missile against Russia\u2019s jet-powered drones and cruise missiles",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/ukraine-brings-back-cold-war-era-r-60-why-kyiv-is-using-1970s-missile-against-russia-s-jet-powered-drones-and-cruise-missiles-article-14024408.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260907103625_Ukraine-Missile-R60.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "From UP to Chhattisgarh: The students who died in Satya Niketan PG building collapse",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/india-news/from-up-to-chhattisgarh-the-students-lost-in-the-satya-niketan-pg-collapse-delhi-deceased-aiims-101788773064615.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/07/1600x900/logo/du_students_1788775654299_0f6024b9-7bf9-4c25-955a-ba9665484da1_1788775662254_42a23961-8bcd-4ef0-8698-27bf38bdc874_e9da2d9b-4fdc-4f24-a298-a8a8c895cf56_e82658d9-e471-43e8-84a5-19fc27ce2450.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Mohanlal's Operation Ganga gets military expertise as Squadron Leader Varlin Panwar joins Vishnu Mohan's film",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/entertainment/regional/mohanlal-s-operation-ganga-gets-military-expertise-as-squadron-leader-varlin-panwar-joins-vishnu-mohan-s-film-article-14024405.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260907102753_Mohanlal-stars-in-Operation-Ganga.png",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "India needs double-digit factory growth, Bank of America says",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/economy/indicators/india-needs-double-digit-factory-growth-bank-of-america-says/articleshow/133876459.cms",
-            "image": "https://img.etimg.com/thumb/msid-133876744,resizemode-4,width-1200,height-900,imgsize-39696,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "LPG Refill Booking Window In Rural Areas Slashed To 25 Days, Effective Immediately",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/business/lpg-refill-booking-window-cut-to-25-days-in-rural-areas-1865622",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/08/24/ad7b471e0d7acc349998cceb307f8def1787543371726215_original.jpg",
-            "source": "abplive"
-        },
-        {
-            "title": "Trump's trade war with Canada is becoming a ballot box issue ahead of U.S. midterms - CTV News",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPbmVuOEw4SFZTRnYzUG9GQmNISHJVcTF0U3hZYkFFSnA2R1E2b1BHemdJVUJTY09tRldxYTY5MzVlSG1XX25vYXdwX04xZzlRMGhxTTduOEFIRFM5OWFHTHN0SjI2dWYwc0RQU2swSEpqd2lFY0tWUFYtdV9xajNhcXdrVmRXQzQ1MW5HUWFhNlFRVTVFTUFPdFI5X0RBUWFKTThTOXhEQkFOMzRDaFMyRVJqM3MyM2k1LU9SbTVaeEpDUmhwWWVzNGVYc3BmQQ?oc=5",
-            "image": "https://images.pexels.com/photos/5014710/pexels-photo-5014710.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Grindr pays \u00a326m to settle UK lawsuit over allegedly sharing users\u2019 HIV status",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/business/2026/sep/07/grindr-settle-uk-lawsuit-dating-app-ad",
-            "image": "https://i.guim.co.uk/img/media/c3ab739c6cb52fe06c96710731f7dfcb732b5989/34_178_2692_2155/master/2692.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=68aad4577780a1ffc679146befdf1ee7",
-            "source": "theguardian"
-        },
-        {
-            "title": "Judge slams county's 'obvious conflict of interest' in suit seeking use-of-force records",
-            "severity": "HIGH",
-            "url": "https://www.latimes.com/california/story/2026-09-07/judge-slams-countys-obvious-conflict-of-interest-in-suit-seeking-use-of-force-records",
-            "image": "https://ca-times.brightspotcdn.com/dims4/default/66d69d7/2147483647/strip/false/crop/4800x3200+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F3d%2F3c%2Fc1d88ce248eb8ea200ddc9acc339%2F1520787-me-la-county-hall-of-administration01-als.jpg",
-            "source": "latimes"
-        },
-        {
-            "title": "Majority of Spaniards unhappy with government's handling of Ceuta crisis, poll shows",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/majority-spaniards-unhappy-governments-handling-095203968.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/f416b577ecf423f95046d7455b6a99e916d594da6183276ef009502dc2795baf/lightyear_networkapi/resizefill_w800_h553%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2F0715e63d7eaa11dab44044e9f0f2c020.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Fresh faces, fresh hope: Rahul Gandhi bets on new team to revive its fortunes across six states",
-            "severity": "MEDIUM",
-            "url": "https://zeenews.india.com/india/fresh-faces-fresh-hope-rahul-gandhi-bets-on-new-team-to-revive-its-fortunes-across-six-states-3070382.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/09/07/1979957-mixcollage-07-sep-2026-03-35-pm-9696.jpg",
-            "source": "zeenews"
-        },
-        {
-            "title": "BARMM polls: Group opposes alleged militarization of \u2018historic vote'",
-            "severity": "MEDIUM",
-            "url": "https://www.inquirer.net/487789/barmm-polls-group-opposes-alleged-militarization-of-historic-vote/",
-            "image": "https://www.inquirer.net/wp-content/uploads/2025/05/BARMM-LOGO-620x349.png",
-            "source": "inquirer"
-        },
-        {
-            "title": "Charismatic candidate propels German far-right party to victory after giving it a friendly face",
-            "severity": "MEDIUM",
-            "url": "https://www.beaumontenterprise.com/news/world/article/charismatic-candidate-propels-german-far-right-22420549.php",
-            "image": "https://s.hdnux.com/photos/01/67/21/44/31267074/3/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "Bitcoin Slips Below $80,000 as Strong US Jobs Data Revives Fed Rate Hike Bets",
-            "severity": "MEDIUM",
-            "url": "https://www.gadgets360.com/cryptocurrency/news/bitcoin-slips-below-usd-80000-as-strong-us-jobs-data-revives-fed-rate-hike-bets-crypto-markets-prices-btc-eth-12012849",
-            "image": "https://i.gadgets360cdn.com/large/cryptomarkets04092026_muhammadasyfaul_unsplash_main_1788774506970.png",
-            "source": "gadgets360"
-        },
-        {
-            "title": "What FCCPC may demand for affected riders as Uber leaves Nigeria",
+            "title": "Ben Macintyre reveals why true story behind new book shows how the \"world might not exist at all\"",
             "severity": "WATCH",
-            "url": "https://www.legit.ng/business-economy/industry/1729385-uber-shut-nigeria-what-fccpc-demand-affected-riders/",
-            "image": "https://cdn.legit.ng/images/1200x675/97517356e94e411f.jpeg?v=1",
-            "source": "legit"
+            "url": "https://www.radiotimes.com/books/ben-macintyre-vladimir-kuzichkin-interview/",
+            "image": "https://images.immediate.co.uk/production/volatile/sites/3/2024/12/52uktv78275066797-copy-e9e5b22-e1733589963515.jpg",
+            "source": "radiotimes"
         },
         {
-            "title": "An Asian experience with handcrafted dim sums, signature sushi, and crafted cocktails",
+            "title": "Water-jet guided laser cuts high-temperature alloys with 99% less heat damage",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/food/dining/an-asian-experience-with-handcrafted-dim-sums-signature-sushi-and-crafted-cocktails/article71414352.ece",
-            "image": "https://th-i.thgim.com/public/incoming/kma7z5/article71414349.ece/alternates/FREE_1200/Orgins-2%201.jpg",
-            "source": "thehindu"
+            "url": "https://interestingengineering.com/innovation/new-water-jet-guided-laser-improves-high-temperature-alloys",
+            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/09/IE-7.jpg",
+            "source": "interestingengineering"
         },
         {
-            "title": "Top Wall Street analysts like these 3 stocks for the long haul",
+            "title": "The DESI legacy imaging survey releases the largest 2D map of the universe",
             "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/09/07/top-wall-street-analysts-like-these-3-stocks-for-the-long-haul.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108354637-1787762835529-gettyimages-2291592494-2026_aug_26_nvidia_0227.jpeg?v=1787762914&w=1200&h=675",
-            "source": "cnbc"
+            "url": "https://phys.org/news/2026-09-desi-legacy-imaging-survey-largest.html",
+            "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-desi-legacy-imagin.jpg",
+            "source": "phys"
         },
         {
-            "title": "Oasis \u2018express concerns\u2019 as unheard archive of recordings goes up for sale",
+            "title": "NALCO signs EGA technology deal for 0.5 MTPA Odisha smelter expansion",
             "severity": "WATCH",
-            "url": "https://www.standard.co.uk/news/uk/liam-gallagher-british-adidas-dad-cardiff-b1296027.html",
-            "image": "https://static.standard.co.uk/2026/09/07/11/9b661e1fbe8298b932022cdc264d0547Y29udGVudHNlYXJjaGFwaSwxNzg4ODU4OTgy-2.1027671.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
-        },
-        {
-            "title": "India's veg oil imports strain port ops",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/industry/cons-products/food/indias-vegetable-oil-imports-strain-port-storage-delaying-unloading/articleshow/133876834.cms",
-            "image": "https://img.etimg.com/thumb/msid-133876867,resizemode-4,width-1200,height-900,imgsize-279748,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Mourinho sees Real Madrid new signing as fully compatible with key defender",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/mourinho-sees-real-madrid-signing-103500148.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/a19b84b217963f16c756129d6d870ceb5a30a85804828e88c0a4869b297abf26/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmadrid_universal_articles_561%2F3dbd3308e498babf32595f1451f8e6a5.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Nifty ends below 23,800 level; media shares under pressure",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/nifty-ends-below-23-800-level-media-shares-under-pressure-126090700813_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "The bond market had a whirlwind week. Where these traders see buying opportunities",
-            "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/09/07/the-bond-market-had-a-whirlwind-week-where-these-traders-see-buying-opportunities.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108292456-1776344977502-gettyimages-2271011685-baglietto-notitle260415_npuld.jpeg?v=1788744345&w=1200&h=675",
-            "source": "cnbc"
-        },
-        {
-            "title": "Ontario education changes are coming this fall. Here\u2019s everything you need to know.",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/toronto/article/ontario-education-changes-are-coming-this-fall-heres-everything-you-need-to-know/",
-            "image": "https://www.ctvnews.ca/resizer/v2/RAVTBLAL3QCXN2UZF3VV34AGPY.jpg?auth=a2b4cc372d1a28829b41d798835513aaa977820f1cfa90d127c9bcca580192fe&smart=true&width=1020&height=574",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Radisson expands Gujarat footprint with two new hotels",
-            "severity": "WATCH",
-            "url": "https://hospitalitybizindia.com/news-track/radisson-expands-gujarat-footprint-with-two-new-hotels/",
-            "image": "https://hospitalitybizindia.com/wp-content/uploads/2026/09/IMG_4348-scaled.jpeg",
-            "source": "hospitalitybizindia"
-        },
-        {
-            "title": "Scientists found an estimated 5.5 million wild bees beneath just 1.5 acres of a New York cemetery, more than three times Manhattan's human population",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/science/wildlife/scientists-found-an-estimated-5-5-million-wild-bees-beneath-just-1-5-acres-of-a-new-york-cemetery-more-than-three-times-manhattans-human-population/articleshow/133876398.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133876546/133876546.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "UEFA to honour Nepal flood victims before Champions League matches",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/agency-feeds/uefa-to-honour-nepal-flood-victims-before-champions-league-matches-10314681.html",
+            "url": "https://www.news18.com/agency-feeds/nalco-signs-ega-technology-deal-for-0-5-mtpa-odisha-smelter-expansion-10315351.html",
             "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
             "source": "news18"
         },
         {
-            "title": "US Market Open To Indian Space Startups, Investors Watching: Sergio Gor",
+            "title": "Scientists Captured Trillionth-of-a-Second Snapshots of a Chemical Reaction Essential to Life",
             "severity": "WATCH",
-            "url": "https://ommcomnews.com/business-news/us-market-open-to-indian-space-startups-investors-watching-sergio-gor/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/09/202609073933326-e1788776355516.jpg",
-            "source": "ommcomnews"
+            "url": "https://www.discovermagazine.com/scientists-captured-trillionth-of-a-second-snapshots-of-a-chemical-reaction-essential-to-life-49642",
+            "image": "https://cdn.discovermagazine.com/assets/image/60371/water-molecules-t.jpg",
+            "source": "discovermagazine"
         },
         {
-            "title": "Big Relief For Rural LPG Users: Centre Cuts Refill Booking Wait To 25 Days",
+            "title": "Ledyard Beautification Committee Approves Spending For Daffodil Planting Day",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/business-economy/economy/big-lpg-relief-for-rural-households-centre-cuts-refill-booking-wait-to-25-days-article-156102937",
-            "image": "https://images.timesnownews.com/thumb/msid-156102928,thumbsize-80308,width-1280,height-720,resizemode-75/156102928.jpg",
-            "source": "timesnownews"
+            "url": "https://patch.com/connecticut/ledyard/ledyard-beautification-committee-approves-spending-daffodil-planting-day",
+            "image": "https://patch.com/img/cdn20/shutterstock/22994611/20260907/104018/styles/patch_image/public/shutterstock-1916421725-2___07103905088.jpg",
+            "source": "patch"
         },
         {
-            "title": "Taking Stock: Nifty below 23,800, Sensex slips 383 pts; IT, media worst hit",
+            "title": "Adrian Scarborough reveals why The Chelsea Detective has been a hit \u2013 and the appeal of 'cosy crime'",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/markets/taking-stock-nifty-below-23-800-sensex-slips-383-pts-it-media-worst-hit-14024255.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260623063222_fall.jpeg",
-            "source": "moneycontrol"
+            "url": "https://www.radiotimes.com/tv/drama/the-chelsea-detective-adrian-scarborough-interview/",
+            "image": "https://images.immediate.co.uk/production/volatile/sites/3/2025/05/TCD3030219RT-copy-3f11ddc-e1746876526774.jpg",
+            "source": "radiotimes"
         },
         {
-            "title": "Fatima Sana fined for Shafali Verma sendoff gesture",
+            "title": "I'm an expert on the Bayeux Tapestry and this is the important truth behind it that we need to remember",
             "severity": "WATCH",
-            "url": "https://www.cricbuzz.com/cricket-news/140091/womens-asia-cup-2026-fatima-sana-fined-for-shafali-verma-sendoff-gesture",
-            "image": "https://static.cricbuzz.com/a/img/v1/540x303/i1/c1069261/fatima-sana-was-fined-10-of-her-match-fee-and-handed-a-demerit-point.jpg",
-            "source": "cricbuzz"
+            "url": "https://www.radiotimes.com/tv/documentaries/bayeux-tapestry-expert-david-musgrove-comment/",
+            "image": "https://images.immediate.co.uk/production/volatile/sites/3/2025/08/354571-copy-643ae95-e1755281313663.jpg",
+            "source": "radiotimes"
         },
         {
-            "title": "Red Roses name experienced squad for home leg of WXV Global Series",
+            "title": "The Nepal flash flood and a cricket team in a state of shock: 'If one person is cut, they all bleed'",
             "severity": "WATCH",
-            "url": "https://www.skysports.com/rugby-union/news/12040/13582740/red-roses-name-25-world-cup-winners-in-36-player-squad-for-home-leg-of-wxv-global-series",
-            "image": "https://e2.365dm.com/26/04/1920x1080/skysports-ellie-kildunne-england_7220506.jpg?20260415084523",
-            "source": "skysports"
+            "url": "https://www.nytimes.com/athletic/7571931/2026/09/07/nepal-flash-flood-cricket-law-pandey/",
+            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/09/07090808/GettyImages-2292898517-scaled.jpg?width=1200&height=675&fit=cover",
+            "source": "theathleticuk"
         },
         {
-            "title": "Zee shares fall over 6% as CBI registers case against Subhash Chandra over alleged Rs 1,322-cr LIC Housing loan fraud",
+            "title": "Healthy loan growth likely for banks in 2026",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/markets/zee-shares-fall-over-6-as-cbi-registers-case-against-subhash-chandra-over-alleged-rs-1-322-cr-lic-housing-loan-fraud-14024400.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/08/20260803055438_zee-entertainment.jpg",
-            "source": "moneycontrol"
+            "url": "https://www.thestar.com.my/business/business-news/2026/09/08/healthy-loan-growth-likely-for-banks-in-2026",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4098672.jpeg",
+            "source": "thestar_my"
         },
         {
-            "title": "Keralam\u2019s Muttil tree-felling case: court defers framing of charges against Augustine brothers to Sept. 11",
+            "title": "Filmmakers capture the \u2018Tiger Spirit\u2019",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/kerala/keralams-muttil-tree-felling-case-court-defers-framing-of-charges-against-augustine-brothers-to-sept-11/article71437745.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
+            "url": "https://www.thestar.com.my/news/nation/2026/09/08/filmmakers-capture-the-tiger-spirit",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4098335.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Donald Trump's peace chiefs descend on Kyiv \u2013 three reasons this visit matters",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/us/2246204/donald-trumps-peace-chiefs-descend",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/198/237x141/2246204_1_nb.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Newington Pool Committee Seeks Town Council Direction As It Studies Renovation Options",
+            "severity": "WATCH",
+            "url": "https://patch.com/connecticut/newington/newington-pool-committee-seeks-town-council-direction-it-studies-renovation",
+            "image": "https://patch.com/img/cdn20/shutterstock/22994611/20260904/050740/styles/patch_image/public/shutterstock-1103947310___04170659265.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "Fire breaks out at paint shop in Faridabad, spreads to three adjacent shops",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/agency-feeds/fire-breaks-out-at-paint-shop-in-faridabad-spreads-to-three-adjacent-shops-10315355.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "Fowl play exposes illegal sundry shop",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/news/nation/2026/09/08/fowl-play-exposes-illegal-sundry-shop",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4098353.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "M\u2019sia foreign equity ownership hits rock bottom",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/09/08/msia-foreign-equity-ownership-hits-rock-bottom",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4098329.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "MACC probes delay in fertiliser supply to Kedah",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/news/nation/2026/09/08/macc-probes-delay-in-fertiliser-supply-to-kedah",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4098623.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Westports beats bottlenecks with agility, capacity",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/09/08/westports-beats-bottlenecks-with-agility-capacity",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4098683.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Supportive outlook for the plantation sector",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/09/08/supportive-outlook-for-the-plantation-sector",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4098676.jpeg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "HRC renews Shell Malaysia supply deal",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/09/08/hrc-renews-shell-malaysia-supply-deal",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4098693.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "UK hiring accelerates for the first time in four years, index shows",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/09/08/ukhiring-accelerates-for-the-first-time-in-four-years-index-shows",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/08/4098648.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Yankees Birthday of the Day: Suzyn Waldman",
+            "severity": "WATCH",
+            "url": "https://www.pinstripealley.com/yankees-history-trivia/205984/yankees-history-birthday-september-7-suzyn-waldman",
+            "image": "https://platform.pinstripealley.com/wp-content/uploads/sites/124/2026/09/gettyimages-1157809966.jpg?quality=90&strip=all&crop=0,16.663939790576,100,66.672120418848",
+            "source": "pinstripealley"
+        },
+        {
+            "title": "Will we pay for Trump\u2019s bond market turmoil?",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/listen/programs/abc-news-daily/will-we-pay-for-trump-s-bond-market-turmoil-/107125176",
+            "image": "https://live-production.wcms.abc-cdn.net.au/dabecf042932afd916bfb29485d82e36.jpg?src",
+            "source": "abc_net"
+        },
+        {
+            "title": "Southington Police Logs: Aug. 18 to Aug. 31, 2026",
+            "severity": "WATCH",
+            "url": "https://patch.com/connecticut/southington/southington-police-logs-aug-18-aug-31-2026",
+            "image": "https://patch.com/img/cdn20/users/25990360/20260527/020831/styles/patch_image/public/southington-police-department-arrest-log-logo___27140754580.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "Killingworth Parks Commission Addresses South Field Contract, Approves Fall Field Use",
+            "severity": "WATCH",
+            "url": "https://patch.com/connecticut/thehaddams-killingworth/killingworth-parks-commission-addresses-south-field-contract",
+            "image": "https://patch.com/img/cdn20/shutterstock/22994611/20260905/090103/styles/patch_image/public/shutterstock-572757691-1___05210017680.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "Crypto scam ringleader who allegedly stole over $240-million in bitcoin set to appear in U.S. court",
+            "severity": "WATCH",
+            "url": "https://www.theglobeandmail.com/business/article-crypto-scam-ringleader-who-allegedly-stole-over-240-million-in-bitcoin/",
+            "image": "https://www.theglobeandmail.com/resizer/v2/EA2JJFY5UZCQBJWGLPLZSXIWII.jpg?auth=bcdd47764afc58b29fe4fa4b199da251a615d7d003e4ae2ffd64d7b62a98d185&smart=true&width=5712&height=3808",
+            "source": "theglobeandmail"
+        },
+        {
+            "title": "Bayeux Tapestry \u2014 How To Get Tickets To Sold-Out British Museum Show",
+            "severity": "WATCH",
+            "url": "https://www.forbes.com/sites/joanneshurvell/2026/09/07/bayeux-tapestry---how-to-get-tickets-to-sold-out-british-museum-show/",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/6a9ed9b4959e25291c35a026/0x0.jpg?width=960",
+            "source": "forbes"
+        },
+        {
+            "title": "Man charged with assaults during Glasgow Green protests disorder",
+            "severity": "WATCH",
+            "url": "https://www.bbc.co.uk/news/articles/c5y70pk8d84o",
+            "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf89/live/5b7a3f50-aaca-11f1-9ffe-379165646670.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "Specialist police squad to use \u00a3150 night-vision goggles to identify illegal 'ghost' number plates",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/money/cars/article-16111295/Specialist-police-squad-use-150-night-vision-goggles-identify-illegal-ghost-number-plates.html",
+            "image": "https://i.dailymail.com/1s/2026/09/07/12/111096813-0-image-a-7_1788782216804.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Adults Love These 5 Sour Candies Way More Than Kids Do",
+            "severity": "WATCH",
+            "url": "https://www.thedailymeal.com/2249003/sour-candies-adults-love/",
+            "image": "https://www.thedailymeal.com/img/gallery/sour-candies-adults-love/l-intro-1788455439.jpg",
+            "source": "thedailymeal"
+        },
+        {
+            "title": "'Stupid' Edinburgh Hibs fan who ran onto pitch and tripped over barrier given ban",
+            "severity": "WATCH",
+            "url": "https://uk.news.yahoo.com/stupid-edinburgh-hibs-fan-ran-122622070.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/68981c374173635d456150c31d79aa3d038ba9ef2bdfbf324b4524689da97677/lightyear_networkapi/resizefill_w810_h539%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fedinburgh_live_607%2F084b1bf583a4f71d98c2cfb652eae24d.jpg",
+            "source": "yahoo"
         }
     ],
-    "Last_Updated": "2026-09-07T22:43:04.591689Z"
+    "Last_Updated": "2026-09-08T04:01:29.824195Z"
 }
