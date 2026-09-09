@@ -1,239 +1,258 @@
 {
-    "AGRI_Score": 61.3,
-    "Velocity": "+0.9",
-    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 61.3 is currently elevated, primarily driven by critically high levels in Geopolitical Conflict Intensity and Energy & Maritime Disruption. The escalation of conflict in the Middle East, as evidenced by \"Oil Crosses $100 Per Barrel As Iran War Escalates Amid Renewed Strikes On Tankers\" and \"Oil hits $100 a barrel for first time in months as Middle East conflict intensifies again,\" is directly fueling global energy price surges and heightening maritime risks. This is compounded by persistent hostilities between Russia and Ukraine and intensifying trade disputes, creating a complex and volatile global risk environment.",
+    "AGRI_Score": 62.1,
+    "Velocity": "+0.8",
+    "Top_Risk_Driver": "Energy & Maritime Disruption",
+    "AI_Brief": "Analyst system calibrating.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 82.3,
+        "Geopolitical Conflict Intensity": 80.2,
         "Energy & Maritime Disruption": 81.5,
-        "Trade & Supply Chain Stress": 64.6,
-        "Sovereign Financial Stress": 57.8,
+        "Trade & Supply Chain Stress": 68.5,
+        "Sovereign Financial Stress": 58.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 58.0,
+        "Sanctions & Regulatory Fragmentation": 58.2,
+        "Cyber & Infrastructure Threats": 61.9,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity is exceptionally high, primarily due to the escalating \"Iran War\" and renewed strikes on tankers in the Middle East, as well as persistent hostilities between Russia and Ukraine, with \"Russian drones kills 2 in Ukraine's Moldova.\" The incident in Ceuta, described as a \"hybrid attack\" aimed at \"weakening the EU,\" further underscores a broadening spectrum of adversarial actions aimed at destabilizing regions.",
-        "Energy & Maritime Disruption": "This pillar exhibits critical levels of disruption, directly linked to the \"Iran War escalates amid renewed strikes on tankers\" pushing \"Oil Crosses $100 Per Barrel\" and driving Brent Crude \"Back Above $100.\" Fears of \"Strait of Hormuz disruption\" further elevate maritime transit risks, with reports of \"Pakistani soldiers reportedly clash over tanker supply\" highlighting regional supply chain fragility.",
-        "Trade & Supply Chain Stress": "Trade and supply chain stress remains elevated, evidenced by \"Trump\u2019s US trade war with Canada escalates\" and its impact on the economy, keeping it \"top of mind for many Americans.\" The reported \"Pakistani soldiers reportedly clash over tanker supply\" indicates localized but potentially cascading disruptions to vital commodity flows.",
-        "Sovereign Financial Stress": "Sovereign financial stress warrants continued monitoring, as escalating energy prices due to \"Oil Crosses $100 Per Barrel\" can strain national budgets and import-dependent economies. The \"escalat[ing] trade war with Canada\" also presents potential economic headwinds that could indirectly impact fiscal stability for involved nations.",
-        "Currency & Liquidity Pressure": "While no direct currency crises are reported, the surge in \"Oil Crosses $100 Per Barrel\" exerts upward pressure on import bills for energy-dependent nations, potentially weakening their currencies. Persistent economic uncertainties stemming from geopolitical conflicts and trade disputes could also subtly impact investor confidence and liquidity.",
-        "Sanctions & Regulatory Fragmentation": "Regulatory fragmentation is a concern, as the \"US trade war with Canada\" illustrates the imposition of trade barriers that create complex compliance landscapes. The \"hybrid attack\" in Ceuta suggests potential for new security-related regulations or border controls to emerge within the EU.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are notable, with a \"US firm shows how AI helped hijack WeChat account with just 1 unanswered call\" demonstrating sophisticated digital vulnerabilities. The \"Russian drones kills 2 in Ukraine's Moldova\" highlights ongoing physical infrastructure risks stemming from active conflict zones.",
-        "Climate & Resource Shock": "This pillar currently shows baseline activity, with no immediate large-scale climate or resource shocks reported that directly escalate geopolitical risk. While localized health concerns are noted in the \"Somalia : Health Cluster Bulletin,\" they do not indicate a broader systemic climate or resource-driven crisis at this time."
-    },
+    "Pillar_Narratives": {},
     "All_Alerts": [
         {
-            "title": "Oil Crosses $100 Per Barrel As Iran War Escalates Amid Renewed Strikes On Tankers",
+            "title": "Renewed U.S.-Iran exchanges send oil price back over $100 US for first time in several weeks - CBC",
             "severity": "HIGH",
-            "url": "https://www.forbes.com/sites/siladityaray/2026/09/09/oil-prices-cross-100-as-iran-war-escalates-amid-renewed-strikes-on-tankers/",
-            "image": "https://imageio.forbes.com/specials-images/imageserve/6aa11c224ff75fd35aa5d3c0/0x0.jpg?width=960",
-            "source": "forbes"
-        },
-        {
-            "title": "Oil hits $100 a barrel for first time in months as Middle East conflict intensifies again",
-            "severity": "HIGH",
-            "url": "https://www.nbcnews.com/business/business-news/oil-hits-100-barrel-middle-east-conflict-intensifies-us-iran-trump-gas-rcna596752",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/rockcms/2026-09/260909-oil-rs-706d13.jpg",
-            "source": "nbcnews"
-        },
-        {
-            "title": "In maps and charts: Russian and Ukrainian attacks on civilian targets",
-            "severity": "HIGH",
-            "url": "https://www.aljazeera.com/news/2026/9/9/in-maps-and-charts-russian-and-ukrainian-attacks-on-civilian-targets",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/INTERACTIVE-Russia-Ukraine-civilian-infrastructure-poster-image-1788945421.png?resize=1200%2C630",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Oil Shock Returns: Brent Crude Back Above $100 As Markets Remain On Edge",
-            "severity": "HIGH",
-            "url": "https://www.timesnownews.com/business-economy/economy/oil-shock-returns-brent-crude-back-over-100-oil-markets-remain-edgy-article-156124991",
-            "image": "https://images.timesnownews.com/thumb/msid-156125002,thumbsize-2160973,width-1280,height-720,resizemode-75/156125002.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Pakistani soldiers reportedly clash over tanker supply",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/trends/pakistani-soldiers-reportedly-clash-over-tanker-supply-14026096.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260909084128_pakistaniii.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "John Fetterman has become so toxic Democrats don\u2019t want him on the campaign trail: report",
-            "severity": "HIGH",
-            "url": "https://ca.news.yahoo.com/john-fetterman-become-toxic-democrats-084557589.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/70164b211b1a9fea05f5eae6f9402bc8164f7ab298b6f2a070626c13a5a3f796/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2Fa439a0cfcb064a574cbc6f02da365a7b.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Russian drones kills 2 in Ukraine's Moldova; Zelenskyy urges stronger global response",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/europe/russian-drones-kills-2-in-ukraines-moldova-zelenskyy-urges-stronger-global-response/articleshow/133960782.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133960828/133960828.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Trump\u2019s US trade war with Canada explained",
-            "severity": "HIGH",
-            "url": "https://www.channel4.com/news/trumps-us-trade-war-with-canada-explained",
-            "image": "https://fournews-assets-prod-s3-ew1-nmprod.s3.amazonaws.com/media/2026/09/BRK_YT_5-1920x1080.jpg",
-            "source": "channel4"
-        },
-        {
-            "title": "Economy remains top of mind for many Americans as trade war with Canada escalates",
-            "severity": "HIGH",
-            "url": "https://www.npr.org/2026/09/09/nx-s1-5961306/economy-remains-top-of-mind-for-many-americans-as-trade-war-with-canada-escalates",
-            "image": "https://media.npr.org/include/images/facebook-default-wide.jpg",
-            "source": "npr"
-        },
-        {
-            "title": "Somalia : Health Cluster Bulletin - July - August 2026",
-            "severity": "HIGH",
-            "url": "https://reliefweb.int/report/somalia/somalia-health-cluster-bulletin-july-august-2026",
-            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "reliefweb"
-        },
-        {
-            "title": "US firm shows how AI helped hijack WeChat account with just 1 unanswered call - South China Morning Post",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd0c3MWhBWWd3b3gtemdXWWZVTXpfSW9rQnNQUy1xck9HTklTaXRERW5VcE01QjFIUjhtb2llblVPWXluWVVtc3BESGIwdlY1Q2VRSElLU2pUOUw4UXp3aGdNekRNUkZCR1E5V3p5MGVCUTR1LWFFQXBMWjY3REtYc1I5M3pJRG9VTHYxaWZfZE1GOHd4OHQzWGJoNFgxSkFVYW84R3JnNEVWbnVWNFF5TUhpSXdwSDIw?oc=5",
-            "image": "https://images.pexels.com/photos/586031/pexels-photo-586031.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0yQm81bGc5SkdjYUdhdlEyMVpUa055VDhpbXA5ZkVVV2MzSFRqbU52em1IYndyRlQwVVowVFpqc1FVZ1VJV285UVhNLU9XZzdGd3M4dExpY1ZoX2ZtcU4tZkhmRnVPYlBMbGs4NnI0d3V5a1Zo?oc=5",
+            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Former Spanish minister: Ceuta incident was a \"hybrid attack\" aimed at \"weakening\" the EU",
+            "title": "Brent oil hits US$100 as U.S.-Iran war shows little sign of abating",
             "severity": "HIGH",
-            "url": "http://www.euronews.com/video/2026/09/09/former-spanish-minister-ceuta-incident-was-a-hybrid-attack-aimed-at-weakening-the-eu",
-            "image": "https://images.euronews.com/articles/stories/09/90/64/96/1200x675_cmsv2_fe8378f3-1289-5f0c-afa7-60038b0a1538-9906496.jpg",
-            "source": "euronews"
+            "url": "https://financialpost.com/commodities/energy/oil-gas/brent-oil-hits-us100-as-u-s-iran-war-shows-little-sign-of-abating",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/09/0910-bc-hormuz-.jpg",
+            "source": "financialpost"
         },
         {
-            "title": "Did Akshay Kumar just announce the title of his next film with Anees Bazmee on his birthday? Check it out",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/htcity/cinema/did-akshay-kumar-just-announce-the-title-of-his-next-film-with-anees-bazmee-on-his-birthday-check-it-out-101788942031363.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/09/1600x900/logo/raashi1_1788943468257_3301f291-6df8-4386-9ae9-7816c8970816_1788943468405_f6bb2b6f-ffc8-4651-9899-9a43ce831814_96ab78a1-1b42-4b52-996a-6b0a8da57bca_0fd47f7e-a772-40b7-9199-2eff2634e00e.jpg",
+            "title": "Iran uses cluster warheads in major Jordan strike? 20 ballistic missiles target USA's Al-Azraq base",
+            "severity": "HIGH",
+            "url": "https://www.hindustantimes.com/videos/iran-uses-cluster-warheads-in-major-jordan-strike-20-ballistic-missiles-target-usas-al-azraq-base-101788954936735.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/09/1600x900/logo/maxresdefault_1788954932645_12b8a7c6-6bb5-4b4a-9f95-aa281fdbc595_1788954968174_94876263-4e88-4823-8311-c8bb7c4c6cb3_db910b06-bb55-465d-964b-1f6bcabdee80_31bac17e-25bb-4497-a3d4-afbf58ce44b3.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "Girl, 8, infected with dangerous bacteria after swallowing sea water",
-            "severity": "WATCH",
-            "url": "https://metro.co.uk/2026/09/09/girl-8-infected-dangerous-bacteria-swallowing-sea-water-29535283/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/coverimages55962907-af79.jpg?quality=90&strip=all",
-            "source": "metro"
+            "title": "NATO preparing for protracted confrontation with Russia \u2014 diplomat",
+            "severity": "HIGH",
+            "url": "https://tass.com/politics/2184793",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
         },
         {
-            "title": "Looking for your next job? These sectors are driving India's 14% hiring growth. Check the full list here",
-            "severity": "WATCH",
-            "url": "https://www.businesstoday.in/jobs/story/looking-for-your-next-job-these-sectors-are-driving-indias-14-hiring-growth-check-the-full-list-here-554254-2026-09-09",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202609/6aa11bd654f59-for-people-at-the-start-of-their-careers--the-latest-numbers-offer-some-positive-signs-ai-generate-094152901-16x9.png?size=1280:720",
-            "source": "businesstoday"
+            "title": "\u2018DAU\u2019 Director Ilya Khrzhanovsky Responds to Ukraine Backlash at Venice: I Wish for the Ukrainian Government to \u2018Save the Country and Win This War\u2019",
+            "severity": "HIGH",
+            "url": "https://variety.com/2026/film/festivals/dau-director-ilya-khrzhanovsky-ukraine-venice-peace-success-1236855538/",
+            "image": "https://variety.com/wp-content/uploads/2026/09/GettyImages-2294293005.jpg",
+            "source": "variety"
         },
         {
-            "title": "New Moon in Virgo: Pick a Card to Discover What This Lunar Cycle Holds",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/astrology/tarot-readings/new-moon-in-virgo-pick-a-card-to-discover-what-this-lunar-cycle-holds/articleshow/133972453.cms",
-            "image": "https://img.etimg.com/thumb/msid-133972525,resizemode-4,width-1200,height-900,imgsize-177996,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Schumer and Jeffries opposed a Brooklyn power play. It happened anyway.",
-            "severity": "WATCH",
-            "url": "https://www.politico.com/news/2026/09/09/schumer-and-jeffries-opposed-a-brooklyn-power-play-it-happened-anyway-01068169",
-            "image": "https://static.politico.com/f5/12/e2d8c8cb41889804bec4ef5f893d/u-s-congress-248-9.jpg",
-            "source": "politico"
-        },
-        {
-            "title": "LOHUM dispatches first tranche of lithium ore from Zimbabwe mining assets",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/agency-feeds/lohum-dispatches-first-tranche-of-lithium-ore-from-zimbabwe-mining-assets-10318269.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/07/News18_Business_Section_Default_Image_1600x900-2025-07-454f4d093355309283e1b9f3be42698a-3x2.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "Indian food professionals to visit European apple and kiwi producers in Greece and Poland",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/pr-spot/indian-food-professionals-to-visit-european-apple-and-kiwi-producers-in-greece-and-poland-articleshow-rrk41ih",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m22n5eedxsz1q7rb9212tvhg,imgname-pr-6-1788943186381.jpeg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Oil jumps above $100 a barrel as US-Iran fighting raises Strait of Hormuz disruption fears",
-            "severity": "WATCH",
-            "url": "https://www.businessinsider.com/oil-price-passes-100-per-barrel-us-iran-fighting-resumes-2026-9",
-            "image": "https://i.insider.com/6aa11804ec15fe2d3cf14f86?format=jpeg",
-            "source": "insider"
-        },
-        {
-            "title": "Bangladesh faces the world\u2019s deadliest measles outbreak in history amid vaccine supply problems",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/asia/south-asia/bangladesh-measles-outbreak-hospitals-vaccine-b3047097.html",
-            "image": "https://static.independent.co.uk/2026/09/09/09/2026-09-09T064911Z_647527997_RC2CENAVP47V_RTRMADP_3_BANGLADESH-HEALTH-MEASLES.JPG?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "This Hawaii company is making boats from volcanic rock and recycled plastic instead of traditional materials",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/us/this-hawaii-company-is-making-boats-from-volcanic-rock-and-recycled-plastic-instead-of-traditional-materials/articleshow/133960198.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133960198/133960198.jpg",
+            "title": "Blackouts, fuel shortages and empty taps: How Cuba\u2019s energy crisis is disrupting daily life",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/world/rest-of-world/blackouts-fuel-shortages-and-empty-taps-how-cubas-energy-crisis-is-disrupting-daily-life/articleshow/133967307.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133967539/133967539.jpg",
             "source": "toi"
         },
         {
-            "title": "JPMorgan upgrades Lithium Americas stock rating on higher lithium prices",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/jpmorgan-upgrades-lithium-americas-stock-rating-on-higher-lithium-prices-93CH-4633798",
-            "image": "https://content-media.investing.com/news/moved_LYNXMPEM4519D_1200_L.jpg",
-            "source": "investing_au"
+            "title": "Trump\u2019s Big Day Ruined by Major New Blow in His War",
+            "severity": "HIGH",
+            "url": "https://www.thedailybeast.com/trumps-big-day-at-midterm-conference-ruined-by-major-new-blow-in-his-war-as-oil-tops-100-mark/",
+            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/5VNLYM7WLFDLVHKY7GNDWANNTE.JPG?auth=3a82eb4c3320209dcffef38526b5adc6861aad9a6aa1968ed5a99ce37c8f5029&smart=true&width=2482&height=1396",
+            "source": "thedailybeast"
         },
         {
-            "title": "Land grab probe: Custodial interrogation of Abhishek Banerjee's PA needed, West Bengal tells Supreme Court",
-            "severity": "WATCH",
-            "url": "https://www.deccanherald.com/india/west-bengal/land-grab-probe-custodial-interrogation-of-abhishek-banerjees-pa-needed-west-bengal-tells-supreme-court-4140273",
-            "image": "https://media.assettype.com/deccanherald/2026-09-09/llgxkea7/collage-2026-09-09T141146.717.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
+            "title": "From Arab Spring to US-Iran war \u2014 A history of oil price swings this century",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/2028620/from-arab-spring-to-us-iran-war-a-history-of-oil-price-swings-this-century",
+            "image": "https://i.dawn.com/large/2026/09/09161612ca7db39.webp",
+            "source": "dawn"
         },
         {
-            "title": "Phala Phala: Court bid says Ramaphosa had no right to block Madonsela",
-            "severity": "WATCH",
-            "url": "https://www.iol.co.za/news/phala-phala-court-bid-says-ramaphosa-had-no-right-to-block-madonsela-928194f5-72b8-4ba4-acdb-8d30a15b3422",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/597d90018ee6620cbad1f793785f39854b631bb7/1120&operation=CROP&offset=0x85&resize=1120x630",
-            "source": "iol"
+            "title": "WeChat fixes flaws after US firm shows AI cyberattack worm could hijack accounts - Malay Mail",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZm0tT044dzVfa0xGQXVRV0thWGstTzZaLVBBMGJab3A4QkNobE5RT3RDdmt0bS1TazFhZzBGTmtaZG9HMFdndEhSdFBETFR3dzd5Yi1xcUtWN213WTJXaXhPZVd4ZHVxNTAxWHlEYWo5S01VUXJhOTVDMnVqSDhEaWozVUVraEF5VjNyWXRLNG9MWW1UdmsxQmhYbDA5dDVZVlBNYXdISi16VFp6WHZPWi15TVZqNVQyY3p5czhVOGRVY3ZXSUZzYXFVaUVaUV91ZVRTVUxyT2g3d9IB3wFBVV95cUxQNFRzWW9CaVVQWjJUUlhLTkhlZ2prRVBGWElDckV4MkFCWnl1Q19mVEE4TFUyVmJwY1d3Zjgtc2E4bmZ6WlNCQ2VQdlZldTBsSkgtU2tjMkVoRExRQnBrdWNmWXVyX2plMkFJckhTTmIxeDFTZ3lBdkRGSnAtTHZMYmVONzhTdnloV3lhT3VLWVVKQk1CaHI1Uzh3UHYyR1c5X21SYkFRNzRSaWdaMXQxZFQyTlBFZnpNTzI1YkM4b25LOEQxcDFENUFBV3lNWTdhNnd2RklURi1aQjhhS1Nr?oc=5",
+            "image": "https://images.pexels.com/photos/7103185/pexels-photo-7103185.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "NIS 450 Million per month: The black-money pipeline under banks\u2019 noses",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/business-and-innovation/banking-and-finance/article-908035",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/737080",
-            "source": "jpost"
-        },
-        {
-            "title": "Malda Flood Update | Bhutni \u09a4\u09c7 \u09ad\u09af\u09bc\u09be\u09ac\u09b9 \u09ac\u09a8\u09cd\u09af\u09be, \u0986\u0995\u09be\u09b6\u09aa\u09a5\u09c7 \u098f\u09b2\u09be\u0995\u09be \u09aa\u09b0\u09bf\u09a6\u09b0\u09cd\u09b6\u09a8\u09c7 \u09b8\u09cd\u09aa\u09c7\u09b6\u09be\u09b2 \u099f\u09bf\u09ae | Bangla News",
-            "severity": "WATCH",
-            "url": "https://bengali.news18.com/videos/north-bengal/malda-flood-update-bhutni-bangla-news-2887032.html",
-            "image": "https://images.news18.com/static-bengali/uploads/2026/09/1788940983_5333b39b-523a-4275-a73c-19d2bd7a04cc-1200x720.jpeg",
-            "source": "bengali_news18"
-        },
-        {
-            "title": "Sickening new vid shows migrants posing for selfies with baby dolphin after it was dragged from Ceuta sea sparking fury",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/news/40317570/migrants-selfies-baby-dolphin-ceuta/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F09%2Fnewspress-collage-ezmx747iw-1788939784729.jpg?quality%3D90%26strip%3Dall%261788943409%261788943409",
-            "source": "thesun"
-        },
-        {
-            "title": "2026 BKC Security Scare Echoes 2023 Case: Army Man Used Tampered NSG Card To Get Close To PM Modi",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/mumbai/2026-bkc-security-scare-echoes-2023-case-army-man-used-tampered-nsg-card-to-get-close-to-pm-modi-article-156124291",
-            "image": "https://images.timesnownews.com/thumb/msid-156124498,thumbsize-75783,width-1280,height-720,resizemode-75/156124498.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Buy, Sell Or Hold: Coforge, TCS, Graphite India, Mazagon Dock, Zee Ent - Ask Profit",
-            "severity": "WATCH",
-            "url": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-coforge-tcs-graphite-india-maruti-suzuki-mazagon-dock-zee-entertainment-ask-profit-12004895",
-            "image": "https://c.ndtvimg.com/2026-09/rgvba9nc_buy-sell-or-hold_625x300_09_September_26.png",
+            "title": "Babar Azam's Off-Stump Uprooted As Pakistan Top Order Collapses Inside 90 Minutes At Edgbaston",
+            "severity": "HIGH",
+            "url": "https://sports.ndtv.com/cricket/babar-azams-off-stump-uprooted-as-pakistan-top-order-collapses-inside-90-minutes-at-edgbaston-12023389",
+            "image": "https://c.ndtvimg.com/2026-09/45g6sct8_babar-azam-getty_625x300_09_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
             "source": "ndtv"
+        },
+        {
+            "title": "Six in 10 Organizations Experienced at Least One Material Cyberattack in the Past 18 Months",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/09/09/3358518/0/en/six-in-10-organizations-experienced-at-least-one-material-cyberattack-in-the-past-18-months.html",
+            "image": "https://images.pexels.com/photos/11565603/pexels-photo-11565603.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "'A gamble with our lives': Ex-Anthropic researcher warns of AI 'catastrophe'",
+            "severity": "HIGH",
+            "url": "http://www.euronews.com/next/2026/09/09/a-gamble-with-our-lives-ex-anthropic-researcher-warns-of-ai-catastrophe",
+            "image": "https://images.euronews.com/articles/stories/09/90/70/64/1440x810_cmsv2_47ded1ce-c700-5792-8828-7ce5ca228568-9907064.jpg",
+            "source": "euronews"
+        },
+        {
+            "title": "If you breach the safety of daughters, you will have to choose between jail and hell: Yogi",
+            "severity": "HIGH",
+            "url": "https://www.prokerala.com/news/articles/a1810300.html",
+            "image": "https://files.prokerala.com/news/photos/imgs/1200/indian-may-face-jail-term-for-illegally-re-entering-us-1489873.jpg",
+            "source": "prokerala"
+        },
+        {
+            "title": "\u201cI felt his grace from day one\u201d: Peggy Ovire recalls first meeting with Pete Edochie",
+            "severity": "MEDIUM",
+            "url": "https://www.legit.ng/entertainment/celebrities/1729825-i-felt-grace-instantly-peggy-ovire-recounts-meeting-pete-edochie/",
+            "image": "https://cdn.legit.ng/images/1200x675/dc08d1d0b7f1ce84.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Kornacki Cam: Watch Steve analyze Rhode Island primary election results",
+            "severity": "MEDIUM",
+            "url": "https://www.nbcnews.com/video/kornacki-cam-watch-steve-analyze-rhode-island-primary-election-results-269534789686",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_09/Kornacki_Cam_-_Decision_2026-o9pdhu.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "Vucic Dissolves Parliament\u2014Serbia to Hold Elections on October 25",
+            "severity": "MEDIUM",
+            "url": "https://www.bluewin.ch/en/news/vucic-dissolves-parliament-serbia-to-hold-elections-on-october-25-li.3593626",
+            "image": "https://bluewin-prod-sc-images.imgix.net/2026/09/09/df2ce899-edef-4fa3-a2d4-175d9781e3a9.jpg?w=1024&auto=format&s=6d49da0b73a50d32406846b2ac706e84",
+            "source": "bluewin"
+        },
+        {
+            "title": "Real Madrid star Thibaut Courtois to skip Nations League campaign after showdown talks with Belgium boss Mark van Bommel",
+            "severity": "MEDIUM",
+            "url": "https://uk.sports.yahoo.com/news/real-madrid-star-thibaut-courtois-112652834.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/941ad065726c0e0c7984815d301a45dbc2440c2155f848398e4f37e1c71bb59a/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgoal_uk_815%2F27cdeb9f4e73793f606b6acbec738b0c.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Healey in line for \u00a35.6bn boost from stock market rally",
+            "severity": "WATCH",
+            "url": "https://uk.finance.yahoo.com/news/healey-line-5-6bn-boost-115625882.html",
+            "image": "https://media.zenfs.com/en/the_telegraph_818/fb00fe6b43d30454884e471d746dbb1c.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Oil surge and Fed rate bets rattle futures ahead of Apple's iPhone event",
+            "severity": "WATCH",
+            "url": "https://uk.finance.yahoo.com/news/oil-surge-fed-rate-bets-115600842.html",
+            "image": "https://media.zenfs.com/en/proactive_uk_164/db963a29539e0a5ba42d29fdd85cf20b.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Panasonic\u2019s new appliance makes bread and ice cream \u2013 and it couldn\u2019t be simpler to use",
+            "severity": "WATCH",
+            "url": "https://www.independent.co.uk/extras/indybest/house-garden/kitchen-appliances/panasonic-bread-and-ice-cream-maker-review-b3046585.html",
+            "image": "https://static.independent.co.uk/2026/09/08/14/38/Panasonic-bread-and-ice-cream-maker-SD-PMC100-IndyBest.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+            "source": "independentuk"
+        },
+        {
+            "title": "Brent oil tops $100 on Mideast flare-up, fanning inflation fears",
+            "severity": "WATCH",
+            "url": "https://www.news.com.au/breaking-news/brent-oil-tops-100-on-mideast-flareup-fanning-inflation-fears/news-story/10f0e9c892efaa2b8ed8e8b326a3e37b",
+            "image": "https://content.api.news/v3/images/bin/cf5e9378d9ec467d63cf6cbbb937eb16",
+            "source": "news"
+        },
+        {
+            "title": "France co-hosts major space summit with Germany despite US firms' withdrawals and Merz absence",
+            "severity": "WATCH",
+            "url": "http://www.euronews.com/my-europe/2026/09/09/france-co-hosts-major-space-summit-with-germany-despite-us-firms-withdrawals-and-merz-abse",
+            "image": "https://images.euronews.com/articles/stories/09/90/68/83/1440x810_cmsv2_1bf6f0a2-de06-5cd8-968e-5d2514bc26bc-9906883.jpg",
+            "source": "euronews"
+        },
+        {
+            "title": "Severstal expects steel consumption in Russia to decline in 2026-2027",
+            "severity": "WATCH",
+            "url": "https://tass.com/economy/2184789",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
+        },
+        {
+            "title": "Bigg Boss Tamil 10: Ansar\u2019s Shocking Wall-Jumping Attempt Caught on Camera, Watch Viral Video",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/gallery/entertainment/bigg-boss-tamil-10-ansar-shocking-wall-jumping-attempt-caught-on-camera-watch-viral-video-a0fwzx6",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m22h2xn9zyg3esm2hvq5g07y,imgname-bigg-boss-tamil-1788938909353.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Is GTA 6 Coming to PC Earlier Than Expected? Here\u2019s What We Know",
+            "severity": "WATCH",
+            "url": "https://www.igeeksblog.com/gta-6-pc-release-date/",
+            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "igeeksblog"
+        },
+        {
+            "title": "The Employment Paradox: Why skilling one crore in AI will not create one crore jobs",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/jobs/hr-policies-trends/the-employment-paradox-why-skilling-one-crore-in-ai-will-not-create-one-crore-jobs/articleshow/133967733.cms",
+            "image": "https://img.etimg.com/thumb/msid-133967836,resizemode-4,width-1200,height-900,imgsize-57544,overlay-etcareers/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Hunter Biden Cashes Infamy\u2019s Golden Ticket. He\u2019s Not the First",
+            "severity": "WATCH",
+            "url": "https://www.newsweek.com/hunter-biden-laptop-meme-coin-infamy-golden-ticket-12419774",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/09/AP26163617290347.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Aldi urges shoppers to do 5 things in stores to support British farmers",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/news/uk/2246991/aldi-urges-shoppers-do-5-things",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/1/237x141/2246991_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "What China's push into biomanufacturing means for the next industrial era",
+            "severity": "WATCH",
+            "url": "https://www.weforum.org/stories/manufacturing-and-value-chains/biomanufacturing-could-china-be-leading-the-next-industrial-revolution/",
+            "image": "https://assets.weforum.org/article/image/responsive_large_zDvDouI_LDVXaQbfQ9-aCs7e8-7Q22iU4DiHE1SMY1A.JPG",
+            "source": "weforum"
+        },
+        {
+            "title": "EU proposes new rules to simplify public tenders, promotes \"Buy European\"",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/economy-news/eu-proposes-new-rules-to-simplify-public-tenders-promotes-buy-european-4862213",
+            "image": "https://content-media.investing.com/news/LYNXMPEE3P0SY_M.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "No current plans to designate Tagore forest as a nature reserve: Chee Hong Tat",
+            "severity": "WATCH",
+            "url": "https://www.channelnewsasia.com/singapore/tagore-forest-nature-reserve-conservation-chee-hong-tat-mnd-6372971",
+            "image": "https://dam.mediacorp.sg/image/upload/s--vLSWJOtf--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/09/09/image_6.png?itok=eFt-Tw-h",
+            "source": "channelnewsasia"
+        },
+        {
+            "title": "Why THIS moment between Helen Skelton and Gethin Jones set tongues firmly wagging at the NTAs. DOLLY BUSBY saw it ALL. This is what happened when she confronted the 'friends' over the rumours that just won't go away...",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/tvshowbiz/article-16117283/Helen-Skelton-Gethin-Jones-NTAs-rumours.html",
+            "image": "https://i.dailymail.com/1s/2026/09/09/12/111139625-0-image-a-29_1788952864771.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Land grab probe: Custodial interrogation of Abhishek Banerjee\u2019s PA needed, West Bengal tells SC",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/news/national/west-bengal/land-grab-probe-custodial-interrogation-of-abhishek-banerjees-pa-needed-west-bengal-tells-sc/article71447047.ece",
+            "image": "https://th-i.thgim.com/public/incoming/r54jf6/article71447137.ece/alternates/FREE_1200/PTI09_07_2026_000103A.jpg",
+            "source": "thehindu"
+        },
+        {
+            "title": "Technical View: Nifty 50 bears gain momentum, June low in focus; Bank Nifty may target July low as VIX spikes",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/markets/technical-view-nifty-50-bears-gain-momentum-june-low-in-focus-bank-nifty-may-target-july-low-as-vix-spikes-14026277.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260723081040_fall1.jpeg",
+            "source": "moneycontrol"
         }
     ],
-    "Last_Updated": "2026-09-09T20:47:03.216901Z"
+    "Last_Updated": "2026-09-09T23:58:38.486857Z"
 }
