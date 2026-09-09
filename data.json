@@ -1,239 +1,225 @@
 {
-    "AGRI_Score": 62.9,
-    "Velocity": "+2.4",
-    "Top_Risk_Driver": "Geopolitical Conflict Intensity",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 62.9/100 is predominantly driven by heightened Geopolitical Conflict Intensity and significant Energy & Maritime Disruption. These pillars reflect ongoing direct military actions, such as the \"US Military Says It Destroyed Five Iranian Oil Carriers After Attempted Missile Attacks,\" and market volatility from \"Oil jumps on new Houthi attacks, Kharg blasts.\" Elevated Trade & Supply Chain Stress, exacerbated by rising food inflation, further contributes to the overall risk landscape, creating a complex and volatile global environment.",
+    "AGRI_Score": 60.4,
+    "Velocity": "-2.5",
+    "Top_Risk_Driver": "Energy & Maritime Disruption",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 60.4 is critically elevated, primarily driven by intense geopolitical conflict and severe energy market disruptions. Direct military engagements between the U.S. and Iran, including \"US, Iran trade strikes in Hormuz strait as war escalates\" and \"Iran attacks US base in Jordan, ships near Hormuz after tankers sunk,\" have significantly escalated global tensions. This conflict directly impacts energy markets, with \"Brent crude approaches $100 a barrel,\" leading to substantial energy and maritime disruption risks that weigh heavily on global markets.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 86.0,
+        "Geopolitical Conflict Intensity": 73.8,
         "Energy & Maritime Disruption": 81.5,
-        "Trade & Supply Chain Stress": 65.9,
+        "Trade & Supply Chain Stress": 67.1,
         "Sovereign Financial Stress": 57.8,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.7,
-        "Cyber & Infrastructure Threats": 63.8,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 62.0,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar is highly elevated due to active military engagements and severe diplomatic breakdowns, exemplified by the \"US Military Says It Destroyed Five Iranian Oil Carriers After Attempted Missile Attacks\" and Israel's retaliatory measures following a diplomatic spat. Tensions are further inflamed by the \"US Navy blockade on Iran\" and accusations against UK politicians regarding sanctions on Israeli settlements, indicating a deeply fractured international political climate.",
-        "Energy & Maritime Disruption": "The significant score in this pillar reflects direct threats to energy infrastructure and maritime shipping routes, as evidenced by \"Oil jumps on new Houthi attacks, Kharg blasts\" and the destruction of \"Five Iranian Oil Carriers.\" These incidents underscore the acute vulnerability of global energy supplies and transportation, contributing to market anxieties and commodity price surges.",
-        "Trade & Supply Chain Stress": "This pillar reflects considerable strain from persistent inflationary pressures and increasing consumer costs, with headlines warning that \"Food inflation expected to reach almost 4% by Christmas.\" The rising cost of basic goods, such as the reported increase in \"grocery costs since 2020,\" indicates a sustained pressure on supply chains to meet demand without escalating prices.",
-        "Sovereign Financial Stress": "National economies are grappling with the inflationary environment and the ripple effects of geopolitical instability, which can pressure fiscal budgets and consumer spending. While no sovereign defaults are reported, the broader economic unease, as seen in the \"S&P 500 falls as AI worries hit software makers,\" suggests a watchful approach to national financial health.",
-        "Currency & Liquidity Pressure": "Although no explicit currency crises are present, the ongoing global uncertainties, driven by conflict and energy market volatility, necessitate close monitoring of currency movements. Central banks are likely maintaining vigilance to manage potential shifts in capital flows and liquidity within financial systems.",
-        "Sanctions & Regulatory Fragmentation": "This pillar is shaped by the expansion of economic pressure tactics and their diplomatic consequences, highlighted by discussions around a \"US Navy blockade on Iran\" and the political fallout from proposed sanctions on Israeli settlements. The increasing use of sanctions and the resultant diplomatic friction, such as \"Israel hits back at Miliband and closes UK consulate,\" signals a challenging regulatory environment.",
-        "Cyber & Infrastructure Threats": "Cyber security concerns are persistent, with reports of a \"US firm alerts WeChat to AI hacking tool\" indicating evolving digital threats to critical data and platforms. Additionally, incidents like the \"Calgary city council votes to raise confidential document breach to province\" underscore the ongoing vulnerabilities in information security, both external and internal.",
-        "Climate & Resource Shock": "Current reporting indicates baseline activity concerning immediate climate and resource shocks, with no specific high-severity events highlighted in the news feed. Ongoing monitoring is in place for any emergent environmental or resource-related disruptions that could impact global stability."
+        "Geopolitical Conflict Intensity": "Escalating military actions between the U.S. and Iran have pushed this pillar to critical levels, with direct strikes reported in \"US, Iran trade strikes in Hormuz strait as war escalates\" and \"Iran attacks US base in Jordan, ships near Hormuz after tankers sunk.\" The expansion of the conflict poses severe risks to regional and international stability, demanding immediate diplomatic and security attention.",
+        "Energy & Maritime Disruption": "This pillar reflects severe disruption, driven by the direct conflict in crucial maritime passages and its impact on oil prices. \"Brent crude approaches $100 a barrel\" and \"Asian shares trade mixed as rising oil prices weigh on markets\" highlight the immediate economic strain, exacerbated by reports of the \"U.S. military says it destroyed five Iranian oil tankers.\" ",
+        "Trade & Supply Chain Stress": "Heightened geopolitical tensions in the Hormuz Strait, a vital shipping lane, pose a significant threat to global trade flows and increase operational costs. While specific supply chain disruptions are not detailed, the \"rising oil prices weigh on markets\" and maritime conflict inherently create stress for international logistics.",
+        "Sovereign Financial Stress": "The substantial increase in oil prices, with \"Brent crude approaches $100 a barrel,\" places considerable fiscal pressure on oil-importing nations and global markets. This upward trajectory in energy costs contributes to inflationary pressures and potentially wider sovereign financial vulnerabilities, as evidenced by \"Asian shares trade mixed as rising oil prices weigh on markets.\"",
+        "Currency & Liquidity Pressure": "Rising global oil prices and increased geopolitical instability contribute to an environment of elevated uncertainty, impacting investor sentiment and capital flows. This pressure can lead to currency depreciation in import-dependent economies and a tightening of overall market liquidity as risk aversion grows.",
+        "Sanctions & Regulatory Fragmentation": "While no new sanctions are detailed, the existing geopolitical landscape continues to necessitate complex compliance considerations for businesses. The mention of \"Donald Trump 'did not push back' on UK sanctions for Israeli West Bank settlements\" indicates ongoing regulatory actions, suggesting a persistent, albeit not immediately escalating, level of fragmentation.",
+        "Cyber & Infrastructure Threats": "The escalating \"US, Iran trade strikes\" implicitly elevates the risk of retaliatory cyber operations and physical infrastructure attacks, even if none are explicitly detailed in the provided feed. Such a hostile environment necessitates heightened vigilance across critical infrastructure sectors to prevent potential disruptions.",
+        "Climate & Resource Shock": "While \"US, Colombia seal critical minerals, nuclear pacts\" shows proactive efforts in resource security, there are no immediate global climate or resource shocks identified as major risk drivers. Localized issues like \"Grand Canyon water supply to be restored in weeks\" are being managed and do not indicate systemic stress."
     },
     "All_Alerts": [
         {
-            "title": "US Military Says It Destroyed Five Iranian Oil Carriers After Attempted Missile Attacks",
+            "title": "Asian shares trade mixed as rising oil prices weigh on markets",
             "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-09-08/us-military-says-it-destroyed-five-iranian-oil-carriers-after-attempted-missile-attacks",
-            "image": "https://www.usnews.com/dims4/USNEWS/8888cc0/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Fc8%2F03d91241cfdbf24271ab78c0d78cb2%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM8722C%3A12026-09-08T230328Z_1_LYNXMPEM8722C_RTROPTP_3_IRAN-CRISIS-USA-NAVY-CARRIERS.JPG",
-            "source": "usnews"
+            "url": "https://apnews.com/article/stock-markets-inflation-currencies-fed-rates-d1284eb72934a3b076c14449bc087fbd",
+            "image": "https://dims.apnews.com/dims4/default/6cf942d/2147483647/strip/false/crop/8640x5760+0+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F0a%2Ff3%2Fd97f2e9f7ebb28b7b92d737ed657%2F4d55c45a1142425bb5a9e95faa702572",
+            "source": "apnews"
         },
         {
-            "title": "Oil jumps on new Houthi attacks, Kharg blasts",
+            "title": "Asian shares are mixed as Brent crude approaches $100 a barrel",
             "severity": "HIGH",
-            "url": "https://www.thestar.com.my/business/2026/09/09/oil-jumps-on-new-houthi-attacks-kharg-blasts",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/09/4100574.jpeg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Has your family's weekly shop hit \u00a3140? How grocery costs have soared since 2020",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/money/markets/article-16115115/Has-familys-weekly-shop-hit-140-grocery-costs-soared-2020.html",
-            "image": "https://i.dailymail.com/1s/2026/09/08/17/111120205-0-image-a-2_1788885324506.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Food inflation expected to reach almost 4% by Christmas, industry warns",
-            "severity": "HIGH",
-            "url": "https://www.standard.co.uk/news/uk/office-for-national-statistics-angela-eagle-food-government-prime-minister-b1296251.html",
-            "image": "https://static.standard.co.uk/2026/09/09/00/34d1dbe00feedca9f5a3589fe2b03eeeY29udGVudHNlYXJjaGFwaSwxNzg4OTU1NTEw-2.71079005.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
-        },
-        {
-            "title": "Why your Christmas food shop is set to be more expensive this year",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/uk/home-news/uk-christmas-food-inflation-weather-b3046801.html",
-            "image": "https://static.independent.co.uk/2026/09/08/18/01M20GC1KSXKMGT49BPCDPEZGY.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
+            "url": "https://www.independent.co.uk/news/asian-brent-tokyo-iran-scott-bessent-b3046968.html",
+            "image": "https://static.independent.co.uk/2026/09/09/05/Japan_Financial_Markets_5_893.jpg?width=1200&auto=webp&crop=3%3A2",
             "source": "independentuk"
         },
         {
-            "title": "WWE GMs Adam Pearce and Nick Aldis argue over popular star",
+            "title": "U.S. military says it destroyed five Iranian oil tankers; Tehran hits back at American targets in Jordan",
             "severity": "HIGH",
-            "url": "https://www.sportskeeda.com/wwe/news-wwe-gms-adam-pearce-nick-aldis-argue-popular-star",
-            "image": "https://staticg.sportskeeda.com/editor/2026/09/44049-17889084140782-1920.jpg",
-            "source": "sportskeeda"
+            "url": "https://www.thehindu.com/news/international/us-military-says-it-destroyed-five-iranian-oil-tankers-tehran-hits-back-at-american-targets-in-jordan/article71445527.ece",
+            "image": "https://th-i.thgim.com/public/news/national/p5pl3z/article71445556.ece/alternates/FREE_1200/AFP__20260908__C7NU3G3__v1__HighRes__LebanonIsraelIranUsWar.jpg",
+            "source": "thehindu"
         },
         {
-            "title": "Israel hits back at Miliband and closes UK consulate, bars a dozen MPs and boots out military",
+            "title": "US, Iran trade strikes in Hormuz strait as war escalates: All you need to know",
             "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-16115819/Israel-hits-Miliband-UK-consulate-MPs-boots-military.html",
-            "image": "https://i.dailymail.com/1s/2026/09/08/23/111129253-0-image-a-11_1788908288994.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.khaleejtimes.com/world/mena/us-iran-strikes-strait-of-hormuz-september-9-all-you-need-to-know",
+            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-09-07/0y1risil/http___doc_afp_com_C7JQ7X8.jpeg",
+            "source": "khaleejtimes"
         },
         {
-            "title": "Brits warned food inflation could hit nearly 4% by Christmas - and price rises could continue next year",
+            "title": "A more perfect union? Congress has been the place where America tries to resolve its problems",
             "severity": "HIGH",
-            "url": "https://www.mirror.co.uk/money/food-inflation-christmas-2026-warning-37639596",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article36459790.ece/ALTERNATES/s615/0_Close-up-friends-carving-roasted-turkey-at-Christmas-dinner-table.jpg",
-            "source": "mirroruk"
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/a-more-perfect-union-congress-has-been-the-place-where-america-tries-to-resolve-its-problems/articleshow/133952237.cms",
+            "image": "https://img.etimg.com/thumb/msid-133952235,resizemode-4,width-1200,height-900,imgsize-199146,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Christmas misery for Brits as food inflation set to soar to 4% by the end of the year",
+            "title": "Donald Trump 'did not push back' on UK sanctions for Israeli West Bank settlements",
             "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/money/40308877/christmas-brits-food-inflation-costs/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2025%2F12%2Fstock-photo-showing-close-up-1042430870_0027db.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
+            "url": "https://www.dailystar.co.uk/news/latest-news/donald-trump-did-not-push-37641784",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37530204.ece/ALTERNATES/s615/2_TOPSHOT-US-ISRAEL-POLITICS-DIPLOMACY-TRUMP-NETANYAHU.jpg",
+            "source": "dailystar"
         },
         {
-            "title": "S&P 500 falls as AI worries hit software makers",
+            "title": "US, Colombia seal critical minerals, nuclear pacts",
             "severity": "HIGH",
-            "url": "https://www.thestar.com.my/business/2026/09/09/sp-500-falls-as-ai-worries-hit-software-makers",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/09/4100573.jpg",
-            "source": "thestar_my"
+            "url": "https://www.prokerala.com/news/articles/a1810107.html",
+            "image": "https://images.pexels.com/photos/18959221/pexels-photo-18959221.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "prokerala"
         },
         {
-            "title": "Hedge Funds Pile Into Fuels as U.S. Supply Squeeze Deepens - Crude Oil Prices Today | OilPrice.com",
+            "title": "Iran attacks US base in Jordan, ships near Hormuz after tankers sunk",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTnloSm1Cd0U1cFE2ZnNzQXdwZFY3Y2lLSWFEZTJMSE05ZE13bk9OVEJ3bUJSUzFTaWUzRklVam0wcWJYTzk3ejBxMks2ZUFEd09FZGFsYkEzclVGdGozb3MxUERMWW9xS2pLOUxyYkx1dDdtMmo3SE5ZMG1BaW1SS1Z3a1EyS0h3cXphSjFSWE4weWhhTWY3NHdmSEVybTFRVk8tSzZXZ9IBrAFBVV95cUxQMlNjNHc4WkNCQXpEOUdYYnZuRXVVTlFHQ1llY3RNV0xqdnZnZ1pDc0U3b3psblZWQlFmc2R4RUVzUHlqaWhWNVFmZFNMOHJfN0hDVjFONmFiejJhbXBMUmtqcmNLaW1TZW5Uc2FtUmhreEZndU5NcS14RVNGcGZ6VzRnTGVTVXZ5TUdObjJiNTVyVEFueUxXVnRrV1lKMVdVLVd1dHE0cXVGX0RZ?oc=5",
-            "image": "https://images.pexels.com/photos/5833772/pexels-photo-5833772.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://ca.news.yahoo.com/iran-attacks-us-jordan-ships-040647971.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/8741ff346a03d7c2fa997c7fdebe329f44d4e5e01704ab8224f9ef8725a7c8c6/lightyear_networkapi/resizefill_w800_h450%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2Ff34eb79abcfd14ee5ba430ef9cf92e29.jpg",
+            "source": "yahoo"
         },
         {
-            "title": "US Navy blockade on Iran: Could economic squeeze last long enough to force a policy shift \u2014 or 'regime change'?",
+            "title": "ASA partly upholds complaint against 'misleading' National attack ad",
             "severity": "HIGH",
-            "url": "https://gulfnews.com/world/mena/us-navy-blockade-on-iran-could-economic-squeeze-last-long-enough-to-force-a-policy-shift-or-regime-change-1.500666743",
-            "image": "https://media.assettype.com/gulfnews/2026-05-08/rahexk1b/newsml_afp_com_20260508T083215Z_doc_b2984an.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "Miliband accused of putting Jews in UK in danger: Chief Rabbi and Tory leader react furiously to Labour sanctions on Israeli settlements",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-16115899/Miliband-accused-Jews-UK-danger-Chief-Rabbi-Tory-leader-react-Labour-sanctions-Israeli.html",
-            "image": "https://i.dailymail.com/1s/2026/09/08/23/111128287-0-image-a-6_1788905685865.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Auckland mayor Wayne Brown rejects he put council in disrepute with 'terrorist' comment aimed at RNZ employee",
-            "severity": "HIGH",
-            "url": "https://www.rnz.co.nz/news/community/1309219/auckland-mayor-wayne-brown-rejects-he-put-council-in-disrepute-with-terrorist-comment-aimed-at-rnz-employee",
+            "url": "https://www.rnz.co.nz/news/politics_election-2026/1311337/asa-partly-upholds-complaint-against-misleading-national-attack-ad",
             "image": "https://images.pexels.com/photos/6755087/pexels-photo-6755087.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "rnz_co_nz"
         },
         {
-            "title": "Counterterrorism Expert to Newsmax: Biden Admin 'Papered Over' Election Breach",
+            "title": "Jodhpur High Court building case: 7 arrested, 1 detained after SIT probe into construction defects",
             "severity": "HIGH",
-            "url": "https://www.newsmax.com/politics/jim-hanson-2020-election-breach/2026/09/08/id/1268767",
-            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=0835E6A9-4C86-4FA1-9AEF-481CD2E74EF9",
-            "source": "newsmax"
+            "url": "https://www.prokerala.com/news/articles/a1810097.html",
+            "image": "https://images.pexels.com/photos/9973155/pexels-photo-9973155.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "prokerala"
         },
         {
-            "title": "Calgary city council votes to raise confidential document breach to province - CBC",
+            "title": "Apple\u2019s Foldable iPhone to Launch With a Price Tag of Over $2,000 After Being in Development for a Decade: Report",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQmVvVUZWR19OeHNTcU52MFZyY0h1dHJKcHljZ055T1JXdm5wdnNkdGVLekh4MndMa2VaX2RMNDVMdnRrWWFteFhqRk80cWR1NzNVZ3kzbXdLdExLcF81Q205cXFRakdwcVlqX1lzN0NBV3o1Q254UEMtQUtJNjRHc2djOTZ2dw?oc=5",
-            "image": "https://images.pexels.com/photos/34207359/pexels-photo-34207359.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://www.gadgets360.com/mobiles/news/apple-foldable-iphone-price-development-history-specifications-features-12021212",
+            "image": "https://i.gadgets360cdn.com/large/samsung-galaxy-z-fold8-review1_1785589683890.jpg",
+            "source": "gadgets360"
         },
         {
-            "title": "US firm alerts WeChat to AI hacking tool - Semafor",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTHMwLW12OHdQSVhaYzhhbW05N25yZnhCbEVJLU9hRHd3LUxHWVlHNm5aN0NOZVNTUTdxc3ZOMlY4d1FKd0tNZUs3SmxNaDlxV09GSjUzaGc1VU1FblZFTkpjRXF0czhNWjA1cVpoQTJuVU43R1l0S1ZQOEtXUnVyUnprWWdWdkhpTHkw?oc=5",
-            "image": "https://images.pexels.com/photos/28123697/pexels-photo-28123697.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "title": "German far-right party taunts chancellor after its election triumph. He says it won't win majority",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/german-far-right-party-taunts-chancellor-after-its-election-triumph-he-says-it-wont-win-majority/articleshow/133962567.cms",
+            "image": "https://img.etimg.com/thumb/msid-133962932,resizemode-4,width-1200,height-900,imgsize-100740,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "City councillor apologetic but unrepentant over leaking Calgary budget documents - Global News",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU0tsZUl2NjRqd2JYa2x0NHFlME1Qc2VqNUhzNE8zeUNVOG94MmYtV3liTkVBTjRUR25PbU01Z2pOOGxEU1lsOFd3Ri0wUUNsMW9zT08wdkVPTXk0TF90N21HbnFwVWRyTXZEcng4ekhDX0d5eldWWW14SlgyNVdkUnFHOVpkNS1L?oc=5",
-            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "title": "Global Market: Nikkei gains as AI, semiconductor stocks lift Japanese shares",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-nikkei-gains-as-ai-semiconductor-stocks-lift-japanese-shares/articleshow/133952040.cms",
+            "image": "https://img.etimg.com/thumb/msid-133952132,resizemode-4,width-1200,height-900,imgsize-231594,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Frog muscle put to use in swimming robotic manta ray",
+            "title": "Hidden risks for SMEs and corporates: Why liability insurance matters more than ever",
+            "severity": "MEDIUM",
+            "url": "https://gulfnews.com/business/hidden-risks-for-smes-and-corporates-why-liability-insurance-matters-more-than-ever-1.500665613",
+            "image": "https://media.assettype.com/gulfnews/2026-09-07/6rd1a21s/shutterstock2411884807.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "More Kansas schools enter the running for $1 million football field transformation",
             "severity": "WATCH",
-            "url": "https://newatlas.com/robotics/frog-muscle-swimming-robotic-manta-ray/",
-            "image": "https://assets.newatlas.com/dims4/default/f98326c/2147483647/strip/true/crop/5490x2882+0+468/resize/1200x630!/quality/90/?url=https%3A%2F%2Fnewatlas-brightspot.s3.ap-southeast-2.amazonaws.com%2Fab%2F1f%2F8ef31fd241648b090d905d9b2c62%2Fdepositphotos-31707733-xl.jpg",
-            "source": "newatlas"
-        },
-        {
-            "title": "PayPal\u2019s pres. Keller sells $255,655 in shares",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/paypals-pres-keller-sells-255655-in-shares-93CH-4633239",
-            "image": "https://content-media.investing.com/news/moved_LYNXMPEM3T1K3_1200_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Lemonade CBO Maya Prosor sells $56,815 in common stock",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/lemonade-cbo-maya-prosor-sells-56815-in-common-stock-93CH-4633238",
-            "image": "https://content-media.investing.com/news/DanielSchreiberandShaiWiningerLemonadeco-founders_800x533_L_1652163358.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "Two held, P3.5-M worth of fuel seized in Marinduque",
-            "severity": "WATCH",
-            "url": "https://newsinfo.inquirer.net/2301900/two-held-p3-5-m-worth-of-fuel-seized-in-marinduque",
-            "image": "https://newsinfo.inquirer.net/files/2022/09/Marinduque-map-filephoto-091222.jpg",
-            "source": "inquirer"
-        },
-        {
-            "title": "Daily horoscope September 9, 2026: Today\u2019s predictions for your star sign",
-            "severity": "WATCH",
-            "url": "https://metro.co.uk/2026/09/09/daily-horoscope-september-9-2026-predictions-star-sign-29554845/",
-            "image": "https://metro.co.uk/wp-content/uploads/2023/04/SEC_152845384-9ad1.jpg?quality=90&strip=all",
-            "source": "metro"
-        },
-        {
-            "title": "The best fashion photos of Burning Man 2026",
-            "severity": "WATCH",
-            "url": "https://www.sfgate.com/travel/burningman/article/fashion-photos-burning-man-22414694.php",
-            "image": "https://s.hdnux.com/photos/01/67/22/30/31270438/6/rawImage.jpg",
-            "source": "sfgate"
-        },
-        {
-            "title": "Game Of Thrones: Ascendant Dragonrider Officially Announced",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/game-of-thrones-legends-ascendant-dragonrider-champion/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/house-of-the-dragon-hugh-hammer-in-tumbleton.jpg",
-            "source": "screenrant"
-        },
-        {
-            "title": "5 Most Shocking Deaths in Shonen Anime That Still Haunt the Fandom",
-            "severity": "WATCH",
-            "url": "https://comicbook.com/anime/list/5-most-shocking-deaths-in-shonen-anime-that-still-haunt-the-fandom/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2025/10/Jujutsu-Kaisen-Nanami-Kento.jpeg",
-            "source": "comicbook"
-        },
-        {
-            "title": "The Biggest News Headline the Year You Were Born",
-            "severity": "WATCH",
-            "url": "https://www.mentalfloss.com/culture/media/biggest-news-headline-year-you-were-born",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1919,h_1079,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01m212qshwyrdntv20h1.jpg",
-            "source": "mentalfloss"
-        },
-        {
-            "title": "Office of the Privacy Commissioner could cut 15 percent of workforce, PSA says",
-            "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/political/1309241/office-of-the-privacy-commissioner-could-cut-15-percent-of-workforce-psa-says",
-            "image": "https://images.pexels.com/photos/38963051/pexels-photo-38963051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "Crown drops 2 charges against man convicted of murdering his sons",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/new-brunswick/saint-john-murder-boys-roman-kamyshnyy-no-contact-charges-withdrawn-9.7309452?cmp=rss",
-            "image": "https://i.cbc.ca/ais/f33f0919-6530-47ec-ba18-1864a040f9d2,1780955840745/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C358%2C3999%2C2249%29%3B",
-            "source": "cbc"
-        },
-        {
-            "title": "Carabao Cup results in full: Crystal Palace progress as 2025 winners edge past Millwall",
-            "severity": "WATCH",
-            "url": "https://uk.sports.yahoo.com/news/carabao-cup-results-full-crystal-220203930.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/13bcf8b8a2440897ccbffa9fe61c795e2a62e95ffb96777b3de4b176b425ef9f/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fevening_standard_239%2Fc4899043f9976510c7387ac290cbc51b.jpg",
+            "url": "https://www.yahoo.com/news/articles/more-kansas-schools-enter-running-041946759.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/2b2df16dbee9b144ce8b0e451a937289249ed5648c2212720df06b54c04f6af8/lightyear_networkapi/resizefill_w900_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fksnw_wichita_articles_865%2F1a0bb44f89f357bfd882e1c26e3f906f.jpg",
             "source": "yahoo"
+        },
+        {
+            "title": "Tenaris (TEN) Reports Q2: Everything You Need To Know Ahead Of Earnings",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/tenaris-ten-reports-q2-everything-041518692.html",
+            "image": "https://news-assets.stockstory.org/cover-images/_1400x700_crop_center-center_none/tsakos-energy-navigation-cover-image-dfcd0bdd6cfc_2026-02-24-003821_enoi.jpeg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Glass Wall Systems IPO Day 2: GMP at 31%, subscription hits 2.52x.Should you subscribe?",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/glass-wall-systems-ipo-day-2-gmp-at-31-subscription-hits-2-52x-should-you-subscribe/articleshow/133952185.cms",
+            "image": "https://img.etimg.com/thumb/msid-133952301,resizemode-4,width-1200,height-900,imgsize-2055380,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Grand Canyon water supply to be restored in weeks",
+            "severity": "WATCH",
+            "url": "https://www.seattletimes.com/business/grand-canyon-water-supply-to-be-restored-in-weeks/",
+            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "seattletimes"
+        },
+        {
+            "title": "No plans to designate Tagore forest as a nature reserve: Chee Hong Tat",
+            "severity": "WATCH",
+            "url": "https://sg.news.yahoo.com/no-plans-designate-tagore-forest-041500467.html",
+            "image": "https://images.pexels.com/photos/28767587/pexels-photo-28767587.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "yahoo_sg"
+        },
+        {
+            "title": "'Crushing those who question': Rahul Gandhi demands Punjab FM's resignation over Gulzar Singh\u2019s death",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/india/dangerous-pattern-rahul-gandhi-demands-punjab-fms-resignation-over-gulzar-singhs-death/articleshow/133949551.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133951950/133951950.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "China's EV makers shift gears to focus on humanoids as car market slows",
+            "severity": "WATCH",
+            "url": "https://www.cnbc.com/2026/09/09/chinas-ev-makers-shift-gears-to-focus-on-humanoids-as-car-market-slows.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108359578-1788848045503-gettyimages-2279156266-vcg111645282665.jpeg?v=1788848069&w=1200&h=675",
+            "source": "cnbc"
+        },
+        {
+            "title": "Maruti Suzuki Price Hike September 2026: Select Cars Get Costlier by Up to Rs 20,000",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/gallery/auto/maruti-suzuki-car-prices-to-increase-from-september-d6yupwi",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01kwrsqb6ecpghcbjwg72hwfw5,imgname-maruti-suzuki-discounts--1783243713742.png",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Grand jury indicts 3 over guns, alleged entry at North Las Vegas DOE site",
+            "severity": "WATCH",
+            "url": "https://www.reviewjournal.com/crime/grand-jury-indicts-3-over-guns-alleged-entry-at-north-las-vegas-doe-site-3883855/",
+            "image": "https://www.reviewjournal.com/wp-content/uploads/2026/09/22060223_web1_web-Screenshot-2026-09-01-at-12.15.50PM.jpg?w=700",
+            "source": "reviewjournal"
+        },
+        {
+            "title": "A fake PMO ID, a bodyguard with a gun: What happened at PM Modi's Mumbai venue",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/india/a-fake-pmo-id-a-bodyguard-with-a-gun-what-happened-at-pm-modi-s-mumbai-venue-14025795.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260908071332_PM-Modi-Vadodara.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "2 BRS MLCs arrested over speaker remarks in Hyderabad",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/hyderabad/2-brs-mlcs-arrested-over-speaker-remarks-in-hyderabad/articleshow/133951596.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133951669/133951669.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "LIV Golf files for bankruptcy after Saudi fund pulls support, leaving players owed millions in unpaid money",
+            "severity": "WATCH",
+            "url": "https://www.foxnews.com/outkick-sports/liv-golf-files-bankruptcy-saudi-fund-pulls-support-leaving-players-owed-millions-unpaid-money",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/07/931/523/liv-golf-logo-maridoe-golf-club.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Solaris Energy (SEI) Rockets 16% on Upbeat H2, Hedge Fund Holdings Jump",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/solaris-energy-sei-rockets-16-025619506.html",
+            "image": "https://media.zenfs.com/en/insidermonkey.com/5b7cdd089f48375d3d2705c3f95c7f1c.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Champagne Problems: Rights over Amy Taylor photo series in court",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-09-09/amyl-and-the-sniffers-amy-taylor-photographer-jamie-nelson-court/107070814",
+            "image": "https://live-production.wcms.abc-cdn.net.au/f86f144de9cc274b428b5f215597e40b?impolicy=wcms_crop_resize&cropH=497&cropW=883&xPos=0&yPos=262&width=862&height=485",
+            "source": "abc_net"
         }
     ],
-    "Last_Updated": "2026-09-09T11:04:15.881870Z"
+    "Last_Updated": "2026-09-09T16:20:27.625888Z"
 }
