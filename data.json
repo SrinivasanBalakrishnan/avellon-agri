@@ -1,272 +1,253 @@
 {
-    "AGRI_Score": 60.6,
-    "Velocity": "+0.1",
+    "AGRI_Score": 61.5,
+    "Velocity": "+0.9",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The current AGRI score of 61.5 reflects a significantly elevated risk environment, primarily driven by escalating geopolitical tensions surrounding Iran and the immediate threat of energy and maritime disruption. Threats of conflict, as highlighted by headlines such as \"Iran ready to escalate war Trump says will end after U.S. midterms\" and \"Oil Extends Rally as Iran Says Ready for More Intense Conflict\", are directly contributing to heightened uncertainty and risk in global energy markets and strategic maritime routes. The deepening \"Iran nuclear impasse after U.S. wins U.N. watchdog vote\" further exacerbates these concerns, indicating a precarious global security posture. This environment demands heightened vigilance, particularly given direct threats to vital shipping lanes.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 72.4,
+        "Geopolitical Conflict Intensity": 78.6,
         "Energy & Maritime Disruption": 81.5,
-        "Trade & Supply Chain Stress": 65.7,
+        "Trade & Supply Chain Stress": 69.1,
         "Sovereign Financial Stress": 58.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.2,
-        "Cyber & Infrastructure Threats": 66.1,
+        "Sanctions & Regulatory Fragmentation": 55.0,
+        "Cyber & Infrastructure Threats": 61.6,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Geopolitical Conflict Intensity is very high at 78.6 due to escalating rhetoric and actions concerning Iran, as indicated by headlines like \"Trump doubles down on 'Trump Strait' plan for Hormuz\" and \"'Will have to hit very hard': Trump says 'little activity' seen at Iran's Pickaxe Mountain\". This increases the probability of regional conflict and wider international instability, necessitating continuous monitoring of diplomatic and military developments.",
+        "Energy & Maritime Disruption": "Energy & Maritime Disruption is at an alarming 81.5, directly reflecting threats to critical shipping lanes and oil supply, with \"Oil Extends Rally as Iran Says Ready for More Intense Conflict\" underscoring market anxiety. The explicit mention of the 'Trump Strait' plan for Hormuz suggests a direct threat to a vital maritime choke point, impacting global energy flows and prices.",
+        "Trade & Supply Chain Stress": "Trade & Supply Chain Stress is elevated at 69.1, as the potential for conflict in the Middle East would inevitably disrupt major shipping routes and energy supplies vital for global trade. While \"Xi-Modi meeting could reset ties\" offers a diplomatic note, the underlying geopolitical tensions suggest ongoing fragility in global economic interconnectivity and potential for trade bloc shifts.",
+        "Sovereign Financial Stress": "Sovereign Financial Stress is moderate at 58.0, with generalized market caution observed as \"Asian Markets Decline\" and major indices \"Trade Flat\". While no immediate sovereign defaults are reported, the broader geopolitical instability and threat of energy shocks create an environment ripe for increased borrowing costs and fiscal pressures for energy-importing nations.",
+        "Currency & Liquidity Pressure": "Currency & Liquidity Pressure is moderate at 50.0, reflecting general market unease as \"Asian Markets Decline\" and major indices trade without clear direction. The global uncertainty spurred by geopolitical tensions typically drives investors to safer assets, potentially creating localized liquidity challenges in emerging markets or those heavily reliant on foreign capital.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions & Regulatory Fragmentation is at 55.0, influenced by the \"Iran nuclear impasse deepens after U.S. wins U.N. watchdog vote\" which indicates a propensity for further international pressure and potential sanctions. Such actions contribute to an increasingly complex global regulatory landscape, impacting compliance for international businesses.",
+        "Cyber & Infrastructure Threats": "Cyber & Infrastructure Threats are elevated at 61.6, evidenced by the \"Mediahuis and Leslie Buckley settle with two more INM 2019 data breach victims\", highlighting ongoing vulnerabilities in information infrastructure. While Google's investment in AI infrastructure in Finland is positive, the increasing reliance on complex digital systems across all sectors magnifies the potential impact of sophisticated cyber attacks.",
+        "Climate & Resource Shock": "Climate & Resource Shock remains low at 25, with no significant global resource scarcity or extreme weather events currently impacting systemic risk. The tragic \"fire breaks out on Philippines ferry\" represents a localized disaster, not indicative of a widespread climate-induced or resource-driven shock to global systems."
+    },
     "All_Alerts": [
         {
-            "title": "Exclusive | Trump\u2019s Top Advisers Confront Possibility That Iran War Lasts Through End of Term - WSJ",
+            "title": "Iran nuclear impasse deepens after U.S. wins U.N. watchdog vote",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNW5EUzJBN0UyZktmdUZHYjRESEs5aS16Mlgya1diVDdiUUpsZTNvVDI2dE5vdUJoZUhfVzhscU5VQXVGQ1NUTTFvUngwZVJnaE4zbVEwckFXY3UzaUNkWVNRQkY2Z204ci1zcXJGY19tYi1hRDVYUW1zY1FfcHdvUUp6dFhjZTZJZmRyU05FSVdfMnM5Y1NrMlBSRkdjSTY3bzBpYldmczJ1Tm9GMmkwMDV1ckpIakNDQnpEMTJIMmVXYWZuekE?oc=5",
-            "image": "https://images.pexels.com/photos/14766055/pexels-photo-14766055.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.japantimes.co.jp/news/2026/09/10/world/politics/iran-nuclear-us-un-vote/",
+            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/10/562347.jpg",
+            "source": "japantimes"
+        },
+        {
+            "title": "Trump doubles down on 'Trump Strait' plan for Hormuz, says Iran will be 'thrilled'",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/global-trends/trump-proposes-trump-strait-name-change-for-hormuz-claims-iran-will-be-thrilled/articleshow/133993107.cms",
+            "image": "https://img.etimg.com/thumb/msid-133993425,resizemode-4,width-1200,height-900,imgsize-66930,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "'Will have to hit very hard': Trump says 'little activity' seen at Iran's Pickaxe Mountain, warns Tehran \u2018not to get cute\u2019",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/world/us/will-have-to-hit-very-hard-trump-says-little-activity-seen-at-irans-pickaxe-mountain-warns-tehran-not-to-get-cute-4141327",
+            "image": "https://media.assettype.com/deccanherald/2026-09-10/7c5um9ug/trump.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Google to invest nearly $15 billion in AI Infrastructure in Finland",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/largest-europe-investment-google-to-invest-nearly-15-billion-in-ai-infrastructure-in-finland/articleshow/133993113.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133993391/133993391.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "UNICEF Lebanon Humanitarian Situation Report No. 5, 31 July 2026",
+            "severity": "HIGH",
+            "url": "https://reliefweb.int/report/lebanon/unicef-lebanon-humanitarian-situation-report-no-5-31-july-2026",
+            "image": "https://reliefweb.int/sites/default/files/styles/large/public/previews/7d/5d/7d5dca31-4b71-4f16-962d-84af93ec7522.png",
+            "source": "reliefweb"
+        },
+        {
+            "title": "Iran ready to escalate war Trump says will end after U.S. midterms",
+            "severity": "HIGH",
+            "url": "https://www.japantimes.co.jp/news/2026/09/10/world/society/iran-escalate-war-us-election/",
+            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/10/562348.jpg",
+            "source": "japantimes"
+        },
+        {
+            "title": "China's Xi Jinping to visit India for first time in seven years as New Delhi hosts BRICS Summit",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/india/chinas-xi-jinping-to-visit-india-for-first-time-in-seven-years-as-new-delhi-hosts-brics-summit/articleshow/133993104.cms",
+            "image": "https://img.etimg.com/thumb/msid-133993360,resizemode-4,width-1200,height-900,imgsize-97240,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Oil Extends Rally as Iran Says Ready for More Intense Conflict - Bloomberg.com",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVy1GQmhVUF91Y1pFeG02SF9pOVZ4NklBelE2YjMxNHdaTU1reElSTHJMZmpIX1RscGRQNC13aklYbU9lRnJZV1R0T1lUNlVDWkVWN0FwRVV2dE94X3lGRmVHUWo1V3R5VWhFZHlCcjFGaWh6SlZlcExJeFN1ZzZwX0ZzV3BDc3l1djJrNElsaEYya01uRnh1a243RlpTOEU?oc=5",
+            "image": "https://images.pexels.com/photos/3183174/pexels-photo-3183174.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Google to Invest Record $15 Billion In AI Infrastructure In Finland",
+            "title": "Which European countries import the most crude oil?",
             "severity": "HIGH",
-            "url": "https://hardware.slashdot.org/story/26/09/09/2151202/google-to-invest-record-15-billion-in-ai-infrastructure-in-finland",
-            "image": "https://images.pexels.com/photos/15407743/pexels-photo-15407743.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "slashdot_org"
+            "url": "http://www.euronews.com/business/2026/09/10/which-european-countries-import-the-most-crude-oil",
+            "image": "https://images.euronews.com/articles/stories/09/90/72/96/1440x810_cmsv2_0f487370-4989-59bf-9ca9-d76abd8b9ed2-9907296.jpg",
+            "source": "euronews"
         },
         {
-            "title": "Crude tops US$101 as US-Iran war escalates",
+            "title": "Iran: Ongoing Unlawful Execution Campaign Against Protesters",
             "severity": "HIGH",
-            "url": "https://www.thestar.com.my/business/2026/09/10/crude-tops-us101-as-us-iran-war-escalates",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/10/4102816.jpeg",
-            "source": "thestar_my"
+            "url": "https://www.hrw.org/news/2026/09/10/iran-ongoing-unlawful-execution-campaign-against-protesters",
+            "image": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/09/202609mena_iran_no_executions.jpg?h=87702c52&itok=v5PORXJZ",
+            "source": "hrw"
         },
         {
-            "title": "Readers Write: Charlie Kirk\u2019s death, Minneapolis shooting, water quality, war in Iran",
+            "title": "Mediahuis and Leslie Buckley settle with two more INM 2019 data breach victims",
             "severity": "HIGH",
-            "url": "https://www.startribune.com/readers-write-charlie-kirks-death-minneapolis-shooting-water-quality-war-in-iran/601887318",
-            "image": "https://images.pexels.com/photos/20258/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
-            "source": "startribune"
+            "url": "https://www.irishtimes.com/business/2026/09/10/mediahuis-and-leslie-buckley-settle-with-two-more-inm-2019-data-breach-victims/",
+            "image": "https://www.irishtimes.com/resizer/v2/RWED3VPKTVL5DICJAOTAPZVZU4.jpg?auth=da4fcec4262207e07fbc24f16c881bf01f167ce688a459693dd50cbc352f95e6&smart=true&width=630&height=350",
+            "source": "irishtimes"
         },
         {
-            "title": "New Anthem long-range missile breaks cover with 440+ pound payload, 5,000+ units goal",
+            "title": "Ceuta migrant crisis: Intelligence warned of \u2018mass entry\u2019 day before 70k reached Spanish enclave",
             "severity": "HIGH",
-            "url": "https://interestingengineering.com/military/anthem-long-range-missile-5000-units",
-            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/09/Untitled-design-2026-09-10T030000.569.jpg",
-            "source": "interestingengineering"
+            "url": "https://timesofindia.indiatimes.com/world/europe/ceuta-migrant-crisis-intelligence-warned-of-mass-entry-day-before-70k-reached-spanish-enclave/articleshow/133992653.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133992795/133992795.jpg",
+            "source": "toi"
         },
         {
-            "title": "Experts warn AI could kill us all \u2014 this is how an apocalyptic doomsday scenario could play out",
+            "title": "Australia\u2019s Max Purcell straight back in Davis Cup fold after 18-month anti-doping ban",
             "severity": "HIGH",
-            "url": "https://nypost.com/2026/09/09/tech/experts-warn-ai-could-kill-us-all-this-is-how-an-apocalyptic-doomsday-scenario-could-play-out/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2Fterminator-film-still-warner-bros-140365300.jpg?w%3D1024",
-            "source": "nypost"
+            "url": "https://www.theguardian.com/sport/2026/sep/10/australian-max-purcell-named-davis-cup-after-doping-ban",
+            "image": "https://i.guim.co.uk/img/media/f6fb1f02cb0e265b0b02c2ea4ad6856beffb39fd/367_0_4343_3475/master/4343.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=49839a21af7739281cf535fc0b439390",
+            "source": "theguardian"
         },
         {
-            "title": "Could someone be draining your super without you knowing?",
+            "title": "Xi-Modi meeting could reset ties. The big test is whether business follows diplomacy",
             "severity": "HIGH",
-            "url": "https://www.unsw.edu.au/newsroom/news/2026/09/could-someone-be-draining-your-super-without-you-knowing-",
-            "image": "https://www.unsw.edu.au//content/dam/images/business/2026-01-newsroom/2026-01-newsroom-financial-abuse.jpg/jcr:content/renditions/cq5dam.web.1920.1920.jpeg",
-            "source": "unsw_edu"
+            "url": "https://www.deccanherald.com/india/xi-modi-meeting-could-reset-ties-the-big-test-is-whether-business-follows-diplomacy-4141291",
+            "image": "https://media.assettype.com/deccanherald/2026-09-10/he4h5xw2/2025newsmlRC24IGASGF721489736848.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Elixir Medical Corporation Data Breach Exposes Personal Information: Murphy Law Firm Investigates Legal Claims",
-            "severity": "HIGH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/09/3359120/0/en/elixir-medical-corporation-data-breach-exposes-personal-information-murphy-law-firm-investigates-legal-claims.html",
-            "image": "https://images.pexels.com/photos/38486957/pexels-photo-38486957.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "AI Song Generator Suno Releases New Model Developed With Warner Music",
-            "severity": "HIGH",
-            "url": "https://gizmodo.com/ai-song-generator-suno-releases-new-model-developed-with-warner-music-2000809180",
-            "image": "https://gizmodo.com/app/uploads/2025/11/studio-landing-page-any-audio-1280x853.jpg",
-            "source": "gizmodotech"
-        },
-        {
-            "title": "Zero-Click Worm Discovered in WeChat - govinfosecurity.com",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQWWNUamJRT0FTYTl4QVBmbHJnSEo3VU5ub09FbWVTcy13NG9FS2F4UXpzTTY4UXJQeXlZYXVZa1JKUmw3Yndlb1JVLVRadEc1Q1MyZXBVU0V1dklEYjdHdDAyQjNndVhQT0VON2RHdlJwY01qYVgteWt2aGdSUzdFRHNB?oc=5",
-            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Man charged with armed robbery after alleged attack in Esgenoo\u0302petitj First Nation, N.B.",
-            "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/atlantic/new-brunswick/article/man-charged-with-armed-robbery-after-alleged-attack-in-esgenoopetitj-first-nation-nb/",
-            "image": "https://www.ctvnews.ca/resizer/v2/YIESKS5YKVAJVIR5QXLQZUQ5RQ.jpg?auth=1e5628f3512a8c1e65eb37b5560a30a0f963cf6350c8c1273f2df70a32ce1ae9&smart=true&width=1920&height=1080",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Spain's spy agency warned of Ceuta border breach plans before crisis, declassified files show",
-            "severity": "HIGH",
-            "url": "https://www.beaumontenterprise.com/news/world/article/spain-s-intelligence-agency-issued-several-22424325.php",
-            "image": "https://s.hdnux.com/photos/01/67/22/76/31272865/3/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "A Safety Researcher Warned of Systems That Can \u2018Hack Anything.\u2019 Now Congress Is Calling for Action",
-            "severity": "HIGH",
-            "url": "https://www.inc.com/melissa-angell/safety-researcher-warned-systems-can-hack-anything-now-congress-calling-for-action/91402991",
-            "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/09/regulating-ai-congress-inc-2292655040.jpg",
-            "source": "inc"
-        },
-        {
-            "title": "2026 NFC West season preview: Prediction, record, rosters, strengths and weaknesses",
+            "title": "Brics Summit: PM Modi & Xi likely to hold bilateral meeting on Saturday",
             "severity": "MEDIUM",
-            "url": "https://nypost.com/2026/09/09/sports/2026-nfc-west-season-preview-prediction-record-rosters/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2Flos-angeles-rams-quarterback-matthew-137123260.jpg?w%3D1024",
+            "url": "https://www.firstpost.com/world/brics-summit-narendra-modi-xi-jinping-india-china-relationship-14044554.html",
+            "image": "https://images.firstpost.com/uploads/2026/08/AFP__20250831__72XX2NR__v1__MidRes__ChinaIndiaPoliticsDiplomacySco-2026-08-73969f93ead269e339c76099b5116852-e1787808085789-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Ather Energy shares rise 3% as Nomura raises target price; stock up nearly 200% in 1 year",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energy-shares-rise-3-as-nomura-raises-target-price-stock-up-nearly-200-in-1-year/articleshow/133993368.cms",
+            "image": "https://img.etimg.com/thumb/msid-133993460,resizemode-4,width-1200,height-900,imgsize-2333736,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Apple Unveils $1,999 iPhone Duo, Enters The Foldable Phone Race",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/world/apple-unveils-1-999-iphone-duo-enters-the-foldable-phone-race-videoshow-14026745.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260910040437_Iphone-18-378x213.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Five dead and 86 missing as 'heartbreaking' fire breaks out on Philippines ferry",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/five-dead-86-missing-heartbreaking-040811192.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/93767e64a1c971203dc2636e68dff66e6d5a16255dc426e662dbf9549de5f178/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2F4af76392f1cbf59cf39abe1b4471a093.png",
+            "source": "yahoo"
+        },
+        {
+            "title": "Stock Market LIVE Updates, Sensex Today: Sensex, Nifty Trade Flat, Asian Markets Decline",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/business-news/stock-market-sensex-share-market-nifty-live-updates-today-10-september-us-iran-war-oil-price-12026138",
+            "image": "https://c.ndtvimg.com/2026-06/5r65jfo4_sensex-nifty-live-updates-_625x300_09_June_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "Lawns will grow stronger and stay moss-free if sprayed with a simple item in September",
+            "severity": "WATCH",
+            "url": "https://www.express.co.uk/life-style/garden/2247088/how-to-remove-moss-on-lawns-gardening",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/13/237x141/2247088_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Four takeaways from Trump's speech at first Republican midterms convention",
+            "severity": "WATCH",
+            "url": "https://www.bbc.co.uk/news/articles/cg7kjlzlev1o",
+            "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec7b/live/154b0560-accc-11f1-b6b4-2922c333d280.jpg",
+            "source": "bbc"
+        },
+        {
+            "title": "Focus on dangerous traffic behaviour: Experts",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/focus-on-dangerous-traffic-behaviour-experts-101789013178724.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/10/1600x900/logo/Enforcement-remained-concentrated-on-limited-set-o_1789013171861_c52dc146-73d1-4a73-b11e-7a32afa61054.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Drone nearly strikes Zelensky\u2019s plane before takeoff for Norwegian king\u2019s funeral, PM says",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/09/10/world-news/zelenskys-plane-nearly-struck-by-drone-before-takeoff-for-norwegian-kings-funeral-pm-says/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2F2026-age-89-laid-rest-140288890.jpg?w%3D1024",
             "source": "nypost"
         },
         {
-            "title": "Questor Announces Results of Annual General Meeting; Shareholders Vote to Elect Audrey Mascarenhas\u2019 Full Slate of Five Directors",
-            "severity": "MEDIUM",
-            "url": "https://www.globenewswire.com/news-release/2026/09/09/3359129/0/en/questor-announces-results-of-annual-general-meeting-shareholders-vote-to-elect-audrey-mascarenhas-full-slate-of-five-directors.html",
-            "image": "https://images.pexels.com/photos/29859663/pexels-photo-29859663.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "Dubai outreach puts Madhya Pradesh on global investment map, gets proposals worth Rs 53,000 crore",
-            "severity": "MEDIUM",
-            "url": "https://indianexpress.com/article/india/dubai-outreach-puts-madhya-pradesh-on-global-investment-map-gets-proposals-worth-rs-53000-crore-10870939/",
-            "image": "https://images.indianexpress.com/2026/09/Mohan-Yadav-land-scam-allegations_20260717213505_20260803193133_20260909225343.jpg",
-            "source": "indianexpress"
-        },
-        {
-            "title": "Canadian Oil Pushes Deeper Into U.S. Gulf Coast Market - Crude Oil Prices Today | OilPrice.com",
+            "title": "Trump: I\u2019ll give $5,000 to every American if we win the midterms",
             "severity": "WATCH",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTkFBSTM2TWt2bWMwWFlYQXNiU1htcEFOMXFPSnk3Wk9VTkcyN2xZRkc0QTVsSFpCYlVmaDJZejNLZkNoYXpuSlk0SlQ2aTNEdDlBZGhoQ0pHd2tkSkdINi1XY3FRMERTTmpsZFRGYng2RXdmWmxVVmhqdVdkZDZxcGMtTnJOejFIRldVTjFsTVdEN29MbUJVaDkyNNIBoAFBVV95cUxPdm9HX2F0NmYxbnVtdHQzSElhN1FXU1dqd0RMUGFqcmZ5X3pJSW1hbEV4aGE3QmxaTmlWSkxPV19KXzFZMHZWY3FqMjdSbFNyVTA4TUJDVUtzZDg4YTRSWThXRHZIQ0RHb3BXdmZYQjk5aWRJQmpFc05xNVdRaE9mTUdIYTg5NW1iNVBLYllZRHFVTWIzTlJBWmlacVJEZFJm?oc=5",
-            "image": "https://images.pexels.com/photos/5561912/pexels-photo-5561912.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://ca.news.yahoo.com/trump-ll-5-000-every-040522664.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/0cb2a22afadf12888f040a91e7f12e90cdaebffc3a5f28861ef86bad592d84b2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_telegraph_818%2F5609793f9ab013edfaa5d7b535bfaf52.jpg",
+            "source": "yahoo"
         },
         {
-            "title": "How Mark Carney Became Leader of the Free World by Standing Up to Trump",
+            "title": "4 arrested, 16 cops injured at rally outside Taguig City forum",
             "severity": "WATCH",
-            "url": "https://www.rollingstone.com/politics/political-commentary/mark-carney-stands-up-trump-trade-war-canada-1235623647/",
-            "image": "https://www.rollingstone.com/wp-content/uploads/2026/09/trump-v-Canada-mark-carney.jpg",
-            "source": "rollingstone"
+            "url": "https://newsinfo.inquirer.net/2302968/4-arrested-16-cops-injured-at-rally-outside-taguig-city-forum",
+            "image": "https://newsinfo.inquirer.net/files/2026/09/image-18.png",
+            "source": "inquirer"
         },
         {
-            "title": "How To Look Like You\u2019re Going to NYFW (Even if It\u2019s Just the Office)",
+            "title": "Ahead of BRICS, Congress recalls 2012 summit where former PM Manmohan Singh proposed development bank",
             "severity": "WATCH",
-            "url": "https://www.eonline.com/news/1435890/how-to-look-like-youre-going-to-nyfw-even-if-its-just-the-office",
-            "image": "https://akns-images.eonline.com/eol_images/Entire_Site/20260909/41ea73da-c0dc-41f0-a0e1-884df5606f23_1788991803.jpg",
-            "source": "eonline"
+            "url": "https://economictimes.indiatimes.com/news/india/ahead-of-brics-congress-recalls-2012-summit-where-former-pm-manmohan-singh-proposed-development-bank/articleshow/134001802.cms",
+            "image": "https://img.etimg.com/thumb/msid-134002288,resizemode-4,width-1200,height-900,imgsize-46872,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "English, but make it TikTok: how social media is reshaping language",
+            "title": "A different kind of harvest: Why growing hemp is an opportunity for Scottish farming",
             "severity": "WATCH",
-            "url": "https://www.unsw.edu.au/newsroom/news/2026/09/english-but-make-it-tiktok-how-social-media-is-reshaping-language",
-            "image": "https://www.unsw.edu.au//content/dam/images/ada/2026-09-english-but-make-it-tiktok/untitled-design-35.png/jcr:content/renditions/cq5dam.web.1920.1920.png",
-            "source": "unsw_edu"
+            "url": "https://www.scotsman.com/news/environment/a-different-kind-of-harvest-why-growing-hemp-is-an-opportunity-for-scottish-farming-9001116",
+            "image": "https://www.scotsman.com/jpim-static/image/2026/09/09/13/02/Martin-and-his-hemp-crop-(1).jpg?width=1200&auto=webp&trim=1250%2C0%2C1250%2C0",
+            "source": "scotsman"
         },
         {
-            "title": "Lanterns Just Quietly Made the Mystery of Hal Jordan\u2019s Death Way More Interesting",
+            "title": "Walsall paedophile, 77, handed \u00a31.3k court bill to 'teach him a lesson'",
             "severity": "WATCH",
-            "url": "https://comicbook.com/tv-shows/feature/lanterns-just-quietly-made-the-mystery-of-hal-jordans-death-way-more-interesting/",
-            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/08/Hal-Jordan-Kyle-Chandler-Death-Explained-Lanterns-Premiere.jpg",
-            "source": "comicbook"
+            "url": "https://www.birminghammail.co.uk/black-country/walsall-paedophile-77-handed-13k-34568000",
+            "image": "https://i2-prod.birminghammail.co.uk/incoming/article14988539.ece/ALTERNATES/s615/2_Wolverhampton-Crown-Court.jpg",
+            "source": "birminghammail"
         },
         {
-            "title": "Christchurch rebuild: How post-quake recovery helped drive an economic boom - Liam Dann",
+            "title": "Anthropic researcher who quit over AI safety walked away two months before his stock vested; says: I no longer have anything to gain by...",
             "severity": "WATCH",
-            "url": "https://www.nzherald.co.nz/business/business-reports/project-canterbury/christchurch-rebuild-how-post-quake-recovery-helped-drive-an-economic-boom-liam-dann/premium/72G3F3H6FFCIFAORPRWOEKS5PM/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/DWF4XKL45NDVHH4XIYMHPXGR5M.jpg?auth=d52f53de113e1f06f3c791a0b41a90fd2de1cd3fe918b977baca75a0bba2303a&smart=true&width=300&height=300",
-            "source": "nzherald"
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/anthropic-researcher-who-quit-over-ai-safety-walked-away-two-months-before-his-stock-vested-says-i-no-longer-have-anything-to-gain-by/articleshow/133992805.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133992916/133992916.jpg",
+            "source": "toi"
         },
         {
-            "title": "Manchester United\u2019s Champions League return begins on Thursday.",
+            "title": "With Apple iPhone Duo, iPhone prices in India cross Rs 4 lakh",
             "severity": "WATCH",
-            "url": "https://www.si.com/soccer/sports-illustrated-predicts-thursday-champions-league-matchday-1-scores",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_1671,h_939,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/si/01m23negxnd2w4079kde.png",
-            "source": "si"
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/with-apple-iphone-duo-iphone-prices-in-india-cross-rs-4-lakh/articleshow/133992804.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133992904/133992904.jpg",
+            "source": "toi"
         },
         {
-            "title": "Apple unveils foldable iPhone",
+            "title": "Avinash Sable eyes Asian Games double, 5,000m qualification in Indian Athletics Series final",
             "severity": "WATCH",
-            "url": "https://www.nbcnews.com/nightly-news/video/apple-unveils-foldable-iphone-269585989748",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_09/1788994794623_nn_sse_foldable_iphone_260909_S3_1920x1080-hrmnbe.jpg",
-            "source": "nbcnews"
+            "url": "https://timesofindia.indiatimes.com/sports/more-sports/athletics/avinash-sable-eyes-asian-games-double-5000m-qualification-in-indian-athletics-series-final/articleshow/133992225.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133992311/133992311.jpg",
+            "source": "toi"
         },
         {
-            "title": "Joliet Drama Guild: La Gringa, Powerful Spanish-Language Story Of Identity, Belonging Opens This Weekend",
+            "title": "Malda Flood Update | \u09ad\u09c1\u09a4\u09a8\u09bf\u09b0 \u09ac\u09a8\u09cd\u09af\u09be \u09aa\u09b0\u09bf\u09b8\u09cd\u09a5\u09bf\u09a4\u09bf \u0996\u09a4\u09bf\u09af\u09bc\u09c7 \u09a6\u09c7\u0996\u09a4\u09c7 \u09ae\u09be\u09b2\u09a6\u09be\u09af\u09bc \u09b8\u09cd\u09aa\u09c7\u09b6\u09be\u09b2 \u099f\u09bf\u09ae | Bangla News",
             "severity": "WATCH",
-            "url": "https://patch.com/illinois/joliet/joliet-drama-guild-la-gringa-powerful-spanish-language-story-identity-belonging",
-            "image": "https://patch.com/img/cdn20/users/22944156/20260909/065928/styles/patch_image/public/bipark___09185648152.png",
-            "source": "patch"
-        },
-        {
-            "title": "Hub Group Declares Quarterly Dividend",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/09/09/3359128/0/en/hub-group-declares-quarterly-dividend.html",
-            "image": "https://images.pexels.com/photos/38963051/pexels-photo-38963051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "Price booms for little-known critical mineral needed for solar panels",
-            "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-09-10/antimony-critical-mineral-mine-opens-as-price-rises/107132402",
-            "image": "https://live-production.wcms.abc-cdn.net.au/eda571668d8580b764ec4e7da8d12638?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=0&width=862&height=485",
-            "source": "abc_net"
-        },
-        {
-            "title": "Long Island school district gets sent box of bullets instead of art supplies it ordered",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/09/09/us-news/long-island-school-district-gets-sent-box-of-bullets-instead-of-art-supplies-it-ordered/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2Feastport-south-manor-jr-sr-140347694.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "S&P 500 falls as oil tops US$100 per barrel",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/business/2026/09/10/sp-500-falls-as-oil-tops-us100-per-barrel",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/10/4102814.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Reynolds Consumer Products Inc. (REYN) Presents at Barclays 19th Annual Global Consumer Staples Conference Transcript",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4944738-reynolds-consumer-products-inc-reyn-presents-at-barclays-19th-annual-global-consumer-staples",
-            "image": "https://seekingalpha.com/samw/static/images/DefaultArticleImage.0a47d531d.png",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "IMAX Corporation (IMAX) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4944734-imax-corporation-imax-presents-at-goldman-sachs-communacopia-technology-conference-2026",
-            "image": "https://seekingalpha.com/samw/static/images/DefaultArticleImage.0a47d531d.png",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "AC/DC concert at Rogers Stadium cancelled by Live Nation after storm damage",
-            "severity": "WATCH",
-            "url": "https://globalnews.ca/news/12053308/rogers-stadium-acdc-concert-cancelled-storm-damage/",
-            "image": "https://globalnews.ca/wp-content/uploads/2026/09/rogers-stadium-damage1.jpg?quality=65&strip=all",
-            "source": "globalnews"
-        },
-        {
-            "title": "ESPN hopes to make Peter Schrager its first homegrown star in over a decade | Bobby Burack",
-            "severity": "WATCH",
-            "url": "https://www.foxnews.com/outkick-sports/espn-hopes-make-peter-schrager-first-homegrown-star-over-decade-bobby-burack",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/09/931/523/carson-wentz-interviewed-wembley-stadium.jpg?ve=1&tl=1",
-            "source": "foxnews"
-        },
-        {
-            "title": "George Lucas\u2019 $1B museum dragged into scandal over using dark arts to bypass rules: suit",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/09/09/us-news/las-lucas-museum-sued-by-contractor-over-30-a-year-state-land-deal/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2F2026-los-angeles-california-founded-139381869.jpg?w%3D1024",
-            "source": "nypost"
-        },
-        {
-            "title": "Springfield schools closed through Friday after \u2018severe cyber incident\u2019",
-            "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/09/09/metro/springfield-schools-cyber-incident/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/FPUPKRF6GOIQWJMYFCEX2YM4PE.jpg?auth=a3029ade26935df5e37c800cc3b9441521e45f515e2f9b3d9867b84fc80a8424&smart=true&width=5472&height=3567",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "Where to watch the Patriots vs. Seahawks: Free live streams, odds, and venue for the NFL regular season kickoff",
-            "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-patriots-vs-seahawks-nfl-2026-9",
-            "image": "https://i.insider.com/6aa1cefecc23a829a3b8f9d1?format=jpeg",
-            "source": "insider"
+            "url": "https://bengali.news18.com/videos/north-bengal/malda-flood-update-bangla-news-2887887.html",
+            "image": "https://images.news18.com/static-bengali/uploads/2026/09/1789010282_9a8d8db5-dbbb-4dcc-bade-f81b4220892d-1200x720.jpeg",
+            "source": "bengali_news18"
         }
     ],
-    "Last_Updated": "2026-09-10T11:00:23.637456Z"
+    "Last_Updated": "2026-09-10T16:11:10.794985Z"
 }
