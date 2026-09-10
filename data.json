@@ -1,258 +1,260 @@
 {
-    "AGRI_Score": 62.1,
-    "Velocity": "+0.8",
+    "AGRI_Score": 60.5,
+    "Velocity": "-1.6",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 60.5/100 reflects a significantly elevated risk environment, primarily driven by acute \"Energy & Maritime Disruption\" (81.5) and ongoing \"Geopolitical Conflict Intensity\" (71.4). The surge in oil prices, with news reporting \"Shares dive as oil surges past 100 dollars\" and \"Tracking oil prices and US gas prices amid Iran conflict,\" is the paramount factor escalating energy risk. This is compounded by persistent geopolitical tensions, contributing to the overall high AGRI score.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 80.2,
+        "Geopolitical Conflict Intensity": 71.4,
         "Energy & Maritime Disruption": 81.5,
-        "Trade & Supply Chain Stress": 68.5,
+        "Trade & Supply Chain Stress": 61.3,
         "Sovereign Financial Stress": 58.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 61.9,
+        "Sanctions & Regulatory Fragmentation": 64.6,
+        "Cyber & Infrastructure Threats": 64.1,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar is elevated due to ongoing regional hostilities and military engagements, as evidenced by reports \"Tracking oil prices and US gas prices amid Iran conflict.\" Further complexity arises from the continued use of advanced warfare tactics, with \"How Russia's 23,000-ft drone gambit is testing Ukraine air defence\" highlighting persistent conflict zones.",
+        "Energy & Maritime Disruption": "Risk levels are critically high, primarily driven by significant market volatility and price surges, as \"Shares dive as oil surges past 100 dollars\" clearly indicates an acute disruption. This is compounded by geopolitical factors \"Tracking oil prices and US gas prices amid Iran conflict\" directly affecting supply sentiment and stability.",
+        "Trade & Supply Chain Stress": "Moderate stress is observed, with signs of both demand-side pressures and regulatory challenges impacting various sectors. While \"AI is fueling copper demand\" suggests specific commodity demand surges, illicit activities like the \"Texas couple sentenced for selling smuggled veterinary drugs, pesticides online\" indicate vulnerabilities in supply chain integrity and trade compliance.",
+        "Sovereign Financial Stress": "Moderate concern persists due to broader market reactions to commodity prices and specific corporate governance issues. The market downturn where \"Shares dive as oil surges past 100 dollars\" can cascade into broader financial instability, while regulatory breaches like \"Bursa reprimands Techna-X over listing breach\" highlight micro-level financial governance risks.",
+        "Currency & Liquidity Pressure": "This pillar reflects routine monitoring, but market volatility stemming from energy price spikes presents an underlying risk to liquidity. While no direct currency-specific news is available, the significant market reaction to \"oil surges past 100 dollars\" inherently pressures broader liquidity and asset valuations.",
+        "Sanctions & Regulatory Fragmentation": "This pillar faces significant pressure from evolving international and domestic legal frameworks, indicating a complex and potentially challenging compliance landscape. Discussions around \"Israel sanctions will not hurt intelligence sharing between spy agencies\" highlight the nuanced nature of sanctions, alongside domestic regulatory actions such as \"Spain\u2019s top court suspends voting rights for some descendants of Civil War exiles.\"",
+        "Cyber & Infrastructure Threats": "Elevated threat levels are evident in the persistent attacks on critical infrastructure and emerging technological risks. A \"Pennsylvania utility says it blocks 'tens of thousands' of cyberattack attempts each month\" underscores the constant barrage of cyber hostilities, while discussions on \"Superintelligence is coming. Should we let it?\" point to future, complex technological threats.",
+        "Climate & Resource Shock": "This pillar shows baseline activity, with no immediate, high-severity climate-related shocks reported in the current feed. While \"AI is fueling copper demand\" hints at growing resource consumption pressures, the current news does not indicate acute supply shocks or climate-induced disruptions impacting this pillar's low score."
+    },
     "All_Alerts": [
         {
-            "title": "Renewed U.S.-Iran exchanges send oil price back over $100 US for first time in several weeks - CBC",
+            "title": "Shares dive as oil surges past 100 dollars",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0yQm81bGc5SkdjYUdhdlEyMVpUa055VDhpbXA5ZkVVV2MzSFRqbU52em1IYndyRlQwVVowVFpqc1FVZ1VJV285UVhNLU9XZzdGd3M4dExpY1ZoX2ZtcU4tZkhmRnVPYlBMbGs4NnI0d3V5a1Zo?oc=5",
-            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://ca.finance.yahoo.com/news/shares-dive-oil-surges-past-162439718.html",
+            "image": "https://media.zenfs.com/en/snappa.ukfinance/94be07efbb099c52f3786e34cbb2d249.jpg",
+            "source": "yahoo"
         },
         {
-            "title": "Brent oil hits US$100 as U.S.-Iran war shows little sign of abating",
+            "title": "Tracking oil prices and US gas prices amid Iran conflict",
             "severity": "HIGH",
-            "url": "https://financialpost.com/commodities/energy/oil-gas/brent-oil-hits-us100-as-u-s-iran-war-shows-little-sign-of-abating",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/09/0910-bc-hormuz-.jpg",
+            "url": "https://www.cnn.com/business/tracking-oil-gas-prices-vis",
+            "image": "https://media.cnn.com/api/v1/images/stellar/prod/20260408-strait-of-hormuz-hp.jpg?c=original/w_800",
+            "source": "cnn"
+        },
+        {
+            "title": "Bruce Springsteen releases new concert footage",
+            "severity": "HIGH",
+            "url": "https://ohnotheydidnt.livejournal.com/132837210.html",
+            "image": "https://l-files.livejournal.net/og_image/3616053/518895?v=1788971010",
+            "source": "livejournal"
+        },
+        {
+            "title": "Spain\u2019s top court suspends voting rights for some descendants of Civil War exiles",
+            "severity": "HIGH",
+            "url": "https://english.elpais.com/spain/2026-09-09/spains-top-court-suspends-voting-rights-for-some-descendants-of-civil-war-exiles.html",
+            "image": "https://images.english.elpais.com/resizer/v2/7UX5PO2MDNG2HAZLQEF7MRE2ZU.jpg?auth=f763cd0da71f58b150dd55be02812da01001346a0f8b77c64cc20aa48f5f88d5",
+            "source": "elpais"
+        },
+        {
+            "title": "Canada Targets States Where Republicans Are Most at Risk of Losing",
+            "severity": "HIGH",
+            "url": "https://newrepublic.com/post/215213/canada-targets-states-republicans-risk-losing-election",
+            "image": "https://images.newrepublic.com/08d45eb79538457801ffd1dcc1f49b75e7cde267.jpeg?w=1600&q=75&dpi=1&fm=pjpg&fit=crop&crop=faces&ar=3:2",
+            "source": "newrepublic"
+        },
+        {
+            "title": "Pennsylvania utility says it blocks 'tens of thousands' of cyberattack attempts each month",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/pennsylvania-utility-says-blocks-tens-161800053.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/6e232059df3cf639c369fb582765b729599f83fb4f0a204cc52df762040a3484/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_cool_down_737%2F58b13104b00bf80696d679198f153d79.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Israel sanctions will not hurt intelligence sharing between spy agencies, says Miliband",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/politics/2026/sep/09/israel-sanctions-will-not-hurt-intelligence-sharing-between-spy-agencies-says-miliband",
+            "image": "https://i.guim.co.uk/img/media/854d9f1256bb007a8d9bb69877b1d44b3c3d7d48/341_100_4027_3221/master/4027.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=9997a9eb0bcb2796c9a074118b2f251c",
+            "source": "theguardiantheguardian"
+        },
+        {
+            "title": "Superintelligence is coming. Should we let it?",
+            "severity": "HIGH",
+            "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
+            "image": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-2021258442.jpg",
+            "source": "techcrunch"
+        },
+        {
+            "title": "Bursa reprimands Techna-X over listing breach",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/business/business-news/2026/09/10/bursa-reprimands-techna-x-over-listing-breach",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/10/4102761.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Reform UK under criminal investigation amid allegations of donation rules breach",
+            "severity": "HIGH",
+            "url": "https://ca.news.yahoo.com/reform-uk-under-criminal-investigation-145927087.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/070dfced65b08a8d1b857086ebdef76812028fdfa4f3bd0e8fb87b67f726a877/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fpa_viral_news_uk_120%2F7da85b4a5a68642ea19544f59e8e8e55.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "AI is fueling copper demand. Kevin Simpson thinks this volatile miner is worth the risk",
+            "severity": "MEDIUM",
+            "url": "https://www.cnbc.com/2026/09/09/kevin-simpson-buying-freeport-mcmoran.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108360029-1788899346896-gettyimages-2263740522-4075_48_mn-0460-d.jpeg?v=1788899599&w=1200&h=675",
+            "source": "cnbc"
+        },
+        {
+            "title": "InfraTech Cables Selected for Major U.S. Fiber Supply Program Representing More Than $180 Million in Projected Three-Year Demand",
+            "severity": "MEDIUM",
+            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/infratech-cables-selected-for-major-u-s-fiber-supply-program-representing-more-than-180-million-in-projected-three-year-demand",
+            "image": "https://images.pexels.com/photos/6755087/pexels-photo-6755087.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "financialpost"
         },
         {
-            "title": "Iran uses cluster warheads in major Jordan strike? 20 ballistic missiles target USA's Al-Azraq base",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/videos/iran-uses-cluster-warheads-in-major-jordan-strike-20-ballistic-missiles-target-usas-al-azraq-base-101788954936735.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/09/1600x900/logo/maxresdefault_1788954932645_12b8a7c6-6bb5-4b4a-9f95-aa281fdbc595_1788954968174_94876263-4e88-4823-8311-c8bb7c4c6cb3_db910b06-bb55-465d-964b-1f6bcabdee80_31bac17e-25bb-4497-a3d4-afbf58ce44b3.jpg",
-            "source": "hindustantimes"
+            "title": "Nearly a decade after the Cambridge Analytica scandal, New Mexico alone is taking Facebook to trial",
+            "severity": "MEDIUM",
+            "url": "https://www.washingtontimes.com/news/2026/sep/9/roughly-decade-cambridge-analytica-scandal-new-mexico-alone-taking/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2026/09/09/New_Mexico_Meta_Trial_Prep_68437_s1440x964.jpg?43a08a8bc5a510b3f0598b4752226d57fa4b4d8e",
+            "source": "washingtontimes"
         },
         {
-            "title": "NATO preparing for protracted confrontation with Russia \u2014 diplomat",
-            "severity": "HIGH",
-            "url": "https://tass.com/politics/2184793",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
+            "title": "\u2018Not a replacement for Akshaye Khanna\u2019: Jaideep Ahlawat explains his Drishyam 3 role",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/entertainment/bollywood/jaideep-ahlawat-drishyam-3-not-a-replacement-for-akshaye-khanna-10870542/",
+            "image": "https://images.indianexpress.com/2026/09/Drishyam-3.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "\u2018DAU\u2019 Director Ilya Khrzhanovsky Responds to Ukraine Backlash at Venice: I Wish for the Ukrainian Government to \u2018Save the Country and Win This War\u2019",
-            "severity": "HIGH",
-            "url": "https://variety.com/2026/film/festivals/dau-director-ilya-khrzhanovsky-ukraine-venice-peace-success-1236855538/",
-            "image": "https://variety.com/wp-content/uploads/2026/09/GettyImages-2294293005.jpg",
-            "source": "variety"
+            "title": "Bristol Police Seek Witnesses To Garbage Truck Crash",
+            "severity": "WATCH",
+            "url": "https://patch.com/connecticut/across-ct/bristol-police-seek-witnesses-garbage-truck-crash",
+            "image": "https://patch.com/img/cdn20/users/27034476/20260909/122529/styles/patch_image/public/bristoltruckcrash___09122400092.jpg",
+            "source": "patch"
         },
         {
-            "title": "Blackouts, fuel shortages and empty taps: How Cuba\u2019s energy crisis is disrupting daily life",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/rest-of-world/blackouts-fuel-shortages-and-empty-taps-how-cubas-energy-crisis-is-disrupting-daily-life/articleshow/133967307.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133967539/133967539.jpg",
+            "title": "Republicans gather in Dallas for 2-day midterm convention billed as a \u2018Trump-a-Palooza\u2019",
+            "severity": "WATCH",
+            "url": "https://www.adn.com/nation-world/2026/09/09/republicans-gather-in-dallas-for-2-day-midterm-convention-billed-as-a-trump-a-palooza/",
+            "image": "https://www.adn.com/resizer/fcrW-S-Yu6sheq0cFgZ91k-piyI=/cloudfront-us-east-1.images.arcpublishing.com/adn/5OUU2YR4UTX5HXWYWDPV6JKASQ.jpg",
+            "source": "adn"
+        },
+        {
+            "title": "Texas couple sentenced for selling smuggled veterinary drugs, pesticides online",
+            "severity": "WATCH",
+            "url": "https://www.washingtontimes.com/news/2026/sep/9/texas-couple-sentenced-selling-smuggled-veterinary-drugs-pesticides/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2015/06/10/shutterstock_184689539_s1000x667.jpg?9c800a70ea4f8541a9e4ed47322ad63ac2f0678b",
+            "source": "washingtontimes"
+        },
+        {
+            "title": "\u2018Daddy\u2019 Andrew Scott spits in Leo Reich\u2019s mouth in NSFW viral trailer",
+            "severity": "WATCH",
+            "url": "https://www.out.com/gay-tv-shows/andrew-scott-it-gets-worse",
+            "image": "https://www.out.com/media-library/andrew-scott-leo-reich.jpg?id=67745895&width=980",
+            "source": "out"
+        },
+        {
+            "title": "Mounting cost of a stalemate",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/opinion/editorial/mounting-cost-of-a-stalemate-126090901645_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-09/07/thumb/1788802653-553.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Too high to hit cheaply: How Russia's 23,000-ft drone gambit is testing Ukraine air defence",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/defence/international/too-high-to-hit-cheaply-how-russias-23000-ft-drone-gambit-is-testing-ukraine-air-defence/articleshow/133975869.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-133976315/133976315.jpg",
             "source": "toi"
         },
         {
-            "title": "Trump\u2019s Big Day Ruined by Major New Blow in His War",
-            "severity": "HIGH",
-            "url": "https://www.thedailybeast.com/trumps-big-day-at-midterm-conference-ruined-by-major-new-blow-in-his-war-as-oil-tops-100-mark/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/5VNLYM7WLFDLVHKY7GNDWANNTE.JPG?auth=3a82eb4c3320209dcffef38526b5adc6861aad9a6aa1968ed5a99ce37c8f5029&smart=true&width=2482&height=1396",
-            "source": "thedailybeast"
+            "title": "UCF\u2019s Duke Watson, Taevion Swint provide Knights with a 1-2 punch on the ground",
+            "severity": "WATCH",
+            "url": "https://www.orlandosentinel.com/2026/09/09/ucf-knights-pittsburgh-panthers-duke-watson-taevion-swint-provide-boost-to-running-game/",
+            "image": "https://www.orlandosentinel.com/wp-content/uploads/2026/09/TOS-L-UCFFootballBethuneCookman14520_bc38bd.jpg?w=1400px&strip=all",
+            "source": "orlandosentinel"
         },
         {
-            "title": "From Arab Spring to US-Iran war \u2014 A history of oil price swings this century",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/2028620/from-arab-spring-to-us-iran-war-a-history-of-oil-price-swings-this-century",
-            "image": "https://i.dawn.com/large/2026/09/09161612ca7db39.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "WeChat fixes flaws after US firm shows AI cyberattack worm could hijack accounts - Malay Mail",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZm0tT044dzVfa0xGQXVRV0thWGstTzZaLVBBMGJab3A4QkNobE5RT3RDdmt0bS1TazFhZzBGTmtaZG9HMFdndEhSdFBETFR3dzd5Yi1xcUtWN213WTJXaXhPZVd4ZHVxNTAxWHlEYWo5S01VUXJhOTVDMnVqSDhEaWozVUVraEF5VjNyWXRLNG9MWW1UdmsxQmhYbDA5dDVZVlBNYXdISi16VFp6WHZPWi15TVZqNVQyY3p5czhVOGRVY3ZXSUZzYXFVaUVaUV91ZVRTVUxyT2g3d9IB3wFBVV95cUxQNFRzWW9CaVVQWjJUUlhLTkhlZ2prRVBGWElDckV4MkFCWnl1Q19mVEE4TFUyVmJwY1d3Zjgtc2E4bmZ6WlNCQ2VQdlZldTBsSkgtU2tjMkVoRExRQnBrdWNmWXVyX2plMkFJckhTTmIxeDFTZ3lBdkRGSnAtTHZMYmVONzhTdnloV3lhT3VLWVVKQk1CaHI1Uzh3UHYyR1c5X21SYkFRNzRSaWdaMXQxZFQyTlBFZnpNTzI1YkM4b25LOEQxcDFENUFBV3lNWTdhNnd2RklURi1aQjhhS1Nr?oc=5",
-            "image": "https://images.pexels.com/photos/7103185/pexels-photo-7103185.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "Babar Azam's Off-Stump Uprooted As Pakistan Top Order Collapses Inside 90 Minutes At Edgbaston",
-            "severity": "HIGH",
-            "url": "https://sports.ndtv.com/cricket/babar-azams-off-stump-uprooted-as-pakistan-top-order-collapses-inside-90-minutes-at-edgbaston-12023389",
-            "image": "https://c.ndtvimg.com/2026-09/45g6sct8_babar-azam-getty_625x300_09_September_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
-        },
-        {
-            "title": "Six in 10 Organizations Experienced at Least One Material Cyberattack in the Past 18 Months",
-            "severity": "HIGH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/09/3358518/0/en/six-in-10-organizations-experienced-at-least-one-material-cyberattack-in-the-past-18-months.html",
-            "image": "https://images.pexels.com/photos/11565603/pexels-photo-11565603.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "'A gamble with our lives': Ex-Anthropic researcher warns of AI 'catastrophe'",
-            "severity": "HIGH",
-            "url": "http://www.euronews.com/next/2026/09/09/a-gamble-with-our-lives-ex-anthropic-researcher-warns-of-ai-catastrophe",
-            "image": "https://images.euronews.com/articles/stories/09/90/70/64/1440x810_cmsv2_47ded1ce-c700-5792-8828-7ce5ca228568-9907064.jpg",
-            "source": "euronews"
-        },
-        {
-            "title": "If you breach the safety of daughters, you will have to choose between jail and hell: Yogi",
-            "severity": "HIGH",
-            "url": "https://www.prokerala.com/news/articles/a1810300.html",
-            "image": "https://files.prokerala.com/news/photos/imgs/1200/indian-may-face-jail-term-for-illegally-re-entering-us-1489873.jpg",
-            "source": "prokerala"
-        },
-        {
-            "title": "\u201cI felt his grace from day one\u201d: Peggy Ovire recalls first meeting with Pete Edochie",
-            "severity": "MEDIUM",
-            "url": "https://www.legit.ng/entertainment/celebrities/1729825-i-felt-grace-instantly-peggy-ovire-recounts-meeting-pete-edochie/",
-            "image": "https://cdn.legit.ng/images/1200x675/dc08d1d0b7f1ce84.jpeg?v=1",
-            "source": "legit"
-        },
-        {
-            "title": "Kornacki Cam: Watch Steve analyze Rhode Island primary election results",
-            "severity": "MEDIUM",
-            "url": "https://www.nbcnews.com/video/kornacki-cam-watch-steve-analyze-rhode-island-primary-election-results-269534789686",
-            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_09/Kornacki_Cam_-_Decision_2026-o9pdhu.jpg",
-            "source": "nbcnews"
-        },
-        {
-            "title": "Vucic Dissolves Parliament\u2014Serbia to Hold Elections on October 25",
-            "severity": "MEDIUM",
-            "url": "https://www.bluewin.ch/en/news/vucic-dissolves-parliament-serbia-to-hold-elections-on-october-25-li.3593626",
-            "image": "https://bluewin-prod-sc-images.imgix.net/2026/09/09/df2ce899-edef-4fa3-a2d4-175d9781e3a9.jpg?w=1024&auto=format&s=6d49da0b73a50d32406846b2ac706e84",
-            "source": "bluewin"
-        },
-        {
-            "title": "Real Madrid star Thibaut Courtois to skip Nations League campaign after showdown talks with Belgium boss Mark van Bommel",
-            "severity": "MEDIUM",
-            "url": "https://uk.sports.yahoo.com/news/real-madrid-star-thibaut-courtois-112652834.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/941ad065726c0e0c7984815d301a45dbc2440c2155f848398e4f37e1c71bb59a/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fgoal_uk_815%2F27cdeb9f4e73793f606b6acbec738b0c.jpg",
+            "title": "Planning An Unforgettable Safari Experience? Put These Less-Crowded Choices On Your Radar",
+            "severity": "WATCH",
+            "url": "https://travel.yahoo.com/guides/articles/planning-unforgettable-safari-experience-put-162501659.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/d3df09f85afeb37896eb072fd48537e24cf9a1ef7ef65832241f74094cbdc5dc/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Ftravel_noire_articles_954%2Faad2bbdd85800196e9b377089aa1de4a.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Healey in line for \u00a35.6bn boost from stock market rally",
+            "title": "Ex-Anthropic researcher argues AI progress 'could kill us all by the end of the decade' and 'progress is not slowing'",
             "severity": "WATCH",
-            "url": "https://uk.finance.yahoo.com/news/healey-line-5-6bn-boost-115625882.html",
-            "image": "https://media.zenfs.com/en/the_telegraph_818/fb00fe6b43d30454884e471d746dbb1c.jpg",
-            "source": "yahoo"
+            "url": "https://www.pcgamer.com/software/ai/ex-anthropic-researcher-argues-ai-progress-could-kill-us-all-by-the-end-of-the-decade-and-progress-is-not-slowing/",
+            "image": "https://cdn.mos.cms.futurecdn.net/Vmhmhycwkn6YrhJ8EMDcK3-1280-80.png",
+            "source": "pcgamer"
         },
         {
-            "title": "Oil surge and Fed rate bets rattle futures ahead of Apple's iPhone event",
+            "title": "ServiceTitan earnings analysis: questions answered and next catalysts",
             "severity": "WATCH",
-            "url": "https://uk.finance.yahoo.com/news/oil-surge-fed-rate-bets-115600842.html",
-            "image": "https://media.zenfs.com/en/proactive_uk_164/db963a29539e0a5ba42d29fdd85cf20b.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Panasonic\u2019s new appliance makes bread and ice cream \u2013 and it couldn\u2019t be simpler to use",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/extras/indybest/house-garden/kitchen-appliances/panasonic-bread-and-ice-cream-maker-review-b3046585.html",
-            "image": "https://static.independent.co.uk/2026/09/08/14/38/Panasonic-bread-and-ice-cream-maker-SD-PMC100-IndyBest.png?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "Brent oil tops $100 on Mideast flare-up, fanning inflation fears",
-            "severity": "WATCH",
-            "url": "https://www.news.com.au/breaking-news/brent-oil-tops-100-on-mideast-flareup-fanning-inflation-fears/news-story/10f0e9c892efaa2b8ed8e8b326a3e37b",
-            "image": "https://content.api.news/v3/images/bin/cf5e9378d9ec467d63cf6cbbb937eb16",
-            "source": "news"
-        },
-        {
-            "title": "France co-hosts major space summit with Germany despite US firms' withdrawals and Merz absence",
-            "severity": "WATCH",
-            "url": "http://www.euronews.com/my-europe/2026/09/09/france-co-hosts-major-space-summit-with-germany-despite-us-firms-withdrawals-and-merz-abse",
-            "image": "https://images.euronews.com/articles/stories/09/90/68/83/1440x810_cmsv2_1bf6f0a2-de06-5cd8-968e-5d2514bc26bc-9906883.jpg",
-            "source": "euronews"
-        },
-        {
-            "title": "Severstal expects steel consumption in Russia to decline in 2026-2027",
-            "severity": "WATCH",
-            "url": "https://tass.com/economy/2184789",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Bigg Boss Tamil 10: Ansar\u2019s Shocking Wall-Jumping Attempt Caught on Camera, Watch Viral Video",
-            "severity": "WATCH",
-            "url": "https://newsable.asianetnews.com/gallery/entertainment/bigg-boss-tamil-10-ansar-shocking-wall-jumping-attempt-caught-on-camera-watch-viral-video-a0fwzx6",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m22h2xn9zyg3esm2hvq5g07y,imgname-bigg-boss-tamil-1788938909353.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Is GTA 6 Coming to PC Earlier Than Expected? Here\u2019s What We Know",
-            "severity": "WATCH",
-            "url": "https://www.igeeksblog.com/gta-6-pc-release-date/",
-            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "igeeksblog"
-        },
-        {
-            "title": "The Employment Paradox: Why skilling one crore in AI will not create one crore jobs",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/jobs/hr-policies-trends/the-employment-paradox-why-skilling-one-crore-in-ai-will-not-create-one-crore-jobs/articleshow/133967733.cms",
-            "image": "https://img.etimg.com/thumb/msid-133967836,resizemode-4,width-1200,height-900,imgsize-57544,overlay-etcareers/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Hunter Biden Cashes Infamy\u2019s Golden Ticket. He\u2019s Not the First",
-            "severity": "WATCH",
-            "url": "https://www.newsweek.com/hunter-biden-laptop-meme-coin-infamy-golden-ticket-12419774",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/09/AP26163617290347.jpg?w=1600&h=900&q=88",
-            "source": "newsweek"
-        },
-        {
-            "title": "Aldi urges shoppers to do 5 things in stores to support British farmers",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/news/uk/2246991/aldi-urges-shoppers-do-5-things",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/1/237x141/2246991_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "What China's push into biomanufacturing means for the next industrial era",
-            "severity": "WATCH",
-            "url": "https://www.weforum.org/stories/manufacturing-and-value-chains/biomanufacturing-could-china-be-leading-the-next-industrial-revolution/",
-            "image": "https://assets.weforum.org/article/image/responsive_large_zDvDouI_LDVXaQbfQ9-aCs7e8-7Q22iU4DiHE1SMY1A.JPG",
-            "source": "weforum"
-        },
-        {
-            "title": "EU proposes new rules to simplify public tenders, promotes \"Buy European\"",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/economy-news/eu-proposes-new-rules-to-simplify-public-tenders-promotes-buy-european-4862213",
-            "image": "https://content-media.investing.com/news/LYNXMPEE3P0SY_M.jpg",
+            "url": "https://uk.investing.com/news/stock-market-news/servicetitan-earnings-analysis-questions-answered-and-next-catalysts-93CH-4862983",
+            "image": "https://content-media.investing.com/news/LYNXNPEB9M0BY_M.jpg",
             "source": "investing_uk"
         },
         {
-            "title": "No current plans to designate Tagore forest as a nature reserve: Chee Hong Tat",
+            "title": "Comcast drops 7% on persistent broadband losses and \u2019irrational\u2019 fiber pricing",
             "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/singapore/tagore-forest-nature-reserve-conservation-chee-hong-tat-mnd-6372971",
-            "image": "https://dam.mediacorp.sg/image/upload/s--vLSWJOtf--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/09/09/image_6.png?itok=eFt-Tw-h",
-            "source": "channelnewsasia"
+            "url": "https://uk.investing.com/news/stock-market-news/comcast-drops-7-on-persistent-broadband-losses-and-irrational-fiber-pricing-4862982",
+            "image": "https://content-media.investing.com/news/moved_LYNXMPEM5S0WU_L.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "Why THIS moment between Helen Skelton and Gethin Jones set tongues firmly wagging at the NTAs. DOLLY BUSBY saw it ALL. This is what happened when she confronted the 'friends' over the rumours that just won't go away...",
+            "title": "Flash deal drives M5 Pro MacBook Pro with 48GB RAM down to $2,899",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/tvshowbiz/article-16117283/Helen-Skelton-Gethin-Jones-NTAs-rumours.html",
-            "image": "https://i.dailymail.com/1s/2026/09/09/12/111139625-0-image-a-29_1788952864771.jpg",
-            "source": "dailymailuk"
+            "url": "https://appleinsider.com/articles/26/09/09/flash-deal-drives-m5-pro-macbook-pro-with-48gb-ram-down-to-2899",
+            "image": "https://media.appleinsider.com/gallery/68891-145125-macbook-pro-48gb-ram-deal-xl.jpg",
+            "source": "appleinsider"
         },
         {
-            "title": "Land grab probe: Custodial interrogation of Abhishek Banerjee\u2019s PA needed, West Bengal tells SC",
+            "title": "SDP\u2019s Adewole Adebayo makes bold solar power promise, read details",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/west-bengal/land-grab-probe-custodial-interrogation-of-abhishek-banerjees-pa-needed-west-bengal-tells-sc/article71447047.ece",
-            "image": "https://th-i.thgim.com/public/incoming/r54jf6/article71447137.ece/alternates/FREE_1200/PTI09_07_2026_000103A.jpg",
-            "source": "thehindu"
+            "url": "https://www.legit.ng/politics/1729881-sdps-adebayo-unveils-11-month-solar-power-plan-nigerians/",
+            "image": "https://cdn.legit.ng/images/1200x675/289bca30fef313c2.jpeg?v=1",
+            "source": "legit"
         },
         {
-            "title": "Technical View: Nifty 50 bears gain momentum, June low in focus; Bank Nifty may target July low as VIX spikes",
+            "title": "What to know about Europe\u2019s push to compete in space",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/markets/technical-view-nifty-50-bears-gain-momentum-june-low-in-focus-bank-nifty-may-target-july-low-as-vix-spikes-14026277.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260723081040_fall1.jpeg",
+            "url": "https://www.dailycamera.com/2026/09/09/europe-space-push/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2026/09/Europe_Space_Industry_31285-1.jpg?w=1400px&strip=all",
+            "source": "dailycamera"
+        },
+        {
+            "title": "Shein rival confirms plans for major U.S. store expansion",
+            "severity": "WATCH",
+            "url": "https://www.thestreet.com/retail/cider-us-store-expansion",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTcwNTAy/cider-store-expansion_ft_09082026.jpg?profile=rss",
+            "source": "thestreet"
+        },
+        {
+            "title": "Govt must answer for Gulzar's death, says BJP\u2019s Kainth",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/govt-must-answer-for-gulzars-death-says-bjps-kainth/articleshow/133976168.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133976165/133976165.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Manhattan Associates, Inc. (MANH) Presents at Citi's 2026 Global TMT Conference Transcript",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/article/4944422-manhattan-associates-inc-manh-presents-at-citis-2026-global-tmt-conference-transcript",
+            "image": "https://seekingalpha.com/samw/static/images/DefaultArticleImage.0a47d531d.png",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "OpenAI\u2019s rogue agents used at least 10 more sites for unauthorized comms, researchers say",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/companies/openai-s-rogue-agents-used-at-least-10-more-sites-for-unauthorized-comms-researchers-say-14026459.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260909161317_openairtr1.png",
             "source": "moneycontrol"
+        },
+        {
+            "title": "From paper leaks to policy failures: the academic cost of NTA\u2019s bureaucracy",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/education/the-academic-cost-of-ntas-bureaucracy/article71448477.ece",
+            "image": "https://th-i.thgim.com/public/incoming/h76lwi/article71448481.ece/alternates/FREE_1200/NTA%20Protest%205.JPG",
+            "source": "thehindu"
         }
     ],
-    "Last_Updated": "2026-09-09T23:58:38.486857Z"
+    "Last_Updated": "2026-09-10T04:26:16.551001Z"
 }
