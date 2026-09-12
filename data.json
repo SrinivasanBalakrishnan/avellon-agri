@@ -1,279 +1,274 @@
 {
-    "AGRI_Score": 67.4,
-    "Velocity": "+1.3",
+    "AGRI_Score": 69.9,
+    "Velocity": "+2.5",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 69.9/100 is significantly elevated, primarily driven by extreme levels in Energy & Maritime Disruption and heightened Geopolitical Conflict Intensity. The 'Saudi Arabia shut down East-West crude oil pipeline after multiple attacks' underscores critical energy supply vulnerabilities, while 'Israel Destroys Underground Hezbollah Fortress in Lebanon' reflects intensifying regional military engagements. Additionally, pervasive 'Cyber & Infrastructure Threats,' exemplified by major data breaches, contribute substantially to the overall high-risk posture.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 79.8,
+        "Geopolitical Conflict Intensity": 87.5,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 65.6,
+        "Trade & Supply Chain Stress": 68.8,
         "Sovereign Financial Stress": 59.5,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 55.0,
-        "Cyber & Infrastructure Threats": 66.5,
+        "Sanctions & Regulatory Fragmentation": 57.3,
+        "Cyber & Infrastructure Threats": 71.9,
         "Climate & Resource Shock": 45
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "The 'Israel Destroys Underground Hezbollah Fortress in Lebanon' headline indicates direct military confrontation, escalating regional tensions. Furthermore, the 'Saudi Arabia shut down East-West crude oil pipeline after multiple attacks' highlights a broadening conflict landscape impacting critical infrastructure in key energy regions.",
+        "Energy & Maritime Disruption": "The complete shutdown of a major crude oil pipeline due to 'multiple attacks' in Saudi Arabia represents an extreme disruption to global energy supply chains. This incident directly impacts international oil flow and underscores severe vulnerabilities in critical energy infrastructure.",
+        "Trade & Supply Chain Stress": "While no direct headlines explicitly mention broad trade disruptions, the 'Saudi Arabia shut down East-West crude oil pipeline after multiple attacks' suggests potential downstream impacts on energy-dependent supply chains. Prolonged disruptions to crude oil movement can ripple through manufacturing and transportation sectors globally.",
+        "Sovereign Financial Stress": "There are no direct news items indicating immediate sovereign debt or fiscal crises for major economies. However, the high 'Energy & Maritime Disruption' could create future fiscal pressures for energy-importing nations and potentially impact sovereign bond yields if prolonged.",
+        "Currency & Liquidity Pressure": "No specific headlines directly address currency devaluation or liquidity issues in key markets. Yet, the significant 'Energy & Maritime Disruption' could indirectly lead to capital flight or pressure on currencies in energy-dependent economies should oil prices surge dramatically.",
+        "Sanctions & Regulatory Fragmentation": "The headline 'Germany's election and the UK's sanctions signals political warfare' indicates ongoing development in the realm of international regulatory tools and geopolitical leverage. This suggests a continued trend of fragmented regulatory environments as states increasingly use economic tools in foreign policy.",
+        "Cyber & Infrastructure Threats": "Multiple incidents such as 'Florida confirms DMV database breached via stolen police account' and 'Millions of driver\u2019s license records at risk in data breach' demonstrate a pervasive and significant cyber threat landscape. The attempts by 'Users in Houthi-held Yemen tried to develop advanced weapons with AI' also highlight evolving capabilities for malicious actors.",
+        "Climate & Resource Shock": "The 'Flood pressure breaches three Bhagalpur bunds; 46 lakh hit by flood' indicates localized, severe climate-related events impacting significant populations and infrastructure. While not globally systemic, it underscores ongoing vulnerability to natural disasters in various regions."
+    },
     "All_Alerts": [
         {
-            "title": "Iran\u2019s Houthi allies capture strategic island on vital oil shipping route",
+            "title": "Saudi Arabia shut down East-West crude oil pipeline after multiple attacks",
             "severity": "HIGH",
-            "url": "https://www.theguardian.com/world/2026/sep/11/iran-houthi-allies-capture-strategic-island-bab-al-mandab-strait",
-            "image": "https://i.guim.co.uk/img/media/30ef346df5ca7fd3f57dc99c54e37de2403f8eb0/692_34_4903_3923/master/4903.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=63f4f8098febaeeab97bcfff18eb4aa1",
-            "source": "theguardian"
+            "url": "https://www.cnbc.com/2026/09/11/saudi-arabia-shut-down-east-west-crude-oil-pipeline.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108348621-1786555918107-gettyimages-73737271-Huty1594110.jpeg?v=1786555996&w=1200&h=675",
+            "source": "cnbc"
         },
         {
-            "title": "Financial analysts wary of proposed Nova Scotia Power regulatory change",
+            "title": "Germany's election and the UK's sanctions signals political warfare",
             "severity": "HIGH",
-            "url": "https://www.cbc.ca/news/canada/nova-scotia/financial-analysts-wary-of-proposed-nova-scotia-power-regulatory-change-9.7339365?cmp=rss",
-            "image": "https://i.cbc.ca/ais/1.6917559,1765304805405/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C5322%2C2993%29%3B",
-            "source": "cbc"
+            "url": "https://www.abc.net.au/news/2026-09-12/political-warfare-andy-burnham-germany-election-sanctions/107143228",
+            "image": "https://live-production.wcms.abc-cdn.net.au/ff7fb155861d61e4f8a05f75d2b8f2ba?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485",
+            "source": "abc_net"
         },
         {
-            "title": "25 years ago, a NASA astronaut witnessed the tragic 9/11 attacks from space. Here's what he saw.",
+            "title": "Americans 'don't pay attention to lesson of 9/11,' former US president Bush says - report",
             "severity": "HIGH",
-            "url": "https://www.space.com/space-exploration/human-spaceflight/25-years-ago-a-nasa-astronaut-witnessed-the-tragic-9-11-attacks-from-space-heres-what-he-saw",
-            "image": "https://cdn.mos.cms.futurecdn.net/CC56izZoVYrTMmFdyc3dJA-1280-80.jpg",
-            "source": "space"
+            "url": "https://www.jpost.com/american-politics/article-908392",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/737499",
+            "source": "jpost"
         },
         {
-            "title": "\u2018UNTHINKABLE\u2019: 25 years later, here\u2019s how The Tribune covered the 9/11 attacks",
+            "title": "Vogue magazine under fire for 'tone deaf' 9/11 post on 25th anniversary of tragic attack",
             "severity": "HIGH",
-            "url": "https://www.sltrib.com/news/2026/09/11/unthinkable-see-how-tribune/",
-            "image": "https://www.sltrib.com/resizer/v2/RCKXBRN73VGF5ERAQ52E44WT7U.jpg?auth=395064362273ed9fb25d10e2aa4ea78ad8aeac717a38ab602ab4f13c0d90262a&smart=true&width=4683&height=3840",
-            "source": "sltrib"
+            "url": "https://www.dailymail.com/lifestyle/article-16124177/vogue-magazine-backlash-tone-deaf-september-11.html",
+            "image": "https://i.dailymail.com/1s/2026/09/11/19/111198121-0-image-a-27_1789153095904.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Brics Summit: PM Modi, Putin hold bilateral talks on trade, defence",
+            "title": "SEO For Paws Live Stream Conference: Free Tickets & Big Names For A Good Cause",
             "severity": "HIGH",
-            "url": "https://www.business-standard.com/india-news/brics-summit-pm-modi-putin-hold-bilateral-talks-on-trade-defence-126091100792_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1260911/thumb-126091100792.jpg",
-            "source": "business-standard"
+            "url": "https://www.searchenginejournal.com/seo-for-paws-live-stream-conference-free-tickets-big-names-for-a-good-cause/588889/",
+            "image": "https://cdn.searchenginejournal.com/wp-content/uploads/2025/09/seo-for-paws-2025-80-e1757583084179-1440x810.png",
+            "source": "searchenginejournal"
         },
         {
-            "title": "Saudi Oil Supply Hits More Than 3-Decade Low After Houthi Attacks, IEA Says",
+            "title": "US commemorates 25th anniversary of devastating 9/11 attacks as their legacy endures",
             "severity": "HIGH",
-            "url": "https://www.newsmax.com/newsfront/saudi-oil-supply-three-decade-low/2026/09/11/id/1269090",
-            "image": "https://www.newsmax.com/cmspages/getfile.aspx?guid=3CBF1DB1-7C43-4032-86D3-C6D087A9FB9E",
-            "source": "newsmax"
+            "url": "https://www.euronews.com/2026/09/11/us-commemorates-25th-anniversary-of-devastating-911-attacks-as-their-legacy-endures",
+            "image": "https://images.euronews.com/articles/stories/09/91/07/07/1440x810_cmsv2_85aa1d00-3aad-520b-8520-f54bcee81835-9910707.jpg",
+            "source": "euronews"
         },
         {
-            "title": "Fallout: Wasteland Warfare Gameplay Officially Unveiled",
+            "title": "Israel Destroys Underground Hezbollah Fortress in Lebanon",
             "severity": "HIGH",
-            "url": "https://screenrant.com/fallout-wasteland-warfare-gameplay-reveal/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/fallout-4-character-sheriff-holding-rifle.jpg",
-            "source": "screenrant"
+            "url": "https://www.breitbart.com/national-security/2026/09/11/israel-destroys-underground-hezbollah-fortress-in-lebanon/",
+            "image": "https://media.breitbart.com/media/2026/09/AP26254427136949-640x335.png",
+            "source": "breitbart"
         },
         {
-            "title": "CBI court sends Agra railway official to 4-year jail for taking Rs 35,000 bribe",
+            "title": "\u2018Islamic NATO\u2019 Cracks: Saudi Runs To Trump As Houthis Storm; Pak Retreats, Turkey Silent",
             "severity": "HIGH",
-            "url": "https://www.prokerala.com/news/articles/a1811138.html",
-            "image": "https://images.pexels.com/photos/3866816/pexels-photo-3866816.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "prokerala"
-        },
-        {
-            "title": "Technical View: Nifty 50 may target 23,000 without follow-up buying next week as VIX soars; Bank Nifty needs to defend 56,000",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/business/markets/technical-view-nifty-50-may-target-23-000-without-follow-up-buying-next-week-as-vix-soars-bank-nifty-needs-to-defend-56-000-14027989.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260609044242_volatile-1.jpeg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Rarely this low on Steam: Strategy hit with 94% positive reviews drops to $2.99",
-            "severity": "HIGH",
-            "url": "https://www.notebookcheck.net/Rarely-this-low-on-Steam-Strategy-hit-with-94-positive-reviews-drops-to-2-99.1396898.0.html",
-            "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Into-the-Breach-Steam-Deal.jpg",
-            "source": "notebookcheck"
-        },
-        {
-            "title": "Trump is to commemorate the 25th anniversary of the 9/11 attacks at the Pentagon",
-            "severity": "HIGH",
-            "url": "https://www.dailycamera.com/2026/09/11/trump-sept-11-anniversary-pentagon/",
-            "image": "https://www.dailycamera.com/wp-content/uploads/2026/09/Sept_11_Anniversary_Pentagon_54788.jpg?w=1400px&strip=all",
-            "source": "dailycamera"
-        },
-        {
-            "title": "IB alerts Delhi Police over possible disruptions, VVIP security breach ahead of Brics Summit",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/india/ib-alerts-delhi-police-over-possible-disruptions-vvip-security-breach-ahead-of-brics-summit-14044996.html",
-            "image": "https://images.firstpost.com/uploads/2026/05/Delhi-Police-696x392-2026-05-a6816dedc48aed4c81a11f24aefeb9d7.jpg",
-            "source": "firstpost"
-        },
-        {
-            "title": "NewHold Investment Corp III Announces Details of Extraordinary General Meeting of Shareholders",
-            "severity": "MEDIUM",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/11/3360275/0/en/newhold-investment-corp-iii-announces-details-of-extraordinary-general-meeting-of-shareholders.html",
-            "image": "https://images.pexels.com/photos/586031/pexels-photo-586031.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "How big and small grocery stores are preparing for tariffs to hit shelves",
-            "severity": "MEDIUM",
-            "url": "https://www.cbc.ca/news/canada/british-columbia/how-big-and-small-grocery-stores-are-preparing-for-tariffs-to-hit-shelves-9.7339832?cmp=rss",
-            "image": "https://i.cbc.ca/ais/1249895c-ce3c-482f-936d-38309266a1b0,1789096726911/full/max/0/default.jpg?im=Crop%2Crect%3D%28372%2C0%2C4968%2C2794%29%3B",
-            "source": "cbc"
-        },
-        {
-            "title": "Ghaziabad woman threatens, points pistol at father, sister-in-law after car loan refusal; video emerges",
-            "severity": "MEDIUM",
-            "url": "https://timesofindia.indiatimes.com/city/ghaziabad/ghaziabad-woman-threatens-points-pistol-at-father-sister-in-law-after-car-loan-refusal-video-emerges/articleshow/134063827.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134065121/134065121.jpg",
+            "url": "https://timesofindia.indiatimes.com/videos/times-axis/islamic-nato-cracks-saudi-runs-to-trump-as-houthis-storm-pak-retreats-turkey-silent/videoshow/134086518.cms",
+            "image": "https://static.toiimg.com/photo/imgsize-340649,msid-134086518/134086518.jpg",
             "source": "toi"
         },
         {
-            "title": "Black Rock Coffee Bar Continues Expansion in the Valley with New Chandler Location",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/11/3360291/0/en/black-rock-coffee-bar-continues-expansion-in-the-valley-with-new-chandler-location.html",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "title": "Modi reiterates peace message before Putin as efforts to end war gain momentum",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/india/modi-reiterates-peace-message-before-putin-as-efforts-to-end-war-gain-momentum/articleshow/134086128.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134086300/134086300.jpg",
+            "source": "toi"
         },
         {
-            "title": "Dos Mares launches taco omakase with caviar, lobster and dry-aged beef",
-            "severity": "WATCH",
-            "url": "https://www.dallasnews.com/food/restaurant-news/article/dos-mares-launches-taco-omakase-caviar-lobster-22413483.php",
-            "image": "https://s.hdnux.com/photos/01/67/23/62/31276179/5/rawImage.jpg",
-            "source": "dallasnews"
+            "title": "Florida confirms DMV database breached via stolen police account",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2024/08/16/data-leak.jpg",
+            "source": "bleepingcomputer"
         },
         {
-            "title": "With \u2018Trash Mountain,\u2019 Caleb Hearon Becomes Your New Favorite Indie Darling",
-            "severity": "WATCH",
-            "url": "https://www.hollywoodreporter.com/movies/movie-features/trash-mountain-caleb-hearon-tiff-zooey-deschanel-1236694880/",
-            "image": "https://www.hollywoodreporter.com/wp-content/uploads/2026/09/CalebHearon_film_006-Edit61.jpg",
-            "source": "hollywoodreporter"
+            "title": "B.C. nurse serving 4-week licence suspension after breaching condtions",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/vancouver/article/bc-nurse-serving-4-week-licence-suspension-after-breaching-condtions/",
+            "image": "https://www.ctvnews.ca/resizer/v2/FBHRR75ZY3HJT33VUMCVTZHKFQ.jpg?auth=85ceed901ea336e546adc03c482b80eee22b86bc8c5d0770bd94be38a72ce715&smart=true&width=777&height=449",
+            "source": "ctvnews"
         },
         {
-            "title": "Update On Sunoco As The Stock Migrates From New York To Texas",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4945302-update-on-sunoco-as-the-stock-migrates-from-new-york-to-texas",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2236817021/image_2236817021.jpg?io=getty-c-w1280",
+            "title": "Stalker Arrested 7 Times In 4 Weeks | Motorcyclist Injured During Head-On Crash | More: PM Patch NH",
+            "severity": "HIGH",
+            "url": "https://patch.com/new-hampshire/concord-nh/stalker-arrested-7-times-4-weeks-motorcyclist-injured-during-head-crash",
+            "image": "https://patch.com/img/cdn20/users/546351/20260911/025115/styles/patch_image/public/pm-patch-nh-graphic___11145048603.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "Millions of driver\u2019s license records at risk in data breach. What now?",
+            "severity": "HIGH",
+            "url": "https://www.usatoday.com/story/money/money-management/subscriptions/2026/09/11/idscan-data-breach-exposes-drivers-license-data-what-now/91712923007/",
+            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/11/USAT/91713220007-getty-images-157438331.jpg?crop=2120,1193,x0,y110&width=1600&height=800&format=pjpg&auto=webp",
+            "source": "usatoday"
+        },
+        {
+            "title": "Users in Houthi-held Yemen tried to develop advanced weapons with AI, Anthropic says",
+            "severity": "HIGH",
+            "url": "https://www.bostonherald.com/2026/09/11/yemen-ai-weapons-anthropic/",
+            "image": "https://www.bostonherald.com/wp-content/uploads/2026/09/Yemen_War_85952_505b75.jpg?w=1400px&strip=all",
+            "source": "bostonherald"
+        },
+        {
+            "title": "Flood pressure breaches three Bhagalpur bunds; 46 lakh hit by flood",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/city/patna/flood-pressure-breaches-three-bhagalpur-bunds-46-lakh-hit-by-flood/articleshow/134085400.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-47529300/47529300.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Convicted Homeless Stalker Racks Up Assault, Disorderly, And Breach Charges In Concord: Follow-Up",
+            "severity": "HIGH",
+            "url": "https://patch.com/new-hampshire/concord-nh/convicted-homeless-stalker-racks-assault-disorderly-breach-charges-concord",
+            "image": "https://patch.com/img/cdn20/users/546351/20260911/023411/styles/patch_image/public/jeffrey-stephen-gardner-cpd-4x3___11143010567.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "Norsk Hydro downgraded at J.P. Morgan on Alunorte gas cost risks",
+            "severity": "MEDIUM",
+            "url": "https://seekingalpha.com/news/4642185-norsk-hydro-downgraded-at-j-p-morgan-on-alunorte-gas-cost-risks?feed_item_type=news",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1329224879/image_1329224879.jpg?io=getty-c-w1280",
             "source": "seekingalpha"
         },
         {
-            "title": "Tunnel to Towers Foundation Marks 25 Years Since 9/11, Retracing Stephen Siller\u2019s Final Steps as Steel Across America Tour Returns to New York",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/11/3360292/0/en/tunnel-to-towers-foundation-marks-25-years-since-9-11-retracing-stephen-siller-s-final-steps-as-steel-across-america-tour-returns-to-new-york.html",
-            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "title": "\u2018The Housewife\u2019 Review: Naomi Watts Stuns, but This True Story Flounders Under Its Own Weight",
+            "severity": "MEDIUM",
+            "url": "https://www.indiewire.com/criticism/movies/the-housewife-review-naomi-watts-true-story-1235216304/",
+            "image": "https://www.indiewire.com/wp-content/uploads/2026/09/images.jpg",
+            "source": "indiewire"
         },
         {
-            "title": "At 18 I Watched 9/11 in Horror, the Next Day I Made Life-Changing Decision",
-            "severity": "WATCH",
-            "url": "https://www.newsweek.com/at-18-i-watched-9-11-in-horror-the-next-day-i-made-life-changing-decision-12425580",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/09/main-1.png?w=1600&h=900&q=88",
-            "source": "newsweek"
+            "title": "30 Years Ago Today, Marvel Gave Captain America A Wild New Look That Fans Still Talk About",
+            "severity": "MEDIUM",
+            "url": "https://comicbook.com/uncategorized/feature/30-years-ago-today-marvel-gave-captain-america-a-wild-new-look-that-fans-still-talk-about/",
+            "image": "https://comicbook.com/wp-content/uploads/sites/4/2025/12/MixCollage-28-Dec-2025-04-35-PM-960.jpg",
+            "source": "comicbook"
         },
         {
-            "title": "Fresh, urgent, relevant: What the Dallas Theater Center's new artistic director wants to put on stage",
+            "title": "Federal appeals court blocks Trump administration bid to keep Michigan coal plant open",
             "severity": "WATCH",
-            "url": "https://www.dallasnews.com/arts-entertainment/performing-arts/article/dallas-theater-center-2026-reagan-gorbachev-play-22418305.php",
-            "image": "https://s.hdnux.com/photos/01/67/22/76/31272871/5/rawImage.jpg",
-            "source": "dallasnews"
+            "url": "https://www.cnbc.com/2026/09/11/federal-appeals-court-blocks-trump-admin-bid-to-keep-michigan-coal-plant-open.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108117472-1742299524937-gettyimages-2205131101-US-NEWS-TRUMP-COAL-POWER-TB.jpeg?v=1742299554&w=1200&h=675",
+            "source": "cnbc"
         },
         {
-            "title": "Remembering 9/11, 25 Years Later: Songs From Alan Jackson, Toby Keith & Others That Helped Us Grieve",
+            "title": "Our bodies age in stages\u2014especially during these two phases of life",
             "severity": "WATCH",
-            "url": "https://www.billboard.com/lists/9-11-songs-list-september-11-music/",
-            "image": "https://www.billboard.com/wp-content/uploads/2026/05/2214145713-e1779493488891.jpg",
-            "source": "billboard"
+            "url": "https://www.bluewin.ch/en/lifestyle/our-bodies-age-in-stages-especially-during-these-two-phases-of-life-li.3596730",
+            "image": "https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "bluewin"
         },
         {
-            "title": "Andrew Garfield on the meaning of no kings in The Uprising",
+            "title": "Houthi advance in Yemen is about more than just the Red Sea",
             "severity": "WATCH",
-            "url": "https://mashable.com/entertainment/andrew-garfield-the-uprising-no-kings",
-            "image": "https://cdn.ex.co/video-uploads/production/0010J00001l1J64QAE/1cb0ede5-e930-4b5d-9a7d-f59b78a99b5a-thumbnail.jpeg?cb=1789120516275",
-            "source": "mashable_us"
+            "url": "https://www.aljazeera.com/news/2026/9/11/houthi-advance-in-yemen-is-about-more-than-just-the-red-sea",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26253315512845-1789069587.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
         },
         {
-            "title": "When Blink-182 Was My Neighbor",
+            "title": "See Architect Amanda Bone like you've never seen her before. The building expert becomes a fashion icon for Dublin Design Week... and reveals the outfit that's so difficult to get into, it makes her cry!",
             "severity": "WATCH",
-            "url": "http://www.vulture.com/article/blink-182-stay-together-for-the-kids-september-11-music-video.html",
-            "image": "https://pyxis.nymag.com/v1/imgs/6e7/4a2/660d7b157d6b393faead276971090a93f2-blink182-lede.1x.rsocial.w1200.jpg",
-            "source": "vulture"
+            "url": "https://www.dailymail.com/news/article-16124295/See-Architect-Amanda-Bone-like-youve-never-seen-building-expert-fashion-icon-Dublin-Design-Week-reveals-outfit-thats-difficult-makes-cry.html",
+            "image": "https://i.dailymail.com/1s/2026/09/11/17/111195055-0-image-a-48_1789145074488.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Bihar CM Samrat Choudhary hails sattu, makhana in BRICS summit kit as \u2018new identity\u2019 for state",
+            "title": "Iran's President lashes out at 'terrorist' US, Israel in Delhi",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/cities/patna-news/bihar-cm-samrat-choudhary-hails-sattu-makhana-in-brics-summit-kit-as-new-identity-for-state-101789126085775.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/11/1600x900/logo/ANI-20260910320-0_1789126434616_48d1aeb6-5cce-4db6-af29-580d5147a12c_1789126447018_6ef868f1-1723-4359-a57c-fe0f8159a6cc_d17e444f-a35b-471d-b2a4-7d333eafdeda_672cb5a6-b8bb-453f-9e37-d5f0112a4cbd.jpg",
-            "source": "hindustantimes"
+            "url": "https://newsable.asianetnews.com/world/iran-s-president-lashes-out-at-terrorist-us-israel-in-delhi-articleshow-zg2npg2",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-d9e51dfc-f353-420c-b8a4-16a5cf6b802b.jpg",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "A rose is placed along a victims name at the World Trade Center on July 31, 2020 in New York City.",
+            "title": "Big banks finally blink and hike fixed mortgage rates",
             "severity": "WATCH",
-            "url": "https://www.mentalfloss.com/culture/museums/why-white-roses-appear-911-memorial",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_6048,h_3402,x_0,y_426/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/mentalfloss/01m239sfpzbw77s2ab39.jpg",
-            "source": "mentalfloss"
+            "url": "https://financialpost.com/real-estate/mortgages/mortgage-rates/big-banks-hike-mortgage-rates",
+            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/09/banks-bonds-gs0911.jpg",
+            "source": "financialpost"
         },
         {
-            "title": "GUILD Gem Laboratories Marks a Decade of Field Gemology Research at \u201cA Decade in the Field\u201d in Bangkok",
+            "title": "Grupa Azoty SA (STU:5PL) (H1 2026) Earnings Call Highlights: Chemicals Segment Drives ...",
             "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/11/3360280/0/en/guild-gem-laboratories-marks-a-decade-of-field-gemology-research-at-a-decade-in-the-field-in-bangkok.html",
-            "image": "https://images.pexels.com/photos/37601423/pexels-photo-37601423.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "url": "https://ca.finance.yahoo.com/news/grupa-azoty-sa-stu-5pl-190023741.html",
+            "image": "https://userupload.gurufocus.com/2098422338084315136.png",
+            "source": "yahoo"
         },
         {
-            "title": "Charge your laptop, open a bottle, and more with this $25 cable",
+            "title": "We had six great hours together. Now what?",
             "severity": "WATCH",
-            "url": "https://www.popsci.com/sponsored-content/charge-your-laptop-open-a-bottle-and-more-with-this-cable-sponsored-deal/",
-            "image": "https://www.popsci.com/wp-content/uploads/2026/09/image_a42b5b.png?quality=85",
-            "source": "popsci"
+            "url": "https://www.bostonglobe.com/2026/09/11/lifestyle/we-had-six-great-hours-together-now-what/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/52G7K5MPIVEJZKKUU23Y637GCI.jpg?auth=815c4676a247e91326a220e735b7458c9118587cbacd1c548fbb15a27d56706c&smart=true&width=420&height=532",
+            "source": "bostonglobe"
         },
         {
-            "title": "It's About To Get Worse For Nvidia",
+            "title": "Metrowater seizes illegally installed motors used to draw water in Chennai",
             "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4945297-its-about-to-get-worse-for-nvidia",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1496098727/image_1496098727.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "url": "https://www.thehindu.com/news/cities/chennai/metrowater-seizes-illegally-installed-motors-used-to-draw-water-in-chennai/article71456661.ece",
+            "image": "https://th-i.thgim.com/public/news/national/tamil-nadu/fa6om8/article71457338.ece/alternates/FREE_1200/WhatsApp%20Image%202026-09-11%20at%209.07.05%20PM.jpeg",
+            "source": "thehindu"
         },
         {
-            "title": "Can women influence when they go into menopause?",
+            "title": "195 girls fall sick after suspected food poisoning at Anand hostel",
             "severity": "WATCH",
-            "url": "https://www.thestar.com.my/lifestyle/health/2026/09/11/can-women-influence-when-they-go-into-menopause",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/04/4092163.jpg",
-            "source": "thestar_my"
+            "url": "https://timesofindia.indiatimes.com/city/vadodara/195-girls-fall-sick-after-suspected-food-poisoning-at-anand-hostel/articleshow/134086303.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134086301/134086301.jpg",
+            "source": "toi"
         },
         {
-            "title": "News Anchors Recall the Chaos of 9/11: 'The Teleprompter Went Blank'",
+            "title": "Closure of Bab el-Mandeb Strait threatens Saudi oil shipments to Asia \u2014 expert",
             "severity": "WATCH",
-            "url": "https://www.usmagazine.com/celebrity-news/news/news-anchors-stars-look-back-on-9-11-on-25th-anniversary/",
-            "image": "https://www.usmagazine.com/wp-content/uploads/2026/09/Copy-of-USW-Web-Img-Three-Way-Split-White-2000x2000-.jpg?crop=0px%2C186px%2C2000px%2C1130px&resize=800%2C450&quality=40&strip=all",
-            "source": "usmagazine"
+            "url": "https://tass.com/world/2186407",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
         },
         {
-            "title": "Across the US, \u2018Friday night lights\u2019 provide a sense of community \u2014 and, for some, a way out",
+            "title": "Eclipse's Lior Susan Wants Collaboration, Not Retreat, on AI",
             "severity": "WATCH",
-            "url": "https://www.dailycamera.com/2026/09/11/america-250-friday-night-lights/",
-            "image": "https://www.dailycamera.com/wp-content/uploads/2026/09/America_25__Friday_Night_Lights_93911-1.jpg?w=1400px&strip=all",
-            "source": "dailycamera"
+            "url": "https://equity-insider.com/eclipse-lior-susan-collaboration-not-retreat-ai-china/",
+            "image": "https://equity-insider.com/wp-content/uploads/creator/2026/09/eclipse-lior-susan-collaboration-not-retreat-ai-china.jpg",
+            "source": "equity_insider"
         },
         {
-            "title": "The Smithsonian chief\u2019s exit is a blow to democracy | Kimberle\u0301 Crenshaw and Jason Stanley",
+            "title": "Pune residents face low water pressure scenario ahead of Ganeshotsav",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/commentisfree/2026/sep/11/smithsonian-chief-exit-trump",
-            "image": "https://i.guim.co.uk/img/media/de31d47084f3dd834404226f75ed56592e64c014/456_0_4560_3648/master/4560.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=b270041d02050042784b5da5cf41965f",
-            "source": "theguardian"
+            "url": "https://timesofindia.indiatimes.com/city/pune/pune-residents-face-low-water-pressure-scenario-ahead-of-ganeshotsav/articleshow/134086082.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134086079/134086079.jpg",
+            "source": "toi"
         },
         {
-            "title": "Our marriage was in a rut. Could martial arts help us get our groove back?",
+            "title": "ED searches four premises linked to Nimar Agro Park, partners in Rs 14 crore NABARD loan diversion case",
             "severity": "WATCH",
-            "url": "https://www.latimes.com/lifestyle/story/2026-09-11/la-affairs-johanna-stein-our-marriage-was-in-rut-could-martial-arts-help-us-get-our-groove-back",
-            "image": "https://ca-times.brightspotcdn.com/dims4/default/9edaed9/2147483647/strip/false/crop/7807x5205+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff7%2Feb%2Fa5fe491c444c86998edddf05df2c%2Fla-times-ps-straightened.jpg",
-            "source": "latimes"
+            "url": "https://timesofindia.indiatimes.com/city/indore/ed-searches-four-premises-linked-to-nimar-agro-park-partners-in-rs-14-crore-nabard-loan-diversion-case/articleshow/134086273.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134086266/134086266.jpg",
+            "source": "toi"
         },
         {
-            "title": "No charges for Alberta officer accused of distribution of intimate images: ASIRT",
+            "title": "Case against unidentified person for edited CM photo",
             "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/edmonton/strathcona-rcmp-intimate-images-allegations-asirt-investigation-9.7338243?cmp=rss",
-            "image": "https://i.cbc.ca/ais/1.6581042,1786885523931/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C21%2C800%2C450%29%3B",
-            "source": "cbc"
+            "url": "https://timesofindia.indiatimes.com/city/hyderabad/case-against-unidentified-person-for-edited-cm-photo/articleshow/134085725.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134085718/134085718.jpg",
+            "source": "toi"
         },
         {
-            "title": "Tibetans gather in North Delhi's MKT to protest Chinese President's India visit",
+            "title": "Three HMRC rules set to contribute to 'triple blow' for savers",
             "severity": "WATCH",
-            "url": "https://www.news18.com/agency-feeds/tibetans-gather-in-north-delhis-mkt-to-protest-chinese-presidents-india-visit-10323695.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
-            "source": "news18"
+            "url": "https://www.birminghammail.co.uk/news/cost-of-living/three-hmrc-rules-set-contribute-34568423",
+            "image": "https://i2-prod.birminghammail.co.uk/news/cost-of-living/article34568487.ece/ALTERNATES/s615/0_hmrc4.jpg",
+            "source": "birminghammail"
         }
     ],
-    "Last_Updated": "2026-09-12T00:01:18.910623Z"
+    "Last_Updated": "2026-09-12T07:02:26.382631Z"
 }
