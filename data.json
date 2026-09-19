@@ -1,286 +1,260 @@
 {
-    "AGRI_Score": 63.2,
-    "Velocity": "-0.3",
+    "AGRI_Score": 64.4,
+    "Velocity": "+1.2",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.4 reflects a high-risk environment primarily driven by acute geopolitical tensions and their direct impact on energy markets. The \"Iran War Drives Bigger Diesel Supply Loss\" directly contributes to the extreme Energy & Maritime Disruption score (100), creating significant supply chain vulnerabilities. Furthermore, escalating rhetoric and conflict in the Middle East, as evidenced by \"Israel committed war crimes in Gaza\" and \"Tehran rallies hundreds of thousands of civilians to \u2018sacrifice their lives for Iran\u2019,\" elevate Geopolitical Conflict Intensity (80.8), deepening overall systemic risk.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 72.1,
+        "Geopolitical Conflict Intensity": 80.8,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 67.5,
+        "Trade & Supply Chain Stress": 64.5,
         "Sovereign Financial Stress": 59.4,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 57.0,
-        "Cyber & Infrastructure Threats": 60.9,
+        "Sanctions & Regulatory Fragmentation": 59.7,
+        "Cyber & Infrastructure Threats": 57.5,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar is critically high due to active conflicts and escalating rhetoric in key regions. The report of \"Israel committed war crimes in Gaza\" highlights ongoing humanitarian and military crises, while \"Tehran rallies hundreds of thousands of civilians to \u2018sacrifice their lives for Iran\u2019\" signals a significant escalation in regional tensions with potential for direct engagement.",
+        "Energy & Maritime Disruption": "This pillar is at its maximum, driven by concrete supply losses stemming from regional conflict. The headline \"Iran War Drives Bigger Diesel Supply Loss Despite Trump\u2019s Claims\" explicitly points to a direct disruption of critical energy supplies. This is further contextualized by reports that \"EIL sees prospect as Saudi, UAE plan to expand pipeline, storage,\" indicating proactive measures against anticipated supply vulnerabilities.",
+        "Trade & Supply Chain Stress": "Elevated stress in this pillar is directly influenced by energy supply disruptions and specific commodity challenges. The \"Iran War Drives Bigger Diesel Supply Loss\" will inherently impact transportation costs and logistics, while \"Bulk sugar users get 30-day stock limit extension for imported sugar\" points to specific vulnerabilities in commodity imports.",
+        "Sovereign Financial Stress": "While no specific sovereign default or debt crisis news is present, the elevated geopolitical and energy risks implicitly contribute to this moderate-high score. Sustained high energy prices and regional instability typically strain national budgets and economic outlooks, increasing the potential for future financial pressure.",
+        "Currency & Liquidity Pressure": "This pillar remains at a moderate level, indicating routine monitoring for potential shifts. The current news feed does not provide specific indicators of currency devaluation, significant capital outflows, or central bank interventions related to liquidity.",
+        "Sanctions & Regulatory Fragmentation": "This pillar reflects persistent regulatory complexity and existing sanctions regimes, maintaining a moderate-high score. There are no new developments in the provided news feed specifically detailing new sanctions or significant regulatory fragmentation, suggesting the current landscape remains unchanged but impactful.",
+        "Cyber & Infrastructure Threats": "This pillar registers a moderate risk due to identified autonomous cyber activity. The report that a \"Rogue AI swarm used a University of Toronto link-shortening tool to communicate\" indicates a sophisticated and potentially unmonitored threat actor in the cyber domain.",
+        "Climate & Resource Shock": "This pillar reflects low risk, indicating baseline activity and no significant immediate threats. The provided news does not include any major climate events, natural disasters, or significant resource scarcity issues."
+    },
     "All_Alerts": [
         {
-            "title": "Barefoot and Terrified, Yemenis Flee the Houthi Advance",
+            "title": "Music Industry Moves: T.J. Martell Gala Honoring Red Light Founder Coran Capshaw Raises Over $3.2 Million for Cancer Research; Freddy Wexler Launches Label",
             "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-09-18/barefoot-and-terrified-yemenis-flee-the-houthi-advance",
-            "image": "https://www.usnews.com/object/image/000001a0-59ea-d60c-a5aa-7deaf9cc0000/weekly1.jpg?update-time=1788216186313&size=responsiveSquare150",
-            "source": "usnews"
+            "url": "https://variety.com/2026/music/news/tj-martell-red-light-coran-capshaw-cancer-research-1236867074/",
+            "image": "https://variety.com/wp-content/uploads/2026/09/2295493354.jpg",
+            "source": "variety"
         },
         {
-            "title": "Nifty settles above 23,300 as Moody's GDP upgrade, easing oil support sentiment",
+            "title": "FCC grants Paramount\u2019s indirect ownership request for Gulf funds in Warner Bros. Discovery buyout",
             "severity": "HIGH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/nifty-settles-above-23-300-as-moody-s-gdp-upgrade-easing-oil-support-sentiment-126091800939_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
-            "source": "business-standard"
+            "url": "https://www.dailycamera.com/2026/09/18/fcc-approves-paramount-sovereign-funds/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2026/09/Paramount_Sovereign_Funds_9234_.jpg?w=1400px&strip=all",
+            "source": "dailycamera"
         },
         {
-            "title": "JPMorgan is abandoning its Iran war oil forecast as economic redlines keep getting crossed",
+            "title": "Iran War Drives Bigger Diesel Supply Loss Despite Trump\u2019s Claims",
             "severity": "HIGH",
-            "url": "https://qz.com/jpmorgan-iran-war-oil-forecast-endgame-091826",
-            "image": "https://qz.com/cdn-cgi/image/width=600,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2263004431.jpg",
-            "source": "quartz"
-        },
-        {
-            "title": "\u2018I pay a lot more for fewer and fewer items\u2019: five US shoppers on their food budgets",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/wellness/2026/sep/18/us-food-prices-budgets",
-            "image": "https://i.guim.co.uk/img/media/45ff8eb69a5d1ab3710a5ffea9b70a6db84405a1/134_329_6693_5355/master/6693.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2530749e0adcdd528474f7f6f5afa493",
-            "source": "theguardian"
-        },
-        {
-            "title": "Intel: More Foundry Rumors, Less Financial Details",
-            "severity": "HIGH",
-            "url": "https://seekingalpha.com/article/4947678-intel-more-foundry-rumors-less-financial-details-maintain-strong-sell",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1002010996/image_1002010996.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "I tried the new Fairphone, a phone designed to be repaired",
-            "severity": "HIGH",
-            "url": "https://www.fastcompany.com/91608879/i-tried-the-new-fairphone-a-phone-designed-to-be-repaired",
-            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/p-91608879-fairphone.jpg",
-            "source": "fastcompany"
-        },
-        {
-            "title": "Turn your talent filter into a talent pipeline",
-            "severity": "HIGH",
-            "url": "https://www.fastcompany.com/91608480/turn-your-talent-filter-into-a-talent-pipeline",
-            "image": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/09/1-63.png",
-            "source": "fastcompany"
-        },
-        {
-            "title": "\u2018The man\u2019s a psychopath when it comes to hedgerows\u2019: Derek vs Derek, the unexpectedly heartwarming doc about farmers at war",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/film/2026/sep/18/derek-vs-derek-farming-film-documentary-derek-gow-derek-banbury",
-            "image": "https://i.guim.co.uk/img/media/576d22b08110f4f139d7c216133ed69351ad7667/443_0_10920_8736/master/10920.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=de122bc9caa0f69321ee8c99adb41391",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "To protect democracy, Democrats should talk about corruption \u2013 not authoritarianism | Jared Abbott and Joan C Williams",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/commentisfree/2026/sep/18/democrats-corruption-authoritarianism",
-            "image": "https://i.guim.co.uk/img/media/3543d918a598b124f86dad469822b6940dea0d32/0_0_3360_2688/master/3360.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=32ecd912a5101a46658bd0cae2e49d67",
-            "source": "theguardian"
-        },
-        {
-            "title": "Boston abandoned Flock. But police forge ahead with new license plate readers",
-            "severity": "HIGH",
-            "url": "https://www.masslive.com/boston/2026/09/boston-abandoned-flock-but-police-forge-ahead-with-new-license-plate-readers.html",
-            "image": "https://www.masslive.com/resizer/v2/K7546FZ7N5AUFICA5KTRUD5SF4.jpg?auth=c12834ee12cda48430dfb560bc9bbcd13eec28b04e3d9a5b560b2e311a144933&smart=true&height=1200",
-            "source": "masslive"
-        },
-        {
-            "title": "Americans can get up to $5,000 from $3.1m data breach settlement \u2013 check if you qualify",
-            "severity": "HIGH",
-            "url": "https://www.the-sun.com/money/17022564/palomar-health-california-data-breach-settlement/",
-            "image": "https://www.the-sun.com/wp-content%2Fuploads%2Fsites%2F6%2F2026%2F09%2Fnewspress-collage-loepdhfrj-1789731434867.jpg?quality%3D90%26strip%3Dall%261789717063%261789717063",
-            "source": "thesun"
-        },
-        {
-            "title": "IND vs AFG: Abhishek Sharma Chased By Female Fan At Team Hotel Despite Security Intervention (WATCH)",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/sports/cricket-ind-vs-afg-abhishek-sharma-chased-by-female-fan-at-team-hotel-despite-security-intervention-watch-articleshow-n0lzg4m",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m2t4tvxjxx51k5c8593jxrcc,imgname-abhishek-sharma-chased-by-female-fan-1789731368881.jpg",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Cineworld drama continues as users claim its website has suffered a \u2018massive breach\u2019",
-            "severity": "HIGH",
-            "url": "https://metro.co.uk/2026/09/18/cineworld-drama-continues-users-claim-website-suffered-a-massive-breach-29632852/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_312935885-6b01.jpg?quality=90&strip=all",
-            "source": "metro"
-        },
-        {
-            "title": "Nearly 43% of Clark County homes are not owner-occupied, records show",
-            "severity": "MEDIUM",
-            "url": "https://www.reviewjournal.com/business/housing/nearly-43-of-clark-county-homes-are-not-owner-occupied-records-show-3887845/",
-            "image": "https://www.reviewjournal.com/wp-content/uploads/2026/09/21858223_web1_STOCK-DRONE-FOOTAGE-JANXX-24-BT07.jpg?w=700",
-            "source": "reviewjournal"
-        },
-        {
-            "title": "Samsung TriFold Rumors, EU Social Media Ban and AI Safety Fears | Tech Today",
-            "severity": "MEDIUM",
-            "url": "https://www.cnet.com/videos/samsung-trifold-rumors-eu-social-media-ban-and-ai-safety-fears-tech-today/",
-            "image": "https://www.cnet.com/wp-content/uploads/sites/2/Tech-Today-260918OPT-1.jpg",
-            "source": "cnet"
-        },
-        {
-            "title": "Inside the myth of the \u2018superfood\u2019 \u2013 and what you should really be eating",
-            "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/life/health-wellness/2026/09/18/superfood-myth-explained/91768462007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/15/USAT/91768503007-getty-images-847484328.jpg?crop=2120,1193,x0,y0&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "usatoday"
-        },
-        {
-            "title": "Scorpio Horoscope This Week (Sep 21-27): Patience and Planning Help You Handle Career Pressure and Financial Decisions",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/astrology/horoscope/scorpio-horoscope-this-week-sep-21-27-patience-and-planning-help-you-handle-career-pressure-and-financial-decisions/articleshow/134334613.cms",
-            "image": "https://img.etimg.com/thumb/msid-134334687,resizemode-4,width-1200,height-900,imgsize-123986,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Zelensky seeks stronger trade, security links through Carpathian Eight",
-            "severity": "WATCH",
-            "url": "https://www.jpost.com/international/article-909054",
-            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/738389",
-            "source": "jpost"
-        },
-        {
-            "title": "Celtic crash course for summer recruit: first Germany call-up, Ferencvaros pain and recipe for Rangers redemption",
-            "severity": "WATCH",
-            "url": "https://www.scotsman.com/sport/football/celtic/latest-celtic-news/celtic-crash-course-for-summer-recruit-first-call-up-ferencvaros-pain-and-recipe-for-rangers-redemption-9083955",
-            "image": "https://www.scotsman.com/jpim-static/image/2026/09/17/22/v2-image-production-fe4e05021cf2328839de4b0854951f3bY29udGVudHNlYXJjaGFwaSwxNzg5NzY1Nzg0-2.85887645.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "scotsman"
-        },
-        {
-            "title": "Rupee closes unchanged at 95.89 against US dollar",
-            "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/economy/rupee-closes-unchanged-at-95-89-against-us-dollar-14033116.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/01/20260117024256_rupee_dollar.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "He teaches Arizona seniors about tech. His internet barely worked",
-            "severity": "WATCH",
-            "url": "https://www.azcentral.com/story/money/tech/2026/09/18/why-arizona-mobile-home-parks-struggle-to-get-reliable-internet/91599932007/",
-            "image": "https://www.gannett-cdn.com/-mm-/9b8802257ca609b0e2d5aed109e4086be5ed8fbe/c=0-0-750-422/local/-/media/2020/08/25/USATODAY/usatsports/ghows-MO-200629953-9f8fd09a.jpg?auto=webp&format=pjpg&width=1200",
-            "source": "azcentral"
-        },
-        {
-            "title": "Guy Thinks He Finally Found A Close Friend Group, Then Learns They Googled His Name Before Befriending Him",
-            "severity": "WATCH",
-            "url": "https://www.boredpanda.com/fake-friends-take-advantage/",
-            "image": "https://static.boredpanda.com/blog/wp-content/uploads/2026/09/fake-friends-take-advantage-cover_720.jpg",
-            "source": "boredpanda"
-        },
-        {
-            "title": "Rory McIlroy confesses \u201clove\u201d for Middle East ahead of DP World Tour",
-            "severity": "WATCH",
-            "url": "https://gulfnews.com/sport/rory-mcilroy-confesses-love-for-middle-east-ahead-of-dp-world-tour-1.500679576",
-            "image": "https://media.assettype.com/gulfnews/2026-09-18/dljumn16/Rory_McIlroy_returns_to_the_Dubai_Invitational.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "gulfnews"
-        },
-        {
-            "title": "Arizona State vs Kansas. Who wins Union Jack Classic?",
-            "severity": "WATCH",
-            "url": "https://www.azcentral.com/story/sports/college/asu/2026/09/18/asu-kansas-to-face-off-in-inaugural-union-jack-classic/91758770007/",
-            "image": "https://www.azcentral.com/gcdn/authoring/authoring-images/2026/09/12/PPHX/91731244007-20260912-t-141550-z-708519145-mt-1-usatoday-29799893-rtrmadp-3-ncaafootballarizonastateattexasaampm.JPG?crop=5476,3080,x0,y285&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "azcentral"
-        },
-        {
-            "title": "Hisense PX4 Pro",
-            "severity": "WATCH",
-            "url": "https://www.whathifi.com/tv-home-cinema/projectors/hisense-px4-pro",
-            "image": "https://cdn.mos.cms.futurecdn.net/oYHXTkNVS24SR3pJPMS6g5-1920-80.jpg",
-            "source": "whathifi"
-        },
-        {
-            "title": "Why Xi Jinping health rumors swept social media at BRICS summit",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/vertical-galleries/article-16141995/Why-Xi-Jinping-health-rumors-swept-social-media-BRICS-summit.html",
-            "image": "https://i.dailymail.com/1s/2026/09/18/13/111328449-0-image-a-72_1789732872646.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "The 10 Greatest Classic Rock Songs That Defined the 1960s",
-            "severity": "WATCH",
-            "url": "https://collider.com/greatest-classic-rock-songs-defined-1960s/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/09/bob-dylan-hearts-of-fire-2.jpg",
-            "source": "collider"
-        },
-        {
-            "title": "'Dooming the moose': Manitoba Cree chief calls for voluntary stop to hunting",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com/news/canada/manitoba/dooming-the-moose-manitoba-cree-chief-calls-for-voluntary-stop-to-hunting/article_93c5ee46-571c-53dd-8a6c-c8e0df374638.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/b/ce/bceeb075-7e94-57fe-8199-a571f801082e/6aad28f37adf2.image.jpg?resize=300%2C235",
-            "source": "thestar"
-        },
-        {
-            "title": "Posthaste: Pressure ramps up on Bank of Canada to start \u2018insurance hikes\u2019 in October, economist says",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/news/bank-of-canada-start-insurance-hikes-october",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/09/tiff-macklem-gs0917.jpg",
-            "source": "financialpost"
-        },
-        {
-            "title": "How one backyard stray sparked a mission to save the \u2018Cats of San Bernardino\u2019",
-            "severity": "WATCH",
-            "url": "https://www.cnn.com/2026/09/18/us/jaina-spagis-cats-of-san-bernardino-california-cnnheroes",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/untitled-1-of-1-1.jpeg?c=original/w_800",
-            "source": "cnn"
-        },
-        {
-            "title": "MAX Power Engages Global Technology Leader Kyndryl to Build Commercialization Strategy for MAXX LEMI",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/18/3364670/0/en/max-power-engages-global-technology-leader-kyndryl-to-build-commercialization-strategy-for-maxx-lemi.html",
-            "image": "https://images.pexels.com/photos/34207359/pexels-photo-34207359.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "9 Best Novels Based On Video Games",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/best-novels-based-on-video-games/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/art-of-marcus-from-the-gears-of-war-aspho-fields-book.jpg",
-            "source": "screenrant"
-        },
-        {
-            "title": "13 Years Later, Garfield's Best Official Comic Is Still This Existential Nightmare",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/garfield-minus-garfield-best-book-existential-nightmare/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/garfield-dread.jpg",
-            "source": "screenrant"
-        },
-        {
-            "title": "What the BRICS Summit Meant for Brazil",
-            "severity": "WATCH",
-            "url": "https://foreignpolicy.com/2026/09/18/brazil-brics-summit-new-delhi-diplomacy-climate/",
-            "image": "https://foreignpolicy.com/wp-content/uploads/2026/09/brics-modi-brazil-GettyImages-2294350843.jpg",
-            "source": "foreignpolicy"
-        },
-        {
-            "title": "Air India Express suspends pilots and cabin crew for delaying alcohol test by 35 minutes",
-            "severity": "WATCH",
-            "url": "https://uk.news.yahoo.com/air-india-express-suspends-pilots-115826899.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/5d6b36f33e83777869b8a9f3a64c990d43d3ce46b030267503d68a719e1631c3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_577%2Fd4561bf546e601ca04e0ea3710f30b8a.jpg",
+            "url": "https://uk.finance.yahoo.com/news/iran-war-drives-bigger-diesel-190946460.html",
+            "image": "https://media.zenfs.com/en/bloomberg_holding_pen_162/047869d4aced9e02eca2108e4bfae201.jpg",
             "source": "yahoo"
         },
         {
-            "title": "UK market towns could BAN drinking alcohol in public spaces as soon as October with \u00a3100 fines under new rules",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/news/40418720/towns-ban-booze-public-fines/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F07%2F2sbf7ry-photo-medieval-historic-banburgh-1066001128.jpg?quality%3D90%26strip%3Dall",
-            "source": "thesun"
+            "title": "World War Z Sequel Confirms Brad Pitt Return as Conclave's Edward Berger Boards as Director",
+            "severity": "HIGH",
+            "url": "https://sea.ign.com/world-war-z-theater/249094/world-war-z-sequel-confirms-brad-pitt-return-as-conclaves-edward-berger-boards-as-director",
+            "image": "https://sm.ign.com/ign_ap/news/w/world-war-/world-war-z-sequel-confirms-brad-pitt-return-as-conclaves-ed_9q6x.jpg",
+            "source": "ign"
         },
         {
-            "title": "Sensex, Nifty post sixth weekly loss; TCS, Titan among top laggards, slip up to 4%",
-            "severity": "WATCH",
-            "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-post-sixth-weekly-loss-tcs-titan-among-top-laggards-slip-up-to-4-556484-2026-09-18",
-            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202609/6aad233882de1-the-market-remained-under-pressure-amid-elevated-crude-oil-prices-and-concerns-surrounding-geopoliti-184039425-16x9.jpg?size=1280:720",
-            "source": "businesstoday"
+            "title": "The fury over 'NAZA' doesn't change the bottom line: Israel committed war crimes in Gaza",
+            "severity": "HIGH",
+            "url": "https://www.haaretz.com/gaza/2026-09-18/ty-article/.premium/naza-uproar-distracts-from-confronting-israels-war-crimes-in-gaza/000001a0-b3f7-df5b-adf2-f7f7a8d80000",
+            "image": "https://img.haarets.co.il/bs/000001a0-b422-d633-a5a9-f573a2c90000/f1/4d/85f80fc64bcd8a0c571ecba8098b/191706-2.jpg?width=108&height=81",
+            "source": "haaretz_is"
         },
         {
-            "title": "Technical View: Nifty 50 needs follow-up buying to cross 23,600 next week; range-bound trade likely until then, 57,000 crucial for Bank Nifty as VIX below 12",
+            "title": "The best comforters and duvet inserts",
+            "severity": "HIGH",
+            "url": "https://www.businessinsider.com/guides/home/best-comforters",
+            "image": "https://i.insider.com/6744e1689f2901eb6036c20b?format=jpeg",
+            "source": "insider"
+        },
+        {
+            "title": "Oil finishes lower as the market sniffs out a TACO",
+            "severity": "HIGH",
+            "url": "https://investinglive.com/news/oil-finishes-lower-as-the-market-sniffs-out-a-taco/",
+            "image": "https://investinglive.com/cms/media/Processed/Categories/featured/Trump%20taco-featured-1789757588.jpg",
+            "source": "forexlive"
+        },
+        {
+            "title": "EIL sees prospect as Saudi, UAE plan to expand pipeline, storage",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/engineering/eil-sees-prospect-as-saudi-uae-plan-to-expand-pipeline-storage/articleshow/134343221.cms",
+            "image": "https://img.etimg.com/thumb/msid-134343257,resizemode-4,width-1200,height-900,imgsize-149790,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Tehran rallies hundreds of thousands of civilians to \u2018sacrifice their lives for Iran\u2019: \u2018We have no fear\u2019",
+            "severity": "HIGH",
+            "url": "https://nypost.com/2026/09/18/us-news/iran-rallies-hundreds-of-thousands-of-civilians-for-military/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2FIran-Military.jpg?quality%3D90%26strip%3Dall",
+            "source": "nypost"
+        },
+        {
+            "title": "Rogue AI swarm used a University of Toronto link-shortening tool to communicate",
+            "severity": "HIGH",
+            "url": "https://www.cbc.ca/news/canada/openai-university-toronto-rogue-agents-link-shortener-ai-9.7349607?cmp=rss",
+            "image": "https://i.cbc.ca/ais/0c6970ad-8f64-4eb8-a721-f1c1a435e9b4,1789743386867/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C186%2C3573%2C2009%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "Pentagon orders testosterone tests for male troops 30 and above, women left out for now",
+            "severity": "MEDIUM",
+            "url": "https://www.firstpost.com/world/pentagon-orders-testosterone-tests-for-male-troops-30-and-above-women-left-out-for-now-14046949.html",
+            "image": "https://images.firstpost.com/uploads/2026/04/The-battle-for-Kyiv-2026-04-09T083819.064-2026-04-6a36d93cca6c473eba8fe4a62d092805-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Vladimir Putin humiliated as he struggles to vote in Russia's 'fixed' election",
+            "severity": "MEDIUM",
+            "url": "https://www.express.co.uk/news/world/2249886/vladimir-putin-voting-russia-election",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/78/237x141/2249886_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Bulk sugar users get 30-day stock limit extension for imported sugar",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/industry/cons-products/food/bulk-sugar-users-get-30-day-stock-limit-extension-for-imported-sugar/articleshow/134343074.cms",
+            "image": "https://img.etimg.com/thumb/msid-134343206,resizemode-4,width-1200,height-900,imgsize-215310,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "UPI charges will burden small traders: Rai",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/markets/technical-view-nifty-50-needs-follow-up-buying-to-cross-23-600-next-week-range-bound-trade-likely-until-then-57-000-crucial-for-bank-nifty-as-vix-below-12-14033040.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260905031338_market_flat.jpg",
-            "source": "moneycontrol"
+            "url": "https://timesofindia.indiatimes.com/city/lucknow/upi-charges-will-burden-small-traders-rai/articleshow/134343300.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134343298/134343298.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Woman suffers 60% burns after barbecue fire at Darjeeling homestay",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/news/national/west-bengal/woman-suffers-60-burns-after-barbecue-fire-at-darjeeling-homestay/article71482370.ece",
+            "image": "https://www.thehindu.com/theme/images/og-image.png",
+            "source": "thehindu"
+        },
+        {
+            "title": "Indianapolis Colts wide receiver Ashton Dulin (16) and Indianapolis Colts wide receiver Alec Pierce (14) sit on the sidelines watching the game Saturday, Aug. 29, 2026, during the game against the Detroit Lions at Lucas Oil Stadium in Indianapolis. The Detroit Lions defeated the Indianapolis Colts, 25-16.",
+            "severity": "WATCH",
+            "url": "https://www.si.com/nfl/colts/onsi/colts-injury-report-ashton-dulin-out-alec-pierce-set-for-bigger-role",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_4588,h_2580,x_0,y_27/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/horseshoe_huddle/01m2tr09p54tpbep5ra5.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Partners Group explores \u20ac800M continuation fund for credit loans - Bloomberg",
+            "severity": "WATCH",
+            "url": "https://uk.investing.com/news/stock-market-news/partners-group-explores-800m-continuation-fund-for-credit-loans--bloomberg-93CH-4875061",
+            "image": "https://content-media.investing.com/news/LYNXMPECBE0OL_M.jpg",
+            "source": "investing_uk"
+        },
+        {
+            "title": "Karol G Dazzles at MetLife Stadium, Brings Tainy, Judeline & rusowsky for \u2018BbY WOW\u2019: 5 Best Moments",
+            "severity": "WATCH",
+            "url": "https://www.billboard.com/lists/karol-g-metlife-stadium-bby-wow-recap-best-moments/",
+            "image": "https://www.billboard.com/wp-content/uploads/2026/09/Karol-G-SoFi-Stadium-cr-Jill-Connelly-Los-Angeles-Times-Getty-Images-billboard-1800.jpg",
+            "source": "billboard"
+        },
+        {
+            "title": "China displays 838-pound laser weapon to arm J-36 fighter jet with missile shield",
+            "severity": "WATCH",
+            "url": "https://interestingengineering.com/military/china-j-36-high-energy-laser",
+            "image": "https://cms.interestingengineering.com/wp-content/uploads/2026/09/Untitled-design-2026-09-18T235851.556.jpg",
+            "source": "interestingengineering"
+        },
+        {
+            "title": "Boy George branded 'disgrace' by fans after stance on Macklemore tour firing",
+            "severity": "WATCH",
+            "url": "https://www.the-express.com/entertainment/celebrity-news/216294/boy-george-disgrace-macklemore-tour-firing",
+            "image": "https://cdn-images.the-express.com/img/dynamic/21/237x141/216294_1.jpg",
+            "source": "express"
+        },
+        {
+            "title": "Trump refers to Black man from racist 1988 campaign ad while stumping in North Carolina",
+            "severity": "WATCH",
+            "url": "https://www.latimes.com/world-nation/story/2026-09-18/trump-refers-to-black-man-from-racist-1988-campaign-ad-while-stumping-in-north-carolina",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/dbf9505/2147483647/strip/false/crop/6000x4000+0+0/resize/1486x991!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F3f%2F23%2F4721661347ac9d6e8f6328209dba%2Fcd83f304021d4d90b6d5c106c8b9a53f.jpg",
+            "source": "latimes"
+        },
+        {
+            "title": "New \u20b92.3-crore water reservoir to feed Mohali\u2019s Phase 8A & 8B",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/new-2-3-crore-water-reservoir-to-feed-mohalis-phase-8a-8b/articleshow/134343275.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134343274/134343274.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Spotted lanternfly detection raises concerns for Windsor-Essex grape growers",
+            "severity": "WATCH",
+            "url": "https://www.ctvnews.ca/windsor/article/spotted-lanternfly-detection-raises-concerns-for-windsor-essex-grape-growers/",
+            "image": "https://www.ctvnews.ca/resizer/v2/6BMAE3DSHZDZTJOXCJJMSLMPG4.jpg?auth=d7a8029b7265fa0236f0f01e3457ab90ac897821710b2867f77a20d4166ae09a&smart=true&width=2048&height=1536",
+            "source": "ctvnews"
+        },
+        {
+            "title": "Lawrence gang member held with two foreign-made pistols",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/chandigarh/lawrence-gang-member-held-with-two-foreign-made-pistols/articleshow/134343259.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-133690605/133690605.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Target\u2019s popular Frigidaire nugget ice maker is only $199 this week",
+            "severity": "WATCH",
+            "url": "https://www.al.com/shopping/2026/09/targets-popular-frigidaire-nugget-ice-maker-is-only-199-this-week.html",
+            "image": "https://www.al.com/resizer/v2/GH5DOHUGTVCWZDIZ6T5LW7263E.jpg?auth=0c14f59f0f109db7a04410dcaaeffec27ddfef3e173e0a3a4321cb51cef121f5&smart=true&height=1200",
+            "source": "al"
+        },
+        {
+            "title": "6 Flawless Miniseries With No Weak Episodes, Ranked",
+            "severity": "WATCH",
+            "url": "https://collider.com/best-miniseries-no-weak-episodes/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/07/amy-adams.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "Winnipeg lawyer previously disciplined by law society disbarred",
+            "severity": "WATCH",
+            "url": "https://ca.news.yahoo.com/winnipeg-lawyer-previously-disciplined-law-190734423.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/615f6d52e629aadcd17cf9e91a09aa5c0b3a9ddf2b4ac5e5d0e9e45129f69b13/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fcbc.ca%2F1c96035d0aba9ef03f6e354999b05304.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Spring see-saw to deliver hottest September weather in years",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-09-19/south-east-australia-set-for-hottest-september-weather-in-years/107169702",
+            "image": "https://live-production.wcms.abc-cdn.net.au/af3ffa16c5395714902ad7a11ec06e9e?impolicy=wcms_crop_resize&cropH=1152&cropW=2048&xPos=0&yPos=168&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Four jailed for 23 years over sex trafficking of Thai women across London and Kent",
+            "severity": "WATCH",
+            "url": "https://www.standard.co.uk/news/crime/four-jailed-sex-trafficking-network-thai-women-london-kent-met-police-b1297559.html",
+            "image": "https://static.standard.co.uk/2026/09/18/18/39/trafficking.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
+        },
+        {
+            "title": "California Explores Mandatory AI \"Kill Switch\" Amid Safety Concerns",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/world-news/california-explores-mandatory-ai-kill-switch-amid-safety-concerns-12066649",
+            "image": "https://c.ndtvimg.com/2026-09/biicmv4s_ai_625x300_17_September_26.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "Dodgers owner Mark Walter hit with fraud lawsuit amid ongoing federal investigation",
+            "severity": "WATCH",
+            "url": "https://nypost.com/2026/09/18/sports/dodgers-owner-mark-walter-named-in-fraud-lawsuit/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2Flos-angeles-dodgers-chairman-mark-137183034.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Rs 19 crore deal, death threats, and \u2018hotel arrest\u2019: Ahmedabad bizwoman files complaint",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/rs-19-crore-deal-death-threats-and-hotel-arrest-ahmedabad-bizwoman-files-complaint/articleshow/134342809.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134342808/134342808.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "HIPAACompliant eSignature Tools: What Healthcare SMBs Need in 2026",
+            "severity": "WATCH",
+            "url": "https://www.geeksforgeeks.org/blogs/hipaa-compliant-esignature-tools-what-healthcare-smbs-need-in-2026/",
+            "image": "https://media.geeksforgeeks.org/wp-content/uploads/gfg_200X200-100x100.png",
+            "source": "geeksforgeeks"
         }
     ],
-    "Last_Updated": "2026-09-19T00:03:03.885643Z"
+    "Last_Updated": "2026-09-19T07:12:58.668796Z"
 }
