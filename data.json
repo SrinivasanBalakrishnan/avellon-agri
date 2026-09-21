@@ -1,288 +1,281 @@
 {
-    "AGRI_Score": 66.7,
-    "Velocity": "+1.1",
+    "AGRI_Score": 64.3,
+    "Velocity": "-2.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 66.7 reflects a high-risk global environment, overwhelmingly driven by extreme Energy & Maritime Disruption and very high Geopolitical Conflict Intensity. The persistence of Middle East conflict, as evidenced by \"Vessels trickle through Strait of Hormuz as Middle East conflict persists,\" directly threatens global energy supplies and maritime trade routes. This is compounded by an intensifying geopolitical landscape, with warnings like \"Russia could launch attack on Nato within 'months not years'\" and \"WW3 fears rise as Trump considers \u2018blowing up\u2019 Iran\" indicating a pervasive threat of escalating international conflict.",
+    "AI_Brief": "The AGRI score of 64.3/100 reflects a high-risk environment primarily driven by severe Energy & Maritime Disruption and elevated Geopolitical Conflict Intensity. The perfect 100 in Energy is fueled by geopolitical tensions, with India \"studying new US law on sanctions against Russian oil buyers,\" alongside a \"giant ship crashes into fishing boat near Singapore\" maritime incident, posing significant supply chain and energy security concerns. Simultaneously, escalating conflicts, such as \"Israeli gunfire forces evacuation of MAP-supported medical point in Gaza\" and Ukraine's \"huge drone attack as election wraps up\" in Moscow, sustain a high geopolitical risk, contributing to the overall instability.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 87.3,
+        "Geopolitical Conflict Intensity": 77.6,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 62.7,
-        "Sovereign Financial Stress": 59.4,
+        "Trade & Supply Chain Stress": 64.5,
+        "Sovereign Financial Stress": 60.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 64.9,
-        "Cyber & Infrastructure Threats": 65.5,
+        "Sanctions & Regulatory Fragmentation": 57.0,
+        "Cyber & Infrastructure Threats": 64.1,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Global geopolitical tensions are acutely elevated across multiple regions, signaling a pervasive and intensifying threat of international conflict. The warning that \"Russia could launch attack on Nato within 'months not years'\" alongside \"WW3 fears rise as Trump considers \u2018blowing up\u2019 Iran\" exemplifies this widespread instability, further exacerbated by regional clashes such as \"3 Killed, 4 Injured As Pakistan Strikes Afghanistan\" and an \"Explosion injures 3 South Korean military officers\".",
-        "Energy & Maritime Disruption": "Maritime routes, especially the Strait of Hormuz, face severe disruption, critically threatening energy supplies and global shipping. The persistence of Middle East conflict, highlighted by \"Vessels trickle through Strait of Hormuz as Middle East conflict persists,\" combined with mentions of 'Cheek bulge warfare' fueling Houthi strikes, underscores the extreme vulnerability of energy flow and associated logistics.",
-        "Trade & Supply Chain Stress": "The trickling of vessels through critical maritime chokepoints, as reported by \"Vessels trickle through Strait of Hormuz as Middle East conflict persists,\" directly impacts global trade flows and introduces significant supply chain inefficiencies. Ongoing geopolitical conflicts and regional instability are increasing lead times and logistics costs worldwide.",
-        "Sovereign Financial Stress": "Warnings of an impending financial crisis suggest increasing pressure on sovereign finances worldwide, with Larry Elliott explicitly stating, \"All the signs say another financial crisis is coming.\" This environment of heightened geopolitical risk and potential economic downturns could severely strain government budgets and increase borrowing costs.",
-        "Currency & Liquidity Pressure": "While not directly detailed in the headlines, the prominent warning of \"another financial crisis coming\" inherently implies potential for currency volatility and liquidity pressures. Global geopolitical instability also typically drives investors towards safe-haven assets, impacting emerging market currencies and overall liquidity.",
-        "Sanctions & Regulatory Fragmentation": "North Korea's defiance against new sanctions, stating they \"Cannot Block Development,\" indicates a continued environment of regulatory non-compliance and international fragmentation, complicating global trade and diplomatic efforts. Domestically, HMRC's confirmation of \"investigations opening into IR35 workers\" points to increased regulatory scrutiny impacting business operations.",
-        "Cyber & Infrastructure Threats": "A significant security breach at Jetstar, exposing a \"huge loophole,\" highlights ongoing vulnerabilities in critical infrastructure and data systems. The high severity of such incidents underscores the persistent and evolving threat landscape posed by sophisticated cyber actors and system flaws.",
-        "Climate & Resource Shock": "Currently, the provided news feed does not contain any specific high-severity events related to climate disasters or resource scarcity. This pillar remains at a baseline activity level, indicating no immediate, drastic shocks from this category impacting global stability."
+        "Geopolitical Conflict Intensity": "The intensity remains high due to active conflicts, including \"Israeli gunfire forces evacuation of MAP-supported medical point in Gaza just days after patient killed at another.\" Furthermore, \"Moscow: Ukraine launches huge drone attack as election wraps up\" demonstrates persistent and aggressive military engagements across critical regions.",
+        "Energy & Maritime Disruption": "This pillar is at maximum severity, primarily driven by the \"India studying new US law on sanctions against Russian oil buyers\" which threatens global energy flows and maritime transport. Additionally, a \"giant ship crashes into fishing boat near Singapore\" highlights tangible maritime safety and disruption risks to key trade routes.",
+        "Trade & Supply Chain Stress": "Stress remains moderate, with the potential for \"India studying new US law on sanctions against Russian oil buyers\" to introduce new energy trade complexities. While Acer's CEO plays down a perceived \"RAM crisis,\" concerns around critical component shortages persist in market discourse.",
+        "Sovereign Financial Stress": "This area shows moderate stress, influenced by governmental responses to affordability concerns as \"Treasury Secretary Bessent talks to CNBC as Trump administration faces affordability concerns.\" Further budgetary pressures are indicated by the Taoiseach's plan that a \"Rent tax credit will be increased in budget.\"",
+        "Currency & Liquidity Pressure": "This pillar shows baseline activity, with no immediate news indicating significant sovereign currency or liquidity pressures. The positive performance of \"Solana outperforms large-cap cryptocurrencies on positive regulatory developments and ETF inflows\" suggests specific market segments are experiencing inflows, but this does not translate to broader systemic pressure.",
+        "Sanctions & Regulatory Fragmentation": "This pillar faces moderate pressure due to ongoing geopolitical maneuvering, as the \"EU scrambles for Russia sanctions deal amid France standoff\" highlights. Regulatory actions are also prominent, with Google facing \"more than \u20ac400m by Irish regulator over its use of location data\" for GDPR breaches.",
+        "Cyber & Infrastructure Threats": "Threats are moderately elevated, underscored by \"Moscow: Ukraine launches huge drone attack as election wraps up\" targeting Russian territory, which can impact critical infrastructure. A \"Yellow alert raised for Visayas grid Sept. 21\" further indicates vulnerabilities in energy infrastructure requiring monitoring.",
+        "Climate & Resource Shock": "This pillar demonstrates routine monitoring, as the news feed provides no immediate indicators of significant climate or resource-related shocks impacting global systems. This area currently presents a low risk profile."
     },
     "All_Alerts": [
         {
-            "title": "Vessels trickle through Strait of Hormuz as Middle East conflict persists",
+            "title": "Solana outperforms large-cap cryptocurrencies on positive regulatory developments and ETF inflows",
             "severity": "HIGH",
-            "url": "https://nypost.com/2026/09/21/world-news/vessels-trickle-through-strait-of-hormuz-as-middle-east-conflict-persists/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2Fdozen-commodity-vessels-transited-strait-141920070.jpg?w%3D1024",
-            "source": "nypost"
+            "url": "https://investinglive.com/cryptocurrency/solana-outperforms-large-cap-cryptocurrencies-on-positive-regulatory-developments-and-etf-inflows/",
+            "image": "https://investinglive.com/cms/media/Processed/Categories/featured/solana-featured-1789988194.jpg",
+            "source": "forexlive"
         },
         {
-            "title": "AI poses \u2018biggest challenge\u2019 to young people\u2019s mental health, expert warns",
+            "title": "India studying new US law on sanctions against Russian oil buyers: Piyush Goyal",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/tech/artificial-intelligence-children-mental-health-b3053373.html",
-            "image": "https://images.pexels.com/photos/972942/pexels-photo-972942.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "independentuk"
+            "url": "https://www.prokerala.com/news/articles/a1814859.html",
+            "image": "https://images.pexels.com/photos/9407369/pexels-photo-9407369.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "prokerala"
         },
         {
-            "title": "Huge Fireball As Massive Blasts Rock Ammunition Depot In Southern Aleppo; Several Injured | Watch",
+            "title": "oPt: Israeli gunfire forces evacuation of MAP-supported medical point in Gaza just days after patient killed at another",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/huge-fireball-as-massive-blasts-rock-ammunition-depot-in-southern-aleppo-several-injured-watch/videoshow/134383055.cms",
-            "image": "https://static.toiimg.com/photo/imgsize-1041024,msid-134383055/134383055.jpg",
+            "url": "https://reliefweb.int/report/occupied-palestinian-territory/israeli-gunfire-forces-evacuation-map-supported-medical-point-gaza-just-days-after-patient-killed-another",
+            "image": "https://reliefweb.int/modules/custom/reliefweb_meta/images/icons/OPT_PSE.png",
+            "source": "reliefweb"
+        },
+        {
+            "title": "Moscow: Ukraine launches huge drone attack as election wraps up",
+            "severity": "HIGH",
+            "url": "https://www.france24.com/en/video/20260921-moscow-ukraine-launches-huge-drone-attack-as-election-wraps-up",
+            "image": "https://s.france24.com/media/display/74b0eb54-b5ab-11f1-af58-0730212ba17f/w:1024/p:16x9/Ukraine-drone-strikes-thumbnail.jpg",
+            "source": "france24"
+        },
+        {
+            "title": "Is the RAM crisis overblown? Acer CEO plays down memory shortage, and says it's 'impossible' for it to last until 2030",
+            "severity": "HIGH",
+            "url": "https://www.techradar.com/computing/memory/is-the-ram-crisis-overblown-acer-ceo-plays-down-memory-shortage-and-declares-that-its-impossible-for-it-to-last-until-2030",
+            "image": "https://cdn.mos.cms.futurecdn.net/WmdEqp2Rrd3xvESLj4yN5P-1920-80.jpg",
+            "source": "techradar_uk"
+        },
+        {
+            "title": "EU scrambles for Russia sanctions deal amid France standoff",
+            "severity": "HIGH",
+            "url": "https://www.thehindu.com/news/international/eu-scrambles-for-russia-sanctions-deal-amid-france-standoff/article71491116.ece",
+            "image": "https://th-i.thgim.com/public/incoming/kxr9fw/article71491156.ece/alternates/FREE_1200/2024-10-29T052050Z_388709769_RC24UAA4TDZI_RTRMADP_3_FENCING-USMANOV.JPG",
+            "source": "thehindu"
+        },
+        {
+            "title": "Madras HC grants anticipatory bail to woman accused of bigamy, says unaware second wife not offender under Section 82 BNS",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/legal/news/madras-hc-grants-anticipatory-bail-to-woman-accused-of-bigamy-says-unaware-second-wife-not-offender-under-section-82-bns/articleshow/134387759.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134387801/134387801.jpg",
             "source": "toi"
         },
         {
-            "title": "3 Killed, 4 Injured As Pakistan Strikes Afghanistan; Kabul Warns Islamabad",
+            "title": "Google is fined more than \u20ac400m by Irish regulator over its use of location data",
             "severity": "HIGH",
-            "url": "https://news.abplive.com/news/world/pakistan-airstrike-afghanistan-3-killed-4-injured-kabul-warns-islamabad-1867641",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/09/21/84599acf1217f6e97d99a194bfa444531789974435164272_original.jpg",
-            "source": "abplive"
+            "url": "https://www.theguardian.com/technology/2026/sep/21/google-is-fined-more-than-400m-by-irish-regulator-over-its-use-of-location-data",
+            "image": "https://i.guim.co.uk/img/media/9ba09784c29dc5b375829e66613440d9d3af9d68/441_352_4523_3617/master/4523.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=1317559ed81e3d7505dccc5bc1bbfd89",
+            "source": "theguardian"
         },
         {
-            "title": "Florida fishing charter makes an unexpected catch: A US military drone",
+            "title": "Google fined 400 million euro for GDPR breach",
             "severity": "HIGH",
-            "url": "https://www.cnn.com/2026/09/21/us/florida-fishing-charter-drone-found-hnk-ml",
-            "image": "https://media.cnn.com/api/v1/images/stellar/prod/814749416-1368093825095511-1778725256295505256-n.jpg?c=original/w_800",
-            "source": "cnn"
+            "url": "https://uk.finance.yahoo.com/news/google-fined-400-million-euro-092349992.html",
+            "image": "https://media.zenfs.com/en/snappa_tech_788/292b8a4ba8ce93461e7ef3ff74e313c4.jpg",
+            "source": "yahoo"
         },
         {
-            "title": "WW3 fears rise as Trump considers \u2018blowing up\u2019 Iran",
+            "title": "Embattled Swans players rumoured to return to the club this week following Sydney's failed 2026 premiership run",
             "severity": "HIGH",
-            "url": "https://www.express.co.uk/news/world/2250233/ww3-fears-rise-trump-considers-blowing-up-iran",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/78/237x141/2250233_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Who was RN Kao? India's 'greatest spy' founded RAW, helped liberate Bangladesh, now subject of Karan Johar's next film",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/entertainment/bollywood/who-was-rn-kao-founder-of-raw-indias-greatest-spy-bangladesh-war-karan-johar-dharma-productions-film-gentleman-spymaster-101789971372348.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/21/1600x900/logo/RN_Kao_1789971748257_RgIO_1789971748413_02wA_09235466-f9f4-40e7-bfee-67bc20d9419e_eLIk.webp",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Karan Johar's Film Based On R&AW Founder Rameshwar Nath Kao To Release On August 11, 2028",
-            "severity": "HIGH",
-            "url": "https://www.ndtv.com/entertainment/karan-johars-film-based-on-r-aw-founder-rameshwar-nath-kao-to-release-on-august-11-2028-12075053",
-            "image": "https://c.ndtvimg.com/2026-09/rdjj465k_gg_625x300_21_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
-        },
-        {
-            "title": "At Pune Ganpati pandal, Assam Rifles DG urges youth to stay rooted, join armed forces",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/pune/at-pune-ganpati-pandal-assam-rifles-dg-urges-youth-to-stay-rooted-join-armed-forces/articleshow/134382463.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134384952/134384952.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Punjab CM Mann launches AAP\u2019s door-to-door campaign from Dhuri, highlights welfare benefits",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/genesis/punjab-cm-mann-launches-aap-s-door-to-door-campaign-from-dhuri-highlights-welfare-benefits-101789974514616.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/21/1600x900/logo/lulu4_1789974575266_y7Y2_1789974580609_OCNj_fb2d1f04-b8a0-4fbe-9a4e-053a0bedb354_zm3I.jpeg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Business Analytics Software Market Advances as Generative AI Reshapes Enterprise Decision-Making and Predictive Intelligence",
-            "severity": "HIGH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/21/3365163/0/en/business-analytics-software-market-advances-as-generative-ai-reshapes-enterprise-decision-making-and-predictive-intelligence.html",
-            "image": "https://images.pexels.com/photos/1078850/pexels-photo-1078850.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "\u2018Cheek bulge warfare\u2019: The ancient plant fuelling Houthi strikes on Saudi Arabia",
-            "severity": "HIGH",
-            "url": "https://zeenews.india.com/world/cheek-bulge-warfare-the-ancient-plant-fueling-houthi-strikes-on-saudi-arabia-3072571.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/09/21/1983136-houthi-saudi-conflict-qat-1.jpg",
-            "source": "zeenews"
-        },
-        {
-            "title": "All the signs say another financial crisis is coming. Here\u2019s why we need to prepare for it now | Larry Elliott",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/commentisfree/2026/sep/21/financial-crisis-ai-oil-market-2008-crash-disruption",
-            "image": "https://i.guim.co.uk/img/media/7e79272f4155fd92a17d0fe8f94df1c67584b28b/1141_0_1897_1518/master/1897.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=3b169bc922fcf272ce345df368ba48fc",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "Russia could launch attack on Nato within 'months not years', Western spy chiefs warn as Putin celebrates election win",
-            "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-16147451/Russia-launch-attack-Nato-months-not-years-Western-spy-chiefs-warn-Putin-celebrates-election-win.html",
-            "image": "https://i.dailymail.com/1s/2026/09/21/07/111370997-0-image-a-7_1789973468918.jpg",
+            "url": "https://www.dailymail.com/sport/afl/article-16147825/Swans-Melbourne-Sydney-suspended-players-return.html",
+            "image": "https://i.dailymail.com/1s/2026/09/21/11/111374805-0-image-a-60_1789986796455.jpg",
             "source": "dailymailuk"
         },
         {
-            "title": "Explosion injures 3 South Korean military officers in border area with North Korea",
+            "title": "North Korea defies sanctions push, rejects report on overseas workers and nuclear funding",
             "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/north-korea-dmz-south-korea-seoul-kim-jong-un-b3053370.html",
-            "image": "https://static.independent.co.uk/2026/09/21/08/South_Korea_Border_Explosion_95875.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "url": "https://timesofindia.indiatimes.com/world/rest-of-world/north-korea-defies-sanctions-push-rejects-report-on-overseas-workers-and-nuclear-funding/articleshow/134386433.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134386646/134386646.jpg",
+            "source": "toi"
         },
         {
-            "title": "HMRC confirms investigations opening into IR35 workers after rule break",
-            "severity": "HIGH",
-            "url": "https://www.birminghammail.co.uk/news/cost-of-living/hmrc-confirms-investigations-opening-ir35-34646396",
-            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article34646406.ece/ALTERNATES/s615/0_hmrc1.jpg",
-            "source": "birminghammail"
-        },
-        {
-            "title": "North Korea Says New Sanctions Cannot Block Development, KCNA Reports",
-            "severity": "HIGH",
-            "url": "https://www.usnews.com/news/world/articles/2026-09-21/north-korea-says-new-sanctions-cannot-block-development-kcna-reports",
-            "image": "https://www.usnews.com/object/image/000001a0-b536-dc19-aff5-b5fe13050000/september-18-pyss-w02.jpg?update-time=1789746715414&size=responsive640",
-            "source": "usnews"
-        },
-        {
-            "title": "Jetstar security breach exposes huge loophole - News.com.au",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQeE1wc1c2YVJZeWNPelVWbkZUYjFaZ1JuSW1HcEZTTjJ5c21mNmdEdWxVLWdvaXBpcWs0MUlaQkkxQlZmNnc4THV3aGkyUWZnTWNpdWZTd1l1dVktRUdNSE45bldTTHhXMmxNMk8zbXp5b1NxNWZFc3YyNzJCN2NRVWVkeXdXUnJuR1JsU1EybTE0TW5jeE1FTzhTbDZIaVdicG16VExUSjJCYmFqSjZFTHFWUG1DZm9LN28yaXpvT3dnMWwzcWFkaTNZOWVOT2hEUFFaN2liVG1WWENaX0NGZkp1ZXZUeFVSbWJyY0E5bktJTkVCNTg2aEtpSVFucHl4T3pkWA?oc=5",
-            "image": "https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "After Aleema, Imran\u2019s sisters Uzma and Noreen also detained in Lahore under MPO for 30 days",
-            "severity": "HIGH",
-            "url": "https://www.dawn.com/news/2031544/after-aleema-imrans-sisters-uzma-and-noreen-also-detained-in-lahore-under-mpo-for-30-days",
-            "image": "https://i.dawn.com/large/2026/09/21080823b452561.webp",
-            "source": "dawn"
-        },
-        {
-            "title": "Teekay: The Demand Destruction Begins (Rating Downgrade)",
+            "title": "Treasury Secretary Bessent talks to CNBC as Trump administration faces affordability concerns",
             "severity": "MEDIUM",
-            "url": "https://seekingalpha.com/article/4948206-teekay-the-demand-destruction-begins-rating-downgrade",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2264193758/image_2264193758.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "url": "https://www.cnbc.com/2026/09/21/treasury-bessent-cnbc-squawk-trump-bond-affordabilty.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108361600-1789105064608-gettyimages-2293873412-RNC_MIDTERM_CONVENTION.jpeg?v=1789105099&w=1200&h=675",
+            "source": "cnbc"
         },
         {
-            "title": "GLOFs: The danger lurking above India\u2019s hill towns",
+            "title": "Fake medicine racket: Pfizer C&F agency failed to cooperate with probe, says Karnataka Health Minister",
             "severity": "MEDIUM",
-            "url": "https://www.firstpost.com/explainers/hills-on-the-edge-glofs-the-danger-lurking-above-india-hill-towns-14047220.html",
-            "image": "https://images.firstpost.com/uploads/2026/09/glaciallake-2026-09-6cf6aa10592fc4553a2079895b91bb53-1200x675.jpg",
-            "source": "firstpost"
+            "url": "https://www.prokerala.com/news/articles/a1814857.html",
+            "image": "https://images.pexels.com/photos/586031/pexels-photo-586031.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "prokerala"
         },
         {
-            "title": "Meta data center boosts Alberta appeal for hyperscalers, Capital Power says",
+            "title": "'We Are All Canadians': TIFF stars rally around Canada amid U.S. tensions",
+            "severity": "MEDIUM",
+            "url": "https://ca.news.yahoo.com/we-are-all-canadians-tiff-stars-rally-around-canada-amid-us-tensions-110234345.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/14fa06621a55cf0dda6a1edf01258ff1e8ff952674b96e81ee2d2a35e7e99ee6/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fbefunky-collage-29_9893.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "'If this goes into a dirty battle ...': Harish Salve weighs in on Tata Sons-Trusts dispute | Full transcript",
+            "severity": "MEDIUM",
+            "url": "https://www.moneycontrol.com/news/business/if-this-goes-into-a-dirty-battle-harish-salve-weighs-in-on-tata-sons-trusts-dispute-full-transcript-14034477.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260921074625_sa.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Yellow alert raised for Visayas grid Sept. 21",
             "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/tech/technology/meta-data-center-boosts-alberta-appeal-for-hyperscalers-capital-power-says/articleshow/134389778.cms",
-            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-59758,resizemode-75,msid-134389778/tech/technology/meta-data-center-boosts-alberta-appeal-for-hyperscalers-capital-power-says.jpg",
+            "url": "https://cebudailynews.inquirer.net/768546/yellow-alert-raised-for-visayas-grid-sept-21",
+            "image": "https://cebudailynews.inquirer.net/files/2026/08/ngcp-620x389.jpg",
+            "source": "inquirer"
+        },
+        {
+            "title": "On camera, giant ship crashes into fishing boat near Singapore, desperate crew cling on",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/world-news/video-on-camera-giant-ship-crashes-into-fishing-boat-near-singapore-desperate-crew-cling-on-101789984623729.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/21/1600x900/logo/ship_collision_1789985297865_Dd5c_1789985308851_uecd_6256a1e8-2f7d-4854-afa5-bfe08c0c5fe3_BZqI.png",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Mama Bear #132 has one of Fat Bear Week\u2019s most compelling stories",
+            "severity": "WATCH",
+            "url": "https://www.popsci.com/environment/mama-bear-132-fat-bear-week-2026/",
+            "image": "https://www.popsci.com/wp-content/uploads/2026/09/fat-bear-132.jpg?quality=85",
+            "source": "popsci"
+        },
+        {
+            "title": "FOX viewers want Terry Bradshaw gone as Michael Strahan mocks his age",
+            "severity": "WATCH",
+            "url": "https://www.the-express.com/sport/american-football/216413/fox-nfl-sunday-viewers-terry-bradshaw",
+            "image": "https://cdn-images.the-express.com/img/dynamic/47/237x141/216413_1.jpg",
+            "source": "express"
+        },
+        {
+            "title": "Rent tax credit will be increased in budget, Taoiseach says",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/your-money/2026/09/21/rent-tax-credit-will-be-increased-in-budget-taoiseach-says/",
+            "image": "https://www.irishtimes.com/resizer/v2/XQXU77KQIVDL3KM625KVXQV6EA.jpg?auth=7ba19bb74e4c654296319ea67e905dd1f1528d6b33e171b2fb64899bacf9da2e&smart=true&width=630&height=350",
+            "source": "irishtimes"
+        },
+        {
+            "title": "\"Our Child Cannot Die By Suicide\": IIT Bombay Student's Grandmother To NDTV",
+            "severity": "WATCH",
+            "url": "https://www.ndtv.com/india-news/iit-bombay-student-death-sahil-wakode-our-child-cannot-die-by-suicide-iit-bombay-students-grandmother-to-ndtv-12076177",
+            "image": "https://c.ndtvimg.com/2026-09/iavh0md8_iit-bombay-death-sahil-wakode_625x300_21_September_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "Quote of the day by Robin Williams: You need three things in this world: A nice bowel movement on a regular basis, a navy blazer and...' American actor's unusual formula for a good life from cult classic The Fisher King",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/magazines/panache/quote-of-the-day-by-robin-williams-you-need-three-things-in-this-world-a-nice-bowel-movement-on-a-regular-basis-a-navy-blazer-and-american-actors-unusual-formula-for-a-good-life-from-cult-classic-the-fisher-king/articleshow/134387491.cms",
+            "image": "https://img.etimg.com/thumb/msid-134387877,resizemode-4,width-1200,height-900,imgsize-95843,overlay-etpanache/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Sheikh Ahmed bin Rashid Al Maktoum passes away; 10-day mourning declared in Dubai",
+            "title": "IIT-B Student Case: How 72 Hours Of Protest, FIR & Pressure Led To An 18-Point Demand From Students",
             "severity": "WATCH",
-            "url": "https://www.khaleejtimes.com/uae/sheikh-ahmed-bin-rashid-al-maktoum-passes-away-10-day-mourning-declared",
-            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-09-21/fnecucp5/Screenshot-2026-09-21-at-10.13.41-AM.png",
-            "source": "khaleejtimes"
+            "url": "https://www.news18.com/videos/india/iit-b-student-case-how-72-hours-of-protest-fir-pressure-led-to-an-18-point-demand-from-students-10344145.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/09/1789989482_a883e18f-fc02-4ffe-99bf-537f920a4dbf-1200x720.jpeg",
+            "source": "news18"
         },
         {
-            "title": "Citi is Bullish on these 2 Chinese travel stocks heading into the autumn holidays",
+            "title": "BBC removes 11 Mitchell and Webb comedy sketches from iPlayer",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/citi-is-bullish-on-these-2-chinese-travel-stocks-heading-into-the-autumn-holidays-93CH-4875447",
-            "image": "https://content-media.investing.com/news/LYNXNPEB6U08A_M.jpg",
-            "source": "investing_uk"
+            "url": "https://www.bbc.co.uk/news/articles/c6jdvpr30k8jo",
+            "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d5d7/live/fa83c740-b599-11f1-abe6-535e7b14de4c.jpg",
+            "source": "bbc"
         },
         {
-            "title": "Australia\u2019s Perpetual slumped 15% today. Here\u2019s why",
+            "title": "Europe's best smaller cities to escape the crowds - from a quiet Paris alternative to lesser-visited Italian beauties",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/australias-perpetual-slumped-15-today-heres-why-93CH-4875445",
-            "image": "https://content-media.investing.com/news/LYNXNPEB6J0AJ_M.jpg",
-            "source": "investing_uk"
+            "url": "https://www.dailymail.com/travel/article-16104995/Europe-best-second-smaller-cities-revealed.html",
+            "image": "https://i.dailymail.com/1s/2026/09/04/11/111049483-0-image-a-49_1788516743733.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "JPMorgan initiates NexGen Energy stock at Overweight on uranium supply potential",
+            "title": "CNN, MS NOW and Politico to sue over White House ban",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/jpmorgan-initiates-nexgen-energy-stock-at-overweight-on-uranium-supply-potential-93CH-4875448",
-            "image": "https://content-media.investing.com/news/moved_LYNXMPEM4510G_1200_L.jpg",
-            "source": "investing_uk"
+            "url": "https://www.irishtimes.com/world/us/2026/09/21/cnn-ms-now-and-politico-to-sue-over-white-house-ban/",
+            "image": "https://www.irishtimes.com/resizer/v2/5SMZJYRP3X2OTDEU2NSCEDJ5VI.jpg?auth=1d6adc492297442fbbdea59b2da9c0060d4361151db2faa6bf7c19fa5c244656&smart=true&width=630&height=350",
+            "source": "irishtimes"
         },
         {
-            "title": "Great Southern Copper reports high metallurgy recovery at Mostaza",
+            "title": "105 Instances Of Donation Theft At Ram Temple Caught On CCTV: Probe Report",
             "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/great-southern-copper-reports-high-metallurgy-recovery-at-mostaza-93CH-4875444",
-            "image": "https://content-media.investing.com/news/LYNXMPEM3115H_1200_L.jpg",
-            "source": "investing_uk"
+            "url": "https://www.ndtv.com/india-news/105-instances-of-donation-theft-at-ram-temple-caught-on-cctv-probe-report-12076138",
+            "image": "https://c.ndtvimg.com/2026-07/dlhqe9og_ram-temple-ayodhya_625x300_09_July_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
         },
         {
-            "title": "Parents can now reclaim their Spotify Wrapped and recommendations from their kids\u2019 music choices",
+            "title": "\u2018I\u2019m not here to entertain\u2019: Ouaddou hits back at Pirates legends",
             "severity": "WATCH",
-            "url": "https://www.nme.com/news/music/parents-can-now-reclaim-their-spotify-wrapped-and-recommendations-from-their-kids-music-choices-3969839",
-            "image": "https://www.nme.com/wp-content/uploads/2026/09/Spotify.-CREDIT_-Samuel-Boivin_NurPhoto-via-Getty-Images.jpg",
-            "source": "nme"
+            "url": "https://www.iol.co.za/sport/soccer/africa/im-not-here-to-entertain-ouaddou-hits-back-at-pirates-legends-35475b7a-02e8-4846-8802-5f45bbdf91c9",
+            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/ca8ad3891a3a5b9d86eac264ad1fee1c4273592c/1956&operation=CROP&offset=0x0&resize=1956x1100",
+            "source": "iol"
         },
         {
-            "title": "Sibur expands polymer supplies to Africa, Southeast Asia",
+            "title": "Hospitals May Be Sitting on Millions in Untapped Medication Cost Savings",
             "severity": "WATCH",
-            "url": "https://tass.com/economy/2190433",
-            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
-            "source": "tass"
-        },
-        {
-            "title": "Chevron: The Bull Case Goes Beyond $100 Oil",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4948205-chevron-the-bull-case-goes-beyond-100-oil",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2226304893/image_2226304893.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "European stocks bounce as oil eases, but German political shock, ECB hawks weigh",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/european-stocks-bounce-as-oil-eases-but-german-political-shock-ecb-hawks-weigh-4875443",
-            "image": "https://content-media.investing.com/news/moved_LYNXNPEI48092_L.jpg",
-            "source": "investing_uk"
-        },
-        {
-            "title": "Best Online Master\u2019s In Management",
-            "severity": "WATCH",
-            "url": "https://www.forbes.com/advisor/education/business-and-marketing/best-online-masters-in-management/",
+            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/hospitals-may-be-sitting-on-millions-in-untapped-medication-cost-savings",
             "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "forbes"
+            "source": "financialpost"
         },
         {
-            "title": "Platina reshuffles hand for high-stakes WA gold hunt",
+            "title": "Maruti Suzuki targets 30% female intake at Manesar manufacturing institute by FY29",
             "severity": "WATCH",
-            "url": "https://www.smh.com.au/business/companies/platina-reshuffles-hand-for-high-stakes-wa-gold-hunt-20260921-p60z9f.html",
-            "image": "https://static.ffx.io/images/$zoom_0.7354%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_109/t_crop_custom/q_86%2Cf_auto/b686582b745e209a88a3a6cec9934b44d56965d0e096dd66acb76c767f0205d7",
-            "source": "smh"
+            "url": "https://economictimes.indiatimes.com/industry/auto/auto-news/maruti-suzuki-targets-30-female-intake-at-manesar-manufacturing-institute-by-fy29/articleshow/134387599.cms",
+            "image": "https://img.etimg.com/thumb/msid-134387792,resizemode-4,width-1200,height-900,imgsize-621259,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Apple hit with $1m lawsuit over iPhone launch",
+            "title": "Britons\u2019 sense of job security slumps for all but tech workers",
             "severity": "WATCH",
-            "url": "https://au.news.yahoo.com/apple-hit-1m-lawsuit-over-065712223.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/97b821996ba27cd766f58b2a0a01f76124b58f768090fa871cacc287f00b24cb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnca_newswire_424%2F8668260e42cf5aa67f8298dd81e41d6f.jpg",
-            "source": "yahoo"
+            "url": "https://www.standard.co.uk/business/business-news/workers-bank-of-england-global-iran-b1297766.html",
+            "image": "https://static.standard.co.uk/2026/09/21/12/63f267869fa57e97cd23eead638e6f54Y29udGVudHNlYXJjaGFwaSwxNzkwMDczNzY0-2.82994233.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
         },
         {
-            "title": "'Magistrate's Permission Required For Re-Arrest': SC's BIG Verdict If 1st Arrest Is Quashed",
+            "title": "Minute-by-minute, what would happen if the Yellowstone SUPERVOLCANO erupted",
             "severity": "WATCH",
-            "url": "https://www.timesnownews.com/india/magistrates-permission-required-for-re-arrest-scs-big-verdict-if-1st-arrest-is-quashed-article-156195329",
-            "image": "https://images.timesnownews.com/thumb/msid-156195312,thumbsize-23988,width-1280,height-720,resizemode-75/156195312.jpg",
-            "source": "timesnownews"
+            "url": "https://www.dailymail.com/sciencetech/article-16147521/Minute-minute-happen-Yellowstone-SUPERVOLCANO-erupted.html",
+            "image": "https://i.dailymail.com/1s/2026/09/21/10/111373133-0-image-a-30_1789982021353.jpg",
+            "source": "dailymailuk"
         },
         {
-            "title": "Colts drop heartbreaker to Chiefs as overtime expires behind Butker\u2019s game-winner",
+            "title": "Bengali actor Mithu Mukherjee dies at 71 after prolonged battle with cancer",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/colts-drop-heartbreaker-chiefs-overtime-060021191.html",
-            "image": "https://images.pexels.com/photos/29859663/pexels-photo-29859663.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "yahoo"
+            "url": "https://indianexpress.com/article/entertainment/regional/bengali-actor-mithu-mukherjee-dies-at-71-after-prolonged-battle-with-cancer-10887370/",
+            "image": "https://images.indianexpress.com/2026/09/mithu-mukherjee.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Qld premier refuses to reveal cost to install Gabba wicket into new stadium",
+            "title": "New Era Energy & Digital Secures 20-Year, 207 MW PPA with Vistra",
             "severity": "WATCH",
-            "url": "https://www.abc.net.au/news/2026-09-21/queensland-premier-cost-transport-gabba-wicket-to-victoria-park/107177340",
-            "image": "https://live-production.wcms.abc-cdn.net.au/1ad4c436f722b83d6fe1020a5347ac03?impolicy=wcms_crop_resize&cropH=3074&cropW=5466&xPos=0&yPos=285&width=862&height=485",
-            "source": "abc_net"
+            "url": "https://www.globenewswire.com/fr/news-release/2026/09/21/3365358/0/en/new-era-energy-digital-secures-20-year-207-mw-ppa-with-vistra.html",
+            "image": "https://images.pexels.com/photos/24244231/pexels-photo-24244231.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "People on the Move: 9/21/26",
+            "severity": "WATCH",
+            "url": "https://www.post-gazette.com/business/career-workplace/2026/09/21/people-on-the-move-9-21-26/stories/202609200053",
+            "image": "https://https//73f3e7d5672db1849e6c-6434aaf008a29447cc424990bc6a54a7.ssl.cf2.rackcdn.com/stories/202609200053/1140x_a10-7_cTC/DATELINE092026-1-jpg_1789600942.jpg",
+            "source": "postgazette"
+        },
+        {
+            "title": "The Search for Silicon Valley\u2019s Most Powerful Woman",
+            "severity": "WATCH",
+            "url": "https://www.wired.com/story/searching-for-powerful-women-silicon-valley/",
+            "image": "https://media.wired.com/photos/6aac71b5d7fc34009fe6c60f/master/pass/silicon-valley-women-power.jpg",
+            "source": "wired"
         }
     ],
-    "Last_Updated": "2026-09-21T19:11:45.682407Z"
+    "Last_Updated": "2026-09-21T23:06:35.608978Z"
 }
