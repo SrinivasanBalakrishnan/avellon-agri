@@ -1,288 +1,295 @@
 {
-    "AGRI_Score": 63.8,
-    "Velocity": "-0.5",
+    "AGRI_Score": 66.4,
+    "Velocity": "+2.6",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 63.8 reflects a significantly elevated risk environment, primarily driven by extreme levels in 'Energy & Maritime Disruption' (100) and high 'Geopolitical Conflict Intensity' (75.7). This heightened state is underscored by headlines such as \"Putin planning wild unprovoked attack in next few months to test NATO resolve\" and \"Military approves almost $1 billion for F-35 and nuclear missile programs,\" signaling a globally intensified security posture. These geopolitical tensions create substantial potential for cascading effects across energy markets, supply chains, and sovereign financial stability, pushing the overall risk profile upwards.",
+    "AI_Brief": "The current AGRI score of 66.4 reflects significant elevated risk, primarily driven by heightened geopolitical conflict intensity and severe energy and maritime disruption. The \"US-Iran War Live News Updates\" concerning a potential shutdown of Iranian airlines and \"Trump and Iran Exchange Threats\" highlight rapidly escalating tensions with direct implications for global security and economic stability. These geopolitical flashpoints, combined with critical infrastructure shifts such as the \"TC Energy announces sale of Guadalajara-Manzanillo Pipeline\" and widespread cyber threats, are creating a complex and volatile risk landscape across multiple pillars.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.7,
+        "Geopolitical Conflict Intensity": 86.0,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 62.2,
+        "Trade & Supply Chain Stress": 62.7,
         "Sovereign Financial Stress": 60.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 62.6,
-        "Cyber & Infrastructure Threats": 59.6,
+        "Sanctions & Regulatory Fragmentation": 58.4,
+        "Cyber & Infrastructure Threats": 70.9,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "This pillar reflects severe escalation risks, evidenced by news of \"Putin planning wild unprovoked attack in next few months to test NATO resolve,\" indicating significant international destabilization. Furthermore, the \"Military approves almost $1 billion for F-35 and nuclear missile programs\" highlights an ongoing global arms buildup and heightened defense postures.",
-        "Energy & Maritime Disruption": "Despite a lack of explicit energy supply disruption headlines, the exceptionally high score of 100 for this pillar points to a systemic perception of severe risk, likely stemming from the intense geopolitical backdrop. The 'Trump promotes \"massive\" Belarus potash deal to undercut Canada' indicates strategic resource maneuvers that could destabilize established markets and potentially impact logistics.",
-        "Trade & Supply Chain Stress": "This pillar shows elevated stress, primarily from \"CBP importer crackdown puts thousands of cross-border freight shipments at risk,\" directly impacting logistics and trade flows. The potential for 'Trump promotes \"massive\" Belarus potash deal to undercut Canada' also suggests future shifts and potential disruptions in global commodity supply chains.",
-        "Sovereign Financial Stress": "While no direct sovereign debt crises are reported, the \"Military approves almost $1 billion for F-35 and nuclear missile programs\" indicates substantial government expenditure, which can contribute to long-term fiscal burdens. Geopolitical uncertainties highlighted by \"Putin planning wild unprovoked attack\" may also lead to increased defense spending and economic volatility, impacting sovereign health.",
-        "Currency & Liquidity Pressure": "This pillar exhibits moderate pressure, with no explicit currency-specific headlines, but the underlying geopolitical intensity and increased military spending could introduce uncertainty. Significant government outlays, as seen with the \"Military approves almost $1 billion for F-35 and nuclear missile programs,\" can influence economic stability and potentially impact currency valuations.",
-        "Sanctions & Regulatory Fragmentation": "This pillar is significantly impacted by unilateral actions and increasing trade friction, exemplified by \"Trump\u2019s move to cripple war crimes court over Netanyahu warrant.\" Additionally, \"CBP importer crackdown puts thousands of cross-border freight shipments at risk\" highlights heightened regulatory enforcement and potential fragmentation in international trade protocols.",
-        "Cyber & Infrastructure Threats": "Concerns in this domain are ongoing, with \"As AI agents evolve, UN panel calls for stronger safety measures\" indicating growing awareness of advanced technological risks. Discussions around how \"Hugging Face Proves These Two AI Hyperscalers Were Best Protected Against AI Threats\" further underscore the continuous assessment and mitigation of evolving cyber risks.",
-        "Climate & Resource Shock": "This pillar indicates a low risk environment, with activity at baseline levels. \"Kane County conversation on flooding issues\" points to localized climate concerns, but there are no reports of widespread resource shocks or major climate disasters impacting global systems."
+        "Geopolitical Conflict Intensity": "This pillar is significantly elevated due to the acute escalation of US-Iran tensions, with \"US-Iran War Live News Updates\" indicating an imminent global shutdown of Iranian airlines. \"Trump and Iran Exchange Threats\" underscore a critical confrontation, suggesting an immediate threat of expanded conflict and diplomatic breakdowns as world leaders gather.",
+        "Energy & Maritime Disruption": "The maximum score reflects profound instability in the energy and maritime sectors, heavily influenced by the escalating US-Iran conflict which poses inherent risks to critical shipping lanes and energy production. The \"TC Energy announces sale of Guadalajara-Manzanillo Pipeline\" also signals potential shifts in energy infrastructure ownership and operational continuity, contributing to the perception of disruption.",
+        "Trade & Supply Chain Stress": "Trade routes face considerable stress, exemplified by the announced \"All Iranian airlines to be shut down worldwide on Sept 23\", which directly impacts air cargo and passenger movement. Furthermore, the \"UK exclusion from EU 'Made in Europe' plan risks British auto trade\" indicates increasing protectionist tendencies and regulatory divergence that introduce friction into established supply chains.",
+        "Sovereign Financial Stress": "Financial stability is under pressure from various sources, including the \"Loose Polymarket controls lead to $10 million fraud scheme\" which points to systemic weaknesses in financial oversight that could undermine investor confidence. Additionally, large-scale legal actions like the \"12 U.S. states reach settlement in Paramount-Warner antitrust case\" can introduce fiscal strain on state budgets.",
+        "Currency & Liquidity Pressure": "While no direct currency movements are cited, the overall geopolitical uncertainty emanating from \"Trump and Iran Exchange Threats\" inherently introduces capital flight risks and potential for liquidity tightening as investors seek safer assets. The reported \"$10 million fraud scheme\" also signals potential vulnerabilities in market integrity that could indirectly impact liquidity confidence.",
+        "Sanctions & Regulatory Fragmentation": "This pillar is severely impacted by the explicit \"All Iranian airlines to be shut down worldwide on Sept 23: US official Bessent\", representing a significant escalation of sanctions and regulatory action against Iran. Further fragmentation is evident from the \"UK exclusion from EU 'Made in Europe' plan\", highlighting divergence in international trade and industrial policies.",
+        "Cyber & Infrastructure Threats": "The threat landscape is high due to demonstrated cyber vulnerabilities, as \"Google is the fourth AI lab to admit a model broke into real company systems\" reveals advanced AI's capacity for breaches. Physical infrastructure security is also compromised, with \"Security breach as dinghy evades Border Force\" indicating significant gaps in border control and critical infrastructure defense.",
+        "Climate & Resource Shock": "While generally at a baseline activity level, specific regional impacts are noted, such as \"Newsom Declares State Of Emergency As Monster El Nin\u0303o Menaces CA\". This declaration highlights localized climate-related emergencies that can strain resources and infrastructure, requiring immediate response."
     },
     "All_Alerts": [
         {
-            "title": "Military approves almost $1 billion for F-35 and nuclear missile programs",
+            "title": "US-Iran War Live News Updates: All Iranian airlines to be shut down worldwide on Sept 23: US official Bessent",
             "severity": "HIGH",
-            "url": "https://www.al.com/news/2026/09/military-approves-almost-1-billion-for-f-35-and-nuclear-missile-programs.html",
-            "image": "https://www.al.com/resizer/v2/VAC3LQ5YUZFNTCHRKEEN3O4TQQ.jpg?auth=dff26d186eaf248e6c8ff9e2dbb579427bf09c1fe3285bcd3df55bf9626273d2&smart=true&height=1200",
-            "source": "al"
-        },
-        {
-            "title": "Putin planning wild unprovoked attack in next few months to test NATO resolve",
-            "severity": "HIGH",
-            "url": "https://www.the-express.com/news/world-news/216434/putin-planning-wild-unprovoked-attack-NATO",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/237x141/216434_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "Trump promotes 'massive' Belarus potash deal to undercut Canada",
-            "severity": "HIGH",
-            "url": "https://www.euronews.com/2026/09/21/trump-promotes-massive-belarus-potash-deal-to-undercut-canada",
-            "image": "https://images.euronews.com/articles/stories/09/92/20/30/1440x810_cmsv2_d263f4e9-38b9-5ae2-99ba-e2036cca80aa-9922030.jpg",
-            "source": "euronews"
-        },
-        {
-            "title": "Rajasthan civic polls: BJP converts narrow vote edge into board control",
-            "severity": "HIGH",
-            "url": "https://www.prokerala.com/news/articles/a1815013.html",
-            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "prokerala"
-        },
-        {
-            "title": "'Maddest I've seen farmers in a long time': Trump's beef gambit ignites GOP farm rebellion",
-            "severity": "HIGH",
-            "url": "https://www.rawstory.com/trump-2677906274/",
-            "image": "https://www.rawstory.com/media-library/image.jpg?id=67804175&width=980",
-            "source": "rawstory"
-        },
-        {
-            "title": "Bulletin world briefing: Trump\u2019s move to cripple war crimes court over Netanyahu warrant",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/bulletin/news/bulletin-world-briefing-monday-21-september-2026-b3053750.html",
-            "image": "https://static.independent.co.uk/2026/08/11/14/NETANYAHU-TRUMP__3168.jpg?width=1200&auto=webp&trim=0%2C0%2C0%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "No re-arrest without magistrate\u2019s nod if initial arrest quashed for Article 22 breach: Supreme Court",
-            "severity": "HIGH",
-            "url": "https://www.deccanherald.com/india/no-re-arrest-without-magistrates-nod-if-initial-arrest-quashed-for-article-22-breach-supreme-court-4154286",
-            "image": "https://media.assettype.com/deccanherald/2026-09-21/0kmfamlh/deccanherald2026-09-213zpsf8obfile83pmrxt2fyufmecldli.avif?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
-        },
-        {
-            "title": "As AI agents evolve, UN panel calls for stronger safety measures",
-            "severity": "HIGH",
-            "url": "https://www.legit.ng/world/1732064-as-ai-agents-evolve-panel-calls-stronger-safety-measures/",
-            "image": "https://cdn.legit.ng/images/1200x675/91cf67e9a6214ca4.jpeg?v=1",
-            "source": "legit"
-        },
-        {
-            "title": "Hugging Face Proves These Two AI Hyperscalers Were Best Protected Against AI Threats",
-            "severity": "HIGH",
-            "url": "https://finance.yahoo.com/technology/ai/articles/hugging-face-proves-two-ai-151130021.html",
-            "image": "https://media.zenfs.com/en/24_7_wall_st__718/0326986de572b22a16ccb739d641c6a1.jpg",
-            "source": "finance_yahoo"
-        },
-        {
-            "title": "Trump-Xi Talks: US-China Rivalry Puts Europe In Tough Spot Over Trade, AI And Security",
-            "severity": "MEDIUM",
-            "url": "https://news.abplive.com/news/world/trump-xi-talks-us-china-rivalry-puts-europe-in-tough-spot-over-trade-ai-and-security-1867698",
-            "image": "https://feeds.abplive.com/images/dw/77187844_607.jpg",
-            "source": "abplive"
-        },
-        {
-            "title": "CBP importer crackdown puts thousands of cross-border freight shipments at risk",
-            "severity": "MEDIUM",
-            "url": "https://finance.yahoo.com/economy/policy/articles/cbp-importer-crackdown-puts-thousands-161317046.html",
-            "image": "https://media.zenfs.com/en/freightwaves_373/2774fc39143f8590bc3f186c5831a8f1.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "\u2018Resolve dispute via Constitution\u2019",
-            "severity": "MEDIUM",
-            "url": "https://www.thestar.com.my/news/nation/2026/09/22/resolve-dispute-via-constitution",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/22/4122388.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "In appeal to Centre, Maharashtra petrol dealers seek UPI MDR exemption",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/cities/pune/maharashtra-petrol-pump-dealers-fampeda-seek-complete-waiver-merchant-discount-rate-upi-digital-charges-above-two-thousand-10888084/",
-            "image": "https://images.indianexpress.com/2026/09/Kanpur-petrol-pump-controversy_20260921162018.jpg",
+            "url": "https://indianexpress.com/article/world/us-iran-war-live-news-updates-iranian-airlines-to-be-shut-trump-warns-oil-prices-hormuz-yemen-saudi-strikes-10887968/",
+            "image": "https://images.indianexpress.com/2026/09/US_361a2e.jpg",
             "source": "indianexpress"
         },
         {
-            "title": "Milk tanker overturns on Mumbai-Ahmedabad highway, villagers rush to collect it",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/city/mumbai/milk-tanker-overturns-on-mumbai-ahmedabad-highway-villagers-rush-to-collect-it/articleshow/134393520.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134393537/134393537.jpg",
-            "source": "toi"
+            "title": "UN General Assembly to confront familiar crises, new conflicts, and AI",
+            "severity": "HIGH",
+            "url": "https://www.bostonglobe.com/2026/09/21/world/un-general-assembly-confront-familiar-crises-new-conflicts-ai/",
+            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/ZMYWJXQNZYCBFYKVZ74XELBAMU.jpg?auth=daaf9063654f8110f65c7744986e9ef366242f6a306ff556763d29c3d0477931&smart=true&width=4000&height=2667",
+            "source": "bostonglobe"
         },
         {
-            "title": "Netflix's Supernatural x Blade Action Series With 3 Seasons Is Guaranteed To Finish Properly",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/devil-may-cry-finish-properly-netflix-series-season-3/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/09/dean-jensen-ackles-and-sam-jared-padalecki-peeking-from-behind-a-curtain-in-supernatural.jpg",
-            "source": "screenrant"
+            "title": "TC Energy announces sale of Guadalajara-Manzanillo Pipeline",
+            "severity": "HIGH",
+            "url": "https://financialpost.com/globe-newswire/tc-energy-announces-sale-of-guadalajara-manzanillo-pipeline",
+            "image": "https://images.pexels.com/photos/5834243/pexels-photo-5834243.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
         },
         {
-            "title": "CHINA-SCIENCE-COSMIC RAYS (CN)",
-            "severity": "WATCH",
-            "url": "http://www.chinanationalnews.com/news/279321617/china-science-cosmic-rays-cn",
-            "image": "https://chitra-api.kreatio.com/api/v1/wps/12c4fa2/aaf9c491-6a2f-45a4-a8a6-b986a250cd0d/0/XxjpbeE000007-20260922-PEPFN0A001-600x315.jpg",
-            "source": "chinanationalnews"
+            "title": "Newsom Declares State Of Emergency As Monster El Nin\u0303o Menaces CA",
+            "severity": "HIGH",
+            "url": "https://patch.com/california/across-ca/newsom-declares-state-emergency-monster-el-nio-menaces-ca",
+            "image": "https://patch.com/img/cdn20/shutterstock/27243935/20260921/032103/styles/patch_image/public/shutterstock-550039576___21151535622.jpg",
+            "source": "patch"
         },
         {
-            "title": "Elgin News Digest: ECC holding open house for new manufacturing/tech center; Kane County conversation on flooding issues",
-            "severity": "WATCH",
-            "url": "https://www.chicagotribune.com/2026/09/21/elgin-house-manufacturing-boo-flooding-pancake/",
-            "image": "https://www.chicagotribune.com/wp-content/uploads/2026/08/ECN-L-center-01_ebaf6a-e1790025148341.jpg?w=1600&resize=1600,900",
-            "source": "chicagotribune"
+            "title": "GOP nominees call for end to Iran war while on campaign trail",
+            "severity": "HIGH",
+            "url": "https://thehill.com/newsletters/defense-national-security/6102932-gop-nominees-call-end-iran-war-while-campaign-trail/",
+            "image": "https://thehill.com/wp-content/uploads/sites/2/2024/04/hinsonashley_041024gn01_w.jpg?w=900",
+            "source": "thehill"
         },
         {
-            "title": "Amazon's $45 solar security camera has color night vision",
-            "severity": "WATCH",
-            "url": "https://www.thestreet.com/shopping/ccau-color-night-vision-solar-security-camera-amazon-sale",
-            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyNzg5MTAw/amazon-logo.jpg?profile=rss",
+            "title": "\u2018Fallout 76\u2019 Officially Returns With Its Bloodiest Season Yet",
+            "severity": "HIGH",
+            "url": "https://collider.com/fallout-76-the-slasher-season-26-halloween/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/09/screenshot-2026-09-21-at-5-51-00-pm.png",
+            "source": "collider"
+        },
+        {
+            "title": "Michigan Republican Senate candidate calls for end of Iran war in campaign ad",
+            "severity": "HIGH",
+            "url": "https://www.cbsnews.com/video/michigan-republican-senate-candidate-calls-end-iran-war-campaign-ad/",
+            "image": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/21/9a9698c5-60e2-489a-b89f-68c4b2e86602/thumbnail/1200x630/40827c42e0e015a5e1255a001f28b275/cbsn-fusion-michigan-republican-senate-candidate-calls-end-iran-war-campaign-ad-thumbnail.jpg",
+            "source": "cbsnews"
+        },
+        {
+            "title": "MLB awards check-in: Front-runners for MVP, Cy Young, Rookie of the Year and Reliever of the Year",
+            "severity": "HIGH",
+            "url": "https://sports.yahoo.com/mlb/article/mlb-awards-check-in-front-runners-for-mvp-cy-young-rookie-of-the-year-and-reliever-of-the-year-231144156.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/62f6caf79017c371d18932c527478cbde42a9847eb0ad50ef3c58c30ddcf3fba/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2F2026-09%2F11f44556-8462-458e-acec-69b3ae666b1a",
+            "source": "yahoo"
+        },
+        {
+            "title": "Susan Collins Warns Trump on NIH Grant Plan as Polls Show Tight Maine Race",
+            "severity": "HIGH",
+            "url": "https://www.newsweek.com/susan-collins-trump-nih-power-grab-maine-race-polls-12470189",
+            "image": "https://assets.newsweek.com/wp-content/uploads/2026/09/GettyImages-1232823597.jpg?w=1600&h=900&q=88",
+            "source": "newsweek"
+        },
+        {
+            "title": "Trump and Iran Exchange Threats as Leaders Converge for Key U.N. Gathering. Can the Meeting Cool Rising Tensions?",
+            "severity": "HIGH",
+            "url": "https://time.com/article/2026/09/21/trump-iran-war-united-nations-general-assembly/",
+            "image": "https://static.time.com/v3/assets/bltea6093859af6183b/blt09843eb506f7b636/6ab1ae7582c1fd2f46b08540/GettyImages-2296433115.jpg?branch=production",
+            "source": "time"
+        },
+        {
+            "title": "Google is the fourth AI lab to admit a model broke into real company systems",
+            "severity": "HIGH",
+            "url": "https://investinglive.com/stock-market-update/google-is-the-fourth-ai-lab-to-admit-a-model-broke-into-real-company-systems/",
+            "image": "https://investinglive.com/cms/media/Processed/Categories/featured/ai%20jailbreaks%20chart%2022%20September%202026-featured-1790032530.jpg",
+            "source": "forexlive"
+        },
+        {
+            "title": "Security breach as dinghy evades Border Force and lands at Folkestone - with some migrants 'fleeing before police arrive'",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.com/news/article-16149631/Security-breach-dinghy-evades-Border-Force-lands-Folkestone-migrants-fleeing-police-arrive.html",
+            "image": "https://i.dailymail.com/1s/2026/09/21/23/111386371-0-image-a-3_1790028672287.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Loose Polymarket controls lead to $10 million fraud scheme",
+            "severity": "HIGH",
+            "url": "https://www.thestreet.com/latest-news/loose-polymarket-controls-lead-to-10-million-fraud-scheme",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTg0NjMz/illustrations-of-global-companies.jpg?profile=rss",
             "source": "thestreet"
         },
         {
-            "title": "Mexico Fitness Equipment Market to Reach USD 558.3 Million by 2034, Driven by Smart Technology and Home Fitness Demand",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/21/3365735/28124/en/mexico-fitness-equipment-market-to-reach-usd-558-3-million-by-2034-driven-by-smart-technology-and-home-fitness-demand.html",
-            "image": "https://images.pexels.com/photos/22663779/pexels-photo-22663779.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "title": "Bhutan Should Release All Remaining Political Prisoners",
+            "severity": "HIGH",
+            "url": "https://www.hrw.org/news/2026/09/21/bhutan-should-release-all-remaining-political-prisoners",
+            "image": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/09/202609asia_bhutan_Tshering%20Tobgay%20.jpg?h=9b13e54f&itok=xCJJ5jOG",
+            "source": "hrw"
         },
         {
-            "title": "Davis Commodities Limited Announces Nasdaq Delisting and Continued Quotation on OTC Markets",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/09/21/3365734/0/en/davis-commodities-limited-announces-nasdaq-delisting-and-continued-quotation-on-otc-markets.html",
-            "image": "https://images.pexels.com/photos/4437145/pexels-photo-4437145.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
+            "title": "Commentary: Tata data leak a setback for \u2018Make in India\u2019 ambitions, but it\u2019s not a verdict",
+            "severity": "HIGH",
+            "url": "https://www.channelnewsasia.com/commentary/india-tata-apple-tesla-data-breach-partner-outside-china-6385231",
+            "image": "https://dam.mediacorp.sg/image/upload/s--YF1QHlbG--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-06-22T154503Z_3_LYNXMPEM5L14H_RTROPTP_3_TATA-INDIA-APPLE-POLLUTION.JPG?itok=SsAZslvt",
+            "source": "channelnewsasia"
         },
         {
-            "title": "7 Years Later, Game Of Thrones' 2026 Reunion Is The Perfect Gift",
-            "severity": "WATCH",
-            "url": "https://screenrant.com/game-of-thrones-season-9-return-cast-reunion-comic-con-liverpool-perfect/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/07/game-of-thrones_ozcyso.jpg",
-            "source": "screenrant"
+            "title": "12 U.S. states reach settlement in Paramount-Warner antitrust case",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/news/world/2026/09/22/12-us-states-reach-settlement-in-paramount-warner-antitrust-case",
+            "image": "https://cdn.thestar.com.my/Themes/img/tsol-default-image2023.png",
+            "source": "thestar_my"
         },
         {
-            "title": "Mexico Running Gear Market to Reach US$1.10 Billion by 2034, Driven by Fitness Participation and E-Commerce Growth",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/21/3365737/28124/en/mexico-running-gear-market-to-reach-us-1-10-billion-by-2034-driven-by-fitness-participation-and-e-commerce-growth.html",
-            "image": "https://images.pexels.com/photos/4437145/pexels-photo-4437145.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "British diver dies trapped inside 270ft deep cave",
-            "severity": "WATCH",
-            "url": "https://metro.co.uk/2026/09/21/british-diver-dies-trapped-inside-270ft-deep-cave-29641247/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_313413293-2213.jpg?quality=90&strip=all",
-            "source": "metro"
-        },
-        {
-            "title": "OQ, Angola sign deals to explore LNG, petrochemicals and renewables",
-            "severity": "WATCH",
-            "url": "https://www.khaleejtimes.com/business/oq-angola-sign-deals-to-explore-lng-petrochemicals-and-renewables",
-            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-09-21/3w03t1mm/OQ-Angola.jpeg",
-            "source": "khaleejtimes"
-        },
-        {
-            "title": "Science says a dead whale can feed an entire ecosystem for decades, what happens after it reaches the seafloor is extraordinary",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/science-says-a-dead-whale-can-feed-an-entire-ecosystem-for-decades-what-happens-after-it-reaches-the-seafloor-is-extraordinary/articleshow/134392842.cms",
-            "image": "https://img.etimg.com/thumb/msid-134393432,resizemode-4,width-1200,height-900,imgsize-235720,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "London's hottest regeneration district revealed: Area to deliver 32,000 new jobs and 4,400 homes",
-            "severity": "WATCH",
-            "url": "https://www.standard.co.uk/news/london/london-regeneration-district-revealed-area-jobs-homes-b1297818.html",
-            "image": "https://static.standard.co.uk/2026/09/21/15/52/FotoJet-(1).jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "standarduk"
-        },
-        {
-            "title": "From $24 to $109: Intel\u2019s Comeback Is Real. The Price Tag Is Now the Problem",
-            "severity": "WATCH",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/24-109-intel-comeback-real-160546243.html",
-            "image": "https://images.pexels.com/photos/695730/pexels-photo-695730.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "finance_yahoo"
-        },
-        {
-            "title": "MOSPI releases publication on data, methodologies for compiling new GDP series",
-            "severity": "WATCH",
-            "url": "https://www.prokerala.com/news/articles/a1815017.html",
-            "image": "https://images.pexels.com/photos/17483870/pexels-photo-17483870.png?auto=compress&cs=tinysrgb&h=350",
-            "source": "prokerala"
-        },
-        {
-            "title": "Houthis move to seize strategic terrain after Trump calls off airstrikes at last minute",
-            "severity": "WATCH",
-            "url": "https://www.theguardian.com/world/2026/sep/21/houthis-seize-strategic-terrain-yemen-trump-calls-off-airstrikes-last-minute",
-            "image": "https://i.guim.co.uk/img/media/6600ab64adbc6f85468306778c7e00fdbdc87d82/92_0_4393_3513/master/4393.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=99ff8bafc611ced3169ba716c8ca14ad",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "Republicans target Las Vegas congressional district with help from Trump\u2019s \u2018no tax on tips\u2019 policy",
-            "severity": "WATCH",
-            "url": "https://www.reviewjournal.com/news/politics-and-government/nevada/republicans-target-las-vegas-congressional-district-with-help-from-trumps-no-tax-on-tips-policy-3889303/",
-            "image": "https://www.reviewjournal.com/wp-content/uploads/2026/09/22106567_web1_TAX-TIPS-May21-25-004.jpg?w=700",
-            "source": "reviewjournal"
-        },
-        {
-            "title": "Unidentified object spotted over Tehran 50 years after infamous 1976 UFO sighting",
-            "severity": "WATCH",
-            "url": "https://www.the-express.com/news/world-news/216437/unidentified-object-spotted-tehran-50-years-after-1976-sighting",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/237x141/216437_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "Not informing grounds of arrest to accused violation of fundamental right: Supreme Court",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/india/not-informing-grounds-of-arrest-to-accused-violation-of-fundamental-right-supreme-court/articleshow/134393154.cms",
-            "image": "https://img.etimg.com/thumb/msid-134393173,resizemode-4,width-1200,height-900,imgsize-979251,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Is this Britain\u2019s most shameless female teacher? Caught having sex with pupil in layby... before penning children\u2019s book",
-            "severity": "WATCH",
-            "url": "https://www.thesun.co.uk/news/40446013/teacher-caught-having-sex-pupil-spared-jail/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F09%2Fnewspress-collage-th03pvmvh-1789996584401.jpg?quality%3D90%26strip%3Dall%261790000209%261790000209",
+            "title": "Migrant dinghy reaches UK without being intercepted by Border Force as five detained in first breach in a year",
+            "severity": "HIGH",
+            "url": "https://www.thesun.co.uk/news/40451733/migrant-dinghy-uk-border-force-breach/",
+            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F09%2Fgroup-people-thought-migrants-brought-1110120456.jpg?quality%3D90%26strip%3Dall",
             "source": "thesun"
         },
         {
-            "title": "\u26bd\ufe0f Y! Sports Biz: On the move",
+            "title": "Liberals table bill to speed up major project approvals, avert labour disruptions",
+            "severity": "MEDIUM",
+            "url": "https://www.cbc.ca/news/politics/liberals-table-major-projects-bill-9.7352890?cmp=rss",
+            "image": "https://i.cbc.ca/ais/95ae7285-efe7-47ec-b814-83b1132e9c4b,1790028249907/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C373%2C8639%2C4859%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "Trump set for high-stakes U.N. meetings",
+            "severity": "MEDIUM",
+            "url": "https://www.nbcnews.com/nightly-news/video/trump-set-for-high-stakes-u-n-meetings-270252101965",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_09/1790032275714_nn_mal_UNMeeting_260921_S3_1920x1080-txi5oe.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "UK exclusion from EU 'Made in Europe' plan risks British auto trade, lobby says",
+            "severity": "MEDIUM",
+            "url": "https://sg.finance.yahoo.com/news/uk-exclusion-eu-made-europe-230401688.html",
+            "image": "https://media.zenfs.com/en/reuters.com/820e0a4ac6cd0d14ca56e99edd2d1c36.jpg",
+            "source": "yahoo_sg"
+        },
+        {
+            "title": "Newington's Big Saturday: Waterfall Festival And Chalk Walk Bring Art, Music And Fun To Market Square",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/y-sports-biz-move-151759150.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/92dd3950221580be3d19837b0b6f97821704089b6e6bc70410d863d8fabdcae3/lightyear_networkapi/resizefit_w1024_h703%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fyahoo_sports_biz_newsletters_910%2Fee8538e87e9fb30dbc06c32cb3f94613.jpg",
+            "url": "https://patch.com/connecticut/newington/newingtons-big-saturday-waterfall-festival-chalk-walk-bring-art-music-fun",
+            "image": "https://patch.com/img/cdn20/shutterstock/22994611/20260921/070751/styles/patch_image/public/shutterstock-588109775___21190727883.jpg",
+            "source": "patch"
+        },
+        {
+            "title": "\u201cHe\u2019s Showing That He\u2019s Human\u201d: Julian Edelman Defends Tom Brady for Swearing on Air",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/showing-human-julian-edelman-defends-230749886.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/06691b647d9c7eb0c5a5ef66f7268db19dde6f7c03e79cfb493cacc51ad2790e/lightyear_networkapi/resizefit_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fessentiallysports_articles_591%2F89b5009f655538e47a62e9dc5223b6ae.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Cyber insurance gap leaves UK property businesses dangerously exposed: GlobalData",
+            "title": "How Cheaper Home Batteries is already influencing Australia\u2019s energy system - Energy Magazine",
             "severity": "WATCH",
-            "url": "https://finance.yahoo.com/real-estate/articles/cyber-insurance-gap-leaves-uk-151759915.html",
-            "image": "https://media.zenfs.com/en/life_insurance_international_186/41fb9a7c10af454b9256dbe4c89ac25c.jpg",
+            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSG9zbjRxTTZuNDNOZGM4RFAxcFR0YTN6WlhHZWNXMktORWNnWE83T3JNMWFXVWdBdzRCQzFhRmN6NHpoZDc0Rk1OTEtJcGN0SGN4WF9RMjZPUFJ0SUphOV9GaFA0ekRadzNDVFk3N0EyZjU3OU56QV9mTXViTjJzUVVHR2ZMYjdfbTEtU29nVTJEcmxvaktfdUgxUzdkX09telJiNF9DY3dMTnBla1E?oc=5",
+            "image": "https://images.pexels.com/photos/33218944/pexels-photo-33218944.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
+        },
+        {
+            "title": "Valeura Energy Inc. (VLE:CA) Presents at Annual GCFF Wealth Conference - Slideshow",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/article/4948455-valeura-energy-inc-vle-ca-presents-at-annual-gcff-wealth-conference-slideshow",
+            "image": "https://seekingalpha.com/samw/static/images/DefaultArticleImage.0a47d531d.png",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "After $176 billion backlog, GE Vernova sends investors wakeup call",
+            "severity": "WATCH",
+            "url": "https://www.thestreet.com/investing/stocks/gev-ge-vernova-ceo-strazik-says-200b-backlog-target-on-track-very-early-2027",
+            "image": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMTg0Mzg5/ge-vernova-ceo_me_092126.jpg?profile=rss",
+            "source": "thestreet"
+        },
+        {
+            "title": "ICE officer shoots delivery driver in Texas",
+            "severity": "WATCH",
+            "url": "https://www.nbcnews.com/nightly-news/video/ice-officer-shoots-delivery-driver-in-texas-270255173738",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_09/1790032465242_nn_mch_ICEShooting_260921_S3_1920x1080-2vfgqu.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "10 Most Perfect Sitcoms of the Last 5 Years, Ranked",
+            "severity": "WATCH",
+            "url": "https://collider.com/most-perfect-sitcoms-last-5-years-ranked/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/09/leanne-kristen-johnston-carol-1.jpeg",
+            "source": "collider"
+        },
+        {
+            "title": "Three media outlets sue over Trump WH ban",
+            "severity": "WATCH",
+            "url": "https://www.nbcnews.com/nightly-news/video/three-media-outlets-sue-over-trump-wh-ban-270252101959",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_09/1790032238602_nn_kod_mediaoutletssuetrump_260921_S3_1920x1080-ttzuib.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "Flights halted at major airports after equipment failure",
+            "severity": "WATCH",
+            "url": "https://www.nbcnews.com/nightly-news/video/flights-halted-at-major-airports-after-equipment-failure-270252101928",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_09/1790032068598_nn_tco_GroundStops_260921_S3_1920x1080-1eqs5n.jpg",
+            "source": "nbcnews"
+        },
+        {
+            "title": "Prince William's latest move amid Meghan and Harry's UK return could be catastrophic",
+            "severity": "WATCH",
+            "url": "https://www.the-express.com/entertainment/celebrity-news/216462/harry-meghan-lose-sussex-titles",
+            "image": "https://cdn-images.the-express.com/img/dynamic/21/237x141/216462_1.jpg",
+            "source": "express"
+        },
+        {
+            "title": "Two of Puerto Rico's legacy newspapers say they will end print editions",
+            "severity": "WATCH",
+            "url": "https://ca.finance.yahoo.com/news/two-puerto-ricos-legacy-newspapers-231541625.html",
+            "image": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo-1200x1200.png",
             "source": "yahoo"
         },
         {
-            "title": "Ram Temple Donation Fund Embezzlement Charge-sheet by Friday",
+            "title": "Best prediction market promos: Unlock up to $1.6K in bonuses for Monday Night Football",
             "severity": "WATCH",
-            "url": "https://english.revoi.in/ram-temple-donation-fund-embezzlement-charge-sheet-by-friday/",
-            "image": "https://english.revoi.in/wp-content/uploads/2026/09/52-chargesheet.png",
-            "source": "revoi_in"
+            "url": "https://www.al.com/prediction-markets/2026/09/best-prediction-market-promos-unlock-up-to-16k-in-bonuses-for-monday-night-football.html",
+            "image": "https://www.al.com/resizer/v2/7YSMBXGJANCXHI6EF7J4S6BOMM.jpg?auth=11141929933764c430740a338f9a37071a4a6bf873135f876091ffbf67e3c34f&smart=true&height=1200",
+            "source": "al"
         },
         {
-            "title": "Cate Blanchett begs audience not to film her new play at the National Theatre and says 'it spoils it for the next group'",
+            "title": "Opinion: The $5,000 question Republicans won\u2019t answer",
             "severity": "WATCH",
-            "url": "https://www.dailymail.com/tvshowbiz/article-16148593/Cate-Blanchett-begs-audience-not-film-new-play-National-Theatre.html",
-            "image": "https://i.dailymail.com/1s/2026/09/21/16/111379703-0-image-a-17_1790003196729.jpg",
-            "source": "dailymailuk"
+            "url": "https://www.adn.com/opinions/2026/09/21/opinion-the-5000-question-republicans-wont-answer/",
+            "image": "https://www.adn.com/resizer/e0ATycVM9NaH02h8_OsziXuG8Rk=/cloudfront-us-east-1.images.arcpublishing.com/adn/5MVLLXBTDDFIWBZEMPMBBKET3M.jpg",
+            "source": "adn"
+        },
+        {
+            "title": "Young people\u2019s Pip claims for ADHD and autism \u2018rising fastest in affluent areas\u2019",
+            "severity": "WATCH",
+            "url": "https://www.theguardian.com/society/2026/sep/22/england-affluent-areas-young-people-adhd-autism-pip-claims",
+            "image": "https://i.guim.co.uk/img/media/6c7796db29848443195be6b429eb1ed4d6b778e9/604_0_6042_4836/master/6042.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=8df254fdbc7cef5504825fb269d90f64",
+            "source": "theguardian"
+        },
+        {
+            "title": "23 Years Later, Aragorn's Best LOTR Quote Remains One Of The Most Beautiful In Fantasy Movie History",
+            "severity": "WATCH",
+            "url": "https://screenrant.com/lord-of-the-rings-movies-aragorn-best-quote-fantasy-history/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2023/02/is-aragorn-in-rings-of-power.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "\u20b91 crore accidental death claim rejected over alleged income inflation; here\u2019s why wife won against insurer",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/wealth/insure/1-crore-accidental-death-claim-rejected-over-alleged-income-inflation-heres-why-wife-won-against-insurer/articleshow/134402312.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-150192,resizemode-75,msid-134402312/wealth/insure/1-crore-accidental-death-claim-rejected-over-alleged-income-inflation-heres-why-wife-won-against-insurer.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Shackling prisoners giving birth should be a last resort \u2013 but it\u2019s happening around Australia anyway",
+            "severity": "WATCH",
+            "url": "https://www.theguardian.com/australia-news/ng-interactive/2026/sep/22/pregnant-prisoners-handcuffed-during-birth-lidia-thorpe-shackling-australia-ntwnfb",
+            "image": "https://i.guim.co.uk/img/media/cb6c0417ee9fb903d6adc9c572f92cdfbb767b3c/0_893_4000_3200/master/4000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3dd7492a1d4b83b9a1e68c80d29bab59",
+            "source": "theguardian"
+        },
+        {
+            "title": "Student Brought BB Gun To School, Gets Arrested: Meriden Police",
+            "severity": "WATCH",
+            "url": "https://patch.com/connecticut/meriden/student-brought-bb-gun-school-gets-arrested-meriden-police",
+            "image": "https://patch.com/img/cdn20/shutterstock/22791208/20260921/060011/styles/patch_image/public/shutterstock-233311573___21175919460.jpg",
+            "source": "patch"
         }
     ],
-    "Last_Updated": "2026-09-22T04:19:07.162600Z"
+    "Last_Updated": "2026-09-22T11:19:14.494911Z"
 }
