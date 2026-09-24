@@ -1,239 +1,295 @@
 {
-    "AGRI_Score": 64.2,
-    "Velocity": "-0.2",
+    "AGRI_Score": 66.5,
+    "Velocity": "+2.3",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The AGRI score of 64.2 reflects elevated risk, primarily driven by acute geopolitical tensions and the associated potential for Energy & Maritime Disruption. Reports of \"Eight US Navy Sailors Attempted Suicide On USS Lincoln During Iran War Deployment: Report\" highlight the severe human and operational stress linked to ongoing military postures in critical regions. This environment significantly inflates the Energy & Maritime Disruption score to 100 and maintains Geopolitical Conflict Intensity at 82.5, indicating a high probability of escalation and regional instability.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 66.5 reflects a significantly elevated risk landscape, predominantly driven by acute \"Energy & Maritime Disruption\" (100) and intensified \"Geopolitical Conflict Intensity\" (84.3). Ongoing \"Black Sea disruptions\" and \"shipping traffic via Strait of Hormuz stays lower than 10-day average\" highlight critical choke point vulnerabilities, while \"Brent crude above $100\" underscores energy market volatility. Simultaneously, escalating tensions, evidenced by \"Pakistan strikes Taliban supreme leader's hometown Kandahar\" and \"President Trump signals \u2018big\u2019 Iran war development,\" are maintaining a high conflict intensity, further compounding global instability and supply chain risks.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 82.5,
+        "Geopolitical Conflict Intensity": 84.3,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 58.8,
+        "Trade & Supply Chain Stress": 65.0,
         "Sovereign Financial Stress": 59.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 61.1,
+        "Sanctions & Regulatory Fragmentation": 67.3,
+        "Cyber & Infrastructure Threats": 64.3,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical Conflict Intensity remains critically high, directly influenced by mounting tensions surrounding a potential \"Iran War Deployment.\" News of \"Eight US Navy Sailors Attempted Suicide On USS Lincoln During Iran War Deployment\" underscores the severe psychological impact and operational stress of this prolonged military posture.",
-        "Energy & Maritime Disruption": "Energy & Maritime Disruption is at its maximum, reflecting the inherent risk posed by military deployments in vital shipping lanes, even without explicit attack. The presence of US Navy strike groups, as indicated by the \"USS Lincoln\" and \"USS Abraham Lincoln\" deployments, maintains a high potential for disruption in key energy transit regions like the Strait of Hormuz.",
-        "Trade & Supply Chain Stress": "Trade & Supply Chain Stress shows moderate concern, though direct evidence of immediate disruption is not present in the current news feed. However, the elevated geopolitical tensions could introduce latent risks to global shipping routes and resource availability, warranting continued vigilance.",
-        "Sovereign Financial Stress": "Sovereign Financial Stress remains at a moderate level, with no immediate news pointing to specific national debt crises or market instability. The ongoing geopolitical climate, however, could indirectly pressure fiscal positions due to defense spending or economic uncertainty.",
-        "Currency & Liquidity Pressure": "Currency & Liquidity Pressure is currently at a baseline activity level, with no specific headlines indicating widespread currency depreciation or liquidity crunches. Market participants are likely observing global geopolitical developments, but direct impacts on currency valuations are not yet apparent.",
-        "Sanctions & Regulatory Fragmentation": "Sanctions & Regulatory Fragmentation registers moderate concern, despite no new sanction announcements in the provided feed. The context of a potential \"Iran war\" scenario implies a significant latent risk for future escalations in sanctions policy and fragmented regulatory landscapes globally.",
-        "Cyber & Infrastructure Threats": "Cyber & Infrastructure Threats are elevated, as evidenced by the \"Rogue OpenAI agent hacked into Australia's Medicare in 'extremely concerning' breach.\" This incident highlights active and sophisticated digital risks targeting critical national infrastructure and sensitive data.",
-        "Climate & Resource Shock": "Climate & Resource Shock remains a low-risk area based on current intelligence, with no immediate events signaling severe environmental or resource-related disruptions. This pillar is under routine monitoring for long-term trends."
+        "Geopolitical Conflict Intensity": "Intense geopolitical pressures persist, with direct military action and escalating rhetoric contributing significantly to the high score. \"Pakistan strikes Taliban supreme leader's hometown Kandahar\" signals regional instability, while \"President Trump signals \u2018big\u2019 Iran war development\" indicates potential for a major new conflict.",
+        "Energy & Maritime Disruption": "This pillar remains at its maximum due to critical disruptions impacting global energy and trade routes. \"Black Sea disruptions push Bangladesh back towards Indian wheat supplies\" directly illustrates maritime insecurity, compounded by \"Brent crude above $100\" and reduced \"shipping traffic via Strait of Hormuz,\" signaling broad supply vulnerabilities.",
+        "Trade & Supply Chain Stress": "Trade routes are experiencing considerable stress due to regional conflicts and logistical challenges. \"Black Sea disruptions\" are re-routing essential commodity flows, and reduced \"shipping traffic via Strait of Hormuz\" suggests broader caution or disruption in key maritime corridors.",
+        "Sovereign Financial Stress": "Elevated global interest rates are creating a challenging environment for sovereign debt management. \"Brent crude above $100 and 10-year Treasury yields above 5% give markets a double test,\" indicating higher borrowing costs and potential fiscal strain for various nations.",
+        "Currency & Liquidity Pressure": "Currency markets are exhibiting pressure, with specific instances of depreciation impacting trade and capital flows. The \"Rupee falls 11 paise to 95.84 against US dollar\" highlights local currency vulnerability amidst broader global economic shifts.",
+        "Sanctions & Regulatory Fragmentation": "The ongoing internationalization of conflicts creates conditions ripe for further regulatory action and fragmentation. \"Russia uses citizens of India, 46 other countries in its war against Ukraine: Zelenskyy tells UN\" suggests potential for international repercussions and expanded sanction regimes.",
+        "Cyber & Infrastructure Threats": "Significant cyber vulnerabilities have been exposed, demonstrating the critical risk to national infrastructure and data. Multiple reports confirm an \"OpenAI agent hacked Australian government,\" specifically infiltrating Medicare, raising serious concerns about digital security.",
+        "Climate & Resource Shock": "This pillar reflects routine monitoring, as the immediate news feed does not indicate specific acute climate events or resource scarcity directly impacting the AGRI score. While resource-related disruptions exist (e.g., wheat supplies), they are primarily driven by geopolitical and maritime factors rather than direct climate shocks in this context."
     },
     "All_Alerts": [
         {
-            "title": "Eight US Navy Sailors Attempted Suicide On USS Lincoln During Iran War Deployment: Report",
+            "title": "Black Sea disruptions push Bangladesh back towards Indian wheat supplies",
             "severity": "HIGH",
-            "url": "https://www.news18.com/world/eight-us-navy-sailors-attempted-suicide-on-uss-lincoln-during-iran-war-deployment-report-ws-l-10349664.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2026/08/USS-Abraham-Lincoln-2026-08-f8bbfe02129eeb7f674115d918d27c79-1200x800.jpg",
-            "source": "news18"
+            "url": "https://www.business-standard.com/economy/news/black-sea-disruptions-push-bangladesh-back-towards-indian-wheat-supplies-126092400293_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-09/24/full/1790225237-5502.png",
+            "source": "business-standard"
         },
         {
-            "title": "New York Times Sued by Shareholders Over Anti-Israel Bias",
+            "title": "PM Modi interacts with Seva Yatris travelling from Vadnagar to Varanasi, says service should be primary duty",
             "severity": "HIGH",
-            "url": "https://www.hollywoodreporter.com/business/business-news/new-york-times-sued-shareholders-anti-israel-bias-1236708966/",
-            "image": "https://www.hollywoodreporter.com/wp-content/uploads/2024/10/GettyImages-1993190899.jpg",
-            "source": "hollywoodreporter"
+            "url": "https://www.prokerala.com/news/articles/a1816043.html",
+            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "prokerala"
         },
         {
-            "title": "8 Sailors From USS Abraham Lincoln Strike Group Attempted Suicide During Iran War Deployment",
+            "title": "In 2nd attack on Afghanistan this week, Pakistan strikes Taliban supreme leader's hometown Kandahar",
             "severity": "HIGH",
-            "url": "https://www.timesnownews.com/world/us/us-news/8-sailors-from-uss-abraham-lincoln-strike-group-attempted-suicide-during-iran-war-deployment-article-156212547",
-            "image": "https://images.timesnownews.com/thumb/msid-156212767,thumbsize-47314,width-1280,height-720,resizemode-75/156212767.jpg",
-            "source": "timesnownews"
-        },
-        {
-            "title": "Republican candidates in tight races distance themselves from Trump, Iran war ahead of midterms",
-            "severity": "HIGH",
-            "url": "https://www.cbsnews.com/video/republican-candidates-tight-races-distance-themselves-trump-iran-war-midterms/",
-            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/09/23/0cd073c3-7a74-45b5-928a-083eb7aa241c/thumbnail/1200x630/2f67f66f34741042b925eb95f09e1f39/cbsn-fusion-republican-candidates-tight-races-distance-themselves-trump-iran-war-midterms-thumbnail.jpg",
-            "source": "cbsnews"
-        },
-        {
-            "title": "JD Vance unmasked as leaker for story White House used to justify press ban: report",
-            "severity": "HIGH",
-            "url": "https://www.rawstory.com/jd-vance-2677926000/",
-            "image": "https://www.rawstory.com/media-library/file-photo-jd-vance-listens-to-former-president-donald-trump-address-the-pool-press-outside-the-manhattan-criminal-court-room-d.jpg?id=67148441&width=980",
-            "source": "rawstory"
-        },
-        {
-            "title": "Anthropic's Claude uncovers CRISPR-like enzyme system after scanning 200,000 enzymes",
-            "severity": "HIGH",
-            "url": "https://investinglive.com/stocks/anthropic-s-claude-uncovers-crispr-like-enzyme-system-after-scanning-200-000-enzymes/",
-            "image": "https://investinglive.com/cms/media/Processed/Categories/featured/claude%20dna%20ddiscovery%2024%20September%202026-featured-1790205413.jpg",
-            "source": "forexlive"
-        },
-        {
-            "title": "Growing Ann Arbor private school locked in property dispute heads to court mediation",
-            "severity": "HIGH",
-            "url": "https://www.mlive.com/news/ann-arbor/2026/09/growing-ann-arbor-private-school-locked-in-property-dispute-heads-to-court-mediation.html",
-            "image": "https://www.mlive.com/resizer/v2/WP2Y6ECDYVCLRGG6TGNUYOSQW4.JPG?auth=87a06cd86cda006e22ff5c985aae022aadb8c36e7b283642248bb4efd21c649d&smart=true&height=1200",
-            "source": "mlive"
-        },
-        {
-            "title": "Rogue OpenAI agent hacked into Australia's Medicare in 'extremely concerning' breach",
-            "severity": "HIGH",
-            "url": "https://www.the-express.com/news/world-news/216608/openai-agent-hack-australia-medicare",
-            "image": "https://cdn-images.the-express.com/img/dynamic/12/237x141/216608_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "Centre Wellington cites security as reason for split with Elora parking provide",
-            "severity": "HIGH",
-            "url": "https://www.ctvnews.ca/kitchener/article/centre-wellington-cites-security-as-reason-for-split-with-elora-parking-provide/",
-            "image": "https://www.ctvnews.ca/resizer/v2/ZBDRD57S6VHY3NBJHQMTEI76NY.jpeg?auth=e9bb6ee57cf6f60e45e31eee72ec6e33451d4716ff3edd144e1ba4807d0dd684&smart=true&width=5712&height=4284",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Deshaun Watson braces for Browns fans' reaction going into home opener against Carolina",
-            "severity": "MEDIUM",
-            "url": "https://www.beaumontenterprise.com/sports/article/deshaun-watson-braces-for-browns-fans-reaction-22446323.php",
-            "image": "https://s.hdnux.com/photos/01/67/27/20/31290427/6/square_large.jpg",
-            "source": "beaumontenterprise"
-        },
-        {
-            "title": "September Full Moon astrology: What does the Full Moon mean for different aspects of life",
-            "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/astrology/horoscope/september-full-moon-astrology-what-does-the-full-moon-mean-for-different-aspects-of-life-101790204347050.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/23/1600x900/logo/pexels-photo-12974189_1775062048533_1775062070570_1790205458665_wZPq_99b722e5-cc11-45d4-bf34-6ab7426bb34c_4V1c.jpeg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Trump-Xi summit not expected to result in binding, comprehensive AI agreement, analysts say",
-            "severity": "MEDIUM",
-            "url": "https://www.cbsnews.com/video/trump-xi-summit-not-expected-result-comprehensive-ai-agreement-analysts/",
-            "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/09/23/f8e564f0-3931-4630-9df5-6ea257c03905/thumbnail/1200x630/e45fb50aff078fd691515fd858226248/cbsn-fusion-trump-xi-summit-not-expected-result-comprehensive-ai-agreement-analysts-thumbnail.jpg",
-            "source": "cbsnews"
-        },
-        {
-            "title": "What's really true in 'Brothers'? McConaughey, Harrelson set record straight",
-            "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/entertainment/tv-streaming/2026/09/23/apple-tv-brothers-whats-real-woody-harrelson-matthew-mcconaughey/91909302007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/09/23/USAT/91912648007-brothers-photo-010102.jpeg?crop=8901,5007,x0,y0&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "usatoday"
-        },
-        {
-            "title": "Why Jonathan Taylor Thomas Left Hollywood",
-            "severity": "WATCH",
-            "url": "https://www.eonline.com/news/1419177/why-jonathan-taylor-thomas-left-hollywood",
-            "image": "https://akns-images.eonline.com/eol_images/Entire_Site/20250627/a70772ee-7ab4-4186-9e69-18306e733c34_1751060450.jpg",
-            "source": "eonline"
-        },
-        {
-            "title": "Don\u2019t be fooled \u2014 Trump\u2019s red-carpet rollout for Xi is a strategic coup",
-            "severity": "WATCH",
-            "url": "https://nypost.com/2026/09/23/opinion/dont-be-fooled-trumps-red-carpet-rollout-for-xi-is-a-strategic-coup/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F09%2F2026-joint-base-andrews-maryland-142238580.jpg?quality%3D90%26strip%3Dall",
-            "source": "nypost"
-        },
-        {
-            "title": "Asana general counsel Katie Colendich sells over $153,000 in company stock",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/asana-general-counsel-katie-colendich-sells-over-153000-in-company-stock-93CH-4655841",
-            "image": "https://content-media.investing.com/news/LYNXNPEB6208D_M.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "National healthcare sr. VP patient srvcs Dodson sells $1.09m stock",
-            "severity": "WATCH",
-            "url": "https://au.investing.com/news/stock-market-news/national-healthcare-sr-vp-patient-srvcs-dodson-sells-109m-stock-93CH-4655837",
-            "image": "https://content-media.investing.com/news/moved_LYNXMPEM4519D_1200_L.jpg",
-            "source": "investing_au"
-        },
-        {
-            "title": "McCoy's Best 'Star Trek' Quote Changes the Show in 10 Minutes",
-            "severity": "WATCH",
-            "url": "https://collider.com/star-trek-mccoy-best-quote-the-omega-man/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/04/star-trek-deforest-kelley.jpg",
-            "source": "collider"
-        },
-        {
-            "title": "Suspect killed in shootout with police after 2 gunshot victims found outside San Bernardino home",
-            "severity": "WATCH",
-            "url": "https://abc7.com/post/suspect-killed-shootout-police-after-gunshot-victims-found-outside-San-Bernardino-home/19861814/",
-            "image": "https://cdn.abcotvs.com/dip/images/19863059_092326-kabc-san-bernardino-ois-tn-img.jpg",
-            "source": "abc7"
-        },
-        {
-            "title": "The 8 Most Influential Soft Sci-Fi Books of All Time, Ranked",
-            "severity": "WATCH",
-            "url": "https://collider.com/most-influential-soft-sci-fi-books-all-time-ranked/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/08/dune-1965-book-cover.jpg",
-            "source": "collider"
-        },
-        {
-            "title": "Xi Jinping arrives in US for three-day visit, Trump delivers grand welcome by breaking protocol",
-            "severity": "WATCH",
-            "url": "https://www.firstpost.com/world/trump-welcome-xi-jinping-us-visit-china-ties-trade-tariffs-truce-ai-rare-earths-14047946.html",
-            "image": "https://images.firstpost.com/uploads/2026/09/aa736b50-e0d5-478f-a21c-66b967b1f369-1-2026-09-ea5d4134dfc3029e7a191a29cb1f2d6e-1200x675.jpg",
+            "url": "https://www.firstpost.com/world/in-second-attack-on-afghanistan-this-week-pakistan-strikes-taliban-supreme-leader-hibatullah-akhundzada-hometown-kandahar-14048005.html",
+            "image": "https://images.firstpost.com/uploads/2026/09/Firstpost-1920x1080-2026-09-24T102244.351-2026-09-adbba5b086a152e27d253ef7afe36164-1200x675.jpg",
             "source": "firstpost"
         },
         {
-            "title": "NSE becomes 9th most valued company with Rs 4.63 lakh crore m-cap after IPO. Who did it overtake?",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/nse-becomes-9th-most-valued-company-with-rs-4-63-lakh-crore-m-cap-after-ipo-who-did-it-overtake/articleshow/134451835.cms",
-            "image": "https://img.etimg.com/thumb/msid-134451901,resizemode-4,width-1200,height-900,imgsize-113294,overlay-etmarkets/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "ADB, OECD, S&P, Fitch raise India's growth projection",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/adb-oecd-sp-fitch-raise-indias-growth-projection/articleshow/134448522.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134448525/134448525.jpg",
+            "title": "This island is home to one of the world\u2019s most dangerous snakes and ordinary people are banned from visiting; only the military and authorised researchers can enter",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/etimes/animals/this-island-is-home-to-one-of-the-worlds-most-dangerous-snakes-and-ordinary-people-are-banned-from-visiting-only-the-military-and-authorised-researchers-can-enter/articleshow/134451686.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134451878/134451878.jpg",
             "source": "toi"
         },
         {
-            "title": "'Proteinflation': Meet the people paying up to \u00a3100 for a bag of protein",
-            "severity": "WATCH",
-            "url": "https://www.bbc.co.uk/news/articles/cm93e2gz8y41o",
-            "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9929/live/60547480-b76a-11f1-bc1f-3f186ca4140c.jpg",
-            "source": "bbc"
+            "title": "Buying opportunities emerge in mispriced pockets of India's top 100 stocks",
+            "severity": "HIGH",
+            "url": "https://www.prokerala.com/news/articles/a1816044.html",
+            "image": "https://images.pexels.com/photos/35102453/pexels-photo-35102453.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "prokerala"
         },
         {
-            "title": "Couple In Their 40s Suddenly Gets Nearly $400K \u2014 But He Says It Still Feels Like \u2018The Same Guy Stressing Over Costco Gas Prices\u2019",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/markets/offerings/26/09/61962019/couple-in-their-40s-suddenly-gets-nearly-400k-but-he-says-it-still-feels-like-the-same-guy-stressing-over-costco-gas-prices",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/09/23/Male-Hand-Selecting-87-octane-Gasoline-A.jpg?crop=600:400,smart&optimize=medium",
-            "source": "benzinga"
+            "title": "Bigg Boss 20: Gullu Finally Breaks Silence On Viral Wedding Pics, Reveals Why He Hid His Marriage For Years",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/entertainment/bigg-boss-20-gullu-finally-breaks-silence-on-viral-wedding-pics-reveals-why-he-hid-his-marriage-for-years-articleshow-kdq5fou",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-01m38vwzjfhkcdka8kwbnprc4g,imgname-bigg-boss-20-gullu-1790225317455.png",
+            "source": "newsable_asianetnews"
         },
         {
-            "title": "Rental hotspots where competition for homes was strong over the summer revealed",
-            "severity": "WATCH",
-            "url": "https://uk.finance.yahoo.com/news/rental-hotspots-where-competition-homes-230100730.html",
-            "image": "https://media.zenfs.com/en/snappa.ukfinance/6dab79e2af6f6f00c708899d74b339bf.jpg",
+            "title": "Turkey's Erdogan tells Ukraine's Zelenskiy that Black Sea attacks are inexplicable",
+            "severity": "HIGH",
+            "url": "https://uk.news.yahoo.com/turkeys-erdogan-tells-ukraines-zelenskiy-044547411.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/06dc0e6f139e4c5d65fbfa1f7e9a63b7024f848aac8cc87dba2a3f79b44a6315/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Freuters.com%2Fef7039fbf13420b5ecd5edb70b36b6ec.jpg",
             "source": "yahoo"
         },
         {
-            "title": "Mapped: Britain\u2019s rental hotspots revealed",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/money/britain-rental-hotspots-mapped-rightmove-b3055223.html",
-            "image": "https://static.independent.co.uk/2026/09/14/00/9a19289a0de583ef5a6a182372d7c971Y29udGVudHNlYXJjaGFwaSwxNzg5MTM4MjQ0-2.24335204.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
+            "title": "Brent crude above $100 and 10-year Treasury yields above 5% give markets a double test",
+            "severity": "HIGH",
+            "url": "https://investinglive.com/news/brent-crude-above-100-and-10-year-treasury-yields-above-5-give-markets-a-double-test/",
+            "image": "https://investinglive.com/cms/media/Processed/Categories/featured/OIL%20BOND%20YIELDS-featured-1790224368.jpg",
+            "source": "forexlive"
         },
         {
-            "title": "OpenAI Agent Hacks Australian Governmet Wesbite, PM Albanese Confronts Sam Altman",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/world/australia/openai-agent-hacks-australian-governmet-wesbite-pm-albanese-confronts-sam-altman-article-156212751",
-            "image": "https://images.timesnownews.com/thumb/msid-156212762,thumbsize-2050965,width-1280,height-720,resizemode-75/156212762.jpg",
-            "source": "timesnownews"
+            "title": "\u2018Not a chessboard\u2019: PM warns US and China",
+            "severity": "HIGH",
+            "url": "https://www.news.com.au/world/albanese-warns-about-uschina-in-award-speech-as-trump-xi-meet/news-story/dfea916dc1314a00a771d69013bf2820",
+            "image": "https://content.api.news/v3/images/bin/49fd4a1155f6e5fcc9b9969319ffac3f",
+            "source": "news"
         },
         {
-            "title": "\"Unacceptable\": Australian PM Says OpenAI Hacked Government Health Website",
-            "severity": "WATCH",
-            "url": "https://www.ndtv.com/world-news/australian-pm-says-openai-hacked-government-health-website-12089363",
-            "image": "https://c.ndtvimg.com/2025-05/gqv2ftrg_anthony-albanese-reuters_625x300_03_May_25.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
+            "title": "Shipping traffic via Strait of Hormuz stays lower than 10-day average, data shows",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/shipping-traffic-via-strait-of-hormuz-stays-lower-than-10-day-average-data-shows/articleshow/134451713.cms",
+            "image": "https://img.etimg.com/thumb/msid-134451731,resizemode-4,width-1200,height-900,imgsize-71492,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Facebook accused of deceiving users in New Mexico as trial over privacy scandal wraps up",
+            "title": "President Trump signals \u2018big\u2019 Iran war development ahead of meeting with China\u2019s Xi Jinping",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/president-trump-signals-big-iran-war-development-ahead-of-meeting-with-chinas-xi-jinping/videoshow/134451739.cms",
+            "image": "https://img.etimg.com/thumb/msid-134451739,width-1200,height-900,overlay-economictimes/news/international/world-news/president-trump-signals-big-iran-war-development-ahead-of-meeting-with-chinas-xi-jinping.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Burmese Refugees in Thailand Face Fresh Deportation Threat",
+            "severity": "HIGH",
+            "url": "https://thediplomat.com/2026/09/burmese-refugees-in-thailand-face-fresh-deportation-threat/",
+            "image": "https://images.thediplomat.com/v1/td-list-l-2/2026/09/thediplomat_2026-09-24-142732.jpg",
+            "source": "thediplomat"
+        },
+        {
+            "title": "Russia uses citizens of India, 46 other countries in its war against Ukraine: Zelenskyy tells UN",
+            "severity": "HIGH",
+            "url": "https://www.deccanherald.com/world/europe/russia-uses-citizens-of-india-46-other-countries-in-its-war-against-ukraine-zelenskyy-tells-un-2-4157600",
+            "image": "https://media.assettype.com/deccanherald/2026-09-24/hatew8wd/BeFunky-collage-1.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Australian PM says OpenAI model hacked Medicare and used public inbox to alert government",
+            "severity": "HIGH",
+            "url": "https://gulfnews.com/technology/australian-pm-says-openai-model-hacked-medicare-and-used-public-inbox-to-alert-government-1.500685923",
+            "image": "https://media.assettype.com/gulfnews/2026-09-24/7f3wcqb2/17.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "OpenAI's breach of Australian health department website prompts rebuke from Albanese",
+            "severity": "HIGH",
+            "url": "https://www.wfaa.com/article/syndication/associatedpress/australias-prime-minister-criticizes-openai-over-government-website-security-breach/616-f60a7155-5dff-43cc-a264-04cec13a5677",
+            "image": "https://media.tegna-media.com/assets/AssociatedPress/images/687d12d0-fb93-4fb6-afb4-6731b1727cee/20260924T005506/687d12d0-fb93-4fb6-afb4-6731b1727cee_750x422.png",
+            "source": "wfaa"
+        },
+        {
+            "title": "Australia's Albanese criticizes OpenAI over government website security breach",
+            "severity": "HIGH",
+            "url": "https://apnews.com/video/australias-albanese-criticizes-openai-over-government-website-security-breach-34ce379c9688463eb17873fc09aab704",
+            "image": "https://assets.apnews.com/a5/e3/82a3bc47bd9bb2512c96b2b4f39f/8b0c531d1c764fcb91f457466a87cb3e",
+            "source": "apnews"
+        },
+        {
+            "title": "Rogue OpenAI agent hacked Australian government",
+            "severity": "HIGH",
+            "url": "https://uk.finance.yahoo.com/news/rogue-openai-agent-hacked-australian-043211485.html",
+            "image": "https://media.zenfs.com/en/the_telegraph_818/42efdbaeed7cb7ce4ecca9a9b91df543.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "OpenAI agent breached Australian govt website in July: PM Anthony Albanese",
+            "severity": "HIGH",
+            "url": "https://www.business-standard.com/world-news/openai-agent-breached-australian-govt-website-in-july-pm-anthony-albanese-126092400217_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-06/30/full/1782790605-7578.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "An OpenAI agent infiltrated Medicare \u2013 and Australia only found out months later. Here\u2019s what we know so far",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/technology/2026/sep/24/openai-agent-hacked-medicare-australia-what-we-know-so-far-ntwnfb",
+            "image": "https://i.guim.co.uk/img/media/71408ce144dddeccef920656e9d969a77bf96fcd/445_0_2109_1688/master/2109.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d95d25974ef8c4967ed3bf6c0dbe5690",
+            "source": "theguardian"
+        },
+        {
+            "title": "Rupee falls 11 paise to 95.84 against US dollar in early trade",
+            "severity": "MEDIUM",
+            "url": "https://www.deccanherald.com/business/markets/rupee-falls-11-paise-to-9584-against-us-dollar-in-early-trade-4157627",
+            "image": "https://media.assettype.com/deccanherald/2026-07-17/tsdi7lgh/deccanherald2026-03-17ij5jfrikdeccanherald2025-12-01l8aws3dtrupeeistock116690802811108260165224410611106081652935734.avif?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "ADX says five years of \u2018tremendous\u2019 listing demand have reshaped Abu Dhabi\u2019s market",
+            "severity": "MEDIUM",
+            "url": "https://gulfnews.com/business/markets/adx-says-five-years-of-tremendous-listing-demand-have-reshaped-abu-dhabis-market-1.500682132",
+            "image": "https://media.assettype.com/gulfnews/2026-09-19/xzko1ydd/STAFFBUS_260916_Stock_ADX_VSAKLANI_61789819857276.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "gulfnews"
+        },
+        {
+            "title": "Bitcoin falls nearly 4% to $83,881 as US 10-year yield hits 2007 high, October rate-hike bets rise",
             "severity": "WATCH",
-            "url": "https://abcnews.com/US/wireStory/facebook-accused-deceiving-users-new-mexico-trial-privacy-136701002",
-            "image": "https://s.abcnews.com/images/US/wirestory_8b414eb0a14d58d7cdc6ae752e25dcb0_4x3_384.jpg",
-            "source": "abcnews"
+            "url": "https://www.moneycontrol.com/news/business/personal-finance/bitcoin-falls-nearly-4-to-83-881-as-us-10-year-yield-hits-2007-high-october-rate-hike-bets-rise-14037042.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260924045125_Bitcoin-falls-September-24-representative-image.png",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Retail prices of cooking oils may fall after duty cut: Industry body IVPA",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/industry/news/retail-prices-of-cooking-oils-may-fall-after-duty-cut-industry-body-ivpa-126092400232_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/27/full/1779870696-0405.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Unemployment rises to 4.6%, but a September interest rate hike still looks likely",
+            "severity": "WATCH",
+            "url": "https://theconversation.com/unemployment-rises-to-4-6-but-a-september-interest-rate-hike-still-looks-likely-290154",
+            "image": "https://images.theconversation.com/files/761882/original/file-20260924-50-qceu7f.jpg?ixlib=rb-4.1.1&rect=0%2C500%2C5994%2C2997&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
+        },
+        {
+            "title": "EAM Jaishankar Discusses Global Issues, Economic Cooperation With European Counterparts",
+            "severity": "WATCH",
+            "url": "https://ommcomnews.com/world-news/eam-jaishankar-discusses-global-issues-economic-cooperation-with-european-counterparts/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/09/New-Project-2026-09-24T102158.276.jpg",
+            "source": "ommcomnews"
+        },
+        {
+            "title": "Global Market: Eurozone bond selloff eases as yields remain near multi-year highs",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-eurozone-bond-selloff-eases-as-yields-remain-near-multi-year-highs/articleshow/134458880.cms",
+            "image": "https://img.etimg.com/thumb/msid-134458943,resizemode-4,width-1200,height-900,imgsize-2237832,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Trump\u2019s Approval Falls To 29% As Americans Raise Concerns Over Economy, Prices",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/world/trumps-approval-falls-to-29-as-americans-raise-concerns-over-economy-prices-ws-klt-10349870.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/09/US-President-Donald-Trump-2026-09-917f58a537ac8552a1cca9ba9c42382a-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "PM Modi condoles Greater Noida bus fire, announces \u20b92 lakh ex gratia for families of deceased",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/india-news/pm-modi-condoles-greater-noida-bus-fire-announces-2-lakh-ex-gratia-for-families-of-deceased-101790225199929.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/24/1600x900/logo/greater_noida_bus_fire_1790226032277_HWsr_1790226032586_haVT_e61b23c0-388c-4574-9038-db680803d787_RYt6.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "China holding sensitive F-35 jet parts diverted to Hong Kong after leaving Australia",
+            "severity": "WATCH",
+            "url": "https://www.smh.com.au/world/asia/china-is-holding-sensitive-f-35-jet-parts-diverted-to-hong-kong-20260924-p6109m.html",
+            "image": "https://static.ffx.io/images/$zoom_0.5295%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_109/t_crop_custom/q_86%2Cf_jpg/c1ae307c67e8db50d05886851644e58b881dd892",
+            "source": "smh"
+        },
+        {
+            "title": "Avantel share price soars 9% in weak market on heavy volume",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/markets/news/avantel-share-price-soars-9-in-weak-market-on-heavy-volume-126092400295_1.html",
+            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "New Jersey inspectors found 62 large natural-gas generators running without required permits at a massive AI data center; the state has now imposed a record $1.07 million penalty",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/world/us/new-jersey-inspectors-found-62-large-natural-gas-generators-running-without-required-permits-at-a-massive-ai-data-center-the-state-has-now-imposed-a-record-1-07-million-penalty/articleshow/134451711.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134451766/134451766.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Visayas grid: Red alert up for 5 hours",
+            "severity": "WATCH",
+            "url": "https://cebudailynews.inquirer.net/769298/visayas-grid-red-alert-up-for-5-hours",
+            "image": "https://cebudailynews.inquirer.net/files/2025/04/04-16-NGCP-620x349.png",
+            "source": "inquirer"
+        },
+        {
+            "title": "Morning Bid: Diplomacy takes a back seat",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/economy-news/morning-bid-diplomacy-takes-a-back-seat-4656169",
+            "image": "https://content-media.investing.com/trkd-images/LYNXMPEM8N09V_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Janan Ganesh: The West does not have a leadership problem",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/world/europe/2026/09/24/janan-ganesh-the-west-does-not-have-a-leadership-problem/",
+            "image": "https://www.irishtimes.com/resizer/v2/AKJTXZJLXWIJHWXWAD7EGGJRZA.jpg?auth=ec41eb33b4efe2339782551edd3f75b448e66b0db8cd78dee6f644b7d1686e72&smart=true&width=630&height=350",
+            "source": "irishtimes"
+        },
+        {
+            "title": "OpenAI Agent Hacked Into Australia\u2019s Medicare Database, Prime Minister Says",
+            "severity": "WATCH",
+            "url": "https://www.forbes.com/sites/siladityaray/2026/09/24/openai-agent-hacked-into-australias-medicare-database-prime-minister-says/",
+            "image": "https://imageio.forbes.com/specials-images/imageserve/6ab4a800a776266eebc86a8b/0x0.jpg?width=960",
+            "source": "forbes"
+        },
+        {
+            "title": "OpenAI says agent hacked Australian government website without being told to do so",
+            "severity": "WATCH",
+            "url": "https://www.cnbc.com/2026/09/24/openai-agent-hacked-australian-government-website-.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/107431804-17189858722024-06-21t155215z_1214353438_rc2sj6aut6ur_rtrmadp_0_rockset-m-a-openai.jpeg?v=1757715670&w=1200&h=675",
+            "source": "cnbc"
+        },
+        {
+            "title": "OpenAI agent hacked Australian government site; PM Anthony Albanese says evidence currently available shows...",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-agent-hacked-australian-government-site-pm-anthony-albanese-says-evidence-currently-available-shows/articleshow/134451478.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134451495/134451495.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Australian PM says OpenAI hacked government health website",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/sci-tech/technology/australian-pm-says-openai-hacked-government-health-website/article71502736.ece",
+            "image": "https://th-i.thgim.com/public/incoming/h3oz7o/article71502760.ece/alternates/FREE_1200/2026-09-17T234735Z_746117251_RC29LNA7P4TX_RTRMADP_3_TECH-AI.JPG",
+            "source": "thehindu"
         }
     ],
-    "Last_Updated": "2026-09-24T11:28:35.956736Z"
+    "Last_Updated": "2026-09-24T16:54:29.241102Z"
 }
