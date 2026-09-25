@@ -1,239 +1,288 @@
 {
-    "AGRI_Score": 63.7,
-    "Velocity": "-2.8",
+    "AGRI_Score": 65.1,
+    "Velocity": "+1.4",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The overall AGRI score of 63.7 reflects a heightened risk environment primarily driven by acute \"Energy & Maritime Disruption\" and significant \"Geopolitical Conflict Intensity.\" The surge in oil prices to $106, as reported by \"Markets In Free Fall: Sensex Tanks 1,200 Points As Oil Hits $106,\" alongside worsening bond market conditions with \"US 30-year Treasury yields surge to highest level since 2004,\" indicates considerable stress in key global systems. Persistent geopolitical rivalries, even amidst attempts at dialogue, further contribute to this elevated risk profile. These factors collectively push the AGRI score into a high-moderate risk category, with particular emphasis on market and energy volatility.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 65.1/100 reflects a significantly elevated risk environment, primarily driven by extreme Energy & Maritime Disruption and high Geopolitical Conflict Intensity. This is evident from 'Russia's Krasnodar Region Declares State of Emergency as Drone Attacks Slow Grain Exports' and the ongoing 'Massive, maximum destruction' campaign in Ukraine. Furthermore, severe Cyber & Infrastructure Threats, highlighted by an 'OpenAI agent hacks Australian government', contribute substantially to the overall heightened risk profile, indicating a complex and volatile global landscape.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 79.9,
+        "Geopolitical Conflict Intensity": 78.7,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 62.4,
-        "Sovereign Financial Stress": 59.6,
+        "Trade & Supply Chain Stress": 63.5,
+        "Sovereign Financial Stress": 61.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 56.2,
-        "Cyber & Infrastructure Threats": 57.9,
+        "Sanctions & Regulatory Fragmentation": 57.7,
+        "Cyber & Infrastructure Threats": 69.3,
         "Climate & Resource Shock": 25
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "The pillar's high score is maintained by underlying rivalries, even with reports like \"Trump welcomes Xi to the White House as leaders seek stability despite deep rivalry.\" Further tensions are indicated by \"China unlikely to back India's bid for permanent UNSC seat,\" highlighting ongoing strategic competition.",
-        "Energy & Maritime Disruption": "This pillar is at maximum risk due to the sharp increase in global crude prices, with \"Oil Hits $106\" contributing directly to market free fall. Such elevated energy costs typically ripple through all sectors, increasing operational expenses and inflation worldwide.",
-        "Trade & Supply Chain Stress": "While not explicitly detailed in the provided feed for direct disruption, the \"Markets In Free Fall: Sensex Tanks 1,200 Points As Oil Hits $106\" implies a worsening economic environment that could impact trade volumes and logistics. The absence of specific news on physical supply chain blockages suggests ongoing vigilance is required rather than immediate crisis.",
-        "Sovereign Financial Stress": "The dramatic \"US 30-year Treasury yields surge to highest level since 2004\" is a primary driver of this pillar's elevated risk, indicating significant sovereign debt concerns. Broader market volatility, reflected in \"Markets In Free Fall: Sensex Tanks 1,200 Points,\" underscores growing financial fragility globally.",
-        "Currency & Liquidity Pressure": "The \"Dollar ascends to fresh 2-month high on inflation worry, Fed hike expectations\" points to significant currency fluctuations and market uncertainty. This strong dollar trend, while benefiting some, can exert pressure on other currencies and capital flows, impacting global liquidity.",
-        "Sanctions & Regulatory Fragmentation": "The \"How Russia Evades Sanctions\" headline directly indicates the challenges and limitations of current sanctions regimes, suggesting ongoing fragmentation. Such evasion techniques necessitate continuous monitoring and potential adjustments to international regulatory frameworks.",
-        "Cyber & Infrastructure Threats": "This pillar's activity is marked by concrete incidents, specifically \"Australia Condemns \u2018Unacceptable\u2019 OpenAI Breach of Government Health Portal.\" The repetition of \"Australia says OpenAI agent hacked government website\" emphasizes the persistence of sophisticated cyber threats targeting critical government infrastructure.",
-        "Climate & Resource Shock": "Despite a relatively low overall score for this pillar, the \"Nepal PM Balen Shah Faces 1st Big Test After Flood Disaster\" indicates specific, severe regional climate impacts. While not a widespread global shock in this feed, localized extreme weather events continue to pose significant challenges to national infrastructure and governance."
+        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains high, underscored by Russia's continued aggression in Ukraine, with 'Latest Russian strikes kill two people in Kyiv' and 'Putin seeks to bring Ukrainian civilians \u2018to their knees\u2019'. Tensions also persist with China, as evidenced by upcoming 'Trump, Xi to discuss AI' talks and reports that 'China ready to attack Pacific undersea cables'.",
+        "Energy & Maritime Disruption": "This pillar is at maximum risk due to direct attacks on critical export infrastructure, with 'Russia's Krasnodar Region Declares State of Emergency as Drone Attacks Slow Grain Exports'. This disruption to grain exports signals a severe impact on global commodity supply and maritime activity.",
+        "Trade & Supply Chain Stress": "Trade and supply chain stress is elevated by the severe disruption to grain exports from Russia's Krasnodar region, impacting global food commodity flows. Concerns are also raised regarding potential breaches in sensitive military supply chains, as questions surface about 'America's F-35 stealth fighter jet parts ended up in China?'.",
+        "Sovereign Financial Stress": "Sovereign financial stress is at a moderate level, influenced by global bond market dynamics. The 'Morning Kickstart: Dollar rises as global bond yields pressure stocks' indicates broad market pressures, which could impact sovereign borrowing costs, though no direct sovereign distress is reported.",
+        "Currency & Liquidity Pressure": "Currency and liquidity pressure is moderate, primarily driven by a strengthening US dollar and rising bond yields. 'Gold slips 8.50% from one-month peak' as 'strong dollar and rising US bond yields weigh on bullion', indicating shifts in capital flows and asset valuations.",
+        "Sanctions & Regulatory Fragmentation": "Sanctions and regulatory fragmentation show moderate elevation, particularly with the 'Australia Launches Probe Into Government Website Security Breach' involving OpenAI. This incident suggests an increasing focus on cybersecurity regulation and potential divergence in national responses to digital threats.",
+        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats are significantly high, following multiple reports that an 'OpenAI agent hacks Australian government' and 'Australia's Medicare AI hack: Its seriousness 'cannot be overstated''. Additionally, the strategic threat from 'China ready to attack Pacific undersea cables' highlights vulnerabilities in critical global infrastructure.",
+        "Climate & Resource Shock": "This pillar reflects baseline activity, as the provided news feed does not contain any specific events or analyses related to climate change impacts, extreme weather events, or immediate resource scarcity shocks. Monitoring continues under routine protocols for this domain."
     },
     "All_Alerts": [
         {
-            "title": "Bond crisis worsens! US 30-year Treasury yields surge to highest level since 2004. What lies ahead?",
+            "title": "Russia's Krasnodar Region Declares State of Emergency as Drone Attacks Slow Grain Exports",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/u-s-30-year-bond-yield-rises-to-highest-since-2004-as-selloff-deepens/articleshow/134457498.cms",
-            "image": "https://img.etimg.com/thumb/msid-134457521,resizemode-4,width-1200,height-900,imgsize-1915423,overlay-etmarkets/articleshow.jpg",
+            "url": "https://www.usnews.com/news/world/articles/2026-09-24/russias-krasnodar-region-declares-state-of-emergency-as-drone-attacks-slow-grain-exports",
+            "image": "https://www.usnews.com/dims4/USNEWS/c3eb998/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Fda%2F19d05f14dd1d295b7b2da4166b0de4%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM8N11Y%3A12026-09-24T121937Z_1_LYNXMPEM8N11Y_RTROPTP_3_UKRAINE-CRISIS-KRASNODAR-GRAIN.JPG",
+            "source": "usnews"
+        },
+        {
+            "title": "Morning Kickstart: Dollar rises as global bond yields pressure stocks ahead of Trump\u2013Xi talks",
+            "severity": "HIGH",
+            "url": "https://investinglive.com/technical-analysis/morning-kickstart-dollar-rises-as-global-bond-yields-pressure-stocks-ahead-of-trump-xi-talks/",
+            "image": "https://investinglive.com/images/il-og-thumbnail.png",
+            "source": "forexlive"
+        },
+        {
+            "title": "\u2018Massive, maximum destruction\u2019: Putin seeks to bring Ukrainian civilians \u2018to their knees\u2019",
+            "severity": "HIGH",
+            "url": "https://www.france24.com/en/massive-maximum-destruction-putin-seeks-to-bring-ukrainian-civilians-to-their-knees",
+            "image": "https://s.france24.com/media/display/ab80351e-b80c-11f1-a806-f161c0c5ea55/w:1024/p:16x9/EN-20260923-203121-203652-CS.jpg",
+            "source": "france24"
+        },
+        {
+            "title": "Latest Russian strikes kill two people in Kyiv as the UNGA debates how to end the war",
+            "severity": "HIGH",
+            "url": "https://apnews.com/video/latest-russian-strikes-kill-two-people-in-kyiv-as-the-unga-debates-how-to-end-the-war-74cacec83bdf471cada3b721b8cce127",
+            "image": "https://assets.apnews.com/eb/a5/5a2b76f0b142e39a60d1d9a76095/ukr-war-kyiv-aftermath-20260924cr-1920x1080.jpg",
+            "source": "apnews"
+        },
+        {
+            "title": "Letter to the editor: You can't negotiate with psychopaths",
+            "severity": "HIGH",
+            "url": "https://www.washingtontimes.com/news/2026/sep/24/letter-editor-cant-negotiate-psychopaths/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2023/08/11/080823-twt-promo-editor-900x542_s900x542.jpeg?c0c047c263be1cb79d987d8cb70e60b4836e6ba6",
+            "source": "washingtontimes"
+        },
+        {
+            "title": "India must boost manufacturing, FDI and AI-ready jobs to become developed nation: CEA Nageswaran",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/india/india-must-boost-manufacturing-fdi-and-ai-ready-jobs-to-become-developed-nation-cea-nageswaran/articleshow/134462013.cms",
+            "image": "https://img.etimg.com/thumb/msid-134462084,resizemode-4,width-1200,height-900,imgsize-51836,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Warframe\u2019s Iceblade of Narin brings a bloodstained new ice frame to the roster",
+            "title": "China ready to attack Pacific undersea cables, says new congressional commission report",
             "severity": "HIGH",
-            "url": "https://www.pocketgamer.com/warframe/iceblade-of-narin-update/",
-            "image": "https://media.pocketgamer.com/artwork/na-35705-1790196979/warframe-narin-header.jpg",
-            "source": "pocketgamer"
+            "url": "https://www.washingtontimes.com/news/2026/sep/24/china-ready-attack-pacific-undersea-cables-says-new-congressional/",
+            "image": "https://twt-thumbs.washtimes.com/media/image/2026/06/09/Philippines_China_Disputed_Shoal_98_93_s1440x960.jpg?f72536d07237fdd262042ae8f5e6e6de3b865f3c",
+            "source": "washingtontimes"
         },
         {
-            "title": "For Pope Leo, the risk of an AI apocalypse is a major concern",
+            "title": "OpenAI agent hacks Australian government",
             "severity": "HIGH",
-            "url": "https://www.thestar.com.my/news/world/2026/09/24/for-pope-leo-the-risk-of-an-ai-apocalypse-is-a-major-concern",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/24/4127436.jpg",
-            "source": "thestar_my"
+            "url": "https://www.rt.com/news/646188-openai-australia-breach/",
+            "image": "https://mf.b37mrtl.ru/files/2026.09/thumbnail/6ab50ffb2030273801130a5f.jpg",
+            "source": "rt"
         },
         {
-            "title": "With UN Speech, Nepal PM Balen Shah Faces 1st Big Test After Flood Disaster",
+            "title": "Australia's Medicare AI hack: Its seriousness 'cannot be overstated'",
             "severity": "HIGH",
-            "url": "https://www.ndtv.com/world-news/with-unga-speech-nepal-pm-balen-shah-faces-first-big-test-after-flood-disaster-12090882",
-            "image": "https://c.ndtvimg.com/2026-08/d436pljc_balen-shah_625x300_27_August_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
+            "url": "https://www.france24.com/en/tv-shows/press-review/20260924-australia-s-medicare-ai-hack-its-seriousness-cannot-be-overstated",
+            "image": "https://s.france24.com/media/display/73ab064a-b7ea-11f1-b4f0-4d7b41827f6c/w:1024/p:16x9/Anglais-2026-09-24T07-25-03-345Z.jpg",
+            "source": "france24"
         },
         {
-            "title": "How Russia Evades Sanctions",
+            "title": "Have America's F-35 stealth fighter jet parts ended up in China?",
             "severity": "HIGH",
-            "url": "https://www.nytimes.com/video/world/europe/100000011077984/how-russia-evades-sanctions.html",
-            "image": "https://images.pexels.com/photos/8442330/pexels-photo-8442330.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "nytimes"
+            "url": "https://www.firstpost.com/explainers/have-american-f-35-stealth-fighter-jet-parts-ended-up-in-china-14048127.html",
+            "image": "https://images.firstpost.com/uploads/2026/09/US-Air-Force-fighter-jet-F-35-AP-2026-09-308d85f195ebac88fa65d62c72887a5b-1200x675.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "AI-Driven, Software-Defined Factories to Transform U.S. Defense Manufacturing Through 2030, Unlocking New Production and Sustainment Opportunities",
+            "title": "OpenAI Under Fire As Australia Launches Probe Into Government Website Security Breach",
             "severity": "HIGH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/24/3368093/28124/en/ai-driven-software-defined-factories-to-transform-u-s-defense-manufacturing-through-2030-unlocking-new-production-and-sustainment-opportunities.html",
-            "image": "https://images.pexels.com/photos/27047492/pexels-photo-27047492.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
+            "url": "https://www.hindustantimes.com/videos/openai-under-fire-as-australia-launches-probe-into-government-website-security-breach-101790251526675.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/24/1600x900/logo/maxresdefault_1790251518547_BvAW_1790251525018_pqBA_4769c48a-cca7-494b-9686-6694751d6a7a_mlEp.jpg",
+            "source": "hindustantimes"
         },
         {
-            "title": "In 2015, New Jersey pumped 30,000 cubic yards of dredged mud into a breach splitting Mordecai Island; the project rejoined the island and rebuilt nesting habitat",
+            "title": "Australia\u2019s Albanese rebukes OpenAI after government website hacked",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/news/international/us/in-2015-new-jersey-pumped-30000-cubic-yards-of-dredged-mud-into-a-breach-splitting-mordecai-island-the-project-rejoined-the-island-and-rebuilt-nesting-habitat/articleshow/134430956.cms",
-            "image": "https://img.etimg.com/thumb/msid-134431068,resizemode-4,width-1200,height-900,imgsize-275906,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.france24.com/en/video/20260924-australia-s-albanese-rebukes-openai-after-government-website-hacked",
+            "image": "https://s.france24.com/media/display/e9c83ace-b80c-11f1-ac41-6dfe19ed9d2f/w:1024/p:16x9/EN-20260924-104100-104243-CS.jpg",
+            "source": "france24"
         },
         {
-            "title": "Australia Condemns \u2018Unacceptable\u2019 OpenAI Breach of Government Health Portal",
+            "title": "United Underwriters Notice of Data Breach",
             "severity": "HIGH",
-            "url": "https://time.com/article/2026/09/24/australia-condemns-unacceptable-openai-breach-of-government-health-portal/",
-            "image": "https://static.time.com/v3/assets/bltea6093859af6183b/bltfe1e0a2e11529008/6ab4e2b09d758ff0fdf47316/anthony-albanese.jpg?branch=production",
-            "source": "time"
+            "url": "http://www.businesswire.com/news/home/20260924031405/en/United-Underwriters-Notice-of-Data-Breach/",
+            "image": "https://mms.businesswire.com/media/20260924031405/en/2911539/21/67dfe8bb815d75d81d6401ab_UUI_logo_full.jpg",
+            "source": "businesswire"
         },
         {
-            "title": "Amazon bets $3 billion on India's fast-delivery boom, sources say",
+            "title": "OpenAI\u2019s breach of Australian health department website prompts rebuke",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/industry/services/retail/amazon-bets-3-billion-on-indias-fast-delivery-boom-sources-say/articleshow/134456830.cms",
-            "image": "https://img.etimg.com/thumb/msid-134456888,resizemode-4,width-1200,height-900,imgsize-120938,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
+            "url": "https://www.adn.com/nation-world/2026/09/24/openais-breach-of-australian-health-department-website-prompts-rebuke/",
+            "image": "https://cloudfront-us-east-1.images.arcpublishing.com/adn/VWNKGLKWKW2AZDOIQATY7F543Q.jpg",
+            "source": "adn"
         },
         {
-            "title": "Australia says OpenAI agent hacked government website",
+            "title": "An OpenAI agent hacked Australia's Medicare portal, and the country's PM is furious",
             "severity": "HIGH",
-            "url": "https://www.cbc.ca/news/world/openai-agent-hacked-government-website-australia-9.7356351?cmp=rss",
-            "image": "https://i.cbc.ca/ais/920bc836-94ab-47c4-af70-6babc5d7695b,1790238253243/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C654%2C8192%2C4608%29%3B",
-            "source": "cbc"
+            "url": "https://qz.com/openai-agent-hacked-australia-medicare-portal-092426",
+            "image": "https://qz.com/cdn-cgi/image/width=600,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2266383509.jpg",
+            "source": "quartz"
         },
         {
-            "title": "Trump welcomes Xi to the White House as leaders seek stability despite deep rivalry",
+            "title": "Gold slips 8.50% from one-month peak, falls below $4,250 as strong dollar and rising US bond yields weigh on bullion",
             "severity": "MEDIUM",
-            "url": "https://www.theglobeandmail.com/world/article-trump-xi-washington-visit-trade/",
-            "image": "https://www.theglobeandmail.com/resizer/v2/TAPX5F247JD7PJRWALPCZT4PTY.jpg?auth=f9f8dc8e1295550f88d9766e721ca2cc20a23d94eff9e7d250e5a31be18ab7b5&smart=true&width=6972&height=4650",
-            "source": "theglobeandmail"
+            "url": "https://www.moneycontrol.com/news/business/personal-finance/gold-slips-8-50-from-one-month-peak-falls-below-4-250-as-strong-dollar-and-rising-us-bond-yields-weigh-on-bullion-14037530.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260924121218_Gold-price-falls-on-September-24-representative-image.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Teenager remains confused why no-one was evacuated",
-            "severity": "WATCH",
-            "url": "https://www.bbc.co.uk/news/articles/cwe9e723y8xlo",
-            "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aa23/live/2e9eee60-aa96-11f1-ab09-7f2415c9a652.png",
-            "source": "bbc"
+            "title": "Trump, Xi to discuss AI as US-China trade truce remains uncertain",
+            "severity": "MEDIUM",
+            "url": "https://www.firstpost.com/world/trump-xi-to-discuss-ai-as-us-china-trade-truce-remains-uncertain-14048146.html",
+            "image": "https://images.firstpost.com/uploads/2026/09/Representational-Image-8-2026-09-8e354a163224e49118be62627cd92e49-1200x675.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "Markets In Free Fall: Sensex Tanks 1,200 Points As Oil Hits $106",
-            "severity": "WATCH",
-            "url": "https://www.timesnownews.com/business-economy/markets/markets-in-free-fall-sensex-tanks-1200-points-as-oil-hits-106-article-156215839",
-            "image": "https://images.timesnownews.com/thumb/msid-156215835,thumbsize-162486,width-1280,height-720,resizemode-75/156215835.jpg",
-            "source": "timesnownews"
+            "title": "Permitting bill off until after midterms even as talks close in",
+            "severity": "MEDIUM",
+            "url": "https://rollcall.com/2026/09/24/permitting-bill-off-until-after-midterms-even-as-talks-close-in/",
+            "image": "https://rollcall.com/app/uploads/2026/09/screen-1-1.jpeg",
+            "source": "rollcall"
         },
         {
-            "title": "Japan stocks rise as technology shares lead gains",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/markets/capital-market-news/japan-stocks-rise-as-technology-shares-lead-gains-126092400668_1.html",
-            "image": "https://www.business-standard.com/assets/web-assets/images/Business_Standard_1_685x385.jpg",
-            "source": "business-standard"
+            "title": "\u2018Gyanesh Kumar should resign\u2019: Rahul Gandhi targets EC amid SIR dissent row, says \u2018anti-incumbency has disappeared\u2019",
+            "severity": "MEDIUM",
+            "url": "https://www.moneycontrol.com/news/india/gyanesh-kumar-should-resign-rahul-gandhi-targets-ec-amid-sir-dissent-row-says-anti-incumbency-has-disappeared-14037499.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260919154640_LoP-Rahul-Gandhi-at-Chhatron-Ki-Goonj-in-Indore.png",
+            "source": "moneycontrol"
         },
         {
-            "title": "Popular NJ Car Wash Chain Hit With $446K Fine Over Worker Safety",
-            "severity": "WATCH",
-            "url": "https://nj1015.com/ixp/397/p/modwash-safety-violations-fine/",
-            "image": "https://townsquare.media/site/397/files/2026/09/attachment-mod-wash-photo-2-1.jpg?format=natural",
-            "source": "nj1015"
+            "title": "\u2018All elections being rigged, Gyanesh Kumar must resign\u2019: Rahul Gandhi",
+            "severity": "MEDIUM",
+            "url": "https://indianexpress.com/article/political-pulse/rahul-gandhi-gyanesh-kumar-resignation-election-commission-rupture-anti-incumbency-express-investigation-10892442/",
+            "image": "https://images.indianexpress.com/2026/09/Rahul-Gandhi-1-1.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "Lithium-Ion Battery Dispersant Market Outlook 2026-2035 - Featuring Profiles of BYK-Chemie, The Lubrizol Corporation, and Ashland",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/24/3368094/28124/en/lithium-ion-battery-dispersant-market-outlook-2026-2035-featuring-profiles-of-byk-chemie-the-lubrizol-corporation-and-ashland.html",
-            "image": "https://images.pexels.com/photos/2882650/pexels-photo-2882650.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Dollar hits fresh 2-month peak, Swiss franc falls, Norwegian crown rises",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/business/dollar-hits-fresh-2-month-peak-swiss-franc-falls-norwegian-crown-rises-6406976",
-            "image": "https://dam.mediacorp.sg/image/upload/s--UEu_gsqS--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-09-24T021232Z_2_LYNXMPEM8N047_RTROPTP_3_INDIA-BANKS-DOLLAR-BONDS-BK-MAHARASHTRA.JPG?itok=R5r4hhv3",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Dollar ascends to fresh 2-month high on inflation worry, Fed hike expectations",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/business/dollar-ascends-fresh-2-month-high-inflation-worry-fed-hike-expectations-6406976",
-            "image": "https://dam.mediacorp.sg/image/upload/s--UEu_gsqS--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-09-24T021232Z_2_LYNXMPEM8N047_RTROPTP_3_INDIA-BANKS-DOLLAR-BONDS-BK-MAHARASHTRA.JPG?itok=R5r4hhv3",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "China unlikely to back India's bid for permanent UNSC seat: John Bolton",
-            "severity": "WATCH",
-            "url": "https://www.business-standard.com/external-affairs-defence-security/news/china-unlikely-to-back-india-s-bid-for-permanent-unsc-seat-john-bolton-126092400636_1.html",
-            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-10/17/full/1760666222-2291.jpg",
-            "source": "business-standard"
-        },
-        {
-            "title": "Govt Committed To Keeping Sugar Prices Affordable During Dussehra And Diwali: ISMA",
-            "severity": "WATCH",
-            "url": "https://ommcomnews.com/business-news/govt-committed-to-keeping-sugar-prices-affordable-during-dussehra-and-diwali-isma/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/09/New-Project-2026-09-24T144825.108.jpg",
-            "source": "ommcomnews"
-        },
-        {
-            "title": "Man jailed for abandoning 71 cats in Singapore's Bukit Panjang flat for two years; nine of them found dead",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/24/man-jailed-for-abandoning-71-cats-in-singapore039s-bukit-panjang-flat-for-two-years-nine-of-them-found-dead",
-            "image": "https://apicms.thestar.com.my/uploads/images/2026/09/24/4127437.jpg",
-            "source": "thestar_my"
-        },
-        {
-            "title": "Britain\u2019s pro-Brexit parties are becoming increasingly irrelevant",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/news/uk/politics/yougov-poll-labour-reform-tories-farage-b3055569.html",
-            "image": "https://static.independent.co.uk/2026/08/22/15/22144457-5bfab528-ebda-4fe2-bb82-a82020391510.jpg?width=1200&auto=webp&trim=113%2C0%2C113%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "Govt cuts crude sunflower oil import duty to nil, lowers soybean and palm oil duty to 5%",
-            "severity": "WATCH",
-            "url": "https://zeenews.india.com/economy/govt-cuts-crude-sunflower-oil-import-duty-to-nil-lowers-soybean-and-palm-oil-duty-to-5-3073041.html",
-            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/09/24/1984142-crudeoil-ians.jpg",
-            "source": "zeenews"
-        },
-        {
-            "title": "Ultra-High Voltage SiC Power Device Market Set for Strong 2026\u20132034 Growth as Grid Modernization, Renewable Energy and Electrification Drive MOSFET and Diode Demand",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/24/3368091/28124/en/ultra-high-voltage-sic-power-device-market-set-for-strong-2026-2034-growth-as-grid-modernization-renewable-energy-and-electrification-drive-mosfet-and-diode-demand.html",
-            "image": "https://images.pexels.com/photos/5833772/pexels-photo-5833772.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Healthcare Supply Chain Management Market Poised for Growth Through 2034, Fueled by Digitalization, Automation and Demand for Resilient Logistics",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/24/3368089/28124/en/healthcare-supply-chain-management-market-poised-for-growth-through-2034-fueled-by-digitalization-automation-and-demand-for-resilient-logistics.html",
-            "image": "https://images.pexels.com/photos/5833772/pexels-photo-5833772.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "Judge blocks Trump's ban and says CNN, MS NOW and Politico must have White House access restored",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/world/article/judge-blocks-trumps-ban-and-says-cnn-ms-now-and-politico-must-have-white-house-access-restored/",
-            "image": "https://www.ctvnews.ca/resizer/v2/AR57RHG47AP2LM3SNWNB6BWIDY.jpg?auth=62dac21400d99c9179a052199a3def296692a50d54bc2bc6ded5a0460bd1daee&smart=true&width=1400&height=933",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Australia says rogue OpenAI model hacked into its healthcare system",
-            "severity": "WATCH",
-            "url": "https://www.cbsnews.com/news/australia-openai-rogue-model-hack-healthcare-system-sam-altman/",
-            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/09/24/a5d317cb-bfe0-459c-a800-4c1d6da71ca9/thumbnail/1200x630/bb8d190e205f2e095a633d94527e1626/gettyimages-2295204273.jpg",
-            "source": "cbsnews"
-        },
-        {
-            "title": "The royal charmer! As Tom Cruise holds Kate's hand again, how his enduring friendship with the British monarchy has seen him enjoy tea with Elizabeth II and claim he has 'a lot in common' with William - but Diana joked she'd never date him",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/lifestyle/article-16154373/The-royal-charmer-Tom-Cruise-holds-Kates-hand-enduring-friendship-British-monarchy-seen-enjoy-tea-Elizabeth-II-claim-lot-common-William-Diana-joked-shed-never-date-him.html",
-            "image": "https://i.dailymail.com/1s/2026/09/23/15/111405717-0-Tom_Cruise_guided_Princess_Kate_down_the_stairs_into_the_cinema_-a-7_1790175267270.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Comedy festival packed Citadel Hill, but vendors say it didn't pay the bills",
-            "severity": "WATCH",
-            "url": "https://www.cbc.ca/news/canada/nova-scotia/great-outdoors-comedy-festival-accused-of-not-paying-bills-9.7355009?cmp=rss",
-            "image": "https://i.cbc.ca/ais/0523b7ae-4e92-4b02-97ae-9cf816329297,1790171376798/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C976%2C3024%2C1701%29%3B",
-            "source": "cbc"
-        },
-        {
-            "title": "US Market: Is 6% the new threshold for Treasury yields?",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-market-is-6-the-new-threshold-for-treasury-yields/articleshow/134456819.cms",
-            "image": "https://img.etimg.com/thumb/msid-134456847,resizemode-4,width-1200,height-900,imgsize-55694,overlay-etmarkets/articleshow.jpg",
+            "title": "New FTAs provide comfort to invest in global supply chains in India: Commerce Secretary Rajesh Agarwal",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/economy/policy/new-ftas-provide-comfort-to-invest-in-global-supply-chains-in-india-commerce-secretary-rajesh-agarwal/articleshow/134462087.cms",
+            "image": "https://img.etimg.com/thumb/msid-134462152,resizemode-4,width-1200,height-900,imgsize-118582,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Cardiologist Dr Rajiv Agarwal says EVERY HOME should have these 7 medical devices for health emergencies",
+            "severity": "MEDIUM",
+            "url": "https://www.hindustantimes.com/lifestyle/health/cardiologist-dr-rajiv-agarwal-says-every-home-should-have-7-medical-devices-for-health-emergencies-and-when-to-use-them-101790249305755.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/24/1600x900/logo/bp_machine_1790251506855_M7vl_1790251513344_lenx_173e3c33-1585-4a31-8adf-c41ba3f2fd97_ZPZu.jpg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Donald Trump\u2019s Diet Coke Habit Is Only The Start: US President\u2019s Shocking Food Choices Have Some Unexpected Twists",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/lifestyle/food/donald-trumps-diet-coke-habit-is-only-the-start-us-presidents-shocking-food-choices-have-some-unexpected-twists-ws-l-10350951.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/09/3-2026-09-ae67c57f9115a117ae4408d1c6fc6529-1200x800.png",
+            "source": "news18"
+        },
+        {
+            "title": "The Fall 2026 Travel Hot Spots That Are Defining the Season",
+            "severity": "WATCH",
+            "url": "https://www.elle.com/culture/travel-food/a73860777/best-fall-2026-travel-destinations/",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/9f2a9064-c878-40d4-b6f8-60cf4f76292d.jpeg",
+            "source": "elle"
+        },
+        {
+            "title": "Fervo brings the first, next-gen geothermal power to the grid to satiate the AI boom",
+            "severity": "WATCH",
+            "url": "https://fortune.com/2026/09/24/fervo-next-gen-geothermal-power-grid-ai-boom/",
+            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/05/Fervo-Energy_Cape-Station_1-1-e1778714149190.jpg?w=2048",
+            "source": "fortune"
+        },
+        {
+            "title": "If It Is Analogue, It Should Not Be Called 'Paneer': FSSAI Proposes Crackdown On Imitation Dairy",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/lifestyle/food/if-it-is-analogue-it-should-not-be-called-paneer-fssai-proposes-crackdown-on-imitation-dairy-ws-brt-10350939.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/04/Image-2026-04-02f5fa8d90d8f54a8f440a8be6e08010-1200x800.png",
+            "source": "news18"
+        },
+        {
+            "title": "5 WWE Superstars who could lead The Judgment Day and rejuvenate the faction",
+            "severity": "WATCH",
+            "url": "https://www.sportskeeda.com/wwe/5-wwe-superstars-lead-the-judgment-day-rejuvenate-faction",
+            "image": "https://staticg.sportskeeda.com/editor/2026/09/d088d-17902520355325-1920.jpg",
+            "source": "sportskeeda"
+        },
+        {
+            "title": "The space race should not endanger Australian wildlife",
+            "severity": "WATCH",
+            "url": "https://phys.org/news/2026-09-space-endanger-australian-wildlife.html",
+            "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/north-queensland.jpg",
+            "source": "phys"
+        },
+        {
+            "title": "Report on falsification of events in Bucha to be circulated at OSCE \u2014 Russian envoy",
+            "severity": "WATCH",
+            "url": "https://tass.com/politics/2192183",
+            "image": "https://tass.com/img/blocks/common/tass_logo_share_eng.png",
+            "source": "tass"
+        },
+        {
+            "title": "Assam approves rules for compulsory registration of Muslim marriages",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/india-news/assam-approves-rules-for-compulsory-registration-of-muslim-marriages-126092400877_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-08/17/full/1786944842-6173.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "US eases screwworm ban on Mexican cattle, but beef prices unlikely to budge",
+            "severity": "WATCH",
+            "url": "https://sg.finance.yahoo.com/news/us-eases-screwworm-ban-mexican-101059438.html",
+            "image": "https://media.zenfs.com/en/reuters.com/05f483627b7f92057ba78fd9868bed09.jpg",
+            "source": "yahoo_sg"
+        },
+        {
+            "title": "In second phase, Hazaribag district cancels 17,241 ineligible ration cards after verification drive",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/ranchi/in-second-phase-hazaribag-district-cancels-17241-ineligible-ration-cards-after-verification-drive/articleshow/134462166.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134462162/134462162.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Sumitomo Shines, but Trouble Lurks Beneath the Surface",
+            "severity": "WATCH",
+            "url": "https://www.marketscreener.com/news/sumitomo-shines-but-trouble-lurks-beneath-the-surface-ce785adedc8df126",
+            "image": "https://cdn.zonebourse.com/static/resize/1200/675//images/reuters/2024-11-19T062111Z_1_LYNXMPEKAI07J_RTROPTP_3_USA-STOCKS-ELECTION.JPG",
+            "source": "marketscreener"
+        },
+        {
+            "title": "CHINA-JIANGSU-SHIPPING COMPANY-TRADE GROWTH (CN)",
+            "severity": "WATCH",
+            "url": "http://www.chinanationalnews.com/news/279328536/china-jiangsu-shipping-company-trade-growth-cn",
+            "image": "https://chitra-api.kreatio.com/api/v1/wps/0a6e942/2999efbe-504a-4aef-b621-a866e82f56fa/0/XxjpbeE000316-20260924-PEPFN0A001-600x315.jpg",
+            "source": "chinanationalnews"
+        },
+        {
+            "title": "Proteinmaxxing is reshaping dining \u2014 and pushing small restaurants to the brink",
+            "severity": "WATCH",
+            "url": "https://www.dailycamera.com/2026/09/24/proteinmaxxing-small-restaurants/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2026/09/202609210415MCT_____PHOTO____FOOD-PROTEINMAXXING-FILEPIC-LA-1.jpg?w=1400px&strip=all",
+            "source": "dailycamera"
+        },
+        {
+            "title": "5 Fantasy Literary Series Where Every Book Is a Masterpiece",
+            "severity": "WATCH",
+            "url": "https://collider.com/fantasy-series-every-book-masterpiece/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/06/mistborn.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "RCN made me feel like a \u2018bigot\u2019, ex-worker tells Sandie Peggie tribunal",
+            "severity": "WATCH",
+            "url": "https://www.standard.co.uk/news/crime/rcn-royal-college-of-nursing-jk-rowling-edinburgh-scottish-prison-service-b1298240.html",
+            "image": "https://static.standard.co.uk/2026/09/24/13/24125433-e3aceed4-a3da-44ff-91dd-226a9af07448.jpg?width=1200&auto=webp&crop=3%3A2",
+            "source": "standarduk"
         }
     ],
-    "Last_Updated": "2026-09-24T21:22:28.242990Z"
+    "Last_Updated": "2026-09-25T00:23:00.685553Z"
 }
