@@ -1,216 +1,288 @@
 {
-    "AGRI_Score": 63.6,
-    "Velocity": "-1.5",
+    "AGRI_Score": 65.2,
+    "Velocity": "+1.6",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 65.2 is primarily driven by acute risks in 'Energy & Maritime Disruption' and 'Geopolitical Conflict Intensity'. Ongoing Russian military actions in Ukraine, including 'Russian attacks on Ukraine\u2019s Kyiv region kill four, target power grid,' significantly elevate geopolitical tensions and directly threaten critical energy infrastructure. Furthermore, 'Russian President Vladimir Putin's Moves Amid War With Ukraine: 15,000 More Troops, $202.58-Bn Defence Spending For 2027' indicates continued escalation, ensuring these pillars remain under severe pressure and underpin the overall high risk environment.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.4,
+        "Geopolitical Conflict Intensity": 79.9,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 64.0,
-        "Sovereign Financial Stress": 62.4,
+        "Trade & Supply Chain Stress": 63.0,
+        "Sovereign Financial Stress": 62.6,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 57.8,
+        "Sanctions & Regulatory Fragmentation": 62.9,
+        "Cyber & Infrastructure Threats": 62.3,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar remains highly elevated due to sustained military actions, evidenced by 'Russian attacks on Ukraine\u2019s Kyiv region kill four, target power grid' and 'Russian President Vladimir Putin's Moves Amid War With Ukraine: 15,000 More Troops, $202.58-Bn Defence Spending For 2027'. The withdrawal of 'US forces exit Iraq after more than 2 decades of war' offers a localized de-escalation, but global conflict drivers persist intensely.",
+        "Energy & Maritime Disruption": "The score reflects severe disruption, directly impacted by the 'Russian attacks on Ukraine\u2019s Kyiv region kill four, target power grid,' which targets critical energy infrastructure. Additionally, 'States Move To Rein In Fuel Prices' indicates governmental concern and intervention in energy markets amidst supply pressures.",
+        "Trade & Supply Chain Stress": "Despite 'India-GCC aviation capacity is nearly back to pre-war times,' suggesting some recovery in specific routes, isolated incidents like 'Violent Incident Between Pilots Forces Israel Flight Diversion' and 'Flydubai FZ1073 plane hijack scare' highlight ongoing vulnerabilities to logistical flows. These events can create sudden, albeit localized, disruptions to air cargo and passenger movement.",
+        "Sovereign Financial Stress": "High defense spending, as seen in 'Russian President Vladimir Putin's Moves Amid War With Ukraine: $202.58-Bn Defence Spending For 2027,' places significant burdens on national finances. Broader economic pressures and public sentiment, hinted at by 'Prices, Iran and falling approval: GOP faces a midterm test,' also contribute to underlying sovereign financial concerns.",
+        "Currency & Liquidity Pressure": "While no immediate currency crises are reported, the combination of ongoing geopolitical tensions and the need for governments to 'Rein In Fuel Prices' suggests underlying economic pressures that could affect liquidity. Continuous monitoring of inflationary trends and central bank responses is essential given the broader risk environment.",
+        "Sanctions & Regulatory Fragmentation": "Negotiations, such as 'Iran indicates it received official US response to its latest offer on ending war,' underscore the persistent and evolving nature of international sanctions regimes. Concurrently, the 'First-of-its-kind suit seeks to hold OpenAI liable for AI's cyberattack' foreshadows significant new regulatory challenges and potential fragmentation in the digital governance space.",
+        "Cyber & Infrastructure Threats": "This pillar is under considerable pressure from multiple fronts, including the 'Bitget hacked via zero-day in third-party security products' and instances of AI misuse like a 'Chinese AI tool told researchers how to make biological weapons'. These incidents, coupled with the 'First-of-its-kind suit seeks to hold OpenAI liable for AI's cyberattack,' reveal a growing and complex threat landscape.",
+        "Climate & Resource Shock": "With no immediate global climate catastrophes reported, activity primarily involves routine monitoring and proactive measures like the 'Centre Approves Rs 1.86 Lakh Crore Green Energy Corridor Phase-III'. However, humanitarian efforts such as 'Republic of Korea funds school meals and nutrition for children in Somalia' suggest ongoing regional resource challenges, often linked to environmental factors."
+    },
     "All_Alerts": [
         {
-            "title": "Europe\u2019s Gas Crisis Deepens as Hormuz LNG Crunch Drives Prices Higher",
+            "title": "Russian attacks on Ukraine\u2019s Kyiv region kill four, target power grid",
             "severity": "HIGH",
-            "url": "https://au.investing.com/analysis/europes-gas-crisis-deepens-as-hormuz-lng-crunch-drives-prices-higher-200617307",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_au"
+            "url": "https://www.aljazeera.com/news/2026/9/30/russian-attacks-on-ukraines-kyiv-region-kill-four-target-power-grid",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-30T072618Z_700916561_RC2HTNAV8KIV_RTRMADP_3_UKRAINE-CRISIS-ATTACK-KYIV-REGION-1790768267.jpg?resize=1920%2C1440",
+            "source": "aljazeera_us"
         },
         {
-            "title": "JP Morgan, Goldman Diverge on Hormuz Oil Flow Estimates - Crude Oil Prices Today | OilPrice.com",
+            "title": "War or no war: India-GCC aviation capacity is nearly back to pre-war times",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPM3dCdm11d29uVFluUnNKYk9lY2t1Rkh5cUlGemhDM3huOGlHVm1wVW9WeUVFNE5WZ1U5Yk9aRGY4YTliRFplT3NvdzhUcjdQZ1BLeHNaMjdJREpCX3ZwTmVlbFlVUWFZelMyQk5BbVpIWnRfZjhkWE5nd1JiWW56LWhVMTRka0FTUEJsck5heGQ1bl9JYWxLS3NvNGphWXJZVlJKdVpQNFV4S1RFRFVz0gG0AUFVX3lxTE1YOURqVjc3LXlvVDNfNWZRRkMwZTAxSEFFeGFjUVZMamptcHk1bG52WkdySTZBclZLSzFFczRPWTAtS2lvd2xUc0k2NVVWRzFBbl90c09VVEdJNC1IZElVTUxZdGtBYzYtRDdvRDJrU0NVbDJTelM4RkhEYnVkNHB4UnktVXBveWdFcEdodHc4NWxkcHZOSXY0djRmTTJCbDJrRnF0NThQc2tHRUZ3b0J4eXJSUw?oc=5",
-            "image": "https://images.pexels.com/photos/18784617/pexels-photo-18784617.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "South Korea says Zelenskyy's revelation of a secret POW transfer was likely a play for more support",
-            "severity": "HIGH",
-            "url": "https://www.thestar.com/news/world/asia/south-korea-says-zelenskyy-s-revelation-of-a-secret-pow-transfer-was-likely-a-play-for-more-support/article_7e4253b4-f257-5750-b7c7-78cb1a789551.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/custom/image/f84403b8-7d76-11ee-9d02-a72a4951957f.png?resize=600%2C600",
-            "source": "thestar"
-        },
-        {
-            "title": "South Korea mulls why Zelenskyy revealed secret about POWs from North",
-            "severity": "HIGH",
-            "url": "https://apnews.com/article/south-korea-ukraine-north-russia-pow-b231340d93ae63f9d536e23c9c762b7e",
-            "image": "https://dims.apnews.com/dims4/default/96ab2b2/2147483647/strip/false/crop/5779x3853+0+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F5c%2F59%2Fc48ccf211621220ec6c85c27b095%2F788e41106ac3406283c49ffd8058e174",
-            "source": "apnews"
-        },
-        {
-            "title": "Omdia Identifies Four Forces Set to Reshape Technology in 2027",
-            "severity": "HIGH",
-            "url": "http://www.businesswire.com/news/home/20260929381874/en/Omdia-Identifies-Four-Forces-Set-to-Reshape-Technology-in-2027/",
-            "image": "https://mms.businesswire.com/media/20260929381874/en/2526440/21/ITTOmdia-Logo-Grad-Indigo.jpg",
-            "source": "businesswire"
-        },
-        {
-            "title": "Brent crude rises to $103 after Trump denies Iran sanctions. Check today September 30 petrol, diesel, LPG and CNG rates",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/india/brent-crude-rises-to-103-after-trump-denies-iran-sanctions-check-today-september-30-petrol-diesel-lpg-and-cng-rates-14041674.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/06/20260601025515_Delhi-petrol-pump-AFP.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "UAE announces fuel prices: How much will a full tank cost in October 2026?",
-            "severity": "HIGH",
-            "url": "https://www.khaleejtimes.com/business/energy/uae-petrol-fuel-prices-october-2026-full-tank-cost-sedan-suv-compact-cars",
-            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-07-31/5k86pde0/Screenshot-2026-07-31-at-10.55.10-AM.png",
-            "source": "khaleejtimes"
-        },
-        {
-            "title": "Bihar: Gandak river embankments breach at two places amid heavy water discharge from barrages",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/cities/patna-news/bihar-gandak-river-embankments-breach-at-two-places-amid-heavy-water-discharge-from-barrages-101790750459064.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/22/1600x900/logo/Cities_Image_Ai_Generated_2_version_1790062416079_y1DW_1790062447010_L0sX_ed9b5eee-44ba-4f65-bb29-aee7b16f9ea7_THhB.png",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "\u00a31.2bn on transfers with \u00a3830m inflated in accounts - Man City's 'asterisk era'",
-            "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/1-2bn-transfers-830m-inflated-062639247.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/2dd6b9268f6ee4d151ca69d2810f0161d3110871d52f54a0ace22a1a2eed343a/lightyear_networkapi/resizefill_w1024_h576%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2Fab15fe9cfa581301d56b755f7fb769f8.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Times Car Rental says data breach affected 6.6 million accounts",
-            "severity": "HIGH",
-            "url": "https://www.japantimes.co.jp/news/2026/09/30/japan/crime-legal/times-car-rental-hack/",
-            "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/09/30/565969.jpg",
-            "source": "japantimes"
-        },
-        {
-            "title": "Tata Power appeals Singapore court\u2019s $490-million payout order in Kleros case",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/news/business/tata-power-appeals-singapore-court-s-490-million-payout-order-in-kleros-case-14041751.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2022/11/Tata-power.jpg",
-            "source": "moneycontrol"
-        },
-        {
-            "title": "Slow Horses Season 6, Episode 3 Review \u2014 \u2018Resurrection\u2019",
-            "severity": "MEDIUM",
-            "url": "https://pk.ign.com/slow-horses/261835/slow-horses-season-6-episode-3-review-resurrection",
-            "image": "https://sm.ign.com/ign_pk/review/s/slow-horse/slow-horses-season-6-episode-3-review-resurrection_zz6d.jpg",
-            "source": "ign_pk"
-        },
-        {
-            "title": "What is the Mamallan Reservoir project in Tamil Nadu and why is it being opposed? Explained",
-            "severity": "MEDIUM",
-            "url": "https://www.thehindu.com/news/national/tamil-nadu/what-is-the-mamallan-reservoir-project-in-tamil-nadu-and-why-is-it-being-opposed-explained/article71526982.ece",
-            "image": "https://th-i.thgim.com/public/incoming/uc8bo9/article71527157.ece/alternates/FREE_1200/1559_19_1_2026_16_34_0_1_ECRSITE3.JPG",
-            "source": "thehindu"
-        },
-        {
-            "title": "Employees flagged rogue AI safety concerns, but OpenAI continued testing: Report",
-            "severity": "MEDIUM",
-            "url": "https://www.firstpost.com/tech/employees-flagged-rogue-ai-safety-concerns-but-openai-continued-testing-report-14049341.html",
-            "image": "https://images.firstpost.com/uploads/2026/09/AI-OpenAI-rep-Reuters-2026-09-56addb77cfd91fd98867f63334b57ac4-1200x675.jpg",
+            "url": "https://www.firstpost.com/business/war-or-no-war-india-gcc-aviation-capacity-is-nearly-back-to-pre-war-times-14049450.html",
+            "image": "https://images.firstpost.com/uploads/2026/09/The-battle-for-Kyiv-2-2026-09-7077a888682d9d2cf007d1ee33fbdad0-1200x675.jpg",
             "source": "firstpost"
         },
         {
-            "title": "US Taps Strategic Oil Reserve Again as Diesel Tops $6",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/analysis/us-taps-strategic-oil-reserve-again-as-diesel-tops-6-200628442",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_uk"
+            "title": "Violent Incident Between Pilots Forces Israel Flight Diversion",
+            "severity": "HIGH",
+            "url": "https://www.today.com/video/israel-bound-flight-diverted-amid-reports-pilot-was-stabbed-270775877830",
+            "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit_1500w/mpx/2704722219/2026_09/1790767876560_tdy_news_7a_bradley_fly_dubai_plane_260930_S3_1920x1080-nkd3ah.jpg",
+            "source": "nbcnews"
         },
         {
-            "title": "Introducing Nike Apex: The Next Leap in Marathon Speed",
-            "severity": "WATCH",
-            "url": "https://about.nike.com/en/newsroom/releases/introducing-nike-apex-the-next-leap-in-marathon-speed",
-            "image": "https://nmp.about.nike.com/about/prod/f2b9f389-3ac3-4c43-8555-765a028e2c3b/apex-1.jpg?m=eyJlZGl0cyI6eyJqcGVnIjp7InF1YWxpdHkiOjEwMH0sIndlYnAiOnsicXVhbGl0eSI6MTAwfSwiZXh0cmFjdCI6eyJsZWZ0IjowLCJ0b3AiOjAsIndpZHRoIjozMjAwLCJoZWlnaHQiOjIxMzJ9LCJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ%3D%3D&s=6b5df8fd60c0d9f18b660482aed014e43d5228e501a8cd0bc421c2fc79c869d2",
-            "source": "nike_news"
+            "title": "Republic of Korea funds school meals and nutrition for children in Somalia | World Food Programme",
+            "severity": "HIGH",
+            "url": "https://reliefweb.int/report/somalia/republic-korea-funds-school-meals-and-nutrition-children-somalia-world-food-programme",
+            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "reliefweb"
         },
         {
-            "title": "Nike Swooshfly Makes Race Day Feel More Possible",
-            "severity": "WATCH",
-            "url": "https://about.nike.com/en/newsroom/releases/nike-swooshfly-makes-race-day-feel-more-possible",
-            "image": "https://nmp.about.nike.com/about/prod/eddc157e-0aec-42be-8dca-64bb7a6bd83e/swooshfly-1.jpg?m=eyJlZGl0cyI6eyJqcGVnIjp7InF1YWxpdHkiOjEwMH0sIndlYnAiOnsicXVhbGl0eSI6MTAwfSwiZXh0cmFjdCI6eyJsZWZ0IjowLCJ0b3AiOjAsIndpZHRoIjozMjAwLCJoZWlnaHQiOjIxMzJ9LCJyZXNpemUiOnsid2lkdGgiOjY0MH19fQ%3D%3D&s=80d10993f71eb873324bdbf249300465bf11560a64f43c5e16c967f938b1002c",
-            "source": "nike_news"
-        },
-        {
-            "title": "Kinetics Expands Fleet with Acquisition of Vessel for Conversion into New FSRU",
-            "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/kinetics-expands-fleet-with-acquisition-of-vessel-for-conversion-into-new-fsru-302893529.html",
-            "image": "https://images.pexels.com/photos/13478691/pexels-photo-13478691.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "prnewswire_apac"
-        },
-        {
-            "title": "In the high-stakes game of chicken between CEOs and states, who blinks first?",
-            "severity": "WATCH",
-            "url": "https://fortune.com/2026/09/30/ceos-states-corporate-relocation-threats-paramount-coca-cola/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/09/StateFight-Web-2880x1920_Cr-DougChayka.jpg?w=2048",
-            "source": "fortune"
-        },
-        {
-            "title": "Palo Alto Networks\u2019 Nikesh Arora is building a defense against the dark side of AI",
-            "severity": "WATCH",
-            "url": "https://fortune.com/2026/09/30/nikesh-arora-palo-alto-networks-ceo-ai-cybersecurity-defense/",
-            "image": "https://fortune.com/img-assets/wp-content/uploads/2026/09/PAN-Nikesh_Arora-social-thumbnail.jpg?w=2048",
-            "source": "fortune"
-        },
-        {
-            "title": "A Century of Integration, Loyalty and Service",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/09/30/3371544/0/en/a-century-of-integration-loyalty-and-service.html",
-            "image": "https://images.pexels.com/photos/8828390/pexels-photo-8828390.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire_fr"
-        },
-        {
-            "title": "UK airbase scare takes a twist after police find petrol, no bombs",
-            "severity": "WATCH",
-            "url": "https://www.iol.co.za/news/world/uk-airbase-scare-takes-a-twist-after-police-find-petrol-no-bombs-39a5aaac-65b6-4828-882a-4b8325ae3907",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/f296ff0a3c35f8855304fddbc5839c7e7590cc7b/1280&operation=CROP&offset=152x0&resize=976x549",
-            "source": "iol"
-        },
-        {
-            "title": "Kodiak and IKEA: Launching Driverless Service in 2026 After Four Years of Partnership",
-            "severity": "WATCH",
-            "url": "https://www.electronicsmedia.info/2026/09/30/kodiak-driverless-truck/",
-            "image": "https://images.pexels.com/photos/18959222/pexels-photo-18959222.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "electronicsmedia_info"
-        },
-        {
-            "title": "Machado, Tatis power offense, King dominates as Musgrove returns in Padres\u2019 Game 1 win",
-            "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/machado-tatis-power-offense-king-065528981.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/b21318e704f26cb1dd893861c69523bd774947b663a91acf0d00497878e5114b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_tribune_articles_423%2Feeb0e33c07981d5d83e7f0f45f735789.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "ProPak Shenzhen Set for A Grand Opening on October 13th, 2026 | Uniting Strengths in the Greater Bay Area, Unlocking Smart Innovations",
-            "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/propak-shenzhen-set-for-a-grand-opening-on-october-13th-2026--uniting-strengths-in-the-greater-bay-area-unlocking-smart-innovations-302894004.html",
-            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "prnewswire_apac"
-        },
-        {
-            "title": "Drivers face 60-minute delays on M6 after overrunning roadworks",
-            "severity": "WATCH",
-            "url": "https://metro.co.uk/2026/09/30/drivers-face-60-minute-delays-m6-overrunning-roadworks-29665562/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/09/SEI_314669229-b9a1-e1790751133527.jpg?quality=90&strip=all",
-            "source": "metro"
-        },
-        {
-            "title": "Mumbai property market continues strong run, records best-ever September",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/mumbai-property-market-continues-strong-run-records-best-ever-september/articleshow/134594086.cms",
-            "image": "https://img.etimg.com/thumb/msid-134594127,resizemode-4,width-1200,height-900,imgsize-114200,overlay-economictimes/articleshow.jpg",
+            "title": "Flydubai FZ1073 plane hijack scare: Who are the pilots? Here's what we know",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/international/global-trends/flydubai-fz1073-plane-hijack-scare-who-are-the-pilots-heres-what-we-know/articleshow/134592382.cms",
+            "image": "https://img.etimg.com/thumb/msid-134592804,resizemode-4,width-1200,height-900,imgsize-258242,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Trump Gives AI a Longer Leash Just as the Machines Start Pulling Harder",
+            "title": "Russian President Vladimir Putin's Moves Amid War With Ukraine: 15,000 More Troops, $202.58-Bn Defence Spending For 2027",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/explainers/russian-president-vladimir-putins-moves-amid-war-with-ukraine-15000-more-troops-202-58-bn-defence-spending-for-2027-ws-klr-10360785.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/07/Vladimir-Putin-2026-07-2e410c1732c614757419ed5f5cb3c531-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "OHBA CONGRATULATES 2026 AWARDS OF DISTINCTION WINNERS",
+            "severity": "HIGH",
+            "url": "https://financialpost.com/globe-newswire/ohba-congratulates-2026-awards-of-distinction-winners",
+            "image": "https://images.pexels.com/photos/8441790/pexels-photo-8441790.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "Simple Energy raises Rs 1,750 crore in Series C funding",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/automobile/simple-energy-raises-rs-1-750-crore-in-series-c-funding-article-14042050.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2023/06/Suhas-Rajkumar-Simple-Energy.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "US forces exit Iraq after more than 2 decades of war",
+            "severity": "HIGH",
+            "url": "https://dailyprogress.com/news/nation-world/article_3161441e-1a57-5ef4-a961-5b14a48a1406.html",
+            "image": "https://bloximages.newyork1.vip.townnews.com/dailyprogress.com/content/tncms/assets/v3/editorial/a/cc/acc855a7-baf9-5e97-8575-0567c4991840/6abcefd21033f.image.jpg?resize=300%2C200",
+            "source": "dailyprogress"
+        },
+        {
+            "title": "Iran indicates it received official US response to its latest offer on ending war",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/news/defence/iran-indicates-it-received-official-us-response-to-its-latest-offer-on-ending-war/articleshow/134592493.cms",
+            "image": "https://img.etimg.com/thumb/msid-134592667,resizemode-4,width-1200,height-900,imgsize-61038,overlay-etdefence/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Chinese AI tool told researchers how to make biological weapons and carry out assassinations",
+            "severity": "HIGH",
+            "url": "https://www.dailymail.com/news/article-16171987/Chinese-AI-tool-told-researchers-make-biological-weapons.html",
+            "image": "https://i.dailymail.com/1s/2026/09/30/11/111560793-0-image-m-28_1790765526568.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "'Bigg Boss 16' fame Gori Nagori's Facebook page hacked, accused demands 2 Lakhs",
+            "severity": "HIGH",
+            "url": "https://www.prokerala.com/news/articles/a1818677.html",
+            "image": "https://images.pexels.com/photos/32026165/pexels-photo-32026165.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "prokerala"
+        },
+        {
+            "title": "The US military says its withdrawal of troops from Iraq is complete",
+            "severity": "HIGH",
+            "url": "https://www.dailycamera.com/2026/09/30/us-military-troop-withdrawal-iraq/",
+            "image": "https://www.dailycamera.com/wp-content/uploads/2026/09/Iraq_US_Withdrawal_64265-1.jpg?w=1400px&strip=all",
+            "source": "dailycamera"
+        },
+        {
+            "title": "First-of-its-kind suit seeks to hold OpenAI liable for AI's cyberattack",
+            "severity": "HIGH",
+            "url": "https://qz.com/lasst-sues-openai-hugging-face-ai-hack-093026",
+            "image": "https://qz.com/cdn-cgi/image/width=600,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2197366909.jpg",
+            "source": "quartz"
+        },
+        {
+            "title": "Bitget hacked via zero-day in third-party security products",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2026/09/30/Bitget-headpic.jpg",
+            "source": "bleepingcomputer"
+        },
+        {
+            "title": "Inside America | Prices, Iran and falling approval: GOP faces a midterm test",
+            "severity": "MEDIUM",
+            "url": "https://www.firstpost.com/opinion/inside-america-prices-iran-and-falling-approval-gop-faces-a-midterm-test-14049458.html",
+            "image": "https://images.firstpost.com/uploads/2026/09/Firstpost-1920x1080-2026-09-28T143708.417-2026-09-cfa4fbdb6b72198c7f692822d9b00fd6-1200x675.jpg",
+            "source": "firstpost"
+        },
+        {
+            "title": "Green Circle Decarbonize Technology Limited Submits Tender Proposals for Chiller Replacement Engineering at MOS Centre and Air-Conditioning Retrofit & Operation and Maintenance at Nan Fung Centre in Hong Kong",
+            "severity": "MEDIUM",
+            "url": "https://www.globenewswire.com/news-release/2026/09/30/3371774/0/en/green-circle-decarbonize-technology-limited-submits-tender-proposals-for-chiller-replacement-engineering-at-mos-centre-and-air-conditioning-retrofit-operation-and-maintenance-at-na.html",
+            "image": "https://images.pexels.com/photos/34552789/pexels-photo-34552789.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
+        },
+        {
+            "title": "States Move To Rein In Fuel Prices",
+            "severity": "MEDIUM",
+            "url": "https://seekingalpha.com/article/4950924-states-move-to-rein-in-fuel-prices",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1363536851/image_1363536851.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Centre Approves Rs 1.86 Lakh Crore Green Energy Corridor Phase-III",
             "severity": "WATCH",
-            "url": "https://au.investing.com/analysis/trump-gives-ai-a-longer-leash-just-as-the-machines-start-pulling-harder-200617303",
-            "image": "https://i-invdn-com.investing.com/redesign/images/seo/v2/investingcom_analysis_og.jpg",
-            "source": "investing_au"
+            "url": "https://www.ndtv.com/india-news/centre-approves-rs-1-86-lakh-crore-green-energy-corridor-phase-iii-12120013",
+            "image": "https://c.ndtvimg.com/2026-09/ptaatuic_solar-panel_625x300_21_September_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "NASA's Perseverance Mars rover finds groundwater, lakes, and hot fluids in one place",
+            "severity": "WATCH",
+            "url": "https://www.sciencedaily.com/releases/2026/09/260928100537.htm",
+            "image": "https://www.sciencedaily.com/images/1920/jezero-crater-mars.webp",
+            "source": "sciencedaily"
+        },
+        {
+            "title": "Maruti Suzuki sees CAFE-III as boost as new norms favour weight-based targets",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/companies/maruti-suzuki-sees-cafe-iii-as-boost-as-new-norms-favour-weight-based-targets-14042065.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/07/20260708121625_Maruti-Suzuki-Swift.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Stock markets fall for third day; Nifty down 96 points, Sensex slips to 72,480",
+            "severity": "WATCH",
+            "url": "https://www.deccanherald.com/business/markets/stock-markets-fall-for-third-day-nifty-down-96-points-sensex-slips-to-72480-4165331",
+            "image": "https://media.assettype.com/deccanherald/2026-09-30/jygpgvfn/istockphoto-2260474979-612x612.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
+        },
+        {
+            "title": "Bengaluru LPG blast: 3 cylinders explode one after another near school in illegal storage shed",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/bengaluru/bengaluru-lpg-blast-3-cylinders-explode-one-after-another-near-school-in-illegal-storage-shed/articleshow/134591703.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134592826/134592826.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Horoscope Tomorrow, October 1, 2026: You may need to stay calm before making an important move in your life",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/astrology/horoscope/horoscope-tomorrow-october-1-2026-you-may-need-to-stay-calm-before-making-an-important-move-in-your-life-101790686137456.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/29/1600x900/logo/Horo38_42ag_1790102460322_H7ch_cba8ceae-eefb-47b_1790686306187_78gs_1790686306308_Ii7C_009e2d8e-5599-4f28-a213-19f3560a8447_jwNP.jpeg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Schneider Electric, NFH partner for India's Digital Energy Grid",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/business/schneider-electric-nfh-partner-for-india-s-digital-energy-grid-articleshow-c9h4nm5",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-44b54480-7cac-43eb-b04d-68e331920480.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Flydubai Dubai-Tel Aviv passengers recall horror, post videos: \u2018There was a hijacking, we have subdued the terrorists\u2019",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/world/flydubai-fz1073-passenger-videos-cockpit-stabbing-terror-attack-saudi-arabia-10900743/",
+            "image": "https://images.indianexpress.com/2026/09/Hijack-2.jpg",
+            "source": "indianexpress"
+        },
+        {
+            "title": "The Trade Desk\u2019s 10 Years on Wall Street: Booms, Busts, and the Battle for What\u2019s Next",
+            "severity": "WATCH",
+            "url": "https://www.adweek.com/programmatic/the-trade-desks-10-years-on-wall-street-booms-busts-and-the-battle-for-whats-next/",
+            "image": "https://static-www.adweek.com/wp-content/uploads/2026/09/ttd-10-years.png?w=1600&h=680&crop=1",
+            "source": "adweek"
+        },
+        {
+            "title": "Meesho stock faces consolidation after 100% rally; analyst on the breakout move",
+            "severity": "WATCH",
+            "url": "https://www.businesstoday.in/markets/stocks/story/meesho-stock-faces-consolidation-after-100-rally-analyst-on-the-breakout-move-558853-2026-09-30",
+            "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/video/202609/thumbnail-original_2275.jpg?size=1280:720",
+            "source": "businesstoday"
+        },
+        {
+            "title": "India's economy to grow at 7% in FY27 after 7.8% in FY26: S&P Global",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/business/india-s-economy-to-grow-at-7-in-fy27-after-7-8-in-fy26-s-p-global-articleshow-1uu2fu3",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-3bd72f05-e49a-4384-9b83-bc6c0ba12160.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "US Wants to Break Taiwan Dependence \u2014 But Here's Why Taipei Will Remain 'Central' Character in the AI Chips Story",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/markets/tech/26/09/62074352/us-taiwan-ai-chips-dependence-taipei-central-role-ai-semiconductors",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/09/30/Flag-Of-Usa-On-A-Processor--Cpu-Central-.jpg?crop=600:400,smart&optimize=medium",
+            "source": "benzinga"
+        },
+        {
+            "title": "Atlantic HPC Group Inc Acquires Valley Oasis Development LLC, Adding 29 MW of Contracted Power to Platform",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/news-release/2026/09/30/3371786/0/en/atlantic-hpc-group-inc-acquires-valley-oasis-development-llc-adding-29-mw-of-contracted-power-to-platform.html",
+            "image": "https://images.pexels.com/photos/29031562/pexels-photo-29031562.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire"
+        },
+        {
+            "title": "This is the best RSS reader I've ever used, and it's not even an RSS reader",
+            "severity": "WATCH",
+            "url": "https://www.xda-developers.com/this-is-the-best-rss-reader-ive-ever-used-and-its-not-even-an-rss-reader/",
+            "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/09/particle-feature.png",
+            "source": "xda_developers"
+        },
+        {
+            "title": "Iran mocks Trump using 'Hrithik Roshan' meme: 'Trump realising ...'",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/world/iran-mocks-trump-using-hrithik-roshan-meme-trump-realising-article-14042052.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260930111702_iran-trump-meme.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "Blind Man Challenges British Museum Over Lack of Audio Tours for Bayeux Tapestry",
+            "severity": "WATCH",
+            "url": "https://www.usnews.com/news/world/articles/2026-09-30/blind-man-challenges-british-museum-over-lack-of-audio-tours-for-bayeux-tapestry",
+            "image": "https://www.usnews.com/dims4/USNEWS/e932bd4/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Fa4%2F1c54b21d98c771ef230e4acbbb05eb%2Ftag%3Areuters.com%2C2026%3Anewsml_LYNXMPEM8T0XL%3A22026-09-30T133639Z_2_LYNXMPEM8T0XL_RTROPTP_3_BRITAIN-FRANCE-BAYEUX-TAPESTRY.JPG",
+            "source": "usnews"
+        },
+        {
+            "title": "Regev moves to halt flydubai flights over pilot's suspected Omani background, source tells 'Post'",
+            "severity": "WATCH",
+            "url": "https://www.jpost.com/israel-news/defense-news/article-910192",
+            "image": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/730017",
+            "source": "jpost"
+        },
+        {
+            "title": "See requirements foreign spouses must meet to extend their stay in UK",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/people/1733620-uk-lists-9-requirements-foreign-spouses-meet-extend-stay/",
+            "image": "https://cdn.legit.ng/images/1200x675/23aa8bf118357a5e.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "Securing the digital frontier: Mastercard is helping fortify trust in Africa\u2019s growing digital economy",
+            "severity": "WATCH",
+            "url": "https://www.iol.co.za/news/partnered/securing-the-digital-frontier-mastercard-is-helping-fortify-trust-in-africas-growing-digital-economy-1393b923-44fa-4b89-8509-f7ba6acc5965",
+            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/df79a0c4dfde3ef449ac68a8a7fdd2bd435c0370/660&operation=CROP&offset=4x0&resize=652x367",
+            "source": "iol"
         }
     ],
-    "Last_Updated": "2026-09-30T19:00:30.905094Z"
+    "Last_Updated": "2026-09-30T23:36:07.992219Z"
 }
