@@ -1,267 +1,309 @@
 {
-    "AGRI_Score": 64.7,
-    "Velocity": "-1.1",
+    "AGRI_Score": 66.6,
+    "Velocity": "+1.9",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 64.7 is significantly driven by severe disruptions in Energy & Maritime, alongside elevated Geopolitical Conflict Intensity. The 'world faces diesel crunch' and subsequent price hikes, coupled with 'Russia escalates Ukraine infrastructure attacks' and heightened military readiness in other regions, are the primary forces behind this score. These factors indicate a stressed global environment with tangible economic and security repercussions.",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 66.6/100 reflects a significantly elevated risk landscape, primarily driven by severe disruptions in the Energy & Maritime sector and heightened Geopolitical Conflict Intensity. The 'Energy & Maritime Disruption' pillar is at its maximum due to incidents like the \"projectile hits Kuwait-flagged tanker in Strait of Hormuz,\" directly threatening critical shipping lanes and exacerbated by \"Soaring diesel prices take their toll on US farmers.\" This is compounded by complex geopolitical maneuvers, including \"U.S.-Russia talks on Ukraine involve multi-billion dollar oil deal,\" indicating persistent international instability impacting global energy flows and security.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.9,
+        "Geopolitical Conflict Intensity": 80.8,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 65.9,
+        "Trade & Supply Chain Stress": 65.0,
         "Sovereign Financial Stress": 62.4,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 60.2,
-        "Cyber & Infrastructure Threats": 59.8,
-        "Climate & Resource Shock": 25
+        "Sanctions & Regulatory Fragmentation": 58.2,
+        "Cyber & Infrastructure Threats": 63.8,
+        "Climate & Resource Shock": 35
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Escalating hostilities in Eastern Europe, evidenced by 'Russia escalates Ukraine infrastructure attacks, strikes second Kyiv bridge in days,' are a primary concern. Furthermore, heightened regional tensions are apparent with 'Germany is preparing for war \u2013 with an enemy it expects to hold back' and 'India readies the Chicken's Neck for a war that opens with missiles,' indicating a proactive defense posture in other flashpoints.",
-        "Energy & Maritime Disruption": "Global energy markets are experiencing acute disruption, highlighted by the 'world faces diesel crunch' and reports of 'diesel prices in Birmingham as prices soar to all-time high.' This severe market pressure is further exacerbated by domestic price increases, as 'Nayara Energy Increases Petrol Prices By Rs 5 Per Litre, Diesel Rates Hiked By Rs 3' demonstrates.",
-        "Trade & Supply Chain Stress": "Discussions among G20 ministers about 'curbing impact of govt-backed excess manufacturing capacities' point to underlying structural imbalances in global trade. While no direct supply chain blockages are reported, the ongoing 'diesel crunch' and 'Russia escalates Ukraine infrastructure attacks' suggest potential for indirect disruptions and increased operational costs.",
-        "Sovereign Financial Stress": "Despite global uncertainty, 'India Kept High Growth Amid Global Uncertainty,' suggesting resilience in some emerging markets. A report indicates 'RBI rate hike unlikely to trigger broad-based NBFC asset quality stress,' mitigating immediate concerns about widespread financial distress from monetary policy actions.",
-        "Currency & Liquidity Pressure": "While a specific report suggests 'RBI rate hike unlikely to trigger broad-based NBFC asset quality stress,' indicating some confidence in financial sector liquidity, global energy price hikes pose a latent risk. Increased 'Petrol Prices By Rs 5 Per Litre, Diesel Rates Hiked By Rs 3' could eventually pressure trade balances and currency stability in import-reliant economies.",
-        "Sanctions & Regulatory Fragmentation": "Although no new sanctions were directly announced, the continued 'Russia escalates Ukraine infrastructure attacks' keeps the door open for further international punitive measures. Discussions among 'G20 ministers discuss curbing impact of govt-backed excess manufacturing capacities' hint at potential future trade policy shifts or regulatory adjustments that could fragment global markets.",
-        "Cyber & Infrastructure Threats": "The ongoing 'Russia escalates Ukraine infrastructure attacks' highlights persistent and active threats to critical infrastructure, particularly in conflict zones. Broader technological risks, like monitoring 'When AI agents slip the leash,' point to emerging cyber-physical challenges and control vulnerabilities.",
-        "Climate & Resource Shock": "While generally low, the risk from 'El Nino strengthens, soil moisture stays low' indicates specific agricultural vulnerability for 'India\u2019s winter crops.' This suggests localized resource stress, requiring close monitoring, but not widespread systemic shock currently."
+        "Geopolitical Conflict Intensity": "This pillar exhibits high risk due to ongoing high-stakes negotiations and potential for escalation, as evidenced by \"U.S.-Russia talks on Ukraine involve multi-billion dollar oil deal, NYT reports.\" Further, the release of a \"Dual UK-Iranian national released on bail over suspected plot against US-run military base\" highlights persistent state-sponsored threat activities and international security concerns.",
+        "Energy & Maritime Disruption": "Risk is at its maximum due to active threats to critical shipping and economic impacts from energy costs. The incident where \"Five Indian nationals rescued after projectile hits Kuwait-flagged tanker in Strait of Hormuz\" directly demonstrates maritime insecurity, while \"Soaring diesel prices take their toll on US farmers in midwest corn belt\" illustrates the direct economic burden of energy price volatility.",
+        "Trade & Supply Chain Stress": "This pillar shows moderately high risk, with energy costs directly impacting agricultural supply chains and general global uncertainty persisting. \"Soaring diesel prices take their toll on US farmers in midwest corn belt\" directly links high input costs to potential disruptions in food production and distribution, while \"Global uncertainty now a standing condition, must keep building resilience: FM Nirmala Sitharaman\" underscores a broad acknowledgment of ongoing trade challenges.",
+        "Sovereign Financial Stress": "This pillar reflects moderately elevated risk, with indicators of financial fraud warnings and a general environment of economic uncertainty. The \"NDIC unveils top Ponzi scheme Nigerians must avoid\" highlights domestic financial vulnerabilities that could strain national financial stability, and the call to \"keep building resilience\" by FM Nirmala Sitharaman suggests recognition of underlying fiscal pressures.",
+        "Currency & Liquidity Pressure": "This pillar indicates moderate risk, with no direct currency crises reported but general economic uncertainty influencing market sentiment. Large-scale negotiations such as \"U.S.-Russia talks on Ukraine involve multi-billion dollar oil deal\" can introduce significant financial flows and potential volatility in currency markets. The overarching sentiment of \"Global uncertainty now a standing condition\" suggests an environment where liquidity pressures could arise if conditions deteriorate.",
+        "Sanctions & Regulatory Fragmentation": "This pillar reflects moderate risk, with ongoing international negotiations that could lead to new regulatory frameworks or changes to existing sanctions regimes. \"U.S.-Russia talks on Ukraine involve multi-billion dollar oil deal, NYT reports\" indicates high-level diplomatic efforts that could redefine economic engagements and regulatory landscapes. Domestically, \"Man Utd 'conduct review' over Man City 115 charges\" exemplifies complex regulatory scrutiny and potential financial ramifications within specific sectors.",
+        "Cyber & Infrastructure Threats": "This pillar shows moderately high risk, driven by severe warnings about AI-generated misinformation and direct threats to critical infrastructure. The headline \"How An AI-Generated Intelligence Report Almost Triggered US-China War\" powerfully illustrates the extreme potential for cyber-enabled information warfare to destabilize geopolitical relations. Moreover, the \"suspected plot against US-run military base\" underscores persistent physical and potentially cyber threats to critical national infrastructure.",
+        "Climate & Resource Shock": "This pillar is at a lower risk level, with some innovative mitigation efforts being implemented to address environmental challenges. \"Scientists put \u2018underwater umbrellas\u2019 over Florida corals during extreme heat; they worked\" demonstrates proactive and successful interventions against specific climate impacts. While energy prices affect resources, there are no immediate reports of widespread climate-induced resource shocks like crop failures or water shortages from the provided feed."
     },
     "All_Alerts": [
         {
-            "title": "India stays confident as world faces diesel crunch",
+            "title": "Doctors warn about the risks energy drinks pose to kids",
             "severity": "HIGH",
-            "url": "https://www.prokerala.com/news/articles/a1819864.html",
-            "image": "https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://globalnews.ca/news/12086529/doctors-risks-energy-drinks/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/10/df51dd39c0812d4b595897e5b662800f06d978e657a2fceed75d96baa3efe00e.jpg?quality=65&strip=all",
+            "source": "globalnews"
+        },
+        {
+            "title": "NDIC unveils top Ponzi scheme Nigerians must avoid",
+            "severity": "HIGH",
+            "url": "https://www.legit.ng/business-economy/industry/1734115-ponzi-schemes-ndic-unveils-money-traps-nigerians-avoid/",
+            "image": "https://cdn.legit.ng/images/1200x675/25e2cbc609320fa5.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "PM\u2011SETU identifies 850 ITIs and approves 14 clusters in one year",
+            "severity": "HIGH",
+            "url": "https://www.prokerala.com/news/articles/a1819942.html",
+            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "prokerala"
         },
         {
-            "title": "Russia escalates Ukraine infrastructure attacks, strikes second Kyiv bridge in days",
+            "title": "Dual UK-Iranian national released on bail over suspected plot against US-run military base",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/world/europe/russia-escalates-ukraine-infrastructure-attacks-strikes-second-kyiv-bridge-in-days/articleshow/134655359.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134655562/134655562.jpg",
-            "source": "toi"
+            "url": "https://globalnews.ca/news/12086531/dual-uk-iranian-national-bail-military-base/",
+            "image": "https://globalnews.ca/wp-content/uploads/2026/10/443dec07dca3d0c6e66e622cd556121e1dea60f2ec24f484260cc3da02df5d27_1e8930.jpg?quality=65&strip=all",
+            "source": "globalnews"
         },
         {
-            "title": "Germany is preparing for war \u2013 with an enemy it expects to hold back",
+            "title": "\u2018No alternative\u2019: Dinesh Trivedi explains why India allowed Sheikh Hasina to land in Delhi",
             "severity": "HIGH",
-            "url": "https://www.rt.com/news/646655-fourth-reich-in-making-germany/",
-            "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6abfd75185f5401fbb016aca.jpg",
-            "source": "rt"
-        },
-        {
-            "title": "Kim wins Asian Games gold to secure military exemption",
-            "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/kim-wins-asian-games-gold-085118469.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/fe172d14a2efdf7d881afe414f1bf045b5350a935c0fd6cbb9313c78ab8133ed/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2F2273a46dfdd69df02fa94909b0c1d426.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Asian Games 2026: Golfer Tom Kim wins gold to secure military service exemption - BBC",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HUnd2X1Y5enlVcktmOWFybTh2a184cnN5MW51ZHIydjltRDdSaTFSMTVDbnZHREVCM1ZqUmJtYlVFRVZaYTNwU3NTcW9aNGk0aW96ZFY2THYxLUU1cHZoT3hSRQ?oc=5",
-            "image": "https://images.pexels.com/photos/18959222/pexels-photo-18959222.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "F1 boss Domenicali: Season to end in Abu Dhabi as planned",
-            "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/f1-boss-domenicali-season-end-084826318.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/306aa1993e402d10f7c60f6a57ab0fa987da0db3cfde5a6d63846af09de4c716/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fdpa_international_526%2F2ca25705bca30fb24fcf3ffa29fb2aac.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "RBI rate hike unlikely to trigger broad-based NBFC asset quality stress: Report",
-            "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-rate-hike-unlikely-to-trigger-broad-based-nbfc-asset-quality-stress-report/articleshow/134655593.cms",
-            "image": "https://img.etimg.com/thumb/msid-134655592,resizemode-4,width-1200,height-900,imgsize-184210,overlay-economictimes/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "Weekly Defence Dispatch: India readies the Chicken's Neck for a war that opens with missiles, Pakistan's proxy war goes for hire, and more",
-            "severity": "HIGH",
-            "url": "https://www.firstpost.com/india/weekly-defence-dispatch-india-readies-the-chickens-neck-for-a-war-that-opens-with-missiles-pakistans-proxy-war-goes-for-hire-and-more-14050127.html",
-            "image": "https://images.firstpost.com/uploads/2026/08/2018-03-15T000000Z_4654501_RC1A2E36DCD0_RTRMADP_3_INDIA-KASHMIR-2026-08-079e88c737b3279a20e0e207645b7a35-1200x675.jpg",
+            "url": "https://www.firstpost.com/world/no-alternative-dinesh-trivedi-explains-why-india-allowed-sheikh-hasina-to-land-in-delhi-14050182.html",
+            "image": "https://images.firstpost.com/uploads/2026/08/Dinesh-Trivedi-Reuters-2026-04-9d3058eec25a6662e8c22f1adb37901f-1-2026-08-6ee93687d41b7ea416cc295f3faa691d-1200x675.jpg",
             "source": "firstpost"
         },
         {
-            "title": "Xinhua Headlines: Once upon a time in Iraq: Food, war, and the pursuit of peace",
+            "title": "How An AI-Generated Intelligence Report Almost Triggered US-China War",
             "severity": "HIGH",
-            "url": "http://www.chinanationalnews.com/news/279349242/xinhua-headlines-once-upon-a-time-in-iraq-food-war-and-the-pursuit-of-peace",
-            "image": "https://chitra-api.kreatio.com/api/v1/wps/7bd573d/033a5983-a90a-4c18-87a4-9b73df590c35/0/XxjpbeE000173-20261003-PEPFN0A001-600x315.jpg",
-            "source": "chinanationalnews"
-        },
-        {
-            "title": "Kerala BJP seeks Governor's intervention against Minister over protest against Union Minister",
-            "severity": "HIGH",
-            "url": "https://www.prokerala.com/news/articles/a1819812.html",
-            "image": "https://images.pexels.com/photos/5125104/pexels-photo-5125104.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "prokerala"
-        },
-        {
-            "title": "Intel stock outlook: A failed rebound raises questions for traders and shareholders",
-            "severity": "HIGH",
-            "url": "https://investinglive.com/stocks/intel-stock-outlook-a-failed-rebound-raises-questions-for-traders-and-shareholders/",
-            "image": "https://investinglive.com/cms/media/Processed/Categories/featured/Intel%20chip%20under%20market%20pressure-featured-1791008543.jpg",
-            "source": "forexlive"
-        },
-        {
-            "title": "'India Kept High Growth Amid Global Uncertainty': PM's Principal Secretary",
-            "severity": "MEDIUM",
-            "url": "https://www.ndtv.com/india-news/india-kept-high-growth-amid-global-uncertainty-pms-principal-secretary-pk-mishra-12133373",
-            "image": "https://c.ndtvimg.com/2024-06/j1rgmuag_narendra-modi-ajit-doval-pk-mishra_625x300_13_June_24.jpeg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
+            "url": "https://www.ndtv.com/world-news/how-an-ai-generated-intelligence-report-almost-triggered-us-china-war-12134011",
+            "image": "https://c.ndtvimg.com/2026-10/mt217kis_how-an-aigenerated-intelligence-report-almost-triggered-uschina-war_625x300_03_October_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
             "source": "ndtv"
         },
         {
-            "title": "India\u2019s winter crops face risks as El Nino strengthens, soil moisture stays low",
-            "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/india-news/indias-winter-crops-face-risks-as-el-nino-strengthens-soil-moisture-stays-low-101791016908929.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/10/03/1600x900/logo/With-soil-moisture-and-reservoir-levels-under-pres_1791016902266_bAKc.jpg",
-            "source": "hindustantimes"
+            "title": "Tom Kim Strikes Gold, Secures Military Exemption In Dream Asian Games Finish",
+            "severity": "HIGH",
+            "url": "https://sports.ndtv.com/golf/tom-kim-strikes-gold-secures-military-exemption-in-dream-asian-games-finish-12133585",
+            "image": "https://c.ndtvimg.com/2026-10/5v0e8te_-tom-kim_625x300_03_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
         },
         {
-            "title": "Remains of medieval king Czar Samuel arrive in Bulgaria after decades of talks with Greece",
-            "severity": "MEDIUM",
-            "url": "https://www.thestar.com/news/world/europe/remains-of-medieval-ruler-czar-samuel-will-arrive-in-bulgaria-after-decades-of-talks-with-greece/article_adb56464-92e2-540a-b436-84270e2be6ae.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/custom/image/f84403b8-7d76-11ee-9d02-a72a4951957f.png?resize=600%2C600",
-            "source": "thestar"
+            "title": "Soaring diesel prices take their toll on US farmers in midwest corn belt",
+            "severity": "HIGH",
+            "url": "https://www.theguardian.com/us-news/2026/oct/03/diesel-prices-midwest-farmers",
+            "image": "https://i.guim.co.uk/img/media/f3458c8f45d7533d5f6fd936fa6b92236e7d1cf1/0_0_5001_4000/master/5001.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=3831b2efe2be94af14f1a7f2d6dbd341",
+            "source": "theguardian"
         },
         {
-            "title": "When AI agents slip the leash: How companies monitor and control them",
-            "severity": "MEDIUM",
-            "url": "https://indianexpress.com/article/explained/explained-ai/ai-agents-monitoring-autonomous-risks-10905004/",
-            "image": "https://images.indianexpress.com/2026/10/OpenAI-incident-disclosure-monitoring.jpg",
-            "source": "indianexpress"
+            "title": "U.S.-Russia talks on Ukraine involve multi-billion dollar oil deal, NYT reports",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/world/russia-ukraine-war/article/us-russia-talks-on-ukraine-involve-multi-billion-dollar-oil-deal-nyt-reports/",
+            "image": "https://www.ctvnews.ca/resizer/v2/NKCKMEV5ZNGNHFMXNPCE35E5XY.jpg?auth=c95fdb7e5c88502167f5b593ee9d04c6c75fb0c3d0aa0806a94341e9ed80e0b2&smart=true&width=3342&height=2547",
+            "source": "ctvnews"
         },
         {
-            "title": "G20 ministers discuss curbing impact of govt-backed excess manufacturing capacities: Piyush Goyal",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/economy/policy/g20-ministers-discuss-curbing-impact-of-govt-backed-excess-manufacturing-capacities-piyush-goyal/articleshow/134655474.cms",
-            "image": "https://img.etimg.com/thumb/msid-134655619,resizemode-4,width-1200,height-900,imgsize-93962,overlay-economictimes/articleshow.jpg",
+            "title": "Man Utd 'conduct review' over Man City 115 charges as players could claim millions",
+            "severity": "HIGH",
+            "url": "https://www.express.co.uk/sport/football/2254143/Man-Utd-Man-Cuty-115-charges",
+            "image": "https://cdn.images.express.co.uk/img/dynamic/67/237x141/2254143_1.jpg",
+            "source": "expresscouk"
+        },
+        {
+            "title": "Pilot who saved 170 lives brought honour to India, says Union Minister",
+            "severity": "HIGH",
+            "url": "https://newsable.asianetnews.com/world/pilot-who-saved-170-lives-brought-honour-to-india-says-union-minister-articleshow-a1fcv06",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-3a0d2e5d-d438-4cc5-96d1-a26c5c84cd55.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Photography adventures, chaotic sheepherding and other new indie games worth checking out",
+            "severity": "HIGH",
+            "url": "https://www.engadget.com/2276442/photography-adventures-chaotic-sheepherding-and-other-new-indie-games-worth-checking-out/",
+            "image": "https://www.engadget.com/img/gallery/photography-adventures-chaotic-sheepherding-and-other-new-indie-games-worth-checking-out/l-intro-1790981656.jpg",
+            "source": "engadget"
+        },
+        {
+            "title": "TVK complains to EC over Stalin's remarks against its Dharapuram candidate Sathyabama",
+            "severity": "HIGH",
+            "url": "https://www.prokerala.com/news/articles/a1819926.html",
+            "image": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "source": "prokerala"
+        },
+        {
+            "title": "\u2018One of the best decisions I\u2019ve made\u2019: Chennai founder on how moving to Bengaluru changed his business and life",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/news/new-updates/one-of-the-best-decisions-ive-made-chennai-founder-on-how-moving-to-bengaluru-changed-his-business-and-life/articleshow/134659079.cms",
+            "image": "https://img.etimg.com/thumb/msid-134659555,resizemode-4,width-1200,height-900,imgsize-691514,overlay-economictimes/articleshow.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Nate Bargatze gave me career advice at a conference \u2014 and it matched what 4 CEOs said",
-            "severity": "WATCH",
-            "url": "https://www.businessinsider.com/ceo-advice-building-dream-career-ford-nate-bargatze-accelerate-2026-10",
-            "image": "https://i.insider.com/6abeba14eb7225411267d3c7?format=jpeg",
-            "source": "insider"
+            "title": "Global uncertainty now a standing condition, must keep building resilience: FM Nirmala Sitharaman",
+            "severity": "MEDIUM",
+            "url": "https://www.deccanherald.com/india/global-uncertainty-now-a-standing-condition-must-keep-building-resilience-fm-nirmala-sitharaman-4169302",
+            "image": "https://media.assettype.com/deccanherald/2026-09-01/iyj31ov6/file8771xbdfoysoc0qhtwr.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Nayara Energy Increases Petrol Prices By Rs 5 Per Litre, Diesel Rates Hiked By Rs 3",
-            "severity": "WATCH",
-            "url": "https://ommcomnews.com/business-news/nayara-energy-increases-petrol-prices-by-rs-5-per-litre-diesel-rates-hiked-by-rs-3/",
-            "image": "https://ommcomnews.com/wp-content/uploads/2026/10/New-Project-2026-10-03T141806.735.jpg",
-            "source": "ommcomnews"
+            "title": "Are Scottsdale candidates' claims on water and roads true? We checked",
+            "severity": "MEDIUM",
+            "url": "https://www.azcentral.com/story/news/politics/elections/2026/10/03/scottsdale-council-candidates-claims-water-roads-fact-check/92062038007/",
+            "image": "https://www.gannett-cdn.com/-mm-/544f30293f35587db012fad365af02d47b8f1ee6/c=0-97-1936-1191/local/-/media/Phoenix/None/2014/10/07/635482796904802141-phxdc5-5qed2ex492r13l4bnhtm-original.jpg?auto=webp&format=pjpg&width=1200",
+            "source": "azcentral"
         },
         {
-            "title": "Cheapest diesel prices in Birmingham as prices soar to all-time high",
-            "severity": "WATCH",
-            "url": "https://www.birminghammail.co.uk/news/midlands-news/cheapest-diesel-prices-birmingham-prices-34710828",
-            "image": "https://i2-prod.birminghammail.co.uk/incoming/article34710845.ece/ALTERNATES/s615/2_JS419973467.jpg",
-            "source": "birminghammail"
-        },
-        {
-            "title": "LEPAS Enters Romania: LEPAS L8 PHEV Officially Launches as First Flagship Store Opens",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/10/03/3374091/0/en/lepas-enters-romania-lepas-l8-phev-officially-launches-as-first-flagship-store-opens.html",
-            "image": "https://images.pexels.com/photos/15961091/pexels-photo-15961091.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "India may finalise 114 Rafale fighter jet deal with France by current financial year: IAF chief",
-            "severity": "WATCH",
-            "url": "https://economictimes.indiatimes.com/news/defence/india-may-finalise-114-rafale-fighter-jet-deal-with-france-by-current-financial-year-iaf-chief/articleshow/134655513.cms",
-            "image": "https://img.etimg.com/thumb/msid-134655617,resizemode-4,width-1200,height-900,imgsize-72678,overlay-etdefence/articleshow.jpg",
-            "source": "economictimes_indiatimes"
-        },
-        {
-            "title": "F1 grid: Starting positions for Bahrain Grand Prix in Malaysia",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/f1/f1-grid-malaysia-race-bahrain-gp-2026-russell-antonelli-hamilton-verstappen-b3057764.html",
-            "image": "https://images.pexels.com/photos/36594160/pexels-photo-36594160.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "independentuk"
-        },
-        {
-            "title": "Royally bad advice! As Meghan is mocked over her hosting tips, which royal should you really take inspiration from for your next soir\u00e9e?",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/royals/article-16173005/Royally-bad-advice-Meghan-mocked-hosting-tips-royal-you-really-inspiration-soir-e.html",
-            "image": "https://i.dailymail.com/1s/2026/10/02/10/111609271-0-image-a-34_1790933056323.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "RBI remains cautious on crypto, backs underlying technology: Guv Malhotra",
-            "severity": "WATCH",
-            "url": "https://www.news18.com/agency-feeds/rbi-remains-cautious-on-crypto-backs-underlying-technology-guv-malhotra-10365665.html",
-            "image": "https://images.news18.com/ibnlive/uploads/2025/07/News18_Business_Section_Default_Image_1600x900-2025-07-454f4d093355309283e1b9f3be42698a-3x2.jpg",
-            "source": "news18"
-        },
-        {
-            "title": "The AI Economy Has a Proof Problem",
-            "severity": "WATCH",
-            "url": "https://hackernoon.com/the-ai-economy-has-a-proof-problem",
-            "image": "https://cdn.hackernoon.com/images/xZJmVES0PiNL04PVsYH06HnqCwQ2-9093qgn.png",
-            "source": "hackernoon"
-        },
-        {
-            "title": "Tigray rebels abandon regional capital in Ethiopia",
-            "severity": "WATCH",
-            "url": "https://www.bangkokpost.com/world/3330748/tigray-rebels-abandon-regional-capital-in-ethiopia",
-            "image": "https://static.bangkokpost.com/media/content/20261003/c1_6252378.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "'Saving Private Ryan' Meets '28 Days Later' in J.J. Abrams\u2019 Cult Classic Sci-Fi Thriller Leaving Paramount+",
-            "severity": "WATCH",
-            "url": "https://collider.com/jj-abrams-cult-classic-overlord-leaving-paramount-plus-november-2026/",
-            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2024/06/boyce-finds-the-zombie-lab-in-overlord-2.jpg",
-            "source": "collider"
-        },
-        {
-            "title": "Turkish court detains football refereeing chief pending corruption trial",
-            "severity": "WATCH",
-            "url": "https://www.aljazeera.com/sports/2026/10/3/turkish-court-detains-football-refereeing-chief-pending-corruption-trial",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AP26272560830309-1791014443.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "India beat arch-rivals Pakistan to win Asian Games T20 cricket gold",
-            "severity": "WATCH",
-            "url": "https://www.aljazeera.com/sports/2026/10/3/india-beat-arch-rivals-pakistan-to-win-asian-games-t20-cricket-gold",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261003__D24P6AE__v1__MidRes__CricketAsiad2026-1791012063.jpg?resize=1200%2C630",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Man City whistleblower Pinto to lose witness protection amid death threats",
-            "severity": "WATCH",
-            "url": "https://www.aljazeera.com/sports/2026/10/3/man-city-whistleblower-pinto-to-lose-witness-protection-amid-death-threats",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2020/01/93994baa09f74229b94f2b149b6d94a6_18.jpeg?resize=1200%2C675",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Inside Meghan Markle's England - 'fed up locals, pub fury and return to US on cards'",
-            "severity": "WATCH",
-            "url": "https://www.mirror.co.uk/news/royals/meghan-markle-news-prince-harry-37709055",
-            "image": "https://i2-prod.mirror.co.uk/incoming/article37728232.ece/ALTERNATES/s615/0_MAIN-MEG.jpg",
+            "title": "Man Utd and players could be due millions as 'review' held after Man City charges",
+            "severity": "MEDIUM",
+            "url": "https://www.mirror.co.uk/sport/football/news/man-utd-man-city-charges-37730757",
+            "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37730755.ece/ALTERNATES/s615/0_Manchester-United-v-Brighton-Hove-Albion-Carabao-Cup-Third-Round.jpg",
             "source": "mirroruk"
         },
         {
-            "title": "Can House Democrats stay unified next year? It may be up to one man",
+            "title": "Scientists put \u2018underwater umbrellas\u2019 over Florida corals during extreme heat; they worked, cutting sunlight by 60% and helping corals regain colour",
             "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/news/politics/2026/10/03/hakeem-jeffries-house-unity-democrats-trump/92037648007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/10/02/USAT/92048414007-18020.jpg?crop=2999,1688,x0,y156&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "usatoday"
+            "url": "https://timesofindia.indiatimes.com/science/nature/scientists-put-underwater-umbrellas-over-florida-corals-during-extreme-heat-they-worked-cutting-sunlight-by-60-and-helping-corals-regain-colour/articleshow/134659497.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134659626/134659626.jpg",
+            "source": "toi"
         },
         {
-            "title": "Conor Pope: Fake listings, phantom bookings and unhelpful bots: Booking.com\u2019s credibility problem",
+            "title": "Apple weekend deals: MacBook Pro $500 off, AirTag 2, Prime Day HomeKit discounts, MagSafe chargers, more",
             "severity": "WATCH",
-            "url": "https://www.irishtimes.com/opinion/2026/10/03/conor-pope-fake-listings-phantom-bookings-and-unhelpful-bots-bookingcoms-credibility-problem/",
-            "image": "https://www.irishtimes.com/resizer/v2/MUKRLT64IRH4NLN3WD5HN626XY.jpg?auth=e5ce83cd1d014ccec034686446b3a7b95c7368e9b19bf0d209c916cfddcef198&smart=true&width=630&height=350",
-            "source": "irishtimes"
+            "url": "https://9to5mac.com/2026/10/03/apple-weekend-deals-macbook-discounts/",
+            "image": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/Apple-weekend-deals-October-2026.jpg?quality=82&strip=all",
+            "source": "9to5mac"
         },
         {
-            "title": "England pacer Brydon Carse charged by Cricket Regulator for nightclub incident",
+            "title": "Five Indian nationals rescued after projectile hits Kuwait-flagged tanker in Strait of Hormuz",
             "severity": "WATCH",
-            "url": "https://www.iol.co.za/sport/cricket/england-pacer-brydon-carse-charged-by-cricket-regulator-for-nightclub-incident-98bdee05-f233-4537-bdff-89bd1f12c781",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/284dd9a32130e6949e1dbeec816b9d34d6b14fe2/2404&operation=CROP&offset=0x125&resize=2404x1352",
-            "source": "iol"
+            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/03/five-indian-nationals-rescued-after-projectile-hits-kuwait-flagged-tanker-in-strait-of-hormuz",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/10/03/4143066.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "SWR records highest-ever September freight loading at 4.41 million tonnes",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/news/national/karnataka/swr-records-highest-ever-september-freight-loading-at-441-million-tonnes/article71540620.ece",
+            "image": "https://th-i.thgim.com/public/incoming/g3zh48/article71540647.ece/alternates/FREE_1200/2699_3_10_2026_17_46_7_1_04HUBLISWRFREIGHT.JPG",
+            "source": "thehindu"
+        },
+        {
+            "title": "IIT(ISM) signs tripartite pact for geologic hydrogen research",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/ranchi/iitism-signs-tripartite-pact-for-geologic-hydrogen-research/articleshow/134659585.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134659581/134659581.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Andy Burnham issues update on more cost of living help for every household",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/cost-of-living/andy-burnham-issues-update-more-34698329",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article34698332.ece/ALTERNATES/s615/0_andy-burnham5.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Revealed: The everyday products you didn't know have an expiry date - including mascara, toothpaste, and tea bags",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/sciencetech/article-16166145/everyday-products-expiry-date-toothpaste-tea-bags.html",
+            "image": "https://i.dailymail.com/1s/2026/09/28/16/111520987-0-image-a-38_1790607678087.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "What to remember from Sarah J. Maas' books before the next 'A Court of Thorns and Roses' novel comes out",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/acotar-book-6-details-to-remember-before-reading-2026-10",
+            "image": "https://i.insider.com/6a86136f85cca0a87cd8ac37?format=jpeg",
+            "source": "businessinsider_us"
+        },
+        {
+            "title": "Israeli strikes kill 5, including 4 women, in Gaza, health officials say",
+            "severity": "WATCH",
+            "url": "https://www.cbc.ca/news/world/israel-gaza-city-strikes-women-9.7368133?cmp=rss",
+            "image": "https://i.cbc.ca/ais/357ff131-230a-4780-b736-6cc4b5b11642,1791024533039/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C557%2C5499%2C3093%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "Mahavatar: Tara Sutaria Likely To Play Vicky Kaushal's Leading Lady \u2013 Report",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/entertainment-news/bollywood/mahavatar-tara-sutaria-likely-to-play-vicky-kaushals-leading-lady-report-article-156268807",
+            "image": "https://images.timesnownews.com/thumb/msid-156268816,thumbsize-964072,width-1280,height-720,resizemode-75/156268816.jpg",
+            "source": "timesnownews"
+        },
+        {
+            "title": "12 cities around the world where you can live comparably cheaply, from $400-a-month rents to $1 cappuccinos",
+            "severity": "WATCH",
+            "url": "https://www.businessinsider.com/cheap-global-cities-for-digital-nomad-remote-work-move-live-abroad",
+            "image": "https://i.insider.com/6abe755aeb7225411267d0a9?format=jpeg",
+            "source": "businessinsider_us"
+        },
+        {
+            "title": "Voters favor Democrats on key issues but lack faith in either party to solve problems: AP-NORC poll",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com/news/world/united-states/voters-favor-democrats-on-key-issues-but-lack-faith-in-either-party-to-solve-problems-ap-norc-poll/article_57bdfc6c-0198-565c-a2f7-1c79e2b37106.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/c/4b/c4ba1b54-f695-5432-b761-9ee895ed2788/6abe3050f0c62.image.jpg?resize=300%2C200",
+            "source": "thestar"
+        },
+        {
+            "title": "The 6 Best Movies Released Between 1980 and 2000",
+            "severity": "WATCH",
+            "url": "https://collider.com/best-movies-released-between-1980-and-2000/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/05/amadeus-1984-2.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "Birmingham man in court after police car rammed and \u00a35k drugs recovered",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/birmingham-man-court-after-police-34711599",
+            "image": "https://i2-prod.birminghammail.co.uk/incoming/article25951409.ece/ALTERNATES/s615/4_Pleck-Road.png",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Tripura govt to ensure uninterrupted power supply during Durga Puja: Minister",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/agency-feeds/tripura-govt-to-ensure-uninterrupted-power-supply-during-durga-puja-minister-10366016.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "\u00a35k of drugs found after police car rammed in Walsall",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/5k-drugs-found-after-police-34708787",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article12166791.ece/ALTERNATES/s615/Pleck-RoadJPG.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Cillian Murphy's 80% RT Psychological Thriller Is Officially Streaming Free",
+            "severity": "WATCH",
+            "url": "https://collider.com/cillian-murphy-thriller-red-eye-streaming-free-youtube-october-2026/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2026/05/red-eye-cillian-murphy.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "India's macroeconomic fundamentals strong, vulnerability reduced: PK Mishra",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/business/india-s-macroeconomic-fundamentals-strong-vulnerability-reduced-pk-mishra-articleshow-t4t1u7f",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-bdceac21-8093-46dd-877e-d001bbdfe9e6.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "Benzinga Bulls and Bears: Alphabet, Micron, Nike",
+            "severity": "WATCH",
+            "url": "https://www.benzinga.com/markets/market-summary/26/10/62151294/benzinga-bulls-and-bears-alphabet-micron-nike",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/10/03/Bulls-and-Bears-1.jpg?crop=600:400,smart&optimize=medium",
+            "source": "benzinga"
+        },
+        {
+            "title": "US court halts AI nude-image ban challenged by Musk",
+            "severity": "WATCH",
+            "url": "https://www.rt.com/news/646672-us-court-ai-ban-musk/",
+            "image": "https://mf.b37mrtl.ru/files/2026.10/thumbnail/6ac0e91a85f5407e746d1fb6.jpg",
+            "source": "rt"
+        },
+        {
+            "title": "See how much diesel costs in the UK as Dangote releases Nigerian price",
+            "severity": "WATCH",
+            "url": "https://www.legit.ng/business-economy/energy/1734107-diesel-price-hits-surpasses-n3500-uk-dangote-marketers-release-nigerian-rates/",
+            "image": "https://cdn.legit.ng/images/1200x675/1614c08ed4fd44bd.jpeg?v=1",
+            "source": "legit"
+        },
+        {
+            "title": "RCom case: CBI chargesheets Reliance executives, ex-LIC official",
+            "severity": "WATCH",
+            "url": "https://newsable.asianetnews.com/india/rcom-case-cbi-chargesheets-reliance-executives-ex-lic-official-articleshow-292lane",
+            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-07f755c5-1cf8-460a-874e-414048ca3efb.jpg",
+            "source": "newsable_asianetnews"
+        },
+        {
+            "title": "CBI Files Chargesheet Against Reliance Communications, 3 Former Executives In Rs 3,750 Crore LIC Case",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/business-economy/companies/cbi-files-chargesheet-against-reliance-communications-3-executives-in-rs-3750-crore-lic-case-article-156268490",
+            "image": "https://images.timesnownews.com/thumb/msid-156268531,thumbsize-49306,width-1280,height-720,resizemode-75/156268531.jpg",
+            "source": "timesnownews"
         }
     ],
-    "Last_Updated": "2026-10-03T20:52:25.987006Z"
+    "Last_Updated": "2026-10-04T00:25:53.466707Z"
 }
