@@ -1,300 +1,309 @@
 {
-    "AGRI_Score": 66.1,
-    "Velocity": "-2.9",
+    "AGRI_Score": 68.1,
+    "Velocity": "+2.0",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 68.1/100 reflects a high-risk environment, predominantly driven by extreme levels of Energy & Maritime Disruption and heightened Geopolitical Conflict Intensity. Direct attacks on shipping, such as the \"Tanker Attacked In Strait Of Hormuz With 17 Indians Aboard\" and the \"Crew missing after drone sinks ship in Black Sea off Bulgaria,\" have significantly elevated maritime disruption and energy supply risks. Concurrently, a surge in sophisticated cyber threats, evidenced by \"ASOS confirms data breach\" and \"Hackers Use Chinese AI Agents to Breach South Korean Banks,\" further contributes to the overall elevated risk profile.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 77.2,
+        "Geopolitical Conflict Intensity": 87.5,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 63.5,
+        "Trade & Supply Chain Stress": 62.3,
         "Sovereign Financial Stress": 63.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 59.7,
-        "Cyber & Infrastructure Threats": 65.3,
+        "Sanctions & Regulatory Fragmentation": 62.3,
+        "Cyber & Infrastructure Threats": 65.4,
         "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar remains highly volatile due to direct acts of aggression and lingering regional tensions. The \"Tanker Attacked In Strait Of Hormuz With 17 Indians Aboard\" demonstrates active maritime conflict, while reports like \"Soldiers Wounded in Iran Say Pentagon Made Them Fend for Themselves\" indicate persistent underlying geopolitical friction.",
+        "Energy & Maritime Disruption": "The score of 100 reflects an extremely high level of disruption, directly attributed to kinetic attacks on maritime assets critical for energy transport. News of a \"Tanker Attacked In Strait Of Hormuz\" and \"Crew missing after drone sinks ship in Black Sea off Bulgaria\" signify a critical threat to global shipping and energy supply chains.",
+        "Trade & Supply Chain Stress": "This pillar is elevated due to the direct threats to critical shipping lanes and assets. The incidents involving the \"Tanker Attacked In Strait Of Hormuz\" and the \"Crew missing after drone sinks ship in Black Sea\" pose significant risks to the reliable flow of goods and raw materials globally.",
+        "Sovereign Financial Stress": "While markets like the \"S&P 500, Nasdaq Hit Records\" show some resilience, underlying fiscal pressures exist, particularly in sectors sensitive to global disruptions. The consideration for a \"Govt mulls ATF price stabilisation fund for airlines amid rising fuel costs\" indicates potential government intervention to shield industries from volatility, hinting at a degree of financial strain.",
+        "Currency & Liquidity Pressure": "This pillar is currently experiencing routine monitoring, with no significant direct indicators of currency or liquidity crises in the provided feed. There are no specific headlines detailing major central bank actions, capital flight, or significant exchange rate volatility.",
+        "Sanctions & Regulatory Fragmentation": "This pillar reflects a complex and potentially fragmenting regulatory and political landscape. The \"Trump Approves Firing Squad Execution Of Ex-Army Major Nidal Hasan In Rare Move\" suggests shifts in legal precedent, while the \"Storm In Pakistan Over Mecca Pact\" highlights diplomatic complexities impacting regional regulatory coherence.",
+        "Cyber & Infrastructure Threats": "This pillar is elevated due to confirmed breaches and sophisticated state-backed cyber operations. \"ASOS confirms data breach after \u201cHACKED\u201d in-app notifications\" highlights vulnerabilities in commercial platforms, and \"Hackers Use Chinese AI Agents to Breach South Korean Banks\" points to advanced, systemic threats to financial infrastructure.",
+        "Climate & Resource Shock": "This pillar is currently experiencing baseline activity, with no immediate major climate events or acute resource shortages reported in the real-time news feed. While long-term climate concerns persist, the immediate situation does not present significant shocks to this category."
+    },
     "All_Alerts": [
         {
-            "title": "11 Indians injured after vessel hit by projectile in Strait of Hormuz; MEA condemns attack",
+            "title": "The sheer energy India brings with it",
             "severity": "HIGH",
-            "url": "https://english.mathrubhumi.com/news/india/11-indians-injured-strait-of-hormuz-vessel-attack-mea-fwa4dfie",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1u9i40svugupr9ulc88/0/randhir-jaiswal-jpg.webp?$p=f162f31&f=16:9&w=1200&q=1",
-            "source": "mathrubhumi"
+            "url": "https://economictimes.indiatimes.com/opinion/et-commentary/the-sheer-energy-india-brings-with-it/articleshow/134746614.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-44322,resizemode-75,msid-134746614/opinion/et-commentary/the-sheer-energy-india-brings-with-it.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Union Cabinet passes resolution hailing PM Modi's unique leadership with 'standing ovation'",
+            "title": "Tanker Attacked In Strait Of Hormuz With 17 Indians Aboard; New Delhi Sounds Alarm | WATCH",
             "severity": "HIGH",
-            "url": "https://www.prokerala.com/news/articles/a1821082.html",
-            "image": "https://images.pexels.com/photos/18959222/pexels-photo-18959222.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "prokerala"
-        },
-        {
-            "title": "Premarket Movers: OPCH, CEG Stocks Jump On Buyout Talks, Nuclear Deal \u2013 NKE Slides On \u2018Sell\u2019 Rating",
-            "severity": "HIGH",
-            "url": "https://newsable.asianetnews.com/markets/premarket-movers-opch-ceg-stocks-jump-on-buyout-talks-nuclear-deal-nke-slides-on-sell-rating-articleshow-m3y49e3",
-            "image": "https://static.asianetnews.com/images/w-1280,h-720,format-jpg,imgid-external,imgname-image-febb1e29-0141-465c-9c60-61bc6cec6afd.webp",
-            "source": "newsable_asianetnews"
-        },
-        {
-            "title": "Estonia moves troops to Russian border as fears grow of Putin attack on Nato: report",
-            "severity": "HIGH",
-            "url": "https://www.independent.co.uk/news/world/europe/estonia-russia-nato-attack-b3061605.html",
-            "image": "https://static.independent.co.uk/2026/10/05/15/07/Estonian_Soldiers_patrol_a_forest_during_a_training_2014-1024x682.jpg?width=1200&auto=webp&trim=0%2C1%2C0%2C0",
-            "source": "independentuk"
-        },
-        {
-            "title": "Trump approves firing squad execution for Fort Hood shooter",
-            "severity": "HIGH",
-            "url": "https://www.washingtonpost.com/national-security/2026/10/06/trump-orders-firing-squad-execution-fort-hood-shooter-nidal-hasan/",
-            "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/5G7DC7A27BXLME56O6YL6C7NQI.JPG&w=1600&h=900",
-            "source": "washingtonpost"
-        },
-        {
-            "title": "Affluenza review \u2013 Stranger Things star Noah Schnapp can\u2019t save this baffling disaster",
-            "severity": "HIGH",
-            "url": "https://www.theguardian.com/stage/2026/oct/06/affluenza-review-stranger-things-star-noah-schnapp-riverside-studios-london-andy-sandberg",
-            "image": "https://i.guim.co.uk/img/media/eb573683f1ab470a471bab8ad5d40135b5659c93/1560_680_5817_4653/master/5817.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctcmV2aWV3LTEucG5n&enable=upscale&s=02916d543ea0db960802bc27804d3a07",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "First Atlantic Nickel & Cobalt Raises Total of $13.4 Million with Additional $3.49 Million No-Warrant, Non-Brokered Private Placement at $0.83 per Share, a Premium to Market, to Accelerate Exploration at Pipestone XL Nickel-Cobalt Alloy Project",
-            "severity": "HIGH",
-            "url": "https://financialpost.com/globe-newswire/first-atlantic-nickel-cobalt-raises-total-of-13-4-million-with-additional-3-49-million-no-warrant-non-brokered-private-placement-at-0-83-per-share-a-premium-to-market-to-accelerate-exploration",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/figure-1-4.png",
-            "source": "financialpost"
-        },
-        {
-            "title": "Warhammer 40,000: Dawn of War 4 Space Marines Screenshots",
-            "severity": "HIGH",
-            "url": "https://nordic.ign.com/warhammer-40000-dawn-of-war-iv/113710/warhammer-40000-dawn-of-war-4-space-marines-screenshots",
-            "image": "https://sm.ign.com/ign_nordic/gallery/w/warhammer-/warhammer-40000-dawn-of-war-4-space-marines-screenshots_eygd.jpg",
-            "source": "ign_nordic"
-        },
-        {
-            "title": "Asos customers receive \u2018hack\u2019 notification threatening to leak data - The Guardian",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNF93N0dSNXQtYnBmcXpWeGxnek9TSVpmSS1Qb3FCaXBMYzlxeTVGZ253VS11M0FpYVdYYVdjc2phQm92Zjg0QjBzTXdSTGxHdWdTbEpRVEQ0a1RfSnl3SzdjSXd1bGtVNVpaUXlrQkw2c3ZyQ2VYLWQtSnFFakNoaG94Rk9nWnlMOHlR?oc=5",
-            "image": "https://images.pexels.com/photos/28123697/pexels-photo-28123697.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
-        },
-        {
-            "title": "OpenAI and Anthropic are backing mandatory AI breach disclosure laws in Australia",
-            "severity": "HIGH",
-            "url": "https://qz.com/openai-anthropic-australia-mandatory-ai-breach-disclosure-laws-100626",
-            "image": "https://qz.com/cdn-cgi/image/width=600,quality=85,format=auto/https://assets.qz.com/media/GettyImages-2266383509.jpg",
-            "source": "quartz"
-        },
-        {
-            "title": "Accenture contractor removed from FBI after data leak that exposed personal details of thousands of bureau employees, comes weeks after Google's 'warning'",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/technology/tech-news/accenture-contractor-removed-from-fbi-after-data-leak-that-exposed-personal-details-of-thousands-of-bureau-employees-comes-weeks-after-googles-warning/articleshow/134738458.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134738585/134738585.jpg",
+            "url": "https://timesofindia.indiatimes.com/videos/international/tanker-attacked-in-strait-of-hormuz-with-17-indians-aboard-new-delhi-sounds-alarm-watch/videoshow/134746761.cms",
+            "image": "https://static.toiimg.com/photo/imgsize-1015710,msid-134746761/134746761.jpg",
             "source": "toi"
         },
         {
-            "title": "Ominous Warning Sent To ASOS Users' Phones: What Happens Now",
+            "title": "Govt mulls ATF price stabilisation fund for airlines amid rising fuel costs",
             "severity": "HIGH",
-            "url": "https://www.newsweek.com/ominous-warning-sent-to-asos-users-phones-what-happens-now-12528822",
-            "image": "https://assets.newsweek.com/wp-content/uploads/2026/10/Copy-of-32-image-2026-10-06T120149-820.png?w=1600&h=900&q=88",
-            "source": "newsweek"
+            "url": "https://www.business-standard.com/industry/aviation/govt-mulls-atf-price-stabilisation-fund-for-airlines-amid-rising-fuel-costs-126100600835_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2025-04/04/full/1743760310-4657.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "What is the \u2018Snowflake instance\u2019 and which companies use the data company referenced in the Asos \u2018hack\u2019?",
+            "title": "Soldiers Wounded in Iran Say Pentagon Made Them Fend for Themselves",
             "severity": "HIGH",
-            "url": "https://www.thesun.co.uk/money/40594991/snowflake-instance-what-companies-use-asos-hack/",
-            "image": "https://www.thesun.co.uk/wp-content%2Fuploads%2F2026%2F10%2Fnewspress-collage-kjvz9hrzp-1791282471486.jpg?quality%3D90%26strip%3Dall%261791286096%261791286096",
-            "source": "thesun"
+            "url": "https://newrepublic.com/post/216274/soldiers-wounded-iran-pentagon-fend-for-themselves",
+            "image": "https://images.newrepublic.com/03092bbb5b9fd96a80ff7c54486901558e9f1308.jpeg?w=1600&q=75&dpi=1&fm=pjpg&fit=crop&crop=faces&ar=3:2",
+            "source": "newrepublic"
         },
         {
-            "title": "Obama Delivers New Battleground Gut Punch to Trump",
-            "severity": "MEDIUM",
-            "url": "https://www.thedailybeast.com/barack-obama-delivers-new-battleground-gut-punch-to-trump-with-appearances-in-key-races/",
-            "image": "https://thedailybeast-thedailybeast-prod.web.arc-cdn.net/resizer/v2/5KGUEGGWINHRXNSL56OAKVDQAU.png?auth=2e83b5a15e238043afced2e3b45a56bb7ec7544311fcc5d42f0a64f529cde223&smart=true&width=3000&height=1688",
-            "source": "thedailybeast"
+            "title": "Trump Approves Firing Squad Execution Of Ex-Army Major Nidal Hasan In Rare Move: Why It Matters",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/world/trump-approves-firing-squad-execution-of-ex-army-major-nidal-hasan-in-rare-move-why-it-matters-ws-l-10370274.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/10/1-2026-10-06T224844.836-2026-10-8c9ed1c8e417a2be0a7ebfe208de4dc8-1200x800.png",
+            "source": "news18"
         },
         {
-            "title": "Viral video of Karnataka snake handler allegedly manhandling a 13-ft python sparks safety debate",
-            "severity": "MEDIUM",
-            "url": "https://www.deccanherald.com/india/karnataka/viral-video-of-karnataka-snake-handler-allegedly-manhandling-a-13-ft-python-sparks-safety-debate-4172290",
-            "image": "https://media.assettype.com/deccanherald/2026-10-06/d0x1uils/WhatsApp-Image-2026-10-06-at-16.49.08.jpeg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
-            "source": "deccanherald"
+            "title": "Storm In Pakistan Over Mecca Pact: Ishaq Dar Evades Question On Houthi Military Action | Exclusive Details",
+            "severity": "HIGH",
+            "url": "https://www.news18.com/world/storm-in-pakistan-over-mecca-pact-ishaq-dar-evades-question-on-houthi-military-action-exclusive-details-ws-lrt-10370289.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/05/Ishaq-Dar-2026-05-b9c94535ae1bfda3a361eb6a2099a27f-1200x800.jpg",
+            "source": "news18"
         },
         {
-            "title": "Knight Therapeutics Announces Regulatory Approval of NIKTIMVO\u00ae in Brazil",
-            "severity": "MEDIUM",
-            "url": "https://www.globenewswire.com/news-release/2026/10/06/3375375/0/en/knight-therapeutics-announces-regulatory-approval-of-niktimvo-in-brazil.html",
-            "image": "https://images.pexels.com/photos/36131051/pexels-photo-36131051.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
+            "title": "British police arrest 7th suspect linked to RAF Fairford incident",
+            "severity": "HIGH",
+            "url": "https://www.upi.com/Top_News/World-News/2026/10/06/fairford-base-arrest/2681791305571/",
+            "image": "https://cdnph.upi.com/ph/st/th/2681791305571/2026/upi_com/5470057c0863fbadcd4ce0826135cfc9/v1.5/British-police-arrest-7th-suspect-linked-to-RAF-Fairford-incident.jpg",
+            "source": "upi"
         },
         {
-            "title": "El Ni\u00f1o raises questions over KZN\u2019s water preparedness",
-            "severity": "MEDIUM",
-            "url": "https://www.iol.co.za/news/south-africa/el-nino-raises-questions-over-kzns-water-preparedness-77e7be87-8686-4cf7-9e3b-32297e044783",
-            "image": "https://image-prod.iol.co.za/16x9/800?source=https://iol-prod.appspot.com/image/1c5ab9e21bf8731092f8b0be06bb194a0698b07e/852&operation=CROP&offset=0x11&resize=852x479",
-            "source": "iol"
+            "title": "Rahul Gandhi, Priyanka Gandhi, INDIA bloc leaders released from Delhi Police custody after anti-EC protest",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/india/rahul-gandhi-priyanka-gandhi-india-bloc-leaders-released-from-delhi-police-custody-after-anti-ec-protest-14046098.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/10/20261006171658_Rahul-Gandhi.jpg",
+            "source": "moneycontrol"
         },
         {
-            "title": "Quebec separatist party wins provincial election in test of Canada's unity",
-            "severity": "MEDIUM",
-            "url": "https://www.rfi.fr/en/international/20261006-quebec-separatist-party-wins-provincial-election-in-test-of-canada-s-unity",
-            "image": "https://s.rfi.fr/media/display/1af2fca0-c15a-11f1-aa81-ff8cff4603f0/w:1024/p:16x9/AP26279149469562-1.jpg",
-            "source": "rfi_fr"
-        },
-        {
-            "title": "India opposition leaders briefly arrested in protest against election chief",
-            "severity": "MEDIUM",
-            "url": "https://www.aljazeera.com/news/2026/10/6/india-opposition-leaders-briefly-arrested-in-protest-against-election-chief",
-            "image": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ac4b24595a4-1791275589.jpg?resize=1920%2C1440",
-            "source": "aljazeera_us"
-        },
-        {
-            "title": "Argentina to stop Falklands exploiting offshore oilfields, country\u2019s foreign minister says",
-            "severity": "WATCH",
-            "url": "https://www.theguardian.com/uk-news/2026/oct/06/argentina-to-stop-falkland-islands-exploiting-offshore-oilfields-sovereignty",
-            "image": "https://i.guim.co.uk/img/media/5caa065eae613e1ac0bfea8b7febe5368d206281/350_0_1750_1400/master/1750.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=71fc0983e27f5fe5f207e372b64ac40c",
-            "source": "theguardiantheguardian"
-        },
-        {
-            "title": "Jonathan Kuminga made his (preseason) Timberwolves debut Monday night in Milwaukee and looked like the offensive threat Minnesota needs him to be this season. Mandatory Credit: Benny Sieu-Imagn Images",
-            "severity": "WATCH",
-            "url": "https://www.si.com/nba/timberwolves/onsi/timberwolves-stock-up-stock-down-after-preseason-win-over-bucks-01m47nbvq3jq",
-            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3666,h_2062,x_0,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/all_timberwolves/01m47nhcsdfbd41w241n.jpg",
-            "source": "si"
-        },
-        {
-            "title": "IFF Identifies the Life-Stage Insights Shaping Dairy\u2019s Future",
-            "severity": "WATCH",
-            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/iff-identifies-the-life-stage-insights-shaping-dairys-future",
-            "image": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2026/10/bw20261005026164_iff_dear_dairy_the_life_stages_guide_image_.jpeg",
-            "source": "financialpost"
-        },
-        {
-            "title": "Silicon Quantum Computing Named to Fast Company's 2026 Next Big Things in Tech List",
-            "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/silicon-quantum-computing-named-to-fast-companys-2026-next-big-things-in-tech-list-302899711.html",
-            "image": "https://mmx.prnewswire.com/media/MS2003029/20261005203946EDT_image_1.jpg?id=OA2989669&p=original",
-            "source": "prnewswire_apac"
-        },
-        {
-            "title": "Why Ikeja Electric customers are getting fewer hours of electricity supply",
-            "severity": "WATCH",
-            "url": "https://www.legit.ng/business-economy/energy/1734592-blackout-hits-lagos-communities-ikeja-electric-explains-power-shortage/",
-            "image": "https://cdn.legit.ng/images/1200x675/55f11a1793d9576f.jpeg?v=1",
-            "source": "legit"
-        },
-        {
-            "title": "James Bond\u2019s Q bought this Georgian house in 1957; his former home is listed for \u00a32 million and still has its pool, stables and period features",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/real-estate/news/james-bonds-q-lived-in-this-2-million-georgian-house-for-nearly-30-years-his-former-home-still-has-its-pool-stables-and-original-features/articleshow/134738002.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134738321/134738321.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "UEFA opens investigation into alleged spitting incident at Republic of Ireland vs. Israel",
-            "severity": "WATCH",
-            "url": "https://www.nytimes.com/athletic/7635827/2026/10/06/israel-republic-of-ireland-spitting/",
-            "image": "https://static01.nyt.com/athletic/uploads/wp/2026/10/06071156/GettyImages-2297993754-scaled-e1791285148525.jpg?width=1200&height=675&fit=crop",
-            "source": "theathleticuk"
-        },
-        {
-            "title": "Senate puts fate of Daylight Saving Time bill in jeopardy and more top headlines",
-            "severity": "WATCH",
-            "url": "https://www.foxnews.com/us/senate-action-decide-fate-daylight-savings-bill-more-top-headlines",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/524/capitol-daylight-savings.jpg?ve=1&tl=1",
-            "source": "foxnews"
-        },
-        {
-            "title": "Woman\u2019s Ex-Husband Sent Her A List Of His Marriage \u201cSacrifices,\u201d And It Just Kept Going",
-            "severity": "WATCH",
-            "url": "https://dailydot.com/womans-ex-husband-sent-her-a-list-of-his-marriage-sacrifices-and-it-just-kept-going/",
-            "image": "https://lede-admin.dailydot.com/wp-content/uploads/sites/69/2026/10/A-TikTok-creator-reads-the-list-her-ex-husband-said-he-sacrificed-during-their-relationship.jpg?w=564",
-            "source": "dailydot"
-        },
-        {
-            "title": "Meet Akbar Abdullaev, the undefeated UFC prospect who welcomes welterweight champion Islam Makhachev to Kyrgyzstan",
-            "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/sports/mma/news/meet-akbar-abdullaev-the-undefeated-ufc-prospect-who-welcomes-welterweight-champion-islam-makhachev-to-kyrgyzstan/articleshow/134739054.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134739197/134739197.jpg",
-            "source": "toi"
-        },
-        {
-            "title": "Think NVIDIA's AI Boom Is Priced In? Analyst Says Wall Street Is Underestimating the Next 6 to 8 Quarters",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/markets/tech/26/10/62185668/think-nvidias-ai-boom-is-priced-in-analyst-says-wall-street-is-underestimating-the-next-6-to-8-quarters",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/10/06/Nvidia-Logo-Displayed-On-A-Smartphone-Sc.jpg?crop=600:400,smart&optimize=medium",
+            "title": "S&P 500, Nasdaq Hit Records, Power Stocks Rally on Google's Nuclear Deal: Stock Market Today",
+            "severity": "HIGH",
+            "url": "https://www.benzinga.com/markets/equities/26/10/62199369/sp-500-nasdaq-100-record-highs-treasury-yields-ease-stock-market-today",
+            "image": "https://cdn.benzinga.com/files/images/story/2026/10/06/SP500.jpg?crop=600:400,smart&optimize=medium",
             "source": "benzinga"
         },
         {
-            "title": "Suzano: Substantial Upside If Pulp Prices Normalize",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4952176-suzano-substantial-upside-if-pulp-prices-normalize",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2282709449/image_2282709449.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "title": "David Ellison gets $150 million from Warner Bros deal: Here\u2019s how much he\u2019s worth",
+            "severity": "HIGH",
+            "url": "https://www.moneycontrol.com/news/business/david-ellison-gets-150-million-from-warner-bros-deal-here-s-how-much-he-s-worth-14046093.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2025/12/20251209025135_David-Ellison.jpg",
+            "source": "moneycontrol"
         },
         {
-            "title": "Boats bound for people smugglers that can carry up to 1,700 illegal immigrants across the Channel are seized at UK airport",
-            "severity": "WATCH",
-            "url": "https://www.dailymail.com/news/article-16186679/Boats-people-smugglers-illegal-immigrants-Channel.html",
-            "image": "https://i.dailymail.com/1s/2026/10/06/12/111677155-0-image-a-17_1791285482921.jpg",
-            "source": "dailymailuk"
-        },
-        {
-            "title": "Latin America Existing and Upcoming Data Center Portfolio Database, 2026-2031 | Brazil Leads Capacity as Mexico and Chile Drive Colocation Investment",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/fr/news-release/2026/10/06/3375373/28124/en/latin-america-existing-and-upcoming-data-center-portfolio-database-2026-2031-brazil-leads-capacity-as-mexico-and-chile-drive-colocation-investment.html",
-            "image": "https://images.pexels.com/photos/35102453/pexels-photo-35102453.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "title": "Global Electronic Warfare (EW) Systems Market Size, Share, Trends, and Forecast, 2026-2036 | AI-Enabled, Cognitive, and Space-Based EW Drive 7.9% CAGR to USD 52.8 Billion",
+            "severity": "HIGH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/10/06/3375886/28124/en/global-electronic-warfare-ew-systems-market-size-share-trends-and-forecast-2026-2036-ai-enabled-cognitive-and-space-based-ew-drive-7-9-cagr-to-usd-52-8-billion.html",
+            "image": "https://images.pexels.com/photos/5014710/pexels-photo-5014710.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "globenewswire_fr"
         },
         {
-            "title": "Dubai moves to fast-track perishable food shipments amid port delays",
-            "severity": "WATCH",
-            "url": "https://www.khaleejtimes.com/uae/dubai-moves-to-fast-track-perishable-food-shipments-amid-port-delays",
-            "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-10-06/ew3srcx9/IMG7294.JPG",
-            "source": "khaleejtimes"
+            "title": "Crew missing after drone sinks ship in Black Sea off Bulgaria",
+            "severity": "HIGH",
+            "url": "https://www.abc.net.au/news/2026-10-07/crew-missing-after-drone-sinks-ship-in-black-sea/107235430",
+            "image": "https://live-production.wcms.abc-cdn.net.au/4294e00dea0fe8e84f3d512720e04f26?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=24&width=862&height=485",
+            "source": "abc_net"
         },
         {
-            "title": "Jeffrey Archer: The final twist in the tale",
-            "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/books/jeffrey-archer-the-final-twist-in-the-tale-101791286584796.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/Author-Jeffrey-Archer--15-April-1940-5-October-202_1791286637026_qAIb.jpg",
-            "source": "hindustantimes"
+            "title": "Asos \u2018hacked\u2019: app customers receive alert suggesting data breach - The Times",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQajdwZTRHQVhtSDIwTE1HcTZRTEdGYThLaXdhR0xOYkplS0xDa2ZYaHVZcWVpblp2UjVmMjROMWhkWVIyS1NBNHcyZ1lORUtsR2piclpOWDJaRUZickdBaUxXc1QzMy1lMFBXR3NkSl91YzZPVWhrbEZvMzBrZkxTdlNXOU9nQzhLeG94MTZKWmN4aXBfRXUtWnJCNERpNkRM?oc=5",
+            "image": "https://images.pexels.com/photos/20457113/pexels-photo-20457113.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "google"
         },
         {
-            "title": "Is Mobile Eating the PC? The MacBook Neo, the Googlebook, and the Laptop That Became a Phone",
-            "severity": "WATCH",
-            "url": "https://hackernoon.com/is-mobile-eating-the-pc-the-macbook-neo-the-googlebook-and-the-laptop-that-became-a-phone",
-            "image": "https://cdn.hackernoon.com/images/bI3BzyBanbVxEZqmLV7jRnw6d9o2-pr83blf.jpeg",
-            "source": "hackernoon"
+            "title": "The biggest cybersecurity threats of 2026, according to the World Economic Forum",
+            "severity": "HIGH",
+            "url": "https://qz.com/cybersecurity-threats-2026-world-economic-forum",
+            "image": "https://qz.com/cdn-cgi/image/width=600,quality=85,format=auto/https://assets.qz.com/media/quartz-run-229-hero-0-1993.jpg",
+            "source": "quartz"
         },
         {
-            "title": "Germany\u2019s former spy chief arrested over \u2018spying for a foreign agent\u2019",
-            "severity": "WATCH",
-            "url": "https://metro.co.uk/2026/10/06/germanys-former-spy-chief-arrested-spying-a-foreign-agent-29684325/",
-            "image": "https://metro.co.uk/wp-content/uploads/2026/10/SEI_315506538-54f7.jpg?quality=90&strip=all",
-            "source": "metro"
+            "title": "Report: Hackers Use Chinese AI Agents to Breach South Korean Banks",
+            "severity": "HIGH",
+            "url": "https://www.breitbart.com/tech/2026/10/06/report-hackers-use-chinese-ai-agents-to-breach-south-korean-banks/",
+            "image": "https://media.breitbart.com/media/2026/10/Chinese-AI-hackers-640x335.jpg",
+            "source": "breitbart"
         },
         {
-            "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits",
-            "severity": "WATCH",
-            "url": "https://www.bleepingcomputer.com/news/security/rogue-openai-agents-behind-potentially-malicious-wikipedia-edits/",
-            "image": "https://www.bleepstatic.com/content/hl-images/2026/10/06/Wikipedia.jpg",
+            "title": "ASOS confirms data breach after \u201cHACKED\u201d in-app notifications",
+            "severity": "HIGH",
+            "url": "https://www.bleepingcomputer.com/news/security/asos-confirms-data-breach-after-hacked-in-app-notifications/",
+            "image": "https://www.bleepstatic.com/content/hl-images/2026/10/06/asos-logo.jpg",
             "source": "bleepingcomputer"
         },
         {
-            "title": "Snowflake stock falls after Asos hack notification",
-            "severity": "WATCH",
-            "url": "https://uk.investing.com/news/stock-market-news/snowflake-stock-falls-after-asos-hack-notification-4897028",
-            "image": "https://content-media.investing.com/news/moved_LYNXMPEGB11SN_L.jpg",
-            "source": "investing_uk"
+            "title": "Far-right election win leaves migrants questioning their future in eastern Germany",
+            "severity": "MEDIUM",
+            "url": "https://www.latimes.com/world-nation/story/2026-10-06/far-right-election-win-leaves-migrants-questioning-their-future-in-eastern-germany",
+            "image": "https://ca-times.brightspotcdn.com/dims4/default/5623579/2147483647/strip/false/crop/4488x3192+0+0/resize/1486x1057!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa3%2F5f%2Fa7bbe97c40c7b31dd34da83ae0eb%2F8812d11f08ca4322bfac6a4150153644.jpg",
+            "source": "latimes"
         },
         {
-            "title": "OpenAI delivers a mea culpa to the Australian government in person \u2013 but answers still elude",
+            "title": "Families of Scots soldiers killed by the IRA are 'furious' at John Swinney's talks with Sinn Fein at separatist summit, says Russell Findlay",
+            "severity": "MEDIUM",
+            "url": "https://www.dailymail.com/news/article-16187625/Families-Scots-soldiers-killed-IRA-furious-John-Swinneys-talks-Sinn-Fein-separatist-summit-says-Russell-Findlay.html",
+            "image": "https://i.dailymail.com/1s/2026/10/06/18/111684671-0-image-a-27_1791306045349.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Oil prices stable as market weighs supply risks, rising Middle East exports",
+            "severity": "MEDIUM",
+            "url": "https://au.investing.com/news/commodities-news/oil-prices-stable-as-market-weighs-supply-risks-rising-middle-east-exports-4675717",
+            "image": "https://content-media.investing.com/trkd-images/LYNXMPEM951ML_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Why growing trust in digital payments may be leaving Indians more exposed to cybercrime",
+            "severity": "MEDIUM",
+            "url": "https://www.thehindu.com/news/national/why-growing-trust-in-digital-payments-may-be-leaving-indians-more-exposed-to-cybercrime/article71551481.ece",
+            "image": "https://th-i.thgim.com/public/news/national/ucor6i/article71552985.ece/alternates/FREE_1200/iStock-1280838980.jpg",
+            "source": "thehindu"
+        },
+        {
+            "title": "EU ready to send observers for first Palestinian parliamentary vote in nearly two decades",
+            "severity": "MEDIUM",
+            "url": "https://timesofindia.indiatimes.com/world/middle-east/eu-ready-to-send-observers-for-first-palestinian-parliamentary-vote-in-nearly-two-decades/articleshow/134746547.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134746547/134746547.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Trump swaps India and Brazil, and the world is left to guess whether it is football or BRICS",
+            "severity": "MEDIUM",
+            "url": "https://economictimes.indiatimes.com/opinion/just-in-jest/trump-swaps-india-and-brazil-and-the-world-is-left-to-guess-whether-it-is-football-or-brics/articleshow/134746597.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1109032,resizemode-75,msid-134746597/opinion/just-in-jest/trump-swaps-india-and-brazil-and-the-world-is-left-to-guess-whether-it-is-football-or-brics.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Global Automotive Discrete Semiconductors Market Size and Share - Growth Analysis and Forecast, 2026-2035 | EVs, ADAS, and SiC Devices Create High-Value Growth Opportunities",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/technology/2026/oct/06/openai-delivers-a-mea-culpa-to-the-australian-government-in-person-but-answers-still-elude",
-            "image": "https://i.guim.co.uk/img/media/91eb51240dd2fef8f7247eee102d4565f96a2e66/322_0_6368_5095/master/6368.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=d2ae9bf47ee6ca6d1b39aff806e82f21",
-            "source": "theguardian"
+            "url": "https://www.globenewswire.com/fr/news-release/2026/10/06/3375894/28124/en/global-automotive-discrete-semiconductors-market-size-and-share-growth-analysis-and-forecast-2026-2035-evs-adas-and-sic-devices-create-high-value-growth-opportunities.html",
+            "image": "https://images.pexels.com/photos/16574945/pexels-photo-16574945.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Kim Kardashian and Lewis Hamilton\u2019s Complete Relationship Timeline",
+            "severity": "WATCH",
+            "url": "https://www.harpersbazaar.com/celebrity/latest/a71140976/kim-kardashian-lewis-hamilton-relationship-timeline/",
+            "image": "https://hips.hearstapps.com/hmg-prod/images/ba4c6719-0277-406a-ad3e-f66cd4f3eeed.jpg?crop=1xw:0.75xh;0xw,0.041xh&resize=1200:*",
+            "source": "harpersbazaar"
+        },
+        {
+            "title": "What is the best New Balance sneaker for walking & standing all day?",
+            "severity": "WATCH",
+            "url": "https://www.nj.com/shopping-deals/2026/10/what-is-the-best-new-balance-sneaker-for-walking-standing-all-day.html",
+            "image": "https://www.nj.com/resizer/v2/54SG5UGEA5AI7I4WINDWTTAXUQ.png?auth=6b93cc5463163a222dbc948a706e8b8e91be2922425e0837f229fc67dc9826e4&smart=true&height=1200",
+            "source": "nj"
+        },
+        {
+            "title": "Oklahoma State surges to No. 18 under coach Eric Morris, with QB Drew Mestemaker leading the way",
+            "severity": "WATCH",
+            "url": "https://www.thestar.com/sports/football/oklahoma-state-surges-to-no-18-under-coach-eric-morris-with-qb-drew-mestemaker-leading-the-way/article_95e06548-2bda-5811-838d-e7a20e64a24c.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/5/9b/59b3cdd4-5245-5209-919d-dc8035ed602e/6aa81a16331b5.image.jpg?resize=300%2C200",
+            "source": "thestar"
+        },
+        {
+            "title": "US power use to beat record highs in 2026 and 2027 as AI use surges, EIA says - Tue, 06 Oct 2026 PST",
+            "severity": "WATCH",
+            "url": "http://www.spokesman.com/stories/2026/oct/06/us-power-use-to-beat-record-highs-in-2026-and-2027/",
+            "image": "https://thumb.spokesman.com/Xuv5aVxhDoLE3aJ80gck7TAryN0=/2500x1405/smart/media.spokesman.com/photos/2026/10/06/6ac540079b699.image.jpg",
+            "source": "spokesman"
+        },
+        {
+            "title": "Leaked audio reveals AOC's rising influence in crucial Michigan Senate race as she eyes 2028",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/news/article-16187701/Leaked-audio-AOC-influence-Michigan.html",
+            "image": "https://i.dailymail.com/1s/2026/10/06/17/111684375-0-image-a-2_1791304512662.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Jayson Tatum at The Citadel",
+            "severity": "WATCH",
+            "url": "https://www.si.com/nba/celtics/onsi/the-5-most-interesting-things-said-at-the-final-day-of-celtics-practice-at-the-citadel-01m4935btnd1",
+            "image": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2346,h_1319,x_214,y_0/c_fill,w_2880,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/inside_the_celtics/01m493ae6fxbj340w750.jpg",
+            "source": "si"
+        },
+        {
+            "title": "Carney speaks with incoming Parti Qu\u00e9b\u00e9cois premier about priorities and working together",
+            "severity": "WATCH",
+            "url": "https://www.cbc.ca/news/politics/carney-quebec-election-reaction-9.7371113?cmp=rss",
+            "image": "https://i.cbc.ca/ais/5ff9fd2f-71f0-4aa3-a079-d0aa050e57ff,1791301907918/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C555%2C8036%2C4520%29%3B",
+            "source": "cbc"
+        },
+        {
+            "title": "Global Snorkeling Equipment Market Report 2026-2034: Size, Share, Trends, and Forecast by Type, Distribution Channel, End Use, and Region | Tourism and Innovation Fuel 4.06% CAGR",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/10/06/3375893/28124/en/global-snorkeling-equipment-market-report-2026-2034-size-share-trends-and-forecast-by-type-distribution-channel-end-use-and-region-tourism-and-innovation-fuel-4-06-cagr.html",
+            "image": "https://images.pexels.com/photos/20188726/pexels-photo-20188726.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "Health dept intercepts 3 vehicles in Ludhiana, destroys 175 kg paneer",
+            "severity": "WATCH",
+            "url": "https://www.hindustantimes.com/cities/chandigarh-news/health-dept-intercepts-3-vehicles-in-ludhiana-destroys-175-kg-paneer-101791306860275.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/10/06/1600x900/logo/Suspecting-the-quality-of-the-items--officials-col_1791306857389_dkvj.jpeg",
+            "source": "hindustantimes"
+        },
+        {
+            "title": "Global Floating Wind Turbine Market Size, Share, Trends, and Forecast, 2026-2036 | Revenue to Reach USD 58.4 Billion at 28.3% CAGR as Deep-Water Projects and Offshore Hydrogen Scale",
+            "severity": "WATCH",
+            "url": "https://www.globenewswire.com/fr/news-release/2026/10/06/3375882/28124/en/global-floating-wind-turbine-market-size-share-trends-and-forecast-2026-2036-revenue-to-reach-usd-58-4-billion-at-28-3-cagr-as-deep-water-projects-and-offshore-hydrogen-scale.html",
+            "image": "https://images.pexels.com/photos/34718922/pexels-photo-34718922.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "globenewswire_fr"
+        },
+        {
+            "title": "We'll be shocked If there isn't another Apple price hike before March 2027",
+            "severity": "WATCH",
+            "url": "https://appleinsider.com/articles/26/10/06/well-be-shocked-if-there-isnt-another-apple-price-hike-before-march-2027",
+            "image": "https://photos5.appleinsider.com/gallery/63054-131701-000-lead-Mac-Studiod2png-xl.jpg",
+            "source": "appleinsider"
+        },
+        {
+            "title": "Biden-era FBI\u2019s \u2018Nixonian\u2019 Trump family surveillance draws scrutiny from unlikely corner",
+            "severity": "WATCH",
+            "url": "https://www.foxnews.com/politics/biden-era-fbis-nixonian-trump-family-surveillance-draws-scrutiny-from-unlikely-corner",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/Nixon-Jack-Smith_001.jpg?ve=1&tl=1",
+            "source": "foxnews"
+        },
+        {
+            "title": "Erling Haaland's whereabouts confirmed as private chat emerges after request granted",
+            "severity": "WATCH",
+            "url": "https://www.mirror.co.uk/sport/football/news/erling-haaland-man-city-norway-37742122",
+            "image": "https://i2-prod.mirror.co.uk/sport/football/news/article37742121.ece/ALTERNATES/s615/0_GettyImages-2298022777.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "FKA twigs Drops Lawsuit Against Shia LaBeouf After Actor Voids NDA",
+            "severity": "WATCH",
+            "url": "https://pitchfork.com/news/fka-twigs-files-new-lawsuit-against-shia-labeouf/",
+            "image": "https://media.pitchfork.com/photos/69c450ff126a8f19f9d9af76/master/pass/GettyImages-2150872653.jpg",
+            "source": "pitchfork"
+        },
+        {
+            "title": "NDA appeals to governor to end FIRs, says no bar on bulk Form-7 objections",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/city/bengaluru/nda-appeals-to-governor-to-end-firs-says-no-bar-on-bulk-form-7-objections/articleshow/134746015.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134746014/134746014.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Asos shares tumble after cyber hack: Will incident hit embattled fashion firm's recovery?",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/money/markets/article-16187537/Asos-shares-tumble-cyber-hack-incident-hit-embattled-fashion-firms-recovery.html",
+            "image": "https://i.dailymail.com/1s/2026/10/06/16/111683363-0-image-a-12_1791301340353.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "Wikimedia Detected Activity From OpenAI\u2019s \u2018Rogue\u2019 Agents Across Its Platforms",
+            "severity": "WATCH",
+            "url": "https://gizmodo.com/wikimedia-detected-activity-from-openais-rogue-agents-across-its-platforms-2000822207",
+            "image": "https://gizmodo.com/app/uploads/2023/01/1f363242cb0ffa2b6f27aec21976971b-1024x576.jpg",
+            "source": "gizmodotech"
         }
     ],
-    "Last_Updated": "2026-10-06T23:43:25.844066Z"
+    "Last_Updated": "2026-10-07T05:22:56.565167Z"
 }
