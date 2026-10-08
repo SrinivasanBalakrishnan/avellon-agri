@@ -1,258 +1,260 @@
 {
-    "AGRI_Score": 64.2,
-    "Velocity": "-0.5",
+    "AGRI_Score": 65.0,
+    "Velocity": "+0.8",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Global Risk Index (AGRI) score of 65.0/100 indicates a significantly elevated risk environment, primarily driven by severe Energy & Maritime Disruption and intensified Geopolitical Conflict Intensity. The 'Oil Jumps 2% as Iran Steps Up Attacks on Hormuz Tankers' headline underscores the critical threat to global energy supply routes, pushing the Energy pillar to its maximum score. Concurrently, broader 'Middle East supply concerns persist amid shipping attacks' contribute to the overall heightened geopolitical tension and stress on global trade routes. Furthermore, a surge in high-severity cyber incidents, including 'China-based suspect used AI tools in South Korean bank hacks,' significantly elevates threats to critical infrastructure.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 76.9,
+        "Geopolitical Conflict Intensity": 76.4,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 65.2,
-        "Sovereign Financial Stress": 62.7,
+        "Trade & Supply Chain Stress": 68.6,
+        "Sovereign Financial Stress": 55.0,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 59.7,
-        "Cyber & Infrastructure Threats": 58.4,
-        "Climate & Resource Shock": 25
+        "Sanctions & Regulatory Fragmentation": 58.2,
+        "Cyber & Infrastructure Threats": 60.8,
+        "Climate & Resource Shock": 35
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "Escalation in the Middle East is a primary driver, with 'Iran Steps Up Attacks on Hormuz Tankers,' directly threatening a vital global trade chokepoint. This activity, combined with ongoing 'shipping attacks' and the 'Psychological War' targeting critics abroad, sustains a high level of regional instability and broader international concern.",
+        "Energy & Maritime Disruption": "This pillar is at its maximum due to confirmed attacks on shipping, as evidenced by 'Oil Jumps 2% as Iran Steps Up Attacks on Hormuz Tankers,' creating immediate supply concerns. Such direct targeting of maritime assets in the Strait of Hormuz represents an extreme disruption to global energy transport and significantly raises market uncertainty.",
+        "Trade & Supply Chain Stress": "Trade routes face considerable stress from 'shipping attacks' and the overall 'Middle East supply concerns persist,' directly impacting the smooth flow of goods. The heightened threat to critical maritime passages, particularly around Hormuz, poses a substantial risk to global supply chain reliability and transportation costs.",
+        "Sovereign Financial Stress": "Market volatility is evident, with 'Asian shares decline under pressure from rising bond yields and surging oil prices,' indicating broader economic strain. Central bank actions, like the RBI's 'calibrated tightening stance,' further contribute to market digestion and potential sovereign debt pressures.",
+        "Currency & Liquidity Pressure": "Global markets are reacting to rising geopolitical tensions, as 'Gold steadies after nine-week low as Hormuz tensions lift Fed hike bets,' reflecting shifting investor sentiment and currency demand. The observed 'Asian shares decline under pressure from rising bond yields' also suggests liquidity shifts as capital moves towards perceived safer assets or higher yields.",
+        "Sanctions & Regulatory Fragmentation": "The 'Psychological War' targeting critics abroad, as described by an 'Exiled Russian Activist,' suggests potential for expanded state-sponsored actions which could trigger new or tightened international sanctions regimes. While no new sanctions are explicitly reported, such activities often precede regulatory responses aimed at fragmentation or punitive measures.",
+        "Cyber & Infrastructure Threats": "Significant cyber vulnerabilities are highlighted by a 'Data breach reported at SA private hospital' and 'Meta\u2019s Muse AI agent faced security scare before launch; engineers feared 'massive data breach'. Furthermore, the use of 'AI tools in South Korean bank hacks' by a 'China-based suspect' points to sophisticated and state-aligned threats targeting critical financial infrastructure.",
+        "Climate & Resource Shock": "Current reporting indicates routine monitoring for this pillar, with no high-severity events or immediate shocks detailed in the news feed. There are no direct reports of extreme weather events, resource scarcity, or environmental disasters driving an elevated risk assessment at this time."
+    },
     "All_Alerts": [
         {
-            "title": "Chevron CEO confirms disturbing news about gas prices for all American drivers - The Sun",
+            "title": "CyberDSA Sets 19 - 21 October 2027 Return as Industry Participation Builds at Fourth Edition",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNy1DUklkWDNzbGtwSDNBYzhaRnZtTTFkNVg0V2pwVFZWTXE2V0kwYW5Zdm9SbkJHMjd4dUV6ekUyM0xDMFFtSFUzTGlzSkJRWFRmM055bUVtTlM1MVNXNjY3MGJRcTdKb2FiTTk5NVdDbEdfaDVsQXBGRnNaaEltejBhTQ?oc=5",
-            "image": "https://images.pexels.com/photos/5834243/pexels-photo-5834243.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "url": "https://www.prnewswire.com/apac/news-releases/cyberdsa-sets-19--21-october-2027-return-as-industry-participation-builds-at-fourth-edition-302902022.html",
+            "image": "https://i.ytimg.com/vi/0QVFoszsvDc/hqdefault.jpg",
+            "source": "prnewswire_apac"
+        },
+        {
+            "title": "Court to hear first arguments in ex-Prince Andrew's legal claim over search warrants",
+            "severity": "HIGH",
+            "url": "https://www.mirror.co.uk/news/uk-news/andrew-legal-claim-searches-police-37747620",
+            "image": "https://i2-prod.mirror.co.uk/incoming/article37747626.ece/ALTERNATES/s615/0_embedded279805521.jpg",
+            "source": "mirroruk"
+        },
+        {
+            "title": "Oil rises as Middle East supply concerns persist amid shipping attacks",
+            "severity": "HIGH",
+            "url": "https://au.investing.com/news/commodities-news/oil-rises-as-middle-east-supply-concerns-persist-amid-shipping-attacks-4678422",
+            "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9703E_L.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Oil Jumps 2% as Iran Steps Up Attacks on Hormuz Tankers - Crude Oil Prices Today | OilPrice.com",
+            "severity": "HIGH",
+            "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ2xHNWJZOWpqZktQaXRWOXJlTEtNZDA3QU9DbFMtejFuWlU1bnppTWsweWl0VHVndldkbVlNS21LWkNSSUNpV3lmLUc0eXlPSlNrX2hUR2FzdEdGa0V6VDdYdmQ4TnIyWHRiOGlpejVId2g1Qm9MTzEwV25LVXk0RzhUYjZqWVpkX0RmYXptT2k4T2l0c1BnWXhfT3BNcEpvcGpSS1hweGR6LTJZUWJr0gG0AUFVX3lxTFBobWdONU8wY09Cb0tyamRKOFJEeGRVbGJDZWFjRzJQLWNDbXBPbjNhZ2NwX1FndTlrcWF3bjVkMFZ5dkZCZ1pwVXJxeGxSNnVoSjljRzNRZUxDZU11bHJKUGsxWlF5VzNHNEd5LWkwekdqTlZZV09Nc3RRT21KY3NvTFZ5SGQ1STRZVkhsYVJDOWFvR2k4OWQwX1pweWNuTzVTemJyMVV0X2tFRXY4RmhTR2hrMQ?oc=5",
+            "image": "https://images.pexels.com/photos/5833772/pexels-photo-5833772.jpeg?auto=compress&cs=tinysrgb&h=350",
             "source": "google"
         },
         {
-            "title": "Dozens of soldiers, militants and miners killed in Nigeria attacks",
+            "title": "'Psychological War': Exiled Russian Activist Describes How Kremlin Targets Critics Abroad",
             "severity": "HIGH",
-            "url": "https://www.thehindu.com/news/international/dozens-of-soldiers-militants-and-miners-killed-in-nigeriaattacks/article71557197.ece",
-            "image": "https://www.thehindu.com/theme/images/og-image.png",
-            "source": "thehindu"
+            "url": "https://www.rferl.org/a/video-russia-repression/33872156.html",
+            "image": "https://gdb.rferl.org/9d9f2639-549a-4343-4959-08df13aec0bb_tv_w800_h450.jpg",
+            "source": "rferl"
         },
         {
-            "title": "Supreme Court weighs if military may explode bombs on a tropical beach",
+            "title": "Data breach reported at SA private hospital",
             "severity": "HIGH",
-            "url": "https://www.bostonglobe.com/2026/10/07/nation/supreme-court-weighs-if-military-may-explode-bombs-tropical-beach/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/UN3UBHNUUU27J6SSJMZD4LSNWY.jpg?auth=3ed89d4df56aa12c2600a21e7b2318f07e0ae48b9ee314dd1e01f113910da290&smart=true&width=3600&height=2405",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "Alarming data shows rental tenants have hit breaking point",
-            "severity": "HIGH",
-            "url": "https://www.abc.net.au/news/2026-10-08/tenants-hit-breaking-point-record-rent-costs-according-to-domain/107238110",
-            "image": "https://live-production.wcms.abc-cdn.net.au/56773a8a6988a250b7fbd833654bb41f?impolicy=wcms_crop_resize&cropH=1080&cropW=1920&xPos=0&yPos=0&width=862&height=485",
+            "url": "https://www.abc.net.au/news/2026-10-08/group-of-individuals-impacted-by-st-andrews-hospital-data-breach/107243514",
+            "image": "https://live-production.wcms.abc-cdn.net.au/56c4bb7a15df5f2ce32f2d01087bc3ea?impolicy=wcms_crop_resize&cropH=504&cropW=896&xPos=0&yPos=12&width=862&height=485",
             "source": "abc_net"
         },
         {
-            "title": "Texas death row inmate just hours from receiving same lethal injection Christa Pike did makes eerie prediction about his fate if execution also fails",
+            "title": "Meta\u2019s Muse AI agent faced security scare before launch; engineers feared \u2018massive data breach\u2019",
             "severity": "HIGH",
-            "url": "https://www.dailymail.com/news/article-16190799/Texas-death-row-inmate-just-hours-receiving-lethal-injection-Christa-Pike-did-makes-eerie-prediction-fate-execution-fails.html",
-            "image": "https://i.dailymail.com/1s/2026/10/07/21/111715635-0-image-a-19_1791405102103.jpg",
-            "source": "dailymailuk"
+            "url": "https://english.mathrubhumi.com/technology/meta-muse-ai-agent-security-flaw-kvm-escape-vulnerability-m41f3hap",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1uau5hzq2pvnwd9t7hr/0/meta-muse-jpg.webp?$p=f162f31&f=16:9&w=1200&q=1",
+            "source": "mathrubhumi"
         },
         {
-            "title": "Hegseth visits the long-deployed USS Lincoln to bestow award before ship returns home",
+            "title": "China-based suspect used AI tools in South Korean bank hacks, says CrowdStrike",
             "severity": "HIGH",
-            "url": "https://abcnews.com/US/wireStory/hegseth-visits-long-deployed-uss-lincoln-bestow-top-137076909",
-            "image": "https://s.abcnews.com/images/US/wirestory_08303cc192dc2f853cf85613daaac4d3_4x3_384.jpg",
-            "source": "abcnews"
+            "url": "https://www.thehindu.com/sci-tech/technology/china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-says-crowdstrike/article71558258.ece",
+            "image": "https://th-i.thgim.com/public/incoming/53iskb/article71558265.ece/alternates/FREE_1200/2026-08-27T184831Z_1489865510_RC2KGHAC13EY_RTRMADP_3_USA-AI-SURGE.JPG",
+            "source": "thehindu"
         },
         {
-            "title": "War escalation: Tanker hit by multiple projectiles 51 nautical miles off Qatar, casualties reported",
+            "title": "Trading Plan: Can Nifty 50 defend 22,500, Bank Nifty hold above 55,000 amid consolidation?",
             "severity": "HIGH",
-            "url": "https://investinglive.com/commodities/war-escalation-tanker-hit-by-multiple-projectiles-51-nautical-miles-off-qatar-casualties-reported/",
-            "image": "https://investinglive.com/cms/media/Processed/Categories/featured/iran%20attack%20escalation%2008%20October%202026-featured-1791405178.jpg",
-            "source": "forexlive"
-        },
-        {
-            "title": "Syria weighs sending troops to Yemen to back Saudi Arabia against Iran-backed Houthis",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/syria-weighs-sending-troops-to-yemen-to-back-saudi-arabia-against-iran-backed-houthis-article-14047119.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/10/20261007202906_Syria-Saudi-Arabia.jpg",
+            "url": "https://www.moneycontrol.com/news/business/markets/trading-plan-can-nifty-50-defend-22-500-bank-nifty-hold-above-55-000-amid-consolidation-14047144.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/10/20261006150052_mkt2.jpg",
             "source": "moneycontrol"
         },
         {
-            "title": "Gianluigi Donnarumma's agent speaks out on Man City's financial breach verdict",
-            "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/gianluigi-donnarummas-agent-speaks-man-201644029.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/b5faddd6e8d67e91cef2294383984604e24e923e31ec54638fb149b0b6002f59/lightyear_networkapi/resizefill_w810_h540%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fall_out_soccer_276%2Feec24cc6dc6fec1b466d227509ad818b.jpg",
-            "source": "yahoo"
+            "title": "Gold steadies after nine-week low as Hormuz tensions lift Fed hike bets",
+            "severity": "MEDIUM",
+            "url": "https://uk.investing.com/news/stock-market-news/gold-holds-near-nineweek-low-as-hormuz-tensions-raise-fed-hike-bets-4900235",
+            "image": "https://content-media.investing.com/news/LYNXNPEC140H9_M.jpg",
+            "source": "investing_uk"
         },
         {
-            "title": "Pep Guardiola to make Manchester City return amid financial rules breach fallout",
-            "severity": "HIGH",
-            "url": "https://sports.yahoo.com/articles/pep-guardiola-manchester-city-return-195202226.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/7b04fb976273f63e9d337cf362733ad64530505b0d856ee2084ed206f7e23061/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_independent_us_sports_articles_270%2F87e8456fa35020f90e3c84e682fa1b1b.jpg",
-            "source": "yahoo"
+            "title": "Low uptake limits benefits of maternal RSV vaccination",
+            "severity": "MEDIUM",
+            "url": "https://www.news-medical.net/news/20261008/Low-uptake-limits-benefits-of-maternal-RSV-vaccination.aspx",
+            "image": "https://www.news-medical.net/image-handler/picture/2017/1/A_doctor_makes_a_vaccination_to_a_child-Yuganov_Konstantin_cdbf1b05417f45e89b8268af4858e1c9-620x480.jpg",
+            "source": "news-medical"
         },
         {
-            "title": "Dublin after-school provider claims ex-franchisee is running similar business in breach of agreement",
-            "severity": "HIGH",
-            "url": "https://www.irishtimes.com/crime-law/courts/2026/10/07/dublin-after-school-provider-claims-ex-franchisee-is-running-similar-business-in-breach-of-agreement/",
-            "image": "https://www.irishtimes.com/resizer/v2/26WXLHKMSNHXFMYZKHLYNS4HC4.jpg?auth=688cbdef7e31701ae5577afb3c2928de2814838e4cdf56b6d01541c5a7184f48&smart=true&width=630&height=350",
+            "title": "Bank of England confirms change to \u00a35, \u00a310, \u00a320, \u00a350 banknotes",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/bank-england-confirms-change-5-34732979",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article34732985.ece/ALTERNATES/s615/0_money.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Mark Zuckerberg's nonprofit Biohub aims to prevent and cure diseases through virtual cells; gets millions from Google and US government; AI datasets may allow researchers to 'ask, predict, and answer biological questions digitally'",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/mark-zuckerbergs-nonprofit-biohub-aims-to-prevent-and-cure-diseases-through-virtual-cells-gets-millions-from-google-and-us-government-ai-datasets-may-allow-researchers-to-ask-predict-and-answer-biological-questions-digitally/articleshow/134780810.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134780837/134780837.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Asian shares decline under pressure from rising bond yields and surging oil prices",
+            "severity": "WATCH",
+            "url": "https://www.kgw.com/article/syndication/associatedpress/asian-shares-decline-under-pressure-from-rising-bond-yields-and-surging-oil-prices/616-708b4991-a268-4ec6-9c94-f3be9b8afa24",
+            "image": "https://media.tegna-media.com/assets/AssociatedPress/images/a28ccfc5-a068-42e1-a854-8b6ed11be038/20261008T052023/a28ccfc5-a068-42e1-a854-8b6ed11be038_750x422.jpg",
+            "source": "kgw"
+        },
+        {
+            "title": "Andy Burnham government announces \u00a340 boost for every household with a car",
+            "severity": "WATCH",
+            "url": "https://www.birminghammail.co.uk/news/midlands-news/andy-burnham-government-announces-40-34732976",
+            "image": "https://i2-prod.birminghammail.co.uk/news/midlands-news/article34732984.ece/ALTERNATES/s615/0_driveway.jpg",
+            "source": "birminghammail"
+        },
+        {
+            "title": "Sensex falls 400 pts, Nifty below 22,500 as D-Street digests RBI\u2019s calibrated tightening stance. What can bring bulls back?",
+            "severity": "WATCH",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-falls-400-pts-nifty-below-22500-as-d-street-digests-rbis-calibrated-tightening-stance-what-can-bring-bulls-back/articleshow/134780754.cms",
+            "image": "https://img.etimg.com/thumb/msid-134780823,resizemode-4,width-1200,height-900,imgsize-2660803,overlay-etmarkets/articleshow.jpg",
+            "source": "economictimes_indiatimes"
+        },
+        {
+            "title": "Home sellers are slashing prices across the country as soaring mortgage rates and higher inventories give buyers room to negotiate",
+            "severity": "WATCH",
+            "url": "https://www.dailymail.com/real-estate/article-16187251/home-sellers-slash-prices-housing-market-cities.html",
+            "image": "https://i.dailymail.com/1s/2026/10/07/22/111716343-0-image-a-89_1791407746011.jpg",
+            "source": "dailymailuk"
+        },
+        {
+            "title": "IAF has grown into exceptional, network-centric force: Air Chief Marshal Singh",
+            "severity": "WATCH",
+            "url": "https://www.news18.com/agency-feeds/iaf-has-grown-into-exceptional-network-centric-force-air-chief-marshal-singh-10372293.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2025/05/News18_India_Section_Default_Image_1600x900-2025-05-b4faf46d67a95708181b01e36cf20c4b-3x2.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "France students at forefront of global stirring of disaffected youth",
+            "severity": "WATCH",
+            "url": "https://www.irishtimes.com/world/2026/10/08/france-students-at-forefront-of-global-stirring-of-disaffected-youth/",
+            "image": "https://www.irishtimes.com/resizer/v2/NYODKHFKMIBJFHFW6JRVKQXXHA.jpg?auth=ed676d669d37aba2ed7230928948969428fec89791504e54e8b5d91798e66f4c&smart=true&width=630&height=350",
             "source": "irishtimes"
         },
         {
-            "title": "Kansas State Football: Preview -K-State\u2019s Defense vs Houston\u2019s Run Game.",
-            "severity": "MEDIUM",
-            "url": "https://sports.yahoo.com/articles/kansas-state-football-preview-k-203918319.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/9259e4181546cbed5b7f3c7e81a6b297738a067763e50c09ef80ef8e8a4d9b73/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fcafe2443268e4d879eeadbeef3ad272c.jpg",
-            "source": "yahoo"
-        },
-        {
-            "title": "Conservative motion seeking more diesel relief defeated in House of Commons",
-            "severity": "MEDIUM",
-            "url": "https://www.ctvnews.ca/politics/article/conservative-motion-seeking-more-diesel-relief-defeated-in-house-of-commons/",
-            "image": "https://www.ctvnews.ca/resizer/v2/5IOP2WADGQGC7QAXFSU4KOOY44.jpg?auth=c0ad697a5c5039f857d94d28fe263a3e52217f2cc59692c24f4c981d3037b90d&smart=true&width=1400&height=970",
-            "source": "ctvnews"
-        },
-        {
-            "title": "CoreWeave\u2019s $2.6 Billion AI Loan Has a Hidden Risk: Uptime Failures Could Force Early Debt Paydowns",
-            "severity": "MEDIUM",
-            "url": "https://www.benzinga.com/markets/prediction-markets/26/10/62231783/coreweave-ai-loan-uptime-risk",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/10/07/CoreWeave.jpg?crop=600:400,smart&optimize=medium",
-            "source": "benzinga"
-        },
-        {
-            "title": "Michael Stuhlbarg had no idea what 'Digger' was about when he filmed the movie",
+            "title": "Anti-Israel protesters label Mamdani a 'traitor,' accuse him of 'genocide' outside Oct 7 vigil",
             "severity": "WATCH",
-            "url": "https://www.businessinsider.com/michael-stuhlbarg-digger-twists-tom-cruise-2026-10",
-            "image": "https://i.insider.com/6ac6ac72301bb0551f493768?format=jpeg",
-            "source": "businessinsider_us"
-        },
-        {
-            "title": "What is red-dyed diesel, and will Trump's plans to lower prices work?",
-            "severity": "WATCH",
-            "url": "https://www.usatoday.com/story/cars/research/2026/10/07/trump-red-dyed-diesel-lower-prices-explained/92139110007/",
-            "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2026/10/01/USAT/92043427007-20260929-t-014422-z-675507001-rc-2-dsnagnuvt-rtrmadp-3-usatrumpdiesel.JPG?crop=3352,1885,x0,y0&width=1600&height=800&format=pjpg&auto=webp",
-            "source": "usatoday"
-        },
-        {
-            "title": "Study links rural renewable projects to economic gains",
-            "severity": "WATCH",
-            "url": "https://www.tmj4.com/us-news/study-links-rural-renewable-projects-to-economic-gains",
-            "image": "https://ewscripps.brightspotcdn.com/dims4/default/80dafa2/2147483647/strip/true/crop/1024x538+0+73/resize/1200x630!/quality/90/?url=https%3A%2F%2Fewscripps.brightspotcdn.com%2F41%2Fa9%2Fa70859e84c51b73edcf8e3c9b73b%2Fap24297761322936.jpg",
-            "source": "tmj4"
-        },
-        {
-            "title": "Missing Christchurch man Braydon Hepworth 'no longer alive', police say",
-            "severity": "WATCH",
-            "url": "https://www.rnz.co.nz/news/crime-and-justice/1789259/missing-christchurch-man-braydon-hepworth-no-longer-alive-police-say",
-            "image": "https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "rnz_co_nz"
-        },
-        {
-            "title": "NextNRG Amends Series C Preferred Stock; Expects Approximately $9.0 Million to Be Reclassified to Stockholders' Equity",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/10/07/3376864/0/en/nextnrg-amends-series-c-preferred-stock-expects-approximately-9-0-million-to-be-reclassified-to-stockholders-equity.html",
-            "image": "https://images.pexels.com/photos/39212619/pexels-photo-39212619.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "Michael Douglas asks The View's Ana Navarro 'how can you be a Republican?'",
-            "severity": "WATCH",
-            "url": "https://www.the-express.com/entertainment/tv/217533/michael-douglas-ana-navarro-republican",
-            "image": "https://cdn-images.the-express.com/img/dynamic/22/237x141/217533_1.jpg",
-            "source": "express"
-        },
-        {
-            "title": "Trump signs Billion Dollar Boondoggle Act, targeting costly federal projects",
-            "severity": "WATCH",
-            "url": "https://www.washingtonexaminer.com/news/white-house/4757810/trump-sign-billion-dollar-boondoggle-act/",
-            "image": "https://www.washingtonexaminer.com/wp-content/uploads/2025/01/Ernst.webp",
-            "source": "washingtonexaminer"
-        },
-        {
-            "title": "Africa joins the data center backlash",
-            "severity": "WATCH",
-            "url": "https://www.france24.com/en/africa-joins-the-data-center-backlash",
-            "image": "https://s.france24.com/media/display/179bb660-c28f-11f1-98b3-4b195755b8ed/w:1024/p:16x9/capture-15022793656ac6add5610765-35279800.jpg",
-            "source": "france24"
-        },
-        {
-            "title": "Trump pitches Trump International Golf Course for site of \"presidential retreat\"",
-            "severity": "WATCH",
-            "url": "https://www.cbsnews.com/news/trump-administration-considering-presidential-retreat-his-florida-golf-course/",
-            "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/07/df682ef9-2f41-475d-83dc-2dde1efff969/thumbnail/1200x630/1a0bb4807a4b47af5c046ad883b82aa8/gettyimages-2252571156.jpg",
-            "source": "cbsnews"
-        },
-        {
-            "title": "Venezuela\u2019s Maduro to face new U.S. charges over alleged torture of Americans, says official",
-            "severity": "WATCH",
-            "url": "https://www.ctvnews.ca/world/article/venezuelas-maduro-to-face-new-us-charges-over-alleged-torture-of-americans-says-official/",
-            "image": "https://www.ctvnews.ca/resizer/v2/TCMEMNH3RVFYVJPCQCY3LS4GJA.jpg?auth=030adb9fbdc5b5588b6c7ca5edb1a40188389bf52742cde72b14dbee39d66984&smart=true&width=3000&height=2250",
-            "source": "ctvnews"
-        },
-        {
-            "title": "Lululemon poaches Athleta CEO as new chief product officer",
-            "severity": "WATCH",
-            "url": "https://www.cnbc.com/2026/10/07/lululemon-athleta-ceo-maggie-gauger-chief-product-officer.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108335663-1784152010295-gettyimages-2285645602-RETAIL_SALES.jpeg?v=1791300296&w=1200&h=675",
-            "source": "cnbc"
-        },
-        {
-            "title": "New Lululemon boss overhauls leadership team to reinvigorate brand",
-            "severity": "WATCH",
-            "url": "https://www.thestar.com/business/new-lululemon-boss-overhauls-leadership-team-to-reinvigorate-brand/article_63307ecc-f989-5693-834b-c6da9d4f0fad.html",
-            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/9/c3/9c333e84-70b1-54e8-9536-d49c01b6799a/696fd5631d74c.image.jpg?resize=300%2C200",
-            "source": "thestar"
-        },
-        {
-            "title": "Final October Amazon Prime Day 2026 deals are way better than I expected: Apple, Ninja, Samsung, Breville",
-            "severity": "WATCH",
-            "url": "https://www.businessinsider.com/guides/deals/prime-day-deals-2026-10-7",
-            "image": "https://i.insider.com/6ab42b63eb72254112679cc1?format=jpeg",
-            "source": "insider"
-        },
-        {
-            "title": "Zillow Home Loans",
-            "severity": "WATCH",
-            "url": "https://money.usnews.com/loans/mortgages/reviews/zillowhomeloans-mortgage",
-            "image": "https://www.usnews.com/dims4/USNEWS/cd4cd9c/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F58%2F0c%2F02a0c5ab44998cbf89be2a853caa%2Fzillow-wordmark-blue-rgb-lrg.png",
-            "source": "usnews"
-        },
-        {
-            "title": "A rocky 'wonderland' in Arizona is poised to be the next US national park",
-            "severity": "WATCH",
-            "url": "https://www.newsday.com/news/nation/chiricahua-national-park-arizona-rock-spires-congress-g44245",
-            "image": "https://images.pexels.com/photos/695730/pexels-photo-695730.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "newsday"
-        },
-        {
-            "title": "Jewish student sues New York school on Oct 7 anniversary over 'relentless antisemitic harassment'",
-            "severity": "WATCH",
-            "url": "https://www.foxnews.com/media/jewish-student-sues-new-york-school-oct-7-anniversary-relentless-antisemitic-harassment",
-            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2025/04/931/523/parsons-lawsuit-3.jpg?ve=1&tl=1",
+            "url": "https://www.foxnews.com/politics/anti-israel-protesters-label-mamdani-traitor-accuse-genocide-outside-oct-7-vigil",
+            "image": "https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2026/10/931/523/mamdani-israel-candlelight-vigil-protest.png?ve=1&tl=1",
             "source": "foxnews"
         },
         {
-            "title": "Eckert\u2019s Spygate ban may be lenient, but no sane manager will try the same trick again",
+            "title": "Vietnamese gang accused of stealing 2,700 cats for slaughter",
             "severity": "WATCH",
-            "url": "https://www.theguardian.com/football/2026/oct/07/southampton-spygate-tonda-eckert-suspended-ban",
-            "image": "https://i.guim.co.uk/img/media/ff3ed7813cdd11b4fd6b3c2e4f211886b4d0b84f/270_0_3898_3119/master/3898.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2c464705109468e2e2f2a80dfa8a3f22",
-            "source": "theguardian"
+            "url": "https://www.bangkokpost.com/world/3333544/vietnamese-gang-accused-of-stealing-2700-cats-for-slaughter",
+            "image": "https://static.bangkokpost.com/media/content/20261008/c1_3333544.jpg",
+            "source": "bangkokpost"
         },
         {
-            "title": "Cedar Grove Capital Q3 2026 Portfolio Update",
+            "title": "Competition for the Raspberry Pi CM: Banana Pi BPI-CM7 unveiled",
             "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4952597-cedar-grove-capital-q3-2026-portfolio-update",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2231926077/image_2231926077.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
+            "url": "https://www.notebookcheck.net/Competition-for-the-Raspberry-Pi-CM-Banana-Pi-BPI-CM7-unveiled.1418882.0.html",
+            "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/Banana-Pi-BPI-CM7-.jpg",
+            "source": "notebookcheck"
         },
         {
-            "title": "The Best VPNs for Canada in 2026",
+            "title": "Modi at 25: Destiny\u2019s man shaping India\u2019s rise and securing unmatched foreign policy legacy",
             "severity": "WATCH",
-            "url": "https://www.pcmag.com/picks/best-vpns-for-canada",
-            "image": "https://i.pcmag.com/imagery/roundups/00UsCbwCSEigRIoUDPsUzDL-3..v1729539121.png",
-            "source": "pcmag"
+            "url": "https://www.firstpost.com/opinion/modi-at-25-destinys-man-shaping-indias-rise-and-securing-unmatched-foreign-policy-legacy-14051325.html",
+            "image": "https://images.firstpost.com/uploads/2026/09/pm-brics1-2026-09-6f39efd8cf2155c45615ef64631ceb91.jpg",
+            "source": "firstpost"
         },
         {
-            "title": "EXCLUSIVE: 560 Pounds of Cocaine Headed to Puerto Coast Seized by Border Patrol, Local Police",
+            "title": "Another October heartbreak: Padres\u2019 championship dreams die as Brewers set up Dodgers showdown",
             "severity": "WATCH",
-            "url": "https://www.breitbart.com/border/2026/10/07/exclusive-560-pounds-of-cocaine-headed-to-puerto-coast-seized-by-border-patrol-local-police/",
-            "image": "https://media.breitbart.com/media/2026/10/MixCollage-07-Oct-2026-02-12-PM-8698-640x335.jpg",
-            "source": "breitbart"
+            "url": "https://nypost.com/2026/10/08/sports/padres-world-series-dreams-crushed-by-brewers-in-heartbreaking-nlds-elimination/",
+            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F10%2Fsan-diego-padres-fernando-tatis-144186123.jpg?w%3D1024",
+            "source": "nypost"
+        },
+        {
+            "title": "Bigg Boss 20: Kanika Mann, Arishfa Khan and others compete for captaincy; Gullu brings up Uditi Singh's ex during heated argument",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/entertainment/tv/bigg-boss-20-kanika-mann-arishfa-khan-and-others-compete-for-captaincy-gullu-brings-up-uditi-singh-s-ex-during-heated-argument-article-14047339.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/10/20261008050703_Bigg-Boss-latest-episode.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "The Power of Connection: United\u2019s Ongoing Community Commitment",
+            "severity": "WATCH",
+            "url": "https://williamsonsource.com/the-power-of-connection-uniteds-ongoing-community-commitment/",
+            "image": "https://williamsonsource.com/wp-content/uploads/2026/10/United-Communications-Williamson-County-Fire-Department-800-x-600.jpg",
+            "source": "williamsonsource"
+        },
+        {
+            "title": "Nana Patekar wanted to act in Malayalam cinema: \u2018Not even a single director...\u2019",
+            "severity": "WATCH",
+            "url": "https://english.mathrubhumi.com/news/kerala/nana-patekar-wanted-to-act-in-malayalam-cinema-not-even-a-single-director-v36gl4rx",
+            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1uausp80z8f7917a8js/1/nana-patekar.webp?$p=f162f31&f=16:9&w=1200&q=1",
+            "source": "mathrubhumi"
+        },
+        {
+            "title": "No Safe Haven: How Iran And Russia Target Exile Enemies",
+            "severity": "WATCH",
+            "url": "http://www.chinanationalnews.com/news/279359016/no-safe-haven-how-iran-and-russia-target-exile-enemies",
+            "image": "https://chitra-api.kreatio.com/api/v1/wps/dd44b34/95474ad2-659f-430b-a245-57871de797bd/0/Yzk1MTQ0YzktY2I-600x315.jpg",
+            "source": "chinanationalnews"
+        },
+        {
+            "title": "European soccer leaders meet aiming to shape strategy for ousting Infantino as FIFA president",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/sport/football/european-soccer-leaders-meet-aiming-to-shape-strategy-for-ousting-infantino-as-fifa-president/article71558374.ece",
+            "image": "https://th-i.thgim.com/public/incoming/synufm/article71558381.ece/alternates/FREE_1200/2026-09-27T193204Z_195916107_UP1EM9R1I9EP7_RTRMADP_3_SOCCER-WORLDCUPU20-ESP-PRK.JPG",
+            "source": "thehindu"
+        },
+        {
+            "title": "SOC metrics that prove your security actually works",
+            "severity": "WATCH",
+            "url": "https://www.manageengine.com/blog/general/soc-metrics-that-prove-your-security-actually-works.html",
+            "image": "https://blogscdn.manageengine.com/sites/meblogs/images/general/aublog/blog_banner_soc_metrics_that_prove_your_security_actually_works.jpg",
+            "source": "manageengine"
+        },
+        {
+            "title": "Bayern Munich News: Real Madrid not giving up dream transfer for Michael Olise; PSG could take run at Manchester City star; and MORE!",
+            "severity": "WATCH",
+            "url": "https://sports.yahoo.com/articles/bayern-munich-news-real-madrid-040000067.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/b1bd333e9acc77821042f4eea019d7d53ff2683d19a16fe870935a731e81d889/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2F0ee5aef2b4c14b21102373d0e217be18.jpg",
+            "source": "yahoo"
+        },
+        {
+            "title": "Woman loses medical negligence claim over partially amputated leg",
+            "severity": "WATCH",
+            "url": "https://www.abc.net.au/news/2026-10-08/woman-loses-medical-negligence-claim-leg-amputation/107241634",
+            "image": "https://live-production.wcms.abc-cdn.net.au/bcae41431e2742eca2fe50d267573593?impolicy=wcms_crop_resize&cropH=284&cropW=505&xPos=0&yPos=21&width=862&height=485",
+            "source": "abc_net"
+        },
+        {
+            "title": "Apple\u2019s new age verification is a game-changer for kids\u2019 safety online. We need the rest of big tech to follow",
+            "severity": "WATCH",
+            "url": "https://theconversation.com/apples-new-age-verification-is-a-game-changer-for-kids-safety-online-we-need-the-rest-of-big-tech-to-follow-293838",
+            "image": "https://images.theconversation.com/files/764778/original/file-20261008-50-xwncs1.jpg?ixlib=rb-4.1.1&rect=0%2C89%2C2121%2C1060&q=45&auto=format&w=1356&h=668&fit=crop",
+            "source": "theconversation"
         }
     ],
-    "Last_Updated": "2026-10-08T08:42:15.735940Z"
+    "Last_Updated": "2026-10-08T17:18:27.939459Z"
 }
