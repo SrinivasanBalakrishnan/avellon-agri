@@ -1,211 +1,274 @@
 {
-    "AGRI_Score": 66.1,
-    "Velocity": "-0.6",
+    "AGRI_Score": 66.9,
+    "Velocity": "+0.8",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 66.1/100 indicates significantly heightened global risk, predominantly driven by critical escalations in 'Energy & Maritime Disruption' (100) and elevated 'Geopolitical Conflict Intensity' (72.2). Specific incidents such as a \"Tanker Catches Fire Near Hormuz\" and \"Oil prices surge as Iran deploys new tactics to target tankers\" highlight severe threats to global energy supplies and maritime trade routes. These direct attacks, alongside broader regional conflict escalation reflected in \"Middle East war escalates: Houthi attacks spark Aramco fire, injure four in Riyadh,\" are creating a highly volatile environment for global markets and supply chains.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 66.9 is significantly elevated, primarily driven by extreme risk in Energy & Maritime Disruption and high Geopolitical Conflict Intensity. Explicit attacks on critical energy infrastructure, such as the \"Fire at Aramco headquarters in Saudi Arabia after Houthi strike,\" combined with Russia's \"targeted strikes on energy leave 600,000 without power\" in Ukraine, underscore acute vulnerability in global energy supply. Secondary pressure stems from rising sovereign borrowing costs and persistent cyber threats, contributing to an overall high-risk operational environment.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 72.2,
+        "Geopolitical Conflict Intensity": 79.9,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 66.4,
+        "Trade & Supply Chain Stress": 62.4,
         "Sovereign Financial Stress": 62.4,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 60.0,
+        "Sanctions & Regulatory Fragmentation": 56.9,
+        "Cyber & Infrastructure Threats": 59.8,
         "Climate & Resource Shock": 45
     },
     "Pillar_Narratives": {
-        "Geopolitical Conflict Intensity": "Geopolitical conflict intensity remains high due to the explicit escalation of the Middle East war, with Houthi attacks directly impacting critical infrastructure as seen in the 'Aramco fire' incident. This regional instability is further underscored by underlying intelligence warnings.",
-        "Energy & Maritime Disruption": "This pillar is at critical levels due to direct and severe threats to energy transportation and infrastructure, exemplified by the 'Tanker Catches Fire Near Hormuz' incident and Iran's 'new tactics to target tankers.' The 'Houthi attacks spark Aramco fire' further compounds the risk, directly impacting major oil production and processing capabilities and leading to surges in oil prices.",
-        "Trade & Supply Chain Stress": "Trade and supply chain stress is elevated due to significant maritime disruptions directly impacting key shipping lanes and global energy flows, as Iran's 'new tactics to target tankers' threaten critical transit points. While dialogue on 'India-US energy ties' seeks to mitigate some risks, broader trade tensions persist.",
-        "Sovereign Financial Stress": "Sovereign financial stress shows moderate levels, with ongoing internal policy discussions around taxation, such as the 'Debate on LTCG, securities tax,' indicating continuous financial management considerations. Global market fluctuations, including 'Wall Street slips' and a 'GIFT Nifty signals weak opening,' contribute to underlying pressure on national economies.",
-        "Currency & Liquidity Pressure": "Currency and liquidity pressure is at a moderate level, with global market indicators such as 'Wall Street slips' and weak signals from 'GIFT Nifty' suggesting a cautious economic outlook. While no immediate crisis is reported, routine monitoring of international capital flows and market sentiment is ongoing.",
-        "Sanctions & Regulatory Fragmentation": "This pillar reflects moderate risk, influenced by ongoing 'trade tensions' which could lead to increased regulatory fragmentation or sanctions. Discussions around bilateral energy ties, such as the 'India-US energy ties take centre stage' visit, indicate efforts to navigate complex international relations and potential policy shifts.",
-        "Cyber & Infrastructure Threats": "Cyber and infrastructure threats remain at a moderate level, driven by the ongoing need for robust security frameworks, particularly with calls for 'real and effective' AI safety standards to mitigate emerging technological risks. Routine security operations, such as telecommunication infrastructure protection, are noted but elevated concerns around sophisticated cyberattacks are not explicitly reported in the feed.",
-        "Climate & Resource Shock": "Climate and resource shock reflects a moderate-low global risk, though localized impacts are severe, as demonstrated by 'Kochi\u2019s tail-end areas parched as water crisis deepens.' This specific water scarcity issue highlights vulnerabilities to environmental changes and resource management challenges at a regional level."
+        "Geopolitical Conflict Intensity": "Direct strikes on critical energy infrastructure, exemplified by the \"Fire at Aramco headquarters in Saudi Arabia after Houthi strike,\" signal a dangerous escalation of regional conflicts. Furthermore, Russia's continued \"targeted strikes on energy leave 600,000 without power\" in Ukraine demonstrate a sustained strategy of warfare impacting civilian infrastructure and regional stability.",
+        "Energy & Maritime Disruption": "The pillar's maximum score is unequivocally justified by severe disruptions, including the \"Fire at Aramco headquarters in Saudi Arabia after Houthi strike,\" which threatens global oil supply. Concurrently, Russia's \"targeted strikes on energy leave 600,000 without power\" in Ukraine highlight significant vulnerabilities in energy distribution and security, directly impacting pricing as seen with \"Brent Back At $107.\"",
+        "Trade & Supply Chain Stress": "Inflationary pressures are rising, with \"more expensive gas, semiconductors likely pushed up inflation last month\" directly impacting the cost and availability of critical components and goods. Slow-moving infrastructure projects like the \"New bridge linking China and North Korea will open more than a decade late\" indicate persistent underlying inefficiencies and geopolitical hurdles in global trade routes.",
+        "Sovereign Financial Stress": "The \"IMF sounds alarm on rising government borrowing costs \u2013 business live\" indicates increasing pressure on national treasuries worldwide. Broader financial market sentiment, such as the \"bank slump hits ASX,\" further signals a fragile economic environment that could exacerbate sovereign debt challenges.",
+        "Currency & Liquidity Pressure": "Global commodity price surges, with \"Brent Back At $107,\" directly contribute to inflationary pressures and currency weakening, particularly for import-dependent economies. The RBI Governor's statement that \"Markets Overly Pessimistic On Rupee\" highlights active concerns about currency valuation and the need for policy intervention.",
+        "Sanctions & Regulatory Fragmentation": "While no new major sanctions were announced in the provided feed, the persistent \"Geopolitical Conflict Intensity\" with \"Ukraine live: Russia's 'targeted' strikes\" maintains an environment ripe for further regulatory actions. The existing web of global sanctions continues to create a fragmented regulatory landscape, requiring ongoing compliance efforts.",
+        "Cyber & Infrastructure Threats": "High-profile incidents like \"Meta Says Hackers Stole Software Code And Personal Data In GitHub Breach\" underscore the relentless and sophisticated nature of cyber threats targeting corporate assets and user data. Furthermore, physical security alerts, such as the \"Frankfurt-Delhi Air India flight security alert,\" highlight the ongoing vulnerability of critical infrastructure to both digital and kinetic threats.",
+        "Climate & Resource Shock": "While not directly featuring major climate events, the rising \"Energy Price Cap\" prompting \"Brits told to swap major household appliance\" indicates consumer-level adaptation to resource-driven economic pressures. Internal warnings of \"food safety risk\" could indirectly point to vulnerabilities in resource management and supply chain integrity that warrant routine monitoring."
     },
     "All_Alerts": [
         {
-            "title": "Kochi\u2019s tail-end areas parched as water crisis deepens",
+            "title": "IMF sounds alarm on rising government borrowing costs \u2013 business live",
             "severity": "HIGH",
-            "url": "https://www.thehindu.com/news/national/kerala/kochis-tail-end-areas-parched-as-water-crisis-deepens/article71574477.ece",
-            "image": "https://th-i.thgim.com/public/incoming/6n9m90/article71581128.ece/alternates/FREE_1200/iStock-896114422.jpg",
-            "source": "thehindu"
+            "url": "https://www.theguardian.com/business/live/2026/oct/14/imf-rising-government-borrowing-costs-inflation-oil-stock-markets-latest-news-updates",
+            "image": "https://i.guim.co.uk/img/media/d2da8554cefab95606549811daeb78782e4dc803/405_0_3544_2835/master/3544.jpg?width=140&quality=85&auto=format&fit=max&s=9cc0e9824209c36d52a3d7c3ea453942",
+            "source": "theguardian"
         },
         {
-            "title": "Tanker Catches Fire Near Hormuz! Iran Sounds Alarm Over Ship With Tracking Systems Turned Off",
+            "title": "Vietnam buries remains of 731 war dead nearly 6 decades after the Tet Offensive",
             "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/videos/international/tanker-catches-fire-near-hormuz-iran-sounds-alarm-over-ship-with-tracking-systems-turned-off/videoshow/134929375.cms",
-            "image": "https://static.toiimg.com/photo/imgsize-719546,msid-134929375/134929375.jpg",
-            "source": "toi"
+            "url": "https://abcnews.com/International/wireStory/vietnam-buries-remains-731-war-dead-6-decades-137248361",
+            "image": "https://s.abcnews.com/images/International/wirestory_a070715074aece95d732db4e55a4986e_4x3_384.jpg",
+            "source": "abcnews"
         },
         {
-            "title": "10 Adult Swim Anime Dubs That Are Better Than the Original",
+            "title": "Internal documents warn of food safety risk after MPI said none existed",
             "severity": "HIGH",
-            "url": "https://screenrant.com/best-adult-swim-anime-dubs/",
-            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/03/samurai-champloo-s-main-characters-pull-a-gesture-with-their-hands.jpg",
-            "source": "screenrant"
+            "url": "https://www.rnz.co.nz/news/health/1902424/internal-documents-warn-of-food-safety-risk-after-mpi-said-none-existed",
+            "image": "https://images.pexels.com/photos/3880204/pexels-photo-3880204.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "rnz_co_nz"
         },
         {
-            "title": "Oil prices surge as Iran deploys new tactics to target tankers",
+            "title": "Fire at Aramco headquarters in Saudi Arabia after Houthi strike",
             "severity": "HIGH",
-            "url": "https://www.channelnewsasia.com/business/oil-prices-surge-iran-deploys-new-tactics-target-tankers-6457466",
-            "image": "https://dam.mediacorp.sg/image/upload/s--0y9De1MM--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-14T012735Z_1_LYNXMPEM9D03G_RTROPTP_3_USA-RIGS-BAKER-HUGHES.JPG?itok=YW9dpaNz",
-            "source": "channelnewsasia"
+            "url": "https://indianexpress.com/article/world/aramco-headquarters-fire-saudi-arabia-houthi-strike-10920996/",
+            "image": "https://images.indianexpress.com/2026/10/oil-facility-saudi-1600.jpg",
+            "source": "indianexpress"
         },
         {
-            "title": "T.J. Vinod, MLA, raises Kochi\u2019s water scarcity issue in Keralam Assembly",
+            "title": "Frankfurt-Delhi Air India flight security alert: Passengers deboarded at Jaipur airport, probe on",
             "severity": "HIGH",
-            "url": "https://www.thehindu.com/news/national/kerala/tj-vinod-mla-raises-kochis-water-scarcity-issue-in-keralam-assembly/article71580500.ece",
-            "image": "https://th-i.thgim.com/public/incoming/88p76i/article71581094.ece/alternates/FREE_1200/Vinod01.jpg",
-            "source": "thehindu"
+            "url": "https://www.prokerala.com/news/articles/a1824208.html",
+            "image": "https://images.pexels.com/photos/13478691/pexels-photo-13478691.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "prokerala"
         },
         {
-            "title": "Middle East war escalates: Houthi attacks spark Aramco fire, injure four in Riyadh",
+            "title": "Meta Says Hackers Stole Software Code And Personal Data In GitHub Breach: Report",
             "severity": "HIGH",
-            "url": "https://english.mathrubhumi.com/news/world/middle-east-war-escalates-houthi-attacks-spark-aramco-fire-injure-four-in-riyadh-yuk1jfwz",
-            "image": "https://img.mathrubhumi.com/view/acePublic/alias/contentid/1uffe56a60waq09t0pm/0/aramco.jpg?w=384",
-            "source": "mathrubhumi"
+            "url": "https://www.timesnownews.com/technology-science/meta-says-hackers-stole-software-code-and-personal-data-in-github-breach-report-article-156336763",
+            "image": "https://images.timesnownews.com/thumb/msid-156336769,thumbsize-1566246,width-1280,height-720,resizemode-75/156336769.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "'Spy chief's grim warning' and 'tiger victim was child actor' - BBC",
+            "title": "Jailing Youth Act Of Cowardice: Rahul Gandhi On Arrest Of CJP Leaders",
             "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE4xQlppZ0wtck1aM01QZTktTnU0S0hfYWVtR2JKLTFIejRsNFZyYndURFM5Tlc5NFBZMl9hT280VmZKQl9fWS0zalBjUGRjV21PdlpYbVBLbWU1UkV4OUE?oc=5",
-            "image": "https://images.pexels.com/photos/3183174/pexels-photo-3183174.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "url": "https://ommcomnews.com/india-news/jailing-youth-act-of-cowardice-rahul-gandhi-on-arrest-of-cjp-leaders/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/10/New-Project-2026-10-13T074022.756.jpg",
+            "source": "ommcomnews"
         },
         {
-            "title": "Telecommunication Professionals Honored With Awards: New Hampshire State Police Roundup",
-            "severity": "HIGH",
-            "url": "https://patch.com/new-hampshire/concord-nh/telecommunication-professionals-honored-awards-new-hampshire-state-police",
-            "image": "https://patch.com/img/cdn20/ap/546351/20261013/083944/styles/patch_image/public/apco-atlantic-nh-911-awards___13203440589.png",
-            "source": "patch"
-        },
-        {
-            "title": "CJP lawyer claims Saurav Das, Ashutosh Ranka arrested after Jantar Mantar breach, Delhi Police calls it preventive",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/india-news/cjp-lawyer-claims-saurav-das-ashutosh-ranka-arrested-after-jantar-mantar-breach-delhi-police-calls-it-preventive-101791938132743.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/10/14/1600x900/ANI-20261013053-0_1791938199334_Ex3B_1791938213055_65no_8dbdba18-cca7-4975-b39c-090dca17a849_iRhs.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Microsoft's Brad Smith calls for 'real and effective' AI safety standards",
-            "severity": "HIGH",
-            "url": "https://www.bangkokpost.com/world/3336365/microsofts-brad-smith-calls-for-real-and-effective-ai-safety-standards",
-            "image": "https://static.bangkokpost.com/media/content/20261014/c1_6264485.jpg",
-            "source": "bangkokpost"
-        },
-        {
-            "title": "Amid trade tensions, Marco Rubio to visit Mumbai, Jamnagar as India-US energy ties take centre stage; What\u2019s on agenda?",
+            "title": "More expensive gas, semiconductors likely pushed up inflation last month",
             "severity": "MEDIUM",
-            "url": "https://www.india.com/news/world/amid-trade-tensions-marco-rubio-to-visit-mumbai-jamnagar-as-india-us-energy-ties-take-centre-stage-whats-on-agendaamid-tariff-and-russian-oil-disputes-8535837/",
-            "image": "https://static.india.com/wp-content/uploads/2026/06/marco-rubio-3.png",
-            "source": "india"
+            "url": "https://abcnews.com/Business/wireStory/expensive-gas-semiconductors-pushed-inflation-month-137248168",
+            "image": "https://s.abcnews.com/images/US/wirestory_3985019a54c82421e6112fb57baba048_4x3_384.jpg",
+            "source": "abcnews"
         },
         {
-            "title": "Oil prices climb as traders weigh Saudi supply risk, Russian diesel flow",
+            "title": "New White House press secretary's debut: Brief, limited questions and some harsh reviews",
             "severity": "MEDIUM",
-            "url": "https://au.investing.com/news/commodities-news/oil-prices-climb-as-traders-weigh-saudi-supply-risk-russian-diesel-flow-4688455",
-            "image": "https://content-media.investing.com/trkd-images/LYNXMPEM9D03G_L.jpg",
-            "source": "investing_au"
+            "url": "https://abcnews.com/Entertainment/wireStory/new-white-house-press-secretarys-debut-brief-limited-137246964",
+            "image": "https://s.abcnews.com/images/US/wirestory_263c8b76adb9c67e468d09953210bdc2_4x3_384.jpg",
+            "source": "abcnews"
         },
         {
-            "title": "Debate on LTCG, securities tax 'healthy', says Finance Minister Nirmala Sitharaman",
+            "title": "House Democrats plan a first 100-days agenda if they sweep to power in midterm elections",
             "severity": "MEDIUM",
-            "url": "https://www.hindustantimes.com/business/debate-on-ltcg-securities-tax-healthy-says-finance-minister-nirmala-sitharaman-101791936157332.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/10/14/1600x900/logo/PTI09-22-2026-000177A-0_1790150751150_q7aU_1790150_1791936686524_B4Me_1791936686668_cD24_4419b5bc-0f17-44f6-b76c-4af7368982ff_Qxy6.jpg",
-            "source": "hindustantimes"
+            "url": "https://abcnews.com/Politics/wireStory/house-democrats-plan-100-days-agenda-sweep-power-137247631",
+            "image": "https://s.abcnews.com/images/US/wirestory_018019529b14a6b3bc4a343a4e17c44f_4x3_384.jpg",
+            "source": "abcnews"
         },
         {
-            "title": "Ampotech and Buskowitz Energy Collaborate to Deliver Integrated Energy Solutions Combining Energy Efficiency, Solar and Battery Storage",
+            "title": "Shardiya Navratri 2026: Devotees offer prayers to Goddess Maha Chandi Devi at Vijayawada Temple",
             "severity": "WATCH",
-            "url": "https://www.prnewswire.com/apac/news-releases/ampotech-and-buskowitz-energy-collaborate-to-deliver-integrated-energy-solutions-combining-energy-efficiency-solar-and-battery-storage-302906308.html",
-            "image": "https://mmx.prnewswire.com/media/MS2011171/20261012052706EDT_image_2.jpg?id=OA3012640&p=original",
-            "source": "prnewswire_apac"
+            "url": "https://zeenews.india.com/culture/shardiya-navratri-2026-devotees-offer-prayers-to-goddess-maha-chandi-devi-at-vijayawada-temple-3075971.html",
+            "image": "https://english.cdn.zeenews.com/sites/default/files/2026/10/14/1989384-devoteesss-1.jpg",
+            "source": "zeenews"
         },
         {
-            "title": "Rare swivel gun and cannon recovered off Kannur coast",
+            "title": "Gautam Adani Shares What Michael Bloomberg\u2019s Vision Means For India",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/kerala/rare-swivel-gun-and-cannon-recovered-off-kannur-coast/article71578461.ece",
-            "image": "https://th-i.thgim.com/public/incoming/o5g2be/article71580683.ece/alternates/FREE_1200/11435_13_10_2026_21_15_6_3_IMG_20261013_WA00291.JPG",
-            "source": "thehindu"
+            "url": "https://ommcomnews.com/india-news/gautam-adani-shares-what-michael-bloombergs-vision-means-for-india/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/10/New-Project-2026-10-14T115403.981.jpg",
+            "source": "ommcomnews"
         },
         {
-            "title": "Sensex Today | Stock Market LIVE Updates: GIFT Nifty signals weak opening; Wall Street slips, Asian peers gain",
+            "title": "Brits told to swap major household appliace for 'simple gadget' as Energy Price Cap rises",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/news/business/markets/stock-market-live-updates-nifty50-share-price-sensex-share-price-crude-fii-gift-nifty-rupee-latest-updates-14-10-2026-alpha-liveblog-14051451.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/09/20260929091956_sensex_nifty_sensexdown.jpg",
-            "source": "moneycontrol"
+            "url": "https://www.dailystar.co.uk/news/latest-news/brits-told-swap-major-household-37769466",
+            "image": "https://i2-prod.dailystar.co.uk/incoming/article37769468.ece/ALTERNATES/s615/0_GettyImages-2210412003.jpg",
+            "source": "dailystar"
         },
         {
-            "title": "\"Mother Of All Technologies\": S Jaishankar Calls For AI Inclusiveness",
+            "title": "Markets Overly Pessimistic On Rupee: RBI Governor Sanjay Malhotra Tells Moneycontrol",
             "severity": "WATCH",
-            "url": "https://www.ndtv.com/india-news/mother-of-all-technologies-s-jaishankar-calls-for-ai-inclusiveness-12181840",
-            "image": "https://c.ndtvimg.com/2026-10/fs218m9g_s-jaishankar_625x300_14_October_26.jpeg",
+            "url": "https://www.news18.com/business/economy/markets-overly-pessimistic-on-rupee-rbi-governor-sanjay-malhotra-tells-moneycontrol-10381054.html",
+            "image": "https://images.news18.com/ibnlive/uploads/2026/10/Sanjay-Malhotra-RBI-MC-2026-10-91e5232f19991968d0436a9941799dae-1200x800.jpg",
+            "source": "news18"
+        },
+        {
+            "title": "\ud83d\udd34Ukraine live: Russia's 'targeted' strikes on energy leave 600,000 without power, Zelensky says",
+            "severity": "WATCH",
+            "url": "https://www.france24.com/en/europe/20261014-live-ukraine-massive-russian-attack-on-energy-facilities-at-least-six-dead",
+            "image": "https://s.france24.com/media/display/c7e5c54c-c794-11f1-892d-e362370cce2e/w:1280/p:16x9/2026-10-14T001427Z-1758215455-RC2L2OACKOLR-RTRMADP-3-UKRAINE-CRISIS-ATTACK-KYIV.jpg",
+            "source": "france24"
+        },
+        {
+            "title": "\u2018Visible headwinds\u2019: Bank slump hits ASX",
+            "severity": "WATCH",
+            "url": "https://www.news.com.au/finance/markets/australian-markets/asx-200-drops-56-points-as-big-banks-and-mining-giants-slide/news-story/f4b93ea6039bd73db52d93daf47ab305",
+            "image": "https://content.api.news/v3/images/bin/739a17095ab2fb6ca6ea439f58ce7e34",
+            "source": "news"
+        },
+        {
+            "title": "I push my bare breasts in his face and beg him to have his wicked way- he wants to watch TV",
+            "severity": "WATCH",
+            "url": "https://www.dailystar.co.uk/just-jane/i-push-bare-breasts-face-37741311",
+            "image": "https://i2-prod.dailystar.co.uk/incoming/article36534483.ece/ALTERNATES/s615/2_Passionate-couple-making-love-on-bed.jpg",
+            "source": "dailystar"
+        },
+        {
+            "title": "Brent Back At $107: What A Test Of $120 Would Mean For India's Rupee, Inflation And Stocks",
+            "severity": "WATCH",
+            "url": "https://www.ndtvprofit.com/markets/brent-above-106-and-rising-what-a-test-of-120-would-mean-for-indias-rupee-inflation-and-stocks-12182838",
+            "image": "https://c.ndtvimg.com/2026-05/3eoj30ro_crude-oil_625x300_01_May_26.png?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
             "source": "ndtv"
         },
         {
-            "title": "The poet and his patrons: Ettayapuram honours Subramania Bharati",
+            "title": "Labor vows fight after bill \u2018dust binned\u2019",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/tamil-nadu/the-poet-and-his-patrons-ettayapuram-honours-subramania-bharati/article71578245.ece",
-            "image": "https://th-i.thgim.com/public/news/national/tamil-nadu/8wx02j/article71579042.ece/alternates/FREE_1200/Screenshot%202026-10-13%20162457.png",
+            "url": "https://www.news.com.au/lifestyle/health/labor-vows-to-reintroduce-health-insurance-reforms-after-senate-defeat/news-story/73ab958fc6b818c9e9adafcc577000a0",
+            "image": "https://content.api.news/v3/images/bin/a5a74ec7c0bd95c747143462fb0d8ea4",
+            "source": "news"
+        },
+        {
+            "title": "New bridge linking China and North Korea will open more than a decade late",
+            "severity": "WATCH",
+            "url": "https://abcnews.com/Business/wireStory/new-bridge-linking-china-north-korea-open-decade-137248630",
+            "image": "https://s.abcnews.com/images/International/wirestory_a0ea936c1f4733862847cc9109a97454_4x3_384.jpg",
+            "source": "abcnews"
+        },
+        {
+            "title": "RailTel share price jumps 2% on winning repeat order from SBI",
+            "severity": "WATCH",
+            "url": "https://www.business-standard.com/markets/news/railtel-share-price-jumps-2-on-winning-repeat-order-from-sbi-126101400426_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-01/06/full/1641460151-4175.jpg",
+            "source": "business-standard"
+        },
+        {
+            "title": "Earnings call transcript: ASML tops Q3 2026 estimates but shares fall",
+            "severity": "WATCH",
+            "url": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-asml-tops-q3-2026-estimates-but-shares-fall-93CH-4689023",
+            "image": "https://content-media.investing.com/news/LYNXNPEB8506G_M.jpg",
+            "source": "investing_au"
+        },
+        {
+            "title": "Microchip: Stronger Demand, Higher Prices, And An Attractive Valuation",
+            "severity": "WATCH",
+            "url": "https://seekingalpha.com/article/4953974-microchip-stock-stronger-demand-higher-prices-attractive-valuation",
+            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1446341913/image_1446341913.jpg?io=getty-c-w1280",
+            "source": "seekingalpha"
+        },
+        {
+            "title": "Sensex falls 600 pts from day's high, Nifty below 22,600: Rising crude prices among key factors behind market decline",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/markets/sensex-falls-250-pts-from-day-s-high-nifty-below-22-700-rising-crude-prices-among-key-factors-behind-market-decline-14051791.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/10/20261003023330_sensex_nifty_market_Nifty_nse_bse.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "'Significantly ahead' of Starlink in approvals, says Sunil Bharti Mittal",
+            "severity": "WATCH",
+            "url": "https://www.moneycontrol.com/news/business/significantly-ahead-of-starlink-in-approvals-says-sunil-bharti-mittal-14051788.html",
+            "image": "https://images.moneycontrol.com/static-mcnews/2026/10/20261014061432_Sunil-Bharti-Mittal-Bloomberg-New-Economy-Forum-.jpg",
+            "source": "moneycontrol"
+        },
+        {
+            "title": "I Compared 8 AI Agent Platforms. Here's What Running a Team Actually Costs",
+            "severity": "WATCH",
+            "url": "https://hackernoon.com/i-compared-8-ai-agent-platforms-heres-what-running-a-team-actually-costs",
+            "image": "https://cdn.hackernoon.com/images/9SBj6OzMvXOEhDxTjjuu75pLYnp1-pvq3cjx.jpeg",
+            "source": "hackernoon"
+        },
+        {
+            "title": "India\u2019s trade deficit with China crosses $100 billion in 2026",
+            "severity": "WATCH",
+            "url": "https://www.thehindu.com/news/national/indias-trade-deficit-with-china-crosses-100-billion-in-2026/article71582529.ece",
+            "image": "https://th-i.thgim.com/public/incoming/f75z3g/article71582536.ece/alternates/FREE_1200/iStock-1858515182.jpg",
             "source": "thehindu"
         },
         {
-            "title": "You'll Need 25 Hours To Complete The Homework For 'VisionQuest'",
+            "title": "Japan urges \u2018impartial treatment\u2019 of journalist arrested in Russia",
             "severity": "WATCH",
-            "url": "https://www.inverse.com/entertainment/vision-quest-mcu-homework",
-            "image": "https://imgix.bustle.com/uploads/image/2026/10/13/9ae3dcae/visionquest.jpg?w=1200&fit=max",
-            "source": "inverse"
+            "url": "https://www.news.com.au/breaking-news/japan-urges-impartial-treatment-of-journalist-arrested-in-russia/news-story/a0f873d865640a48ec3f888bbf0cfbb1",
+            "image": "https://content.api.news/v3/images/bin/9402ea72a4cd9e9b382eeff31b2fb479",
+            "source": "news"
         },
         {
-            "title": "CJP's Saurav Das, Ashutosh Ranka And Ajinkya Shinde Arrested; To Be Produced Before Magistrate",
+            "title": "Koffee With Karan 9 premiere: When and where to stream Salman Khan episode",
             "severity": "WATCH",
-            "url": "https://news.abplive.com/news/india/cjp-leaders-arrested-saurav-das-ashutosh-ranka-ajinkya-shinde-arrested-jantar-mantar-protest-abhijeet-dipke-1871291",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/10/14/9f59c043afc8d0a473418bd6006ffaaf1791941281517272_original.jpg",
-            "source": "abplive"
+            "url": "https://timesofindia.indiatimes.com/entertainment/hindi/bollywood/news/koffee-with-karan-9-when-and-where-to-watch-the-karan-johar-hosted-final-season-featuring-salman-khan-and-karisma-kapoor-in-special-appearance-in-premiere-episode-online/articleshow/134934006.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134934218/134934218.jpg",
+            "source": "toi"
         },
         {
-            "title": "CJP\u2019s Saurav Das, Ashutosh Ranka put under preventive arrest for entering Jantar Mantar",
+            "title": "Food Crises: Africa Continues to Fall Behind",
             "severity": "WATCH",
-            "url": "https://indianexpress.com/article/cities/delhi/cjp-ashutosh-ranka-saurav-das-and-ajinkya-shinde-preventive-arrest-jantar-mantar-protest-10920696/",
-            "image": "https://images.indianexpress.com/2026/10/cjp-protests.jpg",
-            "source": "indianexpress"
+            "url": "https://www.bluewin.ch/en/news/food-crises-africa-continues-to-fall-behind-li.3635034",
+            "image": "https://images.pexels.com/photos/5302807/pexels-photo-5302807.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "bluewin"
         },
         {
-            "title": "Delhi protest LIVE: Das, Ranka to be produced before executive magistrate soon, claims CJP",
+            "title": "\u2018Where does CJP go when issues arise in other states?\u2019: CM Rekha Gupta amid anti-CEC protests in Delhi",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/india-news/delhi-protest-live-updates-cjp-jantar-mantar-saurav-das-ranka-dipke-india-bloc-rahul-gandhi-cec-gyanesh-kumar-eci-row-101791939545598.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/10/14/1600x900/logo/PTI10-13-2026-000038B-0_1791940117295_9Iq0_1791940125985_z95P_355787b9-e1dc-4f03-848b-a2acfec95f25_FO0B.jpg",
+            "url": "https://www.hindustantimes.com/india-news/delhi-cm-rekha-gupta-cjp-protest-cec-gyanesh-kumar-eci-sir-row-aam-aadmi-party-jantar-mantar-saurav-das-ranka-dipke-news-101791958632869.html",
+            "image": "https://images.hindustantimes.com/static/breaking-news/BreakingNews_1600x900.jpg",
             "source": "hindustantimes"
         },
         {
-            "title": "Jantar Mantar denotification as protest site based on Supreme Court orders: Delhi Police tells high court",
+            "title": "Delhi Police cite \u2018repeated\u2019 violations as two CJP leaders are sent to Tihar",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/india-news/jantar-mantar-denotification-as-protest-site-based-on-supreme-court-orders-delhi-police-tells-high-court-101791937510772.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/10/14/1600x900/logo/SIR-Protest-6_1791939973921_zWEI_1791939989757_wXQx_a05c8c35-4059-417a-a796-1ffe953ec551_CZyD.jpg",
-            "source": "hindustantimes"
-        },
-        {
-            "title": "Explained: Keralam bill proposes first-of-its-kind framework to regulate elderly care",
-            "severity": "WATCH",
-            "url": "https://indianexpress.com/article/explained/keralam-elderly-senior-citizens-bill-2026-key-provisions-10920020/",
-            "image": "https://images.indianexpress.com/2026/10/Kerala-elderly-care-regs.jpg",
+            "url": "https://indianexpress.com/article/cities/delhi/delhi-police-cjp-ashutosh-ranka-saurav-das-repeated-violations-sent-tihar-10920998/",
+            "image": "https://images.indianexpress.com/2026/10/delhi-police-cjp-leaders-arrested.jpg",
             "source": "indianexpress"
         },
         {
-            "title": "Special Executive Magistrate sends CJP\u2019s leaders Saurav Das, Ashutosh Ranka to five-day judicial custody in trespassing case",
+            "title": "Saurav Das, Ranka Arrested For Repeated Law Violations, Instigating Others: Delhi Police",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/cjp-anto-cec-protest-jantar-mantar-case-saurav-das-ashutosh-ranka-arrest-update/article71582061.ece",
-            "image": "https://th-i.thgim.com/public/incoming/1t3z8w/article71582059.ece/alternates/FREE_1200/PTI10_12_2026_000057A.jpg",
-            "source": "thehindu"
+            "url": "https://ommcomnews.com/india-news/saurav-das-ranka-arrested-for-repeated-law-violations-instigating-others-delhi-police/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/10/New-Project-2026-10-14T113807.931.jpg",
+            "source": "ommcomnews"
         },
         {
-            "title": "OpenAI engineer accused of planting secret listening device at company headquarters",
+            "title": "In First Show Of Support, Rahul Gandhi Backs CJP Leaders Jailed For Protest",
             "severity": "WATCH",
-            "url": "https://www.firstpost.com/world/openai-engineer-accused-of-planting-secret-listening-device-at-company-headquarters-14052606.html",
-            "image": "https://images.firstpost.com/uploads/2026/10/The-battle-for-Kyiv-17-2026-10-e07806ddb4b5c22e8fb8366f87112876-1200x675.jpg",
-            "source": "firstpost"
+            "url": "https://www.ndtv.com/india-news/in-first-show-of-support-rahul-gandhi-backs-cjp-leaders-jailed-for-protest-jantar-mantar-ashutosh-ranka-saurav-das-abhijeet-dipke-12182745",
+            "image": "https://c.ndtvimg.com/2026-10/ugvqoij_rahul_625x300_14_October_26.jpg?im=FitAndFill,algorithm=dnn,width=1280,height=720",
+            "source": "ndtv"
+        },
+        {
+            "title": "Day after \u2018one protest\u2019 call, Rahul Gandhi\u2019s support for CJP, Dipke\u2019s reply",
+            "severity": "WATCH",
+            "url": "https://indianexpress.com/article/political-pulse/rahul-gandhi-backs-jantar-mantar-protests-cjp-leaders-calls-jailing-youth-waving-tricolour-cowardice-10920959/",
+            "image": "https://images.indianexpress.com/2026/10/Rahul-Gandhi-1-4_20261013203242_20261014054745.jpg",
+            "source": "indianexpress"
         }
     ],
-    "Last_Updated": "2026-10-14T13:30:50.314726Z"
+    "Last_Updated": "2026-10-14T18:25:35.828972Z"
 }
