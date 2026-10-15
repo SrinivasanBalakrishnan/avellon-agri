@@ -1,258 +1,288 @@
 {
-    "AGRI_Score": 64.2,
-    "Velocity": "-0.1",
+    "AGRI_Score": 63.9,
+    "Velocity": "-0.3",
     "Top_Risk_Driver": "Energy & Maritime Disruption",
-    "AI_Brief": "Analyst system calibrating.",
+    "AI_Brief": "The Avellon Geopolitical Risk Index (AGRI) score of 63.9 reflects significant global instability driven primarily by severe geopolitical tensions and persistent energy disruptions. The 'Energy & Maritime Disruption' pillar is at its maximum (100), fueled by headlines like 'Ukraine resumes attacks on Russian oil refineries' and 'Attacks on Tankers in Mideast Surge'. This is compounded by a high 'Geopolitical Conflict Intensity' score (78.9) as 'US considers hitting Iran with 'Mother of All Bombs'' and 'WW3 fears erupt as Russians fear 'nuts' Putin will 'spark nuclear war'', indicating a volatile international security landscape.",
     "Pillar_Scores": {
-        "Geopolitical Conflict Intensity": 75.6,
+        "Geopolitical Conflict Intensity": 78.9,
         "Energy & Maritime Disruption": 100,
-        "Trade & Supply Chain Stress": 63.4,
+        "Trade & Supply Chain Stress": 63.7,
         "Sovereign Financial Stress": 62.1,
         "Currency & Liquidity Pressure": 50.0,
-        "Sanctions & Regulatory Fragmentation": 58.2,
-        "Cyber & Infrastructure Threats": 64.2,
+        "Sanctions & Regulatory Fragmentation": 58.0,
+        "Cyber & Infrastructure Threats": 55.9,
         "Climate & Resource Shock": 25
     },
-    "Pillar_Narratives": {},
+    "Pillar_Narratives": {
+        "Geopolitical Conflict Intensity": "This pillar is highly elevated due to escalating direct conflict and threats of broader engagement, as seen in 'Ukraine resumes attacks on Russian oil refineries'. Further escalation is indicated by the report that 'US considers hitting Iran with 'Mother of All Bombs'', intensifying regional and global fears.",
+        "Energy & Maritime Disruption": "Risk in this pillar is critically high, stemming from direct attacks on energy infrastructure and maritime routes. 'Ukraine resumes attacks on Russian oil refineries, officials say' directly impacts energy supply, while 'Attacks on Tankers in Mideast Surge' introduces significant hazards to global shipping.",
+        "Trade & Supply Chain Stress": "This pillar reflects moderate stress, with maritime security concerns posing potential, though not yet realized, disruptions. While 'Attacks on Tankers in Mideast Surge' is noted, 'Oil Exports Remain Steady' for now, indicating immediate widespread supply chain collapse is not occurring, but vigilance is required.",
+        "Sovereign Financial Stress": "Moderate stress is observed, mainly driven by localized governance issues impacting public funds. 'Five arrested over alleged corruption at Indonesia disaster agency amid funding concerns' highlights specific instances of financial mismanagement that could undermine sovereign credibility.",
+        "Currency & Liquidity Pressure": "This pillar shows routine monitoring activity, with no immediate news indicating widespread currency devaluations or significant liquidity squeezes across major economies. The positive economic outlook for India as 'World\u2019s Fastest-Growing Large Economy' suggests regional resilience, not global pressure.",
+        "Sanctions & Regulatory Fragmentation": "The risk is elevated due to the potential for significant new geopolitical actions that could trigger severe new international sanctions. The report that 'US considers hitting Iran with 'Mother of All Bombs'' signals a potential for drastic regulatory responses and increased fragmentation.",
+        "Cyber & Infrastructure Threats": "This pillar exhibits moderate risk, underscored by real-world vulnerabilities and ongoing threat actor activity. The 'Denmark data breach: Hacker reportedly used \u2018123456\u2019 password to access national registry' demonstrates critical infrastructure vulnerabilities.",
+        "Climate & Resource Shock": "Risk in this pillar is currently low, with no immediate news indicating major climate-driven disruptions or resource scarcity shocks. Investment like 'Ottawa to announce $100 million toward offshore wind projects' points to proactive measures rather than emergent crisis."
+    },
     "All_Alerts": [
         {
-            "title": "Non-lithium batteries set to cut India's 50% storage imports by 2035: Netra",
+            "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
             "severity": "HIGH",
-            "url": "https://economictimes.indiatimes.com/small-biz/sustainability/non-lithium-batteries-set-to-cut-indias-50-storage-imports-by-2035-netra/articleshow/134957279.cms",
-            "image": "https://img.etimg.com/thumb/msid-134957297,resizemode-4,width-1200,height-900,imgsize-86444,overlay-etrise/articleshow.jpg",
+            "url": "https://www.clickondetroit.com/business/2026/10/15/ukraine-resumes-attacks-on-russian-oil-refineries-officials-say-after-brief-truce/",
+            "image": "https://bc.gmg.io/image/upload/f_jpg/q_auto/c_thumb,w_700/media/gmg/YR5F22JULNGFJBXLTMINF5M54U.jpg?api_key=clickondetroit_06f87fefb2123598",
+            "source": "clickondetroit"
+        },
+        {
+            "title": "Attacks on Tankers in Mideast Surge, but Oil Exports Remain Steady",
+            "severity": "HIGH",
+            "url": "https://www.nytimes.com/2026/10/15/business/hormuz-oil-tanker-attacks.html",
+            "image": "https://static01.nyt.com/images/2026/09/29/multimedia/15biz-hormuz-exports/29biz-hormuz-oil-vcjm-mediumSquareAt3X.jpg",
+            "source": "nytimes"
+        },
+        {
+            "title": "US considers hitting Iran with 'Mother of All Bombs': report",
+            "severity": "HIGH",
+            "url": "https://www.dawn.com/news/2037331/us-considers-hitting-iran-with-mother-of-all-bombs-report",
+            "image": "https://i.dawn.com/large/2026/10/151401551396998.webp",
+            "source": "dawn"
+        },
+        {
+            "title": "WW3 fears erupt as Russians fear 'nuts' Putin will 'spark nuclear war'",
+            "severity": "HIGH",
+            "url": "https://www.the-express.com/news/world-news/217964/ww3-fears-erupt-russians-fear-nuts-putin-spark-nuclear-war",
+            "image": "https://cdn-images.the-express.com/img/dynamic/12/237x141/217964_1.jpg",
+            "source": "express"
+        },
+        {
+            "title": "Watch: Park Sung Woong Demonstrates Unwavering Loyalty To Silla In \u201cSword & Silence\u201d Teaser",
+            "severity": "HIGH",
+            "url": "https://www.soompi.com/article/1878513wpp/watch-park-sung-woong-demonstrates-unwavering-loyalty-to-silla-in-sword-silence-teaser",
+            "image": "https://0.soompi.io/wp-content/uploads/2026/10/15124431/park-sung-woong.jpg",
+            "source": "soompi"
+        },
+        {
+            "title": "Five arrested over alleged corruption at Indonesia disaster agency amid funding concerns",
+            "severity": "HIGH",
+            "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/15/five-arrested-over-alleged-corruption-at-indonesia-disaster-agency-amid-funding-concerns",
+            "image": "https://apicms.thestar.com.my/uploads/images/2026/10/15/4163594.jpg",
+            "source": "thestar_my"
+        },
+        {
+            "title": "Pakistan tests Fatah-II ballistic missile, same type intercepted during Operation Sindoor",
+            "severity": "HIGH",
+            "url": "https://timesofindia.indiatimes.com/defence/international/pakistan-tests-fatah-ii-ballistic-missile-same-type-intercepted-during-operation-sindoor/articleshow/134961323.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134961364/134961364.jpg",
+            "source": "toi"
+        },
+        {
+            "title": "Game Of Thrones Is Officially Giving Us Jon Snow VS Night King In 2027's War For Westeros",
+            "severity": "HIGH",
+            "url": "https://screenrant.com/game-of-thrones-night-king-vs-jon-snow-war-for-westeros/",
+            "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/08/jon-snow-kit-harington-looking-shocked-in-game-of-thrones-season-5-episode-10.jpg",
+            "source": "screenrant"
+        },
+        {
+            "title": "Everything New In Wardogs Season 2",
+            "severity": "HIGH",
+            "url": "https://www.gamespot.com/articles/everything-new-in-wardogs-season-2/",
+            "image": "https://www.gamespot.com/wp-content/uploads/2026/10/3861fa8b741d371d50c5fa7d40a08630cb3ea0c1_e40d0e.jpg?w=300",
+            "source": "gamespot"
+        },
+        {
+            "title": "Ottawa to announce $100 million toward offshore wind projects in Nova Scotia",
+            "severity": "HIGH",
+            "url": "https://www.ctvnews.ca/atlantic/nova-scotia/article/ottawa-to-announce-100-million-toward-offshore-wind-projects-in-nova-scotia/",
+            "image": "https://www.ctvnews.ca/resizer/v2/N6PZF4ERSZCNTMI5LMC55APL64.jpg?auth=e80a24de6c39532b6bea60ba70716a18d942e813232405863917c88cad4cb306&smart=true&width=1400&height=788",
+            "source": "ctvnews"
+        },
+        {
+            "title": "8 War Movies Without Any Flaws, Ranked",
+            "severity": "HIGH",
+            "url": "https://collider.com/war-movies-without-any-flaws-ranked/",
+            "image": "https://static0.colliderimages.com/wordpress/wp-content/uploads/2024/03/1917-2019.jpg",
+            "source": "collider"
+        },
+        {
+            "title": "Cybersecurity best practices for modern enterprises",
+            "severity": "HIGH",
+            "url": "https://www.manageengine.com/blog/general/cybersecurity-best-practices-for-modern-enterprises.html",
+            "image": "https://blogscdn.manageengine.com/sites/meblogs/images/general/cyber_security_light.jpg",
+            "source": "manageengine"
+        },
+        {
+            "title": "Denmark data breach: Hacker reportedly used \u2018123456\u2019 password to access national registry",
+            "severity": "HIGH",
+            "url": "https://economictimes.indiatimes.com/tech/technology/denmark-data-breach-hacker-reportedly-used-123456-password-to-access-national-registry/articleshow/134962296.cms",
+            "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-87250,resizemode-75,msid-134962296/tech/technology/denmark-data-breach-hacker-reportedly-used-123456-password-to-access-national-registry.jpg",
             "source": "economictimes_indiatimes"
         },
         {
-            "title": "Prolonged war, renewed disruptions pose biggest risk to Middle East region, IMF says",
+            "title": "\u2018Newman-era attack on workers\u2019 should have gone to 2024 poll: Miles",
             "severity": "HIGH",
-            "url": "https://www.channelnewsasia.com/business/prolonged-war-renewed-disruptions-pose-biggest-risk-middle-east-region-imf-says-6461356",
-            "image": "https://dam.mediacorp.sg/image/upload/s--w-SCZxc2--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-10-15T043732Z_1_LYNXMPEM9E09Q_RTROPTP_3_IMF-WORLBANK-OUTLOOK.JPG?itok=EPj9Kjj5",
-            "source": "channelnewsasia"
+            "url": "https://www.smh.com.au/politics/queensland/newman-era-attack-on-workers-should-have-gone-to-2024-poll-miles-20261015-p615yb.html",
+            "image": "https://static.ffx.io/images/$zoom_0.16971153846153847%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_0%2C$y_110/t_crop_custom/q_86%2Cf_auto/e9a8f4fec2b93971225d4812b8f3a115260f72e7",
+            "source": "smh"
         },
         {
-            "title": "STMicroelectronics Brings Next-Gen Robotics, AI and Mobility to electronica India 2026",
-            "severity": "HIGH",
-            "url": "https://www.electronicsmedia.info/2026/10/15/stmicroelectronics-at-electronica-india-2026/",
-            "image": "https://images.pexels.com/photos/37730212/pexels-photo-37730212.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "electronicsmedia_info"
-        },
-        {
-            "title": "US military weighs use of \u2018mother of all bombs\u2019 in future strikes on Iran: report",
-            "severity": "HIGH",
-            "url": "https://nypost.com/2026/10/15/world-news/us-military-weighs-use-of-mother-of-all-bombs-in-future-strikes-on-iran-report/",
-            "image": "https://nypost.com/wp-content%2Fuploads%2Fsites%2F2%2F2026%2F10%2Fundated-photo-provided-eglin-air-24055659.jpg?w%3D572",
-            "source": "nypost"
-        },
-        {
-            "title": "Tarot Horoscope Today for October 15, 2026: Small steps, honest choices and patience may lead you towards meaningful progress",
-            "severity": "HIGH",
-            "url": "https://www.hindustantimes.com/astrology/horoscope/tarot-horoscope-today-for-october-15-2026-small-steps-honest-choices-and-patience-may-lead-you-towards-meaningful-progress-101791983848609.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/10/14/1600x900/logo/Tarot_1791984606803_hD8F_1791984607102_Djmr_54243c1f-d77f-4308-9d48-23f23c4c1650_DSiF.jpeg",
+            "title": "Pakistan defence minister Khawaja Asif's AI post on Marilyn Monroe sparks propriety debate",
+            "severity": "MEDIUM",
+            "url": "https://www.hindustantimes.com/trending/pakistan-defence-minister-khawaja-asif-marilyn-monroe-ai-post-sparks-propriety-debate-101792054232698.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/10/15/1600x900/logo/Pakistan_Defense_Minister_1792054633549_NgB4_1792054633685_YdhA_1d3f9597-8c53-46d0-bb8f-ced168eb0179_uWdA.png",
             "source": "hindustantimes"
         },
         {
-            "title": "Houthis Claim Major Capture as Reports Name 47 Pakistani Soldiers | What We Know",
-            "severity": "HIGH",
-            "url": "https://www.moneycontrol.com/world/houthis-claim-major-capture-as-reports-name-47-pakistani-soldiers-what-we-know-videoshow-14052658.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/10/20261015043114_Pak-soldiers-378x213.jpg",
-            "source": "moneycontrol"
+            "title": "Durga Puja 2026: 6 Beautiful Pandals In Mumbai That You Should Not Miss",
+            "severity": "WATCH",
+            "url": "https://www.timesnownews.com/travel/durga-puja-2026-6-beautiful-pandals-in-mumbai-that-you-should-not-miss-article-156344197",
+            "image": "https://images.timesnownews.com/thumb/msid-156344197,thumbsize-216464,width-1280,height-720,resizemode-75/156344197.jpg",
+            "source": "timesnownews"
         },
         {
-            "title": "Oil prices retreat as investors weigh supply outlook, West Asia tensions",
-            "severity": "HIGH",
-            "url": "https://www.thehindu.com/business/oil-prices-dip-as-supply-risks-from-west-asia-tensions-clash/article71586615.ece",
-            "image": "https://th-i.thgim.com/public/news/national/y59rnj/article71586627.ece/alternates/FREE_1200/iStock-2200761999.jpg",
-            "source": "thehindu"
+            "title": "India To Remain World\u2019s Fastest-Growing Large Economy For Next 20-25 Years: Piyush Goyal",
+            "severity": "WATCH",
+            "url": "https://ommcomnews.com/india-news/india-to-remain-worlds-fastest-growing-large-economy-for-next-20-25-years-piyush-goyal/",
+            "image": "https://ommcomnews.com/wp-content/uploads/2026/10/New-Project-2026-10-10T213121.295.jpg",
+            "source": "ommcomnews"
         },
         {
-            "title": "The Ukrainian T-shaped Radio Telescope is getting a glow-up after getting caught in a war zone - Astrobites",
-            "severity": "HIGH",
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRDBtYzRsZWlIdTd2QTZjTTFNRkpvaFVYVUxqcDJhRm5CR3FSV3BaQ3RVc1hyZXU4eDZ5OXJtNE84bTNxeVgycGc0MFgzSFpwcUJnYmZsUEUwSGsxejY3MGRXVTNPQm1iV2Q2UEwyNEJLQm9JME9tVmpleC1SR0ZGbg?oc=5",
-            "image": "https://images.pexels.com/photos/27047492/pexels-photo-27047492.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "google"
+            "title": "Meet Neha Bora, Activist and Face of India\u2019s Young Protesters",
+            "severity": "WATCH",
+            "url": "https://www.nytimes.com/2026/10/15/world/asia/india-student-leader-neha.html",
+            "image": "https://static01.nyt.com/images/2026/10/14/multimedia/00int-india-activist-02-bctw/00int-india-activist-02-bctw-mediumSquareAt3X.jpg",
+            "source": "nytimes"
         },
         {
-            "title": "Centre, Delhi Police Defend Oct 10 CJP Protest Crackdown In SC, Cite Party\u2019s History Of Mob Violence",
-            "severity": "HIGH",
-            "url": "https://news.abplive.com/news/india/cjp-protest-crackdown-centre-delhi-police-defend-oct-10-move-supreme-court-cite-party-history-of-mob-violence-1871487",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/09/11/62994445bd8315c3ae83ef1917b4b9f617891417465541324_original.png",
-            "source": "abplive"
+            "title": "Artist Stages \"Pushing Up Daisies - A Zombie Show\" At Newtown Gallery",
+            "severity": "WATCH",
+            "url": "https://patch.com/pennsylvania/newtown-pa/artist-showcases-pushing-daisies-zombie-show-newtown-gallery",
+            "image": "https://patch.com/img/cdn20/users/26019821/20261015/050518/styles/patch_image/public/newtown-countryside-gallery___15050231097.jpg",
+            "source": "patch"
         },
         {
-            "title": "Angry over potato curry for dinner, man attacks wife with stone, bites her multiple times; Flees after assault",
-            "severity": "HIGH",
-            "url": "https://www.india.com/news/india/angry-over-potato-curry-for-dinner-man-attacks-wife-with-stone-bites-her-multiple-times-flees-after-assault-domampur-village-chauri-police-8536194/",
-            "image": "https://images.pexels.com/photos/479356/pexels-photo-479356.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "india"
+            "title": "First diesel supplies to US possible in at least 2-3 weeks \u2014 Novak",
+            "severity": "WATCH",
+            "url": "https://tass.com/economy/2202365",
+            "image": "https://cdn-media.tass.ru/width/1200_4ce85301/tass/m2/en/uploads/i/20261015/1489901.jpg",
+            "source": "tass"
         },
         {
-            "title": "Angry over potato curry, UP man bites wife and attacks her with stone",
-            "severity": "HIGH",
-            "url": "https://timesofindia.indiatimes.com/city/kanpur/angry-over-potato-curry-up-man-bites-wife-and-attacks-her-with-stone/articleshow/134957233.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-72,width-1280,height-720,msid-134957378/134957378.jpg",
+            "title": "5 Sci-Fi Movies That Tried to Be the Next Alien & Failed Miserably (Including One With 2 Marvel Stars)",
+            "severity": "WATCH",
+            "url": "https://comicbook.com/movies/list/5-sci-fi-movies-that-tried-to-be-the-next-alien-failed-miserably-including-one-with-2-marvel-stars/",
+            "image": "https://comicbook.com/wp-content/uploads/sites/4/2026/10/alien-1979-sigourney-weaver.jpg",
+            "source": "comicbook"
+        },
+        {
+            "title": "Sunnybrook Announces the Marg Gillespie Precision Oncology Centre to Advance Personalized Cancer Care",
+            "severity": "WATCH",
+            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/sunnybrook-announces-the-marg-gillespie-precision-oncology-centre-to-advance-personalized-cancer-care",
+            "image": "https://images.pexels.com/photos/7580765/pexels-photo-7580765.jpeg?auto=compress&cs=tinysrgb&h=350",
+            "source": "financialpost"
+        },
+        {
+            "title": "Newsmax Anchor Floats Extreme, Graphic New Twist For Livestreaming Execution",
+            "severity": "WATCH",
+            "url": "https://www.huffpost.com/entry/newsmax-anchor-on-execution_n_6ad06a35e4b0f62da445dc29",
+            "image": "https://img.huffingtonpost.com/asset/6ad095e6270000f1ac989b16.jpeg?cache=I1onQj94x6&ops=1778_1000",
+            "source": "huffpost"
+        },
+        {
+            "title": "World\u2019s most valuable memory chip maker to US: Accept this 'China condition' if you want us to build factories in America",
+            "severity": "WATCH",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/worlds-most-valuable-memory-chip-maker-to-us-accept-this-china-condition-if-you-want-us-to-build-factories-in-america/articleshow/134962752.cms",
+            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134962769/134962769.jpg",
             "source": "toi"
         },
         {
-            "title": "Oil falls as investors assess Mideast tensions, International Energy Agency's report",
-            "severity": "HIGH",
-            "url": "https://www.cnbc.com/2026/10/15/oil-prices-today-brent-wti.html",
-            "image": "https://image.cnbcfm.com/api/v1/image/108408373-1791980481925-gettyimages-2299514268-AFP_D3722EW.jpeg?v=1791980526&w=1200&h=675",
-            "source": "cnbc"
-        },
-        {
-            "title": "Asian markets sell off after US inflation fuels rate hike bets",
+            "title": "Telefonaktiebolaget L M Q3 2026 Earnings Call: Complete Transcript",
             "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/business/asian-markets-sell-us-inflation-rate-hike-kospi-nikkei-6460916",
-            "image": "https://dam.mediacorp.sg/image/upload/s--kYQmW34H--/c_crop,h_1125,w_2000,x_0,y_1/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/15/2026-10-15t022559z_962052068_rc2d3oa98mht_rtrmadp_3_southkorea-markets.jpg?itok=e2Dtxxt0",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "ValuEngine Energy Sector Analysis",
-            "severity": "WATCH",
-            "url": "https://seekingalpha.com/article/4954298-valuengine-energy-sector-analysis",
-            "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2266027170/image_2266027170.jpg?io=getty-c-w1280",
-            "source": "seekingalpha"
-        },
-        {
-            "title": "Contact Energy opens South Island\u2019s biggest solar farm at Christchurch Airport",
-            "severity": "WATCH",
-            "url": "https://www.nzherald.co.nz/business/companies/energy/contact-energy-opens-south-islands-biggest-solar-farm-at-christchurch-airport/premium/N5JAIBJEFRHJ3M2DUEL42DZYEY/",
-            "image": "https://www.nzherald.co.nz/resizer/v2/IW57QVNL7RFOHPBAE43ZEVNFSE.jpg?auth=9d9e5dd1ebd0f4a293add4188cee6f039a4f4c0d3a55bf43e68167ee6dadc3e8&smart=true&width=300&height=300",
-            "source": "nzherald"
-        },
-        {
-            "title": "Sigenergy Opens a New Chapter in Sri Lanka with Smart Energy Solutions",
-            "severity": "WATCH",
-            "url": "https://www.globenewswire.com/news-release/2026/10/15/3381264/0/en/sigenergy-opens-a-new-chapter-in-sri-lanka-with-smart-energy-solutions.html",
-            "image": "https://images.pexels.com/photos/9417514/pexels-photo-9417514.jpeg?auto=compress&cs=tinysrgb&h=350",
-            "source": "globenewswire"
-        },
-        {
-            "title": "North Korea Tests Two Types of Submarine-Launched Strategic Cruise Missiles",
-            "severity": "WATCH",
-            "url": "https://sputniknews.in/20261015/12586996.html",
-            "image": "https://cdn1.img.sputniknews.in/images/sharing/article/eng/12586996.jpg?125869971792040613",
-            "source": "sputniknews"
-        },
-        {
-            "title": "Japan denies spying after Russia arrests journalist",
-            "severity": "WATCH",
-            "url": "https://www.channelnewsasia.com/east-asia/japan-denies-spying-russia-journalist-arrest-6459186",
-            "image": "https://dam.mediacorp.sg/image/upload/s--Z-Vpuahl--/c_crop,h_576,w_1024,x_0,y_53/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/15/000_d3984nq.jpg?itok=DnNU4M3A",
-            "source": "channelnewsasia"
-        },
-        {
-            "title": "Original Avengers star reveals he won\u2019t be appearing in Doomsday: \u2018They didn\u2019t call me\u2019",
-            "severity": "WATCH",
-            "url": "https://www.independent.co.uk/arts-entertainment/films/news/avengers-doomsday-jeremy-renner-hawkeye-marvel-b3067118.html",
-            "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/04/11/08/hawkeye-720x405.jpg?width=1200&auto=webp&crop=3%3A2",
-            "source": "independentuk"
-        },
-        {
-            "title": "Major airline cancels all flights to 3 popular travel hotspots this year",
-            "severity": "WATCH",
-            "url": "https://www.express.co.uk/travel/articles/2257361/major-airline-cancels-all-flights",
-            "image": "https://cdn.images.express.co.uk/img/dynamic/25/237x141/2257361_1.jpg",
-            "source": "expresscouk"
-        },
-        {
-            "title": "Pope Leo XIV\u2019s cancer diagnosis raises questions about the future and the very recent past",
-            "severity": "WATCH",
-            "url": "https://www.bostonglobe.com/2026/10/15/world/pope-leo-xiv-cancer-diagnosis-future/",
-            "image": "https://bostonglobe-bostonglobe-prod.web.arc-cdn.net/resizer/v2/7DI7654KR5E73CR47RDLUJRNLE.jpg?auth=979081109756166423fbdc250a1ca0a7559f27a83435b94109fa231af61b6b75&smart=true&width=3501&height=2329",
-            "source": "bostonglobe"
-        },
-        {
-            "title": "Anthony Scaramucci Defends Elon Musk Over Ukraine Starshield Disruption, Says \u2018Questions Should Be Addressed to the Trump Admin\u2019",
-            "severity": "WATCH",
-            "url": "https://www.benzinga.com/news/space/26/10/62372442/anthony-scaramucci-defends-elon-musk-over-starshield-disruption-says-questions-should-be-addressed-to-the-trump-admin",
-            "image": "https://cdn.benzinga.com/files/images/story/2026/10/15/Paris--France---February-3--2026-A-Horiz.jpg?crop=600:400,smart&optimize=medium",
+            "url": "https://www.benzinga.com/news/26/10/62374195/telefonaktiebolaget-l-m-q3-2026-earnings-call-complete-transcript",
+            "image": "https://cdn.benzinga.com/files/images/story/2025/11/06/movers_2.jpg?crop=600:400,smart&optimize=medium",
             "source": "benzinga"
         },
         {
-            "title": "3 Arrested, Rs 1.5 Lakh Drugs: Telangana Police Busts Goa Narcotics Network",
+            "title": "Are you paying more than other shoppers? How to protect your wallet",
             "severity": "WATCH",
-            "url": "https://www.ndtv.com/telangana-news/3-arrested-rs-1-5-lakh-drugs-telangana-police-busts-goa-narcotics-network-12187802",
-            "image": "https://c.ndtvimg.com/2026-10/d83e2pbs_telangana-drug-trafficking-ndtv_625x300_15_October_26.jpg?im=FeatureCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
+            "url": "https://www.usatoday.com/story/money/retail/2026/10/15/surveillance-shopping-prices/92124063007/",
+            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/05/USAT/92109484007-20260611-t-175759-z-786806430-mt-1-usatoday-29174904-rtrmadp-3-digitalpricetagsarebeingintroducedinkrogerstores.JPG",
+            "source": "usatoday"
         },
         {
-            "title": "From homestays to holiday rentals: India\u2019s alternative accommodation market set to hit Rs 415 billion by FY29",
+            "title": "Samar town shifts to 4-day workweek amid Super El Ni\u00f1o",
             "severity": "WATCH",
-            "url": "https://www.moneycontrol.com/travel/from-homestays-to-holiday-rentals-indias-alternative-accommodation-market-set-to-hit-rs-415-billion-by-fy29-article-14052653.html",
-            "image": "https://images.moneycontrol.com/static-mcnews/2026/10/20261015043431_report.png",
-            "source": "moneycontrol"
+            "url": "https://newsinfo.inquirer.net/2324383/samar-town-shifts-to-4-day-workweek-amid-super-el-nino",
+            "image": "https://newsinfo.inquirer.net/files/2026/04/map-samar-300x157-1.jpg",
+            "source": "inquirer"
         },
         {
-            "title": "Con Edison\u2019s $300m Bronx substation disguised as rowhouses gets $47.3m upgrade",
+            "title": "Tonbo Imaging IPO fully subscribed on day 1; here's what brokerages suggest",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/us/in-2007-con-edison-unveiled-a-300-million-bronx-substation-disguised-to-read-like-a-rowhouse-street-it-houses-two-substations-delivering-900mw-and-a-47-3-million-capacity-upgrade-is-now-approved/articleshow/134945240.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134945391/134945391.jpg",
-            "source": "toi"
+            "url": "https://www.business-standard.com/markets/news/tonbo-imaging-ipo-fully-subscribed-on-day-1-here-s-what-brokerages-suggest-126101500650_1.html",
+            "image": "https://bsmedia.business-standard.com/_media/bs/img/article/default/1261015/full-126101500650.jpg",
+            "source": "business-standard"
         },
         {
-            "title": "New York townhouse hides subway ventilation shaft and emergency exit",
+            "title": "The West Needs a Pax Biologica",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/us/in-1907-new-yorks-subway-company-bought-an-1847-brooklyn-townhouse-and-gutted-it-more-than-a-century-later-the-restored-looking-faade-still-hides-a-ventilation-shaft-and-emergency-exit-for-the-tunnel-below/articleshow/134945400.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134945515/134945515.jpg",
-            "source": "toi"
+            "url": "https://foreignpolicy.com/2026/10/15/china-us-biomanufacturing-competition-industrial-policy/",
+            "image": "https://foreignpolicy.com/wp-content/uploads/2026/10/PaxBiologica-GettyImages-799612.jpg",
+            "source": "foreignpolicy"
         },
         {
-            "title": "Texas judge overturns reservoir permit that could flood over 16,000 ranch acres",
+            "title": "Bukit Panjang LRT renewal on track for completion by year-end",
             "severity": "WATCH",
-            "url": "https://timesofindia.indiatimes.com/world/us/texas-approved-a-reservoir-that-could-flood-more-than-16000-acres-of-ranchland-after-years-of-landowner-opposition-a-judge-has-overturned-the-permit-though-wichita-falls-can-still-appeal/articleshow/134946939.cms",
-            "image": "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-134946996/134946996.jpg",
-            "source": "toi"
+            "url": "https://www.channelnewsasia.com/singapore/bukit-panjang-lrt-disruption-upgrade-6461396",
+            "image": "https://dam.mediacorp.sg/image/upload/s--ykSeSVew--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/10/15/dsc_4645.jpg?itok=nznPzwAa",
+            "source": "channelnewsasia"
         },
         {
-            "title": "Belagavi-based Aequs announces long-term supply agreements with Safran for aerospace applications",
+            "title": "We have to reclaim our agency from the AI arms race | Opinion",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/business/belagavi-based-aequs-announces-long-term-supply-agreements-with-safran-for-aerospace-applications/article71583760.ece",
-            "image": "https://th-i.thgim.com/public/incoming/hxek31/article71586625.ece/alternates/FREE_1200/Aravind_4.jpg",
-            "source": "thehindu"
+            "url": "https://www.usatoday.com/story/opinion/2026/10/15/ai-china-america-trojan-horse-jobs-danger/92056530007/",
+            "image": "https://www.gannett-cdn.com/authoring/authoring-images/2026/10/13/USAT/92233656007-20260924-t-181805-z-724422816-rc-2-tpnadmxp-5-rtrmadp-3-usachina.JPG",
+            "source": "usatoday"
         },
         {
-            "title": "October 10 detainees provided \u2018hot, fresh, good meals\u2019, only cellular internet was suspended: Delhi Police to SC",
+            "title": "Timely, lawful measures averted major public order situation in capital: Delhi Police to Supreme Court",
             "severity": "WATCH",
-            "url": "https://www.thehindu.com/news/national/oct-10-detainees-provided-hot-fresh-good-meals-only-cellular-internet-was-suspended-delhi-police-to-sc/article71586610.ece",
-            "image": "https://th-i.thgim.com/public/incoming/p45aby/article71586640.ece/alternates/FREE_1200/6744_11_10_2026_16_20_12_1_A16_65155.JPEG",
-            "source": "thehindu"
+            "url": "https://www.deccanherald.com/india/timely-lawful-measures-averted-major-public-order-situation-in-capital-delhi-police-to-supreme-court-4183513",
+            "image": "https://media.assettype.com/deccanherald/2026-09-23/1wozpmar/iStock-1338812621.jpg?w=1200&h=675&auto=format%2Ccompress&fit=max&enlarge=true",
+            "source": "deccanherald"
         },
         {
-            "title": "Centre Apologises To SC For Internet Shutdown In Delhi, Seeks Nod For Ban In Emergencies",
+            "title": "Opinion: MyChart said I could opt out of sharing my health data. Figuring out how was maddening",
             "severity": "WATCH",
-            "url": "https://news.abplive.com/news/india/delhi-internet-shutdown-centre-apologises-to-supreme-court-seeks-nod-for-ban-in-emergencies-1871478",
-            "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2026/10/15/a6b50df64fc54631ff8e5fbfb18c54dc1792036627508355_original.jpg",
-            "source": "abplive"
+            "url": "https://www.statnews.com/2026/10/15/health-data-privacy-medical-record-opt-out-barriers-investigated/",
+            "image": "https://www.statnews.com/wp-content/uploads/2026/10/101326-OPT-OUT-GH-CM-1024x576.jpg",
+            "source": "statnews"
         },
         {
-            "title": "Musk points to Trump behind any slowdown in Ukraine's Starshield system",
+            "title": "Garda social media accounts posting about cryptocurrency after apparent hack",
             "severity": "WATCH",
-            "url": "https://www.euronews.com/2026/10/15/musk-points-to-trump-behind-any-slowdown-in-ukraines-starshield-system",
-            "image": "https://images.euronews.com/articles/stories/09/95/25/92/1440x810_cmsv2_f90d8c4a-22fb-527c-8ba0-d79917225e5f-9952592.jpg",
-            "source": "euronews"
+            "url": "https://www.irishtimes.com/crime-law/2026/10/15/garda-social-media-accounts-posting-about-cryptocurrency-after-apparent-hack/",
+            "image": "https://www.irishtimes.com/resizer/v2/NR7CMD5MDFB6DIO3BND5XTDYNU.png?auth=2dc960de954ba9a7c6002250c29328663140494644ef6f81b1643214963c3954&smart=true&width=630&height=350",
+            "source": "irishtimes"
         },
         {
-            "title": "NBA's Social Media Accounts Seemingly Got Hacked as Fan Provides Evidence",
+            "title": "India keeps Pernod Ricard in high spirits even as its top markets cut down on the cheers",
             "severity": "WATCH",
-            "url": "https://sports.yahoo.com/articles/nbas-social-media-accounts-seemingly-035531067.html",
-            "image": "https://s.yimg.com/lo/mysterio/api/ffac67f200aeb06b506f04b9cfa54a4727fd76a331245aa2ad30c47702d6807f/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fessentiallysports_articles_591%2F766278dd4365a621cef2230dc92a5fa7.jpg",
-            "source": "yahoo"
+            "url": "https://economictimes.indiatimes.com/industry/cons-products/liquor/india-keeps-pernod-ricard-in-high-spirits-even-as-its-top-markets-cut-down-on-the-cheers/articleshow/134961612.cms",
+            "image": "https://img.etimg.com/thumb/msid-134961785,resizemode-4,width-1200,height-900,imgsize-158402,overlay-economictimes/articleshow.jpg",
+            "source": "economictimes_indiatimes"
         },
         {
-            "title": "Congress reaches out to CJP through Prashant Bhushan after calling it an 'AAP proxy'",
+            "title": "CNBC Daily Open: Who controls the Strait of Hormuz?",
             "severity": "WATCH",
-            "url": "https://www.hindustantimes.com/india-news/congress-rahul-gandhi-cjp-abhijeet-dipke-protests-ec-gyanesh-kumar-101792035609770.html",
-            "image": "https://www.hindustantimes.com/ht-img/img/2026/10/15/1600x900/logo/rahul_gandhi_1792035680473_biLR_1792035680601_5qNG_a5536fba-8ebb-45d7-a8d9-433e37dba0c8_jfIA.jpg",
-            "source": "hindustantimes"
+            "url": "https://www.cnbc.com/2026/10/15/cnbc-daily-hormuz-iran-starlink-tsmc.html",
+            "image": "https://image.cnbcfm.com/api/v1/image/108408374-1791980486730-gettyimages-2299514328-AFP_D3722EV.jpeg?v=1791980526&w=1200&h=675",
+            "source": "cnbc"
         },
         {
-            "title": "Markets To Crash Before Diwali? Key Levels, Trends Investors Must Watch",
+            "title": "Supreme Court hears challenge of law clearing path for Ontario Place redevelopment",
             "severity": "WATCH",
-            "url": "https://www.ndtv.com/business-news/markets-to-crash-before-diwali-key-nifty-sensex-levels-trends-stock-market-investors-must-watch-12187520",
-            "image": "https://c.ndtvimg.com/2026-10/op7p5844_stock-market_625x300_07_October_26.jpg?im=FaceCrop,algorithm=dnn,width=1280,height=720",
-            "source": "ndtv"
+            "url": "https://www.thestar.com/news/canada/supreme-court-hears-challenge-of-law-clearing-path-for-ontario-place-redevelopment/article_3c393251-e116-512c-b2f3-eb6eecad17f3.html",
+            "image": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/assets/v3/editorial/d/e8/de824067-73ab-5ccd-9313-047b2d715c87/6ad089315c3de.image.jpg?resize=300%2C200",
+            "source": "thestar"
         }
     ],
-    "Last_Updated": "2026-10-15T16:42:32.317055Z"
+    "Last_Updated": "2026-10-15T21:10:22.734173Z"
 }
